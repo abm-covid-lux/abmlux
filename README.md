@@ -22,7 +22,7 @@ TBD
 
 ## Usage
 
- 1. DensityModel
+ 1. density\_model
  2. NetworkModel
  3. MarkovModel
  4. DensitySimulation
