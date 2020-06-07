@@ -12,6 +12,7 @@ from tqdm import tqdm
 
 from random_tools import multinoulli
 from agent import Agent
+from location import Location
 
 # Config
 random.seed(652)
@@ -63,14 +64,7 @@ for i in range(13):
     Typdist[i] = math.ceil(int(cntssheet.cell(row=i+1, column=2).value)*(N/Lux)) #Total number of each location
     
 M = sum(Typdist) #Total number of locations
-
-class Location:
-  def __init__(self, typ, coord):
-    self.typ = typ
-    self.coord = coord
-    
 L = [[0, [0,0]] for i in range(M)]
-
 LocationList = [[] for j in range(13)]
 
 #The total numbers of locations of each type are fixed deterministically:

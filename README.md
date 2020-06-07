@@ -28,7 +28,7 @@ TBD
  4. python3 density\_simulation.py
  5. python3 markov\_simulation.py    # FIXME: broken?
  6. python3 network\_simulation.py
- 7. ABM
+ 7. python3 abm.py
 
 
 
