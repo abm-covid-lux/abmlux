@@ -1,0 +1,18 @@
+
+/***********************************************************/
+/*                  Format Locations			   */
+/***********************************************************/
+
+0='home'
+1='other work'
+2='school'
+3='restaurant'
+4='outdoor'
+5='car'
+6='public transport'
+7='shop'
+8='medical'
+9='place of worship'
+10='indoor sport'
+11='cinema or theatre'
+12='museum or zoo'
