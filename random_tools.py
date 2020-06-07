@@ -1,4 +1,8 @@
 
+import random
+
+import numpy as np
+
 # TODO: document!
 def multinoulli(problist):
     p = random.randint(1,np.sum(problist))
