@@ -23,8 +23,8 @@ TBD
 ## Usage
 
  1. python3 density\_model.py
- 2. python3 network_model.py
- 3. MarkovModel
+ 2. python3 network\_model.py
+ 3. python3 markov\_model.py
  4. DensitySimulation
  5. MarkovSimulation
  6. NetworkSimulation
