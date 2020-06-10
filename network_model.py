@@ -9,60 +9,76 @@ import xlsxwriter
 import math
 import random
 from tqdm import tqdm
+import pandas as pd
 
 from random_tools import multinoulli
-from agent import Agent
+from agent import Agent, AgentType
 from location import Location
 
 # Config
-random.seed(652)
-N = 1000 #Population size
+random.seed(652)        # FIXME: read from config
+N                         = 1000 #Population size
 AGE_DISTRIBUTION_FILENAME = 'Data/Age_Distribution.xlsx'
+LOCATION_COUNT_FILENAME   = 'Data/Location_Counts.xlsx'
+DENSITY_MAP_FILENAME      = 'Density_Map/Density_Map.csv'
+MISC_PARAMETERS_FILENAME  = 'Data/Misc.xlsx'
 
+AGENT_OUTPUT_FILENAME = 'Agents/Agents.xlsx'
+LOCATION_OUTPUT_FILENAME = 'Locations/Locations.xlsx'
+
+POPULATION_SLICES = {
+        AgentType.CHILD: slice(None, 18),   # Children <18
+        AgentType.ADULT: slice(18, 65),     # Adults 18-65
+        AgentType.RETIRED: slice(65, None)  # Retired >65
+    }
+
+# ------------------------------------------------[ Agents ]------------------------------------
 print('Initializing agents...')
-ageworkbook = load_workbook(filename=AGE_DISTRIBUTION_FILENAME)
-agesheet = ageworkbook.active
+ages = pd.read_excel(AGE_DISTRIBUTION_FILENAME)
 
-#The maxium age recorded in the data is 96:
-# TODO: detect max automatically
-Agedist_Lux = [0 for i in range(96)]
-for i in range(96):
-    Agedist_Lux[i] = agesheet.cell(row=i+1, column=2).value
+# Extract useful series from input data
+#
+# NOTE: this makes the assumption that the ages run from 0-max without
+#       any gaps.  TODO: check this on data load and throw errors
+pop_by_age       = ages['population']
+total_population = pop_by_age.sum()
+pop_normalised   = pop_by_age / total_population
 
-Lux = sum(Agedist_Lux) #Total population of Luxembourg
-    
-Agetypdist = [0 for i in range(3)]
+# How many agents per agent type
+pop_by_agent_type = {atype: math.ceil(N * sum(pop_normalised[slce]))
+                     for atype, slce in POPULATION_SLICES.items()}
+print(f"Agent count by type: {pop_by_agent_type}")
 
-Agetypdist[0] = math.ceil(N*(sum(Agedist_Lux[:18])/Lux)) #Total number of children
-Agetypdist[1] = math.ceil(N*(sum(Agedist_Lux[18:65])/Lux)) #Total number of adults
-Agetypdist[2] = N - sum(Agetypdist[:2]) #Total number of retired individuals
+# The total numbers of children, adults and retired individuals are fixed deterministically, while the
+# exact age of individuals within each group is determined randomly.
+print(f"Constructing agents...")
+agents = []
+agents_by_type = {atype: [] for atype, _ in POPULATION_SLICES.items()}
+for atype, slce in POPULATION_SLICES.items():
+    print(f" - {atype.name}...")
+    for i in tqdm(range(pop_by_agent_type[atype])):
+        new_agent = Agent(atype, multinoulli(pop_by_age[slce]))
+        agents.append(new_agent)
+        agents_by_type[atype].append(new_agent)
 
-P = [[0, 0] for i in range(N)]
+# FIXME: Note that later on in the logic, agents are looked up by their offset in the 'agents' list
+#        to infer their type.  They should use agents_by_type instead to prevent this fragile lookup.
 
-#The total numbers of children, adults and retired individuals are fixed deterministically, while the
-#exact age of individuals within each group is determined randomly:
-
-for i in range(Agetypdist[0]):
-    P[i] = Agent(0,multinoulli(np.array(Agedist_Lux[:18])))
-for i in range(Agetypdist[0],Agetypdist[0]+Agetypdist[1]):
-    P[i] = Agent(1,18 + multinoulli(np.array(Agedist_Lux[18:65])))
-for i in range(Agetypdist[0]+Agetypdist[1],N):
-    P[i] = Agent(2,65 + multinoulli(np.array(Agedist_Lux[65:96])))
-
+# ------------------------------------------------[ Locations ]------------------------------------
 
 print('Initializing locations...')
 #A total of 13 locations are considered, as described in the file FormatLocations. The list is simila
 #r to the list of activities, except the activity 'other house' does not require a separate listing a
 #nd the location 'other work' refers to places of work not already listed as locations.
 
-cntsworkbook = load_workbook(filename='Data/Location_Counts.xlsx')
+cntsworkbook = load_workbook(filename=LOCATION_COUNT_FILENAME)
 cntssheet = cntsworkbook.active
 
 Typdist = [0 for i in range(13)]
 
 for i in range(13):
-    Typdist[i] = math.ceil(int(cntssheet.cell(row=i+1, column=2).value)*(N/Lux)) #Total number of each location
-    
+    Typdist[i] = math.ceil(int(cntssheet.cell(row=i+1, column=2).value)*(N/total_population)) #Total number of each location
+
 M = sum(Typdist) #Total number of locations
 L = [[0, [0,0]] for i in range(M)]
 LocationList = [[] for j in range(13)]
@@ -75,15 +91,15 @@ for j in range(13):
         L[i] = Location(j,[0,0])
         LocationList[j].append(i)
         i = i + 1
-        
+
 #The density matrix contructed by the file DensityModel is now loaded:
-        
-D = np.genfromtxt('Density_Map/Density_Map.csv', delimiter=',', dtype = 'int')
+
+density = np.genfromtxt(DENSITY_MAP_FILENAME, delimiter=',', dtype = 'int')
 
 ymarginals = []
 
 for y in range(82):
-    ymarginals.append(np.sum(np.array(D[y])))
+    ymarginals.append(np.sum(np.array(density[y])))
 
 #Spatial coordinates are assigned according to the density matrix D. In particular, the 1 km x 1 km
 #grid square is determined by randomizing with respect to D after which the precise location is ran
@@ -92,7 +108,7 @@ for y in range(82):
 for j in range(13):
     for i in LocationList[j]:
         gridsquare_y = multinoulli(np.array(ymarginals))
-        gridsquare_x = multinoulli(np.array(D[gridsquare_y]))
+        gridsquare_x = multinoulli(np.array(density[gridsquare_y]))
         y = random.randrange(1000)
         x = random.randrange(1000)
         L[i].coord = [(1000*gridsquare_x)+x,(1000*gridsquare_y)+y]
@@ -102,7 +118,7 @@ for j in range(13):
 
 for i in LocationList[5]:
     gridsquare_y = multinoulli(np.array(ymarginals))
-    gridsquare_x = multinoulli(np.array(D[gridsquare_y]))
+    gridsquare_x = multinoulli(np.array(density[gridsquare_y]))
     y = random.randrange(1000)
     x = random.randrange(1000)
     L[i].coord = L[i - LocationList[5][0]].coord
@@ -123,13 +139,15 @@ sqdist = np.array([[maxsqdist for j in range(M)] for i in range(M)])
 #The remaining code consists of three parts. First, the assignment of houses. Second, the assignmen
 #t of other locations. Third, the saving of the data.
 
-#--------Assigning houses--------
 
+
+
+
+#--------Assigning houses--------
 who = [[] for j in range(Typdist[0])] #A list of who lives in each house
 
 #Assigning children according to Luxembourgish data:
-
-miscworkbook = load_workbook(filename='Data/Misc.xlsx')
+miscworkbook = load_workbook(filename=MISC_PARAMETERS_FILENAME)
 miscsheet = miscworkbook.active
 
 c1 = miscsheet.cell(row=1, column=1).value
@@ -137,10 +155,9 @@ c2 = miscsheet.cell(row=2, column=1).value
 c3 = miscsheet.cell(row=3, column=1).value
 
 #Note that '3 or more children' will be considered '3 children' for simplicity.
-
-n3 = math.floor(Agetypdist[0]*c3/(c1+2*c2+3*c3)) #Number of houses with three children
-n2 = math.floor(Agetypdist[0]*c2/(c1+2*c2+3*c3)) #Number of houses with two children
-n1 = Agetypdist[0] - 2*n2 - 3*n3 #Number of houses with one child
+n3 = math.floor(pop_by_agent_type[AgentType.CHILD]*c3/(c1+2*c2+3*c3)) #Number of houses with three children
+n2 = math.floor(pop_by_agent_type[AgentType.CHILD]*c2/(c1+2*c2+3*c3)) #Number of houses with two children
+n1 = pop_by_agent_type[AgentType.CHILD] - 2*n2 - 3*n3 #Number of houses with one child
 ntot = n1 + n2 + n3 #Number of houses containing children
 
 i = 0
@@ -159,18 +176,17 @@ for j in range(n3,n3+n2):
     who[j].append(i+1)
     i = i + 2
 j = n3+n2
-for k in range(i,Agetypdist[0]):
+for k in range(i,pop_by_agent_type[AgentType.CHILD]):
     LocationListAgent[k][0].append(j)
     who[j].append(i)
     j = j + 1
 
 #Now adults are assigned to each house containing at least one child. The number of adults, which i
 #s either 1 or 2, is determined randomly according to Luxembourgish data:
-
 p1 = miscsheet.cell(row=5, column=1).value
 p2 = miscsheet.cell(row=6, column=1).value
 
-i = Agetypdist[0]
+i = pop_by_agent_type[AgentType.CHILD]
 for j in range(ntot):
     numberofadults = multinoulli(np.array([p1,p2]))
     if (numberofadults == 0):
@@ -186,7 +202,6 @@ for j in range(ntot):
 
 #Now all remaining individuals are randomly assigned to unoccupied houses, which it should be noted
 #permits the possibility of empty houses;
-
 for k in range(i,N):
     p = random.randrange(ntot,Typdist[0])
     LocationListAgent[k][0].append(p)
@@ -197,9 +212,7 @@ for k in range(i,N):
 #The assignment of individuals to workplaces is currently random. Note that the total list of work
 #environments consists of the 'other work' locations plus all the other locations, except for house
 #s, cars and the outdoors:
-
 totalworklocations = []
-
 for k in [1,2,3,6,7,8,9,10,11,12]:
     totalworklocations = totalworklocations + LocationList[k]
 
@@ -208,9 +221,7 @@ for i in range(N):
 
 #For each individual, a number of distinct homes, not including the individual's own home, are rand
 #omly selected so that the individual is able to visit them:
-
 maxtype = miscsheet.cell(row=8, column=1).value
-
 for i in range(N):
     List = LocationList[0][:]
     List.remove(LocationListAgent[i][0][0])
@@ -221,7 +232,6 @@ for i in range(N):
 
 #For each individual, a number of distinct restaurants, shops, units of public, cinemas or theatres
 #and museums or zoos are randomly selected for the individual to visit or use:
-    
 for k in [3,6,7,11,12]:
     for i in range(N):
         List = LocationList[k][:]
@@ -258,37 +268,33 @@ for k in [2,8,9,10]:
     sqdist = np.array([ [ maxsqdist for j in range(M) ] for i in range(M)])
 
 #The outdoors is treated as a single environment in which zero disease transmission will occur:
-
 for i in range(N):
     LocationListAgent[i][4].append(LocationList[4][0])
-    
-#Each house is assigned a car:
 
+#Each house is assigned a car:
 for i in range(N):
     LocationListAgent[i][5].append(LocationList[5][LocationListAgent[i][0][0]])
 
 #--------Save data--------
-
-workbook = xlsxwriter.Workbook('Agents/Agents.xlsx')
+workbook = xlsxwriter.Workbook(AGENT_OUTPUT_FILENAME)
 worksheet = workbook.add_worksheet()
-
 for i in range(N):
     worksheet.write(i,0, i)
-    worksheet.write(i,1, P[i].agetyp)
-    worksheet.write(i,2, P[i].age)
+    worksheet.write(i,1, agents[i].agetyp)
+    worksheet.write(i,2, agents[i].age)
     for k in range(14):
         worksheet.write(i,k+3,','.join(map(str, LocationListAgent[i][k])))
-    
+
 workbook.close()
 
-workbook = xlsxwriter.Workbook('Locations/Locations.xlsx')
-worksheet = workbook.add_worksheet()
 
+workbook = xlsxwriter.Workbook(LOCATION_OUTPUT_FILENAME)
+worksheet = workbook.add_worksheet()
 for j in range(M):
     worksheet.write(j,0,j)
     worksheet.write(j,1,L[j].typ)
     worksheet.write(j,2,','.join(map(str, L[j].coord)))
-    
+
 workbook.close()
 
 print('Done.')
