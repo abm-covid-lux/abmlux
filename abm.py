@@ -127,7 +127,11 @@ for week in tqdm(range(T)):
     for tenminute in range(7*144):
         t = week*7*144 + tenminute
         for j in range(M):
+
+            # Run through all the locations
             for i in L[j].who:
+
+                # Over individuals in that location at that time
                 if (H[0][i] == 1):
                     tenminsincubating[i] = tenminsincubating[i] + 1
                     if (tenminsincubating[i] < incubationperiod):
@@ -153,6 +157,9 @@ for week in tqdm(range(T)):
                     H[1][i] = 3
                 if (H[0][i] == 4):
                     H[1][i] = 4
+
+        # Update all the agents to change their activity/location
+        # (this is the markov chain)
         for i in range(N):
             H[0][i] = H[1][i]
             traj[1][i] = multinoulli(Trans[tenminute][P[i].agetyp][traj[0][i],:])
@@ -162,6 +169,7 @@ for week in tqdm(range(T)):
                 P[i].location = LocationListAgent[i][traj[1][i]][randloc]
                 L[P[i].location].who.append(i)
             traj[0][i] = traj[1][i]
+
     # print('Week', week+1, '/', T, 'complete')
 
 print('Deaths:', deaths)
