@@ -1,26 +1,23 @@
 #!/use/bin/env python3
 
 #DensityModel
-
 #This file generates a population density matrix using data collected by the GEOSTAT initiative. Note
 #that Luxembourg measures 57 km x 82 km.
-
-import math
 
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
 # Config
-INPUT_FILENAME = 'Data/JRC.xlsx'
+INPUT_FILENAME  = 'Data/JRC.xlsx'
 OUTPUT_FILENAME = 'Density_Map/Density_Map.csv'
-COUNTRY_CODE = "LU"
+COUNTRY_CODE    = "LU"
 
 # Load workbook
 print(f"Loading input data from {INPUT_FILENAME}...")
 jrc = pd.read_excel(INPUT_FILENAME)
 
-# Filter luxembourg-only rows and augment with integer grid coords
+# Filter this-country-only rows and augment with integer grid coords
 print(f"Filtering for country with code {COUNTRY_CODE}...")
 jrc = jrc[jrc["CNTR_CODE"] == COUNTRY_CODE]
 jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
