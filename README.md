@@ -22,13 +22,13 @@ TBD
 
 ## Usage
 
- 1. DensityModel
- 2. NetworkModel
- 3. MarkovModel
- 4. DensitySimulation
- 5. MarkovSimulation
- 6. NetworkSimulation
- 7. ABM
+ 1. python3 density\_model.py
+ 2. python3 network\_model.py
+ 3. python3 markov\_model.py
+ 4. python3 density\_simulation.py
+ 5. python3 markov\_simulation.py    # FIXME: broken?
+ 6. python3 network\_simulation.py
+ 7. python3 abm.py
 
 
 
