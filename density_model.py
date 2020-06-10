@@ -1,4 +1,4 @@
-#!/use/bin/env python3
+#!/usr/bin/env python3
 
 #DensityModel
 #This file generates a population density matrix using data collected by the GEOSTAT initiative. Note
