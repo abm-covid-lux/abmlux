@@ -17,7 +17,6 @@ random.seed(9001)
 
 OUTPUT_FILENAME = 'Results/MarkovSimulation_Results.xlsx'
 N = 1000 #Total population
-T = 10
 
 Init_adult = [0 for i in range(14)]
 Trans_adult = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
@@ -42,7 +41,7 @@ for i in range(N):
 t = 0
 for t in range(7*144):
     for i in range(N):
-        traj_adult[t+1][i] = multinoulli(Trans_adult[tenminute][traj_adult[t][i],:])
+        traj_adult[t+1][i] = multinoulli(Trans_adult[t][traj_adult[t][i],:])
 
 #The results are saved:
 workbook = xlsxwriter.Workbook(OUTPUT_FILENAME) 
