@@ -14,44 +14,35 @@ from tqdm import tqdm
 # Config
 INPUT_FILENAME = 'Data/JRC.xlsx'
 OUTPUT_FILENAME = 'Density_Map/Density_Map.csv'
-COORD_OFFSET = (4014, 2934)
-LUXEMBOURG_SIZE_KM = (57, 82)   # width, height
-LUXEMBOURG_COUNTRY_CODE = "LU"
-
-def parse_coordinates(coord_string, x_offset=0, y_offset=0):
-    """Parses a location (what format?),
-
-    returning X, Y coordinates within the space given.
-
-    e.g. 1kmN1621E6359"""
-
-    x = int(coord_string[9:13]) - x_offset
-    y = int(coord_string[4:8]) - y_offset
-
-    return x, y
-
+COUNTRY_CODE = "LU"
 
 # Load workbook
 print(f"Loading input data from {INPUT_FILENAME}...")
-#wgtworkbook = load_workbook(filename=INPUT_FILENAME)
-#wgtsheet = wgtworkbook.active
 jrc = pd.read_excel(INPUT_FILENAME)
 
-# Filter luxembourg-only rows
-jrc = jrc[jrc["CNTR_CODE"] == LUXEMBOURG_COUNTRY_CODE]
+# Filter luxembourg-only rows and augment with integer grid coords
+print(f"Filtering for country with code {COUNTRY_CODE}...")
+jrc = jrc[jrc["CNTR_CODE"] == COUNTRY_CODE]
+jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
+jrc['grid_y'] = pd.Series([int(x[4:8]) for x in jrc['GRD_ID']], index=jrc.index)
 
-# Iterate over each 1kmx1km location in the input data, reading
-# the location and population density for each.
-density = [[0 for x in range(LUXEMBOURG_SIZE_KM[0])]
-                for y in range(LUXEMBOURG_SIZE_KM[1])]
+country_width  = jrc['grid_x'].max() - jrc['grid_x'].min() + 1
+country_height = jrc['grid_y'].max() - jrc['grid_y'].min() + 1
+print(f"Country with code {COUNTRY_CODE} has {country_width}x{country_height}km of data")
+
+# Map the grid coordinates given onto a cartesian grid, each cell
+# of which represents the population density at that point
+print(f"Building density matrix...")
+density = [[0 for x in range(country_width)] for y in range(country_height)]
 for i, row in tqdm(jrc.iterrows(), total=jrc.shape[0]):
 
     # Read total population for this 1km chunk, \propto density
     location_density = row["TOT_P"]
-    x, y             = parse_coordinates(row["GRD_ID"], COORD_OFFSET[0], COORD_OFFSET[1])
+    x                = row['grid_x'] - jrc['grid_x'].min()
+    y                = row['grid_y'] - jrc['grid_y'].min()
 
     density[y][x] = location_density
 
 print(f"Saving output to {OUTPUT_FILENAME}...")
 np.savetxt(OUTPUT_FILENAME, density, fmt='%i', delimiter=',')
-print('Done.') 
+print('Done.')
