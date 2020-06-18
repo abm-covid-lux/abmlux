@@ -18,7 +18,7 @@ import pandas as pd
 from scipy.spatial import KDTree
 
 from random_tools import multinoulli, multinoulli_2d, multinoulli_dict
-from agent import Agent, AgentType
+from agent import Agent, AgentType, POPULATION_SLICES
 from location import Location
 from config import load_config
 
@@ -30,12 +30,6 @@ PARAMETERS_FILENAME    = 'Data/network_parameters.yaml'
 
 AGENT_OUTPUT_FILENAME    = "Agents/Agents.pickle"
 LOCATION_OUTPUT_FILENAME = 'Locations/Locations.pickle'
-
-POPULATION_SLICES = {
-        AgentType.CHILD: slice(None, 18),   # Children <18
-        AgentType.ADULT: slice(18, 65),     # Adults 18-65
-        AgentType.RETIRED: slice(65, None)  # Retired >65
-    }
 
 # ------------------------------------------------[ Config ]------------------------------------
 print(f"Loading config from {PARAMETERS_FILENAME}...")

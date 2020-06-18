@@ -2,12 +2,30 @@
 import uuid
 from enum import IntEnum
 
+
+
 class AgentType(IntEnum):
     """Represents a type for each agent."""
 
     CHILD   = 0
     ADULT   = 1
     RETIRED = 2
+
+
+# TODO: move to config
+POPULATION_SLICES = {
+        AgentType.CHILD: slice(None, 18),   # Children <18
+        AgentType.ADULT: slice(18, 65),     # Adults 18-65
+        AgentType.RETIRED: slice(65, None)  # Retired >65
+    }
+# TODO: de-duplicate
+POPULATION_RANGES = {
+        AgentType.CHILD: range(0, 18),   # Children <18
+        AgentType.ADULT: range(18, 65),     # Adults 18-65
+        AgentType.RETIRED: range(65, 10000)  # Retired >65
+    }
+
+
 
 
 class Agent:

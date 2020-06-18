@@ -23,6 +23,11 @@ from tqdm import tqdm
 
 from diary import DiaryDay, DiaryWeek, DayOfWeek
 from config import load_config
+# TODO: move to config
+from agent import AgentType, POPULATION_RANGES
+
+DAY_LENGTH_10MIN = 144
+WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
 INPUT_FILENAME      = 'Data/TUS_Processed_2.xlsx'
 PARAMETERS_FILENAME = 'Data/network_parameters.yaml'
@@ -36,6 +41,7 @@ config = load_config(PARAMETERS_FILENAME)
 # ---------------------------------------------------------------------------------------------------
 print(f"Loading time use data from {INPUT_FILENAME}...")
 # TODO: force pandas to read the numeric ID columns as factors or ints
+#       same for weights
 tus = pd.read_excel(INPUT_FILENAME)
 tus = tus.dropna()
 
@@ -131,7 +137,7 @@ def parse_days(tus, map_func):
         daily_routine = [end_activity] * start_time \
                       + flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
                                   for i, d in enumerate(durations)]) \
-                      + [end_activity] * (144 - sum(durations) - start_time)
+                      + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
 
         # Create the list entry
         day = DiaryDay(identity, age, day, weight, daily_routine)
@@ -147,8 +153,6 @@ print(f"Created {len(days)} days")
 # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
 #For each respondent there are now two daily routines; one for a week day and one for a weekend day. 
 #Copies of these routines are now concatenated so as to produce weekly routines, starting on Sunday.
-
-
 
 # ---------------------------------------------------------------------------------------------------
 print('Generating weekly routines...')
@@ -191,58 +195,76 @@ def create_weekly_routines(days):
 weeks = create_weekly_routines(days)
 print(f"Created {len(weeks)} weeks")
 
-import code; code.interact(local=locals())
 # ---------------------------------------------------------------------------------------------------
 #Now the statistical weights are used to construct the intial distributions and transition matrices:
 print('Generating weighted initial distributions...')
 
-numberofindividuals = len(tus['id_ind'].unique())
-Init_child = [0 for i in range(14)]
-Init_adult = [0 for i in range(14)]
-Init_retired = [0 for i in range(14)]
+# Weights for how many of each type of agent is performing each type of action
+# AgentType.CHILD: {Home: 23,
+#                   Other Work: 12},
+# AgentType.ADULT: {action: weight,
+#                   action2: weight2},
+#
+init_distribution_by_type = {typ: {activity: 0 for activity in config['tus_activity_mapping'].keys()}
+                   for typ in POPULATION_RANGES.keys()}
+for week in weeks:
+    for typ, rng in POPULATION_RANGES.items():
+        if week.age in rng:
+            init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
 
-for s in tqdm(range(numberofindividuals)):
-    if (weeks[s].age in range(10,18)):
-        Init_child[weeks[s].weekly_routine[0]] = Init_child[weeks[s].weekly_routine[0]] + weeks[s].weight
-    if (weeks[s].age in range(19,65)):
-        Init_adult[weeks[s].weekly_routine[0]] = Init_adult[weeks[s].weekly_routine[0]] + weeks[s].weight
-    if (weeks[s].age in range(65,76)):
-        Init_retired[weeks[s].weekly_routine[0]] = Init_retired[weeks[s].weekly_routine[0]] + weeks[s].weight
+# FIXME: change this to export all in one, or hand over some other way (pickles?)
+print(f"WARNING: not saving yet due to change in location coding (string!)")
+#np.savetxt('Initial_Distributions/Init_child.csv', init_distribution_by_type[AgentType.CHILD], fmt='%i', delimiter=',')
+#np.savetxt('Initial_Distributions/Init_adult.csv', init_distribution_by_type[AgentType.ADULT], fmt='%i', delimiter=',')
+#np.savetxt('Initial_Distributions/Init_retired.csv', init_distribution_by_type[AgentType.RETIRED], fmt='%i', delimiter=',')
 
-np.savetxt('Initial_Distributions/Init_child.csv', Init_child, fmt='%i', delimiter=',')
-np.savetxt('Initial_Distributions/Init_adult.csv', Init_adult, fmt='%i', delimiter=',')
-np.savetxt('Initial_Distributions/Init_retired.csv', Init_retired, fmt='%i', delimiter=',')
+
 
 print('Generating weighted transition matrices...')
-Trans_child = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
-Trans_adult = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
-Trans_retired = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
+# Activity -> activity transition matrix
+#
+# AgentType.CHILD: [[[activity, activity], [activity, activity]]]
+#
+#  - Each activity has a W[next activity]
+#  - Each 10 minute slice has a transition matrix between activities
+#  - Each agent type has one of those ^
+#
 
-#The transition matrices are now constructed, for all but the final ten minute interval:
+# TODO: simplify this structure.  It's far too hard to follow
+transition_matrix = {typ:
+                     [
+                      {x: {y: 0 for y in config['tus_activity_mapping'].keys()}
+                       for x in config['tus_activity_mapping'].keys()}
+                      for _ in range(WEEK_LENGTH_10MIN)]
+                     for typ in POPULATION_RANGES.keys()}
 
-for t in tqdm(range((7*144)-1)):
-    for s in range(numberofindividuals):
-        if (weeks[s].age in range(10,18)):
-            Trans_child[t][weeks[s].weekly_routine[t]][weeks[s].weekly_routine[t+1]] = Trans_child[t][weeks[s].weekly_routine[t]][weeks[s].weekly_routine[t+1]] + weeks[s].weight
-        if (weeks[s].age in range(19,65)):
-            Trans_adult[t][weeks[s].weekly_routine[t]][weeks[s].weekly_routine[t+1]] = Trans_adult[t][weeks[s].weekly_routine[t]][weeks[s].weekly_routine[t+1]] + weeks[s].weight
-        if (weeks[s].age in range(65,76)):
-            Trans_retired[t][weeks[s].weekly_routine[t]][weeks[s].weekly_routine[t+1]] = Trans_retired[t][weeks[s].weekly_routine[t]][weeks[s].weekly_routine[t+1]] + weeks[s].weight
-    np.savetxt('Transition_Matrices/Trans_child_' + str(t) + '.csv', Trans_child[t], fmt='%i', delimiter=',')
-    np.savetxt('Transition_Matrices/Trans_adult_' + str(t) + '.csv', Trans_adult[t], fmt='%i', delimiter=',')
-    np.savetxt('Transition_Matrices/Trans_retired_' + str(t) + '.csv', Trans_retired[t], fmt='%i', delimiter=',')
+# Do all but the last item, which should loop around
+for t in tqdm(range(WEEK_LENGTH_10MIN)):
+    for week in weeks:
+        for typ, rng in POPULATION_RANGES.items():
+            if week.age in rng:
 
-#The final transition matrix is constructed by looping the weekly routine back onto itself:
-    
-for s in tqdm(range(numberofindividuals)):
-    if (weeks[s].age in range(10,18)):
-        Trans_child[(7*144)-1][weeks[s].weekly_routine[(7*144)-1]][weeks[s].weekly_routine[0]] = Trans_child[(7*144)-1][weeks[s].weekly_routine[(7*144)-1]][weeks[s].weekly_routine[0]] + weeks[s].weight
-    if (weeks[s].age in range(19,65)):
-        Trans_adult[(7*144)-1][weeks[s].weekly_routine[(7*144)-1]][weeks[s].weekly_routine[0]] = Trans_adult[(7*144)-1][weeks[s].weekly_routine[(7*144)-1]][weeks[s].weekly_routine[0]] + weeks[s].weight
-    if (weeks[s].age in range(65,76)):
-        Trans_retired[(7*144)-1][weeks[s].weekly_routine[(7*144)-1]][weeks[s].weekly_routine[0]] = Trans_retired[(7*144)-1][weeks[s].weekly_routine[(7*144)-1]][weeks[s].weekly_routine[0]] + weeks[s].weight
-np.savetxt('Transition_Matrices/Trans_child_' + str((7*144)-1) + '.csv', Trans_child[t], fmt='%i', delimiter=',')
-np.savetxt('Transition_Matrices/Trans_adult_' + str((7*144)-1) + '.csv', Trans_adult[t], fmt='%i', delimiter=',')
-np.savetxt('Transition_Matrices/Trans_retired_' + str((7*144)-1) + '.csv', Trans_retired[t], fmt='%i', delimiter=',')
+                # Wrap around to zero to make the week
+                # one big loop
+                next_t = t+1 % WEEK_LENGTH_10MIN
+                if next_t == 0:
+                    print(f"-> {t}, {next_t}")
+
+                # Retrieve the activity transition
+                activity_from = week.weekly_routine[t]
+                activity_to   = week.weekly_routine[next_t]
+
+                transition_matrix[typ][t][activity_from][activity_to] += week.weight
+
+import code; code.interact(local=locals())
+
+
+# FIXME: save each matrix for all t, separately.
+print(f"WARNING: not saving yet due to change in location coding (string!)")
+# for t in range(WEEK_LENGTH_10MIN):
+#     np.savetxt('Transition_Matrices/Trans_child_' + str(t) + '.csv', Trans_child[t], fmt='%i', delimiter=',')
+#     np.savetxt('Transition_Matrices/Trans_adult_' + str(t) + '.csv', Trans_adult[t], fmt='%i', delimiter=',')
+#     np.savetxt('Transition_Matrices/Trans_retired_' + str(t) + '.csv', Trans_retired[t], fmt='%i', delimiter=',')
+
 
 print('Done.')
