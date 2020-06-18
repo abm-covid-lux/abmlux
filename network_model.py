@@ -24,7 +24,7 @@ from config import load_config
 
 # Config
 random.seed(652)        # FIXME: read from config
-PICKLE_RECURSION_LIMIT = 10000  # Allows export of highly nested data
+PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
 DENSITY_MAP_FILENAME   = 'Density_Map/Density_Map.csv'
 PARAMETERS_FILENAME    = 'Data/network_parameters.yaml'
 
