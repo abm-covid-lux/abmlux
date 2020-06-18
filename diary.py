@@ -45,6 +45,6 @@ class DiaryWeek:
         self.weekly_routine = weekly_routine
 
     def inspect(self):
-        return (f"<DiaryWeek {self.uuid}; identity={identity}, "
+        return (f"<DiaryWeek {self.uuid}; identity={self.identity}, "
                 f"age={self.age}, weight={self.weight}>")
 

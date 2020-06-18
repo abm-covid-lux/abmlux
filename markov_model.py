@@ -21,7 +21,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-from diary import DiaryDay, DiaryWeek
+from diary import DiaryDay, DiaryWeek, DayOfWeek
 from config import load_config
 
 INPUT_FILENAME      = 'Data/TUS_Processed_2.xlsx'
@@ -35,12 +35,9 @@ config = load_config(PARAMETERS_FILENAME)
 
 # ---------------------------------------------------------------------------------------------------
 print(f"Loading time use data from {INPUT_FILENAME}...")
+# TODO: force pandas to read the numeric ID columns as factors or ints
 tus = pd.read_excel(INPUT_FILENAME)
 tus = tus.dropna()
-
-# FIXME: remove this in favour of len(days)
-day_count = len(tus['id_jour'].unique())
-
 
 
 # ---------------------------------------------------------------------------------------------------
@@ -117,74 +114,67 @@ def parse_days(tus, map_func):
         days(list):A list of DiaryDay objects.
     """
 
-    # Iterate over pairs of rows
-    start_time   = tus.iloc[0]['heuredebmin']
-    current_day  = DiaryDay(tus.iloc[0]['id_ind'], tus.iloc[0]['age'], tus.iloc[0]['jours_f'], tus.iloc[0]['poids_ind'], [])
-    current_date = tus.iloc[0]['id_jour']
-    days         = [current_day]
-    for i in tqdm(range(0, tus.shape[0]-1, 2)):
-        row, row_next = tus.iloc[i], tus.iloc[i+1]
+    # TODO: put in a utilities lib.
+    def flatten(arr):
+        return [item for sublist in arr for item in sublist]
 
-        time_now  = row['heuredebmin']
-        time_next = row_next['heuredebmin']
+    days = []
+    for date in tqdm(tus['id_jour'].unique()):
+        tus_date  = tus.loc[tus['id_jour'] == date]
+        durations = [y-x for x, y in list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
 
-        # If the day or individual changes, create a new day
-        if current_date != row['id_jour']:
+        end_activity = map_func(tus_date.iloc[-1]['loc1_num_f'], tus_date.iloc[-1]['act1b_f'])
+        start_time = tus_date.iloc[0]['heuredebmin']
 
-            identity, age, day, weight = [row[x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
-            current_day = DiaryDay(identity, age, day, weight, [])
-            days.append(current_day)
-            current_date = row['id_jour']
+        # Build variables for object
+        identity, age, day, weight = [tus_date.iloc[0][x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
+        daily_routine = [end_activity] * start_time \
+                      + flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
+                                  for i, d in enumerate(durations)]) \
+                      + [end_activity] * (144 - sum(durations) - start_time)
 
-            # TODO: remove magic number
-            time_next = 144 + start_time
-
-        # Add to routine
-        activity = map_func(row['loc1_num_f'], row['act1b_f'])
-        for j in range(time_next - time_now):
-            # XXX: Note that this uses the same object over and over.  We can
-            #      get away with it for now since activities are immutable strings anyway.
-            current_day.daily_routine.append(activity)
+        # Create the list entry
+        day = DiaryDay(identity, age, day, weight, daily_routine)
+        days.append(day)
 
     return days
-
-
-
-
 
 
 map_func = get_tus_code_mapping(config['tus_activity_mapping'])
 days     = parse_days(tus, map_func)
 print(f"Created {len(days)} days")
 
+# print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
 #For each respondent there are now two daily routines; one for a week day and one for a weekend day. 
 #Copies of these routines are now concatenated so as to produce weekly routines, starting on Sunday.
 
 
-import code; code.interact(local=locals())
 
 # ---------------------------------------------------------------------------------------------------
 print('Generating weekly routines...')
 
 def create_weekly_routines(days):
-    # The format of the TUS data is such that each pair of daily diaries are listed consecutively,
-    # so for each person there are two rows, e.g:
-    #  - personA: weekend
-    #  - personA: weekday
-    #  - personB: weekend
-    #  - personB: weekday
-    # We don't know which way around these are, though.  This routine builds a week out of the
-    # weekday, repeated, plus the weekend.
+    """Create weekly routines for individuals, reading their daily routines
+    as example days
+
+    The format of the TUS data is such that each pair of daily diaries are listed consecutively,
+    so for each person there are two rows, e.g:
+     - personA: weekend
+     - personA: weekday
+     - personB: weekend
+     - personB: weekday
+    We don't know which way around these are, though.  This routine builds a week out of the
+    weekday, repeated, plus the weekend.
+    """
+
     weeks = []
     for i in range(0, len(days)-1, 2):
 
         # Make a bold assumption
         weekend, weekday = days[i], days[i+1]
 
-        print(f"-> {weekend.identity} == {weekday.identity}")
-
         # Swap if we were wrong
-        if weekday.day in [1,7]:
+        if weekday.day in [DayOfWeek.SUNDAY, DayOfWeek.SATURDAY]:
             weekday, weekend = weekend, weekday
 
         # Check the identity is the same
@@ -201,6 +191,7 @@ def create_weekly_routines(days):
 weeks = create_weekly_routines(days)
 print(f"Created {len(weeks)} weeks")
 
+import code; code.interact(local=locals())
 # ---------------------------------------------------------------------------------------------------
 #Now the statistical weights are used to construct the intial distributions and transition matrices:
 print('Generating weighted initial distributions...')
