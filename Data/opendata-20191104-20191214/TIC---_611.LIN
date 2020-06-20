@@ -1,0 +1,29 @@
+*F 03 2
+*Z 01625 TIC---                                             % 01625 TIC---
+*L 611      220201053 220402034  00705  00743               % 01625 TIC---
+*A ad 220201053 220402034 000002  00705  00743              % 01625 TIC---
+*R 1 220402034 220201053 220402034  00705  00743            % 01625 TIC---
+*G TIB 220201053 220402034  00705  00743                    % 01625 TIC---
+*A VE 220201053 220402034 000002  00705  00743              % 01625 TIC---
+*I FD 220201053 220402034        0001640  00705  00743      % 01625 TIC---
+220201053 Differdange, Schoul          00705                % 01625 TIC---
+220201003 Differdange, Arbed    00706  00706                % 01625 TIC---
+220201019 Differdange, Fousban  00707  00707                % 01625 TIC---
+220201054 Differdange, Seelebu  00708  00708                % 01625 TIC---
+220204006 Obercorn, Rousegaert  00709  00709                % 01625 TIC---
+220204005 Obercorn, Post        00710  00710                % 01625 TIC---
+220204003 Obercorn, Neiduerf    00711  00711                % 01625 TIC---
+221301022 Belvaux, Uewerkuerer  00713  00713                % 01625 TIC---
+221301006 Belvaux-Soleuvre, Ga  00713  00713                % 01625 TIC---
+221301007 Belvaux, Gemeng       00714  00714                % 01625 TIC---
+221301009 Belvaux, Henri Tudor  00715  00715                % 01625 TIC---
+221301016 Belvaux, Roudewee     00717  00717                % 01625 TIC---
+221301005 Belvaux, Brill        00719  00719                % 01625 TIC---
+220402079 Esch/Alzette, Raemer  00720  00720                % 01625 TIC---
+220402062 Esch/Alzette, Lycée   00724  00724                % 01625 TIC---
+220402022 Esch/Alzette, Cité V  00725  00725                % 01625 TIC---
+220402067 Esch/Alzette, Op Zae  00725  00725                % 01625 TIC---
+220402071 Esch/Alzette, Place   00726  00726                % 01625 TIC---
+220402060 Esch/Alzette, Lycée   00734  00734                % 01625 TIC---
+220402037 Esch/Alzette, E.P.M.  00739  00739                % 01625 TIC---
+220402034 Esch/Alzette, Gare    00743                       % 01625 TIC---
