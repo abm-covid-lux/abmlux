@@ -1,0 +1,87 @@
+*F 03 2
+*Z 01506 RGTR--                                             % 01506 RGTR--
+*L 421      160904007 180510001  01410  01445               % 01506 RGTR--
+*A al 160904007 180510001 000047  01410  01445              % 01506 RGTR--
+*A an 160904007 180510001 000047  01410  01445              % 01506 RGTR--
+*A ad 160904007 180510001 000047  01410  01445              % 01506 RGTR--
+*R 1 180510001 160904007 180510001  01410  01445            % 01506 RGTR--
+*G RGB 160904007 180510001  01410  01445                    % 01506 RGTR--
+*A VE 160904007 180510001 000047  01410  01445              % 01506 RGTR--
+*I FD 160904007 180510001        0002065  01410  01445      % 01506 RGTR--
+160904007 Mersch, Lycée Ermesi         01410                % 01506 RGTR--
+160902003 Mersch, Lohr          01413  01413                % 01506 RGTR--
+160902002 Rollingen, Fielserst  01414  01414                % 01506 RGTR--
+160910001 Mersch, Bënzert       01416  01416                % 01506 RGTR--
+160401001 Angelsberg, Paafenda  01418  01418                % 01506 RGTR--
+160601009 Larochette, Goudelt   01421  01421                % 01506 RGTR--
+160601004 Larochette, Hangelsb  01423  01423                % 01506 RGTR--
+160601002 Larochette, Boltgest  01424  01424                % 01506 RGTR--
+160601008 Larochette, Spuerkee  01425  01425                % 01506 RGTR--
+160601006 Larochette, Millewee  01425  01425                % 01506 RGTR--
+160501002 Heffingen, Centre     01428  01428                % 01506 RGTR--
+160501004 Heffingen, Thommes    01430  01430                % 01506 RGTR--
+180507001 Godbrange, Bei der K  01436  01436                % 01506 RGTR--
+180508008 Godbrange, Op der Ha  01437  01437                % 01506 RGTR--
+180501001 Altlinster            01439  01439                % 01506 RGTR--
+180504001 Bourglinster, Am Bri  01441  01441                % 01506 RGTR--
+180504002 Bourglinster, Am Due  01442  01442                % 01506 RGTR--
+180504003 Bourglinster, Buchho  01443  01443                % 01506 RGTR--
+180510001 Imbringen, Am Duerf   01445                       % 01506 RGTR--
+*Z 01507 RGTR--                                             % 01507 RGTR--
+*L 421      160904007 180510001  01630  01706               % 01507 RGTR--
+*A al 160904007 180510001 000099  01630  01706              % 01507 RGTR--
+*A an 160904007 180510001 000099  01630  01706              % 01507 RGTR--
+*A ad 160904007 180510001 000099  01630  01706              % 01507 RGTR--
+*R 1 180510001 160904007 180510001  01630  01706            % 01507 RGTR--
+*G RGB 160904007 180510001  01630  01706                    % 01507 RGTR--
+*A VE 160904007 180510001 000099  01630  01706              % 01507 RGTR--
+*I FD 160904007 180510001        0002082  01630  01706      % 01507 RGTR--
+160904007 Mersch, Lycée Ermesi         01630                % 01507 RGTR--
+160902003 Mersch, Lohr          01633  01633                % 01507 RGTR--
+160902002 Rollingen, Fielserst  01634  01634                % 01507 RGTR--
+160910001 Mersch, Bënzert       01636  01636                % 01507 RGTR--
+160401001 Angelsberg, Paafenda  01638  01638                % 01507 RGTR--
+160601009 Larochette, Goudelt   01641  01641                % 01507 RGTR--
+160601004 Larochette, Hangelsb  01643  01643                % 01507 RGTR--
+160601002 Larochette, Boltgest  01644  01644                % 01507 RGTR--
+160601008 Larochette, Spuerkee  01645  01645                % 01507 RGTR--
+160601006 Larochette, Millewee  01646  01646                % 01507 RGTR--
+160501002 Heffingen, Centre     01649  01649                % 01507 RGTR--
+160501004 Heffingen, Thommes    01650  01650                % 01507 RGTR--
+180507001 Godbrange, Bei der K  01656  01656                % 01507 RGTR--
+180508008 Godbrange, Op der Ha  01657  01657                % 01507 RGTR--
+180501001 Altlinster            01659  01659                % 01507 RGTR--
+180504001 Bourglinster, Am Bri  01702  01702                % 01507 RGTR--
+180504002 Bourglinster, Am Due  01703  01703                % 01507 RGTR--
+180504003 Bourglinster, Buchho  01704  01704                % 01507 RGTR--
+180510001 Imbringen, Am Duerf   01706                       % 01507 RGTR--
+*Z 01508 RGTR--                                             % 01508 RGTR--
+*L 421      180510001 160904007  00721  00754               % 01508 RGTR--
+*A al 180510001 160904007 000002  00721  00754              % 01508 RGTR--
+*A an 180510001 160904007 000002  00721  00754              % 01508 RGTR--
+*A KC 180510001 160904007 000002  00721  00754              % 01508 RGTR--
+*A KD 180510001 160904007 000002  00721  00754              % 01508 RGTR--
+*A ad 180510001 160904007 000002  00721  00754              % 01508 RGTR--
+*R 2 160904007 180510001 160904007  00721  00754            % 01508 RGTR--
+*G RGB 180510001 160904007  00721  00754                    % 01508 RGTR--
+*A VE 180510001 160904007 000002  00721  00754              % 01508 RGTR--
+*I FD 180510001 160904007        0002088  00721  00754      % 01508 RGTR--
+180510001 Imbringen, Am Duerf          00721                % 01508 RGTR--
+180504003 Bourglinster, Buchho  00723  00723                % 01508 RGTR--
+180504002 Bourglinster, Am Due  00723  00723                % 01508 RGTR--
+180504001 Bourglinster, Am Bri  00725  00725                % 01508 RGTR--
+180501001 Altlinster            00727  00727                % 01508 RGTR--
+180508008 Godbrange, Op der Ha  00729  00729                % 01508 RGTR--
+180507001 Godbrange, Bei der K  00730  00730                % 01508 RGTR--
+160501004 Heffingen, Thommes    00735  00735                % 01508 RGTR--
+160501002 Heffingen, Centre     00737  00737                % 01508 RGTR--
+160601006 Larochette, Millewee  00740  00740                % 01508 RGTR--
+160601008 Larochette, Spuerkee  00740  00740                % 01508 RGTR--
+160601002 Larochette, Boltgest  00742  00742                % 01508 RGTR--
+160601004 Larochette, Hangelsb  00742  00742                % 01508 RGTR--
+160601009 Larochette, Goudelt   00744  00744                % 01508 RGTR--
+160401001 Angelsberg, Paafenda  00747  00747                % 01508 RGTR--
+160910001 Mersch, Bënzert       00749  00749                % 01508 RGTR--
+160902002 Rollingen, Fielserst  00751  00751                % 01508 RGTR--
+160902003 Mersch, Lohr          00751  00751                % 01508 RGTR--
+160904007 Mersch, Lycée Ermesi  00754                       % 01508 RGTR--

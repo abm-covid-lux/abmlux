@@ -1,0 +1,111 @@
+*F 03 2
+*Z 09676 RGTR--                                             % 09676 RGTR--
+*L 337      160202002 190903015  00703  00759               % 09676 RGTR--
+*A al 160202002 190903015 000002  00703  00759              % 09676 RGTR--
+*A ag 160202002 190903015 000002  00703  00759              % 09676 RGTR--
+*A ad 160202002 190903015 000002  00703  00759              % 09676 RGTR--
+*R 1 190903015 160202002 190903015  00703  00759            % 09676 RGTR--
+*G RGB 160202002 190903015  00703  00759                    % 09676 RGTR--
+*A VE 160202002 190903015 000002  00703  00759              % 09676 RGTR--
+*I FD 160202002 190903015        0003073  00703  00759      % 09676 RGTR--
+160202002 Brouch/Mersch, Kloep         00703                % 09676 RGTR--
+160206001 Openthalt             00705  00705                % 09676 RGTR--
+160203002 Buschdorf, Helpërtwe  00707  00707                % 09676 RGTR--
+160203003 Buschdorf, Määschhaf  00708  00708                % 09676 RGTR--
+160203001 Buschdorf, Belle Vue  00709  00709                % 09676 RGTR--
+160202003 Brouch/Mersch, Knepp  00710  00710                % 09676 RGTR--
+160202001 Brouch/Mersch, Kierc  00712  00712                % 09676 RGTR--
+150704004 Saeul, Raiffeisen     00715  00715                % 09676 RGTR--
+161106004 Tuntange, Sëllerstro  00718  00718                % 09676 RGTR--
+161106001 Tuntange, Duerf       00720  00720                % 09676 RGTR--
+161106005 Tuntange, Weisserche  00720  00720                % 09676 RGTR--
+161102001 Bour                  00723  00723                % 09676 RGTR--
+191003001 Roodt/Bour, Bréck     00725  00725                % 09676 RGTR--
+191002002 Septfontaines, Simme  00726  00726                % 09676 RGTR--
+191002001 Septfontaines, Schou  00729  00729                % 09676 RGTR--
+191002003 Septfontaines, Op La  00732  00732                % 09676 RGTR--
+190703004 Koerich, SES          00732  00732                % 09676 RGTR--
+190703001 Koerich, Fuurt        00736  00736                % 09676 RGTR--
+190703002 Koerich, Gemeng       00737  00737                % 09676 RGTR--
+190703003 Koerich, Weidewee     00737  00737                % 09676 RGTR--
+190701001 Goeblange, Giewel     00739  00739                % 09676 RGTR--
+190702002 Goetzingen, Kreiz     00740  00740                % 09676 RGTR--
+190702001 Goetzingen, Kiirch    00741  00741                % 09676 RGTR--
+190704002 Windhof, Ecoparc      00745  00745                % 09676 RGTR--
+190704001 Wandhaff              00745  00745                % 09676 RGTR--
+190901005 Capellen, Ponts & Ch  00747  00747                % 09676 RGTR--
+190901003 Capellen, Klouschter  00749  00749                % 09676 RGTR--
+190901004 Capellen, Police      00750  00750                % 09676 RGTR--
+190901002 Capellen, Hireknapp   00751  00751                % 09676 RGTR--
+190903016 Mamer, Scoutshome     00752  00752                % 09676 RGTR--
+190903005 Mamer, Eglantiers     00753  00753                % 09676 RGTR--
+190903012 Mamer, Mambra         00754  00754                % 09676 RGTR--
+190903002 Mamer, Baerendall     00755  00755                % 09676 RGTR--
+190903001 Mamer, Arelerstrooss  00755  00755                % 09676 RGTR--
+190903007 Mamer, Gaaschtbierg   00756  00756                % 09676 RGTR--
+190903015 Mamer, Lycee (gare r  00759                       % 09676 RGTR--
+*Z 00143 RGTR--                                             % 00143 RGTR--
+*L 337      191002001 191003001  01348  01352               % 00143 RGTR--
+*A al 191002001 191003001 000002  01348  01352              % 00143 RGTR--
+*A ag 191002001 191003001 000002  01348  01352              % 00143 RGTR--
+*A ad 191002001 191003001 000002  01348  01352              % 00143 RGTR--
+*R 2 191003001 191002001 191003001  01348  01352            % 00143 RGTR--
+*G RGB 191002001 191003001  01348  01352                    % 00143 RGTR--
+*A VE 191002001 191003001 000002  01348  01352              % 00143 RGTR--
+*I FD 191002001 191003001        0003177  01348  01352      % 00143 RGTR--
+191002001 Septfontaines, Schou         01348                % 00143 RGTR--
+191002002 Septfontaines, Simme  01350  01350                % 00143 RGTR--
+191003001 Roodt/Bour, Bréck     01352                       % 00143 RGTR--
+*Z 00181 RGTR--                                             % 00181 RGTR--
+*L 337      191002001 191003001  01548  01552               % 00181 RGTR--
+*A al 191002001 191003001 000002  01548  01552              % 00181 RGTR--
+*A ag 191002001 191003001 000002  01548  01552              % 00181 RGTR--
+*A ad 191002001 191003001 000002  01548  01552              % 00181 RGTR--
+*R 2 191003001 191002001 191003001  01548  01552            % 00181 RGTR--
+*G RGB 191002001 191003001  01548  01552                    % 00181 RGTR--
+*A VE 191002001 191003001 000002  01548  01552              % 00181 RGTR--
+*I FD 191002001 191003001        0003180  01548  01552      % 00181 RGTR--
+191002001 Septfontaines, Schou         01548                % 00181 RGTR--
+191002002 Septfontaines, Simme  01550  01550                % 00181 RGTR--
+191003001 Roodt/Bour, Bréck     01552                       % 00181 RGTR--
+*Z 09677 RGTR--                                             % 09677 RGTR--
+*L 337      190903015 160202002  01430  01514               % 09677 RGTR--
+*A al 190903015 160202002 000002  01430  01514              % 09677 RGTR--
+*A ag 190903015 160202002 000002  01430  01514              % 09677 RGTR--
+*A GD 190903015 160202002 000002  01430  01514              % 09677 RGTR--
+*A ad 190903015 160202002 000002  01430  01514              % 09677 RGTR--
+*R 2 160202002 190903015 160202002  01430  01514            % 09677 RGTR--
+*G RGB 190903015 160202002  01430  01514                    % 09677 RGTR--
+*A VE 190903015 160202002 000002  01430  01514              % 09677 RGTR--
+*I FD 190903015 160202002        0002745  01430  01514      % 09677 RGTR--
+190903015 Mamer, Lycee (gare r         01430                % 09677 RGTR--
+190903007 Mamer, Gaaschtbierg   01432  01432                % 09677 RGTR--
+190903001 Mamer, Arelerstrooss  01432  01432                % 09677 RGTR--
+190903002 Mamer, Baerendall     01433  01433                % 09677 RGTR--
+190903012 Mamer, Mambra         01433  01433                % 09677 RGTR--
+190903005 Mamer, Eglantiers     01434  01434                % 09677 RGTR--
+190903016 Mamer, Scoutshome     01435  01435                % 09677 RGTR--
+190901002 Capellen, Hireknapp   01436  01436                % 09677 RGTR--
+190901004 Capellen, Police      01437  01437                % 09677 RGTR--
+190901003 Capellen, Klouschter  01438  01438                % 09677 RGTR--
+190901005 Capellen, Ponts & Ch  01439  01439                % 09677 RGTR--
+190704001 Wandhaff              01441  01441                % 09677 RGTR--
+190704002 Windhof, Ecoparc      01442  01442                % 09677 RGTR--
+190702001 Goetzingen, Kiirch    01445  01445                % 09677 RGTR--
+190702002 Goetzingen, Kreiz     01445  01445                % 09677 RGTR--
+190701001 Goeblange, Giewel     01447  01447                % 09677 RGTR--
+190703003 Koerich, Weidewee     01448  01448                % 09677 RGTR--
+190703002 Koerich, Gemeng       01449  01449                % 09677 RGTR--
+190703001 Koerich, Fuurt        01450  01450                % 09677 RGTR--
+190703004 Koerich, SES          01453  01453                % 09677 RGTR--
+191002003 Septfontaines, Op La  01454  01454                % 09677 RGTR--
+191002001 Septfontaines, Schou  01456  01456                % 09677 RGTR--
+191002002 Septfontaines, Simme  01459  01459                % 09677 RGTR--
+191003001 Roodt/Bour, Bréck     01501  01501                % 09677 RGTR--
+161102001 Bour                  01503  01503                % 09677 RGTR--
+161106005 Tuntange, Weisserche  01505  01505                % 09677 RGTR--
+161106001 Tuntange, Duerf       01506  01506                % 09677 RGTR--
+161106004 Tuntange, Sëllerstro  01507  01507                % 09677 RGTR--
+150704002 Saeul, Kiëm           01509  01509                % 09677 RGTR--
+160202001 Brouch/Mersch, Kierc  01512  01512                % 09677 RGTR--
+160202002 Brouch/Mersch, Kloep  01514                       % 09677 RGTR--
