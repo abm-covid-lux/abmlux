@@ -1,0 +1,1302 @@
+*F 03 2
+*Z 01661 RGTR--                                             % 01661 RGTR--
+*L 504      140701023 170802002  01204  01246               % 01661 RGTR--
+*A bf 140701023 170802002 000001  01204  01246              % 01661 RGTR--
+*R 1 170802002 140701023 170802002  01204  01246            % 01661 RGTR--
+*G RGB 140701023 170802002  01204  01246                    % 01661 RGTR--
+*A VE 140701023 170802002 000001  01204  01246              % 01661 RGTR--
+*I FD 140701023 170802002        0002147  01204  01246      % 01661 RGTR--
+140701023 Ettelbruck, Lycée Te         01204                % 01661 RGTR--
+140701016 Ettelbruck, Gare      01208  01208                % 01661 RGTR--
+140701026 Ettelbruck, Rond Poi  01211  01211                % 01661 RGTR--
+140701018 Ettelbruck, H.v.Land  01212  01212                % 01661 RGTR--
+141301002 Schieren, Faubourg    01213  01213                % 01661 RGTR--
+141301001 Schieren, Centre spo  01214  01214                % 01661 RGTR--
+140503002 Stegen, Eglise        01219  01219                % 01661 RGTR--
+140503001 Stegen, Bloen Eck     01220  01220                % 01661 RGTR--
+140502001 Ermsdorf, Buntewee    01225  01225                % 01661 RGTR--
+140502002 Ermsdorf              01226  01226                % 01661 RGTR--
+141001002 Medernach, Iermsdrëf  01228  01228                % 01661 RGTR--
+141001004 Medernach, Op der La  01230  01230                % 01661 RGTR--
+141001003 Medernach, Op der Ga  01231  01231                % 01661 RGTR--
+141001001 Medernach, Fondation  01232  01232                % 01661 RGTR--
+160601005 Larochette, Leedebac  01233  01233                % 01661 RGTR--
+160601001 Larochette, Bleech    01234  01234                % 01661 RGTR--
+160603001 Heffingen, Scherfemi  01236  01236                % 01661 RGTR--
+170801003 Christnach, Fielsers  01239  01239                % 01661 RGTR--
+170801002 Christnach, Schoulst  01240  01240                % 01661 RGTR--
+170804001 Waldbillig, Bëlleger  01241  01241                % 01661 RGTR--
+170804002 Waldbillig, Gemeng    01242  01242                % 01661 RGTR--
+170802001 Haller, Beim Basseng  01245  01245                % 01661 RGTR--
+170802002 Haller, Schoul        01246                       % 01661 RGTR--
+*Z 01662 RGTR--                                             % 01662 RGTR--
+*L 504      140701023 170802002  01315  01357               % 01662 RGTR--
+*A bf 140701023 170802002 000001  01315  01357              % 01662 RGTR--
+*A OV 140701023 170802002 000001  01315  01357              % 01662 RGTR--
+*R 1 170802002 140701023 170802002  01315  01357            % 01662 RGTR--
+*G RGB 140701023 170802002  01315  01357                    % 01662 RGTR--
+*A VE 140701023 170802002 000001  01315  01357              % 01662 RGTR--
+*I FD 140701023 170802002        0001737  01315  01357      % 01662 RGTR--
+140701023 Ettelbruck, Lycée Te         01315                % 01662 RGTR--
+140701016 Ettelbruck, Gare      01319  01319                % 01662 RGTR--
+140701026 Ettelbruck, Rond Poi  01322  01322                % 01662 RGTR--
+140701018 Ettelbruck, H.v.Land  01323  01323                % 01662 RGTR--
+141301002 Schieren, Faubourg    01324  01324                % 01662 RGTR--
+141301001 Schieren, Centre spo  01325  01325                % 01662 RGTR--
+140503002 Stegen, Eglise        01330  01330                % 01662 RGTR--
+140503001 Stegen, Bloen Eck     01331  01331                % 01662 RGTR--
+140502001 Ermsdorf, Buntewee    01336  01336                % 01662 RGTR--
+140502002 Ermsdorf              01337  01337                % 01662 RGTR--
+141001002 Medernach, Iermsdrëf  01339  01339                % 01662 RGTR--
+141001004 Medernach, Op der La  01341  01341                % 01662 RGTR--
+141001003 Medernach, Op der Ga  01342  01342                % 01662 RGTR--
+141001001 Medernach, Fondation  01343  01343                % 01662 RGTR--
+160601005 Larochette, Leedebac  01344  01344                % 01662 RGTR--
+160601001 Larochette, Bleech    01345  01345                % 01662 RGTR--
+160603001 Heffingen, Scherfemi  01347  01347                % 01662 RGTR--
+170801003 Christnach, Fielsers  01350  01350                % 01662 RGTR--
+170801002 Christnach, Schoulst  01351  01351                % 01662 RGTR--
+170804001 Waldbillig, Bëlleger  01352  01352                % 01662 RGTR--
+170804002 Waldbillig, Gemeng    01353  01353                % 01662 RGTR--
+170802001 Haller, Beim Basseng  01356  01356                % 01662 RGTR--
+170802002 Haller, Schoul        01357                       % 01662 RGTR--
+*Z 01663 RGTR--                                             % 01663 RGTR--
+*L 504      140701023 170802002  01415  01457               % 01663 RGTR--
+*A bf 140701023 170802002 000001  01415  01457              % 01663 RGTR--
+*A OV 140701023 170802002 000001  01415  01457              % 01663 RGTR--
+*R 1 170802002 140701023 170802002  01415  01457            % 01663 RGTR--
+*G RGB 140701023 170802002  01415  01457                    % 01663 RGTR--
+*A VE 140701023 170802002 000001  01415  01457              % 01663 RGTR--
+*I FD 140701023 170802002        0001735  01415  01457      % 01663 RGTR--
+140701023 Ettelbruck, Lycée Te         01415                % 01663 RGTR--
+140701016 Ettelbruck, Gare      01419  01419                % 01663 RGTR--
+140701026 Ettelbruck, Rond Poi  01422  01422                % 01663 RGTR--
+140701018 Ettelbruck, H.v.Land  01423  01423                % 01663 RGTR--
+141301002 Schieren, Faubourg    01424  01424                % 01663 RGTR--
+141301001 Schieren, Centre spo  01425  01425                % 01663 RGTR--
+140503002 Stegen, Eglise        01430  01430                % 01663 RGTR--
+140503001 Stegen, Bloen Eck     01431  01431                % 01663 RGTR--
+140502001 Ermsdorf, Buntewee    01436  01436                % 01663 RGTR--
+140502002 Ermsdorf              01437  01437                % 01663 RGTR--
+141001002 Medernach, Iermsdrëf  01439  01439                % 01663 RGTR--
+141001004 Medernach, Op der La  01441  01441                % 01663 RGTR--
+141001003 Medernach, Op der Ga  01442  01442                % 01663 RGTR--
+141001001 Medernach, Fondation  01443  01443                % 01663 RGTR--
+160601005 Larochette, Leedebac  01444  01444                % 01663 RGTR--
+160601001 Larochette, Bleech    01445  01445                % 01663 RGTR--
+160603001 Heffingen, Scherfemi  01447  01447                % 01663 RGTR--
+170801003 Christnach, Fielsers  01450  01450                % 01663 RGTR--
+170801002 Christnach, Schoulst  01451  01451                % 01663 RGTR--
+170804001 Waldbillig, Bëlleger  01452  01452                % 01663 RGTR--
+170804002 Waldbillig, Gemeng    01453  01453                % 01663 RGTR--
+170802001 Haller, Beim Basseng  01456  01456                % 01663 RGTR--
+170802002 Haller, Schoul        01457                       % 01663 RGTR--
+*Z 01664 RGTR--                                             % 01664 RGTR--
+*L 504      140701023 170802002  01515  01557               % 01664 RGTR--
+*A bf 140701023 170802002 000001  01515  01557              % 01664 RGTR--
+*A OV 140701023 170802002 000001  01515  01557              % 01664 RGTR--
+*A PD 140701023 170802002 000001  01515  01557              % 01664 RGTR--
+*R 1 170802002 140701023 170802002  01515  01557            % 01664 RGTR--
+*G RGB 140701023 170802002  01515  01557                    % 01664 RGTR--
+*A VE 140701023 170802002 000001  01515  01557              % 01664 RGTR--
+*I FD 140701023 170802002        0001738  01515  01557      % 01664 RGTR--
+140701023 Ettelbruck, Lycée Te         01515                % 01664 RGTR--
+140701016 Ettelbruck, Gare      01519  01519                % 01664 RGTR--
+140701026 Ettelbruck, Rond Poi  01522  01522                % 01664 RGTR--
+140701018 Ettelbruck, H.v.Land  01523  01523                % 01664 RGTR--
+141301002 Schieren, Faubourg    01524  01524                % 01664 RGTR--
+141301001 Schieren, Centre spo  01525  01525                % 01664 RGTR--
+140503002 Stegen, Eglise        01530  01530                % 01664 RGTR--
+140503001 Stegen, Bloen Eck     01531  01531                % 01664 RGTR--
+140502001 Ermsdorf, Buntewee    01536  01536                % 01664 RGTR--
+140502002 Ermsdorf              01537  01537                % 01664 RGTR--
+141001002 Medernach, Iermsdrëf  01539  01539                % 01664 RGTR--
+141001004 Medernach, Op der La  01541  01541                % 01664 RGTR--
+141001003 Medernach, Op der Ga  01542  01542                % 01664 RGTR--
+141001001 Medernach, Fondation  01543  01543                % 01664 RGTR--
+160601005 Larochette, Leedebac  01544  01544                % 01664 RGTR--
+160601001 Larochette, Bleech    01545  01545                % 01664 RGTR--
+160603001 Heffingen, Scherfemi  01547  01547                % 01664 RGTR--
+170801003 Christnach, Fielsers  01550  01550                % 01664 RGTR--
+170801002 Christnach, Schoulst  01551  01551                % 01664 RGTR--
+170804001 Waldbillig, Bëlleger  01552  01552                % 01664 RGTR--
+170804002 Waldbillig, Gemeng    01553  01553                % 01664 RGTR--
+170802001 Haller, Beim Basseng  01556  01556                % 01664 RGTR--
+170802002 Haller, Schoul        01557                       % 01664 RGTR--
+*Z 01665 RGTR--                                             % 01665 RGTR--
+*L 504      140701023 170802002  01614  01658               % 01665 RGTR--
+*A bf 140701023 170802002 000001  01614  01658              % 01665 RGTR--
+*A OV 140701023 170802002 000001  01614  01658              % 01665 RGTR--
+*R 1 170802002 140701023 170802002  01614  01658            % 01665 RGTR--
+*G RGB 140701023 170802002  01614  01658                    % 01665 RGTR--
+*A VE 140701023 170802002 000001  01614  01658              % 01665 RGTR--
+*I FD 140701023 170802002        0002577  01614  01658      % 01665 RGTR--
+140701023 Ettelbruck, Lycée Te         01614                % 01665 RGTR--
+140701016 Ettelbruck, Gare      01618  01618                % 01665 RGTR--
+140701026 Ettelbruck, Rond Poi  01622  01622                % 01665 RGTR--
+140701018 Ettelbruck, H.v.Land  01623  01623                % 01665 RGTR--
+141301002 Schieren, Faubourg    01624  01624                % 01665 RGTR--
+141301001 Schieren, Centre spo  01625  01625                % 01665 RGTR--
+140503002 Stegen, Eglise        01631  01631                % 01665 RGTR--
+140503001 Stegen, Bloen Eck     01632  01632                % 01665 RGTR--
+140502001 Ermsdorf, Buntewee    01637  01637                % 01665 RGTR--
+140502002 Ermsdorf              01638  01638                % 01665 RGTR--
+141001002 Medernach, Iermsdrëf  01640  01640                % 01665 RGTR--
+141001004 Medernach, Op der La  01641  01641                % 01665 RGTR--
+141001003 Medernach, Op der Ga  01643  01643                % 01665 RGTR--
+141001001 Medernach, Fondation  01643  01643                % 01665 RGTR--
+160601005 Larochette, Leedebac  01645  01645                % 01665 RGTR--
+160601001 Larochette, Bleech    01646  01646                % 01665 RGTR--
+160603001 Heffingen, Scherfemi  01648  01648                % 01665 RGTR--
+170801003 Christnach, Fielsers  01651  01651                % 01665 RGTR--
+170801002 Christnach, Schoulst  01651  01651                % 01665 RGTR--
+170804001 Waldbillig, Bëlleger  01653  01653                % 01665 RGTR--
+170804002 Waldbillig, Gemeng    01654  01654                % 01665 RGTR--
+170802001 Haller, Beim Basseng  01657  01657                % 01665 RGTR--
+170802002 Haller, Schoul        01658                       % 01665 RGTR--
+*Z 01666 RGTR--                                             % 01666 RGTR--
+*L 504      140701023 170802002  01714  01758               % 01666 RGTR--
+*A bf 140701023 170802002 000001  01714  01758              % 01666 RGTR--
+*A OV 140701023 170802002 000001  01714  01758              % 01666 RGTR--
+*A PD 140701023 170802002 000001  01714  01758              % 01666 RGTR--
+*R 1 170802002 140701023 170802002  01714  01758            % 01666 RGTR--
+*G RGB 140701023 170802002  01714  01758                    % 01666 RGTR--
+*A VE 140701023 170802002 000001  01714  01758              % 01666 RGTR--
+*I FD 140701023 170802002        0002175  01714  01758      % 01666 RGTR--
+140701023 Ettelbruck, Lycée Te         01714                % 01666 RGTR--
+140701016 Ettelbruck, Gare      01718  01718                % 01666 RGTR--
+140701026 Ettelbruck, Rond Poi  01722  01722                % 01666 RGTR--
+140701018 Ettelbruck, H.v.Land  01723  01723                % 01666 RGTR--
+141301002 Schieren, Faubourg    01724  01724                % 01666 RGTR--
+141301001 Schieren, Centre spo  01725  01725                % 01666 RGTR--
+140503002 Stegen, Eglise        01731  01731                % 01666 RGTR--
+140503001 Stegen, Bloen Eck     01732  01732                % 01666 RGTR--
+140502001 Ermsdorf, Buntewee    01737  01737                % 01666 RGTR--
+140502002 Ermsdorf              01738  01738                % 01666 RGTR--
+141001002 Medernach, Iermsdrëf  01740  01740                % 01666 RGTR--
+141001004 Medernach, Op der La  01741  01741                % 01666 RGTR--
+141001003 Medernach, Op der Ga  01743  01743                % 01666 RGTR--
+141001001 Medernach, Fondation  01743  01743                % 01666 RGTR--
+160601005 Larochette, Leedebac  01745  01745                % 01666 RGTR--
+160601001 Larochette, Bleech    01746  01746                % 01666 RGTR--
+160603001 Heffingen, Scherfemi  01748  01748                % 01666 RGTR--
+170801003 Christnach, Fielsers  01751  01751                % 01666 RGTR--
+170801002 Christnach, Schoulst  01751  01751                % 01666 RGTR--
+170804001 Waldbillig, Bëlleger  01753  01753                % 01666 RGTR--
+170804002 Waldbillig, Gemeng    01754  01754                % 01666 RGTR--
+170802001 Haller, Beim Basseng  01757  01757                % 01666 RGTR--
+170802002 Haller, Schoul        01758                       % 01666 RGTR--
+*Z 01667 RGTR--                                             % 01667 RGTR--
+*L 504      140701016 170802002  01019  01057               % 01667 RGTR--
+*A bf 140701016 170802002 000000  01019  01057              % 01667 RGTR--
+*A OV 140701016 170802002 000000  01019  01057              % 01667 RGTR--
+*R 1 170802002 140701016 170802002  01019  01057            % 01667 RGTR--
+*G RGB 140701016 170802002  01019  01057                    % 01667 RGTR--
+*A VE 140701016 170802002 000000  01019  01057              % 01667 RGTR--
+*I FD 140701016 170802002        0002578  01019  01057      % 01667 RGTR--
+140701016 Ettelbruck, Gare             01019                % 01667 RGTR--
+140701026 Ettelbruck, Rond Poi  01022  01022                % 01667 RGTR--
+140701018 Ettelbruck, H.v.Land  01023  01023                % 01667 RGTR--
+141301002 Schieren, Faubourg    01024  01024                % 01667 RGTR--
+141301001 Schieren, Centre spo  01025  01025                % 01667 RGTR--
+140503002 Stegen, Eglise        01030  01030                % 01667 RGTR--
+140503001 Stegen, Bloen Eck     01031  01031                % 01667 RGTR--
+140502001 Ermsdorf, Buntewee    01036  01036                % 01667 RGTR--
+140502002 Ermsdorf              01037  01037                % 01667 RGTR--
+141001002 Medernach, Iermsdrëf  01039  01039                % 01667 RGTR--
+141001004 Medernach, Op der La  01040  01040                % 01667 RGTR--
+141001003 Medernach, Op der Ga  01042  01042                % 01667 RGTR--
+141001001 Medernach, Fondation  01042  01042                % 01667 RGTR--
+160601005 Larochette, Leedebac  01044  01044                % 01667 RGTR--
+160601001 Larochette, Bleech    01045  01045                % 01667 RGTR--
+160603001 Heffingen, Scherfemi  01047  01047                % 01667 RGTR--
+170801003 Christnach, Fielsers  01050  01050                % 01667 RGTR--
+170801002 Christnach, Schoulst  01050  01050                % 01667 RGTR--
+170804001 Waldbillig, Bëlleger  01052  01052                % 01667 RGTR--
+170804002 Waldbillig, Gemeng    01053  01053                % 01667 RGTR--
+170802001 Haller, Beim Basseng  01056  01056                % 01667 RGTR--
+170802002 Haller, Schoul        01057                       % 01667 RGTR--
+*Z 01668 RGTR--                                             % 01668 RGTR--
+*L 504      140701016 170802002  00618  00656               % 01668 RGTR--
+*A bf 140701016 170802002 000001  00618  00656              % 01668 RGTR--
+*R 1 170802002 140701016 170802002  00618  00656            % 01668 RGTR--
+*G RGB 140701016 170802002  00618  00656                    % 01668 RGTR--
+*A VE 140701016 170802002 000001  00618  00656              % 01668 RGTR--
+*I FD 140701016 170802002        0001920  00618  00656      % 01668 RGTR--
+140701016 Ettelbruck, Gare             00618                % 01668 RGTR--
+140701026 Ettelbruck, Rond Poi  00621  00621                % 01668 RGTR--
+140701018 Ettelbruck, H.v.Land  00622  00622                % 01668 RGTR--
+141301002 Schieren, Faubourg    00623  00623                % 01668 RGTR--
+141301001 Schieren, Centre spo  00624  00624                % 01668 RGTR--
+140503002 Stegen, Eglise        00629  00629                % 01668 RGTR--
+140503001 Stegen, Bloen Eck     00630  00630                % 01668 RGTR--
+140502001 Ermsdorf, Buntewee    00635  00635                % 01668 RGTR--
+140502002 Ermsdorf              00636  00636                % 01668 RGTR--
+141001002 Medernach, Iermsdrëf  00638  00638                % 01668 RGTR--
+141001004 Medernach, Op der La  00639  00639                % 01668 RGTR--
+141001003 Medernach, Op der Ga  00641  00641                % 01668 RGTR--
+141001001 Medernach, Fondation  00641  00641                % 01668 RGTR--
+160601005 Larochette, Leedebac  00643  00643                % 01668 RGTR--
+160601001 Larochette, Bleech    00644  00644                % 01668 RGTR--
+160603001 Heffingen, Scherfemi  00646  00646                % 01668 RGTR--
+170801003 Christnach, Fielsers  00649  00649                % 01668 RGTR--
+170801002 Christnach, Schoulst  00649  00649                % 01668 RGTR--
+170804001 Waldbillig, Bëlleger  00651  00651                % 01668 RGTR--
+170804002 Waldbillig, Gemeng    00652  00652                % 01668 RGTR--
+170802001 Haller, Beim Basseng  00655  00655                % 01668 RGTR--
+170802002 Haller, Schoul        00656                       % 01668 RGTR--
+*Z 01669 RGTR--                                             % 01669 RGTR--
+*L 504      140701016 170802002  01119  01157               % 01669 RGTR--
+*A bf 140701016 170802002 000001  01119  01157              % 01669 RGTR--
+*A OV 140701016 170802002 000001  01119  01157              % 01669 RGTR--
+*R 1 170802002 140701016 170802002  01119  01157            % 01669 RGTR--
+*G RGB 140701016 170802002  01119  01157                    % 01669 RGTR--
+*A VE 140701016 170802002 000001  01119  01157              % 01669 RGTR--
+*I FD 140701016 170802002        0001095  01119  01157      % 01669 RGTR--
+140701016 Ettelbruck, Gare             01119                % 01669 RGTR--
+140701026 Ettelbruck, Rond Poi  01122  01122                % 01669 RGTR--
+140701018 Ettelbruck, H.v.Land  01123  01123                % 01669 RGTR--
+141301002 Schieren, Faubourg    01124  01124                % 01669 RGTR--
+141301001 Schieren, Centre spo  01125  01125                % 01669 RGTR--
+140503002 Stegen, Eglise        01130  01130                % 01669 RGTR--
+140503001 Stegen, Bloen Eck     01131  01131                % 01669 RGTR--
+140502001 Ermsdorf, Buntewee    01136  01136                % 01669 RGTR--
+140502002 Ermsdorf              01137  01137                % 01669 RGTR--
+141001002 Medernach, Iermsdrëf  01139  01139                % 01669 RGTR--
+141001004 Medernach, Op der La  01140  01140                % 01669 RGTR--
+141001003 Medernach, Op der Ga  01142  01142                % 01669 RGTR--
+141001001 Medernach, Fondation  01142  01142                % 01669 RGTR--
+160601005 Larochette, Leedebac  01144  01144                % 01669 RGTR--
+160601001 Larochette, Bleech    01145  01145                % 01669 RGTR--
+160603001 Heffingen, Scherfemi  01147  01147                % 01669 RGTR--
+170801003 Christnach, Fielsers  01150  01150                % 01669 RGTR--
+170801002 Christnach, Schoulst  01150  01150                % 01669 RGTR--
+170804001 Waldbillig, Bëlleger  01152  01152                % 01669 RGTR--
+170804002 Waldbillig, Gemeng    01153  01153                % 01669 RGTR--
+170802001 Haller, Beim Basseng  01156  01156                % 01669 RGTR--
+170802002 Haller, Schoul        01157                       % 01669 RGTR--
+*Z 01670 RGTR--                                             % 01670 RGTR--
+*L 504      140701016 170802002  01919  01957               % 01670 RGTR--
+*A bf 140701016 170802002 000001  01919  01957              % 01670 RGTR--
+*A OV 140701016 170802002 000001  01919  01957              % 01670 RGTR--
+*A PD 140701016 170802002 000001  01919  01957              % 01670 RGTR--
+*R 1 170802002 140701016 170802002  01919  01957            % 01670 RGTR--
+*G RGB 140701016 170802002  01919  01957                    % 01670 RGTR--
+*A VE 140701016 170802002 000001  01919  01957              % 01670 RGTR--
+*I FD 140701016 170802002        0002579  01919  01957      % 01670 RGTR--
+140701016 Ettelbruck, Gare             01919                % 01670 RGTR--
+140701026 Ettelbruck, Rond Poi  01922  01922                % 01670 RGTR--
+140701018 Ettelbruck, H.v.Land  01923  01923                % 01670 RGTR--
+141301002 Schieren, Faubourg    01924  01924                % 01670 RGTR--
+141301001 Schieren, Centre spo  01925  01925                % 01670 RGTR--
+140503002 Stegen, Eglise        01930  01930                % 01670 RGTR--
+140503001 Stegen, Bloen Eck     01931  01931                % 01670 RGTR--
+140502001 Ermsdorf, Buntewee    01936  01936                % 01670 RGTR--
+140502002 Ermsdorf              01937  01937                % 01670 RGTR--
+141001002 Medernach, Iermsdrëf  01939  01939                % 01670 RGTR--
+141001004 Medernach, Op der La  01940  01940                % 01670 RGTR--
+141001003 Medernach, Op der Ga  01942  01942                % 01670 RGTR--
+141001001 Medernach, Fondation  01942  01942                % 01670 RGTR--
+160601005 Larochette, Leedebac  01944  01944                % 01670 RGTR--
+160601001 Larochette, Bleech    01945  01945                % 01670 RGTR--
+160603001 Heffingen, Scherfemi  01947  01947                % 01670 RGTR--
+170801003 Christnach, Fielsers  01950  01950                % 01670 RGTR--
+170801002 Christnach, Schoulst  01950  01950                % 01670 RGTR--
+170804001 Waldbillig, Bëlleger  01952  01952                % 01670 RGTR--
+170804002 Waldbillig, Gemeng    01953  01953                % 01670 RGTR--
+170802001 Haller, Beim Basseng  01956  01956                % 01670 RGTR--
+170802002 Haller, Schoul        01957                       % 01670 RGTR--
+*Z 01671 RGTR--                                             % 01671 RGTR--
+*L 504      140701016 170802002  02019  02057               % 01671 RGTR--
+*A bf 140701016 170802002 000001  02019  02057              % 01671 RGTR--
+*A OV 140701016 170802002 000001  02019  02057              % 01671 RGTR--
+*R 1 170802002 140701016 170802002  02019  02057            % 01671 RGTR--
+*G RGB 140701016 170802002  02019  02057                    % 01671 RGTR--
+*A VE 140701016 170802002 000001  02019  02057              % 01671 RGTR--
+*I FD 140701016 170802002        0002580  02019  02057      % 01671 RGTR--
+140701016 Ettelbruck, Gare             02019                % 01671 RGTR--
+140701026 Ettelbruck, Rond Poi  02022  02022                % 01671 RGTR--
+140701018 Ettelbruck, H.v.Land  02023  02023                % 01671 RGTR--
+141301002 Schieren, Faubourg    02024  02024                % 01671 RGTR--
+141301001 Schieren, Centre spo  02025  02025                % 01671 RGTR--
+140503002 Stegen, Eglise        02030  02030                % 01671 RGTR--
+140503001 Stegen, Bloen Eck     02031  02031                % 01671 RGTR--
+140502001 Ermsdorf, Buntewee    02036  02036                % 01671 RGTR--
+140502002 Ermsdorf              02037  02037                % 01671 RGTR--
+141001002 Medernach, Iermsdrëf  02039  02039                % 01671 RGTR--
+141001004 Medernach, Op der La  02040  02040                % 01671 RGTR--
+141001003 Medernach, Op der Ga  02042  02042                % 01671 RGTR--
+141001001 Medernach, Fondation  02042  02042                % 01671 RGTR--
+160601005 Larochette, Leedebac  02044  02044                % 01671 RGTR--
+160601001 Larochette, Bleech    02045  02045                % 01671 RGTR--
+160603001 Heffingen, Scherfemi  02047  02047                % 01671 RGTR--
+170801003 Christnach, Fielsers  02050  02050                % 01671 RGTR--
+170801002 Christnach, Schoulst  02050  02050                % 01671 RGTR--
+170804001 Waldbillig, Bëlleger  02052  02052                % 01671 RGTR--
+170804002 Waldbillig, Gemeng    02053  02053                % 01671 RGTR--
+170802001 Haller, Beim Basseng  02056  02056                % 01671 RGTR--
+170802002 Haller, Schoul        02057                       % 01671 RGTR--
+*Z 01672 RGTR--                                             % 01672 RGTR--
+*L 504      140701016 170802002  02119  02157               % 01672 RGTR--
+*A bf 140701016 170802002 000001  02119  02157              % 01672 RGTR--
+*A OV 140701016 170802002 000001  02119  02157              % 01672 RGTR--
+*R 1 170802002 140701016 170802002  02119  02157            % 01672 RGTR--
+*G RGB 140701016 170802002  02119  02157                    % 01672 RGTR--
+*A VE 140701016 170802002 000001  02119  02157              % 01672 RGTR--
+*I FD 140701016 170802002        0002431  02119  02157      % 01672 RGTR--
+140701016 Ettelbruck, Gare             02119                % 01672 RGTR--
+140701026 Ettelbruck, Rond Poi  02122  02122                % 01672 RGTR--
+140701018 Ettelbruck, H.v.Land  02123  02123                % 01672 RGTR--
+141301002 Schieren, Faubourg    02124  02124                % 01672 RGTR--
+141301001 Schieren, Centre spo  02125  02125                % 01672 RGTR--
+140503002 Stegen, Eglise        02130  02130                % 01672 RGTR--
+140503001 Stegen, Bloen Eck     02131  02131                % 01672 RGTR--
+140502001 Ermsdorf, Buntewee    02136  02136                % 01672 RGTR--
+140502002 Ermsdorf              02137  02137                % 01672 RGTR--
+141001002 Medernach, Iermsdrëf  02139  02139                % 01672 RGTR--
+141001004 Medernach, Op der La  02140  02140                % 01672 RGTR--
+141001003 Medernach, Op der Ga  02142  02142                % 01672 RGTR--
+141001001 Medernach, Fondation  02142  02142                % 01672 RGTR--
+160601005 Larochette, Leedebac  02144  02144                % 01672 RGTR--
+160601001 Larochette, Bleech    02145  02145                % 01672 RGTR--
+160603001 Heffingen, Scherfemi  02147  02147                % 01672 RGTR--
+170801003 Christnach, Fielsers  02150  02150                % 01672 RGTR--
+170801002 Christnach, Schoulst  02150  02150                % 01672 RGTR--
+170804001 Waldbillig, Bëlleger  02152  02152                % 01672 RGTR--
+170804002 Waldbillig, Gemeng    02153  02153                % 01672 RGTR--
+170802001 Haller, Beim Basseng  02156  02156                % 01672 RGTR--
+170802002 Haller, Schoul        02157                       % 01672 RGTR--
+*Z 01673 RGTR--                                             % 01673 RGTR--
+*L 504      140701016 170802002  02219  02257               % 01673 RGTR--
+*A bf 140701016 170802002 000001  02219  02257              % 01673 RGTR--
+*A OV 140701016 170802002 000001  02219  02257              % 01673 RGTR--
+*R 1 170802002 140701016 170802002  02219  02257            % 01673 RGTR--
+*G RGB 140701016 170802002  02219  02257                    % 01673 RGTR--
+*A VE 140701016 170802002 000001  02219  02257              % 01673 RGTR--
+*I FD 140701016 170802002        0002581  02219  02257      % 01673 RGTR--
+140701016 Ettelbruck, Gare             02219                % 01673 RGTR--
+140701026 Ettelbruck, Rond Poi  02222  02222                % 01673 RGTR--
+140701018 Ettelbruck, H.v.Land  02223  02223                % 01673 RGTR--
+141301002 Schieren, Faubourg    02224  02224                % 01673 RGTR--
+141301001 Schieren, Centre spo  02225  02225                % 01673 RGTR--
+140503002 Stegen, Eglise        02230  02230                % 01673 RGTR--
+140503001 Stegen, Bloen Eck     02231  02231                % 01673 RGTR--
+140502001 Ermsdorf, Buntewee    02236  02236                % 01673 RGTR--
+140502002 Ermsdorf              02237  02237                % 01673 RGTR--
+141001002 Medernach, Iermsdrëf  02239  02239                % 01673 RGTR--
+141001004 Medernach, Op der La  02240  02240                % 01673 RGTR--
+141001003 Medernach, Op der Ga  02242  02242                % 01673 RGTR--
+141001001 Medernach, Fondation  02242  02242                % 01673 RGTR--
+160601005 Larochette, Leedebac  02244  02244                % 01673 RGTR--
+160601001 Larochette, Bleech    02245  02245                % 01673 RGTR--
+160603001 Heffingen, Scherfemi  02247  02247                % 01673 RGTR--
+170801003 Christnach, Fielsers  02250  02250                % 01673 RGTR--
+170801002 Christnach, Schoulst  02250  02250                % 01673 RGTR--
+170804001 Waldbillig, Bëlleger  02252  02252                % 01673 RGTR--
+170804002 Waldbillig, Gemeng    02253  02253                % 01673 RGTR--
+170802001 Haller, Beim Basseng  02256  02256                % 01673 RGTR--
+170802002 Haller, Schoul        02257                       % 01673 RGTR--
+*Z 01674 RGTR--                                             % 01674 RGTR--
+*L 504      140701016 170802002  01214  01252               % 01674 RGTR--
+*A bf 140701016 170802002 000003  01214  01252              % 01674 RGTR--
+*R 1 170802002 140701016 170802002  01214  01252            % 01674 RGTR--
+*G RGB 140701016 170802002  01214  01252                    % 01674 RGTR--
+*A VE 140701016 170802002 000003  01214  01252              % 01674 RGTR--
+*I FD 140701016 170802002        0002172  01214  01252      % 01674 RGTR--
+140701016 Ettelbruck, Gare             01214                % 01674 RGTR--
+140701026 Ettelbruck, Rond Poi  01217  01217                % 01674 RGTR--
+140701018 Ettelbruck, H.v.Land  01218  01218                % 01674 RGTR--
+141301002 Schieren, Faubourg    01219  01219                % 01674 RGTR--
+141301001 Schieren, Centre spo  01220  01220                % 01674 RGTR--
+140503002 Stegen, Eglise        01225  01225                % 01674 RGTR--
+140503001 Stegen, Bloen Eck     01226  01226                % 01674 RGTR--
+140502001 Ermsdorf, Buntewee    01231  01231                % 01674 RGTR--
+140502002 Ermsdorf              01232  01232                % 01674 RGTR--
+141001002 Medernach, Iermsdrëf  01234  01234                % 01674 RGTR--
+141001004 Medernach, Op der La  01235  01235                % 01674 RGTR--
+141001003 Medernach, Op der Ga  01237  01237                % 01674 RGTR--
+141001001 Medernach, Fondation  01237  01237                % 01674 RGTR--
+160601005 Larochette, Leedebac  01239  01239                % 01674 RGTR--
+160601001 Larochette, Bleech    01240  01240                % 01674 RGTR--
+160603001 Heffingen, Scherfemi  01242  01242                % 01674 RGTR--
+170801003 Christnach, Fielsers  01245  01245                % 01674 RGTR--
+170801002 Christnach, Schoulst  01245  01245                % 01674 RGTR--
+170804001 Waldbillig, Bëlleger  01247  01247                % 01674 RGTR--
+170804002 Waldbillig, Gemeng    01248  01248                % 01674 RGTR--
+170802001 Haller, Beim Basseng  01251  01251                % 01674 RGTR--
+170802002 Haller, Schoul        01252                       % 01674 RGTR--
+*Z 01675 RGTR--                                             % 01675 RGTR--
+*L 504      140701016 170802002  01414  01452               % 01675 RGTR--
+*A bf 140701016 170802002 000003  01414  01452              % 01675 RGTR--
+*R 1 170802002 140701016 170802002  01414  01452            % 01675 RGTR--
+*G RGB 140701016 170802002  01414  01452                    % 01675 RGTR--
+*A VE 140701016 170802002 000003  01414  01452              % 01675 RGTR--
+*I FD 140701016 170802002        0002582  01414  01452      % 01675 RGTR--
+140701016 Ettelbruck, Gare             01414                % 01675 RGTR--
+140701026 Ettelbruck, Rond Poi  01417  01417                % 01675 RGTR--
+140701018 Ettelbruck, H.v.Land  01418  01418                % 01675 RGTR--
+141301002 Schieren, Faubourg    01419  01419                % 01675 RGTR--
+141301001 Schieren, Centre spo  01420  01420                % 01675 RGTR--
+140503002 Stegen, Eglise        01425  01425                % 01675 RGTR--
+140503001 Stegen, Bloen Eck     01426  01426                % 01675 RGTR--
+140502001 Ermsdorf, Buntewee    01431  01431                % 01675 RGTR--
+140502002 Ermsdorf              01432  01432                % 01675 RGTR--
+141001002 Medernach, Iermsdrëf  01434  01434                % 01675 RGTR--
+141001004 Medernach, Op der La  01435  01435                % 01675 RGTR--
+141001003 Medernach, Op der Ga  01437  01437                % 01675 RGTR--
+141001001 Medernach, Fondation  01437  01437                % 01675 RGTR--
+160601005 Larochette, Leedebac  01439  01439                % 01675 RGTR--
+160601001 Larochette, Bleech    01440  01440                % 01675 RGTR--
+160603001 Heffingen, Scherfemi  01442  01442                % 01675 RGTR--
+170801003 Christnach, Fielsers  01445  01445                % 01675 RGTR--
+170801002 Christnach, Schoulst  01445  01445                % 01675 RGTR--
+170804001 Waldbillig, Bëlleger  01447  01447                % 01675 RGTR--
+170804002 Waldbillig, Gemeng    01448  01448                % 01675 RGTR--
+170802001 Haller, Beim Basseng  01451  01451                % 01675 RGTR--
+170802002 Haller, Schoul        01452                       % 01675 RGTR--
+*Z 01676 RGTR--                                             % 01676 RGTR--
+*L 504      140701016 170802002  01614  01652               % 01676 RGTR--
+*A bf 140701016 170802002 000003  01614  01652              % 01676 RGTR--
+*R 1 170802002 140701016 170802002  01614  01652            % 01676 RGTR--
+*G RGB 140701016 170802002  01614  01652                    % 01676 RGTR--
+*A VE 140701016 170802002 000003  01614  01652              % 01676 RGTR--
+*I FD 140701016 170802002        0002577  01614  01652      % 01676 RGTR--
+140701016 Ettelbruck, Gare             01614                % 01676 RGTR--
+140701026 Ettelbruck, Rond Poi  01617  01617                % 01676 RGTR--
+140701018 Ettelbruck, H.v.Land  01618  01618                % 01676 RGTR--
+141301002 Schieren, Faubourg    01619  01619                % 01676 RGTR--
+141301001 Schieren, Centre spo  01620  01620                % 01676 RGTR--
+140503002 Stegen, Eglise        01625  01625                % 01676 RGTR--
+140503001 Stegen, Bloen Eck     01626  01626                % 01676 RGTR--
+140502001 Ermsdorf, Buntewee    01631  01631                % 01676 RGTR--
+140502002 Ermsdorf              01632  01632                % 01676 RGTR--
+141001002 Medernach, Iermsdrëf  01634  01634                % 01676 RGTR--
+141001004 Medernach, Op der La  01635  01635                % 01676 RGTR--
+141001003 Medernach, Op der Ga  01637  01637                % 01676 RGTR--
+141001001 Medernach, Fondation  01637  01637                % 01676 RGTR--
+160601005 Larochette, Leedebac  01639  01639                % 01676 RGTR--
+160601001 Larochette, Bleech    01640  01640                % 01676 RGTR--
+160603001 Heffingen, Scherfemi  01642  01642                % 01676 RGTR--
+170801003 Christnach, Fielsers  01645  01645                % 01676 RGTR--
+170801002 Christnach, Schoulst  01645  01645                % 01676 RGTR--
+170804001 Waldbillig, Bëlleger  01647  01647                % 01676 RGTR--
+170804002 Waldbillig, Gemeng    01648  01648                % 01676 RGTR--
+170802001 Haller, Beim Basseng  01651  01651                % 01676 RGTR--
+170802002 Haller, Schoul        01652                       % 01676 RGTR--
+*Z 01677 RGTR--                                             % 01677 RGTR--
+*L 504      140701016 170802002  01814  01852               % 01677 RGTR--
+*A bf 140701016 170802002 000003  01814  01852              % 01677 RGTR--
+*R 1 170802002 140701016 170802002  01814  01852            % 01677 RGTR--
+*G RGB 140701016 170802002  01814  01852                    % 01677 RGTR--
+*A VE 140701016 170802002 000003  01814  01852              % 01677 RGTR--
+*I FD 140701016 170802002        0002583  01814  01852      % 01677 RGTR--
+140701016 Ettelbruck, Gare             01814                % 01677 RGTR--
+140701026 Ettelbruck, Rond Poi  01817  01817                % 01677 RGTR--
+140701018 Ettelbruck, H.v.Land  01818  01818                % 01677 RGTR--
+141301002 Schieren, Faubourg    01819  01819                % 01677 RGTR--
+141301001 Schieren, Centre spo  01820  01820                % 01677 RGTR--
+140503002 Stegen, Eglise        01825  01825                % 01677 RGTR--
+140503001 Stegen, Bloen Eck     01826  01826                % 01677 RGTR--
+140502001 Ermsdorf, Buntewee    01831  01831                % 01677 RGTR--
+140502002 Ermsdorf              01832  01832                % 01677 RGTR--
+141001002 Medernach, Iermsdrëf  01834  01834                % 01677 RGTR--
+141001004 Medernach, Op der La  01835  01835                % 01677 RGTR--
+141001003 Medernach, Op der Ga  01837  01837                % 01677 RGTR--
+141001001 Medernach, Fondation  01837  01837                % 01677 RGTR--
+160601005 Larochette, Leedebac  01839  01839                % 01677 RGTR--
+160601001 Larochette, Bleech    01840  01840                % 01677 RGTR--
+160603001 Heffingen, Scherfemi  01842  01842                % 01677 RGTR--
+170801003 Christnach, Fielsers  01845  01845                % 01677 RGTR--
+170801002 Christnach, Schoulst  01845  01845                % 01677 RGTR--
+170804001 Waldbillig, Bëlleger  01847  01847                % 01677 RGTR--
+170804002 Waldbillig, Gemeng    01848  01848                % 01677 RGTR--
+170802001 Haller, Beim Basseng  01851  01851                % 01677 RGTR--
+170802002 Haller, Schoul        01852                       % 01677 RGTR--
+*Z 01678 RGTR--                                             % 01678 RGTR--
+*L 504      140701016 170802002  00707  00747               % 01678 RGTR--
+*A bf 140701016 170802002 000001  00707  00747              % 01678 RGTR--
+*A OB 140701016 170802002 000001  00707  00747              % 01678 RGTR--
+*R 1 170802002 140701016 170802002  00707  00747            % 01678 RGTR--
+*G RGB 140701016 170802002  00707  00747                    % 01678 RGTR--
+*A VE 140701016 170802002 000001  00707  00747              % 01678 RGTR--
+*I FD 140701016 170802002        0002006  00707  00747      % 01678 RGTR--
+140701016 Ettelbruck, Gare             00707                % 01678 RGTR--
+140701026 Ettelbruck, Rond Poi  00711  00711                % 01678 RGTR--
+140701018 Ettelbruck, H.v.Land  00712  00712                % 01678 RGTR--
+141301002 Schieren, Faubourg    00713  00713                % 01678 RGTR--
+141301001 Schieren, Centre spo  00714  00714                % 01678 RGTR--
+140503002 Stegen, Eglise        00719  00719                % 01678 RGTR--
+140503001 Stegen, Bloen Eck     00720  00720                % 01678 RGTR--
+140502001 Ermsdorf, Buntewee    00725  00725                % 01678 RGTR--
+140502002 Ermsdorf              00726  00726                % 01678 RGTR--
+141001002 Medernach, Iermsdrëf  00728  00728                % 01678 RGTR--
+141001004 Medernach, Op der La  00730  00730                % 01678 RGTR--
+141001003 Medernach, Op der Ga  00731  00731                % 01678 RGTR--
+141001001 Medernach, Fondation  00732  00732                % 01678 RGTR--
+160601005 Larochette, Leedebac  00734  00734                % 01678 RGTR--
+160601001 Larochette, Bleech    00735  00735                % 01678 RGTR--
+160603001 Heffingen, Scherfemi  00736  00736                % 01678 RGTR--
+170801003 Christnach, Fielsers  00739  00739                % 01678 RGTR--
+170801002 Christnach, Schoulst  00740  00740                % 01678 RGTR--
+170804001 Waldbillig, Bëlleger  00741  00741                % 01678 RGTR--
+170804002 Waldbillig, Gemeng    00742  00742                % 01678 RGTR--
+170802001 Haller, Beim Basseng  00746  00746                % 01678 RGTR--
+170802002 Haller, Schoul        00747                       % 01678 RGTR--
+*Z 01679 RGTR--                                             % 01679 RGTR--
+*L 504      140701016 170802002  00819  00859               % 01679 RGTR--
+*A bf 140701016 170802002 000001  00819  00859              % 01679 RGTR--
+*A OV 140701016 170802002 000001  00819  00859              % 01679 RGTR--
+*A PD 140701016 170802002 000001  00819  00859              % 01679 RGTR--
+*R 1 170802002 140701016 170802002  00819  00859            % 01679 RGTR--
+*G RGB 140701016 170802002  00819  00859                    % 01679 RGTR--
+*A VE 140701016 170802002 000001  00819  00859              % 01679 RGTR--
+*I FD 140701016 170802002        0002584  00819  00859      % 01679 RGTR--
+140701016 Ettelbruck, Gare             00819                % 01679 RGTR--
+140701026 Ettelbruck, Rond Poi  00823  00823                % 01679 RGTR--
+140701018 Ettelbruck, H.v.Land  00823  00823                % 01679 RGTR--
+141301002 Schieren, Faubourg    00825  00825                % 01679 RGTR--
+141301001 Schieren, Centre spo  00826  00826                % 01679 RGTR--
+140503002 Stegen, Eglise        00831  00831                % 01679 RGTR--
+140503001 Stegen, Bloen Eck     00832  00832                % 01679 RGTR--
+140502001 Ermsdorf, Buntewee    00837  00837                % 01679 RGTR--
+140502002 Ermsdorf              00838  00838                % 01679 RGTR--
+141001002 Medernach, Iermsdrëf  00840  00840                % 01679 RGTR--
+141001004 Medernach, Op der La  00842  00842                % 01679 RGTR--
+141001003 Medernach, Op der Ga  00843  00843                % 01679 RGTR--
+141001001 Medernach, Fondation  00844  00844                % 01679 RGTR--
+160601005 Larochette, Leedebac  00845  00845                % 01679 RGTR--
+160601001 Larochette, Bleech    00846  00846                % 01679 RGTR--
+160603001 Heffingen, Scherfemi  00848  00848                % 01679 RGTR--
+170801003 Christnach, Fielsers  00851  00851                % 01679 RGTR--
+170801002 Christnach, Schoulst  00852  00852                % 01679 RGTR--
+170804001 Waldbillig, Bëlleger  00853  00853                % 01679 RGTR--
+170804002 Waldbillig, Gemeng    00854  00854                % 01679 RGTR--
+170802001 Haller, Beim Basseng  00857  00857                % 01679 RGTR--
+170802002 Haller, Schoul        00859                       % 01679 RGTR--
+*Z 01680 RGTR--                                             % 01680 RGTR--
+*L 504      140701016 170802002  00919  00959               % 01680 RGTR--
+*A bf 140701016 170802002 000001  00919  00959              % 01680 RGTR--
+*A OV 140701016 170802002 000001  00919  00959              % 01680 RGTR--
+*R 1 170802002 140701016 170802002  00919  00959            % 01680 RGTR--
+*G RGB 140701016 170802002  00919  00959                    % 01680 RGTR--
+*A VE 140701016 170802002 000001  00919  00959              % 01680 RGTR--
+*I FD 140701016 170802002        0002585  00919  00959      % 01680 RGTR--
+140701016 Ettelbruck, Gare             00919                % 01680 RGTR--
+140701026 Ettelbruck, Rond Poi  00923  00923                % 01680 RGTR--
+140701018 Ettelbruck, H.v.Land  00923  00923                % 01680 RGTR--
+141301002 Schieren, Faubourg    00925  00925                % 01680 RGTR--
+141301001 Schieren, Centre spo  00926  00926                % 01680 RGTR--
+140503002 Stegen, Eglise        00931  00931                % 01680 RGTR--
+140503001 Stegen, Bloen Eck     00932  00932                % 01680 RGTR--
+140502001 Ermsdorf, Buntewee    00937  00937                % 01680 RGTR--
+140502002 Ermsdorf              00938  00938                % 01680 RGTR--
+141001002 Medernach, Iermsdrëf  00940  00940                % 01680 RGTR--
+141001004 Medernach, Op der La  00942  00942                % 01680 RGTR--
+141001003 Medernach, Op der Ga  00943  00943                % 01680 RGTR--
+141001001 Medernach, Fondation  00944  00944                % 01680 RGTR--
+160601005 Larochette, Leedebac  00945  00945                % 01680 RGTR--
+160601001 Larochette, Bleech    00946  00946                % 01680 RGTR--
+160603001 Heffingen, Scherfemi  00948  00948                % 01680 RGTR--
+170801003 Christnach, Fielsers  00951  00951                % 01680 RGTR--
+170801002 Christnach, Schoulst  00952  00952                % 01680 RGTR--
+170804001 Waldbillig, Bëlleger  00953  00953                % 01680 RGTR--
+170804002 Waldbillig, Gemeng    00954  00954                % 01680 RGTR--
+170802001 Haller, Beim Basseng  00957  00957                % 01680 RGTR--
+170802002 Haller, Schoul        00959                       % 01680 RGTR--
+*Z 01681 RGTR--                                             % 01681 RGTR--
+*L 504      140701016 170802002  01819  01859               % 01681 RGTR--
+*A bf 140701016 170802002 000001  01819  01859              % 01681 RGTR--
+*A OV 140701016 170802002 000001  01819  01859              % 01681 RGTR--
+*R 1 170802002 140701016 170802002  01819  01859            % 01681 RGTR--
+*G RGB 140701016 170802002  01819  01859                    % 01681 RGTR--
+*A VE 140701016 170802002 000001  01819  01859              % 01681 RGTR--
+*I FD 140701016 170802002        0002586  01819  01859      % 01681 RGTR--
+140701016 Ettelbruck, Gare             01819                % 01681 RGTR--
+140701026 Ettelbruck, Rond Poi  01823  01823                % 01681 RGTR--
+140701018 Ettelbruck, H.v.Land  01823  01823                % 01681 RGTR--
+141301002 Schieren, Faubourg    01825  01825                % 01681 RGTR--
+141301001 Schieren, Centre spo  01826  01826                % 01681 RGTR--
+140503002 Stegen, Eglise        01831  01831                % 01681 RGTR--
+140503001 Stegen, Bloen Eck     01832  01832                % 01681 RGTR--
+140502001 Ermsdorf, Buntewee    01837  01837                % 01681 RGTR--
+140502002 Ermsdorf              01838  01838                % 01681 RGTR--
+141001002 Medernach, Iermsdrëf  01840  01840                % 01681 RGTR--
+141001004 Medernach, Op der La  01842  01842                % 01681 RGTR--
+141001003 Medernach, Op der Ga  01843  01843                % 01681 RGTR--
+141001001 Medernach, Fondation  01844  01844                % 01681 RGTR--
+160601005 Larochette, Leedebac  01845  01845                % 01681 RGTR--
+160601001 Larochette, Bleech    01846  01846                % 01681 RGTR--
+160603001 Heffingen, Scherfemi  01848  01848                % 01681 RGTR--
+170801003 Christnach, Fielsers  01851  01851                % 01681 RGTR--
+170801002 Christnach, Schoulst  01852  01852                % 01681 RGTR--
+170804001 Waldbillig, Bëlleger  01853  01853                % 01681 RGTR--
+170804002 Waldbillig, Gemeng    01854  01854                % 01681 RGTR--
+170802001 Haller, Beim Basseng  01857  01857                % 01681 RGTR--
+170802002 Haller, Schoul        01859                       % 01681 RGTR--
+*Z 01682 RGTR--                                             % 01682 RGTR--
+*L 504      170802002 140701023  00707  00744               % 01682 RGTR--
+*A bf 170802002 140701023 000002  00707  00744              % 01682 RGTR--
+*R 2 140701023 170802002 140701023  00707  00744            % 01682 RGTR--
+*G RGB 170802002 140701023  00707  00744                    % 01682 RGTR--
+*A VE 170802002 140701023 000002  00707  00744              % 01682 RGTR--
+*I FD 170802002 140701023        0002023  00707  00744      % 01682 RGTR--
+170802002 Haller, Schoul               00707                % 01682 RGTR--
+170802001 Haller, Beim Basseng  00708  00708                % 01682 RGTR--
+170804002 Waldbillig, Gemeng    00711  00711                % 01682 RGTR--
+170804001 Waldbillig, Bëlleger  00712  00712                % 01682 RGTR--
+170801002 Christnach, Schoulst  00714  00714                % 01682 RGTR--
+170801003 Christnach, Fielsers  00714  00714                % 01682 RGTR--
+160603001 Heffingen, Scherfemi  00717  00717                % 01682 RGTR--
+160601001 Larochette, Bleech    00719  00719                % 01682 RGTR--
+160601005 Larochette, Leedebac  00720  00720                % 01682 RGTR--
+141001001 Medernach, Fondation  00722  00722                % 01682 RGTR--
+141001003 Medernach, Op der Ga  00722  00722                % 01682 RGTR--
+140503001 Stegen, Bloen Eck     00726  00726                % 01682 RGTR--
+140503002 Stegen, Eglise        00727  00727                % 01682 RGTR--
+141301001 Schieren, Centre spo  00732  00732                % 01682 RGTR--
+141301006 Schieren, Vali's Pla  00733  00733                % 01682 RGTR--
+140701018 Ettelbruck, H.v.Land  00735  00735                % 01682 RGTR--
+140701026 Ettelbruck, Rond Poi  00737  00737                % 01682 RGTR--
+140701015 Ettelbruck, Ecole Pr  00738  00738                % 01682 RGTR--
+140701016 Ettelbruck, Gare      00740  00740                % 01682 RGTR--
+140701023 Ettelbruck, Lycée Te  00744                       % 01682 RGTR--
+*Z 01683 RGTR--                                             % 01683 RGTR--
+*L 504      170802002 140701016  01103  01140               % 01683 RGTR--
+*A bf 170802002 140701016 000000  01103  01140              % 01683 RGTR--
+*R 2 140701016 170802002 140701016  01103  01140            % 01683 RGTR--
+*G RGB 170802002 140701016  01103  01140                    % 01683 RGTR--
+*A VE 170802002 140701016 000000  01103  01140              % 01683 RGTR--
+*I FD 170802002 140701016        0002587  01103  01140      % 01683 RGTR--
+170802002 Haller, Schoul               01103                % 01683 RGTR--
+170802001 Haller, Beim Basseng  01104  01104                % 01683 RGTR--
+170804002 Waldbillig, Gemeng    01107  01107                % 01683 RGTR--
+170804001 Waldbillig, Bëlleger  01108  01108                % 01683 RGTR--
+170801002 Christnach, Schoulst  01109  01109                % 01683 RGTR--
+170801003 Christnach, Fielsers  01110  01110                % 01683 RGTR--
+160603001 Heffingen, Scherfemi  01113  01113                % 01683 RGTR--
+160601001 Larochette, Bleech    01114  01114                % 01683 RGTR--
+160601005 Larochette, Leedebac  01115  01115                % 01683 RGTR--
+141001001 Medernach, Fondation  01117  01117                % 01683 RGTR--
+141001003 Medernach, Op der Ga  01117  01117                % 01683 RGTR--
+141001004 Medernach, Op der La  01119  01119                % 01683 RGTR--
+141001002 Medernach, Iermsdrëf  01120  01120                % 01683 RGTR--
+140502002 Ermsdorf              01122  01122                % 01683 RGTR--
+140502001 Ermsdorf, Buntewee    01123  01123                % 01683 RGTR--
+140503001 Stegen, Bloen Eck     01128  01128                % 01683 RGTR--
+140503002 Stegen, Eglise        01129  01129                % 01683 RGTR--
+141301001 Schieren, Centre spo  01134  01134                % 01683 RGTR--
+141301006 Schieren, Vali's Pla  01135  01135                % 01683 RGTR--
+140701018 Ettelbruck, H.v.Land  01136  01136                % 01683 RGTR--
+140701026 Ettelbruck, Rond Poi  01137  01137                % 01683 RGTR--
+140701015 Ettelbruck, Ecole Pr  01138  01138                % 01683 RGTR--
+140701016 Ettelbruck, Gare      01140                       % 01683 RGTR--
+*Z 01684 RGTR--                                             % 01684 RGTR--
+*L 504      170802002 140701016  00503  00540               % 01684 RGTR--
+*A bf 170802002 140701016 000001  00503  00540              % 01684 RGTR--
+*R 2 140701016 170802002 140701016  00503  00540            % 01684 RGTR--
+*G RGB 170802002 140701016  00503  00540                    % 01684 RGTR--
+*A VE 170802002 140701016 000001  00503  00540              % 01684 RGTR--
+*I FD 170802002 140701016        0002588  00503  00540      % 01684 RGTR--
+170802002 Haller, Schoul               00503                % 01684 RGTR--
+170802001 Haller, Beim Basseng  00504  00504                % 01684 RGTR--
+170804002 Waldbillig, Gemeng    00507  00507                % 01684 RGTR--
+170804001 Waldbillig, Bëlleger  00508  00508                % 01684 RGTR--
+170801002 Christnach, Schoulst  00509  00509                % 01684 RGTR--
+170801003 Christnach, Fielsers  00510  00510                % 01684 RGTR--
+160603001 Heffingen, Scherfemi  00513  00513                % 01684 RGTR--
+160601001 Larochette, Bleech    00514  00514                % 01684 RGTR--
+160601005 Larochette, Leedebac  00515  00515                % 01684 RGTR--
+141001001 Medernach, Fondation  00517  00517                % 01684 RGTR--
+141001003 Medernach, Op der Ga  00517  00517                % 01684 RGTR--
+141001004 Medernach, Op der La  00519  00519                % 01684 RGTR--
+141001002 Medernach, Iermsdrëf  00520  00520                % 01684 RGTR--
+140502002 Ermsdorf              00522  00522                % 01684 RGTR--
+140502001 Ermsdorf, Buntewee    00523  00523                % 01684 RGTR--
+140503001 Stegen, Bloen Eck     00528  00528                % 01684 RGTR--
+140503002 Stegen, Eglise        00529  00529                % 01684 RGTR--
+141301001 Schieren, Centre spo  00534  00534                % 01684 RGTR--
+141301006 Schieren, Vali's Pla  00535  00535                % 01684 RGTR--
+140701018 Ettelbruck, H.v.Land  00536  00536                % 01684 RGTR--
+140701026 Ettelbruck, Rond Poi  00537  00537                % 01684 RGTR--
+140701015 Ettelbruck, Ecole Pr  00538  00538                % 01684 RGTR--
+140701016 Ettelbruck, Gare      00540                       % 01684 RGTR--
+*Z 01685 RGTR--                                             % 01685 RGTR--
+*L 504      170802002 140701016  00606  00642               % 01685 RGTR--
+*A bf 170802002 140701016 000001  00606  00642              % 01685 RGTR--
+*A PE 170802002 140701016 000001  00606  00642              % 01685 RGTR--
+*R 2 140701016 170802002 140701016  00606  00642            % 01685 RGTR--
+*G RGB 170802002 140701016  00606  00642                    % 01685 RGTR--
+*A VE 170802002 140701016 000001  00606  00642              % 01685 RGTR--
+*I FD 170802002 140701016        0002215  00606  00642      % 01685 RGTR--
+170802002 Haller, Schoul               00606                % 01685 RGTR--
+170802001 Haller, Beim Basseng  00606  00606                % 01685 RGTR--
+170804002 Waldbillig, Gemeng    00610  00610                % 01685 RGTR--
+170804001 Waldbillig, Bëlleger  00610  00610                % 01685 RGTR--
+170801002 Christnach, Schoulst  00612  00612                % 01685 RGTR--
+170801003 Christnach, Fielsers  00612  00612                % 01685 RGTR--
+160603001 Heffingen, Scherfemi  00615  00615                % 01685 RGTR--
+160601001 Larochette, Bleech    00617  00617                % 01685 RGTR--
+160601005 Larochette, Leedebac  00618  00618                % 01685 RGTR--
+141001001 Medernach, Fondation  00619  00619                % 01685 RGTR--
+141001003 Medernach, Op der Ga  00620  00620                % 01685 RGTR--
+141001004 Medernach, Op der La  00621  00621                % 01685 RGTR--
+141001002 Medernach, Iermsdrëf  00622  00622                % 01685 RGTR--
+140502002 Ermsdorf              00625  00625                % 01685 RGTR--
+140502001 Ermsdorf, Buntewee    00626  00626                % 01685 RGTR--
+140503001 Stegen, Bloen Eck     00631  00631                % 01685 RGTR--
+140503002 Stegen, Eglise        00631  00631                % 01685 RGTR--
+141301001 Schieren, Centre spo  00636  00636                % 01685 RGTR--
+141301006 Schieren, Vali's Pla  00637  00637                % 01685 RGTR--
+140701018 Ettelbruck, H.v.Land  00639  00639                % 01685 RGTR--
+140701026 Ettelbruck, Rond Poi  00640  00640                % 01685 RGTR--
+140701015 Ettelbruck, Ecole Pr  00641  00641                % 01685 RGTR--
+140701016 Ettelbruck, Gare      00642                       % 01685 RGTR--
+*Z 01686 RGTR--                                             % 01686 RGTR--
+*L 504      170802002 140701016  01003  01040               % 01686 RGTR--
+*A bf 170802002 140701016 000001  01003  01040              % 01686 RGTR--
+*R 2 140701016 170802002 140701016  01003  01040            % 01686 RGTR--
+*G RGB 170802002 140701016  01003  01040                    % 01686 RGTR--
+*A VE 170802002 140701016 000001  01003  01040              % 01686 RGTR--
+*I FD 170802002 140701016        0002589  01003  01040      % 01686 RGTR--
+170802002 Haller, Schoul               01003                % 01686 RGTR--
+170802001 Haller, Beim Basseng  01004  01004                % 01686 RGTR--
+170804002 Waldbillig, Gemeng    01007  01007                % 01686 RGTR--
+170804001 Waldbillig, Bëlleger  01008  01008                % 01686 RGTR--
+170801002 Christnach, Schoulst  01009  01009                % 01686 RGTR--
+170801003 Christnach, Fielsers  01010  01010                % 01686 RGTR--
+160603001 Heffingen, Scherfemi  01013  01013                % 01686 RGTR--
+160601001 Larochette, Bleech    01014  01014                % 01686 RGTR--
+160601005 Larochette, Leedebac  01015  01015                % 01686 RGTR--
+141001001 Medernach, Fondation  01017  01017                % 01686 RGTR--
+141001003 Medernach, Op der Ga  01017  01017                % 01686 RGTR--
+141001004 Medernach, Op der La  01019  01019                % 01686 RGTR--
+141001002 Medernach, Iermsdrëf  01020  01020                % 01686 RGTR--
+140502002 Ermsdorf              01022  01022                % 01686 RGTR--
+140502001 Ermsdorf, Buntewee    01023  01023                % 01686 RGTR--
+140503001 Stegen, Bloen Eck     01028  01028                % 01686 RGTR--
+140503002 Stegen, Eglise        01029  01029                % 01686 RGTR--
+141301001 Schieren, Centre spo  01034  01034                % 01686 RGTR--
+141301006 Schieren, Vali's Pla  01035  01035                % 01686 RGTR--
+140701018 Ettelbruck, H.v.Land  01036  01036                % 01686 RGTR--
+140701026 Ettelbruck, Rond Poi  01037  01037                % 01686 RGTR--
+140701015 Ettelbruck, Ecole Pr  01038  01038                % 01686 RGTR--
+140701016 Ettelbruck, Gare      01040                       % 01686 RGTR--
+*Z 01687 RGTR--                                             % 01687 RGTR--
+*L 504      170802002 140701016  01903  01940               % 01687 RGTR--
+*A bf 170802002 140701016 000001  01903  01940              % 01687 RGTR--
+*R 2 140701016 170802002 140701016  01903  01940            % 01687 RGTR--
+*G RGB 170802002 140701016  01903  01940                    % 01687 RGTR--
+*A VE 170802002 140701016 000001  01903  01940              % 01687 RGTR--
+*I FD 170802002 140701016        0002590  01903  01940      % 01687 RGTR--
+170802002 Haller, Schoul               01903                % 01687 RGTR--
+170802001 Haller, Beim Basseng  01904  01904                % 01687 RGTR--
+170804002 Waldbillig, Gemeng    01907  01907                % 01687 RGTR--
+170804001 Waldbillig, Bëlleger  01908  01908                % 01687 RGTR--
+170801002 Christnach, Schoulst  01909  01909                % 01687 RGTR--
+170801003 Christnach, Fielsers  01910  01910                % 01687 RGTR--
+160603001 Heffingen, Scherfemi  01913  01913                % 01687 RGTR--
+160601001 Larochette, Bleech    01914  01914                % 01687 RGTR--
+160601005 Larochette, Leedebac  01915  01915                % 01687 RGTR--
+141001001 Medernach, Fondation  01917  01917                % 01687 RGTR--
+141001003 Medernach, Op der Ga  01917  01917                % 01687 RGTR--
+141001004 Medernach, Op der La  01919  01919                % 01687 RGTR--
+141001002 Medernach, Iermsdrëf  01920  01920                % 01687 RGTR--
+140502002 Ermsdorf              01922  01922                % 01687 RGTR--
+140502001 Ermsdorf, Buntewee    01923  01923                % 01687 RGTR--
+140503001 Stegen, Bloen Eck     01928  01928                % 01687 RGTR--
+140503002 Stegen, Eglise        01929  01929                % 01687 RGTR--
+141301001 Schieren, Centre spo  01934  01934                % 01687 RGTR--
+141301006 Schieren, Vali's Pla  01935  01935                % 01687 RGTR--
+140701018 Ettelbruck, H.v.Land  01936  01936                % 01687 RGTR--
+140701026 Ettelbruck, Rond Poi  01937  01937                % 01687 RGTR--
+140701015 Ettelbruck, Ecole Pr  01938  01938                % 01687 RGTR--
+140701016 Ettelbruck, Gare      01940                       % 01687 RGTR--
+*Z 01688 RGTR--                                             % 01688 RGTR--
+*L 504      170802002 140701016  02003  02040               % 01688 RGTR--
+*A bf 170802002 140701016 000001  02003  02040              % 01688 RGTR--
+*R 2 140701016 170802002 140701016  02003  02040            % 01688 RGTR--
+*G RGB 170802002 140701016  02003  02040                    % 01688 RGTR--
+*A VE 170802002 140701016 000001  02003  02040              % 01688 RGTR--
+*I FD 170802002 140701016        0002591  02003  02040      % 01688 RGTR--
+170802002 Haller, Schoul               02003                % 01688 RGTR--
+170802001 Haller, Beim Basseng  02004  02004                % 01688 RGTR--
+170804002 Waldbillig, Gemeng    02007  02007                % 01688 RGTR--
+170804001 Waldbillig, Bëlleger  02008  02008                % 01688 RGTR--
+170801002 Christnach, Schoulst  02009  02009                % 01688 RGTR--
+170801003 Christnach, Fielsers  02010  02010                % 01688 RGTR--
+160603001 Heffingen, Scherfemi  02013  02013                % 01688 RGTR--
+160601001 Larochette, Bleech    02014  02014                % 01688 RGTR--
+160601005 Larochette, Leedebac  02015  02015                % 01688 RGTR--
+141001001 Medernach, Fondation  02017  02017                % 01688 RGTR--
+141001003 Medernach, Op der Ga  02017  02017                % 01688 RGTR--
+141001004 Medernach, Op der La  02019  02019                % 01688 RGTR--
+141001002 Medernach, Iermsdrëf  02020  02020                % 01688 RGTR--
+140502002 Ermsdorf              02022  02022                % 01688 RGTR--
+140502001 Ermsdorf, Buntewee    02023  02023                % 01688 RGTR--
+140503001 Stegen, Bloen Eck     02028  02028                % 01688 RGTR--
+140503002 Stegen, Eglise        02029  02029                % 01688 RGTR--
+141301001 Schieren, Centre spo  02034  02034                % 01688 RGTR--
+141301006 Schieren, Vali's Pla  02035  02035                % 01688 RGTR--
+140701018 Ettelbruck, H.v.Land  02036  02036                % 01688 RGTR--
+140701026 Ettelbruck, Rond Poi  02037  02037                % 01688 RGTR--
+140701015 Ettelbruck, Ecole Pr  02038  02038                % 01688 RGTR--
+140701016 Ettelbruck, Gare      02040                       % 01688 RGTR--
+*Z 01689 RGTR--                                             % 01689 RGTR--
+*L 504      170802002 140701016  02103  02140               % 01689 RGTR--
+*A bf 170802002 140701016 000001  02103  02140              % 01689 RGTR--
+*R 2 140701016 170802002 140701016  02103  02140            % 01689 RGTR--
+*G RGB 170802002 140701016  02103  02140                    % 01689 RGTR--
+*A VE 170802002 140701016 000001  02103  02140              % 01689 RGTR--
+*I FD 170802002 140701016        0002592  02103  02140      % 01689 RGTR--
+170802002 Haller, Schoul               02103                % 01689 RGTR--
+170802001 Haller, Beim Basseng  02104  02104                % 01689 RGTR--
+170804002 Waldbillig, Gemeng    02107  02107                % 01689 RGTR--
+170804001 Waldbillig, Bëlleger  02108  02108                % 01689 RGTR--
+170801002 Christnach, Schoulst  02109  02109                % 01689 RGTR--
+170801003 Christnach, Fielsers  02110  02110                % 01689 RGTR--
+160603001 Heffingen, Scherfemi  02113  02113                % 01689 RGTR--
+160601001 Larochette, Bleech    02114  02114                % 01689 RGTR--
+160601005 Larochette, Leedebac  02115  02115                % 01689 RGTR--
+141001001 Medernach, Fondation  02117  02117                % 01689 RGTR--
+141001003 Medernach, Op der Ga  02117  02117                % 01689 RGTR--
+141001004 Medernach, Op der La  02119  02119                % 01689 RGTR--
+141001002 Medernach, Iermsdrëf  02120  02120                % 01689 RGTR--
+140502002 Ermsdorf              02122  02122                % 01689 RGTR--
+140502001 Ermsdorf, Buntewee    02123  02123                % 01689 RGTR--
+140503001 Stegen, Bloen Eck     02128  02128                % 01689 RGTR--
+140503002 Stegen, Eglise        02129  02129                % 01689 RGTR--
+141301001 Schieren, Centre spo  02134  02134                % 01689 RGTR--
+141301006 Schieren, Vali's Pla  02135  02135                % 01689 RGTR--
+140701018 Ettelbruck, H.v.Land  02136  02136                % 01689 RGTR--
+140701026 Ettelbruck, Rond Poi  02137  02137                % 01689 RGTR--
+140701015 Ettelbruck, Ecole Pr  02138  02138                % 01689 RGTR--
+140701016 Ettelbruck, Gare      02140                       % 01689 RGTR--
+*Z 01690 RGTR--                                             % 01690 RGTR--
+*L 504      170802002 140701016  00906  00942               % 01690 RGTR--
+*A bf 170802002 140701016 000003  00906  00942              % 01690 RGTR--
+*R 2 140701016 170802002 140701016  00906  00942            % 01690 RGTR--
+*G RGB 170802002 140701016  00906  00942                    % 01690 RGTR--
+*A VE 170802002 140701016 000003  00906  00942              % 01690 RGTR--
+*I FD 170802002 140701016        0002593  00906  00942      % 01690 RGTR--
+170802002 Haller, Schoul               00906                % 01690 RGTR--
+170802001 Haller, Beim Basseng  00906  00906                % 01690 RGTR--
+170804002 Waldbillig, Gemeng    00910  00910                % 01690 RGTR--
+170804001 Waldbillig, Bëlleger  00910  00910                % 01690 RGTR--
+170801002 Christnach, Schoulst  00912  00912                % 01690 RGTR--
+170801003 Christnach, Fielsers  00912  00912                % 01690 RGTR--
+160603001 Heffingen, Scherfemi  00915  00915                % 01690 RGTR--
+160601001 Larochette, Bleech    00917  00917                % 01690 RGTR--
+160601005 Larochette, Leedebac  00918  00918                % 01690 RGTR--
+141001001 Medernach, Fondation  00919  00919                % 01690 RGTR--
+141001003 Medernach, Op der Ga  00920  00920                % 01690 RGTR--
+141001004 Medernach, Op der La  00921  00921                % 01690 RGTR--
+141001002 Medernach, Iermsdrëf  00922  00922                % 01690 RGTR--
+140502002 Ermsdorf              00925  00925                % 01690 RGTR--
+140502001 Ermsdorf, Buntewee    00926  00926                % 01690 RGTR--
+140503001 Stegen, Bloen Eck     00931  00931                % 01690 RGTR--
+140503002 Stegen, Eglise        00931  00931                % 01690 RGTR--
+141301001 Schieren, Centre spo  00936  00936                % 01690 RGTR--
+141301006 Schieren, Vali's Pla  00937  00937                % 01690 RGTR--
+140701018 Ettelbruck, H.v.Land  00939  00939                % 01690 RGTR--
+140701026 Ettelbruck, Rond Poi  00940  00940                % 01690 RGTR--
+140701015 Ettelbruck, Ecole Pr  00941  00941                % 01690 RGTR--
+140701016 Ettelbruck, Gare      00942                       % 01690 RGTR--
+*Z 01691 RGTR--                                             % 01691 RGTR--
+*L 504      170802002 140701016  01306  01342               % 01691 RGTR--
+*A bf 170802002 140701016 000003  01306  01342              % 01691 RGTR--
+*R 2 140701016 170802002 140701016  01306  01342            % 01691 RGTR--
+*G RGB 170802002 140701016  01306  01342                    % 01691 RGTR--
+*A VE 170802002 140701016 000003  01306  01342              % 01691 RGTR--
+*I FD 170802002 140701016        0002227  01306  01342      % 01691 RGTR--
+170802002 Haller, Schoul               01306                % 01691 RGTR--
+170802001 Haller, Beim Basseng  01306  01306                % 01691 RGTR--
+170804002 Waldbillig, Gemeng    01310  01310                % 01691 RGTR--
+170804001 Waldbillig, Bëlleger  01310  01310                % 01691 RGTR--
+170801002 Christnach, Schoulst  01312  01312                % 01691 RGTR--
+170801003 Christnach, Fielsers  01312  01312                % 01691 RGTR--
+160603001 Heffingen, Scherfemi  01315  01315                % 01691 RGTR--
+160601001 Larochette, Bleech    01317  01317                % 01691 RGTR--
+160601005 Larochette, Leedebac  01318  01318                % 01691 RGTR--
+141001001 Medernach, Fondation  01319  01319                % 01691 RGTR--
+141001003 Medernach, Op der Ga  01320  01320                % 01691 RGTR--
+141001004 Medernach, Op der La  01321  01321                % 01691 RGTR--
+141001002 Medernach, Iermsdrëf  01322  01322                % 01691 RGTR--
+140502002 Ermsdorf              01325  01325                % 01691 RGTR--
+140502001 Ermsdorf, Buntewee    01326  01326                % 01691 RGTR--
+140503001 Stegen, Bloen Eck     01331  01331                % 01691 RGTR--
+140503002 Stegen, Eglise        01331  01331                % 01691 RGTR--
+141301001 Schieren, Centre spo  01336  01336                % 01691 RGTR--
+141301006 Schieren, Vali's Pla  01337  01337                % 01691 RGTR--
+140701018 Ettelbruck, H.v.Land  01339  01339                % 01691 RGTR--
+140701026 Ettelbruck, Rond Poi  01340  01340                % 01691 RGTR--
+140701015 Ettelbruck, Ecole Pr  01341  01341                % 01691 RGTR--
+140701016 Ettelbruck, Gare      01342                       % 01691 RGTR--
+*Z 01692 RGTR--                                             % 01692 RGTR--
+*L 504      170802002 140701016  01506  01542               % 01692 RGTR--
+*A bf 170802002 140701016 000003  01506  01542              % 01692 RGTR--
+*R 2 140701016 170802002 140701016  01506  01542            % 01692 RGTR--
+*G RGB 170802002 140701016  01506  01542                    % 01692 RGTR--
+*A VE 170802002 140701016 000003  01506  01542              % 01692 RGTR--
+*I FD 170802002 140701016        0002226  01506  01542      % 01692 RGTR--
+170802002 Haller, Schoul               01506                % 01692 RGTR--
+170802001 Haller, Beim Basseng  01506  01506                % 01692 RGTR--
+170804002 Waldbillig, Gemeng    01510  01510                % 01692 RGTR--
+170804001 Waldbillig, Bëlleger  01510  01510                % 01692 RGTR--
+170801002 Christnach, Schoulst  01512  01512                % 01692 RGTR--
+170801003 Christnach, Fielsers  01512  01512                % 01692 RGTR--
+160603001 Heffingen, Scherfemi  01515  01515                % 01692 RGTR--
+160601001 Larochette, Bleech    01517  01517                % 01692 RGTR--
+160601005 Larochette, Leedebac  01518  01518                % 01692 RGTR--
+141001001 Medernach, Fondation  01519  01519                % 01692 RGTR--
+141001003 Medernach, Op der Ga  01520  01520                % 01692 RGTR--
+141001004 Medernach, Op der La  01521  01521                % 01692 RGTR--
+141001002 Medernach, Iermsdrëf  01522  01522                % 01692 RGTR--
+140502002 Ermsdorf              01525  01525                % 01692 RGTR--
+140502001 Ermsdorf, Buntewee    01526  01526                % 01692 RGTR--
+140503001 Stegen, Bloen Eck     01531  01531                % 01692 RGTR--
+140503002 Stegen, Eglise        01531  01531                % 01692 RGTR--
+141301001 Schieren, Centre spo  01536  01536                % 01692 RGTR--
+141301006 Schieren, Vali's Pla  01537  01537                % 01692 RGTR--
+140701018 Ettelbruck, H.v.Land  01539  01539                % 01692 RGTR--
+140701026 Ettelbruck, Rond Poi  01540  01540                % 01692 RGTR--
+140701015 Ettelbruck, Ecole Pr  01541  01541                % 01692 RGTR--
+140701016 Ettelbruck, Gare      01542                       % 01692 RGTR--
+*Z 01693 RGTR--                                             % 01693 RGTR--
+*L 504      170802002 140701016  01706  01742               % 01693 RGTR--
+*A bf 170802002 140701016 000003  01706  01742              % 01693 RGTR--
+*R 2 140701016 170802002 140701016  01706  01742            % 01693 RGTR--
+*G RGB 170802002 140701016  01706  01742                    % 01693 RGTR--
+*A VE 170802002 140701016 000003  01706  01742              % 01693 RGTR--
+*I FD 170802002 140701016        0002594  01706  01742      % 01693 RGTR--
+170802002 Haller, Schoul               01706                % 01693 RGTR--
+170802001 Haller, Beim Basseng  01706  01706                % 01693 RGTR--
+170804002 Waldbillig, Gemeng    01710  01710                % 01693 RGTR--
+170804001 Waldbillig, Bëlleger  01710  01710                % 01693 RGTR--
+170801002 Christnach, Schoulst  01712  01712                % 01693 RGTR--
+170801003 Christnach, Fielsers  01712  01712                % 01693 RGTR--
+160603001 Heffingen, Scherfemi  01715  01715                % 01693 RGTR--
+160601001 Larochette, Bleech    01717  01717                % 01693 RGTR--
+160601005 Larochette, Leedebac  01718  01718                % 01693 RGTR--
+141001001 Medernach, Fondation  01719  01719                % 01693 RGTR--
+141001003 Medernach, Op der Ga  01720  01720                % 01693 RGTR--
+141001004 Medernach, Op der La  01721  01721                % 01693 RGTR--
+141001002 Medernach, Iermsdrëf  01722  01722                % 01693 RGTR--
+140502002 Ermsdorf              01725  01725                % 01693 RGTR--
+140502001 Ermsdorf, Buntewee    01726  01726                % 01693 RGTR--
+140503001 Stegen, Bloen Eck     01731  01731                % 01693 RGTR--
+140503002 Stegen, Eglise        01731  01731                % 01693 RGTR--
+141301001 Schieren, Centre spo  01736  01736                % 01693 RGTR--
+141301006 Schieren, Vali's Pla  01737  01737                % 01693 RGTR--
+140701018 Ettelbruck, H.v.Land  01739  01739                % 01693 RGTR--
+140701026 Ettelbruck, Rond Poi  01740  01740                % 01693 RGTR--
+140701015 Ettelbruck, Ecole Pr  01741  01741                % 01693 RGTR--
+140701016 Ettelbruck, Gare      01742                       % 01693 RGTR--
+*Z 01694 RGTR--                                             % 01694 RGTR--
+*L 504      170802002 140701016  00806  00845               % 01694 RGTR--
+*A bf 170802002 140701016 000001  00806  00845              % 01694 RGTR--
+*A PE 170802002 140701016 000001  00806  00845              % 01694 RGTR--
+*R 2 140701016 170802002 140701016  00806  00845            % 01694 RGTR--
+*G RGB 170802002 140701016  00806  00845                    % 01694 RGTR--
+*A VE 170802002 140701016 000001  00806  00845              % 01694 RGTR--
+*I FD 170802002 140701016        0002595  00806  00845      % 01694 RGTR--
+170802002 Haller, Schoul               00806                % 01694 RGTR--
+170802001 Haller, Beim Basseng  00806  00806                % 01694 RGTR--
+170804002 Waldbillig, Gemeng    00810  00810                % 01694 RGTR--
+170804001 Waldbillig, Bëlleger  00811  00811                % 01694 RGTR--
+170801002 Christnach, Schoulst  00812  00812                % 01694 RGTR--
+170801003 Christnach, Fielsers  00813  00813                % 01694 RGTR--
+160603001 Heffingen, Scherfemi  00816  00816                % 01694 RGTR--
+160601001 Larochette, Bleech    00817  00817                % 01694 RGTR--
+160601005 Larochette, Leedebac  00818  00818                % 01694 RGTR--
+141001001 Medernach, Fondation  00820  00820                % 01694 RGTR--
+141001003 Medernach, Op der Ga  00820  00820                % 01694 RGTR--
+141001004 Medernach, Op der La  00822  00822                % 01694 RGTR--
+141001002 Medernach, Iermsdrëf  00823  00823                % 01694 RGTR--
+140502002 Ermsdorf              00825  00825                % 01694 RGTR--
+140502001 Ermsdorf, Buntewee    00826  00826                % 01694 RGTR--
+140503001 Stegen, Bloen Eck     00832  00832                % 01694 RGTR--
+140503002 Stegen, Eglise        00833  00833                % 01694 RGTR--
+141301001 Schieren, Centre spo  00838  00838                % 01694 RGTR--
+141301006 Schieren, Vali's Pla  00839  00839                % 01694 RGTR--
+140701018 Ettelbruck, H.v.Land  00841  00841                % 01694 RGTR--
+140701026 Ettelbruck, Rond Poi  00843  00843                % 01694 RGTR--
+140701015 Ettelbruck, Ecole Pr  00844  00844                % 01694 RGTR--
+140701016 Ettelbruck, Gare      00845                       % 01694 RGTR--
+*Z 01695 RGTR--                                             % 01695 RGTR--
+*L 504      170802002 140701016  00906  00945               % 01695 RGTR--
+*A bf 170802002 140701016 000001  00906  00945              % 01695 RGTR--
+*A PE 170802002 140701016 000001  00906  00945              % 01695 RGTR--
+*R 2 140701016 170802002 140701016  00906  00945            % 01695 RGTR--
+*G RGB 170802002 140701016  00906  00945                    % 01695 RGTR--
+*A VE 170802002 140701016 000001  00906  00945              % 01695 RGTR--
+*I FD 170802002 140701016        0002596  00906  00945      % 01695 RGTR--
+170802002 Haller, Schoul               00906                % 01695 RGTR--
+170802001 Haller, Beim Basseng  00906  00906                % 01695 RGTR--
+170804002 Waldbillig, Gemeng    00910  00910                % 01695 RGTR--
+170804001 Waldbillig, Bëlleger  00911  00911                % 01695 RGTR--
+170801002 Christnach, Schoulst  00912  00912                % 01695 RGTR--
+170801003 Christnach, Fielsers  00913  00913                % 01695 RGTR--
+160603001 Heffingen, Scherfemi  00916  00916                % 01695 RGTR--
+160601001 Larochette, Bleech    00917  00917                % 01695 RGTR--
+160601005 Larochette, Leedebac  00918  00918                % 01695 RGTR--
+141001001 Medernach, Fondation  00920  00920                % 01695 RGTR--
+141001003 Medernach, Op der Ga  00920  00920                % 01695 RGTR--
+141001004 Medernach, Op der La  00922  00922                % 01695 RGTR--
+141001002 Medernach, Iermsdrëf  00923  00923                % 01695 RGTR--
+140502002 Ermsdorf              00925  00925                % 01695 RGTR--
+140502001 Ermsdorf, Buntewee    00926  00926                % 01695 RGTR--
+140503001 Stegen, Bloen Eck     00932  00932                % 01695 RGTR--
+140503002 Stegen, Eglise        00933  00933                % 01695 RGTR--
+141301001 Schieren, Centre spo  00938  00938                % 01695 RGTR--
+141301006 Schieren, Vali's Pla  00939  00939                % 01695 RGTR--
+140701018 Ettelbruck, H.v.Land  00941  00941                % 01695 RGTR--
+140701026 Ettelbruck, Rond Poi  00943  00943                % 01695 RGTR--
+140701015 Ettelbruck, Ecole Pr  00944  00944                % 01695 RGTR--
+140701016 Ettelbruck, Gare      00945                       % 01695 RGTR--
+*Z 01696 RGTR--                                             % 01696 RGTR--
+*L 504      170802002 140701016  01701  01740               % 01696 RGTR--
+*A bf 170802002 140701016 000001  01701  01740              % 01696 RGTR--
+*R 2 140701016 170802002 140701016  01701  01740            % 01696 RGTR--
+*G RGB 170802002 140701016  01701  01740                    % 01696 RGTR--
+*A VE 170802002 140701016 000001  01701  01740              % 01696 RGTR--
+*I FD 170802002 140701016        0002095  01701  01740      % 01696 RGTR--
+170802002 Haller, Schoul               01701                % 01696 RGTR--
+170802001 Haller, Beim Basseng  01701  01701                % 01696 RGTR--
+170804002 Waldbillig, Gemeng    01705  01705                % 01696 RGTR--
+170804001 Waldbillig, Bëlleger  01706  01706                % 01696 RGTR--
+170801002 Christnach, Schoulst  01707  01707                % 01696 RGTR--
+170801003 Christnach, Fielsers  01708  01708                % 01696 RGTR--
+160603001 Heffingen, Scherfemi  01711  01711                % 01696 RGTR--
+160601001 Larochette, Bleech    01712  01712                % 01696 RGTR--
+160601005 Larochette, Leedebac  01713  01713                % 01696 RGTR--
+141001001 Medernach, Fondation  01715  01715                % 01696 RGTR--
+141001003 Medernach, Op der Ga  01715  01715                % 01696 RGTR--
+141001004 Medernach, Op der La  01717  01717                % 01696 RGTR--
+141001002 Medernach, Iermsdrëf  01718  01718                % 01696 RGTR--
+140502002 Ermsdorf              01720  01720                % 01696 RGTR--
+140502001 Ermsdorf, Buntewee    01721  01721                % 01696 RGTR--
+140503001 Stegen, Bloen Eck     01727  01727                % 01696 RGTR--
+140503002 Stegen, Eglise        01728  01728                % 01696 RGTR--
+141301001 Schieren, Centre spo  01733  01733                % 01696 RGTR--
+141301006 Schieren, Vali's Pla  01734  01734                % 01696 RGTR--
+140701018 Ettelbruck, H.v.Land  01736  01736                % 01696 RGTR--
+140701026 Ettelbruck, Rond Poi  01738  01738                % 01696 RGTR--
+140701015 Ettelbruck, Ecole Pr  01739  01739                % 01696 RGTR--
+140701016 Ettelbruck, Gare      01740                       % 01696 RGTR--
+*Z 01697 RGTR--                                             % 01697 RGTR--
+*L 504      170802002 140701016  01801  01840               % 01697 RGTR--
+*A bf 170802002 140701016 000001  01801  01840              % 01697 RGTR--
+*R 2 140701016 170802002 140701016  01801  01840            % 01697 RGTR--
+*G RGB 170802002 140701016  01801  01840                    % 01697 RGTR--
+*A VE 170802002 140701016 000001  01801  01840              % 01697 RGTR--
+*I FD 170802002 140701016        0002597  01801  01840      % 01697 RGTR--
+170802002 Haller, Schoul               01801                % 01697 RGTR--
+170802001 Haller, Beim Basseng  01801  01801                % 01697 RGTR--
+170804002 Waldbillig, Gemeng    01805  01805                % 01697 RGTR--
+170804001 Waldbillig, Bëlleger  01806  01806                % 01697 RGTR--
+170801002 Christnach, Schoulst  01807  01807                % 01697 RGTR--
+170801003 Christnach, Fielsers  01808  01808                % 01697 RGTR--
+160603001 Heffingen, Scherfemi  01811  01811                % 01697 RGTR--
+160601001 Larochette, Bleech    01812  01812                % 01697 RGTR--
+160601005 Larochette, Leedebac  01813  01813                % 01697 RGTR--
+141001001 Medernach, Fondation  01815  01815                % 01697 RGTR--
+141001003 Medernach, Op der Ga  01815  01815                % 01697 RGTR--
+141001004 Medernach, Op der La  01817  01817                % 01697 RGTR--
+141001002 Medernach, Iermsdrëf  01818  01818                % 01697 RGTR--
+140502002 Ermsdorf              01820  01820                % 01697 RGTR--
+140502001 Ermsdorf, Buntewee    01821  01821                % 01697 RGTR--
+140503001 Stegen, Bloen Eck     01827  01827                % 01697 RGTR--
+140503002 Stegen, Eglise        01828  01828                % 01697 RGTR--
+141301001 Schieren, Centre spo  01833  01833                % 01697 RGTR--
+141301006 Schieren, Vali's Pla  01834  01834                % 01697 RGTR--
+140701018 Ettelbruck, H.v.Land  01836  01836                % 01697 RGTR--
+140701026 Ettelbruck, Rond Poi  01838  01838                % 01697 RGTR--
+140701015 Ettelbruck, Ecole Pr  01839  01839                % 01697 RGTR--
+140701016 Ettelbruck, Gare      01840                       % 01697 RGTR--
+*Z 01698 RGTR--                                             % 01698 RGTR--
+*L 504      170802002 140701023  00700  00744               % 01698 RGTR--
+*A bf 170802002 140701023 000001  00700  00744              % 01698 RGTR--
+*R 2 140701023 170802002 140701023  00700  00744            % 01698 RGTR--
+*G RGB 170802002 140701023  00700  00744                    % 01698 RGTR--
+*A VE 170802002 140701023 000001  00700  00744              % 01698 RGTR--
+*I FD 170802002 140701023        0002197  00700  00744      % 01698 RGTR--
+170802002 Haller, Schoul               00700                % 01698 RGTR--
+170802001 Haller, Beim Basseng  00700  00700                % 01698 RGTR--
+170804002 Waldbillig, Gemeng    00704  00704                % 01698 RGTR--
+170804001 Waldbillig, Bëlleger  00705  00705                % 01698 RGTR--
+170801002 Christnach, Schoulst  00706  00706                % 01698 RGTR--
+170801003 Christnach, Fielsers  00707  00707                % 01698 RGTR--
+160603001 Heffingen, Scherfemi  00710  00710                % 01698 RGTR--
+160601001 Larochette, Bleech    00711  00711                % 01698 RGTR--
+160601005 Larochette, Leedebac  00712  00712                % 01698 RGTR--
+141001001 Medernach, Fondation  00714  00714                % 01698 RGTR--
+141001003 Medernach, Op der Ga  00714  00714                % 01698 RGTR--
+141001004 Medernach, Op der La  00716  00716                % 01698 RGTR--
+141001002 Medernach, Iermsdrëf  00717  00717                % 01698 RGTR--
+140502002 Ermsdorf              00719  00719                % 01698 RGTR--
+140502001 Ermsdorf, Buntewee    00720  00720                % 01698 RGTR--
+140503001 Stegen, Bloen Eck     00726  00726                % 01698 RGTR--
+140503002 Stegen, Eglise        00727  00727                % 01698 RGTR--
+141301001 Schieren, Centre spo  00732  00732                % 01698 RGTR--
+141301006 Schieren, Vali's Pla  00733  00733                % 01698 RGTR--
+140701018 Ettelbruck, H.v.Land  00735  00735                % 01698 RGTR--
+140701026 Ettelbruck, Rond Poi  00737  00737                % 01698 RGTR--
+140701015 Ettelbruck, Ecole Pr  00738  00738                % 01698 RGTR--
+140701016 Ettelbruck, Gare      00739  00739                % 01698 RGTR--
+140701023 Ettelbruck, Lycée Te  00744                       % 01698 RGTR--
+*Z 01699 RGTR--                                             % 01699 RGTR--
+*L 504      170802002 140701023  01600  01644               % 01699 RGTR--
+*A bf 170802002 140701023 000001  01600  01644              % 01699 RGTR--
+*R 2 140701023 170802002 140701023  01600  01644            % 01699 RGTR--
+*G RGB 170802002 140701023  01600  01644                    % 01699 RGTR--
+*A VE 170802002 140701023 000001  01600  01644              % 01699 RGTR--
+*I FD 170802002 140701023        0001911  01600  01644      % 01699 RGTR--
+170802002 Haller, Schoul               01600                % 01699 RGTR--
+170802001 Haller, Beim Basseng  01600  01600                % 01699 RGTR--
+170804002 Waldbillig, Gemeng    01604  01604                % 01699 RGTR--
+170804001 Waldbillig, Bëlleger  01605  01605                % 01699 RGTR--
+170801002 Christnach, Schoulst  01606  01606                % 01699 RGTR--
+170801003 Christnach, Fielsers  01607  01607                % 01699 RGTR--
+160603001 Heffingen, Scherfemi  01610  01610                % 01699 RGTR--
+160601001 Larochette, Bleech    01611  01611                % 01699 RGTR--
+160601005 Larochette, Leedebac  01612  01612                % 01699 RGTR--
+141001001 Medernach, Fondation  01614  01614                % 01699 RGTR--
+141001003 Medernach, Op der Ga  01614  01614                % 01699 RGTR--
+141001004 Medernach, Op der La  01616  01616                % 01699 RGTR--
+141001002 Medernach, Iermsdrëf  01617  01617                % 01699 RGTR--
+140502002 Ermsdorf              01619  01619                % 01699 RGTR--
+140502001 Ermsdorf, Buntewee    01620  01620                % 01699 RGTR--
+140503001 Stegen, Bloen Eck     01626  01626                % 01699 RGTR--
+140503002 Stegen, Eglise        01627  01627                % 01699 RGTR--
+141301001 Schieren, Centre spo  01632  01632                % 01699 RGTR--
+141301006 Schieren, Vali's Pla  01633  01633                % 01699 RGTR--
+140701018 Ettelbruck, H.v.Land  01635  01635                % 01699 RGTR--
+140701026 Ettelbruck, Rond Poi  01637  01637                % 01699 RGTR--
+140701015 Ettelbruck, Ecole Pr  01638  01638                % 01699 RGTR--
+140701016 Ettelbruck, Gare      01639  01639                % 01699 RGTR--
+140701023 Ettelbruck, Lycée Te  01644                       % 01699 RGTR--
+*Z 01700 RGTR--                                             % 01700 RGTR--
+*L 504      170802002 140701023  01206  01245               % 01700 RGTR--
+*A bf 170802002 140701023 000001  01206  01245              % 01700 RGTR--
+*A PE 170802002 140701023 000001  01206  01245              % 01700 RGTR--
+*R 2 140701023 170802002 140701023  01206  01245            % 01700 RGTR--
+*G RGB 170802002 140701023  01206  01245                    % 01700 RGTR--
+*A VE 170802002 140701023 000001  01206  01245              % 01700 RGTR--
+*I FD 170802002 140701023        0002224  01206  01245      % 01700 RGTR--
+170802002 Haller, Schoul               01206                % 01700 RGTR--
+170802001 Haller, Beim Basseng  01206  01206                % 01700 RGTR--
+170804002 Waldbillig, Gemeng    01210  01210                % 01700 RGTR--
+170804001 Waldbillig, Bëlleger  01210  01210                % 01700 RGTR--
+170801002 Christnach, Schoulst  01212  01212                % 01700 RGTR--
+170801003 Christnach, Fielsers  01212  01212                % 01700 RGTR--
+160603001 Heffingen, Scherfemi  01215  01215                % 01700 RGTR--
+160601001 Larochette, Bleech    01217  01217                % 01700 RGTR--
+160601005 Larochette, Leedebac  01218  01218                % 01700 RGTR--
+141001001 Medernach, Fondation  01219  01219                % 01700 RGTR--
+141001003 Medernach, Op der Ga  01220  01220                % 01700 RGTR--
+141001004 Medernach, Op der La  01221  01221                % 01700 RGTR--
+141001002 Medernach, Iermsdrëf  01222  01222                % 01700 RGTR--
+140502002 Ermsdorf              01225  01225                % 01700 RGTR--
+140502001 Ermsdorf, Buntewee    01226  01226                % 01700 RGTR--
+140503001 Stegen, Bloen Eck     01231  01231                % 01700 RGTR--
+140503002 Stegen, Eglise        01231  01231                % 01700 RGTR--
+141301001 Schieren, Centre spo  01236  01236                % 01700 RGTR--
+141301006 Schieren, Vali's Pla  01237  01237                % 01700 RGTR--
+140701018 Ettelbruck, H.v.Land  01239  01239                % 01700 RGTR--
+140701026 Ettelbruck, Rond Poi  01240  01240                % 01700 RGTR--
+140701015 Ettelbruck, Ecole Pr  01241  01241                % 01700 RGTR--
+140701016 Ettelbruck, Gare      01242  01242                % 01700 RGTR--
+140701023 Ettelbruck, Lycée Te  01245                       % 01700 RGTR--
+*Z 01701 RGTR--                                             % 01701 RGTR--
+*L 504      170802002 140701023  01303  01342               % 01701 RGTR--
+*A bf 170802002 140701023 000001  01303  01342              % 01701 RGTR--
+*R 2 140701023 170802002 140701023  01303  01342            % 01701 RGTR--
+*G RGB 170802002 140701023  01303  01342                    % 01701 RGTR--
+*A VE 170802002 140701023 000001  01303  01342              % 01701 RGTR--
+*I FD 170802002 140701023        0002598  01303  01342      % 01701 RGTR--
+170802002 Haller, Schoul               01303                % 01701 RGTR--
+170802001 Haller, Beim Basseng  01304  01304                % 01701 RGTR--
+170804002 Waldbillig, Gemeng    01307  01307                % 01701 RGTR--
+170804001 Waldbillig, Bëlleger  01308  01308                % 01701 RGTR--
+170801002 Christnach, Schoulst  01309  01309                % 01701 RGTR--
+170801003 Christnach, Fielsers  01310  01310                % 01701 RGTR--
+160603001 Heffingen, Scherfemi  01313  01313                % 01701 RGTR--
+160601001 Larochette, Bleech    01314  01314                % 01701 RGTR--
+160601005 Larochette, Leedebac  01315  01315                % 01701 RGTR--
+141001001 Medernach, Fondation  01317  01317                % 01701 RGTR--
+141001003 Medernach, Op der Ga  01317  01317                % 01701 RGTR--
+141001004 Medernach, Op der La  01319  01319                % 01701 RGTR--
+141001002 Medernach, Iermsdrëf  01320  01320                % 01701 RGTR--
+140502002 Ermsdorf              01322  01322                % 01701 RGTR--
+140502001 Ermsdorf, Buntewee    01323  01323                % 01701 RGTR--
+140503001 Stegen, Bloen Eck     01328  01328                % 01701 RGTR--
+140503002 Stegen, Eglise        01329  01329                % 01701 RGTR--
+141301001 Schieren, Centre spo  01334  01334                % 01701 RGTR--
+141301006 Schieren, Vali's Pla  01335  01335                % 01701 RGTR--
+140701018 Ettelbruck, H.v.Land  01336  01336                % 01701 RGTR--
+140701026 Ettelbruck, Rond Poi  01337  01337                % 01701 RGTR--
+140701015 Ettelbruck, Ecole Pr  01338  01338                % 01701 RGTR--
+140701016 Ettelbruck, Gare      01340  01340                % 01701 RGTR--
+140701023 Ettelbruck, Lycée Te  01342                       % 01701 RGTR--
+*Z 01702 RGTR--                                             % 01702 RGTR--
+*L 504      170802002 140701023  01403  01442               % 01702 RGTR--
+*A bf 170802002 140701023 000001  01403  01442              % 01702 RGTR--
+*R 2 140701023 170802002 140701023  01403  01442            % 01702 RGTR--
+*G RGB 170802002 140701023  01403  01442                    % 01702 RGTR--
+*A VE 170802002 140701023 000001  01403  01442              % 01702 RGTR--
+*I FD 170802002 140701023        0002599  01403  01442      % 01702 RGTR--
+170802002 Haller, Schoul               01403                % 01702 RGTR--
+170802001 Haller, Beim Basseng  01404  01404                % 01702 RGTR--
+170804002 Waldbillig, Gemeng    01407  01407                % 01702 RGTR--
+170804001 Waldbillig, Bëlleger  01408  01408                % 01702 RGTR--
+170801002 Christnach, Schoulst  01409  01409                % 01702 RGTR--
+170801003 Christnach, Fielsers  01410  01410                % 01702 RGTR--
+160603001 Heffingen, Scherfemi  01413  01413                % 01702 RGTR--
+160601001 Larochette, Bleech    01414  01414                % 01702 RGTR--
+160601005 Larochette, Leedebac  01415  01415                % 01702 RGTR--
+141001001 Medernach, Fondation  01417  01417                % 01702 RGTR--
+141001003 Medernach, Op der Ga  01417  01417                % 01702 RGTR--
+141001004 Medernach, Op der La  01419  01419                % 01702 RGTR--
+141001002 Medernach, Iermsdrëf  01420  01420                % 01702 RGTR--
+140502002 Ermsdorf              01422  01422                % 01702 RGTR--
+140502001 Ermsdorf, Buntewee    01423  01423                % 01702 RGTR--
+140503001 Stegen, Bloen Eck     01428  01428                % 01702 RGTR--
+140503002 Stegen, Eglise        01429  01429                % 01702 RGTR--
+141301001 Schieren, Centre spo  01434  01434                % 01702 RGTR--
+141301006 Schieren, Vali's Pla  01435  01435                % 01702 RGTR--
+140701018 Ettelbruck, H.v.Land  01436  01436                % 01702 RGTR--
+140701026 Ettelbruck, Rond Poi  01437  01437                % 01702 RGTR--
+140701015 Ettelbruck, Ecole Pr  01438  01438                % 01702 RGTR--
+140701016 Ettelbruck, Gare      01440  01440                % 01702 RGTR--
+140701023 Ettelbruck, Lycée Te  01442                       % 01702 RGTR--
+*Z 01703 RGTR--                                             % 01703 RGTR--
+*L 504      170802002 140701023  01503  01542               % 01703 RGTR--
+*A bf 170802002 140701023 000001  01503  01542              % 01703 RGTR--
+*R 2 140701023 170802002 140701023  01503  01542            % 01703 RGTR--
+*G RGB 170802002 140701023  01503  01542                    % 01703 RGTR--
+*A VE 170802002 140701023 000001  01503  01542              % 01703 RGTR--
+*I FD 170802002 140701023        0002600  01503  01542      % 01703 RGTR--
+170802002 Haller, Schoul               01503                % 01703 RGTR--
+170802001 Haller, Beim Basseng  01504  01504                % 01703 RGTR--
+170804002 Waldbillig, Gemeng    01507  01507                % 01703 RGTR--
+170804001 Waldbillig, Bëlleger  01508  01508                % 01703 RGTR--
+170801002 Christnach, Schoulst  01509  01509                % 01703 RGTR--
+170801003 Christnach, Fielsers  01510  01510                % 01703 RGTR--
+160603001 Heffingen, Scherfemi  01513  01513                % 01703 RGTR--
+160601001 Larochette, Bleech    01514  01514                % 01703 RGTR--
+160601005 Larochette, Leedebac  01515  01515                % 01703 RGTR--
+141001001 Medernach, Fondation  01517  01517                % 01703 RGTR--
+141001003 Medernach, Op der Ga  01517  01517                % 01703 RGTR--
+141001004 Medernach, Op der La  01519  01519                % 01703 RGTR--
+141001002 Medernach, Iermsdrëf  01520  01520                % 01703 RGTR--
+140502002 Ermsdorf              01522  01522                % 01703 RGTR--
+140502001 Ermsdorf, Buntewee    01523  01523                % 01703 RGTR--
+140503001 Stegen, Bloen Eck     01528  01528                % 01703 RGTR--
+140503002 Stegen, Eglise        01529  01529                % 01703 RGTR--
+141301001 Schieren, Centre spo  01534  01534                % 01703 RGTR--
+141301006 Schieren, Vali's Pla  01535  01535                % 01703 RGTR--
+140701018 Ettelbruck, H.v.Land  01536  01536                % 01703 RGTR--
+140701026 Ettelbruck, Rond Poi  01537  01537                % 01703 RGTR--
+140701015 Ettelbruck, Ecole Pr  01538  01538                % 01703 RGTR--
+140701016 Ettelbruck, Gare      01540  01540                % 01703 RGTR--
+140701023 Ettelbruck, Lycée Te  01542                       % 01703 RGTR--

@@ -1,0 +1,601 @@
+*F 03 2
+*Z 01564 RGTR--                                             % 01564 RGTR--
+*L 483      180401011 180703006  00528  00553               % 01564 RGTR--
+*A ay 180401011 180703006 000001  00528  00553              % 01564 RGTR--
+*R 1 180703006 180401011 180703006  00528  00553            % 01564 RGTR--
+*G RGB 180401011 180703006  00528  00553                    % 01564 RGTR--
+*A VE 180401011 180703006 000001  00528  00553              % 01564 RGTR--
+*I FD 180401011 180703006        0002562  00528  00553      % 01564 RGTR--
+180401011 Grevenmacher, Stadio         00528                % 01564 RGTR--
+180401009 Grevenmacher, Op Flo  00529  00529                % 01564 RGTR--
+180401010 Grevenmacher, Schoul  00530  00530                % 01564 RGTR--
+180401003 Grevenmacher, Gare r  00532  00538                % 01564 RGTR--
+180401004 Grevenmacher, Jardin  00539  00539                % 01564 RGTR--
+180701005 Mertert, Parc         00543  00543                % 01564 RGTR--
+180701003 Mertert, Eglise       00544  00544                % 01564 RGTR--
+180701001 Mertert, Beckius      00546  00546                % 01564 RGTR--
+180701002 Mertert, Copal        00546  00546                % 01564 RGTR--
+180703004 Wasserbillig, Marais  00547  00547                % 01564 RGTR--
+180703003 Wasserbillig, Gare    00548  00550                % 01564 RGTR--
+180703001 Wasserbillig, Centre  00551  00551                % 01564 RGTR--
+180703006 Wasserbillig, Rue de  00553                       % 01564 RGTR--
+*Z 01565 RGTR--                                             % 01565 RGTR--
+*L 483      180401011 180703006  00928  00953               % 01565 RGTR--
+*A ay 180401011 180703006 000001  00928  00953              % 01565 RGTR--
+*R 1 180703006 180401011 180703006  00928  00953            % 01565 RGTR--
+*G RGB 180401011 180703006  00928  00953                    % 01565 RGTR--
+*A VE 180401011 180703006 000001  00928  00953              % 01565 RGTR--
+*I FD 180401011 180703006        0000937  00928  00953      % 01565 RGTR--
+180401011 Grevenmacher, Stadio         00928                % 01565 RGTR--
+180401009 Grevenmacher, Op Flo  00929  00929                % 01565 RGTR--
+180401010 Grevenmacher, Schoul  00930  00930                % 01565 RGTR--
+180401003 Grevenmacher, Gare r  00932  00938                % 01565 RGTR--
+180401004 Grevenmacher, Jardin  00939  00939                % 01565 RGTR--
+180701005 Mertert, Parc         00943  00943                % 01565 RGTR--
+180701003 Mertert, Eglise       00944  00944                % 01565 RGTR--
+180701001 Mertert, Beckius      00946  00946                % 01565 RGTR--
+180701002 Mertert, Copal        00946  00946                % 01565 RGTR--
+180703004 Wasserbillig, Marais  00947  00947                % 01565 RGTR--
+180703003 Wasserbillig, Gare    00948  00950                % 01565 RGTR--
+180703001 Wasserbillig, Centre  00951  00951                % 01565 RGTR--
+180703006 Wasserbillig, Rue de  00953                       % 01565 RGTR--
+*Z 01566 RGTR--                                             % 01566 RGTR--
+*L 483      180401011 180703006  01028  01053               % 01566 RGTR--
+*A ay 180401011 180703006 000001  01028  01053              % 01566 RGTR--
+*R 1 180703006 180401011 180703006  01028  01053            % 01566 RGTR--
+*G RGB 180401011 180703006  01028  01053                    % 01566 RGTR--
+*A VE 180401011 180703006 000001  01028  01053              % 01566 RGTR--
+*I FD 180401011 180703006        0001990  01028  01053      % 01566 RGTR--
+180401011 Grevenmacher, Stadio         01028                % 01566 RGTR--
+180401009 Grevenmacher, Op Flo  01029  01029                % 01566 RGTR--
+180401010 Grevenmacher, Schoul  01030  01030                % 01566 RGTR--
+180401003 Grevenmacher, Gare r  01032  01038                % 01566 RGTR--
+180401004 Grevenmacher, Jardin  01039  01039                % 01566 RGTR--
+180701005 Mertert, Parc         01043  01043                % 01566 RGTR--
+180701003 Mertert, Eglise       01044  01044                % 01566 RGTR--
+180701001 Mertert, Beckius      01046  01046                % 01566 RGTR--
+180701002 Mertert, Copal        01046  01046                % 01566 RGTR--
+180703004 Wasserbillig, Marais  01047  01047                % 01566 RGTR--
+180703003 Wasserbillig, Gare    01048  01050                % 01566 RGTR--
+180703001 Wasserbillig, Centre  01051  01051                % 01566 RGTR--
+180703006 Wasserbillig, Rue de  01053                       % 01566 RGTR--
+*Z 01567 RGTR--                                             % 01567 RGTR--
+*L 483      180401011 180703006  01128  01153               % 01567 RGTR--
+*A ay 180401011 180703006 000001  01128  01153              % 01567 RGTR--
+*R 1 180703006 180401011 180703006  01128  01153            % 01567 RGTR--
+*G RGB 180401011 180703006  01128  01153                    % 01567 RGTR--
+*A VE 180401011 180703006 000001  01128  01153              % 01567 RGTR--
+*I FD 180401011 180703006        0001991  01128  01153      % 01567 RGTR--
+180401011 Grevenmacher, Stadio         01128                % 01567 RGTR--
+180401009 Grevenmacher, Op Flo  01129  01129                % 01567 RGTR--
+180401010 Grevenmacher, Schoul  01130  01130                % 01567 RGTR--
+180401003 Grevenmacher, Gare r  01132  01138                % 01567 RGTR--
+180401004 Grevenmacher, Jardin  01139  01139                % 01567 RGTR--
+180701005 Mertert, Parc         01143  01143                % 01567 RGTR--
+180701003 Mertert, Eglise       01144  01144                % 01567 RGTR--
+180701001 Mertert, Beckius      01146  01146                % 01567 RGTR--
+180701002 Mertert, Copal        01146  01146                % 01567 RGTR--
+180703004 Wasserbillig, Marais  01147  01147                % 01567 RGTR--
+180703003 Wasserbillig, Gare    01148  01150                % 01567 RGTR--
+180703001 Wasserbillig, Centre  01151  01151                % 01567 RGTR--
+180703006 Wasserbillig, Rue de  01153                       % 01567 RGTR--
+*Z 01568 RGTR--                                             % 01568 RGTR--
+*L 483      180401011 180703006  01228  01253               % 01568 RGTR--
+*A ay 180401011 180703006 000001  01228  01253              % 01568 RGTR--
+*R 1 180703006 180401011 180703006  01228  01253            % 01568 RGTR--
+*G RGB 180401011 180703006  01228  01253                    % 01568 RGTR--
+*A VE 180401011 180703006 000001  01228  01253              % 01568 RGTR--
+*I FD 180401011 180703006        0001992  01228  01253      % 01568 RGTR--
+180401011 Grevenmacher, Stadio         01228                % 01568 RGTR--
+180401009 Grevenmacher, Op Flo  01229  01229                % 01568 RGTR--
+180401010 Grevenmacher, Schoul  01230  01230                % 01568 RGTR--
+180401003 Grevenmacher, Gare r  01232  01238                % 01568 RGTR--
+180401004 Grevenmacher, Jardin  01239  01239                % 01568 RGTR--
+180701005 Mertert, Parc         01243  01243                % 01568 RGTR--
+180701003 Mertert, Eglise       01244  01244                % 01568 RGTR--
+180701001 Mertert, Beckius      01246  01246                % 01568 RGTR--
+180701002 Mertert, Copal        01246  01246                % 01568 RGTR--
+180703004 Wasserbillig, Marais  01247  01247                % 01568 RGTR--
+180703003 Wasserbillig, Gare    01248  01250                % 01568 RGTR--
+180703001 Wasserbillig, Centre  01251  01251                % 01568 RGTR--
+180703006 Wasserbillig, Rue de  01253                       % 01568 RGTR--
+*Z 01569 RGTR--                                             % 01569 RGTR--
+*L 483      180401011 180703006  01328  01353               % 01569 RGTR--
+*A ay 180401011 180703006 000001  01328  01353              % 01569 RGTR--
+*R 1 180703006 180401011 180703006  01328  01353            % 01569 RGTR--
+*G RGB 180401011 180703006  01328  01353                    % 01569 RGTR--
+*A VE 180401011 180703006 000001  01328  01353              % 01569 RGTR--
+*I FD 180401011 180703006        0001993  01328  01353      % 01569 RGTR--
+180401011 Grevenmacher, Stadio         01328                % 01569 RGTR--
+180401009 Grevenmacher, Op Flo  01329  01329                % 01569 RGTR--
+180401010 Grevenmacher, Schoul  01330  01330                % 01569 RGTR--
+180401003 Grevenmacher, Gare r  01332  01338                % 01569 RGTR--
+180401004 Grevenmacher, Jardin  01339  01339                % 01569 RGTR--
+180701005 Mertert, Parc         01343  01343                % 01569 RGTR--
+180701003 Mertert, Eglise       01344  01344                % 01569 RGTR--
+180701001 Mertert, Beckius      01346  01346                % 01569 RGTR--
+180701002 Mertert, Copal        01346  01346                % 01569 RGTR--
+180703004 Wasserbillig, Marais  01347  01347                % 01569 RGTR--
+180703003 Wasserbillig, Gare    01348  01350                % 01569 RGTR--
+180703001 Wasserbillig, Centre  01351  01351                % 01569 RGTR--
+180703006 Wasserbillig, Rue de  01353                       % 01569 RGTR--
+*Z 01570 RGTR--                                             % 01570 RGTR--
+*L 483      180401011 180703006  01428  01453               % 01570 RGTR--
+*A ay 180401011 180703006 000001  01428  01453              % 01570 RGTR--
+*R 1 180703006 180401011 180703006  01428  01453            % 01570 RGTR--
+*G RGB 180401011 180703006  01428  01453                    % 01570 RGTR--
+*A VE 180401011 180703006 000001  01428  01453              % 01570 RGTR--
+*I FD 180401011 180703006        0001994  01428  01453      % 01570 RGTR--
+180401011 Grevenmacher, Stadio         01428                % 01570 RGTR--
+180401009 Grevenmacher, Op Flo  01429  01429                % 01570 RGTR--
+180401010 Grevenmacher, Schoul  01430  01430                % 01570 RGTR--
+180401003 Grevenmacher, Gare r  01432  01438                % 01570 RGTR--
+180401004 Grevenmacher, Jardin  01439  01439                % 01570 RGTR--
+180701005 Mertert, Parc         01443  01443                % 01570 RGTR--
+180701003 Mertert, Eglise       01444  01444                % 01570 RGTR--
+180701001 Mertert, Beckius      01446  01446                % 01570 RGTR--
+180701002 Mertert, Copal        01446  01446                % 01570 RGTR--
+180703004 Wasserbillig, Marais  01447  01447                % 01570 RGTR--
+180703003 Wasserbillig, Gare    01448  01450                % 01570 RGTR--
+180703001 Wasserbillig, Centre  01451  01451                % 01570 RGTR--
+180703006 Wasserbillig, Rue de  01453                       % 01570 RGTR--
+*Z 01571 RGTR--                                             % 01571 RGTR--
+*L 483      180401011 180703006  01528  01553               % 01571 RGTR--
+*A ay 180401011 180703006 000001  01528  01553              % 01571 RGTR--
+*R 1 180703006 180401011 180703006  01528  01553            % 01571 RGTR--
+*G RGB 180401011 180703006  01528  01553                    % 01571 RGTR--
+*A VE 180401011 180703006 000001  01528  01553              % 01571 RGTR--
+*I FD 180401011 180703006        0001995  01528  01553      % 01571 RGTR--
+180401011 Grevenmacher, Stadio         01528                % 01571 RGTR--
+180401009 Grevenmacher, Op Flo  01529  01529                % 01571 RGTR--
+180401010 Grevenmacher, Schoul  01530  01530                % 01571 RGTR--
+180401003 Grevenmacher, Gare r  01532  01538                % 01571 RGTR--
+180401004 Grevenmacher, Jardin  01539  01539                % 01571 RGTR--
+180701005 Mertert, Parc         01543  01543                % 01571 RGTR--
+180701003 Mertert, Eglise       01544  01544                % 01571 RGTR--
+180701001 Mertert, Beckius      01546  01546                % 01571 RGTR--
+180701002 Mertert, Copal        01546  01546                % 01571 RGTR--
+180703004 Wasserbillig, Marais  01547  01547                % 01571 RGTR--
+180703003 Wasserbillig, Gare    01548  01550                % 01571 RGTR--
+180703001 Wasserbillig, Centre  01551  01551                % 01571 RGTR--
+180703006 Wasserbillig, Rue de  01553                       % 01571 RGTR--
+*Z 01572 RGTR--                                             % 01572 RGTR--
+*L 483      180401011 180703006  01828  01853               % 01572 RGTR--
+*A ay 180401011 180703006 000001  01828  01853              % 01572 RGTR--
+*R 1 180703006 180401011 180703006  01828  01853            % 01572 RGTR--
+*G RGB 180401011 180703006  01828  01853                    % 01572 RGTR--
+*A VE 180401011 180703006 000001  01828  01853              % 01572 RGTR--
+*I FD 180401011 180703006        0002361  01828  01853      % 01572 RGTR--
+180401011 Grevenmacher, Stadio         01828                % 01572 RGTR--
+180401009 Grevenmacher, Op Flo  01829  01829                % 01572 RGTR--
+180401010 Grevenmacher, Schoul  01830  01830                % 01572 RGTR--
+180401003 Grevenmacher, Gare r  01832  01838                % 01572 RGTR--
+180401004 Grevenmacher, Jardin  01839  01839                % 01572 RGTR--
+180701005 Mertert, Parc         01843  01843                % 01572 RGTR--
+180701003 Mertert, Eglise       01844  01844                % 01572 RGTR--
+180701001 Mertert, Beckius      01846  01846                % 01572 RGTR--
+180701002 Mertert, Copal        01846  01846                % 01572 RGTR--
+180703004 Wasserbillig, Marais  01847  01847                % 01572 RGTR--
+180703003 Wasserbillig, Gare    01848  01850                % 01572 RGTR--
+180703001 Wasserbillig, Centre  01851  01851                % 01572 RGTR--
+180703006 Wasserbillig, Rue de  01853                       % 01572 RGTR--
+*Z 01573 RGTR--                                             % 01573 RGTR--
+*L 483      180401011 180703006  01928  01953               % 01573 RGTR--
+*A ay 180401011 180703006 000001  01928  01953              % 01573 RGTR--
+*R 1 180703006 180401011 180703006  01928  01953            % 01573 RGTR--
+*G RGB 180401011 180703006  01928  01953                    % 01573 RGTR--
+*A VE 180401011 180703006 000001  01928  01953              % 01573 RGTR--
+*I FD 180401011 180703006        0001403  01928  01953      % 01573 RGTR--
+180401011 Grevenmacher, Stadio         01928                % 01573 RGTR--
+180401009 Grevenmacher, Op Flo  01929  01929                % 01573 RGTR--
+180401010 Grevenmacher, Schoul  01930  01930                % 01573 RGTR--
+180401003 Grevenmacher, Gare r  01932  01938                % 01573 RGTR--
+180401004 Grevenmacher, Jardin  01939  01939                % 01573 RGTR--
+180701005 Mertert, Parc         01943  01943                % 01573 RGTR--
+180701003 Mertert, Eglise       01944  01944                % 01573 RGTR--
+180701001 Mertert, Beckius      01946  01946                % 01573 RGTR--
+180701002 Mertert, Copal        01946  01946                % 01573 RGTR--
+180703004 Wasserbillig, Marais  01947  01947                % 01573 RGTR--
+180703003 Wasserbillig, Gare    01948  01950                % 01573 RGTR--
+180703001 Wasserbillig, Centre  01951  01951                % 01573 RGTR--
+180703006 Wasserbillig, Rue de  01953                       % 01573 RGTR--
+*Z 01574 RGTR--                                             % 01574 RGTR--
+*L 483      180401011 180703006  00626  00653               % 01574 RGTR--
+*A ay 180401011 180703006 000001  00626  00653              % 01574 RGTR--
+*R 1 180703006 180401011 180703006  00626  00653            % 01574 RGTR--
+*G RGB 180401011 180703006  00626  00653                    % 01574 RGTR--
+*A VE 180401011 180703006 000001  00626  00653              % 01574 RGTR--
+*I FD 180401011 180703006        0000838  00626  00653      % 01574 RGTR--
+180401011 Grevenmacher, Stadio         00626                % 01574 RGTR--
+180401009 Grevenmacher, Op Flo  00627  00627                % 01574 RGTR--
+180401010 Grevenmacher, Schoul  00629  00629                % 01574 RGTR--
+180401003 Grevenmacher, Gare r  00630  00636                % 01574 RGTR--
+180401004 Grevenmacher, Jardin  00638  00638                % 01574 RGTR--
+180701005 Mertert, Parc         00642  00642                % 01574 RGTR--
+180701003 Mertert, Eglise       00643  00643                % 01574 RGTR--
+180701001 Mertert, Beckius      00645  00645                % 01574 RGTR--
+180701002 Mertert, Copal        00646  00646                % 01574 RGTR--
+180703004 Wasserbillig, Marais  00647  00647                % 01574 RGTR--
+180703003 Wasserbillig, Gare    00648  00650                % 01574 RGTR--
+180703001 Wasserbillig, Centre  00651  00651                % 01574 RGTR--
+180703006 Wasserbillig, Rue de  00653                       % 01574 RGTR--
+*Z 01575 RGTR--                                             % 01575 RGTR--
+*L 483      180401011 180703006  00726  00753               % 01575 RGTR--
+*A ay 180401011 180703006 000001  00726  00753              % 01575 RGTR--
+*R 1 180703006 180401011 180703006  00726  00753            % 01575 RGTR--
+*G RGB 180401011 180703006  00726  00753                    % 01575 RGTR--
+*A VE 180401011 180703006 000001  00726  00753              % 01575 RGTR--
+*I FD 180401011 180703006        0002563  00726  00753      % 01575 RGTR--
+180401011 Grevenmacher, Stadio         00726                % 01575 RGTR--
+180401009 Grevenmacher, Op Flo  00727  00727                % 01575 RGTR--
+180401010 Grevenmacher, Schoul  00729  00729                % 01575 RGTR--
+180401003 Grevenmacher, Gare r  00730  00736                % 01575 RGTR--
+180401004 Grevenmacher, Jardin  00738  00738                % 01575 RGTR--
+180701005 Mertert, Parc         00742  00742                % 01575 RGTR--
+180701003 Mertert, Eglise       00743  00743                % 01575 RGTR--
+180701001 Mertert, Beckius      00745  00745                % 01575 RGTR--
+180701002 Mertert, Copal        00746  00746                % 01575 RGTR--
+180703004 Wasserbillig, Marais  00747  00747                % 01575 RGTR--
+180703003 Wasserbillig, Gare    00748  00750                % 01575 RGTR--
+180703001 Wasserbillig, Centre  00751  00751                % 01575 RGTR--
+180703006 Wasserbillig, Rue de  00753                       % 01575 RGTR--
+*Z 01576 RGTR--                                             % 01576 RGTR--
+*L 483      180401011 180703006  00826  00853               % 01576 RGTR--
+*A ay 180401011 180703006 000001  00826  00853              % 01576 RGTR--
+*R 1 180703006 180401011 180703006  00826  00853            % 01576 RGTR--
+*G RGB 180401011 180703006  00826  00853                    % 01576 RGTR--
+*A VE 180401011 180703006 000001  00826  00853              % 01576 RGTR--
+*I FD 180401011 180703006        0000906  00826  00853      % 01576 RGTR--
+180401011 Grevenmacher, Stadio         00826                % 01576 RGTR--
+180401009 Grevenmacher, Op Flo  00827  00827                % 01576 RGTR--
+180401010 Grevenmacher, Schoul  00829  00829                % 01576 RGTR--
+180401003 Grevenmacher, Gare r  00830  00836                % 01576 RGTR--
+180401004 Grevenmacher, Jardin  00838  00838                % 01576 RGTR--
+180701005 Mertert, Parc         00842  00842                % 01576 RGTR--
+180701003 Mertert, Eglise       00843  00843                % 01576 RGTR--
+180701001 Mertert, Beckius      00845  00845                % 01576 RGTR--
+180701002 Mertert, Copal        00846  00846                % 01576 RGTR--
+180703004 Wasserbillig, Marais  00847  00847                % 01576 RGTR--
+180703003 Wasserbillig, Gare    00848  00850                % 01576 RGTR--
+180703001 Wasserbillig, Centre  00851  00851                % 01576 RGTR--
+180703006 Wasserbillig, Rue de  00853                       % 01576 RGTR--
+*Z 01577 RGTR--                                             % 01577 RGTR--
+*L 483      180401011 180703006  01626  01653               % 01577 RGTR--
+*A ay 180401011 180703006 000001  01626  01653              % 01577 RGTR--
+*R 1 180703006 180401011 180703006  01626  01653            % 01577 RGTR--
+*G RGB 180401011 180703006  01626  01653                    % 01577 RGTR--
+*A VE 180401011 180703006 000001  01626  01653              % 01577 RGTR--
+*I FD 180401011 180703006        0002564  01626  01653      % 01577 RGTR--
+180401011 Grevenmacher, Stadio         01626                % 01577 RGTR--
+180401009 Grevenmacher, Op Flo  01627  01627                % 01577 RGTR--
+180401010 Grevenmacher, Schoul  01629  01629                % 01577 RGTR--
+180401003 Grevenmacher, Gare r  01630  01636                % 01577 RGTR--
+180401004 Grevenmacher, Jardin  01638  01638                % 01577 RGTR--
+180701005 Mertert, Parc         01642  01642                % 01577 RGTR--
+180701003 Mertert, Eglise       01643  01643                % 01577 RGTR--
+180701001 Mertert, Beckius      01645  01645                % 01577 RGTR--
+180701002 Mertert, Copal        01646  01646                % 01577 RGTR--
+180703004 Wasserbillig, Marais  01647  01647                % 01577 RGTR--
+180703003 Wasserbillig, Gare    01648  01650                % 01577 RGTR--
+180703001 Wasserbillig, Centre  01651  01651                % 01577 RGTR--
+180703006 Wasserbillig, Rue de  01653                       % 01577 RGTR--
+*Z 01578 RGTR--                                             % 01578 RGTR--
+*L 483      180401011 180703006  01726  01753               % 01578 RGTR--
+*A ay 180401011 180703006 000001  01726  01753              % 01578 RGTR--
+*R 1 180703006 180401011 180703006  01726  01753            % 01578 RGTR--
+*G RGB 180401011 180703006  01726  01753                    % 01578 RGTR--
+*A VE 180401011 180703006 000001  01726  01753              % 01578 RGTR--
+*I FD 180401011 180703006        0002565  01726  01753      % 01578 RGTR--
+180401011 Grevenmacher, Stadio         01726                % 01578 RGTR--
+180401009 Grevenmacher, Op Flo  01727  01727                % 01578 RGTR--
+180401010 Grevenmacher, Schoul  01729  01729                % 01578 RGTR--
+180401003 Grevenmacher, Gare r  01730  01736                % 01578 RGTR--
+180401004 Grevenmacher, Jardin  01738  01738                % 01578 RGTR--
+180701005 Mertert, Parc         01742  01742                % 01578 RGTR--
+180701003 Mertert, Eglise       01743  01743                % 01578 RGTR--
+180701001 Mertert, Beckius      01745  01745                % 01578 RGTR--
+180701002 Mertert, Copal        01746  01746                % 01578 RGTR--
+180703004 Wasserbillig, Marais  01747  01747                % 01578 RGTR--
+180703003 Wasserbillig, Gare    01748  01750                % 01578 RGTR--
+180703001 Wasserbillig, Centre  01751  01751                % 01578 RGTR--
+180703006 Wasserbillig, Rue de  01753                       % 01578 RGTR--
+*Z 01579 RGTR--                                             % 01579 RGTR--
+*L 483      180703006 180401011  00607  00632               % 01579 RGTR--
+*A ay 180703006 180401011 000001  00607  00632              % 01579 RGTR--
+*R 2 180401011 180703006 180401011  00607  00632            % 01579 RGTR--
+*G RGB 180703006 180401011  00607  00632                    % 01579 RGTR--
+*A VE 180703006 180401011 000001  00607  00632              % 01579 RGTR--
+*I FD 180703006 180401011        0002036  00607  00632      % 01579 RGTR--
+180703006 Wasserbillig, Rue de         00607                % 01579 RGTR--
+180703007 Wasserbillig, Rue de  00608  00608                % 01579 RGTR--
+180703003 Wasserbillig, Gare    00609  00612                % 01579 RGTR--
+180703004 Wasserbillig, Marais  00613  00613                % 01579 RGTR--
+180701002 Mertert, Copal        00614  00614                % 01579 RGTR--
+180701001 Mertert, Beckius      00615  00615                % 01579 RGTR--
+180701003 Mertert, Eglise       00617  00617                % 01579 RGTR--
+180701005 Mertert, Parc         00617  00617                % 01579 RGTR--
+180401004 Grevenmacher, Jardin  00621  00621                % 01579 RGTR--
+180401003 Grevenmacher, Gare r  00622  00626                % 01579 RGTR--
+180401010 Grevenmacher, Schoul  00628  00628                % 01579 RGTR--
+180401009 Grevenmacher, Op Flo  00630  00630                % 01579 RGTR--
+180401011 Grevenmacher, Stadio  00632                       % 01579 RGTR--
+*Z 01580 RGTR--                                             % 01580 RGTR--
+*L 483      180703006 180401011  01007  01032               % 01580 RGTR--
+*A ay 180703006 180401011 000001  01007  01032              % 01580 RGTR--
+*R 2 180401011 180703006 180401011  01007  01032            % 01580 RGTR--
+*G RGB 180703006 180401011  01007  01032                    % 01580 RGTR--
+*A VE 180703006 180401011 000001  01007  01032              % 01580 RGTR--
+*I FD 180703006 180401011        0002037  01007  01032      % 01580 RGTR--
+180703006 Wasserbillig, Rue de         01007                % 01580 RGTR--
+180703007 Wasserbillig, Rue de  01008  01008                % 01580 RGTR--
+180703003 Wasserbillig, Gare    01009  01012                % 01580 RGTR--
+180703004 Wasserbillig, Marais  01013  01013                % 01580 RGTR--
+180701002 Mertert, Copal        01014  01014                % 01580 RGTR--
+180701001 Mertert, Beckius      01015  01015                % 01580 RGTR--
+180701003 Mertert, Eglise       01017  01017                % 01580 RGTR--
+180701005 Mertert, Parc         01017  01017                % 01580 RGTR--
+180401004 Grevenmacher, Jardin  01021  01021                % 01580 RGTR--
+180401003 Grevenmacher, Gare r  01022  01026                % 01580 RGTR--
+180401010 Grevenmacher, Schoul  01028  01028                % 01580 RGTR--
+180401009 Grevenmacher, Op Flo  01030  01030                % 01580 RGTR--
+180401011 Grevenmacher, Stadio  01032                       % 01580 RGTR--
+*Z 01581 RGTR--                                             % 01581 RGTR--
+*L 483      180703006 180401011  01107  01132               % 01581 RGTR--
+*A ay 180703006 180401011 000001  01107  01132              % 01581 RGTR--
+*R 2 180401011 180703006 180401011  01107  01132            % 01581 RGTR--
+*G RGB 180703006 180401011  01107  01132                    % 01581 RGTR--
+*A VE 180703006 180401011 000001  01107  01132              % 01581 RGTR--
+*I FD 180703006 180401011        0001072  01107  01132      % 01581 RGTR--
+180703006 Wasserbillig, Rue de         01107                % 01581 RGTR--
+180703007 Wasserbillig, Rue de  01108  01108                % 01581 RGTR--
+180703003 Wasserbillig, Gare    01109  01112                % 01581 RGTR--
+180703004 Wasserbillig, Marais  01113  01113                % 01581 RGTR--
+180701002 Mertert, Copal        01114  01114                % 01581 RGTR--
+180701001 Mertert, Beckius      01115  01115                % 01581 RGTR--
+180701003 Mertert, Eglise       01117  01117                % 01581 RGTR--
+180701005 Mertert, Parc         01117  01117                % 01581 RGTR--
+180401004 Grevenmacher, Jardin  01121  01121                % 01581 RGTR--
+180401003 Grevenmacher, Gare r  01122  01126                % 01581 RGTR--
+180401010 Grevenmacher, Schoul  01128  01128                % 01581 RGTR--
+180401009 Grevenmacher, Op Flo  01130  01130                % 01581 RGTR--
+180401011 Grevenmacher, Stadio  01132                       % 01581 RGTR--
+*Z 01582 RGTR--                                             % 01582 RGTR--
+*L 483      180703006 180401011  01207  01232               % 01582 RGTR--
+*A ay 180703006 180401011 000001  01207  01232              % 01582 RGTR--
+*R 2 180401011 180703006 180401011  01207  01232            % 01582 RGTR--
+*G RGB 180703006 180401011  01207  01232                    % 01582 RGTR--
+*A VE 180703006 180401011 000001  01207  01232              % 01582 RGTR--
+*I FD 180703006 180401011        0002040  01207  01232      % 01582 RGTR--
+180703006 Wasserbillig, Rue de         01207                % 01582 RGTR--
+180703007 Wasserbillig, Rue de  01208  01208                % 01582 RGTR--
+180703003 Wasserbillig, Gare    01209  01212                % 01582 RGTR--
+180703004 Wasserbillig, Marais  01213  01213                % 01582 RGTR--
+180701002 Mertert, Copal        01214  01214                % 01582 RGTR--
+180701001 Mertert, Beckius      01215  01215                % 01582 RGTR--
+180701003 Mertert, Eglise       01217  01217                % 01582 RGTR--
+180701005 Mertert, Parc         01217  01217                % 01582 RGTR--
+180401004 Grevenmacher, Jardin  01221  01221                % 01582 RGTR--
+180401003 Grevenmacher, Gare r  01222  01226                % 01582 RGTR--
+180401010 Grevenmacher, Schoul  01228  01228                % 01582 RGTR--
+180401009 Grevenmacher, Op Flo  01230  01230                % 01582 RGTR--
+180401011 Grevenmacher, Stadio  01232                       % 01582 RGTR--
+*Z 01583 RGTR--                                             % 01583 RGTR--
+*L 483      180703006 180401011  01307  01332               % 01583 RGTR--
+*A ay 180703006 180401011 000001  01307  01332              % 01583 RGTR--
+*R 2 180401011 180703006 180401011  01307  01332            % 01583 RGTR--
+*G RGB 180703006 180401011  01307  01332                    % 01583 RGTR--
+*A VE 180703006 180401011 000001  01307  01332              % 01583 RGTR--
+*I FD 180703006 180401011        0002033  01307  01332      % 01583 RGTR--
+180703006 Wasserbillig, Rue de         01307                % 01583 RGTR--
+180703007 Wasserbillig, Rue de  01308  01308                % 01583 RGTR--
+180703003 Wasserbillig, Gare    01309  01312                % 01583 RGTR--
+180703004 Wasserbillig, Marais  01313  01313                % 01583 RGTR--
+180701002 Mertert, Copal        01314  01314                % 01583 RGTR--
+180701001 Mertert, Beckius      01315  01315                % 01583 RGTR--
+180701003 Mertert, Eglise       01317  01317                % 01583 RGTR--
+180701005 Mertert, Parc         01317  01317                % 01583 RGTR--
+180401004 Grevenmacher, Jardin  01321  01321                % 01583 RGTR--
+180401003 Grevenmacher, Gare r  01322  01326                % 01583 RGTR--
+180401010 Grevenmacher, Schoul  01328  01328                % 01583 RGTR--
+180401009 Grevenmacher, Op Flo  01330  01330                % 01583 RGTR--
+180401011 Grevenmacher, Stadio  01332                       % 01583 RGTR--
+*Z 01584 RGTR--                                             % 01584 RGTR--
+*L 483      180703006 180401011  01407  01432               % 01584 RGTR--
+*A ay 180703006 180401011 000001  01407  01432              % 01584 RGTR--
+*R 2 180401011 180703006 180401011  01407  01432            % 01584 RGTR--
+*G RGB 180703006 180401011  01407  01432                    % 01584 RGTR--
+*A VE 180703006 180401011 000001  01407  01432              % 01584 RGTR--
+*I FD 180703006 180401011        0002042  01407  01432      % 01584 RGTR--
+180703006 Wasserbillig, Rue de         01407                % 01584 RGTR--
+180703007 Wasserbillig, Rue de  01408  01408                % 01584 RGTR--
+180703003 Wasserbillig, Gare    01409  01412                % 01584 RGTR--
+180703004 Wasserbillig, Marais  01413  01413                % 01584 RGTR--
+180701002 Mertert, Copal        01414  01414                % 01584 RGTR--
+180701001 Mertert, Beckius      01415  01415                % 01584 RGTR--
+180701003 Mertert, Eglise       01417  01417                % 01584 RGTR--
+180701005 Mertert, Parc         01417  01417                % 01584 RGTR--
+180401004 Grevenmacher, Jardin  01421  01421                % 01584 RGTR--
+180401003 Grevenmacher, Gare r  01422  01426                % 01584 RGTR--
+180401010 Grevenmacher, Schoul  01428  01428                % 01584 RGTR--
+180401009 Grevenmacher, Op Flo  01430  01430                % 01584 RGTR--
+180401011 Grevenmacher, Stadio  01432                       % 01584 RGTR--
+*Z 01585 RGTR--                                             % 01585 RGTR--
+*L 483      180703006 180401011  01507  01532               % 01585 RGTR--
+*A ay 180703006 180401011 000001  01507  01532              % 01585 RGTR--
+*R 2 180401011 180703006 180401011  01507  01532            % 01585 RGTR--
+*G RGB 180703006 180401011  01507  01532                    % 01585 RGTR--
+*A VE 180703006 180401011 000001  01507  01532              % 01585 RGTR--
+*I FD 180703006 180401011        0002034  01507  01532      % 01585 RGTR--
+180703006 Wasserbillig, Rue de         01507                % 01585 RGTR--
+180703007 Wasserbillig, Rue de  01508  01508                % 01585 RGTR--
+180703003 Wasserbillig, Gare    01509  01512                % 01585 RGTR--
+180703004 Wasserbillig, Marais  01513  01513                % 01585 RGTR--
+180701002 Mertert, Copal        01514  01514                % 01585 RGTR--
+180701001 Mertert, Beckius      01515  01515                % 01585 RGTR--
+180701003 Mertert, Eglise       01517  01517                % 01585 RGTR--
+180701005 Mertert, Parc         01517  01517                % 01585 RGTR--
+180401004 Grevenmacher, Jardin  01521  01521                % 01585 RGTR--
+180401003 Grevenmacher, Gare r  01522  01526                % 01585 RGTR--
+180401010 Grevenmacher, Schoul  01528  01528                % 01585 RGTR--
+180401009 Grevenmacher, Op Flo  01530  01530                % 01585 RGTR--
+180401011 Grevenmacher, Stadio  01532                       % 01585 RGTR--
+*Z 01586 RGTR--                                             % 01586 RGTR--
+*L 483      180703006 180401011  01907  01932               % 01586 RGTR--
+*A ay 180703006 180401011 000001  01907  01932              % 01586 RGTR--
+*R 2 180401011 180703006 180401011  01907  01932            % 01586 RGTR--
+*G RGB 180703006 180401011  01907  01932                    % 01586 RGTR--
+*A VE 180703006 180401011 000001  01907  01932              % 01586 RGTR--
+*I FD 180703006 180401011        0002035  01907  01932      % 01586 RGTR--
+180703006 Wasserbillig, Rue de         01907                % 01586 RGTR--
+180703007 Wasserbillig, Rue de  01908  01908                % 01586 RGTR--
+180703003 Wasserbillig, Gare    01909  01912                % 01586 RGTR--
+180703004 Wasserbillig, Marais  01913  01913                % 01586 RGTR--
+180701002 Mertert, Copal        01914  01914                % 01586 RGTR--
+180701001 Mertert, Beckius      01915  01915                % 01586 RGTR--
+180701003 Mertert, Eglise       01917  01917                % 01586 RGTR--
+180701005 Mertert, Parc         01917  01917                % 01586 RGTR--
+180401004 Grevenmacher, Jardin  01921  01921                % 01586 RGTR--
+180401003 Grevenmacher, Gare r  01922  01926                % 01586 RGTR--
+180401010 Grevenmacher, Schoul  01928  01928                % 01586 RGTR--
+180401009 Grevenmacher, Op Flo  01930  01930                % 01586 RGTR--
+180401011 Grevenmacher, Stadio  01932                       % 01586 RGTR--
+*Z 01587 RGTR--                                             % 01587 RGTR--
+*L 483      180703006 180401011  02007  02032               % 01587 RGTR--
+*A ay 180703006 180401011 000001  02007  02032              % 01587 RGTR--
+*R 2 180401011 180703006 180401011  02007  02032            % 01587 RGTR--
+*G RGB 180703006 180401011  02007  02032                    % 01587 RGTR--
+*A VE 180703006 180401011 000001  02007  02032              % 01587 RGTR--
+*I FD 180703006 180401011        0002045  02007  02032      % 01587 RGTR--
+180703006 Wasserbillig, Rue de         02007                % 01587 RGTR--
+180703007 Wasserbillig, Rue de  02008  02008                % 01587 RGTR--
+180703003 Wasserbillig, Gare    02009  02012                % 01587 RGTR--
+180703004 Wasserbillig, Marais  02013  02013                % 01587 RGTR--
+180701002 Mertert, Copal        02014  02014                % 01587 RGTR--
+180701001 Mertert, Beckius      02015  02015                % 01587 RGTR--
+180701003 Mertert, Eglise       02017  02017                % 01587 RGTR--
+180701005 Mertert, Parc         02017  02017                % 01587 RGTR--
+180401004 Grevenmacher, Jardin  02021  02021                % 01587 RGTR--
+180401003 Grevenmacher, Gare r  02022  02026                % 01587 RGTR--
+180401010 Grevenmacher, Schoul  02028  02028                % 01587 RGTR--
+180401009 Grevenmacher, Op Flo  02030  02030                % 01587 RGTR--
+180401011 Grevenmacher, Stadio  02032                       % 01587 RGTR--
+*Z 01588 RGTR--                                             % 01588 RGTR--
+*L 483      180703006 180401011  00707  00734               % 01588 RGTR--
+*A ay 180703006 180401011 000001  00707  00734              % 01588 RGTR--
+*R 2 180401011 180703006 180401011  00707  00734            % 01588 RGTR--
+*G RGB 180703006 180401011  00707  00734                    % 01588 RGTR--
+*A VE 180703006 180401011 000001  00707  00734              % 01588 RGTR--
+*I FD 180703006 180401011        0002023  00707  00734      % 01588 RGTR--
+180703006 Wasserbillig, Rue de         00707                % 01588 RGTR--
+180703007 Wasserbillig, Rue de  00708  00708                % 01588 RGTR--
+180703003 Wasserbillig, Gare    00710  00713                % 01588 RGTR--
+180703004 Wasserbillig, Marais  00714  00714                % 01588 RGTR--
+180701002 Mertert, Copal        00715  00715                % 01588 RGTR--
+180701001 Mertert, Beckius      00716  00716                % 01588 RGTR--
+180701003 Mertert, Eglise       00718  00718                % 01588 RGTR--
+180701005 Mertert, Parc         00718  00718                % 01588 RGTR--
+180401004 Grevenmacher, Jardin  00723  00723                % 01588 RGTR--
+180401003 Grevenmacher, Gare r  00724  00728                % 01588 RGTR--
+180401010 Grevenmacher, Schoul  00730  00730                % 01588 RGTR--
+180401009 Grevenmacher, Op Flo  00732  00732                % 01588 RGTR--
+180401011 Grevenmacher, Stadio  00734                       % 01588 RGTR--
+*Z 01589 RGTR--                                             % 01589 RGTR--
+*L 483      180703006 180401011  00807  00834               % 01589 RGTR--
+*A ay 180703006 180401011 000001  00807  00834              % 01589 RGTR--
+*R 2 180401011 180703006 180401011  00807  00834            % 01589 RGTR--
+*G RGB 180703006 180401011  00807  00834                    % 01589 RGTR--
+*A VE 180703006 180401011 000001  00807  00834              % 01589 RGTR--
+*I FD 180703006 180401011        0002025  00807  00834      % 01589 RGTR--
+180703006 Wasserbillig, Rue de         00807                % 01589 RGTR--
+180703007 Wasserbillig, Rue de  00808  00808                % 01589 RGTR--
+180703003 Wasserbillig, Gare    00810  00813                % 01589 RGTR--
+180703004 Wasserbillig, Marais  00814  00814                % 01589 RGTR--
+180701002 Mertert, Copal        00815  00815                % 01589 RGTR--
+180701001 Mertert, Beckius      00816  00816                % 01589 RGTR--
+180701003 Mertert, Eglise       00818  00818                % 01589 RGTR--
+180701005 Mertert, Parc         00818  00818                % 01589 RGTR--
+180401004 Grevenmacher, Jardin  00823  00823                % 01589 RGTR--
+180401003 Grevenmacher, Gare r  00824  00828                % 01589 RGTR--
+180401010 Grevenmacher, Schoul  00830  00830                % 01589 RGTR--
+180401009 Grevenmacher, Op Flo  00832  00832                % 01589 RGTR--
+180401011 Grevenmacher, Stadio  00834                       % 01589 RGTR--
+*Z 01590 RGTR--                                             % 01590 RGTR--
+*L 483      180703006 180401011  00907  00934               % 01590 RGTR--
+*A ay 180703006 180401011 000001  00907  00934              % 01590 RGTR--
+*R 2 180401011 180703006 180401011  00907  00934            % 01590 RGTR--
+*G RGB 180703006 180401011  00907  00934                    % 01590 RGTR--
+*A VE 180703006 180401011 000001  00907  00934              % 01590 RGTR--
+*I FD 180703006 180401011        0002027  00907  00934      % 01590 RGTR--
+180703006 Wasserbillig, Rue de         00907                % 01590 RGTR--
+180703007 Wasserbillig, Rue de  00908  00908                % 01590 RGTR--
+180703003 Wasserbillig, Gare    00910  00913                % 01590 RGTR--
+180703004 Wasserbillig, Marais  00914  00914                % 01590 RGTR--
+180701002 Mertert, Copal        00915  00915                % 01590 RGTR--
+180701001 Mertert, Beckius      00916  00916                % 01590 RGTR--
+180701003 Mertert, Eglise       00918  00918                % 01590 RGTR--
+180701005 Mertert, Parc         00918  00918                % 01590 RGTR--
+180401004 Grevenmacher, Jardin  00923  00923                % 01590 RGTR--
+180401003 Grevenmacher, Gare r  00924  00928                % 01590 RGTR--
+180401010 Grevenmacher, Schoul  00930  00930                % 01590 RGTR--
+180401009 Grevenmacher, Op Flo  00932  00932                % 01590 RGTR--
+180401011 Grevenmacher, Stadio  00934                       % 01590 RGTR--
+*Z 01591 RGTR--                                             % 01591 RGTR--
+*L 483      180703006 180401011  01607  01634               % 01591 RGTR--
+*A ay 180703006 180401011 000001  01607  01634              % 01591 RGTR--
+*R 2 180401011 180703006 180401011  01607  01634            % 01591 RGTR--
+*G RGB 180703006 180401011  01607  01634                    % 01591 RGTR--
+*A VE 180703006 180401011 000001  01607  01634              % 01591 RGTR--
+*I FD 180703006 180401011        0002028  01607  01634      % 01591 RGTR--
+180703006 Wasserbillig, Rue de         01607                % 01591 RGTR--
+180703007 Wasserbillig, Rue de  01608  01608                % 01591 RGTR--
+180703003 Wasserbillig, Gare    01610  01613                % 01591 RGTR--
+180703004 Wasserbillig, Marais  01614  01614                % 01591 RGTR--
+180701002 Mertert, Copal        01615  01615                % 01591 RGTR--
+180701001 Mertert, Beckius      01616  01616                % 01591 RGTR--
+180701003 Mertert, Eglise       01618  01618                % 01591 RGTR--
+180701005 Mertert, Parc         01618  01618                % 01591 RGTR--
+180401004 Grevenmacher, Jardin  01623  01623                % 01591 RGTR--
+180401003 Grevenmacher, Gare r  01624  01628                % 01591 RGTR--
+180401010 Grevenmacher, Schoul  01630  01630                % 01591 RGTR--
+180401009 Grevenmacher, Op Flo  01632  01632                % 01591 RGTR--
+180401011 Grevenmacher, Stadio  01634                       % 01591 RGTR--
+*Z 01592 RGTR--                                             % 01592 RGTR--
+*L 483      180703006 180401011  01707  01734               % 01592 RGTR--
+*A ay 180703006 180401011 000001  01707  01734              % 01592 RGTR--
+*R 2 180401011 180703006 180401011  01707  01734            % 01592 RGTR--
+*G RGB 180703006 180401011  01707  01734                    % 01592 RGTR--
+*A VE 180703006 180401011 000001  01707  01734              % 01592 RGTR--
+*I FD 180703006 180401011        0002030  01707  01734      % 01592 RGTR--
+180703006 Wasserbillig, Rue de         01707                % 01592 RGTR--
+180703007 Wasserbillig, Rue de  01708  01708                % 01592 RGTR--
+180703003 Wasserbillig, Gare    01710  01713                % 01592 RGTR--
+180703004 Wasserbillig, Marais  01714  01714                % 01592 RGTR--
+180701002 Mertert, Copal        01715  01715                % 01592 RGTR--
+180701001 Mertert, Beckius      01716  01716                % 01592 RGTR--
+180701003 Mertert, Eglise       01718  01718                % 01592 RGTR--
+180701005 Mertert, Parc         01718  01718                % 01592 RGTR--
+180401004 Grevenmacher, Jardin  01723  01723                % 01592 RGTR--
+180401003 Grevenmacher, Gare r  01724  01728                % 01592 RGTR--
+180401010 Grevenmacher, Schoul  01730  01730                % 01592 RGTR--
+180401009 Grevenmacher, Op Flo  01732  01732                % 01592 RGTR--
+180401011 Grevenmacher, Stadio  01734                       % 01592 RGTR--
+*Z 01593 RGTR--                                             % 01593 RGTR--
+*L 483      180703006 180401011  01807  01834               % 01593 RGTR--
+*A ay 180703006 180401011 000001  01807  01834              % 01593 RGTR--
+*R 2 180401011 180703006 180401011  01807  01834            % 01593 RGTR--
+*G RGB 180703006 180401011  01807  01834                    % 01593 RGTR--
+*A VE 180703006 180401011 000001  01807  01834              % 01593 RGTR--
+*I FD 180703006 180401011        0002032  01807  01834      % 01593 RGTR--
+180703006 Wasserbillig, Rue de         01807                % 01593 RGTR--
+180703007 Wasserbillig, Rue de  01808  01808                % 01593 RGTR--
+180703003 Wasserbillig, Gare    01810  01813                % 01593 RGTR--
+180703004 Wasserbillig, Marais  01814  01814                % 01593 RGTR--
+180701002 Mertert, Copal        01815  01815                % 01593 RGTR--
+180701001 Mertert, Beckius      01816  01816                % 01593 RGTR--
+180701003 Mertert, Eglise       01818  01818                % 01593 RGTR--
+180701005 Mertert, Parc         01818  01818                % 01593 RGTR--
+180401004 Grevenmacher, Jardin  01823  01823                % 01593 RGTR--
+180401003 Grevenmacher, Gare r  01824  01828                % 01593 RGTR--
+180401010 Grevenmacher, Schoul  01830  01830                % 01593 RGTR--
+180401009 Grevenmacher, Op Flo  01832  01832                % 01593 RGTR--
+180401011 Grevenmacher, Stadio  01834                       % 01593 RGTR--

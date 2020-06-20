@@ -1,0 +1,325 @@
+*F 03 2
+*Z 01807 RGTR--                                             % 01807 RGTR--
+*L 540      140701016 140310001  01418  01432               % 01807 RGTR--
+*A ax 140701016 140310001 000001  01418  01432              % 01807 RGTR--
+*R 1 140310001 140701016 140310001  01418  01432            % 01807 RGTR--
+*G RGB 140701016 140310001  01418  01432                    % 01807 RGTR--
+*A VE 140701016 140310001 000001  01418  01432              % 01807 RGTR--
+*I FD 140701016 140310001        0002627  01418  01432      % 01807 RGTR--
+140701016 Ettelbruck, Gare             01418                % 01807 RGTR--
+140701001 Ettelbruck, Anc. Cli  01419  01419                % 01807 RGTR--
+140701021 Ettelbruck, L.T.Sale  01421  01421                % 01807 RGTR--
+140701020 Ettelbruck, Centre H  01422  01422                % 01807 RGTR--
+140702002 Warken, Café Kaell    01423  01423                % 01807 RGTR--
+140702001 Warken, Centre d'Edu  01423  01423                % 01807 RGTR--
+140702008 Warken, Rue de Welsc  01424  01424                % 01807 RGTR--
+140601001 Burden, Beim Fëschwe  01428  01428                % 01807 RGTR--
+140310002 Welscheid, Jongerts   01431  01431                % 01807 RGTR--
+140310001 Welscheid, Bei der B  01432                       % 01807 RGTR--
+*Z 01808 RGTR--                                             % 01808 RGTR--
+*L 540      140701016 140310001  01618  01632               % 01808 RGTR--
+*A ax 140701016 140310001 000001  01618  01632              % 01808 RGTR--
+*R 1 140310001 140701016 140310001  01618  01632            % 01808 RGTR--
+*G RGB 140701016 140310001  01618  01632                    % 01808 RGTR--
+*A VE 140701016 140310001 000001  01618  01632              % 01808 RGTR--
+*I FD 140701016 140310001        0002630  01618  01632      % 01808 RGTR--
+140701016 Ettelbruck, Gare             01618                % 01808 RGTR--
+140701001 Ettelbruck, Anc. Cli  01619  01619                % 01808 RGTR--
+140701021 Ettelbruck, L.T.Sale  01621  01621                % 01808 RGTR--
+140701020 Ettelbruck, Centre H  01622  01622                % 01808 RGTR--
+140702002 Warken, Café Kaell    01623  01623                % 01808 RGTR--
+140702001 Warken, Centre d'Edu  01623  01623                % 01808 RGTR--
+140702008 Warken, Rue de Welsc  01624  01624                % 01808 RGTR--
+140601001 Burden, Beim Fëschwe  01628  01628                % 01808 RGTR--
+140310002 Welscheid, Jongerts   01631  01631                % 01808 RGTR--
+140310001 Welscheid, Bei der B  01632                       % 01808 RGTR--
+*Z 01809 RGTR--                                             % 01809 RGTR--
+*L 540      140701016 140310001  01818  01832               % 01809 RGTR--
+*A ax 140701016 140310001 000001  01818  01832              % 01809 RGTR--
+*R 1 140310001 140701016 140310001  01818  01832            % 01809 RGTR--
+*G RGB 140701016 140310001  01818  01832                    % 01809 RGTR--
+*A VE 140701016 140310001 000001  01818  01832              % 01809 RGTR--
+*I FD 140701016 140310001        0002406  01818  01832      % 01809 RGTR--
+140701016 Ettelbruck, Gare             01818                % 01809 RGTR--
+140701001 Ettelbruck, Anc. Cli  01819  01819                % 01809 RGTR--
+140701021 Ettelbruck, L.T.Sale  01821  01821                % 01809 RGTR--
+140701020 Ettelbruck, Centre H  01822  01822                % 01809 RGTR--
+140702002 Warken, Café Kaell    01823  01823                % 01809 RGTR--
+140702001 Warken, Centre d'Edu  01823  01823                % 01809 RGTR--
+140702008 Warken, Rue de Welsc  01824  01824                % 01809 RGTR--
+140601001 Burden, Beim Fëschwe  01828  01828                % 01809 RGTR--
+140310002 Welscheid, Jongerts   01831  01831                % 01809 RGTR--
+140310001 Welscheid, Bei der B  01832                       % 01809 RGTR--
+*Z 01810 RGTR--                                             % 01810 RGTR--
+*L 540      140701001 140310001  01213  01225               % 01810 RGTR--
+*A ax 140701001 140310001 000001  01213  01225              % 01810 RGTR--
+*R 1 140310001 140701001 140310001  01213  01225            % 01810 RGTR--
+*G RGB 140701001 140310001  01213  01225                    % 01810 RGTR--
+*A VE 140701001 140310001 000001  01213  01225              % 01810 RGTR--
+*I FD 140701001 140310001        0002645  01213  01225      % 01810 RGTR--
+140701001 Ettelbruck, Anc. Cli         01213                % 01810 RGTR--
+140701021 Ettelbruck, L.T.Sale  01215  01215                % 01810 RGTR--
+140701020 Ettelbruck, Centre H  01216  01216                % 01810 RGTR--
+140702002 Warken, Café Kaell    01216  01216                % 01810 RGTR--
+140702001 Warken, Centre d'Edu  01217  01217                % 01810 RGTR--
+140702008 Warken, Rue de Welsc  01218  01218                % 01810 RGTR--
+140601001 Burden, Beim Fëschwe  01221  01221                % 01810 RGTR--
+140310002 Welscheid, Jongerts   01224  01224                % 01810 RGTR--
+140310001 Welscheid, Bei der B  01225                       % 01810 RGTR--
+*Z 01811 RGTR--                                             % 01811 RGTR--
+*L 540      140701016 140305001  00708  00728               % 01811 RGTR--
+*A bn 140701016 140305001 000005  00708  00728              % 01811 RGTR--
+*R 1 140305001 140701016 140305001  00708  00728            % 01811 RGTR--
+*G RGB 140701016 140305001  00708  00728                    % 01811 RGTR--
+*A VE 140701016 140305001 000005  00708  00728              % 01811 RGTR--
+*I FD 140701016 140305001        0002646  00708  00728      % 01811 RGTR--
+140701016 Ettelbruck, Gare             00708                % 01811 RGTR--
+140701001 Ettelbruck, Anc. Cli  00709  00709                % 01811 RGTR--
+140701021 Ettelbruck, L.T.Sale  00711  00711                % 01811 RGTR--
+140701020 Ettelbruck, Centre H  00712  00712                % 01811 RGTR--
+140702002 Warken, Café Kaell    00713  00713                % 01811 RGTR--
+140702001 Warken, Centre d'Edu  00713  00713                % 01811 RGTR--
+140702008 Warken, Rue de Welsc  00714  00714                % 01811 RGTR--
+140601001 Burden, Beim Fëschwe  00718  00718                % 01811 RGTR--
+140310002 Welscheid, Jongerts   00721  00721                % 01811 RGTR--
+140310001 Welscheid, Bei der B  00722  00722                % 01811 RGTR--
+140308001 Scheidel, Hengesch    00726  00726                % 01811 RGTR--
+140305001 Kehmen, Kiirch        00728                       % 01811 RGTR--
+*Z 01812 RGTR--                                             % 01812 RGTR--
+*L 540      140701016 140305001  00918  00938               % 01812 RGTR--
+*A bn 140701016 140305001 000001  00918  00938              % 01812 RGTR--
+*R 1 140305001 140701016 140305001  00918  00938            % 01812 RGTR--
+*G RGB 140701016 140305001  00918  00938                    % 01812 RGTR--
+*A VE 140701016 140305001 000001  00918  00938              % 01812 RGTR--
+*I FD 140701016 140305001        0002647  00918  00938      % 01812 RGTR--
+140701016 Ettelbruck, Gare             00918                % 01812 RGTR--
+140701001 Ettelbruck, Anc. Cli  00919  00919                % 01812 RGTR--
+140701021 Ettelbruck, L.T.Sale  00921  00921                % 01812 RGTR--
+140701020 Ettelbruck, Centre H  00922  00922                % 01812 RGTR--
+140702002 Warken, Café Kaell    00923  00923                % 01812 RGTR--
+140702001 Warken, Centre d'Edu  00923  00923                % 01812 RGTR--
+140702008 Warken, Rue de Welsc  00924  00924                % 01812 RGTR--
+140601001 Burden, Beim Fëschwe  00928  00928                % 01812 RGTR--
+140310002 Welscheid, Jongerts   00931  00931                % 01812 RGTR--
+140310001 Welscheid, Bei der B  00932  00932                % 01812 RGTR--
+140308001 Scheidel, Hengesch    00936  00936                % 01812 RGTR--
+140305001 Kehmen, Kiirch        00938                       % 01812 RGTR--
+*Z 01813 RGTR--                                             % 01813 RGTR--
+*L 540      140701016 140305001  01118  01136               % 01813 RGTR--
+*A bn 140701016 140305001 000001  01118  01136              % 01813 RGTR--
+*R 1 140305001 140701016 140305001  01118  01136            % 01813 RGTR--
+*G RGB 140701016 140305001  01118  01136                    % 01813 RGTR--
+*A VE 140701016 140305001 000001  01118  01136              % 01813 RGTR--
+*I FD 140701016 140305001        0001090  01118  01136      % 01813 RGTR--
+140701016 Ettelbruck, Gare             01118                % 01813 RGTR--
+140701001 Ettelbruck, Anc. Cli  01119  01119                % 01813 RGTR--
+140701021 Ettelbruck, L.T.Sale  01121  01121                % 01813 RGTR--
+140701020 Ettelbruck, Centre H  01122  01122                % 01813 RGTR--
+140702002 Warken, Café Kaell    01123  01123                % 01813 RGTR--
+140702001 Warken, Centre d'Edu  01123  01123                % 01813 RGTR--
+140702008 Warken, Rue de Welsc  01124  01124                % 01813 RGTR--
+140601001 Burden, Beim Fëschwe  01128  01128                % 01813 RGTR--
+140310002 Welscheid, Jongerts   01131  01131                % 01813 RGTR--
+140310001 Welscheid, Bei der B  01132  01132                % 01813 RGTR--
+140308001 Scheidel, Hengesch    01135  01135                % 01813 RGTR--
+140305001 Kehmen, Kiirch        01136                       % 01813 RGTR--
+*Z 01814 RGTR--                                             % 01814 RGTR--
+*L 540      140701016 140305001  01518  01536               % 01814 RGTR--
+*A bn 140701016 140305001 000001  01518  01536              % 01814 RGTR--
+*R 1 140305001 140701016 140305001  01518  01536            % 01814 RGTR--
+*G RGB 140701016 140305001  01518  01536                    % 01814 RGTR--
+*A VE 140701016 140305001 000001  01518  01536              % 01814 RGTR--
+*I FD 140701016 140305001        0002637  01518  01536      % 01814 RGTR--
+140701016 Ettelbruck, Gare             01518                % 01814 RGTR--
+140701001 Ettelbruck, Anc. Cli  01519  01519                % 01814 RGTR--
+140701021 Ettelbruck, L.T.Sale  01521  01521                % 01814 RGTR--
+140701020 Ettelbruck, Centre H  01522  01522                % 01814 RGTR--
+140702002 Warken, Café Kaell    01523  01523                % 01814 RGTR--
+140702001 Warken, Centre d'Edu  01523  01523                % 01814 RGTR--
+140702008 Warken, Rue de Welsc  01524  01524                % 01814 RGTR--
+140601001 Burden, Beim Fëschwe  01528  01528                % 01814 RGTR--
+140310002 Welscheid, Jongerts   01531  01531                % 01814 RGTR--
+140310001 Welscheid, Bei der B  01532  01532                % 01814 RGTR--
+140308001 Scheidel, Hengesch    01535  01535                % 01814 RGTR--
+140305001 Kehmen, Kiirch        01536                       % 01814 RGTR--
+*Z 01815 RGTR--                                             % 01815 RGTR--
+*L 540      140701016 140305001  01500  01518               % 01815 RGTR--
+*A bn 140701016 140305001 000002  01500  01518              % 01815 RGTR--
+*R 1 140305001 140701016 140305001  01500  01518            % 01815 RGTR--
+*G RGB 140701016 140305001  01500  01518                    % 01815 RGTR--
+*A VE 140701016 140305001 000002  01500  01518              % 01815 RGTR--
+*I FD 140701016 140305001        0002553  01500  01518      % 01815 RGTR--
+140701016 Ettelbruck, Gare             01500                % 01815 RGTR--
+140701001 Ettelbruck, Anc. Cli  01501  01501                % 01815 RGTR--
+140701021 Ettelbruck, L.T.Sale  01503  01503                % 01815 RGTR--
+140701020 Ettelbruck, Centre H  01504  01504                % 01815 RGTR--
+140702002 Warken, Café Kaell    01505  01505                % 01815 RGTR--
+140702001 Warken, Centre d'Edu  01505  01505                % 01815 RGTR--
+140702008 Warken, Rue de Welsc  01506  01506                % 01815 RGTR--
+140601001 Burden, Beim Fëschwe  01510  01510                % 01815 RGTR--
+140310002 Welscheid, Jongerts   01513  01513                % 01815 RGTR--
+140310001 Welscheid, Bei der B  01514  01514                % 01815 RGTR--
+140308001 Scheidel, Hengesch    01517  01517                % 01815 RGTR--
+140305001 Kehmen, Kiirch        01518                       % 01815 RGTR--
+*Z 01816 RGTR--                                             % 01816 RGTR--
+*L 540      140308001 140701016  00723  00739               % 01816 RGTR--
+*A ax 140308001 140701016 000001  00723  00739              % 01816 RGTR--
+*R 2 140701016 140308001 140701016  00723  00739            % 01816 RGTR--
+*G RGB 140308001 140701016  00723  00739                    % 01816 RGTR--
+*A VE 140308001 140701016 000001  00723  00739              % 01816 RGTR--
+*I FD 140308001 140701016        0002648  00723  00739      % 01816 RGTR--
+140308001 Scheidel, Hengesch           00723                % 01816 RGTR--
+140310001 Welscheid, Bei der B  00726  00726                % 01816 RGTR--
+140310002 Welscheid, Jongerts   00726  00726                % 01816 RGTR--
+140601001 Burden, Beim Fëschwe  00729  00729                % 01816 RGTR--
+140702008 Warken, Rue de Welsc  00733  00733                % 01816 RGTR--
+140702001 Warken, Centre d'Edu  00734  00734                % 01816 RGTR--
+140702002 Warken, Café Kaell    00734  00734                % 01816 RGTR--
+140701020 Ettelbruck, Centre H  00735  00735                % 01816 RGTR--
+140701021 Ettelbruck, L.T.Sale  00736  00736                % 01816 RGTR--
+140701024 Ettelbruck, Boffer    00737  00737                % 01816 RGTR--
+140701016 Ettelbruck, Gare      00739                       % 01816 RGTR--
+*Z 01817 RGTR--                                             % 01817 RGTR--
+*L 540      140310001 140701016  01315  01327               % 01817 RGTR--
+*A ax 140310001 140701016 000001  01315  01327              % 01817 RGTR--
+*R 2 140701016 140310001 140701016  01315  01327            % 01817 RGTR--
+*G RGB 140310001 140701016  01315  01327                    % 01817 RGTR--
+*A VE 140310001 140701016 000001  01315  01327              % 01817 RGTR--
+*I FD 140310001 140701016        0002501  01315  01327      % 01817 RGTR--
+140310001 Welscheid, Bei der B         01315                % 01817 RGTR--
+140310002 Welscheid, Jongerts   01315  01315                % 01817 RGTR--
+140601001 Burden, Beim Fëschwe  01318  01318                % 01817 RGTR--
+140702008 Warken, Rue de Welsc  01322  01322                % 01817 RGTR--
+140702001 Warken, Centre d'Edu  01323  01323                % 01817 RGTR--
+140702002 Warken, Café Kaell    01323  01323                % 01817 RGTR--
+140701020 Ettelbruck, Centre H  01324  01324                % 01817 RGTR--
+140701021 Ettelbruck, L.T.Sale  01325  01325                % 01817 RGTR--
+140701024 Ettelbruck, Boffer    01326  01326                % 01817 RGTR--
+140701016 Ettelbruck, Gare      01327                       % 01817 RGTR--
+*Z 01818 RGTR--                                             % 01818 RGTR--
+*L 540      140310001 140701016  01437  01449               % 01818 RGTR--
+*A ax 140310001 140701016 000001  01437  01449              % 01818 RGTR--
+*R 2 140701016 140310001 140701016  01437  01449            % 01818 RGTR--
+*G RGB 140310001 140701016  01437  01449                    % 01818 RGTR--
+*A VE 140310001 140701016 000001  01437  01449              % 01818 RGTR--
+*I FD 140310001 140701016        0002043  01437  01449      % 01818 RGTR--
+140310001 Welscheid, Bei der B         01437                % 01818 RGTR--
+140310002 Welscheid, Jongerts   01437  01437                % 01818 RGTR--
+140601001 Burden, Beim Fëschwe  01440  01440                % 01818 RGTR--
+140702008 Warken, Rue de Welsc  01444  01444                % 01818 RGTR--
+140702001 Warken, Centre d'Edu  01445  01445                % 01818 RGTR--
+140702002 Warken, Café Kaell    01445  01445                % 01818 RGTR--
+140701020 Ettelbruck, Centre H  01446  01446                % 01818 RGTR--
+140701021 Ettelbruck, L.T.Sale  01447  01447                % 01818 RGTR--
+140701024 Ettelbruck, Boffer    01448  01448                % 01818 RGTR--
+140701016 Ettelbruck, Gare      01449                       % 01818 RGTR--
+*Z 01819 RGTR--                                             % 01819 RGTR--
+*L 540      140310001 140701016  01835  01847               % 01819 RGTR--
+*A ax 140310001 140701016 000001  01835  01847              % 01819 RGTR--
+*R 2 140701016 140310001 140701016  01835  01847            % 01819 RGTR--
+*G RGB 140310001 140701016  01835  01847                    % 01819 RGTR--
+*A VE 140310001 140701016 000001  01835  01847              % 01819 RGTR--
+*I FD 140310001 140701016        0002179  01835  01847      % 01819 RGTR--
+140310001 Welscheid, Bei der B         01835                % 01819 RGTR--
+140310002 Welscheid, Jongerts   01835  01835                % 01819 RGTR--
+140601001 Burden, Beim Fëschwe  01838  01838                % 01819 RGTR--
+140702008 Warken, Rue de Welsc  01842  01842                % 01819 RGTR--
+140702001 Warken, Centre d'Edu  01843  01843                % 01819 RGTR--
+140702002 Warken, Café Kaell    01843  01843                % 01819 RGTR--
+140701020 Ettelbruck, Centre H  01844  01844                % 01819 RGTR--
+140701021 Ettelbruck, L.T.Sale  01845  01845                % 01819 RGTR--
+140701024 Ettelbruck, Boffer    01846  01846                % 01819 RGTR--
+140701016 Ettelbruck, Gare      01847                       % 01819 RGTR--
+*Z 01820 RGTR--                                             % 01820 RGTR--
+*L 540      140310001 140701016  01637  01650               % 01820 RGTR--
+*A ax 140310001 140701016 000001  01637  01650              % 01820 RGTR--
+*R 2 140701016 140310001 140701016  01637  01650            % 01820 RGTR--
+*G RGB 140310001 140701016  01637  01650                    % 01820 RGTR--
+*A VE 140310001 140701016 000001  01637  01650              % 01820 RGTR--
+*I FD 140310001 140701016        0002029  01637  01650      % 01820 RGTR--
+140310001 Welscheid, Bei der B         01637                % 01820 RGTR--
+140310002 Welscheid, Jongerts   01637  01637                % 01820 RGTR--
+140601001 Burden, Beim Fëschwe  01640  01640                % 01820 RGTR--
+140702008 Warken, Rue de Welsc  01644  01644                % 01820 RGTR--
+140702001 Warken, Centre d'Edu  01645  01645                % 01820 RGTR--
+140702002 Warken, Café Kaell    01645  01645                % 01820 RGTR--
+140701020 Ettelbruck, Centre H  01646  01646                % 01820 RGTR--
+140701021 Ettelbruck, L.T.Sale  01647  01647                % 01820 RGTR--
+140701024 Ettelbruck, Boffer    01648  01648                % 01820 RGTR--
+140701016 Ettelbruck, Gare      01650                       % 01820 RGTR--
+*Z 01821 RGTR--                                             % 01821 RGTR--
+*L 540      140305001 140701016  00632  00650               % 01821 RGTR--
+*A bn 140305001 140701016 000001  00632  00650              % 01821 RGTR--
+*R 2 140701016 140305001 140701016  00632  00650            % 01821 RGTR--
+*G RGB 140305001 140701016  00632  00650                    % 01821 RGTR--
+*A VE 140305001 140701016 000001  00632  00650              % 01821 RGTR--
+*I FD 140305001 140701016        0002649  00632  00650      % 01821 RGTR--
+140305001 Kehmen, Kiirch               00632                % 01821 RGTR--
+140308001 Scheidel, Hengesch    00633  00633                % 01821 RGTR--
+140310001 Welscheid, Bei der B  00636  00636                % 01821 RGTR--
+140310002 Welscheid, Jongerts   00637  00637                % 01821 RGTR--
+140601001 Burden, Beim Fëschwe  00640  00640                % 01821 RGTR--
+140702008 Warken, Rue de Welsc  00644  00644                % 01821 RGTR--
+140702001 Warken, Centre d'Edu  00645  00645                % 01821 RGTR--
+140702002 Warken, Café Kaell    00645  00645                % 01821 RGTR--
+140701020 Ettelbruck, Centre H  00646  00646                % 01821 RGTR--
+140701021 Ettelbruck, L.T.Sale  00647  00647                % 01821 RGTR--
+140701024 Ettelbruck, Boffer    00648  00648                % 01821 RGTR--
+140701016 Ettelbruck, Gare      00650                       % 01821 RGTR--
+*Z 01822 RGTR--                                             % 01822 RGTR--
+*L 540      140305001 140701016  00832  00850               % 01822 RGTR--
+*A bn 140305001 140701016 000001  00832  00850              % 01822 RGTR--
+*R 2 140701016 140305001 140701016  00832  00850            % 01822 RGTR--
+*G RGB 140305001 140701016  00832  00850                    % 01822 RGTR--
+*A VE 140305001 140701016 000001  00832  00850              % 01822 RGTR--
+*I FD 140305001 140701016        0000877  00832  00850      % 01822 RGTR--
+140305001 Kehmen, Kiirch               00832                % 01822 RGTR--
+140308001 Scheidel, Hengesch    00833  00833                % 01822 RGTR--
+140310001 Welscheid, Bei der B  00836  00836                % 01822 RGTR--
+140310002 Welscheid, Jongerts   00837  00837                % 01822 RGTR--
+140601001 Burden, Beim Fëschwe  00840  00840                % 01822 RGTR--
+140702008 Warken, Rue de Welsc  00844  00844                % 01822 RGTR--
+140702001 Warken, Centre d'Edu  00845  00845                % 01822 RGTR--
+140702002 Warken, Café Kaell    00845  00845                % 01822 RGTR--
+140701020 Ettelbruck, Centre H  00846  00846                % 01822 RGTR--
+140701021 Ettelbruck, L.T.Sale  00847  00847                % 01822 RGTR--
+140701024 Ettelbruck, Boffer    00848  00848                % 01822 RGTR--
+140701016 Ettelbruck, Gare      00850                       % 01822 RGTR--
+*Z 01823 RGTR--                                             % 01823 RGTR--
+*L 540      140305001 140701016  01032  01049               % 01823 RGTR--
+*A bn 140305001 140701016 000001  01032  01049              % 01823 RGTR--
+*R 2 140701016 140305001 140701016  01032  01049            % 01823 RGTR--
+*G RGB 140305001 140701016  01032  01049                    % 01823 RGTR--
+*A VE 140305001 140701016 000001  01032  01049              % 01823 RGTR--
+*I FD 140305001 140701016        0002650  01032  01049      % 01823 RGTR--
+140305001 Kehmen, Kiirch               01032                % 01823 RGTR--
+140308001 Scheidel, Hengesch    01033  01033                % 01823 RGTR--
+140310001 Welscheid, Bei der B  01036  01036                % 01823 RGTR--
+140310002 Welscheid, Jongerts   01037  01037                % 01823 RGTR--
+140601001 Burden, Beim Fëschwe  01040  01040                % 01823 RGTR--
+140702008 Warken, Rue de Welsc  01044  01044                % 01823 RGTR--
+140702001 Warken, Centre d'Edu  01044  01044                % 01823 RGTR--
+140702002 Warken, Café Kaell    01045  01045                % 01823 RGTR--
+140701020 Ettelbruck, Centre H  01046  01046                % 01823 RGTR--
+140701021 Ettelbruck, L.T.Sale  01047  01047                % 01823 RGTR--
+140701024 Ettelbruck, Boffer    01048  01048                % 01823 RGTR--
+140701016 Ettelbruck, Gare      01049                       % 01823 RGTR--
+*Z 01824 RGTR--                                             % 01824 RGTR--
+*L 540      140305001 140701016  01402  01419               % 01824 RGTR--
+*A bn 140305001 140701016 000001  01402  01419              % 01824 RGTR--
+*R 2 140701016 140305001 140701016  01402  01419            % 01824 RGTR--
+*G RGB 140305001 140701016  01402  01419                    % 01824 RGTR--
+*A VE 140305001 140701016 000001  01402  01419              % 01824 RGTR--
+*I FD 140305001 140701016        0002483  01402  01419      % 01824 RGTR--
+140305001 Kehmen, Kiirch               01402                % 01824 RGTR--
+140308001 Scheidel, Hengesch    01403  01403                % 01824 RGTR--
+140310001 Welscheid, Bei der B  01406  01406                % 01824 RGTR--
+140310002 Welscheid, Jongerts   01407  01407                % 01824 RGTR--
+140601001 Burden, Beim Fëschwe  01410  01410                % 01824 RGTR--
+140702008 Warken, Rue de Welsc  01414  01414                % 01824 RGTR--
+140702001 Warken, Centre d'Edu  01414  01414                % 01824 RGTR--
+140702002 Warken, Café Kaell    01415  01415                % 01824 RGTR--
+140701020 Ettelbruck, Centre H  01416  01416                % 01824 RGTR--
+140701021 Ettelbruck, L.T.Sale  01417  01417                % 01824 RGTR--
+140701024 Ettelbruck, Boffer    01418  01418                % 01824 RGTR--
+140701016 Ettelbruck, Gare      01419                       % 01824 RGTR--
