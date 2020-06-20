@@ -1,0 +1,88 @@
+*F 03 2
+*Z 10073 RGTR--                                             % 10073 RGTR--
+*L 688      110706013 110101002  00740  00820               % 10073 RGTR--
+*A al 110706013 110101002 000002  00740  00820              % 10073 RGTR--
+*A am 110706013 110101002 000002  00740  00820              % 10073 RGTR--
+*A ad 110706013 110101002 000002  00740  00820              % 10073 RGTR--
+*R 1 110101002 110706013 110101002  00740  00820            % 10073 RGTR--
+*G RGB 110706013 110101002  00740  00820                    % 10073 RGTR--
+*A VE 110706013 110101002 000002  00740  00820              % 10073 RGTR--
+*I FD 110706013 110101002        0002859  00740  00820      % 10073 RGTR--
+110706013 Wemperhaart, 3 Brake         00740                % 10073 RGTR--
+110605008 Huldange, Maison Kna  00741  00741                % 10073 RGTR--
+110605007 Huldange, Scierie     00742  00742                % 10073 RGTR--
+110605003 Huldange, Groussefel  00743  00743                % 10073 RGTR--
+110605001 Huldange, Eglise      00744  00744                % 10073 RGTR--
+110605002 Huldange, Grotte      00745  00745                % 10073 RGTR--
+110605004 Huldange, Helzt       00746  00746                % 10073 RGTR--
+110604001 Hautbellain           00749  00749                % 10073 RGTR--
+110601003 Bellain, Gare         00750  00750                % 10073 RGTR--
+110601001 Basbellain, Eglise    00751  00751                % 10073 RGTR--
+110601002 Basbellain, Wilmes    00752  00752                % 10073 RGTR--
+110606004 Troisvierges, Paster  00755  00755                % 10073 RGTR--
+110606006 Troisvierges, Tomm    00756  00756                % 10073 RGTR--
+110606002 Troisvierges, Mairie  00757  00757                % 10073 RGTR--
+110606003 Troisvierges, Milleb  00758  00758                % 10073 RGTR--
+110609001 Biwisch               00801  00801                % 10073 RGTR--
+110606005 Troisvierges, Police  00804  00804                % 10073 RGTR--
+110817001 Sassel, Beim Millewe  00810  00810                % 10073 RGTR--
+110822004 Maulusmühle, Cliärrw  00815  00815                % 10073 RGTR--
+110101002 Clervaux, Gare routi  00820                       % 10073 RGTR--
+*Z 10074 RGTR--                                             % 10074 RGTR--
+*L 688      110101002 110706013  01637  01715               % 10074 RGTR--
+*A al 110101002 110706013 000002  01637  01715              % 10074 RGTR--
+*A am 110101002 110706013 000002  01637  01715              % 10074 RGTR--
+*A ad 110101002 110706013 000002  01637  01715              % 10074 RGTR--
+*R 2 110706013 110101002 110706013  01637  01715            % 10074 RGTR--
+*G RGB 110101002 110706013  01637  01715                    % 10074 RGTR--
+*A VE 110101002 110706013 000002  01637  01715              % 10074 RGTR--
+*I FD 110101002 110706013        0002029  01637  01715      % 10074 RGTR--
+110101002 Clervaux, Gare routi         01637                % 10074 RGTR--
+110822004 Maulusmühle, Cliärrw  01642  01642                % 10074 RGTR--
+110817001 Sassel, Beim Millewe  01646  01646                % 10074 RGTR--
+110606005 Troisvierges, Police  01652  01652                % 10074 RGTR--
+110609001 Biwisch               01655  01655                % 10074 RGTR--
+110606003 Troisvierges, Milleb  01658  01658                % 10074 RGTR--
+110606002 Troisvierges, Mairie  01659  01659                % 10074 RGTR--
+110606006 Troisvierges, Tomm    01700  01700                % 10074 RGTR--
+110606004 Troisvierges, Paster  01701  01701                % 10074 RGTR--
+110601002 Basbellain, Wilmes    01703  01703                % 10074 RGTR--
+110601001 Basbellain, Eglise    01704  01704                % 10074 RGTR--
+110601003 Bellain, Gare         01705  01705                % 10074 RGTR--
+110604001 Hautbellain           01706  01706                % 10074 RGTR--
+110605004 Huldange, Helzt       01709  01709                % 10074 RGTR--
+110605002 Huldange, Grotte      01710  01710                % 10074 RGTR--
+110605001 Huldange, Eglise      01710  01710                % 10074 RGTR--
+110605003 Huldange, Groussefel  01711  01711                % 10074 RGTR--
+110605007 Huldange, Scierie     01712  01712                % 10074 RGTR--
+110605008 Huldange, Maison Kna  01713  01713                % 10074 RGTR--
+110706013 Wemperhaart, 3 Brake  01715                       % 10074 RGTR--
+*Z 10075 RGTR--                                             % 10075 RGTR--
+*L 688      110101002 110706013  01455  01532               % 10075 RGTR--
+*A al 110101002 110706013 000002  01455  01532              % 10075 RGTR--
+*A am 110101002 110706013 000002  01455  01532              % 10075 RGTR--
+*A ad 110101002 110706013 000002  01455  01532              % 10075 RGTR--
+*R 2 110706013 110101002 110706013  01455  01532            % 10075 RGTR--
+*G RGB 110101002 110706013  01455  01532                    % 10075 RGTR--
+*A VE 110101002 110706013 000002  01455  01532              % 10075 RGTR--
+*I FD 110101002 110706013        0002760  01455  01532      % 10075 RGTR--
+110101002 Clervaux, Gare routi         01455                % 10075 RGTR--
+110822004 Maulusmühle, Cliärrw  01500  01500                % 10075 RGTR--
+110817001 Sassel, Beim Millewe  01504  01504                % 10075 RGTR--
+110606005 Troisvierges, Police  01510  01510                % 10075 RGTR--
+110609001 Biwisch               01512  01512                % 10075 RGTR--
+110606003 Troisvierges, Milleb  01515  01515                % 10075 RGTR--
+110606002 Troisvierges, Mairie  01517  01517                % 10075 RGTR--
+110606006 Troisvierges, Tomm    01517  01517                % 10075 RGTR--
+110606004 Troisvierges, Paster  01518  01518                % 10075 RGTR--
+110601002 Basbellain, Wilmes    01520  01520                % 10075 RGTR--
+110601001 Basbellain, Eglise    01521  01521                % 10075 RGTR--
+110601003 Bellain, Gare         01522  01522                % 10075 RGTR--
+110604001 Hautbellain           01523  01523                % 10075 RGTR--
+110605004 Huldange, Helzt       01526  01526                % 10075 RGTR--
+110605002 Huldange, Grotte      01527  01527                % 10075 RGTR--
+110605001 Huldange, Eglise      01528  01528                % 10075 RGTR--
+110605003 Huldange, Groussefel  01528  01528                % 10075 RGTR--
+110605007 Huldange, Scierie     01529  01529                % 10075 RGTR--
+110605008 Huldange, Maison Kna  01531  01531                % 10075 RGTR--
+110706013 Wemperhaart, 3 Brake  01532                       % 10075 RGTR--

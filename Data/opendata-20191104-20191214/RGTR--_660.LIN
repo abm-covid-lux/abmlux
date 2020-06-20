@@ -1,0 +1,596 @@
+*F 03 2
+*Z 02151 RGTR--                                             % 02151 RGTR--
+*L 660      110101002 110308003  01155  01228               % 02151 RGTR--
+*A ax 110101002 110308003 000001  01155  01228              % 02151 RGTR--
+*R 1 110308003 110101002 110308003  01155  01228            % 02151 RGTR--
+*G RGB 110101002 110308003  01155  01228                    % 02151 RGTR--
+*A VE 110101002 110308003 000001  01155  01228              % 02151 RGTR--
+*I FD 110101002 110308003        0002765  01155  01228      % 02151 RGTR--
+110101002 Clervaux, Gare routi         01155                % 02151 RGTR--
+110101004 Clervaux, Maison de   01156  01156                % 02151 RGTR--
+110101009 Clervaux, Place Bene  01157  01157                % 02151 RGTR--
+110101010 Clervaux, Police      01158  01158                % 02151 RGTR--
+110101001 Clervaux, Clinique    01159  01159                % 02151 RGTR--
+110103003 Reuler, Hôh           01200  01200                % 02151 RGTR--
+110103002 Reuler, Duerf         01201  01201                % 02151 RGTR--
+110103001 Reuler, Centre Scola  01202  01210                % 02151 RGTR--
+110104002 Urspelt, Schlass      01212  01212                % 02151 RGTR--
+110104001 Urspelt, Knupp        01213  01213                % 02151 RGTR--
+110304004 Hupperdange, Knupp    01215  01215                % 02151 RGTR--
+110304002 Hupperdange, Schull   01216  01216                % 02151 RGTR--
+110304003 Hupperdange, Hualewe  01217  01217                % 02151 RGTR--
+110305001 Kaesfurt              01218  01218                % 02151 RGTR--
+110303001 Heinerscheid, Bei Di  01220  01220                % 02151 RGTR--
+110303003 Heinerscheid, Geméin  01221  01221                % 02151 RGTR--
+110303002 Heinerscheid, Bei Mi  01221  01221                % 02151 RGTR--
+110307001 Lausdorn              01224  01224                % 02151 RGTR--
+110308002 Lieler, Gässelchen    01226  01226                % 02151 RGTR--
+110308004 Lieler, Schull        01227  01227                % 02151 RGTR--
+110308001 Lieler, Beim Biereg   01227  01227                % 02151 RGTR--
+110308003 Lieler, Om Knupp      01228                       % 02151 RGTR--
+*Z 02152 RGTR--                                             % 02152 RGTR--
+*L 660      110101002 110308003  00749  00815               % 02152 RGTR--
+*A ax 110101002 110308003 000001  00749  00815              % 02152 RGTR--
+*R 1 110308003 110101002 110308003  00749  00815            % 02152 RGTR--
+*G RGB 110101002 110308003  00749  00815                    % 02152 RGTR--
+*A VE 110101002 110308003 000001  00749  00815              % 02152 RGTR--
+*I FD 110101002 110308003        0001784  00749  00815      % 02152 RGTR--
+110101002 Clervaux, Gare routi         00749                % 02152 RGTR--
+110101004 Clervaux, Maison de   00750  00750                % 02152 RGTR--
+110101009 Clervaux, Place Bene  00751  00751                % 02152 RGTR--
+110101010 Clervaux, Police      00752  00752                % 02152 RGTR--
+110101001 Clervaux, Clinique    00753  00753                % 02152 RGTR--
+110103003 Reuler, Hôh           00754  00754                % 02152 RGTR--
+110103002 Reuler, Duerf         00755  00755                % 02152 RGTR--
+110103001 Reuler, Centre Scola  00756  00756                % 02152 RGTR--
+110104002 Urspelt, Schlass      00759  00759                % 02152 RGTR--
+110104001 Urspelt, Knupp        00759  00759                % 02152 RGTR--
+110304004 Hupperdange, Knupp    00802  00802                % 02152 RGTR--
+110304002 Hupperdange, Schull   00803  00803                % 02152 RGTR--
+110304003 Hupperdange, Hualewe  00804  00804                % 02152 RGTR--
+110305001 Kaesfurt              00806  00806                % 02152 RGTR--
+110303001 Heinerscheid, Bei Di  00807  00807                % 02152 RGTR--
+110303003 Heinerscheid, Geméin  00808  00808                % 02152 RGTR--
+110303002 Heinerscheid, Bei Mi  00809  00809                % 02152 RGTR--
+110308002 Lieler, Gässelchen    00813  00813                % 02152 RGTR--
+110308004 Lieler, Schull        00814  00814                % 02152 RGTR--
+110308001 Lieler, Beim Biereg   00814  00814                % 02152 RGTR--
+110308003 Lieler, Om Knupp      00815                       % 02152 RGTR--
+*Z 02153 RGTR--                                             % 02153 RGTR--
+*L 660      110101002 110308003  00849  00915               % 02153 RGTR--
+*A ax 110101002 110308003 000001  00849  00915              % 02153 RGTR--
+*R 1 110308003 110101002 110308003  00849  00915            % 02153 RGTR--
+*G RGB 110101002 110308003  00849  00915                    % 02153 RGTR--
+*A VE 110101002 110308003 000001  00849  00915              % 02153 RGTR--
+*I FD 110101002 110308003        0001786  00849  00915      % 02153 RGTR--
+110101002 Clervaux, Gare routi         00849                % 02153 RGTR--
+110101004 Clervaux, Maison de   00850  00850                % 02153 RGTR--
+110101009 Clervaux, Place Bene  00851  00851                % 02153 RGTR--
+110101010 Clervaux, Police      00852  00852                % 02153 RGTR--
+110101001 Clervaux, Clinique    00853  00853                % 02153 RGTR--
+110103003 Reuler, Hôh           00854  00854                % 02153 RGTR--
+110103002 Reuler, Duerf         00855  00855                % 02153 RGTR--
+110103001 Reuler, Centre Scola  00856  00856                % 02153 RGTR--
+110104002 Urspelt, Schlass      00859  00859                % 02153 RGTR--
+110104001 Urspelt, Knupp        00859  00859                % 02153 RGTR--
+110304004 Hupperdange, Knupp    00902  00902                % 02153 RGTR--
+110304002 Hupperdange, Schull   00903  00903                % 02153 RGTR--
+110304003 Hupperdange, Hualewe  00904  00904                % 02153 RGTR--
+110305001 Kaesfurt              00906  00906                % 02153 RGTR--
+110303001 Heinerscheid, Bei Di  00907  00907                % 02153 RGTR--
+110303003 Heinerscheid, Geméin  00908  00908                % 02153 RGTR--
+110303002 Heinerscheid, Bei Mi  00909  00909                % 02153 RGTR--
+110308002 Lieler, Gässelchen    00913  00913                % 02153 RGTR--
+110308004 Lieler, Schull        00914  00914                % 02153 RGTR--
+110308001 Lieler, Beim Biereg   00914  00914                % 02153 RGTR--
+110308003 Lieler, Om Knupp      00915                       % 02153 RGTR--
+*Z 02154 RGTR--                                             % 02154 RGTR--
+*L 660      110101002 110308003  01026  01050               % 02154 RGTR--
+*A ax 110101002 110308003 000001  01026  01050              % 02154 RGTR--
+*A MO 110101002 110308003 000001  01026  01050              % 02154 RGTR--
+*R 1 110308003 110101002 110308003  01026  01050            % 02154 RGTR--
+*G RGB 110101002 110308003  01026  01050                    % 02154 RGTR--
+*A VE 110101002 110308003 000001  01026  01050              % 02154 RGTR--
+*I FD 110101002 110308003        0002766  01026  01050      % 02154 RGTR--
+110101002 Clervaux, Gare routi         01026                % 02154 RGTR--
+110101004 Clervaux, Maison de   01027  01027                % 02154 RGTR--
+110101009 Clervaux, Place Bene  01028  01028                % 02154 RGTR--
+110101010 Clervaux, Police      01029  01029                % 02154 RGTR--
+110101001 Clervaux, Clinique    01030  01030                % 02154 RGTR--
+110103003 Reuler, Hôh           01031  01031                % 02154 RGTR--
+110103002 Reuler, Duerf         01032  01032                % 02154 RGTR--
+110103001 Reuler, Centre Scola  01033  01033                % 02154 RGTR--
+110104002 Urspelt, Schlass      01035  01035                % 02154 RGTR--
+110104001 Urspelt, Knupp        01036  01036                % 02154 RGTR--
+110304004 Hupperdange, Knupp    01038  01038                % 02154 RGTR--
+110304002 Hupperdange, Schull   01039  01039                % 02154 RGTR--
+110304003 Hupperdange, Hualewe  01040  01040                % 02154 RGTR--
+110305001 Kaesfurt              01041  01041                % 02154 RGTR--
+110303001 Heinerscheid, Bei Di  01043  01043                % 02154 RGTR--
+110303003 Heinerscheid, Geméin  01044  01044                % 02154 RGTR--
+110303002 Heinerscheid, Bei Mi  01044  01044                % 02154 RGTR--
+110308002 Lieler, Gässelchen    01048  01048                % 02154 RGTR--
+110308004 Lieler, Schull        01049  01049                % 02154 RGTR--
+110308001 Lieler, Beim Biereg   01050  01050                % 02154 RGTR--
+110308003 Lieler, Om Knupp      01050                       % 02154 RGTR--
+*Z 02155 RGTR--                                             % 02155 RGTR--
+*L 660      110101002 110308003  01526  01550               % 02155 RGTR--
+*A ax 110101002 110308003 000001  01526  01550              % 02155 RGTR--
+*A MO 110101002 110308003 000001  01526  01550              % 02155 RGTR--
+*R 1 110308003 110101002 110308003  01526  01550            % 02155 RGTR--
+*G RGB 110101002 110308003  01526  01550                    % 02155 RGTR--
+*A VE 110101002 110308003 000001  01526  01550              % 02155 RGTR--
+*I FD 110101002 110308003        0002767  01526  01550      % 02155 RGTR--
+110101002 Clervaux, Gare routi         01526                % 02155 RGTR--
+110101004 Clervaux, Maison de   01527  01527                % 02155 RGTR--
+110101009 Clervaux, Place Bene  01528  01528                % 02155 RGTR--
+110101010 Clervaux, Police      01529  01529                % 02155 RGTR--
+110101001 Clervaux, Clinique    01530  01530                % 02155 RGTR--
+110103003 Reuler, Hôh           01531  01531                % 02155 RGTR--
+110103002 Reuler, Duerf         01532  01532                % 02155 RGTR--
+110103001 Reuler, Centre Scola  01533  01533                % 02155 RGTR--
+110104002 Urspelt, Schlass      01535  01535                % 02155 RGTR--
+110104001 Urspelt, Knupp        01536  01536                % 02155 RGTR--
+110304004 Hupperdange, Knupp    01538  01538                % 02155 RGTR--
+110304002 Hupperdange, Schull   01539  01539                % 02155 RGTR--
+110304003 Hupperdange, Hualewe  01540  01540                % 02155 RGTR--
+110305001 Kaesfurt              01541  01541                % 02155 RGTR--
+110303001 Heinerscheid, Bei Di  01543  01543                % 02155 RGTR--
+110303003 Heinerscheid, Geméin  01544  01544                % 02155 RGTR--
+110303002 Heinerscheid, Bei Mi  01544  01544                % 02155 RGTR--
+110308002 Lieler, Gässelchen    01548  01548                % 02155 RGTR--
+110308004 Lieler, Schull        01549  01549                % 02155 RGTR--
+110308001 Lieler, Beim Biereg   01550  01550                % 02155 RGTR--
+110308003 Lieler, Om Knupp      01550                       % 02155 RGTR--
+*Z 02156 RGTR--                                             % 02156 RGTR--
+*L 660      110101002 110308003  01726  01750               % 02156 RGTR--
+*A ax 110101002 110308003 000001  01726  01750              % 02156 RGTR--
+*A MO 110101002 110308003 000001  01726  01750              % 02156 RGTR--
+*R 1 110308003 110101002 110308003  01726  01750            % 02156 RGTR--
+*G RGB 110101002 110308003  01726  01750                    % 02156 RGTR--
+*A VE 110101002 110308003 000001  01726  01750              % 02156 RGTR--
+*I FD 110101002 110308003        0002565  01726  01750      % 02156 RGTR--
+110101002 Clervaux, Gare routi         01726                % 02156 RGTR--
+110101004 Clervaux, Maison de   01727  01727                % 02156 RGTR--
+110101009 Clervaux, Place Bene  01728  01728                % 02156 RGTR--
+110101010 Clervaux, Police      01729  01729                % 02156 RGTR--
+110101001 Clervaux, Clinique    01730  01730                % 02156 RGTR--
+110103003 Reuler, Hôh           01731  01731                % 02156 RGTR--
+110103002 Reuler, Duerf         01732  01732                % 02156 RGTR--
+110103001 Reuler, Centre Scola  01733  01733                % 02156 RGTR--
+110104002 Urspelt, Schlass      01735  01735                % 02156 RGTR--
+110104001 Urspelt, Knupp        01736  01736                % 02156 RGTR--
+110304004 Hupperdange, Knupp    01738  01738                % 02156 RGTR--
+110304002 Hupperdange, Schull   01739  01739                % 02156 RGTR--
+110304003 Hupperdange, Hualewe  01740  01740                % 02156 RGTR--
+110305001 Kaesfurt              01741  01741                % 02156 RGTR--
+110303001 Heinerscheid, Bei Di  01743  01743                % 02156 RGTR--
+110303003 Heinerscheid, Geméin  01744  01744                % 02156 RGTR--
+110303002 Heinerscheid, Bei Mi  01744  01744                % 02156 RGTR--
+110308002 Lieler, Gässelchen    01748  01748                % 02156 RGTR--
+110308004 Lieler, Schull        01749  01749                % 02156 RGTR--
+110308001 Lieler, Beim Biereg   01750  01750                % 02156 RGTR--
+110308003 Lieler, Om Knupp      01750                       % 02156 RGTR--
+*Z 02157 RGTR--                                             % 02157 RGTR--
+*L 660      110101002 110308003  01826  01850               % 02157 RGTR--
+*A ax 110101002 110308003 000001  01826  01850              % 02157 RGTR--
+*A MO 110101002 110308003 000001  01826  01850              % 02157 RGTR--
+*R 1 110308003 110101002 110308003  01826  01850            % 02157 RGTR--
+*G RGB 110101002 110308003  01826  01850                    % 02157 RGTR--
+*A VE 110101002 110308003 000001  01826  01850              % 02157 RGTR--
+*I FD 110101002 110308003        0002419  01826  01850      % 02157 RGTR--
+110101002 Clervaux, Gare routi         01826                % 02157 RGTR--
+110101004 Clervaux, Maison de   01827  01827                % 02157 RGTR--
+110101009 Clervaux, Place Bene  01828  01828                % 02157 RGTR--
+110101010 Clervaux, Police      01829  01829                % 02157 RGTR--
+110101001 Clervaux, Clinique    01830  01830                % 02157 RGTR--
+110103003 Reuler, Hôh           01831  01831                % 02157 RGTR--
+110103002 Reuler, Duerf         01832  01832                % 02157 RGTR--
+110103001 Reuler, Centre Scola  01833  01833                % 02157 RGTR--
+110104002 Urspelt, Schlass      01835  01835                % 02157 RGTR--
+110104001 Urspelt, Knupp        01836  01836                % 02157 RGTR--
+110304004 Hupperdange, Knupp    01838  01838                % 02157 RGTR--
+110304002 Hupperdange, Schull   01839  01839                % 02157 RGTR--
+110304003 Hupperdange, Hualewe  01840  01840                % 02157 RGTR--
+110305001 Kaesfurt              01841  01841                % 02157 RGTR--
+110303001 Heinerscheid, Bei Di  01843  01843                % 02157 RGTR--
+110303003 Heinerscheid, Geméin  01844  01844                % 02157 RGTR--
+110303002 Heinerscheid, Bei Mi  01844  01844                % 02157 RGTR--
+110308002 Lieler, Gässelchen    01848  01848                % 02157 RGTR--
+110308004 Lieler, Schull        01849  01849                % 02157 RGTR--
+110308001 Lieler, Beim Biereg   01850  01850                % 02157 RGTR--
+110308003 Lieler, Om Knupp      01850                       % 02157 RGTR--
+*Z 02158 RGTR--                                             % 02158 RGTR--
+*L 660      110101002 110308003  01926  01950               % 02158 RGTR--
+*A ax 110101002 110308003 000001  01926  01950              % 02158 RGTR--
+*A MO 110101002 110308003 000001  01926  01950              % 02158 RGTR--
+*R 1 110308003 110101002 110308003  01926  01950            % 02158 RGTR--
+*G RGB 110101002 110308003  01926  01950                    % 02158 RGTR--
+*A VE 110101002 110308003 000001  01926  01950              % 02158 RGTR--
+*I FD 110101002 110308003        0002768  01926  01950      % 02158 RGTR--
+110101002 Clervaux, Gare routi         01926                % 02158 RGTR--
+110101004 Clervaux, Maison de   01927  01927                % 02158 RGTR--
+110101009 Clervaux, Place Bene  01928  01928                % 02158 RGTR--
+110101010 Clervaux, Police      01929  01929                % 02158 RGTR--
+110101001 Clervaux, Clinique    01930  01930                % 02158 RGTR--
+110103003 Reuler, Hôh           01931  01931                % 02158 RGTR--
+110103002 Reuler, Duerf         01932  01932                % 02158 RGTR--
+110103001 Reuler, Centre Scola  01933  01933                % 02158 RGTR--
+110104002 Urspelt, Schlass      01935  01935                % 02158 RGTR--
+110104001 Urspelt, Knupp        01936  01936                % 02158 RGTR--
+110304004 Hupperdange, Knupp    01938  01938                % 02158 RGTR--
+110304002 Hupperdange, Schull   01939  01939                % 02158 RGTR--
+110304003 Hupperdange, Hualewe  01940  01940                % 02158 RGTR--
+110305001 Kaesfurt              01941  01941                % 02158 RGTR--
+110303001 Heinerscheid, Bei Di  01943  01943                % 02158 RGTR--
+110303003 Heinerscheid, Geméin  01944  01944                % 02158 RGTR--
+110303002 Heinerscheid, Bei Mi  01944  01944                % 02158 RGTR--
+110308002 Lieler, Gässelchen    01948  01948                % 02158 RGTR--
+110308004 Lieler, Schull        01949  01949                % 02158 RGTR--
+110308001 Lieler, Beim Biereg   01950  01950                % 02158 RGTR--
+110308003 Lieler, Om Knupp      01950                       % 02158 RGTR--
+*Z 02159 RGTR--                                             % 02159 RGTR--
+*L 660      110101002 110308003  01326  01350               % 02159 RGTR--
+*A ax 110101002 110308003 000097  01326  01350              % 02159 RGTR--
+*A MO 110101002 110308003 000097  01326  01350              % 02159 RGTR--
+*R 1 110308003 110101002 110308003  01326  01350            % 02159 RGTR--
+*G RGB 110101002 110308003  01326  01350                    % 02159 RGTR--
+*A VE 110101002 110308003 000097  01326  01350              % 02159 RGTR--
+*I FD 110101002 110308003        0002769  01326  01350      % 02159 RGTR--
+110101002 Clervaux, Gare routi         01326                % 02159 RGTR--
+110101004 Clervaux, Maison de   01327  01327                % 02159 RGTR--
+110101009 Clervaux, Place Bene  01328  01328                % 02159 RGTR--
+110101010 Clervaux, Police      01329  01329                % 02159 RGTR--
+110101001 Clervaux, Clinique    01330  01330                % 02159 RGTR--
+110103003 Reuler, Hôh           01331  01331                % 02159 RGTR--
+110103002 Reuler, Duerf         01332  01332                % 02159 RGTR--
+110103001 Reuler, Centre Scola  01333  01333                % 02159 RGTR--
+110104002 Urspelt, Schlass      01335  01335                % 02159 RGTR--
+110104001 Urspelt, Knupp        01336  01336                % 02159 RGTR--
+110304004 Hupperdange, Knupp    01338  01338                % 02159 RGTR--
+110304002 Hupperdange, Schull   01339  01339                % 02159 RGTR--
+110304003 Hupperdange, Hualewe  01340  01340                % 02159 RGTR--
+110305001 Kaesfurt              01341  01341                % 02159 RGTR--
+110303001 Heinerscheid, Bei Di  01343  01343                % 02159 RGTR--
+110303003 Heinerscheid, Geméin  01344  01344                % 02159 RGTR--
+110303002 Heinerscheid, Bei Mi  01344  01344                % 02159 RGTR--
+110308002 Lieler, Gässelchen    01348  01348                % 02159 RGTR--
+110308004 Lieler, Schull        01349  01349                % 02159 RGTR--
+110308001 Lieler, Beim Biereg   01350  01350                % 02159 RGTR--
+110308003 Lieler, Om Knupp      01350                       % 02159 RGTR--
+*Z 02160 RGTR--                                             % 02160 RGTR--
+*L 660      110103001 110308003  01603  01621               % 02160 RGTR--
+*A ax 110103001 110308003 000008  01603  01621              % 02160 RGTR--
+*R 1 110308003 110103001 110308003  01603  01621            % 02160 RGTR--
+*G RGB 110103001 110308003  01603  01621                    % 02160 RGTR--
+*A VE 110103001 110308003 000008  01603  01621              % 02160 RGTR--
+*I FD 110103001 110308003        0002009  01603  01621      % 02160 RGTR--
+110103001 Reuler, Centre Scola         01603                % 02160 RGTR--
+110104002 Urspelt, Schlass      01605  01605                % 02160 RGTR--
+110104001 Urspelt, Knupp        01606  01606                % 02160 RGTR--
+110304004 Hupperdange, Knupp    01608  01608                % 02160 RGTR--
+110304002 Hupperdange, Schull   01609  01609                % 02160 RGTR--
+110304003 Hupperdange, Hualewe  01610  01610                % 02160 RGTR--
+110305001 Kaesfurt              01612  01612                % 02160 RGTR--
+110303001 Heinerscheid, Bei Di  01614  01614                % 02160 RGTR--
+110303003 Heinerscheid, Geméin  01614  01614                % 02160 RGTR--
+110303002 Heinerscheid, Bei Mi  01615  01615                % 02160 RGTR--
+110307001 Lausdorn              01617  01617                % 02160 RGTR--
+110308002 Lieler, Gässelchen    01619  01619                % 02160 RGTR--
+110308004 Lieler, Schull        01620  01620                % 02160 RGTR--
+110308001 Lieler, Beim Biereg   01621  01621                % 02160 RGTR--
+110308003 Lieler, Om Knupp      01621                       % 02160 RGTR--
+*Z 02161 RGTR--                                             % 02161 RGTR--
+*L 660      110308002 110303003  00552  00559               % 02161 RGTR--
+*A ax 110308002 110303003 000001  00552  00559              % 02161 RGTR--
+*A WU 110308002 110303003 000001  00552  00559              % 02161 RGTR--
+*R 2 110303003 110308002 110303003  00552  00559            % 02161 RGTR--
+*G RGB 110308002 110303003  00552  00559                    % 02161 RGTR--
+*A VE 110308002 110303003 000001  00552  00559              % 02161 RGTR--
+*I FD 110308002 110303003        0002654  00552  00559      % 02161 RGTR--
+110308002 Lieler, Gässelchen           00552                % 02161 RGTR--
+110308004 Lieler, Schull        00553  00553                % 02161 RGTR--
+110308001 Lieler, Beim Biereg   00553  00553                % 02161 RGTR--
+110308003 Lieler, Om Knupp      00554  00554                % 02161 RGTR--
+110303002 Heinerscheid, Bei Mi  00558  00558                % 02161 RGTR--
+110303003 Heinerscheid, Geméin  00559                       % 02161 RGTR--
+*Z 02162 RGTR--                                             % 02162 RGTR--
+*L 660      110308002 110101002  00726  00751               % 02162 RGTR--
+*A ax 110308002 110101002 000002  00726  00751              % 02162 RGTR--
+*R 2 110101002 110308002 110101002  00726  00751            % 02162 RGTR--
+*G RGB 110308002 110101002  00726  00751                    % 02162 RGTR--
+*A VE 110308002 110101002 000002  00726  00751              % 02162 RGTR--
+*I FD 110308002 110101002        0002770  00726  00751      % 02162 RGTR--
+110308002 Lieler, Gässelchen           00726                % 02162 RGTR--
+110308004 Lieler, Schull        00726  00726                % 02162 RGTR--
+110308001 Lieler, Beim Biereg   00727  00727                % 02162 RGTR--
+110308003 Lieler, Om Knupp      00728  00728                % 02162 RGTR--
+110307001 Lausdorn              00730  00730                % 02162 RGTR--
+110303002 Heinerscheid, Bei Mi  00733  00733                % 02162 RGTR--
+110303003 Heinerscheid, Geméin  00734  00734                % 02162 RGTR--
+110303001 Heinerscheid, Bei Di  00734  00734                % 02162 RGTR--
+110305001 Kaesfurt              00736  00736                % 02162 RGTR--
+110304003 Hupperdange, Hualewe  00737  00737                % 02162 RGTR--
+110304002 Hupperdange, Schull   00738  00738                % 02162 RGTR--
+110304004 Hupperdange, Knupp    00739  00739                % 02162 RGTR--
+110104001 Urspelt, Knupp        00741  00741                % 02162 RGTR--
+110104002 Urspelt, Schlass      00742  00742                % 02162 RGTR--
+110103001 Reuler, Centre Scola  00744  00744                % 02162 RGTR--
+110103002 Reuler, Duerf         00745  00745                % 02162 RGTR--
+110103003 Reuler, Hôh           00746  00746                % 02162 RGTR--
+110101001 Clervaux, Clinique    00747  00747                % 02162 RGTR--
+110101010 Clervaux, Police      00748  00748                % 02162 RGTR--
+110101008 Clervaux, Pl. de la   00748  00748                % 02162 RGTR--
+110101011 Clervaux, Postes      00750  00750                % 02162 RGTR--
+110101004 Clervaux, Maison de   00750  00750                % 02162 RGTR--
+110101002 Clervaux, Gare routi  00751                       % 02162 RGTR--
+*Z 02163 RGTR--                                             % 02163 RGTR--
+*L 660      110308002 110101002  01325  01349               % 02163 RGTR--
+*A ax 110308002 110101002 000008  01325  01349              % 02163 RGTR--
+*R 2 110101002 110308002 110101002  01325  01349            % 02163 RGTR--
+*G RGB 110308002 110101002  01325  01349                    % 02163 RGTR--
+*A VE 110308002 110101002 000008  01325  01349              % 02163 RGTR--
+*I FD 110308002 110101002        0002771  01325  01349      % 02163 RGTR--
+110308002 Lieler, Gässelchen           01325                % 02163 RGTR--
+110308004 Lieler, Schull        01325  01325                % 02163 RGTR--
+110308001 Lieler, Beim Biereg   01326  01326                % 02163 RGTR--
+110308003 Lieler, Om Knupp      01327  01327                % 02163 RGTR--
+110307001 Lausdorn              01329  01329                % 02163 RGTR--
+110303002 Heinerscheid, Bei Mi  01332  01332                % 02163 RGTR--
+110303003 Heinerscheid, Geméin  01332  01332                % 02163 RGTR--
+110303001 Heinerscheid, Bei Di  01333  01333                % 02163 RGTR--
+110305001 Kaesfurt              01335  01335                % 02163 RGTR--
+110304003 Hupperdange, Hualewe  01336  01336                % 02163 RGTR--
+110304002 Hupperdange, Schull   01337  01337                % 02163 RGTR--
+110304004 Hupperdange, Knupp    01338  01338                % 02163 RGTR--
+110104001 Urspelt, Knupp        01340  01340                % 02163 RGTR--
+110104002 Urspelt, Schlass      01340  01340                % 02163 RGTR--
+110103001 Reuler, Centre Scola  01343  01343                % 02163 RGTR--
+110103002 Reuler, Duerf         01344  01344                % 02163 RGTR--
+110103003 Reuler, Hôh           01345  01345                % 02163 RGTR--
+110101001 Clervaux, Clinique    01346  01346                % 02163 RGTR--
+110101010 Clervaux, Police      01346  01346                % 02163 RGTR--
+110101008 Clervaux, Pl. de la   01347  01347                % 02163 RGTR--
+110101011 Clervaux, Postes      01348  01348                % 02163 RGTR--
+110101004 Clervaux, Maison de   01348  01348                % 02163 RGTR--
+110101002 Clervaux, Gare routi  01349                       % 02163 RGTR--
+*Z 02164 RGTR--                                             % 02164 RGTR--
+*L 660      110308002 110101002  00810  00834               % 02164 RGTR--
+*A ax 110308002 110101002 000001  00810  00834              % 02164 RGTR--
+*A MP 110308002 110101002 000001  00810  00834              % 02164 RGTR--
+*R 2 110101002 110308002 110101002  00810  00834            % 02164 RGTR--
+*G RGB 110308002 110101002  00810  00834                    % 02164 RGTR--
+*A VE 110308002 110101002 000001  00810  00834              % 02164 RGTR--
+*I FD 110308002 110101002        0001981  00810  00834      % 02164 RGTR--
+110308002 Lieler, Gässelchen           00810                % 02164 RGTR--
+110308004 Lieler, Schull        00810  00810                % 02164 RGTR--
+110308001 Lieler, Beim Biereg   00811  00811                % 02164 RGTR--
+110308003 Lieler, Om Knupp      00812  00812                % 02164 RGTR--
+110303002 Heinerscheid, Bei Mi  00816  00816                % 02164 RGTR--
+110303003 Heinerscheid, Geméin  00816  00816                % 02164 RGTR--
+110303001 Heinerscheid, Bei Di  00817  00817                % 02164 RGTR--
+110305001 Kaesfurt              00819  00819                % 02164 RGTR--
+110304003 Hupperdange, Hualewe  00820  00820                % 02164 RGTR--
+110304002 Hupperdange, Schull   00821  00821                % 02164 RGTR--
+110304004 Hupperdange, Knupp    00822  00822                % 02164 RGTR--
+110104001 Urspelt, Knupp        00824  00824                % 02164 RGTR--
+110104002 Urspelt, Schlass      00825  00825                % 02164 RGTR--
+110103001 Reuler, Centre Scola  00827  00827                % 02164 RGTR--
+110103002 Reuler, Duerf         00828  00828                % 02164 RGTR--
+110103003 Reuler, Hôh           00829  00829                % 02164 RGTR--
+110101001 Clervaux, Clinique    00830  00830                % 02164 RGTR--
+110101010 Clervaux, Police      00831  00831                % 02164 RGTR--
+110101008 Clervaux, Pl. de la   00831  00831                % 02164 RGTR--
+110101011 Clervaux, Postes      00832  00832                % 02164 RGTR--
+110101004 Clervaux, Maison de   00833  00833                % 02164 RGTR--
+110101002 Clervaux, Gare routi  00834                       % 02164 RGTR--
+*Z 02165 RGTR--                                             % 02165 RGTR--
+*L 660      110308002 110101002  00910  00934               % 02165 RGTR--
+*A ax 110308002 110101002 000001  00910  00934              % 02165 RGTR--
+*A MP 110308002 110101002 000001  00910  00934              % 02165 RGTR--
+*R 2 110101002 110308002 110101002  00910  00934            % 02165 RGTR--
+*G RGB 110308002 110101002  00910  00934                    % 02165 RGTR--
+*A VE 110308002 110101002 000001  00910  00934              % 02165 RGTR--
+*I FD 110308002 110101002        0001982  00910  00934      % 02165 RGTR--
+110308002 Lieler, Gässelchen           00910                % 02165 RGTR--
+110308004 Lieler, Schull        00910  00910                % 02165 RGTR--
+110308001 Lieler, Beim Biereg   00911  00911                % 02165 RGTR--
+110308003 Lieler, Om Knupp      00912  00912                % 02165 RGTR--
+110303002 Heinerscheid, Bei Mi  00916  00916                % 02165 RGTR--
+110303003 Heinerscheid, Geméin  00916  00916                % 02165 RGTR--
+110303001 Heinerscheid, Bei Di  00917  00917                % 02165 RGTR--
+110305001 Kaesfurt              00919  00919                % 02165 RGTR--
+110304003 Hupperdange, Hualewe  00920  00920                % 02165 RGTR--
+110304002 Hupperdange, Schull   00921  00921                % 02165 RGTR--
+110304004 Hupperdange, Knupp    00922  00922                % 02165 RGTR--
+110104001 Urspelt, Knupp        00924  00924                % 02165 RGTR--
+110104002 Urspelt, Schlass      00925  00925                % 02165 RGTR--
+110103001 Reuler, Centre Scola  00927  00927                % 02165 RGTR--
+110103002 Reuler, Duerf         00928  00928                % 02165 RGTR--
+110103003 Reuler, Hôh           00929  00929                % 02165 RGTR--
+110101001 Clervaux, Clinique    00930  00930                % 02165 RGTR--
+110101010 Clervaux, Police      00931  00931                % 02165 RGTR--
+110101008 Clervaux, Pl. de la   00931  00931                % 02165 RGTR--
+110101011 Clervaux, Postes      00932  00932                % 02165 RGTR--
+110101004 Clervaux, Maison de   00933  00933                % 02165 RGTR--
+110101002 Clervaux, Gare routi  00934                       % 02165 RGTR--
+*Z 02166 RGTR--                                             % 02166 RGTR--
+*L 660      110308002 110101002  00610  00633               % 02166 RGTR--
+*A ax 110308002 110101002 000001  00610  00633              % 02166 RGTR--
+*A MP 110308002 110101002 000001  00610  00633              % 02166 RGTR--
+*R 2 110101002 110308002 110101002  00610  00633            % 02166 RGTR--
+*G RGB 110308002 110101002  00610  00633                    % 02166 RGTR--
+*A VE 110308002 110101002 000001  00610  00633              % 02166 RGTR--
+*I FD 110308002 110101002        0002160  00610  00633      % 02166 RGTR--
+110308002 Lieler, Gässelchen           00610                % 02166 RGTR--
+110308004 Lieler, Schull        00610  00610                % 02166 RGTR--
+110308001 Lieler, Beim Biereg   00611  00611                % 02166 RGTR--
+110308003 Lieler, Om Knupp      00612  00612                % 02166 RGTR--
+110303002 Heinerscheid, Bei Mi  00615  00615                % 02166 RGTR--
+110303003 Heinerscheid, Geméin  00616  00616                % 02166 RGTR--
+110303001 Heinerscheid, Bei Di  00617  00617                % 02166 RGTR--
+110305001 Kaesfurt              00618  00618                % 02166 RGTR--
+110304003 Hupperdange, Hualewe  00620  00620                % 02166 RGTR--
+110304002 Hupperdange, Schull   00621  00621                % 02166 RGTR--
+110304004 Hupperdange, Knupp    00621  00621                % 02166 RGTR--
+110104001 Urspelt, Knupp        00624  00624                % 02166 RGTR--
+110104002 Urspelt, Schlass      00624  00624                % 02166 RGTR--
+110103001 Reuler, Centre Scola  00626  00626                % 02166 RGTR--
+110103002 Reuler, Duerf         00628  00628                % 02166 RGTR--
+110103003 Reuler, Hôh           00629  00629                % 02166 RGTR--
+110101001 Clervaux, Clinique    00629  00629                % 02166 RGTR--
+110101010 Clervaux, Police      00630  00630                % 02166 RGTR--
+110101008 Clervaux, Pl. de la   00630  00630                % 02166 RGTR--
+110101011 Clervaux, Postes      00632  00632                % 02166 RGTR--
+110101004 Clervaux, Maison de   00632  00632                % 02166 RGTR--
+110101002 Clervaux, Gare routi  00633                       % 02166 RGTR--
+*Z 02167 RGTR--                                             % 02167 RGTR--
+*L 660      110308002 110101002  01110  01133               % 02167 RGTR--
+*A ax 110308002 110101002 000001  01110  01133              % 02167 RGTR--
+*A MP 110308002 110101002 000001  01110  01133              % 02167 RGTR--
+*R 2 110101002 110308002 110101002  01110  01133            % 02167 RGTR--
+*G RGB 110308002 110101002  01110  01133                    % 02167 RGTR--
+*A VE 110308002 110101002 000001  01110  01133              % 02167 RGTR--
+*I FD 110308002 110101002        0001031  01110  01133      % 02167 RGTR--
+110308002 Lieler, Gässelchen           01110                % 02167 RGTR--
+110308004 Lieler, Schull        01110  01110                % 02167 RGTR--
+110308001 Lieler, Beim Biereg   01111  01111                % 02167 RGTR--
+110308003 Lieler, Om Knupp      01112  01112                % 02167 RGTR--
+110303002 Heinerscheid, Bei Mi  01115  01115                % 02167 RGTR--
+110303003 Heinerscheid, Geméin  01116  01116                % 02167 RGTR--
+110303001 Heinerscheid, Bei Di  01117  01117                % 02167 RGTR--
+110305001 Kaesfurt              01118  01118                % 02167 RGTR--
+110304003 Hupperdange, Hualewe  01120  01120                % 02167 RGTR--
+110304002 Hupperdange, Schull   01121  01121                % 02167 RGTR--
+110304004 Hupperdange, Knupp    01121  01121                % 02167 RGTR--
+110104001 Urspelt, Knupp        01124  01124                % 02167 RGTR--
+110104002 Urspelt, Schlass      01124  01124                % 02167 RGTR--
+110103001 Reuler, Centre Scola  01126  01126                % 02167 RGTR--
+110103002 Reuler, Duerf         01128  01128                % 02167 RGTR--
+110103003 Reuler, Hôh           01129  01129                % 02167 RGTR--
+110101001 Clervaux, Clinique    01129  01129                % 02167 RGTR--
+110101010 Clervaux, Police      01130  01130                % 02167 RGTR--
+110101008 Clervaux, Pl. de la   01130  01130                % 02167 RGTR--
+110101011 Clervaux, Postes      01132  01132                % 02167 RGTR--
+110101004 Clervaux, Maison de   01132  01132                % 02167 RGTR--
+110101002 Clervaux, Gare routi  01133                       % 02167 RGTR--
+*Z 02168 RGTR--                                             % 02168 RGTR--
+*L 660      110308002 110101002  01410  01433               % 02168 RGTR--
+*A ax 110308002 110101002 000001  01410  01433              % 02168 RGTR--
+*A MP 110308002 110101002 000001  01410  01433              % 02168 RGTR--
+*R 2 110101002 110308002 110101002  01410  01433            % 02168 RGTR--
+*G RGB 110308002 110101002  01410  01433                    % 02168 RGTR--
+*A VE 110308002 110101002 000001  01410  01433              % 02168 RGTR--
+*I FD 110308002 110101002        0001967  01410  01433      % 02168 RGTR--
+110308002 Lieler, Gässelchen           01410                % 02168 RGTR--
+110308004 Lieler, Schull        01410  01410                % 02168 RGTR--
+110308001 Lieler, Beim Biereg   01411  01411                % 02168 RGTR--
+110308003 Lieler, Om Knupp      01412  01412                % 02168 RGTR--
+110303002 Heinerscheid, Bei Mi  01415  01415                % 02168 RGTR--
+110303003 Heinerscheid, Geméin  01416  01416                % 02168 RGTR--
+110303001 Heinerscheid, Bei Di  01417  01417                % 02168 RGTR--
+110305001 Kaesfurt              01418  01418                % 02168 RGTR--
+110304003 Hupperdange, Hualewe  01420  01420                % 02168 RGTR--
+110304002 Hupperdange, Schull   01421  01421                % 02168 RGTR--
+110304004 Hupperdange, Knupp    01421  01421                % 02168 RGTR--
+110104001 Urspelt, Knupp        01424  01424                % 02168 RGTR--
+110104002 Urspelt, Schlass      01424  01424                % 02168 RGTR--
+110103001 Reuler, Centre Scola  01426  01426                % 02168 RGTR--
+110103002 Reuler, Duerf         01428  01428                % 02168 RGTR--
+110103003 Reuler, Hôh           01429  01429                % 02168 RGTR--
+110101001 Clervaux, Clinique    01429  01429                % 02168 RGTR--
+110101010 Clervaux, Police      01430  01430                % 02168 RGTR--
+110101008 Clervaux, Pl. de la   01430  01430                % 02168 RGTR--
+110101011 Clervaux, Postes      01432  01432                % 02168 RGTR--
+110101004 Clervaux, Maison de   01432  01432                % 02168 RGTR--
+110101002 Clervaux, Gare routi  01433                       % 02168 RGTR--
+*Z 02169 RGTR--                                             % 02169 RGTR--
+*L 660      110308002 110101002  01740  01803               % 02169 RGTR--
+*A ax 110308002 110101002 000001  01740  01803              % 02169 RGTR--
+*A MP 110308002 110101002 000001  01740  01803              % 02169 RGTR--
+*R 2 110101002 110308002 110101002  01740  01803            % 02169 RGTR--
+*G RGB 110308002 110101002  01740  01803                    % 02169 RGTR--
+*A VE 110308002 110101002 000001  01740  01803              % 02169 RGTR--
+*I FD 110308002 110101002        0001915  01740  01803      % 02169 RGTR--
+110308002 Lieler, Gässelchen           01740                % 02169 RGTR--
+110308004 Lieler, Schull        01740  01740                % 02169 RGTR--
+110308001 Lieler, Beim Biereg   01741  01741                % 02169 RGTR--
+110308003 Lieler, Om Knupp      01742  01742                % 02169 RGTR--
+110303002 Heinerscheid, Bei Mi  01745  01745                % 02169 RGTR--
+110303003 Heinerscheid, Geméin  01746  01746                % 02169 RGTR--
+110303001 Heinerscheid, Bei Di  01747  01747                % 02169 RGTR--
+110305001 Kaesfurt              01748  01748                % 02169 RGTR--
+110304003 Hupperdange, Hualewe  01750  01750                % 02169 RGTR--
+110304002 Hupperdange, Schull   01751  01751                % 02169 RGTR--
+110304004 Hupperdange, Knupp    01751  01751                % 02169 RGTR--
+110104001 Urspelt, Knupp        01754  01754                % 02169 RGTR--
+110104002 Urspelt, Schlass      01754  01754                % 02169 RGTR--
+110103001 Reuler, Centre Scola  01756  01756                % 02169 RGTR--
+110103002 Reuler, Duerf         01758  01758                % 02169 RGTR--
+110103003 Reuler, Hôh           01759  01759                % 02169 RGTR--
+110101001 Clervaux, Clinique    01759  01759                % 02169 RGTR--
+110101010 Clervaux, Police      01800  01800                % 02169 RGTR--
+110101008 Clervaux, Pl. de la   01800  01800                % 02169 RGTR--
+110101011 Clervaux, Postes      01802  01802                % 02169 RGTR--
+110101004 Clervaux, Maison de   01802  01802                % 02169 RGTR--
+110101002 Clervaux, Gare routi  01803                       % 02169 RGTR--
+*Z 02170 RGTR--                                             % 02170 RGTR--
+*L 660      110308002 110101002  01840  01903               % 02170 RGTR--
+*A ax 110308002 110101002 000001  01840  01903              % 02170 RGTR--
+*A MP 110308002 110101002 000001  01840  01903              % 02170 RGTR--
+*R 2 110101002 110308002 110101002  01840  01903            % 02170 RGTR--
+*G RGB 110308002 110101002  01840  01903                    % 02170 RGTR--
+*A VE 110308002 110101002 000001  01840  01903              % 02170 RGTR--
+*I FD 110308002 110101002        0001313  01840  01903      % 02170 RGTR--
+110308002 Lieler, Gässelchen           01840                % 02170 RGTR--
+110308004 Lieler, Schull        01840  01840                % 02170 RGTR--
+110308001 Lieler, Beim Biereg   01841  01841                % 02170 RGTR--
+110308003 Lieler, Om Knupp      01842  01842                % 02170 RGTR--
+110303002 Heinerscheid, Bei Mi  01845  01845                % 02170 RGTR--
+110303003 Heinerscheid, Geméin  01846  01846                % 02170 RGTR--
+110303001 Heinerscheid, Bei Di  01847  01847                % 02170 RGTR--
+110305001 Kaesfurt              01848  01848                % 02170 RGTR--
+110304003 Hupperdange, Hualewe  01850  01850                % 02170 RGTR--
+110304002 Hupperdange, Schull   01851  01851                % 02170 RGTR--
+110304004 Hupperdange, Knupp    01851  01851                % 02170 RGTR--
+110104001 Urspelt, Knupp        01854  01854                % 02170 RGTR--
+110104002 Urspelt, Schlass      01854  01854                % 02170 RGTR--
+110103001 Reuler, Centre Scola  01856  01856                % 02170 RGTR--
+110103002 Reuler, Duerf         01858  01858                % 02170 RGTR--
+110103003 Reuler, Hôh           01859  01859                % 02170 RGTR--
+110101001 Clervaux, Clinique    01859  01859                % 02170 RGTR--
+110101010 Clervaux, Police      01900  01900                % 02170 RGTR--
+110101008 Clervaux, Pl. de la   01900  01900                % 02170 RGTR--
+110101011 Clervaux, Postes      01902  01902                % 02170 RGTR--
+110101004 Clervaux, Maison de   01902  01902                % 02170 RGTR--
+110101002 Clervaux, Gare routi  01903                       % 02170 RGTR--
+*Z 02171 RGTR--                                             % 02171 RGTR--
+*L 660      110308002 110101002  01640  01703               % 02171 RGTR--
+*A ax 110308002 110101002 000002  01640  01703              % 02171 RGTR--
+*A MP 110308002 110101002 000002  01640  01703              % 02171 RGTR--
+*R 2 110101002 110308002 110101002  01640  01703            % 02171 RGTR--
+*G RGB 110308002 110101002  01640  01703                    % 02171 RGTR--
+*A VE 110308002 110101002 000002  01640  01703              % 02171 RGTR--
+*I FD 110308002 110101002        0001242  01640  01703      % 02171 RGTR--
+110308002 Lieler, Gässelchen           01640                % 02171 RGTR--
+110308004 Lieler, Schull        01640  01640                % 02171 RGTR--
+110308001 Lieler, Beim Biereg   01641  01641                % 02171 RGTR--
+110308003 Lieler, Om Knupp      01642  01642                % 02171 RGTR--
+110303002 Heinerscheid, Bei Mi  01645  01645                % 02171 RGTR--
+110303003 Heinerscheid, Geméin  01646  01646                % 02171 RGTR--
+110303001 Heinerscheid, Bei Di  01647  01647                % 02171 RGTR--
+110305001 Kaesfurt              01648  01648                % 02171 RGTR--
+110304003 Hupperdange, Hualewe  01650  01650                % 02171 RGTR--
+110304002 Hupperdange, Schull   01651  01651                % 02171 RGTR--
+110304004 Hupperdange, Knupp    01651  01651                % 02171 RGTR--
+110104001 Urspelt, Knupp        01654  01654                % 02171 RGTR--
+110104002 Urspelt, Schlass      01654  01654                % 02171 RGTR--
+110103001 Reuler, Centre Scola  01656  01656                % 02171 RGTR--
+110103002 Reuler, Duerf         01658  01658                % 02171 RGTR--
+110103003 Reuler, Hôh           01659  01659                % 02171 RGTR--
+110101001 Clervaux, Clinique    01659  01659                % 02171 RGTR--
+110101010 Clervaux, Police      01700  01700                % 02171 RGTR--
+110101008 Clervaux, Pl. de la   01700  01700                % 02171 RGTR--
+110101011 Clervaux, Postes      01702  01702                % 02171 RGTR--
+110101004 Clervaux, Maison de   01702  01702                % 02171 RGTR--
+110101002 Clervaux, Gare routi  01703                       % 02171 RGTR--
