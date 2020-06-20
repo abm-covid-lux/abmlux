@@ -1,0 +1,247 @@
+*F 03 2
+*Z 02840 RGTR--                                             % 02840 RGTR--
+*L 810      200405036 160301007  00435  00524               % 02840 RGTR--
+*A aj 200405036 160301007 000001  00435  00524              % 02840 RGTR--
+*A by 200405036 160301007 000001  00435  00524              % 02840 RGTR--
+*A HB 200405036 160301007 000001  00435  00524              % 02840 RGTR--
+*R 1 160301007 200405036 160301007  00435  00524            % 02840 RGTR--
+*G RGB 200405036 160301007  00435  00524                    % 02840 RGTR--
+*A VE 200405036 160301007 000001  00435  00524              % 02840 RGTR--
+*I FD 200405036 160301007        0002915  00435  00524      % 02840 RGTR--
+200405036 Luxembourg, Gare rou         00435                % 02840 RGTR--
+200405013 Centre, F.D. Rooseve  00439  00439                % 02840 RGTR--
+200405020 Hamilius              00441  00441                % 02840 RGTR--
+200405005 Centre, Badanstalt    00444  00444                % 02840 RGTR--
+200410003 Eich, Eecher Plaz     00448  00448                % 02840 RGTR--
+200410004 Eich, Klinik          00449  00449                % 02840 RGTR--
+200409007 Dommeldange, Emile M  00449  00449                % 02840 RGTR--
+200402001 Beggen, Bastogne      00451  00451                % 02840 RGTR--
+201001004 Bereldange, Rue du P  00452  00452                % 02840 RGTR--
+201001002 Bereldange, Police    00453  00453                % 02840 RGTR--
+201004002 Walferdange, Gemenge  00454  00454                % 02840 RGTR--
+201003002 Helsem, Mercatoris    00455  00455                % 02840 RGTR--
+200802004 Heisdorf, Klouster    00457  00457                % 02840 RGTR--
+160803002 Bouferknupp           00458  00458                % 02840 RGTR--
+160803001 Boufer, Maison de Re  00459  00459                % 02840 RGTR--
+160804001 Helmdange, Fautelfie  00500  00500                % 02840 RGTR--
+160807003 Lorentzweiler, Gare   00501  00501                % 02840 RGTR--
+160807002 Lorentzweiler, An de  00502  00502                % 02840 RGTR--
+160702001 Lintgen, An der Kléc  00504  00504                % 02840 RGTR--
+160702003 Lintgen, Kräizung     00505  00505                % 02840 RGTR--
+160908001 Rollingen, Lëtzebuer  00507  00507                % 02840 RGTR--
+160908002 Rollingen, Veräinsba  00508  00508                % 02840 RGTR--
+160902001 Rollingen, Blannenhe  00509  00509                % 02840 RGTR--
+160904001 Mersch, Gare          00511  00511                % 02840 RGTR--
+160904005 Mersch, Stäereplaz    00512  00512                % 02840 RGTR--
+160904009 Mersch, Beim Klousch  00513  00513                % 02840 RGTR--
+160904008 Mersch, Mierscherbie  00514  00514                % 02840 RGTR--
+160102004 Roost, Luxlait        00518  00518                % 02840 RGTR--
+160102001 Roost, Mold Plant     00521  00521                % 02840 RGTR--
+160301006 Colmar, Raedelsboesc  00521  00521                % 02840 RGTR--
+160301001 Colmar, C. Administr  00523  00523                % 02840 RGTR--
+160301007 Colmar, Usines        00524                       % 02840 RGTR--
+*Z 02841 RGTR--                                             % 02841 RGTR--
+*L 810      200405036 160301007  01235  01324               % 02841 RGTR--
+*A aj 200405036 160301007 000001  01235  01324              % 02841 RGTR--
+*A by 200405036 160301007 000001  01235  01324              % 02841 RGTR--
+*A HB 200405036 160301007 000001  01235  01324              % 02841 RGTR--
+*R 1 160301007 200405036 160301007  01235  01324            % 02841 RGTR--
+*G RGB 200405036 160301007  01235  01324                    % 02841 RGTR--
+*A VE 200405036 160301007 000001  01235  01324              % 02841 RGTR--
+*I FD 200405036 160301007        0001143  01235  01324      % 02841 RGTR--
+200405036 Luxembourg, Gare rou         01235                % 02841 RGTR--
+200405013 Centre, F.D. Rooseve  01239  01239                % 02841 RGTR--
+200405020 Hamilius              01241  01241                % 02841 RGTR--
+200405005 Centre, Badanstalt    01244  01244                % 02841 RGTR--
+200410003 Eich, Eecher Plaz     01248  01248                % 02841 RGTR--
+200410004 Eich, Klinik          01249  01249                % 02841 RGTR--
+200409007 Dommeldange, Emile M  01249  01249                % 02841 RGTR--
+200402001 Beggen, Bastogne      01251  01251                % 02841 RGTR--
+201001004 Bereldange, Rue du P  01252  01252                % 02841 RGTR--
+201001002 Bereldange, Police    01253  01253                % 02841 RGTR--
+201004002 Walferdange, Gemenge  01254  01254                % 02841 RGTR--
+201003002 Helsem, Mercatoris    01255  01255                % 02841 RGTR--
+200802004 Heisdorf, Klouster    01257  01257                % 02841 RGTR--
+160803002 Bouferknupp           01258  01258                % 02841 RGTR--
+160803001 Boufer, Maison de Re  01259  01259                % 02841 RGTR--
+160804001 Helmdange, Fautelfie  01300  01300                % 02841 RGTR--
+160807003 Lorentzweiler, Gare   01301  01301                % 02841 RGTR--
+160807002 Lorentzweiler, An de  01302  01302                % 02841 RGTR--
+160702001 Lintgen, An der Kléc  01304  01304                % 02841 RGTR--
+160702003 Lintgen, Kräizung     01305  01305                % 02841 RGTR--
+160908001 Rollingen, Lëtzebuer  01307  01307                % 02841 RGTR--
+160908002 Rollingen, Veräinsba  01308  01308                % 02841 RGTR--
+160902001 Rollingen, Blannenhe  01309  01309                % 02841 RGTR--
+160904001 Mersch, Gare          01311  01311                % 02841 RGTR--
+160904005 Mersch, Stäereplaz    01312  01312                % 02841 RGTR--
+160904009 Mersch, Beim Klousch  01313  01313                % 02841 RGTR--
+160904008 Mersch, Mierscherbie  01314  01314                % 02841 RGTR--
+160102004 Roost, Luxlait        01318  01318                % 02841 RGTR--
+160102001 Roost, Mold Plant     01321  01321                % 02841 RGTR--
+160301006 Colmar, Raedelsboesc  01321  01321                % 02841 RGTR--
+160301001 Colmar, C. Administr  01323  01323                % 02841 RGTR--
+160301007 Colmar, Usines        01324                       % 02841 RGTR--
+*Z 02842 RGTR--                                             % 02842 RGTR--
+*L 810      200405036 160301007  02035  02124               % 02842 RGTR--
+*A aj 200405036 160301007 000001  02035  02124              % 02842 RGTR--
+*A by 200405036 160301007 000001  02035  02124              % 02842 RGTR--
+*A HB 200405036 160301007 000001  02035  02124              % 02842 RGTR--
+*R 1 160301007 200405036 160301007  02035  02124            % 02842 RGTR--
+*G RGB 200405036 160301007  02035  02124                    % 02842 RGTR--
+*A VE 200405036 160301007 000001  02035  02124              % 02842 RGTR--
+*I FD 200405036 160301007        0002319  02035  02124      % 02842 RGTR--
+200405036 Luxembourg, Gare rou         02035                % 02842 RGTR--
+200405013 Centre, F.D. Rooseve  02039  02039                % 02842 RGTR--
+200405020 Hamilius              02041  02041                % 02842 RGTR--
+200405005 Centre, Badanstalt    02044  02044                % 02842 RGTR--
+200410003 Eich, Eecher Plaz     02048  02048                % 02842 RGTR--
+200410004 Eich, Klinik          02049  02049                % 02842 RGTR--
+200409007 Dommeldange, Emile M  02049  02049                % 02842 RGTR--
+200402001 Beggen, Bastogne      02051  02051                % 02842 RGTR--
+201001004 Bereldange, Rue du P  02052  02052                % 02842 RGTR--
+201001002 Bereldange, Police    02053  02053                % 02842 RGTR--
+201004002 Walferdange, Gemenge  02054  02054                % 02842 RGTR--
+201003002 Helsem, Mercatoris    02055  02055                % 02842 RGTR--
+200802004 Heisdorf, Klouster    02057  02057                % 02842 RGTR--
+160803002 Bouferknupp           02058  02058                % 02842 RGTR--
+160803001 Boufer, Maison de Re  02059  02059                % 02842 RGTR--
+160804001 Helmdange, Fautelfie  02100  02100                % 02842 RGTR--
+160807003 Lorentzweiler, Gare   02101  02101                % 02842 RGTR--
+160807002 Lorentzweiler, An de  02102  02102                % 02842 RGTR--
+160702001 Lintgen, An der Kléc  02104  02104                % 02842 RGTR--
+160702003 Lintgen, Kräizung     02105  02105                % 02842 RGTR--
+160908001 Rollingen, Lëtzebuer  02107  02107                % 02842 RGTR--
+160908002 Rollingen, Veräinsba  02108  02108                % 02842 RGTR--
+160902001 Rollingen, Blannenhe  02109  02109                % 02842 RGTR--
+160904001 Mersch, Gare          02111  02111                % 02842 RGTR--
+160904005 Mersch, Stäereplaz    02112  02112                % 02842 RGTR--
+160904009 Mersch, Beim Klousch  02113  02113                % 02842 RGTR--
+160904008 Mersch, Mierscherbie  02114  02114                % 02842 RGTR--
+160102004 Roost, Luxlait        02118  02118                % 02842 RGTR--
+160102001 Roost, Mold Plant     02121  02121                % 02842 RGTR--
+160301006 Colmar, Raedelsboesc  02121  02121                % 02842 RGTR--
+160301001 Colmar, C. Administr  02123  02123                % 02842 RGTR--
+160301007 Colmar, Usines        02124                       % 02842 RGTR--
+*Z 02843 RGTR--                                             % 02843 RGTR--
+*L 810      160301007 200405053  00615  00709               % 02843 RGTR--
+*A aj 160301007 200405053 000048  00615  00709              % 02843 RGTR--
+*A by 160301007 200405053 000048  00615  00709              % 02843 RGTR--
+*A bz 160301007 200405053 000048  00615  00709              % 02843 RGTR--
+*R 2 200405053 160301007 200405053  00615  00709            % 02843 RGTR--
+*G RGB 160301007 200405053  00615  00709                    % 02843 RGTR--
+*A VE 160301007 200405053 000048  00615  00709              % 02843 RGTR--
+*I FD 160301007 200405053        0002477  00615  00709      % 02843 RGTR--
+160301007 Colmar, Usines               00615                % 02843 RGTR--
+160301001 Colmar, C. Administr  00615  00615                % 02843 RGTR--
+160301006 Colmar, Raedelsboesc  00617  00617                % 02843 RGTR--
+160102001 Roost, Mold Plant     00617  00617                % 02843 RGTR--
+160102004 Roost, Luxlait        00620  00620                % 02843 RGTR--
+160904008 Mersch, Mierscherbie  00625  00625                % 02843 RGTR--
+160904009 Mersch, Beim Klousch  00625  00625                % 02843 RGTR--
+160904005 Mersch, Stäereplaz    00626  00626                % 02843 RGTR--
+160904001 Mersch, Gare          00627  00627                % 02843 RGTR--
+160902001 Rollingen, Blannenhe  00629  00629                % 02843 RGTR--
+160908002 Rollingen, Veräinsba  00630  00630                % 02843 RGTR--
+160908001 Rollingen, Lëtzebuer  00631  00631                % 02843 RGTR--
+160702003 Lintgen, Kräizung     00634  00634                % 02843 RGTR--
+160702001 Lintgen, An der Kléc  00635  00635                % 02843 RGTR--
+160807002 Lorentzweiler, An de  00637  00637                % 02843 RGTR--
+160807003 Lorentzweiler, Gare   00638  00638                % 02843 RGTR--
+160804001 Helmdange, Fautelfie  00639  00639                % 02843 RGTR--
+160803001 Boufer, Maison de Re  00640  00640                % 02843 RGTR--
+160803002 Bouferknupp           00642  00642                % 02843 RGTR--
+200802004 Heisdorf, Klouster    00643  00643                % 02843 RGTR--
+201003002 Helsem, Mercatoris    00645  00645                % 02843 RGTR--
+201004002 Walferdange, Gemenge  00647  00647                % 02843 RGTR--
+201001002 Bereldange, Police    00648  00648                % 02843 RGTR--
+200402007 Beggen, Rue du Pont   00650  00650                % 02843 RGTR--
+200402001 Beggen, Bastogne      00650  00650                % 02843 RGTR--
+200409007 Dommeldange, Emile M  00653  00653                % 02843 RGTR--
+200410004 Eich, Klinik          00654  00654                % 02843 RGTR--
+200410003 Eich, Eecher Plaz     00656  00656                % 02843 RGTR--
+200405005 Centre, Badanstalt    00700  00700                % 02843 RGTR--
+200405029 Luxembourg/Centre, R  00702  00702                % 02843 RGTR--
+200405054 Centre, F.D. Rooseve  00705  00705                % 02843 RGTR--
+200405053 Luxembourg, Gare Cen  00709                       % 02843 RGTR--
+*Z 02844 RGTR--                                             % 02844 RGTR--
+*L 810      160301007 200405053  01415  01502               % 02844 RGTR--
+*A aj 160301007 200405053 000001  01415  01502              % 02844 RGTR--
+*A by 160301007 200405053 000001  01415  01502              % 02844 RGTR--
+*A bz 160301007 200405053 000001  01415  01502              % 02844 RGTR--
+*R 2 200405053 160301007 200405053  01415  01502            % 02844 RGTR--
+*G RGB 160301007 200405053  01415  01502                    % 02844 RGTR--
+*A VE 160301007 200405053 000001  01415  01502              % 02844 RGTR--
+*I FD 160301007 200405053        0002758  01415  01502      % 02844 RGTR--
+160301007 Colmar, Usines               01415                % 02844 RGTR--
+160301001 Colmar, C. Administr  01415  01415                % 02844 RGTR--
+160301006 Colmar, Raedelsboesc  01417  01417                % 02844 RGTR--
+160102001 Roost, Mold Plant     01417  01417                % 02844 RGTR--
+160102004 Roost, Luxlait        01420  01420                % 02844 RGTR--
+160904008 Mersch, Mierscherbie  01424  01424                % 02844 RGTR--
+160904009 Mersch, Beim Klousch  01425  01425                % 02844 RGTR--
+160904005 Mersch, Stäereplaz    01425  01425                % 02844 RGTR--
+160904001 Mersch, Gare          01426  01426                % 02844 RGTR--
+160902001 Rollingen, Blannenhe  01428  01428                % 02844 RGTR--
+160908002 Rollingen, Veräinsba  01429  01429                % 02844 RGTR--
+160908001 Rollingen, Lëtzebuer  01430  01430                % 02844 RGTR--
+160702003 Lintgen, Kräizung     01433  01433                % 02844 RGTR--
+160702001 Lintgen, An der Kléc  01434  01434                % 02844 RGTR--
+160807002 Lorentzweiler, An de  01436  01436                % 02844 RGTR--
+160807003 Lorentzweiler, Gare   01437  01437                % 02844 RGTR--
+160804001 Helmdange, Fautelfie  01437  01437                % 02844 RGTR--
+160803001 Boufer, Maison de Re  01438  01438                % 02844 RGTR--
+160803002 Bouferknupp           01439  01439                % 02844 RGTR--
+200802004 Heisdorf, Klouster    01441  01441                % 02844 RGTR--
+201003002 Helsem, Mercatoris    01442  01442                % 02844 RGTR--
+201004002 Walferdange, Gemenge  01444  01444                % 02844 RGTR--
+201001002 Bereldange, Police    01445  01445                % 02844 RGTR--
+200402007 Beggen, Rue du Pont   01447  01447                % 02844 RGTR--
+200402001 Beggen, Bastogne      01447  01447                % 02844 RGTR--
+200409007 Dommeldange, Emile M  01449  01449                % 02844 RGTR--
+200410004 Eich, Klinik          01450  01450                % 02844 RGTR--
+200410003 Eich, Eecher Plaz     01451  01451                % 02844 RGTR--
+200405005 Centre, Badanstalt    01454  01454                % 02844 RGTR--
+200405029 Luxembourg/Centre, R  01455  01455                % 02844 RGTR--
+200405054 Centre, F.D. Rooseve  01458  01458                % 02844 RGTR--
+200405053 Luxembourg, Gare Cen  01502                       % 02844 RGTR--
+*Z 02845 RGTR--                                             % 02845 RGTR--
+*L 810      160301007 200405053  02215  02302               % 02845 RGTR--
+*A aj 160301007 200405053 000001  02215  02302              % 02845 RGTR--
+*A by 160301007 200405053 000001  02215  02302              % 02845 RGTR--
+*A bz 160301007 200405053 000001  02215  02302              % 02845 RGTR--
+*R 2 200405053 160301007 200405053  02215  02302            % 02845 RGTR--
+*G RGB 160301007 200405053  02215  02302                    % 02845 RGTR--
+*A VE 160301007 200405053 000001  02215  02302              % 02845 RGTR--
+*I FD 160301007 200405053        0001455  02215  02302      % 02845 RGTR--
+160301007 Colmar, Usines               02215                % 02845 RGTR--
+160301001 Colmar, C. Administr  02215  02215                % 02845 RGTR--
+160301006 Colmar, Raedelsboesc  02217  02217                % 02845 RGTR--
+160102001 Roost, Mold Plant     02217  02217                % 02845 RGTR--
+160102004 Roost, Luxlait        02220  02220                % 02845 RGTR--
+160904008 Mersch, Mierscherbie  02224  02224                % 02845 RGTR--
+160904009 Mersch, Beim Klousch  02225  02225                % 02845 RGTR--
+160904005 Mersch, Stäereplaz    02225  02225                % 02845 RGTR--
+160904001 Mersch, Gare          02226  02226                % 02845 RGTR--
+160902001 Rollingen, Blannenhe  02228  02228                % 02845 RGTR--
+160908002 Rollingen, Veräinsba  02229  02229                % 02845 RGTR--
+160908001 Rollingen, Lëtzebuer  02230  02230                % 02845 RGTR--
+160702003 Lintgen, Kräizung     02233  02233                % 02845 RGTR--
+160702001 Lintgen, An der Kléc  02234  02234                % 02845 RGTR--
+160807002 Lorentzweiler, An de  02236  02236                % 02845 RGTR--
+160807003 Lorentzweiler, Gare   02237  02237                % 02845 RGTR--
+160804001 Helmdange, Fautelfie  02237  02237                % 02845 RGTR--
+160803001 Boufer, Maison de Re  02238  02238                % 02845 RGTR--
+160803002 Bouferknupp           02239  02239                % 02845 RGTR--
+200802004 Heisdorf, Klouster    02241  02241                % 02845 RGTR--
+201003002 Helsem, Mercatoris    02242  02242                % 02845 RGTR--
+201004002 Walferdange, Gemenge  02244  02244                % 02845 RGTR--
+201001002 Bereldange, Police    02245  02245                % 02845 RGTR--
+200402007 Beggen, Rue du Pont   02247  02247                % 02845 RGTR--
+200402001 Beggen, Bastogne      02247  02247                % 02845 RGTR--
+200409007 Dommeldange, Emile M  02249  02249                % 02845 RGTR--
+200410004 Eich, Klinik          02250  02250                % 02845 RGTR--
+200410003 Eich, Eecher Plaz     02251  02251                % 02845 RGTR--
+200405005 Centre, Badanstalt    02254  02254                % 02845 RGTR--
+200405029 Luxembourg/Centre, R  02255  02255                % 02845 RGTR--
+200405054 Centre, F.D. Rooseve  02258  02258                % 02845 RGTR--
+200405053 Luxembourg, Gare Cen  02302                       % 02845 RGTR--
