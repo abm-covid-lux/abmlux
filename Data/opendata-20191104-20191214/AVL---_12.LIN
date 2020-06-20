@@ -1,0 +1,1175 @@
+*F 03 2
+*Z 00514 AVL---       005 030                               % 00514 AVL---
+*L 12       200420003 200409010  00829  00856               % 00514 AVL---
+*A BE 200420003 200409010 000003  00829  00856              % 00514 AVL---
+*R 1 200409010 200420003 200409010  00829  00856            % 00514 AVL---
+*G AVS 200420003 200409010  00829  00856                    % 00514 AVL---
+*A VE 200420003 200409010 000003  00829  00856              % 00514 AVL---
+200420003 Merl, Celtes                 00829                % 00514 AVL---
+200420002 Merl, Barrière        00829  00829                % 00514 AVL---
+200420009 Merl, Marcel Cahen    00830  00830                % 00514 AVL---
+200420004 Merl, Conservatoire   00832  00832                % 00514 AVL---
+200420001 Merl, Athénée         00834  00834                % 00514 AVL---
+200403014 Belair, Place de Liè  00835  00835                % 00514 AVL---
+200403010 Belair, Kierch        00836  00836                % 00514 AVL---
+200403001 Belair, Amsterdam     00837  00837                % 00514 AVL---
+200403002 Belair, Archiducs     00838  00838                % 00514 AVL---
+200403022 Luxembourg, Square N  00838  00838                % 00514 AVL---
+200405045 Centre, Stäreplaz /   00840  00840                % 00514 AVL---
+200403020 Belair, Wampach       00842  00842                % 00514 AVL---
+200405025 Luxembourg/Centre, M  00843  00843                % 00514 AVL---
+200405049 Luxembourg, Amélie    00844  00844                % 00514 AVL---
+200405005 Centre, Badanstalt    00846  00846                % 00514 AVL---
+200419013 Limpertsberg, Crispi  00848  00848                % 00514 AVL---
+200410005 Eich, Octroi          00849  00849                % 00514 AVL---
+200410003 Eich, Eecher Plaz     00850  00850                % 00514 AVL---
+200426007 Weimerskirch, Laval'  00851  00851                % 00514 AVL---
+200426006 Weimerskirch, Knupp   00852  00852                % 00514 AVL---
+200426011 Weimerskirch, Tommys  00853  00853                % 00514 AVL---
+200426004 Weimerskirch, Bieche  00853  00853                % 00514 AVL---
+200409011 Dommeldange, Van der  00854  00854                % 00514 AVL---
+200409009 Dommeldange, Jean En  00855  00855                % 00514 AVL---
+200409010 Dommeldange, Parc de  00856                       % 00514 AVL---
+*Z 00515 AVL---                                             % 00515 AVL---
+*L 12       200420003 200409010  01929  01956               % 00515 AVL---
+*A BE 200420003 200409010 000003  01929  01956              % 00515 AVL---
+*R 1 200409010 200420003 200409010  01929  01956            % 00515 AVL---
+*G AVS 200420003 200409010  01929  01956                    % 00515 AVL---
+*A VE 200420003 200409010 000003  01929  01956              % 00515 AVL---
+200420003 Merl, Celtes                 01929                % 00515 AVL---
+200420002 Merl, Barrière        01929  01929                % 00515 AVL---
+200420009 Merl, Marcel Cahen    01930  01930                % 00515 AVL---
+200420004 Merl, Conservatoire   01932  01932                % 00515 AVL---
+200420001 Merl, Athénée         01934  01934                % 00515 AVL---
+200403014 Belair, Place de Liè  01935  01935                % 00515 AVL---
+200403010 Belair, Kierch        01936  01936                % 00515 AVL---
+200403001 Belair, Amsterdam     01937  01937                % 00515 AVL---
+200403002 Belair, Archiducs     01938  01938                % 00515 AVL---
+200403022 Luxembourg, Square N  01938  01938                % 00515 AVL---
+200405045 Centre, Stäreplaz /   01940  01940                % 00515 AVL---
+200403020 Belair, Wampach       01942  01942                % 00515 AVL---
+200405025 Luxembourg/Centre, M  01943  01943                % 00515 AVL---
+200405049 Luxembourg, Amélie    01944  01944                % 00515 AVL---
+200405005 Centre, Badanstalt    01946  01946                % 00515 AVL---
+200419013 Limpertsberg, Crispi  01948  01948                % 00515 AVL---
+200410005 Eich, Octroi          01949  01949                % 00515 AVL---
+200410003 Eich, Eecher Plaz     01950  01950                % 00515 AVL---
+200426007 Weimerskirch, Laval'  01951  01951                % 00515 AVL---
+200426006 Weimerskirch, Knupp   01952  01952                % 00515 AVL---
+200426011 Weimerskirch, Tommys  01953  01953                % 00515 AVL---
+200426004 Weimerskirch, Bieche  01953  01953                % 00515 AVL---
+200409011 Dommeldange, Van der  01954  01954                % 00515 AVL---
+200409009 Dommeldange, Jean En  01955  01955                % 00515 AVL---
+200409010 Dommeldange, Parc de  01956                       % 00515 AVL---
+*Z 00516 AVL---       001 060                               % 00516 AVL---
+*L 12       200420003 200409010  00559  00626               % 00516 AVL---
+*A BE 200420003 200409010 000005  00559  00626              % 00516 AVL---
+*R 1 200409010 200420003 200409010  00559  00626            % 00516 AVL---
+*G AVS 200420003 200409010  00559  00626                    % 00516 AVL---
+*A VE 200420003 200409010 000005  00559  00626              % 00516 AVL---
+200420003 Merl, Celtes                 00559                % 00516 AVL---
+200420002 Merl, Barrière        00559  00559                % 00516 AVL---
+200420009 Merl, Marcel Cahen    00600  00600                % 00516 AVL---
+200420004 Merl, Conservatoire   00602  00602                % 00516 AVL---
+200420001 Merl, Athénée         00604  00604                % 00516 AVL---
+200403014 Belair, Place de Liè  00605  00605                % 00516 AVL---
+200403010 Belair, Kierch        00606  00606                % 00516 AVL---
+200403001 Belair, Amsterdam     00607  00607                % 00516 AVL---
+200403002 Belair, Archiducs     00608  00608                % 00516 AVL---
+200403022 Luxembourg, Square N  00608  00608                % 00516 AVL---
+200405045 Centre, Stäreplaz /   00610  00610                % 00516 AVL---
+200403020 Belair, Wampach       00612  00612                % 00516 AVL---
+200405025 Luxembourg/Centre, M  00613  00613                % 00516 AVL---
+200405049 Luxembourg, Amélie    00614  00614                % 00516 AVL---
+200405005 Centre, Badanstalt    00616  00616                % 00516 AVL---
+200419013 Limpertsberg, Crispi  00618  00618                % 00516 AVL---
+200410005 Eich, Octroi          00619  00619                % 00516 AVL---
+200410003 Eich, Eecher Plaz     00620  00620                % 00516 AVL---
+200426007 Weimerskirch, Laval'  00621  00621                % 00516 AVL---
+200426006 Weimerskirch, Knupp   00622  00622                % 00516 AVL---
+200426011 Weimerskirch, Tommys  00623  00623                % 00516 AVL---
+200426004 Weimerskirch, Bieche  00623  00623                % 00516 AVL---
+200409011 Dommeldange, Van der  00624  00624                % 00516 AVL---
+200409009 Dommeldange, Jean En  00625  00625                % 00516 AVL---
+200409010 Dommeldange, Parc de  00626                       % 00516 AVL---
+*Z 00517 AVL---                                             % 00517 AVL---
+*L 12       200420003 200409010  00729  00756               % 00517 AVL---
+*A BE 200420003 200409010 000005  00729  00756              % 00517 AVL---
+*R 1 200409010 200420003 200409010  00729  00756            % 00517 AVL---
+*G AVS 200420003 200409010  00729  00756                    % 00517 AVL---
+*A VE 200420003 200409010 000005  00729  00756              % 00517 AVL---
+200420003 Merl, Celtes                 00729                % 00517 AVL---
+200420002 Merl, Barrière        00729  00729                % 00517 AVL---
+200420009 Merl, Marcel Cahen    00730  00730                % 00517 AVL---
+200420004 Merl, Conservatoire   00732  00732                % 00517 AVL---
+200420001 Merl, Athénée         00734  00734                % 00517 AVL---
+200403014 Belair, Place de Liè  00735  00735                % 00517 AVL---
+200403010 Belair, Kierch        00736  00736                % 00517 AVL---
+200403001 Belair, Amsterdam     00737  00737                % 00517 AVL---
+200403002 Belair, Archiducs     00738  00738                % 00517 AVL---
+200403022 Luxembourg, Square N  00738  00738                % 00517 AVL---
+200405045 Centre, Stäreplaz /   00740  00740                % 00517 AVL---
+200403020 Belair, Wampach       00742  00742                % 00517 AVL---
+200405025 Luxembourg/Centre, M  00743  00743                % 00517 AVL---
+200405049 Luxembourg, Amélie    00744  00744                % 00517 AVL---
+200405005 Centre, Badanstalt    00746  00746                % 00517 AVL---
+200419013 Limpertsberg, Crispi  00748  00748                % 00517 AVL---
+200410005 Eich, Octroi          00749  00749                % 00517 AVL---
+200410003 Eich, Eecher Plaz     00750  00750                % 00517 AVL---
+200426007 Weimerskirch, Laval'  00751  00751                % 00517 AVL---
+200426006 Weimerskirch, Knupp   00752  00752                % 00517 AVL---
+200426011 Weimerskirch, Tommys  00753  00753                % 00517 AVL---
+200426004 Weimerskirch, Bieche  00753  00753                % 00517 AVL---
+200409011 Dommeldange, Van der  00754  00754                % 00517 AVL---
+200409009 Dommeldange, Jean En  00755  00755                % 00517 AVL---
+200409010 Dommeldange, Parc de  00756                       % 00517 AVL---
+*Z 00518 AVL---       001 810                               % 00518 AVL---
+*L 12       200420003 200409010  00629  00656               % 00518 AVL---
+*A BE 200420003 200409010 000001  00629  00656              % 00518 AVL---
+*R 1 200409010 200420003 200409010  00629  00656            % 00518 AVL---
+*G AVS 200420003 200409010  00629  00656                    % 00518 AVL---
+*A VE 200420003 200409010 000001  00629  00656              % 00518 AVL---
+200420003 Merl, Celtes                 00629                % 00518 AVL---
+200420002 Merl, Barrière        00629  00629                % 00518 AVL---
+200420009 Merl, Marcel Cahen    00630  00630                % 00518 AVL---
+200420004 Merl, Conservatoire   00632  00632                % 00518 AVL---
+200420001 Merl, Athénée         00634  00634                % 00518 AVL---
+200403014 Belair, Place de Liè  00635  00635                % 00518 AVL---
+200403010 Belair, Kierch        00636  00636                % 00518 AVL---
+200403001 Belair, Amsterdam     00637  00637                % 00518 AVL---
+200403002 Belair, Archiducs     00638  00638                % 00518 AVL---
+200403022 Luxembourg, Square N  00638  00638                % 00518 AVL---
+200405045 Centre, Stäreplaz /   00640  00640                % 00518 AVL---
+200403020 Belair, Wampach       00642  00642                % 00518 AVL---
+200405025 Luxembourg/Centre, M  00643  00643                % 00518 AVL---
+200405049 Luxembourg, Amélie    00644  00644                % 00518 AVL---
+200405005 Centre, Badanstalt    00646  00646                % 00518 AVL---
+200419013 Limpertsberg, Crispi  00648  00648                % 00518 AVL---
+200410005 Eich, Octroi          00649  00649                % 00518 AVL---
+200410003 Eich, Eecher Plaz     00650  00650                % 00518 AVL---
+200426007 Weimerskirch, Laval'  00651  00651                % 00518 AVL---
+200426006 Weimerskirch, Knupp   00652  00652                % 00518 AVL---
+200426011 Weimerskirch, Tommys  00653  00653                % 00518 AVL---
+200426004 Weimerskirch, Bieche  00653  00653                % 00518 AVL---
+200409011 Dommeldange, Van der  00654  00654                % 00518 AVL---
+200409009 Dommeldange, Jean En  00655  00655                % 00518 AVL---
+200409010 Dommeldange, Parc de  00656                       % 00518 AVL---
+*Z 00519 AVL---       002 030                               % 00519 AVL---
+*L 12       200420003 200409010  02029  02056               % 00519 AVL---
+*A BE 200420003 200409010 000001  02029  02056              % 00519 AVL---
+*R 1 200409010 200420003 200409010  02029  02056            % 00519 AVL---
+*G AVS 200420003 200409010  02029  02056                    % 00519 AVL---
+*A VE 200420003 200409010 000001  02029  02056              % 00519 AVL---
+200420003 Merl, Celtes                 02029                % 00519 AVL---
+200420002 Merl, Barrière        02029  02029                % 00519 AVL---
+200420009 Merl, Marcel Cahen    02030  02030                % 00519 AVL---
+200420004 Merl, Conservatoire   02032  02032                % 00519 AVL---
+200420001 Merl, Athénée         02034  02034                % 00519 AVL---
+200403014 Belair, Place de Liè  02035  02035                % 00519 AVL---
+200403010 Belair, Kierch        02036  02036                % 00519 AVL---
+200403001 Belair, Amsterdam     02037  02037                % 00519 AVL---
+200403002 Belair, Archiducs     02038  02038                % 00519 AVL---
+200403022 Luxembourg, Square N  02038  02038                % 00519 AVL---
+200405045 Centre, Stäreplaz /   02040  02040                % 00519 AVL---
+200403020 Belair, Wampach       02042  02042                % 00519 AVL---
+200405025 Luxembourg/Centre, M  02043  02043                % 00519 AVL---
+200405049 Luxembourg, Amélie    02044  02044                % 00519 AVL---
+200405005 Centre, Badanstalt    02046  02046                % 00519 AVL---
+200419013 Limpertsberg, Crispi  02048  02048                % 00519 AVL---
+200410005 Eich, Octroi          02049  02049                % 00519 AVL---
+200410003 Eich, Eecher Plaz     02050  02050                % 00519 AVL---
+200426007 Weimerskirch, Laval'  02051  02051                % 00519 AVL---
+200426006 Weimerskirch, Knupp   02052  02052                % 00519 AVL---
+200426011 Weimerskirch, Tommys  02053  02053                % 00519 AVL---
+200426004 Weimerskirch, Bieche  02053  02053                % 00519 AVL---
+200409011 Dommeldange, Van der  02054  02054                % 00519 AVL---
+200409009 Dommeldange, Jean En  02055  02055                % 00519 AVL---
+200409010 Dommeldange, Parc de  02056                       % 00519 AVL---
+*Z 00520 AVL---       002 020                               % 00520 AVL---
+*L 12       200420003 200409010  00529  00556               % 00520 AVL---
+*A BE 200420003 200409010 000002  00529  00556              % 00520 AVL---
+*R 1 200409010 200420003 200409010  00529  00556            % 00520 AVL---
+*G AVS 200420003 200409010  00529  00556                    % 00520 AVL---
+*A VE 200420003 200409010 000002  00529  00556              % 00520 AVL---
+200420003 Merl, Celtes                 00529                % 00520 AVL---
+200420002 Merl, Barrière        00529  00529                % 00520 AVL---
+200420009 Merl, Marcel Cahen    00530  00530                % 00520 AVL---
+200420004 Merl, Conservatoire   00532  00532                % 00520 AVL---
+200420001 Merl, Athénée         00534  00534                % 00520 AVL---
+200403014 Belair, Place de Liè  00535  00535                % 00520 AVL---
+200403010 Belair, Kierch        00536  00536                % 00520 AVL---
+200403001 Belair, Amsterdam     00537  00537                % 00520 AVL---
+200403002 Belair, Archiducs     00538  00538                % 00520 AVL---
+200403022 Luxembourg, Square N  00538  00538                % 00520 AVL---
+200405045 Centre, Stäreplaz /   00540  00540                % 00520 AVL---
+200403020 Belair, Wampach       00542  00542                % 00520 AVL---
+200405025 Luxembourg/Centre, M  00543  00543                % 00520 AVL---
+200405049 Luxembourg, Amélie    00544  00544                % 00520 AVL---
+200405005 Centre, Badanstalt    00546  00546                % 00520 AVL---
+200419013 Limpertsberg, Crispi  00548  00548                % 00520 AVL---
+200410005 Eich, Octroi          00549  00549                % 00520 AVL---
+200410003 Eich, Eecher Plaz     00550  00550                % 00520 AVL---
+200426007 Weimerskirch, Laval'  00551  00551                % 00520 AVL---
+200426006 Weimerskirch, Knupp   00552  00552                % 00520 AVL---
+200426011 Weimerskirch, Tommys  00553  00553                % 00520 AVL---
+200426004 Weimerskirch, Bieche  00553  00553                % 00520 AVL---
+200409011 Dommeldange, Van der  00554  00554                % 00520 AVL---
+200409009 Dommeldange, Jean En  00555  00555                % 00520 AVL---
+200409010 Dommeldange, Parc de  00556                       % 00520 AVL---
+*Z 00012 AVL---                                             % 00012 AVL---
+*L 12       200410003 200409010  00550  00556               % 00012 AVL---
+*A BE 200410003 200409010 000003  00550  00556              % 00012 AVL---
+*R 1 200409010 200410003 200409010  00550  00556            % 00012 AVL---
+*G AVS 200410003 200409010  00550  00556                    % 00012 AVL---
+*A VE 200410003 200409010 000003  00550  00556              % 00012 AVL---
+200410003 Eich, Eecher Plaz            00550                % 00012 AVL---
+200426007 Weimerskirch, Laval'  00551  00551                % 00012 AVL---
+200426006 Weimerskirch, Knupp   00552  00552                % 00012 AVL---
+200426011 Weimerskirch, Tommys  00553  00553                % 00012 AVL---
+200426004 Weimerskirch, Bieche  00553  00553                % 00012 AVL---
+200409011 Dommeldange, Van der  00554  00554                % 00012 AVL---
+200409009 Dommeldange, Jean En  00555  00555                % 00012 AVL---
+200409010 Dommeldange, Parc de  00556                       % 00012 AVL---
+*Z 00023 AVL---                                             % 00023 AVL---
+*L 12       200410003 200409010  00620  00626               % 00023 AVL---
+*A BE 200410003 200409010 000003  00620  00626              % 00023 AVL---
+*R 1 200409010 200410003 200409010  00620  00626            % 00023 AVL---
+*G AVS 200410003 200409010  00620  00626                    % 00023 AVL---
+*A VE 200410003 200409010 000003  00620  00626              % 00023 AVL---
+200410003 Eich, Eecher Plaz            00620                % 00023 AVL---
+200426007 Weimerskirch, Laval'  00621  00621                % 00023 AVL---
+200426006 Weimerskirch, Knupp   00622  00622                % 00023 AVL---
+200426011 Weimerskirch, Tommys  00623  00623                % 00023 AVL---
+200426004 Weimerskirch, Bieche  00623  00623                % 00023 AVL---
+200409011 Dommeldange, Van der  00624  00624                % 00023 AVL---
+200409009 Dommeldange, Jean En  00625  00625                % 00023 AVL---
+200409010 Dommeldange, Parc de  00626                       % 00023 AVL---
+*Z 00037 AVL---                                             % 00037 AVL---
+*L 12       200410003 200409010  00650  00656               % 00037 AVL---
+*A BE 200410003 200409010 000003  00650  00656              % 00037 AVL---
+*R 1 200409010 200410003 200409010  00650  00656            % 00037 AVL---
+*G AVS 200410003 200409010  00650  00656                    % 00037 AVL---
+*A VE 200410003 200409010 000003  00650  00656              % 00037 AVL---
+200410003 Eich, Eecher Plaz            00650                % 00037 AVL---
+200426007 Weimerskirch, Laval'  00651  00651                % 00037 AVL---
+200426006 Weimerskirch, Knupp   00652  00652                % 00037 AVL---
+200426011 Weimerskirch, Tommys  00653  00653                % 00037 AVL---
+200426004 Weimerskirch, Bieche  00653  00653                % 00037 AVL---
+200409011 Dommeldange, Van der  00654  00654                % 00037 AVL---
+200409009 Dommeldange, Jean En  00655  00655                % 00037 AVL---
+200409010 Dommeldange, Parc de  00656                       % 00037 AVL---
+*Z 00053 AVL---                                             % 00053 AVL---
+*L 12       200410003 200409010  00720  00726               % 00053 AVL---
+*A BE 200410003 200409010 000003  00720  00726              % 00053 AVL---
+*R 1 200409010 200410003 200409010  00720  00726            % 00053 AVL---
+*G AVS 200410003 200409010  00720  00726                    % 00053 AVL---
+*A VE 200410003 200409010 000003  00720  00726              % 00053 AVL---
+200410003 Eich, Eecher Plaz            00720                % 00053 AVL---
+200426007 Weimerskirch, Laval'  00721  00721                % 00053 AVL---
+200426006 Weimerskirch, Knupp   00722  00722                % 00053 AVL---
+200426011 Weimerskirch, Tommys  00723  00723                % 00053 AVL---
+200426004 Weimerskirch, Bieche  00723  00723                % 00053 AVL---
+200409011 Dommeldange, Van der  00724  00724                % 00053 AVL---
+200409009 Dommeldange, Jean En  00725  00725                % 00053 AVL---
+200409010 Dommeldange, Parc de  00726                       % 00053 AVL---
+*Z 00071 AVL---                                             % 00071 AVL---
+*L 12       200410003 200409010  00750  00756               % 00071 AVL---
+*A BE 200410003 200409010 000003  00750  00756              % 00071 AVL---
+*R 1 200409010 200410003 200409010  00750  00756            % 00071 AVL---
+*G AVS 200410003 200409010  00750  00756                    % 00071 AVL---
+*A VE 200410003 200409010 000003  00750  00756              % 00071 AVL---
+200410003 Eich, Eecher Plaz            00750                % 00071 AVL---
+200426007 Weimerskirch, Laval'  00751  00751                % 00071 AVL---
+200426006 Weimerskirch, Knupp   00752  00752                % 00071 AVL---
+200426011 Weimerskirch, Tommys  00753  00753                % 00071 AVL---
+200426004 Weimerskirch, Bieche  00753  00753                % 00071 AVL---
+200409011 Dommeldange, Van der  00754  00754                % 00071 AVL---
+200409009 Dommeldange, Jean En  00755  00755                % 00071 AVL---
+200409010 Dommeldange, Parc de  00756                       % 00071 AVL---
+*Z 00087 AVL---                                             % 00087 AVL---
+*L 12       200410003 200409010  00820  00826               % 00087 AVL---
+*A BE 200410003 200409010 000003  00820  00826              % 00087 AVL---
+*R 1 200409010 200410003 200409010  00820  00826            % 00087 AVL---
+*G AVS 200410003 200409010  00820  00826                    % 00087 AVL---
+*A VE 200410003 200409010 000003  00820  00826              % 00087 AVL---
+200410003 Eich, Eecher Plaz            00820                % 00087 AVL---
+200426007 Weimerskirch, Laval'  00821  00821                % 00087 AVL---
+200426006 Weimerskirch, Knupp   00822  00822                % 00087 AVL---
+200426011 Weimerskirch, Tommys  00823  00823                % 00087 AVL---
+200426004 Weimerskirch, Bieche  00823  00823                % 00087 AVL---
+200409011 Dommeldange, Van der  00824  00824                % 00087 AVL---
+200409009 Dommeldange, Jean En  00825  00825                % 00087 AVL---
+200409010 Dommeldange, Parc de  00826                       % 00087 AVL---
+*Z 00401 AVL---                                             % 00401 AVL---
+*L 12       200410003 200409010  02020  02026               % 00401 AVL---
+*A BE 200410003 200409010 000003  02020  02026              % 00401 AVL---
+*R 1 200409010 200410003 200409010  02020  02026            % 00401 AVL---
+*G AVS 200410003 200409010  02020  02026                    % 00401 AVL---
+*A VE 200410003 200409010 000003  02020  02026              % 00401 AVL---
+200410003 Eich, Eecher Plaz            02020                % 00401 AVL---
+200426007 Weimerskirch, Laval'  02021  02021                % 00401 AVL---
+200426006 Weimerskirch, Knupp   02022  02022                % 00401 AVL---
+200426011 Weimerskirch, Tommys  02023  02023                % 00401 AVL---
+200426004 Weimerskirch, Bieche  02023  02023                % 00401 AVL---
+200409011 Dommeldange, Van der  02024  02024                % 00401 AVL---
+200409009 Dommeldange, Jean En  02025  02025                % 00401 AVL---
+200409010 Dommeldange, Parc de  02026                       % 00401 AVL---
+*Z 00405 AVL---                                             % 00405 AVL---
+*L 12       200410003 200409010  02050  02056               % 00405 AVL---
+*A BE 200410003 200409010 000003  02050  02056              % 00405 AVL---
+*R 1 200409010 200410003 200409010  02050  02056            % 00405 AVL---
+*G AVS 200410003 200409010  02050  02056                    % 00405 AVL---
+*A VE 200410003 200409010 000003  02050  02056              % 00405 AVL---
+200410003 Eich, Eecher Plaz            02050                % 00405 AVL---
+200426007 Weimerskirch, Laval'  02051  02051                % 00405 AVL---
+200426006 Weimerskirch, Knupp   02052  02052                % 00405 AVL---
+200426011 Weimerskirch, Tommys  02053  02053                % 00405 AVL---
+200426004 Weimerskirch, Bieche  02053  02053                % 00405 AVL---
+200409011 Dommeldange, Van der  02054  02054                % 00405 AVL---
+200409009 Dommeldange, Jean En  02055  02055                % 00405 AVL---
+200409010 Dommeldange, Parc de  02056                       % 00405 AVL---
+*Z 00413 AVL---                                             % 00413 AVL---
+*L 12       200410003 200409010  02120  02126               % 00413 AVL---
+*A BE 200410003 200409010 000003  02120  02126              % 00413 AVL---
+*R 1 200409010 200410003 200409010  02120  02126            % 00413 AVL---
+*G AVS 200410003 200409010  02120  02126                    % 00413 AVL---
+*A VE 200410003 200409010 000003  02120  02126              % 00413 AVL---
+200410003 Eich, Eecher Plaz            02120                % 00413 AVL---
+200426007 Weimerskirch, Laval'  02121  02121                % 00413 AVL---
+200426006 Weimerskirch, Knupp   02122  02122                % 00413 AVL---
+200426011 Weimerskirch, Tommys  02123  02123                % 00413 AVL---
+200426004 Weimerskirch, Bieche  02123  02123                % 00413 AVL---
+200409011 Dommeldange, Van der  02124  02124                % 00413 AVL---
+200409009 Dommeldange, Jean En  02125  02125                % 00413 AVL---
+200409010 Dommeldange, Parc de  02126                       % 00413 AVL---
+*Z 00419 AVL---                                             % 00419 AVL---
+*L 12       200410003 200409010  02150  02156               % 00419 AVL---
+*A BE 200410003 200409010 000003  02150  02156              % 00419 AVL---
+*R 1 200409010 200410003 200409010  02150  02156            % 00419 AVL---
+*G AVS 200410003 200409010  02150  02156                    % 00419 AVL---
+*A VE 200410003 200409010 000003  02150  02156              % 00419 AVL---
+200410003 Eich, Eecher Plaz            02150                % 00419 AVL---
+200426007 Weimerskirch, Laval'  02151  02151                % 00419 AVL---
+200426006 Weimerskirch, Knupp   02152  02152                % 00419 AVL---
+200426011 Weimerskirch, Tommys  02153  02153                % 00419 AVL---
+200426004 Weimerskirch, Bieche  02153  02153                % 00419 AVL---
+200409011 Dommeldange, Van der  02154  02154                % 00419 AVL---
+200409009 Dommeldange, Jean En  02155  02155                % 00419 AVL---
+200409010 Dommeldange, Parc de  02156                       % 00419 AVL---
+*Z 00423 AVL---                                             % 00423 AVL---
+*L 12       200410003 200409010  02220  02226               % 00423 AVL---
+*A BE 200410003 200409010 000003  02220  02226              % 00423 AVL---
+*R 1 200409010 200410003 200409010  02220  02226            % 00423 AVL---
+*G AVS 200410003 200409010  02220  02226                    % 00423 AVL---
+*A VE 200410003 200409010 000003  02220  02226              % 00423 AVL---
+200410003 Eich, Eecher Plaz            02220                % 00423 AVL---
+200426007 Weimerskirch, Laval'  02221  02221                % 00423 AVL---
+200426006 Weimerskirch, Knupp   02222  02222                % 00423 AVL---
+200426011 Weimerskirch, Tommys  02223  02223                % 00423 AVL---
+200426004 Weimerskirch, Bieche  02223  02223                % 00423 AVL---
+200409011 Dommeldange, Van der  02224  02224                % 00423 AVL---
+200409009 Dommeldange, Jean En  02225  02225                % 00423 AVL---
+200409010 Dommeldange, Parc de  02226                       % 00423 AVL---
+*Z 00428 AVL---                                             % 00428 AVL---
+*L 12       200410003 200409010  02250  02256               % 00428 AVL---
+*A BE 200410003 200409010 000003  02250  02256              % 00428 AVL---
+*R 1 200409010 200410003 200409010  02250  02256            % 00428 AVL---
+*G AVS 200410003 200409010  02250  02256                    % 00428 AVL---
+*A VE 200410003 200409010 000003  02250  02256              % 00428 AVL---
+200410003 Eich, Eecher Plaz            02250                % 00428 AVL---
+200426007 Weimerskirch, Laval'  02251  02251                % 00428 AVL---
+200426006 Weimerskirch, Knupp   02252  02252                % 00428 AVL---
+200426011 Weimerskirch, Tommys  02253  02253                % 00428 AVL---
+200426004 Weimerskirch, Bieche  02253  02253                % 00428 AVL---
+200409011 Dommeldange, Van der  02254  02254                % 00428 AVL---
+200409009 Dommeldange, Jean En  02255  02255                % 00428 AVL---
+200409010 Dommeldange, Parc de  02256                       % 00428 AVL---
+*Z 00433 AVL---                                             % 00433 AVL---
+*L 12       200410003 200409010  02320  02326               % 00433 AVL---
+*A BE 200410003 200409010 000003  02320  02326              % 00433 AVL---
+*R 1 200409010 200410003 200409010  02320  02326            % 00433 AVL---
+*G AVS 200410003 200409010  02320  02326                    % 00433 AVL---
+*A VE 200410003 200409010 000003  02320  02326              % 00433 AVL---
+200410003 Eich, Eecher Plaz            02320                % 00433 AVL---
+200426007 Weimerskirch, Laval'  02321  02321                % 00433 AVL---
+200426006 Weimerskirch, Knupp   02322  02322                % 00433 AVL---
+200426011 Weimerskirch, Tommys  02323  02323                % 00433 AVL---
+200426004 Weimerskirch, Bieche  02323  02323                % 00433 AVL---
+200409011 Dommeldange, Van der  02324  02324                % 00433 AVL---
+200409009 Dommeldange, Jean En  02325  02325                % 00433 AVL---
+200409010 Dommeldange, Parc de  02326                       % 00433 AVL---
+*Z 00438 AVL---                                             % 00438 AVL---
+*L 12       200410003 200409010  02350  02356               % 00438 AVL---
+*A BE 200410003 200409010 000003  02350  02356              % 00438 AVL---
+*R 1 200409010 200410003 200409010  02350  02356            % 00438 AVL---
+*G AVS 200410003 200409010  02350  02356                    % 00438 AVL---
+*A VE 200410003 200409010 000003  02350  02356              % 00438 AVL---
+200410003 Eich, Eecher Plaz            02350                % 00438 AVL---
+200426007 Weimerskirch, Laval'  02351  02351                % 00438 AVL---
+200426006 Weimerskirch, Knupp   02352  02352                % 00438 AVL---
+200426011 Weimerskirch, Tommys  02353  02353                % 00438 AVL---
+200426004 Weimerskirch, Bieche  02353  02353                % 00438 AVL---
+200409011 Dommeldange, Van der  02354  02354                % 00438 AVL---
+200409009 Dommeldange, Jean En  02355  02355                % 00438 AVL---
+200409010 Dommeldange, Parc de  02356                       % 00438 AVL---
+*Z 00441 AVL---                                             % 00441 AVL---
+*L 12       200410003 200409010  02420  02426               % 00441 AVL---
+*A BE 200410003 200409010 000003  02420  02426              % 00441 AVL---
+*R 1 200409010 200410003 200409010  02420  02426            % 00441 AVL---
+*G AVS 200410003 200409010  02420  02426                    % 00441 AVL---
+*A VE 200410003 200409010 000003  02420  02426              % 00441 AVL---
+200410003 Eich, Eecher Plaz            02420                % 00441 AVL---
+200426007 Weimerskirch, Laval'  02421  02421                % 00441 AVL---
+200426006 Weimerskirch, Knupp   02422  02422                % 00441 AVL---
+200426011 Weimerskirch, Tommys  02423  02423                % 00441 AVL---
+200426004 Weimerskirch, Bieche  02423  02423                % 00441 AVL---
+200409011 Dommeldange, Van der  02424  02424                % 00441 AVL---
+200409009 Dommeldange, Jean En  02425  02425                % 00441 AVL---
+200409010 Dommeldange, Parc de  02426                       % 00441 AVL---
+*Z 00004 AVL---                                             % 00004 AVL---
+*L 12       200410003 200409010  00520  00526               % 00004 AVL---
+*A BE 200410003 200409010 000002  00520  00526              % 00004 AVL---
+*R 1 200409010 200410003 200409010  00520  00526            % 00004 AVL---
+*G AVS 200410003 200409010  00520  00526                    % 00004 AVL---
+*A VE 200410003 200409010 000002  00520  00526              % 00004 AVL---
+200410003 Eich, Eecher Plaz            00520                % 00004 AVL---
+200426007 Weimerskirch, Laval'  00521  00521                % 00004 AVL---
+200426006 Weimerskirch, Knupp   00522  00522                % 00004 AVL---
+200426011 Weimerskirch, Tommys  00523  00523                % 00004 AVL---
+200426004 Weimerskirch, Bieche  00524  00524                % 00004 AVL---
+200409011 Dommeldange, Van der  00525  00525                % 00004 AVL---
+200409009 Dommeldange, Jean En  00525  00525                % 00004 AVL---
+200409010 Dommeldange, Parc de  00526                       % 00004 AVL---
+*Z 00015 AVL---                                             % 00015 AVL---
+*L 12       200410003 200409010  00550  00556               % 00015 AVL---
+*A BE 200410003 200409010 000005  00550  00556              % 00015 AVL---
+*R 1 200409010 200410003 200409010  00550  00556            % 00015 AVL---
+*G AVS 200410003 200409010  00550  00556                    % 00015 AVL---
+*A VE 200410003 200409010 000005  00550  00556              % 00015 AVL---
+200410003 Eich, Eecher Plaz            00550                % 00015 AVL---
+200426007 Weimerskirch, Laval'  00551  00551                % 00015 AVL---
+200426006 Weimerskirch, Knupp   00552  00552                % 00015 AVL---
+200426011 Weimerskirch, Tommys  00553  00553                % 00015 AVL---
+200426004 Weimerskirch, Bieche  00554  00554                % 00015 AVL---
+200409011 Dommeldange, Van der  00555  00555                % 00015 AVL---
+200409009 Dommeldange, Jean En  00555  00555                % 00015 AVL---
+200409010 Dommeldange, Parc de  00556                       % 00015 AVL---
+*Z 00424 AVL---                                             % 00424 AVL---
+*L 12       200410003 200409010  02220  02226               % 00424 AVL---
+*A BE 200410003 200409010 000001  02220  02226              % 00424 AVL---
+*R 1 200409010 200410003 200409010  02220  02226            % 00424 AVL---
+*G AVS 200410003 200409010  02220  02226                    % 00424 AVL---
+*A VE 200410003 200409010 000001  02220  02226              % 00424 AVL---
+200410003 Eich, Eecher Plaz            02220                % 00424 AVL---
+200426007 Weimerskirch, Laval'  02221  02221                % 00424 AVL---
+200426006 Weimerskirch, Knupp   02222  02222                % 00424 AVL---
+200426011 Weimerskirch, Tommys  02223  02223                % 00424 AVL---
+200426004 Weimerskirch, Bieche  02224  02224                % 00424 AVL---
+200409011 Dommeldange, Van der  02225  02225                % 00424 AVL---
+200409009 Dommeldange, Jean En  02225  02225                % 00424 AVL---
+200409010 Dommeldange, Parc de  02226                       % 00424 AVL---
+*Z 00429 AVL---                                             % 00429 AVL---
+*L 12       200410003 200409010  02250  02256               % 00429 AVL---
+*A BE 200410003 200409010 000001  02250  02256              % 00429 AVL---
+*R 1 200409010 200410003 200409010  02250  02256            % 00429 AVL---
+*G AVS 200410003 200409010  02250  02256                    % 00429 AVL---
+*A VE 200410003 200409010 000001  02250  02256              % 00429 AVL---
+200410003 Eich, Eecher Plaz            02250                % 00429 AVL---
+200426007 Weimerskirch, Laval'  02251  02251                % 00429 AVL---
+200426006 Weimerskirch, Knupp   02252  02252                % 00429 AVL---
+200426011 Weimerskirch, Tommys  02253  02253                % 00429 AVL---
+200426004 Weimerskirch, Bieche  02254  02254                % 00429 AVL---
+200409011 Dommeldange, Van der  02255  02255                % 00429 AVL---
+200409009 Dommeldange, Jean En  02255  02255                % 00429 AVL---
+200409010 Dommeldange, Parc de  02256                       % 00429 AVL---
+*Z 00434 AVL---                                             % 00434 AVL---
+*L 12       200410003 200409010  02320  02326               % 00434 AVL---
+*A BE 200410003 200409010 000001  02320  02326              % 00434 AVL---
+*R 1 200409010 200410003 200409010  02320  02326            % 00434 AVL---
+*G AVS 200410003 200409010  02320  02326                    % 00434 AVL---
+*A VE 200410003 200409010 000001  02320  02326              % 00434 AVL---
+200410003 Eich, Eecher Plaz            02320                % 00434 AVL---
+200426007 Weimerskirch, Laval'  02321  02321                % 00434 AVL---
+200426006 Weimerskirch, Knupp   02322  02322                % 00434 AVL---
+200426011 Weimerskirch, Tommys  02323  02323                % 00434 AVL---
+200426004 Weimerskirch, Bieche  02324  02324                % 00434 AVL---
+200409011 Dommeldange, Van der  02325  02325                % 00434 AVL---
+200409009 Dommeldange, Jean En  02325  02325                % 00434 AVL---
+200409010 Dommeldange, Parc de  02326                       % 00434 AVL---
+*Z 00439 AVL---                                             % 00439 AVL---
+*L 12       200410003 200409010  02350  02356               % 00439 AVL---
+*A BE 200410003 200409010 000001  02350  02356              % 00439 AVL---
+*R 1 200409010 200410003 200409010  02350  02356            % 00439 AVL---
+*G AVS 200410003 200409010  02350  02356                    % 00439 AVL---
+*A VE 200410003 200409010 000001  02350  02356              % 00439 AVL---
+200410003 Eich, Eecher Plaz            02350                % 00439 AVL---
+200426007 Weimerskirch, Laval'  02351  02351                % 00439 AVL---
+200426006 Weimerskirch, Knupp   02352  02352                % 00439 AVL---
+200426011 Weimerskirch, Tommys  02353  02353                % 00439 AVL---
+200426004 Weimerskirch, Bieche  02354  02354                % 00439 AVL---
+200409011 Dommeldange, Van der  02355  02355                % 00439 AVL---
+200409009 Dommeldange, Jean En  02355  02355                % 00439 AVL---
+200409010 Dommeldange, Parc de  02356                       % 00439 AVL---
+*Z 00442 AVL---                                             % 00442 AVL---
+*L 12       200410003 200409010  02420  02426               % 00442 AVL---
+*A BE 200410003 200409010 000001  02420  02426              % 00442 AVL---
+*R 1 200409010 200410003 200409010  02420  02426            % 00442 AVL---
+*G AVS 200410003 200409010  02420  02426                    % 00442 AVL---
+*A VE 200410003 200409010 000001  02420  02426              % 00442 AVL---
+200410003 Eich, Eecher Plaz            02420                % 00442 AVL---
+200426007 Weimerskirch, Laval'  02421  02421                % 00442 AVL---
+200426006 Weimerskirch, Knupp   02422  02422                % 00442 AVL---
+200426011 Weimerskirch, Tommys  02423  02423                % 00442 AVL---
+200426004 Weimerskirch, Bieche  02424  02424                % 00442 AVL---
+200409011 Dommeldange, Van der  02425  02425                % 00442 AVL---
+200409009 Dommeldange, Jean En  02425  02425                % 00442 AVL---
+200409010 Dommeldange, Parc de  02426                       % 00442 AVL---
+*Z 00521 AVL---       038 020                               % 00521 AVL---
+*L 12       200420003 200409010  00645  00720               % 00521 AVL---
+*A BE 200420003 200409010 000002  00645  00720              % 00521 AVL---
+*R 1 200409010 200420003 200409010  00645  00720            % 00521 AVL---
+*G AVS 200420003 200409010  00645  00720                    % 00521 AVL---
+*A VE 200420003 200409010 000002  00645  00720              % 00521 AVL---
+200420003 Merl, Celtes                 00645                % 00521 AVL---
+200420002 Merl, Barrière        00646  00646                % 00521 AVL---
+200420009 Merl, Marcel Cahen    00647  00647                % 00521 AVL---
+200420004 Merl, Conservatoire   00649  00649                % 00521 AVL---
+200420001 Merl, Athénée         00651  00651                % 00521 AVL---
+200403014 Belair, Place de Liè  00653  00653                % 00521 AVL---
+200403010 Belair, Kierch        00654  00654                % 00521 AVL---
+200403001 Belair, Amsterdam     00655  00655                % 00521 AVL---
+200403002 Belair, Archiducs     00656  00656                % 00521 AVL---
+200403022 Luxembourg, Square N  00657  00657                % 00521 AVL---
+200405045 Centre, Stäreplaz /   00659  00659                % 00521 AVL---
+200403020 Belair, Wampach       00701  00701                % 00521 AVL---
+200405025 Luxembourg/Centre, M  00703  00703                % 00521 AVL---
+200405049 Luxembourg, Amélie    00705  00705                % 00521 AVL---
+200405005 Centre, Badanstalt    00708  00708                % 00521 AVL---
+200419013 Limpertsberg, Crispi  00710  00710                % 00521 AVL---
+200410005 Eich, Octroi          00711  00711                % 00521 AVL---
+200410003 Eich, Eecher Plaz     00712  00712                % 00521 AVL---
+200426007 Weimerskirch, Laval'  00713  00713                % 00521 AVL---
+200426006 Weimerskirch, Knupp   00715  00715                % 00521 AVL---
+200426011 Weimerskirch, Tommys  00716  00716                % 00521 AVL---
+200426004 Weimerskirch, Bieche  00717  00717                % 00521 AVL---
+200409011 Dommeldange, Van der  00719  00719                % 00521 AVL---
+200409009 Dommeldange, Jean En  00720  00720                % 00521 AVL---
+200409010 Dommeldange, Parc de  00720                       % 00521 AVL---
+*Z 00522 AVL---       015 030                               % 00522 AVL---
+*L 12       200420003 200409010  01128  01157               % 00522 AVL---
+*A BE 200420003 200409010 000003  01128  01157              % 00522 AVL---
+*R 1 200409010 200420003 200409010  01128  01157            % 00522 AVL---
+*G AVS 200420003 200409010  01128  01157                    % 00522 AVL---
+*A VE 200420003 200409010 000003  01128  01157              % 00522 AVL---
+200420003 Merl, Celtes                 01128                % 00522 AVL---
+200420002 Merl, Barrière        01129  01129                % 00522 AVL---
+200420009 Merl, Marcel Cahen    01130  01130                % 00522 AVL---
+200420004 Merl, Conservatoire   01132  01132                % 00522 AVL---
+200420001 Merl, Athénée         01134  01134                % 00522 AVL---
+200403014 Belair, Place de Liè  01135  01135                % 00522 AVL---
+200403010 Belair, Kierch        01136  01136                % 00522 AVL---
+200403001 Belair, Amsterdam     01137  01137                % 00522 AVL---
+200403002 Belair, Archiducs     01137  01137                % 00522 AVL---
+200403022 Luxembourg, Square N  01138  01138                % 00522 AVL---
+200405045 Centre, Stäreplaz /   01140  01140                % 00522 AVL---
+200403020 Belair, Wampach       01142  01142                % 00522 AVL---
+200405025 Luxembourg/Centre, M  01143  01143                % 00522 AVL---
+200405049 Luxembourg, Amélie    01144  01144                % 00522 AVL---
+200405005 Centre, Badanstalt    01147  01147                % 00522 AVL---
+200419013 Limpertsberg, Crispi  01149  01149                % 00522 AVL---
+200410005 Eich, Octroi          01149  01149                % 00522 AVL---
+200410003 Eich, Eecher Plaz     01150  01150                % 00522 AVL---
+200426007 Weimerskirch, Laval'  01151  01151                % 00522 AVL---
+200426006 Weimerskirch, Knupp   01153  01153                % 00522 AVL---
+200426011 Weimerskirch, Tommys  01154  01154                % 00522 AVL---
+200426004 Weimerskirch, Bieche  01155  01155                % 00522 AVL---
+200409011 Dommeldange, Van der  01156  01156                % 00522 AVL---
+200409009 Dommeldange, Jean En  01157  01157                % 00522 AVL---
+200409010 Dommeldange, Parc de  01157                       % 00522 AVL---
+*Z 00523 AVL---       035 020                               % 00523 AVL---
+*L 12       200420003 200409010  00756  00825               % 00523 AVL---
+*A BE 200420003 200409010 000005  00756  00825              % 00523 AVL---
+*R 1 200409010 200420003 200409010  00756  00825            % 00523 AVL---
+*G AVS 200420003 200409010  00756  00825                    % 00523 AVL---
+*A VE 200420003 200409010 000005  00756  00825              % 00523 AVL---
+200420003 Merl, Celtes                 00756                % 00523 AVL---
+200420002 Merl, Barrière        00757  00757                % 00523 AVL---
+200420009 Merl, Marcel Cahen    00758  00758                % 00523 AVL---
+200420004 Merl, Conservatoire   00800  00800                % 00523 AVL---
+200420001 Merl, Athénée         00802  00802                % 00523 AVL---
+200403014 Belair, Place de Liè  00803  00803                % 00523 AVL---
+200403010 Belair, Kierch        00804  00804                % 00523 AVL---
+200403001 Belair, Amsterdam     00805  00805                % 00523 AVL---
+200403002 Belair, Archiducs     00805  00805                % 00523 AVL---
+200403022 Luxembourg, Square N  00806  00806                % 00523 AVL---
+200405045 Centre, Stäreplaz /   00808  00808                % 00523 AVL---
+200403020 Belair, Wampach       00810  00810                % 00523 AVL---
+200405025 Luxembourg/Centre, M  00811  00811                % 00523 AVL---
+200405049 Luxembourg, Amélie    00812  00812                % 00523 AVL---
+200405005 Centre, Badanstalt    00815  00815                % 00523 AVL---
+200419013 Limpertsberg, Crispi  00817  00817                % 00523 AVL---
+200410005 Eich, Octroi          00817  00817                % 00523 AVL---
+200410003 Eich, Eecher Plaz     00818  00818                % 00523 AVL---
+200426007 Weimerskirch, Laval'  00819  00819                % 00523 AVL---
+200426006 Weimerskirch, Knupp   00821  00821                % 00523 AVL---
+200426011 Weimerskirch, Tommys  00822  00822                % 00523 AVL---
+200426004 Weimerskirch, Bieche  00823  00823                % 00523 AVL---
+200409011 Dommeldange, Van der  00824  00824                % 00523 AVL---
+200409009 Dommeldange, Jean En  00825  00825                % 00523 AVL---
+200409010 Dommeldange, Parc de  00825                       % 00523 AVL---
+*Z 00524 AVL---       016 030                               % 00524 AVL---
+*L 12       200409010 200420003  01133  01202               % 00524 AVL---
+*A BE 200409010 200420003 000003  01133  01202              % 00524 AVL---
+*R 2 200420003 200409010 200420003  01133  01202            % 00524 AVL---
+*G AVS 200409010 200420003  01133  01202                    % 00524 AVL---
+*A VE 200409010 200420003 000003  01133  01202              % 00524 AVL---
+200409010 Dommeldange, Parc de         01133                % 00524 AVL---
+200409009 Dommeldange, Jean En  01135  01135                % 00524 AVL---
+200409011 Dommeldange, Van der  01136  01136                % 00524 AVL---
+200426004 Weimerskirch, Bieche  01138  01138                % 00524 AVL---
+200426011 Weimerskirch, Tommys  01139  01139                % 00524 AVL---
+200426006 Weimerskirch, Knupp   01140  01140                % 00524 AVL---
+200426007 Weimerskirch, Laval'  01141  01141                % 00524 AVL---
+200410003 Eich, Eecher Plaz     01142  01142                % 00524 AVL---
+200410005 Eich, Octroi          01143  01143                % 00524 AVL---
+200419013 Limpertsberg, Crispi  01144  01144                % 00524 AVL---
+200405005 Centre, Badanstalt    01146  01146                % 00524 AVL---
+200405029 Luxembourg/Centre, R  01149  01149                % 00524 AVL---
+200405045 Centre, Stäreplaz /   01151  01151                % 00524 AVL---
+200403022 Luxembourg, Square N  01153  01153                % 00524 AVL---
+200403002 Belair, Archiducs     01154  01154                % 00524 AVL---
+200403001 Belair, Amsterdam     01154  01154                % 00524 AVL---
+200403010 Belair, Kierch        01155  01155                % 00524 AVL---
+200403014 Belair, Place de Liè  01156  01156                % 00524 AVL---
+200420001 Merl, Athénée         01158  01158                % 00524 AVL---
+200420004 Merl, Conservatoire   01159  01159                % 00524 AVL---
+200420009 Merl, Marcel Cahen    01200  01200                % 00524 AVL---
+200420002 Merl, Barrière        01201  01201                % 00524 AVL---
+200420015 Merl, St. Gengoul     01201  01201                % 00524 AVL---
+200420003 Merl, Celtes          01202                       % 00524 AVL---
+*Z 00525 AVL---       001 017                               % 00525 AVL---
+*L 12       200409010 200420003  00754  00823               % 00525 AVL---
+*A BE 200409010 200420003 000005  00754  00823              % 00525 AVL---
+*R 2 200420003 200409010 200420003  00754  00823            % 00525 AVL---
+*G AVS 200409010 200420003  00754  00823                    % 00525 AVL---
+*A VE 200409010 200420003 000005  00754  00823              % 00525 AVL---
+200409010 Dommeldange, Parc de         00754                % 00525 AVL---
+200409009 Dommeldange, Jean En  00756  00756                % 00525 AVL---
+200409011 Dommeldange, Van der  00757  00757                % 00525 AVL---
+200426004 Weimerskirch, Bieche  00759  00759                % 00525 AVL---
+200426011 Weimerskirch, Tommys  00800  00800                % 00525 AVL---
+200426006 Weimerskirch, Knupp   00801  00801                % 00525 AVL---
+200426007 Weimerskirch, Laval'  00802  00802                % 00525 AVL---
+200410003 Eich, Eecher Plaz     00803  00803                % 00525 AVL---
+200410005 Eich, Octroi          00804  00804                % 00525 AVL---
+200419013 Limpertsberg, Crispi  00805  00805                % 00525 AVL---
+200405005 Centre, Badanstalt    00807  00807                % 00525 AVL---
+200405029 Luxembourg/Centre, R  00810  00810                % 00525 AVL---
+200405045 Centre, Stäreplaz /   00812  00812                % 00525 AVL---
+200403022 Luxembourg, Square N  00814  00814                % 00525 AVL---
+200403002 Belair, Archiducs     00815  00815                % 00525 AVL---
+200403001 Belair, Amsterdam     00815  00815                % 00525 AVL---
+200403010 Belair, Kierch        00816  00816                % 00525 AVL---
+200403014 Belair, Place de Liè  00817  00817                % 00525 AVL---
+200420001 Merl, Athénée         00819  00819                % 00525 AVL---
+200420004 Merl, Conservatoire   00820  00820                % 00525 AVL---
+200420009 Merl, Marcel Cahen    00821  00821                % 00525 AVL---
+200420002 Merl, Barrière        00822  00822                % 00525 AVL---
+200420015 Merl, St. Gengoul     00822  00822                % 00525 AVL---
+200420003 Merl, Celtes          00823                       % 00525 AVL---
+*Z 00526 AVL---       033 020                               % 00526 AVL---
+*L 12       200409010 200420003  00831  00900               % 00526 AVL---
+*A BE 200409010 200420003 000005  00831  00900              % 00526 AVL---
+*R 2 200420003 200409010 200420003  00831  00900            % 00526 AVL---
+*G AVS 200409010 200420003  00831  00900                    % 00526 AVL---
+*A VE 200409010 200420003 000005  00831  00900              % 00526 AVL---
+200409010 Dommeldange, Parc de         00831                % 00526 AVL---
+200409009 Dommeldange, Jean En  00833  00833                % 00526 AVL---
+200409011 Dommeldange, Van der  00834  00834                % 00526 AVL---
+200426004 Weimerskirch, Bieche  00836  00836                % 00526 AVL---
+200426011 Weimerskirch, Tommys  00837  00837                % 00526 AVL---
+200426006 Weimerskirch, Knupp   00838  00838                % 00526 AVL---
+200426007 Weimerskirch, Laval'  00839  00839                % 00526 AVL---
+200410003 Eich, Eecher Plaz     00840  00840                % 00526 AVL---
+200410005 Eich, Octroi          00841  00841                % 00526 AVL---
+200419013 Limpertsberg, Crispi  00842  00842                % 00526 AVL---
+200405005 Centre, Badanstalt    00844  00844                % 00526 AVL---
+200405029 Luxembourg/Centre, R  00847  00847                % 00526 AVL---
+200405045 Centre, Stäreplaz /   00849  00849                % 00526 AVL---
+200403022 Luxembourg, Square N  00851  00851                % 00526 AVL---
+200403002 Belair, Archiducs     00852  00852                % 00526 AVL---
+200403001 Belair, Amsterdam     00852  00852                % 00526 AVL---
+200403010 Belair, Kierch        00853  00853                % 00526 AVL---
+200403014 Belair, Place de Liè  00854  00854                % 00526 AVL---
+200420001 Merl, Athénée         00856  00856                % 00526 AVL---
+200420004 Merl, Conservatoire   00857  00857                % 00526 AVL---
+200420009 Merl, Marcel Cahen    00858  00858                % 00526 AVL---
+200420002 Merl, Barrière        00859  00859                % 00526 AVL---
+200420015 Merl, St. Gengoul     00859  00859                % 00526 AVL---
+200420003 Merl, Celtes          00900                       % 00526 AVL---
+*Z 00527 AVL---       038 020                               % 00527 AVL---
+*L 12       200409010 200420003  00655  00727               % 00527 AVL---
+*A BE 200409010 200420003 000002  00655  00727              % 00527 AVL---
+*R 2 200420003 200409010 200420003  00655  00727            % 00527 AVL---
+*G AVS 200409010 200420003  00655  00727                    % 00527 AVL---
+*A VE 200409010 200420003 000002  00655  00727              % 00527 AVL---
+200409010 Dommeldange, Parc de         00655                % 00527 AVL---
+200409009 Dommeldange, Jean En  00657  00657                % 00527 AVL---
+200409011 Dommeldange, Van der  00658  00658                % 00527 AVL---
+200426004 Weimerskirch, Bieche  00700  00700                % 00527 AVL---
+200426011 Weimerskirch, Tommys  00701  00701                % 00527 AVL---
+200426006 Weimerskirch, Knupp   00702  00702                % 00527 AVL---
+200426007 Weimerskirch, Laval'  00704  00704                % 00527 AVL---
+200410003 Eich, Eecher Plaz     00706  00706                % 00527 AVL---
+200410005 Eich, Octroi          00707  00707                % 00527 AVL---
+200419013 Limpertsberg, Crispi  00708  00708                % 00527 AVL---
+200405005 Centre, Badanstalt    00710  00710                % 00527 AVL---
+200405029 Luxembourg/Centre, R  00713  00713                % 00527 AVL---
+200405045 Centre, Stäreplaz /   00715  00715                % 00527 AVL---
+200403022 Luxembourg, Square N  00717  00717                % 00527 AVL---
+200403002 Belair, Archiducs     00718  00718                % 00527 AVL---
+200403001 Belair, Amsterdam     00719  00719                % 00527 AVL---
+200403010 Belair, Kierch        00720  00720                % 00527 AVL---
+200403014 Belair, Place de Liè  00721  00721                % 00527 AVL---
+200420001 Merl, Athénée         00723  00723                % 00527 AVL---
+200420004 Merl, Conservatoire   00724  00724                % 00527 AVL---
+200420009 Merl, Marcel Cahen    00725  00725                % 00527 AVL---
+200420002 Merl, Barrière        00726  00726                % 00527 AVL---
+200420015 Merl, St. Gengoul     00727  00727                % 00527 AVL---
+200420003 Merl, Celtes          00727                       % 00527 AVL---
+*Z 00528 AVL---       004 030                               % 00528 AVL---
+*L 12       200409010 200420003  00905  00931               % 00528 AVL---
+*A BE 200409010 200420003 000003  00905  00931              % 00528 AVL---
+*R 2 200420003 200409010 200420003  00905  00931            % 00528 AVL---
+*G AVS 200409010 200420003  00905  00931                    % 00528 AVL---
+*A VE 200409010 200420003 000003  00905  00931              % 00528 AVL---
+200409010 Dommeldange, Parc de         00905                % 00528 AVL---
+200409009 Dommeldange, Jean En  00907  00907                % 00528 AVL---
+200409011 Dommeldange, Van der  00907  00907                % 00528 AVL---
+200426004 Weimerskirch, Bieche  00909  00909                % 00528 AVL---
+200426011 Weimerskirch, Tommys  00910  00910                % 00528 AVL---
+200426006 Weimerskirch, Knupp   00911  00911                % 00528 AVL---
+200426007 Weimerskirch, Laval'  00912  00912                % 00528 AVL---
+200410003 Eich, Eecher Plaz     00913  00913                % 00528 AVL---
+200410005 Eich, Octroi          00914  00914                % 00528 AVL---
+200419013 Limpertsberg, Crispi  00915  00915                % 00528 AVL---
+200405005 Centre, Badanstalt    00917  00917                % 00528 AVL---
+200405029 Luxembourg/Centre, R  00919  00919                % 00528 AVL---
+200405045 Centre, Stäreplaz /   00921  00921                % 00528 AVL---
+200403022 Luxembourg, Square N  00923  00923                % 00528 AVL---
+200403002 Belair, Archiducs     00924  00924                % 00528 AVL---
+200403001 Belair, Amsterdam     00924  00924                % 00528 AVL---
+200403010 Belair, Kierch        00925  00925                % 00528 AVL---
+200403014 Belair, Place de Liè  00926  00926                % 00528 AVL---
+200420001 Merl, Athénée         00927  00927                % 00528 AVL---
+200420004 Merl, Conservatoire   00928  00928                % 00528 AVL---
+200420009 Merl, Marcel Cahen    00929  00929                % 00528 AVL---
+200420002 Merl, Barrière        00930  00930                % 00528 AVL---
+200420015 Merl, St. Gengoul     00931  00931                % 00528 AVL---
+200420003 Merl, Celtes          00931                       % 00528 AVL---
+*Z 00529 AVL---       001 030                               % 00529 AVL---
+*L 12       200409010 200420003  02005  02031               % 00529 AVL---
+*A BE 200409010 200420003 000003  02005  02031              % 00529 AVL---
+*R 2 200420003 200409010 200420003  02005  02031            % 00529 AVL---
+*G AVS 200409010 200420003  02005  02031                    % 00529 AVL---
+*A VE 200409010 200420003 000003  02005  02031              % 00529 AVL---
+200409010 Dommeldange, Parc de         02005                % 00529 AVL---
+200409009 Dommeldange, Jean En  02007  02007                % 00529 AVL---
+200409011 Dommeldange, Van der  02007  02007                % 00529 AVL---
+200426004 Weimerskirch, Bieche  02009  02009                % 00529 AVL---
+200426011 Weimerskirch, Tommys  02010  02010                % 00529 AVL---
+200426006 Weimerskirch, Knupp   02011  02011                % 00529 AVL---
+200426007 Weimerskirch, Laval'  02012  02012                % 00529 AVL---
+200410003 Eich, Eecher Plaz     02013  02013                % 00529 AVL---
+200410005 Eich, Octroi          02014  02014                % 00529 AVL---
+200419013 Limpertsberg, Crispi  02015  02015                % 00529 AVL---
+200405005 Centre, Badanstalt    02017  02017                % 00529 AVL---
+200405029 Luxembourg/Centre, R  02019  02019                % 00529 AVL---
+200405045 Centre, Stäreplaz /   02021  02021                % 00529 AVL---
+200403022 Luxembourg, Square N  02023  02023                % 00529 AVL---
+200403002 Belair, Archiducs     02024  02024                % 00529 AVL---
+200403001 Belair, Amsterdam     02024  02024                % 00529 AVL---
+200403010 Belair, Kierch        02025  02025                % 00529 AVL---
+200403014 Belair, Place de Liè  02026  02026                % 00529 AVL---
+200420001 Merl, Athénée         02027  02027                % 00529 AVL---
+200420004 Merl, Conservatoire   02028  02028                % 00529 AVL---
+200420009 Merl, Marcel Cahen    02029  02029                % 00529 AVL---
+200420002 Merl, Barrière        02030  02030                % 00529 AVL---
+200420015 Merl, St. Gengoul     02031  02031                % 00529 AVL---
+200420003 Merl, Celtes          02031                       % 00529 AVL---
+*Z 00530 AVL---       002 030                               % 00530 AVL---
+*L 12       200409010 200420003  00636  00702               % 00530 AVL---
+*A BE 200409010 200420003 000005  00636  00702              % 00530 AVL---
+*R 2 200420003 200409010 200420003  00636  00702            % 00530 AVL---
+*G AVS 200409010 200420003  00636  00702                    % 00530 AVL---
+*A VE 200409010 200420003 000005  00636  00702              % 00530 AVL---
+200409010 Dommeldange, Parc de         00636                % 00530 AVL---
+200409009 Dommeldange, Jean En  00638  00638                % 00530 AVL---
+200409011 Dommeldange, Van der  00638  00638                % 00530 AVL---
+200426004 Weimerskirch, Bieche  00640  00640                % 00530 AVL---
+200426011 Weimerskirch, Tommys  00641  00641                % 00530 AVL---
+200426006 Weimerskirch, Knupp   00642  00642                % 00530 AVL---
+200426007 Weimerskirch, Laval'  00643  00643                % 00530 AVL---
+200410003 Eich, Eecher Plaz     00644  00644                % 00530 AVL---
+200410005 Eich, Octroi          00645  00645                % 00530 AVL---
+200419013 Limpertsberg, Crispi  00646  00646                % 00530 AVL---
+200405005 Centre, Badanstalt    00648  00648                % 00530 AVL---
+200405029 Luxembourg/Centre, R  00650  00650                % 00530 AVL---
+200405045 Centre, Stäreplaz /   00652  00652                % 00530 AVL---
+200403022 Luxembourg, Square N  00654  00654                % 00530 AVL---
+200403002 Belair, Archiducs     00655  00655                % 00530 AVL---
+200403001 Belair, Amsterdam     00655  00655                % 00530 AVL---
+200403010 Belair, Kierch        00656  00656                % 00530 AVL---
+200403014 Belair, Place de Liè  00657  00657                % 00530 AVL---
+200420001 Merl, Athénée         00658  00658                % 00530 AVL---
+200420004 Merl, Conservatoire   00659  00659                % 00530 AVL---
+200420009 Merl, Marcel Cahen    00700  00700                % 00530 AVL---
+200420002 Merl, Barrière        00701  00701                % 00530 AVL---
+200420015 Merl, St. Gengoul     00702  00702                % 00530 AVL---
+200420003 Merl, Celtes          00702                       % 00530 AVL---
+*Z 00531 AVL---       001 022                               % 00531 AVL---
+*L 12       200409010 200420003  01954  02020               % 00531 AVL---
+*A BE 200409010 200420003 000005  01954  02020              % 00531 AVL---
+*R 2 200420003 200409010 200420003  01954  02020            % 00531 AVL---
+*G AVS 200409010 200420003  01954  02020                    % 00531 AVL---
+*A VE 200409010 200420003 000005  01954  02020              % 00531 AVL---
+200409010 Dommeldange, Parc de         01954                % 00531 AVL---
+200409009 Dommeldange, Jean En  01956  01956                % 00531 AVL---
+200409011 Dommeldange, Van der  01956  01956                % 00531 AVL---
+200426004 Weimerskirch, Bieche  01958  01958                % 00531 AVL---
+200426011 Weimerskirch, Tommys  01959  01959                % 00531 AVL---
+200426006 Weimerskirch, Knupp   02000  02000                % 00531 AVL---
+200426007 Weimerskirch, Laval'  02001  02001                % 00531 AVL---
+200410003 Eich, Eecher Plaz     02002  02002                % 00531 AVL---
+200410005 Eich, Octroi          02003  02003                % 00531 AVL---
+200419013 Limpertsberg, Crispi  02004  02004                % 00531 AVL---
+200405005 Centre, Badanstalt    02006  02006                % 00531 AVL---
+200405029 Luxembourg/Centre, R  02008  02008                % 00531 AVL---
+200405045 Centre, Stäreplaz /   02010  02010                % 00531 AVL---
+200403022 Luxembourg, Square N  02012  02012                % 00531 AVL---
+200403002 Belair, Archiducs     02013  02013                % 00531 AVL---
+200403001 Belair, Amsterdam     02013  02013                % 00531 AVL---
+200403010 Belair, Kierch        02014  02014                % 00531 AVL---
+200403014 Belair, Place de Liè  02015  02015                % 00531 AVL---
+200420001 Merl, Athénée         02016  02016                % 00531 AVL---
+200420004 Merl, Conservatoire   02017  02017                % 00531 AVL---
+200420009 Merl, Marcel Cahen    02018  02018                % 00531 AVL---
+200420002 Merl, Barrière        02019  02019                % 00531 AVL---
+200420015 Merl, St. Gengoul     02020  02020                % 00531 AVL---
+200420003 Merl, Celtes          02020                       % 00531 AVL---
+*Z 00532 AVL---       001 870                               % 00532 AVL---
+*L 12       200409010 200420003  00606  00632               % 00532 AVL---
+*A BE 200409010 200420003 000001  00606  00632              % 00532 AVL---
+*R 2 200420003 200409010 200420003  00606  00632            % 00532 AVL---
+*G AVS 200409010 200420003  00606  00632                    % 00532 AVL---
+*A VE 200409010 200420003 000001  00606  00632              % 00532 AVL---
+200409010 Dommeldange, Parc de         00606                % 00532 AVL---
+200409009 Dommeldange, Jean En  00608  00608                % 00532 AVL---
+200409011 Dommeldange, Van der  00608  00608                % 00532 AVL---
+200426004 Weimerskirch, Bieche  00610  00610                % 00532 AVL---
+200426011 Weimerskirch, Tommys  00611  00611                % 00532 AVL---
+200426006 Weimerskirch, Knupp   00612  00612                % 00532 AVL---
+200426007 Weimerskirch, Laval'  00613  00613                % 00532 AVL---
+200410003 Eich, Eecher Plaz     00614  00614                % 00532 AVL---
+200410005 Eich, Octroi          00615  00615                % 00532 AVL---
+200419013 Limpertsberg, Crispi  00616  00616                % 00532 AVL---
+200405005 Centre, Badanstalt    00618  00618                % 00532 AVL---
+200405029 Luxembourg/Centre, R  00620  00620                % 00532 AVL---
+200405045 Centre, Stäreplaz /   00622  00622                % 00532 AVL---
+200403022 Luxembourg, Square N  00624  00624                % 00532 AVL---
+200403002 Belair, Archiducs     00625  00625                % 00532 AVL---
+200403001 Belair, Amsterdam     00625  00625                % 00532 AVL---
+200403010 Belair, Kierch        00626  00626                % 00532 AVL---
+200403014 Belair, Place de Liè  00627  00627                % 00532 AVL---
+200420001 Merl, Athénée         00628  00628                % 00532 AVL---
+200420004 Merl, Conservatoire   00629  00629                % 00532 AVL---
+200420009 Merl, Marcel Cahen    00630  00630                % 00532 AVL---
+200420002 Merl, Barrière        00631  00631                % 00532 AVL---
+200420015 Merl, St. Gengoul     00632  00632                % 00532 AVL---
+200420003 Merl, Celtes          00632                       % 00532 AVL---
+*Z 00533 AVL---       001 030                               % 00533 AVL---
+*L 12       200409010 200420003  02106  02132               % 00533 AVL---
+*A BE 200409010 200420003 000001  02106  02132              % 00533 AVL---
+*R 2 200420003 200409010 200420003  02106  02132            % 00533 AVL---
+*G AVS 200409010 200420003  02106  02132                    % 00533 AVL---
+*A VE 200409010 200420003 000001  02106  02132              % 00533 AVL---
+200409010 Dommeldange, Parc de         02106                % 00533 AVL---
+200409009 Dommeldange, Jean En  02108  02108                % 00533 AVL---
+200409011 Dommeldange, Van der  02108  02108                % 00533 AVL---
+200426004 Weimerskirch, Bieche  02110  02110                % 00533 AVL---
+200426011 Weimerskirch, Tommys  02111  02111                % 00533 AVL---
+200426006 Weimerskirch, Knupp   02112  02112                % 00533 AVL---
+200426007 Weimerskirch, Laval'  02113  02113                % 00533 AVL---
+200410003 Eich, Eecher Plaz     02114  02114                % 00533 AVL---
+200410005 Eich, Octroi          02115  02115                % 00533 AVL---
+200419013 Limpertsberg, Crispi  02116  02116                % 00533 AVL---
+200405005 Centre, Badanstalt    02118  02118                % 00533 AVL---
+200405029 Luxembourg/Centre, R  02120  02120                % 00533 AVL---
+200405045 Centre, Stäreplaz /   02122  02122                % 00533 AVL---
+200403022 Luxembourg, Square N  02124  02124                % 00533 AVL---
+200403002 Belair, Archiducs     02125  02125                % 00533 AVL---
+200403001 Belair, Amsterdam     02125  02125                % 00533 AVL---
+200403010 Belair, Kierch        02126  02126                % 00533 AVL---
+200403014 Belair, Place de Liè  02127  02127                % 00533 AVL---
+200420001 Merl, Athénée         02128  02128                % 00533 AVL---
+200420004 Merl, Conservatoire   02129  02129                % 00533 AVL---
+200420009 Merl, Marcel Cahen    02130  02130                % 00533 AVL---
+200420002 Merl, Barrière        02131  02131                % 00533 AVL---
+200420015 Merl, St. Gengoul     02132  02132                % 00533 AVL---
+200420003 Merl, Celtes          02132                       % 00533 AVL---
+*Z 00534 AVL---       001 053                               % 00534 AVL---
+*L 12       200409010 200420003  00536  00602               % 00534 AVL---
+*A BE 200409010 200420003 000002  00536  00602              % 00534 AVL---
+*R 2 200420003 200409010 200420003  00536  00602            % 00534 AVL---
+*G AVS 200409010 200420003  00536  00602                    % 00534 AVL---
+*A VE 200409010 200420003 000002  00536  00602              % 00534 AVL---
+200409010 Dommeldange, Parc de         00536                % 00534 AVL---
+200409009 Dommeldange, Jean En  00538  00538                % 00534 AVL---
+200409011 Dommeldange, Van der  00538  00538                % 00534 AVL---
+200426004 Weimerskirch, Bieche  00540  00540                % 00534 AVL---
+200426011 Weimerskirch, Tommys  00541  00541                % 00534 AVL---
+200426006 Weimerskirch, Knupp   00542  00542                % 00534 AVL---
+200426007 Weimerskirch, Laval'  00543  00543                % 00534 AVL---
+200410003 Eich, Eecher Plaz     00544  00544                % 00534 AVL---
+200410005 Eich, Octroi          00545  00545                % 00534 AVL---
+200419013 Limpertsberg, Crispi  00546  00546                % 00534 AVL---
+200405005 Centre, Badanstalt    00548  00548                % 00534 AVL---
+200405029 Luxembourg/Centre, R  00550  00550                % 00534 AVL---
+200405045 Centre, Stäreplaz /   00552  00552                % 00534 AVL---
+200403022 Luxembourg, Square N  00554  00554                % 00534 AVL---
+200403002 Belair, Archiducs     00555  00555                % 00534 AVL---
+200403001 Belair, Amsterdam     00555  00555                % 00534 AVL---
+200403010 Belair, Kierch        00556  00556                % 00534 AVL---
+200403014 Belair, Place de Liè  00557  00557                % 00534 AVL---
+200420001 Merl, Athénée         00558  00558                % 00534 AVL---
+200420004 Merl, Conservatoire   00559  00559                % 00534 AVL---
+200420009 Merl, Marcel Cahen    00600  00600                % 00534 AVL---
+200420002 Merl, Barrière        00601  00601                % 00534 AVL---
+200420015 Merl, St. Gengoul     00602  00602                % 00534 AVL---
+200420003 Merl, Celtes          00602                       % 00534 AVL---
+*Z 00535 AVL---       001 020                               % 00535 AVL---
+*L 12       200409010 200420003  01959  02025               % 00535 AVL---
+*A BE 200409010 200420003 000002  01959  02025              % 00535 AVL---
+*R 2 200420003 200409010 200420003  01959  02025            % 00535 AVL---
+*G AVS 200409010 200420003  01959  02025                    % 00535 AVL---
+*A VE 200409010 200420003 000002  01959  02025              % 00535 AVL---
+200409010 Dommeldange, Parc de         01959                % 00535 AVL---
+200409009 Dommeldange, Jean En  02001  02001                % 00535 AVL---
+200409011 Dommeldange, Van der  02001  02001                % 00535 AVL---
+200426004 Weimerskirch, Bieche  02003  02003                % 00535 AVL---
+200426011 Weimerskirch, Tommys  02004  02004                % 00535 AVL---
+200426006 Weimerskirch, Knupp   02005  02005                % 00535 AVL---
+200426007 Weimerskirch, Laval'  02006  02006                % 00535 AVL---
+200410003 Eich, Eecher Plaz     02007  02007                % 00535 AVL---
+200410005 Eich, Octroi          02008  02008                % 00535 AVL---
+200419013 Limpertsberg, Crispi  02009  02009                % 00535 AVL---
+200405005 Centre, Badanstalt    02011  02011                % 00535 AVL---
+200405029 Luxembourg/Centre, R  02013  02013                % 00535 AVL---
+200405045 Centre, Stäreplaz /   02015  02015                % 00535 AVL---
+200403022 Luxembourg, Square N  02017  02017                % 00535 AVL---
+200403002 Belair, Archiducs     02018  02018                % 00535 AVL---
+200403001 Belair, Amsterdam     02018  02018                % 00535 AVL---
+200403010 Belair, Kierch        02019  02019                % 00535 AVL---
+200403014 Belair, Place de Liè  02020  02020                % 00535 AVL---
+200420001 Merl, Athénée         02021  02021                % 00535 AVL---
+200420004 Merl, Conservatoire   02022  02022                % 00535 AVL---
+200420009 Merl, Marcel Cahen    02023  02023                % 00535 AVL---
+200420002 Merl, Barrière        02024  02024                % 00535 AVL---
+200420015 Merl, St. Gengoul     02025  02025                % 00535 AVL---
+200420003 Merl, Celtes          02025                       % 00535 AVL---
+*Z 00018 AVL---                                             % 00018 AVL---
+*L 12       200409010 200410003  00605  00613               % 00018 AVL---
+*A BE 200409010 200410003 000003  00605  00613              % 00018 AVL---
+*R 2 200410003 200409010 200410003  00605  00613            % 00018 AVL---
+*G AVS 200409010 200410003  00605  00613                    % 00018 AVL---
+*A VE 200409010 200410003 000003  00605  00613              % 00018 AVL---
+200409010 Dommeldange, Parc de         00605                % 00018 AVL---
+200409009 Dommeldange, Jean En  00606  00606                % 00018 AVL---
+200409011 Dommeldange, Van der  00607  00607                % 00018 AVL---
+200426004 Weimerskirch, Bieche  00609  00609                % 00018 AVL---
+200426011 Weimerskirch, Tommys  00610  00610                % 00018 AVL---
+200426006 Weimerskirch, Knupp   00611  00611                % 00018 AVL---
+200426007 Weimerskirch, Laval'  00612  00612                % 00018 AVL---
+200410003 Eich, Eecher Plaz     00613                       % 00018 AVL---
+*Z 00030 AVL---                                             % 00030 AVL---
+*L 12       200409010 200410003  00635  00643               % 00030 AVL---
+*A BE 200409010 200410003 000003  00635  00643              % 00030 AVL---
+*R 2 200410003 200409010 200410003  00635  00643            % 00030 AVL---
+*G AVS 200409010 200410003  00635  00643                    % 00030 AVL---
+*A VE 200409010 200410003 000003  00635  00643              % 00030 AVL---
+200409010 Dommeldange, Parc de         00635                % 00030 AVL---
+200409009 Dommeldange, Jean En  00636  00636                % 00030 AVL---
+200409011 Dommeldange, Van der  00637  00637                % 00030 AVL---
+200426004 Weimerskirch, Bieche  00639  00639                % 00030 AVL---
+200426011 Weimerskirch, Tommys  00640  00640                % 00030 AVL---
+200426006 Weimerskirch, Knupp   00641  00641                % 00030 AVL---
+200426007 Weimerskirch, Laval'  00642  00642                % 00030 AVL---
+200410003 Eich, Eecher Plaz     00643                       % 00030 AVL---
+*Z 00046 AVL---                                             % 00046 AVL---
+*L 12       200409010 200410003  00705  00713               % 00046 AVL---
+*A BE 200409010 200410003 000003  00705  00713              % 00046 AVL---
+*R 2 200410003 200409010 200410003  00705  00713            % 00046 AVL---
+*G AVS 200409010 200410003  00705  00713                    % 00046 AVL---
+*A VE 200409010 200410003 000003  00705  00713              % 00046 AVL---
+200409010 Dommeldange, Parc de         00705                % 00046 AVL---
+200409009 Dommeldange, Jean En  00706  00706                % 00046 AVL---
+200409011 Dommeldange, Van der  00707  00707                % 00046 AVL---
+200426004 Weimerskirch, Bieche  00709  00709                % 00046 AVL---
+200426011 Weimerskirch, Tommys  00710  00710                % 00046 AVL---
+200426006 Weimerskirch, Knupp   00711  00711                % 00046 AVL---
+200426007 Weimerskirch, Laval'  00712  00712                % 00046 AVL---
+200410003 Eich, Eecher Plaz     00713                       % 00046 AVL---
+*Z 00064 AVL---                                             % 00064 AVL---
+*L 12       200409010 200410003  00735  00743               % 00064 AVL---
+*A BE 200409010 200410003 000003  00735  00743              % 00064 AVL---
+*R 2 200410003 200409010 200410003  00735  00743            % 00064 AVL---
+*G AVS 200409010 200410003  00735  00743                    % 00064 AVL---
+*A VE 200409010 200410003 000003  00735  00743              % 00064 AVL---
+200409010 Dommeldange, Parc de         00735                % 00064 AVL---
+200409009 Dommeldange, Jean En  00736  00736                % 00064 AVL---
+200409011 Dommeldange, Van der  00737  00737                % 00064 AVL---
+200426004 Weimerskirch, Bieche  00739  00739                % 00064 AVL---
+200426011 Weimerskirch, Tommys  00740  00740                % 00064 AVL---
+200426006 Weimerskirch, Knupp   00741  00741                % 00064 AVL---
+200426007 Weimerskirch, Laval'  00742  00742                % 00064 AVL---
+200410003 Eich, Eecher Plaz     00743                       % 00064 AVL---
+*Z 00080 AVL---                                             % 00080 AVL---
+*L 12       200409010 200410003  00805  00813               % 00080 AVL---
+*A BE 200409010 200410003 000003  00805  00813              % 00080 AVL---
+*R 2 200410003 200409010 200410003  00805  00813            % 00080 AVL---
+*G AVS 200409010 200410003  00805  00813                    % 00080 AVL---
+*A VE 200409010 200410003 000003  00805  00813              % 00080 AVL---
+200409010 Dommeldange, Parc de         00805                % 00080 AVL---
+200409009 Dommeldange, Jean En  00806  00806                % 00080 AVL---
+200409011 Dommeldange, Van der  00807  00807                % 00080 AVL---
+200426004 Weimerskirch, Bieche  00809  00809                % 00080 AVL---
+200426011 Weimerskirch, Tommys  00810  00810                % 00080 AVL---
+200426006 Weimerskirch, Knupp   00811  00811                % 00080 AVL---
+200426007 Weimerskirch, Laval'  00812  00812                % 00080 AVL---
+200410003 Eich, Eecher Plaz     00813                       % 00080 AVL---
+*Z 00098 AVL---                                             % 00098 AVL---
+*L 12       200409010 200410003  00835  00843               % 00098 AVL---
+*A BE 200409010 200410003 000003  00835  00843              % 00098 AVL---
+*R 2 200410003 200409010 200410003  00835  00843            % 00098 AVL---
+*G AVS 200409010 200410003  00835  00843                    % 00098 AVL---
+*A VE 200409010 200410003 000003  00835  00843              % 00098 AVL---
+200409010 Dommeldange, Parc de         00835                % 00098 AVL---
+200409009 Dommeldange, Jean En  00836  00836                % 00098 AVL---
+200409011 Dommeldange, Van der  00837  00837                % 00098 AVL---
+200426004 Weimerskirch, Bieche  00839  00839                % 00098 AVL---
+200426011 Weimerskirch, Tommys  00840  00840                % 00098 AVL---
+200426006 Weimerskirch, Knupp   00841  00841                % 00098 AVL---
+200426007 Weimerskirch, Laval'  00842  00842                % 00098 AVL---
+200410003 Eich, Eecher Plaz     00843                       % 00098 AVL---
+*Z 00410 AVL---                                             % 00410 AVL---
+*L 12       200409010 200410003  02105  02113               % 00410 AVL---
+*A BE 200409010 200410003 000003  02105  02113              % 00410 AVL---
+*R 2 200410003 200409010 200410003  02105  02113            % 00410 AVL---
+*G AVS 200409010 200410003  02105  02113                    % 00410 AVL---
+*A VE 200409010 200410003 000003  02105  02113              % 00410 AVL---
+200409010 Dommeldange, Parc de         02105                % 00410 AVL---
+200409009 Dommeldange, Jean En  02106  02106                % 00410 AVL---
+200409011 Dommeldange, Van der  02107  02107                % 00410 AVL---
+200426004 Weimerskirch, Bieche  02109  02109                % 00410 AVL---
+200426011 Weimerskirch, Tommys  02110  02110                % 00410 AVL---
+200426006 Weimerskirch, Knupp   02111  02111                % 00410 AVL---
+200426007 Weimerskirch, Laval'  02112  02112                % 00410 AVL---
+200410003 Eich, Eecher Plaz     02113                       % 00410 AVL---
+*Z 00416 AVL---                                             % 00416 AVL---
+*L 12       200409010 200410003  02135  02143               % 00416 AVL---
+*A BE 200409010 200410003 000003  02135  02143              % 00416 AVL---
+*R 2 200410003 200409010 200410003  02135  02143            % 00416 AVL---
+*G AVS 200409010 200410003  02135  02143                    % 00416 AVL---
+*A VE 200409010 200410003 000003  02135  02143              % 00416 AVL---
+200409010 Dommeldange, Parc de         02135                % 00416 AVL---
+200409009 Dommeldange, Jean En  02136  02136                % 00416 AVL---
+200409011 Dommeldange, Van der  02137  02137                % 00416 AVL---
+200426004 Weimerskirch, Bieche  02139  02139                % 00416 AVL---
+200426011 Weimerskirch, Tommys  02140  02140                % 00416 AVL---
+200426006 Weimerskirch, Knupp   02141  02141                % 00416 AVL---
+200426007 Weimerskirch, Laval'  02142  02142                % 00416 AVL---
+200410003 Eich, Eecher Plaz     02143                       % 00416 AVL---
+*Z 00001 AVL---                                             % 00001 AVL---
+*L 12       200409010 200410003  00505  00513               % 00001 AVL---
+*A BE 200409010 200410003 000000  00505  00513              % 00001 AVL---
+*R 2 200410003 200409010 200410003  00505  00513            % 00001 AVL---
+*G AVS 200409010 200410003  00505  00513                    % 00001 AVL---
+*A VE 200409010 200410003 000000  00505  00513              % 00001 AVL---
+200409010 Dommeldange, Parc de         00505                % 00001 AVL---
+200409009 Dommeldange, Jean En  00506  00506                % 00001 AVL---
+200409011 Dommeldange, Van der  00507  00507                % 00001 AVL---
+200426004 Weimerskirch, Bieche  00509  00509                % 00001 AVL---
+200426011 Weimerskirch, Tommys  00510  00510                % 00001 AVL---
+200426006 Weimerskirch, Knupp   00511  00511                % 00001 AVL---
+200426007 Weimerskirch, Laval'  00512  00512                % 00001 AVL---
+200410003 Eich, Eecher Plaz     00513                       % 00001 AVL---
+*Z 00420 AVL---                                             % 00420 AVL---
+*L 12       200409010 200410003  02205  02213               % 00420 AVL---
+*A BE 200409010 200410003 000000  02205  02213              % 00420 AVL---
+*R 2 200410003 200409010 200410003  02205  02213            % 00420 AVL---
+*G AVS 200409010 200410003  02205  02213                    % 00420 AVL---
+*A VE 200409010 200410003 000000  02205  02213              % 00420 AVL---
+200409010 Dommeldange, Parc de         02205                % 00420 AVL---
+200409009 Dommeldange, Jean En  02206  02206                % 00420 AVL---
+200409011 Dommeldange, Van der  02207  02207                % 00420 AVL---
+200426004 Weimerskirch, Bieche  02209  02209                % 00420 AVL---
+200426011 Weimerskirch, Tommys  02210  02210                % 00420 AVL---
+200426006 Weimerskirch, Knupp   02211  02211                % 00420 AVL---
+200426007 Weimerskirch, Laval'  02212  02212                % 00420 AVL---
+200410003 Eich, Eecher Plaz     02213                       % 00420 AVL---
+*Z 00425 AVL---                                             % 00425 AVL---
+*L 12       200409010 200410003  02235  02243               % 00425 AVL---
+*A BE 200409010 200410003 000000  02235  02243              % 00425 AVL---
+*R 2 200410003 200409010 200410003  02235  02243            % 00425 AVL---
+*G AVS 200409010 200410003  02235  02243                    % 00425 AVL---
+*A VE 200409010 200410003 000000  02235  02243              % 00425 AVL---
+200409010 Dommeldange, Parc de         02235                % 00425 AVL---
+200409009 Dommeldange, Jean En  02236  02236                % 00425 AVL---
+200409011 Dommeldange, Van der  02237  02237                % 00425 AVL---
+200426004 Weimerskirch, Bieche  02239  02239                % 00425 AVL---
+200426011 Weimerskirch, Tommys  02240  02240                % 00425 AVL---
+200426006 Weimerskirch, Knupp   02241  02241                % 00425 AVL---
+200426007 Weimerskirch, Laval'  02242  02242                % 00425 AVL---
+200410003 Eich, Eecher Plaz     02243                       % 00425 AVL---
+*Z 00430 AVL---                                             % 00430 AVL---
+*L 12       200409010 200410003  02305  02313               % 00430 AVL---
+*A BE 200409010 200410003 000000  02305  02313              % 00430 AVL---
+*R 2 200410003 200409010 200410003  02305  02313            % 00430 AVL---
+*G AVS 200409010 200410003  02305  02313                    % 00430 AVL---
+*A VE 200409010 200410003 000000  02305  02313              % 00430 AVL---
+200409010 Dommeldange, Parc de         02305                % 00430 AVL---
+200409009 Dommeldange, Jean En  02306  02306                % 00430 AVL---
+200409011 Dommeldange, Van der  02307  02307                % 00430 AVL---
+200426004 Weimerskirch, Bieche  02309  02309                % 00430 AVL---
+200426011 Weimerskirch, Tommys  02310  02310                % 00430 AVL---
+200426006 Weimerskirch, Knupp   02311  02311                % 00430 AVL---
+200426007 Weimerskirch, Laval'  02312  02312                % 00430 AVL---
+200410003 Eich, Eecher Plaz     02313                       % 00430 AVL---
+*Z 00435 AVL---                                             % 00435 AVL---
+*L 12       200409010 200410003  02335  02343               % 00435 AVL---
+*A BE 200409010 200410003 000000  02335  02343              % 00435 AVL---
+*R 2 200410003 200409010 200410003  02335  02343            % 00435 AVL---
+*G AVS 200409010 200410003  02335  02343                    % 00435 AVL---
+*A VE 200409010 200410003 000000  02335  02343              % 00435 AVL---
+200409010 Dommeldange, Parc de         02335                % 00435 AVL---
+200409009 Dommeldange, Jean En  02336  02336                % 00435 AVL---
+200409011 Dommeldange, Van der  02337  02337                % 00435 AVL---
+200426004 Weimerskirch, Bieche  02339  02339                % 00435 AVL---
+200426011 Weimerskirch, Tommys  02340  02340                % 00435 AVL---
+200426006 Weimerskirch, Knupp   02341  02341                % 00435 AVL---
+200426007 Weimerskirch, Laval'  02342  02342                % 00435 AVL---
+200410003 Eich, Eecher Plaz     02343                       % 00435 AVL---
+*Z 00007 AVL---                                             % 00007 AVL---
+*L 12       200409010 200410003  00535  00543               % 00007 AVL---
+*A BE 200409010 200410003 000004  00535  00543              % 00007 AVL---
+*R 2 200410003 200409010 200410003  00535  00543            % 00007 AVL---
+*G AVS 200409010 200410003  00535  00543                    % 00007 AVL---
+*A VE 200409010 200410003 000004  00535  00543              % 00007 AVL---
+200409010 Dommeldange, Parc de         00535                % 00007 AVL---
+200409009 Dommeldange, Jean En  00536  00536                % 00007 AVL---
+200409011 Dommeldange, Van der  00537  00537                % 00007 AVL---
+200426004 Weimerskirch, Bieche  00539  00539                % 00007 AVL---
+200426011 Weimerskirch, Tommys  00540  00540                % 00007 AVL---
+200426006 Weimerskirch, Knupp   00541  00541                % 00007 AVL---
+200426007 Weimerskirch, Laval'  00542  00542                % 00007 AVL---
+200410003 Eich, Eecher Plaz     00543                       % 00007 AVL---

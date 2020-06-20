@@ -1,0 +1,229 @@
+*F 03 2
+*Z 01099 AVL---       001 015                               % 01099 AVL---
+*L 24       200405008 200415009  02038  02047               % 01099 AVL---
+*A BE 200405008 200415009 000002  02038  02047              % 01099 AVL---
+*R 1 200415009 200405008 200415009  02038  02047            % 01099 AVL---
+*G AVS 200405008 200415009  02038  02047                    % 01099 AVL---
+*A VE 200405008 200415009 000002  02038  02047              % 01099 AVL---
+200405008 Luxembourg, Centre H         02038                % 01099 AVL---
+200403009 Belair, Kannerklinik  02040  02040                % 01099 AVL---
+200403003 Belair, Aubépines     02041  02041                % 01099 AVL---
+200403019 Belair, Val Ste Croi  02041  02041                % 01099 AVL---
+200420016 Merl, Charlemagne     02043  02043                % 01099 AVL---
+200420017 Merl, Charles Quint   02043  02043                % 01099 AVL---
+200420009 Merl, Marcel Cahen    02045  02045                % 01099 AVL---
+200415009 Hollerich, P+R Bouil  02047                       % 01099 AVL---
+*Z 01100 AVL---       002 015                               % 01100 AVL---
+*L 24       200405008 200304009  00603  00626               % 01100 AVL---
+*A BE 200405008 200304009 000002  00603  00626              % 01100 AVL---
+*R 1 200304009 200405008 200304009  00603  00626            % 01100 AVL---
+*G AVS 200405008 200304009  00603  00626                    % 01100 AVL---
+*A VE 200405008 200304009 000002  00603  00626              % 01100 AVL---
+200405008 Luxembourg, Centre H         00603                % 01100 AVL---
+200403009 Belair, Kannerklinik  00605  00605                % 01100 AVL---
+200403003 Belair, Aubépines     00606  00606                % 01100 AVL---
+200403019 Belair, Val Ste Croi  00607  00607                % 01100 AVL---
+200420016 Merl, Charlemagne     00608  00608                % 01100 AVL---
+200420017 Merl, Charles Quint   00608  00608                % 01100 AVL---
+200420009 Merl, Marcel Cahen    00610  00610                % 01100 AVL---
+200415009 Hollerich, P+R Bouil  00612  00612                % 01100 AVL---
+200415017 Hollerich, P+R Bouil  00613  00613                % 01100 AVL---
+200415002 Hollerich, Assurance  00615  00615                % 01100 AVL---
+200412009 Gasperich, Gaasperec  00616  00616                % 01100 AVL---
+200412028 Gasperich, Stengege   00617  00617                % 01100 AVL---
+200412022 Gasperich, Jean Pire  00619  00619                % 01100 AVL---
+200412004 Gasperich, Émile Bia  00620  00620                % 01100 AVL---
+200412023 Gasperich, Leonardo   00621  00621                % 01100 AVL---
+200412021 Gasperich, Gerhard M  00622  00622                % 01100 AVL---
+200304017 Howald, P&R Howald Q  00623  00623                % 01100 AVL---
+200304011 Howald, Ronneboesch   00624  00624                % 01100 AVL---
+200304009 Howald, Peternelchen  00626                       % 01100 AVL---
+*Z 01101 AVL---       002 015                               % 01101 AVL---
+*L 24       200405008 200304009  01953  02016               % 01101 AVL---
+*A BE 200405008 200304009 000002  01953  02016              % 01101 AVL---
+*R 1 200304009 200405008 200304009  01953  02016            % 01101 AVL---
+*G AVS 200405008 200304009  01953  02016                    % 01101 AVL---
+*A VE 200405008 200304009 000002  01953  02016              % 01101 AVL---
+200405008 Luxembourg, Centre H         01953                % 01101 AVL---
+200403009 Belair, Kannerklinik  01955  01955                % 01101 AVL---
+200403003 Belair, Aubépines     01956  01956                % 01101 AVL---
+200403019 Belair, Val Ste Croi  01957  01957                % 01101 AVL---
+200420016 Merl, Charlemagne     01958  01958                % 01101 AVL---
+200420017 Merl, Charles Quint   01958  01958                % 01101 AVL---
+200420009 Merl, Marcel Cahen    02000  02000                % 01101 AVL---
+200415009 Hollerich, P+R Bouil  02002  02002                % 01101 AVL---
+200415017 Hollerich, P+R Bouil  02003  02003                % 01101 AVL---
+200415002 Hollerich, Assurance  02005  02005                % 01101 AVL---
+200412009 Gasperich, Gaasperec  02006  02006                % 01101 AVL---
+200412028 Gasperich, Stengege   02007  02007                % 01101 AVL---
+200412022 Gasperich, Jean Pire  02009  02009                % 01101 AVL---
+200412004 Gasperich, Émile Bia  02010  02010                % 01101 AVL---
+200412023 Gasperich, Leonardo   02011  02011                % 01101 AVL---
+200412021 Gasperich, Gerhard M  02012  02012                % 01101 AVL---
+200304017 Howald, P&R Howald Q  02013  02013                % 01101 AVL---
+200304011 Howald, Ronneboesch   02014  02014                % 01101 AVL---
+200304009 Howald, Peternelchen  02016                       % 01101 AVL---
+*Z 01102 AVL---                                             % 01102 AVL---
+*L 24       200405008 200304009  00646  00715               % 01102 AVL---
+*A BE 200405008 200304009 000002  00646  00715              % 01102 AVL---
+*R 1 200304009 200405008 200304009  00646  00715            % 01102 AVL---
+*G AVS 200405008 200304009  00646  00715                    % 01102 AVL---
+*A VE 200405008 200304009 000002  00646  00715              % 01102 AVL---
+200405008 Luxembourg, Centre H         00646                % 01102 AVL---
+200403009 Belair, Kannerklinik  00648  00648                % 01102 AVL---
+200403003 Belair, Aubépines     00650  00650                % 01102 AVL---
+200403019 Belair, Val Ste Croi  00651  00651                % 01102 AVL---
+200420016 Merl, Charlemagne     00652  00652                % 01102 AVL---
+200420017 Merl, Charles Quint   00653  00653                % 01102 AVL---
+200420009 Merl, Marcel Cahen    00655  00655                % 01102 AVL---
+200415009 Hollerich, P+R Bouil  00658  00658                % 01102 AVL---
+200415017 Hollerich, P+R Bouil  00658  00658                % 01102 AVL---
+200415002 Hollerich, Assurance  00701  00701                % 01102 AVL---
+200412009 Gasperich, Gaasperec  00702  00702                % 01102 AVL---
+200412028 Gasperich, Stengege   00704  00704                % 01102 AVL---
+200412022 Gasperich, Jean Pire  00706  00706                % 01102 AVL---
+200412004 Gasperich, Émile Bia  00707  00707                % 01102 AVL---
+200412023 Gasperich, Leonardo   00709  00709                % 01102 AVL---
+200412021 Gasperich, Gerhard M  00710  00710                % 01102 AVL---
+200304017 Howald, P&R Howald Q  00711  00711                % 01102 AVL---
+200304011 Howald, Ronneboesch   00712  00712                % 01102 AVL---
+200304009 Howald, Peternelchen  00715                       % 01102 AVL---
+*Z 01103 AVL---       050 015                               % 01103 AVL---
+*L 24       200405008 200304009  00702  00732               % 01103 AVL---
+*A BE 200405008 200304009 000002  00702  00732              % 01103 AVL---
+*R 1 200304009 200405008 200304009  00702  00732            % 01103 AVL---
+*G AVS 200405008 200304009  00702  00732                    % 01103 AVL---
+*A VE 200405008 200304009 000002  00702  00732              % 01103 AVL---
+200405008 Luxembourg, Centre H         00702                % 01103 AVL---
+200403009 Belair, Kannerklinik  00705  00705                % 01103 AVL---
+200403003 Belair, Aubépines     00706  00706                % 01103 AVL---
+200403019 Belair, Val Ste Croi  00707  00707                % 01103 AVL---
+200420016 Merl, Charlemagne     00708  00708                % 01103 AVL---
+200420017 Merl, Charles Quint   00709  00709                % 01103 AVL---
+200420009 Merl, Marcel Cahen    00711  00711                % 01103 AVL---
+200415009 Hollerich, P+R Bouil  00714  00714                % 01103 AVL---
+200415017 Hollerich, P+R Bouil  00715  00715                % 01103 AVL---
+200415002 Hollerich, Assurance  00717  00717                % 01103 AVL---
+200412009 Gasperich, Gaasperec  00719  00719                % 01103 AVL---
+200412028 Gasperich, Stengege   00720  00720                % 01103 AVL---
+200412022 Gasperich, Jean Pire  00722  00722                % 01103 AVL---
+200412004 Gasperich, Émile Bia  00723  00723                % 01103 AVL---
+200412023 Gasperich, Leonardo   00725  00725                % 01103 AVL---
+200412021 Gasperich, Gerhard M  00726  00726                % 01103 AVL---
+200304017 Howald, P&R Howald Q  00727  00727                % 01103 AVL---
+200304011 Howald, Ronneboesch   00728  00728                % 01103 AVL---
+200304009 Howald, Peternelchen  00732                       % 01103 AVL---
+*Z 01104 AVL---                                             % 01104 AVL---
+*L 24       200304009 200405008  00654  00721               % 01104 AVL---
+*A BE 200304009 200405008 000002  00654  00721              % 01104 AVL---
+*R 2 200405008 200304009 200405008  00654  00721            % 01104 AVL---
+*G AVS 200304009 200405008  00654  00721                    % 01104 AVL---
+*A VE 200304009 200405008 000002  00654  00721              % 01104 AVL---
+200304009 Howald, Peternelchen         00654                % 01104 AVL---
+200304011 Howald, Ronneboesch   00656  00656                % 01104 AVL---
+200304012 Howald, P&R Howald Q  00658  00658                % 01104 AVL---
+200412021 Gasperich, Gerhard M  00659  00659                % 01104 AVL---
+200412024 Gasperich, Hildegard  00700  00700                % 01104 AVL---
+200412019 Gasperich, Stumper    00701  00701                % 01104 AVL---
+200412022 Gasperich, Jean Pire  00702  00702                % 01104 AVL---
+200412028 Gasperich, Stengege   00704  00704                % 01104 AVL---
+200412009 Gasperich, Gaasperec  00706  00706                % 01104 AVL---
+200415002 Hollerich, Assurance  00707  00707                % 01104 AVL---
+200415017 Hollerich, P+R Bouil  00711  00711                % 01104 AVL---
+200415009 Hollerich, P+R Bouil  00712  00712                % 01104 AVL---
+200420009 Merl, Marcel Cahen    00714  00714                % 01104 AVL---
+200420017 Merl, Charles Quint   00716  00716                % 01104 AVL---
+200420016 Merl, Charlemagne     00717  00717                % 01104 AVL---
+200403019 Belair, Val Ste Croi  00718  00718                % 01104 AVL---
+200403003 Belair, Aubépines     00719  00719                % 01104 AVL---
+200403009 Belair, Kannerklinik  00720  00720                % 01104 AVL---
+200405008 Luxembourg, Centre H  00721                       % 01104 AVL---
+*Z 01105 AVL---       050 015                               % 01105 AVL---
+*L 24       200304009 200405008  00705  00733               % 01105 AVL---
+*A BE 200304009 200405008 000002  00705  00733              % 01105 AVL---
+*R 2 200405008 200304009 200405008  00705  00733            % 01105 AVL---
+*G AVS 200304009 200405008  00705  00733                    % 01105 AVL---
+*A VE 200304009 200405008 000002  00705  00733              % 01105 AVL---
+200304009 Howald, Peternelchen         00705                % 01105 AVL---
+200304011 Howald, Ronneboesch   00708  00708                % 01105 AVL---
+200304012 Howald, P&R Howald Q  00710  00710                % 01105 AVL---
+200412021 Gasperich, Gerhard M  00711  00711                % 01105 AVL---
+200412024 Gasperich, Hildegard  00712  00712                % 01105 AVL---
+200412019 Gasperich, Stumper    00713  00713                % 01105 AVL---
+200412022 Gasperich, Jean Pire  00714  00714                % 01105 AVL---
+200412028 Gasperich, Stengege   00716  00716                % 01105 AVL---
+200412009 Gasperich, Gaasperec  00717  00717                % 01105 AVL---
+200415002 Hollerich, Assurance  00719  00719                % 01105 AVL---
+200415017 Hollerich, P+R Bouil  00723  00723                % 01105 AVL---
+200415009 Hollerich, P+R Bouil  00723  00723                % 01105 AVL---
+200420009 Merl, Marcel Cahen    00726  00726                % 01105 AVL---
+200420017 Merl, Charles Quint   00728  00728                % 01105 AVL---
+200420016 Merl, Charlemagne     00728  00728                % 01105 AVL---
+200403019 Belair, Val Ste Croi  00730  00730                % 01105 AVL---
+200403003 Belair, Aubépines     00730  00730                % 01105 AVL---
+200403009 Belair, Kannerklinik  00732  00732                % 01105 AVL---
+200405008 Luxembourg, Centre H  00733                       % 01105 AVL---
+*Z 01106 AVL---       001 015                               % 01106 AVL---
+*L 24       200304009 200405008  00627  00648               % 01106 AVL---
+*A BE 200304009 200405008 000002  00627  00648              % 01106 AVL---
+*R 2 200405008 200304009 200405008  00627  00648            % 01106 AVL---
+*G AVS 200304009 200405008  00627  00648                    % 01106 AVL---
+*A VE 200304009 200405008 000002  00627  00648              % 01106 AVL---
+200304009 Howald, Peternelchen         00627                % 01106 AVL---
+200304011 Howald, Ronneboesch   00629  00629                % 01106 AVL---
+200304012 Howald, P&R Howald Q  00630  00630                % 01106 AVL---
+200412021 Gasperich, Gerhard M  00630  00630                % 01106 AVL---
+200412024 Gasperich, Hildegard  00631  00631                % 01106 AVL---
+200412019 Gasperich, Stumper    00632  00632                % 01106 AVL---
+200412022 Gasperich, Jean Pire  00633  00633                % 01106 AVL---
+200412028 Gasperich, Stengege   00635  00635                % 01106 AVL---
+200412009 Gasperich, Gaasperec  00636  00636                % 01106 AVL---
+200415002 Hollerich, Assurance  00637  00637                % 01106 AVL---
+200415017 Hollerich, P+R Bouil  00640  00640                % 01106 AVL---
+200415009 Hollerich, P+R Bouil  00641  00641                % 01106 AVL---
+200420009 Merl, Marcel Cahen    00642  00642                % 01106 AVL---
+200420017 Merl, Charles Quint   00644  00644                % 01106 AVL---
+200420016 Merl, Charlemagne     00644  00644                % 01106 AVL---
+200403019 Belair, Val Ste Croi  00645  00645                % 01106 AVL---
+200403003 Belair, Aubépines     00646  00646                % 01106 AVL---
+200403009 Belair, Kannerklinik  00647  00647                % 01106 AVL---
+200405008 Luxembourg, Centre H  00648                       % 01106 AVL---
+*Z 01107 AVL---       002 015                               % 01107 AVL---
+*L 24       200304009 200405008  01954  02015               % 01107 AVL---
+*A BE 200304009 200405008 000002  01954  02015              % 01107 AVL---
+*R 2 200405008 200304009 200405008  01954  02015            % 01107 AVL---
+*G AVS 200304009 200405008  01954  02015                    % 01107 AVL---
+*A VE 200304009 200405008 000002  01954  02015              % 01107 AVL---
+200304009 Howald, Peternelchen         01954                % 01107 AVL---
+200304011 Howald, Ronneboesch   01956  01956                % 01107 AVL---
+200304012 Howald, P&R Howald Q  01957  01957                % 01107 AVL---
+200412021 Gasperich, Gerhard M  01957  01957                % 01107 AVL---
+200412024 Gasperich, Hildegard  01958  01958                % 01107 AVL---
+200412019 Gasperich, Stumper    01959  01959                % 01107 AVL---
+200412022 Gasperich, Jean Pire  02000  02000                % 01107 AVL---
+200412028 Gasperich, Stengege   02002  02002                % 01107 AVL---
+200412009 Gasperich, Gaasperec  02003  02003                % 01107 AVL---
+200415002 Hollerich, Assurance  02004  02004                % 01107 AVL---
+200415017 Hollerich, P+R Bouil  02007  02007                % 01107 AVL---
+200415009 Hollerich, P+R Bouil  02008  02008                % 01107 AVL---
+200420009 Merl, Marcel Cahen    02009  02009                % 01107 AVL---
+200420017 Merl, Charles Quint   02011  02011                % 01107 AVL---
+200420016 Merl, Charlemagne     02011  02011                % 01107 AVL---
+200403019 Belair, Val Ste Croi  02012  02012                % 01107 AVL---
+200403003 Belair, Aubépines     02013  02013                % 01107 AVL---
+200403009 Belair, Kannerklinik  02014  02014                % 01107 AVL---
+200405008 Luxembourg, Centre H  02015                       % 01107 AVL---
+*Z 01108 AVL---       003 015                               % 01108 AVL---
+*L 24       200415009 200405008  00542  00549               % 01108 AVL---
+*A BE 200415009 200405008 000002  00542  00549              % 01108 AVL---
+*R 2 200405008 200415009 200405008  00542  00549            % 01108 AVL---
+*G AVS 200415009 200405008  00542  00549                    % 01108 AVL---
+*A VE 200415009 200405008 000002  00542  00549              % 01108 AVL---
+200415009 Hollerich, P+R Bouil         00542                % 01108 AVL---
+200420009 Merl, Marcel Cahen    00543  00543                % 01108 AVL---
+200420017 Merl, Charles Quint   00545  00545                % 01108 AVL---
+200420016 Merl, Charlemagne     00545  00545                % 01108 AVL---
+200403019 Belair, Val Ste Croi  00546  00546                % 01108 AVL---
+200403003 Belair, Aubépines     00547  00547                % 01108 AVL---
+200403009 Belair, Kannerklinik  00548  00548                % 01108 AVL---
+200405008 Luxembourg, Centre H  00549                       % 01108 AVL---

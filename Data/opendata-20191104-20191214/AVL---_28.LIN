@@ -1,0 +1,1896 @@
+*F 03 2
+*Z 01448 AVL---                                             % 01448 AVL---
+*L 28       200405035 200101021  00728  00801               % 01448 AVL---
+*A BE 200405035 200101021 000002  00728  00801              % 01448 AVL---
+*R 1 200101021 200405035 200101021  00728  00801            % 01448 AVL---
+*G AVG 200405035 200101021  00728  00801                    % 01448 AVL---
+*A VE 200405035 200101021 000002  00728  00801              % 01448 AVL---
+200405035 Luxembourg, Gare Cen         00728                % 01448 AVL---
+200405013 Centre, F.D. Rooseve  00733  00733                % 01448 AVL---
+200405025 Luxembourg/Centre, M  00737  00737                % 01448 AVL---
+200405045 Centre, Stäreplaz /   00740  00740                % 01448 AVL---
+200403017 Belair, Service Ince  00742  00742                % 01448 AVL---
+200403018 Belair, Stade         00743  00743                % 01448 AVL---
+200403021 Belair, Wandmillen    00744  00744                % 01448 AVL---
+200901015 Strassen, Huorgarten  00747  00747                % 01448 AVL---
+200901014 Strassen, Hondseck    00748  00748                % 01448 AVL---
+200901003 Strassen, Aurélia     00749  00749                % 01448 AVL---
+200901020 Strassen, Benelux     00751  00751                % 01448 AVL---
+200901004 Strassen, Barblé      00752  00752                % 01448 AVL---
+200901017 Strassen, Kesseler    00753  00753                % 01448 AVL---
+200901016 Strassen, Geesseneck  00754  00754                % 01448 AVL---
+200901011 Strassen, Schoenacht  00754  00754                % 01448 AVL---
+200101002 Bertrange, Belle Eto  00757  00757                % 01448 AVL---
+200101009 Bertrange, Gaston Th  00800  00800                % 01448 AVL---
+200101021 Bertrange, Ecole Eur  00801                       % 01448 AVL---
+*Z 01449 AVL---       002 120                               % 01449 AVL---
+*L 28       200405035 200101002  00600  00621               % 01449 AVL---
+*A BE 200405035 200101002 000003  00600  00621              % 01449 AVL---
+*R 1 200101002 200405035 200101002  00600  00621            % 01449 AVL---
+*G AVG 200405035 200101002  00600  00621                    % 01449 AVL---
+*A VE 200405035 200101002 000003  00600  00621              % 01449 AVL---
+200405035 Luxembourg, Gare Cen         00600                % 01449 AVL---
+200405013 Centre, F.D. Rooseve  00604  00604                % 01449 AVL---
+200405025 Luxembourg/Centre, M  00607  00607                % 01449 AVL---
+200405045 Centre, Stäreplaz /   00610  00610                % 01449 AVL---
+200403017 Belair, Service Ince  00611  00611                % 01449 AVL---
+200403018 Belair, Stade         00611  00611                % 01449 AVL---
+200403021 Belair, Wandmillen    00612  00612                % 01449 AVL---
+200901015 Strassen, Huorgarten  00614  00614                % 01449 AVL---
+200901014 Strassen, Hondseck    00615  00615                % 01449 AVL---
+200901003 Strassen, Aurélia     00616  00616                % 01449 AVL---
+200901020 Strassen, Benelux     00617  00617                % 01449 AVL---
+200901004 Strassen, Barblé      00618  00618                % 01449 AVL---
+200901017 Strassen, Kesseler    00619  00619                % 01449 AVL---
+200901016 Strassen, Geesseneck  00619  00619                % 01449 AVL---
+200901011 Strassen, Schoenacht  00620  00620                % 01449 AVL---
+200101002 Bertrange, Belle Eto  00621                       % 01449 AVL---
+*Z 01450 AVL---       001 748                               % 01450 AVL---
+*L 28       200405035 200101002  00730  00751               % 01450 AVL---
+*A BE 200405035 200101002 000005  00730  00751              % 01450 AVL---
+*R 1 200101002 200405035 200101002  00730  00751            % 01450 AVL---
+*G AVG 200405035 200101002  00730  00751                    % 01450 AVL---
+*A VE 200405035 200101002 000005  00730  00751              % 01450 AVL---
+200405035 Luxembourg, Gare Cen         00730                % 01450 AVL---
+200405013 Centre, F.D. Rooseve  00734  00734                % 01450 AVL---
+200405025 Luxembourg/Centre, M  00737  00737                % 01450 AVL---
+200405045 Centre, Stäreplaz /   00740  00740                % 01450 AVL---
+200403017 Belair, Service Ince  00741  00741                % 01450 AVL---
+200403018 Belair, Stade         00741  00741                % 01450 AVL---
+200403021 Belair, Wandmillen    00742  00742                % 01450 AVL---
+200901015 Strassen, Huorgarten  00744  00744                % 01450 AVL---
+200901014 Strassen, Hondseck    00745  00745                % 01450 AVL---
+200901003 Strassen, Aurélia     00746  00746                % 01450 AVL---
+200901020 Strassen, Benelux     00747  00747                % 01450 AVL---
+200901004 Strassen, Barblé      00748  00748                % 01450 AVL---
+200901017 Strassen, Kesseler    00749  00749                % 01450 AVL---
+200901016 Strassen, Geesseneck  00749  00749                % 01450 AVL---
+200901011 Strassen, Schoenacht  00750  00750                % 01450 AVL---
+200101002 Bertrange, Belle Eto  00751                       % 01450 AVL---
+*Z 01451 AVL---       001 120                               % 01451 AVL---
+*L 28       200405035 200101002  02030  02051               % 01451 AVL---
+*A BE 200405035 200101002 000005  02030  02051              % 01451 AVL---
+*R 1 200101002 200405035 200101002  02030  02051            % 01451 AVL---
+*G AVG 200405035 200101002  02030  02051                    % 01451 AVL---
+*A VE 200405035 200101002 000005  02030  02051              % 01451 AVL---
+200405035 Luxembourg, Gare Cen         02030                % 01451 AVL---
+200405013 Centre, F.D. Rooseve  02034  02034                % 01451 AVL---
+200405025 Luxembourg/Centre, M  02037  02037                % 01451 AVL---
+200405045 Centre, Stäreplaz /   02040  02040                % 01451 AVL---
+200403017 Belair, Service Ince  02041  02041                % 01451 AVL---
+200403018 Belair, Stade         02041  02041                % 01451 AVL---
+200403021 Belair, Wandmillen    02042  02042                % 01451 AVL---
+200901015 Strassen, Huorgarten  02044  02044                % 01451 AVL---
+200901014 Strassen, Hondseck    02045  02045                % 01451 AVL---
+200901003 Strassen, Aurélia     02046  02046                % 01451 AVL---
+200901020 Strassen, Benelux     02047  02047                % 01451 AVL---
+200901004 Strassen, Barblé      02048  02048                % 01451 AVL---
+200901017 Strassen, Kesseler    02049  02049                % 01451 AVL---
+200901016 Strassen, Geesseneck  02049  02049                % 01451 AVL---
+200901011 Strassen, Schoenacht  02050  02050                % 01451 AVL---
+200101002 Bertrange, Belle Eto  02051                       % 01451 AVL---
+*Z 01452 AVL---                                             % 01452 AVL---
+*L 28       200405035 200101002  00530  00551               % 01452 AVL---
+*A BE 200405035 200101002 000001  00530  00551              % 01452 AVL---
+*R 1 200101002 200405035 200101002  00530  00551            % 01452 AVL---
+*G AVG 200405035 200101002  00530  00551                    % 01452 AVL---
+*A VE 200405035 200101002 000001  00530  00551              % 01452 AVL---
+200405035 Luxembourg, Gare Cen         00530                % 01452 AVL---
+200405013 Centre, F.D. Rooseve  00534  00534                % 01452 AVL---
+200405025 Luxembourg/Centre, M  00537  00537                % 01452 AVL---
+200405045 Centre, Stäreplaz /   00540  00540                % 01452 AVL---
+200403017 Belair, Service Ince  00541  00541                % 01452 AVL---
+200403018 Belair, Stade         00541  00541                % 01452 AVL---
+200403021 Belair, Wandmillen    00542  00542                % 01452 AVL---
+200901015 Strassen, Huorgarten  00544  00544                % 01452 AVL---
+200901014 Strassen, Hondseck    00545  00545                % 01452 AVL---
+200901003 Strassen, Aurélia     00546  00546                % 01452 AVL---
+200901020 Strassen, Benelux     00547  00547                % 01452 AVL---
+200901004 Strassen, Barblé      00548  00548                % 01452 AVL---
+200901017 Strassen, Kesseler    00549  00549                % 01452 AVL---
+200901016 Strassen, Geesseneck  00549  00549                % 01452 AVL---
+200901011 Strassen, Schoenacht  00550  00550                % 01452 AVL---
+200101002 Bertrange, Belle Eto  00551                       % 01452 AVL---
+*Z 01453 AVL---       001 120                               % 01453 AVL---
+*L 28       200405035 200101002  02130  02151               % 01453 AVL---
+*A BE 200405035 200101002 000010  02130  02151              % 01453 AVL---
+*R 1 200101002 200405035 200101002  02130  02151            % 01453 AVL---
+*G AVG 200405035 200101002  02130  02151                    % 01453 AVL---
+*A VE 200405035 200101002 000010  02130  02151              % 01453 AVL---
+200405035 Luxembourg, Gare Cen         02130                % 01453 AVL---
+200405013 Centre, F.D. Rooseve  02134  02134                % 01453 AVL---
+200405025 Luxembourg/Centre, M  02137  02137                % 01453 AVL---
+200405045 Centre, Stäreplaz /   02140  02140                % 01453 AVL---
+200403017 Belair, Service Ince  02141  02141                % 01453 AVL---
+200403018 Belair, Stade         02141  02141                % 01453 AVL---
+200403021 Belair, Wandmillen    02142  02142                % 01453 AVL---
+200901015 Strassen, Huorgarten  02144  02144                % 01453 AVL---
+200901014 Strassen, Hondseck    02145  02145                % 01453 AVL---
+200901003 Strassen, Aurélia     02146  02146                % 01453 AVL---
+200901020 Strassen, Benelux     02147  02147                % 01453 AVL---
+200901004 Strassen, Barblé      02148  02148                % 01453 AVL---
+200901017 Strassen, Kesseler    02149  02149                % 01453 AVL---
+200901016 Strassen, Geesseneck  02149  02149                % 01453 AVL---
+200901011 Strassen, Schoenacht  02150  02150                % 01453 AVL---
+200101002 Bertrange, Belle Eto  02151                       % 01453 AVL---
+*Z 01454 AVL---       001 010                               % 01454 AVL---
+*L 28       200405035 200101002  00620  00641               % 01454 AVL---
+*A BE 200405035 200101002 000002  00620  00641              % 01454 AVL---
+*R 1 200101002 200405035 200101002  00620  00641            % 01454 AVL---
+*G AVG 200405035 200101002  00620  00641                    % 01454 AVL---
+*A VE 200405035 200101002 000002  00620  00641              % 01454 AVL---
+200405035 Luxembourg, Gare Cen         00620                % 01454 AVL---
+200405013 Centre, F.D. Rooseve  00624  00624                % 01454 AVL---
+200405025 Luxembourg/Centre, M  00627  00627                % 01454 AVL---
+200405045 Centre, Stäreplaz /   00630  00630                % 01454 AVL---
+200403017 Belair, Service Ince  00631  00631                % 01454 AVL---
+200403018 Belair, Stade         00631  00631                % 01454 AVL---
+200403021 Belair, Wandmillen    00632  00632                % 01454 AVL---
+200901015 Strassen, Huorgarten  00634  00634                % 01454 AVL---
+200901014 Strassen, Hondseck    00635  00635                % 01454 AVL---
+200901003 Strassen, Aurélia     00636  00636                % 01454 AVL---
+200901020 Strassen, Benelux     00637  00637                % 01454 AVL---
+200901004 Strassen, Barblé      00638  00638                % 01454 AVL---
+200901017 Strassen, Kesseler    00639  00639                % 01454 AVL---
+200901016 Strassen, Geesseneck  00639  00639                % 01454 AVL---
+200901011 Strassen, Schoenacht  00640  00640                % 01454 AVL---
+200101002 Bertrange, Belle Eto  00641                       % 01454 AVL---
+*Z 01455 AVL---       001 120                               % 01455 AVL---
+*L 28       200405035 200101002  02100  02121               % 01455 AVL---
+*A BE 200405035 200101002 000002  02100  02121              % 01455 AVL---
+*R 1 200101002 200405035 200101002  02100  02121            % 01455 AVL---
+*G AVG 200405035 200101002  02100  02121                    % 01455 AVL---
+*A VE 200405035 200101002 000002  02100  02121              % 01455 AVL---
+200405035 Luxembourg, Gare Cen         02100                % 01455 AVL---
+200405013 Centre, F.D. Rooseve  02104  02104                % 01455 AVL---
+200405025 Luxembourg/Centre, M  02107  02107                % 01455 AVL---
+200405045 Centre, Stäreplaz /   02110  02110                % 01455 AVL---
+200403017 Belair, Service Ince  02111  02111                % 01455 AVL---
+200403018 Belair, Stade         02111  02111                % 01455 AVL---
+200403021 Belair, Wandmillen    02112  02112                % 01455 AVL---
+200901015 Strassen, Huorgarten  02114  02114                % 01455 AVL---
+200901014 Strassen, Hondseck    02115  02115                % 01455 AVL---
+200901003 Strassen, Aurélia     02116  02116                % 01455 AVL---
+200901020 Strassen, Benelux     02117  02117                % 01455 AVL---
+200901004 Strassen, Barblé      02118  02118                % 01455 AVL---
+200901017 Strassen, Kesseler    02119  02119                % 01455 AVL---
+200901016 Strassen, Geesseneck  02119  02119                % 01455 AVL---
+200901011 Strassen, Schoenacht  02120  02120                % 01455 AVL---
+200101002 Bertrange, Belle Eto  02121                       % 01455 AVL---
+*Z 01456 AVL---                                             % 01456 AVL---
+*L 28       200405035 200101002  02200  02221               % 01456 AVL---
+*A BE 200405035 200101002 000012  02200  02221              % 01456 AVL---
+*R 1 200101002 200405035 200101002  02200  02221            % 01456 AVL---
+*G AVG 200405035 200101002  02200  02221                    % 01456 AVL---
+*A VE 200405035 200101002 000012  02200  02221              % 01456 AVL---
+200405035 Luxembourg, Gare Cen         02200                % 01456 AVL---
+200405013 Centre, F.D. Rooseve  02204  02204                % 01456 AVL---
+200405025 Luxembourg/Centre, M  02207  02207                % 01456 AVL---
+200405045 Centre, Stäreplaz /   02210  02210                % 01456 AVL---
+200403017 Belair, Service Ince  02211  02211                % 01456 AVL---
+200403018 Belair, Stade         02211  02211                % 01456 AVL---
+200403021 Belair, Wandmillen    02212  02212                % 01456 AVL---
+200901015 Strassen, Huorgarten  02214  02214                % 01456 AVL---
+200901014 Strassen, Hondseck    02215  02215                % 01456 AVL---
+200901003 Strassen, Aurélia     02216  02216                % 01456 AVL---
+200901020 Strassen, Benelux     02217  02217                % 01456 AVL---
+200901004 Strassen, Barblé      02218  02218                % 01456 AVL---
+200901017 Strassen, Kesseler    02219  02219                % 01456 AVL---
+200901016 Strassen, Geesseneck  02219  02219                % 01456 AVL---
+200901011 Strassen, Schoenacht  02220  02220                % 01456 AVL---
+200101002 Bertrange, Belle Eto  02221                       % 01456 AVL---
+*Z 01457 AVL---                                             % 01457 AVL---
+*L 28       200405035 200101002  02000  02021               % 01457 AVL---
+*A BE 200405035 200101002 000023  02000  02021              % 01457 AVL---
+*R 1 200101002 200405035 200101002  02000  02021            % 01457 AVL---
+*G AVG 200405035 200101002  02000  02021                    % 01457 AVL---
+*A VE 200405035 200101002 000023  02000  02021              % 01457 AVL---
+200405035 Luxembourg, Gare Cen         02000                % 01457 AVL---
+200405013 Centre, F.D. Rooseve  02004  02004                % 01457 AVL---
+200405025 Luxembourg/Centre, M  02007  02007                % 01457 AVL---
+200405045 Centre, Stäreplaz /   02010  02010                % 01457 AVL---
+200403017 Belair, Service Ince  02011  02011                % 01457 AVL---
+200403018 Belair, Stade         02011  02011                % 01457 AVL---
+200403021 Belair, Wandmillen    02012  02012                % 01457 AVL---
+200901015 Strassen, Huorgarten  02014  02014                % 01457 AVL---
+200901014 Strassen, Hondseck    02015  02015                % 01457 AVL---
+200901003 Strassen, Aurélia     02016  02016                % 01457 AVL---
+200901020 Strassen, Benelux     02017  02017                % 01457 AVL---
+200901004 Strassen, Barblé      02018  02018                % 01457 AVL---
+200901017 Strassen, Kesseler    02019  02019                % 01457 AVL---
+200901016 Strassen, Geesseneck  02019  02019                % 01457 AVL---
+200901011 Strassen, Schoenacht  02020  02020                % 01457 AVL---
+200101002 Bertrange, Belle Eto  02021                       % 01457 AVL---
+*Z 01458 AVL---                                             % 01458 AVL---
+*L 28       200405035 200101002  01158  01222               % 01458 AVL---
+*A BE 200405035 200101002 000003  01158  01222              % 01458 AVL---
+*R 1 200101002 200405035 200101002  01158  01222            % 01458 AVL---
+*G AVG 200405035 200101002  01158  01222                    % 01458 AVL---
+*A VE 200405035 200101002 000003  01158  01222              % 01458 AVL---
+200405035 Luxembourg, Gare Cen         01158                % 01458 AVL---
+200405013 Centre, F.D. Rooseve  01203  01203                % 01458 AVL---
+200405025 Luxembourg/Centre, M  01206  01206                % 01458 AVL---
+200405045 Centre, Stäreplaz /   01209  01209                % 01458 AVL---
+200403017 Belair, Service Ince  01210  01210                % 01458 AVL---
+200403018 Belair, Stade         01211  01211                % 01458 AVL---
+200403021 Belair, Wandmillen    01212  01212                % 01458 AVL---
+200901015 Strassen, Huorgarten  01214  01214                % 01458 AVL---
+200901014 Strassen, Hondseck    01215  01215                % 01458 AVL---
+200901003 Strassen, Aurélia     01216  01216                % 01458 AVL---
+200901020 Strassen, Benelux     01217  01217                % 01458 AVL---
+200901004 Strassen, Barblé      01218  01218                % 01458 AVL---
+200901017 Strassen, Kesseler    01219  01219                % 01458 AVL---
+200901016 Strassen, Geesseneck  01220  01220                % 01458 AVL---
+200901011 Strassen, Schoenacht  01220  01220                % 01458 AVL---
+200101002 Bertrange, Belle Eto  01222                       % 01458 AVL---
+*Z 01459 AVL---       001 030                               % 01459 AVL---
+*L 28       200405035 200101002  00812  00836               % 01459 AVL---
+*A BE 200405035 200101002 000005  00812  00836              % 01459 AVL---
+*R 1 200101002 200405035 200101002  00812  00836            % 01459 AVL---
+*G AVG 200405035 200101002  00812  00836                    % 01459 AVL---
+*A VE 200405035 200101002 000005  00812  00836              % 01459 AVL---
+200405035 Luxembourg, Gare Cen         00812                % 01459 AVL---
+200405013 Centre, F.D. Rooseve  00817  00817                % 01459 AVL---
+200405025 Luxembourg/Centre, M  00820  00820                % 01459 AVL---
+200405045 Centre, Stäreplaz /   00823  00823                % 01459 AVL---
+200403017 Belair, Service Ince  00824  00824                % 01459 AVL---
+200403018 Belair, Stade         00825  00825                % 01459 AVL---
+200403021 Belair, Wandmillen    00826  00826                % 01459 AVL---
+200901015 Strassen, Huorgarten  00828  00828                % 01459 AVL---
+200901014 Strassen, Hondseck    00829  00829                % 01459 AVL---
+200901003 Strassen, Aurélia     00830  00830                % 01459 AVL---
+200901020 Strassen, Benelux     00831  00831                % 01459 AVL---
+200901004 Strassen, Barblé      00832  00832                % 01459 AVL---
+200901017 Strassen, Kesseler    00833  00833                % 01459 AVL---
+200901016 Strassen, Geesseneck  00834  00834                % 01459 AVL---
+200901011 Strassen, Schoenacht  00834  00834                % 01459 AVL---
+200101002 Bertrange, Belle Eto  00836                       % 01459 AVL---
+*Z 01460 AVL---       001 030                               % 01460 AVL---
+*L 28       200405035 200101002  00927  00951               % 01460 AVL---
+*A BE 200405035 200101002 000005  00927  00951              % 01460 AVL---
+*R 1 200101002 200405035 200101002  00927  00951            % 01460 AVL---
+*G AVG 200405035 200101002  00927  00951                    % 01460 AVL---
+*A VE 200405035 200101002 000005  00927  00951              % 01460 AVL---
+200405035 Luxembourg, Gare Cen         00927                % 01460 AVL---
+200405013 Centre, F.D. Rooseve  00932  00932                % 01460 AVL---
+200405025 Luxembourg/Centre, M  00935  00935                % 01460 AVL---
+200405045 Centre, Stäreplaz /   00938  00938                % 01460 AVL---
+200403017 Belair, Service Ince  00939  00939                % 01460 AVL---
+200403018 Belair, Stade         00940  00940                % 01460 AVL---
+200403021 Belair, Wandmillen    00941  00941                % 01460 AVL---
+200901015 Strassen, Huorgarten  00943  00943                % 01460 AVL---
+200901014 Strassen, Hondseck    00944  00944                % 01460 AVL---
+200901003 Strassen, Aurélia     00945  00945                % 01460 AVL---
+200901020 Strassen, Benelux     00946  00946                % 01460 AVL---
+200901004 Strassen, Barblé      00947  00947                % 01460 AVL---
+200901017 Strassen, Kesseler    00948  00948                % 01460 AVL---
+200901016 Strassen, Geesseneck  00949  00949                % 01460 AVL---
+200901011 Strassen, Schoenacht  00949  00949                % 01460 AVL---
+200101002 Bertrange, Belle Eto  00951                       % 01460 AVL---
+*Z 01461 AVL---       001 030                               % 01461 AVL---
+*L 28       200405035 200101002  01042  01106               % 01461 AVL---
+*A BE 200405035 200101002 000005  01042  01106              % 01461 AVL---
+*R 1 200101002 200405035 200101002  01042  01106            % 01461 AVL---
+*G AVG 200405035 200101002  01042  01106                    % 01461 AVL---
+*A VE 200405035 200101002 000005  01042  01106              % 01461 AVL---
+200405035 Luxembourg, Gare Cen         01042                % 01461 AVL---
+200405013 Centre, F.D. Rooseve  01047  01047                % 01461 AVL---
+200405025 Luxembourg/Centre, M  01050  01050                % 01461 AVL---
+200405045 Centre, Stäreplaz /   01053  01053                % 01461 AVL---
+200403017 Belair, Service Ince  01054  01054                % 01461 AVL---
+200403018 Belair, Stade         01055  01055                % 01461 AVL---
+200403021 Belair, Wandmillen    01056  01056                % 01461 AVL---
+200901015 Strassen, Huorgarten  01058  01058                % 01461 AVL---
+200901014 Strassen, Hondseck    01059  01059                % 01461 AVL---
+200901003 Strassen, Aurélia     01100  01100                % 01461 AVL---
+200901020 Strassen, Benelux     01101  01101                % 01461 AVL---
+200901004 Strassen, Barblé      01102  01102                % 01461 AVL---
+200901017 Strassen, Kesseler    01103  01103                % 01461 AVL---
+200901016 Strassen, Geesseneck  01104  01104                % 01461 AVL---
+200901011 Strassen, Schoenacht  01104  01104                % 01461 AVL---
+200101002 Bertrange, Belle Eto  01106                       % 01461 AVL---
+*Z 01462 AVL---       001 030                               % 01462 AVL---
+*L 28       200405035 200101002  01157  01221               % 01462 AVL---
+*A BE 200405035 200101002 000005  01157  01221              % 01462 AVL---
+*R 1 200101002 200405035 200101002  01157  01221            % 01462 AVL---
+*G AVG 200405035 200101002  01157  01221                    % 01462 AVL---
+*A VE 200405035 200101002 000005  01157  01221              % 01462 AVL---
+200405035 Luxembourg, Gare Cen         01157                % 01462 AVL---
+200405013 Centre, F.D. Rooseve  01202  01202                % 01462 AVL---
+200405025 Luxembourg/Centre, M  01205  01205                % 01462 AVL---
+200405045 Centre, Stäreplaz /   01208  01208                % 01462 AVL---
+200403017 Belair, Service Ince  01209  01209                % 01462 AVL---
+200403018 Belair, Stade         01210  01210                % 01462 AVL---
+200403021 Belair, Wandmillen    01211  01211                % 01462 AVL---
+200901015 Strassen, Huorgarten  01213  01213                % 01462 AVL---
+200901014 Strassen, Hondseck    01214  01214                % 01462 AVL---
+200901003 Strassen, Aurélia     01215  01215                % 01462 AVL---
+200901020 Strassen, Benelux     01216  01216                % 01462 AVL---
+200901004 Strassen, Barblé      01217  01217                % 01462 AVL---
+200901017 Strassen, Kesseler    01218  01218                % 01462 AVL---
+200901016 Strassen, Geesseneck  01219  01219                % 01462 AVL---
+200901011 Strassen, Schoenacht  01219  01219                % 01462 AVL---
+200101002 Bertrange, Belle Eto  01221                       % 01462 AVL---
+*Z 01463 AVL---       001 030                               % 01463 AVL---
+*L 28       200405035 200101002  01312  01336               % 01463 AVL---
+*A BE 200405035 200101002 000005  01312  01336              % 01463 AVL---
+*R 1 200101002 200405035 200101002  01312  01336            % 01463 AVL---
+*G AVG 200405035 200101002  01312  01336                    % 01463 AVL---
+*A VE 200405035 200101002 000005  01312  01336              % 01463 AVL---
+200405035 Luxembourg, Gare Cen         01312                % 01463 AVL---
+200405013 Centre, F.D. Rooseve  01317  01317                % 01463 AVL---
+200405025 Luxembourg/Centre, M  01320  01320                % 01463 AVL---
+200405045 Centre, Stäreplaz /   01323  01323                % 01463 AVL---
+200403017 Belair, Service Ince  01324  01324                % 01463 AVL---
+200403018 Belair, Stade         01325  01325                % 01463 AVL---
+200403021 Belair, Wandmillen    01326  01326                % 01463 AVL---
+200901015 Strassen, Huorgarten  01328  01328                % 01463 AVL---
+200901014 Strassen, Hondseck    01329  01329                % 01463 AVL---
+200901003 Strassen, Aurélia     01330  01330                % 01463 AVL---
+200901020 Strassen, Benelux     01331  01331                % 01463 AVL---
+200901004 Strassen, Barblé      01332  01332                % 01463 AVL---
+200901017 Strassen, Kesseler    01333  01333                % 01463 AVL---
+200901016 Strassen, Geesseneck  01334  01334                % 01463 AVL---
+200901011 Strassen, Schoenacht  01334  01334                % 01463 AVL---
+200101002 Bertrange, Belle Eto  01336                       % 01463 AVL---
+*Z 01464 AVL---       001 030                               % 01464 AVL---
+*L 28       200405035 200101002  01427  01451               % 01464 AVL---
+*A BE 200405035 200101002 000005  01427  01451              % 01464 AVL---
+*R 1 200101002 200405035 200101002  01427  01451            % 01464 AVL---
+*G AVG 200405035 200101002  01427  01451                    % 01464 AVL---
+*A VE 200405035 200101002 000005  01427  01451              % 01464 AVL---
+200405035 Luxembourg, Gare Cen         01427                % 01464 AVL---
+200405013 Centre, F.D. Rooseve  01432  01432                % 01464 AVL---
+200405025 Luxembourg/Centre, M  01435  01435                % 01464 AVL---
+200405045 Centre, Stäreplaz /   01438  01438                % 01464 AVL---
+200403017 Belair, Service Ince  01439  01439                % 01464 AVL---
+200403018 Belair, Stade         01440  01440                % 01464 AVL---
+200403021 Belair, Wandmillen    01441  01441                % 01464 AVL---
+200901015 Strassen, Huorgarten  01443  01443                % 01464 AVL---
+200901014 Strassen, Hondseck    01444  01444                % 01464 AVL---
+200901003 Strassen, Aurélia     01445  01445                % 01464 AVL---
+200901020 Strassen, Benelux     01446  01446                % 01464 AVL---
+200901004 Strassen, Barblé      01447  01447                % 01464 AVL---
+200901017 Strassen, Kesseler    01448  01448                % 01464 AVL---
+200901016 Strassen, Geesseneck  01449  01449                % 01464 AVL---
+200901011 Strassen, Schoenacht  01449  01449                % 01464 AVL---
+200101002 Bertrange, Belle Eto  01451                       % 01464 AVL---
+*Z 01465 AVL---       001 030                               % 01465 AVL---
+*L 28       200405035 200101002  01542  01606               % 01465 AVL---
+*A BE 200405035 200101002 000005  01542  01606              % 01465 AVL---
+*R 1 200101002 200405035 200101002  01542  01606            % 01465 AVL---
+*G AVG 200405035 200101002  01542  01606                    % 01465 AVL---
+*A VE 200405035 200101002 000005  01542  01606              % 01465 AVL---
+200405035 Luxembourg, Gare Cen         01542                % 01465 AVL---
+200405013 Centre, F.D. Rooseve  01547  01547                % 01465 AVL---
+200405025 Luxembourg/Centre, M  01550  01550                % 01465 AVL---
+200405045 Centre, Stäreplaz /   01553  01553                % 01465 AVL---
+200403017 Belair, Service Ince  01554  01554                % 01465 AVL---
+200403018 Belair, Stade         01555  01555                % 01465 AVL---
+200403021 Belair, Wandmillen    01556  01556                % 01465 AVL---
+200901015 Strassen, Huorgarten  01558  01558                % 01465 AVL---
+200901014 Strassen, Hondseck    01559  01559                % 01465 AVL---
+200901003 Strassen, Aurélia     01600  01600                % 01465 AVL---
+200901020 Strassen, Benelux     01601  01601                % 01465 AVL---
+200901004 Strassen, Barblé      01602  01602                % 01465 AVL---
+200901017 Strassen, Kesseler    01603  01603                % 01465 AVL---
+200901016 Strassen, Geesseneck  01604  01604                % 01465 AVL---
+200901011 Strassen, Schoenacht  01604  01604                % 01465 AVL---
+200101002 Bertrange, Belle Eto  01606                       % 01465 AVL---
+*Z 01466 AVL---       001 030                               % 01466 AVL---
+*L 28       200405035 200101002  01657  01721               % 01466 AVL---
+*A BE 200405035 200101002 000005  01657  01721              % 01466 AVL---
+*R 1 200101002 200405035 200101002  01657  01721            % 01466 AVL---
+*G AVG 200405035 200101002  01657  01721                    % 01466 AVL---
+*A VE 200405035 200101002 000005  01657  01721              % 01466 AVL---
+200405035 Luxembourg, Gare Cen         01657                % 01466 AVL---
+200405013 Centre, F.D. Rooseve  01702  01702                % 01466 AVL---
+200405025 Luxembourg/Centre, M  01705  01705                % 01466 AVL---
+200405045 Centre, Stäreplaz /   01708  01708                % 01466 AVL---
+200403017 Belair, Service Ince  01709  01709                % 01466 AVL---
+200403018 Belair, Stade         01710  01710                % 01466 AVL---
+200403021 Belair, Wandmillen    01711  01711                % 01466 AVL---
+200901015 Strassen, Huorgarten  01713  01713                % 01466 AVL---
+200901014 Strassen, Hondseck    01714  01714                % 01466 AVL---
+200901003 Strassen, Aurélia     01715  01715                % 01466 AVL---
+200901020 Strassen, Benelux     01716  01716                % 01466 AVL---
+200901004 Strassen, Barblé      01717  01717                % 01466 AVL---
+200901017 Strassen, Kesseler    01718  01718                % 01466 AVL---
+200901016 Strassen, Geesseneck  01719  01719                % 01466 AVL---
+200901011 Strassen, Schoenacht  01719  01719                % 01466 AVL---
+200101002 Bertrange, Belle Eto  01721                       % 01466 AVL---
+*Z 01467 AVL---       001 030                               % 01467 AVL---
+*L 28       200405035 200101002  01812  01836               % 01467 AVL---
+*A BE 200405035 200101002 000005  01812  01836              % 01467 AVL---
+*R 1 200101002 200405035 200101002  01812  01836            % 01467 AVL---
+*G AVG 200405035 200101002  01812  01836                    % 01467 AVL---
+*A VE 200405035 200101002 000005  01812  01836              % 01467 AVL---
+200405035 Luxembourg, Gare Cen         01812                % 01467 AVL---
+200405013 Centre, F.D. Rooseve  01817  01817                % 01467 AVL---
+200405025 Luxembourg/Centre, M  01820  01820                % 01467 AVL---
+200405045 Centre, Stäreplaz /   01823  01823                % 01467 AVL---
+200403017 Belair, Service Ince  01824  01824                % 01467 AVL---
+200403018 Belair, Stade         01825  01825                % 01467 AVL---
+200403021 Belair, Wandmillen    01826  01826                % 01467 AVL---
+200901015 Strassen, Huorgarten  01828  01828                % 01467 AVL---
+200901014 Strassen, Hondseck    01829  01829                % 01467 AVL---
+200901003 Strassen, Aurélia     01830  01830                % 01467 AVL---
+200901020 Strassen, Benelux     01831  01831                % 01467 AVL---
+200901004 Strassen, Barblé      01832  01832                % 01467 AVL---
+200901017 Strassen, Kesseler    01833  01833                % 01467 AVL---
+200901016 Strassen, Geesseneck  01834  01834                % 01467 AVL---
+200901011 Strassen, Schoenacht  01834  01834                % 01467 AVL---
+200101002 Bertrange, Belle Eto  01836                       % 01467 AVL---
+*Z 01468 AVL---                                             % 01468 AVL---
+*L 28       200405035 200101002  01927  01951               % 01468 AVL---
+*A BE 200405035 200101002 000005  01927  01951              % 01468 AVL---
+*R 1 200101002 200405035 200101002  01927  01951            % 01468 AVL---
+*G AVG 200405035 200101002  01927  01951                    % 01468 AVL---
+*A VE 200405035 200101002 000005  01927  01951              % 01468 AVL---
+200405035 Luxembourg, Gare Cen         01927                % 01468 AVL---
+200405013 Centre, F.D. Rooseve  01932  01932                % 01468 AVL---
+200405025 Luxembourg/Centre, M  01935  01935                % 01468 AVL---
+200405045 Centre, Stäreplaz /   01938  01938                % 01468 AVL---
+200403017 Belair, Service Ince  01939  01939                % 01468 AVL---
+200403018 Belair, Stade         01940  01940                % 01468 AVL---
+200403021 Belair, Wandmillen    01941  01941                % 01468 AVL---
+200901015 Strassen, Huorgarten  01943  01943                % 01468 AVL---
+200901014 Strassen, Hondseck    01944  01944                % 01468 AVL---
+200901003 Strassen, Aurélia     01945  01945                % 01468 AVL---
+200901020 Strassen, Benelux     01946  01946                % 01468 AVL---
+200901004 Strassen, Barblé      01947  01947                % 01468 AVL---
+200901017 Strassen, Kesseler    01948  01948                % 01468 AVL---
+200901016 Strassen, Geesseneck  01949  01949                % 01468 AVL---
+200901011 Strassen, Schoenacht  01949  01949                % 01468 AVL---
+200101002 Bertrange, Belle Eto  01951                       % 01468 AVL---
+*Z 01469 AVL---       002 120                               % 01469 AVL---
+*L 28       200405035 200101002  01358  01422               % 01469 AVL---
+*A BE 200405035 200101002 000011  01358  01422              % 01469 AVL---
+*R 1 200101002 200405035 200101002  01358  01422            % 01469 AVL---
+*G AVG 200405035 200101002  01358  01422                    % 01469 AVL---
+*A VE 200405035 200101002 000011  01358  01422              % 01469 AVL---
+200405035 Luxembourg, Gare Cen         01358                % 01469 AVL---
+200405013 Centre, F.D. Rooseve  01403  01403                % 01469 AVL---
+200405025 Luxembourg/Centre, M  01406  01406                % 01469 AVL---
+200405045 Centre, Stäreplaz /   01409  01409                % 01469 AVL---
+200403017 Belair, Service Ince  01410  01410                % 01469 AVL---
+200403018 Belair, Stade         01411  01411                % 01469 AVL---
+200403021 Belair, Wandmillen    01412  01412                % 01469 AVL---
+200901015 Strassen, Huorgarten  01414  01414                % 01469 AVL---
+200901014 Strassen, Hondseck    01415  01415                % 01469 AVL---
+200901003 Strassen, Aurélia     01416  01416                % 01469 AVL---
+200901020 Strassen, Benelux     01417  01417                % 01469 AVL---
+200901004 Strassen, Barblé      01418  01418                % 01469 AVL---
+200901017 Strassen, Kesseler    01419  01419                % 01469 AVL---
+200901016 Strassen, Geesseneck  01420  01420                % 01469 AVL---
+200901011 Strassen, Schoenacht  01420  01420                % 01469 AVL---
+200101002 Bertrange, Belle Eto  01422                       % 01469 AVL---
+*Z 01470 AVL---       001 060                               % 01470 AVL---
+*L 28       200405035 200101002  01301  01325               % 01470 AVL---
+*A BE 200405035 200101002 000010  01301  01325              % 01470 AVL---
+*R 1 200101002 200405035 200101002  01301  01325            % 01470 AVL---
+*G AVG 200405035 200101002  01301  01325                    % 01470 AVL---
+*A VE 200405035 200101002 000010  01301  01325              % 01470 AVL---
+200405035 Luxembourg, Gare Cen         01301                % 01470 AVL---
+200405013 Centre, F.D. Rooseve  01306  01306                % 01470 AVL---
+200405025 Luxembourg/Centre, M  01309  01309                % 01470 AVL---
+200405045 Centre, Stäreplaz /   01312  01312                % 01470 AVL---
+200403017 Belair, Service Ince  01313  01313                % 01470 AVL---
+200403018 Belair, Stade         01314  01314                % 01470 AVL---
+200403021 Belair, Wandmillen    01315  01315                % 01470 AVL---
+200901015 Strassen, Huorgarten  01317  01317                % 01470 AVL---
+200901014 Strassen, Hondseck    01318  01318                % 01470 AVL---
+200901003 Strassen, Aurélia     01319  01319                % 01470 AVL---
+200901020 Strassen, Benelux     01320  01320                % 01470 AVL---
+200901004 Strassen, Barblé      01321  01321                % 01470 AVL---
+200901017 Strassen, Kesseler    01322  01322                % 01470 AVL---
+200901016 Strassen, Geesseneck  01323  01323                % 01470 AVL---
+200901011 Strassen, Schoenacht  01323  01323                % 01470 AVL---
+200101002 Bertrange, Belle Eto  01325                       % 01470 AVL---
+*Z 01471 AVL---       001 015                               % 01471 AVL---
+*L 28       200405035 200101002  01416  01440               % 01471 AVL---
+*A BE 200405035 200101002 000010  01416  01440              % 01471 AVL---
+*R 1 200101002 200405035 200101002  01416  01440            % 01471 AVL---
+*G AVG 200405035 200101002  01416  01440                    % 01471 AVL---
+*A VE 200405035 200101002 000010  01416  01440              % 01471 AVL---
+200405035 Luxembourg, Gare Cen         01416                % 01471 AVL---
+200405013 Centre, F.D. Rooseve  01421  01421                % 01471 AVL---
+200405025 Luxembourg/Centre, M  01424  01424                % 01471 AVL---
+200405045 Centre, Stäreplaz /   01427  01427                % 01471 AVL---
+200403017 Belair, Service Ince  01428  01428                % 01471 AVL---
+200403018 Belair, Stade         01429  01429                % 01471 AVL---
+200403021 Belair, Wandmillen    01430  01430                % 01471 AVL---
+200901015 Strassen, Huorgarten  01432  01432                % 01471 AVL---
+200901014 Strassen, Hondseck    01433  01433                % 01471 AVL---
+200901003 Strassen, Aurélia     01434  01434                % 01471 AVL---
+200901020 Strassen, Benelux     01435  01435                % 01471 AVL---
+200901004 Strassen, Barblé      01436  01436                % 01471 AVL---
+200901017 Strassen, Kesseler    01437  01437                % 01471 AVL---
+200901016 Strassen, Geesseneck  01438  01438                % 01471 AVL---
+200901011 Strassen, Schoenacht  01438  01438                % 01471 AVL---
+200101002 Bertrange, Belle Eto  01440                       % 01471 AVL---
+*Z 01472 AVL---       001 030                               % 01472 AVL---
+*L 28       200405035 200101002  01531  01555               % 01472 AVL---
+*A BE 200405035 200101002 000010  01531  01555              % 01472 AVL---
+*R 1 200101002 200405035 200101002  01531  01555            % 01472 AVL---
+*G AVG 200405035 200101002  01531  01555                    % 01472 AVL---
+*A VE 200405035 200101002 000010  01531  01555              % 01472 AVL---
+200405035 Luxembourg, Gare Cen         01531                % 01472 AVL---
+200405013 Centre, F.D. Rooseve  01536  01536                % 01472 AVL---
+200405025 Luxembourg/Centre, M  01539  01539                % 01472 AVL---
+200405045 Centre, Stäreplaz /   01542  01542                % 01472 AVL---
+200403017 Belair, Service Ince  01543  01543                % 01472 AVL---
+200403018 Belair, Stade         01544  01544                % 01472 AVL---
+200403021 Belair, Wandmillen    01545  01545                % 01472 AVL---
+200901015 Strassen, Huorgarten  01547  01547                % 01472 AVL---
+200901014 Strassen, Hondseck    01548  01548                % 01472 AVL---
+200901003 Strassen, Aurélia     01549  01549                % 01472 AVL---
+200901020 Strassen, Benelux     01550  01550                % 01472 AVL---
+200901004 Strassen, Barblé      01551  01551                % 01472 AVL---
+200901017 Strassen, Kesseler    01552  01552                % 01472 AVL---
+200901016 Strassen, Geesseneck  01553  01553                % 01472 AVL---
+200901011 Strassen, Schoenacht  01553  01553                % 01472 AVL---
+200101002 Bertrange, Belle Eto  01555                       % 01472 AVL---
+*Z 01473 AVL---       001 015                               % 01473 AVL---
+*L 28       200405035 200101002  01646  01710               % 01473 AVL---
+*A BE 200405035 200101002 000010  01646  01710              % 01473 AVL---
+*R 1 200101002 200405035 200101002  01646  01710            % 01473 AVL---
+*G AVG 200405035 200101002  01646  01710                    % 01473 AVL---
+*A VE 200405035 200101002 000010  01646  01710              % 01473 AVL---
+200405035 Luxembourg, Gare Cen         01646                % 01473 AVL---
+200405013 Centre, F.D. Rooseve  01651  01651                % 01473 AVL---
+200405025 Luxembourg/Centre, M  01654  01654                % 01473 AVL---
+200405045 Centre, Stäreplaz /   01657  01657                % 01473 AVL---
+200403017 Belair, Service Ince  01658  01658                % 01473 AVL---
+200403018 Belair, Stade         01659  01659                % 01473 AVL---
+200403021 Belair, Wandmillen    01700  01700                % 01473 AVL---
+200901015 Strassen, Huorgarten  01702  01702                % 01473 AVL---
+200901014 Strassen, Hondseck    01703  01703                % 01473 AVL---
+200901003 Strassen, Aurélia     01704  01704                % 01473 AVL---
+200901020 Strassen, Benelux     01705  01705                % 01473 AVL---
+200901004 Strassen, Barblé      01706  01706                % 01473 AVL---
+200901017 Strassen, Kesseler    01707  01707                % 01473 AVL---
+200901016 Strassen, Geesseneck  01708  01708                % 01473 AVL---
+200901011 Strassen, Schoenacht  01708  01708                % 01473 AVL---
+200101002 Bertrange, Belle Eto  01710                       % 01473 AVL---
+*Z 01474 AVL---       001 060                               % 01474 AVL---
+*L 28       200405035 200101002  01731  01755               % 01474 AVL---
+*A BE 200405035 200101002 000010  01731  01755              % 01474 AVL---
+*R 1 200101002 200405035 200101002  01731  01755            % 01474 AVL---
+*G AVG 200405035 200101002  01731  01755                    % 01474 AVL---
+*A VE 200405035 200101002 000010  01731  01755              % 01474 AVL---
+200405035 Luxembourg, Gare Cen         01731                % 01474 AVL---
+200405013 Centre, F.D. Rooseve  01736  01736                % 01474 AVL---
+200405025 Luxembourg/Centre, M  01739  01739                % 01474 AVL---
+200405045 Centre, Stäreplaz /   01742  01742                % 01474 AVL---
+200403017 Belair, Service Ince  01743  01743                % 01474 AVL---
+200403018 Belair, Stade         01744  01744                % 01474 AVL---
+200403021 Belair, Wandmillen    01745  01745                % 01474 AVL---
+200901015 Strassen, Huorgarten  01747  01747                % 01474 AVL---
+200901014 Strassen, Hondseck    01748  01748                % 01474 AVL---
+200901003 Strassen, Aurélia     01749  01749                % 01474 AVL---
+200901020 Strassen, Benelux     01750  01750                % 01474 AVL---
+200901004 Strassen, Barblé      01751  01751                % 01474 AVL---
+200901017 Strassen, Kesseler    01752  01752                % 01474 AVL---
+200901016 Strassen, Geesseneck  01753  01753                % 01474 AVL---
+200901011 Strassen, Schoenacht  01753  01753                % 01474 AVL---
+200101002 Bertrange, Belle Eto  01755                       % 01474 AVL---
+*Z 01475 AVL---       001 015                               % 01475 AVL---
+*L 28       200405035 200101002  01901  01925               % 01475 AVL---
+*A BE 200405035 200101002 000010  01901  01925              % 01475 AVL---
+*R 1 200101002 200405035 200101002  01901  01925            % 01475 AVL---
+*G AVG 200405035 200101002  01901  01925                    % 01475 AVL---
+*A VE 200405035 200101002 000010  01901  01925              % 01475 AVL---
+200405035 Luxembourg, Gare Cen         01901                % 01475 AVL---
+200405013 Centre, F.D. Rooseve  01906  01906                % 01475 AVL---
+200405025 Luxembourg/Centre, M  01909  01909                % 01475 AVL---
+200405045 Centre, Stäreplaz /   01912  01912                % 01475 AVL---
+200403017 Belair, Service Ince  01913  01913                % 01475 AVL---
+200403018 Belair, Stade         01914  01914                % 01475 AVL---
+200403021 Belair, Wandmillen    01915  01915                % 01475 AVL---
+200901015 Strassen, Huorgarten  01917  01917                % 01475 AVL---
+200901014 Strassen, Hondseck    01918  01918                % 01475 AVL---
+200901003 Strassen, Aurélia     01919  01919                % 01475 AVL---
+200901020 Strassen, Benelux     01920  01920                % 01475 AVL---
+200901004 Strassen, Barblé      01921  01921                % 01475 AVL---
+200901017 Strassen, Kesseler    01922  01922                % 01475 AVL---
+200901016 Strassen, Geesseneck  01923  01923                % 01475 AVL---
+200901011 Strassen, Schoenacht  01923  01923                % 01475 AVL---
+200101002 Bertrange, Belle Eto  01925                       % 01475 AVL---
+*Z 01476 AVL---       001 010                               % 01476 AVL---
+*L 28       200405035 200101002  01928  01957               % 01476 AVL---
+*A BE 200405035 200101002 000002  01928  01957              % 01476 AVL---
+*R 1 200101002 200405035 200101002  01928  01957            % 01476 AVL---
+*G AVG 200405035 200101002  01928  01957                    % 01476 AVL---
+*A VE 200405035 200101002 000002  01928  01957              % 01476 AVL---
+200405035 Luxembourg, Gare Cen         01928                % 01476 AVL---
+200405013 Centre, F.D. Rooseve  01933  01933                % 01476 AVL---
+200405025 Luxembourg/Centre, M  01937  01937                % 01476 AVL---
+200405045 Centre, Stäreplaz /   01940  01940                % 01476 AVL---
+200403017 Belair, Service Ince  01942  01942                % 01476 AVL---
+200403018 Belair, Stade         01943  01943                % 01476 AVL---
+200403021 Belair, Wandmillen    01944  01944                % 01476 AVL---
+200901015 Strassen, Huorgarten  01947  01947                % 01476 AVL---
+200901014 Strassen, Hondseck    01948  01948                % 01476 AVL---
+200901003 Strassen, Aurélia     01949  01949                % 01476 AVL---
+200901020 Strassen, Benelux     01951  01951                % 01476 AVL---
+200901004 Strassen, Barblé      01952  01952                % 01476 AVL---
+200901017 Strassen, Kesseler    01953  01953                % 01476 AVL---
+200901016 Strassen, Geesseneck  01954  01954                % 01476 AVL---
+200901011 Strassen, Schoenacht  01954  01954                % 01476 AVL---
+200101002 Bertrange, Belle Eto  01957                       % 01476 AVL---
+*Z 01477 AVL---       001 020                               % 01477 AVL---
+*L 28       200405035 200101021  00738  00810               % 01477 AVL---
+*A BE 200405035 200101021 000002  00738  00810              % 01477 AVL---
+*R 1 200101021 200405035 200101021  00738  00810            % 01477 AVL---
+*G AVG 200405035 200101021  00738  00810                    % 01477 AVL---
+*A VE 200405035 200101021 000002  00738  00810              % 01477 AVL---
+200405035 Luxembourg, Gare Cen         00738                % 01477 AVL---
+200405013 Centre, F.D. Rooseve  00743  00743                % 01477 AVL---
+200405025 Luxembourg/Centre, M  00747  00747                % 01477 AVL---
+200405045 Centre, Stäreplaz /   00750  00750                % 01477 AVL---
+200403017 Belair, Service Ince  00752  00752                % 01477 AVL---
+200403018 Belair, Stade         00753  00753                % 01477 AVL---
+200403021 Belair, Wandmillen    00754  00754                % 01477 AVL---
+200901015 Strassen, Huorgarten  00757  00757                % 01477 AVL---
+200901014 Strassen, Hondseck    00758  00758                % 01477 AVL---
+200901003 Strassen, Aurélia     00759  00759                % 01477 AVL---
+200901020 Strassen, Benelux     00801  00801                % 01477 AVL---
+200901004 Strassen, Barblé      00802  00802                % 01477 AVL---
+200901017 Strassen, Kesseler    00803  00803                % 01477 AVL---
+200901016 Strassen, Geesseneck  00804  00804                % 01477 AVL---
+200901011 Strassen, Schoenacht  00804  00804                % 01477 AVL---
+200101002 Bertrange, Belle Eto  00807  00807                % 01477 AVL---
+200101021 Bertrange, Ecole Eur  00810                       % 01477 AVL---
+*Z 01478 AVL---       001 010                               % 01478 AVL---
+*L 28       200405035 200101021  00848  00920               % 01478 AVL---
+*A BE 200405035 200101021 000002  00848  00920              % 01478 AVL---
+*R 1 200101021 200405035 200101021  00848  00920            % 01478 AVL---
+*G AVG 200405035 200101021  00848  00920                    % 01478 AVL---
+*A VE 200405035 200101021 000002  00848  00920              % 01478 AVL---
+200405035 Luxembourg, Gare Cen         00848                % 01478 AVL---
+200405013 Centre, F.D. Rooseve  00853  00853                % 01478 AVL---
+200405025 Luxembourg/Centre, M  00857  00857                % 01478 AVL---
+200405045 Centre, Stäreplaz /   00900  00900                % 01478 AVL---
+200403017 Belair, Service Ince  00902  00902                % 01478 AVL---
+200403018 Belair, Stade         00903  00903                % 01478 AVL---
+200403021 Belair, Wandmillen    00904  00904                % 01478 AVL---
+200901015 Strassen, Huorgarten  00907  00907                % 01478 AVL---
+200901014 Strassen, Hondseck    00908  00908                % 01478 AVL---
+200901003 Strassen, Aurélia     00909  00909                % 01478 AVL---
+200901020 Strassen, Benelux     00911  00911                % 01478 AVL---
+200901004 Strassen, Barblé      00912  00912                % 01478 AVL---
+200901017 Strassen, Kesseler    00913  00913                % 01478 AVL---
+200901016 Strassen, Geesseneck  00914  00914                % 01478 AVL---
+200901011 Strassen, Schoenacht  00914  00914                % 01478 AVL---
+200101002 Bertrange, Belle Eto  00917  00917                % 01478 AVL---
+200101021 Bertrange, Ecole Eur  00920                       % 01478 AVL---
+*Z 01479 AVL---       001 050                               % 01479 AVL---
+*L 28       200405035 200101021  00918  00950               % 01479 AVL---
+*A BE 200405035 200101021 000002  00918  00950              % 01479 AVL---
+*R 1 200101021 200405035 200101021  00918  00950            % 01479 AVL---
+*G AVG 200405035 200101021  00918  00950                    % 01479 AVL---
+*A VE 200405035 200101021 000002  00918  00950              % 01479 AVL---
+200405035 Luxembourg, Gare Cen         00918                % 01479 AVL---
+200405013 Centre, F.D. Rooseve  00923  00923                % 01479 AVL---
+200405025 Luxembourg/Centre, M  00927  00927                % 01479 AVL---
+200405045 Centre, Stäreplaz /   00930  00930                % 01479 AVL---
+200403017 Belair, Service Ince  00932  00932                % 01479 AVL---
+200403018 Belair, Stade         00933  00933                % 01479 AVL---
+200403021 Belair, Wandmillen    00934  00934                % 01479 AVL---
+200901015 Strassen, Huorgarten  00937  00937                % 01479 AVL---
+200901014 Strassen, Hondseck    00938  00938                % 01479 AVL---
+200901003 Strassen, Aurélia     00939  00939                % 01479 AVL---
+200901020 Strassen, Benelux     00941  00941                % 01479 AVL---
+200901004 Strassen, Barblé      00942  00942                % 01479 AVL---
+200901017 Strassen, Kesseler    00943  00943                % 01479 AVL---
+200901016 Strassen, Geesseneck  00944  00944                % 01479 AVL---
+200901011 Strassen, Schoenacht  00944  00944                % 01479 AVL---
+200101002 Bertrange, Belle Eto  00947  00947                % 01479 AVL---
+200101021 Bertrange, Ecole Eur  00950                       % 01479 AVL---
+*Z 01480 AVL---       001 020                               % 01480 AVL---
+*L 28       200405035 200101021  01018  01050               % 01480 AVL---
+*A BE 200405035 200101021 000002  01018  01050              % 01480 AVL---
+*R 1 200101021 200405035 200101021  01018  01050            % 01480 AVL---
+*G AVG 200405035 200101021  01018  01050                    % 01480 AVL---
+*A VE 200405035 200101021 000002  01018  01050              % 01480 AVL---
+200405035 Luxembourg, Gare Cen         01018                % 01480 AVL---
+200405013 Centre, F.D. Rooseve  01023  01023                % 01480 AVL---
+200405025 Luxembourg/Centre, M  01027  01027                % 01480 AVL---
+200405045 Centre, Stäreplaz /   01030  01030                % 01480 AVL---
+200403017 Belair, Service Ince  01032  01032                % 01480 AVL---
+200403018 Belair, Stade         01033  01033                % 01480 AVL---
+200403021 Belair, Wandmillen    01034  01034                % 01480 AVL---
+200901015 Strassen, Huorgarten  01037  01037                % 01480 AVL---
+200901014 Strassen, Hondseck    01038  01038                % 01480 AVL---
+200901003 Strassen, Aurélia     01039  01039                % 01480 AVL---
+200901020 Strassen, Benelux     01041  01041                % 01480 AVL---
+200901004 Strassen, Barblé      01042  01042                % 01480 AVL---
+200901017 Strassen, Kesseler    01043  01043                % 01480 AVL---
+200901016 Strassen, Geesseneck  01044  01044                % 01480 AVL---
+200901011 Strassen, Schoenacht  01044  01044                % 01480 AVL---
+200101002 Bertrange, Belle Eto  01047  01047                % 01480 AVL---
+200101021 Bertrange, Ecole Eur  01050                       % 01480 AVL---
+*Z 01481 AVL---       001 010                               % 01481 AVL---
+*L 28       200405035 200101021  01128  01200               % 01481 AVL---
+*A BE 200405035 200101021 000002  01128  01200              % 01481 AVL---
+*R 1 200101021 200405035 200101021  01128  01200            % 01481 AVL---
+*G AVG 200405035 200101021  01128  01200                    % 01481 AVL---
+*A VE 200405035 200101021 000002  01128  01200              % 01481 AVL---
+200405035 Luxembourg, Gare Cen         01128                % 01481 AVL---
+200405013 Centre, F.D. Rooseve  01133  01133                % 01481 AVL---
+200405025 Luxembourg/Centre, M  01137  01137                % 01481 AVL---
+200405045 Centre, Stäreplaz /   01140  01140                % 01481 AVL---
+200403017 Belair, Service Ince  01142  01142                % 01481 AVL---
+200403018 Belair, Stade         01143  01143                % 01481 AVL---
+200403021 Belair, Wandmillen    01144  01144                % 01481 AVL---
+200901015 Strassen, Huorgarten  01147  01147                % 01481 AVL---
+200901014 Strassen, Hondseck    01148  01148                % 01481 AVL---
+200901003 Strassen, Aurélia     01149  01149                % 01481 AVL---
+200901020 Strassen, Benelux     01151  01151                % 01481 AVL---
+200901004 Strassen, Barblé      01152  01152                % 01481 AVL---
+200901017 Strassen, Kesseler    01153  01153                % 01481 AVL---
+200901016 Strassen, Geesseneck  01154  01154                % 01481 AVL---
+200901011 Strassen, Schoenacht  01154  01154                % 01481 AVL---
+200101002 Bertrange, Belle Eto  01157  01157                % 01481 AVL---
+200101021 Bertrange, Ecole Eur  01200                       % 01481 AVL---
+*Z 01482 AVL---       001 050                               % 01482 AVL---
+*L 28       200405035 200101021  01158  01230               % 01482 AVL---
+*A BE 200405035 200101021 000002  01158  01230              % 01482 AVL---
+*R 1 200101021 200405035 200101021  01158  01230            % 01482 AVL---
+*G AVG 200405035 200101021  01158  01230                    % 01482 AVL---
+*A VE 200405035 200101021 000002  01158  01230              % 01482 AVL---
+200405035 Luxembourg, Gare Cen         01158                % 01482 AVL---
+200405013 Centre, F.D. Rooseve  01203  01203                % 01482 AVL---
+200405025 Luxembourg/Centre, M  01207  01207                % 01482 AVL---
+200405045 Centre, Stäreplaz /   01210  01210                % 01482 AVL---
+200403017 Belair, Service Ince  01212  01212                % 01482 AVL---
+200403018 Belair, Stade         01213  01213                % 01482 AVL---
+200403021 Belair, Wandmillen    01214  01214                % 01482 AVL---
+200901015 Strassen, Huorgarten  01217  01217                % 01482 AVL---
+200901014 Strassen, Hondseck    01218  01218                % 01482 AVL---
+200901003 Strassen, Aurélia     01219  01219                % 01482 AVL---
+200901020 Strassen, Benelux     01221  01221                % 01482 AVL---
+200901004 Strassen, Barblé      01222  01222                % 01482 AVL---
+200901017 Strassen, Kesseler    01223  01223                % 01482 AVL---
+200901016 Strassen, Geesseneck  01224  01224                % 01482 AVL---
+200901011 Strassen, Schoenacht  01224  01224                % 01482 AVL---
+200101002 Bertrange, Belle Eto  01227  01227                % 01482 AVL---
+200101021 Bertrange, Ecole Eur  01230                       % 01482 AVL---
+*Z 01483 AVL---       001 020                               % 01483 AVL---
+*L 28       200405035 200101021  01258  01330               % 01483 AVL---
+*A BE 200405035 200101021 000002  01258  01330              % 01483 AVL---
+*R 1 200101021 200405035 200101021  01258  01330            % 01483 AVL---
+*G AVG 200405035 200101021  01258  01330                    % 01483 AVL---
+*A VE 200405035 200101021 000002  01258  01330              % 01483 AVL---
+200405035 Luxembourg, Gare Cen         01258                % 01483 AVL---
+200405013 Centre, F.D. Rooseve  01303  01303                % 01483 AVL---
+200405025 Luxembourg/Centre, M  01307  01307                % 01483 AVL---
+200405045 Centre, Stäreplaz /   01310  01310                % 01483 AVL---
+200403017 Belair, Service Ince  01312  01312                % 01483 AVL---
+200403018 Belair, Stade         01313  01313                % 01483 AVL---
+200403021 Belair, Wandmillen    01314  01314                % 01483 AVL---
+200901015 Strassen, Huorgarten  01317  01317                % 01483 AVL---
+200901014 Strassen, Hondseck    01318  01318                % 01483 AVL---
+200901003 Strassen, Aurélia     01319  01319                % 01483 AVL---
+200901020 Strassen, Benelux     01321  01321                % 01483 AVL---
+200901004 Strassen, Barblé      01322  01322                % 01483 AVL---
+200901017 Strassen, Kesseler    01323  01323                % 01483 AVL---
+200901016 Strassen, Geesseneck  01324  01324                % 01483 AVL---
+200901011 Strassen, Schoenacht  01324  01324                % 01483 AVL---
+200101002 Bertrange, Belle Eto  01327  01327                % 01483 AVL---
+200101021 Bertrange, Ecole Eur  01330                       % 01483 AVL---
+*Z 01484 AVL---       001 010                               % 01484 AVL---
+*L 28       200405035 200101021  01408  01440               % 01484 AVL---
+*A BE 200405035 200101021 000002  01408  01440              % 01484 AVL---
+*R 1 200101021 200405035 200101021  01408  01440            % 01484 AVL---
+*G AVG 200405035 200101021  01408  01440                    % 01484 AVL---
+*A VE 200405035 200101021 000002  01408  01440              % 01484 AVL---
+200405035 Luxembourg, Gare Cen         01408                % 01484 AVL---
+200405013 Centre, F.D. Rooseve  01413  01413                % 01484 AVL---
+200405025 Luxembourg/Centre, M  01417  01417                % 01484 AVL---
+200405045 Centre, Stäreplaz /   01420  01420                % 01484 AVL---
+200403017 Belair, Service Ince  01422  01422                % 01484 AVL---
+200403018 Belair, Stade         01423  01423                % 01484 AVL---
+200403021 Belair, Wandmillen    01424  01424                % 01484 AVL---
+200901015 Strassen, Huorgarten  01427  01427                % 01484 AVL---
+200901014 Strassen, Hondseck    01428  01428                % 01484 AVL---
+200901003 Strassen, Aurélia     01429  01429                % 01484 AVL---
+200901020 Strassen, Benelux     01431  01431                % 01484 AVL---
+200901004 Strassen, Barblé      01432  01432                % 01484 AVL---
+200901017 Strassen, Kesseler    01433  01433                % 01484 AVL---
+200901016 Strassen, Geesseneck  01434  01434                % 01484 AVL---
+200901011 Strassen, Schoenacht  01434  01434                % 01484 AVL---
+200101002 Bertrange, Belle Eto  01437  01437                % 01484 AVL---
+200101021 Bertrange, Ecole Eur  01440                       % 01484 AVL---
+*Z 01485 AVL---       001 050                               % 01485 AVL---
+*L 28       200405035 200101021  01438  01510               % 01485 AVL---
+*A BE 200405035 200101021 000002  01438  01510              % 01485 AVL---
+*R 1 200101021 200405035 200101021  01438  01510            % 01485 AVL---
+*G AVG 200405035 200101021  01438  01510                    % 01485 AVL---
+*A VE 200405035 200101021 000002  01438  01510              % 01485 AVL---
+200405035 Luxembourg, Gare Cen         01438                % 01485 AVL---
+200405013 Centre, F.D. Rooseve  01443  01443                % 01485 AVL---
+200405025 Luxembourg/Centre, M  01447  01447                % 01485 AVL---
+200405045 Centre, Stäreplaz /   01450  01450                % 01485 AVL---
+200403017 Belair, Service Ince  01452  01452                % 01485 AVL---
+200403018 Belair, Stade         01453  01453                % 01485 AVL---
+200403021 Belair, Wandmillen    01454  01454                % 01485 AVL---
+200901015 Strassen, Huorgarten  01457  01457                % 01485 AVL---
+200901014 Strassen, Hondseck    01458  01458                % 01485 AVL---
+200901003 Strassen, Aurélia     01459  01459                % 01485 AVL---
+200901020 Strassen, Benelux     01501  01501                % 01485 AVL---
+200901004 Strassen, Barblé      01502  01502                % 01485 AVL---
+200901017 Strassen, Kesseler    01503  01503                % 01485 AVL---
+200901016 Strassen, Geesseneck  01504  01504                % 01485 AVL---
+200901011 Strassen, Schoenacht  01504  01504                % 01485 AVL---
+200101002 Bertrange, Belle Eto  01507  01507                % 01485 AVL---
+200101021 Bertrange, Ecole Eur  01510                       % 01485 AVL---
+*Z 01486 AVL---       001 020                               % 01486 AVL---
+*L 28       200405035 200101021  01538  01610               % 01486 AVL---
+*A BE 200405035 200101021 000002  01538  01610              % 01486 AVL---
+*R 1 200101021 200405035 200101021  01538  01610            % 01486 AVL---
+*G AVG 200405035 200101021  01538  01610                    % 01486 AVL---
+*A VE 200405035 200101021 000002  01538  01610              % 01486 AVL---
+200405035 Luxembourg, Gare Cen         01538                % 01486 AVL---
+200405013 Centre, F.D. Rooseve  01543  01543                % 01486 AVL---
+200405025 Luxembourg/Centre, M  01547  01547                % 01486 AVL---
+200405045 Centre, Stäreplaz /   01550  01550                % 01486 AVL---
+200403017 Belair, Service Ince  01552  01552                % 01486 AVL---
+200403018 Belair, Stade         01553  01553                % 01486 AVL---
+200403021 Belair, Wandmillen    01554  01554                % 01486 AVL---
+200901015 Strassen, Huorgarten  01557  01557                % 01486 AVL---
+200901014 Strassen, Hondseck    01558  01558                % 01486 AVL---
+200901003 Strassen, Aurélia     01559  01559                % 01486 AVL---
+200901020 Strassen, Benelux     01601  01601                % 01486 AVL---
+200901004 Strassen, Barblé      01602  01602                % 01486 AVL---
+200901017 Strassen, Kesseler    01603  01603                % 01486 AVL---
+200901016 Strassen, Geesseneck  01604  01604                % 01486 AVL---
+200901011 Strassen, Schoenacht  01604  01604                % 01486 AVL---
+200101002 Bertrange, Belle Eto  01607  01607                % 01486 AVL---
+200101021 Bertrange, Ecole Eur  01610                       % 01486 AVL---
+*Z 01487 AVL---       001 010                               % 01487 AVL---
+*L 28       200405035 200101021  01648  01720               % 01487 AVL---
+*A BE 200405035 200101021 000002  01648  01720              % 01487 AVL---
+*R 1 200101021 200405035 200101021  01648  01720            % 01487 AVL---
+*G AVG 200405035 200101021  01648  01720                    % 01487 AVL---
+*A VE 200405035 200101021 000002  01648  01720              % 01487 AVL---
+200405035 Luxembourg, Gare Cen         01648                % 01487 AVL---
+200405013 Centre, F.D. Rooseve  01653  01653                % 01487 AVL---
+200405025 Luxembourg/Centre, M  01657  01657                % 01487 AVL---
+200405045 Centre, Stäreplaz /   01700  01700                % 01487 AVL---
+200403017 Belair, Service Ince  01702  01702                % 01487 AVL---
+200403018 Belair, Stade         01703  01703                % 01487 AVL---
+200403021 Belair, Wandmillen    01704  01704                % 01487 AVL---
+200901015 Strassen, Huorgarten  01707  01707                % 01487 AVL---
+200901014 Strassen, Hondseck    01708  01708                % 01487 AVL---
+200901003 Strassen, Aurélia     01709  01709                % 01487 AVL---
+200901020 Strassen, Benelux     01711  01711                % 01487 AVL---
+200901004 Strassen, Barblé      01712  01712                % 01487 AVL---
+200901017 Strassen, Kesseler    01713  01713                % 01487 AVL---
+200901016 Strassen, Geesseneck  01714  01714                % 01487 AVL---
+200901011 Strassen, Schoenacht  01714  01714                % 01487 AVL---
+200101002 Bertrange, Belle Eto  01717  01717                % 01487 AVL---
+200101021 Bertrange, Ecole Eur  01720                       % 01487 AVL---
+*Z 01488 AVL---       001 050                               % 01488 AVL---
+*L 28       200405035 200101021  01718  01750               % 01488 AVL---
+*A BE 200405035 200101021 000002  01718  01750              % 01488 AVL---
+*R 1 200101021 200405035 200101021  01718  01750            % 01488 AVL---
+*G AVG 200405035 200101021  01718  01750                    % 01488 AVL---
+*A VE 200405035 200101021 000002  01718  01750              % 01488 AVL---
+200405035 Luxembourg, Gare Cen         01718                % 01488 AVL---
+200405013 Centre, F.D. Rooseve  01723  01723                % 01488 AVL---
+200405025 Luxembourg/Centre, M  01727  01727                % 01488 AVL---
+200405045 Centre, Stäreplaz /   01730  01730                % 01488 AVL---
+200403017 Belair, Service Ince  01732  01732                % 01488 AVL---
+200403018 Belair, Stade         01733  01733                % 01488 AVL---
+200403021 Belair, Wandmillen    01734  01734                % 01488 AVL---
+200901015 Strassen, Huorgarten  01737  01737                % 01488 AVL---
+200901014 Strassen, Hondseck    01738  01738                % 01488 AVL---
+200901003 Strassen, Aurélia     01739  01739                % 01488 AVL---
+200901020 Strassen, Benelux     01741  01741                % 01488 AVL---
+200901004 Strassen, Barblé      01742  01742                % 01488 AVL---
+200901017 Strassen, Kesseler    01743  01743                % 01488 AVL---
+200901016 Strassen, Geesseneck  01744  01744                % 01488 AVL---
+200901011 Strassen, Schoenacht  01744  01744                % 01488 AVL---
+200101002 Bertrange, Belle Eto  01747  01747                % 01488 AVL---
+200101021 Bertrange, Ecole Eur  01750                       % 01488 AVL---
+*Z 01489 AVL---       001 020                               % 01489 AVL---
+*L 28       200405035 200101021  01818  01850               % 01489 AVL---
+*A BE 200405035 200101021 000002  01818  01850              % 01489 AVL---
+*R 1 200101021 200405035 200101021  01818  01850            % 01489 AVL---
+*G AVG 200405035 200101021  01818  01850                    % 01489 AVL---
+*A VE 200405035 200101021 000002  01818  01850              % 01489 AVL---
+200405035 Luxembourg, Gare Cen         01818                % 01489 AVL---
+200405013 Centre, F.D. Rooseve  01823  01823                % 01489 AVL---
+200405025 Luxembourg/Centre, M  01827  01827                % 01489 AVL---
+200405045 Centre, Stäreplaz /   01830  01830                % 01489 AVL---
+200403017 Belair, Service Ince  01832  01832                % 01489 AVL---
+200403018 Belair, Stade         01833  01833                % 01489 AVL---
+200403021 Belair, Wandmillen    01834  01834                % 01489 AVL---
+200901015 Strassen, Huorgarten  01837  01837                % 01489 AVL---
+200901014 Strassen, Hondseck    01838  01838                % 01489 AVL---
+200901003 Strassen, Aurélia     01839  01839                % 01489 AVL---
+200901020 Strassen, Benelux     01841  01841                % 01489 AVL---
+200901004 Strassen, Barblé      01842  01842                % 01489 AVL---
+200901017 Strassen, Kesseler    01843  01843                % 01489 AVL---
+200901016 Strassen, Geesseneck  01844  01844                % 01489 AVL---
+200901011 Strassen, Schoenacht  01844  01844                % 01489 AVL---
+200101002 Bertrange, Belle Eto  01847  01847                % 01489 AVL---
+200101021 Bertrange, Ecole Eur  01850                       % 01489 AVL---
+*Z 01490 AVL---       002 015                               % 01490 AVL---
+*L 28       200101002 200405045  01303  01317               % 01490 AVL---
+*A BE 200101002 200405045 000010  01303  01317              % 01490 AVL---
+*R 2 200405045 200101002 200405045  01303  01317            % 01490 AVL---
+*G AVG 200101002 200405045  01303  01317                    % 01490 AVL---
+*A VE 200101002 200405045 000010  01303  01317              % 01490 AVL---
+200101002 Bertrange, Belle Eto         01303                % 01490 AVL---
+200901011 Strassen, Schoenacht  01305  01305                % 01490 AVL---
+200901016 Strassen, Geesseneck  01305  01305                % 01490 AVL---
+200901017 Strassen, Kesseler    01306  01306                % 01490 AVL---
+200901004 Strassen, Barblé      01307  01307                % 01490 AVL---
+200901020 Strassen, Benelux     01308  01308                % 01490 AVL---
+200901003 Strassen, Aurélia     01309  01309                % 01490 AVL---
+200901014 Strassen, Hondseck    01310  01310                % 01490 AVL---
+200901015 Strassen, Huorgarten  01311  01311                % 01490 AVL---
+200403021 Belair, Wandmillen    01313  01313                % 01490 AVL---
+200403018 Belair, Stade         01314  01314                % 01490 AVL---
+200403017 Belair, Service Ince  01315  01315                % 01490 AVL---
+200405045 Centre, Stäreplaz /   01317                       % 01490 AVL---
+*Z 01491 AVL---       001 030                               % 01491 AVL---
+*L 28       200101002 200405045  01433  01447               % 01491 AVL---
+*A BE 200101002 200405045 000010  01433  01447              % 01491 AVL---
+*R 2 200405045 200101002 200405045  01433  01447            % 01491 AVL---
+*G AVG 200101002 200405045  01433  01447                    % 01491 AVL---
+*A VE 200101002 200405045 000010  01433  01447              % 01491 AVL---
+200101002 Bertrange, Belle Eto         01433                % 01491 AVL---
+200901011 Strassen, Schoenacht  01435  01435                % 01491 AVL---
+200901016 Strassen, Geesseneck  01435  01435                % 01491 AVL---
+200901017 Strassen, Kesseler    01436  01436                % 01491 AVL---
+200901004 Strassen, Barblé      01437  01437                % 01491 AVL---
+200901020 Strassen, Benelux     01438  01438                % 01491 AVL---
+200901003 Strassen, Aurélia     01439  01439                % 01491 AVL---
+200901014 Strassen, Hondseck    01440  01440                % 01491 AVL---
+200901015 Strassen, Huorgarten  01441  01441                % 01491 AVL---
+200403021 Belair, Wandmillen    01443  01443                % 01491 AVL---
+200403018 Belair, Stade         01444  01444                % 01491 AVL---
+200403017 Belair, Service Ince  01445  01445                % 01491 AVL---
+200405045 Centre, Stäreplaz /   01447                       % 01491 AVL---
+*Z 01492 AVL---       001 015                               % 01492 AVL---
+*L 28       200101002 200405045  01548  01602               % 01492 AVL---
+*A BE 200101002 200405045 000010  01548  01602              % 01492 AVL---
+*R 2 200405045 200101002 200405045  01548  01602            % 01492 AVL---
+*G AVG 200101002 200405045  01548  01602                    % 01492 AVL---
+*A VE 200101002 200405045 000010  01548  01602              % 01492 AVL---
+200101002 Bertrange, Belle Eto         01548                % 01492 AVL---
+200901011 Strassen, Schoenacht  01550  01550                % 01492 AVL---
+200901016 Strassen, Geesseneck  01550  01550                % 01492 AVL---
+200901017 Strassen, Kesseler    01551  01551                % 01492 AVL---
+200901004 Strassen, Barblé      01552  01552                % 01492 AVL---
+200901020 Strassen, Benelux     01553  01553                % 01492 AVL---
+200901003 Strassen, Aurélia     01554  01554                % 01492 AVL---
+200901014 Strassen, Hondseck    01555  01555                % 01492 AVL---
+200901015 Strassen, Huorgarten  01556  01556                % 01492 AVL---
+200403021 Belair, Wandmillen    01558  01558                % 01492 AVL---
+200403018 Belair, Stade         01559  01559                % 01492 AVL---
+200403017 Belair, Service Ince  01600  01600                % 01492 AVL---
+200405045 Centre, Stäreplaz /   01602                       % 01492 AVL---
+*Z 01493 AVL---       001 060                               % 01493 AVL---
+*L 28       200101002 200405045  01633  01647               % 01493 AVL---
+*A BE 200101002 200405045 000010  01633  01647              % 01493 AVL---
+*R 2 200405045 200101002 200405045  01633  01647            % 01493 AVL---
+*G AVG 200101002 200405045  01633  01647                    % 01493 AVL---
+*A VE 200101002 200405045 000010  01633  01647              % 01493 AVL---
+200101002 Bertrange, Belle Eto         01633                % 01493 AVL---
+200901011 Strassen, Schoenacht  01635  01635                % 01493 AVL---
+200901016 Strassen, Geesseneck  01635  01635                % 01493 AVL---
+200901017 Strassen, Kesseler    01636  01636                % 01493 AVL---
+200901004 Strassen, Barblé      01637  01637                % 01493 AVL---
+200901020 Strassen, Benelux     01638  01638                % 01493 AVL---
+200901003 Strassen, Aurélia     01639  01639                % 01493 AVL---
+200901014 Strassen, Hondseck    01640  01640                % 01493 AVL---
+200901015 Strassen, Huorgarten  01641  01641                % 01493 AVL---
+200403021 Belair, Wandmillen    01643  01643                % 01493 AVL---
+200403018 Belair, Stade         01644  01644                % 01493 AVL---
+200403017 Belair, Service Ince  01645  01645                % 01493 AVL---
+200405045 Centre, Stäreplaz /   01647                       % 01493 AVL---
+*Z 01494 AVL---       001 015                               % 01494 AVL---
+*L 28       200101002 200405045  01803  01817               % 01494 AVL---
+*A BE 200101002 200405045 000010  01803  01817              % 01494 AVL---
+*R 2 200405045 200101002 200405045  01803  01817            % 01494 AVL---
+*G AVG 200101002 200405045  01803  01817                    % 01494 AVL---
+*A VE 200101002 200405045 000010  01803  01817              % 01494 AVL---
+200101002 Bertrange, Belle Eto         01803                % 01494 AVL---
+200901011 Strassen, Schoenacht  01805  01805                % 01494 AVL---
+200901016 Strassen, Geesseneck  01805  01805                % 01494 AVL---
+200901017 Strassen, Kesseler    01806  01806                % 01494 AVL---
+200901004 Strassen, Barblé      01807  01807                % 01494 AVL---
+200901020 Strassen, Benelux     01808  01808                % 01494 AVL---
+200901003 Strassen, Aurélia     01809  01809                % 01494 AVL---
+200901014 Strassen, Hondseck    01810  01810                % 01494 AVL---
+200901015 Strassen, Huorgarten  01811  01811                % 01494 AVL---
+200403021 Belair, Wandmillen    01813  01813                % 01494 AVL---
+200403018 Belair, Stade         01814  01814                % 01494 AVL---
+200403017 Belair, Service Ince  01815  01815                % 01494 AVL---
+200405045 Centre, Stäreplaz /   01817                       % 01494 AVL---
+*Z 01495 AVL---                                             % 01495 AVL---
+*L 28       200101002 200405045  01903  01917               % 01495 AVL---
+*A BE 200101002 200405045 000010  01903  01917              % 01495 AVL---
+*R 2 200405045 200101002 200405045  01903  01917            % 01495 AVL---
+*G AVG 200101002 200405045  01903  01917                    % 01495 AVL---
+*A VE 200101002 200405045 000010  01903  01917              % 01495 AVL---
+200101002 Bertrange, Belle Eto         01903                % 01495 AVL---
+200901011 Strassen, Schoenacht  01905  01905                % 01495 AVL---
+200901016 Strassen, Geesseneck  01905  01905                % 01495 AVL---
+200901017 Strassen, Kesseler    01906  01906                % 01495 AVL---
+200901004 Strassen, Barblé      01907  01907                % 01495 AVL---
+200901020 Strassen, Benelux     01908  01908                % 01495 AVL---
+200901003 Strassen, Aurélia     01909  01909                % 01495 AVL---
+200901014 Strassen, Hondseck    01910  01910                % 01495 AVL---
+200901015 Strassen, Huorgarten  01911  01911                % 01495 AVL---
+200403021 Belair, Wandmillen    01913  01913                % 01495 AVL---
+200403018 Belair, Stade         01914  01914                % 01495 AVL---
+200403017 Belair, Service Ince  01915  01915                % 01495 AVL---
+200405045 Centre, Stäreplaz /   01917                       % 01495 AVL---
+*Z 01496 AVL---       001 010                               % 01496 AVL---
+*L 28       200101021 200405035  00814  00846               % 01496 AVL---
+*A BE 200101021 200405035 000002  00814  00846              % 01496 AVL---
+*R 2 200405035 200101021 200405035  00814  00846            % 01496 AVL---
+*G AVG 200101021 200405035  00814  00846                    % 01496 AVL---
+*A VE 200101021 200405035 000002  00814  00846              % 01496 AVL---
+200101021 Bertrange, Ecole Eur         00814                % 01496 AVL---
+200101002 Bertrange, Belle Eto  00818  00818                % 01496 AVL---
+200901011 Strassen, Schoenacht  00819  00819                % 01496 AVL---
+200901016 Strassen, Geesseneck  00820  00820                % 01496 AVL---
+200901017 Strassen, Kesseler    00821  00821                % 01496 AVL---
+200901004 Strassen, Barblé      00822  00822                % 01496 AVL---
+200901020 Strassen, Benelux     00823  00823                % 01496 AVL---
+200901003 Strassen, Aurélia     00825  00825                % 01496 AVL---
+200901014 Strassen, Hondseck    00826  00826                % 01496 AVL---
+200901015 Strassen, Huorgarten  00827  00827                % 01496 AVL---
+200403021 Belair, Wandmillen    00829  00829                % 01496 AVL---
+200403018 Belair, Stade         00830  00830                % 01496 AVL---
+200403017 Belair, Service Ince  00831  00831                % 01496 AVL---
+200405045 Centre, Stäreplaz /   00834  00834                % 01496 AVL---
+200403020 Belair, Wampach       00836  00836                % 01496 AVL---
+200405025 Luxembourg/Centre, M  00838  00838                % 01496 AVL---
+200405054 Centre, F.D. Rooseve  00841  00841                % 01496 AVL---
+200405035 Luxembourg, Gare Cen  00846                       % 01496 AVL---
+*Z 01497 AVL---       001 050                               % 01497 AVL---
+*L 28       200101021 200405035  00844  00916               % 01497 AVL---
+*A BE 200101021 200405035 000002  00844  00916              % 01497 AVL---
+*R 2 200405035 200101021 200405035  00844  00916            % 01497 AVL---
+*G AVG 200101021 200405035  00844  00916                    % 01497 AVL---
+*A VE 200101021 200405035 000002  00844  00916              % 01497 AVL---
+200101021 Bertrange, Ecole Eur         00844                % 01497 AVL---
+200101002 Bertrange, Belle Eto  00848  00848                % 01497 AVL---
+200901011 Strassen, Schoenacht  00849  00849                % 01497 AVL---
+200901016 Strassen, Geesseneck  00850  00850                % 01497 AVL---
+200901017 Strassen, Kesseler    00851  00851                % 01497 AVL---
+200901004 Strassen, Barblé      00852  00852                % 01497 AVL---
+200901020 Strassen, Benelux     00853  00853                % 01497 AVL---
+200901003 Strassen, Aurélia     00855  00855                % 01497 AVL---
+200901014 Strassen, Hondseck    00856  00856                % 01497 AVL---
+200901015 Strassen, Huorgarten  00857  00857                % 01497 AVL---
+200403021 Belair, Wandmillen    00859  00859                % 01497 AVL---
+200403018 Belair, Stade         00900  00900                % 01497 AVL---
+200403017 Belair, Service Ince  00901  00901                % 01497 AVL---
+200405045 Centre, Stäreplaz /   00904  00904                % 01497 AVL---
+200403020 Belair, Wampach       00906  00906                % 01497 AVL---
+200405025 Luxembourg/Centre, M  00908  00908                % 01497 AVL---
+200405054 Centre, F.D. Rooseve  00911  00911                % 01497 AVL---
+200405035 Luxembourg, Gare Cen  00916                       % 01497 AVL---
+*Z 01498 AVL---       001 020                               % 01498 AVL---
+*L 28       200101021 200405035  00944  01016               % 01498 AVL---
+*A BE 200101021 200405035 000002  00944  01016              % 01498 AVL---
+*R 2 200405035 200101021 200405035  00944  01016            % 01498 AVL---
+*G AVG 200101021 200405035  00944  01016                    % 01498 AVL---
+*A VE 200101021 200405035 000002  00944  01016              % 01498 AVL---
+200101021 Bertrange, Ecole Eur         00944                % 01498 AVL---
+200101002 Bertrange, Belle Eto  00948  00948                % 01498 AVL---
+200901011 Strassen, Schoenacht  00949  00949                % 01498 AVL---
+200901016 Strassen, Geesseneck  00950  00950                % 01498 AVL---
+200901017 Strassen, Kesseler    00951  00951                % 01498 AVL---
+200901004 Strassen, Barblé      00952  00952                % 01498 AVL---
+200901020 Strassen, Benelux     00953  00953                % 01498 AVL---
+200901003 Strassen, Aurélia     00955  00955                % 01498 AVL---
+200901014 Strassen, Hondseck    00956  00956                % 01498 AVL---
+200901015 Strassen, Huorgarten  00957  00957                % 01498 AVL---
+200403021 Belair, Wandmillen    00959  00959                % 01498 AVL---
+200403018 Belair, Stade         01000  01000                % 01498 AVL---
+200403017 Belair, Service Ince  01001  01001                % 01498 AVL---
+200405045 Centre, Stäreplaz /   01004  01004                % 01498 AVL---
+200403020 Belair, Wampach       01006  01006                % 01498 AVL---
+200405025 Luxembourg/Centre, M  01008  01008                % 01498 AVL---
+200405054 Centre, F.D. Rooseve  01011  01011                % 01498 AVL---
+200405035 Luxembourg, Gare Cen  01016                       % 01498 AVL---
+*Z 01499 AVL---       001 010                               % 01499 AVL---
+*L 28       200101021 200405035  01054  01126               % 01499 AVL---
+*A BE 200101021 200405035 000002  01054  01126              % 01499 AVL---
+*R 2 200405035 200101021 200405035  01054  01126            % 01499 AVL---
+*G AVG 200101021 200405035  01054  01126                    % 01499 AVL---
+*A VE 200101021 200405035 000002  01054  01126              % 01499 AVL---
+200101021 Bertrange, Ecole Eur         01054                % 01499 AVL---
+200101002 Bertrange, Belle Eto  01058  01058                % 01499 AVL---
+200901011 Strassen, Schoenacht  01059  01059                % 01499 AVL---
+200901016 Strassen, Geesseneck  01100  01100                % 01499 AVL---
+200901017 Strassen, Kesseler    01101  01101                % 01499 AVL---
+200901004 Strassen, Barblé      01102  01102                % 01499 AVL---
+200901020 Strassen, Benelux     01103  01103                % 01499 AVL---
+200901003 Strassen, Aurélia     01105  01105                % 01499 AVL---
+200901014 Strassen, Hondseck    01106  01106                % 01499 AVL---
+200901015 Strassen, Huorgarten  01107  01107                % 01499 AVL---
+200403021 Belair, Wandmillen    01109  01109                % 01499 AVL---
+200403018 Belair, Stade         01110  01110                % 01499 AVL---
+200403017 Belair, Service Ince  01111  01111                % 01499 AVL---
+200405045 Centre, Stäreplaz /   01114  01114                % 01499 AVL---
+200403020 Belair, Wampach       01116  01116                % 01499 AVL---
+200405025 Luxembourg/Centre, M  01118  01118                % 01499 AVL---
+200405054 Centre, F.D. Rooseve  01121  01121                % 01499 AVL---
+200405035 Luxembourg, Gare Cen  01126                       % 01499 AVL---
+*Z 01500 AVL---       001 050                               % 01500 AVL---
+*L 28       200101021 200405035  01124  01156               % 01500 AVL---
+*A BE 200101021 200405035 000002  01124  01156              % 01500 AVL---
+*R 2 200405035 200101021 200405035  01124  01156            % 01500 AVL---
+*G AVG 200101021 200405035  01124  01156                    % 01500 AVL---
+*A VE 200101021 200405035 000002  01124  01156              % 01500 AVL---
+200101021 Bertrange, Ecole Eur         01124                % 01500 AVL---
+200101002 Bertrange, Belle Eto  01128  01128                % 01500 AVL---
+200901011 Strassen, Schoenacht  01129  01129                % 01500 AVL---
+200901016 Strassen, Geesseneck  01130  01130                % 01500 AVL---
+200901017 Strassen, Kesseler    01131  01131                % 01500 AVL---
+200901004 Strassen, Barblé      01132  01132                % 01500 AVL---
+200901020 Strassen, Benelux     01133  01133                % 01500 AVL---
+200901003 Strassen, Aurélia     01135  01135                % 01500 AVL---
+200901014 Strassen, Hondseck    01136  01136                % 01500 AVL---
+200901015 Strassen, Huorgarten  01137  01137                % 01500 AVL---
+200403021 Belair, Wandmillen    01139  01139                % 01500 AVL---
+200403018 Belair, Stade         01140  01140                % 01500 AVL---
+200403017 Belair, Service Ince  01141  01141                % 01500 AVL---
+200405045 Centre, Stäreplaz /   01144  01144                % 01500 AVL---
+200403020 Belair, Wampach       01146  01146                % 01500 AVL---
+200405025 Luxembourg/Centre, M  01148  01148                % 01500 AVL---
+200405054 Centre, F.D. Rooseve  01151  01151                % 01500 AVL---
+200405035 Luxembourg, Gare Cen  01156                       % 01500 AVL---
+*Z 01501 AVL---       001 020                               % 01501 AVL---
+*L 28       200101021 200405035  01224  01256               % 01501 AVL---
+*A BE 200101021 200405035 000002  01224  01256              % 01501 AVL---
+*R 2 200405035 200101021 200405035  01224  01256            % 01501 AVL---
+*G AVG 200101021 200405035  01224  01256                    % 01501 AVL---
+*A VE 200101021 200405035 000002  01224  01256              % 01501 AVL---
+200101021 Bertrange, Ecole Eur         01224                % 01501 AVL---
+200101002 Bertrange, Belle Eto  01228  01228                % 01501 AVL---
+200901011 Strassen, Schoenacht  01229  01229                % 01501 AVL---
+200901016 Strassen, Geesseneck  01230  01230                % 01501 AVL---
+200901017 Strassen, Kesseler    01231  01231                % 01501 AVL---
+200901004 Strassen, Barblé      01232  01232                % 01501 AVL---
+200901020 Strassen, Benelux     01233  01233                % 01501 AVL---
+200901003 Strassen, Aurélia     01235  01235                % 01501 AVL---
+200901014 Strassen, Hondseck    01236  01236                % 01501 AVL---
+200901015 Strassen, Huorgarten  01237  01237                % 01501 AVL---
+200403021 Belair, Wandmillen    01239  01239                % 01501 AVL---
+200403018 Belair, Stade         01240  01240                % 01501 AVL---
+200403017 Belair, Service Ince  01241  01241                % 01501 AVL---
+200405045 Centre, Stäreplaz /   01244  01244                % 01501 AVL---
+200403020 Belair, Wampach       01246  01246                % 01501 AVL---
+200405025 Luxembourg/Centre, M  01248  01248                % 01501 AVL---
+200405054 Centre, F.D. Rooseve  01251  01251                % 01501 AVL---
+200405035 Luxembourg, Gare Cen  01256                       % 01501 AVL---
+*Z 01502 AVL---       001 010                               % 01502 AVL---
+*L 28       200101021 200405035  01334  01406               % 01502 AVL---
+*A BE 200101021 200405035 000002  01334  01406              % 01502 AVL---
+*R 2 200405035 200101021 200405035  01334  01406            % 01502 AVL---
+*G AVG 200101021 200405035  01334  01406                    % 01502 AVL---
+*A VE 200101021 200405035 000002  01334  01406              % 01502 AVL---
+200101021 Bertrange, Ecole Eur         01334                % 01502 AVL---
+200101002 Bertrange, Belle Eto  01338  01338                % 01502 AVL---
+200901011 Strassen, Schoenacht  01339  01339                % 01502 AVL---
+200901016 Strassen, Geesseneck  01340  01340                % 01502 AVL---
+200901017 Strassen, Kesseler    01341  01341                % 01502 AVL---
+200901004 Strassen, Barblé      01342  01342                % 01502 AVL---
+200901020 Strassen, Benelux     01343  01343                % 01502 AVL---
+200901003 Strassen, Aurélia     01345  01345                % 01502 AVL---
+200901014 Strassen, Hondseck    01346  01346                % 01502 AVL---
+200901015 Strassen, Huorgarten  01347  01347                % 01502 AVL---
+200403021 Belair, Wandmillen    01349  01349                % 01502 AVL---
+200403018 Belair, Stade         01350  01350                % 01502 AVL---
+200403017 Belair, Service Ince  01351  01351                % 01502 AVL---
+200405045 Centre, Stäreplaz /   01354  01354                % 01502 AVL---
+200403020 Belair, Wampach       01356  01356                % 01502 AVL---
+200405025 Luxembourg/Centre, M  01358  01358                % 01502 AVL---
+200405054 Centre, F.D. Rooseve  01401  01401                % 01502 AVL---
+200405035 Luxembourg, Gare Cen  01406                       % 01502 AVL---
+*Z 01503 AVL---       001 050                               % 01503 AVL---
+*L 28       200101021 200405035  01404  01436               % 01503 AVL---
+*A BE 200101021 200405035 000002  01404  01436              % 01503 AVL---
+*R 2 200405035 200101021 200405035  01404  01436            % 01503 AVL---
+*G AVG 200101021 200405035  01404  01436                    % 01503 AVL---
+*A VE 200101021 200405035 000002  01404  01436              % 01503 AVL---
+200101021 Bertrange, Ecole Eur         01404                % 01503 AVL---
+200101002 Bertrange, Belle Eto  01408  01408                % 01503 AVL---
+200901011 Strassen, Schoenacht  01409  01409                % 01503 AVL---
+200901016 Strassen, Geesseneck  01410  01410                % 01503 AVL---
+200901017 Strassen, Kesseler    01411  01411                % 01503 AVL---
+200901004 Strassen, Barblé      01412  01412                % 01503 AVL---
+200901020 Strassen, Benelux     01413  01413                % 01503 AVL---
+200901003 Strassen, Aurélia     01415  01415                % 01503 AVL---
+200901014 Strassen, Hondseck    01416  01416                % 01503 AVL---
+200901015 Strassen, Huorgarten  01417  01417                % 01503 AVL---
+200403021 Belair, Wandmillen    01419  01419                % 01503 AVL---
+200403018 Belair, Stade         01420  01420                % 01503 AVL---
+200403017 Belair, Service Ince  01421  01421                % 01503 AVL---
+200405045 Centre, Stäreplaz /   01424  01424                % 01503 AVL---
+200403020 Belair, Wampach       01426  01426                % 01503 AVL---
+200405025 Luxembourg/Centre, M  01428  01428                % 01503 AVL---
+200405054 Centre, F.D. Rooseve  01431  01431                % 01503 AVL---
+200405035 Luxembourg, Gare Cen  01436                       % 01503 AVL---
+*Z 01504 AVL---       001 020                               % 01504 AVL---
+*L 28       200101021 200405035  01504  01536               % 01504 AVL---
+*A BE 200101021 200405035 000002  01504  01536              % 01504 AVL---
+*R 2 200405035 200101021 200405035  01504  01536            % 01504 AVL---
+*G AVG 200101021 200405035  01504  01536                    % 01504 AVL---
+*A VE 200101021 200405035 000002  01504  01536              % 01504 AVL---
+200101021 Bertrange, Ecole Eur         01504                % 01504 AVL---
+200101002 Bertrange, Belle Eto  01508  01508                % 01504 AVL---
+200901011 Strassen, Schoenacht  01509  01509                % 01504 AVL---
+200901016 Strassen, Geesseneck  01510  01510                % 01504 AVL---
+200901017 Strassen, Kesseler    01511  01511                % 01504 AVL---
+200901004 Strassen, Barblé      01512  01512                % 01504 AVL---
+200901020 Strassen, Benelux     01513  01513                % 01504 AVL---
+200901003 Strassen, Aurélia     01515  01515                % 01504 AVL---
+200901014 Strassen, Hondseck    01516  01516                % 01504 AVL---
+200901015 Strassen, Huorgarten  01517  01517                % 01504 AVL---
+200403021 Belair, Wandmillen    01519  01519                % 01504 AVL---
+200403018 Belair, Stade         01520  01520                % 01504 AVL---
+200403017 Belair, Service Ince  01521  01521                % 01504 AVL---
+200405045 Centre, Stäreplaz /   01524  01524                % 01504 AVL---
+200403020 Belair, Wampach       01526  01526                % 01504 AVL---
+200405025 Luxembourg/Centre, M  01528  01528                % 01504 AVL---
+200405054 Centre, F.D. Rooseve  01531  01531                % 01504 AVL---
+200405035 Luxembourg, Gare Cen  01536                       % 01504 AVL---
+*Z 01505 AVL---       001 010                               % 01505 AVL---
+*L 28       200101021 200405035  01614  01646               % 01505 AVL---
+*A BE 200101021 200405035 000002  01614  01646              % 01505 AVL---
+*R 2 200405035 200101021 200405035  01614  01646            % 01505 AVL---
+*G AVG 200101021 200405035  01614  01646                    % 01505 AVL---
+*A VE 200101021 200405035 000002  01614  01646              % 01505 AVL---
+200101021 Bertrange, Ecole Eur         01614                % 01505 AVL---
+200101002 Bertrange, Belle Eto  01618  01618                % 01505 AVL---
+200901011 Strassen, Schoenacht  01619  01619                % 01505 AVL---
+200901016 Strassen, Geesseneck  01620  01620                % 01505 AVL---
+200901017 Strassen, Kesseler    01621  01621                % 01505 AVL---
+200901004 Strassen, Barblé      01622  01622                % 01505 AVL---
+200901020 Strassen, Benelux     01623  01623                % 01505 AVL---
+200901003 Strassen, Aurélia     01625  01625                % 01505 AVL---
+200901014 Strassen, Hondseck    01626  01626                % 01505 AVL---
+200901015 Strassen, Huorgarten  01627  01627                % 01505 AVL---
+200403021 Belair, Wandmillen    01629  01629                % 01505 AVL---
+200403018 Belair, Stade         01630  01630                % 01505 AVL---
+200403017 Belair, Service Ince  01631  01631                % 01505 AVL---
+200405045 Centre, Stäreplaz /   01634  01634                % 01505 AVL---
+200403020 Belair, Wampach       01636  01636                % 01505 AVL---
+200405025 Luxembourg/Centre, M  01638  01638                % 01505 AVL---
+200405054 Centre, F.D. Rooseve  01641  01641                % 01505 AVL---
+200405035 Luxembourg, Gare Cen  01646                       % 01505 AVL---
+*Z 01506 AVL---       001 050                               % 01506 AVL---
+*L 28       200101021 200405035  01644  01716               % 01506 AVL---
+*A BE 200101021 200405035 000002  01644  01716              % 01506 AVL---
+*R 2 200405035 200101021 200405035  01644  01716            % 01506 AVL---
+*G AVG 200101021 200405035  01644  01716                    % 01506 AVL---
+*A VE 200101021 200405035 000002  01644  01716              % 01506 AVL---
+200101021 Bertrange, Ecole Eur         01644                % 01506 AVL---
+200101002 Bertrange, Belle Eto  01648  01648                % 01506 AVL---
+200901011 Strassen, Schoenacht  01649  01649                % 01506 AVL---
+200901016 Strassen, Geesseneck  01650  01650                % 01506 AVL---
+200901017 Strassen, Kesseler    01651  01651                % 01506 AVL---
+200901004 Strassen, Barblé      01652  01652                % 01506 AVL---
+200901020 Strassen, Benelux     01653  01653                % 01506 AVL---
+200901003 Strassen, Aurélia     01655  01655                % 01506 AVL---
+200901014 Strassen, Hondseck    01656  01656                % 01506 AVL---
+200901015 Strassen, Huorgarten  01657  01657                % 01506 AVL---
+200403021 Belair, Wandmillen    01659  01659                % 01506 AVL---
+200403018 Belair, Stade         01700  01700                % 01506 AVL---
+200403017 Belair, Service Ince  01701  01701                % 01506 AVL---
+200405045 Centre, Stäreplaz /   01704  01704                % 01506 AVL---
+200403020 Belair, Wampach       01706  01706                % 01506 AVL---
+200405025 Luxembourg/Centre, M  01708  01708                % 01506 AVL---
+200405054 Centre, F.D. Rooseve  01711  01711                % 01506 AVL---
+200405035 Luxembourg, Gare Cen  01716                       % 01506 AVL---
+*Z 01507 AVL---       001 020                               % 01507 AVL---
+*L 28       200101021 200405035  01744  01816               % 01507 AVL---
+*A BE 200101021 200405035 000002  01744  01816              % 01507 AVL---
+*R 2 200405035 200101021 200405035  01744  01816            % 01507 AVL---
+*G AVG 200101021 200405035  01744  01816                    % 01507 AVL---
+*A VE 200101021 200405035 000002  01744  01816              % 01507 AVL---
+200101021 Bertrange, Ecole Eur         01744                % 01507 AVL---
+200101002 Bertrange, Belle Eto  01748  01748                % 01507 AVL---
+200901011 Strassen, Schoenacht  01749  01749                % 01507 AVL---
+200901016 Strassen, Geesseneck  01750  01750                % 01507 AVL---
+200901017 Strassen, Kesseler    01751  01751                % 01507 AVL---
+200901004 Strassen, Barblé      01752  01752                % 01507 AVL---
+200901020 Strassen, Benelux     01753  01753                % 01507 AVL---
+200901003 Strassen, Aurélia     01755  01755                % 01507 AVL---
+200901014 Strassen, Hondseck    01756  01756                % 01507 AVL---
+200901015 Strassen, Huorgarten  01757  01757                % 01507 AVL---
+200403021 Belair, Wandmillen    01759  01759                % 01507 AVL---
+200403018 Belair, Stade         01800  01800                % 01507 AVL---
+200403017 Belair, Service Ince  01801  01801                % 01507 AVL---
+200405045 Centre, Stäreplaz /   01804  01804                % 01507 AVL---
+200403020 Belair, Wampach       01806  01806                % 01507 AVL---
+200405025 Luxembourg/Centre, M  01808  01808                % 01507 AVL---
+200405054 Centre, F.D. Rooseve  01811  01811                % 01507 AVL---
+200405035 Luxembourg, Gare Cen  01816                       % 01507 AVL---
+*Z 01508 AVL---       001 010                               % 01508 AVL---
+*L 28       200101021 200405035  01854  01926               % 01508 AVL---
+*A BE 200101021 200405035 000002  01854  01926              % 01508 AVL---
+*R 2 200405035 200101021 200405035  01854  01926            % 01508 AVL---
+*G AVG 200101021 200405035  01854  01926                    % 01508 AVL---
+*A VE 200101021 200405035 000002  01854  01926              % 01508 AVL---
+200101021 Bertrange, Ecole Eur         01854                % 01508 AVL---
+200101002 Bertrange, Belle Eto  01858  01858                % 01508 AVL---
+200901011 Strassen, Schoenacht  01859  01859                % 01508 AVL---
+200901016 Strassen, Geesseneck  01900  01900                % 01508 AVL---
+200901017 Strassen, Kesseler    01901  01901                % 01508 AVL---
+200901004 Strassen, Barblé      01902  01902                % 01508 AVL---
+200901020 Strassen, Benelux     01903  01903                % 01508 AVL---
+200901003 Strassen, Aurélia     01905  01905                % 01508 AVL---
+200901014 Strassen, Hondseck    01906  01906                % 01508 AVL---
+200901015 Strassen, Huorgarten  01907  01907                % 01508 AVL---
+200403021 Belair, Wandmillen    01909  01909                % 01508 AVL---
+200403018 Belair, Stade         01910  01910                % 01508 AVL---
+200403017 Belair, Service Ince  01911  01911                % 01508 AVL---
+200405045 Centre, Stäreplaz /   01914  01914                % 01508 AVL---
+200403020 Belair, Wampach       01916  01916                % 01508 AVL---
+200405025 Luxembourg/Centre, M  01918  01918                % 01508 AVL---
+200405054 Centre, F.D. Rooseve  01921  01921                % 01508 AVL---
+200405035 Luxembourg, Gare Cen  01926                       % 01508 AVL---
+*Z 01509 AVL---                                             % 01509 AVL---
+*L 28       200101021 200405035  01924  01956               % 01509 AVL---
+*A BE 200101021 200405035 000002  01924  01956              % 01509 AVL---
+*R 2 200405035 200101021 200405035  01924  01956            % 01509 AVL---
+*G AVG 200101021 200405035  01924  01956                    % 01509 AVL---
+*A VE 200101021 200405035 000002  01924  01956              % 01509 AVL---
+200101021 Bertrange, Ecole Eur         01924                % 01509 AVL---
+200101002 Bertrange, Belle Eto  01928  01928                % 01509 AVL---
+200901011 Strassen, Schoenacht  01929  01929                % 01509 AVL---
+200901016 Strassen, Geesseneck  01930  01930                % 01509 AVL---
+200901017 Strassen, Kesseler    01931  01931                % 01509 AVL---
+200901004 Strassen, Barblé      01932  01932                % 01509 AVL---
+200901020 Strassen, Benelux     01933  01933                % 01509 AVL---
+200901003 Strassen, Aurélia     01935  01935                % 01509 AVL---
+200901014 Strassen, Hondseck    01936  01936                % 01509 AVL---
+200901015 Strassen, Huorgarten  01937  01937                % 01509 AVL---
+200403021 Belair, Wandmillen    01939  01939                % 01509 AVL---
+200403018 Belair, Stade         01940  01940                % 01509 AVL---
+200403017 Belair, Service Ince  01941  01941                % 01509 AVL---
+200405045 Centre, Stäreplaz /   01944  01944                % 01509 AVL---
+200403020 Belair, Wampach       01946  01946                % 01509 AVL---
+200405025 Luxembourg/Centre, M  01948  01948                % 01509 AVL---
+200405054 Centre, F.D. Rooseve  01951  01951                % 01509 AVL---
+200405035 Luxembourg, Gare Cen  01956                       % 01509 AVL---
+*Z 01510 AVL---       001 010                               % 01510 AVL---
+*L 28       200101002 200405035  00658  00726               % 01510 AVL---
+*A BE 200101002 200405035 000002  00658  00726              % 01510 AVL---
+*R 2 200405035 200101002 200405035  00658  00726            % 01510 AVL---
+*G AVG 200101002 200405035  00658  00726                    % 01510 AVL---
+*A VE 200101002 200405035 000002  00658  00726              % 01510 AVL---
+200101002 Bertrange, Belle Eto         00658                % 01510 AVL---
+200901011 Strassen, Schoenacht  00659  00659                % 01510 AVL---
+200901016 Strassen, Geesseneck  00700  00700                % 01510 AVL---
+200901017 Strassen, Kesseler    00701  00701                % 01510 AVL---
+200901004 Strassen, Barblé      00702  00702                % 01510 AVL---
+200901020 Strassen, Benelux     00703  00703                % 01510 AVL---
+200901003 Strassen, Aurélia     00705  00705                % 01510 AVL---
+200901014 Strassen, Hondseck    00706  00706                % 01510 AVL---
+200901015 Strassen, Huorgarten  00707  00707                % 01510 AVL---
+200403021 Belair, Wandmillen    00709  00709                % 01510 AVL---
+200403018 Belair, Stade         00710  00710                % 01510 AVL---
+200403017 Belair, Service Ince  00711  00711                % 01510 AVL---
+200405045 Centre, Stäreplaz /   00714  00714                % 01510 AVL---
+200403020 Belair, Wampach       00716  00716                % 01510 AVL---
+200405025 Luxembourg/Centre, M  00718  00718                % 01510 AVL---
+200405054 Centre, F.D. Rooseve  00721  00721                % 01510 AVL---
+200405035 Luxembourg, Gare Cen  00726                       % 01510 AVL---
+*Z 01511 AVL---                                             % 01511 AVL---
+*L 28       200101002 200405035  00728  00756               % 01511 AVL---
+*A BE 200101002 200405035 000002  00728  00756              % 01511 AVL---
+*R 2 200405035 200101002 200405035  00728  00756            % 01511 AVL---
+*G AVG 200101002 200405035  00728  00756                    % 01511 AVL---
+*A VE 200101002 200405035 000002  00728  00756              % 01511 AVL---
+200101002 Bertrange, Belle Eto         00728                % 01511 AVL---
+200901011 Strassen, Schoenacht  00729  00729                % 01511 AVL---
+200901016 Strassen, Geesseneck  00730  00730                % 01511 AVL---
+200901017 Strassen, Kesseler    00731  00731                % 01511 AVL---
+200901004 Strassen, Barblé      00732  00732                % 01511 AVL---
+200901020 Strassen, Benelux     00733  00733                % 01511 AVL---
+200901003 Strassen, Aurélia     00735  00735                % 01511 AVL---
+200901014 Strassen, Hondseck    00736  00736                % 01511 AVL---
+200901015 Strassen, Huorgarten  00737  00737                % 01511 AVL---
+200403021 Belair, Wandmillen    00739  00739                % 01511 AVL---
+200403018 Belair, Stade         00740  00740                % 01511 AVL---
+200403017 Belair, Service Ince  00741  00741                % 01511 AVL---
+200405045 Centre, Stäreplaz /   00744  00744                % 01511 AVL---
+200403020 Belair, Wampach       00746  00746                % 01511 AVL---
+200405025 Luxembourg/Centre, M  00748  00748                % 01511 AVL---
+200405054 Centre, F.D. Rooseve  00751  00751                % 01511 AVL---
+200405035 Luxembourg, Gare Cen  00756                       % 01511 AVL---
+*Z 01512 AVL---                                             % 01512 AVL---
+*L 28       200101002 200405035  01126  01149               % 01512 AVL---
+*A BE 200101002 200405035 000003  01126  01149              % 01512 AVL---
+*R 2 200405035 200101002 200405035  01126  01149            % 01512 AVL---
+*G AVG 200101002 200405035  01126  01149                    % 01512 AVL---
+*A VE 200101002 200405035 000003  01126  01149              % 01512 AVL---
+200101002 Bertrange, Belle Eto         01126                % 01512 AVL---
+200901011 Strassen, Schoenacht  01127  01127                % 01512 AVL---
+200901016 Strassen, Geesseneck  01128  01128                % 01512 AVL---
+200901017 Strassen, Kesseler    01129  01129                % 01512 AVL---
+200901004 Strassen, Barblé      01130  01130                % 01512 AVL---
+200901020 Strassen, Benelux     01131  01131                % 01512 AVL---
+200901003 Strassen, Aurélia     01132  01132                % 01512 AVL---
+200901014 Strassen, Hondseck    01133  01133                % 01512 AVL---
+200901015 Strassen, Huorgarten  01134  01134                % 01512 AVL---
+200403021 Belair, Wandmillen    01136  01136                % 01512 AVL---
+200403018 Belair, Stade         01137  01137                % 01512 AVL---
+200403017 Belair, Service Ince  01138  01138                % 01512 AVL---
+200405045 Centre, Stäreplaz /   01139  01139                % 01512 AVL---
+200403020 Belair, Wampach       01141  01141                % 01512 AVL---
+200405025 Luxembourg/Centre, M  01143  01143                % 01512 AVL---
+200405054 Centre, F.D. Rooseve  01146  01146                % 01512 AVL---
+200405035 Luxembourg, Gare Cen  01149                       % 01512 AVL---
+*Z 01513 AVL---       001 030                               % 01513 AVL---
+*L 28       200101002 200405035  00738  00801               % 01513 AVL---
+*A BE 200101002 200405035 000005  00738  00801              % 01513 AVL---
+*R 2 200405035 200101002 200405035  00738  00801            % 01513 AVL---
+*G AVG 200101002 200405035  00738  00801                    % 01513 AVL---
+*A VE 200101002 200405035 000005  00738  00801              % 01513 AVL---
+200101002 Bertrange, Belle Eto         00738                % 01513 AVL---
+200901011 Strassen, Schoenacht  00739  00739                % 01513 AVL---
+200901016 Strassen, Geesseneck  00740  00740                % 01513 AVL---
+200901017 Strassen, Kesseler    00741  00741                % 01513 AVL---
+200901004 Strassen, Barblé      00742  00742                % 01513 AVL---
+200901020 Strassen, Benelux     00743  00743                % 01513 AVL---
+200901003 Strassen, Aurélia     00744  00744                % 01513 AVL---
+200901014 Strassen, Hondseck    00745  00745                % 01513 AVL---
+200901015 Strassen, Huorgarten  00746  00746                % 01513 AVL---
+200403021 Belair, Wandmillen    00748  00748                % 01513 AVL---
+200403018 Belair, Stade         00749  00749                % 01513 AVL---
+200403017 Belair, Service Ince  00750  00750                % 01513 AVL---
+200405045 Centre, Stäreplaz /   00751  00751                % 01513 AVL---
+200403020 Belair, Wampach       00753  00753                % 01513 AVL---
+200405025 Luxembourg/Centre, M  00755  00755                % 01513 AVL---
+200405054 Centre, F.D. Rooseve  00758  00758                % 01513 AVL---
+200405035 Luxembourg, Gare Cen  00801                       % 01513 AVL---
+*Z 01514 AVL---       001 030                               % 01514 AVL---
+*L 28       200101002 200405035  00853  00916               % 01514 AVL---
+*A BE 200101002 200405035 000005  00853  00916              % 01514 AVL---
+*R 2 200405035 200101002 200405035  00853  00916            % 01514 AVL---
+*G AVG 200101002 200405035  00853  00916                    % 01514 AVL---
+*A VE 200101002 200405035 000005  00853  00916              % 01514 AVL---
+200101002 Bertrange, Belle Eto         00853                % 01514 AVL---
+200901011 Strassen, Schoenacht  00854  00854                % 01514 AVL---
+200901016 Strassen, Geesseneck  00855  00855                % 01514 AVL---
+200901017 Strassen, Kesseler    00856  00856                % 01514 AVL---
+200901004 Strassen, Barblé      00857  00857                % 01514 AVL---
+200901020 Strassen, Benelux     00858  00858                % 01514 AVL---
+200901003 Strassen, Aurélia     00859  00859                % 01514 AVL---
+200901014 Strassen, Hondseck    00900  00900                % 01514 AVL---
+200901015 Strassen, Huorgarten  00901  00901                % 01514 AVL---
+200403021 Belair, Wandmillen    00903  00903                % 01514 AVL---
+200403018 Belair, Stade         00904  00904                % 01514 AVL---
+200403017 Belair, Service Ince  00905  00905                % 01514 AVL---
+200405045 Centre, Stäreplaz /   00906  00906                % 01514 AVL---
+200403020 Belair, Wampach       00908  00908                % 01514 AVL---
+200405025 Luxembourg/Centre, M  00910  00910                % 01514 AVL---
+200405054 Centre, F.D. Rooseve  00913  00913                % 01514 AVL---
+200405035 Luxembourg, Gare Cen  00916                       % 01514 AVL---
+*Z 01515 AVL---       001 030                               % 01515 AVL---
+*L 28       200101002 200405035  01008  01031               % 01515 AVL---
+*A BE 200101002 200405035 000005  01008  01031              % 01515 AVL---
+*R 2 200405035 200101002 200405035  01008  01031            % 01515 AVL---
+*G AVG 200101002 200405035  01008  01031                    % 01515 AVL---
+*A VE 200101002 200405035 000005  01008  01031              % 01515 AVL---
+200101002 Bertrange, Belle Eto         01008                % 01515 AVL---
+200901011 Strassen, Schoenacht  01009  01009                % 01515 AVL---
+200901016 Strassen, Geesseneck  01010  01010                % 01515 AVL---
+200901017 Strassen, Kesseler    01011  01011                % 01515 AVL---
+200901004 Strassen, Barblé      01012  01012                % 01515 AVL---
+200901020 Strassen, Benelux     01013  01013                % 01515 AVL---
+200901003 Strassen, Aurélia     01014  01014                % 01515 AVL---
+200901014 Strassen, Hondseck    01015  01015                % 01515 AVL---
+200901015 Strassen, Huorgarten  01016  01016                % 01515 AVL---
+200403021 Belair, Wandmillen    01018  01018                % 01515 AVL---
+200403018 Belair, Stade         01019  01019                % 01515 AVL---
+200403017 Belair, Service Ince  01020  01020                % 01515 AVL---
+200405045 Centre, Stäreplaz /   01021  01021                % 01515 AVL---
+200403020 Belair, Wampach       01023  01023                % 01515 AVL---
+200405025 Luxembourg/Centre, M  01025  01025                % 01515 AVL---
+200405054 Centre, F.D. Rooseve  01028  01028                % 01515 AVL---
+200405035 Luxembourg, Gare Cen  01031                       % 01515 AVL---
+*Z 01516 AVL---       001 030                               % 01516 AVL---
+*L 28       200101002 200405035  01123  01146               % 01516 AVL---
+*A BE 200101002 200405035 000005  01123  01146              % 01516 AVL---
+*R 2 200405035 200101002 200405035  01123  01146            % 01516 AVL---
+*G AVG 200101002 200405035  01123  01146                    % 01516 AVL---
+*A VE 200101002 200405035 000005  01123  01146              % 01516 AVL---
+200101002 Bertrange, Belle Eto         01123                % 01516 AVL---
+200901011 Strassen, Schoenacht  01124  01124                % 01516 AVL---
+200901016 Strassen, Geesseneck  01125  01125                % 01516 AVL---
+200901017 Strassen, Kesseler    01126  01126                % 01516 AVL---
+200901004 Strassen, Barblé      01127  01127                % 01516 AVL---
+200901020 Strassen, Benelux     01128  01128                % 01516 AVL---
+200901003 Strassen, Aurélia     01129  01129                % 01516 AVL---
+200901014 Strassen, Hondseck    01130  01130                % 01516 AVL---
+200901015 Strassen, Huorgarten  01131  01131                % 01516 AVL---
+200403021 Belair, Wandmillen    01133  01133                % 01516 AVL---
+200403018 Belair, Stade         01134  01134                % 01516 AVL---
+200403017 Belair, Service Ince  01135  01135                % 01516 AVL---
+200405045 Centre, Stäreplaz /   01136  01136                % 01516 AVL---
+200403020 Belair, Wampach       01138  01138                % 01516 AVL---
+200405025 Luxembourg/Centre, M  01140  01140                % 01516 AVL---
+200405054 Centre, F.D. Rooseve  01143  01143                % 01516 AVL---
+200405035 Luxembourg, Gare Cen  01146                       % 01516 AVL---
+*Z 01517 AVL---       001 030                               % 01517 AVL---
+*L 28       200101002 200405035  01238  01301               % 01517 AVL---
+*A BE 200101002 200405035 000005  01238  01301              % 01517 AVL---
+*R 2 200405035 200101002 200405035  01238  01301            % 01517 AVL---
+*G AVG 200101002 200405035  01238  01301                    % 01517 AVL---
+*A VE 200101002 200405035 000005  01238  01301              % 01517 AVL---
+200101002 Bertrange, Belle Eto         01238                % 01517 AVL---
+200901011 Strassen, Schoenacht  01239  01239                % 01517 AVL---
+200901016 Strassen, Geesseneck  01240  01240                % 01517 AVL---
+200901017 Strassen, Kesseler    01241  01241                % 01517 AVL---
+200901004 Strassen, Barblé      01242  01242                % 01517 AVL---
+200901020 Strassen, Benelux     01243  01243                % 01517 AVL---
+200901003 Strassen, Aurélia     01244  01244                % 01517 AVL---
+200901014 Strassen, Hondseck    01245  01245                % 01517 AVL---
+200901015 Strassen, Huorgarten  01246  01246                % 01517 AVL---
+200403021 Belair, Wandmillen    01248  01248                % 01517 AVL---
+200403018 Belair, Stade         01249  01249                % 01517 AVL---
+200403017 Belair, Service Ince  01250  01250                % 01517 AVL---
+200405045 Centre, Stäreplaz /   01251  01251                % 01517 AVL---
+200403020 Belair, Wampach       01253  01253                % 01517 AVL---
+200405025 Luxembourg/Centre, M  01255  01255                % 01517 AVL---
+200405054 Centre, F.D. Rooseve  01258  01258                % 01517 AVL---
+200405035 Luxembourg, Gare Cen  01301                       % 01517 AVL---
+*Z 01518 AVL---       001 030                               % 01518 AVL---
+*L 28       200101002 200405035  01353  01416               % 01518 AVL---
+*A BE 200101002 200405035 000005  01353  01416              % 01518 AVL---
+*R 2 200405035 200101002 200405035  01353  01416            % 01518 AVL---
+*G AVG 200101002 200405035  01353  01416                    % 01518 AVL---
+*A VE 200101002 200405035 000005  01353  01416              % 01518 AVL---
+200101002 Bertrange, Belle Eto         01353                % 01518 AVL---
+200901011 Strassen, Schoenacht  01354  01354                % 01518 AVL---
+200901016 Strassen, Geesseneck  01355  01355                % 01518 AVL---
+200901017 Strassen, Kesseler    01356  01356                % 01518 AVL---
+200901004 Strassen, Barblé      01357  01357                % 01518 AVL---
+200901020 Strassen, Benelux     01358  01358                % 01518 AVL---
+200901003 Strassen, Aurélia     01359  01359                % 01518 AVL---
+200901014 Strassen, Hondseck    01400  01400                % 01518 AVL---
+200901015 Strassen, Huorgarten  01401  01401                % 01518 AVL---
+200403021 Belair, Wandmillen    01403  01403                % 01518 AVL---
+200403018 Belair, Stade         01404  01404                % 01518 AVL---
+200403017 Belair, Service Ince  01405  01405                % 01518 AVL---
+200405045 Centre, Stäreplaz /   01406  01406                % 01518 AVL---
+200403020 Belair, Wampach       01408  01408                % 01518 AVL---
+200405025 Luxembourg/Centre, M  01410  01410                % 01518 AVL---
+200405054 Centre, F.D. Rooseve  01413  01413                % 01518 AVL---
+200405035 Luxembourg, Gare Cen  01416                       % 01518 AVL---
+*Z 01519 AVL---       001 030                               % 01519 AVL---
+*L 28       200101002 200405035  01508  01531               % 01519 AVL---
+*A BE 200101002 200405035 000005  01508  01531              % 01519 AVL---
+*R 2 200405035 200101002 200405035  01508  01531            % 01519 AVL---
+*G AVG 200101002 200405035  01508  01531                    % 01519 AVL---
+*A VE 200101002 200405035 000005  01508  01531              % 01519 AVL---
+200101002 Bertrange, Belle Eto         01508                % 01519 AVL---
+200901011 Strassen, Schoenacht  01509  01509                % 01519 AVL---
+200901016 Strassen, Geesseneck  01510  01510                % 01519 AVL---
+200901017 Strassen, Kesseler    01511  01511                % 01519 AVL---
+200901004 Strassen, Barblé      01512  01512                % 01519 AVL---
+200901020 Strassen, Benelux     01513  01513                % 01519 AVL---
+200901003 Strassen, Aurélia     01514  01514                % 01519 AVL---
+200901014 Strassen, Hondseck    01515  01515                % 01519 AVL---
+200901015 Strassen, Huorgarten  01516  01516                % 01519 AVL---
+200403021 Belair, Wandmillen    01518  01518                % 01519 AVL---
+200403018 Belair, Stade         01519  01519                % 01519 AVL---
+200403017 Belair, Service Ince  01520  01520                % 01519 AVL---
+200405045 Centre, Stäreplaz /   01521  01521                % 01519 AVL---
+200403020 Belair, Wampach       01523  01523                % 01519 AVL---
+200405025 Luxembourg/Centre, M  01525  01525                % 01519 AVL---
+200405054 Centre, F.D. Rooseve  01528  01528                % 01519 AVL---
+200405035 Luxembourg, Gare Cen  01531                       % 01519 AVL---
+*Z 01520 AVL---       001 030                               % 01520 AVL---
+*L 28       200101002 200405035  01623  01646               % 01520 AVL---
+*A BE 200101002 200405035 000005  01623  01646              % 01520 AVL---
+*R 2 200405035 200101002 200405035  01623  01646            % 01520 AVL---
+*G AVG 200101002 200405035  01623  01646                    % 01520 AVL---
+*A VE 200101002 200405035 000005  01623  01646              % 01520 AVL---
+200101002 Bertrange, Belle Eto         01623                % 01520 AVL---
+200901011 Strassen, Schoenacht  01624  01624                % 01520 AVL---
+200901016 Strassen, Geesseneck  01625  01625                % 01520 AVL---
+200901017 Strassen, Kesseler    01626  01626                % 01520 AVL---
+200901004 Strassen, Barblé      01627  01627                % 01520 AVL---
+200901020 Strassen, Benelux     01628  01628                % 01520 AVL---
+200901003 Strassen, Aurélia     01629  01629                % 01520 AVL---
+200901014 Strassen, Hondseck    01630  01630                % 01520 AVL---
+200901015 Strassen, Huorgarten  01631  01631                % 01520 AVL---
+200403021 Belair, Wandmillen    01633  01633                % 01520 AVL---
+200403018 Belair, Stade         01634  01634                % 01520 AVL---
+200403017 Belair, Service Ince  01635  01635                % 01520 AVL---
+200405045 Centre, Stäreplaz /   01636  01636                % 01520 AVL---
+200403020 Belair, Wampach       01638  01638                % 01520 AVL---
+200405025 Luxembourg/Centre, M  01640  01640                % 01520 AVL---
+200405054 Centre, F.D. Rooseve  01643  01643                % 01520 AVL---
+200405035 Luxembourg, Gare Cen  01646                       % 01520 AVL---
+*Z 01521 AVL---       001 030                               % 01521 AVL---
+*L 28       200101002 200405035  01738  01801               % 01521 AVL---
+*A BE 200101002 200405035 000005  01738  01801              % 01521 AVL---
+*R 2 200405035 200101002 200405035  01738  01801            % 01521 AVL---
+*G AVG 200101002 200405035  01738  01801                    % 01521 AVL---
+*A VE 200101002 200405035 000005  01738  01801              % 01521 AVL---
+200101002 Bertrange, Belle Eto         01738                % 01521 AVL---
+200901011 Strassen, Schoenacht  01739  01739                % 01521 AVL---
+200901016 Strassen, Geesseneck  01740  01740                % 01521 AVL---
+200901017 Strassen, Kesseler    01741  01741                % 01521 AVL---
+200901004 Strassen, Barblé      01742  01742                % 01521 AVL---
+200901020 Strassen, Benelux     01743  01743                % 01521 AVL---
+200901003 Strassen, Aurélia     01744  01744                % 01521 AVL---
+200901014 Strassen, Hondseck    01745  01745                % 01521 AVL---
+200901015 Strassen, Huorgarten  01746  01746                % 01521 AVL---
+200403021 Belair, Wandmillen    01748  01748                % 01521 AVL---
+200403018 Belair, Stade         01749  01749                % 01521 AVL---
+200403017 Belair, Service Ince  01750  01750                % 01521 AVL---
+200405045 Centre, Stäreplaz /   01751  01751                % 01521 AVL---
+200403020 Belair, Wampach       01753  01753                % 01521 AVL---
+200405025 Luxembourg/Centre, M  01755  01755                % 01521 AVL---
+200405054 Centre, F.D. Rooseve  01758  01758                % 01521 AVL---
+200405035 Luxembourg, Gare Cen  01801                       % 01521 AVL---
+*Z 01522 AVL---                                             % 01522 AVL---
+*L 28       200101002 200405035  01853  01916               % 01522 AVL---
+*A BE 200101002 200405035 000005  01853  01916              % 01522 AVL---
+*R 2 200405035 200101002 200405035  01853  01916            % 01522 AVL---
+*G AVG 200101002 200405035  01853  01916                    % 01522 AVL---
+*A VE 200101002 200405035 000005  01853  01916              % 01522 AVL---
+200101002 Bertrange, Belle Eto         01853                % 01522 AVL---
+200901011 Strassen, Schoenacht  01854  01854                % 01522 AVL---
+200901016 Strassen, Geesseneck  01855  01855                % 01522 AVL---
+200901017 Strassen, Kesseler    01856  01856                % 01522 AVL---
+200901004 Strassen, Barblé      01857  01857                % 01522 AVL---
+200901020 Strassen, Benelux     01858  01858                % 01522 AVL---
+200901003 Strassen, Aurélia     01859  01859                % 01522 AVL---
+200901014 Strassen, Hondseck    01900  01900                % 01522 AVL---
+200901015 Strassen, Huorgarten  01901  01901                % 01522 AVL---
+200403021 Belair, Wandmillen    01903  01903                % 01522 AVL---
+200403018 Belair, Stade         01904  01904                % 01522 AVL---
+200403017 Belair, Service Ince  01905  01905                % 01522 AVL---
+200405045 Centre, Stäreplaz /   01906  01906                % 01522 AVL---
+200403020 Belair, Wampach       01908  01908                % 01522 AVL---
+200405025 Luxembourg/Centre, M  01910  01910                % 01522 AVL---
+200405054 Centre, F.D. Rooseve  01913  01913                % 01522 AVL---
+200405035 Luxembourg, Gare Cen  01916                       % 01522 AVL---
+*Z 01523 AVL---       002 120                               % 01523 AVL---
+*L 28       200101002 200405035  01326  01349               % 01523 AVL---
+*A BE 200101002 200405035 000011  01326  01349              % 01523 AVL---
+*R 2 200405035 200101002 200405035  01326  01349            % 01523 AVL---
+*G AVG 200101002 200405035  01326  01349                    % 01523 AVL---
+*A VE 200101002 200405035 000011  01326  01349              % 01523 AVL---
+200101002 Bertrange, Belle Eto         01326                % 01523 AVL---
+200901011 Strassen, Schoenacht  01327  01327                % 01523 AVL---
+200901016 Strassen, Geesseneck  01328  01328                % 01523 AVL---
+200901017 Strassen, Kesseler    01329  01329                % 01523 AVL---
+200901004 Strassen, Barblé      01330  01330                % 01523 AVL---
+200901020 Strassen, Benelux     01331  01331                % 01523 AVL---
+200901003 Strassen, Aurélia     01332  01332                % 01523 AVL---
+200901014 Strassen, Hondseck    01333  01333                % 01523 AVL---
+200901015 Strassen, Huorgarten  01334  01334                % 01523 AVL---
+200403021 Belair, Wandmillen    01336  01336                % 01523 AVL---
+200403018 Belair, Stade         01337  01337                % 01523 AVL---
+200403017 Belair, Service Ince  01338  01338                % 01523 AVL---
+200405045 Centre, Stäreplaz /   01339  01339                % 01523 AVL---
+200403020 Belair, Wampach       01341  01341                % 01523 AVL---
+200405025 Luxembourg/Centre, M  01343  01343                % 01523 AVL---
+200405054 Centre, F.D. Rooseve  01346  01346                % 01523 AVL---
+200405035 Luxembourg, Gare Cen  01349                       % 01523 AVL---
+*Z 01524 AVL---                                             % 01524 AVL---
+*L 28       200101002 200405035  01926  01949               % 01524 AVL---
+*A BE 200101002 200405035 000024  01926  01949              % 01524 AVL---
+*R 2 200405035 200101002 200405035  01926  01949            % 01524 AVL---
+*G AVG 200101002 200405035  01926  01949                    % 01524 AVL---
+*A VE 200101002 200405035 000024  01926  01949              % 01524 AVL---
+200101002 Bertrange, Belle Eto         01926                % 01524 AVL---
+200901011 Strassen, Schoenacht  01927  01927                % 01524 AVL---
+200901016 Strassen, Geesseneck  01928  01928                % 01524 AVL---
+200901017 Strassen, Kesseler    01929  01929                % 01524 AVL---
+200901004 Strassen, Barblé      01930  01930                % 01524 AVL---
+200901020 Strassen, Benelux     01931  01931                % 01524 AVL---
+200901003 Strassen, Aurélia     01932  01932                % 01524 AVL---
+200901014 Strassen, Hondseck    01933  01933                % 01524 AVL---
+200901015 Strassen, Huorgarten  01934  01934                % 01524 AVL---
+200403021 Belair, Wandmillen    01936  01936                % 01524 AVL---
+200403018 Belair, Stade         01937  01937                % 01524 AVL---
+200403017 Belair, Service Ince  01938  01938                % 01524 AVL---
+200405045 Centre, Stäreplaz /   01939  01939                % 01524 AVL---
+200403020 Belair, Wampach       01941  01941                % 01524 AVL---
+200405025 Luxembourg/Centre, M  01943  01943                % 01524 AVL---
+200405054 Centre, F.D. Rooseve  01946  01946                % 01524 AVL---
+200405035 Luxembourg, Gare Cen  01949                       % 01524 AVL---
+*Z 01525 AVL---       001 120                               % 01525 AVL---
+*L 28       200101002 200405035  00728  00749               % 01525 AVL---
+*A BE 200101002 200405035 000003  00728  00749              % 01525 AVL---
+*R 2 200405035 200101002 200405035  00728  00749            % 01525 AVL---
+*G AVG 200101002 200405035  00728  00749                    % 01525 AVL---
+*A VE 200101002 200405035 000003  00728  00749              % 01525 AVL---
+200101002 Bertrange, Belle Eto         00728                % 01525 AVL---
+200901011 Strassen, Schoenacht  00729  00729                % 01525 AVL---
+200901016 Strassen, Geesseneck  00729  00729                % 01525 AVL---
+200901017 Strassen, Kesseler    00730  00730                % 01525 AVL---
+200901004 Strassen, Barblé      00731  00731                % 01525 AVL---
+200901020 Strassen, Benelux     00732  00732                % 01525 AVL---
+200901003 Strassen, Aurélia     00733  00733                % 01525 AVL---
+200901014 Strassen, Hondseck    00733  00733                % 01525 AVL---
+200901015 Strassen, Huorgarten  00734  00734                % 01525 AVL---
+200403021 Belair, Wandmillen    00736  00736                % 01525 AVL---
+200403018 Belair, Stade         00737  00737                % 01525 AVL---
+200403017 Belair, Service Ince  00738  00738                % 01525 AVL---
+200405045 Centre, Stäreplaz /   00739  00739                % 01525 AVL---
+200403020 Belair, Wampach       00741  00741                % 01525 AVL---
+200405025 Luxembourg/Centre, M  00743  00743                % 01525 AVL---
+200405054 Centre, F.D. Rooseve  00745  00745                % 01525 AVL---
+200405035 Luxembourg, Gare Cen  00749                       % 01525 AVL---
+*Z 01526 AVL---       001 780                               % 01526 AVL---
+*L 28       200101002 200405035  00658  00719               % 01526 AVL---
+*A BE 200101002 200405035 000005  00658  00719              % 01526 AVL---
+*R 2 200405035 200101002 200405035  00658  00719            % 01526 AVL---
+*G AVG 200101002 200405035  00658  00719                    % 01526 AVL---
+*A VE 200101002 200405035 000005  00658  00719              % 01526 AVL---
+200101002 Bertrange, Belle Eto         00658                % 01526 AVL---
+200901011 Strassen, Schoenacht  00659  00659                % 01526 AVL---
+200901016 Strassen, Geesseneck  00659  00659                % 01526 AVL---
+200901017 Strassen, Kesseler    00700  00700                % 01526 AVL---
+200901004 Strassen, Barblé      00701  00701                % 01526 AVL---
+200901020 Strassen, Benelux     00702  00702                % 01526 AVL---
+200901003 Strassen, Aurélia     00703  00703                % 01526 AVL---
+200901014 Strassen, Hondseck    00703  00703                % 01526 AVL---
+200901015 Strassen, Huorgarten  00704  00704                % 01526 AVL---
+200403021 Belair, Wandmillen    00706  00706                % 01526 AVL---
+200403018 Belair, Stade         00707  00707                % 01526 AVL---
+200403017 Belair, Service Ince  00708  00708                % 01526 AVL---
+200405045 Centre, Stäreplaz /   00709  00709                % 01526 AVL---
+200403020 Belair, Wampach       00711  00711                % 01526 AVL---
+200405025 Luxembourg/Centre, M  00713  00713                % 01526 AVL---
+200405054 Centre, F.D. Rooseve  00715  00715                % 01526 AVL---
+200405035 Luxembourg, Gare Cen  00719                       % 01526 AVL---
+*Z 01527 AVL---                                             % 01527 AVL---
+*L 28       200101002 200405035  02158  02219               % 01527 AVL---
+*A BE 200101002 200405035 000005  02158  02219              % 01527 AVL---
+*R 2 200405035 200101002 200405035  02158  02219            % 01527 AVL---
+*G AVG 200101002 200405035  02158  02219                    % 01527 AVL---
+*A VE 200101002 200405035 000005  02158  02219              % 01527 AVL---
+200101002 Bertrange, Belle Eto         02158                % 01527 AVL---
+200901011 Strassen, Schoenacht  02159  02159                % 01527 AVL---
+200901016 Strassen, Geesseneck  02159  02159                % 01527 AVL---
+200901017 Strassen, Kesseler    02200  02200                % 01527 AVL---
+200901004 Strassen, Barblé      02201  02201                % 01527 AVL---
+200901020 Strassen, Benelux     02202  02202                % 01527 AVL---
+200901003 Strassen, Aurélia     02203  02203                % 01527 AVL---
+200901014 Strassen, Hondseck    02203  02203                % 01527 AVL---
+200901015 Strassen, Huorgarten  02204  02204                % 01527 AVL---
+200403021 Belair, Wandmillen    02206  02206                % 01527 AVL---
+200403018 Belair, Stade         02207  02207                % 01527 AVL---
+200403017 Belair, Service Ince  02208  02208                % 01527 AVL---
+200405045 Centre, Stäreplaz /   02209  02209                % 01527 AVL---
+200403020 Belair, Wampach       02211  02211                % 01527 AVL---
+200405025 Luxembourg/Centre, M  02213  02213                % 01527 AVL---
+200405054 Centre, F.D. Rooseve  02215  02215                % 01527 AVL---
+200405035 Luxembourg, Gare Cen  02219                       % 01527 AVL---
+*Z 01528 AVL---       001 120                               % 01528 AVL---
+*L 28       200101002 200405035  02058  02119               % 01528 AVL---
+*A BE 200101002 200405035 000010  02058  02119              % 01528 AVL---
+*R 2 200405035 200101002 200405035  02058  02119            % 01528 AVL---
+*G AVG 200101002 200405035  02058  02119                    % 01528 AVL---
+*A VE 200101002 200405035 000010  02058  02119              % 01528 AVL---
+200101002 Bertrange, Belle Eto         02058                % 01528 AVL---
+200901011 Strassen, Schoenacht  02059  02059                % 01528 AVL---
+200901016 Strassen, Geesseneck  02059  02059                % 01528 AVL---
+200901017 Strassen, Kesseler    02100  02100                % 01528 AVL---
+200901004 Strassen, Barblé      02101  02101                % 01528 AVL---
+200901020 Strassen, Benelux     02102  02102                % 01528 AVL---
+200901003 Strassen, Aurélia     02103  02103                % 01528 AVL---
+200901014 Strassen, Hondseck    02103  02103                % 01528 AVL---
+200901015 Strassen, Huorgarten  02104  02104                % 01528 AVL---
+200403021 Belair, Wandmillen    02106  02106                % 01528 AVL---
+200403018 Belair, Stade         02107  02107                % 01528 AVL---
+200403017 Belair, Service Ince  02108  02108                % 01528 AVL---
+200405045 Centre, Stäreplaz /   02109  02109                % 01528 AVL---
+200403020 Belair, Wampach       02111  02111                % 01528 AVL---
+200405025 Luxembourg/Centre, M  02113  02113                % 01528 AVL---
+200405054 Centre, F.D. Rooseve  02115  02115                % 01528 AVL---
+200405035 Luxembourg, Gare Cen  02119                       % 01528 AVL---
+*Z 01529 AVL---       001 850                               % 01529 AVL---
+*L 28       200101002 200405035  00558  00619               % 01529 AVL---
+*A BE 200101002 200405035 000002  00558  00619              % 01529 AVL---
+*R 2 200405035 200101002 200405035  00558  00619            % 01529 AVL---
+*G AVG 200101002 200405035  00558  00619                    % 01529 AVL---
+*A VE 200101002 200405035 000002  00558  00619              % 01529 AVL---
+200101002 Bertrange, Belle Eto         00558                % 01529 AVL---
+200901011 Strassen, Schoenacht  00559  00559                % 01529 AVL---
+200901016 Strassen, Geesseneck  00559  00559                % 01529 AVL---
+200901017 Strassen, Kesseler    00600  00600                % 01529 AVL---
+200901004 Strassen, Barblé      00601  00601                % 01529 AVL---
+200901020 Strassen, Benelux     00602  00602                % 01529 AVL---
+200901003 Strassen, Aurélia     00603  00603                % 01529 AVL---
+200901014 Strassen, Hondseck    00603  00603                % 01529 AVL---
+200901015 Strassen, Huorgarten  00604  00604                % 01529 AVL---
+200403021 Belair, Wandmillen    00606  00606                % 01529 AVL---
+200403018 Belair, Stade         00607  00607                % 01529 AVL---
+200403017 Belair, Service Ince  00608  00608                % 01529 AVL---
+200405045 Centre, Stäreplaz /   00609  00609                % 01529 AVL---
+200403020 Belair, Wampach       00611  00611                % 01529 AVL---
+200405025 Luxembourg/Centre, M  00613  00613                % 01529 AVL---
+200405054 Centre, F.D. Rooseve  00615  00615                % 01529 AVL---
+200405035 Luxembourg, Gare Cen  00619                       % 01529 AVL---
+*Z 01530 AVL---       001 125                               % 01530 AVL---
+*L 28       200101002 200405035  02023  02044               % 01530 AVL---
+*A BE 200101002 200405035 000002  02023  02044              % 01530 AVL---
+*R 2 200405035 200101002 200405035  02023  02044            % 01530 AVL---
+*G AVG 200101002 200405035  02023  02044                    % 01530 AVL---
+*A VE 200101002 200405035 000002  02023  02044              % 01530 AVL---
+200101002 Bertrange, Belle Eto         02023                % 01530 AVL---
+200901011 Strassen, Schoenacht  02024  02024                % 01530 AVL---
+200901016 Strassen, Geesseneck  02024  02024                % 01530 AVL---
+200901017 Strassen, Kesseler    02025  02025                % 01530 AVL---
+200901004 Strassen, Barblé      02026  02026                % 01530 AVL---
+200901020 Strassen, Benelux     02027  02027                % 01530 AVL---
+200901003 Strassen, Aurélia     02028  02028                % 01530 AVL---
+200901014 Strassen, Hondseck    02028  02028                % 01530 AVL---
+200901015 Strassen, Huorgarten  02029  02029                % 01530 AVL---
+200403021 Belair, Wandmillen    02031  02031                % 01530 AVL---
+200403018 Belair, Stade         02032  02032                % 01530 AVL---
+200403017 Belair, Service Ince  02033  02033                % 01530 AVL---
+200405045 Centre, Stäreplaz /   02034  02034                % 01530 AVL---
+200403020 Belair, Wampach       02036  02036                % 01530 AVL---
+200405025 Luxembourg/Centre, M  02038  02038                % 01530 AVL---
+200405054 Centre, F.D. Rooseve  02040  02040                % 01530 AVL---
+200405035 Luxembourg, Gare Cen  02044                       % 01530 AVL---
+*Z 01531 AVL---       001 120                               % 01531 AVL---
+*L 28       200101002 200405035  02128  02149               % 01531 AVL---
+*A BE 200101002 200405035 000012  02128  02149              % 01531 AVL---
+*R 2 200405035 200101002 200405035  02128  02149            % 01531 AVL---
+*G AVG 200101002 200405035  02128  02149                    % 01531 AVL---
+*A VE 200101002 200405035 000012  02128  02149              % 01531 AVL---
+200101002 Bertrange, Belle Eto         02128                % 01531 AVL---
+200901011 Strassen, Schoenacht  02129  02129                % 01531 AVL---
+200901016 Strassen, Geesseneck  02129  02129                % 01531 AVL---
+200901017 Strassen, Kesseler    02130  02130                % 01531 AVL---
+200901004 Strassen, Barblé      02131  02131                % 01531 AVL---
+200901020 Strassen, Benelux     02132  02132                % 01531 AVL---
+200901003 Strassen, Aurélia     02133  02133                % 01531 AVL---
+200901014 Strassen, Hondseck    02133  02133                % 01531 AVL---
+200901015 Strassen, Huorgarten  02134  02134                % 01531 AVL---
+200403021 Belair, Wandmillen    02136  02136                % 01531 AVL---
+200403018 Belair, Stade         02137  02137                % 01531 AVL---
+200403017 Belair, Service Ince  02138  02138                % 01531 AVL---
+200405045 Centre, Stäreplaz /   02139  02139                % 01531 AVL---
+200403020 Belair, Wampach       02141  02141                % 01531 AVL---
+200405025 Luxembourg/Centre, M  02143  02143                % 01531 AVL---
+200405054 Centre, F.D. Rooseve  02145  02145                % 01531 AVL---
+200405035 Luxembourg, Gare Cen  02149                       % 01531 AVL---

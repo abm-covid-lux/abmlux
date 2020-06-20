@@ -1,0 +1,515 @@
+*F 03 2
+*Z 00001 CFLBUS                                             % 00001 CFLBUS
+*L L10      140701016 140401004  02450  02457               % 00001 CFLBUS
+*A ft 140701016 140401004 000000  02450  02457              % 00001 CFLBUS
+*R 1 140401004 140701016 140401004  02450  02457            % 00001 CFLBUS
+*G RGB 140701016 140401004  02450  02457                    % 00001 CFLBUS
+*A VE 140701016 140401004 000000  02450  02457              % 00001 CFLBUS
+*I FD 140701016 140401004        0003685  02450  02457      % 00001 CFLBUS
+140701016 Ettelbruck, Gare             02450                % 00001 CFLBUS
+140401004 Diekirch, Gare        02457                       % 00001 CFLBUS
+*Z 00002 CFLBUS                                             % 00002 CFLBUS
+*L L10      140701016 120603002  02249  02336               % 00002 CFLBUS
+*R 1 120603002 140701016 120603002  02249  02336            % 00002 CFLBUS
+*G RGB 140701016 120603002  02249  02336                    % 00002 CFLBUS
+*A VE 140701016 120603002 000106  02249  02336              % 00002 CFLBUS
+*I FD 140701016 120603002        0000417  02249  02336      % 00002 CFLBUS
+140701016 Ettelbruck, Gare             02249                % 00002 CFLBUS
+140307001 Michelau, Gare        02303  02303                % 00002 CFLBUS
+140304003 Goebelsmühle, Op der  02313  02313                % 00002 CFLBUS
+120603002 Kautenbach, Op der G  02336                       % 00002 CFLBUS
+*Z 00003 CFLBUS                                             % 00003 CFLBUS
+*L L10      140701016 120603002  02352  02439               % 00003 CFLBUS
+*R 1 120603002 140701016 120603002  02352  02439            % 00003 CFLBUS
+*G RGB 140701016 120603002  02352  02439                    % 00003 CFLBUS
+*A VE 140701016 120603002 000106  02352  02439              % 00003 CFLBUS
+*I FD 140701016 120603002        0000420  02352  02439      % 00003 CFLBUS
+140701016 Ettelbruck, Gare             02352                % 00003 CFLBUS
+140307001 Michelau, Gare        02406  02406                % 00003 CFLBUS
+140304003 Goebelsmühle, Op der  02416  02416                % 00003 CFLBUS
+120603002 Kautenbach, Op der G  02439                       % 00003 CFLBUS
+*Z 00004 CFLBUS                                             % 00004 CFLBUS
+*L L10      140701016 120603002  02449  02536               % 00004 CFLBUS
+*R 1 120603002 140701016 120603002  02449  02536            % 00004 CFLBUS
+*G RGB 140701016 120603002  02449  02536                    % 00004 CFLBUS
+*A VE 140701016 120603002 000106  02449  02536              % 00004 CFLBUS
+*I FD 140701016 120603002        0000422  02449  02536      % 00004 CFLBUS
+140701016 Ettelbruck, Gare             02449                % 00004 CFLBUS
+140307001 Michelau, Gare        02503  02503                % 00004 CFLBUS
+140304003 Goebelsmühle, Op der  02513  02513                % 00004 CFLBUS
+120603002 Kautenbach, Op der G  02536                       % 00004 CFLBUS
+*Z 00005 CFLBUS                                             % 00005 CFLBUS
+*L L10      140701016 110606001  02249  02355               % 00005 CFLBUS
+*R 1 110606001 140701016 110606001  02249  02355            % 00005 CFLBUS
+*G RGB 140701016 110606001  02249  02355                    % 00005 CFLBUS
+*A VE 140701016 110606001 000106  02249  02355              % 00005 CFLBUS
+*I FD 140701016 110606001        0000479  02249  02355      % 00005 CFLBUS
+140701016 Ettelbruck, Gare             02249                % 00005 CFLBUS
+120606001 Wilwerwiltz, Gare     02321  02321                % 00005 CFLBUS
+110501002 Drauffelt, Op der Ga  02327  02327                % 00005 CFLBUS
+110101002 Clervaux, Gare routi  02338  02338                % 00005 CFLBUS
+110606001 Troisvierges, Gare    02355                       % 00005 CFLBUS
+*Z 00006 CFLBUS                                             % 00006 CFLBUS
+*L L10      140701016 110606001  02349  02455               % 00006 CFLBUS
+*R 1 110606001 140701016 110606001  02349  02455            % 00006 CFLBUS
+*G RGB 140701016 110606001  02349  02455                    % 00006 CFLBUS
+*A VE 140701016 110606001 000106  02349  02455              % 00006 CFLBUS
+*I FD 140701016 110606001        0000419  02349  02455      % 00006 CFLBUS
+140701016 Ettelbruck, Gare             02349                % 00006 CFLBUS
+120606001 Wilwerwiltz, Gare     02421  02421                % 00006 CFLBUS
+110501002 Drauffelt, Op der Ga  02427  02427                % 00006 CFLBUS
+110101002 Clervaux, Gare routi  02438  02438                % 00006 CFLBUS
+110606001 Troisvierges, Gare    02455                       % 00006 CFLBUS
+*Z 00007 CFLBUS                                             % 00007 CFLBUS
+*L L10      140701016 110606001  02449  02555               % 00007 CFLBUS
+*R 1 110606001 140701016 110606001  02449  02555            % 00007 CFLBUS
+*G RGB 140701016 110606001  02449  02555                    % 00007 CFLBUS
+*A VE 140701016 110606001 000106  02449  02555              % 00007 CFLBUS
+*I FD 140701016 110606001        0000421  02449  02555      % 00007 CFLBUS
+140701016 Ettelbruck, Gare             02449                % 00007 CFLBUS
+120606001 Wilwerwiltz, Gare     02521  02521                % 00007 CFLBUS
+110501002 Drauffelt, Op der Ga  02527  02527                % 00007 CFLBUS
+110101002 Clervaux, Gare routi  02538  02538                % 00007 CFLBUS
+110606001 Troisvierges, Gare    02555                       % 00007 CFLBUS
+*Z 00008 CFLBUS                                             % 00008 CFLBUS
+*L L10      200405036 140401004  02125  02235               % 00008 CFLBUS
+*A K1 200405036 140401004 000107  02125  02235              % 00008 CFLBUS
+*R 1 140401004 200405036 140401004  02125  02235            % 00008 CFLBUS
+*G RGB 200405036 140401004  02125  02235                    % 00008 CFLBUS
+*A VE 200405036 140401004 000107  02125  02235              % 00008 CFLBUS
+*I FD 200405036 140401004        0003686  02125  02235      % 00008 CFLBUS
+200405036 Luxembourg, Gare rou         02125                % 00008 CFLBUS
+200419026 Limpertsberg, Theate  02133  02133                % 00008 CFLBUS
+200410004 Eich, Klinik          02138  02138                % 00008 CFLBUS
+201003004 Helsem, Tricentenair  02148  02148                % 00008 CFLBUS
+200802004 Heisdorf, Klouster    02151  02151                % 00008 CFLBUS
+160807003 Lorentzweiler, Gare   02154  02154                % 00008 CFLBUS
+160702003 Lintgen, Kräizung     02158  02158                % 00008 CFLBUS
+160904001 Mersch, Gare          02205  02206                % 00008 CFLBUS
+160301003 Colmar, Faubourg      02215  02215                % 00008 CFLBUS
+160301010 Colmar, rue de Luxem  02216  02216                % 00008 CFLBUS
+141301004 Schieren, Neie Wee    02218  02218                % 00008 CFLBUS
+141301006 Schieren, Vali's Pla  02219  02219                % 00008 CFLBUS
+140701016 Ettelbruck, Gare      02228  02228                % 00008 CFLBUS
+140401004 Diekirch, Gare        02235                       % 00008 CFLBUS
+*Z 00009 CFLBUS                                             % 00009 CFLBUS
+*L L10      200405036 140401004  02155  02305               % 00009 CFLBUS
+*A K1 200405036 140401004 000107  02155  02305              % 00009 CFLBUS
+*R 1 140401004 200405036 140401004  02155  02305            % 00009 CFLBUS
+*G RGB 200405036 140401004  02155  02305                    % 00009 CFLBUS
+*A VE 200405036 140401004 000107  02155  02305              % 00009 CFLBUS
+*I FD 200405036 140401004        0003687  02155  02305      % 00009 CFLBUS
+200405036 Luxembourg, Gare rou         02155                % 00009 CFLBUS
+200419026 Limpertsberg, Theate  02203  02203                % 00009 CFLBUS
+200410004 Eich, Klinik          02208  02208                % 00009 CFLBUS
+201003004 Helsem, Tricentenair  02218  02218                % 00009 CFLBUS
+200802004 Heisdorf, Klouster    02221  02221                % 00009 CFLBUS
+160807003 Lorentzweiler, Gare   02224  02224                % 00009 CFLBUS
+160702003 Lintgen, Kräizung     02228  02228                % 00009 CFLBUS
+160904001 Mersch, Gare          02235  02236                % 00009 CFLBUS
+160301003 Colmar, Faubourg      02245  02245                % 00009 CFLBUS
+160301010 Colmar, rue de Luxem  02246  02246                % 00009 CFLBUS
+141301004 Schieren, Neie Wee    02248  02248                % 00009 CFLBUS
+141301006 Schieren, Vali's Pla  02249  02249                % 00009 CFLBUS
+140701016 Ettelbruck, Gare      02258  02258                % 00009 CFLBUS
+140401004 Diekirch, Gare        02305                       % 00009 CFLBUS
+*Z 00010 CFLBUS                                             % 00010 CFLBUS
+*L L10      200405036 140401004  02225  02335               % 00010 CFLBUS
+*A K1 200405036 140401004 000107  02225  02335              % 00010 CFLBUS
+*R 1 140401004 200405036 140401004  02225  02335            % 00010 CFLBUS
+*G RGB 200405036 140401004  02225  02335                    % 00010 CFLBUS
+*A VE 200405036 140401004 000107  02225  02335              % 00010 CFLBUS
+*I FD 200405036 140401004        0003688  02225  02335      % 00010 CFLBUS
+200405036 Luxembourg, Gare rou         02225                % 00010 CFLBUS
+200419026 Limpertsberg, Theate  02233  02233                % 00010 CFLBUS
+200410004 Eich, Klinik          02238  02238                % 00010 CFLBUS
+201003004 Helsem, Tricentenair  02248  02248                % 00010 CFLBUS
+200802004 Heisdorf, Klouster    02251  02251                % 00010 CFLBUS
+160807003 Lorentzweiler, Gare   02254  02254                % 00010 CFLBUS
+160702003 Lintgen, Kräizung     02258  02258                % 00010 CFLBUS
+160904001 Mersch, Gare          02305  02306                % 00010 CFLBUS
+160301003 Colmar, Faubourg      02315  02315                % 00010 CFLBUS
+160301010 Colmar, rue de Luxem  02316  02316                % 00010 CFLBUS
+141301004 Schieren, Neie Wee    02318  02318                % 00010 CFLBUS
+141301006 Schieren, Vali's Pla  02319  02319                % 00010 CFLBUS
+140701016 Ettelbruck, Gare      02328  02328                % 00010 CFLBUS
+140401004 Diekirch, Gare        02335                       % 00010 CFLBUS
+*Z 00011 CFLBUS                                             % 00011 CFLBUS
+*L L10      200405036 140401004  02255  02405               % 00011 CFLBUS
+*A K1 200405036 140401004 000107  02255  02405              % 00011 CFLBUS
+*R 1 140401004 200405036 140401004  02255  02405            % 00011 CFLBUS
+*G RGB 200405036 140401004  02255  02405                    % 00011 CFLBUS
+*A VE 200405036 140401004 000107  02255  02405              % 00011 CFLBUS
+*I FD 200405036 140401004        0003689  02255  02405      % 00011 CFLBUS
+200405036 Luxembourg, Gare rou         02255                % 00011 CFLBUS
+200419026 Limpertsberg, Theate  02303  02303                % 00011 CFLBUS
+200410004 Eich, Klinik          02308  02308                % 00011 CFLBUS
+201003004 Helsem, Tricentenair  02318  02318                % 00011 CFLBUS
+200802004 Heisdorf, Klouster    02321  02321                % 00011 CFLBUS
+160807003 Lorentzweiler, Gare   02324  02324                % 00011 CFLBUS
+160702003 Lintgen, Kräizung     02328  02328                % 00011 CFLBUS
+160904001 Mersch, Gare          02335  02336                % 00011 CFLBUS
+160301003 Colmar, Faubourg      02345  02345                % 00011 CFLBUS
+160301010 Colmar, rue de Luxem  02346  02346                % 00011 CFLBUS
+141301004 Schieren, Neie Wee    02348  02348                % 00011 CFLBUS
+141301006 Schieren, Vali's Pla  02349  02349                % 00011 CFLBUS
+140701016 Ettelbruck, Gare      02358  02358                % 00011 CFLBUS
+140401004 Diekirch, Gare        02405                       % 00011 CFLBUS
+*Z 00012 CFLBUS                                             % 00012 CFLBUS
+*L L10      200405036 140401004  02325  02435               % 00012 CFLBUS
+*A K1 200405036 140401004 000107  02325  02435              % 00012 CFLBUS
+*R 1 140401004 200405036 140401004  02325  02435            % 00012 CFLBUS
+*G RGB 200405036 140401004  02325  02435                    % 00012 CFLBUS
+*A VE 200405036 140401004 000107  02325  02435              % 00012 CFLBUS
+*I FD 200405036 140401004        0003690  02325  02435      % 00012 CFLBUS
+200405036 Luxembourg, Gare rou         02325                % 00012 CFLBUS
+200419026 Limpertsberg, Theate  02333  02333                % 00012 CFLBUS
+200410004 Eich, Klinik          02338  02338                % 00012 CFLBUS
+201003004 Helsem, Tricentenair  02348  02348                % 00012 CFLBUS
+200802004 Heisdorf, Klouster    02351  02351                % 00012 CFLBUS
+160807003 Lorentzweiler, Gare   02354  02354                % 00012 CFLBUS
+160702003 Lintgen, Kräizung     02358  02358                % 00012 CFLBUS
+160904001 Mersch, Gare          02405  02406                % 00012 CFLBUS
+160301003 Colmar, Faubourg      02415  02415                % 00012 CFLBUS
+160301010 Colmar, rue de Luxem  02416  02416                % 00012 CFLBUS
+141301004 Schieren, Neie Wee    02418  02418                % 00012 CFLBUS
+141301006 Schieren, Vali's Pla  02419  02419                % 00012 CFLBUS
+140701016 Ettelbruck, Gare      02428  02428                % 00012 CFLBUS
+140401004 Diekirch, Gare        02435                       % 00012 CFLBUS
+*Z 00013 CFLBUS                                             % 00013 CFLBUS
+*L L10      200405036 140401004  02405  02515               % 00013 CFLBUS
+*A K1 200405036 140401004 000107  02405  02515              % 00013 CFLBUS
+*R 1 140401004 200405036 140401004  02405  02515            % 00013 CFLBUS
+*G RGB 200405036 140401004  02405  02515                    % 00013 CFLBUS
+*A VE 200405036 140401004 000107  02405  02515              % 00013 CFLBUS
+*I FD 200405036 140401004        0003691  02405  02515      % 00013 CFLBUS
+200405036 Luxembourg, Gare rou         02405                % 00013 CFLBUS
+200419026 Limpertsberg, Theate  02413  02413                % 00013 CFLBUS
+200410004 Eich, Klinik          02418  02418                % 00013 CFLBUS
+201003004 Helsem, Tricentenair  02428  02428                % 00013 CFLBUS
+200802004 Heisdorf, Klouster    02431  02431                % 00013 CFLBUS
+160807003 Lorentzweiler, Gare   02434  02434                % 00013 CFLBUS
+160702003 Lintgen, Kräizung     02438  02438                % 00013 CFLBUS
+160904001 Mersch, Gare          02445  02446                % 00013 CFLBUS
+160301003 Colmar, Faubourg      02455  02455                % 00013 CFLBUS
+160301010 Colmar, rue de Luxem  02456  02456                % 00013 CFLBUS
+141301004 Schieren, Neie Wee    02458  02458                % 00013 CFLBUS
+141301006 Schieren, Vali's Pla  02459  02459                % 00013 CFLBUS
+140701016 Ettelbruck, Gare      02508  02508                % 00013 CFLBUS
+140401004 Diekirch, Gare        02515                       % 00013 CFLBUS
+*Z 00014 CFLBUS                                             % 00014 CFLBUS
+*L L10      200405036 140701016  02149  02238               % 00014 CFLBUS
+*R 1 140701016 200405036 140701016  02149  02238            % 00014 CFLBUS
+*G RGB 200405036 140701016  02149  02238                    % 00014 CFLBUS
+*A VE 200405036 140701016 000107  02149  02238              % 00014 CFLBUS
+*I FD 200405036 140701016        0003692  02149  02238      % 00014 CFLBUS
+200405036 Luxembourg, Gare rou         02149                % 00014 CFLBUS
+160904001 Mersch, Gare          02219  02220                % 00014 CFLBUS
+140701016 Ettelbruck, Gare      02238                       % 00014 CFLBUS
+*Z 00015 CFLBUS                                             % 00015 CFLBUS
+*L L10      200405036 140701016  02249  02338               % 00015 CFLBUS
+*R 1 140701016 200405036 140701016  02249  02338            % 00015 CFLBUS
+*G RGB 200405036 140701016  02249  02338                    % 00015 CFLBUS
+*A VE 200405036 140701016 000107  02249  02338              % 00015 CFLBUS
+*I FD 200405036 140701016        0003693  02249  02338      % 00015 CFLBUS
+200405036 Luxembourg, Gare rou         02249                % 00015 CFLBUS
+160904001 Mersch, Gare          02319  02320                % 00015 CFLBUS
+140701016 Ettelbruck, Gare      02338                       % 00015 CFLBUS
+*Z 00016 CFLBUS                                             % 00016 CFLBUS
+*L L10      200405036 140701016  02349  02438               % 00016 CFLBUS
+*R 1 140701016 200405036 140701016  02349  02438            % 00016 CFLBUS
+*G RGB 200405036 140701016  02349  02438                    % 00016 CFLBUS
+*A VE 200405036 140701016 000107  02349  02438              % 00016 CFLBUS
+*I FD 200405036 140701016        0003694  02349  02438      % 00016 CFLBUS
+200405036 Luxembourg, Gare rou         02349                % 00016 CFLBUS
+160904001 Mersch, Gare          02419  02420                % 00016 CFLBUS
+140701016 Ettelbruck, Gare      02438                       % 00016 CFLBUS
+*Z 00017 CFLBUS                                             % 00017 CFLBUS
+*L L10      160904001 161001005  02448  02458               % 00017 CFLBUS
+*R 1 161001005 160904001 161001005  02448  02458            % 00017 CFLBUS
+*G RGB 160904001 161001005  02448  02458                    % 00017 CFLBUS
+*A VE 160904001 161001005 000107  02448  02458              % 00017 CFLBUS
+*I FD 160904001 161001005        0000032  02448  02458      % 00017 CFLBUS
+160904001 Mersch, Gare                 02448                % 00017 CFLBUS
+161001005 Cruchten, Schléf      02458                       % 00017 CFLBUS
+*Z 00018 CFLBUS                                             % 00018 CFLBUS
+*L L10      160904001 161001005  02208  02218               % 00018 CFLBUS
+*R 1 161001005 160904001 161001005  02208  02218            % 00018 CFLBUS
+*G RGB 160904001 161001005  02208  02218                    % 00018 CFLBUS
+*A VE 160904001 161001005 000107  02208  02218              % 00018 CFLBUS
+*I FD 160904001 161001005        0003695  02208  02218      % 00018 CFLBUS
+160904001 Mersch, Gare                 02208                % 00018 CFLBUS
+161001005 Cruchten, Schléf      02218                       % 00018 CFLBUS
+*Z 00019 CFLBUS                                             % 00019 CFLBUS
+*L L10      160904001 161001005  02238  02248               % 00019 CFLBUS
+*R 1 161001005 160904001 161001005  02238  02248            % 00019 CFLBUS
+*G RGB 160904001 161001005  02238  02248                    % 00019 CFLBUS
+*A VE 160904001 161001005 000107  02238  02248              % 00019 CFLBUS
+*I FD 160904001 161001005        0003696  02238  02248      % 00019 CFLBUS
+160904001 Mersch, Gare                 02238                % 00019 CFLBUS
+161001005 Cruchten, Schléf      02248                       % 00019 CFLBUS
+*Z 00020 CFLBUS                                             % 00020 CFLBUS
+*L L10      160904001 161001005  02308  02318               % 00020 CFLBUS
+*R 1 161001005 160904001 161001005  02308  02318            % 00020 CFLBUS
+*G RGB 160904001 161001005  02308  02318                    % 00020 CFLBUS
+*A VE 160904001 161001005 000107  02308  02318              % 00020 CFLBUS
+*I FD 160904001 161001005        0003697  02308  02318      % 00020 CFLBUS
+160904001 Mersch, Gare                 02308                % 00020 CFLBUS
+161001005 Cruchten, Schléf      02318                       % 00020 CFLBUS
+*Z 00021 CFLBUS                                             % 00021 CFLBUS
+*L L10      160904001 161001005  02338  02348               % 00021 CFLBUS
+*R 1 161001005 160904001 161001005  02338  02348            % 00021 CFLBUS
+*G RGB 160904001 161001005  02338  02348                    % 00021 CFLBUS
+*A VE 160904001 161001005 000107  02338  02348              % 00021 CFLBUS
+*I FD 160904001 161001005        0003698  02338  02348      % 00021 CFLBUS
+160904001 Mersch, Gare                 02338                % 00021 CFLBUS
+161001005 Cruchten, Schléf      02348                       % 00021 CFLBUS
+*Z 00022 CFLBUS                                             % 00022 CFLBUS
+*L L10      160904001 161001005  02408  02418               % 00022 CFLBUS
+*R 1 161001005 160904001 161001005  02408  02418            % 00022 CFLBUS
+*G RGB 160904001 161001005  02408  02418                    % 00022 CFLBUS
+*A VE 160904001 161001005 000107  02408  02418              % 00022 CFLBUS
+*I FD 160904001 161001005        0003699  02408  02418      % 00022 CFLBUS
+160904001 Mersch, Gare                 02408                % 00022 CFLBUS
+161001005 Cruchten, Schléf      02418                       % 00022 CFLBUS
+*Z 00023 CFLBUS                                             % 00023 CFLBUS
+*L L10      140701016 120903018  02249  02327               % 00023 CFLBUS
+*R 1 120903018 140701016 120903018  02249  02327            % 00023 CFLBUS
+*G RGB 140701016 120903018  02249  02327                    % 00023 CFLBUS
+*A VE 140701016 120903018 000106  02249  02327              % 00023 CFLBUS
+*I FD 140701016 120903018        0000418  02249  02327      % 00023 CFLBUS
+140701016 Ettelbruck, Gare             02249                % 00023 CFLBUS
+120903018 Wiltz, Gare           02327                       % 00023 CFLBUS
+*Z 00024 CFLBUS                                             % 00024 CFLBUS
+*L L10      140701016 120903018  02349  02427               % 00024 CFLBUS
+*R 1 120903018 140701016 120903018  02349  02427            % 00024 CFLBUS
+*G RGB 140701016 120903018  02349  02427                    % 00024 CFLBUS
+*A VE 140701016 120903018 000106  02349  02427              % 00024 CFLBUS
+*I FD 140701016 120903018        0000480  02349  02427      % 00024 CFLBUS
+140701016 Ettelbruck, Gare             02349                % 00024 CFLBUS
+120903018 Wiltz, Gare           02427                       % 00024 CFLBUS
+*Z 00025 CFLBUS                                             % 00025 CFLBUS
+*L L10      110501002 140701016  02250  02330               % 00025 CFLBUS
+*R 2 140701016 110501002 140701016  02250  02330            % 00025 CFLBUS
+*G RGB 110501002 140701016  02250  02330                    % 00025 CFLBUS
+*A VE 110501002 140701016 000106  02250  02330              % 00025 CFLBUS
+*I FD 110501002 140701016        0000476  02250  02330      % 00025 CFLBUS
+110501002 Drauffelt, Op der Ga         02250                % 00025 CFLBUS
+120606001 Wilwerwiltz, Gare     02256  02256                % 00025 CFLBUS
+140701016 Ettelbruck, Gare      02330                       % 00025 CFLBUS
+*Z 00026 CFLBUS                                             % 00026 CFLBUS
+*L L10      120603002 120903018  02204  02222               % 00026 CFLBUS
+*R 2 120903018 120603002 120903018  02204  02222            % 00026 CFLBUS
+*G RGB 120603002 120903018  02204  02222                    % 00026 CFLBUS
+*A VE 120603002 120903018 000106  02204  02222              % 00026 CFLBUS
+*I FD 120603002 120903018        0003700  02204  02222      % 00026 CFLBUS
+120603002 Kautenbach, Op der G         02204                % 00026 CFLBUS
+120903018 Wiltz, Gare           02222                       % 00026 CFLBUS
+*Z 00027 CFLBUS                                             % 00027 CFLBUS
+*L L10      120903018 140701016  02242  02320               % 00027 CFLBUS
+*R 2 140701016 120903018 140701016  02242  02320            % 00027 CFLBUS
+*G RGB 120903018 140701016  02242  02320                    % 00027 CFLBUS
+*A VE 120903018 140701016 000106  02242  02320              % 00027 CFLBUS
+*I FD 120903018 140701016        0000477  02242  02320      % 00027 CFLBUS
+120903018 Wiltz, Gare                  02242                % 00027 CFLBUS
+140701016 Ettelbruck, Gare      02320                       % 00027 CFLBUS
+*Z 00028 CFLBUS                                             % 00028 CFLBUS
+*L L10      120603002 140701016  02301  02348               % 00028 CFLBUS
+*R 2 140701016 120603002 140701016  02301  02348            % 00028 CFLBUS
+*G RGB 120603002 140701016  02301  02348                    % 00028 CFLBUS
+*A VE 120603002 140701016 000106  02301  02348              % 00028 CFLBUS
+*I FD 120603002 140701016        0000478  02301  02348      % 00028 CFLBUS
+120603002 Kautenbach, Op der G         02301                % 00028 CFLBUS
+140304003 Goebelsmühle, Op der  02324  02324                % 00028 CFLBUS
+140307001 Michelau, Gare        02334  02334                % 00028 CFLBUS
+140701016 Ettelbruck, Gare      02348                       % 00028 CFLBUS
+*Z 00029 CFLBUS                                             % 00029 CFLBUS
+*L L10      140401004 140701016  00408  00415               % 00029 CFLBUS
+*A ft 140401004 140701016 000001  00408  00415              % 00029 CFLBUS
+*R 2 140701016 140401004 140701016  00408  00415            % 00029 CFLBUS
+*G RGB 140401004 140701016  00408  00415                    % 00029 CFLBUS
+*A VE 140401004 140701016 000001  00408  00415              % 00029 CFLBUS
+*I FD 140401004 140701016        0003701  00408  00415      % 00029 CFLBUS
+140401004 Diekirch, Gare               00408                % 00029 CFLBUS
+140701016 Ettelbruck, Gare      00415                       % 00029 CFLBUS
+*Z 00030 CFLBUS                                             % 00030 CFLBUS
+*L L10      140401004 200405032  02121  02224               % 00030 CFLBUS
+*R 2 200405032 140401004 200405032  02121  02224            % 00030 CFLBUS
+*G RGB 140401004 200405032  02121  02224                    % 00030 CFLBUS
+*A VE 140401004 200405032 000107  02121  02224              % 00030 CFLBUS
+*I FD 140401004 200405032        0003702  02121  02224      % 00030 CFLBUS
+140401004 Diekirch, Gare               02121                % 00030 CFLBUS
+140701016 Ettelbruck, Gare      02128  02128                % 00030 CFLBUS
+141301002 Schieren, Faubourg    02134  02134                % 00030 CFLBUS
+141301005 Schieren, Uewerschie  02135  02135                % 00030 CFLBUS
+160301011 Colmar, rue d'Ettelb  02137  02137                % 00030 CFLBUS
+160301003 Colmar, Faubourg      02138  02138                % 00030 CFLBUS
+160904001 Mersch, Gare          02147  02148                % 00030 CFLBUS
+160702003 Lintgen, Kräizung     02154  02154                % 00030 CFLBUS
+160807003 Lorentzweiler, Gare   02158  02158                % 00030 CFLBUS
+200802004 Heisdorf, Klouster    02201  02201                % 00030 CFLBUS
+201003004 Helsem, Tricentenair  02204  02204                % 00030 CFLBUS
+200410004 Eich, Klinik          02211  02211                % 00030 CFLBUS
+200419026 Limpertsberg, Theate  02216  02216                % 00030 CFLBUS
+200405032 Luxembourg, Gare Cen  02224                       % 00030 CFLBUS
+*Z 00031 CFLBUS                                             % 00031 CFLBUS
+*L L10      140401004 200405032  02151  02254               % 00031 CFLBUS
+*R 2 200405032 140401004 200405032  02151  02254            % 00031 CFLBUS
+*G RGB 140401004 200405032  02151  02254                    % 00031 CFLBUS
+*A VE 140401004 200405032 000107  02151  02254              % 00031 CFLBUS
+*I FD 140401004 200405032        0003703  02151  02254      % 00031 CFLBUS
+140401004 Diekirch, Gare               02151                % 00031 CFLBUS
+140701016 Ettelbruck, Gare      02158  02158                % 00031 CFLBUS
+141301002 Schieren, Faubourg    02204  02204                % 00031 CFLBUS
+141301005 Schieren, Uewerschie  02205  02205                % 00031 CFLBUS
+160301011 Colmar, rue d'Ettelb  02207  02207                % 00031 CFLBUS
+160301003 Colmar, Faubourg      02208  02208                % 00031 CFLBUS
+160904001 Mersch, Gare          02217  02218                % 00031 CFLBUS
+160702003 Lintgen, Kräizung     02224  02224                % 00031 CFLBUS
+160807003 Lorentzweiler, Gare   02228  02228                % 00031 CFLBUS
+200802004 Heisdorf, Klouster    02231  02231                % 00031 CFLBUS
+201003004 Helsem, Tricentenair  02234  02234                % 00031 CFLBUS
+200410004 Eich, Klinik          02241  02241                % 00031 CFLBUS
+200419026 Limpertsberg, Theate  02246  02246                % 00031 CFLBUS
+200405032 Luxembourg, Gare Cen  02254                       % 00031 CFLBUS
+*Z 00032 CFLBUS                                             % 00032 CFLBUS
+*L L10      140401004 200405032  02221  02324               % 00032 CFLBUS
+*R 2 200405032 140401004 200405032  02221  02324            % 00032 CFLBUS
+*G RGB 140401004 200405032  02221  02324                    % 00032 CFLBUS
+*A VE 140401004 200405032 000107  02221  02324              % 00032 CFLBUS
+*I FD 140401004 200405032        0003704  02221  02324      % 00032 CFLBUS
+140401004 Diekirch, Gare               02221                % 00032 CFLBUS
+140701016 Ettelbruck, Gare      02228  02228                % 00032 CFLBUS
+141301002 Schieren, Faubourg    02234  02234                % 00032 CFLBUS
+141301005 Schieren, Uewerschie  02235  02235                % 00032 CFLBUS
+160301011 Colmar, rue d'Ettelb  02237  02237                % 00032 CFLBUS
+160301003 Colmar, Faubourg      02238  02238                % 00032 CFLBUS
+160904001 Mersch, Gare          02247  02248                % 00032 CFLBUS
+160702003 Lintgen, Kräizung     02254  02254                % 00032 CFLBUS
+160807003 Lorentzweiler, Gare   02258  02258                % 00032 CFLBUS
+200802004 Heisdorf, Klouster    02301  02301                % 00032 CFLBUS
+201003004 Helsem, Tricentenair  02304  02304                % 00032 CFLBUS
+200410004 Eich, Klinik          02311  02311                % 00032 CFLBUS
+200419026 Limpertsberg, Theate  02316  02316                % 00032 CFLBUS
+200405032 Luxembourg, Gare Cen  02324                       % 00032 CFLBUS
+*Z 00033 CFLBUS                                             % 00033 CFLBUS
+*L L10      140401004 200405032  02251  02354               % 00033 CFLBUS
+*R 2 200405032 140401004 200405032  02251  02354            % 00033 CFLBUS
+*G RGB 140401004 200405032  02251  02354                    % 00033 CFLBUS
+*A VE 140401004 200405032 000107  02251  02354              % 00033 CFLBUS
+*I FD 140401004 200405032        0003705  02251  02354      % 00033 CFLBUS
+140401004 Diekirch, Gare               02251                % 00033 CFLBUS
+140701016 Ettelbruck, Gare      02258  02258                % 00033 CFLBUS
+141301002 Schieren, Faubourg    02304  02304                % 00033 CFLBUS
+141301005 Schieren, Uewerschie  02305  02305                % 00033 CFLBUS
+160301011 Colmar, rue d'Ettelb  02307  02307                % 00033 CFLBUS
+160301003 Colmar, Faubourg      02308  02308                % 00033 CFLBUS
+160904001 Mersch, Gare          02317  02318                % 00033 CFLBUS
+160702003 Lintgen, Kräizung     02324  02324                % 00033 CFLBUS
+160807003 Lorentzweiler, Gare   02328  02328                % 00033 CFLBUS
+200802004 Heisdorf, Klouster    02331  02331                % 00033 CFLBUS
+201003004 Helsem, Tricentenair  02334  02334                % 00033 CFLBUS
+200410004 Eich, Klinik          02341  02341                % 00033 CFLBUS
+200419026 Limpertsberg, Theate  02346  02346                % 00033 CFLBUS
+200405032 Luxembourg, Gare Cen  02354                       % 00033 CFLBUS
+*Z 00034 CFLBUS                                             % 00034 CFLBUS
+*L L10      140401004 200405032  02321  02424               % 00034 CFLBUS
+*R 2 200405032 140401004 200405032  02321  02424            % 00034 CFLBUS
+*G RGB 140401004 200405032  02321  02424                    % 00034 CFLBUS
+*A VE 140401004 200405032 000107  02321  02424              % 00034 CFLBUS
+*I FD 140401004 200405032        0003706  02321  02424      % 00034 CFLBUS
+140401004 Diekirch, Gare               02321                % 00034 CFLBUS
+140701016 Ettelbruck, Gare      02328  02328                % 00034 CFLBUS
+141301002 Schieren, Faubourg    02334  02334                % 00034 CFLBUS
+141301005 Schieren, Uewerschie  02335  02335                % 00034 CFLBUS
+160301011 Colmar, rue d'Ettelb  02337  02337                % 00034 CFLBUS
+160301003 Colmar, Faubourg      02338  02338                % 00034 CFLBUS
+160904001 Mersch, Gare          02347  02348                % 00034 CFLBUS
+160702003 Lintgen, Kräizung     02354  02354                % 00034 CFLBUS
+160807003 Lorentzweiler, Gare   02358  02358                % 00034 CFLBUS
+200802004 Heisdorf, Klouster    02401  02401                % 00034 CFLBUS
+201003004 Helsem, Tricentenair  02404  02404                % 00034 CFLBUS
+200410004 Eich, Klinik          02411  02411                % 00034 CFLBUS
+200419026 Limpertsberg, Theate  02416  02416                % 00034 CFLBUS
+200405032 Luxembourg, Gare Cen  02424                       % 00034 CFLBUS
+*Z 00035 CFLBUS                                             % 00035 CFLBUS
+*L L10      110606001 140701016  02235  02329               % 00035 CFLBUS
+*R 2 140701016 110606001 140701016  02235  02329            % 00035 CFLBUS
+*G RGB 110606001 140701016  02235  02329                    % 00035 CFLBUS
+*A VE 110606001 140701016 000106  02235  02329              % 00035 CFLBUS
+*I FD 110606001 140701016        0000475  02235  02329      % 00035 CFLBUS
+110606001 Troisvierges, Gare           02235                % 00035 CFLBUS
+110101002 Clervaux, Gare routi  02252  02252                % 00035 CFLBUS
+140701016 Ettelbruck, Gare      02329                       % 00035 CFLBUS
+*Z 00036 CFLBUS                                             % 00036 CFLBUS
+*L L10      140701016 200405036  02122  02211               % 00036 CFLBUS
+*R 2 200405036 140701016 200405036  02122  02211            % 00036 CFLBUS
+*G RGB 140701016 200405036  02122  02211                    % 00036 CFLBUS
+*A VE 140701016 200405036 000107  02122  02211              % 00036 CFLBUS
+*I FD 140701016 200405036        0003707  02122  02211      % 00036 CFLBUS
+140701016 Ettelbruck, Gare             02122                % 00036 CFLBUS
+160904001 Mersch, Gare          02140  02141                % 00036 CFLBUS
+200405036 Luxembourg, Gare rou  02211                       % 00036 CFLBUS
+*Z 00037 CFLBUS                                             % 00037 CFLBUS
+*L L10      140701016 200405036  02222  02311               % 00037 CFLBUS
+*R 2 200405036 140701016 200405036  02222  02311            % 00037 CFLBUS
+*G RGB 140701016 200405036  02222  02311                    % 00037 CFLBUS
+*A VE 140701016 200405036 000107  02222  02311              % 00037 CFLBUS
+*I FD 140701016 200405036        0003708  02222  02311      % 00037 CFLBUS
+140701016 Ettelbruck, Gare             02222                % 00037 CFLBUS
+160904001 Mersch, Gare          02240  02241                % 00037 CFLBUS
+200405036 Luxembourg, Gare rou  02311                       % 00037 CFLBUS
+*Z 00038 CFLBUS                                             % 00038 CFLBUS
+*L L10      140701016 200405036  02322  02411               % 00038 CFLBUS
+*R 2 200405036 140701016 200405036  02322  02411            % 00038 CFLBUS
+*G RGB 140701016 200405036  02322  02411                    % 00038 CFLBUS
+*A VE 140701016 200405036 000107  02322  02411              % 00038 CFLBUS
+*I FD 140701016 200405036        0003709  02322  02411      % 00038 CFLBUS
+140701016 Ettelbruck, Gare             02322                % 00038 CFLBUS
+160904001 Mersch, Gare          02340  02341                % 00038 CFLBUS
+200405036 Luxembourg, Gare rou  02411                       % 00038 CFLBUS
+*Z 00039 CFLBUS                                             % 00039 CFLBUS
+*L L10      161001005 160904001  02137  02147               % 00039 CFLBUS
+*A K2 161001005 160904001 000107  02137  02147              % 00039 CFLBUS
+*R 2 160904001 161001005 160904001  02137  02147            % 00039 CFLBUS
+*G RGB 161001005 160904001  02137  02147                    % 00039 CFLBUS
+*A VE 161001005 160904001 000107  02137  02147              % 00039 CFLBUS
+*I FD 161001005 160904001        0003710  02137  02147      % 00039 CFLBUS
+161001005 Cruchten, Schléf             02137                % 00039 CFLBUS
+160904001 Mersch, Gare          02147                       % 00039 CFLBUS
+*Z 00040 CFLBUS                                             % 00040 CFLBUS
+*L L10      161001005 160904001  02207  02217               % 00040 CFLBUS
+*A K2 161001005 160904001 000107  02207  02217              % 00040 CFLBUS
+*R 2 160904001 161001005 160904001  02207  02217            % 00040 CFLBUS
+*G RGB 161001005 160904001  02207  02217                    % 00040 CFLBUS
+*A VE 161001005 160904001 000107  02207  02217              % 00040 CFLBUS
+*I FD 161001005 160904001        0003711  02207  02217      % 00040 CFLBUS
+161001005 Cruchten, Schléf             02207                % 00040 CFLBUS
+160904001 Mersch, Gare          02217                       % 00040 CFLBUS
+*Z 00041 CFLBUS                                             % 00041 CFLBUS
+*L L10      161001005 160904001  02237  02247               % 00041 CFLBUS
+*A K2 161001005 160904001 000107  02237  02247              % 00041 CFLBUS
+*R 2 160904001 161001005 160904001  02237  02247            % 00041 CFLBUS
+*G RGB 161001005 160904001  02237  02247                    % 00041 CFLBUS
+*A VE 161001005 160904001 000107  02237  02247              % 00041 CFLBUS
+*I FD 161001005 160904001        0003712  02237  02247      % 00041 CFLBUS
+161001005 Cruchten, Schléf             02237                % 00041 CFLBUS
+160904001 Mersch, Gare          02247                       % 00041 CFLBUS
+*Z 00042 CFLBUS                                             % 00042 CFLBUS
+*L L10      161001005 160904001  02307  02317               % 00042 CFLBUS
+*A K2 161001005 160904001 000107  02307  02317              % 00042 CFLBUS
+*R 2 160904001 161001005 160904001  02307  02317            % 00042 CFLBUS
+*G RGB 161001005 160904001  02307  02317                    % 00042 CFLBUS
+*A VE 161001005 160904001 000107  02307  02317              % 00042 CFLBUS
+*I FD 161001005 160904001        0003713  02307  02317      % 00042 CFLBUS
+161001005 Cruchten, Schléf             02307                % 00042 CFLBUS
+160904001 Mersch, Gare          02317                       % 00042 CFLBUS
+*Z 00043 CFLBUS                                             % 00043 CFLBUS
+*L L10      161001005 160904001  02337  02347               % 00043 CFLBUS
+*A K2 161001005 160904001 000107  02337  02347              % 00043 CFLBUS
+*R 2 160904001 161001005 160904001  02337  02347            % 00043 CFLBUS
+*G RGB 161001005 160904001  02337  02347                    % 00043 CFLBUS
+*A VE 161001005 160904001 000107  02337  02347              % 00043 CFLBUS
+*I FD 161001005 160904001        0003714  02337  02347      % 00043 CFLBUS
+161001005 Cruchten, Schléf             02337                % 00043 CFLBUS
+160904001 Mersch, Gare          02347                       % 00043 CFLBUS

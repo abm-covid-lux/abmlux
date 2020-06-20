@@ -1,0 +1,1379 @@
+*F 07 2
+% Clervaux, Gare routière/Lycée -> Clervaux, Gare
+110101002 110101016 004S00
+*L 0000250
+% Clervaux, Gare -> Clervaux, Gare routière/Lycée
+110101016 110101002 004S00
+*L 0000250
+% Drauffelt, Op der Gare -> Drauffelt, Park & Rail
+110501002 110501005 002S00
+*L 0000100
+% Drauffelt, Park & Rail -> Drauffelt, Op der Gare
+110501005 110501002 002S00
+*L 0000100
+% Derenbach, Kapell -> Derenbach, Bei der Kirich
+110807001 110807003 009S00
+% Derenbach, Bei der Kirich -> Derenbach, Kapell
+110807003 110807001 009S00
+% Wiltz, Gare -> Wiltz, Lann
+120903018 120903021 004S00
+*L 0000200
+% Wiltz, Lann -> Wiltz, Gare
+120903021 120903018 004S00
+*L 0000200
+% Vianden, Bréck -> Vianden, Schoul
+130301004 130301015 003S00
+% Vianden, Schoul -> Vianden, Bréck
+130301015 130301004 003S00
+% Michelau, Gare -> Michelau, Kiirch
+140307001 140307002 002S00
+% Michelau, Kiirch -> Michelau, Gare
+140307002 140307001 002S00
+% Diekirch, Kluuster -> Diekirch, Place des Récollets
+140401006 140401010 002S00
+% Diekirch, rue Merten -> Diekirch, Neie Kolleisch
+140401007 140401009 002S00
+% Diekirch, Neie Kolleisch -> Diekirch, rue Merten
+140401009 140401007 002S00
+% Diekirch, Place des Récollets -> Diekirch, Kluuster
+140401010 140401006 002S00
+% Warken, Cité Bourschterbach -> Warken, Centre d'Education Diff.
+140701007 140702001 001S00
+% Warken, Centre d'Education Diff. -> Warken, Cité Bourschterbach
+140702001 140701007 001S00
+% Niederfeulen, Belle Vue -> Niederfeulen, Mairie
+140801001 140801003 004S00
+% Niederfeulen, Belle Vue -> Niederfeulen, route d'Arlon
+140801001 140801004 003S00
+% Niederfeulen, Mairie -> Niederfeulen, Belle Vue
+140801003 140801001 004S00
+% Niederfeulen, Mairie -> Niederfeulen, route d'Arlon
+140801003 140801004 003S00
+% Niederfeulen, route d'Arlon -> Niederfeulen, Belle Vue
+140801004 140801001 003S00
+% Niederfeulen, route d'Arlon -> Niederfeulen, Mairie
+140801004 140801003 003S00
+% Schieren, Faubourg -> Schieren, Gare
+141301002 141301003 005S00
+% Schieren, Gare -> Schieren, Faubourg
+141301003 141301002 005S00
+% Oberpallen, Bréck -> Oberpallen, Schnuddelbierg
+150107001 150107002 002S00
+% Oberpallen, Schnuddelbierg -> Oberpallen, Bréck
+150107002 150107001 002S00
+% Proz, Haaptstrooss -> Pratz, Zentrum
+150203005 150203006 002S00
+% Pratz, Zentrum -> Proz, Haaptstrooss
+150203006 150203005 002S00
+% Grosbous, Kiircheplaz -> Grosbous, Op der Baach
+150402002 150402004 002S00
+% Grosbous, Op der Baach -> Grosbous, Kiircheplaz
+150402004 150402002 002S00
+% Perlé, Op der Kopp -> Perlé, Schoul
+150511004 150511005 003S00
+% Perlé, Schoul -> Perlé, Op der Kopp
+150511005 150511004 003S00
+% Redange/Attert, Bian -> Redange, Gemeng
+150606001 150606004 003S00
+% Redange, Gemeng -> Redange/Attert, Bian
+150606004 150606001 003S00
+% Saeul, Beim Sand -> Saeul, Kiëm
+150704001 150704002 002S00
+% Saeul, Beim Sand -> Saeul, Post
+150704001 150704003 001S00
+% Saeul, Beim Sand -> Saeul, Raiffeisen
+150704001 150704004 002S00
+% Saeul, Kiëm -> Saeul, Beim Sand
+150704002 150704001 002S00
+% Saeul, Kiëm -> Saeul, Post
+150704002 150704003 002S00
+% Saeul, Kiëm -> Saeul, Raiffeisen
+150704002 150704004 001S00
+% Saeul, Post -> Saeul, Beim Sand
+150704003 150704001 001S00
+% Saeul, Post -> Saeul, Kiëm
+150704003 150704002 002S00
+% Saeul, Post -> Saeul, Raiffeisen
+150704003 150704004 002S00
+% Saeul, Raiffeisen -> Saeul, Beim Sand
+150704004 150704001 002S00
+% Saeul, Raiffeisen -> Saeul, Kiëm
+150704004 150704002 001S00
+% Saeul, Raiffeisen -> Saeul, Post
+150704004 150704003 002S00
+% Useldange, Raiffeisekeess -> Useldange, Spuerkeess
+150804002 150804003 005S00
+% Useldange, Spuerkeess -> Useldange, Raiffeisekeess
+150804003 150804002 005S00
+% Boevange, Gare -> Boevange, Uerbelt
+160201003 160201006 003S00
+% Boevange, Uerbelt -> Boevange, Gare
+160201006 160201003 003S00
+% Colmar-Berg, Gare -> Colmar, Goldbierg
+160301004 160301005 010S00
+% Colmar-Berg, Gare -> Colmar, rue de Luxembourg
+160301004 160301010 008S00
+% Colmar-Berg, Gare -> Colmar, rue d'Ettelbruck
+160301004 160301011 007S00
+% Colmar, Goldbierg -> Colmar-Berg, Gare
+160301005 160301004 010S00
+% Colmar, rue de Luxembourg -> Colmar-Berg, Gare
+160301010 160301004 008S00
+% Colmar, rue d'Ettelbruck -> Colmar-Berg, Gare
+160301011 160301004 007S00
+% Heffingen, Al Gemeng -> Heffingen, Centre
+160501001 160501002 003S00
+% Heffingen, Al Gemeng -> Heffingen, Rue de Christnach
+160501001 160501003 005S00
+% Heffingen, Centre -> Heffingen, Al Gemeng
+160501002 160501001 003S00
+% Heffingen, Centre -> Heffingen, Rue de Christnach
+160501002 160501003 005S00
+% Heffingen, Rue de Christnach -> Heffingen, Al Gemeng
+160501003 160501001 005S00
+% Heffingen, Rue de Christnach -> Heffingen, Centre
+160501003 160501002 005S00
+% Larochette, Bleech -> Larochette, Gare Routière
+160601001 160601003 003S00
+% Larochette, Bleech -> Larochette, Spuerkeess
+160601001 160601008 003S00
+% Larochette, Gare Routière -> Larochette, Bleech
+160601003 160601001 003S00
+% Larochette, Gare Routière -> Larochette, Spuerkeess
+160601003 160601008 003S00
+% Larochette, Millewee -> Larochette, Pomjeesbau
+160601006 160601007 003S00
+% Larochette, Pomjeesbau -> Larochette, Millewee
+160601007 160601006 003S00
+% Larochette, Spuerkeess -> Larochette, Bleech
+160601008 160601001 003S00
+% Larochette, Spuerkeess -> Larochette, Gare Routière
+160601008 160601003 003S00
+% Lintgen, Gare -> Lintgen, Kräizung
+160702002 160702003 005S00
+% Lintgen, Kräizung -> Lintgen, Gare
+160702003 160702002 005S00
+% Rollingen, Fielserstrooss -> Mersch, Lohr
+160902002 160902003 006S00
+% Mersch, Lohr -> Rollingen, Fielserstrooss
+160902003 160902002 006S00
+% Cruchten, Haaptstrooss -> Cruchten, Neistrooss
+161001002 161001004 002S00
+% Cruchten, Neistrooss -> Cruchten, Haaptstrooss
+161001004 161001002 002S00
+% Altrier, Bildchen -> Altrier, Heeschbregerwee
+170201001 170201002 004S00
+% Altrier, Heeschbregerwee -> Altrier, Bildchen
+170201002 170201001 004S00
+% Grundhof, Grondhaff -> Grundhof, Bei der Ernz
+170303001 170303002 003S00
+% Grundhof, Bei der Ernz -> Grundhof, Grondhaff
+170303002 170303001 003S00
+% Echternach, Alte Grenzbrücke -> Echternach, Lycée
+170501001 170501009 003S00
+% Echternach, Belle Vue -> Echternach, Gare Centre
+170501003 170501016 003S00
+*L 0000135
+% Echternach, Lycée -> Echternach, Alte Grenzbrücke
+170501009 170501001 003S00
+% Echternach, Gare Centre -> Echternach, Belle Vue
+170501016 170501003 003S00
+*L 0000135
+% Steinheim, An der Uecht -> Steinheim, Spillschoul
+170705001 170705003 002S00
+% Steinheim, Spillschoul -> Steinheim, An der Uecht
+170705003 170705001 002S00
+% Müllerthal, Cascades -> Müllerthal/Möllerdall
+170803001 170803002 002S00
+% Müllerthal/Möllerdall -> Müllerthal, Cascades
+170803002 170803001 002S00
+% Betzdorf, Bei der Schoul -> Betzdorf, Gare
+180103001 180103002 005S00
+% Betzdorf, Gare -> Betzdorf, Bei der Schoul
+180103002 180103001 005S00
+% Roodt/Syre, Barriär -> Roodt/Syre, Gare
+180106001 180106003 003S00
+% Roodt/Syre, Gare -> Roodt/Syre, Barriär
+180106003 180106001 003S00
+% Potaschbierg -> Potaschbierg, Z.I.
+180402001 180402002 014S00
+% Potaschbierg, Z.I. -> Potaschbierg
+180402002 180402001 014S00
+% Graulinster, Am Duerf -> Graulinster, Haaptstrooss
+180509001 180509002 005S00
+% Graulinster, Haaptstrooss -> Graulinster, Am Duerf
+180509002 180509001 005S00
+% Junglinster, Op der Gare -> Junglinster, Rue de la Gare
+180511002 180511004 005S00
+% Junglinster, Rue de la Gare -> Junglinster, Op der Gare
+180511004 180511002 005S00
+% Mertert, Gare -> Mertert, Parc
+180701004 180701005 002S00
+% Mertert, Parc -> Mertert, Gare
+180701005 180701004 002S00
+% Ahn, Alphonse Steinès -> Ahn, Op der Breck
+180801001 180801002 005S00
+% Ahn, Op der Breck -> Ahn, Alphonse Steinès
+180801002 180801001 005S00
+% Machtum, Bei Kallek's -> Machtum, Ongkaf
+180803001 180803004 002S00
+% Machtum, Ongkaf -> Machtum, Bei Kallek's
+180803004 180803001 002S00
+% Bascharage, Arcades -> Bascharage, Place Schuman
+190101001 190101016 003S00
+% Bascharage, Boeltgen -> Bascharage, Dicks Lentz
+190101002 190101008 005S00
+% Bascharage, Bommelscheier -> Bascharage, Prince Henri
+190101004 190101017 005S00
+% Bascharage, Bommertbesch -> Bascharage, Rue de Schouweiler
+190101005 190101019 002S00
+% Bascharage, Dicks Lentz -> Bascharage, Boeltgen
+190101008 190101002 005S00
+% Bascharage/Sanem, Gare -> Bascharage, Op Krattert
+190101011 190101014 006S00
+% Bascharage, Jules Hemmer -> Linger, Velo's Piste
+190101013 190103003 006S00
+% Bascharage, Op Krattert -> Bascharage/Sanem, Gare
+190101014 190101011 006S00
+% Bascharage, Place Schuman -> Bascharage, Arcades
+190101016 190101001 003S00
+% Bascharage, Prince Henri -> Bascharage, Bommelscheier
+190101017 190101004 005S00
+% Bascharage, Rue de Schouweiler -> Bascharage, Bommertbesch
+190101019 190101005 002S00
+% Linger, Velo's Piste -> Bascharage, Jules Hemmer
+190103003 190101013 006S00
+% Bettange, Bei der Barriär -> Dippach-Reckange, Gare
+190301001 190301004 002S00
+% Dippach-Reckange, Gare -> Bettange, Bei der Barriär
+190301004 190301001 002S00
+% Dippach, Bei der Crèche -> Dippach, Um Däich
+190302001 190302006 004S00
+% Dippach, Bei der Crèche -> Dippach, Um Pull
+190302001 190302007 003S00
+% Dippach, Um Däich -> Dippach, Bei der Crèche
+190302006 190302001 004S00
+% Dippach, Um Däich -> Dippach, Um Pull
+190302006 190302007 003S00
+% Dippach, Um Pull -> Dippach, Bei der Crèche
+190302007 190302001 003S00
+% Dippach, Um Pull -> Dippach, Um Däich
+190302007 190302006 003S00
+% Schouweiler, Bei der aler Schoul -> Schouweiler, Kiirch
+190303001 190303005 002S00
+% Schouweiler, Kiirch -> Schouweiler, Bei der aler Schoul
+190303005 190303001 002S00
+% Mamer, Eisebunnsbréck -> Mamer, Gare
+190903006 190903008 003S00
+% Mamer, Gare -> Mamer, Eisebunnsbréck
+190903008 190903006 003S00
+% Mamer, Lycée (gare ferroviaire) -> Mamer, Lycee (gare routière)
+190903011 190903015 005S00
+% Mamer, Lycée (gare ferroviaire) -> Bertrange, Ecole Européenne II
+190903011 200101021 005S00
+% Mamer, Lycee (gare routière) -> Mamer, Lycée (gare ferroviaire)
+190903015 190903011 005S00
+% Kleinbettingen, Duerf -> Kleinbettingen, Gare
+191103001 191103002 002S00
+% Kleinbettingen, Gare -> Kleinbettingen, Duerf
+191103002 191103001 002S00
+% Bertrange, Fleuri -> Helfenterbréck, Pletzer
+200101006 200102003 005S00
+% Bertrange, Fleuri -> Helfenterbréck
+200101006 200102004 004S00
+% Bertrange, Ecole Européenne II -> Mamer, Lycée (gare ferroviaire)
+200101021 190903011 005S00
+% Helfent, Automobile Club -> Helfent, City Concorde
+200102001 200102002 005S00
+% Helfent, City Concorde -> Helfent, Automobile Club
+200102002 200102001 005S00
+% Helfenterbréck, Pletzer -> Bertrange, Fleuri
+200102003 200101006 005S00
+% Helfenterbréck, Pletzer -> Helfenterbréck
+200102003 200102004 004S00
+% Helfenterbréck -> Bertrange, Fleuri
+200102004 200101006 004S00
+% Helfenterbréck -> Helfenterbréck, Pletzer
+200102004 200102003 004S00
+% Contern, Weiergewan -> Sandweiler, Du Pont
+200201007 200601003 006S00
+% Moutfort, Kiem -> Moutfort, Syrbréck
+200203004 200203005 005S00
+% Moutfort, Syrbréck -> Moutfort, Kiem
+200203005 200203004 005S00
+% Oetrange, Gare -> Oetrange, Éiter
+200204001 200204003 004S00
+% Oetrange, Éiter -> Oetrange, Gare
+200204003 200204001 004S00
+% Hesperange, Cité Um Schlass -> Hesperange, Um Schlass
+200303002 200305009 003S00
+% Howald, Ronneboesch -> Howald, Gare
+200304011 200304014 005S00
+% Howald, Gare -> Howald, Ronneboesch
+200304014 200304011 005S00
+% Hesperange, Um Schlass -> Hesperange, Cité Um Schlass
+200305009 200303002 003S00
+% Bonnevoie, Lycée Technique de Bonnevoie/Quais -> Bonnevoie, Neufchâteau
+200404027 200404028 003S00
+% Bonnevoie, Neufchâteau -> Bonnevoie, Lycée Technique de Bonnevoie/Quais
+200404028 200404027 003S00
+% Luxembourg, Gare Centrale Quai 102 -> Luxembourg, Gare Centrale Quai 103
+200405002 200405032 002S00
+% Luxembourg, Gare Centrale Quai 102 -> Luxembourg, Gare Centrale
+200405002 200405035 005S00
+% Luxembourg, Gare Centrale Quai 102 -> Luxembourg, Gare routière
+200405002 200405036 005S00
+% Centre, Badanstalt -> Centre, Beaumont
+200405005 200405006 003S00
+% Centre, Beaumont -> Centre, Badanstalt
+200405006 200405005 003S00
+% Centre, F.D. Roosevelt -> Centre, Forum Royal
+200405013 200405016 009S00
+% Centre, F.D. Roosevelt -> Hamilius
+200405013 200405020 007S00
+% Centre, F.D. Roosevelt -> Luxembourg/Centre, Monterey
+200405013 200405025 008S00
+% Centre, Fondation Pescatore -> Limpertsberg, Parking Glacis
+200405014 200419030 006S00
+% Centre, Forum Royal -> Centre, F.D. Roosevelt
+200405016 200405013 009S00
+% Centre, Forum Royal -> Hamilius
+200405016 200405020 005S00
+% Centre, Forum Royal -> Luxembourg/Centre, Monterey
+200405016 200405025 006S00
+% Centre, Forum Royal -> Luxembourg/Centre, Royal
+200405016 200405029 003S00
+% Hamilius -> Centre, F.D. Roosevelt
+200405020 200405013 007S00
+% Hamilius -> Centre, Forum Royal
+200405020 200405016 005S00
+% Luxembourg/Centre, Monterey -> Centre, F.D. Roosevelt
+200405025 200405013 008S00
+% Luxembourg/Centre, Monterey -> Centre, Forum Royal
+200405025 200405016 006S00
+% Luxembourg/Centre, Royal -> Centre, Forum Royal
+200405029 200405016 003S00
+% Luxembourg, Gare Centrale Quai 103 -> Luxembourg, Gare Centrale Quai 102
+200405032 200405002 002S00
+% Luxembourg, Gare Centrale Quai 103 -> Luxembourg, Gare Centrale
+200405032 200405035 005S00
+% Luxembourg, Gare Centrale Quai 103 -> Luxembourg, Gare routière
+200405032 200405036 004S00
+% Luxembourg, Fortuna -> Luxembourg, rue Heine
+200405034 200405037 002S00
+% Luxembourg, Gare Centrale -> Luxembourg, Gare Centrale Quai 102
+200405035 200405002 005S00
+% Luxembourg, Gare Centrale -> Luxembourg, Gare Centrale Quai 103
+200405035 200405032 005S00
+% Luxembourg, Gare Centrale -> Luxembourg, Gare routière
+200405035 200405036 004S00
+% Luxembourg, Gare routière -> Luxembourg, Gare Centrale Quai 102
+200405036 200405002 005S00
+% Luxembourg, Gare routière -> Luxembourg, Gare Centrale Quai 103
+200405036 200405032 004S00
+% Luxembourg, Gare routière -> Luxembourg, Gare Centrale
+200405036 200405035 004S00
+% Luxembourg, rue Heine -> Luxembourg, Fortuna
+200405037 200405034 002S00
+% Dommeldange, Gare -> Eich, Klinik
+200409008 200410004 005S00
+% Eich, Klinik -> Dommeldange, Gare
+200410004 200409008 005S00
+% Gasperich, Cloche d'Or -> Gasperich, Ruppert
+200412006 200412017 002S00
+% Gasperich, Déportation -> Gasperich, Lascombes
+200412007 200412012 003S00
+% Gasperich, Lascombes -> Gasperich, Déportation
+200412012 200412007 003S00
+% Gasperich, Ruppert -> Gasperich, Cloche d'Or
+200412017 200412006 002S00
+% Hamm, Käschtewee -> Hamm, Ronndréisch
+200414003 200414009 005S00
+% Hamm, Ronndréisch -> Hamm, Käschtewee
+200414009 200414003 005S00
+% Hollerich, Salzhaff -> Hollerich, Schluechthaus
+200415012 200415013 003S00
+% Hollerich, Schluechthaus -> Hollerich, Salzhaff
+200415013 200415012 003S00
+% Kirchberg, Hugo Gernsback -> Kirchberg, Luxexpo Quai 4
+200417040 200417044 002S30
+*L 0000125
+% Kirchberg, Hugo Gernsback -> Kirchberg, Gare routière Luxexpo
+200417040 200417050 002S30
+*L 0000125
+% Kirchberg, Hugo Gernsback -> Kirchberg, Luxexpo (Arrêt Tram)
+200417040 200417052 002S30
+*L 0000130
+% Kirchberg, Hugo Gernsback -> Kirchberg, Luxexpo Quai 5A
+200417040 200417055 005S00
+*L 0000200
+% Kirchberg, Hugo Gernsback -> Kirchberg, Luxexpo Quai 5B
+200417040 200417057 004S00
+*L 0000200
+% Kirchberg, Luxexpo Quai 4 -> Kirchberg, Hugo Gernsback
+200417044 200417040 002S30
+*L 0000125
+% Kirchberg, Luxexpo Quai 4 -> Kirchberg, Gare routière Luxexpo
+200417044 200417050 001S30
+*L 0000050
+% Kirchberg, Luxexpo Quai 4 -> Kirchberg, Luxexpo (Arrêt Tram)
+200417044 200417052 002S30
+*L 0000125
+% Kirchberg, Luxexpo Quai 4 -> Kirchberg, Luxexpo Quai 5A
+200417044 200417055 004S00
+*L 0000150
+% Kirchberg, Luxexpo Quai 4 -> Kirchberg, Luxexpo Quai 5B
+200417044 200417057 005S00
+*L 0000200
+% Kirchberg, Rout Bréck - Pafendall -> Pfaffenthal-Kirchberg, Gare
+200417047 200417051 005S41
+*A sb 
+*L 0000155
+% Kirchberg, Rout Bréck - Pafendall -> Kirchberg, Rout Bréck - Pafendall Tram
+200417047 200417058 002S30
+*L 0000090
+% Kirchberg, Rout Bréck - Pafendall -> Pfaffenthal, Halte CFL
+200417047 200423007 006S30
+*A sb 
+*L 0000175
+% Kirchberg, Gare routière Luxexpo -> Kirchberg, Hugo Gernsback
+200417050 200417040 002S30
+*L 0000125
+% Kirchberg, Gare routière Luxexpo -> Kirchberg, Luxexpo Quai 4
+200417050 200417044 001S30
+*L 0000050
+% Kirchberg, Gare routière Luxexpo -> Kirchberg, Luxexpo (Arrêt Tram)
+200417050 200417052 003S00
+*L 0000155
+% Kirchberg, Gare routière Luxexpo -> Kirchberg, Luxexpo Quai 5A
+200417050 200417055 004S00
+*L 0000150
+% Kirchberg, Gare routière Luxexpo -> Kirchberg, Luxexpo Quai 5B
+200417050 200417057 005S30
+*L 0000175
+% Pfaffenthal-Kirchberg, Gare -> Kirchberg, Rout Bréck - Pafendall
+200417051 200417047 005S41
+*A sb 
+*L 0000155
+% Pfaffenthal-Kirchberg, Gare -> Kirchberg, Rout Bréck - Pafendall Tram
+200417051 200417058 003S35
+*A sb 
+*L 0000100
+% Pfaffenthal-Kirchberg, Gare -> Pfaffenthal, Halte CFL
+200417051 200423007 003S11
+*L 0000080
+% Kirchberg, Luxexpo (Arrêt Tram) -> Kirchberg, Hugo Gernsback
+200417052 200417040 002S30
+*L 0000130
+% Kirchberg, Luxexpo (Arrêt Tram) -> Kirchberg, Luxexpo Quai 4
+200417052 200417044 002S30
+*L 0000125
+% Kirchberg, Luxexpo (Arrêt Tram) -> Kirchberg, Gare routière Luxexpo
+200417052 200417050 003S00
+*L 0000155
+% Kirchberg, Luxexpo (Arrêt Tram) -> Kirchberg, Luxexpo Quai 5A
+200417052 200417055 005S30
+*L 0000275
+% Kirchberg, Luxexpo (Arrêt Tram) -> Kirchberg, Luxexpo Quai 5B
+200417052 200417057 006S30
+*L 0000325
+% Kirchberg, Luxexpo Quai 5A -> Kirchberg, Hugo Gernsback
+200417055 200417040 005S00
+*L 0000200
+% Kirchberg, Luxexpo Quai 5A -> Kirchberg, Luxexpo Quai 4
+200417055 200417044 004S00
+*L 0000150
+% Kirchberg, Luxexpo Quai 5A -> Kirchberg, Gare routière Luxexpo
+200417055 200417050 004S00
+*L 0000150
+% Kirchberg, Luxexpo Quai 5A -> Kirchberg, Luxexpo (Arrêt Tram)
+200417055 200417052 005S30
+*L 0000275
+% Kirchberg, Luxexpo Quai 5A -> Kirchberg, Luxexpo Quai 5B
+200417055 200417057 002S00
+*L 0000090
+% Kirchberg, Luxexpo Quai 5B -> Kirchberg, Hugo Gernsback
+200417057 200417040 004S00
+*L 0000200
+% Kirchberg, Luxexpo Quai 5B -> Kirchberg, Luxexpo Quai 4
+200417057 200417044 005S00
+*L 0000200
+% Kirchberg, Luxexpo Quai 5B -> Kirchberg, Gare routière Luxexpo
+200417057 200417050 005S30
+*L 0000175
+% Kirchberg, Luxexpo Quai 5B -> Kirchberg, Luxexpo (Arrêt Tram)
+200417057 200417052 006S30
+*L 0000325
+% Kirchberg, Luxexpo Quai 5B -> Kirchberg, Luxexpo Quai 5A
+200417057 200417055 002S00
+*L 0000090
+% Kirchberg, Rout Bréck - Pafendall Tram -> Kirchberg, Rout Bréck - Pafendall
+200417058 200417047 002S30
+*L 0000090
+% Kirchberg, Rout Bréck - Pafendall Tram -> Pfaffenthal-Kirchberg, Gare
+200417058 200417051 003S35
+*A sb 
+*L 0000100
+% Kirchberg, Rout Bréck - Pafendall Tram -> Pfaffenthal, Halte CFL
+200417058 200423007 004S24
+*A sb 
+*L 0000120
+% Limpertsberg, Arts et Métiers -> Limpertsberg, Guillaume Schneider
+200419005 200419018 005S00
+% Limpertsberg, Jean Soupert -> Luxembourg, Uni Campus Limpertsberg
+200419012 200419020 003S00
+% Limpertsberg, Jean Soupert -> Limpertsberg, Léandre Lacroix
+200419012 200419023 003S00
+% Limpertsberg, Guillaume Schneider -> Limpertsberg, Arts et Métiers
+200419018 200419005 005S00
+% Luxembourg, Uni Campus Limpertsberg -> Limpertsberg, Jean Soupert
+200419020 200419012 003S00
+% Limpertsberg, L.T.C. -> Limpertsberg, Lycée Michel Lucius
+200419021 200419022 002S00
+% Limpertsberg, Lycée Michel Lucius -> Limpertsberg, L.T.C.
+200419022 200419021 002S00
+% Limpertsberg, Léandre Lacroix -> Limpertsberg, Jean Soupert
+200419023 200419012 003S00
+% Limpertsberg, Parking Glacis -> Centre, Fondation Pescatore
+200419030 200405014 006S00
+% Merl, Conservatoire -> Merl, Geesseknäppchen (N)
+200420004 200420005 005S00
+% Merl, Conservatoire -> Merl, Marcel Cahen
+200420004 200420009 007S00
+% Merl, Geesseknäppchen (N) -> Merl, Conservatoire
+200420005 200420004 005S00
+% Merl, Geesseknäppchen (N) -> Merl, Geesseknäppchen (S)
+200420005 200420006 006S00
+% Merl, Geesseknäppchen (S) -> Merl, Geesseknäppchen (N)
+200420006 200420005 006S00
+% Merl, Marcel Cahen -> Merl, Conservatoire
+200420009 200420004 007S00
+% Pfaffenthal, Halte CFL -> Kirchberg, Rout Bréck - Pafendall
+200423007 200417047 006S30
+*A sb 
+*L 0000175
+% Pfaffenthal, Halte CFL -> Pfaffenthal-Kirchberg, Gare
+200423007 200417051 003S11
+*L 0000080
+% Pfaffenthal, Halte CFL -> Kirchberg, Rout Bréck - Pafendall Tram
+200423007 200417058 004S24
+*A sb 
+*L 0000120
+% Senningerberg, Charlys Statioun -> Senningerberg, Kapell
+200508003 200508006 003S00
+% Senningerberg, Kapell -> Senningerberg, Charlys Statioun
+200508006 200508003 003S00
+% Sandweiler, Du Pont -> Contern, Weiergewan
+200601003 200201007 006S00
+% Munsbach, Gare -> Munsbach, Kulturzentrum
+200701001 200701002 004S00
+% Munsbach, Gare -> Munsbach, Op der Gare
+200701001 200701004 002S00
+% Munsbach, Kulturzentrum -> Munsbach, Gare
+200701002 200701001 004S00
+% Munsbach, Kulturzentrum -> Munsbach, Op der Gare
+200701002 200701004 003S00
+% Munsbach, Op der Gare -> Munsbach, Gare
+200701004 200701001 002S00
+% Munsbach, Op der Gare -> Munsbach, Kulturzentrum
+200701004 200701002 003S00
+% Strassen, Follereau -> Strassen, Riedgen
+200901010 200901026 004S00
+% Strassen, Schoenacht -> Strassen, Terminus
+200901011 200901029 002S00
+% Strassen, Riedgen -> Strassen, Follereau
+200901026 200901010 004S00
+% Strassen, Terminus -> Strassen, Schoenacht
+200901029 200901011 002S00
+% Canach, Post -> Canach, rue Haart
+210401004 210401005 003S00
+% Canach, rue Haart -> Canach, Post
+210401005 210401004 003S00
+% Altwies, An der Kaz -> Altwies, Buergässel
+210501001 210501003 003S00
+% Altwies, Buergässel -> Altwies, An der Kaz
+210501003 210501001 003S00
+% Remich, Gare routière -> Remich, Pl. Nico Klopp
+210701006 210701012 008S00
+% Remich, Gare routière -> Nennig, Bahnhof
+210701006 500000043 011S00
+% Remich, Gare routière -> Nennig, Zoll
+210701006 500000046 008S00
+% Remich, Pl. Nico Klopp -> Remich, Gare routière
+210701012 210701006 008S00
+% Remich, Pl. Nico Klopp -> Nennig, Bahnhof
+210701012 500000043 012S00
+% Remich, Pl. Nico Klopp -> Nennig, Zoll
+210701012 500000046 011S00
+% Greiveldange, Gemengebréck -> Greiveldange, Schoul
+210801002 210801005 003S00
+% Greiveldange, Schoul -> Greiveldange, Gemengebréck
+210801005 210801002 003S00
+% Stadtbredimus, Kreizgaass -> Stadtbredimus, Schoul
+210803002 210803004 002S00
+% Stadtbredimus, Schoul -> Stadtbredimus, Kreizgaass
+210803004 210803002 002S00
+% Differdange, Arbed -> Differdange, Centre
+220201003 220201006 003S00
+% Differdange, Arbed -> Differdange, Gare
+220201003 220201021 004S00
+% Differdange, Centre -> Differdange, Arbed
+220201006 220201003 003S00
+% Differdange, Centre -> Differdange, Gare
+220201006 220201021 003S00
+% Differdange, Gare -> Differdange, Arbed
+220201021 220201003 004S00
+% Differdange, Gare -> Differdange, Centre
+220201021 220201006 003S00
+% Niedercorn, CFL Halte -> Niedercorn, Moartplatz
+220203003 220203009 004S00
+*L 0000210
+% Niedercorn, CFL Halte -> Niedercorn, Schoul
+220203003 220203011 003S00
+% Niedercorn, Moartplatz -> Niedercorn, CFL Halte
+220203009 220203003 004S00
+*L 0000210
+% Niedercorn, Moartplatz -> Niedercorn, Schoul
+220203009 220203011 003S00
+*L 0000160
+% Niedercorn, Schoul -> Niedercorn, CFL Halte
+220203011 220203003 003S00
+% Niedercorn, Schoul -> Niedercorn, Moartplatz
+220203011 220203009 003S00
+*L 0000160
+% Obercorn, Place Prince Jean -> Obercorn, Post
+220204004 220204005 005S00
+% Obercorn, Place Prince Jean -> Obercorn, Rousegaertchen
+220204004 220204006 003S00
+% Obercorn, Post -> Obercorn, Place Prince Jean
+220204005 220204004 005S00
+% Obercorn, Post -> Obercorn, Rousegaertchen
+220204005 220204006 004S00
+% Obercorn, Rousegaertchen -> Obercorn, Place Prince Jean
+220204006 220204004 003S00
+% Obercorn, Rousegaertchen -> Obercorn, Post
+220204006 220204005 004S00
+% Dudelange, Birenger Barrière -> Dudelange-Burange, Gare
+220301006 220301012 002S00
+% Dudelange, Birenger Barrière -> Dudelange, rue Ribeschpont
+220301006 220301026 003S00
+% Dudelange-Burange, Gare -> Dudelange, Birenger Barrière
+220301012 220301006 002S00
+% Dudelange-Burange, Gare -> Dudelange, rue Ribeschpont
+220301012 220301026 005S00
+% Dudelange-Centre, Gare -> Dudelange, Gare
+220301015 220301022 002S00
+% Dudelange, Gare -> Dudelange-Centre, Gare
+220301022 220301015 002S00
+% Dudelange, rue Ribeschpont -> Dudelange, Birenger Barrière
+220301026 220301006 003S00
+% Dudelange, rue Ribeschpont -> Dudelange-Burange, Gare
+220301026 220301012 005S00
+% Esch/Alzette, Place des Remparts -> Esch/Alzette, Rue Large
+220402001 220402018 005S00
+% Esch/Alzette, Place des Remparts -> Esch/Alzette, Grand-rue
+220402001 220402050 004S00
+% Esch/Alzette, Rue Large -> Esch/Alzette, Place des Remparts
+220402018 220402001 005S00
+% Esch/Alzette, Rue Large -> Esch/Alzette, Grand-rue
+220402018 220402050 003S00
+% Esch/Alzette, Cité Verte -> Esch/Alzette, Op Zaepert
+220402022 220402067 005S00
+% Esch/Alzette, Gare -> Esch/Alzette, Gare (bd. Kenn)
+220402034 220402038 003S00
+% Esch/Alzette, Gare (bd. Kenn) -> Esch/Alzette, Gare
+220402038 220402034 003S00
+% Esch/Alzette, Grand-rue -> Esch/Alzette, Place des Remparts
+220402050 220402001 004S00
+% Esch/Alzette, Grand-rue -> Esch/Alzette, Rue Large
+220402050 220402018 003S00
+% Esch/Alzette, Op Zaepert -> Esch/Alzette, Cité Verte
+220402067 220402022 005S00
+% Esch/Alzette, Tramschapp -> Esch/Alzette, Tramschapp
+220402075 220402106 004S00
+% Esch/Alzette, Tramschapp -> Esch/Alzette, Tramschapp
+220402106 220402075 004S00
+% Frisange, Aal Gemeng -> Frisange, Op der Kräizong
+220502001 220502004 005S00
+*L 0000122
+% Frisange, Op der Kräizong -> Frisange, Aal Gemeng
+220502004 220502001 005S00
+*L 0000122
+% Kayl, Bréck -> Kayl, Police
+220601010 220601017 005S00
+% Kayl, Cité Berens -> Kayl, Eecherwee
+220601012 220601014 003S00
+% Kayl, Eecherwee -> Kayl, Cité Berens
+220601014 220601012 003S00
+% Kayl, Police -> Kayl, Bréck
+220601017 220601010 005S00
+% Tétange, Kierfecht -> Tétange, Rue Neuve
+220602004 220602006 003S00
+% Tétange, Rue Neuve -> Tétange, Kierfecht
+220602006 220602004 003S00
+% Leudelange, Kamellebierg -> Leudelange, Queesche Wee
+220701009 220701013 003S00
+% Leudelange, Queesche Wee -> Leudelange, Kamellebierg
+220701013 220701009 003S00
+% Foetz, Am Brill -> Foetz, Am Butterbrill
+220802003 220802004 002S00
+% Foetz, Am Butterbrill -> Foetz, Am Brill
+220802004 220802003 002S00
+% Foetz, Wacquant -> Foetz, Rond Point
+220802009 220802010 003S00
+% Foetz, Rond Point -> Foetz, Wacquant
+220802010 220802009 003S00
+% Mondercange, A.Thinnes -> Mondercange, Centre
+220803001 220803005 002S00
+% Mondercange, Blach -> Mondercange, Mausereck
+220803003 220803015 002S00
+% Mondercange, Centre -> Mondercange, A.Thinnes
+220803005 220803001 002S00
+% Mondercange, Kazebach -> Mondercange, Krombach
+220803011 220803013 002S00
+% Mondercange, Krombach -> Mondercange, Kazebach
+220803013 220803011 002S00
+% Mondercange, Mausereck -> Mondercange, Blach
+220803015 220803003 002S00
+% Mondercange, Musekssall -> Mondercange, Rommelterhiel
+220803017 220803023 002S00
+% Mondercange, Rommelterhiel -> Mondercange, Musekssall
+220803023 220803017 002S00
+% Pontpierre, Freschpesch -> Pontpierre, Bei der Kierch
+220804004 220804007 003S00
+% Pontpierre, Bei der Kierch -> Pontpierre, Freschpesch
+220804007 220804004 003S00
+% Lamadelaine, Avenue de la Gare -> Rodange, Raths
+220901001 220903018 002S00
+% Lamadelaine, Kierch -> Lamadelaine, Op Gehren
+220901003 220901006 008S00
+% Lamadelaine, Kierch -> Lamadelaine, Schoul
+220901003 220901008 006S00
+% Lamadelaine, Op Gehren -> Lamadelaine, Kierch
+220901006 220901003 008S00
+% Lamadelaine, Op Gehren -> Lamadelaine, Schoul
+220901006 220901008 005S00
+% Lamadelaine, Schoul -> Lamadelaine, Kierch
+220901008 220901003 006S00
+% Lamadelaine, Schoul -> Lamadelaine, Op Gehren
+220901008 220901006 005S00
+% Pétange, A Rousen -> Pétange, Maartplaz
+220902001 220902013 001S00
+% Pétange, A Rousen -> Pétange, Paschtoueschhaus
+220902001 220902017 001S00
+% Pétange, Maartplaz -> Pétange, A Rousen
+220902013 220902001 001S00
+% Pétange, Maartplaz -> Pétange, Paschtoueschhaus
+220902013 220902017 001S00
+% Pétange, Paschtoueschhaus -> Pétange, A Rousen
+220902017 220902001 001S00
+% Pétange, Paschtoueschhaus -> Pétange, Maartplaz
+220902017 220902013 001S00
+% Rodange, Kierch -> Rodange, Kierch 2
+220903010 220903012 001S00
+% Rodange, Kierch 2 -> Rodange, Kierch
+220903012 220903010 001S00
+% Rodange, Raths -> Lamadelaine, Avenue de la Gare
+220903018 220901001 002S00
+% Rumelange, Aale Kierfecht -> Rumelange, Centre Culturel
+221201002 221201004 002S00
+% Rumelange, Centre Culturel -> Rumelange, Aale Kierfecht
+221201004 221201002 002S00
+% Rumelange, Intermoselle -> Rumelange, Rembour
+221201006 221201011 004S00
+% Rumelange, Rembour -> Rumelange, Intermoselle
+221201011 221201006 004S00
+% Sanem, Kierch -> Sanem, Place Tornaco
+221303002 221303005 003S00
+% Sanem, Kierch -> Sanem, Zentrum
+221303002 221303009 002S00
+% Sanem, Place Tornaco -> Sanem, Kierch
+221303005 221303002 003S00
+% Sanem, Place Tornaco -> Sanem, Zentrum
+221303005 221303009 005S00
+% Sanem, Zentrum -> Sanem, Kierch
+221303009 221303002 002S00
+% Sanem, Zentrum -> Sanem, Place Tornaco
+221303009 221303005 005S00
+% Schifflange, Gare -> Schifflange, Stadhaus
+221401002 221401003 007S00
+% Schifflange, Gare -> Schifflange, Stadhaus
+221401002 221401009 003S00
+% Schifflange, Stadhaus -> Schifflange, Gare
+221401003 221401002 007S00
+% Schifflange, Stadhaus -> Schifflange, Stadhaus
+221401003 221401009 005S00
+% Schifflange, Stadhaus -> Schifflange, Gare
+221401009 221401002 003S00
+% Schifflange, Stadhaus -> Schifflange, Stadhaus
+221401009 221401003 005S00
+% Audun-le-Tiche, Gare -> Audun-le-Tiche, Mairie
+400000002 400000099 007S00
+% Audun-le-Tiche, Mairie -> Audun-le-Tiche, Gare
+400000099 400000002 007S00
+% Nennig, Bahnhof -> Remich, Gare routière
+500000043 210701006 011S00
+% Nennig, Bahnhof -> Remich, Pl. Nico Klopp
+500000043 210701012 012S00
+% Nennig, Bahnhof -> Nennig, Zoll
+500000043 500000046 010S00
+% Nennig, Zoll -> Remich, Gare routière
+500000046 210701006 008S00
+% Nennig, Zoll -> Remich, Pl. Nico Klopp
+500000046 210701012 011S00
+% Nennig, Zoll -> Nennig, Bahnhof
+500000046 500000043 010S00
+% Trier, Christophstr. -> Trier, Theodor-Heuss-Allee
+500000078 500000083 002S00
+% Trier, Theodor-Heuss-Allee -> Trier, Christophstr.
+500000083 500000078 002S00
+% Clervaux, Gare routière/Lycée =  F110101016 Clervaux, Gare;
+110101002:  110101002 F110101016
+% Clervaux, Gare =  F110101002 Clervaux, Gare routière/Lycée;
+110101016:  110101016 F110101002
+% Drauffelt, Op der Gare =  F110501005 Drauffelt, Park & Rail;
+110501002:  110501002 F110501005
+% Drauffelt, Park & Rail =  F110501002 Drauffelt, Op der Gare;
+110501005:  110501005 F110501002
+% Derenbach, Kapell =  F110807003 Derenbach, Bei der Kirich;
+110807001:  110807001 F110807003
+% Derenbach, Bei der Kirich =  F110807001 Derenbach, Kapell;
+110807003:  110807003 F110807001
+% Wiltz, Gare =  F120903021 Wiltz, Lann;
+120903018:  120903018 F120903021
+% Wiltz, Lann =  F120903018 Wiltz, Gare;
+120903021:  120903021 F120903018
+% Vianden, Bréck =  F130301015 Vianden, Schoul;
+130301004:  130301004 F130301015
+% Vianden, Schoul =  F130301004 Vianden, Bréck;
+130301015:  130301015 F130301004
+% Michelau, Gare =  F140307002 Michelau, Kiirch;
+140307001:  140307001 F140307002
+% Michelau, Kiirch =  F140307001 Michelau, Gare;
+140307002:  140307002 F140307001
+% Diekirch, Kluuster =  F140401010 Diekirch, Place des Récollets;
+140401006:  140401006 F140401010
+% Diekirch, rue Merten =  F140401009 Diekirch, Neie Kolleisch;
+140401007:  140401007 F140401009
+% Diekirch, Neie Kolleisch =  F140401007 Diekirch, rue Merten;
+140401009:  140401009 F140401007
+% Diekirch, Place des Récollets =  F140401006 Diekirch, Kluuster;
+140401010:  140401010 F140401006
+% Warken, Cité Bourschterbach =  F140702001 Warken, Centre d'Education Diff.;
+140701007:  140701007 F140702001
+% Ettelbruck, L.T.Salentiny =   140701023 Ettelbruck, Lycée Technique Agricole;
+140701021:  140701021  140701023
+% Ettelbruck, Lycée Technique Agricole =   140701021 Ettelbruck, L.T.Salentiny;
+140701023:  140701023  140701021
+% Warken, Centre d'Education Diff. =  F140701007 Warken, Cité Bourschterbach;
+140702001:  140702001 F140701007
+% Niederfeulen, Belle Vue =  F140801003 Niederfeulen, Mairie; F140801004 Niederfeulen, route d'Arlon;
+140801001:  140801001 F140801003 F140801004
+% Niederfeulen, Mairie =  F140801001 Niederfeulen, Belle Vue; F140801004 Niederfeulen, route d'Arlon;
+140801003:  140801003 F140801001 F140801004
+% Niederfeulen, route d'Arlon =  F140801001 Niederfeulen, Belle Vue; F140801003 Niederfeulen, Mairie;
+140801004:  140801004 F140801001 F140801003
+% Schieren, Faubourg =  F141301003 Schieren, Gare;
+141301002:  141301002 F141301003
+% Schieren, Gare =  F141301002 Schieren, Faubourg;  141301004 Schieren, Neie Wee;  141301005 Schieren, Uewerschieren;  141301006 Schieren, Vali's Plaz;
+141301003:  141301003 F141301002  141301004  141301005  141301006
+% Oberpallen, Bréck =  F150107002 Oberpallen, Schnuddelbierg;
+150107001:  150107001 F150107002
+% Oberpallen, Schnuddelbierg =  F150107001 Oberpallen, Bréck;
+150107002:  150107002 F150107001
+% Proz, Haaptstrooss =  F150203006 Pratz, Zentrum;
+150203005:  150203005 F150203006
+% Pratz, Zentrum =  F150203005 Proz, Haaptstrooss;
+150203006:  150203006 F150203005
+% Grosbous, Kiircheplaz =  F150402004 Grosbous, Op der Baach;
+150402002:  150402002 F150402004
+% Grosbous, Op der Baach =  F150402002 Grosbous, Kiircheplaz;
+150402004:  150402004 F150402002
+% Perlé, Op der Kopp =  F150511005 Perlé, Schoul;
+150511004:  150511004 F150511005
+% Perlé, Schoul =  F150511004 Perlé, Op der Kopp;
+150511005:  150511005 F150511004
+% Redange/Attert, Bian =  F150606004 Redange, Gemeng;
+150606001:  150606001 F150606004
+% Redange, Gemeng =  F150606001 Redange/Attert, Bian;
+150606004:  150606004 F150606001
+% Saeul, Beim Sand =  F150704002 Saeul, Kiëm; F150704003 Saeul, Post; F150704004 Saeul, Raiffeisen;
+150704001:  150704001 F150704002 F150704003 F150704004
+% Saeul, Kiëm =  F150704001 Saeul, Beim Sand; F150704003 Saeul, Post; F150704004 Saeul, Raiffeisen;
+150704002:  150704002 F150704001 F150704003 F150704004
+% Saeul, Post =  F150704001 Saeul, Beim Sand; F150704002 Saeul, Kiëm; F150704004 Saeul, Raiffeisen;
+150704003:  150704003 F150704001 F150704002 F150704004
+% Saeul, Raiffeisen =  F150704001 Saeul, Beim Sand; F150704002 Saeul, Kiëm; F150704003 Saeul, Post;
+150704004:  150704004 F150704001 F150704002 F150704003
+% Useldange, Raiffeisekeess =  F150804003 Useldange, Spuerkeess;
+150804002:  150804002 F150804003
+% Useldange, Spuerkeess =  F150804002 Useldange, Raiffeisekeess;
+150804003:  150804003 F150804002
+% Boevange, Gare =  F160201006 Boevange, Uerbelt;
+160201003:  160201003 F160201006
+% Boevange, Uerbelt =  F160201003 Boevange, Gare;
+160201006:  160201006 F160201003
+% Colmar-Berg, Gare =   160301003 Colmar, Faubourg; F160301005 Colmar, Goldbierg; F160301010 Colmar, rue de Luxembourg; F160301011 Colmar, rue d'Ettelbruck;
+160301004:  160301004  160301003 F160301005 F160301010 F160301011
+% Colmar, Goldbierg =  F160301004 Colmar-Berg, Gare;
+160301005:  160301005 F160301004
+% Colmar, rue de Luxembourg =  F160301004 Colmar-Berg, Gare;
+160301010:  160301010 F160301004
+% Colmar, rue d'Ettelbruck =  F160301004 Colmar-Berg, Gare;
+160301011:  160301011 F160301004
+% Heffingen, Al Gemeng =  F160501002 Heffingen, Centre; F160501003 Heffingen, Rue de Christnach;
+160501001:  160501001 F160501002 F160501003
+% Heffingen, Centre =  F160501001 Heffingen, Al Gemeng; F160501003 Heffingen, Rue de Christnach;
+160501002:  160501002 F160501001 F160501003
+% Heffingen, Rue de Christnach =  F160501001 Heffingen, Al Gemeng; F160501002 Heffingen, Centre;
+160501003:  160501003 F160501001 F160501002
+% Larochette, Bleech =  F160601003 Larochette, Gare Routière; F160601008 Larochette, Spuerkeess;
+160601001:  160601001 F160601003 F160601008
+% Larochette, Gare Routière =  F160601001 Larochette, Bleech; F160601008 Larochette, Spuerkeess;
+160601003:  160601003 F160601001 F160601008
+% Larochette, Millewee =  F160601007 Larochette, Pomjeesbau;
+160601006:  160601006 F160601007
+% Larochette, Pomjeesbau =  F160601006 Larochette, Millewee;
+160601007:  160601007 F160601006
+% Larochette, Spuerkeess =  F160601001 Larochette, Bleech; F160601003 Larochette, Gare Routière;
+160601008:  160601008 F160601001 F160601003
+% Lintgen, Gare =  F160702003 Lintgen, Kräizung;
+160702002:  160702002 F160702003
+% Lintgen, Kräizung =  F160702002 Lintgen, Gare;
+160702003:  160702003 F160702002
+% Rollingen, Fielserstrooss =  F160902003 Mersch, Lohr;
+160902002:  160902002 F160902003
+% Mersch, Lohr =  F160902002 Rollingen, Fielserstrooss;
+160902003:  160902003 F160902002
+% Cruchten, Gare =   161001005 Cruchten, Schléf;
+161001001:  161001001  161001005
+% Cruchten, Haaptstrooss =  F161001004 Cruchten, Neistrooss;
+161001002:  161001002 F161001004
+% Cruchten, Neistrooss =  F161001002 Cruchten, Haaptstrooss;
+161001004:  161001004 F161001002
+% Altrier, Bildchen =  F170201002 Altrier, Heeschbregerwee;
+170201001:  170201001 F170201002
+% Altrier, Heeschbregerwee =  F170201001 Altrier, Bildchen;
+170201002:  170201002 F170201001
+% Grundhof, Grondhaff =  F170303002 Grundhof, Bei der Ernz;
+170303001:  170303001 F170303002
+% Grundhof, Bei der Ernz =  F170303001 Grundhof, Grondhaff;
+170303002:  170303002 F170303001
+% Echternach, Alte Grenzbrücke =  F170501009 Echternach, Lycée;
+170501001:  170501001 F170501009
+% Echternach, Belle Vue =  F170501016 Echternach, Gare Centre;
+170501003:  170501003 F170501016
+% Echternach, Lycée =  F170501001 Echternach, Alte Grenzbrücke;
+170501009:  170501009 F170501001
+% Echternach, Gare Centre =  F170501003 Echternach, Belle Vue;
+170501016:  170501016 F170501003
+% Steinheim, An der Uecht =  F170705003 Steinheim, Spillschoul;
+170705001:  170705001 F170705003
+% Steinheim, Spillschoul =  F170705001 Steinheim, An der Uecht;
+170705003:  170705003 F170705001
+% Müllerthal, Cascades =  F170803002 Müllerthal/Möllerdall;
+170803001:  170803001 F170803002
+% Müllerthal/Möllerdall =  F170803001 Müllerthal, Cascades;
+170803002:  170803002 F170803001
+% Betzdorf, Bei der Schoul =  F180103002 Betzdorf, Gare;
+180103001:  180103001 F180103002
+% Betzdorf, Gare =  F180103001 Betzdorf, Bei der Schoul;
+180103002:  180103002 F180103001
+% Roodt/Syre, Barriär =  F180106003 Roodt/Syre, Gare;
+180106001:  180106001 F180106003
+% Roodt/Syre, Gare =  F180106001 Roodt/Syre, Barriär;
+180106003:  180106003 F180106001
+% Potaschbierg =  F180402002 Potaschbierg, Z.I.;
+180402001:  180402001 F180402002
+% Potaschbierg, Z.I. =  F180402001 Potaschbierg;
+180402002:  180402002 F180402001
+% Graulinster, Am Duerf =  F180509002 Graulinster, Haaptstrooss;
+180509001:  180509001 F180509002
+% Graulinster, Haaptstrooss =  F180509001 Graulinster, Am Duerf;
+180509002:  180509002 F180509001
+% Junglinster, Op der Gare =  F180511004 Junglinster, Rue de la Gare;
+180511002:  180511002 F180511004
+% Junglinster, Rue de la Gare =  F180511002 Junglinster, Op der Gare;
+180511004:  180511004 F180511002
+% Mertert, Gare =  F180701005 Mertert, Parc;
+180701004:  180701004 F180701005
+% Mertert, Parc =  F180701004 Mertert, Gare;
+180701005:  180701005 F180701004
+% Ahn, Alphonse Steinès =  F180801002 Ahn, Op der Breck;
+180801001:  180801001 F180801002
+% Ahn, Op der Breck =  F180801001 Ahn, Alphonse Steinès;
+180801002:  180801002 F180801001
+% Machtum, Bei Kallek's =  F180803004 Machtum, Ongkaf;
+180803001:  180803001 F180803004
+% Machtum, Ongkaf =  F180803001 Machtum, Bei Kallek's;
+180803004:  180803004 F180803001
+% Bascharage, Arcades =  F190101016 Bascharage, Place Schuman;
+190101001:  190101001 F190101016
+% Bascharage, Boeltgen =  F190101008 Bascharage, Dicks Lentz;
+190101002:  190101002 F190101008
+% Bascharage, Bommelscheier =  F190101017 Bascharage, Prince Henri;
+190101004:  190101004 F190101017
+% Bascharage, Bommertbesch =  F190101019 Bascharage, Rue de Schouweiler;
+190101005:  190101005 F190101019
+% Bascharage, Dicks Lentz =  F190101002 Bascharage, Boeltgen;
+190101008:  190101008 F190101002
+% Bascharage/Sanem, Gare =  F190101014 Bascharage, Op Krattert;
+190101011:  190101011 F190101014
+% Bascharage, Jules Hemmer =  F190103003 Linger, Velo's Piste;
+190101013:  190101013 F190103003
+% Bascharage, Op Krattert =  F190101011 Bascharage/Sanem, Gare;
+190101014:  190101014 F190101011
+% Bascharage, Place Schuman =  F190101001 Bascharage, Arcades;
+190101016:  190101016 F190101001
+% Bascharage, Prince Henri =  F190101004 Bascharage, Bommelscheier;
+190101017:  190101017 F190101004
+% Bascharage, Rue de Schouweiler =  F190101005 Bascharage, Bommertbesch;
+190101019:  190101019 F190101005
+% Linger, Velo's Piste =  F190101013 Bascharage, Jules Hemmer;
+190103003:  190103003 F190101013
+% Bettange, Bei der Barriär =  F190301004 Dippach-Reckange, Gare;
+190301001:  190301001 F190301004
+% Dippach-Reckange, Gare =  F190301001 Bettange, Bei der Barriär;
+190301004:  190301004 F190301001
+% Dippach, Bei der Crèche =  F190302006 Dippach, Um Däich; F190302007 Dippach, Um Pull;
+190302001:  190302001 F190302006 F190302007
+% Dippach, Um Däich =  F190302001 Dippach, Bei der Crèche; F190302007 Dippach, Um Pull;
+190302006:  190302006 F190302001 F190302007
+% Dippach, Um Pull =  F190302001 Dippach, Bei der Crèche; F190302006 Dippach, Um Däich;
+190302007:  190302007 F190302001 F190302006
+% Schouweiler, Bei der aler Schoul =  F190303005 Schouweiler, Kiirch;
+190303001:  190303001 F190303005
+% Schouweiler, Kiirch =  F190303001 Schouweiler, Bei der aler Schoul;
+190303005:  190303005 F190303001
+% Mamer, Eisebunnsbréck =  F190903008 Mamer, Gare;
+190903006:  190903006 F190903008
+% Mamer, Gare =  F190903006 Mamer, Eisebunnsbréck;
+190903008:  190903008 F190903006
+% Mamer, Lycée (gare ferroviaire) =  F190903015 Mamer, Lycee (gare routière);  200101021 Bertrange, Ecole Européenne II;
+190903011:  190903011 F190903015  200101021
+% Mamer, Lycee (gare routière) =  F190903011 Mamer, Lycée (gare ferroviaire);
+190903015:  190903015 F190903011
+% Kleinbettingen, Duerf =  F191103002 Kleinbettingen, Gare;
+191103001:  191103001 F191103002
+% Kleinbettingen, Gare =  F191103001 Kleinbettingen, Duerf;
+191103002:  191103002 F191103001
+% Bertrange, Fleuri =  F200102003 Helfenterbréck, Pletzer; F200102004 Helfenterbréck;
+200101006:  200101006 F200102003 F200102004
+% Bertrange, Ecole Européenne II =  F190903011 Mamer, Lycée (gare ferroviaire);
+200101021:  200101021 F190903011
+% Helfent, Automobile Club =  F200102002 Helfent, City Concorde;
+200102001:  200102001 F200102002
+% Helfent, City Concorde =  F200102001 Helfent, Automobile Club;
+200102002:  200102002 F200102001
+% Helfenterbréck, Pletzer =  F200101006 Bertrange, Fleuri; F200102004 Helfenterbréck;
+200102003:  200102003 F200101006 F200102004
+% Helfenterbréck =  F200101006 Bertrange, Fleuri; F200102003 Helfenterbréck, Pletzer;
+200102004:  200102004 F200101006 F200102003
+% Contern, Weiergewan =  F200601003 Sandweiler, Du Pont;
+200201007:  200201007 F200601003
+% Moutfort, Kiem =  F200203005 Moutfort, Syrbréck;
+200203004:  200203004 F200203005
+% Moutfort, Syrbréck =  F200203004 Moutfort, Kiem;
+200203005:  200203005 F200203004
+% Oetrange, Gare =  F200204003 Oetrange, Éiter;
+200204001:  200204001 F200204003
+% Oetrange, Éiter =  F200204001 Oetrange, Gare;
+200204003:  200204003 F200204001
+% Hesperange, Cité Um Schlass =  F200305009 Hesperange, Um Schlass;
+200303002:  200303002 F200305009
+% Howald, Ronneboesch =  F200304014 Howald, Gare;
+200304011:  200304011 F200304014
+% Howald, Gare =  F200304011 Howald, Ronneboesch;
+200304014:  200304014 F200304011
+% Gasperich/Howald, P&R Howald =   200304008 Howald, P&R Howald Quai 4;  200304012 Howald, P&R Howald Quai 1;  200304017 Howald, P&R Howald Quai 2;  200304018 Howald, P&R Howald Quai 3;
+200304019:  200304008  200304012  200304017  200304018
+% Hesperange, Um Schlass =   200303002 Hesperange, Cité Um Schlass;
+200305009:  200305009  200303002
+% Bonnevoie, Lycée Technique de Bonnevoie/Quais =  F200404028 Bonnevoie, Neufchâteau;
+200404027:  200404027 F200404028
+% Bonnevoie, Neufchâteau =  F200404027 Bonnevoie, Lycée Technique de Bonnevoie/Quais;
+200404028:  200404028 F200404027
+% Luxembourg, Gare Centrale Quai 102 =  F200405032 Luxembourg, Gare Centrale Quai 103; F200405035 Luxembourg, Gare Centrale; F200405036 Luxembourg, Gare routière;
+200405002:  200405002 F200405032 F200405035 F200405036
+% Centre, Badanstalt =  F200405006 Centre, Beaumont;
+200405005:  200405005 F200405006
+% Centre, Beaumont =  F200405005 Centre, Badanstalt;
+200405006:  200405006 F200405005
+% Centre, F.D. Roosevelt =  F200405016 Centre, Forum Royal; F200405020 Hamilius;  200405025 Luxembourg/Centre, Monterey;  200405054 Centre, F.D. Roosevelt;
+200405013:  200405013 F200405016 F200405020  200405025  200405054
+% Centre, Fondation Pescatore =  F200419030 Limpertsberg, Parking Glacis;
+200405014:  200405014 F200419030
+% Centre, Forum Royal =  F200405013 Centre, F.D. Roosevelt; F200405020 Hamilius; F200405025 Luxembourg/Centre, Monterey; F200405029 Luxembourg/Centre, Royal;
+200405016:  200405016 F200405013 F200405020 F200405025 F200405029
+% Hamilius =  F200405013 Centre, F.D. Roosevelt; F200405016 Centre, Forum Royal;
+200405020:  200405020 F200405013 F200405016
+% Luxembourg/Centre, Monterey =   200405013 Centre, F.D. Roosevelt;  200405016 Centre, Forum Royal;
+200405025:  200405025  200405013  200405016
+% Luxembourg/Centre, Royal =  F200405016 Centre, Forum Royal;
+200405029:  200405029 F200405016
+% Luxembourg, Gare Centrale Quai 103 =  F200405002 Luxembourg, Gare Centrale Quai 102; F200405035 Luxembourg, Gare Centrale; F200405036 Luxembourg, Gare routière;
+200405032:  200405032 F200405002 F200405035 F200405036
+% Luxembourg, Fortuna =  F200405037 Luxembourg, rue Heine;
+200405034:  200405034 F200405037
+% Luxembourg, Gare Centrale =   200405002 Luxembourg, Gare Centrale Quai 102; F200405032 Luxembourg, Gare Centrale Quai 103;  200405036 Luxembourg, Gare routière;
+200405035:  200405035  200405002 F200405032  200405036
+% Luxembourg, Gare routière =   200405002 Luxembourg, Gare Centrale Quai 102; F200405032 Luxembourg, Gare Centrale Quai 103;  200405035 Luxembourg, Gare Centrale;
+200405036:  200405036  200405002 F200405032  200405035
+% Luxembourg, rue Heine =  F200405034 Luxembourg, Fortuna;
+200405037:  200405037 F200405034
+% Centre, F.D. Roosevelt =   200405013 Centre, F.D. Roosevelt;
+200405054:  200405054  200405013
+% Dommeldange, Gare =  F200410004 Eich, Klinik;
+200409008:  200409008 F200410004
+% Eich, Klinik =  F200409008 Dommeldange, Gare;
+200410004:  200410004 F200409008
+% Gasperich, Cloche d'Or =  F200412017 Gasperich, Ruppert;
+200412006:  200412006 F200412017
+% Gasperich, Déportation =  F200412012 Gasperich, Lascombes;
+200412007:  200412007 F200412012
+% Gasperich, Lascombes =  F200412007 Gasperich, Déportation;
+200412012:  200412012 F200412007
+% Gasperich, Ruppert =  F200412006 Gasperich, Cloche d'Or;
+200412017:  200412017 F200412006
+% Hamm, Käschtewee =  F200414009 Hamm, Ronndréisch;
+200414003:  200414003 F200414009
+% Hamm, Ronndréisch =  F200414003 Hamm, Käschtewee;
+200414009:  200414009 F200414003
+% Hollerich, Salzhaff =  F200415013 Hollerich, Schluechthaus;
+200415012:  200415012 F200415013
+% Hollerich, Schluechthaus =  F200415012 Hollerich, Salzhaff;
+200415013:  200415013 F200415012
+% Kirchberg, Hugo Gernsback =  F200417044 Kirchberg, Luxexpo Quai 4; F200417050 Kirchberg, Gare routière Luxexpo; F200417052 Kirchberg, Luxexpo (Arrêt Tram); F200417055 Kirchberg, Luxexpo Quai 5A; F200417057 Kirchberg, Luxexpo Quai 5B;
+200417040:  200417040 F200417044 F200417050 F200417052 F200417055 F200417057
+% Kirchberg, Luxexpo Quai 4 =  F200417040 Kirchberg, Hugo Gernsback; F200417050 Kirchberg, Gare routière Luxexpo; F200417052 Kirchberg, Luxexpo (Arrêt Tram); F200417055 Kirchberg, Luxexpo Quai 5A; F200417057 Kirchberg, Luxexpo Quai 5B;
+200417044:  200417044 F200417040 F200417050 F200417052 F200417055 F200417057
+% Kirchberg, Rout Bréck - Pafendall =  F200417051 Pfaffenthal-Kirchberg, Gare; F200417058 Kirchberg, Rout Bréck - Pafendall Tram; F200423007 Pfaffenthal, Halte CFL;
+200417047:  200417047 F200417051 F200417058 F200423007
+% Kirchberg, Gare routière Luxexpo =  F200417040 Kirchberg, Hugo Gernsback; F200417044 Kirchberg, Luxexpo Quai 4; F200417052 Kirchberg, Luxexpo (Arrêt Tram); F200417055 Kirchberg, Luxexpo Quai 5A; F200417057 Kirchberg, Luxexpo Quai 5B;
+200417050:  200417050 F200417040 F200417044 F200417052 F200417055 F200417057
+% Pfaffenthal-Kirchberg, Gare =  F200417047 Kirchberg, Rout Bréck - Pafendall; F200417058 Kirchberg, Rout Bréck - Pafendall Tram; F200423007 Pfaffenthal, Halte CFL;
+200417051:  200417051 F200417047 F200417058 F200423007
+% Kirchberg, Luxexpo (Arrêt Tram) =  F200417040 Kirchberg, Hugo Gernsback; F200417044 Kirchberg, Luxexpo Quai 4; F200417050 Kirchberg, Gare routière Luxexpo; F200417055 Kirchberg, Luxexpo Quai 5A; F200417057 Kirchberg, Luxexpo Quai 5B;
+200417052:  200417052 F200417040 F200417044 F200417050 F200417055 F200417057
+% Kirchberg, Luxexpo Quai 5A =  F200417040 Kirchberg, Hugo Gernsback; F200417044 Kirchberg, Luxexpo Quai 4; F200417050 Kirchberg, Gare routière Luxexpo; F200417052 Kirchberg, Luxexpo (Arrêt Tram); F200417057 Kirchberg, Luxexpo Quai 5B;
+200417055:  200417055 F200417040 F200417044 F200417050 F200417052 F200417057
+% Kirchberg, Luxexpo Quai 5B =  F200417040 Kirchberg, Hugo Gernsback; F200417044 Kirchberg, Luxexpo Quai 4; F200417050 Kirchberg, Gare routière Luxexpo; F200417052 Kirchberg, Luxexpo (Arrêt Tram); F200417055 Kirchberg, Luxexpo Quai 5A;
+200417057:  200417057 F200417040 F200417044 F200417050 F200417052 F200417055
+% Kirchberg, Rout Bréck - Pafendall Tram =  F200417047 Kirchberg, Rout Bréck - Pafendall; F200417051 Pfaffenthal-Kirchberg, Gare; F200423007 Pfaffenthal, Halte CFL;
+200417058:  200417058 F200417047 F200417051 F200423007
+% Limpertsberg, Arts et Métiers =  F200419018 Limpertsberg, Guillaume Schneider;
+200419005:  200419005 F200419018
+% Limpertsberg, Jean Soupert =  F200419020 Luxembourg, Uni Campus Limpertsberg; F200419023 Limpertsberg, Léandre Lacroix;
+200419012:  200419012 F200419020 F200419023
+% Limpertsberg, Guillaume Schneider =  F200419005 Limpertsberg, Arts et Métiers;
+200419018:  200419018 F200419005
+% Luxembourg, Uni Campus Limpertsberg =   200419012 Limpertsberg, Jean Soupert;
+200419020:  200419020  200419012
+% Limpertsberg, L.T.C. =  F200419022 Limpertsberg, Lycée Michel Lucius;
+200419021:  200419021 F200419022
+% Limpertsberg, Lycée Michel Lucius =  F200419021 Limpertsberg, L.T.C.;
+200419022:  200419022 F200419021
+% Limpertsberg, Léandre Lacroix =   200419012 Limpertsberg, Jean Soupert;
+200419023:  200419023  200419012
+% Limpertsberg, Parking Glacis =  F200405014 Centre, Fondation Pescatore;
+200419030:  200419030 F200405014
+% Merl, Conservatoire =  F200420005 Merl, Geesseknäppchen (N); F200420009 Merl, Marcel Cahen;
+200420004:  200420004 F200420005 F200420009
+% Merl, Geesseknäppchen (N) =  F200420004 Merl, Conservatoire; F200420006 Merl, Geesseknäppchen (S);
+200420005:  200420005 F200420004 F200420006
+% Merl, Geesseknäppchen (S) =  F200420005 Merl, Geesseknäppchen (N);
+200420006:  200420006 F200420005
+% Merl, Marcel Cahen =  F200420004 Merl, Conservatoire;
+200420009:  200420009 F200420004
+% Pfaffenthal, Halte CFL =  F200417047 Kirchberg, Rout Bréck - Pafendall; F200417051 Pfaffenthal-Kirchberg, Gare; F200417058 Kirchberg, Rout Bréck - Pafendall Tram;
+200423007:  200423007 F200417047 F200417051 F200417058
+% Senningerberg, Charlys Statioun =  F200508006 Senningerberg, Kapell;
+200508003:  200508003 F200508006
+% Senningerberg, Kapell =  F200508003 Senningerberg, Charlys Statioun;
+200508006:  200508006 F200508003
+% Sandweiler, Du Pont =  F200201007 Contern, Weiergewan;
+200601003:  200601003 F200201007
+% Munsbach, Gare =  F200701002 Munsbach, Kulturzentrum; F200701004 Munsbach, Op der Gare;
+200701001:  200701001 F200701002 F200701004
+% Munsbach, Kulturzentrum =  F200701001 Munsbach, Gare; F200701004 Munsbach, Op der Gare;
+200701002:  200701002 F200701001 F200701004
+% Munsbach, Op der Gare =  F200701001 Munsbach, Gare; F200701002 Munsbach, Kulturzentrum;
+200701004:  200701004 F200701001 F200701002
+% Heisdorf, Gare =   200802004 Heisdorf, Klouster;
+200802003:  200802003  200802004
+% Strassen, Follereau =  F200901026 Strassen, Riedgen;
+200901010:  200901010 F200901026
+% Strassen, Schoenacht =  F200901029 Strassen, Terminus;
+200901011:  200901011 F200901029
+% Strassen, Riedgen =  F200901010 Strassen, Follereau;
+200901026:  200901026 F200901010
+% Strassen, Terminus =  F200901011 Strassen, Schoenacht;
+200901029:  200901029 F200901011
+% Canach, Post =  F210401005 Canach, rue Haart;
+210401004:  210401004 F210401005
+% Canach, rue Haart =  F210401004 Canach, Post;
+210401005:  210401005 F210401004
+% Altwies, An der Kaz =  F210501003 Altwies, Buergässel;
+210501001:  210501001 F210501003
+% Altwies, Buergässel =  F210501001 Altwies, An der Kaz;
+210501003:  210501003 F210501001
+% Remich, Gare routière =  F210701012 Remich, Pl. Nico Klopp; F500000043 Nennig, Bahnhof; F500000046 Nennig, Zoll;
+210701006:  210701006 F210701012 F500000043 F500000046
+% Remich, Pl. Nico Klopp =  F210701006 Remich, Gare routière; F500000043 Nennig, Bahnhof; F500000046 Nennig, Zoll;
+210701012:  210701012 F210701006 F500000043 F500000046
+% Greiveldange, Gemengebréck =  F210801005 Greiveldange, Schoul;
+210801002:  210801002 F210801005
+% Greiveldange, Schoul =  F210801002 Greiveldange, Gemengebréck;
+210801005:  210801005 F210801002
+% Stadtbredimus, Kreizgaass =  F210803004 Stadtbredimus, Schoul;
+210803002:  210803002 F210803004
+% Stadtbredimus, Schoul =  F210803002 Stadtbredimus, Kreizgaass;
+210803004:  210803004 F210803002
+% Differdange, Arbed =  F220201006 Differdange, Centre; F220201021 Differdange, Gare;
+220201003:  220201003 F220201006 F220201021
+% Differdange, Centre =  F220201003 Differdange, Arbed; F220201021 Differdange, Gare;
+220201006:  220201006 F220201003 F220201021
+% Differdange, Gare =  F220201003 Differdange, Arbed; F220201006 Differdange, Centre;
+220201021:  220201021 F220201003 F220201006
+% Niedercorn, CFL Halte =  F220203009 Niedercorn, Moartplatz; F220203011 Niedercorn, Schoul;
+220203003:  220203003 F220203009 F220203011
+% Niedercorn, Moartplatz =  F220203003 Niedercorn, CFL Halte; F220203011 Niedercorn, Schoul;
+220203009:  220203009 F220203003 F220203011
+% Niedercorn, Schoul =  F220203003 Niedercorn, CFL Halte; F220203009 Niedercorn, Moartplatz;
+220203011:  220203011 F220203003 F220203009
+% Obercorn, Place Prince Jean =  F220204005 Obercorn, Post; F220204006 Obercorn, Rousegaertchen;
+220204004:  220204004 F220204005 F220204006
+% Obercorn, Post =  F220204004 Obercorn, Place Prince Jean; F220204006 Obercorn, Rousegaertchen;
+220204005:  220204005 F220204004 F220204006
+% Obercorn, Rousegaertchen =  F220204004 Obercorn, Place Prince Jean; F220204005 Obercorn, Post;
+220204006:  220204006 F220204004 F220204005
+% Dudelange, Birenger Barrière =  F220301012 Dudelange-Burange, Gare; F220301026 Dudelange, rue Ribeschpont;
+220301006:  220301006 F220301012 F220301026
+% Dudelange-Burange, Gare =  F220301006 Dudelange, Birenger Barrière; F220301026 Dudelange, rue Ribeschpont;
+220301012:  220301012 F220301006 F220301026
+% Dudelange-Centre, Gare =  F220301022 Dudelange, Gare;
+220301015:  220301015 F220301022
+% Dudelange, Gare =  F220301015 Dudelange-Centre, Gare;
+220301022:  220301022 F220301015
+% Dudelange, rue Ribeschpont =  F220301006 Dudelange, Birenger Barrière; F220301012 Dudelange-Burange, Gare;
+220301026:  220301026 F220301006 F220301012
+% Belval-Université, Gare =  B220401001 Belval-Université, Gare;
+220401001:  220401001 B220401001
+% Esch/Alzette, Place des Remparts =  F220402018 Esch/Alzette, Rue Large; F220402050 Esch/Alzette, Grand-rue;
+220402001:  220402001 F220402018 F220402050
+% Esch/Alzette, Rue Large =  F220402001 Esch/Alzette, Place des Remparts; F220402050 Esch/Alzette, Grand-rue;
+220402018:  220402018 F220402001 F220402050
+% Esch/Alzette, Cité Verte =  F220402067 Esch/Alzette, Op Zaepert;
+220402022:  220402022 F220402067
+% Esch/Alzette, Gare =   220402038 Esch/Alzette, Gare (bd. Kenn);
+220402034:  220402034  220402038
+% Esch/Alzette, Gare (bd. Kenn) =   220402034 Esch/Alzette, Gare;
+220402038:  220402038  220402034
+% Esch/Alzette, Grand-rue =  F220402001 Esch/Alzette, Place des Remparts; F220402018 Esch/Alzette, Rue Large;
+220402050:  220402050 F220402001 F220402018
+% Esch/Alzette, Op Zaepert =  F220402022 Esch/Alzette, Cité Verte;
+220402067:  220402067 F220402022
+% Esch/Alzette, Tramschapp =  F220402106 Esch/Alzette, Tramschapp;
+220402075:  220402075 F220402106
+% Esch/Alzette, Tramschapp =  F220402075 Esch/Alzette, Tramschapp;
+220402106:  220402106 F220402075
+% Frisange, Aal Gemeng =  F220502004 Frisange, Op der Kräizong;
+220502001:  220502001 F220502004
+% Frisange, Op der Kräizong =  F220502001 Frisange, Aal Gemeng;
+220502004:  220502004 F220502001
+% Kayl, Bréck =  F220601017 Kayl, Police;
+220601010:  220601010 F220601017
+% Kayl, Cité Berens =  F220601014 Kayl, Eecherwee;
+220601012:  220601012 F220601014
+% Kayl, Eecherwee =  F220601012 Kayl, Cité Berens;
+220601014:  220601014 F220601012
+% Kayl, Police =  F220601010 Kayl, Bréck;
+220601017:  220601017 F220601010
+% Tétange, Kierfecht =  F220602006 Tétange, Rue Neuve;
+220602004:  220602004 F220602006
+% Tétange, Rue Neuve =  F220602004 Tétange, Kierfecht;
+220602006:  220602006 F220602004
+% Leudelange, Kamellebierg =  F220701013 Leudelange, Queesche Wee;
+220701009:  220701009 F220701013
+% Leudelange, Queesche Wee =  F220701009 Leudelange, Kamellebierg;
+220701013:  220701013 F220701009
+% Foetz, Am Brill =  F220802004 Foetz, Am Butterbrill;
+220802003:  220802003 F220802004
+% Foetz, Am Butterbrill =  F220802003 Foetz, Am Brill;
+220802004:  220802004 F220802003
+% Foetz, Wacquant =  F220802010 Foetz, Rond Point;
+220802009:  220802009 F220802010
+% Foetz, Rond Point =  F220802009 Foetz, Wacquant;
+220802010:  220802010 F220802009
+% Mondercange, A.Thinnes =  F220803005 Mondercange, Centre;
+220803001:  220803001 F220803005
+% Mondercange, Blach =  F220803015 Mondercange, Mausereck;
+220803003:  220803003 F220803015
+% Mondercange, Centre =  F220803001 Mondercange, A.Thinnes;
+220803005:  220803005 F220803001
+% Mondercange, Kazebach =  F220803013 Mondercange, Krombach;
+220803011:  220803011 F220803013
+% Mondercange, Krombach =  F220803011 Mondercange, Kazebach;
+220803013:  220803013 F220803011
+% Mondercange, Mausereck =  F220803003 Mondercange, Blach;
+220803015:  220803015 F220803003
+% Mondercange, Musekssall =  F220803023 Mondercange, Rommelterhiel;
+220803017:  220803017 F220803023
+% Mondercange, Rommelterhiel =  F220803017 Mondercange, Musekssall;
+220803023:  220803023 F220803017
+% Pontpierre, Freschpesch =  F220804007 Pontpierre, Bei der Kierch;
+220804004:  220804004 F220804007
+% Pontpierre, Bei der Kierch =  F220804004 Pontpierre, Freschpesch;
+220804007:  220804007 F220804004
+% Lamadelaine, Avenue de la Gare =  F220903018 Rodange, Raths;
+220901001:  220901001 F220903018
+% Lamadelaine, Kierch =  F220901006 Lamadelaine, Op Gehren; F220901008 Lamadelaine, Schoul;
+220901003:  220901003 F220901006 F220901008
+% Lamadelaine, Op Gehren =  F220901003 Lamadelaine, Kierch; F220901008 Lamadelaine, Schoul;
+220901006:  220901006 F220901003 F220901008
+% Lamadelaine, Schoul =  F220901003 Lamadelaine, Kierch; F220901006 Lamadelaine, Op Gehren;
+220901008:  220901008 F220901003 F220901006
+% Pétange, A Rousen =  F220902013 Pétange, Maartplaz; F220902017 Pétange, Paschtoueschhaus;
+220902001:  220902001 F220902013 F220902017
+% Pétange, Maartplaz =  F220902001 Pétange, A Rousen; F220902017 Pétange, Paschtoueschhaus;
+220902013:  220902013 F220902001 F220902017
+% Pétange, Paschtoueschhaus =  F220902001 Pétange, A Rousen; F220902013 Pétange, Maartplaz;
+220902017:  220902017 F220902001 F220902013
+% Rodange, Kierch =   220903012 Rodange, Kierch 2;
+220903010:  220903010  220903012
+% Rodange, Kierch 2 =   220903010 Rodange, Kierch;
+220903012:  220903012  220903010
+% Rodange, Raths =  F220901001 Lamadelaine, Avenue de la Gare;
+220903018:  220903018 F220901001
+% Rumelange, Aale Kierfecht =  F221201004 Rumelange, Centre Culturel;
+221201002:  221201002 F221201004
+% Rumelange, Centre Culturel =  F221201002 Rumelange, Aale Kierfecht;
+221201004:  221201004 F221201002
+% Rumelange, Intermoselle =  F221201011 Rumelange, Rembour;
+221201006:  221201006 F221201011
+% Rumelange, Rembour =  F221201006 Rumelange, Intermoselle;
+221201011:  221201011 F221201006
+% Sanem, Kierch =  F221303005 Sanem, Place Tornaco; F221303009 Sanem, Zentrum;
+221303002:  221303002 F221303005 F221303009
+% Sanem, Place Tornaco =  F221303002 Sanem, Kierch; F221303009 Sanem, Zentrum;
+221303005:  221303005 F221303002 F221303009
+% Sanem, Zentrum =  F221303002 Sanem, Kierch; F221303005 Sanem, Place Tornaco;
+221303009:  221303009 F221303002 F221303005
+% Schifflange, Gare =  F221401003 Schifflange, Stadhaus; F221401009 Schifflange, Stadhaus;
+221401002:  221401002 F221401003 F221401009
+% Schifflange, Stadhaus =  F221401002 Schifflange, Gare; F221401009 Schifflange, Stadhaus;
+221401003:  221401003 F221401002 F221401009
+% Schifflange, Stadhaus =  F221401002 Schifflange, Gare; F221401003 Schifflange, Stadhaus;
+221401009:  221401009 F221401002 F221401003
+% Audun-le-Tiche, Gare =  F400000099 Audun-le-Tiche, Mairie;
+400000002:  400000002 F400000099
+% Audun-le-Tiche, Mairie =  F400000002 Audun-le-Tiche, Gare;
+400000099:  400000099 F400000002
+% Nennig, Bahnhof =  F210701006 Remich, Gare routière; F210701012 Remich, Pl. Nico Klopp; F500000046 Nennig, Zoll;
+500000043:  500000043 F210701006 F210701012 F500000046
+% Nennig, Zoll =  F210701006 Remich, Gare routière; F210701012 Remich, Pl. Nico Klopp; F500000043 Nennig, Bahnhof;
+500000046:  500000046 F210701006 F210701012 F500000043
+% Trier, Christophstr. =  F500000083 Trier, Theodor-Heuss-Allee;
+500000078:  500000078 F500000083
+% Trier, Theodor-Heuss-Allee =  F500000078 Trier, Christophstr.;
+500000083:  500000083 F500000078
