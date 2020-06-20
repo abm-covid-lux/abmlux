@@ -1,0 +1,2158 @@
+*F 03 2
+*Z 02942 RGTR--                                             % 02942 RGTR--
+*L 160      200405037 210803005  00613  00650               % 02942 RGTR--
+*A ae 200405037 210803005 000001  00613  00650              % 02942 RGTR--
+*A OD 200405037 210803005 000001  00613  00650              % 02942 RGTR--
+*A OQ 200405037 210803005 000001  00613  00650              % 02942 RGTR--
+*R 1 210803005 200405037 210803005  00613  00650            % 02942 RGTR--
+*G RGB 200405037 210803005  00613  00650                    % 02942 RGTR--
+*A VE 200405037 210803005 000001  00613  00650              % 02942 RGTR--
+*I FD 200405037 210803005        0002950  00613  00650      % 02942 RGTR--
+200405037 Luxembourg, rue Hein         00613                % 02942 RGTR--
+200404001 Verlorenkost, Al Mol  00615  00615                % 02942 RGTR--
+200404030 Verlorenkost, Généra  00616  00616                % 02942 RGTR--
+200406024 Cents, Cents-Hamm     00617  00617                % 02942 RGTR--
+200414009 Hamm, Ronndréisch     00619  00619                % 02942 RGTR--
+200601015 Sandweiler, Scheedbë  00622  00622                % 02942 RGTR--
+200601006 Sandweiler, Kontroll  00623  00623                % 02942 RGTR--
+200601004 Sandweiler, Hiel      00624  00624                % 02942 RGTR--
+200601005 Sandweiler, Kiirch    00624  00624                % 02942 RGTR--
+200601010 Sandweiler, Schiltzp  00625  00625                % 02942 RGTR--
+200601007 Sandweiler, Koschter  00625  00625                % 02942 RGTR--
+200203001 Moutfort, Bombasch    00629  00629                % 02942 RGTR--
+200203003 Moutfort, Kapell      00631  00631                % 02942 RGTR--
+200203004 Moutfort, Kiem        00631  00631                % 02942 RGTR--
+210901001 Ersange/Ierséng       00633  00633                % 02942 RGTR--
+210903001 Trintange, Trenteng   00634  00634                % 02942 RGTR--
+210902001 Roedt                 00634  00634                % 02942 RGTR--
+210904001 Waldbredimus, Hanner  00637  00637                % 02942 RGTR--
+210904002 Waldbredimus, Kiirch  00639  00639                % 02942 RGTR--
+210101001 Assel                 00642  00642                % 02942 RGTR--
+210104001 Rolling/Bous          00643  00643                % 02942 RGTR--
+210102003 Bous, Kapell          00645  00645                % 02942 RGTR--
+210102004 Bous, Kierch          00645  00645                % 02942 RGTR--
+210102001 Bous, Enner dem Pavé  00646  00646                % 02942 RGTR--
+210102002 Bous, Herdermillen    00647  00647                % 02942 RGTR--
+210803001 Stadtbredimus, Dicks  00648  00648                % 02942 RGTR--
+210803002 Stadtbredimus, Kreiz  00649  00649                % 02942 RGTR--
+210803005 Stadtbredimus, Vinsm  00650                       % 02942 RGTR--
+*Z 02943 RGTR--                                             % 02943 RGTR--
+*L 160      200405037 210701006  01510  01552               % 02943 RGTR--
+*A ae 200405037 210701006 000000  01510  01552              % 02943 RGTR--
+*R 1 210701006 200405037 210701006  01510  01552            % 02943 RGTR--
+*G RGB 200405037 210701006  01510  01552                    % 02943 RGTR--
+*A VE 200405037 210701006 000000  01510  01552              % 02943 RGTR--
+*I FD 200405037 210701006        0002067  01510  01552      % 02943 RGTR--
+200405037 Luxembourg, rue Hein         01510                % 02943 RGTR--
+200404001 Verlorenkost, Al Mol  01512  01512                % 02943 RGTR--
+200404030 Verlorenkost, Généra  01513  01513                % 02943 RGTR--
+200406024 Cents, Cents-Hamm     01514  01514                % 02943 RGTR--
+200414009 Hamm, Ronndréisch     01516  01516                % 02943 RGTR--
+200601015 Sandweiler, Scheedbë  01519  01519                % 02943 RGTR--
+200601006 Sandweiler, Kontroll  01520  01520                % 02943 RGTR--
+200601004 Sandweiler, Hiel      01521  01521                % 02943 RGTR--
+200601005 Sandweiler, Kiirch    01521  01521                % 02943 RGTR--
+200601010 Sandweiler, Schiltzp  01522  01522                % 02943 RGTR--
+200601007 Sandweiler, Koschter  01522  01522                % 02943 RGTR--
+200203001 Moutfort, Bombasch    01526  01526                % 02943 RGTR--
+200203003 Moutfort, Kapell      01528  01528                % 02943 RGTR--
+200203004 Moutfort, Kiem        01528  01528                % 02943 RGTR--
+210901001 Ersange/Ierséng       01530  01530                % 02943 RGTR--
+210903001 Trintange, Trenteng   01531  01531                % 02943 RGTR--
+210902001 Roedt                 01531  01531                % 02943 RGTR--
+210904001 Waldbredimus, Hanner  01534  01534                % 02943 RGTR--
+210904002 Waldbredimus, Kiirch  01536  01536                % 02943 RGTR--
+210101001 Assel                 01539  01539                % 02943 RGTR--
+210104001 Rolling/Bous          01540  01540                % 02943 RGTR--
+210102003 Bous, Kapell          01542  01542                % 02943 RGTR--
+210102004 Bous, Kierch          01542  01542                % 02943 RGTR--
+210102001 Bous, Enner dem Pavé  01543  01543                % 02943 RGTR--
+210102002 Bous, Herdermillen    01544  01544                % 02943 RGTR--
+210803001 Stadtbredimus, Dicks  01545  01545                % 02943 RGTR--
+210803002 Stadtbredimus, Kreiz  01546  01546                % 02943 RGTR--
+210803005 Stadtbredimus, Vinsm  01547  01547                % 02943 RGTR--
+210803006 Stadtbredimus, Wandm  01548  01548                % 02943 RGTR--
+210701003 Remich, Caves St. Ma  01549  01549                % 02943 RGTR--
+210701008 Remich, Maatebierg    01550  01550                % 02943 RGTR--
+210701006 Remich, Gare routièr  01552                       % 02943 RGTR--
+*Z 02944 RGTR--                                             % 02944 RGTR--
+*L 160      200405037 210701006  01910  01952               % 02944 RGTR--
+*A ae 200405037 210701006 000000  01910  01952              % 02944 RGTR--
+*R 1 210701006 200405037 210701006  01910  01952            % 02944 RGTR--
+*G RGB 200405037 210701006  01910  01952                    % 02944 RGTR--
+*A VE 200405037 210701006 000000  01910  01952              % 02944 RGTR--
+*I FD 200405037 210701006        0002660  01910  01952      % 02944 RGTR--
+200405037 Luxembourg, rue Hein         01910                % 02944 RGTR--
+200404001 Verlorenkost, Al Mol  01912  01912                % 02944 RGTR--
+200404030 Verlorenkost, Généra  01913  01913                % 02944 RGTR--
+200406024 Cents, Cents-Hamm     01914  01914                % 02944 RGTR--
+200414009 Hamm, Ronndréisch     01916  01916                % 02944 RGTR--
+200601015 Sandweiler, Scheedbë  01919  01919                % 02944 RGTR--
+200601006 Sandweiler, Kontroll  01920  01920                % 02944 RGTR--
+200601004 Sandweiler, Hiel      01921  01921                % 02944 RGTR--
+200601005 Sandweiler, Kiirch    01921  01921                % 02944 RGTR--
+200601010 Sandweiler, Schiltzp  01922  01922                % 02944 RGTR--
+200601007 Sandweiler, Koschter  01922  01922                % 02944 RGTR--
+200203001 Moutfort, Bombasch    01926  01926                % 02944 RGTR--
+200203003 Moutfort, Kapell      01928  01928                % 02944 RGTR--
+200203004 Moutfort, Kiem        01928  01928                % 02944 RGTR--
+210901001 Ersange/Ierséng       01930  01930                % 02944 RGTR--
+210903001 Trintange, Trenteng   01931  01931                % 02944 RGTR--
+210902001 Roedt                 01931  01931                % 02944 RGTR--
+210904001 Waldbredimus, Hanner  01934  01934                % 02944 RGTR--
+210904002 Waldbredimus, Kiirch  01936  01936                % 02944 RGTR--
+210101001 Assel                 01939  01939                % 02944 RGTR--
+210104001 Rolling/Bous          01940  01940                % 02944 RGTR--
+210102003 Bous, Kapell          01942  01942                % 02944 RGTR--
+210102004 Bous, Kierch          01942  01942                % 02944 RGTR--
+210102001 Bous, Enner dem Pavé  01943  01943                % 02944 RGTR--
+210102002 Bous, Herdermillen    01944  01944                % 02944 RGTR--
+210803001 Stadtbredimus, Dicks  01945  01945                % 02944 RGTR--
+210803002 Stadtbredimus, Kreiz  01946  01946                % 02944 RGTR--
+210803005 Stadtbredimus, Vinsm  01947  01947                % 02944 RGTR--
+210803006 Stadtbredimus, Wandm  01948  01948                % 02944 RGTR--
+210701003 Remich, Caves St. Ma  01949  01949                % 02944 RGTR--
+210701008 Remich, Maatebierg    01950  01950                % 02944 RGTR--
+210701006 Remich, Gare routièr  01952                       % 02944 RGTR--
+*Z 02945 RGTR--                                             % 02945 RGTR--
+*L 160      200405037 210701006  00940  01022               % 02945 RGTR--
+*A ae 200405037 210701006 000001  00940  01022              % 02945 RGTR--
+*R 1 210701006 200405037 210701006  00940  01022            % 02945 RGTR--
+*G RGB 200405037 210701006  00940  01022                    % 02945 RGTR--
+*A VE 200405037 210701006 000001  00940  01022              % 02945 RGTR--
+*I FD 200405037 210701006        0000992  00940  01022      % 02945 RGTR--
+200405037 Luxembourg, rue Hein         00940                % 02945 RGTR--
+200404001 Verlorenkost, Al Mol  00942  00942                % 02945 RGTR--
+200404030 Verlorenkost, Généra  00943  00943                % 02945 RGTR--
+200406024 Cents, Cents-Hamm     00944  00944                % 02945 RGTR--
+200414009 Hamm, Ronndréisch     00946  00946                % 02945 RGTR--
+200601015 Sandweiler, Scheedbë  00949  00949                % 02945 RGTR--
+200601006 Sandweiler, Kontroll  00950  00950                % 02945 RGTR--
+200601004 Sandweiler, Hiel      00951  00951                % 02945 RGTR--
+200601005 Sandweiler, Kiirch    00951  00951                % 02945 RGTR--
+200601010 Sandweiler, Schiltzp  00952  00952                % 02945 RGTR--
+200601007 Sandweiler, Koschter  00952  00952                % 02945 RGTR--
+200203001 Moutfort, Bombasch    00956  00956                % 02945 RGTR--
+200203003 Moutfort, Kapell      00958  00958                % 02945 RGTR--
+200203004 Moutfort, Kiem        00958  00958                % 02945 RGTR--
+210901001 Ersange/Ierséng       01000  01000                % 02945 RGTR--
+210903001 Trintange, Trenteng   01001  01001                % 02945 RGTR--
+210902001 Roedt                 01001  01001                % 02945 RGTR--
+210904001 Waldbredimus, Hanner  01004  01004                % 02945 RGTR--
+210904002 Waldbredimus, Kiirch  01006  01006                % 02945 RGTR--
+210101001 Assel                 01009  01009                % 02945 RGTR--
+210104001 Rolling/Bous          01010  01010                % 02945 RGTR--
+210102003 Bous, Kapell          01012  01012                % 02945 RGTR--
+210102004 Bous, Kierch          01012  01012                % 02945 RGTR--
+210102001 Bous, Enner dem Pavé  01013  01013                % 02945 RGTR--
+210102002 Bous, Herdermillen    01014  01014                % 02945 RGTR--
+210803001 Stadtbredimus, Dicks  01015  01015                % 02945 RGTR--
+210803002 Stadtbredimus, Kreiz  01016  01016                % 02945 RGTR--
+210803005 Stadtbredimus, Vinsm  01017  01017                % 02945 RGTR--
+210803006 Stadtbredimus, Wandm  01018  01018                % 02945 RGTR--
+210701003 Remich, Caves St. Ma  01019  01019                % 02945 RGTR--
+210701008 Remich, Maatebierg    01020  01020                % 02945 RGTR--
+210701006 Remich, Gare routièr  01022                       % 02945 RGTR--
+*Z 02946 RGTR--                                             % 02946 RGTR--
+*L 160      200405037 210701006  01040  01122               % 02946 RGTR--
+*A ae 200405037 210701006 000001  01040  01122              % 02946 RGTR--
+*R 1 210701006 200405037 210701006  01040  01122            % 02946 RGTR--
+*G RGB 200405037 210701006  01040  01122                    % 02946 RGTR--
+*A VE 200405037 210701006 000001  01040  01122              % 02946 RGTR--
+*I FD 200405037 210701006        0002815  01040  01122      % 02946 RGTR--
+200405037 Luxembourg, rue Hein         01040                % 02946 RGTR--
+200404001 Verlorenkost, Al Mol  01042  01042                % 02946 RGTR--
+200404030 Verlorenkost, Généra  01043  01043                % 02946 RGTR--
+200406024 Cents, Cents-Hamm     01044  01044                % 02946 RGTR--
+200414009 Hamm, Ronndréisch     01046  01046                % 02946 RGTR--
+200601015 Sandweiler, Scheedbë  01049  01049                % 02946 RGTR--
+200601006 Sandweiler, Kontroll  01050  01050                % 02946 RGTR--
+200601004 Sandweiler, Hiel      01051  01051                % 02946 RGTR--
+200601005 Sandweiler, Kiirch    01051  01051                % 02946 RGTR--
+200601010 Sandweiler, Schiltzp  01052  01052                % 02946 RGTR--
+200601007 Sandweiler, Koschter  01052  01052                % 02946 RGTR--
+200203001 Moutfort, Bombasch    01056  01056                % 02946 RGTR--
+200203003 Moutfort, Kapell      01058  01058                % 02946 RGTR--
+200203004 Moutfort, Kiem        01058  01058                % 02946 RGTR--
+210901001 Ersange/Ierséng       01100  01100                % 02946 RGTR--
+210903001 Trintange, Trenteng   01101  01101                % 02946 RGTR--
+210902001 Roedt                 01101  01101                % 02946 RGTR--
+210904001 Waldbredimus, Hanner  01104  01104                % 02946 RGTR--
+210904002 Waldbredimus, Kiirch  01106  01106                % 02946 RGTR--
+210101001 Assel                 01109  01109                % 02946 RGTR--
+210104001 Rolling/Bous          01110  01110                % 02946 RGTR--
+210102003 Bous, Kapell          01112  01112                % 02946 RGTR--
+210102004 Bous, Kierch          01112  01112                % 02946 RGTR--
+210102001 Bous, Enner dem Pavé  01113  01113                % 02946 RGTR--
+210102002 Bous, Herdermillen    01114  01114                % 02946 RGTR--
+210803001 Stadtbredimus, Dicks  01115  01115                % 02946 RGTR--
+210803002 Stadtbredimus, Kreiz  01116  01116                % 02946 RGTR--
+210803005 Stadtbredimus, Vinsm  01117  01117                % 02946 RGTR--
+210803006 Stadtbredimus, Wandm  01118  01118                % 02946 RGTR--
+210701003 Remich, Caves St. Ma  01119  01119                % 02946 RGTR--
+210701008 Remich, Maatebierg    01120  01120                % 02946 RGTR--
+210701006 Remich, Gare routièr  01122                       % 02946 RGTR--
+*Z 02947 RGTR--                                             % 02947 RGTR--
+*L 160      200405037 210701006  01140  01222               % 02947 RGTR--
+*A ae 200405037 210701006 000001  01140  01222              % 02947 RGTR--
+*R 1 210701006 200405037 210701006  01140  01222            % 02947 RGTR--
+*G RGB 200405037 210701006  01140  01222                    % 02947 RGTR--
+*A VE 200405037 210701006 000001  01140  01222              % 02947 RGTR--
+*I FD 200405037 210701006        0002555  01140  01222      % 02947 RGTR--
+200405037 Luxembourg, rue Hein         01140                % 02947 RGTR--
+200404001 Verlorenkost, Al Mol  01142  01142                % 02947 RGTR--
+200404030 Verlorenkost, Généra  01143  01143                % 02947 RGTR--
+200406024 Cents, Cents-Hamm     01144  01144                % 02947 RGTR--
+200414009 Hamm, Ronndréisch     01146  01146                % 02947 RGTR--
+200601015 Sandweiler, Scheedbë  01149  01149                % 02947 RGTR--
+200601006 Sandweiler, Kontroll  01150  01150                % 02947 RGTR--
+200601004 Sandweiler, Hiel      01151  01151                % 02947 RGTR--
+200601005 Sandweiler, Kiirch    01151  01151                % 02947 RGTR--
+200601010 Sandweiler, Schiltzp  01152  01152                % 02947 RGTR--
+200601007 Sandweiler, Koschter  01152  01152                % 02947 RGTR--
+200203001 Moutfort, Bombasch    01156  01156                % 02947 RGTR--
+200203003 Moutfort, Kapell      01158  01158                % 02947 RGTR--
+200203004 Moutfort, Kiem        01158  01158                % 02947 RGTR--
+210901001 Ersange/Ierséng       01200  01200                % 02947 RGTR--
+210903001 Trintange, Trenteng   01201  01201                % 02947 RGTR--
+210902001 Roedt                 01201  01201                % 02947 RGTR--
+210904001 Waldbredimus, Hanner  01204  01204                % 02947 RGTR--
+210904002 Waldbredimus, Kiirch  01206  01206                % 02947 RGTR--
+210101001 Assel                 01209  01209                % 02947 RGTR--
+210104001 Rolling/Bous          01210  01210                % 02947 RGTR--
+210102003 Bous, Kapell          01212  01212                % 02947 RGTR--
+210102004 Bous, Kierch          01212  01212                % 02947 RGTR--
+210102001 Bous, Enner dem Pavé  01213  01213                % 02947 RGTR--
+210102002 Bous, Herdermillen    01214  01214                % 02947 RGTR--
+210803001 Stadtbredimus, Dicks  01215  01215                % 02947 RGTR--
+210803002 Stadtbredimus, Kreiz  01216  01216                % 02947 RGTR--
+210803005 Stadtbredimus, Vinsm  01217  01217                % 02947 RGTR--
+210803006 Stadtbredimus, Wandm  01218  01218                % 02947 RGTR--
+210701003 Remich, Caves St. Ma  01219  01219                % 02947 RGTR--
+210701008 Remich, Maatebierg    01220  01220                % 02947 RGTR--
+210701006 Remich, Gare routièr  01222                       % 02947 RGTR--
+*Z 02948 RGTR--                                             % 02948 RGTR--
+*L 160      200405037 210701006  01210  01252               % 02948 RGTR--
+*A ae 200405037 210701006 000001  01210  01252              % 02948 RGTR--
+*R 1 210701006 200405037 210701006  01210  01252            % 02948 RGTR--
+*G RGB 200405037 210701006  01210  01252                    % 02948 RGTR--
+*A VE 200405037 210701006 000001  01210  01252              % 02948 RGTR--
+*I FD 200405037 210701006        0002060  01210  01252      % 02948 RGTR--
+200405037 Luxembourg, rue Hein         01210                % 02948 RGTR--
+200404001 Verlorenkost, Al Mol  01212  01212                % 02948 RGTR--
+200404030 Verlorenkost, Généra  01213  01213                % 02948 RGTR--
+200406024 Cents, Cents-Hamm     01214  01214                % 02948 RGTR--
+200414009 Hamm, Ronndréisch     01216  01216                % 02948 RGTR--
+200601015 Sandweiler, Scheedbë  01219  01219                % 02948 RGTR--
+200601006 Sandweiler, Kontroll  01220  01220                % 02948 RGTR--
+200601004 Sandweiler, Hiel      01221  01221                % 02948 RGTR--
+200601005 Sandweiler, Kiirch    01221  01221                % 02948 RGTR--
+200601010 Sandweiler, Schiltzp  01222  01222                % 02948 RGTR--
+200601007 Sandweiler, Koschter  01222  01222                % 02948 RGTR--
+200203001 Moutfort, Bombasch    01226  01226                % 02948 RGTR--
+200203003 Moutfort, Kapell      01228  01228                % 02948 RGTR--
+200203004 Moutfort, Kiem        01228  01228                % 02948 RGTR--
+210901001 Ersange/Ierséng       01230  01230                % 02948 RGTR--
+210903001 Trintange, Trenteng   01231  01231                % 02948 RGTR--
+210902001 Roedt                 01231  01231                % 02948 RGTR--
+210904001 Waldbredimus, Hanner  01234  01234                % 02948 RGTR--
+210904002 Waldbredimus, Kiirch  01236  01236                % 02948 RGTR--
+210101001 Assel                 01239  01239                % 02948 RGTR--
+210104001 Rolling/Bous          01240  01240                % 02948 RGTR--
+210102003 Bous, Kapell          01242  01242                % 02948 RGTR--
+210102004 Bous, Kierch          01242  01242                % 02948 RGTR--
+210102001 Bous, Enner dem Pavé  01243  01243                % 02948 RGTR--
+210102002 Bous, Herdermillen    01244  01244                % 02948 RGTR--
+210803001 Stadtbredimus, Dicks  01245  01245                % 02948 RGTR--
+210803002 Stadtbredimus, Kreiz  01246  01246                % 02948 RGTR--
+210803005 Stadtbredimus, Vinsm  01247  01247                % 02948 RGTR--
+210803006 Stadtbredimus, Wandm  01248  01248                % 02948 RGTR--
+210701003 Remich, Caves St. Ma  01249  01249                % 02948 RGTR--
+210701008 Remich, Maatebierg    01250  01250                % 02948 RGTR--
+210701006 Remich, Gare routièr  01252                       % 02948 RGTR--
+*Z 02949 RGTR--                                             % 02949 RGTR--
+*L 160      200405037 210701006  01240  01322               % 02949 RGTR--
+*A ae 200405037 210701006 000001  01240  01322              % 02949 RGTR--
+*R 1 210701006 200405037 210701006  01240  01322            % 02949 RGTR--
+*G RGB 200405037 210701006  01240  01322                    % 02949 RGTR--
+*A VE 200405037 210701006 000001  01240  01322              % 02949 RGTR--
+*I FD 200405037 210701006        0001167  01240  01322      % 02949 RGTR--
+200405037 Luxembourg, rue Hein         01240                % 02949 RGTR--
+200404001 Verlorenkost, Al Mol  01242  01242                % 02949 RGTR--
+200404030 Verlorenkost, Généra  01243  01243                % 02949 RGTR--
+200406024 Cents, Cents-Hamm     01244  01244                % 02949 RGTR--
+200414009 Hamm, Ronndréisch     01246  01246                % 02949 RGTR--
+200601015 Sandweiler, Scheedbë  01249  01249                % 02949 RGTR--
+200601006 Sandweiler, Kontroll  01250  01250                % 02949 RGTR--
+200601004 Sandweiler, Hiel      01251  01251                % 02949 RGTR--
+200601005 Sandweiler, Kiirch    01251  01251                % 02949 RGTR--
+200601010 Sandweiler, Schiltzp  01252  01252                % 02949 RGTR--
+200601007 Sandweiler, Koschter  01252  01252                % 02949 RGTR--
+200203001 Moutfort, Bombasch    01256  01256                % 02949 RGTR--
+200203003 Moutfort, Kapell      01258  01258                % 02949 RGTR--
+200203004 Moutfort, Kiem        01258  01258                % 02949 RGTR--
+210901001 Ersange/Ierséng       01300  01300                % 02949 RGTR--
+210903001 Trintange, Trenteng   01301  01301                % 02949 RGTR--
+210902001 Roedt                 01301  01301                % 02949 RGTR--
+210904001 Waldbredimus, Hanner  01304  01304                % 02949 RGTR--
+210904002 Waldbredimus, Kiirch  01306  01306                % 02949 RGTR--
+210101001 Assel                 01309  01309                % 02949 RGTR--
+210104001 Rolling/Bous          01310  01310                % 02949 RGTR--
+210102003 Bous, Kapell          01312  01312                % 02949 RGTR--
+210102004 Bous, Kierch          01312  01312                % 02949 RGTR--
+210102001 Bous, Enner dem Pavé  01313  01313                % 02949 RGTR--
+210102002 Bous, Herdermillen    01314  01314                % 02949 RGTR--
+210803001 Stadtbredimus, Dicks  01315  01315                % 02949 RGTR--
+210803002 Stadtbredimus, Kreiz  01316  01316                % 02949 RGTR--
+210803005 Stadtbredimus, Vinsm  01317  01317                % 02949 RGTR--
+210803006 Stadtbredimus, Wandm  01318  01318                % 02949 RGTR--
+210701003 Remich, Caves St. Ma  01319  01319                % 02949 RGTR--
+210701008 Remich, Maatebierg    01320  01320                % 02949 RGTR--
+210701006 Remich, Gare routièr  01322                       % 02949 RGTR--
+*Z 02950 RGTR--                                             % 02950 RGTR--
+*L 160      200405037 210701006  01340  01422               % 02950 RGTR--
+*A ae 200405037 210701006 000001  01340  01422              % 02950 RGTR--
+*R 1 210701006 200405037 210701006  01340  01422            % 02950 RGTR--
+*G RGB 200405037 210701006  01340  01422                    % 02950 RGTR--
+*A VE 200405037 210701006 000001  01340  01422              % 02950 RGTR--
+*I FD 200405037 210701006        0002816  01340  01422      % 02950 RGTR--
+200405037 Luxembourg, rue Hein         01340                % 02950 RGTR--
+200404001 Verlorenkost, Al Mol  01342  01342                % 02950 RGTR--
+200404030 Verlorenkost, Généra  01343  01343                % 02950 RGTR--
+200406024 Cents, Cents-Hamm     01344  01344                % 02950 RGTR--
+200414009 Hamm, Ronndréisch     01346  01346                % 02950 RGTR--
+200601015 Sandweiler, Scheedbë  01349  01349                % 02950 RGTR--
+200601006 Sandweiler, Kontroll  01350  01350                % 02950 RGTR--
+200601004 Sandweiler, Hiel      01351  01351                % 02950 RGTR--
+200601005 Sandweiler, Kiirch    01351  01351                % 02950 RGTR--
+200601010 Sandweiler, Schiltzp  01352  01352                % 02950 RGTR--
+200601007 Sandweiler, Koschter  01352  01352                % 02950 RGTR--
+200203001 Moutfort, Bombasch    01356  01356                % 02950 RGTR--
+200203003 Moutfort, Kapell      01358  01358                % 02950 RGTR--
+200203004 Moutfort, Kiem        01358  01358                % 02950 RGTR--
+210901001 Ersange/Ierséng       01400  01400                % 02950 RGTR--
+210903001 Trintange, Trenteng   01401  01401                % 02950 RGTR--
+210902001 Roedt                 01401  01401                % 02950 RGTR--
+210904001 Waldbredimus, Hanner  01404  01404                % 02950 RGTR--
+210904002 Waldbredimus, Kiirch  01406  01406                % 02950 RGTR--
+210101001 Assel                 01409  01409                % 02950 RGTR--
+210104001 Rolling/Bous          01410  01410                % 02950 RGTR--
+210102003 Bous, Kapell          01412  01412                % 02950 RGTR--
+210102004 Bous, Kierch          01412  01412                % 02950 RGTR--
+210102001 Bous, Enner dem Pavé  01413  01413                % 02950 RGTR--
+210102002 Bous, Herdermillen    01414  01414                % 02950 RGTR--
+210803001 Stadtbredimus, Dicks  01415  01415                % 02950 RGTR--
+210803002 Stadtbredimus, Kreiz  01416  01416                % 02950 RGTR--
+210803005 Stadtbredimus, Vinsm  01417  01417                % 02950 RGTR--
+210803006 Stadtbredimus, Wandm  01418  01418                % 02950 RGTR--
+210701003 Remich, Caves St. Ma  01419  01419                % 02950 RGTR--
+210701008 Remich, Maatebierg    01420  01420                % 02950 RGTR--
+210701006 Remich, Gare routièr  01422                       % 02950 RGTR--
+*Z 02951 RGTR--                                             % 02951 RGTR--
+*L 160      200405037 210701006  01440  01522               % 02951 RGTR--
+*A ae 200405037 210701006 000001  01440  01522              % 02951 RGTR--
+*R 1 210701006 200405037 210701006  01440  01522            % 02951 RGTR--
+*G RGB 200405037 210701006  01440  01522                    % 02951 RGTR--
+*A VE 200405037 210701006 000001  01440  01522              % 02951 RGTR--
+*I FD 200405037 210701006        0002817  01440  01522      % 02951 RGTR--
+200405037 Luxembourg, rue Hein         01440                % 02951 RGTR--
+200404001 Verlorenkost, Al Mol  01442  01442                % 02951 RGTR--
+200404030 Verlorenkost, Généra  01443  01443                % 02951 RGTR--
+200406024 Cents, Cents-Hamm     01444  01444                % 02951 RGTR--
+200414009 Hamm, Ronndréisch     01446  01446                % 02951 RGTR--
+200601015 Sandweiler, Scheedbë  01449  01449                % 02951 RGTR--
+200601006 Sandweiler, Kontroll  01450  01450                % 02951 RGTR--
+200601004 Sandweiler, Hiel      01451  01451                % 02951 RGTR--
+200601005 Sandweiler, Kiirch    01451  01451                % 02951 RGTR--
+200601010 Sandweiler, Schiltzp  01452  01452                % 02951 RGTR--
+200601007 Sandweiler, Koschter  01452  01452                % 02951 RGTR--
+200203001 Moutfort, Bombasch    01456  01456                % 02951 RGTR--
+200203003 Moutfort, Kapell      01458  01458                % 02951 RGTR--
+200203004 Moutfort, Kiem        01458  01458                % 02951 RGTR--
+210901001 Ersange/Ierséng       01500  01500                % 02951 RGTR--
+210903001 Trintange, Trenteng   01501  01501                % 02951 RGTR--
+210902001 Roedt                 01501  01501                % 02951 RGTR--
+210904001 Waldbredimus, Hanner  01504  01504                % 02951 RGTR--
+210904002 Waldbredimus, Kiirch  01506  01506                % 02951 RGTR--
+210101001 Assel                 01509  01509                % 02951 RGTR--
+210104001 Rolling/Bous          01510  01510                % 02951 RGTR--
+210102003 Bous, Kapell          01512  01512                % 02951 RGTR--
+210102004 Bous, Kierch          01512  01512                % 02951 RGTR--
+210102001 Bous, Enner dem Pavé  01513  01513                % 02951 RGTR--
+210102002 Bous, Herdermillen    01514  01514                % 02951 RGTR--
+210803001 Stadtbredimus, Dicks  01515  01515                % 02951 RGTR--
+210803002 Stadtbredimus, Kreiz  01516  01516                % 02951 RGTR--
+210803005 Stadtbredimus, Vinsm  01517  01517                % 02951 RGTR--
+210803006 Stadtbredimus, Wandm  01518  01518                % 02951 RGTR--
+210701003 Remich, Caves St. Ma  01519  01519                % 02951 RGTR--
+210701008 Remich, Maatebierg    01520  01520                % 02951 RGTR--
+210701006 Remich, Gare routièr  01522                       % 02951 RGTR--
+*Z 02952 RGTR--                                             % 02952 RGTR--
+*L 160      200405037 210701006  01540  01622               % 02952 RGTR--
+*A ae 200405037 210701006 000001  01540  01622              % 02952 RGTR--
+*R 1 210701006 200405037 210701006  01540  01622            % 02952 RGTR--
+*G RGB 200405037 210701006  01540  01622                    % 02952 RGTR--
+*A VE 200405037 210701006 000001  01540  01622              % 02952 RGTR--
+*I FD 200405037 210701006        0002618  01540  01622      % 02952 RGTR--
+200405037 Luxembourg, rue Hein         01540                % 02952 RGTR--
+200404001 Verlorenkost, Al Mol  01542  01542                % 02952 RGTR--
+200404030 Verlorenkost, Généra  01543  01543                % 02952 RGTR--
+200406024 Cents, Cents-Hamm     01544  01544                % 02952 RGTR--
+200414009 Hamm, Ronndréisch     01546  01546                % 02952 RGTR--
+200601015 Sandweiler, Scheedbë  01549  01549                % 02952 RGTR--
+200601006 Sandweiler, Kontroll  01550  01550                % 02952 RGTR--
+200601004 Sandweiler, Hiel      01551  01551                % 02952 RGTR--
+200601005 Sandweiler, Kiirch    01551  01551                % 02952 RGTR--
+200601010 Sandweiler, Schiltzp  01552  01552                % 02952 RGTR--
+200601007 Sandweiler, Koschter  01552  01552                % 02952 RGTR--
+200203001 Moutfort, Bombasch    01556  01556                % 02952 RGTR--
+200203003 Moutfort, Kapell      01558  01558                % 02952 RGTR--
+200203004 Moutfort, Kiem        01558  01558                % 02952 RGTR--
+210901001 Ersange/Ierséng       01600  01600                % 02952 RGTR--
+210903001 Trintange, Trenteng   01601  01601                % 02952 RGTR--
+210902001 Roedt                 01601  01601                % 02952 RGTR--
+210904001 Waldbredimus, Hanner  01604  01604                % 02952 RGTR--
+210904002 Waldbredimus, Kiirch  01606  01606                % 02952 RGTR--
+210101001 Assel                 01609  01609                % 02952 RGTR--
+210104001 Rolling/Bous          01610  01610                % 02952 RGTR--
+210102003 Bous, Kapell          01612  01612                % 02952 RGTR--
+210102004 Bous, Kierch          01612  01612                % 02952 RGTR--
+210102001 Bous, Enner dem Pavé  01613  01613                % 02952 RGTR--
+210102002 Bous, Herdermillen    01614  01614                % 02952 RGTR--
+210803001 Stadtbredimus, Dicks  01615  01615                % 02952 RGTR--
+210803002 Stadtbredimus, Kreiz  01616  01616                % 02952 RGTR--
+210803005 Stadtbredimus, Vinsm  01617  01617                % 02952 RGTR--
+210803006 Stadtbredimus, Wandm  01618  01618                % 02952 RGTR--
+210701003 Remich, Caves St. Ma  01619  01619                % 02952 RGTR--
+210701008 Remich, Maatebierg    01620  01620                % 02952 RGTR--
+210701006 Remich, Gare routièr  01622                       % 02952 RGTR--
+*Z 02953 RGTR--                                             % 02953 RGTR--
+*L 160      200405037 210701006  01840  01922               % 02953 RGTR--
+*A ae 200405037 210701006 000001  01840  01922              % 02953 RGTR--
+*R 1 210701006 200405037 210701006  01840  01922            % 02953 RGTR--
+*G RGB 200405037 210701006  01840  01922                    % 02953 RGTR--
+*A VE 200405037 210701006 000001  01840  01922              % 02953 RGTR--
+*I FD 200405037 210701006        0001363  01840  01922      % 02953 RGTR--
+200405037 Luxembourg, rue Hein         01840                % 02953 RGTR--
+200404001 Verlorenkost, Al Mol  01842  01842                % 02953 RGTR--
+200404030 Verlorenkost, Généra  01843  01843                % 02953 RGTR--
+200406024 Cents, Cents-Hamm     01844  01844                % 02953 RGTR--
+200414009 Hamm, Ronndréisch     01846  01846                % 02953 RGTR--
+200601015 Sandweiler, Scheedbë  01849  01849                % 02953 RGTR--
+200601006 Sandweiler, Kontroll  01850  01850                % 02953 RGTR--
+200601004 Sandweiler, Hiel      01851  01851                % 02953 RGTR--
+200601005 Sandweiler, Kiirch    01851  01851                % 02953 RGTR--
+200601010 Sandweiler, Schiltzp  01852  01852                % 02953 RGTR--
+200601007 Sandweiler, Koschter  01852  01852                % 02953 RGTR--
+200203001 Moutfort, Bombasch    01856  01856                % 02953 RGTR--
+200203003 Moutfort, Kapell      01858  01858                % 02953 RGTR--
+200203004 Moutfort, Kiem        01858  01858                % 02953 RGTR--
+210901001 Ersange/Ierséng       01900  01900                % 02953 RGTR--
+210903001 Trintange, Trenteng   01901  01901                % 02953 RGTR--
+210902001 Roedt                 01901  01901                % 02953 RGTR--
+210904001 Waldbredimus, Hanner  01904  01904                % 02953 RGTR--
+210904002 Waldbredimus, Kiirch  01906  01906                % 02953 RGTR--
+210101001 Assel                 01909  01909                % 02953 RGTR--
+210104001 Rolling/Bous          01910  01910                % 02953 RGTR--
+210102003 Bous, Kapell          01912  01912                % 02953 RGTR--
+210102004 Bous, Kierch          01912  01912                % 02953 RGTR--
+210102001 Bous, Enner dem Pavé  01913  01913                % 02953 RGTR--
+210102002 Bous, Herdermillen    01914  01914                % 02953 RGTR--
+210803001 Stadtbredimus, Dicks  01915  01915                % 02953 RGTR--
+210803002 Stadtbredimus, Kreiz  01916  01916                % 02953 RGTR--
+210803005 Stadtbredimus, Vinsm  01917  01917                % 02953 RGTR--
+210803006 Stadtbredimus, Wandm  01918  01918                % 02953 RGTR--
+210701003 Remich, Caves St. Ma  01919  01919                % 02953 RGTR--
+210701008 Remich, Maatebierg    01920  01920                % 02953 RGTR--
+210701006 Remich, Gare routièr  01922                       % 02953 RGTR--
+*Z 02954 RGTR--                                             % 02954 RGTR--
+*L 160      200405037 210701006  02015  02057               % 02954 RGTR--
+*A ae 200405037 210701006 000001  02015  02057              % 02954 RGTR--
+*R 1 210701006 200405037 210701006  02015  02057            % 02954 RGTR--
+*G RGB 200405037 210701006  02015  02057                    % 02954 RGTR--
+*A VE 200405037 210701006 000001  02015  02057              % 02954 RGTR--
+*I FD 200405037 210701006        0001736  02015  02057      % 02954 RGTR--
+200405037 Luxembourg, rue Hein         02015                % 02954 RGTR--
+200404001 Verlorenkost, Al Mol  02017  02017                % 02954 RGTR--
+200404030 Verlorenkost, Généra  02018  02018                % 02954 RGTR--
+200406024 Cents, Cents-Hamm     02019  02019                % 02954 RGTR--
+200414009 Hamm, Ronndréisch     02021  02021                % 02954 RGTR--
+200601015 Sandweiler, Scheedbë  02024  02024                % 02954 RGTR--
+200601006 Sandweiler, Kontroll  02025  02025                % 02954 RGTR--
+200601004 Sandweiler, Hiel      02026  02026                % 02954 RGTR--
+200601005 Sandweiler, Kiirch    02026  02026                % 02954 RGTR--
+200601010 Sandweiler, Schiltzp  02027  02027                % 02954 RGTR--
+200601007 Sandweiler, Koschter  02027  02027                % 02954 RGTR--
+200203001 Moutfort, Bombasch    02031  02031                % 02954 RGTR--
+200203003 Moutfort, Kapell      02033  02033                % 02954 RGTR--
+200203004 Moutfort, Kiem        02033  02033                % 02954 RGTR--
+210901001 Ersange/Ierséng       02035  02035                % 02954 RGTR--
+210903001 Trintange, Trenteng   02036  02036                % 02954 RGTR--
+210902001 Roedt                 02036  02036                % 02954 RGTR--
+210904001 Waldbredimus, Hanner  02039  02039                % 02954 RGTR--
+210904002 Waldbredimus, Kiirch  02041  02041                % 02954 RGTR--
+210101001 Assel                 02044  02044                % 02954 RGTR--
+210104001 Rolling/Bous          02045  02045                % 02954 RGTR--
+210102003 Bous, Kapell          02047  02047                % 02954 RGTR--
+210102004 Bous, Kierch          02047  02047                % 02954 RGTR--
+210102001 Bous, Enner dem Pavé  02048  02048                % 02954 RGTR--
+210102002 Bous, Herdermillen    02049  02049                % 02954 RGTR--
+210803001 Stadtbredimus, Dicks  02050  02050                % 02954 RGTR--
+210803002 Stadtbredimus, Kreiz  02051  02051                % 02954 RGTR--
+210803005 Stadtbredimus, Vinsm  02052  02052                % 02954 RGTR--
+210803006 Stadtbredimus, Wandm  02053  02053                % 02954 RGTR--
+210701003 Remich, Caves St. Ma  02054  02054                % 02954 RGTR--
+210701008 Remich, Maatebierg    02055  02055                % 02954 RGTR--
+210701006 Remich, Gare routièr  02057                       % 02954 RGTR--
+*Z 02955 RGTR--                                             % 02955 RGTR--
+*L 160      200405037 210701006  02110  02152               % 02955 RGTR--
+*A ae 200405037 210701006 000001  02110  02152              % 02955 RGTR--
+*R 1 210701006 200405037 210701006  02110  02152            % 02955 RGTR--
+*G RGB 200405037 210701006  02110  02152                    % 02955 RGTR--
+*A VE 200405037 210701006 000001  02110  02152              % 02955 RGTR--
+*I FD 200405037 210701006        0002860  02110  02152      % 02955 RGTR--
+200405037 Luxembourg, rue Hein         02110                % 02955 RGTR--
+200404001 Verlorenkost, Al Mol  02112  02112                % 02955 RGTR--
+200404030 Verlorenkost, Généra  02113  02113                % 02955 RGTR--
+200406024 Cents, Cents-Hamm     02114  02114                % 02955 RGTR--
+200414009 Hamm, Ronndréisch     02116  02116                % 02955 RGTR--
+200601015 Sandweiler, Scheedbë  02119  02119                % 02955 RGTR--
+200601006 Sandweiler, Kontroll  02120  02120                % 02955 RGTR--
+200601004 Sandweiler, Hiel      02121  02121                % 02955 RGTR--
+200601005 Sandweiler, Kiirch    02121  02121                % 02955 RGTR--
+200601010 Sandweiler, Schiltzp  02122  02122                % 02955 RGTR--
+200601007 Sandweiler, Koschter  02122  02122                % 02955 RGTR--
+200203001 Moutfort, Bombasch    02126  02126                % 02955 RGTR--
+200203003 Moutfort, Kapell      02128  02128                % 02955 RGTR--
+200203004 Moutfort, Kiem        02128  02128                % 02955 RGTR--
+210901001 Ersange/Ierséng       02130  02130                % 02955 RGTR--
+210903001 Trintange, Trenteng   02131  02131                % 02955 RGTR--
+210902001 Roedt                 02131  02131                % 02955 RGTR--
+210904001 Waldbredimus, Hanner  02134  02134                % 02955 RGTR--
+210904002 Waldbredimus, Kiirch  02136  02136                % 02955 RGTR--
+210101001 Assel                 02139  02139                % 02955 RGTR--
+210104001 Rolling/Bous          02140  02140                % 02955 RGTR--
+210102003 Bous, Kapell          02142  02142                % 02955 RGTR--
+210102004 Bous, Kierch          02142  02142                % 02955 RGTR--
+210102001 Bous, Enner dem Pavé  02143  02143                % 02955 RGTR--
+210102002 Bous, Herdermillen    02144  02144                % 02955 RGTR--
+210803001 Stadtbredimus, Dicks  02145  02145                % 02955 RGTR--
+210803002 Stadtbredimus, Kreiz  02146  02146                % 02955 RGTR--
+210803005 Stadtbredimus, Vinsm  02147  02147                % 02955 RGTR--
+210803006 Stadtbredimus, Wandm  02148  02148                % 02955 RGTR--
+210701003 Remich, Caves St. Ma  02149  02149                % 02955 RGTR--
+210701008 Remich, Maatebierg    02150  02150                % 02955 RGTR--
+210701006 Remich, Gare routièr  02152                       % 02955 RGTR--
+*Z 02956 RGTR--                                             % 02956 RGTR--
+*L 160      200405037 210701006  02230  02312               % 02956 RGTR--
+*A ae 200405037 210701006 000001  02230  02312              % 02956 RGTR--
+*R 1 210701006 200405037 210701006  02230  02312            % 02956 RGTR--
+*G RGB 200405037 210701006  02230  02312                    % 02956 RGTR--
+*A VE 200405037 210701006 000001  02230  02312              % 02956 RGTR--
+*I FD 200405037 210701006        0002614  02230  02312      % 02956 RGTR--
+200405037 Luxembourg, rue Hein         02230                % 02956 RGTR--
+200404001 Verlorenkost, Al Mol  02232  02232                % 02956 RGTR--
+200404030 Verlorenkost, Généra  02233  02233                % 02956 RGTR--
+200406024 Cents, Cents-Hamm     02234  02234                % 02956 RGTR--
+200414009 Hamm, Ronndréisch     02236  02236                % 02956 RGTR--
+200601015 Sandweiler, Scheedbë  02239  02239                % 02956 RGTR--
+200601006 Sandweiler, Kontroll  02240  02240                % 02956 RGTR--
+200601004 Sandweiler, Hiel      02241  02241                % 02956 RGTR--
+200601005 Sandweiler, Kiirch    02241  02241                % 02956 RGTR--
+200601010 Sandweiler, Schiltzp  02242  02242                % 02956 RGTR--
+200601007 Sandweiler, Koschter  02242  02242                % 02956 RGTR--
+200203001 Moutfort, Bombasch    02246  02246                % 02956 RGTR--
+200203003 Moutfort, Kapell      02248  02248                % 02956 RGTR--
+200203004 Moutfort, Kiem        02248  02248                % 02956 RGTR--
+210901001 Ersange/Ierséng       02250  02250                % 02956 RGTR--
+210903001 Trintange, Trenteng   02251  02251                % 02956 RGTR--
+210902001 Roedt                 02251  02251                % 02956 RGTR--
+210904001 Waldbredimus, Hanner  02254  02254                % 02956 RGTR--
+210904002 Waldbredimus, Kiirch  02256  02256                % 02956 RGTR--
+210101001 Assel                 02259  02259                % 02956 RGTR--
+210104001 Rolling/Bous          02300  02300                % 02956 RGTR--
+210102003 Bous, Kapell          02302  02302                % 02956 RGTR--
+210102004 Bous, Kierch          02302  02302                % 02956 RGTR--
+210102001 Bous, Enner dem Pavé  02303  02303                % 02956 RGTR--
+210102002 Bous, Herdermillen    02304  02304                % 02956 RGTR--
+210803001 Stadtbredimus, Dicks  02305  02305                % 02956 RGTR--
+210803002 Stadtbredimus, Kreiz  02306  02306                % 02956 RGTR--
+210803005 Stadtbredimus, Vinsm  02307  02307                % 02956 RGTR--
+210803006 Stadtbredimus, Wandm  02308  02308                % 02956 RGTR--
+210701003 Remich, Caves St. Ma  02309  02309                % 02956 RGTR--
+210701008 Remich, Maatebierg    02310  02310                % 02956 RGTR--
+210701006 Remich, Gare routièr  02312                       % 02956 RGTR--
+*Z 02957 RGTR--                                             % 02957 RGTR--
+*L 160      200405037 210701006  02315  02357               % 02957 RGTR--
+*A ae 200405037 210701006 000001  02315  02357              % 02957 RGTR--
+*R 1 210701006 200405037 210701006  02315  02357            % 02957 RGTR--
+*G RGB 200405037 210701006  02315  02357                    % 02957 RGTR--
+*A VE 200405037 210701006 000001  02315  02357              % 02957 RGTR--
+*I FD 200405037 210701006        0002443  02315  02357      % 02957 RGTR--
+200405037 Luxembourg, rue Hein         02315                % 02957 RGTR--
+200404001 Verlorenkost, Al Mol  02317  02317                % 02957 RGTR--
+200404030 Verlorenkost, Généra  02318  02318                % 02957 RGTR--
+200406024 Cents, Cents-Hamm     02319  02319                % 02957 RGTR--
+200414009 Hamm, Ronndréisch     02321  02321                % 02957 RGTR--
+200601015 Sandweiler, Scheedbë  02324  02324                % 02957 RGTR--
+200601006 Sandweiler, Kontroll  02325  02325                % 02957 RGTR--
+200601004 Sandweiler, Hiel      02326  02326                % 02957 RGTR--
+200601005 Sandweiler, Kiirch    02326  02326                % 02957 RGTR--
+200601010 Sandweiler, Schiltzp  02327  02327                % 02957 RGTR--
+200601007 Sandweiler, Koschter  02327  02327                % 02957 RGTR--
+200203001 Moutfort, Bombasch    02331  02331                % 02957 RGTR--
+200203003 Moutfort, Kapell      02333  02333                % 02957 RGTR--
+200203004 Moutfort, Kiem        02333  02333                % 02957 RGTR--
+210901001 Ersange/Ierséng       02335  02335                % 02957 RGTR--
+210903001 Trintange, Trenteng   02336  02336                % 02957 RGTR--
+210902001 Roedt                 02336  02336                % 02957 RGTR--
+210904001 Waldbredimus, Hanner  02339  02339                % 02957 RGTR--
+210904002 Waldbredimus, Kiirch  02341  02341                % 02957 RGTR--
+210101001 Assel                 02344  02344                % 02957 RGTR--
+210104001 Rolling/Bous          02345  02345                % 02957 RGTR--
+210102003 Bous, Kapell          02347  02347                % 02957 RGTR--
+210102004 Bous, Kierch          02347  02347                % 02957 RGTR--
+210102001 Bous, Enner dem Pavé  02348  02348                % 02957 RGTR--
+210102002 Bous, Herdermillen    02349  02349                % 02957 RGTR--
+210803001 Stadtbredimus, Dicks  02350  02350                % 02957 RGTR--
+210803002 Stadtbredimus, Kreiz  02351  02351                % 02957 RGTR--
+210803005 Stadtbredimus, Vinsm  02352  02352                % 02957 RGTR--
+210803006 Stadtbredimus, Wandm  02353  02353                % 02957 RGTR--
+210701003 Remich, Caves St. Ma  02354  02354                % 02957 RGTR--
+210701008 Remich, Maatebierg    02355  02355                % 02957 RGTR--
+210701006 Remich, Gare routièr  02357                       % 02957 RGTR--
+*Z 02958 RGTR--                                             % 02958 RGTR--
+*L 160      200405037 210701006  00910  00952               % 02958 RGTR--
+*A ae 200405037 210701006 000003  00910  00952              % 02958 RGTR--
+*R 1 210701006 200405037 210701006  00910  00952            % 02958 RGTR--
+*G RGB 200405037 210701006  00910  00952                    % 02958 RGTR--
+*A VE 200405037 210701006 000003  00910  00952              % 02958 RGTR--
+*I FD 200405037 210701006        0002079  00910  00952      % 02958 RGTR--
+200405037 Luxembourg, rue Hein         00910                % 02958 RGTR--
+200404001 Verlorenkost, Al Mol  00912  00912                % 02958 RGTR--
+200404030 Verlorenkost, Généra  00913  00913                % 02958 RGTR--
+200406024 Cents, Cents-Hamm     00914  00914                % 02958 RGTR--
+200414009 Hamm, Ronndréisch     00916  00916                % 02958 RGTR--
+200601015 Sandweiler, Scheedbë  00919  00919                % 02958 RGTR--
+200601006 Sandweiler, Kontroll  00920  00920                % 02958 RGTR--
+200601004 Sandweiler, Hiel      00921  00921                % 02958 RGTR--
+200601005 Sandweiler, Kiirch    00921  00921                % 02958 RGTR--
+200601010 Sandweiler, Schiltzp  00922  00922                % 02958 RGTR--
+200601007 Sandweiler, Koschter  00922  00922                % 02958 RGTR--
+200203001 Moutfort, Bombasch    00926  00926                % 02958 RGTR--
+200203003 Moutfort, Kapell      00928  00928                % 02958 RGTR--
+200203004 Moutfort, Kiem        00928  00928                % 02958 RGTR--
+210901001 Ersange/Ierséng       00930  00930                % 02958 RGTR--
+210903001 Trintange, Trenteng   00931  00931                % 02958 RGTR--
+210902001 Roedt                 00931  00931                % 02958 RGTR--
+210904001 Waldbredimus, Hanner  00934  00934                % 02958 RGTR--
+210904002 Waldbredimus, Kiirch  00936  00936                % 02958 RGTR--
+210101001 Assel                 00939  00939                % 02958 RGTR--
+210104001 Rolling/Bous          00940  00940                % 02958 RGTR--
+210102003 Bous, Kapell          00942  00942                % 02958 RGTR--
+210102004 Bous, Kierch          00942  00942                % 02958 RGTR--
+210102001 Bous, Enner dem Pavé  00943  00943                % 02958 RGTR--
+210102002 Bous, Herdermillen    00944  00944                % 02958 RGTR--
+210803001 Stadtbredimus, Dicks  00945  00945                % 02958 RGTR--
+210803002 Stadtbredimus, Kreiz  00946  00946                % 02958 RGTR--
+210803005 Stadtbredimus, Vinsm  00947  00947                % 02958 RGTR--
+210803006 Stadtbredimus, Wandm  00948  00948                % 02958 RGTR--
+210701003 Remich, Caves St. Ma  00949  00949                % 02958 RGTR--
+210701008 Remich, Maatebierg    00950  00950                % 02958 RGTR--
+210701006 Remich, Gare routièr  00952                       % 02958 RGTR--
+*Z 02959 RGTR--                                             % 02959 RGTR--
+*L 160      200405037 210701006  01110  01152               % 02959 RGTR--
+*A ae 200405037 210701006 000003  01110  01152              % 02959 RGTR--
+*R 1 210701006 200405037 210701006  01110  01152            % 02959 RGTR--
+*G RGB 200405037 210701006  01110  01152                    % 02959 RGTR--
+*A VE 200405037 210701006 000003  01110  01152              % 02959 RGTR--
+*I FD 200405037 210701006        0001030  01110  01152      % 02959 RGTR--
+200405037 Luxembourg, rue Hein         01110                % 02959 RGTR--
+200404001 Verlorenkost, Al Mol  01112  01112                % 02959 RGTR--
+200404030 Verlorenkost, Généra  01113  01113                % 02959 RGTR--
+200406024 Cents, Cents-Hamm     01114  01114                % 02959 RGTR--
+200414009 Hamm, Ronndréisch     01116  01116                % 02959 RGTR--
+200601015 Sandweiler, Scheedbë  01119  01119                % 02959 RGTR--
+200601006 Sandweiler, Kontroll  01120  01120                % 02959 RGTR--
+200601004 Sandweiler, Hiel      01121  01121                % 02959 RGTR--
+200601005 Sandweiler, Kiirch    01121  01121                % 02959 RGTR--
+200601010 Sandweiler, Schiltzp  01122  01122                % 02959 RGTR--
+200601007 Sandweiler, Koschter  01122  01122                % 02959 RGTR--
+200203001 Moutfort, Bombasch    01126  01126                % 02959 RGTR--
+200203003 Moutfort, Kapell      01128  01128                % 02959 RGTR--
+200203004 Moutfort, Kiem        01128  01128                % 02959 RGTR--
+210901001 Ersange/Ierséng       01130  01130                % 02959 RGTR--
+210903001 Trintange, Trenteng   01131  01131                % 02959 RGTR--
+210902001 Roedt                 01131  01131                % 02959 RGTR--
+210904001 Waldbredimus, Hanner  01134  01134                % 02959 RGTR--
+210904002 Waldbredimus, Kiirch  01136  01136                % 02959 RGTR--
+210101001 Assel                 01139  01139                % 02959 RGTR--
+210104001 Rolling/Bous          01140  01140                % 02959 RGTR--
+210102003 Bous, Kapell          01142  01142                % 02959 RGTR--
+210102004 Bous, Kierch          01142  01142                % 02959 RGTR--
+210102001 Bous, Enner dem Pavé  01143  01143                % 02959 RGTR--
+210102002 Bous, Herdermillen    01144  01144                % 02959 RGTR--
+210803001 Stadtbredimus, Dicks  01145  01145                % 02959 RGTR--
+210803002 Stadtbredimus, Kreiz  01146  01146                % 02959 RGTR--
+210803005 Stadtbredimus, Vinsm  01147  01147                % 02959 RGTR--
+210803006 Stadtbredimus, Wandm  01148  01148                % 02959 RGTR--
+210701003 Remich, Caves St. Ma  01149  01149                % 02959 RGTR--
+210701008 Remich, Maatebierg    01150  01150                % 02959 RGTR--
+210701006 Remich, Gare routièr  01152                       % 02959 RGTR--
+*Z 02960 RGTR--                                             % 02960 RGTR--
+*L 160      200405037 210701006  01310  01352               % 02960 RGTR--
+*A ae 200405037 210701006 000003  01310  01352              % 02960 RGTR--
+*R 1 210701006 200405037 210701006  01310  01352            % 02960 RGTR--
+*G RGB 200405037 210701006  01310  01352                    % 02960 RGTR--
+*A VE 200405037 210701006 000003  01310  01352              % 02960 RGTR--
+*I FD 200405037 210701006        0002062  01310  01352      % 02960 RGTR--
+200405037 Luxembourg, rue Hein         01310                % 02960 RGTR--
+200404001 Verlorenkost, Al Mol  01312  01312                % 02960 RGTR--
+200404030 Verlorenkost, Généra  01313  01313                % 02960 RGTR--
+200406024 Cents, Cents-Hamm     01314  01314                % 02960 RGTR--
+200414009 Hamm, Ronndréisch     01316  01316                % 02960 RGTR--
+200601015 Sandweiler, Scheedbë  01319  01319                % 02960 RGTR--
+200601006 Sandweiler, Kontroll  01320  01320                % 02960 RGTR--
+200601004 Sandweiler, Hiel      01321  01321                % 02960 RGTR--
+200601005 Sandweiler, Kiirch    01321  01321                % 02960 RGTR--
+200601010 Sandweiler, Schiltzp  01322  01322                % 02960 RGTR--
+200601007 Sandweiler, Koschter  01322  01322                % 02960 RGTR--
+200203001 Moutfort, Bombasch    01326  01326                % 02960 RGTR--
+200203003 Moutfort, Kapell      01328  01328                % 02960 RGTR--
+200203004 Moutfort, Kiem        01328  01328                % 02960 RGTR--
+210901001 Ersange/Ierséng       01330  01330                % 02960 RGTR--
+210903001 Trintange, Trenteng   01331  01331                % 02960 RGTR--
+210902001 Roedt                 01331  01331                % 02960 RGTR--
+210904001 Waldbredimus, Hanner  01334  01334                % 02960 RGTR--
+210904002 Waldbredimus, Kiirch  01336  01336                % 02960 RGTR--
+210101001 Assel                 01339  01339                % 02960 RGTR--
+210104001 Rolling/Bous          01340  01340                % 02960 RGTR--
+210102003 Bous, Kapell          01342  01342                % 02960 RGTR--
+210102004 Bous, Kierch          01342  01342                % 02960 RGTR--
+210102001 Bous, Enner dem Pavé  01343  01343                % 02960 RGTR--
+210102002 Bous, Herdermillen    01344  01344                % 02960 RGTR--
+210803001 Stadtbredimus, Dicks  01345  01345                % 02960 RGTR--
+210803002 Stadtbredimus, Kreiz  01346  01346                % 02960 RGTR--
+210803005 Stadtbredimus, Vinsm  01347  01347                % 02960 RGTR--
+210803006 Stadtbredimus, Wandm  01348  01348                % 02960 RGTR--
+210701003 Remich, Caves St. Ma  01349  01349                % 02960 RGTR--
+210701008 Remich, Maatebierg    01350  01350                % 02960 RGTR--
+210701006 Remich, Gare routièr  01352                       % 02960 RGTR--
+*Z 02961 RGTR--                                             % 02961 RGTR--
+*L 160      200405037 210701006  01710  01752               % 02961 RGTR--
+*A ae 200405037 210701006 000003  01710  01752              % 02961 RGTR--
+*R 1 210701006 200405037 210701006  01710  01752            % 02961 RGTR--
+*G RGB 200405037 210701006  01710  01752                    % 02961 RGTR--
+*A VE 200405037 210701006 000003  01710  01752              % 02961 RGTR--
+*I FD 200405037 210701006        0002073  01710  01752      % 02961 RGTR--
+200405037 Luxembourg, rue Hein         01710                % 02961 RGTR--
+200404001 Verlorenkost, Al Mol  01712  01712                % 02961 RGTR--
+200404030 Verlorenkost, Généra  01713  01713                % 02961 RGTR--
+200406024 Cents, Cents-Hamm     01714  01714                % 02961 RGTR--
+200414009 Hamm, Ronndréisch     01716  01716                % 02961 RGTR--
+200601015 Sandweiler, Scheedbë  01719  01719                % 02961 RGTR--
+200601006 Sandweiler, Kontroll  01720  01720                % 02961 RGTR--
+200601004 Sandweiler, Hiel      01721  01721                % 02961 RGTR--
+200601005 Sandweiler, Kiirch    01721  01721                % 02961 RGTR--
+200601010 Sandweiler, Schiltzp  01722  01722                % 02961 RGTR--
+200601007 Sandweiler, Koschter  01722  01722                % 02961 RGTR--
+200203001 Moutfort, Bombasch    01726  01726                % 02961 RGTR--
+200203003 Moutfort, Kapell      01728  01728                % 02961 RGTR--
+200203004 Moutfort, Kiem        01728  01728                % 02961 RGTR--
+210901001 Ersange/Ierséng       01730  01730                % 02961 RGTR--
+210903001 Trintange, Trenteng   01731  01731                % 02961 RGTR--
+210902001 Roedt                 01731  01731                % 02961 RGTR--
+210904001 Waldbredimus, Hanner  01734  01734                % 02961 RGTR--
+210904002 Waldbredimus, Kiirch  01736  01736                % 02961 RGTR--
+210101001 Assel                 01739  01739                % 02961 RGTR--
+210104001 Rolling/Bous          01740  01740                % 02961 RGTR--
+210102003 Bous, Kapell          01742  01742                % 02961 RGTR--
+210102004 Bous, Kierch          01742  01742                % 02961 RGTR--
+210102001 Bous, Enner dem Pavé  01743  01743                % 02961 RGTR--
+210102002 Bous, Herdermillen    01744  01744                % 02961 RGTR--
+210803001 Stadtbredimus, Dicks  01745  01745                % 02961 RGTR--
+210803002 Stadtbredimus, Kreiz  01746  01746                % 02961 RGTR--
+210803005 Stadtbredimus, Vinsm  01747  01747                % 02961 RGTR--
+210803006 Stadtbredimus, Wandm  01748  01748                % 02961 RGTR--
+210701003 Remich, Caves St. Ma  01749  01749                % 02961 RGTR--
+210701008 Remich, Maatebierg    01750  01750                % 02961 RGTR--
+210701006 Remich, Gare routièr  01752                       % 02961 RGTR--
+*Z 02962 RGTR--                                             % 02962 RGTR--
+*L 160      200405037 210701006  00636  00721               % 02962 RGTR--
+*A ae 200405037 210701006 000001  00636  00721              % 02962 RGTR--
+*R 1 210701006 200405037 210701006  00636  00721            % 02962 RGTR--
+*G RGB 200405037 210701006  00636  00721                    % 02962 RGTR--
+*A VE 200405037 210701006 000001  00636  00721              % 02962 RGTR--
+*I FD 200405037 210701006        0002951  00636  00721      % 02962 RGTR--
+200405037 Luxembourg, rue Hein         00636                % 02962 RGTR--
+200404001 Verlorenkost, Al Mol  00638  00638                % 02962 RGTR--
+200404030 Verlorenkost, Généra  00639  00639                % 02962 RGTR--
+200406024 Cents, Cents-Hamm     00642  00642                % 02962 RGTR--
+200414009 Hamm, Ronndréisch     00643  00643                % 02962 RGTR--
+200601015 Sandweiler, Scheedbë  00647  00647                % 02962 RGTR--
+200601006 Sandweiler, Kontroll  00648  00648                % 02962 RGTR--
+200601004 Sandweiler, Hiel      00649  00649                % 02962 RGTR--
+200601005 Sandweiler, Kiirch    00650  00650                % 02962 RGTR--
+200601010 Sandweiler, Schiltzp  00650  00650                % 02962 RGTR--
+200601007 Sandweiler, Koschter  00651  00651                % 02962 RGTR--
+200203001 Moutfort, Bombasch    00655  00655                % 02962 RGTR--
+200203003 Moutfort, Kapell      00657  00657                % 02962 RGTR--
+200203004 Moutfort, Kiem        00657  00657                % 02962 RGTR--
+210901001 Ersange/Ierséng       00659  00659                % 02962 RGTR--
+210903001 Trintange, Trenteng   00700  00700                % 02962 RGTR--
+210902001 Roedt                 00700  00700                % 02962 RGTR--
+210904001 Waldbredimus, Hanner  00703  00703                % 02962 RGTR--
+210904002 Waldbredimus, Kiirch  00705  00705                % 02962 RGTR--
+210101001 Assel                 00708  00708                % 02962 RGTR--
+210104001 Rolling/Bous          00709  00709                % 02962 RGTR--
+210102003 Bous, Kapell          00711  00711                % 02962 RGTR--
+210102004 Bous, Kierch          00712  00712                % 02962 RGTR--
+210102001 Bous, Enner dem Pavé  00712  00712                % 02962 RGTR--
+210102002 Bous, Herdermillen    00713  00713                % 02962 RGTR--
+210803001 Stadtbredimus, Dicks  00715  00715                % 02962 RGTR--
+210803002 Stadtbredimus, Kreiz  00716  00716                % 02962 RGTR--
+210803005 Stadtbredimus, Vinsm  00716  00716                % 02962 RGTR--
+210803006 Stadtbredimus, Wandm  00717  00717                % 02962 RGTR--
+210701003 Remich, Caves St. Ma  00718  00718                % 02962 RGTR--
+210701008 Remich, Maatebierg    00719  00719                % 02962 RGTR--
+210701006 Remich, Gare routièr  00721                       % 02962 RGTR--
+*Z 02963 RGTR--                                             % 02963 RGTR--
+*L 160      200405037 210701006  00740  00825               % 02963 RGTR--
+*A ae 200405037 210701006 000001  00740  00825              % 02963 RGTR--
+*R 1 210701006 200405037 210701006  00740  00825            % 02963 RGTR--
+*G RGB 200405037 210701006  00740  00825                    % 02963 RGTR--
+*A VE 200405037 210701006 000001  00740  00825              % 02963 RGTR--
+*I FD 200405037 210701006        0002859  00740  00825      % 02963 RGTR--
+200405037 Luxembourg, rue Hein         00740                % 02963 RGTR--
+200404001 Verlorenkost, Al Mol  00742  00742                % 02963 RGTR--
+200404030 Verlorenkost, Généra  00743  00743                % 02963 RGTR--
+200406024 Cents, Cents-Hamm     00746  00746                % 02963 RGTR--
+200414009 Hamm, Ronndréisch     00747  00747                % 02963 RGTR--
+200601015 Sandweiler, Scheedbë  00751  00751                % 02963 RGTR--
+200601006 Sandweiler, Kontroll  00752  00752                % 02963 RGTR--
+200601004 Sandweiler, Hiel      00753  00753                % 02963 RGTR--
+200601005 Sandweiler, Kiirch    00754  00754                % 02963 RGTR--
+200601010 Sandweiler, Schiltzp  00754  00754                % 02963 RGTR--
+200601007 Sandweiler, Koschter  00755  00755                % 02963 RGTR--
+200203001 Moutfort, Bombasch    00759  00759                % 02963 RGTR--
+200203003 Moutfort, Kapell      00801  00801                % 02963 RGTR--
+200203004 Moutfort, Kiem        00801  00801                % 02963 RGTR--
+210901001 Ersange/Ierséng       00803  00803                % 02963 RGTR--
+210903001 Trintange, Trenteng   00804  00804                % 02963 RGTR--
+210902001 Roedt                 00804  00804                % 02963 RGTR--
+210904001 Waldbredimus, Hanner  00807  00807                % 02963 RGTR--
+210904002 Waldbredimus, Kiirch  00809  00809                % 02963 RGTR--
+210101001 Assel                 00812  00812                % 02963 RGTR--
+210104001 Rolling/Bous          00813  00813                % 02963 RGTR--
+210102003 Bous, Kapell          00815  00815                % 02963 RGTR--
+210102004 Bous, Kierch          00816  00816                % 02963 RGTR--
+210102001 Bous, Enner dem Pavé  00816  00816                % 02963 RGTR--
+210102002 Bous, Herdermillen    00817  00817                % 02963 RGTR--
+210803001 Stadtbredimus, Dicks  00819  00819                % 02963 RGTR--
+210803002 Stadtbredimus, Kreiz  00820  00820                % 02963 RGTR--
+210803005 Stadtbredimus, Vinsm  00820  00820                % 02963 RGTR--
+210803006 Stadtbredimus, Wandm  00821  00821                % 02963 RGTR--
+210701003 Remich, Caves St. Ma  00822  00822                % 02963 RGTR--
+210701008 Remich, Maatebierg    00823  00823                % 02963 RGTR--
+210701006 Remich, Gare routièr  00825                       % 02963 RGTR--
+*Z 02964 RGTR--                                             % 02964 RGTR--
+*L 160      200405037 210701006  00840  00925               % 02964 RGTR--
+*A ae 200405037 210701006 000001  00840  00925              % 02964 RGTR--
+*R 1 210701006 200405037 210701006  00840  00925            % 02964 RGTR--
+*G RGB 200405037 210701006  00840  00925                    % 02964 RGTR--
+*A VE 200405037 210701006 000001  00840  00925              % 02964 RGTR--
+*I FD 200405037 210701006        0002813  00840  00925      % 02964 RGTR--
+200405037 Luxembourg, rue Hein         00840                % 02964 RGTR--
+200404001 Verlorenkost, Al Mol  00842  00842                % 02964 RGTR--
+200404030 Verlorenkost, Généra  00843  00843                % 02964 RGTR--
+200406024 Cents, Cents-Hamm     00846  00846                % 02964 RGTR--
+200414009 Hamm, Ronndréisch     00847  00847                % 02964 RGTR--
+200601015 Sandweiler, Scheedbë  00851  00851                % 02964 RGTR--
+200601006 Sandweiler, Kontroll  00852  00852                % 02964 RGTR--
+200601004 Sandweiler, Hiel      00853  00853                % 02964 RGTR--
+200601005 Sandweiler, Kiirch    00854  00854                % 02964 RGTR--
+200601010 Sandweiler, Schiltzp  00854  00854                % 02964 RGTR--
+200601007 Sandweiler, Koschter  00855  00855                % 02964 RGTR--
+200203001 Moutfort, Bombasch    00859  00859                % 02964 RGTR--
+200203003 Moutfort, Kapell      00901  00901                % 02964 RGTR--
+200203004 Moutfort, Kiem        00901  00901                % 02964 RGTR--
+210901001 Ersange/Ierséng       00903  00903                % 02964 RGTR--
+210903001 Trintange, Trenteng   00904  00904                % 02964 RGTR--
+210902001 Roedt                 00904  00904                % 02964 RGTR--
+210904001 Waldbredimus, Hanner  00907  00907                % 02964 RGTR--
+210904002 Waldbredimus, Kiirch  00909  00909                % 02964 RGTR--
+210101001 Assel                 00912  00912                % 02964 RGTR--
+210104001 Rolling/Bous          00913  00913                % 02964 RGTR--
+210102003 Bous, Kapell          00915  00915                % 02964 RGTR--
+210102004 Bous, Kierch          00916  00916                % 02964 RGTR--
+210102001 Bous, Enner dem Pavé  00916  00916                % 02964 RGTR--
+210102002 Bous, Herdermillen    00917  00917                % 02964 RGTR--
+210803001 Stadtbredimus, Dicks  00919  00919                % 02964 RGTR--
+210803002 Stadtbredimus, Kreiz  00920  00920                % 02964 RGTR--
+210803005 Stadtbredimus, Vinsm  00920  00920                % 02964 RGTR--
+210803006 Stadtbredimus, Wandm  00921  00921                % 02964 RGTR--
+210701003 Remich, Caves St. Ma  00922  00922                % 02964 RGTR--
+210701008 Remich, Maatebierg    00923  00923                % 02964 RGTR--
+210701006 Remich, Gare routièr  00925                       % 02964 RGTR--
+*Z 02965 RGTR--                                             % 02965 RGTR--
+*L 160      200405037 210701006  01610  01655               % 02965 RGTR--
+*A ae 200405037 210701006 000001  01610  01655              % 02965 RGTR--
+*R 1 210701006 200405037 210701006  01610  01655            % 02965 RGTR--
+*G RGB 200405037 210701006  01610  01655                    % 02965 RGTR--
+*A VE 200405037 210701006 000001  01610  01655              % 02965 RGTR--
+*I FD 200405037 210701006        0002081  01610  01655      % 02965 RGTR--
+200405037 Luxembourg, rue Hein         01610                % 02965 RGTR--
+200404001 Verlorenkost, Al Mol  01612  01612                % 02965 RGTR--
+200404030 Verlorenkost, Généra  01613  01613                % 02965 RGTR--
+200406024 Cents, Cents-Hamm     01616  01616                % 02965 RGTR--
+200414009 Hamm, Ronndréisch     01617  01617                % 02965 RGTR--
+200601015 Sandweiler, Scheedbë  01621  01621                % 02965 RGTR--
+200601006 Sandweiler, Kontroll  01622  01622                % 02965 RGTR--
+200601004 Sandweiler, Hiel      01623  01623                % 02965 RGTR--
+200601005 Sandweiler, Kiirch    01624  01624                % 02965 RGTR--
+200601010 Sandweiler, Schiltzp  01624  01624                % 02965 RGTR--
+200601007 Sandweiler, Koschter  01625  01625                % 02965 RGTR--
+200203001 Moutfort, Bombasch    01629  01629                % 02965 RGTR--
+200203003 Moutfort, Kapell      01631  01631                % 02965 RGTR--
+200203004 Moutfort, Kiem        01631  01631                % 02965 RGTR--
+210901001 Ersange/Ierséng       01633  01633                % 02965 RGTR--
+210903001 Trintange, Trenteng   01634  01634                % 02965 RGTR--
+210902001 Roedt                 01634  01634                % 02965 RGTR--
+210904001 Waldbredimus, Hanner  01637  01637                % 02965 RGTR--
+210904002 Waldbredimus, Kiirch  01639  01639                % 02965 RGTR--
+210101001 Assel                 01642  01642                % 02965 RGTR--
+210104001 Rolling/Bous          01643  01643                % 02965 RGTR--
+210102003 Bous, Kapell          01645  01645                % 02965 RGTR--
+210102004 Bous, Kierch          01646  01646                % 02965 RGTR--
+210102001 Bous, Enner dem Pavé  01646  01646                % 02965 RGTR--
+210102002 Bous, Herdermillen    01647  01647                % 02965 RGTR--
+210803001 Stadtbredimus, Dicks  01649  01649                % 02965 RGTR--
+210803002 Stadtbredimus, Kreiz  01650  01650                % 02965 RGTR--
+210803005 Stadtbredimus, Vinsm  01650  01650                % 02965 RGTR--
+210803006 Stadtbredimus, Wandm  01651  01651                % 02965 RGTR--
+210701003 Remich, Caves St. Ma  01652  01652                % 02965 RGTR--
+210701008 Remich, Maatebierg    01653  01653                % 02965 RGTR--
+210701006 Remich, Gare routièr  01655                       % 02965 RGTR--
+*Z 02966 RGTR--                                             % 02966 RGTR--
+*L 160      200405037 210701006  01640  01725               % 02966 RGTR--
+*A ae 200405037 210701006 000001  01640  01725              % 02966 RGTR--
+*R 1 210701006 200405037 210701006  01640  01725            % 02966 RGTR--
+*G RGB 200405037 210701006  01640  01725                    % 02966 RGTR--
+*A VE 200405037 210701006 000001  01640  01725              % 02966 RGTR--
+*I FD 200405037 210701006        0001984  01640  01725      % 02966 RGTR--
+200405037 Luxembourg, rue Hein         01640                % 02966 RGTR--
+200404001 Verlorenkost, Al Mol  01642  01642                % 02966 RGTR--
+200404030 Verlorenkost, Généra  01643  01643                % 02966 RGTR--
+200406024 Cents, Cents-Hamm     01646  01646                % 02966 RGTR--
+200414009 Hamm, Ronndréisch     01647  01647                % 02966 RGTR--
+200601015 Sandweiler, Scheedbë  01651  01651                % 02966 RGTR--
+200601006 Sandweiler, Kontroll  01652  01652                % 02966 RGTR--
+200601004 Sandweiler, Hiel      01653  01653                % 02966 RGTR--
+200601005 Sandweiler, Kiirch    01654  01654                % 02966 RGTR--
+200601010 Sandweiler, Schiltzp  01654  01654                % 02966 RGTR--
+200601007 Sandweiler, Koschter  01655  01655                % 02966 RGTR--
+200203001 Moutfort, Bombasch    01659  01659                % 02966 RGTR--
+200203003 Moutfort, Kapell      01701  01701                % 02966 RGTR--
+200203004 Moutfort, Kiem        01701  01701                % 02966 RGTR--
+210901001 Ersange/Ierséng       01703  01703                % 02966 RGTR--
+210903001 Trintange, Trenteng   01704  01704                % 02966 RGTR--
+210902001 Roedt                 01704  01704                % 02966 RGTR--
+210904001 Waldbredimus, Hanner  01707  01707                % 02966 RGTR--
+210904002 Waldbredimus, Kiirch  01709  01709                % 02966 RGTR--
+210101001 Assel                 01712  01712                % 02966 RGTR--
+210104001 Rolling/Bous          01713  01713                % 02966 RGTR--
+210102003 Bous, Kapell          01715  01715                % 02966 RGTR--
+210102004 Bous, Kierch          01716  01716                % 02966 RGTR--
+210102001 Bous, Enner dem Pavé  01716  01716                % 02966 RGTR--
+210102002 Bous, Herdermillen    01717  01717                % 02966 RGTR--
+210803001 Stadtbredimus, Dicks  01719  01719                % 02966 RGTR--
+210803002 Stadtbredimus, Kreiz  01720  01720                % 02966 RGTR--
+210803005 Stadtbredimus, Vinsm  01720  01720                % 02966 RGTR--
+210803006 Stadtbredimus, Wandm  01721  01721                % 02966 RGTR--
+210701003 Remich, Caves St. Ma  01722  01722                % 02966 RGTR--
+210701008 Remich, Maatebierg    01723  01723                % 02966 RGTR--
+210701006 Remich, Gare routièr  01725                       % 02966 RGTR--
+*Z 02967 RGTR--                                             % 02967 RGTR--
+*L 160      200405037 210701006  01710  01755               % 02967 RGTR--
+*A ae 200405037 210701006 000001  01710  01755              % 02967 RGTR--
+*R 1 210701006 200405037 210701006  01710  01755            % 02967 RGTR--
+*G RGB 200405037 210701006  01710  01755                    % 02967 RGTR--
+*A VE 200405037 210701006 000001  01710  01755              % 02967 RGTR--
+*I FD 200405037 210701006        0002073  01710  01755      % 02967 RGTR--
+200405037 Luxembourg, rue Hein         01710                % 02967 RGTR--
+200404001 Verlorenkost, Al Mol  01712  01712                % 02967 RGTR--
+200404030 Verlorenkost, Généra  01713  01713                % 02967 RGTR--
+200406024 Cents, Cents-Hamm     01716  01716                % 02967 RGTR--
+200414009 Hamm, Ronndréisch     01717  01717                % 02967 RGTR--
+200601015 Sandweiler, Scheedbë  01721  01721                % 02967 RGTR--
+200601006 Sandweiler, Kontroll  01722  01722                % 02967 RGTR--
+200601004 Sandweiler, Hiel      01723  01723                % 02967 RGTR--
+200601005 Sandweiler, Kiirch    01724  01724                % 02967 RGTR--
+200601010 Sandweiler, Schiltzp  01724  01724                % 02967 RGTR--
+200601007 Sandweiler, Koschter  01725  01725                % 02967 RGTR--
+200203001 Moutfort, Bombasch    01729  01729                % 02967 RGTR--
+200203003 Moutfort, Kapell      01731  01731                % 02967 RGTR--
+200203004 Moutfort, Kiem        01731  01731                % 02967 RGTR--
+210901001 Ersange/Ierséng       01733  01733                % 02967 RGTR--
+210903001 Trintange, Trenteng   01734  01734                % 02967 RGTR--
+210902001 Roedt                 01734  01734                % 02967 RGTR--
+210904001 Waldbredimus, Hanner  01737  01737                % 02967 RGTR--
+210904002 Waldbredimus, Kiirch  01739  01739                % 02967 RGTR--
+210101001 Assel                 01742  01742                % 02967 RGTR--
+210104001 Rolling/Bous          01743  01743                % 02967 RGTR--
+210102003 Bous, Kapell          01745  01745                % 02967 RGTR--
+210102004 Bous, Kierch          01746  01746                % 02967 RGTR--
+210102001 Bous, Enner dem Pavé  01746  01746                % 02967 RGTR--
+210102002 Bous, Herdermillen    01747  01747                % 02967 RGTR--
+210803001 Stadtbredimus, Dicks  01749  01749                % 02967 RGTR--
+210803002 Stadtbredimus, Kreiz  01750  01750                % 02967 RGTR--
+210803005 Stadtbredimus, Vinsm  01750  01750                % 02967 RGTR--
+210803006 Stadtbredimus, Wandm  01751  01751                % 02967 RGTR--
+210701003 Remich, Caves St. Ma  01752  01752                % 02967 RGTR--
+210701008 Remich, Maatebierg    01753  01753                % 02967 RGTR--
+210701006 Remich, Gare routièr  01755                       % 02967 RGTR--
+*Z 02968 RGTR--                                             % 02968 RGTR--
+*L 160      200405037 210701006  01740  01825               % 02968 RGTR--
+*A ae 200405037 210701006 000001  01740  01825              % 02968 RGTR--
+*R 1 210701006 200405037 210701006  01740  01825            % 02968 RGTR--
+*G RGB 200405037 210701006  01740  01825                    % 02968 RGTR--
+*A VE 200405037 210701006 000001  01740  01825              % 02968 RGTR--
+*I FD 200405037 210701006        0001985  01740  01825      % 02968 RGTR--
+200405037 Luxembourg, rue Hein         01740                % 02968 RGTR--
+200404001 Verlorenkost, Al Mol  01742  01742                % 02968 RGTR--
+200404030 Verlorenkost, Généra  01743  01743                % 02968 RGTR--
+200406024 Cents, Cents-Hamm     01746  01746                % 02968 RGTR--
+200414009 Hamm, Ronndréisch     01747  01747                % 02968 RGTR--
+200601015 Sandweiler, Scheedbë  01751  01751                % 02968 RGTR--
+200601006 Sandweiler, Kontroll  01752  01752                % 02968 RGTR--
+200601004 Sandweiler, Hiel      01753  01753                % 02968 RGTR--
+200601005 Sandweiler, Kiirch    01754  01754                % 02968 RGTR--
+200601010 Sandweiler, Schiltzp  01754  01754                % 02968 RGTR--
+200601007 Sandweiler, Koschter  01755  01755                % 02968 RGTR--
+200203001 Moutfort, Bombasch    01759  01759                % 02968 RGTR--
+200203003 Moutfort, Kapell      01801  01801                % 02968 RGTR--
+200203004 Moutfort, Kiem        01801  01801                % 02968 RGTR--
+210901001 Ersange/Ierséng       01803  01803                % 02968 RGTR--
+210903001 Trintange, Trenteng   01804  01804                % 02968 RGTR--
+210902001 Roedt                 01804  01804                % 02968 RGTR--
+210904001 Waldbredimus, Hanner  01807  01807                % 02968 RGTR--
+210904002 Waldbredimus, Kiirch  01809  01809                % 02968 RGTR--
+210101001 Assel                 01812  01812                % 02968 RGTR--
+210104001 Rolling/Bous          01813  01813                % 02968 RGTR--
+210102003 Bous, Kapell          01815  01815                % 02968 RGTR--
+210102004 Bous, Kierch          01816  01816                % 02968 RGTR--
+210102001 Bous, Enner dem Pavé  01816  01816                % 02968 RGTR--
+210102002 Bous, Herdermillen    01817  01817                % 02968 RGTR--
+210803001 Stadtbredimus, Dicks  01819  01819                % 02968 RGTR--
+210803002 Stadtbredimus, Kreiz  01820  01820                % 02968 RGTR--
+210803005 Stadtbredimus, Vinsm  01820  01820                % 02968 RGTR--
+210803006 Stadtbredimus, Wandm  01821  01821                % 02968 RGTR--
+210701003 Remich, Caves St. Ma  01822  01822                % 02968 RGTR--
+210701008 Remich, Maatebierg    01823  01823                % 02968 RGTR--
+210701006 Remich, Gare routièr  01825                       % 02968 RGTR--
+*Z 02969 RGTR--                                             % 02969 RGTR--
+*L 160      200405037 210701006  01810  01855               % 02969 RGTR--
+*A ae 200405037 210701006 000001  01810  01855              % 02969 RGTR--
+*R 1 210701006 200405037 210701006  01810  01855            % 02969 RGTR--
+*G RGB 200405037 210701006  01810  01855                    % 02969 RGTR--
+*A VE 200405037 210701006 000001  01810  01855              % 02969 RGTR--
+*I FD 200405037 210701006        0002085  01810  01855      % 02969 RGTR--
+200405037 Luxembourg, rue Hein         01810                % 02969 RGTR--
+200404001 Verlorenkost, Al Mol  01812  01812                % 02969 RGTR--
+200404030 Verlorenkost, Généra  01813  01813                % 02969 RGTR--
+200406024 Cents, Cents-Hamm     01816  01816                % 02969 RGTR--
+200414009 Hamm, Ronndréisch     01817  01817                % 02969 RGTR--
+200601015 Sandweiler, Scheedbë  01821  01821                % 02969 RGTR--
+200601006 Sandweiler, Kontroll  01822  01822                % 02969 RGTR--
+200601004 Sandweiler, Hiel      01823  01823                % 02969 RGTR--
+200601005 Sandweiler, Kiirch    01824  01824                % 02969 RGTR--
+200601010 Sandweiler, Schiltzp  01824  01824                % 02969 RGTR--
+200601007 Sandweiler, Koschter  01825  01825                % 02969 RGTR--
+200203001 Moutfort, Bombasch    01829  01829                % 02969 RGTR--
+200203003 Moutfort, Kapell      01831  01831                % 02969 RGTR--
+200203004 Moutfort, Kiem        01831  01831                % 02969 RGTR--
+210901001 Ersange/Ierséng       01833  01833                % 02969 RGTR--
+210903001 Trintange, Trenteng   01834  01834                % 02969 RGTR--
+210902001 Roedt                 01834  01834                % 02969 RGTR--
+210904001 Waldbredimus, Hanner  01837  01837                % 02969 RGTR--
+210904002 Waldbredimus, Kiirch  01839  01839                % 02969 RGTR--
+210101001 Assel                 01842  01842                % 02969 RGTR--
+210104001 Rolling/Bous          01843  01843                % 02969 RGTR--
+210102003 Bous, Kapell          01845  01845                % 02969 RGTR--
+210102004 Bous, Kierch          01846  01846                % 02969 RGTR--
+210102001 Bous, Enner dem Pavé  01846  01846                % 02969 RGTR--
+210102002 Bous, Herdermillen    01847  01847                % 02969 RGTR--
+210803001 Stadtbredimus, Dicks  01849  01849                % 02969 RGTR--
+210803002 Stadtbredimus, Kreiz  01850  01850                % 02969 RGTR--
+210803005 Stadtbredimus, Vinsm  01850  01850                % 02969 RGTR--
+210803006 Stadtbredimus, Wandm  01851  01851                % 02969 RGTR--
+210701003 Remich, Caves St. Ma  01852  01852                % 02969 RGTR--
+210701008 Remich, Maatebierg    01853  01853                % 02969 RGTR--
+210701006 Remich, Gare routièr  01855                       % 02969 RGTR--
+*Z 02970 RGTR--                                             % 02970 RGTR--
+*L 160      210701006 200405037  00728  00820               % 02970 RGTR--
+*A ae 210701006 200405037 000001  00728  00820              % 02970 RGTR--
+*R 2 200405037 210701006 200405037  00728  00820            % 02970 RGTR--
+*G RGB 210701006 200405037  00728  00820                    % 02970 RGTR--
+*A VE 210701006 200405037 000001  00728  00820              % 02970 RGTR--
+*I FD 210701006 200405037        0002185  00728  00820      % 02970 RGTR--
+210701006 Remich, Gare routièr         00728                % 02970 RGTR--
+210701008 Remich, Maatebierg    00729  00729                % 02970 RGTR--
+210701003 Remich, Caves St. Ma  00730  00730                % 02970 RGTR--
+210803006 Stadtbredimus, Wandm  00732  00732                % 02970 RGTR--
+210803005 Stadtbredimus, Vinsm  00732  00732                % 02970 RGTR--
+210803004 Stadtbredimus, Schou  00734  00734                % 02970 RGTR--
+210803001 Stadtbredimus, Dicks  00734  00734                % 02970 RGTR--
+210102002 Bous, Herdermillen    00736  00736                % 02970 RGTR--
+210102001 Bous, Enner dem Pavé  00737  00737                % 02970 RGTR--
+210102004 Bous, Kierch          00737  00737                % 02970 RGTR--
+210102003 Bous, Kapell          00738  00738                % 02970 RGTR--
+210104001 Rolling/Bous          00740  00740                % 02970 RGTR--
+210101001 Assel                 00741  00741                % 02970 RGTR--
+210904002 Waldbredimus, Kiirch  00745  00745                % 02970 RGTR--
+210904001 Waldbredimus, Hanner  00746  00746                % 02970 RGTR--
+210902001 Roedt                 00749  00749                % 02970 RGTR--
+210903001 Trintange, Trenteng   00750  00750                % 02970 RGTR--
+210901001 Ersange/Ierséng       00751  00751                % 02970 RGTR--
+200203004 Moutfort, Kiem        00753  00753                % 02970 RGTR--
+200203003 Moutfort, Kapell      00754  00754                % 02970 RGTR--
+200203001 Moutfort, Bombasch    00756  00756                % 02970 RGTR--
+200601007 Sandweiler, Koschter  00800  00800                % 02970 RGTR--
+200601010 Sandweiler, Schiltzp  00801  00801                % 02970 RGTR--
+200601005 Sandweiler, Kiirch    00801  00801                % 02970 RGTR--
+200601014 Sandweiler, Kapelleb  00802  00802                % 02970 RGTR--
+200601006 Sandweiler, Kontroll  00803  00803                % 02970 RGTR--
+200601015 Sandweiler, Scheedbë  00804  00804                % 02970 RGTR--
+200414009 Hamm, Ronndréisch     00808  00808                % 02970 RGTR--
+200406024 Cents, Cents-Hamm     00809  00809                % 02970 RGTR--
+200404030 Verlorenkost, Généra  00812  00812                % 02970 RGTR--
+200404001 Verlorenkost, Al Mol  00813 -00813                % 02970 RGTR--
+200405013 Centre, F.D. Rooseve  00816  00816                % 02970 RGTR--
+200405037 Luxembourg, rue Hein  00820                       % 02970 RGTR--
+*Z 02971 RGTR--                                             % 02971 RGTR--
+*L 160      210701006 200405037  00832  00924               % 02971 RGTR--
+*A ae 210701006 200405037 000001  00832  00924              % 02971 RGTR--
+*R 2 200405037 210701006 200405037  00832  00924            % 02971 RGTR--
+*G RGB 210701006 200405037  00832  00924                    % 02971 RGTR--
+*A VE 210701006 200405037 000001  00832  00924              % 02971 RGTR--
+*I FD 210701006 200405037        0000877  00832  00924      % 02971 RGTR--
+210701006 Remich, Gare routièr         00832                % 02971 RGTR--
+210701008 Remich, Maatebierg    00833  00833                % 02971 RGTR--
+210701003 Remich, Caves St. Ma  00834  00834                % 02971 RGTR--
+210803006 Stadtbredimus, Wandm  00836  00836                % 02971 RGTR--
+210803005 Stadtbredimus, Vinsm  00836  00836                % 02971 RGTR--
+210803004 Stadtbredimus, Schou  00838  00838                % 02971 RGTR--
+210803001 Stadtbredimus, Dicks  00838  00838                % 02971 RGTR--
+210102002 Bous, Herdermillen    00840  00840                % 02971 RGTR--
+210102001 Bous, Enner dem Pavé  00841  00841                % 02971 RGTR--
+210102004 Bous, Kierch          00841  00841                % 02971 RGTR--
+210102003 Bous, Kapell          00842  00842                % 02971 RGTR--
+210104001 Rolling/Bous          00844  00844                % 02971 RGTR--
+210101001 Assel                 00845  00845                % 02971 RGTR--
+210904002 Waldbredimus, Kiirch  00849  00849                % 02971 RGTR--
+210904001 Waldbredimus, Hanner  00850  00850                % 02971 RGTR--
+210902001 Roedt                 00853  00853                % 02971 RGTR--
+210903001 Trintange, Trenteng   00854  00854                % 02971 RGTR--
+210901001 Ersange/Ierséng       00855  00855                % 02971 RGTR--
+200203004 Moutfort, Kiem        00857  00857                % 02971 RGTR--
+200203003 Moutfort, Kapell      00858  00858                % 02971 RGTR--
+200203001 Moutfort, Bombasch    00900  00900                % 02971 RGTR--
+200601007 Sandweiler, Koschter  00904  00904                % 02971 RGTR--
+200601010 Sandweiler, Schiltzp  00905  00905                % 02971 RGTR--
+200601005 Sandweiler, Kiirch    00905  00905                % 02971 RGTR--
+200601014 Sandweiler, Kapelleb  00906  00906                % 02971 RGTR--
+200601006 Sandweiler, Kontroll  00907  00907                % 02971 RGTR--
+200601015 Sandweiler, Scheedbë  00908  00908                % 02971 RGTR--
+200414009 Hamm, Ronndréisch     00912  00912                % 02971 RGTR--
+200406024 Cents, Cents-Hamm     00913  00913                % 02971 RGTR--
+200404030 Verlorenkost, Généra  00916  00916                % 02971 RGTR--
+200404001 Verlorenkost, Al Mol  00917 -00917                % 02971 RGTR--
+200405013 Centre, F.D. Rooseve  00920  00920                % 02971 RGTR--
+200405037 Luxembourg, rue Hein  00924                       % 02971 RGTR--
+*Z 02972 RGTR--                                             % 02972 RGTR--
+*L 160      210701006 200405037  01628  01720               % 02972 RGTR--
+*A ae 210701006 200405037 000001  01628  01720              % 02972 RGTR--
+*A SS 210701006 200405037 000001  01628  01720              % 02972 RGTR--
+*R 2 200405037 210701006 200405037  01628  01720            % 02972 RGTR--
+*G RGB 210701006 200405037  01628  01720                    % 02972 RGTR--
+*A VE 210701006 200405037 000001  01628  01720              % 02972 RGTR--
+*I FD 210701006 200405037        0002952  01628  01720      % 02972 RGTR--
+210701006 Remich, Gare routièr         01628                % 02972 RGTR--
+210701008 Remich, Maatebierg    01629  01629                % 02972 RGTR--
+210701003 Remich, Caves St. Ma  01630  01630                % 02972 RGTR--
+210803006 Stadtbredimus, Wandm  01632  01632                % 02972 RGTR--
+210803005 Stadtbredimus, Vinsm  01632  01632                % 02972 RGTR--
+210803004 Stadtbredimus, Schou  01634  01634                % 02972 RGTR--
+210803001 Stadtbredimus, Dicks  01634  01634                % 02972 RGTR--
+210102002 Bous, Herdermillen    01636  01636                % 02972 RGTR--
+210102001 Bous, Enner dem Pavé  01637  01637                % 02972 RGTR--
+210102004 Bous, Kierch          01637  01637                % 02972 RGTR--
+210102003 Bous, Kapell          01638  01638                % 02972 RGTR--
+210104001 Rolling/Bous          01640  01640                % 02972 RGTR--
+210101001 Assel                 01641  01641                % 02972 RGTR--
+210904002 Waldbredimus, Kiirch  01645  01645                % 02972 RGTR--
+210904001 Waldbredimus, Hanner  01646  01646                % 02972 RGTR--
+210902001 Roedt                 01649  01649                % 02972 RGTR--
+210903001 Trintange, Trenteng   01650  01650                % 02972 RGTR--
+210901001 Ersange/Ierséng       01651  01651                % 02972 RGTR--
+200203004 Moutfort, Kiem        01653  01653                % 02972 RGTR--
+200203003 Moutfort, Kapell      01654  01654                % 02972 RGTR--
+200203001 Moutfort, Bombasch    01656  01656                % 02972 RGTR--
+200601007 Sandweiler, Koschter  01700  01700                % 02972 RGTR--
+200601010 Sandweiler, Schiltzp  01701  01701                % 02972 RGTR--
+200601005 Sandweiler, Kiirch    01701  01701                % 02972 RGTR--
+200601014 Sandweiler, Kapelleb  01702  01702                % 02972 RGTR--
+200601006 Sandweiler, Kontroll  01703  01703                % 02972 RGTR--
+200601015 Sandweiler, Scheedbë  01704  01704                % 02972 RGTR--
+200414009 Hamm, Ronndréisch     01708  01708                % 02972 RGTR--
+200406024 Cents, Cents-Hamm     01709  01709                % 02972 RGTR--
+200404030 Verlorenkost, Généra  01712  01712                % 02972 RGTR--
+200404001 Verlorenkost, Al Mol  01713 -01713                % 02972 RGTR--
+200405013 Centre, F.D. Rooseve  01716  01716                % 02972 RGTR--
+200405037 Luxembourg, rue Hein  01720                       % 02972 RGTR--
+*Z 02973 RGTR--                                             % 02973 RGTR--
+*L 160      210701006 200405037  01732  01824               % 02973 RGTR--
+*A ae 210701006 200405037 000001  01732  01824              % 02973 RGTR--
+*R 2 200405037 210701006 200405037  01732  01824            % 02973 RGTR--
+*G RGB 210701006 200405037  01732  01824                    % 02973 RGTR--
+*A VE 210701006 200405037 000001  01732  01824              % 02973 RGTR--
+*I FD 210701006 200405037        0002888  01732  01824      % 02973 RGTR--
+210701006 Remich, Gare routièr         01732                % 02973 RGTR--
+210701008 Remich, Maatebierg    01733  01733                % 02973 RGTR--
+210701003 Remich, Caves St. Ma  01734  01734                % 02973 RGTR--
+210803006 Stadtbredimus, Wandm  01736  01736                % 02973 RGTR--
+210803005 Stadtbredimus, Vinsm  01736  01736                % 02973 RGTR--
+210803004 Stadtbredimus, Schou  01738  01738                % 02973 RGTR--
+210803001 Stadtbredimus, Dicks  01738  01738                % 02973 RGTR--
+210102002 Bous, Herdermillen    01740  01740                % 02973 RGTR--
+210102001 Bous, Enner dem Pavé  01741  01741                % 02973 RGTR--
+210102004 Bous, Kierch          01741  01741                % 02973 RGTR--
+210102003 Bous, Kapell          01742  01742                % 02973 RGTR--
+210104001 Rolling/Bous          01744  01744                % 02973 RGTR--
+210101001 Assel                 01745  01745                % 02973 RGTR--
+210904002 Waldbredimus, Kiirch  01749  01749                % 02973 RGTR--
+210904001 Waldbredimus, Hanner  01750  01750                % 02973 RGTR--
+210902001 Roedt                 01753  01753                % 02973 RGTR--
+210903001 Trintange, Trenteng   01754  01754                % 02973 RGTR--
+210901001 Ersange/Ierséng       01755  01755                % 02973 RGTR--
+200203004 Moutfort, Kiem        01757  01757                % 02973 RGTR--
+200203003 Moutfort, Kapell      01758  01758                % 02973 RGTR--
+200203001 Moutfort, Bombasch    01800  01800                % 02973 RGTR--
+200601007 Sandweiler, Koschter  01804  01804                % 02973 RGTR--
+200601010 Sandweiler, Schiltzp  01805  01805                % 02973 RGTR--
+200601005 Sandweiler, Kiirch    01805  01805                % 02973 RGTR--
+200601014 Sandweiler, Kapelleb  01806  01806                % 02973 RGTR--
+200601006 Sandweiler, Kontroll  01807  01807                % 02973 RGTR--
+200601015 Sandweiler, Scheedbë  01808  01808                % 02973 RGTR--
+200414009 Hamm, Ronndréisch     01812  01812                % 02973 RGTR--
+200406024 Cents, Cents-Hamm     01813  01813                % 02973 RGTR--
+200404030 Verlorenkost, Généra  01816  01816                % 02973 RGTR--
+200404001 Verlorenkost, Al Mol  01817 -01817                % 02973 RGTR--
+200405013 Centre, F.D. Rooseve  01820  01820                % 02973 RGTR--
+200405037 Luxembourg, rue Hein  01824                       % 02973 RGTR--
+*Z 02974 RGTR--                                             % 02974 RGTR--
+*L 160      210701006 200405037  00932  01018               % 02974 RGTR--
+*A ae 210701006 200405037 000001  00932  01018              % 02974 RGTR--
+*R 2 200405037 210701006 200405037  00932  01018            % 02974 RGTR--
+*G RGB 210701006 200405037  00932  01018                    % 02974 RGTR--
+*A VE 210701006 200405037 000001  00932  01018              % 02974 RGTR--
+*I FD 210701006 200405037        0000957  00932  01018      % 02974 RGTR--
+210701006 Remich, Gare routièr         00932                % 02974 RGTR--
+210701008 Remich, Maatebierg    00933  00933                % 02974 RGTR--
+210701003 Remich, Caves St. Ma  00934  00934                % 02974 RGTR--
+210803006 Stadtbredimus, Wandm  00935  00935                % 02974 RGTR--
+210803005 Stadtbredimus, Vinsm  00936  00936                % 02974 RGTR--
+210803004 Stadtbredimus, Schou  00937  00937                % 02974 RGTR--
+210803001 Stadtbredimus, Dicks  00938  00938                % 02974 RGTR--
+210102002 Bous, Herdermillen    00940  00940                % 02974 RGTR--
+210102001 Bous, Enner dem Pavé  00940  00940                % 02974 RGTR--
+210102004 Bous, Kierch          00941  00941                % 02974 RGTR--
+210102003 Bous, Kapell          00941  00941                % 02974 RGTR--
+210104001 Rolling/Bous          00943  00943                % 02974 RGTR--
+210101001 Assel                 00944  00944                % 02974 RGTR--
+210904002 Waldbredimus, Kiirch  00948  00948                % 02974 RGTR--
+210904001 Waldbredimus, Hanner  00949  00949                % 02974 RGTR--
+210902001 Roedt                 00952  00952                % 02974 RGTR--
+210903001 Trintange, Trenteng   00953  00953                % 02974 RGTR--
+210901001 Ersange/Ierséng       00954  00954                % 02974 RGTR--
+200203004 Moutfort, Kiem        00956  00956                % 02974 RGTR--
+200203003 Moutfort, Kapell      00956  00956                % 02974 RGTR--
+200203001 Moutfort, Bombasch    00958  00958                % 02974 RGTR--
+200601007 Sandweiler, Koschter  01002  01002                % 02974 RGTR--
+200601010 Sandweiler, Schiltzp  01003  01003                % 02974 RGTR--
+200601005 Sandweiler, Kiirch    01003  01003                % 02974 RGTR--
+200601014 Sandweiler, Kapelleb  01004  01004                % 02974 RGTR--
+200601006 Sandweiler, Kontroll  01004  01004                % 02974 RGTR--
+200601015 Sandweiler, Scheedbë  01005  01005                % 02974 RGTR--
+200414009 Hamm, Ronndréisch     01008  01008                % 02974 RGTR--
+200406024 Cents, Cents-Hamm     01009  01009                % 02974 RGTR--
+200404030 Verlorenkost, Généra  01011  01011                % 02974 RGTR--
+200404001 Verlorenkost, Al Mol  01012 -01012                % 02974 RGTR--
+200405013 Centre, F.D. Rooseve  01015  01015                % 02974 RGTR--
+200405037 Luxembourg, rue Hein  01018                       % 02974 RGTR--
+*Z 02975 RGTR--                                             % 02975 RGTR--
+*L 160      210701006 200405037  01028  01114               % 02975 RGTR--
+*A ae 210701006 200405037 000001  01028  01114              % 02975 RGTR--
+*R 2 200405037 210701006 200405037  01028  01114            % 02975 RGTR--
+*G RGB 210701006 200405037  01028  01114                    % 02975 RGTR--
+*A VE 210701006 200405037 000001  01028  01114              % 02975 RGTR--
+*I FD 210701006 200405037        0002953  01028  01114      % 02975 RGTR--
+210701006 Remich, Gare routièr         01028                % 02975 RGTR--
+210701008 Remich, Maatebierg    01029  01029                % 02975 RGTR--
+210701003 Remich, Caves St. Ma  01030  01030                % 02975 RGTR--
+210803006 Stadtbredimus, Wandm  01031  01031                % 02975 RGTR--
+210803005 Stadtbredimus, Vinsm  01032  01032                % 02975 RGTR--
+210803004 Stadtbredimus, Schou  01033  01033                % 02975 RGTR--
+210803001 Stadtbredimus, Dicks  01034  01034                % 02975 RGTR--
+210102002 Bous, Herdermillen    01036  01036                % 02975 RGTR--
+210102001 Bous, Enner dem Pavé  01036  01036                % 02975 RGTR--
+210102004 Bous, Kierch          01037  01037                % 02975 RGTR--
+210102003 Bous, Kapell          01037  01037                % 02975 RGTR--
+210104001 Rolling/Bous          01039  01039                % 02975 RGTR--
+210101001 Assel                 01040  01040                % 02975 RGTR--
+210904002 Waldbredimus, Kiirch  01044  01044                % 02975 RGTR--
+210904001 Waldbredimus, Hanner  01045  01045                % 02975 RGTR--
+210902001 Roedt                 01048  01048                % 02975 RGTR--
+210903001 Trintange, Trenteng   01049  01049                % 02975 RGTR--
+210901001 Ersange/Ierséng       01050  01050                % 02975 RGTR--
+200203004 Moutfort, Kiem        01052  01052                % 02975 RGTR--
+200203003 Moutfort, Kapell      01052  01052                % 02975 RGTR--
+200203001 Moutfort, Bombasch    01054  01054                % 02975 RGTR--
+200601007 Sandweiler, Koschter  01058  01058                % 02975 RGTR--
+200601010 Sandweiler, Schiltzp  01059  01059                % 02975 RGTR--
+200601005 Sandweiler, Kiirch    01059  01059                % 02975 RGTR--
+200601014 Sandweiler, Kapelleb  01100  01100                % 02975 RGTR--
+200601006 Sandweiler, Kontroll  01100  01100                % 02975 RGTR--
+200601015 Sandweiler, Scheedbë  01101  01101                % 02975 RGTR--
+200414009 Hamm, Ronndréisch     01104  01104                % 02975 RGTR--
+200406024 Cents, Cents-Hamm     01105  01105                % 02975 RGTR--
+200404030 Verlorenkost, Généra  01107  01107                % 02975 RGTR--
+200404001 Verlorenkost, Al Mol  01108 -01108                % 02975 RGTR--
+200405013 Centre, F.D. Rooseve  01111  01111                % 02975 RGTR--
+200405037 Luxembourg, rue Hein  01114                       % 02975 RGTR--
+*Z 02976 RGTR--                                             % 02976 RGTR--
+*L 160      210701006 200405037  01128  01214               % 02976 RGTR--
+*A ae 210701006 200405037 000001  01128  01214              % 02976 RGTR--
+*R 2 200405037 210701006 200405037  01128  01214            % 02976 RGTR--
+*G RGB 210701006 200405037  01128  01214                    % 02976 RGTR--
+*A VE 210701006 200405037 000001  01128  01214              % 02976 RGTR--
+*I FD 210701006 200405037        0002954  01128  01214      % 02976 RGTR--
+210701006 Remich, Gare routièr         01128                % 02976 RGTR--
+210701008 Remich, Maatebierg    01129  01129                % 02976 RGTR--
+210701003 Remich, Caves St. Ma  01130  01130                % 02976 RGTR--
+210803006 Stadtbredimus, Wandm  01131  01131                % 02976 RGTR--
+210803005 Stadtbredimus, Vinsm  01132  01132                % 02976 RGTR--
+210803004 Stadtbredimus, Schou  01133  01133                % 02976 RGTR--
+210803001 Stadtbredimus, Dicks  01134  01134                % 02976 RGTR--
+210102002 Bous, Herdermillen    01136  01136                % 02976 RGTR--
+210102001 Bous, Enner dem Pavé  01136  01136                % 02976 RGTR--
+210102004 Bous, Kierch          01137  01137                % 02976 RGTR--
+210102003 Bous, Kapell          01137  01137                % 02976 RGTR--
+210104001 Rolling/Bous          01139  01139                % 02976 RGTR--
+210101001 Assel                 01140  01140                % 02976 RGTR--
+210904002 Waldbredimus, Kiirch  01144  01144                % 02976 RGTR--
+210904001 Waldbredimus, Hanner  01145  01145                % 02976 RGTR--
+210902001 Roedt                 01148  01148                % 02976 RGTR--
+210903001 Trintange, Trenteng   01149  01149                % 02976 RGTR--
+210901001 Ersange/Ierséng       01150  01150                % 02976 RGTR--
+200203004 Moutfort, Kiem        01152  01152                % 02976 RGTR--
+200203003 Moutfort, Kapell      01152  01152                % 02976 RGTR--
+200203001 Moutfort, Bombasch    01154  01154                % 02976 RGTR--
+200601007 Sandweiler, Koschter  01158  01158                % 02976 RGTR--
+200601010 Sandweiler, Schiltzp  01159  01159                % 02976 RGTR--
+200601005 Sandweiler, Kiirch    01159  01159                % 02976 RGTR--
+200601014 Sandweiler, Kapelleb  01200  01200                % 02976 RGTR--
+200601006 Sandweiler, Kontroll  01200  01200                % 02976 RGTR--
+200601015 Sandweiler, Scheedbë  01201  01201                % 02976 RGTR--
+200414009 Hamm, Ronndréisch     01204  01204                % 02976 RGTR--
+200406024 Cents, Cents-Hamm     01205  01205                % 02976 RGTR--
+200404030 Verlorenkost, Généra  01207  01207                % 02976 RGTR--
+200404001 Verlorenkost, Al Mol  01208 -01208                % 02976 RGTR--
+200405013 Centre, F.D. Rooseve  01211  01211                % 02976 RGTR--
+200405037 Luxembourg, rue Hein  01214                       % 02976 RGTR--
+*Z 02977 RGTR--                                             % 02977 RGTR--
+*L 160      210701006 200405037  01228  01314               % 02977 RGTR--
+*A ae 210701006 200405037 000001  01228  01314              % 02977 RGTR--
+*R 2 200405037 210701006 200405037  01228  01314            % 02977 RGTR--
+*G RGB 210701006 200405037  01228  01314                    % 02977 RGTR--
+*A VE 210701006 200405037 000001  01228  01314              % 02977 RGTR--
+*I FD 210701006 200405037        0002955  01228  01314      % 02977 RGTR--
+210701006 Remich, Gare routièr         01228                % 02977 RGTR--
+210701008 Remich, Maatebierg    01229  01229                % 02977 RGTR--
+210701003 Remich, Caves St. Ma  01230  01230                % 02977 RGTR--
+210803006 Stadtbredimus, Wandm  01231  01231                % 02977 RGTR--
+210803005 Stadtbredimus, Vinsm  01232  01232                % 02977 RGTR--
+210803004 Stadtbredimus, Schou  01233  01233                % 02977 RGTR--
+210803001 Stadtbredimus, Dicks  01234  01234                % 02977 RGTR--
+210102002 Bous, Herdermillen    01236  01236                % 02977 RGTR--
+210102001 Bous, Enner dem Pavé  01236  01236                % 02977 RGTR--
+210102004 Bous, Kierch          01237  01237                % 02977 RGTR--
+210102003 Bous, Kapell          01237  01237                % 02977 RGTR--
+210104001 Rolling/Bous          01239  01239                % 02977 RGTR--
+210101001 Assel                 01240  01240                % 02977 RGTR--
+210904002 Waldbredimus, Kiirch  01244  01244                % 02977 RGTR--
+210904001 Waldbredimus, Hanner  01245  01245                % 02977 RGTR--
+210902001 Roedt                 01248  01248                % 02977 RGTR--
+210903001 Trintange, Trenteng   01249  01249                % 02977 RGTR--
+210901001 Ersange/Ierséng       01250  01250                % 02977 RGTR--
+200203004 Moutfort, Kiem        01252  01252                % 02977 RGTR--
+200203003 Moutfort, Kapell      01252  01252                % 02977 RGTR--
+200203001 Moutfort, Bombasch    01254  01254                % 02977 RGTR--
+200601007 Sandweiler, Koschter  01258  01258                % 02977 RGTR--
+200601010 Sandweiler, Schiltzp  01259  01259                % 02977 RGTR--
+200601005 Sandweiler, Kiirch    01259  01259                % 02977 RGTR--
+200601014 Sandweiler, Kapelleb  01300  01300                % 02977 RGTR--
+200601006 Sandweiler, Kontroll  01300  01300                % 02977 RGTR--
+200601015 Sandweiler, Scheedbë  01301  01301                % 02977 RGTR--
+200414009 Hamm, Ronndréisch     01304  01304                % 02977 RGTR--
+200406024 Cents, Cents-Hamm     01305  01305                % 02977 RGTR--
+200404030 Verlorenkost, Généra  01307  01307                % 02977 RGTR--
+200404001 Verlorenkost, Al Mol  01308 -01308                % 02977 RGTR--
+200405013 Centre, F.D. Rooseve  01311  01311                % 02977 RGTR--
+200405037 Luxembourg, rue Hein  01314                       % 02977 RGTR--
+*Z 02978 RGTR--                                             % 02978 RGTR--
+*L 160      210701006 200405037  01258  01344               % 02978 RGTR--
+*A ae 210701006 200405037 000001  01258  01344              % 02978 RGTR--
+*R 2 200405037 210701006 200405037  01258  01344            % 02978 RGTR--
+*G RGB 210701006 200405037  01258  01344                    % 02978 RGTR--
+*A VE 210701006 200405037 000001  01258  01344              % 02978 RGTR--
+*I FD 210701006 200405037        0002519  01258  01344      % 02978 RGTR--
+210701006 Remich, Gare routièr         01258                % 02978 RGTR--
+210701008 Remich, Maatebierg    01259  01259                % 02978 RGTR--
+210701003 Remich, Caves St. Ma  01300  01300                % 02978 RGTR--
+210803006 Stadtbredimus, Wandm  01301  01301                % 02978 RGTR--
+210803005 Stadtbredimus, Vinsm  01302  01302                % 02978 RGTR--
+210803004 Stadtbredimus, Schou  01303  01303                % 02978 RGTR--
+210803001 Stadtbredimus, Dicks  01304  01304                % 02978 RGTR--
+210102002 Bous, Herdermillen    01306  01306                % 02978 RGTR--
+210102001 Bous, Enner dem Pavé  01306  01306                % 02978 RGTR--
+210102004 Bous, Kierch          01307  01307                % 02978 RGTR--
+210102003 Bous, Kapell          01307  01307                % 02978 RGTR--
+210104001 Rolling/Bous          01309  01309                % 02978 RGTR--
+210101001 Assel                 01310  01310                % 02978 RGTR--
+210904002 Waldbredimus, Kiirch  01314  01314                % 02978 RGTR--
+210904001 Waldbredimus, Hanner  01315  01315                % 02978 RGTR--
+210902001 Roedt                 01318  01318                % 02978 RGTR--
+210903001 Trintange, Trenteng   01319  01319                % 02978 RGTR--
+210901001 Ersange/Ierséng       01320  01320                % 02978 RGTR--
+200203004 Moutfort, Kiem        01322  01322                % 02978 RGTR--
+200203003 Moutfort, Kapell      01322  01322                % 02978 RGTR--
+200203001 Moutfort, Bombasch    01324  01324                % 02978 RGTR--
+200601007 Sandweiler, Koschter  01328  01328                % 02978 RGTR--
+200601010 Sandweiler, Schiltzp  01329  01329                % 02978 RGTR--
+200601005 Sandweiler, Kiirch    01329  01329                % 02978 RGTR--
+200601014 Sandweiler, Kapelleb  01330  01330                % 02978 RGTR--
+200601006 Sandweiler, Kontroll  01330  01330                % 02978 RGTR--
+200601015 Sandweiler, Scheedbë  01331  01331                % 02978 RGTR--
+200414009 Hamm, Ronndréisch     01334  01334                % 02978 RGTR--
+200406024 Cents, Cents-Hamm     01335  01335                % 02978 RGTR--
+200404030 Verlorenkost, Généra  01337  01337                % 02978 RGTR--
+200404001 Verlorenkost, Al Mol  01338 -01338                % 02978 RGTR--
+200405013 Centre, F.D. Rooseve  01341  01341                % 02978 RGTR--
+200405037 Luxembourg, rue Hein  01344                       % 02978 RGTR--
+*Z 02979 RGTR--                                             % 02979 RGTR--
+*L 160      210701006 200405037  01330  01416               % 02979 RGTR--
+*A ae 210701006 200405037 000001  01330  01416              % 02979 RGTR--
+*A SS 210701006 200405037 000001  01330  01416              % 02979 RGTR--
+*R 2 200405037 210701006 200405037  01330  01416            % 02979 RGTR--
+*G RGB 210701006 200405037  01330  01416                    % 02979 RGTR--
+*A VE 210701006 200405037 000001  01330  01416              % 02979 RGTR--
+*I FD 210701006 200405037        0002744  01330  01416      % 02979 RGTR--
+210701006 Remich, Gare routièr         01330                % 02979 RGTR--
+210701008 Remich, Maatebierg    01331  01331                % 02979 RGTR--
+210701003 Remich, Caves St. Ma  01332  01332                % 02979 RGTR--
+210803006 Stadtbredimus, Wandm  01333  01333                % 02979 RGTR--
+210803005 Stadtbredimus, Vinsm  01334  01334                % 02979 RGTR--
+210803004 Stadtbredimus, Schou  01335  01335                % 02979 RGTR--
+210803001 Stadtbredimus, Dicks  01336  01336                % 02979 RGTR--
+210102002 Bous, Herdermillen    01338  01338                % 02979 RGTR--
+210102001 Bous, Enner dem Pavé  01338  01338                % 02979 RGTR--
+210102004 Bous, Kierch          01339  01339                % 02979 RGTR--
+210102003 Bous, Kapell          01339  01339                % 02979 RGTR--
+210104001 Rolling/Bous          01341  01341                % 02979 RGTR--
+210101001 Assel                 01342  01342                % 02979 RGTR--
+210904002 Waldbredimus, Kiirch  01346  01346                % 02979 RGTR--
+210904001 Waldbredimus, Hanner  01347  01347                % 02979 RGTR--
+210902001 Roedt                 01350  01350                % 02979 RGTR--
+210903001 Trintange, Trenteng   01351  01351                % 02979 RGTR--
+210901001 Ersange/Ierséng       01352  01352                % 02979 RGTR--
+200203004 Moutfort, Kiem        01354  01354                % 02979 RGTR--
+200203003 Moutfort, Kapell      01354  01354                % 02979 RGTR--
+200203001 Moutfort, Bombasch    01356  01356                % 02979 RGTR--
+200601007 Sandweiler, Koschter  01400  01400                % 02979 RGTR--
+200601010 Sandweiler, Schiltzp  01401  01401                % 02979 RGTR--
+200601005 Sandweiler, Kiirch    01401  01401                % 02979 RGTR--
+200601014 Sandweiler, Kapelleb  01402  01402                % 02979 RGTR--
+200601006 Sandweiler, Kontroll  01402  01402                % 02979 RGTR--
+200601015 Sandweiler, Scheedbë  01403  01403                % 02979 RGTR--
+200414009 Hamm, Ronndréisch     01406  01406                % 02979 RGTR--
+200406024 Cents, Cents-Hamm     01407  01407                % 02979 RGTR--
+200404030 Verlorenkost, Généra  01409  01409                % 02979 RGTR--
+200404001 Verlorenkost, Al Mol  01410 -01410                % 02979 RGTR--
+200405013 Centre, F.D. Rooseve  01413  01413                % 02979 RGTR--
+200405037 Luxembourg, rue Hein  01416                       % 02979 RGTR--
+*Z 02980 RGTR--                                             % 02980 RGTR--
+*L 160      210701006 200405037  01430  01516               % 02980 RGTR--
+*A ae 210701006 200405037 000001  01430  01516              % 02980 RGTR--
+*A CX 210701006 200405037 000001  01430  01516              % 02980 RGTR--
+*R 2 200405037 210701006 200405037  01430  01516            % 02980 RGTR--
+*G RGB 210701006 200405037  01430  01516                    % 02980 RGTR--
+*A VE 210701006 200405037 000001  01430  01516              % 02980 RGTR--
+*I FD 210701006 200405037        0002745  01430  01516      % 02980 RGTR--
+210701006 Remich, Gare routièr         01430                % 02980 RGTR--
+210701008 Remich, Maatebierg    01431  01431                % 02980 RGTR--
+210701003 Remich, Caves St. Ma  01432  01432                % 02980 RGTR--
+210803006 Stadtbredimus, Wandm  01433  01433                % 02980 RGTR--
+210803005 Stadtbredimus, Vinsm  01434  01434                % 02980 RGTR--
+210803004 Stadtbredimus, Schou  01435  01435                % 02980 RGTR--
+210803001 Stadtbredimus, Dicks  01436  01436                % 02980 RGTR--
+210102002 Bous, Herdermillen    01438  01438                % 02980 RGTR--
+210102001 Bous, Enner dem Pavé  01438  01438                % 02980 RGTR--
+210102004 Bous, Kierch          01439  01439                % 02980 RGTR--
+210102003 Bous, Kapell          01439  01439                % 02980 RGTR--
+210104001 Rolling/Bous          01441  01441                % 02980 RGTR--
+210101001 Assel                 01442  01442                % 02980 RGTR--
+210904002 Waldbredimus, Kiirch  01446  01446                % 02980 RGTR--
+210904001 Waldbredimus, Hanner  01447  01447                % 02980 RGTR--
+210902001 Roedt                 01450  01450                % 02980 RGTR--
+210903001 Trintange, Trenteng   01451  01451                % 02980 RGTR--
+210901001 Ersange/Ierséng       01452  01452                % 02980 RGTR--
+200203004 Moutfort, Kiem        01454  01454                % 02980 RGTR--
+200203003 Moutfort, Kapell      01454  01454                % 02980 RGTR--
+200203001 Moutfort, Bombasch    01456  01456                % 02980 RGTR--
+200601007 Sandweiler, Koschter  01500  01500                % 02980 RGTR--
+200601010 Sandweiler, Schiltzp  01501  01501                % 02980 RGTR--
+200601005 Sandweiler, Kiirch    01501  01501                % 02980 RGTR--
+200601014 Sandweiler, Kapelleb  01502  01502                % 02980 RGTR--
+200601006 Sandweiler, Kontroll  01502  01502                % 02980 RGTR--
+200601015 Sandweiler, Scheedbë  01503  01503                % 02980 RGTR--
+200414009 Hamm, Ronndréisch     01506  01506                % 02980 RGTR--
+200406024 Cents, Cents-Hamm     01507  01507                % 02980 RGTR--
+200404030 Verlorenkost, Généra  01509  01509                % 02980 RGTR--
+200404001 Verlorenkost, Al Mol  01510 -01510                % 02980 RGTR--
+200405013 Centre, F.D. Rooseve  01513  01513                % 02980 RGTR--
+200405037 Luxembourg, rue Hein  01516                       % 02980 RGTR--
+*Z 02981 RGTR--                                             % 02981 RGTR--
+*L 160      210701006 200405037  01528  01614               % 02981 RGTR--
+*A ae 210701006 200405037 000001  01528  01614              % 02981 RGTR--
+*R 2 200405037 210701006 200405037  01528  01614            % 02981 RGTR--
+*G RGB 210701006 200405037  01528  01614                    % 02981 RGTR--
+*A VE 210701006 200405037 000001  01528  01614              % 02981 RGTR--
+*I FD 210701006 200405037        0002956  01528  01614      % 02981 RGTR--
+210701006 Remich, Gare routièr         01528                % 02981 RGTR--
+210701008 Remich, Maatebierg    01529  01529                % 02981 RGTR--
+210701003 Remich, Caves St. Ma  01530  01530                % 02981 RGTR--
+210803006 Stadtbredimus, Wandm  01531  01531                % 02981 RGTR--
+210803005 Stadtbredimus, Vinsm  01532  01532                % 02981 RGTR--
+210803004 Stadtbredimus, Schou  01533  01533                % 02981 RGTR--
+210803001 Stadtbredimus, Dicks  01534  01534                % 02981 RGTR--
+210102002 Bous, Herdermillen    01536  01536                % 02981 RGTR--
+210102001 Bous, Enner dem Pavé  01536  01536                % 02981 RGTR--
+210102004 Bous, Kierch          01537  01537                % 02981 RGTR--
+210102003 Bous, Kapell          01537  01537                % 02981 RGTR--
+210104001 Rolling/Bous          01539  01539                % 02981 RGTR--
+210101001 Assel                 01540  01540                % 02981 RGTR--
+210904002 Waldbredimus, Kiirch  01544  01544                % 02981 RGTR--
+210904001 Waldbredimus, Hanner  01545  01545                % 02981 RGTR--
+210902001 Roedt                 01548  01548                % 02981 RGTR--
+210903001 Trintange, Trenteng   01549  01549                % 02981 RGTR--
+210901001 Ersange/Ierséng       01550  01550                % 02981 RGTR--
+200203004 Moutfort, Kiem        01552  01552                % 02981 RGTR--
+200203003 Moutfort, Kapell      01552  01552                % 02981 RGTR--
+200203001 Moutfort, Bombasch    01554  01554                % 02981 RGTR--
+200601007 Sandweiler, Koschter  01558  01558                % 02981 RGTR--
+200601010 Sandweiler, Schiltzp  01559  01559                % 02981 RGTR--
+200601005 Sandweiler, Kiirch    01559  01559                % 02981 RGTR--
+200601014 Sandweiler, Kapelleb  01600  01600                % 02981 RGTR--
+200601006 Sandweiler, Kontroll  01600  01600                % 02981 RGTR--
+200601015 Sandweiler, Scheedbë  01601  01601                % 02981 RGTR--
+200414009 Hamm, Ronndréisch     01604  01604                % 02981 RGTR--
+200406024 Cents, Cents-Hamm     01605  01605                % 02981 RGTR--
+200404030 Verlorenkost, Généra  01607  01607                % 02981 RGTR--
+200404001 Verlorenkost, Al Mol  01608 -01608                % 02981 RGTR--
+200405013 Centre, F.D. Rooseve  01611  01611                % 02981 RGTR--
+200405037 Luxembourg, rue Hein  01614                       % 02981 RGTR--
+*Z 02982 RGTR--                                             % 02982 RGTR--
+*L 160      210701006 200405037  01828  01914               % 02982 RGTR--
+*A ae 210701006 200405037 000001  01828  01914              % 02982 RGTR--
+*R 2 200405037 210701006 200405037  01828  01914            % 02982 RGTR--
+*G RGB 210701006 200405037  01828  01914                    % 02982 RGTR--
+*A VE 210701006 200405037 000001  01828  01914              % 02982 RGTR--
+*I FD 210701006 200405037        0002957  01828  01914      % 02982 RGTR--
+210701006 Remich, Gare routièr         01828                % 02982 RGTR--
+210701008 Remich, Maatebierg    01829  01829                % 02982 RGTR--
+210701003 Remich, Caves St. Ma  01830  01830                % 02982 RGTR--
+210803006 Stadtbredimus, Wandm  01831  01831                % 02982 RGTR--
+210803005 Stadtbredimus, Vinsm  01832  01832                % 02982 RGTR--
+210803004 Stadtbredimus, Schou  01833  01833                % 02982 RGTR--
+210803001 Stadtbredimus, Dicks  01834  01834                % 02982 RGTR--
+210102002 Bous, Herdermillen    01836  01836                % 02982 RGTR--
+210102001 Bous, Enner dem Pavé  01836  01836                % 02982 RGTR--
+210102004 Bous, Kierch          01837  01837                % 02982 RGTR--
+210102003 Bous, Kapell          01837  01837                % 02982 RGTR--
+210104001 Rolling/Bous          01839  01839                % 02982 RGTR--
+210101001 Assel                 01840  01840                % 02982 RGTR--
+210904002 Waldbredimus, Kiirch  01844  01844                % 02982 RGTR--
+210904001 Waldbredimus, Hanner  01845  01845                % 02982 RGTR--
+210902001 Roedt                 01848  01848                % 02982 RGTR--
+210903001 Trintange, Trenteng   01849  01849                % 02982 RGTR--
+210901001 Ersange/Ierséng       01850  01850                % 02982 RGTR--
+200203004 Moutfort, Kiem        01852  01852                % 02982 RGTR--
+200203003 Moutfort, Kapell      01852  01852                % 02982 RGTR--
+200203001 Moutfort, Bombasch    01854  01854                % 02982 RGTR--
+200601007 Sandweiler, Koschter  01858  01858                % 02982 RGTR--
+200601010 Sandweiler, Schiltzp  01859  01859                % 02982 RGTR--
+200601005 Sandweiler, Kiirch    01859  01859                % 02982 RGTR--
+200601014 Sandweiler, Kapelleb  01900  01900                % 02982 RGTR--
+200601006 Sandweiler, Kontroll  01900  01900                % 02982 RGTR--
+200601015 Sandweiler, Scheedbë  01901  01901                % 02982 RGTR--
+200414009 Hamm, Ronndréisch     01904  01904                % 02982 RGTR--
+200406024 Cents, Cents-Hamm     01905  01905                % 02982 RGTR--
+200404030 Verlorenkost, Généra  01907  01907                % 02982 RGTR--
+200404001 Verlorenkost, Al Mol  01908 -01908                % 02982 RGTR--
+200405013 Centre, F.D. Rooseve  01911  01911                % 02982 RGTR--
+200405037 Luxembourg, rue Hein  01914                       % 02982 RGTR--
+*Z 02983 RGTR--                                             % 02983 RGTR--
+*L 160      210701006 200405037  01928  02014               % 02983 RGTR--
+*A ae 210701006 200405037 000001  01928  02014              % 02983 RGTR--
+*R 2 200405037 210701006 200405037  01928  02014            % 02983 RGTR--
+*G RGB 210701006 200405037  01928  02014                    % 02983 RGTR--
+*A VE 210701006 200405037 000001  01928  02014              % 02983 RGTR--
+*I FD 210701006 200405037        0001383  01928  02014      % 02983 RGTR--
+210701006 Remich, Gare routièr         01928                % 02983 RGTR--
+210701008 Remich, Maatebierg    01929  01929                % 02983 RGTR--
+210701003 Remich, Caves St. Ma  01930  01930                % 02983 RGTR--
+210803006 Stadtbredimus, Wandm  01931  01931                % 02983 RGTR--
+210803005 Stadtbredimus, Vinsm  01932  01932                % 02983 RGTR--
+210803004 Stadtbredimus, Schou  01933  01933                % 02983 RGTR--
+210803001 Stadtbredimus, Dicks  01934  01934                % 02983 RGTR--
+210102002 Bous, Herdermillen    01936  01936                % 02983 RGTR--
+210102001 Bous, Enner dem Pavé  01936  01936                % 02983 RGTR--
+210102004 Bous, Kierch          01937  01937                % 02983 RGTR--
+210102003 Bous, Kapell          01937  01937                % 02983 RGTR--
+210104001 Rolling/Bous          01939  01939                % 02983 RGTR--
+210101001 Assel                 01940  01940                % 02983 RGTR--
+210904002 Waldbredimus, Kiirch  01944  01944                % 02983 RGTR--
+210904001 Waldbredimus, Hanner  01945  01945                % 02983 RGTR--
+210902001 Roedt                 01948  01948                % 02983 RGTR--
+210903001 Trintange, Trenteng   01949  01949                % 02983 RGTR--
+210901001 Ersange/Ierséng       01950  01950                % 02983 RGTR--
+200203004 Moutfort, Kiem        01952  01952                % 02983 RGTR--
+200203003 Moutfort, Kapell      01952  01952                % 02983 RGTR--
+200203001 Moutfort, Bombasch    01954  01954                % 02983 RGTR--
+200601007 Sandweiler, Koschter  01958  01958                % 02983 RGTR--
+200601010 Sandweiler, Schiltzp  01959  01959                % 02983 RGTR--
+200601005 Sandweiler, Kiirch    01959  01959                % 02983 RGTR--
+200601014 Sandweiler, Kapelleb  02000  02000                % 02983 RGTR--
+200601006 Sandweiler, Kontroll  02000  02000                % 02983 RGTR--
+200601015 Sandweiler, Scheedbë  02001  02001                % 02983 RGTR--
+200414009 Hamm, Ronndréisch     02004  02004                % 02983 RGTR--
+200406024 Cents, Cents-Hamm     02005  02005                % 02983 RGTR--
+200404030 Verlorenkost, Généra  02007  02007                % 02983 RGTR--
+200404001 Verlorenkost, Al Mol  02008 -02008                % 02983 RGTR--
+200405013 Centre, F.D. Rooseve  02011  02011                % 02983 RGTR--
+200405037 Luxembourg, rue Hein  02014                       % 02983 RGTR--
+*Z 02984 RGTR--                                             % 02984 RGTR--
+*L 160      210701006 200405037  02024  02110               % 02984 RGTR--
+*A ae 210701006 200405037 000001  02024  02110              % 02984 RGTR--
+*R 2 200405037 210701006 200405037  02024  02110            % 02984 RGTR--
+*G RGB 210701006 200405037  02024  02110                    % 02984 RGTR--
+*A VE 210701006 200405037 000001  02024  02110              % 02984 RGTR--
+*I FD 210701006 200405037        0002958  02024  02110      % 02984 RGTR--
+210701006 Remich, Gare routièr         02024                % 02984 RGTR--
+210701008 Remich, Maatebierg    02025  02025                % 02984 RGTR--
+210701003 Remich, Caves St. Ma  02026  02026                % 02984 RGTR--
+210803006 Stadtbredimus, Wandm  02027  02027                % 02984 RGTR--
+210803005 Stadtbredimus, Vinsm  02028  02028                % 02984 RGTR--
+210803004 Stadtbredimus, Schou  02029  02029                % 02984 RGTR--
+210803001 Stadtbredimus, Dicks  02030  02030                % 02984 RGTR--
+210102002 Bous, Herdermillen    02032  02032                % 02984 RGTR--
+210102001 Bous, Enner dem Pavé  02032  02032                % 02984 RGTR--
+210102004 Bous, Kierch          02033  02033                % 02984 RGTR--
+210102003 Bous, Kapell          02033  02033                % 02984 RGTR--
+210104001 Rolling/Bous          02035  02035                % 02984 RGTR--
+210101001 Assel                 02036  02036                % 02984 RGTR--
+210904002 Waldbredimus, Kiirch  02040  02040                % 02984 RGTR--
+210904001 Waldbredimus, Hanner  02041  02041                % 02984 RGTR--
+210902001 Roedt                 02044  02044                % 02984 RGTR--
+210903001 Trintange, Trenteng   02045  02045                % 02984 RGTR--
+210901001 Ersange/Ierséng       02046  02046                % 02984 RGTR--
+200203004 Moutfort, Kiem        02048  02048                % 02984 RGTR--
+200203003 Moutfort, Kapell      02048  02048                % 02984 RGTR--
+200203001 Moutfort, Bombasch    02050  02050                % 02984 RGTR--
+200601007 Sandweiler, Koschter  02054  02054                % 02984 RGTR--
+200601010 Sandweiler, Schiltzp  02055  02055                % 02984 RGTR--
+200601005 Sandweiler, Kiirch    02055  02055                % 02984 RGTR--
+200601014 Sandweiler, Kapelleb  02056  02056                % 02984 RGTR--
+200601006 Sandweiler, Kontroll  02056  02056                % 02984 RGTR--
+200601015 Sandweiler, Scheedbë  02057  02057                % 02984 RGTR--
+200414009 Hamm, Ronndréisch     02100  02100                % 02984 RGTR--
+200406024 Cents, Cents-Hamm     02101  02101                % 02984 RGTR--
+200404030 Verlorenkost, Généra  02103  02103                % 02984 RGTR--
+200404001 Verlorenkost, Al Mol  02104 -02104                % 02984 RGTR--
+200405013 Centre, F.D. Rooseve  02107  02107                % 02984 RGTR--
+200405037 Luxembourg, rue Hein  02110                       % 02984 RGTR--
+*Z 02985 RGTR--                                             % 02985 RGTR--
+*L 160      210701006 200405037  02124  02210               % 02985 RGTR--
+*A ae 210701006 200405037 000001  02124  02210              % 02985 RGTR--
+*R 2 200405037 210701006 200405037  02124  02210            % 02985 RGTR--
+*G RGB 210701006 200405037  02124  02210                    % 02985 RGTR--
+*A VE 210701006 200405037 000001  02124  02210              % 02985 RGTR--
+*I FD 210701006 200405037        0002959  02124  02210      % 02985 RGTR--
+210701006 Remich, Gare routièr         02124                % 02985 RGTR--
+210701008 Remich, Maatebierg    02125  02125                % 02985 RGTR--
+210701003 Remich, Caves St. Ma  02126  02126                % 02985 RGTR--
+210803006 Stadtbredimus, Wandm  02127  02127                % 02985 RGTR--
+210803005 Stadtbredimus, Vinsm  02128  02128                % 02985 RGTR--
+210803004 Stadtbredimus, Schou  02129  02129                % 02985 RGTR--
+210803001 Stadtbredimus, Dicks  02130  02130                % 02985 RGTR--
+210102002 Bous, Herdermillen    02132  02132                % 02985 RGTR--
+210102001 Bous, Enner dem Pavé  02132  02132                % 02985 RGTR--
+210102004 Bous, Kierch          02133  02133                % 02985 RGTR--
+210102003 Bous, Kapell          02133  02133                % 02985 RGTR--
+210104001 Rolling/Bous          02135  02135                % 02985 RGTR--
+210101001 Assel                 02136  02136                % 02985 RGTR--
+210904002 Waldbredimus, Kiirch  02140  02140                % 02985 RGTR--
+210904001 Waldbredimus, Hanner  02141  02141                % 02985 RGTR--
+210902001 Roedt                 02144  02144                % 02985 RGTR--
+210903001 Trintange, Trenteng   02145  02145                % 02985 RGTR--
+210901001 Ersange/Ierséng       02146  02146                % 02985 RGTR--
+200203004 Moutfort, Kiem        02148  02148                % 02985 RGTR--
+200203003 Moutfort, Kapell      02148  02148                % 02985 RGTR--
+200203001 Moutfort, Bombasch    02150  02150                % 02985 RGTR--
+200601007 Sandweiler, Koschter  02154  02154                % 02985 RGTR--
+200601010 Sandweiler, Schiltzp  02155  02155                % 02985 RGTR--
+200601005 Sandweiler, Kiirch    02155  02155                % 02985 RGTR--
+200601014 Sandweiler, Kapelleb  02156  02156                % 02985 RGTR--
+200601006 Sandweiler, Kontroll  02156  02156                % 02985 RGTR--
+200601015 Sandweiler, Scheedbë  02157  02157                % 02985 RGTR--
+200414009 Hamm, Ronndréisch     02200  02200                % 02985 RGTR--
+200406024 Cents, Cents-Hamm     02201  02201                % 02985 RGTR--
+200404030 Verlorenkost, Généra  02203  02203                % 02985 RGTR--
+200404001 Verlorenkost, Al Mol  02204 -02204                % 02985 RGTR--
+200405013 Centre, F.D. Rooseve  02207  02207                % 02985 RGTR--
+200405037 Luxembourg, rue Hein  02210                       % 02985 RGTR--
+*Z 02986 RGTR--                                             % 02986 RGTR--
+*L 160      210701006 200405037  02228  02314               % 02986 RGTR--
+*A ae 210701006 200405037 000001  02228  02314              % 02986 RGTR--
+*R 2 200405037 210701006 200405037  02228  02314            % 02986 RGTR--
+*G RGB 210701006 200405037  02228  02314                    % 02986 RGTR--
+*A VE 210701006 200405037 000001  02228  02314              % 02986 RGTR--
+*I FD 210701006 200405037        0002960  02228  02314      % 02986 RGTR--
+210701006 Remich, Gare routièr         02228                % 02986 RGTR--
+210701008 Remich, Maatebierg    02229  02229                % 02986 RGTR--
+210701003 Remich, Caves St. Ma  02230  02230                % 02986 RGTR--
+210803006 Stadtbredimus, Wandm  02231  02231                % 02986 RGTR--
+210803005 Stadtbredimus, Vinsm  02232  02232                % 02986 RGTR--
+210803004 Stadtbredimus, Schou  02233  02233                % 02986 RGTR--
+210803001 Stadtbredimus, Dicks  02234  02234                % 02986 RGTR--
+210102002 Bous, Herdermillen    02236  02236                % 02986 RGTR--
+210102001 Bous, Enner dem Pavé  02236  02236                % 02986 RGTR--
+210102004 Bous, Kierch          02237  02237                % 02986 RGTR--
+210102003 Bous, Kapell          02237  02237                % 02986 RGTR--
+210104001 Rolling/Bous          02239  02239                % 02986 RGTR--
+210101001 Assel                 02240  02240                % 02986 RGTR--
+210904002 Waldbredimus, Kiirch  02244  02244                % 02986 RGTR--
+210904001 Waldbredimus, Hanner  02245  02245                % 02986 RGTR--
+210902001 Roedt                 02248  02248                % 02986 RGTR--
+210903001 Trintange, Trenteng   02249  02249                % 02986 RGTR--
+210901001 Ersange/Ierséng       02250  02250                % 02986 RGTR--
+200203004 Moutfort, Kiem        02252  02252                % 02986 RGTR--
+200203003 Moutfort, Kapell      02252  02252                % 02986 RGTR--
+200203001 Moutfort, Bombasch    02254  02254                % 02986 RGTR--
+200601007 Sandweiler, Koschter  02258  02258                % 02986 RGTR--
+200601010 Sandweiler, Schiltzp  02259  02259                % 02986 RGTR--
+200601005 Sandweiler, Kiirch    02259  02259                % 02986 RGTR--
+200601014 Sandweiler, Kapelleb  02300  02300                % 02986 RGTR--
+200601006 Sandweiler, Kontroll  02300  02300                % 02986 RGTR--
+200601015 Sandweiler, Scheedbë  02301  02301                % 02986 RGTR--
+200414009 Hamm, Ronndréisch     02304  02304                % 02986 RGTR--
+200406024 Cents, Cents-Hamm     02305  02305                % 02986 RGTR--
+200404030 Verlorenkost, Généra  02307  02307                % 02986 RGTR--
+200404001 Verlorenkost, Al Mol  02308 -02308                % 02986 RGTR--
+200405013 Centre, F.D. Rooseve  02311  02311                % 02986 RGTR--
+200405037 Luxembourg, rue Hein  02314                       % 02986 RGTR--
+*Z 02987 RGTR--                                             % 02987 RGTR--
+*L 160      210701006 200405037  00801  00847               % 02987 RGTR--
+*A ae 210701006 200405037 000003  00801  00847              % 02987 RGTR--
+*R 2 200405037 210701006 200405037  00801  00847            % 02987 RGTR--
+*G RGB 210701006 200405037  00801  00847                    % 02987 RGTR--
+*A VE 210701006 200405037 000003  00801  00847              % 02987 RGTR--
+*I FD 210701006 200405037        0002090  00801  00847      % 02987 RGTR--
+210701006 Remich, Gare routièr         00801                % 02987 RGTR--
+210701008 Remich, Maatebierg    00802  00802                % 02987 RGTR--
+210701003 Remich, Caves St. Ma  00803  00803                % 02987 RGTR--
+210803006 Stadtbredimus, Wandm  00804  00804                % 02987 RGTR--
+210803005 Stadtbredimus, Vinsm  00805  00805                % 02987 RGTR--
+210803004 Stadtbredimus, Schou  00806  00806                % 02987 RGTR--
+210803001 Stadtbredimus, Dicks  00807  00807                % 02987 RGTR--
+210102002 Bous, Herdermillen    00809  00809                % 02987 RGTR--
+210102001 Bous, Enner dem Pavé  00809  00809                % 02987 RGTR--
+210102004 Bous, Kierch          00810  00810                % 02987 RGTR--
+210102003 Bous, Kapell          00810  00810                % 02987 RGTR--
+210104001 Rolling/Bous          00812  00812                % 02987 RGTR--
+210101001 Assel                 00813  00813                % 02987 RGTR--
+210904002 Waldbredimus, Kiirch  00817  00817                % 02987 RGTR--
+210904001 Waldbredimus, Hanner  00818  00818                % 02987 RGTR--
+210902001 Roedt                 00821  00821                % 02987 RGTR--
+210903001 Trintange, Trenteng   00822  00822                % 02987 RGTR--
+210901001 Ersange/Ierséng       00823  00823                % 02987 RGTR--
+200203004 Moutfort, Kiem        00825  00825                % 02987 RGTR--
+200203003 Moutfort, Kapell      00825  00825                % 02987 RGTR--
+200203001 Moutfort, Bombasch    00827  00827                % 02987 RGTR--
+200601007 Sandweiler, Koschter  00831  00831                % 02987 RGTR--
+200601010 Sandweiler, Schiltzp  00832  00832                % 02987 RGTR--
+200601005 Sandweiler, Kiirch    00832  00832                % 02987 RGTR--
+200601014 Sandweiler, Kapelleb  00833  00833                % 02987 RGTR--
+200601006 Sandweiler, Kontroll  00833  00833                % 02987 RGTR--
+200601015 Sandweiler, Scheedbë  00834  00834                % 02987 RGTR--
+200414009 Hamm, Ronndréisch     00837  00837                % 02987 RGTR--
+200406024 Cents, Cents-Hamm     00838  00838                % 02987 RGTR--
+200404030 Verlorenkost, Généra  00840  00840                % 02987 RGTR--
+200404001 Verlorenkost, Al Mol  00841 -00841                % 02987 RGTR--
+200405013 Centre, F.D. Rooseve  00844  00844                % 02987 RGTR--
+200405037 Luxembourg, rue Hein  00847                       % 02987 RGTR--
+*Z 02988 RGTR--                                             % 02988 RGTR--
+*L 160      210701006 200405037  01001  01047               % 02988 RGTR--
+*A ae 210701006 200405037 000003  01001  01047              % 02988 RGTR--
+*R 2 200405037 210701006 200405037  01001  01047            % 02988 RGTR--
+*G RGB 210701006 200405037  01001  01047                    % 02988 RGTR--
+*A VE 210701006 200405037 000003  01001  01047              % 02988 RGTR--
+*I FD 210701006 200405037        0002108  01001  01047      % 02988 RGTR--
+210701006 Remich, Gare routièr         01001                % 02988 RGTR--
+210701008 Remich, Maatebierg    01002  01002                % 02988 RGTR--
+210701003 Remich, Caves St. Ma  01003  01003                % 02988 RGTR--
+210803006 Stadtbredimus, Wandm  01004  01004                % 02988 RGTR--
+210803005 Stadtbredimus, Vinsm  01005  01005                % 02988 RGTR--
+210803004 Stadtbredimus, Schou  01006  01006                % 02988 RGTR--
+210803001 Stadtbredimus, Dicks  01007  01007                % 02988 RGTR--
+210102002 Bous, Herdermillen    01009  01009                % 02988 RGTR--
+210102001 Bous, Enner dem Pavé  01009  01009                % 02988 RGTR--
+210102004 Bous, Kierch          01010  01010                % 02988 RGTR--
+210102003 Bous, Kapell          01010  01010                % 02988 RGTR--
+210104001 Rolling/Bous          01012  01012                % 02988 RGTR--
+210101001 Assel                 01013  01013                % 02988 RGTR--
+210904002 Waldbredimus, Kiirch  01017  01017                % 02988 RGTR--
+210904001 Waldbredimus, Hanner  01018  01018                % 02988 RGTR--
+210902001 Roedt                 01021  01021                % 02988 RGTR--
+210903001 Trintange, Trenteng   01022  01022                % 02988 RGTR--
+210901001 Ersange/Ierséng       01023  01023                % 02988 RGTR--
+200203004 Moutfort, Kiem        01025  01025                % 02988 RGTR--
+200203003 Moutfort, Kapell      01025  01025                % 02988 RGTR--
+200203001 Moutfort, Bombasch    01027  01027                % 02988 RGTR--
+200601007 Sandweiler, Koschter  01031  01031                % 02988 RGTR--
+200601010 Sandweiler, Schiltzp  01032  01032                % 02988 RGTR--
+200601005 Sandweiler, Kiirch    01032  01032                % 02988 RGTR--
+200601014 Sandweiler, Kapelleb  01033  01033                % 02988 RGTR--
+200601006 Sandweiler, Kontroll  01033  01033                % 02988 RGTR--
+200601015 Sandweiler, Scheedbë  01034  01034                % 02988 RGTR--
+200414009 Hamm, Ronndréisch     01037  01037                % 02988 RGTR--
+200406024 Cents, Cents-Hamm     01038  01038                % 02988 RGTR--
+200404030 Verlorenkost, Généra  01040  01040                % 02988 RGTR--
+200404001 Verlorenkost, Al Mol  01041 -01041                % 02988 RGTR--
+200405013 Centre, F.D. Rooseve  01044  01044                % 02988 RGTR--
+200405037 Luxembourg, rue Hein  01047                       % 02988 RGTR--
+*Z 02989 RGTR--                                             % 02989 RGTR--
+*L 160      210701006 200405037  01201  01247               % 02989 RGTR--
+*A ae 210701006 200405037 000003  01201  01247              % 02989 RGTR--
+*R 2 200405037 210701006 200405037  01201  01247            % 02989 RGTR--
+*G RGB 210701006 200405037  01201  01247                    % 02989 RGTR--
+*A VE 210701006 200405037 000003  01201  01247              % 02989 RGTR--
+*I FD 210701006 200405037        0002113  01201  01247      % 02989 RGTR--
+210701006 Remich, Gare routièr         01201                % 02989 RGTR--
+210701008 Remich, Maatebierg    01202  01202                % 02989 RGTR--
+210701003 Remich, Caves St. Ma  01203  01203                % 02989 RGTR--
+210803006 Stadtbredimus, Wandm  01204  01204                % 02989 RGTR--
+210803005 Stadtbredimus, Vinsm  01205  01205                % 02989 RGTR--
+210803004 Stadtbredimus, Schou  01206  01206                % 02989 RGTR--
+210803001 Stadtbredimus, Dicks  01207  01207                % 02989 RGTR--
+210102002 Bous, Herdermillen    01209  01209                % 02989 RGTR--
+210102001 Bous, Enner dem Pavé  01209  01209                % 02989 RGTR--
+210102004 Bous, Kierch          01210  01210                % 02989 RGTR--
+210102003 Bous, Kapell          01210  01210                % 02989 RGTR--
+210104001 Rolling/Bous          01212  01212                % 02989 RGTR--
+210101001 Assel                 01213  01213                % 02989 RGTR--
+210904002 Waldbredimus, Kiirch  01217  01217                % 02989 RGTR--
+210904001 Waldbredimus, Hanner  01218  01218                % 02989 RGTR--
+210902001 Roedt                 01221  01221                % 02989 RGTR--
+210903001 Trintange, Trenteng   01222  01222                % 02989 RGTR--
+210901001 Ersange/Ierséng       01223  01223                % 02989 RGTR--
+200203004 Moutfort, Kiem        01225  01225                % 02989 RGTR--
+200203003 Moutfort, Kapell      01225  01225                % 02989 RGTR--
+200203001 Moutfort, Bombasch    01227  01227                % 02989 RGTR--
+200601007 Sandweiler, Koschter  01231  01231                % 02989 RGTR--
+200601010 Sandweiler, Schiltzp  01232  01232                % 02989 RGTR--
+200601005 Sandweiler, Kiirch    01232  01232                % 02989 RGTR--
+200601014 Sandweiler, Kapelleb  01233  01233                % 02989 RGTR--
+200601006 Sandweiler, Kontroll  01233  01233                % 02989 RGTR--
+200601015 Sandweiler, Scheedbë  01234  01234                % 02989 RGTR--
+200414009 Hamm, Ronndréisch     01237  01237                % 02989 RGTR--
+200406024 Cents, Cents-Hamm     01238  01238                % 02989 RGTR--
+200404030 Verlorenkost, Généra  01240  01240                % 02989 RGTR--
+200404001 Verlorenkost, Al Mol  01241 -01241                % 02989 RGTR--
+200405013 Centre, F.D. Rooseve  01244  01244                % 02989 RGTR--
+200405037 Luxembourg, rue Hein  01247                       % 02989 RGTR--
+*Z 02990 RGTR--                                             % 02990 RGTR--
+*L 160      210701006 200405037  01401  01447               % 02990 RGTR--
+*A ae 210701006 200405037 000003  01401  01447              % 02990 RGTR--
+*R 2 200405037 210701006 200405037  01401  01447            % 02990 RGTR--
+*G RGB 210701006 200405037  01401  01447                    % 02990 RGTR--
+*A VE 210701006 200405037 000003  01401  01447              % 02990 RGTR--
+*I FD 210701006 200405037        0002117  01401  01447      % 02990 RGTR--
+210701006 Remich, Gare routièr         01401                % 02990 RGTR--
+210701008 Remich, Maatebierg    01402  01402                % 02990 RGTR--
+210701003 Remich, Caves St. Ma  01403  01403                % 02990 RGTR--
+210803006 Stadtbredimus, Wandm  01404  01404                % 02990 RGTR--
+210803005 Stadtbredimus, Vinsm  01405  01405                % 02990 RGTR--
+210803004 Stadtbredimus, Schou  01406  01406                % 02990 RGTR--
+210803001 Stadtbredimus, Dicks  01407  01407                % 02990 RGTR--
+210102002 Bous, Herdermillen    01409  01409                % 02990 RGTR--
+210102001 Bous, Enner dem Pavé  01409  01409                % 02990 RGTR--
+210102004 Bous, Kierch          01410  01410                % 02990 RGTR--
+210102003 Bous, Kapell          01410  01410                % 02990 RGTR--
+210104001 Rolling/Bous          01412  01412                % 02990 RGTR--
+210101001 Assel                 01413  01413                % 02990 RGTR--
+210904002 Waldbredimus, Kiirch  01417  01417                % 02990 RGTR--
+210904001 Waldbredimus, Hanner  01418  01418                % 02990 RGTR--
+210902001 Roedt                 01421  01421                % 02990 RGTR--
+210903001 Trintange, Trenteng   01422  01422                % 02990 RGTR--
+210901001 Ersange/Ierséng       01423  01423                % 02990 RGTR--
+200203004 Moutfort, Kiem        01425  01425                % 02990 RGTR--
+200203003 Moutfort, Kapell      01425  01425                % 02990 RGTR--
+200203001 Moutfort, Bombasch    01427  01427                % 02990 RGTR--
+200601007 Sandweiler, Koschter  01431  01431                % 02990 RGTR--
+200601010 Sandweiler, Schiltzp  01432  01432                % 02990 RGTR--
+200601005 Sandweiler, Kiirch    01432  01432                % 02990 RGTR--
+200601014 Sandweiler, Kapelleb  01433  01433                % 02990 RGTR--
+200601006 Sandweiler, Kontroll  01433  01433                % 02990 RGTR--
+200601015 Sandweiler, Scheedbë  01434  01434                % 02990 RGTR--
+200414009 Hamm, Ronndréisch     01437  01437                % 02990 RGTR--
+200406024 Cents, Cents-Hamm     01438  01438                % 02990 RGTR--
+200404030 Verlorenkost, Généra  01440  01440                % 02990 RGTR--
+200404001 Verlorenkost, Al Mol  01441 -01441                % 02990 RGTR--
+200405013 Centre, F.D. Rooseve  01444  01444                % 02990 RGTR--
+200405037 Luxembourg, rue Hein  01447                       % 02990 RGTR--
+*Z 02991 RGTR--                                             % 02991 RGTR--
+*L 160      210701006 200405037  01601  01647               % 02991 RGTR--
+*A ae 210701006 200405037 000003  01601  01647              % 02991 RGTR--
+*R 2 200405037 210701006 200405037  01601  01647            % 02991 RGTR--
+*G RGB 210701006 200405037  01601  01647                    % 02991 RGTR--
+*A VE 210701006 200405037 000003  01601  01647              % 02991 RGTR--
+*I FD 210701006 200405037        0002093  01601  01647      % 02991 RGTR--
+210701006 Remich, Gare routièr         01601                % 02991 RGTR--
+210701008 Remich, Maatebierg    01602  01602                % 02991 RGTR--
+210701003 Remich, Caves St. Ma  01603  01603                % 02991 RGTR--
+210803006 Stadtbredimus, Wandm  01604  01604                % 02991 RGTR--
+210803005 Stadtbredimus, Vinsm  01605  01605                % 02991 RGTR--
+210803004 Stadtbredimus, Schou  01606  01606                % 02991 RGTR--
+210803001 Stadtbredimus, Dicks  01607  01607                % 02991 RGTR--
+210102002 Bous, Herdermillen    01609  01609                % 02991 RGTR--
+210102001 Bous, Enner dem Pavé  01609  01609                % 02991 RGTR--
+210102004 Bous, Kierch          01610  01610                % 02991 RGTR--
+210102003 Bous, Kapell          01610  01610                % 02991 RGTR--
+210104001 Rolling/Bous          01612  01612                % 02991 RGTR--
+210101001 Assel                 01613  01613                % 02991 RGTR--
+210904002 Waldbredimus, Kiirch  01617  01617                % 02991 RGTR--
+210904001 Waldbredimus, Hanner  01618  01618                % 02991 RGTR--
+210902001 Roedt                 01621  01621                % 02991 RGTR--
+210903001 Trintange, Trenteng   01622  01622                % 02991 RGTR--
+210901001 Ersange/Ierséng       01623  01623                % 02991 RGTR--
+200203004 Moutfort, Kiem        01625  01625                % 02991 RGTR--
+200203003 Moutfort, Kapell      01625  01625                % 02991 RGTR--
+200203001 Moutfort, Bombasch    01627  01627                % 02991 RGTR--
+200601007 Sandweiler, Koschter  01631  01631                % 02991 RGTR--
+200601010 Sandweiler, Schiltzp  01632  01632                % 02991 RGTR--
+200601005 Sandweiler, Kiirch    01632  01632                % 02991 RGTR--
+200601014 Sandweiler, Kapelleb  01633  01633                % 02991 RGTR--
+200601006 Sandweiler, Kontroll  01633  01633                % 02991 RGTR--
+200601015 Sandweiler, Scheedbë  01634  01634                % 02991 RGTR--
+200414009 Hamm, Ronndréisch     01637  01637                % 02991 RGTR--
+200406024 Cents, Cents-Hamm     01638  01638                % 02991 RGTR--
+200404030 Verlorenkost, Généra  01640  01640                % 02991 RGTR--
+200404001 Verlorenkost, Al Mol  01641 -01641                % 02991 RGTR--
+200405013 Centre, F.D. Rooseve  01644  01644                % 02991 RGTR--
+200405037 Luxembourg, rue Hein  01647                       % 02991 RGTR--
+*Z 02992 RGTR--                                             % 02992 RGTR--
+*L 160      210701006 200405037  01801  01847               % 02992 RGTR--
+*A ae 210701006 200405037 000003  01801  01847              % 02992 RGTR--
+*R 2 200405037 210701006 200405037  01801  01847            % 02992 RGTR--
+*G RGB 210701006 200405037  01801  01847                    % 02992 RGTR--
+*A VE 210701006 200405037 000003  01801  01847              % 02992 RGTR--
+*I FD 210701006 200405037        0002597  01801  01847      % 02992 RGTR--
+210701006 Remich, Gare routièr         01801                % 02992 RGTR--
+210701008 Remich, Maatebierg    01802  01802                % 02992 RGTR--
+210701003 Remich, Caves St. Ma  01803  01803                % 02992 RGTR--
+210803006 Stadtbredimus, Wandm  01804  01804                % 02992 RGTR--
+210803005 Stadtbredimus, Vinsm  01805  01805                % 02992 RGTR--
+210803004 Stadtbredimus, Schou  01806  01806                % 02992 RGTR--
+210803001 Stadtbredimus, Dicks  01807  01807                % 02992 RGTR--
+210102002 Bous, Herdermillen    01809  01809                % 02992 RGTR--
+210102001 Bous, Enner dem Pavé  01809  01809                % 02992 RGTR--
+210102004 Bous, Kierch          01810  01810                % 02992 RGTR--
+210102003 Bous, Kapell          01810  01810                % 02992 RGTR--
+210104001 Rolling/Bous          01812  01812                % 02992 RGTR--
+210101001 Assel                 01813  01813                % 02992 RGTR--
+210904002 Waldbredimus, Kiirch  01817  01817                % 02992 RGTR--
+210904001 Waldbredimus, Hanner  01818  01818                % 02992 RGTR--
+210902001 Roedt                 01821  01821                % 02992 RGTR--
+210903001 Trintange, Trenteng   01822  01822                % 02992 RGTR--
+210901001 Ersange/Ierséng       01823  01823                % 02992 RGTR--
+200203004 Moutfort, Kiem        01825  01825                % 02992 RGTR--
+200203003 Moutfort, Kapell      01825  01825                % 02992 RGTR--
+200203001 Moutfort, Bombasch    01827  01827                % 02992 RGTR--
+200601007 Sandweiler, Koschter  01831  01831                % 02992 RGTR--
+200601010 Sandweiler, Schiltzp  01832  01832                % 02992 RGTR--
+200601005 Sandweiler, Kiirch    01832  01832                % 02992 RGTR--
+200601014 Sandweiler, Kapelleb  01833  01833                % 02992 RGTR--
+200601006 Sandweiler, Kontroll  01833  01833                % 02992 RGTR--
+200601015 Sandweiler, Scheedbë  01834  01834                % 02992 RGTR--
+200414009 Hamm, Ronndréisch     01837  01837                % 02992 RGTR--
+200406024 Cents, Cents-Hamm     01838  01838                % 02992 RGTR--
+200404030 Verlorenkost, Généra  01840  01840                % 02992 RGTR--
+200404001 Verlorenkost, Al Mol  01841 -01841                % 02992 RGTR--
+200405013 Centre, F.D. Rooseve  01844  01844                % 02992 RGTR--
+200405037 Luxembourg, rue Hein  01847                       % 02992 RGTR--
+*Z 02993 RGTR--                                             % 02993 RGTR--
+*L 160      210803005 200405037  00640  00727               % 02993 RGTR--
+*A ae 210803005 200405037 000001  00640  00727              % 02993 RGTR--
+*R 2 200405037 210803005 200405037  00640  00727            % 02993 RGTR--
+*G RGB 210803005 200405037  00640  00727                    % 02993 RGTR--
+*A VE 210803005 200405037 000001  00640  00727              % 02993 RGTR--
+*I FD 210803005 200405037        0000784  00640  00727      % 02993 RGTR--
+210803005 Stadtbredimus, Vinsm         00640                % 02993 RGTR--
+210803004 Stadtbredimus, Schou  00641  00641                % 02993 RGTR--
+210803001 Stadtbredimus, Dicks  00642  00642                % 02993 RGTR--
+210102002 Bous, Herdermillen    00643  00643                % 02993 RGTR--
+210102001 Bous, Enner dem Pavé  00644  00644                % 02993 RGTR--
+210102004 Bous, Kierch          00645  00645                % 02993 RGTR--
+210102003 Bous, Kapell          00645  00645                % 02993 RGTR--
+210104001 Rolling/Bous          00647  00647                % 02993 RGTR--
+210101001 Assel                 00648  00648                % 02993 RGTR--
+210904002 Waldbredimus, Kiirch  00652  00652                % 02993 RGTR--
+210904001 Waldbredimus, Hanner  00653  00653                % 02993 RGTR--
+210902001 Roedt                 00657  00657                % 02993 RGTR--
+210903001 Trintange, Trenteng   00657  00657                % 02993 RGTR--
+210901001 Ersange/Ierséng       00658  00658                % 02993 RGTR--
+200203004 Moutfort, Kiem        00700  00700                % 02993 RGTR--
+200203003 Moutfort, Kapell      00701  00701                % 02993 RGTR--
+200203001 Moutfort, Bombasch    00703  00703                % 02993 RGTR--
+200601007 Sandweiler, Koschter  00707  00707                % 02993 RGTR--
+200601010 Sandweiler, Schiltzp  00708  00708                % 02993 RGTR--
+200601005 Sandweiler, Kiirch    00709  00709                % 02993 RGTR--
+200601014 Sandweiler, Kapelleb  00710  00710                % 02993 RGTR--
+200601006 Sandweiler, Kontroll  00710  00710                % 02993 RGTR--
+200601015 Sandweiler, Scheedbë  00711  00711                % 02993 RGTR--
+200414009 Hamm, Ronndréisch     00715  00715                % 02993 RGTR--
+200406024 Cents, Cents-Hamm     00717  00717                % 02993 RGTR--
+200404030 Verlorenkost, Généra  00719  00719                % 02993 RGTR--
+200404001 Verlorenkost, Al Mol  00720 -00720                % 02993 RGTR--
+200405013 Centre, F.D. Rooseve  00724  00724                % 02993 RGTR--
+200405037 Luxembourg, rue Hein  00727                       % 02993 RGTR--
+*Z 02994 RGTR--                                             % 02994 RGTR--
+*L 160      210803005 200405037  00528  00610               % 02994 RGTR--
+*A ae 210803005 200405037 000001  00528  00610              % 02994 RGTR--
+*R 2 200405037 210803005 200405037  00528  00610            % 02994 RGTR--
+*G RGB 210803005 200405037  00528  00610                    % 02994 RGTR--
+*A VE 210803005 200405037 000001  00528  00610              % 02994 RGTR--
+*I FD 210803005 200405037        0002961  00528  00610      % 02994 RGTR--
+210803005 Stadtbredimus, Vinsm         00528                % 02994 RGTR--
+210803004 Stadtbredimus, Schou  00529  00529                % 02994 RGTR--
+210803001 Stadtbredimus, Dicks  00530  00530                % 02994 RGTR--
+210102002 Bous, Herdermillen    00531  00531                % 02994 RGTR--
+210102001 Bous, Enner dem Pavé  00532  00532                % 02994 RGTR--
+210102004 Bous, Kierch          00533  00533                % 02994 RGTR--
+210102003 Bous, Kapell          00533  00533                % 02994 RGTR--
+210104001 Rolling/Bous          00535  00535                % 02994 RGTR--
+210101001 Assel                 00536  00536                % 02994 RGTR--
+210904002 Waldbredimus, Kiirch  00540  00540                % 02994 RGTR--
+210904001 Waldbredimus, Hanner  00541  00541                % 02994 RGTR--
+210902001 Roedt                 00544  00544                % 02994 RGTR--
+210903001 Trintange, Trenteng   00545  00545                % 02994 RGTR--
+210901001 Ersange/Ierséng       00546  00546                % 02994 RGTR--
+200203004 Moutfort, Kiem        00548  00548                % 02994 RGTR--
+200203003 Moutfort, Kapell      00548  00548                % 02994 RGTR--
+200203001 Moutfort, Bombasch    00550  00550                % 02994 RGTR--
+200601007 Sandweiler, Koschter  00554  00554                % 02994 RGTR--
+200601010 Sandweiler, Schiltzp  00555  00555                % 02994 RGTR--
+200601005 Sandweiler, Kiirch    00555  00555                % 02994 RGTR--
+200601014 Sandweiler, Kapelleb  00556  00556                % 02994 RGTR--
+200601006 Sandweiler, Kontroll  00556  00556                % 02994 RGTR--
+200601015 Sandweiler, Scheedbë  00557  00557                % 02994 RGTR--
+200414009 Hamm, Ronndréisch     00600  00600                % 02994 RGTR--
+200406024 Cents, Cents-Hamm     00601  00601                % 02994 RGTR--
+200404030 Verlorenkost, Généra  00603  00603                % 02994 RGTR--
+200404001 Verlorenkost, Al Mol  00604 -00604                % 02994 RGTR--
+200405013 Centre, F.D. Rooseve  00607  00607                % 02994 RGTR--
+200405037 Luxembourg, rue Hein  00610                       % 02994 RGTR--
+*Z 02995 RGTR--                                             % 02995 RGTR--
+*L 160      210803005 200405037  00550  00632               % 02995 RGTR--
+*A ae 210803005 200405037 000001  00550  00632              % 02995 RGTR--
+*R 2 200405037 210803005 200405037  00550  00632            % 02995 RGTR--
+*G RGB 210803005 200405037  00550  00632                    % 02995 RGTR--
+*A VE 210803005 200405037 000001  00550  00632              % 02995 RGTR--
+*I FD 210803005 200405037        0002383  00550  00632      % 02995 RGTR--
+210803005 Stadtbredimus, Vinsm         00550                % 02995 RGTR--
+210803004 Stadtbredimus, Schou  00551  00551                % 02995 RGTR--
+210803001 Stadtbredimus, Dicks  00552  00552                % 02995 RGTR--
+210102002 Bous, Herdermillen    00553  00553                % 02995 RGTR--
+210102001 Bous, Enner dem Pavé  00554  00554                % 02995 RGTR--
+210102004 Bous, Kierch          00555  00555                % 02995 RGTR--
+210102003 Bous, Kapell          00555  00555                % 02995 RGTR--
+210104001 Rolling/Bous          00557  00557                % 02995 RGTR--
+210101001 Assel                 00558  00558                % 02995 RGTR--
+210904002 Waldbredimus, Kiirch  00602  00602                % 02995 RGTR--
+210904001 Waldbredimus, Hanner  00603  00603                % 02995 RGTR--
+210902001 Roedt                 00606  00606                % 02995 RGTR--
+210903001 Trintange, Trenteng   00607  00607                % 02995 RGTR--
+210901001 Ersange/Ierséng       00608  00608                % 02995 RGTR--
+200203004 Moutfort, Kiem        00610  00610                % 02995 RGTR--
+200203003 Moutfort, Kapell      00610  00610                % 02995 RGTR--
+200203001 Moutfort, Bombasch    00612  00612                % 02995 RGTR--
+200601007 Sandweiler, Koschter  00616  00616                % 02995 RGTR--
+200601010 Sandweiler, Schiltzp  00617  00617                % 02995 RGTR--
+200601005 Sandweiler, Kiirch    00617  00617                % 02995 RGTR--
+200601014 Sandweiler, Kapelleb  00618  00618                % 02995 RGTR--
+200601006 Sandweiler, Kontroll  00618  00618                % 02995 RGTR--
+200601015 Sandweiler, Scheedbë  00619  00619                % 02995 RGTR--
+200414009 Hamm, Ronndréisch     00622  00622                % 02995 RGTR--
+200406024 Cents, Cents-Hamm     00623  00623                % 02995 RGTR--
+200404030 Verlorenkost, Généra  00625  00625                % 02995 RGTR--
+200404001 Verlorenkost, Al Mol  00626 -00626                % 02995 RGTR--
+200405013 Centre, F.D. Rooseve  00629  00629                % 02995 RGTR--
+200405037 Luxembourg, rue Hein  00632                       % 02995 RGTR--
+*Z 02996 RGTR--                                             % 02996 RGTR--
+*L 160      210803005 200405037  00705  00747               % 02996 RGTR--
+*A ae 210803005 200405037 000002  00705  00747              % 02996 RGTR--
+*R 2 200405037 210803005 200405037  00705  00747            % 02996 RGTR--
+*G RGB 210803005 200405037  00705  00747                    % 02996 RGTR--
+*A VE 210803005 200405037 000002  00705  00747              % 02996 RGTR--
+*I FD 210803005 200405037        0002189  00705  00747      % 02996 RGTR--
+210803005 Stadtbredimus, Vinsm         00705                % 02996 RGTR--
+210803004 Stadtbredimus, Schou  00706  00706                % 02996 RGTR--
+210803001 Stadtbredimus, Dicks  00707  00707                % 02996 RGTR--
+210102002 Bous, Herdermillen    00708  00708                % 02996 RGTR--
+210102001 Bous, Enner dem Pavé  00709  00709                % 02996 RGTR--
+210102004 Bous, Kierch          00710  00710                % 02996 RGTR--
+210102003 Bous, Kapell          00710  00710                % 02996 RGTR--
+210104001 Rolling/Bous          00712  00712                % 02996 RGTR--
+210101001 Assel                 00713  00713                % 02996 RGTR--
+210904002 Waldbredimus, Kiirch  00717  00717                % 02996 RGTR--
+210904001 Waldbredimus, Hanner  00718  00718                % 02996 RGTR--
+210902001 Roedt                 00721  00721                % 02996 RGTR--
+210903001 Trintange, Trenteng   00722  00722                % 02996 RGTR--
+210901001 Ersange/Ierséng       00723  00723                % 02996 RGTR--
+200203004 Moutfort, Kiem        00725  00725                % 02996 RGTR--
+200203003 Moutfort, Kapell      00725  00725                % 02996 RGTR--
+200203001 Moutfort, Bombasch    00727  00727                % 02996 RGTR--
+200601007 Sandweiler, Koschter  00731  00731                % 02996 RGTR--
+200601010 Sandweiler, Schiltzp  00732  00732                % 02996 RGTR--
+200601005 Sandweiler, Kiirch    00732  00732                % 02996 RGTR--
+200601014 Sandweiler, Kapelleb  00733  00733                % 02996 RGTR--
+200601006 Sandweiler, Kontroll  00733  00733                % 02996 RGTR--
+200601015 Sandweiler, Scheedbë  00734  00734                % 02996 RGTR--
+200414009 Hamm, Ronndréisch     00737  00737                % 02996 RGTR--
+200406024 Cents, Cents-Hamm     00738  00738                % 02996 RGTR--
+200404030 Verlorenkost, Généra  00740  00740                % 02996 RGTR--
+200404001 Verlorenkost, Al Mol  00741 -00741                % 02996 RGTR--
+200405013 Centre, F.D. Rooseve  00744  00744                % 02996 RGTR--
+200405037 Luxembourg, rue Hein  00747                       % 02996 RGTR--

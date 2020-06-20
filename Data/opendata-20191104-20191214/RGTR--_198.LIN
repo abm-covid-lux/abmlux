@@ -1,0 +1,89 @@
+*F 03 2
+*Z 09661 RGTR--                                             % 09661 RGTR--
+*L 198      200420006 220105003  01550  01613               % 09661 RGTR--
+*A al 200420006 220105003 000008  01550  01613              % 09661 RGTR--
+*A cc 200420006 220105003 000008  01550  01613              % 09661 RGTR--
+*A ad 200420006 220105003 000008  01550  01613              % 09661 RGTR--
+*R 1 220105003 200420006 220105003  01550  01613            % 09661 RGTR--
+*G RGB 200420006 220105003  01550  01613                    % 09661 RGTR--
+*A VE 200420006 220105003 000008  01550  01613              % 09661 RGTR--
+*I FD 200420006 220105003        0002080  01550  01613      % 09661 RGTR--
+200420006 Merl, Geesseknäppche         01550                % 09661 RGTR--
+220701003 Leudelange, Edeleck   01558  01558                % 09661 RGTR--
+220701011 Leudelange, Op der S  01600  01600                % 09661 RGTR--
+220701001 Leudelange, Beetebue  01601  01601                % 09661 RGTR--
+220101001 Abweiler              01605  01605                % 09661 RGTR--
+220102012 Bettembourg, Route d  01606  01606                % 09661 RGTR--
+220103002 Fennange, Rue des Ch  01608  01608                % 09661 RGTR--
+220103001 Fennange, Am Duerf    01608  01608                % 09661 RGTR--
+220104004 Huncherange, Rue d'E  01609  01609                % 09661 RGTR--
+220104002 Huncherange, Kreizun  01610  01610                % 09661 RGTR--
+220104001 Huncherange, Kiirch   01610  01610                % 09661 RGTR--
+220105005 Noertzange, Rue Prin  01612  01612                % 09661 RGTR--
+220105003 Noertzange, Route de  01613                       % 09661 RGTR--
+*Z 09662 RGTR--                                             % 09662 RGTR--
+*L 198      200420006 220105003  01425  01448               % 09662 RGTR--
+*A al 200420006 220105003 000002  01425  01448              % 09662 RGTR--
+*A cc 200420006 220105003 000002  01425  01448              % 09662 RGTR--
+*A ad 200420006 220105003 000002  01425  01448              % 09662 RGTR--
+*R 1 220105003 200420006 220105003  01425  01448            % 09662 RGTR--
+*G RGB 200420006 220105003  01425  01448                    % 09662 RGTR--
+*A VE 200420006 220105003 000002  01425  01448              % 09662 RGTR--
+*I FD 200420006 220105003        0001946  01425  01448      % 09662 RGTR--
+200420006 Merl, Geesseknäppche         01425                % 09662 RGTR--
+220701003 Leudelange, Edeleck   01433  01433                % 09662 RGTR--
+220701011 Leudelange, Op der S  01435  01435                % 09662 RGTR--
+220701001 Leudelange, Beetebue  01435  01435                % 09662 RGTR--
+220101001 Abweiler              01439  01439                % 09662 RGTR--
+220102012 Bettembourg, Route d  01441  01441                % 09662 RGTR--
+220103002 Fennange, Rue des Ch  01442  01442                % 09662 RGTR--
+220103001 Fennange, Am Duerf    01443  01443                % 09662 RGTR--
+220104004 Huncherange, Rue d'E  01444  01444                % 09662 RGTR--
+220104002 Huncherange, Kreizun  01444  01444                % 09662 RGTR--
+220104001 Huncherange, Kiirch   01445  01445                % 09662 RGTR--
+220105005 Noertzange, Rue Prin  01447  01447                % 09662 RGTR--
+220105003 Noertzange, Route de  01448                       % 09662 RGTR--
+*Z 09663 RGTR--                                             % 09663 RGTR--
+*L 198      200420006 220105003  01250  01313               % 09663 RGTR--
+*A al 200420006 220105003 000007  01250  01313              % 09663 RGTR--
+*A cc 200420006 220105003 000007  01250  01313              % 09663 RGTR--
+*A ad 200420006 220105003 000007  01250  01313              % 09663 RGTR--
+*R 1 220105003 200420006 220105003  01250  01313            % 09663 RGTR--
+*G RGB 200420006 220105003  01250  01313                    % 09663 RGTR--
+*A VE 200420006 220105003 000007  01250  01313              % 09663 RGTR--
+*I FD 200420006 220105003        0002061  01250  01313      % 09663 RGTR--
+200420006 Merl, Geesseknäppche         01250                % 09663 RGTR--
+220701003 Leudelange, Edeleck   01258  01258                % 09663 RGTR--
+220701011 Leudelange, Op der S  01300  01300                % 09663 RGTR--
+220701001 Leudelange, Beetebue  01300  01300                % 09663 RGTR--
+220101001 Abweiler              01304  01304                % 09663 RGTR--
+220102012 Bettembourg, Route d  01306  01306                % 09663 RGTR--
+220103002 Fennange, Rue des Ch  01307  01307                % 09663 RGTR--
+220103001 Fennange, Am Duerf    01308  01308                % 09663 RGTR--
+220104004 Huncherange, Rue d'E  01309  01309                % 09663 RGTR--
+220104002 Huncherange, Kreizun  01309  01309                % 09663 RGTR--
+220104001 Huncherange, Kiirch   01310  01310                % 09663 RGTR--
+220105005 Noertzange, Rue Prin  01312  01312                % 09663 RGTR--
+220105003 Noertzange, Route de  01313                       % 09663 RGTR--
+*Z 09664 RGTR--                                             % 09664 RGTR--
+*L 198      220105003 200420006  00715  00744               % 09664 RGTR--
+*A al 220105003 200420006 000002  00715  00744              % 09664 RGTR--
+*A cc 220105003 200420006 000002  00715  00744              % 09664 RGTR--
+*A ad 220105003 200420006 000002  00715  00744              % 09664 RGTR--
+*R 2 200420006 220105003 200420006  00715  00744            % 09664 RGTR--
+*G RGB 220105003 200420006  00715  00744                    % 09664 RGTR--
+*A VE 220105003 200420006 000002  00715  00744              % 09664 RGTR--
+*I FD 220105003 200420006        0001951  00715  00744      % 09664 RGTR--
+220105003 Noertzange, Route de         00715                % 09664 RGTR--
+220105005 Noertzange, Rue Prin  00716  00716                % 09664 RGTR--
+220104001 Huncherange, Kiirch   00718  00718                % 09664 RGTR--
+220104002 Huncherange, Kreizun  00719  00719                % 09664 RGTR--
+220104004 Huncherange, Rue d'E  00719  00719                % 09664 RGTR--
+220103001 Fennange, Am Duerf    00720  00720                % 09664 RGTR--
+220103002 Fennange, Rue des Ch  00721  00721                % 09664 RGTR--
+220102012 Bettembourg, Route d  00723  00723                % 09664 RGTR--
+220101001 Abweiler              00724  00724                % 09664 RGTR--
+220701001 Leudelange, Beetebue  00730  00730                % 09664 RGTR--
+220701011 Leudelange, Op der S  00731  00731                % 09664 RGTR--
+220701003 Leudelange, Edeleck   00732  00732                % 09664 RGTR--
+200420006 Merl, Geesseknäppche  00744                       % 09664 RGTR--

@@ -1,0 +1,77 @@
+*F 03 2
+*Z 06893 RGTR--                                             % 06893 RGTR--
+*L 158      200415003 500000058  00923  01021               % 06893 RGTR--
+*A ea 200415003 500000058 000002  00923  01021              % 06893 RGTR--
+*R 1 500000058 200415003 500000058  00923  01021            % 06893 RGTR--
+*G RGB 200415003 500000058  00923  01021                    % 06893 RGTR--
+*A VE 200415003 500000058 000002  00923  01021              % 06893 RGTR--
+*I FD 200415003 500000058        0002738  00923  01021      % 06893 RGTR--
+200415003 Hollerich, Fonderie          00923                % 06893 RGTR--
+200304004 Howald, Jhangeli     -00927  00927                % 06893 RGTR--
+210503002 Mondorf, Casino 2000 -00948  00948                % 06893 RGTR--
+210602004 Schengen, Séckerbaac -00959  00959                % 06893 RGTR--
+210602001 Schengen, Ennen am D -01000  01000                % 06893 RGTR--
+500000062 Perl, Central-Hotel   01004  01004                % 06893 RGTR--
+500000065 Perl, Schengen Lyzeu  01005  01005                % 06893 RGTR--
+500000036 Perl, Oberperl        01006  01006                % 06893 RGTR--
+500000054 Oberleuken, Ortsmitt  01013  01013                % 06893 RGTR--
+500000056 Orscholz, Sportplatz  01017  01017                % 06893 RGTR--
+500000055 Orscholz, Cloef       01019  01019                % 06893 RGTR--
+500000058 Orscholz, Rehaklinik  01021                       % 06893 RGTR--
+*Z 06894 RGTR--                                             % 06894 RGTR--
+*L 158      200415003 500000058  01323  01421               % 06894 RGTR--
+*A ea 200415003 500000058 000002  01323  01421              % 06894 RGTR--
+*R 1 500000058 200415003 500000058  01323  01421            % 06894 RGTR--
+*G RGB 200415003 500000058  01323  01421                    % 06894 RGTR--
+*A VE 200415003 500000058 000002  01323  01421              % 06894 RGTR--
+*I FD 200415003 500000058        0003505  01323  01421      % 06894 RGTR--
+200415003 Hollerich, Fonderie          01323                % 06894 RGTR--
+200304004 Howald, Jhangeli     -01327  01327                % 06894 RGTR--
+210503002 Mondorf, Casino 2000 -01348  01348                % 06894 RGTR--
+210602004 Schengen, Séckerbaac -01359  01359                % 06894 RGTR--
+210602001 Schengen, Ennen am D -01400  01400                % 06894 RGTR--
+500000062 Perl, Central-Hotel   01404  01404                % 06894 RGTR--
+500000065 Perl, Schengen Lyzeu  01405  01405                % 06894 RGTR--
+500000036 Perl, Oberperl        01406  01406                % 06894 RGTR--
+500000054 Oberleuken, Ortsmitt  01413  01413                % 06894 RGTR--
+500000056 Orscholz, Sportplatz  01417  01417                % 06894 RGTR--
+500000055 Orscholz, Cloef       01419  01419                % 06894 RGTR--
+500000058 Orscholz, Rehaklinik  01421                       % 06894 RGTR--
+*Z 06895 RGTR--                                             % 06895 RGTR--
+*L 158      500000058 200415003  01158  01257               % 06895 RGTR--
+*A ea 500000058 200415003 000002  01158  01257              % 06895 RGTR--
+*R 2 200415003 500000058 200415003  01158  01257            % 06895 RGTR--
+*G RGB 500000058 200415003  01158  01257                    % 06895 RGTR--
+*A VE 500000058 200415003 000002  01158  01257              % 06895 RGTR--
+*I FD 500000058 200415003        0002518  01158  01257      % 06895 RGTR--
+500000058 Orscholz, Rehaklinik         01158                % 06895 RGTR--
+500000055 Orscholz, Cloef       01159  01159                % 06895 RGTR--
+500000056 Orscholz, Sportplatz  01201  01201                % 06895 RGTR--
+500000054 Oberleuken, Ortsmitt  01205  01205                % 06895 RGTR--
+500000094 Borg, Ortsmitte       01209  01209                % 06895 RGTR--
+500000036 Perl, Oberperl        01214  01214                % 06895 RGTR--
+500000065 Perl, Schengen Lyzeu  01216  01216                % 06895 RGTR--
+500000062 Perl, Central-Hotel   01217  01217                % 06895 RGTR--
+210602006 Schengen, Arrêt de r  01221 -01221                % 06895 RGTR--
+210503002 Mondorf, Casino 2000  01232 -01232                % 06895 RGTR--
+200304004 Howald, Jhangeli      01253 -01253                % 06895 RGTR--
+200415003 Hollerich, Fonderie   01257                       % 06895 RGTR--
+*Z 06896 RGTR--                                             % 06896 RGTR--
+*L 158      500000058 200415003  01558  01657               % 06896 RGTR--
+*A ea 500000058 200415003 000002  01558  01657              % 06896 RGTR--
+*R 2 200415003 500000058 200415003  01558  01657            % 06896 RGTR--
+*G RGB 500000058 200415003  01558  01657                    % 06896 RGTR--
+*A VE 500000058 200415003 000002  01558  01657              % 06896 RGTR--
+*I FD 500000058 200415003        0002521  01558  01657      % 06896 RGTR--
+500000058 Orscholz, Rehaklinik         01558                % 06896 RGTR--
+500000055 Orscholz, Cloef       01559  01559                % 06896 RGTR--
+500000056 Orscholz, Sportplatz  01601  01601                % 06896 RGTR--
+500000054 Oberleuken, Ortsmitt  01605  01605                % 06896 RGTR--
+500000094 Borg, Ortsmitte       01609  01609                % 06896 RGTR--
+500000036 Perl, Oberperl        01614  01614                % 06896 RGTR--
+500000065 Perl, Schengen Lyzeu  01616  01616                % 06896 RGTR--
+500000062 Perl, Central-Hotel   01617  01617                % 06896 RGTR--
+210602006 Schengen, Arrêt de r  01621 -01621                % 06896 RGTR--
+210503002 Mondorf, Casino 2000  01632 -01632                % 06896 RGTR--
+200304004 Howald, Jhangeli      01653 -01653                % 06896 RGTR--
+200415003 Hollerich, Fonderie   01657                       % 06896 RGTR--

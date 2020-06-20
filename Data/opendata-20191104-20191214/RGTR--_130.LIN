@@ -1,0 +1,2102 @@
+*F 03 2
+*Z 00109 RGTR--                                             % 00109 RGTR--
+*L 130      200417050 180401003  01058  01127               % 00109 RGTR--
+*A ae 200417050 180401003 000005  01058  01127              % 00109 RGTR--
+*R 1 180401003 200417050 180401003  01058  01127            % 00109 RGTR--
+*G RGB 200417050 180401003  01058  01127                    % 00109 RGTR--
+*A VE 200417050 180401003 000005  01058  01127              % 00109 RGTR--
+*I FD 200417050 180401003        0001919  01058  01127      % 00109 RGTR--
+200417050 Kirchberg, Gare rout         01058                % 00109 RGTR--
+200508007 Senningerberg, Laang -01104  01104                % 00109 RGTR--
+200508008 Senningerberg, Mënst -01105  01105                % 00109 RGTR--
+200507003 Senningen, Um Kiem   -01107  01107                % 00109 RGTR--
+200507002 Senningen, Kierch    -01108  01108                % 00109 RGTR--
+200504006 Niederanven, Routsch -01109  01109                % 00109 RGTR--
+200504001 Niederanven, Geisfel  01110  01110                % 00109 RGTR--
+180106005 Roodt/Syre, Rothoich  01111  01111                % 00109 RGTR--
+180106002 Roodt/Syre, Campus s  01112  01112                % 00109 RGTR--
+180106001 Roodt/Syre, Barriär   01113  01113                % 00109 RGTR--
+180101001 Banzelt               01115  01115                % 00109 RGTR--
+180102002 Berg, Haff Biel       01117  01117                % 00109 RGTR--
+180102001 Berg, Bei der Schmet  01117  01117                % 00109 RGTR--
+180402002 Potaschbierg, Z.I.    01121  01121                % 00109 RGTR--
+180402001 Potaschbierg          01121  01121                % 00109 RGTR--
+180401007 Grevenmacher, Seiden  01123  01123                % 00109 RGTR--
+180401001 Grevenmacher, Copal   01124  01124                % 00109 RGTR--
+180401008 Grevenmacher, Tanneu  01125  01125                % 00109 RGTR--
+180401003 Grevenmacher, Gare r  01127                       % 00109 RGTR--
+*Z 00499 RGTR--                                             % 00499 RGTR--
+*L 130      200417050 180401003  00618  00647               % 00499 RGTR--
+*A ae 200417050 180401003 000001  00618  00647              % 00499 RGTR--
+*R 1 180401003 200417050 180401003  00618  00647            % 00499 RGTR--
+*G RGB 200417050 180401003  00618  00647                    % 00499 RGTR--
+*A VE 200417050 180401003 000001  00618  00647              % 00499 RGTR--
+*I FD 200417050 180401003        0001920  00618  00647      % 00499 RGTR--
+200417050 Kirchberg, Gare rout         00618                % 00499 RGTR--
+200508007 Senningerberg, Laang -00624  00624                % 00499 RGTR--
+200508008 Senningerberg, Mënst -00625  00625                % 00499 RGTR--
+200507003 Senningen, Um Kiem   -00627  00627                % 00499 RGTR--
+200507002 Senningen, Kierch    -00628  00628                % 00499 RGTR--
+200504006 Niederanven, Routsch -00629  00629                % 00499 RGTR--
+200504001 Niederanven, Geisfel  00630  00630                % 00499 RGTR--
+180106005 Roodt/Syre, Rothoich  00631  00631                % 00499 RGTR--
+180106002 Roodt/Syre, Campus s  00632  00632                % 00499 RGTR--
+180106001 Roodt/Syre, Barriär   00633  00633                % 00499 RGTR--
+180101001 Banzelt               00635  00635                % 00499 RGTR--
+180102002 Berg, Haff Biel       00637  00637                % 00499 RGTR--
+180102001 Berg, Bei der Schmet  00637  00637                % 00499 RGTR--
+180402002 Potaschbierg, Z.I.    00641  00641                % 00499 RGTR--
+180402001 Potaschbierg          00641  00641                % 00499 RGTR--
+180401007 Grevenmacher, Seiden  00643  00643                % 00499 RGTR--
+180401001 Grevenmacher, Copal   00644  00644                % 00499 RGTR--
+180401008 Grevenmacher, Tanneu  00645  00645                % 00499 RGTR--
+180401003 Grevenmacher, Gare r  00647                       % 00499 RGTR--
+*Z 00111 RGTR--                                             % 00111 RGTR--
+*L 130      200417050 180401003  01058  01127               % 00111 RGTR--
+*A ae 200417050 180401003 000002  01058  01127              % 00111 RGTR--
+*R 1 180401003 200417050 180401003  01058  01127            % 00111 RGTR--
+*G RGB 200417050 180401003  01058  01127                    % 00111 RGTR--
+*A VE 200417050 180401003 000002  01058  01127              % 00111 RGTR--
+*I FD 200417050 180401003        0001921  01058  01127      % 00111 RGTR--
+200417050 Kirchberg, Gare rout         01058                % 00111 RGTR--
+200508007 Senningerberg, Laang -01104  01104                % 00111 RGTR--
+200508008 Senningerberg, Mënst -01105  01105                % 00111 RGTR--
+200507003 Senningen, Um Kiem   -01107  01107                % 00111 RGTR--
+200507002 Senningen, Kierch    -01108  01108                % 00111 RGTR--
+200504006 Niederanven, Routsch -01109  01109                % 00111 RGTR--
+200504001 Niederanven, Geisfel  01110  01110                % 00111 RGTR--
+180106005 Roodt/Syre, Rothoich  01111  01111                % 00111 RGTR--
+180106002 Roodt/Syre, Campus s  01112  01112                % 00111 RGTR--
+180106001 Roodt/Syre, Barriär   01113  01113                % 00111 RGTR--
+180101001 Banzelt               01115  01115                % 00111 RGTR--
+180102002 Berg, Haff Biel       01117  01117                % 00111 RGTR--
+180102001 Berg, Bei der Schmet  01117  01117                % 00111 RGTR--
+180402002 Potaschbierg, Z.I.    01121  01121                % 00111 RGTR--
+180402001 Potaschbierg          01121  01121                % 00111 RGTR--
+180401007 Grevenmacher, Seiden  01123  01123                % 00111 RGTR--
+180401001 Grevenmacher, Copal   01124  01124                % 00111 RGTR--
+180401008 Grevenmacher, Tanneu  01125  01125                % 00111 RGTR--
+180401003 Grevenmacher, Gare r  01127                       % 00111 RGTR--
+*Z 00097 RGTR--                                             % 00097 RGTR--
+*L 130      200417050 180401003  00958  01027               % 00097 RGTR--
+*A ae 200417050 180401003 000001  00958  01027              % 00097 RGTR--
+*R 1 180401003 200417050 180401003  00958  01027            % 00097 RGTR--
+*G RGB 200417050 180401003  00958  01027                    % 00097 RGTR--
+*A VE 200417050 180401003 000001  00958  01027              % 00097 RGTR--
+*I FD 200417050 180401003        0001922  00958  01027      % 00097 RGTR--
+200417050 Kirchberg, Gare rout         00958                % 00097 RGTR--
+200508007 Senningerberg, Laang -01004  01004                % 00097 RGTR--
+200508008 Senningerberg, Mënst -01005  01005                % 00097 RGTR--
+200507003 Senningen, Um Kiem   -01007  01007                % 00097 RGTR--
+200507002 Senningen, Kierch    -01008  01008                % 00097 RGTR--
+200504006 Niederanven, Routsch -01009  01009                % 00097 RGTR--
+200504001 Niederanven, Geisfel  01010  01010                % 00097 RGTR--
+180106005 Roodt/Syre, Rothoich  01011  01011                % 00097 RGTR--
+180106002 Roodt/Syre, Campus s  01012  01012                % 00097 RGTR--
+180106001 Roodt/Syre, Barriär   01013  01013                % 00097 RGTR--
+180101001 Banzelt               01015  01015                % 00097 RGTR--
+180102002 Berg, Haff Biel       01017  01017                % 00097 RGTR--
+180102001 Berg, Bei der Schmet  01017  01017                % 00097 RGTR--
+180402002 Potaschbierg, Z.I.    01021  01021                % 00097 RGTR--
+180402001 Potaschbierg          01021  01021                % 00097 RGTR--
+180401007 Grevenmacher, Seiden  01023  01023                % 00097 RGTR--
+180401001 Grevenmacher, Copal   01024  01024                % 00097 RGTR--
+180401008 Grevenmacher, Tanneu  01025  01025                % 00097 RGTR--
+180401003 Grevenmacher, Gare r  01027                       % 00097 RGTR--
+*Z 00120 RGTR--                                             % 00120 RGTR--
+*L 130      200417050 180401003  01158  01227               % 00120 RGTR--
+*A ae 200417050 180401003 000001  01158  01227              % 00120 RGTR--
+*R 1 180401003 200417050 180401003  01158  01227            % 00120 RGTR--
+*G RGB 200417050 180401003  01158  01227                    % 00120 RGTR--
+*A VE 200417050 180401003 000001  01158  01227              % 00120 RGTR--
+*I FD 200417050 180401003        0001923  01158  01227      % 00120 RGTR--
+200417050 Kirchberg, Gare rout         01158                % 00120 RGTR--
+200508007 Senningerberg, Laang -01204  01204                % 00120 RGTR--
+200508008 Senningerberg, Mënst -01205  01205                % 00120 RGTR--
+200507003 Senningen, Um Kiem   -01207  01207                % 00120 RGTR--
+200507002 Senningen, Kierch    -01208  01208                % 00120 RGTR--
+200504006 Niederanven, Routsch -01209  01209                % 00120 RGTR--
+200504001 Niederanven, Geisfel  01210  01210                % 00120 RGTR--
+180106005 Roodt/Syre, Rothoich  01211  01211                % 00120 RGTR--
+180106002 Roodt/Syre, Campus s  01212  01212                % 00120 RGTR--
+180106001 Roodt/Syre, Barriär   01213  01213                % 00120 RGTR--
+180101001 Banzelt               01215  01215                % 00120 RGTR--
+180102002 Berg, Haff Biel       01217  01217                % 00120 RGTR--
+180102001 Berg, Bei der Schmet  01217  01217                % 00120 RGTR--
+180402002 Potaschbierg, Z.I.    01221  01221                % 00120 RGTR--
+180402001 Potaschbierg          01221  01221                % 00120 RGTR--
+180401007 Grevenmacher, Seiden  01223  01223                % 00120 RGTR--
+180401001 Grevenmacher, Copal   01224  01224                % 00120 RGTR--
+180401008 Grevenmacher, Tanneu  01225  01225                % 00120 RGTR--
+180401003 Grevenmacher, Gare r  01227                       % 00120 RGTR--
+*Z 00136 RGTR--                                             % 00136 RGTR--
+*L 130      200417050 180401003  01258  01327               % 00136 RGTR--
+*A ae 200417050 180401003 000001  01258  01327              % 00136 RGTR--
+*R 1 180401003 200417050 180401003  01258  01327            % 00136 RGTR--
+*G RGB 200417050 180401003  01258  01327                    % 00136 RGTR--
+*A VE 200417050 180401003 000001  01258  01327              % 00136 RGTR--
+*I FD 200417050 180401003        0001924  01258  01327      % 00136 RGTR--
+200417050 Kirchberg, Gare rout         01258                % 00136 RGTR--
+200508007 Senningerberg, Laang -01304  01304                % 00136 RGTR--
+200508008 Senningerberg, Mënst -01305  01305                % 00136 RGTR--
+200507003 Senningen, Um Kiem   -01307  01307                % 00136 RGTR--
+200507002 Senningen, Kierch    -01308  01308                % 00136 RGTR--
+200504006 Niederanven, Routsch -01309  01309                % 00136 RGTR--
+200504001 Niederanven, Geisfel  01310  01310                % 00136 RGTR--
+180106005 Roodt/Syre, Rothoich  01311  01311                % 00136 RGTR--
+180106002 Roodt/Syre, Campus s  01312  01312                % 00136 RGTR--
+180106001 Roodt/Syre, Barriär   01313  01313                % 00136 RGTR--
+180101001 Banzelt               01315  01315                % 00136 RGTR--
+180102002 Berg, Haff Biel       01317  01317                % 00136 RGTR--
+180102001 Berg, Bei der Schmet  01317  01317                % 00136 RGTR--
+180402002 Potaschbierg, Z.I.    01321  01321                % 00136 RGTR--
+180402001 Potaschbierg          01321  01321                % 00136 RGTR--
+180401007 Grevenmacher, Seiden  01323  01323                % 00136 RGTR--
+180401001 Grevenmacher, Copal   01324  01324                % 00136 RGTR--
+180401008 Grevenmacher, Tanneu  01325  01325                % 00136 RGTR--
+180401003 Grevenmacher, Gare r  01327                       % 00136 RGTR--
+*Z 00152 RGTR--                                             % 00152 RGTR--
+*L 130      200417050 180401003  01358  01427               % 00152 RGTR--
+*A ae 200417050 180401003 000001  01358  01427              % 00152 RGTR--
+*R 1 180401003 200417050 180401003  01358  01427            % 00152 RGTR--
+*G RGB 200417050 180401003  01358  01427                    % 00152 RGTR--
+*A VE 200417050 180401003 000001  01358  01427              % 00152 RGTR--
+*I FD 200417050 180401003        0001925  01358  01427      % 00152 RGTR--
+200417050 Kirchberg, Gare rout         01358                % 00152 RGTR--
+200508007 Senningerberg, Laang -01404  01404                % 00152 RGTR--
+200508008 Senningerberg, Mënst -01405  01405                % 00152 RGTR--
+200507003 Senningen, Um Kiem   -01407  01407                % 00152 RGTR--
+200507002 Senningen, Kierch    -01408  01408                % 00152 RGTR--
+200504006 Niederanven, Routsch -01409  01409                % 00152 RGTR--
+200504001 Niederanven, Geisfel  01410  01410                % 00152 RGTR--
+180106005 Roodt/Syre, Rothoich  01411  01411                % 00152 RGTR--
+180106002 Roodt/Syre, Campus s  01412  01412                % 00152 RGTR--
+180106001 Roodt/Syre, Barriär   01413  01413                % 00152 RGTR--
+180101001 Banzelt               01415  01415                % 00152 RGTR--
+180102002 Berg, Haff Biel       01417  01417                % 00152 RGTR--
+180102001 Berg, Bei der Schmet  01417  01417                % 00152 RGTR--
+180402002 Potaschbierg, Z.I.    01421  01421                % 00152 RGTR--
+180402001 Potaschbierg          01421  01421                % 00152 RGTR--
+180401007 Grevenmacher, Seiden  01423  01423                % 00152 RGTR--
+180401001 Grevenmacher, Copal   01424  01424                % 00152 RGTR--
+180401008 Grevenmacher, Tanneu  01425  01425                % 00152 RGTR--
+180401003 Grevenmacher, Gare r  01427                       % 00152 RGTR--
+*Z 00174 RGTR--                                             % 00174 RGTR--
+*L 130      200417050 180401003  01458  01527               % 00174 RGTR--
+*A ae 200417050 180401003 000001  01458  01527              % 00174 RGTR--
+*R 1 180401003 200417050 180401003  01458  01527            % 00174 RGTR--
+*G RGB 200417050 180401003  01458  01527                    % 00174 RGTR--
+*A VE 200417050 180401003 000001  01458  01527              % 00174 RGTR--
+*I FD 200417050 180401003        0001926  01458  01527      % 00174 RGTR--
+200417050 Kirchberg, Gare rout         01458                % 00174 RGTR--
+200508007 Senningerberg, Laang -01504  01504                % 00174 RGTR--
+200508008 Senningerberg, Mënst -01505  01505                % 00174 RGTR--
+200507003 Senningen, Um Kiem   -01507  01507                % 00174 RGTR--
+200507002 Senningen, Kierch    -01508  01508                % 00174 RGTR--
+200504006 Niederanven, Routsch -01509  01509                % 00174 RGTR--
+200504001 Niederanven, Geisfel  01510  01510                % 00174 RGTR--
+180106005 Roodt/Syre, Rothoich  01511  01511                % 00174 RGTR--
+180106002 Roodt/Syre, Campus s  01512  01512                % 00174 RGTR--
+180106001 Roodt/Syre, Barriär   01513  01513                % 00174 RGTR--
+180101001 Banzelt               01515  01515                % 00174 RGTR--
+180102002 Berg, Haff Biel       01517  01517                % 00174 RGTR--
+180102001 Berg, Bei der Schmet  01517  01517                % 00174 RGTR--
+180402002 Potaschbierg, Z.I.    01521  01521                % 00174 RGTR--
+180402001 Potaschbierg          01521  01521                % 00174 RGTR--
+180401007 Grevenmacher, Seiden  01523  01523                % 00174 RGTR--
+180401001 Grevenmacher, Copal   01524  01524                % 00174 RGTR--
+180401008 Grevenmacher, Tanneu  01525  01525                % 00174 RGTR--
+180401003 Grevenmacher, Gare r  01527                       % 00174 RGTR--
+*Z 00194 RGTR--                                             % 00194 RGTR--
+*L 130      200417050 180401003  01558  01627               % 00194 RGTR--
+*A ae 200417050 180401003 000001  01558  01627              % 00194 RGTR--
+*R 1 180401003 200417050 180401003  01558  01627            % 00194 RGTR--
+*G RGB 200417050 180401003  01558  01627                    % 00194 RGTR--
+*A VE 200417050 180401003 000001  01558  01627              % 00194 RGTR--
+*I FD 200417050 180401003        0001927  01558  01627      % 00194 RGTR--
+200417050 Kirchberg, Gare rout         01558                % 00194 RGTR--
+200508007 Senningerberg, Laang -01604  01604                % 00194 RGTR--
+200508008 Senningerberg, Mënst -01605  01605                % 00194 RGTR--
+200507003 Senningen, Um Kiem   -01607  01607                % 00194 RGTR--
+200507002 Senningen, Kierch    -01608  01608                % 00194 RGTR--
+200504006 Niederanven, Routsch -01609  01609                % 00194 RGTR--
+200504001 Niederanven, Geisfel  01610  01610                % 00194 RGTR--
+180106005 Roodt/Syre, Rothoich  01611  01611                % 00194 RGTR--
+180106002 Roodt/Syre, Campus s  01612  01612                % 00194 RGTR--
+180106001 Roodt/Syre, Barriär   01613  01613                % 00194 RGTR--
+180101001 Banzelt               01615  01615                % 00194 RGTR--
+180102002 Berg, Haff Biel       01617  01617                % 00194 RGTR--
+180102001 Berg, Bei der Schmet  01617  01617                % 00194 RGTR--
+180402002 Potaschbierg, Z.I.    01621  01621                % 00194 RGTR--
+180402001 Potaschbierg          01621  01621                % 00194 RGTR--
+180401007 Grevenmacher, Seiden  01623  01623                % 00194 RGTR--
+180401001 Grevenmacher, Copal   01624  01624                % 00194 RGTR--
+180401008 Grevenmacher, Tanneu  01625  01625                % 00194 RGTR--
+180401003 Grevenmacher, Gare r  01627                       % 00194 RGTR--
+*Z 00234 RGTR--                                             % 00234 RGTR--
+*L 130      200417050 180401003  01858  01927               % 00234 RGTR--
+*A ae 200417050 180401003 000001  01858  01927              % 00234 RGTR--
+*A OO 200417050 180401003 000001  01858  01927              % 00234 RGTR--
+*R 1 180401003 200417050 180401003  01858  01927            % 00234 RGTR--
+*G RGB 200417050 180401003  01858  01927                    % 00234 RGTR--
+*A VE 200417050 180401003 000001  01858  01927              % 00234 RGTR--
+*I FD 200417050 180401003        0001928  01858  01927      % 00234 RGTR--
+200417050 Kirchberg, Gare rout         01858                % 00234 RGTR--
+200508007 Senningerberg, Laang -01904  01904                % 00234 RGTR--
+200508008 Senningerberg, Mënst -01905  01905                % 00234 RGTR--
+200507003 Senningen, Um Kiem   -01907  01907                % 00234 RGTR--
+200507002 Senningen, Kierch    -01908  01908                % 00234 RGTR--
+200504006 Niederanven, Routsch -01909  01909                % 00234 RGTR--
+200504001 Niederanven, Geisfel  01910  01910                % 00234 RGTR--
+180106005 Roodt/Syre, Rothoich  01911  01911                % 00234 RGTR--
+180106002 Roodt/Syre, Campus s  01912  01912                % 00234 RGTR--
+180106001 Roodt/Syre, Barriär   01913  01913                % 00234 RGTR--
+180101001 Banzelt               01915  01915                % 00234 RGTR--
+180102002 Berg, Haff Biel       01917  01917                % 00234 RGTR--
+180102001 Berg, Bei der Schmet  01917  01917                % 00234 RGTR--
+180402002 Potaschbierg, Z.I.    01921  01921                % 00234 RGTR--
+180402001 Potaschbierg          01921  01921                % 00234 RGTR--
+180401007 Grevenmacher, Seiden  01923  01923                % 00234 RGTR--
+180401001 Grevenmacher, Copal   01924  01924                % 00234 RGTR--
+180401008 Grevenmacher, Tanneu  01925  01925                % 00234 RGTR--
+180401003 Grevenmacher, Gare r  01927                       % 00234 RGTR--
+*Z 00244 RGTR--                                             % 00244 RGTR--
+*L 130      200417050 180401003  01958  02027               % 00244 RGTR--
+*A ae 200417050 180401003 000001  01958  02027              % 00244 RGTR--
+*R 1 180401003 200417050 180401003  01958  02027            % 00244 RGTR--
+*G RGB 200417050 180401003  01958  02027                    % 00244 RGTR--
+*A VE 200417050 180401003 000001  01958  02027              % 00244 RGTR--
+*I FD 200417050 180401003        0001814  01958  02027      % 00244 RGTR--
+200417050 Kirchberg, Gare rout         01958                % 00244 RGTR--
+200508007 Senningerberg, Laang -02004  02004                % 00244 RGTR--
+200508008 Senningerberg, Mënst -02005  02005                % 00244 RGTR--
+200507003 Senningen, Um Kiem   -02007  02007                % 00244 RGTR--
+200507002 Senningen, Kierch    -02008  02008                % 00244 RGTR--
+200504006 Niederanven, Routsch -02009  02009                % 00244 RGTR--
+200504001 Niederanven, Geisfel  02010  02010                % 00244 RGTR--
+180106005 Roodt/Syre, Rothoich  02011  02011                % 00244 RGTR--
+180106002 Roodt/Syre, Campus s  02012  02012                % 00244 RGTR--
+180106001 Roodt/Syre, Barriär   02013  02013                % 00244 RGTR--
+180101001 Banzelt               02015  02015                % 00244 RGTR--
+180102002 Berg, Haff Biel       02017  02017                % 00244 RGTR--
+180102001 Berg, Bei der Schmet  02017  02017                % 00244 RGTR--
+180402002 Potaschbierg, Z.I.    02021  02021                % 00244 RGTR--
+180402001 Potaschbierg          02021  02021                % 00244 RGTR--
+180401007 Grevenmacher, Seiden  02023  02023                % 00244 RGTR--
+180401001 Grevenmacher, Copal   02024  02024                % 00244 RGTR--
+180401008 Grevenmacher, Tanneu  02025  02025                % 00244 RGTR--
+180401003 Grevenmacher, Gare r  02027                       % 00244 RGTR--
+*Z 00500 RGTR--                                             % 00500 RGTR--
+*L 130      200417050 180401003  00640  00712               % 00500 RGTR--
+*A ae 200417050 180401003 000001  00640  00712              % 00500 RGTR--
+*A af 200417050 180401003 000001  00640  00712              % 00500 RGTR--
+*R 1 180401003 200417050 180401003  00640  00712            % 00500 RGTR--
+*G RGB 200417050 180401003  00640  00712                    % 00500 RGTR--
+*A VE 200417050 180401003 000001  00640  00712              % 00500 RGTR--
+*I FD 200417050 180401003        0001929  00640  00712      % 00500 RGTR--
+200417050 Kirchberg, Gare rout         00640                % 00500 RGTR--
+200508007 Senningerberg, Laang -00646  00646                % 00500 RGTR--
+200508008 Senningerberg, Mënst -00647  00647                % 00500 RGTR--
+200507003 Senningen, Um Kiem   -00650  00650                % 00500 RGTR--
+200507002 Senningen, Kierch    -00650  00650                % 00500 RGTR--
+200504006 Niederanven, Routsch -00651  00651                % 00500 RGTR--
+200504001 Niederanven, Geisfel  00653  00653                % 00500 RGTR--
+180106005 Roodt/Syre, Rothoich  00654  00654                % 00500 RGTR--
+180106002 Roodt/Syre, Campus s  00656  00656                % 00500 RGTR--
+180106001 Roodt/Syre, Barriär   00657  00657                % 00500 RGTR--
+180101001 Banzelt               00659  00659                % 00500 RGTR--
+180102002 Berg, Haff Biel       00701  00701                % 00500 RGTR--
+180102001 Berg, Bei der Schmet  00702  00702                % 00500 RGTR--
+180402002 Potaschbierg, Z.I.    00705  00705                % 00500 RGTR--
+180402001 Potaschbierg          00706  00706                % 00500 RGTR--
+180401007 Grevenmacher, Seiden  00707  00707                % 00500 RGTR--
+180401001 Grevenmacher, Copal   00708  00708                % 00500 RGTR--
+180401008 Grevenmacher, Tanneu  00710  00710                % 00500 RGTR--
+180401003 Grevenmacher, Gare r  00712                       % 00500 RGTR--
+*Z 00079 RGTR--                                             % 00079 RGTR--
+*L 130      200417050 180401003  00800  00832               % 00079 RGTR--
+*A ae 200417050 180401003 000001  00800  00832              % 00079 RGTR--
+*R 1 180401003 200417050 180401003  00800  00832            % 00079 RGTR--
+*G RGB 200417050 180401003  00800  00832                    % 00079 RGTR--
+*A VE 200417050 180401003 000001  00800  00832              % 00079 RGTR--
+*I FD 200417050 180401003        0001930  00800  00832      % 00079 RGTR--
+200417050 Kirchberg, Gare rout         00800                % 00079 RGTR--
+200508007 Senningerberg, Laang -00806  00806                % 00079 RGTR--
+200508008 Senningerberg, Mënst -00807  00807                % 00079 RGTR--
+200507003 Senningen, Um Kiem   -00810  00810                % 00079 RGTR--
+200507002 Senningen, Kierch    -00810  00810                % 00079 RGTR--
+200504006 Niederanven, Routsch -00811  00811                % 00079 RGTR--
+200504001 Niederanven, Geisfel  00813  00813                % 00079 RGTR--
+180106005 Roodt/Syre, Rothoich  00814  00814                % 00079 RGTR--
+180106002 Roodt/Syre, Campus s  00816  00816                % 00079 RGTR--
+180106001 Roodt/Syre, Barriär   00817  00817                % 00079 RGTR--
+180101001 Banzelt               00819  00819                % 00079 RGTR--
+180102002 Berg, Haff Biel       00821  00821                % 00079 RGTR--
+180102001 Berg, Bei der Schmet  00822  00822                % 00079 RGTR--
+180402002 Potaschbierg, Z.I.    00825  00825                % 00079 RGTR--
+180402001 Potaschbierg          00826  00826                % 00079 RGTR--
+180401007 Grevenmacher, Seiden  00827  00827                % 00079 RGTR--
+180401001 Grevenmacher, Copal   00828  00828                % 00079 RGTR--
+180401008 Grevenmacher, Tanneu  00830  00830                % 00079 RGTR--
+180401003 Grevenmacher, Gare r  00832                       % 00079 RGTR--
+*Z 00087 RGTR--                                             % 00087 RGTR--
+*L 130      200417050 180401003  00900  00932               % 00087 RGTR--
+*A ae 200417050 180401003 000001  00900  00932              % 00087 RGTR--
+*R 1 180401003 200417050 180401003  00900  00932            % 00087 RGTR--
+*G RGB 200417050 180401003  00900  00932                    % 00087 RGTR--
+*A VE 200417050 180401003 000001  00900  00932              % 00087 RGTR--
+*I FD 200417050 180401003        0001931  00900  00932      % 00087 RGTR--
+200417050 Kirchberg, Gare rout         00900                % 00087 RGTR--
+200508007 Senningerberg, Laang -00906  00906                % 00087 RGTR--
+200508008 Senningerberg, Mënst -00907  00907                % 00087 RGTR--
+200507003 Senningen, Um Kiem   -00910  00910                % 00087 RGTR--
+200507002 Senningen, Kierch    -00910  00910                % 00087 RGTR--
+200504006 Niederanven, Routsch -00911  00911                % 00087 RGTR--
+200504001 Niederanven, Geisfel  00913  00913                % 00087 RGTR--
+180106005 Roodt/Syre, Rothoich  00914  00914                % 00087 RGTR--
+180106002 Roodt/Syre, Campus s  00916  00916                % 00087 RGTR--
+180106001 Roodt/Syre, Barriär   00917  00917                % 00087 RGTR--
+180101001 Banzelt               00919  00919                % 00087 RGTR--
+180102002 Berg, Haff Biel       00921  00921                % 00087 RGTR--
+180102001 Berg, Bei der Schmet  00922  00922                % 00087 RGTR--
+180402002 Potaschbierg, Z.I.    00925  00925                % 00087 RGTR--
+180402001 Potaschbierg          00926  00926                % 00087 RGTR--
+180401007 Grevenmacher, Seiden  00927  00927                % 00087 RGTR--
+180401001 Grevenmacher, Copal   00928  00928                % 00087 RGTR--
+180401008 Grevenmacher, Tanneu  00930  00930                % 00087 RGTR--
+180401003 Grevenmacher, Gare r  00932                       % 00087 RGTR--
+*Z 00224 RGTR--                                             % 00224 RGTR--
+*L 130      200417050 180401003  01800  01832               % 00224 RGTR--
+*A ae 200417050 180401003 000001  01800  01832              % 00224 RGTR--
+*A OO 200417050 180401003 000001  01800  01832              % 00224 RGTR--
+*R 1 180401003 200417050 180401003  01800  01832            % 00224 RGTR--
+*G RGB 200417050 180401003  01800  01832                    % 00224 RGTR--
+*A VE 200417050 180401003 000001  01800  01832              % 00224 RGTR--
+*I FD 200417050 180401003        0001932  01800  01832      % 00224 RGTR--
+200417050 Kirchberg, Gare rout         01800                % 00224 RGTR--
+200508007 Senningerberg, Laang -01806  01806                % 00224 RGTR--
+200508008 Senningerberg, Mënst -01807  01807                % 00224 RGTR--
+200507003 Senningen, Um Kiem   -01810  01810                % 00224 RGTR--
+200507002 Senningen, Kierch    -01810  01810                % 00224 RGTR--
+200504006 Niederanven, Routsch -01811  01811                % 00224 RGTR--
+200504001 Niederanven, Geisfel  01813  01813                % 00224 RGTR--
+180106005 Roodt/Syre, Rothoich  01814  01814                % 00224 RGTR--
+180106002 Roodt/Syre, Campus s  01816  01816                % 00224 RGTR--
+180106001 Roodt/Syre, Barriär   01817  01817                % 00224 RGTR--
+180101001 Banzelt               01819  01819                % 00224 RGTR--
+180102002 Berg, Haff Biel       01821  01821                % 00224 RGTR--
+180102001 Berg, Bei der Schmet  01822  01822                % 00224 RGTR--
+180402002 Potaschbierg, Z.I.    01825  01825                % 00224 RGTR--
+180402001 Potaschbierg          01826  01826                % 00224 RGTR--
+180401007 Grevenmacher, Seiden  01827  01827                % 00224 RGTR--
+180401001 Grevenmacher, Copal   01828  01828                % 00224 RGTR--
+180401008 Grevenmacher, Tanneu  01830  01830                % 00224 RGTR--
+180401003 Grevenmacher, Gare r  01832                       % 00224 RGTR--
+*Z 00501 RGTR--                                             % 00501 RGTR--
+*L 130      200417050 180803001  00924  01001               % 00501 RGTR--
+*A ae 200417050 180803001 000005  00924  01001              % 00501 RGTR--
+*A OO 200417050 180803001 000005  00924  01001              % 00501 RGTR--
+*R 1 180803001 200417050 180803001  00924  01001            % 00501 RGTR--
+*G RGB 200417050 180803001  00924  01001                    % 00501 RGTR--
+*A VE 200417050 180803001 000005  00924  01001              % 00501 RGTR--
+*I FD 200417050 180803001        0001933  00924  01001      % 00501 RGTR--
+200417050 Kirchberg, Gare rout         00924                % 00501 RGTR--
+200508007 Senningerberg, Laang -00930  00930                % 00501 RGTR--
+200508008 Senningerberg, Mënst -00931  00931                % 00501 RGTR--
+200507003 Senningen, Um Kiem   -00934  00934                % 00501 RGTR--
+200507002 Senningen, Kierch    -00934  00934                % 00501 RGTR--
+200504006 Niederanven, Routsch -00935  00935                % 00501 RGTR--
+200504001 Niederanven, Geisfel  00937  00937                % 00501 RGTR--
+180106005 Roodt/Syre, Rothoich  00938  00938                % 00501 RGTR--
+180106002 Roodt/Syre, Campus s  00940  00940                % 00501 RGTR--
+180106001 Roodt/Syre, Barriär   00941  00941                % 00501 RGTR--
+180101001 Banzelt               00943  00943                % 00501 RGTR--
+180102002 Berg, Haff Biel       00945  00945                % 00501 RGTR--
+180102001 Berg, Bei der Schmet  00946  00946                % 00501 RGTR--
+180402002 Potaschbierg, Z.I.    00949  00949                % 00501 RGTR--
+180402001 Potaschbierg          00950  00950                % 00501 RGTR--
+180401007 Grevenmacher, Seiden  00951  00951                % 00501 RGTR--
+180401001 Grevenmacher, Copal   00952  00952                % 00501 RGTR--
+180401008 Grevenmacher, Tanneu  00954  00954                % 00501 RGTR--
+180401003 Grevenmacher, Gare r  00956  00956                % 00501 RGTR--
+180401002 Grevenmacher, Enner   00957  00957                % 00501 RGTR--
+180401005 Grevenmacher, Route   00958  00958                % 00501 RGTR--
+180803002 Machtum, Deisermille  01000  01000                % 00501 RGTR--
+180803003 Machtum, Gellebur     01000  01000                % 00501 RGTR--
+180803001 Machtum, Bei Kallek'  01001                       % 00501 RGTR--
+*Z 00502 RGTR--                                             % 00502 RGTR--
+*L 130      200417050 180803001  01724  01801               % 00502 RGTR--
+*A ae 200417050 180803001 000000  01724  01801              % 00502 RGTR--
+*A ON 200417050 180803001 000000  01724  01801              % 00502 RGTR--
+*R 1 180803001 200417050 180803001  01724  01801            % 00502 RGTR--
+*G RGB 200417050 180803001  01724  01801                    % 00502 RGTR--
+*A VE 200417050 180803001 000000  01724  01801              % 00502 RGTR--
+*I FD 200417050 180803001        0001934  01724  01801      % 00502 RGTR--
+200417050 Kirchberg, Gare rout         01724                % 00502 RGTR--
+200508007 Senningerberg, Laang -01730  01730                % 00502 RGTR--
+200508008 Senningerberg, Mënst -01731  01731                % 00502 RGTR--
+200507003 Senningen, Um Kiem   -01734  01734                % 00502 RGTR--
+200507002 Senningen, Kierch    -01734  01734                % 00502 RGTR--
+200504006 Niederanven, Routsch -01735  01735                % 00502 RGTR--
+200504001 Niederanven, Geisfel  01737  01737                % 00502 RGTR--
+180106005 Roodt/Syre, Rothoich  01738  01738                % 00502 RGTR--
+180106002 Roodt/Syre, Campus s  01740  01740                % 00502 RGTR--
+180106001 Roodt/Syre, Barriär   01741  01741                % 00502 RGTR--
+180101001 Banzelt               01743  01743                % 00502 RGTR--
+180102002 Berg, Haff Biel       01745  01745                % 00502 RGTR--
+180102001 Berg, Bei der Schmet  01746  01746                % 00502 RGTR--
+180402002 Potaschbierg, Z.I.    01749  01749                % 00502 RGTR--
+180402001 Potaschbierg          01750  01750                % 00502 RGTR--
+180401007 Grevenmacher, Seiden  01751  01751                % 00502 RGTR--
+180401001 Grevenmacher, Copal   01752  01752                % 00502 RGTR--
+180401008 Grevenmacher, Tanneu  01754  01754                % 00502 RGTR--
+180401003 Grevenmacher, Gare r  01756  01756                % 00502 RGTR--
+180401002 Grevenmacher, Enner   01757  01757                % 00502 RGTR--
+180401005 Grevenmacher, Route   01758  01758                % 00502 RGTR--
+180803002 Machtum, Deisermille  01800  01800                % 00502 RGTR--
+180803003 Machtum, Gellebur     01800  01800                % 00502 RGTR--
+180803001 Machtum, Bei Kallek'  01801                       % 00502 RGTR--
+*Z 00503 RGTR--                                             % 00503 RGTR--
+*L 130      200417050 180803001  00724  00801               % 00503 RGTR--
+*A ae 200417050 180803001 000001  00724  00801              % 00503 RGTR--
+*R 1 180803001 200417050 180803001  00724  00801            % 00503 RGTR--
+*G RGB 200417050 180803001  00724  00801                    % 00503 RGTR--
+*A VE 200417050 180803001 000001  00724  00801              % 00503 RGTR--
+*I FD 200417050 180803001        0001935  00724  00801      % 00503 RGTR--
+200417050 Kirchberg, Gare rout         00724                % 00503 RGTR--
+200508007 Senningerberg, Laang -00730  00730                % 00503 RGTR--
+200508008 Senningerberg, Mënst -00731  00731                % 00503 RGTR--
+200507003 Senningen, Um Kiem   -00734  00734                % 00503 RGTR--
+200507002 Senningen, Kierch    -00734  00734                % 00503 RGTR--
+200504006 Niederanven, Routsch -00735  00735                % 00503 RGTR--
+200504001 Niederanven, Geisfel  00737  00737                % 00503 RGTR--
+180106005 Roodt/Syre, Rothoich  00738  00738                % 00503 RGTR--
+180106002 Roodt/Syre, Campus s  00740  00740                % 00503 RGTR--
+180106001 Roodt/Syre, Barriär   00741  00741                % 00503 RGTR--
+180101001 Banzelt               00743  00743                % 00503 RGTR--
+180102002 Berg, Haff Biel       00745  00745                % 00503 RGTR--
+180102001 Berg, Bei der Schmet  00746  00746                % 00503 RGTR--
+180402002 Potaschbierg, Z.I.    00749  00749                % 00503 RGTR--
+180402001 Potaschbierg          00750  00750                % 00503 RGTR--
+180401007 Grevenmacher, Seiden  00751  00751                % 00503 RGTR--
+180401001 Grevenmacher, Copal   00752  00752                % 00503 RGTR--
+180401008 Grevenmacher, Tanneu  00754  00754                % 00503 RGTR--
+180401003 Grevenmacher, Gare r  00756  00756                % 00503 RGTR--
+180401002 Grevenmacher, Enner   00757  00757                % 00503 RGTR--
+180401005 Grevenmacher, Route   00758  00758                % 00503 RGTR--
+180803002 Machtum, Deisermille  00800  00800                % 00503 RGTR--
+180803003 Machtum, Gellebur     00800  00800                % 00503 RGTR--
+180803001 Machtum, Bei Kallek'  00801                       % 00503 RGTR--
+*Z 00504 RGTR--                                             % 00504 RGTR--
+*L 130      200417050 180803001  00824  00901               % 00504 RGTR--
+*A ae 200417050 180803001 000001  00824  00901              % 00504 RGTR--
+*R 1 180803001 200417050 180803001  00824  00901            % 00504 RGTR--
+*G RGB 200417050 180803001  00824  00901                    % 00504 RGTR--
+*A VE 200417050 180803001 000001  00824  00901              % 00504 RGTR--
+*I FD 200417050 180803001        0000865  00824  00901      % 00504 RGTR--
+200417050 Kirchberg, Gare rout         00824                % 00504 RGTR--
+200508007 Senningerberg, Laang -00830  00830                % 00504 RGTR--
+200508008 Senningerberg, Mënst -00831  00831                % 00504 RGTR--
+200507003 Senningen, Um Kiem   -00834  00834                % 00504 RGTR--
+200507002 Senningen, Kierch    -00834  00834                % 00504 RGTR--
+200504006 Niederanven, Routsch -00835  00835                % 00504 RGTR--
+200504001 Niederanven, Geisfel  00837  00837                % 00504 RGTR--
+180106005 Roodt/Syre, Rothoich  00838  00838                % 00504 RGTR--
+180106002 Roodt/Syre, Campus s  00840  00840                % 00504 RGTR--
+180106001 Roodt/Syre, Barriär   00841  00841                % 00504 RGTR--
+180101001 Banzelt               00843  00843                % 00504 RGTR--
+180102002 Berg, Haff Biel       00845  00845                % 00504 RGTR--
+180102001 Berg, Bei der Schmet  00846  00846                % 00504 RGTR--
+180402002 Potaschbierg, Z.I.    00849  00849                % 00504 RGTR--
+180402001 Potaschbierg          00850  00850                % 00504 RGTR--
+180401007 Grevenmacher, Seiden  00851  00851                % 00504 RGTR--
+180401001 Grevenmacher, Copal   00852  00852                % 00504 RGTR--
+180401008 Grevenmacher, Tanneu  00854  00854                % 00504 RGTR--
+180401003 Grevenmacher, Gare r  00856  00856                % 00504 RGTR--
+180401002 Grevenmacher, Enner   00857  00857                % 00504 RGTR--
+180401005 Grevenmacher, Route   00858  00858                % 00504 RGTR--
+180803002 Machtum, Deisermille  00900  00900                % 00504 RGTR--
+180803003 Machtum, Gellebur     00900  00900                % 00504 RGTR--
+180803001 Machtum, Bei Kallek'  00901                       % 00504 RGTR--
+*Z 00505 RGTR--                                             % 00505 RGTR--
+*L 130      200417050 180803001  01624  01701               % 00505 RGTR--
+*A ae 200417050 180803001 000001  01624  01701              % 00505 RGTR--
+*A CE 200417050 180803001 000001  01624  01701              % 00505 RGTR--
+*R 1 180803001 200417050 180803001  01624  01701            % 00505 RGTR--
+*G RGB 200417050 180803001  01624  01701                    % 00505 RGTR--
+*A VE 200417050 180803001 000001  01624  01701              % 00505 RGTR--
+*I FD 200417050 180803001        0001936  01624  01701      % 00505 RGTR--
+200417050 Kirchberg, Gare rout         01624                % 00505 RGTR--
+200508007 Senningerberg, Laang -01630  01630                % 00505 RGTR--
+200508008 Senningerberg, Mënst -01631  01631                % 00505 RGTR--
+200507003 Senningen, Um Kiem   -01634  01634                % 00505 RGTR--
+200507002 Senningen, Kierch    -01634  01634                % 00505 RGTR--
+200504006 Niederanven, Routsch -01635  01635                % 00505 RGTR--
+200504001 Niederanven, Geisfel  01637  01637                % 00505 RGTR--
+180106005 Roodt/Syre, Rothoich  01638  01638                % 00505 RGTR--
+180106002 Roodt/Syre, Campus s  01640  01640                % 00505 RGTR--
+180106001 Roodt/Syre, Barriär   01641  01641                % 00505 RGTR--
+180101001 Banzelt               01643  01643                % 00505 RGTR--
+180102002 Berg, Haff Biel       01645  01645                % 00505 RGTR--
+180102001 Berg, Bei der Schmet  01646  01646                % 00505 RGTR--
+180402002 Potaschbierg, Z.I.    01649  01649                % 00505 RGTR--
+180402001 Potaschbierg          01650  01650                % 00505 RGTR--
+180401007 Grevenmacher, Seiden  01651  01651                % 00505 RGTR--
+180401001 Grevenmacher, Copal   01652  01652                % 00505 RGTR--
+180401008 Grevenmacher, Tanneu  01654  01654                % 00505 RGTR--
+180401003 Grevenmacher, Gare r  01656  01656                % 00505 RGTR--
+180401002 Grevenmacher, Enner   01657  01657                % 00505 RGTR--
+180401005 Grevenmacher, Route   01658  01658                % 00505 RGTR--
+180803002 Machtum, Deisermille  01700  01700                % 00505 RGTR--
+180803003 Machtum, Gellebur     01700  01700                % 00505 RGTR--
+180803001 Machtum, Bei Kallek'  01701                       % 00505 RGTR--
+*Z 00506 RGTR--                                             % 00506 RGTR--
+*L 130      200417050 180803001  01700  01737               % 00506 RGTR--
+*A ae 200417050 180803001 000001  01700  01737              % 00506 RGTR--
+*A ON 200417050 180803001 000001  01700  01737              % 00506 RGTR--
+*R 1 180803001 200417050 180803001  01700  01737            % 00506 RGTR--
+*G RGB 200417050 180803001  01700  01737                    % 00506 RGTR--
+*A VE 200417050 180803001 000001  01700  01737              % 00506 RGTR--
+*I FD 200417050 180803001        0001937  01700  01737      % 00506 RGTR--
+200417050 Kirchberg, Gare rout         01700                % 00506 RGTR--
+200508007 Senningerberg, Laang -01706  01706                % 00506 RGTR--
+200508008 Senningerberg, Mënst -01707  01707                % 00506 RGTR--
+200507003 Senningen, Um Kiem   -01710  01710                % 00506 RGTR--
+200507002 Senningen, Kierch    -01710  01710                % 00506 RGTR--
+200504006 Niederanven, Routsch -01711  01711                % 00506 RGTR--
+200504001 Niederanven, Geisfel  01713  01713                % 00506 RGTR--
+180106005 Roodt/Syre, Rothoich  01714  01714                % 00506 RGTR--
+180106002 Roodt/Syre, Campus s  01716  01716                % 00506 RGTR--
+180106001 Roodt/Syre, Barriär   01717  01717                % 00506 RGTR--
+180101001 Banzelt               01719  01719                % 00506 RGTR--
+180102002 Berg, Haff Biel       01721  01721                % 00506 RGTR--
+180102001 Berg, Bei der Schmet  01722  01722                % 00506 RGTR--
+180402002 Potaschbierg, Z.I.    01725  01725                % 00506 RGTR--
+180402001 Potaschbierg          01726  01726                % 00506 RGTR--
+180401007 Grevenmacher, Seiden  01727  01727                % 00506 RGTR--
+180401001 Grevenmacher, Copal   01728  01728                % 00506 RGTR--
+180401008 Grevenmacher, Tanneu  01730  01730                % 00506 RGTR--
+180401003 Grevenmacher, Gare r  01732  01732                % 00506 RGTR--
+180401002 Grevenmacher, Enner   01733  01733                % 00506 RGTR--
+180401005 Grevenmacher, Route   01734  01734                % 00506 RGTR--
+180803002 Machtum, Deisermille  01736  01736                % 00506 RGTR--
+180803003 Machtum, Gellebur     01736  01736                % 00506 RGTR--
+180803001 Machtum, Bei Kallek'  01737                       % 00506 RGTR--
+*Z 00507 RGTR--                                             % 00507 RGTR--
+*L 130      200417050 180803001  01824  01901               % 00507 RGTR--
+*A ae 200417050 180803001 000001  01824  01901              % 00507 RGTR--
+*R 1 180803001 200417050 180803001  01824  01901            % 00507 RGTR--
+*G RGB 200417050 180803001  01824  01901                    % 00507 RGTR--
+*A VE 200417050 180803001 000001  01824  01901              % 00507 RGTR--
+*I FD 200417050 180803001        0001938  01824  01901      % 00507 RGTR--
+200417050 Kirchberg, Gare rout         01824                % 00507 RGTR--
+200508007 Senningerberg, Laang -01830  01830                % 00507 RGTR--
+200508008 Senningerberg, Mënst -01831  01831                % 00507 RGTR--
+200507003 Senningen, Um Kiem   -01834  01834                % 00507 RGTR--
+200507002 Senningen, Kierch    -01834  01834                % 00507 RGTR--
+200504006 Niederanven, Routsch -01835  01835                % 00507 RGTR--
+200504001 Niederanven, Geisfel  01837  01837                % 00507 RGTR--
+180106005 Roodt/Syre, Rothoich  01838  01838                % 00507 RGTR--
+180106002 Roodt/Syre, Campus s  01840  01840                % 00507 RGTR--
+180106001 Roodt/Syre, Barriär   01841  01841                % 00507 RGTR--
+180101001 Banzelt               01843  01843                % 00507 RGTR--
+180102002 Berg, Haff Biel       01845  01845                % 00507 RGTR--
+180102001 Berg, Bei der Schmet  01846  01846                % 00507 RGTR--
+180402002 Potaschbierg, Z.I.    01849  01849                % 00507 RGTR--
+180402001 Potaschbierg          01850  01850                % 00507 RGTR--
+180401007 Grevenmacher, Seiden  01851  01851                % 00507 RGTR--
+180401001 Grevenmacher, Copal   01852  01852                % 00507 RGTR--
+180401008 Grevenmacher, Tanneu  01854  01854                % 00507 RGTR--
+180401003 Grevenmacher, Gare r  01856  01856                % 00507 RGTR--
+180401002 Grevenmacher, Enner   01857  01857                % 00507 RGTR--
+180401005 Grevenmacher, Route   01858  01858                % 00507 RGTR--
+180803002 Machtum, Deisermille  01900  01900                % 00507 RGTR--
+180803003 Machtum, Gellebur     01900  01900                % 00507 RGTR--
+180803001 Machtum, Bei Kallek'  01901                       % 00507 RGTR--
+*Z 00508 RGTR--                                             % 00508 RGTR--
+*L 130      200417050 180803001  00925  01002               % 00508 RGTR--
+*A ae 200417050 180803001 000002  00925  01002              % 00508 RGTR--
+*A OO 200417050 180803001 000002  00925  01002              % 00508 RGTR--
+*R 1 180803001 200417050 180803001  00925  01002            % 00508 RGTR--
+*G RGB 200417050 180803001  00925  01002                    % 00508 RGTR--
+*A VE 200417050 180803001 000002  00925  01002              % 00508 RGTR--
+*I FD 200417050 180803001        0001939  00925  01002      % 00508 RGTR--
+200417050 Kirchberg, Gare rout         00925                % 00508 RGTR--
+200508007 Senningerberg, Laang -00931  00931                % 00508 RGTR--
+200508008 Senningerberg, Mënst -00932  00932                % 00508 RGTR--
+200507003 Senningen, Um Kiem   -00935  00935                % 00508 RGTR--
+200507002 Senningen, Kierch    -00935  00935                % 00508 RGTR--
+200504006 Niederanven, Routsch -00936  00936                % 00508 RGTR--
+200504001 Niederanven, Geisfel  00938  00938                % 00508 RGTR--
+180106005 Roodt/Syre, Rothoich  00939  00939                % 00508 RGTR--
+180106002 Roodt/Syre, Campus s  00941  00941                % 00508 RGTR--
+180106001 Roodt/Syre, Barriär   00942  00942                % 00508 RGTR--
+180101001 Banzelt               00944  00944                % 00508 RGTR--
+180102002 Berg, Haff Biel       00946  00946                % 00508 RGTR--
+180102001 Berg, Bei der Schmet  00947  00947                % 00508 RGTR--
+180402002 Potaschbierg, Z.I.    00950  00950                % 00508 RGTR--
+180402001 Potaschbierg          00951  00951                % 00508 RGTR--
+180401007 Grevenmacher, Seiden  00952  00952                % 00508 RGTR--
+180401001 Grevenmacher, Copal   00953  00953                % 00508 RGTR--
+180401008 Grevenmacher, Tanneu  00955  00955                % 00508 RGTR--
+180401003 Grevenmacher, Gare r  00957  00957                % 00508 RGTR--
+180401002 Grevenmacher, Enner   00958  00958                % 00508 RGTR--
+180401005 Grevenmacher, Route   00959  00959                % 00508 RGTR--
+180803002 Machtum, Deisermille  01001  01001                % 00508 RGTR--
+180803003 Machtum, Gellebur     01001  01001                % 00508 RGTR--
+180803001 Machtum, Bei Kallek'  01002                       % 00508 RGTR--
+*Z 00509 RGTR--                                             % 00509 RGTR--
+*L 130      200417050 180803001  01125  01159               % 00509 RGTR--
+*A ae 200417050 180803001 000000  01125  01159              % 00509 RGTR--
+*A OO 200417050 180803001 000000  01125  01159              % 00509 RGTR--
+*R 1 180803001 200417050 180803001  01125  01159            % 00509 RGTR--
+*G RGB 200417050 180803001  01125  01159                    % 00509 RGTR--
+*A VE 200417050 180803001 000000  01125  01159              % 00509 RGTR--
+*I FD 200417050 180803001        0001940  01125  01159      % 00509 RGTR--
+200417050 Kirchberg, Gare rout         01125                % 00509 RGTR--
+200508007 Senningerberg, Laang -01131  01131                % 00509 RGTR--
+200508008 Senningerberg, Mënst -01132  01132                % 00509 RGTR--
+200507003 Senningen, Um Kiem   -01134  01134                % 00509 RGTR--
+200507002 Senningen, Kierch    -01135  01135                % 00509 RGTR--
+200504006 Niederanven, Routsch -01136  01136                % 00509 RGTR--
+200504001 Niederanven, Geisfel  01137  01137                % 00509 RGTR--
+180106005 Roodt/Syre, Rothoich  01138  01138                % 00509 RGTR--
+180106002 Roodt/Syre, Campus s  01139  01139                % 00509 RGTR--
+180106001 Roodt/Syre, Barriär   01140  01140                % 00509 RGTR--
+180101001 Banzelt               01142  01142                % 00509 RGTR--
+180102002 Berg, Haff Biel       01144  01144                % 00509 RGTR--
+180102001 Berg, Bei der Schmet  01144  01144                % 00509 RGTR--
+180402002 Potaschbierg, Z.I.    01148  01148                % 00509 RGTR--
+180402001 Potaschbierg          01148  01148                % 00509 RGTR--
+180401007 Grevenmacher, Seiden  01150  01150                % 00509 RGTR--
+180401001 Grevenmacher, Copal   01151  01151                % 00509 RGTR--
+180401008 Grevenmacher, Tanneu  01152  01152                % 00509 RGTR--
+180401003 Grevenmacher, Gare r  01154  01154                % 00509 RGTR--
+180401002 Grevenmacher, Enner   01155  01155                % 00509 RGTR--
+180401005 Grevenmacher, Route   01156  01156                % 00509 RGTR--
+180803002 Machtum, Deisermille  01157  01157                % 00509 RGTR--
+180803003 Machtum, Gellebur     01158  01158                % 00509 RGTR--
+180803001 Machtum, Bei Kallek'  01159                       % 00509 RGTR--
+*Z 00510 RGTR--                                             % 00510 RGTR--
+*L 130      200417050 180803001  01325  01359               % 00510 RGTR--
+*A ae 200417050 180803001 000000  01325  01359              % 00510 RGTR--
+*A OO 200417050 180803001 000000  01325  01359              % 00510 RGTR--
+*R 1 180803001 200417050 180803001  01325  01359            % 00510 RGTR--
+*G RGB 200417050 180803001  01325  01359                    % 00510 RGTR--
+*A VE 200417050 180803001 000000  01325  01359              % 00510 RGTR--
+*I FD 200417050 180803001        0001941  01325  01359      % 00510 RGTR--
+200417050 Kirchberg, Gare rout         01325                % 00510 RGTR--
+200508007 Senningerberg, Laang -01331  01331                % 00510 RGTR--
+200508008 Senningerberg, Mënst -01332  01332                % 00510 RGTR--
+200507003 Senningen, Um Kiem   -01334  01334                % 00510 RGTR--
+200507002 Senningen, Kierch    -01335  01335                % 00510 RGTR--
+200504006 Niederanven, Routsch -01336  01336                % 00510 RGTR--
+200504001 Niederanven, Geisfel  01337  01337                % 00510 RGTR--
+180106005 Roodt/Syre, Rothoich  01338  01338                % 00510 RGTR--
+180106002 Roodt/Syre, Campus s  01339  01339                % 00510 RGTR--
+180106001 Roodt/Syre, Barriär   01340  01340                % 00510 RGTR--
+180101001 Banzelt               01342  01342                % 00510 RGTR--
+180102002 Berg, Haff Biel       01344  01344                % 00510 RGTR--
+180102001 Berg, Bei der Schmet  01344  01344                % 00510 RGTR--
+180402002 Potaschbierg, Z.I.    01348  01348                % 00510 RGTR--
+180402001 Potaschbierg          01348  01348                % 00510 RGTR--
+180401007 Grevenmacher, Seiden  01350  01350                % 00510 RGTR--
+180401001 Grevenmacher, Copal   01351  01351                % 00510 RGTR--
+180401008 Grevenmacher, Tanneu  01352  01352                % 00510 RGTR--
+180401003 Grevenmacher, Gare r  01354  01354                % 00510 RGTR--
+180401002 Grevenmacher, Enner   01355  01355                % 00510 RGTR--
+180401005 Grevenmacher, Route   01356  01356                % 00510 RGTR--
+180803002 Machtum, Deisermille  01357  01357                % 00510 RGTR--
+180803003 Machtum, Gellebur     01358  01358                % 00510 RGTR--
+180803001 Machtum, Bei Kallek'  01359                       % 00510 RGTR--
+*Z 00511 RGTR--                                             % 00511 RGTR--
+*L 130      200417050 180803001  01525  01559               % 00511 RGTR--
+*A ae 200417050 180803001 000000  01525  01559              % 00511 RGTR--
+*R 1 180803001 200417050 180803001  01525  01559            % 00511 RGTR--
+*G RGB 200417050 180803001  01525  01559                    % 00511 RGTR--
+*A VE 200417050 180803001 000000  01525  01559              % 00511 RGTR--
+*I FD 200417050 180803001        0001942  01525  01559      % 00511 RGTR--
+200417050 Kirchberg, Gare rout         01525                % 00511 RGTR--
+200508007 Senningerberg, Laang -01531  01531                % 00511 RGTR--
+200508008 Senningerberg, Mënst -01532  01532                % 00511 RGTR--
+200507003 Senningen, Um Kiem   -01534  01534                % 00511 RGTR--
+200507002 Senningen, Kierch    -01535  01535                % 00511 RGTR--
+200504006 Niederanven, Routsch -01536  01536                % 00511 RGTR--
+200504001 Niederanven, Geisfel  01537  01537                % 00511 RGTR--
+180106005 Roodt/Syre, Rothoich  01538  01538                % 00511 RGTR--
+180106002 Roodt/Syre, Campus s  01539  01539                % 00511 RGTR--
+180106001 Roodt/Syre, Barriär   01540  01540                % 00511 RGTR--
+180101001 Banzelt               01542  01542                % 00511 RGTR--
+180102002 Berg, Haff Biel       01544  01544                % 00511 RGTR--
+180102001 Berg, Bei der Schmet  01544  01544                % 00511 RGTR--
+180402002 Potaschbierg, Z.I.    01548  01548                % 00511 RGTR--
+180402001 Potaschbierg          01548  01548                % 00511 RGTR--
+180401007 Grevenmacher, Seiden  01550  01550                % 00511 RGTR--
+180401001 Grevenmacher, Copal   01551  01551                % 00511 RGTR--
+180401008 Grevenmacher, Tanneu  01552  01552                % 00511 RGTR--
+180401003 Grevenmacher, Gare r  01554  01554                % 00511 RGTR--
+180401002 Grevenmacher, Enner   01555  01555                % 00511 RGTR--
+180401005 Grevenmacher, Route   01556  01556                % 00511 RGTR--
+180803002 Machtum, Deisermille  01557  01557                % 00511 RGTR--
+180803003 Machtum, Gellebur     01558  01558                % 00511 RGTR--
+180803001 Machtum, Bei Kallek'  01559                       % 00511 RGTR--
+*Z 00512 RGTR--                                             % 00512 RGTR--
+*L 130      200417050 180803001  01925  01959               % 00512 RGTR--
+*A ae 200417050 180803001 000000  01925  01959              % 00512 RGTR--
+*A ON 200417050 180803001 000000  01925  01959              % 00512 RGTR--
+*A OO 200417050 180803001 000000  01925  01959              % 00512 RGTR--
+*R 1 180803001 200417050 180803001  01925  01959            % 00512 RGTR--
+*G RGB 200417050 180803001  01925  01959                    % 00512 RGTR--
+*A VE 200417050 180803001 000000  01925  01959              % 00512 RGTR--
+*I FD 200417050 180803001        0001943  01925  01959      % 00512 RGTR--
+200417050 Kirchberg, Gare rout         01925                % 00512 RGTR--
+200508007 Senningerberg, Laang -01931  01931                % 00512 RGTR--
+200508008 Senningerberg, Mënst -01932  01932                % 00512 RGTR--
+200507003 Senningen, Um Kiem   -01934  01934                % 00512 RGTR--
+200507002 Senningen, Kierch    -01935  01935                % 00512 RGTR--
+200504006 Niederanven, Routsch -01936  01936                % 00512 RGTR--
+200504001 Niederanven, Geisfel  01937  01937                % 00512 RGTR--
+180106005 Roodt/Syre, Rothoich  01938  01938                % 00512 RGTR--
+180106002 Roodt/Syre, Campus s  01939  01939                % 00512 RGTR--
+180106001 Roodt/Syre, Barriär   01940  01940                % 00512 RGTR--
+180101001 Banzelt               01942  01942                % 00512 RGTR--
+180102002 Berg, Haff Biel       01944  01944                % 00512 RGTR--
+180102001 Berg, Bei der Schmet  01944  01944                % 00512 RGTR--
+180402002 Potaschbierg, Z.I.    01948  01948                % 00512 RGTR--
+180402001 Potaschbierg          01948  01948                % 00512 RGTR--
+180401007 Grevenmacher, Seiden  01950  01950                % 00512 RGTR--
+180401001 Grevenmacher, Copal   01951  01951                % 00512 RGTR--
+180401008 Grevenmacher, Tanneu  01952  01952                % 00512 RGTR--
+180401003 Grevenmacher, Gare r  01954  01954                % 00512 RGTR--
+180401002 Grevenmacher, Enner   01955  01955                % 00512 RGTR--
+180401005 Grevenmacher, Route   01956  01956                % 00512 RGTR--
+180803002 Machtum, Deisermille  01957  01957                % 00512 RGTR--
+180803003 Machtum, Gellebur     01958  01958                % 00512 RGTR--
+180803001 Machtum, Bei Kallek'  01959                       % 00512 RGTR--
+*Z 00513 RGTR--                                             % 00513 RGTR--
+*L 130      200417050 180803001  01025  01059               % 00513 RGTR--
+*A ae 200417050 180803001 000001  01025  01059              % 00513 RGTR--
+*A OO 200417050 180803001 000001  01025  01059              % 00513 RGTR--
+*R 1 180803001 200417050 180803001  01025  01059            % 00513 RGTR--
+*G RGB 200417050 180803001  01025  01059                    % 00513 RGTR--
+*A VE 200417050 180803001 000001  01025  01059              % 00513 RGTR--
+*I FD 200417050 180803001        0001944  01025  01059      % 00513 RGTR--
+200417050 Kirchberg, Gare rout         01025                % 00513 RGTR--
+200508007 Senningerberg, Laang -01031  01031                % 00513 RGTR--
+200508008 Senningerberg, Mënst -01032  01032                % 00513 RGTR--
+200507003 Senningen, Um Kiem   -01034  01034                % 00513 RGTR--
+200507002 Senningen, Kierch    -01035  01035                % 00513 RGTR--
+200504006 Niederanven, Routsch -01036  01036                % 00513 RGTR--
+200504001 Niederanven, Geisfel  01037  01037                % 00513 RGTR--
+180106005 Roodt/Syre, Rothoich  01038  01038                % 00513 RGTR--
+180106002 Roodt/Syre, Campus s  01039  01039                % 00513 RGTR--
+180106001 Roodt/Syre, Barriär   01040  01040                % 00513 RGTR--
+180101001 Banzelt               01042  01042                % 00513 RGTR--
+180102002 Berg, Haff Biel       01044  01044                % 00513 RGTR--
+180102001 Berg, Bei der Schmet  01044  01044                % 00513 RGTR--
+180402002 Potaschbierg, Z.I.    01048  01048                % 00513 RGTR--
+180402001 Potaschbierg          01048  01048                % 00513 RGTR--
+180401007 Grevenmacher, Seiden  01050  01050                % 00513 RGTR--
+180401001 Grevenmacher, Copal   01051  01051                % 00513 RGTR--
+180401008 Grevenmacher, Tanneu  01052  01052                % 00513 RGTR--
+180401003 Grevenmacher, Gare r  01054  01054                % 00513 RGTR--
+180401002 Grevenmacher, Enner   01055  01055                % 00513 RGTR--
+180401005 Grevenmacher, Route   01056  01056                % 00513 RGTR--
+180803002 Machtum, Deisermille  01057  01057                % 00513 RGTR--
+180803003 Machtum, Gellebur     01058  01058                % 00513 RGTR--
+180803001 Machtum, Bei Kallek'  01059                       % 00513 RGTR--
+*Z 00514 RGTR--                                             % 00514 RGTR--
+*L 130      200417050 180803001  01225  01259               % 00514 RGTR--
+*A ae 200417050 180803001 000001  01225  01259              % 00514 RGTR--
+*A OO 200417050 180803001 000001  01225  01259              % 00514 RGTR--
+*R 1 180803001 200417050 180803001  01225  01259            % 00514 RGTR--
+*G RGB 200417050 180803001  01225  01259                    % 00514 RGTR--
+*A VE 200417050 180803001 000001  01225  01259              % 00514 RGTR--
+*I FD 200417050 180803001        0001945  01225  01259      % 00514 RGTR--
+200417050 Kirchberg, Gare rout         01225                % 00514 RGTR--
+200508007 Senningerberg, Laang -01231  01231                % 00514 RGTR--
+200508008 Senningerberg, Mënst -01232  01232                % 00514 RGTR--
+200507003 Senningen, Um Kiem   -01234  01234                % 00514 RGTR--
+200507002 Senningen, Kierch    -01235  01235                % 00514 RGTR--
+200504006 Niederanven, Routsch -01236  01236                % 00514 RGTR--
+200504001 Niederanven, Geisfel  01237  01237                % 00514 RGTR--
+180106005 Roodt/Syre, Rothoich  01238  01238                % 00514 RGTR--
+180106002 Roodt/Syre, Campus s  01239  01239                % 00514 RGTR--
+180106001 Roodt/Syre, Barriär   01240  01240                % 00514 RGTR--
+180101001 Banzelt               01242  01242                % 00514 RGTR--
+180102002 Berg, Haff Biel       01244  01244                % 00514 RGTR--
+180102001 Berg, Bei der Schmet  01244  01244                % 00514 RGTR--
+180402002 Potaschbierg, Z.I.    01248  01248                % 00514 RGTR--
+180402001 Potaschbierg          01248  01248                % 00514 RGTR--
+180401007 Grevenmacher, Seiden  01250  01250                % 00514 RGTR--
+180401001 Grevenmacher, Copal   01251  01251                % 00514 RGTR--
+180401008 Grevenmacher, Tanneu  01252  01252                % 00514 RGTR--
+180401003 Grevenmacher, Gare r  01254  01254                % 00514 RGTR--
+180401002 Grevenmacher, Enner   01255  01255                % 00514 RGTR--
+180401005 Grevenmacher, Route   01256  01256                % 00514 RGTR--
+180803002 Machtum, Deisermille  01257  01257                % 00514 RGTR--
+180803003 Machtum, Gellebur     01258  01258                % 00514 RGTR--
+180803001 Machtum, Bei Kallek'  01259                       % 00514 RGTR--
+*Z 00515 RGTR--                                             % 00515 RGTR--
+*L 130      200417050 180803001  01425  01459               % 00515 RGTR--
+*A ae 200417050 180803001 000001  01425  01459              % 00515 RGTR--
+*A OO 200417050 180803001 000001  01425  01459              % 00515 RGTR--
+*R 1 180803001 200417050 180803001  01425  01459            % 00515 RGTR--
+*G RGB 200417050 180803001  01425  01459                    % 00515 RGTR--
+*A VE 200417050 180803001 000001  01425  01459              % 00515 RGTR--
+*I FD 200417050 180803001        0001946  01425  01459      % 00515 RGTR--
+200417050 Kirchberg, Gare rout         01425                % 00515 RGTR--
+200508007 Senningerberg, Laang -01431  01431                % 00515 RGTR--
+200508008 Senningerberg, Mënst -01432  01432                % 00515 RGTR--
+200507003 Senningen, Um Kiem   -01434  01434                % 00515 RGTR--
+200507002 Senningen, Kierch    -01435  01435                % 00515 RGTR--
+200504006 Niederanven, Routsch -01436  01436                % 00515 RGTR--
+200504001 Niederanven, Geisfel  01437  01437                % 00515 RGTR--
+180106005 Roodt/Syre, Rothoich  01438  01438                % 00515 RGTR--
+180106002 Roodt/Syre, Campus s  01439  01439                % 00515 RGTR--
+180106001 Roodt/Syre, Barriär   01440  01440                % 00515 RGTR--
+180101001 Banzelt               01442  01442                % 00515 RGTR--
+180102002 Berg, Haff Biel       01444  01444                % 00515 RGTR--
+180102001 Berg, Bei der Schmet  01444  01444                % 00515 RGTR--
+180402002 Potaschbierg, Z.I.    01448  01448                % 00515 RGTR--
+180402001 Potaschbierg          01448  01448                % 00515 RGTR--
+180401007 Grevenmacher, Seiden  01450  01450                % 00515 RGTR--
+180401001 Grevenmacher, Copal   01451  01451                % 00515 RGTR--
+180401008 Grevenmacher, Tanneu  01452  01452                % 00515 RGTR--
+180401003 Grevenmacher, Gare r  01454  01454                % 00515 RGTR--
+180401002 Grevenmacher, Enner   01455  01455                % 00515 RGTR--
+180401005 Grevenmacher, Route   01456  01456                % 00515 RGTR--
+180803002 Machtum, Deisermille  01457  01457                % 00515 RGTR--
+180803003 Machtum, Gellebur     01458  01458                % 00515 RGTR--
+180803001 Machtum, Bei Kallek'  01459                       % 00515 RGTR--
+*Z 00516 RGTR--                                             % 00516 RGTR--
+*L 130      200417050 180803001  02025  02059               % 00516 RGTR--
+*A ae 200417050 180803001 000001  02025  02059              % 00516 RGTR--
+*R 1 180803001 200417050 180803001  02025  02059            % 00516 RGTR--
+*G RGB 200417050 180803001  02025  02059                    % 00516 RGTR--
+*A VE 200417050 180803001 000001  02025  02059              % 00516 RGTR--
+*I FD 200417050 180803001        0001947  02025  02059      % 00516 RGTR--
+200417050 Kirchberg, Gare rout         02025                % 00516 RGTR--
+200508007 Senningerberg, Laang -02031  02031                % 00516 RGTR--
+200508008 Senningerberg, Mënst -02032  02032                % 00516 RGTR--
+200507003 Senningen, Um Kiem   -02034  02034                % 00516 RGTR--
+200507002 Senningen, Kierch    -02035  02035                % 00516 RGTR--
+200504006 Niederanven, Routsch -02036  02036                % 00516 RGTR--
+200504001 Niederanven, Geisfel  02037  02037                % 00516 RGTR--
+180106005 Roodt/Syre, Rothoich  02038  02038                % 00516 RGTR--
+180106002 Roodt/Syre, Campus s  02039  02039                % 00516 RGTR--
+180106001 Roodt/Syre, Barriär   02040  02040                % 00516 RGTR--
+180101001 Banzelt               02042  02042                % 00516 RGTR--
+180102002 Berg, Haff Biel       02044  02044                % 00516 RGTR--
+180102001 Berg, Bei der Schmet  02044  02044                % 00516 RGTR--
+180402002 Potaschbierg, Z.I.    02048  02048                % 00516 RGTR--
+180402001 Potaschbierg          02048  02048                % 00516 RGTR--
+180401007 Grevenmacher, Seiden  02050  02050                % 00516 RGTR--
+180401001 Grevenmacher, Copal   02051  02051                % 00516 RGTR--
+180401008 Grevenmacher, Tanneu  02052  02052                % 00516 RGTR--
+180401003 Grevenmacher, Gare r  02054  02054                % 00516 RGTR--
+180401002 Grevenmacher, Enner   02055  02055                % 00516 RGTR--
+180401005 Grevenmacher, Route   02056  02056                % 00516 RGTR--
+180803002 Machtum, Deisermille  02057  02057                % 00516 RGTR--
+180803003 Machtum, Gellebur     02058  02058                % 00516 RGTR--
+180803001 Machtum, Bei Kallek'  02059                       % 00516 RGTR--
+*Z 00517 RGTR--                                             % 00517 RGTR--
+*L 130      200417050 180803001  02125  02159               % 00517 RGTR--
+*A ae 200417050 180803001 000001  02125  02159              % 00517 RGTR--
+*R 1 180803001 200417050 180803001  02125  02159            % 00517 RGTR--
+*G RGB 200417050 180803001  02125  02159                    % 00517 RGTR--
+*A VE 200417050 180803001 000001  02125  02159              % 00517 RGTR--
+*I FD 200417050 180803001        0001948  02125  02159      % 00517 RGTR--
+200417050 Kirchberg, Gare rout         02125                % 00517 RGTR--
+200508007 Senningerberg, Laang -02131  02131                % 00517 RGTR--
+200508008 Senningerberg, Mënst -02132  02132                % 00517 RGTR--
+200507003 Senningen, Um Kiem   -02134  02134                % 00517 RGTR--
+200507002 Senningen, Kierch    -02135  02135                % 00517 RGTR--
+200504006 Niederanven, Routsch -02136  02136                % 00517 RGTR--
+200504001 Niederanven, Geisfel  02137  02137                % 00517 RGTR--
+180106005 Roodt/Syre, Rothoich  02138  02138                % 00517 RGTR--
+180106002 Roodt/Syre, Campus s  02139  02139                % 00517 RGTR--
+180106001 Roodt/Syre, Barriär   02140  02140                % 00517 RGTR--
+180101001 Banzelt               02142  02142                % 00517 RGTR--
+180102002 Berg, Haff Biel       02144  02144                % 00517 RGTR--
+180102001 Berg, Bei der Schmet  02144  02144                % 00517 RGTR--
+180402002 Potaschbierg, Z.I.    02148  02148                % 00517 RGTR--
+180402001 Potaschbierg          02148  02148                % 00517 RGTR--
+180401007 Grevenmacher, Seiden  02150  02150                % 00517 RGTR--
+180401001 Grevenmacher, Copal   02151  02151                % 00517 RGTR--
+180401008 Grevenmacher, Tanneu  02152  02152                % 00517 RGTR--
+180401003 Grevenmacher, Gare r  02154  02154                % 00517 RGTR--
+180401002 Grevenmacher, Enner   02155  02155                % 00517 RGTR--
+180401005 Grevenmacher, Route   02156  02156                % 00517 RGTR--
+180803002 Machtum, Deisermille  02157  02157                % 00517 RGTR--
+180803003 Machtum, Gellebur     02158  02158                % 00517 RGTR--
+180803001 Machtum, Bei Kallek'  02159                       % 00517 RGTR--
+*Z 00518 RGTR--                                             % 00518 RGTR--
+*L 130      200417050 180803001  02225  02259               % 00518 RGTR--
+*A ae 200417050 180803001 000001  02225  02259              % 00518 RGTR--
+*R 1 180803001 200417050 180803001  02225  02259            % 00518 RGTR--
+*G RGB 200417050 180803001  02225  02259                    % 00518 RGTR--
+*A VE 200417050 180803001 000001  02225  02259              % 00518 RGTR--
+*I FD 200417050 180803001        0001949  02225  02259      % 00518 RGTR--
+200417050 Kirchberg, Gare rout         02225                % 00518 RGTR--
+200508007 Senningerberg, Laang -02231  02231                % 00518 RGTR--
+200508008 Senningerberg, Mënst -02232  02232                % 00518 RGTR--
+200507003 Senningen, Um Kiem   -02234  02234                % 00518 RGTR--
+200507002 Senningen, Kierch    -02235  02235                % 00518 RGTR--
+200504006 Niederanven, Routsch -02236  02236                % 00518 RGTR--
+200504001 Niederanven, Geisfel  02237  02237                % 00518 RGTR--
+180106005 Roodt/Syre, Rothoich  02238  02238                % 00518 RGTR--
+180106002 Roodt/Syre, Campus s  02239  02239                % 00518 RGTR--
+180106001 Roodt/Syre, Barriär   02240  02240                % 00518 RGTR--
+180101001 Banzelt               02242  02242                % 00518 RGTR--
+180102002 Berg, Haff Biel       02244  02244                % 00518 RGTR--
+180102001 Berg, Bei der Schmet  02244  02244                % 00518 RGTR--
+180402002 Potaschbierg, Z.I.    02248  02248                % 00518 RGTR--
+180402001 Potaschbierg          02248  02248                % 00518 RGTR--
+180401007 Grevenmacher, Seiden  02250  02250                % 00518 RGTR--
+180401001 Grevenmacher, Copal   02251  02251                % 00518 RGTR--
+180401008 Grevenmacher, Tanneu  02252  02252                % 00518 RGTR--
+180401003 Grevenmacher, Gare r  02254  02254                % 00518 RGTR--
+180401002 Grevenmacher, Enner   02255  02255                % 00518 RGTR--
+180401005 Grevenmacher, Route   02256  02256                % 00518 RGTR--
+180803002 Machtum, Deisermille  02257  02257                % 00518 RGTR--
+180803003 Machtum, Gellebur     02258  02258                % 00518 RGTR--
+180803001 Machtum, Bei Kallek'  02259                       % 00518 RGTR--
+*Z 00519 RGTR--                                             % 00519 RGTR--
+*L 130      200417050 180803001  02325  02359               % 00519 RGTR--
+*A ae 200417050 180803001 000001  02325  02359              % 00519 RGTR--
+*R 1 180803001 200417050 180803001  02325  02359            % 00519 RGTR--
+*G RGB 200417050 180803001  02325  02359                    % 00519 RGTR--
+*A VE 200417050 180803001 000001  02325  02359              % 00519 RGTR--
+*I FD 200417050 180803001        0001950  02325  02359      % 00519 RGTR--
+200417050 Kirchberg, Gare rout         02325                % 00519 RGTR--
+200508007 Senningerberg, Laang -02331  02331                % 00519 RGTR--
+200508008 Senningerberg, Mënst -02332  02332                % 00519 RGTR--
+200507003 Senningen, Um Kiem   -02334  02334                % 00519 RGTR--
+200507002 Senningen, Kierch    -02335  02335                % 00519 RGTR--
+200504006 Niederanven, Routsch -02336  02336                % 00519 RGTR--
+200504001 Niederanven, Geisfel  02337  02337                % 00519 RGTR--
+180106005 Roodt/Syre, Rothoich  02338  02338                % 00519 RGTR--
+180106002 Roodt/Syre, Campus s  02339  02339                % 00519 RGTR--
+180106001 Roodt/Syre, Barriär   02340  02340                % 00519 RGTR--
+180101001 Banzelt               02342  02342                % 00519 RGTR--
+180102002 Berg, Haff Biel       02344  02344                % 00519 RGTR--
+180102001 Berg, Bei der Schmet  02344  02344                % 00519 RGTR--
+180402002 Potaschbierg, Z.I.    02348  02348                % 00519 RGTR--
+180402001 Potaschbierg          02348  02348                % 00519 RGTR--
+180401007 Grevenmacher, Seiden  02350  02350                % 00519 RGTR--
+180401001 Grevenmacher, Copal   02351  02351                % 00519 RGTR--
+180401008 Grevenmacher, Tanneu  02352  02352                % 00519 RGTR--
+180401003 Grevenmacher, Gare r  02354  02354                % 00519 RGTR--
+180401002 Grevenmacher, Enner   02355  02355                % 00519 RGTR--
+180401005 Grevenmacher, Route   02356  02356                % 00519 RGTR--
+180803002 Machtum, Deisermille  02357  02357                % 00519 RGTR--
+180803003 Machtum, Gellebur     02358  02358                % 00519 RGTR--
+180803001 Machtum, Bei Kallek'  02359                       % 00519 RGTR--
+*Z 00046 RGTR--                                             % 00046 RGTR--
+*L 130      180401003 200417050  00715  00741               % 00046 RGTR--
+*A ae 180401003 200417050 000002  00715  00741              % 00046 RGTR--
+*A WC 180401003 200417050 000002  00715  00741              % 00046 RGTR--
+*R 2 200417050 180401003 200417050  00715  00741            % 00046 RGTR--
+*G RGB 180401003 200417050  00715  00741                    % 00046 RGTR--
+*A VE 180401003 200417050 000002  00715  00741              % 00046 RGTR--
+*I FD 180401003 200417050        0001951  00715  00741      % 00046 RGTR--
+180401003 Grevenmacher, Gare r         00715                % 00046 RGTR--
+180401008 Grevenmacher, Tanneu  00716  00716                % 00046 RGTR--
+180401001 Grevenmacher, Copal   00718  00718                % 00046 RGTR--
+180401007 Grevenmacher, Seiden  00719  00719                % 00046 RGTR--
+180402001 Potaschbierg          00721  00721                % 00046 RGTR--
+200417050 Kirchberg, Gare rout  00741                       % 00046 RGTR--
+*Z 00520 RGTR--                                             % 00520 RGTR--
+*L 130      180803004 200417050  00710  00740               % 00520 RGTR--
+*A ae 180803004 200417050 000005  00710  00740              % 00520 RGTR--
+*A WC 180803004 200417050 000005  00710  00740              % 00520 RGTR--
+*R 2 200417050 180803004 200417050  00710  00740            % 00520 RGTR--
+*G RGB 180803004 200417050  00710  00740                    % 00520 RGTR--
+*A VE 180803004 200417050 000005  00710  00740              % 00520 RGTR--
+*I FD 180803004 200417050        0001952  00710  00740      % 00520 RGTR--
+180803004 Machtum, Ongkaf              00710                % 00520 RGTR--
+180803003 Machtum, Gellebur     00710  00710                % 00520 RGTR--
+180803002 Machtum, Deisermille  00711  00711                % 00520 RGTR--
+180401005 Grevenmacher, Route   00712  00712                % 00520 RGTR--
+180401002 Grevenmacher, Enner   00713  00713                % 00520 RGTR--
+180401003 Grevenmacher, Gare r  00714  00714                % 00520 RGTR--
+180401008 Grevenmacher, Tanneu  00716  00716                % 00520 RGTR--
+180401001 Grevenmacher, Copal   00718  00718                % 00520 RGTR--
+180401007 Grevenmacher, Seiden  00719  00719                % 00520 RGTR--
+180402001 Potaschbierg          00720  00720                % 00520 RGTR--
+200417050 Kirchberg, Gare rout  00740                       % 00520 RGTR--
+*Z 00521 RGTR--                                             % 00521 RGTR--
+*L 130      180401003 200417050  00655  00725               % 00521 RGTR--
+*A ae 180401003 200417050 000001  00655  00725              % 00521 RGTR--
+*R 2 200417050 180401003 200417050  00655  00725            % 00521 RGTR--
+*G RGB 180401003 200417050  00655  00725                    % 00521 RGTR--
+*A VE 180401003 200417050 000001  00655  00725              % 00521 RGTR--
+*I FD 180401003 200417050        0001953  00655  00725      % 00521 RGTR--
+180401003 Grevenmacher, Gare r         00655                % 00521 RGTR--
+180401008 Grevenmacher, Tanneu  00656  00656                % 00521 RGTR--
+180401001 Grevenmacher, Copal   00658  00658                % 00521 RGTR--
+180401007 Grevenmacher, Seiden  00659  00659                % 00521 RGTR--
+180402001 Potaschbierg          00701  00701                % 00521 RGTR--
+180402002 Potaschbierg, Z.I.    00701  00701                % 00521 RGTR--
+180102001 Berg, Bei der Schmet  00705  00705                % 00521 RGTR--
+180102002 Berg, Haff Biel       00705  00705                % 00521 RGTR--
+180101001 Banzelt               00707  00707                % 00521 RGTR--
+180106001 Roodt/Syre, Barriär   00709  00709                % 00521 RGTR--
+180106002 Roodt/Syre, Campus s  00710  00710                % 00521 RGTR--
+180106005 Roodt/Syre, Rothoich  00711  00711                % 00521 RGTR--
+200504001 Niederanven, Geisfel  00713  00713                % 00521 RGTR--
+200504006 Niederanven, Routsch  00715 -00715                % 00521 RGTR--
+200507002 Senningen, Kierch     00715 -00715                % 00521 RGTR--
+200507003 Senningen, Um Kiem    00716 -00716                % 00521 RGTR--
+200508008 Senningerberg, Mënst  00719 -00719                % 00521 RGTR--
+200508007 Senningerberg, Laang  00720 -00720                % 00521 RGTR--
+200417050 Kirchberg, Gare rout  00725                       % 00521 RGTR--
+*Z 00522 RGTR--                                             % 00522 RGTR--
+*L 130      180401003 200417050  00725  00755               % 00522 RGTR--
+*A ae 180401003 200417050 000001  00725  00755              % 00522 RGTR--
+*R 2 200417050 180401003 200417050  00725  00755            % 00522 RGTR--
+*G RGB 180401003 200417050  00725  00755                    % 00522 RGTR--
+*A VE 180401003 200417050 000001  00725  00755              % 00522 RGTR--
+*I FD 180401003 200417050        0001954  00725  00755      % 00522 RGTR--
+180401003 Grevenmacher, Gare r         00725                % 00522 RGTR--
+180401008 Grevenmacher, Tanneu  00726  00726                % 00522 RGTR--
+180401001 Grevenmacher, Copal   00728  00728                % 00522 RGTR--
+180401007 Grevenmacher, Seiden  00729  00729                % 00522 RGTR--
+180402001 Potaschbierg          00731  00731                % 00522 RGTR--
+180402002 Potaschbierg, Z.I.    00731  00731                % 00522 RGTR--
+180102001 Berg, Bei der Schmet  00735  00735                % 00522 RGTR--
+180102002 Berg, Haff Biel       00735  00735                % 00522 RGTR--
+180101001 Banzelt               00737  00737                % 00522 RGTR--
+180106001 Roodt/Syre, Barriär   00739  00739                % 00522 RGTR--
+180106002 Roodt/Syre, Campus s  00740  00740                % 00522 RGTR--
+180106005 Roodt/Syre, Rothoich  00741  00741                % 00522 RGTR--
+200504001 Niederanven, Geisfel  00743  00743                % 00522 RGTR--
+200504006 Niederanven, Routsch  00745 -00745                % 00522 RGTR--
+200507002 Senningen, Kierch     00745 -00745                % 00522 RGTR--
+200507003 Senningen, Um Kiem    00746 -00746                % 00522 RGTR--
+200508008 Senningerberg, Mënst  00749 -00749                % 00522 RGTR--
+200508007 Senningerberg, Laang  00750 -00750                % 00522 RGTR--
+200417050 Kirchberg, Gare rout  00755                       % 00522 RGTR--
+*Z 00082 RGTR--                                             % 00082 RGTR--
+*L 130      180401003 200417050  00842  00912               % 00082 RGTR--
+*A ae 180401003 200417050 000001  00842  00912              % 00082 RGTR--
+*A TE 180401003 200417050 000001  00842  00912              % 00082 RGTR--
+*R 2 200417050 180401003 200417050  00842  00912            % 00082 RGTR--
+*G RGB 180401003 200417050  00842  00912                    % 00082 RGTR--
+*A VE 180401003 200417050 000001  00842  00912              % 00082 RGTR--
+*I FD 180401003 200417050        0001955  00842  00912      % 00082 RGTR--
+180401003 Grevenmacher, Gare r         00842                % 00082 RGTR--
+180401008 Grevenmacher, Tanneu  00843  00843                % 00082 RGTR--
+180401001 Grevenmacher, Copal   00845  00845                % 00082 RGTR--
+180401007 Grevenmacher, Seiden  00846  00846                % 00082 RGTR--
+180402001 Potaschbierg          00848  00848                % 00082 RGTR--
+180402002 Potaschbierg, Z.I.    00848  00848                % 00082 RGTR--
+180102001 Berg, Bei der Schmet  00852  00852                % 00082 RGTR--
+180102002 Berg, Haff Biel       00852  00852                % 00082 RGTR--
+180101001 Banzelt               00854  00854                % 00082 RGTR--
+180106001 Roodt/Syre, Barriär   00856  00856                % 00082 RGTR--
+180106002 Roodt/Syre, Campus s  00857  00857                % 00082 RGTR--
+180106005 Roodt/Syre, Rothoich  00858  00858                % 00082 RGTR--
+200504001 Niederanven, Geisfel  00900  00900                % 00082 RGTR--
+200504006 Niederanven, Routsch  00902 -00902                % 00082 RGTR--
+200507002 Senningen, Kierch     00902 -00902                % 00082 RGTR--
+200507003 Senningen, Um Kiem    00903 -00903                % 00082 RGTR--
+200508008 Senningerberg, Mënst  00906 -00906                % 00082 RGTR--
+200508007 Senningerberg, Laang  00907 -00907                % 00082 RGTR--
+200417050 Kirchberg, Gare rout  00912                       % 00082 RGTR--
+*Z 00203 RGTR--                                             % 00203 RGTR--
+*L 130      180401003 200417050  01642  01712               % 00203 RGTR--
+*A ae 180401003 200417050 000001  01642  01712              % 00203 RGTR--
+*A TE 180401003 200417050 000001  01642  01712              % 00203 RGTR--
+*R 2 200417050 180401003 200417050  01642  01712            % 00203 RGTR--
+*G RGB 180401003 200417050  01642  01712                    % 00203 RGTR--
+*A VE 180401003 200417050 000001  01642  01712              % 00203 RGTR--
+*I FD 180401003 200417050        0001253  01642  01712      % 00203 RGTR--
+180401003 Grevenmacher, Gare r         01642                % 00203 RGTR--
+180401008 Grevenmacher, Tanneu  01643  01643                % 00203 RGTR--
+180401001 Grevenmacher, Copal   01645  01645                % 00203 RGTR--
+180401007 Grevenmacher, Seiden  01646  01646                % 00203 RGTR--
+180402001 Potaschbierg          01648  01648                % 00203 RGTR--
+180402002 Potaschbierg, Z.I.    01648  01648                % 00203 RGTR--
+180102001 Berg, Bei der Schmet  01652  01652                % 00203 RGTR--
+180102002 Berg, Haff Biel       01652  01652                % 00203 RGTR--
+180101001 Banzelt               01654  01654                % 00203 RGTR--
+180106001 Roodt/Syre, Barriär   01656  01656                % 00203 RGTR--
+180106002 Roodt/Syre, Campus s  01657  01657                % 00203 RGTR--
+180106005 Roodt/Syre, Rothoich  01658  01658                % 00203 RGTR--
+200504001 Niederanven, Geisfel  01700  01700                % 00203 RGTR--
+200504006 Niederanven, Routsch  01702 -01702                % 00203 RGTR--
+200507002 Senningen, Kierch     01702 -01702                % 00203 RGTR--
+200507003 Senningen, Um Kiem    01703 -01703                % 00203 RGTR--
+200508008 Senningerberg, Mënst  01706 -01706                % 00203 RGTR--
+200508007 Senningerberg, Laang  01707 -01707                % 00203 RGTR--
+200417050 Kirchberg, Gare rout  01712                       % 00203 RGTR--
+*Z 00215 RGTR--                                             % 00215 RGTR--
+*L 130      180401003 200417050  01742  01812               % 00215 RGTR--
+*A ae 180401003 200417050 000001  01742  01812              % 00215 RGTR--
+*A TE 180401003 200417050 000001  01742  01812              % 00215 RGTR--
+*A WC 180401003 200417050 000001  01742  01812              % 00215 RGTR--
+*R 2 200417050 180401003 200417050  01742  01812            % 00215 RGTR--
+*G RGB 180401003 200417050  01742  01812                    % 00215 RGTR--
+*A VE 180401003 200417050 000001  01742  01812              % 00215 RGTR--
+*I FD 180401003 200417050        0001956  01742  01812      % 00215 RGTR--
+180401003 Grevenmacher, Gare r         01742                % 00215 RGTR--
+180401008 Grevenmacher, Tanneu  01743  01743                % 00215 RGTR--
+180401001 Grevenmacher, Copal   01745  01745                % 00215 RGTR--
+180401007 Grevenmacher, Seiden  01746  01746                % 00215 RGTR--
+180402001 Potaschbierg          01748  01748                % 00215 RGTR--
+180402002 Potaschbierg, Z.I.    01748  01748                % 00215 RGTR--
+180102001 Berg, Bei der Schmet  01752  01752                % 00215 RGTR--
+180102002 Berg, Haff Biel       01752  01752                % 00215 RGTR--
+180101001 Banzelt               01754  01754                % 00215 RGTR--
+180106001 Roodt/Syre, Barriär   01756  01756                % 00215 RGTR--
+180106002 Roodt/Syre, Campus s  01757  01757                % 00215 RGTR--
+180106005 Roodt/Syre, Rothoich  01758  01758                % 00215 RGTR--
+200504001 Niederanven, Geisfel  01800  01800                % 00215 RGTR--
+200504006 Niederanven, Routsch  01802 -01802                % 00215 RGTR--
+200507002 Senningen, Kierch     01802 -01802                % 00215 RGTR--
+200507003 Senningen, Um Kiem    01803 -01803                % 00215 RGTR--
+200508008 Senningerberg, Mënst  01806 -01806                % 00215 RGTR--
+200508007 Senningerberg, Laang  01807 -01807                % 00215 RGTR--
+200417050 Kirchberg, Gare rout  01812                       % 00215 RGTR--
+*Z 00006 RGTR--                                             % 00006 RGTR--
+*L 130      180401003 200417050  00542  00609               % 00006 RGTR--
+*A ae 180401003 200417050 000001  00542  00609              % 00006 RGTR--
+*A WC 180401003 200417050 000001  00542  00609              % 00006 RGTR--
+*R 2 200417050 180401003 200417050  00542  00609            % 00006 RGTR--
+*G RGB 180401003 200417050  00542  00609                    % 00006 RGTR--
+*A VE 180401003 200417050 000001  00542  00609              % 00006 RGTR--
+*I FD 180401003 200417050        0001957  00542  00609      % 00006 RGTR--
+180401003 Grevenmacher, Gare r         00542                % 00006 RGTR--
+180401008 Grevenmacher, Tanneu  00543  00543                % 00006 RGTR--
+180401001 Grevenmacher, Copal   00544  00544                % 00006 RGTR--
+180401007 Grevenmacher, Seiden  00545  00545                % 00006 RGTR--
+180402001 Potaschbierg          00547  00547                % 00006 RGTR--
+180402002 Potaschbierg, Z.I.    00547  00547                % 00006 RGTR--
+180102001 Berg, Bei der Schmet  00551  00551                % 00006 RGTR--
+180102002 Berg, Haff Biel       00551  00551                % 00006 RGTR--
+180101001 Banzelt               00553  00553                % 00006 RGTR--
+180106001 Roodt/Syre, Barriär   00555  00555                % 00006 RGTR--
+180106002 Roodt/Syre, Campus s  00556  00556                % 00006 RGTR--
+180106005 Roodt/Syre, Rothoich  00557  00557                % 00006 RGTR--
+200504001 Niederanven, Geisfel  00559  00559                % 00006 RGTR--
+200504006 Niederanven, Routsch  00600 -00600                % 00006 RGTR--
+200507002 Senningen, Kierch     00600 -00600                % 00006 RGTR--
+200507003 Senningen, Um Kiem    00601 -00601                % 00006 RGTR--
+200508008 Senningerberg, Mënst  00604 -00604                % 00006 RGTR--
+200508007 Senningerberg, Laang  00604 -00604                % 00006 RGTR--
+200417050 Kirchberg, Gare rout  00609                       % 00006 RGTR--
+*Z 00090 RGTR--                                             % 00090 RGTR--
+*L 130      180401003 200417050  00942  01009               % 00090 RGTR--
+*A ae 180401003 200417050 000001  00942  01009              % 00090 RGTR--
+*A TE 180401003 200417050 000001  00942  01009              % 00090 RGTR--
+*R 2 200417050 180401003 200417050  00942  01009            % 00090 RGTR--
+*G RGB 180401003 200417050  00942  01009                    % 00090 RGTR--
+*A VE 180401003 200417050 000001  00942  01009              % 00090 RGTR--
+*I FD 180401003 200417050        0001958  00942  01009      % 00090 RGTR--
+180401003 Grevenmacher, Gare r         00942                % 00090 RGTR--
+180401008 Grevenmacher, Tanneu  00943  00943                % 00090 RGTR--
+180401001 Grevenmacher, Copal   00944  00944                % 00090 RGTR--
+180401007 Grevenmacher, Seiden  00945  00945                % 00090 RGTR--
+180402001 Potaschbierg          00947  00947                % 00090 RGTR--
+180402002 Potaschbierg, Z.I.    00947  00947                % 00090 RGTR--
+180102001 Berg, Bei der Schmet  00951  00951                % 00090 RGTR--
+180102002 Berg, Haff Biel       00951  00951                % 00090 RGTR--
+180101001 Banzelt               00953  00953                % 00090 RGTR--
+180106001 Roodt/Syre, Barriär   00955  00955                % 00090 RGTR--
+180106002 Roodt/Syre, Campus s  00956  00956                % 00090 RGTR--
+180106005 Roodt/Syre, Rothoich  00957  00957                % 00090 RGTR--
+200504001 Niederanven, Geisfel  00959  00959                % 00090 RGTR--
+200504006 Niederanven, Routsch  01000 -01000                % 00090 RGTR--
+200507002 Senningen, Kierch     01000 -01000                % 00090 RGTR--
+200507003 Senningen, Um Kiem    01001 -01001                % 00090 RGTR--
+200508008 Senningerberg, Mënst  01004 -01004                % 00090 RGTR--
+200508007 Senningerberg, Laang  01004 -01004                % 00090 RGTR--
+200417050 Kirchberg, Gare rout  01009                       % 00090 RGTR--
+*Z 00102 RGTR--                                             % 00102 RGTR--
+*L 130      180401003 200417050  01042  01109               % 00102 RGTR--
+*A ae 180401003 200417050 000001  01042  01109              % 00102 RGTR--
+*A TE 180401003 200417050 000001  01042  01109              % 00102 RGTR--
+*R 2 200417050 180401003 200417050  01042  01109            % 00102 RGTR--
+*G RGB 180401003 200417050  01042  01109                    % 00102 RGTR--
+*A VE 180401003 200417050 000001  01042  01109              % 00102 RGTR--
+*I FD 180401003 200417050        0001959  01042  01109      % 00102 RGTR--
+180401003 Grevenmacher, Gare r         01042                % 00102 RGTR--
+180401008 Grevenmacher, Tanneu  01043  01043                % 00102 RGTR--
+180401001 Grevenmacher, Copal   01044  01044                % 00102 RGTR--
+180401007 Grevenmacher, Seiden  01045  01045                % 00102 RGTR--
+180402001 Potaschbierg          01047  01047                % 00102 RGTR--
+180402002 Potaschbierg, Z.I.    01047  01047                % 00102 RGTR--
+180102001 Berg, Bei der Schmet  01051  01051                % 00102 RGTR--
+180102002 Berg, Haff Biel       01051  01051                % 00102 RGTR--
+180101001 Banzelt               01053  01053                % 00102 RGTR--
+180106001 Roodt/Syre, Barriär   01055  01055                % 00102 RGTR--
+180106002 Roodt/Syre, Campus s  01056  01056                % 00102 RGTR--
+180106005 Roodt/Syre, Rothoich  01057  01057                % 00102 RGTR--
+200504001 Niederanven, Geisfel  01059  01059                % 00102 RGTR--
+200504006 Niederanven, Routsch  01100 -01100                % 00102 RGTR--
+200507002 Senningen, Kierch     01100 -01100                % 00102 RGTR--
+200507003 Senningen, Um Kiem    01101 -01101                % 00102 RGTR--
+200508008 Senningerberg, Mënst  01104 -01104                % 00102 RGTR--
+200508007 Senningerberg, Laang  01104 -01104                % 00102 RGTR--
+200417050 Kirchberg, Gare rout  01109                       % 00102 RGTR--
+*Z 00113 RGTR--                                             % 00113 RGTR--
+*L 130      180401003 200417050  01142  01209               % 00113 RGTR--
+*A ae 180401003 200417050 000001  01142  01209              % 00113 RGTR--
+*A TE 180401003 200417050 000001  01142  01209              % 00113 RGTR--
+*R 2 200417050 180401003 200417050  01142  01209            % 00113 RGTR--
+*G RGB 180401003 200417050  01142  01209                    % 00113 RGTR--
+*A VE 180401003 200417050 000001  01142  01209              % 00113 RGTR--
+*I FD 180401003 200417050        0001960  01142  01209      % 00113 RGTR--
+180401003 Grevenmacher, Gare r         01142                % 00113 RGTR--
+180401008 Grevenmacher, Tanneu  01143  01143                % 00113 RGTR--
+180401001 Grevenmacher, Copal   01144  01144                % 00113 RGTR--
+180401007 Grevenmacher, Seiden  01145  01145                % 00113 RGTR--
+180402001 Potaschbierg          01147  01147                % 00113 RGTR--
+180402002 Potaschbierg, Z.I.    01147  01147                % 00113 RGTR--
+180102001 Berg, Bei der Schmet  01151  01151                % 00113 RGTR--
+180102002 Berg, Haff Biel       01151  01151                % 00113 RGTR--
+180101001 Banzelt               01153  01153                % 00113 RGTR--
+180106001 Roodt/Syre, Barriär   01155  01155                % 00113 RGTR--
+180106002 Roodt/Syre, Campus s  01156  01156                % 00113 RGTR--
+180106005 Roodt/Syre, Rothoich  01157  01157                % 00113 RGTR--
+200504001 Niederanven, Geisfel  01159  01159                % 00113 RGTR--
+200504006 Niederanven, Routsch  01200 -01200                % 00113 RGTR--
+200507002 Senningen, Kierch     01200 -01200                % 00113 RGTR--
+200507003 Senningen, Um Kiem    01201 -01201                % 00113 RGTR--
+200508008 Senningerberg, Mënst  01204 -01204                % 00113 RGTR--
+200508007 Senningerberg, Laang  01204 -01204                % 00113 RGTR--
+200417050 Kirchberg, Gare rout  01209                       % 00113 RGTR--
+*Z 00123 RGTR--                                             % 00123 RGTR--
+*L 130      180401003 200417050  01242  01309               % 00123 RGTR--
+*A ae 180401003 200417050 000001  01242  01309              % 00123 RGTR--
+*A TE 180401003 200417050 000001  01242  01309              % 00123 RGTR--
+*R 2 200417050 180401003 200417050  01242  01309            % 00123 RGTR--
+*G RGB 180401003 200417050  01242  01309                    % 00123 RGTR--
+*A VE 180401003 200417050 000001  01242  01309              % 00123 RGTR--
+*I FD 180401003 200417050        0001120  01242  01309      % 00123 RGTR--
+180401003 Grevenmacher, Gare r         01242                % 00123 RGTR--
+180401008 Grevenmacher, Tanneu  01243  01243                % 00123 RGTR--
+180401001 Grevenmacher, Copal   01244  01244                % 00123 RGTR--
+180401007 Grevenmacher, Seiden  01245  01245                % 00123 RGTR--
+180402001 Potaschbierg          01247  01247                % 00123 RGTR--
+180402002 Potaschbierg, Z.I.    01247  01247                % 00123 RGTR--
+180102001 Berg, Bei der Schmet  01251  01251                % 00123 RGTR--
+180102002 Berg, Haff Biel       01251  01251                % 00123 RGTR--
+180101001 Banzelt               01253  01253                % 00123 RGTR--
+180106001 Roodt/Syre, Barriär   01255  01255                % 00123 RGTR--
+180106002 Roodt/Syre, Campus s  01256  01256                % 00123 RGTR--
+180106005 Roodt/Syre, Rothoich  01257  01257                % 00123 RGTR--
+200504001 Niederanven, Geisfel  01259  01259                % 00123 RGTR--
+200504006 Niederanven, Routsch  01300 -01300                % 00123 RGTR--
+200507002 Senningen, Kierch     01300 -01300                % 00123 RGTR--
+200507003 Senningen, Um Kiem    01301 -01301                % 00123 RGTR--
+200508008 Senningerberg, Mënst  01304 -01304                % 00123 RGTR--
+200508007 Senningerberg, Laang  01304 -01304                % 00123 RGTR--
+200417050 Kirchberg, Gare rout  01309                       % 00123 RGTR--
+*Z 00141 RGTR--                                             % 00141 RGTR--
+*L 130      180401003 200417050  01342  01409               % 00141 RGTR--
+*A ae 180401003 200417050 000001  01342  01409              % 00141 RGTR--
+*A TE 180401003 200417050 000001  01342  01409              % 00141 RGTR--
+*R 2 200417050 180401003 200417050  01342  01409            % 00141 RGTR--
+*G RGB 180401003 200417050  01342  01409                    % 00141 RGTR--
+*A VE 180401003 200417050 000001  01342  01409              % 00141 RGTR--
+*I FD 180401003 200417050        0001961  01342  01409      % 00141 RGTR--
+180401003 Grevenmacher, Gare r         01342                % 00141 RGTR--
+180401008 Grevenmacher, Tanneu  01343  01343                % 00141 RGTR--
+180401001 Grevenmacher, Copal   01344  01344                % 00141 RGTR--
+180401007 Grevenmacher, Seiden  01345  01345                % 00141 RGTR--
+180402001 Potaschbierg          01347  01347                % 00141 RGTR--
+180402002 Potaschbierg, Z.I.    01347  01347                % 00141 RGTR--
+180102001 Berg, Bei der Schmet  01351  01351                % 00141 RGTR--
+180102002 Berg, Haff Biel       01351  01351                % 00141 RGTR--
+180101001 Banzelt               01353  01353                % 00141 RGTR--
+180106001 Roodt/Syre, Barriär   01355  01355                % 00141 RGTR--
+180106002 Roodt/Syre, Campus s  01356  01356                % 00141 RGTR--
+180106005 Roodt/Syre, Rothoich  01357  01357                % 00141 RGTR--
+200504001 Niederanven, Geisfel  01359  01359                % 00141 RGTR--
+200504006 Niederanven, Routsch  01400 -01400                % 00141 RGTR--
+200507002 Senningen, Kierch     01400 -01400                % 00141 RGTR--
+200507003 Senningen, Um Kiem    01401 -01401                % 00141 RGTR--
+200508008 Senningerberg, Mënst  01404 -01404                % 00141 RGTR--
+200508007 Senningerberg, Laang  01404 -01404                % 00141 RGTR--
+200417050 Kirchberg, Gare rout  01409                       % 00141 RGTR--
+*Z 00157 RGTR--                                             % 00157 RGTR--
+*L 130      180401003 200417050  01442  01509               % 00157 RGTR--
+*A ae 180401003 200417050 000001  01442  01509              % 00157 RGTR--
+*A TE 180401003 200417050 000001  01442  01509              % 00157 RGTR--
+*R 2 200417050 180401003 200417050  01442  01509            % 00157 RGTR--
+*G RGB 180401003 200417050  01442  01509                    % 00157 RGTR--
+*A VE 180401003 200417050 000001  01442  01509              % 00157 RGTR--
+*I FD 180401003 200417050        0001962  01442  01509      % 00157 RGTR--
+180401003 Grevenmacher, Gare r         01442                % 00157 RGTR--
+180401008 Grevenmacher, Tanneu  01443  01443                % 00157 RGTR--
+180401001 Grevenmacher, Copal   01444  01444                % 00157 RGTR--
+180401007 Grevenmacher, Seiden  01445  01445                % 00157 RGTR--
+180402001 Potaschbierg          01447  01447                % 00157 RGTR--
+180402002 Potaschbierg, Z.I.    01447  01447                % 00157 RGTR--
+180102001 Berg, Bei der Schmet  01451  01451                % 00157 RGTR--
+180102002 Berg, Haff Biel       01451  01451                % 00157 RGTR--
+180101001 Banzelt               01453  01453                % 00157 RGTR--
+180106001 Roodt/Syre, Barriär   01455  01455                % 00157 RGTR--
+180106002 Roodt/Syre, Campus s  01456  01456                % 00157 RGTR--
+180106005 Roodt/Syre, Rothoich  01457  01457                % 00157 RGTR--
+200504001 Niederanven, Geisfel  01459  01459                % 00157 RGTR--
+200504006 Niederanven, Routsch  01500 -01500                % 00157 RGTR--
+200507002 Senningen, Kierch     01500 -01500                % 00157 RGTR--
+200507003 Senningen, Um Kiem    01501 -01501                % 00157 RGTR--
+200508008 Senningerberg, Mënst  01504 -01504                % 00157 RGTR--
+200508007 Senningerberg, Laang  01504 -01504                % 00157 RGTR--
+200417050 Kirchberg, Gare rout  01509                       % 00157 RGTR--
+*Z 00179 RGTR--                                             % 00179 RGTR--
+*L 130      180401003 200417050  01547  01614               % 00179 RGTR--
+*A ae 180401003 200417050 000001  01547  01614              % 00179 RGTR--
+*A TE 180401003 200417050 000001  01547  01614              % 00179 RGTR--
+*R 2 200417050 180401003 200417050  01547  01614            % 00179 RGTR--
+*G RGB 180401003 200417050  01547  01614                    % 00179 RGTR--
+*A VE 180401003 200417050 000001  01547  01614              % 00179 RGTR--
+*I FD 180401003 200417050        0001963  01547  01614      % 00179 RGTR--
+180401003 Grevenmacher, Gare r         01547                % 00179 RGTR--
+180401008 Grevenmacher, Tanneu  01548  01548                % 00179 RGTR--
+180401001 Grevenmacher, Copal   01549  01549                % 00179 RGTR--
+180401007 Grevenmacher, Seiden  01550  01550                % 00179 RGTR--
+180402001 Potaschbierg          01552  01552                % 00179 RGTR--
+180402002 Potaschbierg, Z.I.    01552  01552                % 00179 RGTR--
+180102001 Berg, Bei der Schmet  01556  01556                % 00179 RGTR--
+180102002 Berg, Haff Biel       01556  01556                % 00179 RGTR--
+180101001 Banzelt               01558  01558                % 00179 RGTR--
+180106001 Roodt/Syre, Barriär   01600  01600                % 00179 RGTR--
+180106002 Roodt/Syre, Campus s  01601  01601                % 00179 RGTR--
+180106005 Roodt/Syre, Rothoich  01602  01602                % 00179 RGTR--
+200504001 Niederanven, Geisfel  01604  01604                % 00179 RGTR--
+200504006 Niederanven, Routsch  01605 -01605                % 00179 RGTR--
+200507002 Senningen, Kierch     01605 -01605                % 00179 RGTR--
+200507003 Senningen, Um Kiem    01606 -01606                % 00179 RGTR--
+200508008 Senningerberg, Mënst  01609 -01609                % 00179 RGTR--
+200508007 Senningerberg, Laang  01609 -01609                % 00179 RGTR--
+200417050 Kirchberg, Gare rout  01614                       % 00179 RGTR--
+*Z 00229 RGTR--                                             % 00229 RGTR--
+*L 130      180401003 200417050  01852  01919               % 00229 RGTR--
+*A ae 180401003 200417050 000001  01852  01919              % 00229 RGTR--
+*A TE 180401003 200417050 000001  01852  01919              % 00229 RGTR--
+*R 2 200417050 180401003 200417050  01852  01919            % 00229 RGTR--
+*G RGB 180401003 200417050  01852  01919                    % 00229 RGTR--
+*A VE 180401003 200417050 000001  01852  01919              % 00229 RGTR--
+*I FD 180401003 200417050        0001964  01852  01919      % 00229 RGTR--
+180401003 Grevenmacher, Gare r         01852                % 00229 RGTR--
+180401008 Grevenmacher, Tanneu  01853  01853                % 00229 RGTR--
+180401001 Grevenmacher, Copal   01854  01854                % 00229 RGTR--
+180401007 Grevenmacher, Seiden  01855  01855                % 00229 RGTR--
+180402001 Potaschbierg          01857  01857                % 00229 RGTR--
+180402002 Potaschbierg, Z.I.    01857  01857                % 00229 RGTR--
+180102001 Berg, Bei der Schmet  01901  01901                % 00229 RGTR--
+180102002 Berg, Haff Biel       01901  01901                % 00229 RGTR--
+180101001 Banzelt               01903  01903                % 00229 RGTR--
+180106001 Roodt/Syre, Barriär   01905  01905                % 00229 RGTR--
+180106002 Roodt/Syre, Campus s  01906  01906                % 00229 RGTR--
+180106005 Roodt/Syre, Rothoich  01907  01907                % 00229 RGTR--
+200504001 Niederanven, Geisfel  01909  01909                % 00229 RGTR--
+200504006 Niederanven, Routsch  01910 -01910                % 00229 RGTR--
+200507002 Senningen, Kierch     01910 -01910                % 00229 RGTR--
+200507003 Senningen, Um Kiem    01911 -01911                % 00229 RGTR--
+200508008 Senningerberg, Mënst  01914 -01914                % 00229 RGTR--
+200508007 Senningerberg, Laang  01914 -01914                % 00229 RGTR--
+200417050 Kirchberg, Gare rout  01919                       % 00229 RGTR--
+*Z 00523 RGTR--                                             % 00523 RGTR--
+*L 130      180803004 200417050  01010  01042               % 00523 RGTR--
+*A ae 180803004 200417050 000000  01010  01042              % 00523 RGTR--
+*A WC 180803004 200417050 000000  01010  01042              % 00523 RGTR--
+*R 2 200417050 180803004 200417050  01010  01042            % 00523 RGTR--
+*G RGB 180803004 200417050  01010  01042                    % 00523 RGTR--
+*A VE 180803004 200417050 000000  01010  01042              % 00523 RGTR--
+*I FD 180803004 200417050        0001965  01010  01042      % 00523 RGTR--
+180803004 Machtum, Ongkaf              01010                % 00523 RGTR--
+180803003 Machtum, Gellebur     01010  01010                % 00523 RGTR--
+180803002 Machtum, Deisermille  01011  01011                % 00523 RGTR--
+180401005 Grevenmacher, Route   01012  01012                % 00523 RGTR--
+180401002 Grevenmacher, Enner   01013  01013                % 00523 RGTR--
+180401003 Grevenmacher, Gare r  01014  01014                % 00523 RGTR--
+180401008 Grevenmacher, Tanneu  01015  01015                % 00523 RGTR--
+180401001 Grevenmacher, Copal   01017  01017                % 00523 RGTR--
+180401007 Grevenmacher, Seiden  01018  01018                % 00523 RGTR--
+180402001 Potaschbierg          01019  01019                % 00523 RGTR--
+180402002 Potaschbierg, Z.I.    01020  01020                % 00523 RGTR--
+180102001 Berg, Bei der Schmet  01023  01023                % 00523 RGTR--
+180102002 Berg, Haff Biel       01024  01024                % 00523 RGTR--
+180101001 Banzelt               01025  01025                % 00523 RGTR--
+180106001 Roodt/Syre, Barriär   01027  01027                % 00523 RGTR--
+180106002 Roodt/Syre, Campus s  01028  01028                % 00523 RGTR--
+180106005 Roodt/Syre, Rothoich  01030  01030                % 00523 RGTR--
+200504001 Niederanven, Geisfel  01031  01031                % 00523 RGTR--
+200504006 Niederanven, Routsch  01032 -01032                % 00523 RGTR--
+200507002 Senningen, Kierch     01033 -01033                % 00523 RGTR--
+200507003 Senningen, Um Kiem    01034 -01034                % 00523 RGTR--
+200508008 Senningerberg, Mënst  01036 -01036                % 00523 RGTR--
+200508007 Senningerberg, Laang  01037 -01037                % 00523 RGTR--
+200417050 Kirchberg, Gare rout  01042                       % 00523 RGTR--
+*Z 00524 RGTR--                                             % 00524 RGTR--
+*L 130      180803004 200417050  01210  01242               % 00524 RGTR--
+*A ae 180803004 200417050 000000  01210  01242              % 00524 RGTR--
+*A WC 180803004 200417050 000000  01210  01242              % 00524 RGTR--
+*R 2 200417050 180803004 200417050  01210  01242            % 00524 RGTR--
+*G RGB 180803004 200417050  01210  01242                    % 00524 RGTR--
+*A VE 180803004 200417050 000000  01210  01242              % 00524 RGTR--
+*I FD 180803004 200417050        0001966  01210  01242      % 00524 RGTR--
+180803004 Machtum, Ongkaf              01210                % 00524 RGTR--
+180803003 Machtum, Gellebur     01210  01210                % 00524 RGTR--
+180803002 Machtum, Deisermille  01211  01211                % 00524 RGTR--
+180401005 Grevenmacher, Route   01212  01212                % 00524 RGTR--
+180401002 Grevenmacher, Enner   01213  01213                % 00524 RGTR--
+180401003 Grevenmacher, Gare r  01214  01214                % 00524 RGTR--
+180401008 Grevenmacher, Tanneu  01215  01215                % 00524 RGTR--
+180401001 Grevenmacher, Copal   01217  01217                % 00524 RGTR--
+180401007 Grevenmacher, Seiden  01218  01218                % 00524 RGTR--
+180402001 Potaschbierg          01219  01219                % 00524 RGTR--
+180402002 Potaschbierg, Z.I.    01220  01220                % 00524 RGTR--
+180102001 Berg, Bei der Schmet  01223  01223                % 00524 RGTR--
+180102002 Berg, Haff Biel       01224  01224                % 00524 RGTR--
+180101001 Banzelt               01225  01225                % 00524 RGTR--
+180106001 Roodt/Syre, Barriär   01227  01227                % 00524 RGTR--
+180106002 Roodt/Syre, Campus s  01228  01228                % 00524 RGTR--
+180106005 Roodt/Syre, Rothoich  01230  01230                % 00524 RGTR--
+200504001 Niederanven, Geisfel  01231  01231                % 00524 RGTR--
+200504006 Niederanven, Routsch  01232 -01232                % 00524 RGTR--
+200507002 Senningen, Kierch     01233 -01233                % 00524 RGTR--
+200507003 Senningen, Um Kiem    01234 -01234                % 00524 RGTR--
+200508008 Senningerberg, Mënst  01236 -01236                % 00524 RGTR--
+200508007 Senningerberg, Laang  01237 -01237                % 00524 RGTR--
+200417050 Kirchberg, Gare rout  01242                       % 00524 RGTR--
+*Z 00525 RGTR--                                             % 00525 RGTR--
+*L 130      180803004 200417050  01410  01442               % 00525 RGTR--
+*A ae 180803004 200417050 000000  01410  01442              % 00525 RGTR--
+*A WC 180803004 200417050 000000  01410  01442              % 00525 RGTR--
+*R 2 200417050 180803004 200417050  01410  01442            % 00525 RGTR--
+*G RGB 180803004 200417050  01410  01442                    % 00525 RGTR--
+*A VE 180803004 200417050 000000  01410  01442              % 00525 RGTR--
+*I FD 180803004 200417050        0001967  01410  01442      % 00525 RGTR--
+180803004 Machtum, Ongkaf              01410                % 00525 RGTR--
+180803003 Machtum, Gellebur     01410  01410                % 00525 RGTR--
+180803002 Machtum, Deisermille  01411  01411                % 00525 RGTR--
+180401005 Grevenmacher, Route   01412  01412                % 00525 RGTR--
+180401002 Grevenmacher, Enner   01413  01413                % 00525 RGTR--
+180401003 Grevenmacher, Gare r  01414  01414                % 00525 RGTR--
+180401008 Grevenmacher, Tanneu  01415  01415                % 00525 RGTR--
+180401001 Grevenmacher, Copal   01417  01417                % 00525 RGTR--
+180401007 Grevenmacher, Seiden  01418  01418                % 00525 RGTR--
+180402001 Potaschbierg          01419  01419                % 00525 RGTR--
+180402002 Potaschbierg, Z.I.    01420  01420                % 00525 RGTR--
+180102001 Berg, Bei der Schmet  01423  01423                % 00525 RGTR--
+180102002 Berg, Haff Biel       01424  01424                % 00525 RGTR--
+180101001 Banzelt               01425  01425                % 00525 RGTR--
+180106001 Roodt/Syre, Barriär   01427  01427                % 00525 RGTR--
+180106002 Roodt/Syre, Campus s  01428  01428                % 00525 RGTR--
+180106005 Roodt/Syre, Rothoich  01430  01430                % 00525 RGTR--
+200504001 Niederanven, Geisfel  01431  01431                % 00525 RGTR--
+200504006 Niederanven, Routsch  01432 -01432                % 00525 RGTR--
+200507002 Senningen, Kierch     01433 -01433                % 00525 RGTR--
+200507003 Senningen, Um Kiem    01434 -01434                % 00525 RGTR--
+200508008 Senningerberg, Mënst  01436 -01436                % 00525 RGTR--
+200508007 Senningerberg, Laang  01437 -01437                % 00525 RGTR--
+200417050 Kirchberg, Gare rout  01442                       % 00525 RGTR--
+*Z 00526 RGTR--                                             % 00526 RGTR--
+*L 130      180803004 200417050  00505  00537               % 00526 RGTR--
+*A ae 180803004 200417050 000001  00505  00537              % 00526 RGTR--
+*R 2 200417050 180803004 200417050  00505  00537            % 00526 RGTR--
+*G RGB 180803004 200417050  00505  00537                    % 00526 RGTR--
+*A VE 180803004 200417050 000001  00505  00537              % 00526 RGTR--
+*I FD 180803004 200417050        0001968  00505  00537      % 00526 RGTR--
+180803004 Machtum, Ongkaf              00505                % 00526 RGTR--
+180803003 Machtum, Gellebur     00505  00505                % 00526 RGTR--
+180803002 Machtum, Deisermille  00506  00506                % 00526 RGTR--
+180401005 Grevenmacher, Route   00507  00507                % 00526 RGTR--
+180401002 Grevenmacher, Enner   00508  00508                % 00526 RGTR--
+180401003 Grevenmacher, Gare r  00509  00509                % 00526 RGTR--
+180401008 Grevenmacher, Tanneu  00510  00510                % 00526 RGTR--
+180401001 Grevenmacher, Copal   00512  00512                % 00526 RGTR--
+180401007 Grevenmacher, Seiden  00513  00513                % 00526 RGTR--
+180402001 Potaschbierg          00514  00514                % 00526 RGTR--
+180402002 Potaschbierg, Z.I.    00515  00515                % 00526 RGTR--
+180102001 Berg, Bei der Schmet  00518  00518                % 00526 RGTR--
+180102002 Berg, Haff Biel       00519  00519                % 00526 RGTR--
+180101001 Banzelt               00520  00520                % 00526 RGTR--
+180106001 Roodt/Syre, Barriär   00522  00522                % 00526 RGTR--
+180106002 Roodt/Syre, Campus s  00523  00523                % 00526 RGTR--
+180106005 Roodt/Syre, Rothoich  00525  00525                % 00526 RGTR--
+200504001 Niederanven, Geisfel  00526  00526                % 00526 RGTR--
+200504006 Niederanven, Routsch  00527 -00527                % 00526 RGTR--
+200507002 Senningen, Kierch     00528 -00528                % 00526 RGTR--
+200507003 Senningen, Um Kiem    00529 -00529                % 00526 RGTR--
+200508008 Senningerberg, Mënst  00531 -00531                % 00526 RGTR--
+200508007 Senningerberg, Laang  00532 -00532                % 00526 RGTR--
+200417050 Kirchberg, Gare rout  00537                       % 00526 RGTR--
+*Z 00527 RGTR--                                             % 00527 RGTR--
+*L 130      180803004 200417050  00605  00637               % 00527 RGTR--
+*A ae 180803004 200417050 000001  00605  00637              % 00527 RGTR--
+*A VY 180803004 200417050 000001  00605  00637              % 00527 RGTR--
+*A WC 180803004 200417050 000001  00605  00637              % 00527 RGTR--
+*R 2 200417050 180803004 200417050  00605  00637            % 00527 RGTR--
+*G RGB 180803004 200417050  00605  00637                    % 00527 RGTR--
+*A VE 180803004 200417050 000001  00605  00637              % 00527 RGTR--
+*I FD 180803004 200417050        0001969  00605  00637      % 00527 RGTR--
+180803004 Machtum, Ongkaf              00605                % 00527 RGTR--
+180803003 Machtum, Gellebur     00605  00605                % 00527 RGTR--
+180803002 Machtum, Deisermille  00606  00606                % 00527 RGTR--
+180401005 Grevenmacher, Route   00607  00607                % 00527 RGTR--
+180401002 Grevenmacher, Enner   00608  00608                % 00527 RGTR--
+180401003 Grevenmacher, Gare r  00609  00609                % 00527 RGTR--
+180401008 Grevenmacher, Tanneu  00610  00610                % 00527 RGTR--
+180401001 Grevenmacher, Copal   00612  00612                % 00527 RGTR--
+180401007 Grevenmacher, Seiden  00613  00613                % 00527 RGTR--
+180402001 Potaschbierg          00614  00614                % 00527 RGTR--
+180402002 Potaschbierg, Z.I.    00615  00615                % 00527 RGTR--
+180102001 Berg, Bei der Schmet  00618  00618                % 00527 RGTR--
+180102002 Berg, Haff Biel       00619  00619                % 00527 RGTR--
+180101001 Banzelt               00620  00620                % 00527 RGTR--
+180106001 Roodt/Syre, Barriär   00622  00622                % 00527 RGTR--
+180106002 Roodt/Syre, Campus s  00623  00623                % 00527 RGTR--
+180106005 Roodt/Syre, Rothoich  00625  00625                % 00527 RGTR--
+200504001 Niederanven, Geisfel  00626  00626                % 00527 RGTR--
+200504006 Niederanven, Routsch  00627 -00627                % 00527 RGTR--
+200507002 Senningen, Kierch     00628 -00628                % 00527 RGTR--
+200507003 Senningen, Um Kiem    00629 -00629                % 00527 RGTR--
+200508008 Senningerberg, Mënst  00631 -00631                % 00527 RGTR--
+200508007 Senningerberg, Laang  00632 -00632                % 00527 RGTR--
+200417050 Kirchberg, Gare rout  00637                       % 00527 RGTR--
+*Z 00528 RGTR--                                             % 00528 RGTR--
+*L 130      180803004 200417050  00620  00652               % 00528 RGTR--
+*A ae 180803004 200417050 000001  00620  00652              % 00528 RGTR--
+*A WC 180803004 200417050 000001  00620  00652              % 00528 RGTR--
+*R 2 200417050 180803004 200417050  00620  00652            % 00528 RGTR--
+*G RGB 180803004 200417050  00620  00652                    % 00528 RGTR--
+*A VE 180803004 200417050 000001  00620  00652              % 00528 RGTR--
+*I FD 180803004 200417050        0001970  00620  00652      % 00528 RGTR--
+180803004 Machtum, Ongkaf              00620                % 00528 RGTR--
+180803003 Machtum, Gellebur     00620  00620                % 00528 RGTR--
+180803002 Machtum, Deisermille  00621  00621                % 00528 RGTR--
+180401005 Grevenmacher, Route   00622  00622                % 00528 RGTR--
+180401002 Grevenmacher, Enner   00623  00623                % 00528 RGTR--
+180401003 Grevenmacher, Gare r  00624  00624                % 00528 RGTR--
+180401008 Grevenmacher, Tanneu  00625  00625                % 00528 RGTR--
+180401001 Grevenmacher, Copal   00627  00627                % 00528 RGTR--
+180401007 Grevenmacher, Seiden  00628  00628                % 00528 RGTR--
+180402001 Potaschbierg          00629  00629                % 00528 RGTR--
+180402002 Potaschbierg, Z.I.    00630  00630                % 00528 RGTR--
+180102001 Berg, Bei der Schmet  00633  00633                % 00528 RGTR--
+180102002 Berg, Haff Biel       00634  00634                % 00528 RGTR--
+180101001 Banzelt               00635  00635                % 00528 RGTR--
+180106001 Roodt/Syre, Barriär   00637  00637                % 00528 RGTR--
+180106002 Roodt/Syre, Campus s  00638  00638                % 00528 RGTR--
+180106005 Roodt/Syre, Rothoich  00640  00640                % 00528 RGTR--
+200504001 Niederanven, Geisfel  00641  00641                % 00528 RGTR--
+200504006 Niederanven, Routsch  00642 -00642                % 00528 RGTR--
+200507002 Senningen, Kierch     00643 -00643                % 00528 RGTR--
+200507003 Senningen, Um Kiem    00644 -00644                % 00528 RGTR--
+200508008 Senningerberg, Mënst  00646 -00646                % 00528 RGTR--
+200508007 Senningerberg, Laang  00647 -00647                % 00528 RGTR--
+200417050 Kirchberg, Gare rout  00652                       % 00528 RGTR--
+*Z 00529 RGTR--                                             % 00529 RGTR--
+*L 130      180803004 200417050  01110  01142               % 00529 RGTR--
+*A ae 180803004 200417050 000001  01110  01142              % 00529 RGTR--
+*A WC 180803004 200417050 000001  01110  01142              % 00529 RGTR--
+*R 2 200417050 180803004 200417050  01110  01142            % 00529 RGTR--
+*G RGB 180803004 200417050  01110  01142                    % 00529 RGTR--
+*A VE 180803004 200417050 000001  01110  01142              % 00529 RGTR--
+*I FD 180803004 200417050        0001031  01110  01142      % 00529 RGTR--
+180803004 Machtum, Ongkaf              01110                % 00529 RGTR--
+180803003 Machtum, Gellebur     01110  01110                % 00529 RGTR--
+180803002 Machtum, Deisermille  01111  01111                % 00529 RGTR--
+180401005 Grevenmacher, Route   01112  01112                % 00529 RGTR--
+180401002 Grevenmacher, Enner   01113  01113                % 00529 RGTR--
+180401003 Grevenmacher, Gare r  01114  01114                % 00529 RGTR--
+180401008 Grevenmacher, Tanneu  01115  01115                % 00529 RGTR--
+180401001 Grevenmacher, Copal   01117  01117                % 00529 RGTR--
+180401007 Grevenmacher, Seiden  01118  01118                % 00529 RGTR--
+180402001 Potaschbierg          01119  01119                % 00529 RGTR--
+180402002 Potaschbierg, Z.I.    01120  01120                % 00529 RGTR--
+180102001 Berg, Bei der Schmet  01123  01123                % 00529 RGTR--
+180102002 Berg, Haff Biel       01124  01124                % 00529 RGTR--
+180101001 Banzelt               01125  01125                % 00529 RGTR--
+180106001 Roodt/Syre, Barriär   01127  01127                % 00529 RGTR--
+180106002 Roodt/Syre, Campus s  01128  01128                % 00529 RGTR--
+180106005 Roodt/Syre, Rothoich  01130  01130                % 00529 RGTR--
+200504001 Niederanven, Geisfel  01131  01131                % 00529 RGTR--
+200504006 Niederanven, Routsch  01132 -01132                % 00529 RGTR--
+200507002 Senningen, Kierch     01133 -01133                % 00529 RGTR--
+200507003 Senningen, Um Kiem    01134 -01134                % 00529 RGTR--
+200508008 Senningerberg, Mënst  01136 -01136                % 00529 RGTR--
+200508007 Senningerberg, Laang  01137 -01137                % 00529 RGTR--
+200417050 Kirchberg, Gare rout  01142                       % 00529 RGTR--
+*Z 00530 RGTR--                                             % 00530 RGTR--
+*L 130      180803004 200417050  01310  01342               % 00530 RGTR--
+*A ae 180803004 200417050 000001  01310  01342              % 00530 RGTR--
+*A WC 180803004 200417050 000001  01310  01342              % 00530 RGTR--
+*R 2 200417050 180803004 200417050  01310  01342            % 00530 RGTR--
+*G RGB 180803004 200417050  01310  01342                    % 00530 RGTR--
+*A VE 180803004 200417050 000001  01310  01342              % 00530 RGTR--
+*I FD 180803004 200417050        0001971  01310  01342      % 00530 RGTR--
+180803004 Machtum, Ongkaf              01310                % 00530 RGTR--
+180803003 Machtum, Gellebur     01310  01310                % 00530 RGTR--
+180803002 Machtum, Deisermille  01311  01311                % 00530 RGTR--
+180401005 Grevenmacher, Route   01312  01312                % 00530 RGTR--
+180401002 Grevenmacher, Enner   01313  01313                % 00530 RGTR--
+180401003 Grevenmacher, Gare r  01314  01314                % 00530 RGTR--
+180401008 Grevenmacher, Tanneu  01315  01315                % 00530 RGTR--
+180401001 Grevenmacher, Copal   01317  01317                % 00530 RGTR--
+180401007 Grevenmacher, Seiden  01318  01318                % 00530 RGTR--
+180402001 Potaschbierg          01319  01319                % 00530 RGTR--
+180402002 Potaschbierg, Z.I.    01320  01320                % 00530 RGTR--
+180102001 Berg, Bei der Schmet  01323  01323                % 00530 RGTR--
+180102002 Berg, Haff Biel       01324  01324                % 00530 RGTR--
+180101001 Banzelt               01325  01325                % 00530 RGTR--
+180106001 Roodt/Syre, Barriär   01327  01327                % 00530 RGTR--
+180106002 Roodt/Syre, Campus s  01328  01328                % 00530 RGTR--
+180106005 Roodt/Syre, Rothoich  01330  01330                % 00530 RGTR--
+200504001 Niederanven, Geisfel  01331  01331                % 00530 RGTR--
+200504006 Niederanven, Routsch  01332 -01332                % 00530 RGTR--
+200507002 Senningen, Kierch     01333 -01333                % 00530 RGTR--
+200507003 Senningen, Um Kiem    01334 -01334                % 00530 RGTR--
+200508008 Senningerberg, Mënst  01336 -01336                % 00530 RGTR--
+200508007 Senningerberg, Laang  01337 -01337                % 00530 RGTR--
+200417050 Kirchberg, Gare rout  01342                       % 00530 RGTR--
+*Z 00531 RGTR--                                             % 00531 RGTR--
+*L 130      180803004 200417050  01510  01542               % 00531 RGTR--
+*A ae 180803004 200417050 000001  01510  01542              % 00531 RGTR--
+*A WC 180803004 200417050 000001  01510  01542              % 00531 RGTR--
+*R 2 200417050 180803004 200417050  01510  01542            % 00531 RGTR--
+*G RGB 180803004 200417050  01510  01542                    % 00531 RGTR--
+*A VE 180803004 200417050 000001  01510  01542              % 00531 RGTR--
+*I FD 180803004 200417050        0001972  01510  01542      % 00531 RGTR--
+180803004 Machtum, Ongkaf              01510                % 00531 RGTR--
+180803003 Machtum, Gellebur     01510  01510                % 00531 RGTR--
+180803002 Machtum, Deisermille  01511  01511                % 00531 RGTR--
+180401005 Grevenmacher, Route   01512  01512                % 00531 RGTR--
+180401002 Grevenmacher, Enner   01513  01513                % 00531 RGTR--
+180401003 Grevenmacher, Gare r  01514  01514                % 00531 RGTR--
+180401008 Grevenmacher, Tanneu  01515  01515                % 00531 RGTR--
+180401001 Grevenmacher, Copal   01517  01517                % 00531 RGTR--
+180401007 Grevenmacher, Seiden  01518  01518                % 00531 RGTR--
+180402001 Potaschbierg          01519  01519                % 00531 RGTR--
+180402002 Potaschbierg, Z.I.    01520  01520                % 00531 RGTR--
+180102001 Berg, Bei der Schmet  01523  01523                % 00531 RGTR--
+180102002 Berg, Haff Biel       01524  01524                % 00531 RGTR--
+180101001 Banzelt               01525  01525                % 00531 RGTR--
+180106001 Roodt/Syre, Barriär   01527  01527                % 00531 RGTR--
+180106002 Roodt/Syre, Campus s  01528  01528                % 00531 RGTR--
+180106005 Roodt/Syre, Rothoich  01530  01530                % 00531 RGTR--
+200504001 Niederanven, Geisfel  01531  01531                % 00531 RGTR--
+200504006 Niederanven, Routsch  01532 -01532                % 00531 RGTR--
+200507002 Senningen, Kierch     01533 -01533                % 00531 RGTR--
+200507003 Senningen, Um Kiem    01534 -01534                % 00531 RGTR--
+200508008 Senningerberg, Mënst  01536 -01536                % 00531 RGTR--
+200508007 Senningerberg, Laang  01537 -01537                % 00531 RGTR--
+200417050 Kirchberg, Gare rout  01542                       % 00531 RGTR--
+*Z 00532 RGTR--                                             % 00532 RGTR--
+*L 130      180803004 200417050  01910  01942               % 00532 RGTR--
+*A ae 180803004 200417050 000001  01910  01942              % 00532 RGTR--
+*A WC 180803004 200417050 000001  01910  01942              % 00532 RGTR--
+*R 2 200417050 180803004 200417050  01910  01942            % 00532 RGTR--
+*G RGB 180803004 200417050  01910  01942                    % 00532 RGTR--
+*A VE 180803004 200417050 000001  01910  01942              % 00532 RGTR--
+*I FD 180803004 200417050        0001973  01910  01942      % 00532 RGTR--
+180803004 Machtum, Ongkaf              01910                % 00532 RGTR--
+180803003 Machtum, Gellebur     01910  01910                % 00532 RGTR--
+180803002 Machtum, Deisermille  01911  01911                % 00532 RGTR--
+180401005 Grevenmacher, Route   01912  01912                % 00532 RGTR--
+180401002 Grevenmacher, Enner   01913  01913                % 00532 RGTR--
+180401003 Grevenmacher, Gare r  01914  01914                % 00532 RGTR--
+180401008 Grevenmacher, Tanneu  01915  01915                % 00532 RGTR--
+180401001 Grevenmacher, Copal   01917  01917                % 00532 RGTR--
+180401007 Grevenmacher, Seiden  01918  01918                % 00532 RGTR--
+180402001 Potaschbierg          01919  01919                % 00532 RGTR--
+180402002 Potaschbierg, Z.I.    01920  01920                % 00532 RGTR--
+180102001 Berg, Bei der Schmet  01923  01923                % 00532 RGTR--
+180102002 Berg, Haff Biel       01924  01924                % 00532 RGTR--
+180101001 Banzelt               01925  01925                % 00532 RGTR--
+180106001 Roodt/Syre, Barriär   01927  01927                % 00532 RGTR--
+180106002 Roodt/Syre, Campus s  01928  01928                % 00532 RGTR--
+180106005 Roodt/Syre, Rothoich  01930  01930                % 00532 RGTR--
+200504001 Niederanven, Geisfel  01931  01931                % 00532 RGTR--
+200504006 Niederanven, Routsch  01932 -01932                % 00532 RGTR--
+200507002 Senningen, Kierch     01933 -01933                % 00532 RGTR--
+200507003 Senningen, Um Kiem    01934 -01934                % 00532 RGTR--
+200508008 Senningerberg, Mënst  01936 -01936                % 00532 RGTR--
+200508007 Senningerberg, Laang  01937 -01937                % 00532 RGTR--
+200417050 Kirchberg, Gare rout  01942                       % 00532 RGTR--
+*Z 00533 RGTR--                                             % 00533 RGTR--
+*L 130      180803004 200417050  02010  02042               % 00533 RGTR--
+*A ae 180803004 200417050 000001  02010  02042              % 00533 RGTR--
+*R 2 200417050 180803004 200417050  02010  02042            % 00533 RGTR--
+*G RGB 180803004 200417050  02010  02042                    % 00533 RGTR--
+*A VE 180803004 200417050 000001  02010  02042              % 00533 RGTR--
+*I FD 180803004 200417050        0001974  02010  02042      % 00533 RGTR--
+180803004 Machtum, Ongkaf              02010                % 00533 RGTR--
+180803003 Machtum, Gellebur     02010  02010                % 00533 RGTR--
+180803002 Machtum, Deisermille  02011  02011                % 00533 RGTR--
+180401005 Grevenmacher, Route   02012  02012                % 00533 RGTR--
+180401002 Grevenmacher, Enner   02013  02013                % 00533 RGTR--
+180401003 Grevenmacher, Gare r  02014  02014                % 00533 RGTR--
+180401008 Grevenmacher, Tanneu  02015  02015                % 00533 RGTR--
+180401001 Grevenmacher, Copal   02017  02017                % 00533 RGTR--
+180401007 Grevenmacher, Seiden  02018  02018                % 00533 RGTR--
+180402001 Potaschbierg          02019  02019                % 00533 RGTR--
+180402002 Potaschbierg, Z.I.    02020  02020                % 00533 RGTR--
+180102001 Berg, Bei der Schmet  02023  02023                % 00533 RGTR--
+180102002 Berg, Haff Biel       02024  02024                % 00533 RGTR--
+180101001 Banzelt               02025  02025                % 00533 RGTR--
+180106001 Roodt/Syre, Barriär   02027  02027                % 00533 RGTR--
+180106002 Roodt/Syre, Campus s  02028  02028                % 00533 RGTR--
+180106005 Roodt/Syre, Rothoich  02030  02030                % 00533 RGTR--
+200504001 Niederanven, Geisfel  02031  02031                % 00533 RGTR--
+200504006 Niederanven, Routsch  02032 -02032                % 00533 RGTR--
+200507002 Senningen, Kierch     02033 -02033                % 00533 RGTR--
+200507003 Senningen, Um Kiem    02034 -02034                % 00533 RGTR--
+200508008 Senningerberg, Mënst  02036 -02036                % 00533 RGTR--
+200508007 Senningerberg, Laang  02037 -02037                % 00533 RGTR--
+200417050 Kirchberg, Gare rout  02042                       % 00533 RGTR--
+*Z 00534 RGTR--                                             % 00534 RGTR--
+*L 130      180803004 200417050  02110  02142               % 00534 RGTR--
+*A ae 180803004 200417050 000001  02110  02142              % 00534 RGTR--
+*R 2 200417050 180803004 200417050  02110  02142            % 00534 RGTR--
+*G RGB 180803004 200417050  02110  02142                    % 00534 RGTR--
+*A VE 180803004 200417050 000001  02110  02142              % 00534 RGTR--
+*I FD 180803004 200417050        0001975  02110  02142      % 00534 RGTR--
+180803004 Machtum, Ongkaf              02110                % 00534 RGTR--
+180803003 Machtum, Gellebur     02110  02110                % 00534 RGTR--
+180803002 Machtum, Deisermille  02111  02111                % 00534 RGTR--
+180401005 Grevenmacher, Route   02112  02112                % 00534 RGTR--
+180401002 Grevenmacher, Enner   02113  02113                % 00534 RGTR--
+180401003 Grevenmacher, Gare r  02114  02114                % 00534 RGTR--
+180401008 Grevenmacher, Tanneu  02115  02115                % 00534 RGTR--
+180401001 Grevenmacher, Copal   02117  02117                % 00534 RGTR--
+180401007 Grevenmacher, Seiden  02118  02118                % 00534 RGTR--
+180402001 Potaschbierg          02119  02119                % 00534 RGTR--
+180402002 Potaschbierg, Z.I.    02120  02120                % 00534 RGTR--
+180102001 Berg, Bei der Schmet  02123  02123                % 00534 RGTR--
+180102002 Berg, Haff Biel       02124  02124                % 00534 RGTR--
+180101001 Banzelt               02125  02125                % 00534 RGTR--
+180106001 Roodt/Syre, Barriär   02127  02127                % 00534 RGTR--
+180106002 Roodt/Syre, Campus s  02128  02128                % 00534 RGTR--
+180106005 Roodt/Syre, Rothoich  02130  02130                % 00534 RGTR--
+200504001 Niederanven, Geisfel  02131  02131                % 00534 RGTR--
+200504006 Niederanven, Routsch  02132 -02132                % 00534 RGTR--
+200507002 Senningen, Kierch     02133 -02133                % 00534 RGTR--
+200507003 Senningen, Um Kiem    02134 -02134                % 00534 RGTR--
+200508008 Senningerberg, Mënst  02136 -02136                % 00534 RGTR--
+200508007 Senningerberg, Laang  02137 -02137                % 00534 RGTR--
+200417050 Kirchberg, Gare rout  02142                       % 00534 RGTR--
+*Z 00535 RGTR--                                             % 00535 RGTR--
+*L 130      180803004 200417050  02210  02242               % 00535 RGTR--
+*A ae 180803004 200417050 000001  02210  02242              % 00535 RGTR--
+*R 2 200417050 180803004 200417050  02210  02242            % 00535 RGTR--
+*G RGB 180803004 200417050  02210  02242                    % 00535 RGTR--
+*A VE 180803004 200417050 000001  02210  02242              % 00535 RGTR--
+*I FD 180803004 200417050        0001976  02210  02242      % 00535 RGTR--
+180803004 Machtum, Ongkaf              02210                % 00535 RGTR--
+180803003 Machtum, Gellebur     02210  02210                % 00535 RGTR--
+180803002 Machtum, Deisermille  02211  02211                % 00535 RGTR--
+180401005 Grevenmacher, Route   02212  02212                % 00535 RGTR--
+180401002 Grevenmacher, Enner   02213  02213                % 00535 RGTR--
+180401003 Grevenmacher, Gare r  02214  02214                % 00535 RGTR--
+180401008 Grevenmacher, Tanneu  02215  02215                % 00535 RGTR--
+180401001 Grevenmacher, Copal   02217  02217                % 00535 RGTR--
+180401007 Grevenmacher, Seiden  02218  02218                % 00535 RGTR--
+180402001 Potaschbierg          02219  02219                % 00535 RGTR--
+180402002 Potaschbierg, Z.I.    02220  02220                % 00535 RGTR--
+180102001 Berg, Bei der Schmet  02223  02223                % 00535 RGTR--
+180102002 Berg, Haff Biel       02224  02224                % 00535 RGTR--
+180101001 Banzelt               02225  02225                % 00535 RGTR--
+180106001 Roodt/Syre, Barriär   02227  02227                % 00535 RGTR--
+180106002 Roodt/Syre, Campus s  02228  02228                % 00535 RGTR--
+180106005 Roodt/Syre, Rothoich  02230  02230                % 00535 RGTR--
+200504001 Niederanven, Geisfel  02231  02231                % 00535 RGTR--
+200504006 Niederanven, Routsch  02232 -02232                % 00535 RGTR--
+200507002 Senningen, Kierch     02233 -02233                % 00535 RGTR--
+200507003 Senningen, Um Kiem    02234 -02234                % 00535 RGTR--
+200508008 Senningerberg, Mënst  02236 -02236                % 00535 RGTR--
+200508007 Senningerberg, Laang  02237 -02237                % 00535 RGTR--
+200417050 Kirchberg, Gare rout  02242                       % 00535 RGTR--
+*Z 00536 RGTR--                                             % 00536 RGTR--
+*L 130      180803004 200417050  01610  01642               % 00536 RGTR--
+*A ae 180803004 200417050 000003  01610  01642              % 00536 RGTR--
+*R 2 200417050 180803004 200417050  01610  01642            % 00536 RGTR--
+*G RGB 180803004 200417050  01610  01642                    % 00536 RGTR--
+*A VE 180803004 200417050 000003  01610  01642              % 00536 RGTR--
+*I FD 180803004 200417050        0001977  01610  01642      % 00536 RGTR--
+180803004 Machtum, Ongkaf              01610                % 00536 RGTR--
+180803003 Machtum, Gellebur     01610  01610                % 00536 RGTR--
+180803002 Machtum, Deisermille  01611  01611                % 00536 RGTR--
+180401005 Grevenmacher, Route   01612  01612                % 00536 RGTR--
+180401002 Grevenmacher, Enner   01613  01613                % 00536 RGTR--
+180401003 Grevenmacher, Gare r  01614  01614                % 00536 RGTR--
+180401008 Grevenmacher, Tanneu  01615  01615                % 00536 RGTR--
+180401001 Grevenmacher, Copal   01617  01617                % 00536 RGTR--
+180401007 Grevenmacher, Seiden  01618  01618                % 00536 RGTR--
+180402001 Potaschbierg          01619  01619                % 00536 RGTR--
+180402002 Potaschbierg, Z.I.    01620  01620                % 00536 RGTR--
+180102001 Berg, Bei der Schmet  01623  01623                % 00536 RGTR--
+180102002 Berg, Haff Biel       01624  01624                % 00536 RGTR--
+180101001 Banzelt               01625  01625                % 00536 RGTR--
+180106001 Roodt/Syre, Barriär   01627  01627                % 00536 RGTR--
+180106002 Roodt/Syre, Campus s  01628  01628                % 00536 RGTR--
+180106005 Roodt/Syre, Rothoich  01630  01630                % 00536 RGTR--
+200504001 Niederanven, Geisfel  01631  01631                % 00536 RGTR--
+200504006 Niederanven, Routsch  01632 -01632                % 00536 RGTR--
+200507002 Senningen, Kierch     01633 -01633                % 00536 RGTR--
+200507003 Senningen, Um Kiem    01634 -01634                % 00536 RGTR--
+200508008 Senningerberg, Mënst  01636 -01636                % 00536 RGTR--
+200508007 Senningerberg, Laang  01637 -01637                % 00536 RGTR--
+200417050 Kirchberg, Gare rout  01642                       % 00536 RGTR--
+*Z 00537 RGTR--                                             % 00537 RGTR--
+*L 130      180803004 200417050  01810  01842               % 00537 RGTR--
+*A ae 180803004 200417050 000003  01810  01842              % 00537 RGTR--
+*R 2 200417050 180803004 200417050  01810  01842            % 00537 RGTR--
+*G RGB 180803004 200417050  01810  01842                    % 00537 RGTR--
+*A VE 180803004 200417050 000003  01810  01842              % 00537 RGTR--
+*I FD 180803004 200417050        0001978  01810  01842      % 00537 RGTR--
+180803004 Machtum, Ongkaf              01810                % 00537 RGTR--
+180803003 Machtum, Gellebur     01810  01810                % 00537 RGTR--
+180803002 Machtum, Deisermille  01811  01811                % 00537 RGTR--
+180401005 Grevenmacher, Route   01812  01812                % 00537 RGTR--
+180401002 Grevenmacher, Enner   01813  01813                % 00537 RGTR--
+180401003 Grevenmacher, Gare r  01814  01814                % 00537 RGTR--
+180401008 Grevenmacher, Tanneu  01815  01815                % 00537 RGTR--
+180401001 Grevenmacher, Copal   01817  01817                % 00537 RGTR--
+180401007 Grevenmacher, Seiden  01818  01818                % 00537 RGTR--
+180402001 Potaschbierg          01819  01819                % 00537 RGTR--
+180402002 Potaschbierg, Z.I.    01820  01820                % 00537 RGTR--
+180102001 Berg, Bei der Schmet  01823  01823                % 00537 RGTR--
+180102002 Berg, Haff Biel       01824  01824                % 00537 RGTR--
+180101001 Banzelt               01825  01825                % 00537 RGTR--
+180106001 Roodt/Syre, Barriär   01827  01827                % 00537 RGTR--
+180106002 Roodt/Syre, Campus s  01828  01828                % 00537 RGTR--
+180106005 Roodt/Syre, Rothoich  01830  01830                % 00537 RGTR--
+200504001 Niederanven, Geisfel  01831  01831                % 00537 RGTR--
+200504006 Niederanven, Routsch  01832 -01832                % 00537 RGTR--
+200507002 Senningen, Kierch     01833 -01833                % 00537 RGTR--
+200507003 Senningen, Um Kiem    01834 -01834                % 00537 RGTR--
+200508008 Senningerberg, Mënst  01836 -01836                % 00537 RGTR--
+200508007 Senningerberg, Laang  01837 -01837                % 00537 RGTR--
+200417050 Kirchberg, Gare rout  01842                       % 00537 RGTR--
+*Z 00538 RGTR--                                             % 00538 RGTR--
+*L 130      180803004 200417050  00635  00709               % 00538 RGTR--
+*A ae 180803004 200417050 000001  00635  00709              % 00538 RGTR--
+*A VY 180803004 200417050 000001  00635  00709              % 00538 RGTR--
+*R 2 200417050 180803004 200417050  00635  00709            % 00538 RGTR--
+*G RGB 180803004 200417050  00635  00709                    % 00538 RGTR--
+*A VE 180803004 200417050 000001  00635  00709              % 00538 RGTR--
+*I FD 180803004 200417050        0001979  00635  00709      % 00538 RGTR--
+180803004 Machtum, Ongkaf              00635                % 00538 RGTR--
+180803003 Machtum, Gellebur     00635  00635                % 00538 RGTR--
+180803002 Machtum, Deisermille  00636  00636                % 00538 RGTR--
+180401005 Grevenmacher, Route   00637  00637                % 00538 RGTR--
+180401002 Grevenmacher, Enner   00638  00638                % 00538 RGTR--
+180401003 Grevenmacher, Gare r  00639  00639                % 00538 RGTR--
+180401008 Grevenmacher, Tanneu  00641  00641                % 00538 RGTR--
+180401001 Grevenmacher, Copal   00643  00643                % 00538 RGTR--
+180401007 Grevenmacher, Seiden  00644  00644                % 00538 RGTR--
+180402001 Potaschbierg          00645  00645                % 00538 RGTR--
+180402002 Potaschbierg, Z.I.    00646  00646                % 00538 RGTR--
+180102001 Berg, Bei der Schmet  00649  00649                % 00538 RGTR--
+180102002 Berg, Haff Biel       00650  00650                % 00538 RGTR--
+180101001 Banzelt               00652  00652                % 00538 RGTR--
+180106001 Roodt/Syre, Barriär   00654  00654                % 00538 RGTR--
+180106002 Roodt/Syre, Campus s  00655  00655                % 00538 RGTR--
+180106005 Roodt/Syre, Rothoich  00656  00656                % 00538 RGTR--
+200504001 Niederanven, Geisfel  00658  00658                % 00538 RGTR--
+200504006 Niederanven, Routsch  00659 -00659                % 00538 RGTR--
+200507002 Senningen, Kierch     00700 -00700                % 00538 RGTR--
+200507003 Senningen, Um Kiem    00701 -00701                % 00538 RGTR--
+200508008 Senningerberg, Mënst  00704 -00704                % 00538 RGTR--
+200508007 Senningerberg, Laang  00704 -00704                % 00538 RGTR--
+200417050 Kirchberg, Gare rout  00709                       % 00538 RGTR--
+*Z 00539 RGTR--                                             % 00539 RGTR--
+*L 130      180803004 200417050  00735  00809               % 00539 RGTR--
+*A ae 180803004 200417050 000001  00735  00809              % 00539 RGTR--
+*A TE 180803004 200417050 000001  00735  00809              % 00539 RGTR--
+*A VY 180803004 200417050 000001  00735  00809              % 00539 RGTR--
+*R 2 200417050 180803004 200417050  00735  00809            % 00539 RGTR--
+*G RGB 180803004 200417050  00735  00809                    % 00539 RGTR--
+*A VE 180803004 200417050 000001  00735  00809              % 00539 RGTR--
+*I FD 180803004 200417050        0001980  00735  00809      % 00539 RGTR--
+180803004 Machtum, Ongkaf              00735                % 00539 RGTR--
+180803003 Machtum, Gellebur     00735  00735                % 00539 RGTR--
+180803002 Machtum, Deisermille  00736  00736                % 00539 RGTR--
+180401005 Grevenmacher, Route   00737  00737                % 00539 RGTR--
+180401002 Grevenmacher, Enner   00738  00738                % 00539 RGTR--
+180401003 Grevenmacher, Gare r  00739  00739                % 00539 RGTR--
+180401008 Grevenmacher, Tanneu  00741  00741                % 00539 RGTR--
+180401001 Grevenmacher, Copal   00743  00743                % 00539 RGTR--
+180401007 Grevenmacher, Seiden  00744  00744                % 00539 RGTR--
+180402001 Potaschbierg          00745  00745                % 00539 RGTR--
+180402002 Potaschbierg, Z.I.    00746  00746                % 00539 RGTR--
+180102001 Berg, Bei der Schmet  00749  00749                % 00539 RGTR--
+180102002 Berg, Haff Biel       00750  00750                % 00539 RGTR--
+180101001 Banzelt               00752  00752                % 00539 RGTR--
+180106001 Roodt/Syre, Barriär   00754  00754                % 00539 RGTR--
+180106002 Roodt/Syre, Campus s  00755  00755                % 00539 RGTR--
+180106005 Roodt/Syre, Rothoich  00756  00756                % 00539 RGTR--
+200504001 Niederanven, Geisfel  00758  00758                % 00539 RGTR--
+200504006 Niederanven, Routsch  00759 -00759                % 00539 RGTR--
+200507002 Senningen, Kierch     00800 -00800                % 00539 RGTR--
+200507003 Senningen, Um Kiem    00801 -00801                % 00539 RGTR--
+200508008 Senningerberg, Mënst  00804 -00804                % 00539 RGTR--
+200508007 Senningerberg, Laang  00804 -00804                % 00539 RGTR--
+200417050 Kirchberg, Gare rout  00809                       % 00539 RGTR--
+*Z 00540 RGTR--                                             % 00540 RGTR--
+*L 130      180803004 200417050  00810  00844               % 00540 RGTR--
+*A ae 180803004 200417050 000001  00810  00844              % 00540 RGTR--
+*R 2 200417050 180803004 200417050  00810  00844            % 00540 RGTR--
+*G RGB 180803004 200417050  00810  00844                    % 00540 RGTR--
+*A VE 180803004 200417050 000001  00810  00844              % 00540 RGTR--
+*I FD 180803004 200417050        0001981  00810  00844      % 00540 RGTR--
+180803004 Machtum, Ongkaf              00810                % 00540 RGTR--
+180803003 Machtum, Gellebur     00810  00810                % 00540 RGTR--
+180803002 Machtum, Deisermille  00811  00811                % 00540 RGTR--
+180401005 Grevenmacher, Route   00812  00812                % 00540 RGTR--
+180401002 Grevenmacher, Enner   00813  00813                % 00540 RGTR--
+180401003 Grevenmacher, Gare r  00814  00814                % 00540 RGTR--
+180401008 Grevenmacher, Tanneu  00816  00816                % 00540 RGTR--
+180401001 Grevenmacher, Copal   00818  00818                % 00540 RGTR--
+180401007 Grevenmacher, Seiden  00819  00819                % 00540 RGTR--
+180402001 Potaschbierg          00820  00820                % 00540 RGTR--
+180402002 Potaschbierg, Z.I.    00821  00821                % 00540 RGTR--
+180102001 Berg, Bei der Schmet  00824  00824                % 00540 RGTR--
+180102002 Berg, Haff Biel       00825  00825                % 00540 RGTR--
+180101001 Banzelt               00827  00827                % 00540 RGTR--
+180106001 Roodt/Syre, Barriär   00829  00829                % 00540 RGTR--
+180106002 Roodt/Syre, Campus s  00830  00830                % 00540 RGTR--
+180106005 Roodt/Syre, Rothoich  00831  00831                % 00540 RGTR--
+200504001 Niederanven, Geisfel  00833  00833                % 00540 RGTR--
+200504006 Niederanven, Routsch  00834 -00834                % 00540 RGTR--
+200507002 Senningen, Kierch     00835 -00835                % 00540 RGTR--
+200507003 Senningen, Um Kiem    00836 -00836                % 00540 RGTR--
+200508008 Senningerberg, Mënst  00839 -00839                % 00540 RGTR--
+200508007 Senningerberg, Laang  00839 -00839                % 00540 RGTR--
+200417050 Kirchberg, Gare rout  00844                       % 00540 RGTR--
+*Z 00541 RGTR--                                             % 00541 RGTR--
+*L 130      180803004 200417050  00910  00944               % 00541 RGTR--
+*A ae 180803004 200417050 000001  00910  00944              % 00541 RGTR--
+*A WC 180803004 200417050 000001  00910  00944              % 00541 RGTR--
+*R 2 200417050 180803004 200417050  00910  00944            % 00541 RGTR--
+*G RGB 180803004 200417050  00910  00944                    % 00541 RGTR--
+*A VE 180803004 200417050 000001  00910  00944              % 00541 RGTR--
+*I FD 180803004 200417050        0001982  00910  00944      % 00541 RGTR--
+180803004 Machtum, Ongkaf              00910                % 00541 RGTR--
+180803003 Machtum, Gellebur     00910  00910                % 00541 RGTR--
+180803002 Machtum, Deisermille  00911  00911                % 00541 RGTR--
+180401005 Grevenmacher, Route   00912  00912                % 00541 RGTR--
+180401002 Grevenmacher, Enner   00913  00913                % 00541 RGTR--
+180401003 Grevenmacher, Gare r  00914  00914                % 00541 RGTR--
+180401008 Grevenmacher, Tanneu  00916  00916                % 00541 RGTR--
+180401001 Grevenmacher, Copal   00918  00918                % 00541 RGTR--
+180401007 Grevenmacher, Seiden  00919  00919                % 00541 RGTR--
+180402001 Potaschbierg          00920  00920                % 00541 RGTR--
+180402002 Potaschbierg, Z.I.    00921  00921                % 00541 RGTR--
+180102001 Berg, Bei der Schmet  00924  00924                % 00541 RGTR--
+180102002 Berg, Haff Biel       00925  00925                % 00541 RGTR--
+180101001 Banzelt               00927  00927                % 00541 RGTR--
+180106001 Roodt/Syre, Barriär   00929  00929                % 00541 RGTR--
+180106002 Roodt/Syre, Campus s  00930  00930                % 00541 RGTR--
+180106005 Roodt/Syre, Rothoich  00931  00931                % 00541 RGTR--
+200504001 Niederanven, Geisfel  00933  00933                % 00541 RGTR--
+200504006 Niederanven, Routsch  00934 -00934                % 00541 RGTR--
+200507002 Senningen, Kierch     00935 -00935                % 00541 RGTR--
+200507003 Senningen, Um Kiem    00936 -00936                % 00541 RGTR--
+200508008 Senningerberg, Mënst  00939 -00939                % 00541 RGTR--
+200508007 Senningerberg, Laang  00939 -00939                % 00541 RGTR--
+200417050 Kirchberg, Gare rout  00944                       % 00541 RGTR--
+*Z 00542 RGTR--                                             % 00542 RGTR--
+*L 130      180803004 200417050  01610  01644               % 00542 RGTR--
+*A ae 180803004 200417050 000001  01610  01644              % 00542 RGTR--
+*A WC 180803004 200417050 000001  01610  01644              % 00542 RGTR--
+*R 2 200417050 180803004 200417050  01610  01644            % 00542 RGTR--
+*G RGB 180803004 200417050  01610  01644                    % 00542 RGTR--
+*A VE 180803004 200417050 000001  01610  01644              % 00542 RGTR--
+*I FD 180803004 200417050        0001977  01610  01644      % 00542 RGTR--
+180803004 Machtum, Ongkaf              01610                % 00542 RGTR--
+180803003 Machtum, Gellebur     01610  01610                % 00542 RGTR--
+180803002 Machtum, Deisermille  01611  01611                % 00542 RGTR--
+180401005 Grevenmacher, Route   01612  01612                % 00542 RGTR--
+180401002 Grevenmacher, Enner   01613  01613                % 00542 RGTR--
+180401003 Grevenmacher, Gare r  01614  01614                % 00542 RGTR--
+180401008 Grevenmacher, Tanneu  01616  01616                % 00542 RGTR--
+180401001 Grevenmacher, Copal   01618  01618                % 00542 RGTR--
+180401007 Grevenmacher, Seiden  01619  01619                % 00542 RGTR--
+180402001 Potaschbierg          01620  01620                % 00542 RGTR--
+180402002 Potaschbierg, Z.I.    01621  01621                % 00542 RGTR--
+180102001 Berg, Bei der Schmet  01624  01624                % 00542 RGTR--
+180102002 Berg, Haff Biel       01625  01625                % 00542 RGTR--
+180101001 Banzelt               01627  01627                % 00542 RGTR--
+180106001 Roodt/Syre, Barriär   01629  01629                % 00542 RGTR--
+180106002 Roodt/Syre, Campus s  01630  01630                % 00542 RGTR--
+180106005 Roodt/Syre, Rothoich  01631  01631                % 00542 RGTR--
+200504001 Niederanven, Geisfel  01633  01633                % 00542 RGTR--
+200504006 Niederanven, Routsch  01634 -01634                % 00542 RGTR--
+200507002 Senningen, Kierch     01635 -01635                % 00542 RGTR--
+200507003 Senningen, Um Kiem    01636 -01636                % 00542 RGTR--
+200508008 Senningerberg, Mënst  01639 -01639                % 00542 RGTR--
+200508007 Senningerberg, Laang  01639 -01639                % 00542 RGTR--
+200417050 Kirchberg, Gare rout  01644                       % 00542 RGTR--
+*Z 00543 RGTR--                                             % 00543 RGTR--
+*L 130      180803004 200417050  01710  01744               % 00543 RGTR--
+*A ae 180803004 200417050 000001  01710  01744              % 00543 RGTR--
+*R 2 200417050 180803004 200417050  01710  01744            % 00543 RGTR--
+*G RGB 180803004 200417050  01710  01744                    % 00543 RGTR--
+*A VE 180803004 200417050 000001  01710  01744              % 00543 RGTR--
+*I FD 180803004 200417050        0001983  01710  01744      % 00543 RGTR--
+180803004 Machtum, Ongkaf              01710                % 00543 RGTR--
+180803003 Machtum, Gellebur     01710  01710                % 00543 RGTR--
+180803002 Machtum, Deisermille  01711  01711                % 00543 RGTR--
+180401005 Grevenmacher, Route   01712  01712                % 00543 RGTR--
+180401002 Grevenmacher, Enner   01713  01713                % 00543 RGTR--
+180401003 Grevenmacher, Gare r  01714  01714                % 00543 RGTR--
+180401008 Grevenmacher, Tanneu  01716  01716                % 00543 RGTR--
+180401001 Grevenmacher, Copal   01718  01718                % 00543 RGTR--
+180401007 Grevenmacher, Seiden  01719  01719                % 00543 RGTR--
+180402001 Potaschbierg          01720  01720                % 00543 RGTR--
+180402002 Potaschbierg, Z.I.    01721  01721                % 00543 RGTR--
+180102001 Berg, Bei der Schmet  01724  01724                % 00543 RGTR--
+180102002 Berg, Haff Biel       01725  01725                % 00543 RGTR--
+180101001 Banzelt               01727  01727                % 00543 RGTR--
+180106001 Roodt/Syre, Barriär   01729  01729                % 00543 RGTR--
+180106002 Roodt/Syre, Campus s  01730  01730                % 00543 RGTR--
+180106005 Roodt/Syre, Rothoich  01731  01731                % 00543 RGTR--
+200504001 Niederanven, Geisfel  01733  01733                % 00543 RGTR--
+200504006 Niederanven, Routsch  01734 -01734                % 00543 RGTR--
+200507002 Senningen, Kierch     01735 -01735                % 00543 RGTR--
+200507003 Senningen, Um Kiem    01736 -01736                % 00543 RGTR--
+200508008 Senningerberg, Mënst  01739 -01739                % 00543 RGTR--
+200508007 Senningerberg, Laang  01739 -01739                % 00543 RGTR--
+200417050 Kirchberg, Gare rout  01744                       % 00543 RGTR--
+*Z 00544 RGTR--                                             % 00544 RGTR--
+*L 130      180803004 200417050  01810  01844               % 00544 RGTR--
+*A ae 180803004 200417050 000001  01810  01844              % 00544 RGTR--
+*R 2 200417050 180803004 200417050  01810  01844            % 00544 RGTR--
+*G RGB 180803004 200417050  01810  01844                    % 00544 RGTR--
+*A VE 180803004 200417050 000001  01810  01844              % 00544 RGTR--
+*I FD 180803004 200417050        0001978  01810  01844      % 00544 RGTR--
+180803004 Machtum, Ongkaf              01810                % 00544 RGTR--
+180803003 Machtum, Gellebur     01810  01810                % 00544 RGTR--
+180803002 Machtum, Deisermille  01811  01811                % 00544 RGTR--
+180401005 Grevenmacher, Route   01812  01812                % 00544 RGTR--
+180401002 Grevenmacher, Enner   01813  01813                % 00544 RGTR--
+180401003 Grevenmacher, Gare r  01814  01814                % 00544 RGTR--
+180401008 Grevenmacher, Tanneu  01816  01816                % 00544 RGTR--
+180401001 Grevenmacher, Copal   01818  01818                % 00544 RGTR--
+180401007 Grevenmacher, Seiden  01819  01819                % 00544 RGTR--
+180402001 Potaschbierg          01820  01820                % 00544 RGTR--
+180402002 Potaschbierg, Z.I.    01821  01821                % 00544 RGTR--
+180102001 Berg, Bei der Schmet  01824  01824                % 00544 RGTR--
+180102002 Berg, Haff Biel       01825  01825                % 00544 RGTR--
+180101001 Banzelt               01827  01827                % 00544 RGTR--
+180106001 Roodt/Syre, Barriär   01829  01829                % 00544 RGTR--
+180106002 Roodt/Syre, Campus s  01830  01830                % 00544 RGTR--
+180106005 Roodt/Syre, Rothoich  01831  01831                % 00544 RGTR--
+200504001 Niederanven, Geisfel  01833  01833                % 00544 RGTR--
+200504006 Niederanven, Routsch  01834 -01834                % 00544 RGTR--
+200507002 Senningen, Kierch     01835 -01835                % 00544 RGTR--
+200507003 Senningen, Um Kiem    01836 -01836                % 00544 RGTR--
+200508008 Senningerberg, Mënst  01839 -01839                % 00544 RGTR--
+200508007 Senningerberg, Laang  01839 -01839                % 00544 RGTR--
+200417050 Kirchberg, Gare rout  01844                       % 00544 RGTR--

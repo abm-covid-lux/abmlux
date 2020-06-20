@@ -1,0 +1,2459 @@
+*F 03 2
+*Z 00554 RGTR--                                             % 00554 RGTR--
+*L 165      200304020 200202001  00635  00729               % 00554 RGTR--
+*A ag 200304020 200202001 000001  00635  00729              % 00554 RGTR--
+*R 1 200202001 200304020 200202001  00635  00729            % 00554 RGTR--
+*G RGB 200304020 200202001  00635  00729                    % 00554 RGTR--
+*A VE 200304020 200202001 000001  00635  00729              % 00554 RGTR--
+*I FD 200304020 200202001        0002005  00635  00729      % 00554 RGTR--
+200304020 Howald, P&R Howald Q         00635                % 00554 RGTR--
+200304008 Howald, P&R Howald Q  00636  00636                % 00554 RGTR--
+200304012 Howald, P&R Howald Q  00639  00639                % 00554 RGTR--
+200412021 Gasperich, Gerhard M  00639  00639                % 00554 RGTR--
+200412028 Gasperich, Stengege   00641  00641                % 00554 RGTR--
+200412009 Gasperich, Gaasperec  00642  00642                % 00554 RGTR--
+200415002 Hollerich, Assurance  00643  00643                % 00554 RGTR--
+200415005 Hollerich, Heentze P  00645  00645                % 00554 RGTR--
+200403015 Belair, Rheinsheim    00648  00648                % 00554 RGTR--
+200417047 Kirchberg, Rout Bréc  00654  00654                % 00554 RGTR--
+200417007 Kirchberg, B.E.I.     00656  00656                % 00554 RGTR--
+200417016 Kirchberg, Jean Monn  00658  00658                % 00554 RGTR--
+200417005 Kirchberg, Antoine d  00659  00659                % 00554 RGTR--
+200417019 Kirchberg, Konrad Ad  00700  00700                % 00554 RGTR--
+200417039 Kirchberg, Avalon     00701  00701                % 00554 RGTR--
+200417033 Kirchberg, Poutty St  00703  00703                % 00554 RGTR--
+200417044 Kirchberg, Luxexpo Q  00705  00705                % 00554 RGTR--
+200601009 Sandweiler, Schaedha  00716  00716                % 00554 RGTR--
+200201007 Contern, Weiergewan   00718  00718                % 00554 RGTR--
+200201008 Contern, Rond Point   00718  00718                % 00554 RGTR--
+200201001 Contern, Birewee      00720  00720                % 00554 RGTR--
+200201004 Contern, Kräizgaass   00720  00720                % 00554 RGTR--
+200201003 Contern, Kiircheplaz  00721  00721                % 00554 RGTR--
+200201006 Contern, Millewee     00721  00721                % 00554 RGTR--
+200205001 Milbech               00723  00723                % 00554 RGTR--
+200203002 Moutfort, Juxgaass    00724  00724                % 00554 RGTR--
+200203005 Moutfort, Syrbréck    00725  00725                % 00554 RGTR--
+200202002 Medingen              00727  00727                % 00554 RGTR--
+200202001 Medingen, Aire de vi  00729                       % 00554 RGTR--
+*Z 00555 RGTR--                                             % 00555 RGTR--
+*L 165      200304020 200202001  00705  00759               % 00555 RGTR--
+*A ae 200304020 200202001 000001  00705  00759              % 00555 RGTR--
+*R 1 200202001 200304020 200202001  00705  00759            % 00555 RGTR--
+*G RGB 200304020 200202001  00705  00759                    % 00555 RGTR--
+*A VE 200304020 200202001 000001  00705  00759              % 00555 RGTR--
+*I FD 200304020 200202001        0002006  00705  00759      % 00555 RGTR--
+200304020 Howald, P&R Howald Q         00705                % 00555 RGTR--
+200304008 Howald, P&R Howald Q  00706  00706                % 00555 RGTR--
+200304012 Howald, P&R Howald Q  00709  00709                % 00555 RGTR--
+200412021 Gasperich, Gerhard M  00709  00709                % 00555 RGTR--
+200412028 Gasperich, Stengege   00711  00711                % 00555 RGTR--
+200412009 Gasperich, Gaasperec  00712  00712                % 00555 RGTR--
+200415002 Hollerich, Assurance  00713  00713                % 00555 RGTR--
+200415005 Hollerich, Heentze P  00715  00715                % 00555 RGTR--
+200403015 Belair, Rheinsheim    00718  00718                % 00555 RGTR--
+200417047 Kirchberg, Rout Bréc  00724  00724                % 00555 RGTR--
+200417007 Kirchberg, B.E.I.     00726  00726                % 00555 RGTR--
+200417016 Kirchberg, Jean Monn  00728  00728                % 00555 RGTR--
+200417005 Kirchberg, Antoine d  00729  00729                % 00555 RGTR--
+200417019 Kirchberg, Konrad Ad  00730  00730                % 00555 RGTR--
+200417039 Kirchberg, Avalon     00731  00731                % 00555 RGTR--
+200417033 Kirchberg, Poutty St  00733  00733                % 00555 RGTR--
+200417044 Kirchberg, Luxexpo Q  00735  00735                % 00555 RGTR--
+200601009 Sandweiler, Schaedha  00746  00746                % 00555 RGTR--
+200201007 Contern, Weiergewan   00748  00748                % 00555 RGTR--
+200201008 Contern, Rond Point   00748  00748                % 00555 RGTR--
+200201001 Contern, Birewee      00750  00750                % 00555 RGTR--
+200201004 Contern, Kräizgaass   00750  00750                % 00555 RGTR--
+200201003 Contern, Kiircheplaz  00751  00751                % 00555 RGTR--
+200201006 Contern, Millewee     00751  00751                % 00555 RGTR--
+200205001 Milbech               00753  00753                % 00555 RGTR--
+200203002 Moutfort, Juxgaass    00754  00754                % 00555 RGTR--
+200203005 Moutfort, Syrbréck    00755  00755                % 00555 RGTR--
+200202002 Medingen              00757  00757                % 00555 RGTR--
+200202001 Medingen, Aire de vi  00759                       % 00555 RGTR--
+*Z 00556 RGTR--                                             % 00556 RGTR--
+*L 165      200304020 200202001  00735  00829               % 00556 RGTR--
+*A ae 200304020 200202001 000001  00735  00829              % 00556 RGTR--
+*R 1 200202001 200304020 200202001  00735  00829            % 00556 RGTR--
+*G RGB 200304020 200202001  00735  00829                    % 00556 RGTR--
+*A VE 200304020 200202001 000001  00735  00829              % 00556 RGTR--
+*I FD 200304020 200202001        0001762  00735  00829      % 00556 RGTR--
+200304020 Howald, P&R Howald Q         00735                % 00556 RGTR--
+200304008 Howald, P&R Howald Q  00736  00736                % 00556 RGTR--
+200304012 Howald, P&R Howald Q  00739  00739                % 00556 RGTR--
+200412021 Gasperich, Gerhard M  00739  00739                % 00556 RGTR--
+200412028 Gasperich, Stengege   00741  00741                % 00556 RGTR--
+200412009 Gasperich, Gaasperec  00742  00742                % 00556 RGTR--
+200415002 Hollerich, Assurance  00743  00743                % 00556 RGTR--
+200415005 Hollerich, Heentze P  00745  00745                % 00556 RGTR--
+200403015 Belair, Rheinsheim    00748  00748                % 00556 RGTR--
+200417047 Kirchberg, Rout Bréc  00754  00754                % 00556 RGTR--
+200417007 Kirchberg, B.E.I.     00756  00756                % 00556 RGTR--
+200417016 Kirchberg, Jean Monn  00758  00758                % 00556 RGTR--
+200417005 Kirchberg, Antoine d  00759  00759                % 00556 RGTR--
+200417019 Kirchberg, Konrad Ad  00800  00800                % 00556 RGTR--
+200417039 Kirchberg, Avalon     00801  00801                % 00556 RGTR--
+200417033 Kirchberg, Poutty St  00803  00803                % 00556 RGTR--
+200417044 Kirchberg, Luxexpo Q  00805  00805                % 00556 RGTR--
+200601009 Sandweiler, Schaedha  00816  00816                % 00556 RGTR--
+200201007 Contern, Weiergewan   00818  00818                % 00556 RGTR--
+200201008 Contern, Rond Point   00818  00818                % 00556 RGTR--
+200201001 Contern, Birewee      00820  00820                % 00556 RGTR--
+200201004 Contern, Kräizgaass   00820  00820                % 00556 RGTR--
+200201003 Contern, Kiircheplaz  00821  00821                % 00556 RGTR--
+200201006 Contern, Millewee     00821  00821                % 00556 RGTR--
+200205001 Milbech               00823  00823                % 00556 RGTR--
+200203002 Moutfort, Juxgaass    00824  00824                % 00556 RGTR--
+200203005 Moutfort, Syrbréck    00825  00825                % 00556 RGTR--
+200202002 Medingen              00827  00827                % 00556 RGTR--
+200202001 Medingen, Aire de vi  00829                       % 00556 RGTR--
+*Z 00557 RGTR--                                             % 00557 RGTR--
+*L 165      200304020 200202001  00805  00859               % 00557 RGTR--
+*A ag 200304020 200202001 000001  00805  00859              % 00557 RGTR--
+*R 1 200202001 200304020 200202001  00805  00859            % 00557 RGTR--
+*G RGB 200304020 200202001  00805  00859                    % 00557 RGTR--
+*A VE 200304020 200202001 000001  00805  00859              % 00557 RGTR--
+*I FD 200304020 200202001        0002007  00805  00859      % 00557 RGTR--
+200304020 Howald, P&R Howald Q         00805                % 00557 RGTR--
+200304008 Howald, P&R Howald Q  00806  00806                % 00557 RGTR--
+200304012 Howald, P&R Howald Q  00809  00809                % 00557 RGTR--
+200412021 Gasperich, Gerhard M  00809  00809                % 00557 RGTR--
+200412028 Gasperich, Stengege   00811  00811                % 00557 RGTR--
+200412009 Gasperich, Gaasperec  00812  00812                % 00557 RGTR--
+200415002 Hollerich, Assurance  00813  00813                % 00557 RGTR--
+200415005 Hollerich, Heentze P  00815  00815                % 00557 RGTR--
+200403015 Belair, Rheinsheim    00818  00818                % 00557 RGTR--
+200417047 Kirchberg, Rout Bréc  00824  00824                % 00557 RGTR--
+200417007 Kirchberg, B.E.I.     00826  00826                % 00557 RGTR--
+200417016 Kirchberg, Jean Monn  00828  00828                % 00557 RGTR--
+200417005 Kirchberg, Antoine d  00829  00829                % 00557 RGTR--
+200417019 Kirchberg, Konrad Ad  00830  00830                % 00557 RGTR--
+200417039 Kirchberg, Avalon     00831  00831                % 00557 RGTR--
+200417033 Kirchberg, Poutty St  00833  00833                % 00557 RGTR--
+200417044 Kirchberg, Luxexpo Q  00835  00835                % 00557 RGTR--
+200601009 Sandweiler, Schaedha  00846  00846                % 00557 RGTR--
+200201007 Contern, Weiergewan   00848  00848                % 00557 RGTR--
+200201008 Contern, Rond Point   00848  00848                % 00557 RGTR--
+200201001 Contern, Birewee      00850  00850                % 00557 RGTR--
+200201004 Contern, Kräizgaass   00850  00850                % 00557 RGTR--
+200201003 Contern, Kiircheplaz  00851  00851                % 00557 RGTR--
+200201006 Contern, Millewee     00851  00851                % 00557 RGTR--
+200205001 Milbech               00853  00853                % 00557 RGTR--
+200203002 Moutfort, Juxgaass    00854  00854                % 00557 RGTR--
+200203005 Moutfort, Syrbréck    00855  00855                % 00557 RGTR--
+200202002 Medingen              00857  00857                % 00557 RGTR--
+200202001 Medingen, Aire de vi  00859                       % 00557 RGTR--
+*Z 00558 RGTR--                                             % 00558 RGTR--
+*L 165      200304020 200202001  00835  00929               % 00558 RGTR--
+*A ag 200304020 200202001 000001  00835  00929              % 00558 RGTR--
+*R 1 200202001 200304020 200202001  00835  00929            % 00558 RGTR--
+*G RGB 200304020 200202001  00835  00929                    % 00558 RGTR--
+*A VE 200304020 200202001 000001  00835  00929              % 00558 RGTR--
+*I FD 200304020 200202001        0001764  00835  00929      % 00558 RGTR--
+200304020 Howald, P&R Howald Q         00835                % 00558 RGTR--
+200304008 Howald, P&R Howald Q  00836  00836                % 00558 RGTR--
+200304012 Howald, P&R Howald Q  00839  00839                % 00558 RGTR--
+200412021 Gasperich, Gerhard M  00839  00839                % 00558 RGTR--
+200412028 Gasperich, Stengege   00841  00841                % 00558 RGTR--
+200412009 Gasperich, Gaasperec  00842  00842                % 00558 RGTR--
+200415002 Hollerich, Assurance  00843  00843                % 00558 RGTR--
+200415005 Hollerich, Heentze P  00845  00845                % 00558 RGTR--
+200403015 Belair, Rheinsheim    00848  00848                % 00558 RGTR--
+200417047 Kirchberg, Rout Bréc  00854  00854                % 00558 RGTR--
+200417007 Kirchberg, B.E.I.     00856  00856                % 00558 RGTR--
+200417016 Kirchberg, Jean Monn  00858  00858                % 00558 RGTR--
+200417005 Kirchberg, Antoine d  00859  00859                % 00558 RGTR--
+200417019 Kirchberg, Konrad Ad  00900  00900                % 00558 RGTR--
+200417039 Kirchberg, Avalon     00901  00901                % 00558 RGTR--
+200417033 Kirchberg, Poutty St  00903  00903                % 00558 RGTR--
+200417044 Kirchberg, Luxexpo Q  00905  00905                % 00558 RGTR--
+200601009 Sandweiler, Schaedha  00916  00916                % 00558 RGTR--
+200201007 Contern, Weiergewan   00918  00918                % 00558 RGTR--
+200201008 Contern, Rond Point   00918  00918                % 00558 RGTR--
+200201001 Contern, Birewee      00920  00920                % 00558 RGTR--
+200201004 Contern, Kräizgaass   00920  00920                % 00558 RGTR--
+200201003 Contern, Kiircheplaz  00921  00921                % 00558 RGTR--
+200201006 Contern, Millewee     00921  00921                % 00558 RGTR--
+200205001 Milbech               00923  00923                % 00558 RGTR--
+200203002 Moutfort, Juxgaass    00924  00924                % 00558 RGTR--
+200203005 Moutfort, Syrbréck    00925  00925                % 00558 RGTR--
+200202002 Medingen              00927  00927                % 00558 RGTR--
+200202001 Medingen, Aire de vi  00929                       % 00558 RGTR--
+*Z 00559 RGTR--                                             % 00559 RGTR--
+*L 165      200304020 200202001  00905  00959               % 00559 RGTR--
+*A ag 200304020 200202001 000001  00905  00959              % 00559 RGTR--
+*R 1 200202001 200304020 200202001  00905  00959            % 00559 RGTR--
+*G RGB 200304020 200202001  00905  00959                    % 00559 RGTR--
+*A VE 200304020 200202001 000001  00905  00959              % 00559 RGTR--
+*I FD 200304020 200202001        0002008  00905  00959      % 00559 RGTR--
+200304020 Howald, P&R Howald Q         00905                % 00559 RGTR--
+200304008 Howald, P&R Howald Q  00906  00906                % 00559 RGTR--
+200304012 Howald, P&R Howald Q  00909  00909                % 00559 RGTR--
+200412021 Gasperich, Gerhard M  00909  00909                % 00559 RGTR--
+200412028 Gasperich, Stengege   00911  00911                % 00559 RGTR--
+200412009 Gasperich, Gaasperec  00912  00912                % 00559 RGTR--
+200415002 Hollerich, Assurance  00913  00913                % 00559 RGTR--
+200415005 Hollerich, Heentze P  00915  00915                % 00559 RGTR--
+200403015 Belair, Rheinsheim    00918  00918                % 00559 RGTR--
+200417047 Kirchberg, Rout Bréc  00924  00924                % 00559 RGTR--
+200417007 Kirchberg, B.E.I.     00926  00926                % 00559 RGTR--
+200417016 Kirchberg, Jean Monn  00928  00928                % 00559 RGTR--
+200417005 Kirchberg, Antoine d  00929  00929                % 00559 RGTR--
+200417019 Kirchberg, Konrad Ad  00930  00930                % 00559 RGTR--
+200417039 Kirchberg, Avalon     00931  00931                % 00559 RGTR--
+200417033 Kirchberg, Poutty St  00933  00933                % 00559 RGTR--
+200417044 Kirchberg, Luxexpo Q  00935  00935                % 00559 RGTR--
+200601009 Sandweiler, Schaedha  00946  00946                % 00559 RGTR--
+200201007 Contern, Weiergewan   00948  00948                % 00559 RGTR--
+200201008 Contern, Rond Point   00948  00948                % 00559 RGTR--
+200201001 Contern, Birewee      00950  00950                % 00559 RGTR--
+200201004 Contern, Kräizgaass   00950  00950                % 00559 RGTR--
+200201003 Contern, Kiircheplaz  00951  00951                % 00559 RGTR--
+200201006 Contern, Millewee     00951  00951                % 00559 RGTR--
+200205001 Milbech               00953  00953                % 00559 RGTR--
+200203002 Moutfort, Juxgaass    00954  00954                % 00559 RGTR--
+200203005 Moutfort, Syrbréck    00955  00955                % 00559 RGTR--
+200202002 Medingen              00957  00957                % 00559 RGTR--
+200202001 Medingen, Aire de vi  00959                       % 00559 RGTR--
+*Z 00560 RGTR--                                             % 00560 RGTR--
+*L 165      200304020 200202001  01605  01659               % 00560 RGTR--
+*A ag 200304020 200202001 000001  01605  01659              % 00560 RGTR--
+*R 1 200202001 200304020 200202001  01605  01659            % 00560 RGTR--
+*G RGB 200304020 200202001  01605  01659                    % 00560 RGTR--
+*A VE 200304020 200202001 000001  01605  01659              % 00560 RGTR--
+*I FD 200304020 200202001        0002009  01605  01659      % 00560 RGTR--
+200304020 Howald, P&R Howald Q         01605                % 00560 RGTR--
+200304008 Howald, P&R Howald Q  01606  01606                % 00560 RGTR--
+200304012 Howald, P&R Howald Q  01609  01609                % 00560 RGTR--
+200412021 Gasperich, Gerhard M  01609  01609                % 00560 RGTR--
+200412028 Gasperich, Stengege   01611  01611                % 00560 RGTR--
+200412009 Gasperich, Gaasperec  01612  01612                % 00560 RGTR--
+200415002 Hollerich, Assurance  01613  01613                % 00560 RGTR--
+200415005 Hollerich, Heentze P  01615  01615                % 00560 RGTR--
+200403015 Belair, Rheinsheim    01618  01618                % 00560 RGTR--
+200417047 Kirchberg, Rout Bréc  01624  01624                % 00560 RGTR--
+200417007 Kirchberg, B.E.I.     01626  01626                % 00560 RGTR--
+200417016 Kirchberg, Jean Monn  01628  01628                % 00560 RGTR--
+200417005 Kirchberg, Antoine d  01629  01629                % 00560 RGTR--
+200417019 Kirchberg, Konrad Ad  01630  01630                % 00560 RGTR--
+200417039 Kirchberg, Avalon     01631  01631                % 00560 RGTR--
+200417033 Kirchberg, Poutty St  01633  01633                % 00560 RGTR--
+200417044 Kirchberg, Luxexpo Q  01635  01635                % 00560 RGTR--
+200601009 Sandweiler, Schaedha  01646  01646                % 00560 RGTR--
+200201007 Contern, Weiergewan   01648  01648                % 00560 RGTR--
+200201008 Contern, Rond Point   01648  01648                % 00560 RGTR--
+200201001 Contern, Birewee      01650  01650                % 00560 RGTR--
+200201004 Contern, Kräizgaass   01650  01650                % 00560 RGTR--
+200201003 Contern, Kiircheplaz  01651  01651                % 00560 RGTR--
+200201006 Contern, Millewee     01651  01651                % 00560 RGTR--
+200205001 Milbech               01653  01653                % 00560 RGTR--
+200203002 Moutfort, Juxgaass    01654  01654                % 00560 RGTR--
+200203005 Moutfort, Syrbréck    01655  01655                % 00560 RGTR--
+200202002 Medingen              01657  01657                % 00560 RGTR--
+200202001 Medingen, Aire de vi  01659                       % 00560 RGTR--
+*Z 00561 RGTR--                                             % 00561 RGTR--
+*L 165      200304020 200202001  01635  01729               % 00561 RGTR--
+*A ag 200304020 200202001 000001  01635  01729              % 00561 RGTR--
+*R 1 200202001 200304020 200202001  01635  01729            % 00561 RGTR--
+*G RGB 200304020 200202001  01635  01729                    % 00561 RGTR--
+*A VE 200304020 200202001 000001  01635  01729              % 00561 RGTR--
+*I FD 200304020 200202001        0001776  01635  01729      % 00561 RGTR--
+200304020 Howald, P&R Howald Q         01635                % 00561 RGTR--
+200304008 Howald, P&R Howald Q  01636  01636                % 00561 RGTR--
+200304012 Howald, P&R Howald Q  01639  01639                % 00561 RGTR--
+200412021 Gasperich, Gerhard M  01639  01639                % 00561 RGTR--
+200412028 Gasperich, Stengege   01641  01641                % 00561 RGTR--
+200412009 Gasperich, Gaasperec  01642  01642                % 00561 RGTR--
+200415002 Hollerich, Assurance  01643  01643                % 00561 RGTR--
+200415005 Hollerich, Heentze P  01645  01645                % 00561 RGTR--
+200403015 Belair, Rheinsheim    01648  01648                % 00561 RGTR--
+200417047 Kirchberg, Rout Bréc  01654  01654                % 00561 RGTR--
+200417007 Kirchberg, B.E.I.     01656  01656                % 00561 RGTR--
+200417016 Kirchberg, Jean Monn  01658  01658                % 00561 RGTR--
+200417005 Kirchberg, Antoine d  01659  01659                % 00561 RGTR--
+200417019 Kirchberg, Konrad Ad  01700  01700                % 00561 RGTR--
+200417039 Kirchberg, Avalon     01701  01701                % 00561 RGTR--
+200417033 Kirchberg, Poutty St  01703  01703                % 00561 RGTR--
+200417044 Kirchberg, Luxexpo Q  01705  01705                % 00561 RGTR--
+200601009 Sandweiler, Schaedha  01716  01716                % 00561 RGTR--
+200201007 Contern, Weiergewan   01718  01718                % 00561 RGTR--
+200201008 Contern, Rond Point   01718  01718                % 00561 RGTR--
+200201001 Contern, Birewee      01720  01720                % 00561 RGTR--
+200201004 Contern, Kräizgaass   01720  01720                % 00561 RGTR--
+200201003 Contern, Kiircheplaz  01721  01721                % 00561 RGTR--
+200201006 Contern, Millewee     01721  01721                % 00561 RGTR--
+200205001 Milbech               01723  01723                % 00561 RGTR--
+200203002 Moutfort, Juxgaass    01724  01724                % 00561 RGTR--
+200203005 Moutfort, Syrbréck    01725  01725                % 00561 RGTR--
+200202002 Medingen              01727  01727                % 00561 RGTR--
+200202001 Medingen, Aire de vi  01729                       % 00561 RGTR--
+*Z 00562 RGTR--                                             % 00562 RGTR--
+*L 165      200304020 200202001  01705  01759               % 00562 RGTR--
+*A ae 200304020 200202001 000001  01705  01759              % 00562 RGTR--
+*R 1 200202001 200304020 200202001  01705  01759            % 00562 RGTR--
+*G RGB 200304020 200202001  01705  01759                    % 00562 RGTR--
+*A VE 200304020 200202001 000001  01705  01759              % 00562 RGTR--
+*I FD 200304020 200202001        0002010  01705  01759      % 00562 RGTR--
+200304020 Howald, P&R Howald Q         01705                % 00562 RGTR--
+200304008 Howald, P&R Howald Q  01706  01706                % 00562 RGTR--
+200304012 Howald, P&R Howald Q  01709  01709                % 00562 RGTR--
+200412021 Gasperich, Gerhard M  01709  01709                % 00562 RGTR--
+200412028 Gasperich, Stengege   01711  01711                % 00562 RGTR--
+200412009 Gasperich, Gaasperec  01712  01712                % 00562 RGTR--
+200415002 Hollerich, Assurance  01713  01713                % 00562 RGTR--
+200415005 Hollerich, Heentze P  01715  01715                % 00562 RGTR--
+200403015 Belair, Rheinsheim    01718  01718                % 00562 RGTR--
+200417047 Kirchberg, Rout Bréc  01724  01724                % 00562 RGTR--
+200417007 Kirchberg, B.E.I.     01726  01726                % 00562 RGTR--
+200417016 Kirchberg, Jean Monn  01728  01728                % 00562 RGTR--
+200417005 Kirchberg, Antoine d  01729  01729                % 00562 RGTR--
+200417019 Kirchberg, Konrad Ad  01730  01730                % 00562 RGTR--
+200417039 Kirchberg, Avalon     01731  01731                % 00562 RGTR--
+200417033 Kirchberg, Poutty St  01733  01733                % 00562 RGTR--
+200417044 Kirchberg, Luxexpo Q  01735  01735                % 00562 RGTR--
+200601009 Sandweiler, Schaedha  01746  01746                % 00562 RGTR--
+200201007 Contern, Weiergewan   01748  01748                % 00562 RGTR--
+200201008 Contern, Rond Point   01748  01748                % 00562 RGTR--
+200201001 Contern, Birewee      01750  01750                % 00562 RGTR--
+200201004 Contern, Kräizgaass   01750  01750                % 00562 RGTR--
+200201003 Contern, Kiircheplaz  01751  01751                % 00562 RGTR--
+200201006 Contern, Millewee     01751  01751                % 00562 RGTR--
+200205001 Milbech               01753  01753                % 00562 RGTR--
+200203002 Moutfort, Juxgaass    01754  01754                % 00562 RGTR--
+200203005 Moutfort, Syrbréck    01755  01755                % 00562 RGTR--
+200202002 Medingen              01757  01757                % 00562 RGTR--
+200202001 Medingen, Aire de vi  01759                       % 00562 RGTR--
+*Z 00563 RGTR--                                             % 00563 RGTR--
+*L 165      200304020 200202001  01735  01829               % 00563 RGTR--
+*A ae 200304020 200202001 000001  01735  01829              % 00563 RGTR--
+*R 1 200202001 200304020 200202001  01735  01829            % 00563 RGTR--
+*G RGB 200304020 200202001  01735  01829                    % 00563 RGTR--
+*A VE 200304020 200202001 000001  01735  01829              % 00563 RGTR--
+*I FD 200304020 200202001        0001778  01735  01829      % 00563 RGTR--
+200304020 Howald, P&R Howald Q         01735                % 00563 RGTR--
+200304008 Howald, P&R Howald Q  01736  01736                % 00563 RGTR--
+200304012 Howald, P&R Howald Q  01739  01739                % 00563 RGTR--
+200412021 Gasperich, Gerhard M  01739  01739                % 00563 RGTR--
+200412028 Gasperich, Stengege   01741  01741                % 00563 RGTR--
+200412009 Gasperich, Gaasperec  01742  01742                % 00563 RGTR--
+200415002 Hollerich, Assurance  01743  01743                % 00563 RGTR--
+200415005 Hollerich, Heentze P  01745  01745                % 00563 RGTR--
+200403015 Belair, Rheinsheim    01748  01748                % 00563 RGTR--
+200417047 Kirchberg, Rout Bréc  01754  01754                % 00563 RGTR--
+200417007 Kirchberg, B.E.I.     01756  01756                % 00563 RGTR--
+200417016 Kirchberg, Jean Monn  01758  01758                % 00563 RGTR--
+200417005 Kirchberg, Antoine d  01759  01759                % 00563 RGTR--
+200417019 Kirchberg, Konrad Ad  01800  01800                % 00563 RGTR--
+200417039 Kirchberg, Avalon     01801  01801                % 00563 RGTR--
+200417033 Kirchberg, Poutty St  01803  01803                % 00563 RGTR--
+200417044 Kirchberg, Luxexpo Q  01805  01805                % 00563 RGTR--
+200601009 Sandweiler, Schaedha  01816  01816                % 00563 RGTR--
+200201007 Contern, Weiergewan   01818  01818                % 00563 RGTR--
+200201008 Contern, Rond Point   01818  01818                % 00563 RGTR--
+200201001 Contern, Birewee      01820  01820                % 00563 RGTR--
+200201004 Contern, Kräizgaass   01820  01820                % 00563 RGTR--
+200201003 Contern, Kiircheplaz  01821  01821                % 00563 RGTR--
+200201006 Contern, Millewee     01821  01821                % 00563 RGTR--
+200205001 Milbech               01823  01823                % 00563 RGTR--
+200203002 Moutfort, Juxgaass    01824  01824                % 00563 RGTR--
+200203005 Moutfort, Syrbréck    01825  01825                % 00563 RGTR--
+200202002 Medingen              01827  01827                % 00563 RGTR--
+200202001 Medingen, Aire de vi  01829                       % 00563 RGTR--
+*Z 00564 RGTR--                                             % 00564 RGTR--
+*L 165      200304020 200202001  01805  01859               % 00564 RGTR--
+*A ag 200304020 200202001 000001  01805  01859              % 00564 RGTR--
+*R 1 200202001 200304020 200202001  01805  01859            % 00564 RGTR--
+*G RGB 200304020 200202001  01805  01859                    % 00564 RGTR--
+*A VE 200304020 200202001 000001  01805  01859              % 00564 RGTR--
+*I FD 200304020 200202001        0002011  01805  01859      % 00564 RGTR--
+200304020 Howald, P&R Howald Q         01805                % 00564 RGTR--
+200304008 Howald, P&R Howald Q  01806  01806                % 00564 RGTR--
+200304012 Howald, P&R Howald Q  01809  01809                % 00564 RGTR--
+200412021 Gasperich, Gerhard M  01809  01809                % 00564 RGTR--
+200412028 Gasperich, Stengege   01811  01811                % 00564 RGTR--
+200412009 Gasperich, Gaasperec  01812  01812                % 00564 RGTR--
+200415002 Hollerich, Assurance  01813  01813                % 00564 RGTR--
+200415005 Hollerich, Heentze P  01815  01815                % 00564 RGTR--
+200403015 Belair, Rheinsheim    01818  01818                % 00564 RGTR--
+200417047 Kirchberg, Rout Bréc  01824  01824                % 00564 RGTR--
+200417007 Kirchberg, B.E.I.     01826  01826                % 00564 RGTR--
+200417016 Kirchberg, Jean Monn  01828  01828                % 00564 RGTR--
+200417005 Kirchberg, Antoine d  01829  01829                % 00564 RGTR--
+200417019 Kirchberg, Konrad Ad  01830  01830                % 00564 RGTR--
+200417039 Kirchberg, Avalon     01831  01831                % 00564 RGTR--
+200417033 Kirchberg, Poutty St  01833  01833                % 00564 RGTR--
+200417044 Kirchberg, Luxexpo Q  01835  01835                % 00564 RGTR--
+200601009 Sandweiler, Schaedha  01846  01846                % 00564 RGTR--
+200201007 Contern, Weiergewan   01848  01848                % 00564 RGTR--
+200201008 Contern, Rond Point   01848  01848                % 00564 RGTR--
+200201001 Contern, Birewee      01850  01850                % 00564 RGTR--
+200201004 Contern, Kräizgaass   01850  01850                % 00564 RGTR--
+200201003 Contern, Kiircheplaz  01851  01851                % 00564 RGTR--
+200201006 Contern, Millewee     01851  01851                % 00564 RGTR--
+200205001 Milbech               01853  01853                % 00564 RGTR--
+200203002 Moutfort, Juxgaass    01854  01854                % 00564 RGTR--
+200203005 Moutfort, Syrbréck    01855  01855                % 00564 RGTR--
+200202002 Medingen              01857  01857                % 00564 RGTR--
+200202001 Medingen, Aire de vi  01859                       % 00564 RGTR--
+*Z 00565 RGTR--                                             % 00565 RGTR--
+*L 165      200304020 200202001  01005  01051               % 00565 RGTR--
+*A ag 200304020 200202001 000003  01005  01051              % 00565 RGTR--
+*A ae 200304020 200202001 000001  01005  01051              % 00565 RGTR--
+*A CC 200304020 200202001 000000  01005  01051              % 00565 RGTR--
+*R 1 200202001 200304020 200202001  01005  01051            % 00565 RGTR--
+*G RGB 200304020 200202001  01005  01051                    % 00565 RGTR--
+*A VE 200304020 200202001 000000  01005  01051              % 00565 RGTR--
+*I FD 200304020 200202001        0002012  01005  01051      % 00565 RGTR--
+200304020 Howald, P&R Howald Q         01005                % 00565 RGTR--
+200304008 Howald, P&R Howald Q  01006  01006                % 00565 RGTR--
+200304012 Howald, P&R Howald Q  01008  01008                % 00565 RGTR--
+200412021 Gasperich, Gerhard M  01008  01008                % 00565 RGTR--
+200412028 Gasperich, Stengege   01010  01010                % 00565 RGTR--
+200412009 Gasperich, Gaasperec  01011  01011                % 00565 RGTR--
+200415002 Hollerich, Assurance  01012  01012                % 00565 RGTR--
+200415005 Hollerich, Heentze P  01014  01014                % 00565 RGTR--
+200403015 Belair, Rheinsheim    01016  01016                % 00565 RGTR--
+200417047 Kirchberg, Rout Bréc  01021  01021                % 00565 RGTR--
+200417007 Kirchberg, B.E.I.     01022  01022                % 00565 RGTR--
+200417016 Kirchberg, Jean Monn  01023  01023                % 00565 RGTR--
+200417005 Kirchberg, Antoine d  01024  01024                % 00565 RGTR--
+200417019 Kirchberg, Konrad Ad  01025  01025                % 00565 RGTR--
+200417039 Kirchberg, Avalon     01026  01026                % 00565 RGTR--
+200417033 Kirchberg, Poutty St  01028  01028                % 00565 RGTR--
+200417044 Kirchberg, Luxexpo Q  01030  01030                % 00565 RGTR--
+200601009 Sandweiler, Schaedha  01038  01038                % 00565 RGTR--
+200201007 Contern, Weiergewan   01040  01040                % 00565 RGTR--
+200201008 Contern, Rond Point   01041  01041                % 00565 RGTR--
+200201001 Contern, Birewee      01042  01042                % 00565 RGTR--
+200201004 Contern, Kräizgaass   01043  01043                % 00565 RGTR--
+200201003 Contern, Kiircheplaz  01043  01043                % 00565 RGTR--
+200201006 Contern, Millewee     01044  01044                % 00565 RGTR--
+200205001 Milbech               01046  01046                % 00565 RGTR--
+200203002 Moutfort, Juxgaass    01047  01047                % 00565 RGTR--
+200203005 Moutfort, Syrbréck    01047  01047                % 00565 RGTR--
+200202002 Medingen              01050  01050                % 00565 RGTR--
+200202001 Medingen, Aire de vi  01051                       % 00565 RGTR--
+*Z 00566 RGTR--                                             % 00566 RGTR--
+*L 165      200304020 200202001  01205  01251               % 00566 RGTR--
+*A ag 200304020 200202001 000003  01205  01251              % 00566 RGTR--
+*A ae 200304020 200202001 000001  01205  01251              % 00566 RGTR--
+*A CC 200304020 200202001 000000  01205  01251              % 00566 RGTR--
+*R 1 200202001 200304020 200202001  01205  01251            % 00566 RGTR--
+*G RGB 200304020 200202001  01205  01251                    % 00566 RGTR--
+*A VE 200304020 200202001 000000  01205  01251              % 00566 RGTR--
+*I FD 200304020 200202001        0002013  01205  01251      % 00566 RGTR--
+200304020 Howald, P&R Howald Q         01205                % 00566 RGTR--
+200304008 Howald, P&R Howald Q  01206  01206                % 00566 RGTR--
+200304012 Howald, P&R Howald Q  01208  01208                % 00566 RGTR--
+200412021 Gasperich, Gerhard M  01208  01208                % 00566 RGTR--
+200412028 Gasperich, Stengege   01210  01210                % 00566 RGTR--
+200412009 Gasperich, Gaasperec  01211  01211                % 00566 RGTR--
+200415002 Hollerich, Assurance  01212  01212                % 00566 RGTR--
+200415005 Hollerich, Heentze P  01214  01214                % 00566 RGTR--
+200403015 Belair, Rheinsheim    01216  01216                % 00566 RGTR--
+200417047 Kirchberg, Rout Bréc  01221  01221                % 00566 RGTR--
+200417007 Kirchberg, B.E.I.     01222  01222                % 00566 RGTR--
+200417016 Kirchberg, Jean Monn  01223  01223                % 00566 RGTR--
+200417005 Kirchberg, Antoine d  01224  01224                % 00566 RGTR--
+200417019 Kirchberg, Konrad Ad  01225  01225                % 00566 RGTR--
+200417039 Kirchberg, Avalon     01226  01226                % 00566 RGTR--
+200417033 Kirchberg, Poutty St  01228  01228                % 00566 RGTR--
+200417044 Kirchberg, Luxexpo Q  01230  01230                % 00566 RGTR--
+200601009 Sandweiler, Schaedha  01238  01238                % 00566 RGTR--
+200201007 Contern, Weiergewan   01240  01240                % 00566 RGTR--
+200201008 Contern, Rond Point   01241  01241                % 00566 RGTR--
+200201001 Contern, Birewee      01242  01242                % 00566 RGTR--
+200201004 Contern, Kräizgaass   01243  01243                % 00566 RGTR--
+200201003 Contern, Kiircheplaz  01243  01243                % 00566 RGTR--
+200201006 Contern, Millewee     01244  01244                % 00566 RGTR--
+200205001 Milbech               01246  01246                % 00566 RGTR--
+200203002 Moutfort, Juxgaass    01247  01247                % 00566 RGTR--
+200203005 Moutfort, Syrbréck    01247  01247                % 00566 RGTR--
+200202002 Medingen              01250  01250                % 00566 RGTR--
+200202001 Medingen, Aire de vi  01251                       % 00566 RGTR--
+*Z 00567 RGTR--                                             % 00567 RGTR--
+*L 165      200304020 200202001  01405  01451               % 00567 RGTR--
+*A ag 200304020 200202001 000000  01405  01451              % 00567 RGTR--
+*R 1 200202001 200304020 200202001  01405  01451            % 00567 RGTR--
+*G RGB 200304020 200202001  01405  01451                    % 00567 RGTR--
+*A VE 200304020 200202001 000000  01405  01451              % 00567 RGTR--
+*I FD 200304020 200202001        0002014  01405  01451      % 00567 RGTR--
+200304020 Howald, P&R Howald Q         01405                % 00567 RGTR--
+200304008 Howald, P&R Howald Q  01406  01406                % 00567 RGTR--
+200304012 Howald, P&R Howald Q  01408  01408                % 00567 RGTR--
+200412021 Gasperich, Gerhard M  01408  01408                % 00567 RGTR--
+200412028 Gasperich, Stengege   01410  01410                % 00567 RGTR--
+200412009 Gasperich, Gaasperec  01411  01411                % 00567 RGTR--
+200415002 Hollerich, Assurance  01412  01412                % 00567 RGTR--
+200415005 Hollerich, Heentze P  01414  01414                % 00567 RGTR--
+200403015 Belair, Rheinsheim    01416  01416                % 00567 RGTR--
+200417047 Kirchberg, Rout Bréc  01421  01421                % 00567 RGTR--
+200417007 Kirchberg, B.E.I.     01422  01422                % 00567 RGTR--
+200417016 Kirchberg, Jean Monn  01423  01423                % 00567 RGTR--
+200417005 Kirchberg, Antoine d  01424  01424                % 00567 RGTR--
+200417019 Kirchberg, Konrad Ad  01425  01425                % 00567 RGTR--
+200417039 Kirchberg, Avalon     01426  01426                % 00567 RGTR--
+200417033 Kirchberg, Poutty St  01428  01428                % 00567 RGTR--
+200417044 Kirchberg, Luxexpo Q  01430  01430                % 00567 RGTR--
+200601009 Sandweiler, Schaedha  01438  01438                % 00567 RGTR--
+200201007 Contern, Weiergewan   01440  01440                % 00567 RGTR--
+200201008 Contern, Rond Point   01441  01441                % 00567 RGTR--
+200201001 Contern, Birewee      01442  01442                % 00567 RGTR--
+200201004 Contern, Kräizgaass   01443  01443                % 00567 RGTR--
+200201003 Contern, Kiircheplaz  01443  01443                % 00567 RGTR--
+200201006 Contern, Millewee     01444  01444                % 00567 RGTR--
+200205001 Milbech               01446  01446                % 00567 RGTR--
+200203002 Moutfort, Juxgaass    01447  01447                % 00567 RGTR--
+200203005 Moutfort, Syrbréck    01447  01447                % 00567 RGTR--
+200202002 Medingen              01450  01450                % 00567 RGTR--
+200202001 Medingen, Aire de vi  01451                       % 00567 RGTR--
+*Z 00568 RGTR--                                             % 00568 RGTR--
+*L 165      200304020 200202001  00535  00621               % 00568 RGTR--
+*A ag 200304020 200202001 000001  00535  00621              % 00568 RGTR--
+*R 1 200202001 200304020 200202001  00535  00621            % 00568 RGTR--
+*G RGB 200304020 200202001  00535  00621                    % 00568 RGTR--
+*A VE 200304020 200202001 000001  00535  00621              % 00568 RGTR--
+*I FD 200304020 200202001        0000752  00535  00621      % 00568 RGTR--
+200304020 Howald, P&R Howald Q         00535                % 00568 RGTR--
+200304008 Howald, P&R Howald Q  00536  00536                % 00568 RGTR--
+200304012 Howald, P&R Howald Q  00538  00538                % 00568 RGTR--
+200412021 Gasperich, Gerhard M  00538  00538                % 00568 RGTR--
+200412028 Gasperich, Stengege   00540  00540                % 00568 RGTR--
+200412009 Gasperich, Gaasperec  00541  00541                % 00568 RGTR--
+200415002 Hollerich, Assurance  00542  00542                % 00568 RGTR--
+200415005 Hollerich, Heentze P  00544  00544                % 00568 RGTR--
+200403015 Belair, Rheinsheim    00546  00546                % 00568 RGTR--
+200417047 Kirchberg, Rout Bréc  00551  00551                % 00568 RGTR--
+200417007 Kirchberg, B.E.I.     00552  00552                % 00568 RGTR--
+200417016 Kirchberg, Jean Monn  00553  00553                % 00568 RGTR--
+200417005 Kirchberg, Antoine d  00554  00554                % 00568 RGTR--
+200417019 Kirchberg, Konrad Ad  00555  00555                % 00568 RGTR--
+200417039 Kirchberg, Avalon     00556  00556                % 00568 RGTR--
+200417033 Kirchberg, Poutty St  00558  00558                % 00568 RGTR--
+200417044 Kirchberg, Luxexpo Q  00600  00600                % 00568 RGTR--
+200601009 Sandweiler, Schaedha  00608  00608                % 00568 RGTR--
+200201007 Contern, Weiergewan   00610  00610                % 00568 RGTR--
+200201008 Contern, Rond Point   00611  00611                % 00568 RGTR--
+200201001 Contern, Birewee      00612  00612                % 00568 RGTR--
+200201004 Contern, Kräizgaass   00613  00613                % 00568 RGTR--
+200201003 Contern, Kiircheplaz  00613  00613                % 00568 RGTR--
+200201006 Contern, Millewee     00614  00614                % 00568 RGTR--
+200205001 Milbech               00616  00616                % 00568 RGTR--
+200203002 Moutfort, Juxgaass    00617  00617                % 00568 RGTR--
+200203005 Moutfort, Syrbréck    00617  00617                % 00568 RGTR--
+200202002 Medingen              00620  00620                % 00568 RGTR--
+200202001 Medingen, Aire de vi  00621                       % 00568 RGTR--
+*Z 00569 RGTR--                                             % 00569 RGTR--
+*L 165      200304020 200202001  00605  00651               % 00569 RGTR--
+*A ag 200304020 200202001 000001  00605  00651              % 00569 RGTR--
+*R 1 200202001 200304020 200202001  00605  00651            % 00569 RGTR--
+*G RGB 200304020 200202001  00605  00651                    % 00569 RGTR--
+*A VE 200304020 200202001 000001  00605  00651              % 00569 RGTR--
+*I FD 200304020 200202001        0002015  00605  00651      % 00569 RGTR--
+200304020 Howald, P&R Howald Q         00605                % 00569 RGTR--
+200304008 Howald, P&R Howald Q  00606  00606                % 00569 RGTR--
+200304012 Howald, P&R Howald Q  00608  00608                % 00569 RGTR--
+200412021 Gasperich, Gerhard M  00608  00608                % 00569 RGTR--
+200412028 Gasperich, Stengege   00610  00610                % 00569 RGTR--
+200412009 Gasperich, Gaasperec  00611  00611                % 00569 RGTR--
+200415002 Hollerich, Assurance  00612  00612                % 00569 RGTR--
+200415005 Hollerich, Heentze P  00614  00614                % 00569 RGTR--
+200403015 Belair, Rheinsheim    00616  00616                % 00569 RGTR--
+200417047 Kirchberg, Rout Bréc  00621  00621                % 00569 RGTR--
+200417007 Kirchberg, B.E.I.     00622  00622                % 00569 RGTR--
+200417016 Kirchberg, Jean Monn  00623  00623                % 00569 RGTR--
+200417005 Kirchberg, Antoine d  00624  00624                % 00569 RGTR--
+200417019 Kirchberg, Konrad Ad  00625  00625                % 00569 RGTR--
+200417039 Kirchberg, Avalon     00626  00626                % 00569 RGTR--
+200417033 Kirchberg, Poutty St  00628  00628                % 00569 RGTR--
+200417044 Kirchberg, Luxexpo Q  00630  00630                % 00569 RGTR--
+200601009 Sandweiler, Schaedha  00638  00638                % 00569 RGTR--
+200201007 Contern, Weiergewan   00640  00640                % 00569 RGTR--
+200201008 Contern, Rond Point   00641  00641                % 00569 RGTR--
+200201001 Contern, Birewee      00642  00642                % 00569 RGTR--
+200201004 Contern, Kräizgaass   00643  00643                % 00569 RGTR--
+200201003 Contern, Kiircheplaz  00643  00643                % 00569 RGTR--
+200201006 Contern, Millewee     00644  00644                % 00569 RGTR--
+200205001 Milbech               00646  00646                % 00569 RGTR--
+200203002 Moutfort, Juxgaass    00647  00647                % 00569 RGTR--
+200203005 Moutfort, Syrbréck    00647  00647                % 00569 RGTR--
+200202002 Medingen              00650  00650                % 00569 RGTR--
+200202001 Medingen, Aire de vi  00651                       % 00569 RGTR--
+*Z 00570 RGTR--                                             % 00570 RGTR--
+*L 165      200304020 200202001  00935  01021               % 00570 RGTR--
+*A ae 200304020 200202001 000001  00935  01021              % 00570 RGTR--
+*R 1 200202001 200304020 200202001  00935  01021            % 00570 RGTR--
+*G RGB 200304020 200202001  00935  01021                    % 00570 RGTR--
+*A VE 200304020 200202001 000001  00935  01021              % 00570 RGTR--
+*I FD 200304020 200202001        0001009  00935  01021      % 00570 RGTR--
+200304020 Howald, P&R Howald Q         00935                % 00570 RGTR--
+200304008 Howald, P&R Howald Q  00936  00936                % 00570 RGTR--
+200304012 Howald, P&R Howald Q  00938  00938                % 00570 RGTR--
+200412021 Gasperich, Gerhard M  00938  00938                % 00570 RGTR--
+200412028 Gasperich, Stengege   00940  00940                % 00570 RGTR--
+200412009 Gasperich, Gaasperec  00941  00941                % 00570 RGTR--
+200415002 Hollerich, Assurance  00942  00942                % 00570 RGTR--
+200415005 Hollerich, Heentze P  00944  00944                % 00570 RGTR--
+200403015 Belair, Rheinsheim    00946  00946                % 00570 RGTR--
+200417047 Kirchberg, Rout Bréc  00951  00951                % 00570 RGTR--
+200417007 Kirchberg, B.E.I.     00952  00952                % 00570 RGTR--
+200417016 Kirchberg, Jean Monn  00953  00953                % 00570 RGTR--
+200417005 Kirchberg, Antoine d  00954  00954                % 00570 RGTR--
+200417019 Kirchberg, Konrad Ad  00955  00955                % 00570 RGTR--
+200417039 Kirchberg, Avalon     00956  00956                % 00570 RGTR--
+200417033 Kirchberg, Poutty St  00958  00958                % 00570 RGTR--
+200417044 Kirchberg, Luxexpo Q  01000  01000                % 00570 RGTR--
+200601009 Sandweiler, Schaedha  01008  01008                % 00570 RGTR--
+200201007 Contern, Weiergewan   01010  01010                % 00570 RGTR--
+200201008 Contern, Rond Point   01011  01011                % 00570 RGTR--
+200201001 Contern, Birewee      01012  01012                % 00570 RGTR--
+200201004 Contern, Kräizgaass   01013  01013                % 00570 RGTR--
+200201003 Contern, Kiircheplaz  01013  01013                % 00570 RGTR--
+200201006 Contern, Millewee     01014  01014                % 00570 RGTR--
+200205001 Milbech               01016  01016                % 00570 RGTR--
+200203002 Moutfort, Juxgaass    01017  01017                % 00570 RGTR--
+200203005 Moutfort, Syrbréck    01017  01017                % 00570 RGTR--
+200202002 Medingen              01020  01020                % 00570 RGTR--
+200202001 Medingen, Aire de vi  01021                       % 00570 RGTR--
+*Z 00571 RGTR--                                             % 00571 RGTR--
+*L 165      200304020 200202001  01035  01121               % 00571 RGTR--
+*A ag 200304020 200202001 000001  01035  01121              % 00571 RGTR--
+*R 1 200202001 200304020 200202001  01035  01121            % 00571 RGTR--
+*G RGB 200304020 200202001  01035  01121                    % 00571 RGTR--
+*A VE 200304020 200202001 000001  01035  01121              % 00571 RGTR--
+*I FD 200304020 200202001        0001767  01035  01121      % 00571 RGTR--
+200304020 Howald, P&R Howald Q         01035                % 00571 RGTR--
+200304008 Howald, P&R Howald Q  01036  01036                % 00571 RGTR--
+200304012 Howald, P&R Howald Q  01038  01038                % 00571 RGTR--
+200412021 Gasperich, Gerhard M  01038  01038                % 00571 RGTR--
+200412028 Gasperich, Stengege   01040  01040                % 00571 RGTR--
+200412009 Gasperich, Gaasperec  01041  01041                % 00571 RGTR--
+200415002 Hollerich, Assurance  01042  01042                % 00571 RGTR--
+200415005 Hollerich, Heentze P  01044  01044                % 00571 RGTR--
+200403015 Belair, Rheinsheim    01046  01046                % 00571 RGTR--
+200417047 Kirchberg, Rout Bréc  01051  01051                % 00571 RGTR--
+200417007 Kirchberg, B.E.I.     01052  01052                % 00571 RGTR--
+200417016 Kirchberg, Jean Monn  01053  01053                % 00571 RGTR--
+200417005 Kirchberg, Antoine d  01054  01054                % 00571 RGTR--
+200417019 Kirchberg, Konrad Ad  01055  01055                % 00571 RGTR--
+200417039 Kirchberg, Avalon     01056  01056                % 00571 RGTR--
+200417033 Kirchberg, Poutty St  01058  01058                % 00571 RGTR--
+200417044 Kirchberg, Luxexpo Q  01100  01100                % 00571 RGTR--
+200601009 Sandweiler, Schaedha  01108  01108                % 00571 RGTR--
+200201007 Contern, Weiergewan   01110  01110                % 00571 RGTR--
+200201008 Contern, Rond Point   01111  01111                % 00571 RGTR--
+200201001 Contern, Birewee      01112  01112                % 00571 RGTR--
+200201004 Contern, Kräizgaass   01113  01113                % 00571 RGTR--
+200201003 Contern, Kiircheplaz  01113  01113                % 00571 RGTR--
+200201006 Contern, Millewee     01114  01114                % 00571 RGTR--
+200205001 Milbech               01116  01116                % 00571 RGTR--
+200203002 Moutfort, Juxgaass    01117  01117                % 00571 RGTR--
+200203005 Moutfort, Syrbréck    01117  01117                % 00571 RGTR--
+200202002 Medingen              01120  01120                % 00571 RGTR--
+200202001 Medingen, Aire de vi  01121                       % 00571 RGTR--
+*Z 00572 RGTR--                                             % 00572 RGTR--
+*L 165      200304020 200202001  01105  01151               % 00572 RGTR--
+*A ag 200304020 200202001 000001  01105  01151              % 00572 RGTR--
+*R 1 200202001 200304020 200202001  01105  01151            % 00572 RGTR--
+*G RGB 200304020 200202001  01105  01151                    % 00572 RGTR--
+*A VE 200304020 200202001 000001  01105  01151              % 00572 RGTR--
+*I FD 200304020 200202001        0002016  01105  01151      % 00572 RGTR--
+200304020 Howald, P&R Howald Q         01105                % 00572 RGTR--
+200304008 Howald, P&R Howald Q  01106  01106                % 00572 RGTR--
+200304012 Howald, P&R Howald Q  01108  01108                % 00572 RGTR--
+200412021 Gasperich, Gerhard M  01108  01108                % 00572 RGTR--
+200412028 Gasperich, Stengege   01110  01110                % 00572 RGTR--
+200412009 Gasperich, Gaasperec  01111  01111                % 00572 RGTR--
+200415002 Hollerich, Assurance  01112  01112                % 00572 RGTR--
+200415005 Hollerich, Heentze P  01114  01114                % 00572 RGTR--
+200403015 Belair, Rheinsheim    01116  01116                % 00572 RGTR--
+200417047 Kirchberg, Rout Bréc  01121  01121                % 00572 RGTR--
+200417007 Kirchberg, B.E.I.     01122  01122                % 00572 RGTR--
+200417016 Kirchberg, Jean Monn  01123  01123                % 00572 RGTR--
+200417005 Kirchberg, Antoine d  01124  01124                % 00572 RGTR--
+200417019 Kirchberg, Konrad Ad  01125  01125                % 00572 RGTR--
+200417039 Kirchberg, Avalon     01126  01126                % 00572 RGTR--
+200417033 Kirchberg, Poutty St  01128  01128                % 00572 RGTR--
+200417044 Kirchberg, Luxexpo Q  01130  01130                % 00572 RGTR--
+200601009 Sandweiler, Schaedha  01138  01138                % 00572 RGTR--
+200201007 Contern, Weiergewan   01140  01140                % 00572 RGTR--
+200201008 Contern, Rond Point   01141  01141                % 00572 RGTR--
+200201001 Contern, Birewee      01142  01142                % 00572 RGTR--
+200201004 Contern, Kräizgaass   01143  01143                % 00572 RGTR--
+200201003 Contern, Kiircheplaz  01143  01143                % 00572 RGTR--
+200201006 Contern, Millewee     01144  01144                % 00572 RGTR--
+200205001 Milbech               01146  01146                % 00572 RGTR--
+200203002 Moutfort, Juxgaass    01147  01147                % 00572 RGTR--
+200203005 Moutfort, Syrbréck    01147  01147                % 00572 RGTR--
+200202002 Medingen              01150  01150                % 00572 RGTR--
+200202001 Medingen, Aire de vi  01151                       % 00572 RGTR--
+*Z 00573 RGTR--                                             % 00573 RGTR--
+*L 165      200304020 200202001  01135  01221               % 00573 RGTR--
+*A ag 200304020 200202001 000001  01135  01221              % 00573 RGTR--
+*R 1 200202001 200304020 200202001  01135  01221            % 00573 RGTR--
+*G RGB 200304020 200202001  01135  01221                    % 00573 RGTR--
+*A VE 200304020 200202001 000001  01135  01221              % 00573 RGTR--
+*I FD 200304020 200202001        0001769  01135  01221      % 00573 RGTR--
+200304020 Howald, P&R Howald Q         01135                % 00573 RGTR--
+200304008 Howald, P&R Howald Q  01136  01136                % 00573 RGTR--
+200304012 Howald, P&R Howald Q  01138  01138                % 00573 RGTR--
+200412021 Gasperich, Gerhard M  01138  01138                % 00573 RGTR--
+200412028 Gasperich, Stengege   01140  01140                % 00573 RGTR--
+200412009 Gasperich, Gaasperec  01141  01141                % 00573 RGTR--
+200415002 Hollerich, Assurance  01142  01142                % 00573 RGTR--
+200415005 Hollerich, Heentze P  01144  01144                % 00573 RGTR--
+200403015 Belair, Rheinsheim    01146  01146                % 00573 RGTR--
+200417047 Kirchberg, Rout Bréc  01151  01151                % 00573 RGTR--
+200417007 Kirchberg, B.E.I.     01152  01152                % 00573 RGTR--
+200417016 Kirchberg, Jean Monn  01153  01153                % 00573 RGTR--
+200417005 Kirchberg, Antoine d  01154  01154                % 00573 RGTR--
+200417019 Kirchberg, Konrad Ad  01155  01155                % 00573 RGTR--
+200417039 Kirchberg, Avalon     01156  01156                % 00573 RGTR--
+200417033 Kirchberg, Poutty St  01158  01158                % 00573 RGTR--
+200417044 Kirchberg, Luxexpo Q  01200  01200                % 00573 RGTR--
+200601009 Sandweiler, Schaedha  01208  01208                % 00573 RGTR--
+200201007 Contern, Weiergewan   01210  01210                % 00573 RGTR--
+200201008 Contern, Rond Point   01211  01211                % 00573 RGTR--
+200201001 Contern, Birewee      01212  01212                % 00573 RGTR--
+200201004 Contern, Kräizgaass   01213  01213                % 00573 RGTR--
+200201003 Contern, Kiircheplaz  01213  01213                % 00573 RGTR--
+200201006 Contern, Millewee     01214  01214                % 00573 RGTR--
+200205001 Milbech               01216  01216                % 00573 RGTR--
+200203002 Moutfort, Juxgaass    01217  01217                % 00573 RGTR--
+200203005 Moutfort, Syrbréck    01217  01217                % 00573 RGTR--
+200202002 Medingen              01220  01220                % 00573 RGTR--
+200202001 Medingen, Aire de vi  01221                       % 00573 RGTR--
+*Z 00574 RGTR--                                             % 00574 RGTR--
+*L 165      200304020 200202001  01235  01321               % 00574 RGTR--
+*A ae 200304020 200202001 000001  01235  01321              % 00574 RGTR--
+*R 1 200202001 200304020 200202001  01235  01321            % 00574 RGTR--
+*G RGB 200304020 200202001  01235  01321                    % 00574 RGTR--
+*A VE 200304020 200202001 000001  01235  01321              % 00574 RGTR--
+*I FD 200304020 200202001        0001143  01235  01321      % 00574 RGTR--
+200304020 Howald, P&R Howald Q         01235                % 00574 RGTR--
+200304008 Howald, P&R Howald Q  01236  01236                % 00574 RGTR--
+200304012 Howald, P&R Howald Q  01238  01238                % 00574 RGTR--
+200412021 Gasperich, Gerhard M  01238  01238                % 00574 RGTR--
+200412028 Gasperich, Stengege   01240  01240                % 00574 RGTR--
+200412009 Gasperich, Gaasperec  01241  01241                % 00574 RGTR--
+200415002 Hollerich, Assurance  01242  01242                % 00574 RGTR--
+200415005 Hollerich, Heentze P  01244  01244                % 00574 RGTR--
+200403015 Belair, Rheinsheim    01246  01246                % 00574 RGTR--
+200417047 Kirchberg, Rout Bréc  01251  01251                % 00574 RGTR--
+200417007 Kirchberg, B.E.I.     01252  01252                % 00574 RGTR--
+200417016 Kirchberg, Jean Monn  01253  01253                % 00574 RGTR--
+200417005 Kirchberg, Antoine d  01254  01254                % 00574 RGTR--
+200417019 Kirchberg, Konrad Ad  01255  01255                % 00574 RGTR--
+200417039 Kirchberg, Avalon     01256  01256                % 00574 RGTR--
+200417033 Kirchberg, Poutty St  01258  01258                % 00574 RGTR--
+200417044 Kirchberg, Luxexpo Q  01300  01300                % 00574 RGTR--
+200601009 Sandweiler, Schaedha  01308  01308                % 00574 RGTR--
+200201007 Contern, Weiergewan   01310  01310                % 00574 RGTR--
+200201008 Contern, Rond Point   01311  01311                % 00574 RGTR--
+200201001 Contern, Birewee      01312  01312                % 00574 RGTR--
+200201004 Contern, Kräizgaass   01313  01313                % 00574 RGTR--
+200201003 Contern, Kiircheplaz  01313  01313                % 00574 RGTR--
+200201006 Contern, Millewee     01314  01314                % 00574 RGTR--
+200205001 Milbech               01316  01316                % 00574 RGTR--
+200203002 Moutfort, Juxgaass    01317  01317                % 00574 RGTR--
+200203005 Moutfort, Syrbréck    01317  01317                % 00574 RGTR--
+200202002 Medingen              01320  01320                % 00574 RGTR--
+200202001 Medingen, Aire de vi  01321                       % 00574 RGTR--
+*Z 00575 RGTR--                                             % 00575 RGTR--
+*L 165      200304020 200202001  01305  01351               % 00575 RGTR--
+*A ag 200304020 200202001 000001  01305  01351              % 00575 RGTR--
+*R 1 200202001 200304020 200202001  01305  01351            % 00575 RGTR--
+*G RGB 200304020 200202001  01305  01351                    % 00575 RGTR--
+*A VE 200304020 200202001 000001  01305  01351              % 00575 RGTR--
+*I FD 200304020 200202001        0002017  01305  01351      % 00575 RGTR--
+200304020 Howald, P&R Howald Q         01305                % 00575 RGTR--
+200304008 Howald, P&R Howald Q  01306  01306                % 00575 RGTR--
+200304012 Howald, P&R Howald Q  01308  01308                % 00575 RGTR--
+200412021 Gasperich, Gerhard M  01308  01308                % 00575 RGTR--
+200412028 Gasperich, Stengege   01310  01310                % 00575 RGTR--
+200412009 Gasperich, Gaasperec  01311  01311                % 00575 RGTR--
+200415002 Hollerich, Assurance  01312  01312                % 00575 RGTR--
+200415005 Hollerich, Heentze P  01314  01314                % 00575 RGTR--
+200403015 Belair, Rheinsheim    01316  01316                % 00575 RGTR--
+200417047 Kirchberg, Rout Bréc  01321  01321                % 00575 RGTR--
+200417007 Kirchberg, B.E.I.     01322  01322                % 00575 RGTR--
+200417016 Kirchberg, Jean Monn  01323  01323                % 00575 RGTR--
+200417005 Kirchberg, Antoine d  01324  01324                % 00575 RGTR--
+200417019 Kirchberg, Konrad Ad  01325  01325                % 00575 RGTR--
+200417039 Kirchberg, Avalon     01326  01326                % 00575 RGTR--
+200417033 Kirchberg, Poutty St  01328  01328                % 00575 RGTR--
+200417044 Kirchberg, Luxexpo Q  01330  01330                % 00575 RGTR--
+200601009 Sandweiler, Schaedha  01338  01338                % 00575 RGTR--
+200201007 Contern, Weiergewan   01340  01340                % 00575 RGTR--
+200201008 Contern, Rond Point   01341  01341                % 00575 RGTR--
+200201001 Contern, Birewee      01342  01342                % 00575 RGTR--
+200201004 Contern, Kräizgaass   01343  01343                % 00575 RGTR--
+200201003 Contern, Kiircheplaz  01343  01343                % 00575 RGTR--
+200201006 Contern, Millewee     01344  01344                % 00575 RGTR--
+200205001 Milbech               01346  01346                % 00575 RGTR--
+200203002 Moutfort, Juxgaass    01347  01347                % 00575 RGTR--
+200203005 Moutfort, Syrbréck    01347  01347                % 00575 RGTR--
+200202002 Medingen              01350  01350                % 00575 RGTR--
+200202001 Medingen, Aire de vi  01351                       % 00575 RGTR--
+*Z 00576 RGTR--                                             % 00576 RGTR--
+*L 165      200304020 200202001  01335  01421               % 00576 RGTR--
+*A ag 200304020 200202001 000001  01335  01421              % 00576 RGTR--
+*R 1 200202001 200304020 200202001  01335  01421            % 00576 RGTR--
+*G RGB 200304020 200202001  01335  01421                    % 00576 RGTR--
+*A VE 200304020 200202001 000001  01335  01421              % 00576 RGTR--
+*I FD 200304020 200202001        0001772  01335  01421      % 00576 RGTR--
+200304020 Howald, P&R Howald Q         01335                % 00576 RGTR--
+200304008 Howald, P&R Howald Q  01336  01336                % 00576 RGTR--
+200304012 Howald, P&R Howald Q  01338  01338                % 00576 RGTR--
+200412021 Gasperich, Gerhard M  01338  01338                % 00576 RGTR--
+200412028 Gasperich, Stengege   01340  01340                % 00576 RGTR--
+200412009 Gasperich, Gaasperec  01341  01341                % 00576 RGTR--
+200415002 Hollerich, Assurance  01342  01342                % 00576 RGTR--
+200415005 Hollerich, Heentze P  01344  01344                % 00576 RGTR--
+200403015 Belair, Rheinsheim    01346  01346                % 00576 RGTR--
+200417047 Kirchberg, Rout Bréc  01351  01351                % 00576 RGTR--
+200417007 Kirchberg, B.E.I.     01352  01352                % 00576 RGTR--
+200417016 Kirchberg, Jean Monn  01353  01353                % 00576 RGTR--
+200417005 Kirchberg, Antoine d  01354  01354                % 00576 RGTR--
+200417019 Kirchberg, Konrad Ad  01355  01355                % 00576 RGTR--
+200417039 Kirchberg, Avalon     01356  01356                % 00576 RGTR--
+200417033 Kirchberg, Poutty St  01358  01358                % 00576 RGTR--
+200417044 Kirchberg, Luxexpo Q  01400  01400                % 00576 RGTR--
+200601009 Sandweiler, Schaedha  01408  01408                % 00576 RGTR--
+200201007 Contern, Weiergewan   01410  01410                % 00576 RGTR--
+200201008 Contern, Rond Point   01411  01411                % 00576 RGTR--
+200201001 Contern, Birewee      01412  01412                % 00576 RGTR--
+200201004 Contern, Kräizgaass   01413  01413                % 00576 RGTR--
+200201003 Contern, Kiircheplaz  01413  01413                % 00576 RGTR--
+200201006 Contern, Millewee     01414  01414                % 00576 RGTR--
+200205001 Milbech               01416  01416                % 00576 RGTR--
+200203002 Moutfort, Juxgaass    01417  01417                % 00576 RGTR--
+200203005 Moutfort, Syrbréck    01417  01417                % 00576 RGTR--
+200202002 Medingen              01420  01420                % 00576 RGTR--
+200202001 Medingen, Aire de vi  01421                       % 00576 RGTR--
+*Z 00577 RGTR--                                             % 00577 RGTR--
+*L 165      200304020 200202001  01435  01521               % 00577 RGTR--
+*A ae 200304020 200202001 000001  01435  01521              % 00577 RGTR--
+*R 1 200202001 200304020 200202001  01435  01521            % 00577 RGTR--
+*G RGB 200304020 200202001  01435  01521                    % 00577 RGTR--
+*A VE 200304020 200202001 000001  01435  01521              % 00577 RGTR--
+*I FD 200304020 200202001        0001773  01435  01521      % 00577 RGTR--
+200304020 Howald, P&R Howald Q         01435                % 00577 RGTR--
+200304008 Howald, P&R Howald Q  01436  01436                % 00577 RGTR--
+200304012 Howald, P&R Howald Q  01438  01438                % 00577 RGTR--
+200412021 Gasperich, Gerhard M  01438  01438                % 00577 RGTR--
+200412028 Gasperich, Stengege   01440  01440                % 00577 RGTR--
+200412009 Gasperich, Gaasperec  01441  01441                % 00577 RGTR--
+200415002 Hollerich, Assurance  01442  01442                % 00577 RGTR--
+200415005 Hollerich, Heentze P  01444  01444                % 00577 RGTR--
+200403015 Belair, Rheinsheim    01446  01446                % 00577 RGTR--
+200417047 Kirchberg, Rout Bréc  01451  01451                % 00577 RGTR--
+200417007 Kirchberg, B.E.I.     01452  01452                % 00577 RGTR--
+200417016 Kirchberg, Jean Monn  01453  01453                % 00577 RGTR--
+200417005 Kirchberg, Antoine d  01454  01454                % 00577 RGTR--
+200417019 Kirchberg, Konrad Ad  01455  01455                % 00577 RGTR--
+200417039 Kirchberg, Avalon     01456  01456                % 00577 RGTR--
+200417033 Kirchberg, Poutty St  01458  01458                % 00577 RGTR--
+200417044 Kirchberg, Luxexpo Q  01500  01500                % 00577 RGTR--
+200601009 Sandweiler, Schaedha  01508  01508                % 00577 RGTR--
+200201007 Contern, Weiergewan   01510  01510                % 00577 RGTR--
+200201008 Contern, Rond Point   01511  01511                % 00577 RGTR--
+200201001 Contern, Birewee      01512  01512                % 00577 RGTR--
+200201004 Contern, Kräizgaass   01513  01513                % 00577 RGTR--
+200201003 Contern, Kiircheplaz  01513  01513                % 00577 RGTR--
+200201006 Contern, Millewee     01514  01514                % 00577 RGTR--
+200205001 Milbech               01516  01516                % 00577 RGTR--
+200203002 Moutfort, Juxgaass    01517  01517                % 00577 RGTR--
+200203005 Moutfort, Syrbréck    01517  01517                % 00577 RGTR--
+200202002 Medingen              01520  01520                % 00577 RGTR--
+200202001 Medingen, Aire de vi  01521                       % 00577 RGTR--
+*Z 00578 RGTR--                                             % 00578 RGTR--
+*L 165      200304020 200202001  01505  01551               % 00578 RGTR--
+*A ae 200304020 200202001 000001  01505  01551              % 00578 RGTR--
+*R 1 200202001 200304020 200202001  01505  01551            % 00578 RGTR--
+*G RGB 200304020 200202001  01505  01551                    % 00578 RGTR--
+*A VE 200304020 200202001 000001  01505  01551              % 00578 RGTR--
+*I FD 200304020 200202001        0002018  01505  01551      % 00578 RGTR--
+200304020 Howald, P&R Howald Q         01505                % 00578 RGTR--
+200304008 Howald, P&R Howald Q  01506  01506                % 00578 RGTR--
+200304012 Howald, P&R Howald Q  01508  01508                % 00578 RGTR--
+200412021 Gasperich, Gerhard M  01508  01508                % 00578 RGTR--
+200412028 Gasperich, Stengege   01510  01510                % 00578 RGTR--
+200412009 Gasperich, Gaasperec  01511  01511                % 00578 RGTR--
+200415002 Hollerich, Assurance  01512  01512                % 00578 RGTR--
+200415005 Hollerich, Heentze P  01514  01514                % 00578 RGTR--
+200403015 Belair, Rheinsheim    01516  01516                % 00578 RGTR--
+200417047 Kirchberg, Rout Bréc  01521  01521                % 00578 RGTR--
+200417007 Kirchberg, B.E.I.     01522  01522                % 00578 RGTR--
+200417016 Kirchberg, Jean Monn  01523  01523                % 00578 RGTR--
+200417005 Kirchberg, Antoine d  01524  01524                % 00578 RGTR--
+200417019 Kirchberg, Konrad Ad  01525  01525                % 00578 RGTR--
+200417039 Kirchberg, Avalon     01526  01526                % 00578 RGTR--
+200417033 Kirchberg, Poutty St  01528  01528                % 00578 RGTR--
+200417044 Kirchberg, Luxexpo Q  01530  01530                % 00578 RGTR--
+200601009 Sandweiler, Schaedha  01538  01538                % 00578 RGTR--
+200201007 Contern, Weiergewan   01540  01540                % 00578 RGTR--
+200201008 Contern, Rond Point   01541  01541                % 00578 RGTR--
+200201001 Contern, Birewee      01542  01542                % 00578 RGTR--
+200201004 Contern, Kräizgaass   01543  01543                % 00578 RGTR--
+200201003 Contern, Kiircheplaz  01543  01543                % 00578 RGTR--
+200201006 Contern, Millewee     01544  01544                % 00578 RGTR--
+200205001 Milbech               01546  01546                % 00578 RGTR--
+200203002 Moutfort, Juxgaass    01547  01547                % 00578 RGTR--
+200203005 Moutfort, Syrbréck    01547  01547                % 00578 RGTR--
+200202002 Medingen              01550  01550                % 00578 RGTR--
+200202001 Medingen, Aire de vi  01551                       % 00578 RGTR--
+*Z 00579 RGTR--                                             % 00579 RGTR--
+*L 165      200304020 200202001  01535  01621               % 00579 RGTR--
+*A ag 200304020 200202001 000001  01535  01621              % 00579 RGTR--
+*R 1 200202001 200304020 200202001  01535  01621            % 00579 RGTR--
+*G RGB 200304020 200202001  01535  01621                    % 00579 RGTR--
+*A VE 200304020 200202001 000001  01535  01621              % 00579 RGTR--
+*I FD 200304020 200202001        0001205  01535  01621      % 00579 RGTR--
+200304020 Howald, P&R Howald Q         01535                % 00579 RGTR--
+200304008 Howald, P&R Howald Q  01536  01536                % 00579 RGTR--
+200304012 Howald, P&R Howald Q  01538  01538                % 00579 RGTR--
+200412021 Gasperich, Gerhard M  01538  01538                % 00579 RGTR--
+200412028 Gasperich, Stengege   01540  01540                % 00579 RGTR--
+200412009 Gasperich, Gaasperec  01541  01541                % 00579 RGTR--
+200415002 Hollerich, Assurance  01542  01542                % 00579 RGTR--
+200415005 Hollerich, Heentze P  01544  01544                % 00579 RGTR--
+200403015 Belair, Rheinsheim    01546  01546                % 00579 RGTR--
+200417047 Kirchberg, Rout Bréc  01551  01551                % 00579 RGTR--
+200417007 Kirchberg, B.E.I.     01552  01552                % 00579 RGTR--
+200417016 Kirchberg, Jean Monn  01553  01553                % 00579 RGTR--
+200417005 Kirchberg, Antoine d  01554  01554                % 00579 RGTR--
+200417019 Kirchberg, Konrad Ad  01555  01555                % 00579 RGTR--
+200417039 Kirchberg, Avalon     01556  01556                % 00579 RGTR--
+200417033 Kirchberg, Poutty St  01558  01558                % 00579 RGTR--
+200417044 Kirchberg, Luxexpo Q  01600  01600                % 00579 RGTR--
+200601009 Sandweiler, Schaedha  01608  01608                % 00579 RGTR--
+200201007 Contern, Weiergewan   01610  01610                % 00579 RGTR--
+200201008 Contern, Rond Point   01611  01611                % 00579 RGTR--
+200201001 Contern, Birewee      01612  01612                % 00579 RGTR--
+200201004 Contern, Kräizgaass   01613  01613                % 00579 RGTR--
+200201003 Contern, Kiircheplaz  01613  01613                % 00579 RGTR--
+200201006 Contern, Millewee     01614  01614                % 00579 RGTR--
+200205001 Milbech               01616  01616                % 00579 RGTR--
+200203002 Moutfort, Juxgaass    01617  01617                % 00579 RGTR--
+200203005 Moutfort, Syrbréck    01617  01617                % 00579 RGTR--
+200202002 Medingen              01620  01620                % 00579 RGTR--
+200202001 Medingen, Aire de vi  01621                       % 00579 RGTR--
+*Z 00580 RGTR--                                             % 00580 RGTR--
+*L 165      200304020 200202001  01835  01921               % 00580 RGTR--
+*A ag 200304020 200202001 000001  01835  01921              % 00580 RGTR--
+*R 1 200202001 200304020 200202001  01835  01921            % 00580 RGTR--
+*G RGB 200304020 200202001  01835  01921                    % 00580 RGTR--
+*A VE 200304020 200202001 000001  01835  01921              % 00580 RGTR--
+*I FD 200304020 200202001        0001781  01835  01921      % 00580 RGTR--
+200304020 Howald, P&R Howald Q         01835                % 00580 RGTR--
+200304008 Howald, P&R Howald Q  01836  01836                % 00580 RGTR--
+200304012 Howald, P&R Howald Q  01838  01838                % 00580 RGTR--
+200412021 Gasperich, Gerhard M  01838  01838                % 00580 RGTR--
+200412028 Gasperich, Stengege   01840  01840                % 00580 RGTR--
+200412009 Gasperich, Gaasperec  01841  01841                % 00580 RGTR--
+200415002 Hollerich, Assurance  01842  01842                % 00580 RGTR--
+200415005 Hollerich, Heentze P  01844  01844                % 00580 RGTR--
+200403015 Belair, Rheinsheim    01846  01846                % 00580 RGTR--
+200417047 Kirchberg, Rout Bréc  01851  01851                % 00580 RGTR--
+200417007 Kirchberg, B.E.I.     01852  01852                % 00580 RGTR--
+200417016 Kirchberg, Jean Monn  01853  01853                % 00580 RGTR--
+200417005 Kirchberg, Antoine d  01854  01854                % 00580 RGTR--
+200417019 Kirchberg, Konrad Ad  01855  01855                % 00580 RGTR--
+200417039 Kirchberg, Avalon     01856  01856                % 00580 RGTR--
+200417033 Kirchberg, Poutty St  01858  01858                % 00580 RGTR--
+200417044 Kirchberg, Luxexpo Q  01900  01900                % 00580 RGTR--
+200601009 Sandweiler, Schaedha  01908  01908                % 00580 RGTR--
+200201007 Contern, Weiergewan   01910  01910                % 00580 RGTR--
+200201008 Contern, Rond Point   01911  01911                % 00580 RGTR--
+200201001 Contern, Birewee      01912  01912                % 00580 RGTR--
+200201004 Contern, Kräizgaass   01913  01913                % 00580 RGTR--
+200201003 Contern, Kiircheplaz  01913  01913                % 00580 RGTR--
+200201006 Contern, Millewee     01914  01914                % 00580 RGTR--
+200205001 Milbech               01916  01916                % 00580 RGTR--
+200203002 Moutfort, Juxgaass    01917  01917                % 00580 RGTR--
+200203005 Moutfort, Syrbréck    01917  01917                % 00580 RGTR--
+200202002 Medingen              01920  01920                % 00580 RGTR--
+200202001 Medingen, Aire de vi  01921                       % 00580 RGTR--
+*Z 00581 RGTR--                                             % 00581 RGTR--
+*L 165      200304020 200202001  01905  01951               % 00581 RGTR--
+*A ag 200304020 200202001 000001  01905  01951              % 00581 RGTR--
+*R 1 200202001 200304020 200202001  01905  01951            % 00581 RGTR--
+*G RGB 200304020 200202001  01905  01951                    % 00581 RGTR--
+*A VE 200304020 200202001 000001  01905  01951              % 00581 RGTR--
+*I FD 200304020 200202001        0002019  01905  01951      % 00581 RGTR--
+200304020 Howald, P&R Howald Q         01905                % 00581 RGTR--
+200304008 Howald, P&R Howald Q  01906  01906                % 00581 RGTR--
+200304012 Howald, P&R Howald Q  01908  01908                % 00581 RGTR--
+200412021 Gasperich, Gerhard M  01908  01908                % 00581 RGTR--
+200412028 Gasperich, Stengege   01910  01910                % 00581 RGTR--
+200412009 Gasperich, Gaasperec  01911  01911                % 00581 RGTR--
+200415002 Hollerich, Assurance  01912  01912                % 00581 RGTR--
+200415005 Hollerich, Heentze P  01914  01914                % 00581 RGTR--
+200403015 Belair, Rheinsheim    01916  01916                % 00581 RGTR--
+200417047 Kirchberg, Rout Bréc  01921  01921                % 00581 RGTR--
+200417007 Kirchberg, B.E.I.     01922  01922                % 00581 RGTR--
+200417016 Kirchberg, Jean Monn  01923  01923                % 00581 RGTR--
+200417005 Kirchberg, Antoine d  01924  01924                % 00581 RGTR--
+200417019 Kirchberg, Konrad Ad  01925  01925                % 00581 RGTR--
+200417039 Kirchberg, Avalon     01926  01926                % 00581 RGTR--
+200417033 Kirchberg, Poutty St  01928  01928                % 00581 RGTR--
+200417044 Kirchberg, Luxexpo Q  01930  01930                % 00581 RGTR--
+200601009 Sandweiler, Schaedha  01938  01938                % 00581 RGTR--
+200201007 Contern, Weiergewan   01940  01940                % 00581 RGTR--
+200201008 Contern, Rond Point   01941  01941                % 00581 RGTR--
+200201001 Contern, Birewee      01942  01942                % 00581 RGTR--
+200201004 Contern, Kräizgaass   01943  01943                % 00581 RGTR--
+200201003 Contern, Kiircheplaz  01943  01943                % 00581 RGTR--
+200201006 Contern, Millewee     01944  01944                % 00581 RGTR--
+200205001 Milbech               01946  01946                % 00581 RGTR--
+200203002 Moutfort, Juxgaass    01947  01947                % 00581 RGTR--
+200203005 Moutfort, Syrbréck    01947  01947                % 00581 RGTR--
+200202002 Medingen              01950  01950                % 00581 RGTR--
+200202001 Medingen, Aire de vi  01951                       % 00581 RGTR--
+*Z 00582 RGTR--                                             % 00582 RGTR--
+*L 165      200304020 200202001  02005  02051               % 00582 RGTR--
+*A ae 200304020 200202001 000001  02005  02051              % 00582 RGTR--
+*R 1 200202001 200304020 200202001  02005  02051            % 00582 RGTR--
+*G RGB 200304020 200202001  02005  02051                    % 00582 RGTR--
+*A VE 200304020 200202001 000001  02005  02051              % 00582 RGTR--
+*I FD 200304020 200202001        0001989  02005  02051      % 00582 RGTR--
+200304020 Howald, P&R Howald Q         02005                % 00582 RGTR--
+200304008 Howald, P&R Howald Q  02006  02006                % 00582 RGTR--
+200304012 Howald, P&R Howald Q  02008  02008                % 00582 RGTR--
+200412021 Gasperich, Gerhard M  02008  02008                % 00582 RGTR--
+200412028 Gasperich, Stengege   02010  02010                % 00582 RGTR--
+200412009 Gasperich, Gaasperec  02011  02011                % 00582 RGTR--
+200415002 Hollerich, Assurance  02012  02012                % 00582 RGTR--
+200415005 Hollerich, Heentze P  02014  02014                % 00582 RGTR--
+200403015 Belair, Rheinsheim    02016  02016                % 00582 RGTR--
+200417047 Kirchberg, Rout Bréc  02021  02021                % 00582 RGTR--
+200417007 Kirchberg, B.E.I.     02022  02022                % 00582 RGTR--
+200417016 Kirchberg, Jean Monn  02023  02023                % 00582 RGTR--
+200417005 Kirchberg, Antoine d  02024  02024                % 00582 RGTR--
+200417019 Kirchberg, Konrad Ad  02025  02025                % 00582 RGTR--
+200417039 Kirchberg, Avalon     02026  02026                % 00582 RGTR--
+200417033 Kirchberg, Poutty St  02028  02028                % 00582 RGTR--
+200417044 Kirchberg, Luxexpo Q  02030  02030                % 00582 RGTR--
+200601009 Sandweiler, Schaedha  02038  02038                % 00582 RGTR--
+200201007 Contern, Weiergewan   02040  02040                % 00582 RGTR--
+200201008 Contern, Rond Point   02041  02041                % 00582 RGTR--
+200201001 Contern, Birewee      02042  02042                % 00582 RGTR--
+200201004 Contern, Kräizgaass   02043  02043                % 00582 RGTR--
+200201003 Contern, Kiircheplaz  02043  02043                % 00582 RGTR--
+200201006 Contern, Millewee     02044  02044                % 00582 RGTR--
+200205001 Milbech               02046  02046                % 00582 RGTR--
+200203002 Moutfort, Juxgaass    02047  02047                % 00582 RGTR--
+200203005 Moutfort, Syrbréck    02047  02047                % 00582 RGTR--
+200202002 Medingen              02050  02050                % 00582 RGTR--
+200202001 Medingen, Aire de vi  02051                       % 00582 RGTR--
+*Z 00583 RGTR--                                             % 00583 RGTR--
+*L 165      200304020 200202001  02105  02151               % 00583 RGTR--
+*A ag 200304020 200202001 000001  02105  02151              % 00583 RGTR--
+*R 1 200202001 200304020 200202001  02105  02151            % 00583 RGTR--
+*G RGB 200304020 200202001  02105  02151                    % 00583 RGTR--
+*A VE 200304020 200202001 000001  02105  02151              % 00583 RGTR--
+*I FD 200304020 200202001        0002020  02105  02151      % 00583 RGTR--
+200304020 Howald, P&R Howald Q         02105                % 00583 RGTR--
+200304008 Howald, P&R Howald Q  02106  02106                % 00583 RGTR--
+200304012 Howald, P&R Howald Q  02108  02108                % 00583 RGTR--
+200412021 Gasperich, Gerhard M  02108  02108                % 00583 RGTR--
+200412028 Gasperich, Stengege   02110  02110                % 00583 RGTR--
+200412009 Gasperich, Gaasperec  02111  02111                % 00583 RGTR--
+200415002 Hollerich, Assurance  02112  02112                % 00583 RGTR--
+200415005 Hollerich, Heentze P  02114  02114                % 00583 RGTR--
+200403015 Belair, Rheinsheim    02116  02116                % 00583 RGTR--
+200417047 Kirchberg, Rout Bréc  02121  02121                % 00583 RGTR--
+200417007 Kirchberg, B.E.I.     02122  02122                % 00583 RGTR--
+200417016 Kirchberg, Jean Monn  02123  02123                % 00583 RGTR--
+200417005 Kirchberg, Antoine d  02124  02124                % 00583 RGTR--
+200417019 Kirchberg, Konrad Ad  02125  02125                % 00583 RGTR--
+200417039 Kirchberg, Avalon     02126  02126                % 00583 RGTR--
+200417033 Kirchberg, Poutty St  02128  02128                % 00583 RGTR--
+200417044 Kirchberg, Luxexpo Q  02130  02130                % 00583 RGTR--
+200601009 Sandweiler, Schaedha  02138  02138                % 00583 RGTR--
+200201007 Contern, Weiergewan   02140  02140                % 00583 RGTR--
+200201008 Contern, Rond Point   02141  02141                % 00583 RGTR--
+200201001 Contern, Birewee      02142  02142                % 00583 RGTR--
+200201004 Contern, Kräizgaass   02143  02143                % 00583 RGTR--
+200201003 Contern, Kiircheplaz  02143  02143                % 00583 RGTR--
+200201006 Contern, Millewee     02144  02144                % 00583 RGTR--
+200205001 Milbech               02146  02146                % 00583 RGTR--
+200203002 Moutfort, Juxgaass    02147  02147                % 00583 RGTR--
+200203005 Moutfort, Syrbréck    02147  02147                % 00583 RGTR--
+200202002 Medingen              02150  02150                % 00583 RGTR--
+200202001 Medingen, Aire de vi  02151                       % 00583 RGTR--
+*Z 00584 RGTR--                                             % 00584 RGTR--
+*L 165      200304020 200202001  02205  02251               % 00584 RGTR--
+*A ag 200304020 200202001 000001  02205  02251              % 00584 RGTR--
+*R 1 200202001 200304020 200202001  02205  02251            % 00584 RGTR--
+*G RGB 200304020 200202001  02205  02251                    % 00584 RGTR--
+*A VE 200304020 200202001 000001  02205  02251              % 00584 RGTR--
+*I FD 200304020 200202001        0002021  02205  02251      % 00584 RGTR--
+200304020 Howald, P&R Howald Q         02205                % 00584 RGTR--
+200304008 Howald, P&R Howald Q  02206  02206                % 00584 RGTR--
+200304012 Howald, P&R Howald Q  02208  02208                % 00584 RGTR--
+200412021 Gasperich, Gerhard M  02208  02208                % 00584 RGTR--
+200412028 Gasperich, Stengege   02210  02210                % 00584 RGTR--
+200412009 Gasperich, Gaasperec  02211  02211                % 00584 RGTR--
+200415002 Hollerich, Assurance  02212  02212                % 00584 RGTR--
+200415005 Hollerich, Heentze P  02214  02214                % 00584 RGTR--
+200403015 Belair, Rheinsheim    02216  02216                % 00584 RGTR--
+200417047 Kirchberg, Rout Bréc  02221  02221                % 00584 RGTR--
+200417007 Kirchberg, B.E.I.     02222  02222                % 00584 RGTR--
+200417016 Kirchberg, Jean Monn  02223  02223                % 00584 RGTR--
+200417005 Kirchberg, Antoine d  02224  02224                % 00584 RGTR--
+200417019 Kirchberg, Konrad Ad  02225  02225                % 00584 RGTR--
+200417039 Kirchberg, Avalon     02226  02226                % 00584 RGTR--
+200417033 Kirchberg, Poutty St  02228  02228                % 00584 RGTR--
+200417044 Kirchberg, Luxexpo Q  02230  02230                % 00584 RGTR--
+200601009 Sandweiler, Schaedha  02238  02238                % 00584 RGTR--
+200201007 Contern, Weiergewan   02240  02240                % 00584 RGTR--
+200201008 Contern, Rond Point   02241  02241                % 00584 RGTR--
+200201001 Contern, Birewee      02242  02242                % 00584 RGTR--
+200201004 Contern, Kräizgaass   02243  02243                % 00584 RGTR--
+200201003 Contern, Kiircheplaz  02243  02243                % 00584 RGTR--
+200201006 Contern, Millewee     02244  02244                % 00584 RGTR--
+200205001 Milbech               02246  02246                % 00584 RGTR--
+200203002 Moutfort, Juxgaass    02247  02247                % 00584 RGTR--
+200203005 Moutfort, Syrbréck    02247  02247                % 00584 RGTR--
+200202002 Medingen              02250  02250                % 00584 RGTR--
+200202001 Medingen, Aire de vi  02251                       % 00584 RGTR--
+*Z 00585 RGTR--                                             % 00585 RGTR--
+*L 165      200304020 200202001  02305  02351               % 00585 RGTR--
+*A ae 200304020 200202001 000001  02305  02351              % 00585 RGTR--
+*R 1 200202001 200304020 200202001  02305  02351            % 00585 RGTR--
+*G RGB 200304020 200202001  02305  02351                    % 00585 RGTR--
+*A VE 200304020 200202001 000001  02305  02351              % 00585 RGTR--
+*I FD 200304020 200202001        0002022  02305  02351      % 00585 RGTR--
+200304020 Howald, P&R Howald Q         02305                % 00585 RGTR--
+200304008 Howald, P&R Howald Q  02306  02306                % 00585 RGTR--
+200304012 Howald, P&R Howald Q  02308  02308                % 00585 RGTR--
+200412021 Gasperich, Gerhard M  02308  02308                % 00585 RGTR--
+200412028 Gasperich, Stengege   02310  02310                % 00585 RGTR--
+200412009 Gasperich, Gaasperec  02311  02311                % 00585 RGTR--
+200415002 Hollerich, Assurance  02312  02312                % 00585 RGTR--
+200415005 Hollerich, Heentze P  02314  02314                % 00585 RGTR--
+200403015 Belair, Rheinsheim    02316  02316                % 00585 RGTR--
+200417047 Kirchberg, Rout Bréc  02321  02321                % 00585 RGTR--
+200417007 Kirchberg, B.E.I.     02322  02322                % 00585 RGTR--
+200417016 Kirchberg, Jean Monn  02323  02323                % 00585 RGTR--
+200417005 Kirchberg, Antoine d  02324  02324                % 00585 RGTR--
+200417019 Kirchberg, Konrad Ad  02325  02325                % 00585 RGTR--
+200417039 Kirchberg, Avalon     02326  02326                % 00585 RGTR--
+200417033 Kirchberg, Poutty St  02328  02328                % 00585 RGTR--
+200417044 Kirchberg, Luxexpo Q  02330  02330                % 00585 RGTR--
+200601009 Sandweiler, Schaedha  02338  02338                % 00585 RGTR--
+200201007 Contern, Weiergewan   02340  02340                % 00585 RGTR--
+200201008 Contern, Rond Point   02341  02341                % 00585 RGTR--
+200201001 Contern, Birewee      02342  02342                % 00585 RGTR--
+200201004 Contern, Kräizgaass   02343  02343                % 00585 RGTR--
+200201003 Contern, Kiircheplaz  02343  02343                % 00585 RGTR--
+200201006 Contern, Millewee     02344  02344                % 00585 RGTR--
+200205001 Milbech               02346  02346                % 00585 RGTR--
+200203002 Moutfort, Juxgaass    02347  02347                % 00585 RGTR--
+200203005 Moutfort, Syrbréck    02347  02347                % 00585 RGTR--
+200202002 Medingen              02350  02350                % 00585 RGTR--
+200202001 Medingen, Aire de vi  02351                       % 00585 RGTR--
+*Z 00586 RGTR--                                             % 00586 RGTR--
+*L 165      200304020 200202001  00805  00851               % 00586 RGTR--
+*A ag 200304020 200202001 000003  00805  00851              % 00586 RGTR--
+*R 1 200202001 200304020 200202001  00805  00851            % 00586 RGTR--
+*G RGB 200304020 200202001  00805  00851                    % 00586 RGTR--
+*A VE 200304020 200202001 000003  00805  00851              % 00586 RGTR--
+*I FD 200304020 200202001        0002007  00805  00851      % 00586 RGTR--
+200304020 Howald, P&R Howald Q         00805                % 00586 RGTR--
+200304008 Howald, P&R Howald Q  00806  00806                % 00586 RGTR--
+200304012 Howald, P&R Howald Q  00808  00808                % 00586 RGTR--
+200412021 Gasperich, Gerhard M  00808  00808                % 00586 RGTR--
+200412028 Gasperich, Stengege   00810  00810                % 00586 RGTR--
+200412009 Gasperich, Gaasperec  00811  00811                % 00586 RGTR--
+200415002 Hollerich, Assurance  00812  00812                % 00586 RGTR--
+200415005 Hollerich, Heentze P  00814  00814                % 00586 RGTR--
+200403015 Belair, Rheinsheim    00816  00816                % 00586 RGTR--
+200417047 Kirchberg, Rout Bréc  00821  00821                % 00586 RGTR--
+200417007 Kirchberg, B.E.I.     00822  00822                % 00586 RGTR--
+200417016 Kirchberg, Jean Monn  00823  00823                % 00586 RGTR--
+200417005 Kirchberg, Antoine d  00824  00824                % 00586 RGTR--
+200417019 Kirchberg, Konrad Ad  00825  00825                % 00586 RGTR--
+200417039 Kirchberg, Avalon     00826  00826                % 00586 RGTR--
+200417033 Kirchberg, Poutty St  00828  00828                % 00586 RGTR--
+200417044 Kirchberg, Luxexpo Q  00830  00830                % 00586 RGTR--
+200601009 Sandweiler, Schaedha  00838  00838                % 00586 RGTR--
+200201007 Contern, Weiergewan   00840  00840                % 00586 RGTR--
+200201008 Contern, Rond Point   00841  00841                % 00586 RGTR--
+200201001 Contern, Birewee      00842  00842                % 00586 RGTR--
+200201004 Contern, Kräizgaass   00843  00843                % 00586 RGTR--
+200201003 Contern, Kiircheplaz  00843  00843                % 00586 RGTR--
+200201006 Contern, Millewee     00844  00844                % 00586 RGTR--
+200205001 Milbech               00846  00846                % 00586 RGTR--
+200203002 Moutfort, Juxgaass    00847  00847                % 00586 RGTR--
+200203005 Moutfort, Syrbréck    00847  00847                % 00586 RGTR--
+200202002 Medingen              00850  00850                % 00586 RGTR--
+200202001 Medingen, Aire de vi  00851                       % 00586 RGTR--
+*Z 00587 RGTR--                                             % 00587 RGTR--
+*L 165      200304020 200202001  01605  01651               % 00587 RGTR--
+*A ag 200304020 200202001 000003  01605  01651              % 00587 RGTR--
+*R 1 200202001 200304020 200202001  01605  01651            % 00587 RGTR--
+*G RGB 200304020 200202001  01605  01651                    % 00587 RGTR--
+*A VE 200304020 200202001 000003  01605  01651              % 00587 RGTR--
+*I FD 200304020 200202001        0002009  01605  01651      % 00587 RGTR--
+200304020 Howald, P&R Howald Q         01605                % 00587 RGTR--
+200304008 Howald, P&R Howald Q  01606  01606                % 00587 RGTR--
+200304012 Howald, P&R Howald Q  01608  01608                % 00587 RGTR--
+200412021 Gasperich, Gerhard M  01608  01608                % 00587 RGTR--
+200412028 Gasperich, Stengege   01610  01610                % 00587 RGTR--
+200412009 Gasperich, Gaasperec  01611  01611                % 00587 RGTR--
+200415002 Hollerich, Assurance  01612  01612                % 00587 RGTR--
+200415005 Hollerich, Heentze P  01614  01614                % 00587 RGTR--
+200403015 Belair, Rheinsheim    01616  01616                % 00587 RGTR--
+200417047 Kirchberg, Rout Bréc  01621  01621                % 00587 RGTR--
+200417007 Kirchberg, B.E.I.     01622  01622                % 00587 RGTR--
+200417016 Kirchberg, Jean Monn  01623  01623                % 00587 RGTR--
+200417005 Kirchberg, Antoine d  01624  01624                % 00587 RGTR--
+200417019 Kirchberg, Konrad Ad  01625  01625                % 00587 RGTR--
+200417039 Kirchberg, Avalon     01626  01626                % 00587 RGTR--
+200417033 Kirchberg, Poutty St  01628  01628                % 00587 RGTR--
+200417044 Kirchberg, Luxexpo Q  01630  01630                % 00587 RGTR--
+200601009 Sandweiler, Schaedha  01638  01638                % 00587 RGTR--
+200201007 Contern, Weiergewan   01640  01640                % 00587 RGTR--
+200201008 Contern, Rond Point   01641  01641                % 00587 RGTR--
+200201001 Contern, Birewee      01642  01642                % 00587 RGTR--
+200201004 Contern, Kräizgaass   01643  01643                % 00587 RGTR--
+200201003 Contern, Kiircheplaz  01643  01643                % 00587 RGTR--
+200201006 Contern, Millewee     01644  01644                % 00587 RGTR--
+200205001 Milbech               01646  01646                % 00587 RGTR--
+200203002 Moutfort, Juxgaass    01647  01647                % 00587 RGTR--
+200203005 Moutfort, Syrbréck    01647  01647                % 00587 RGTR--
+200202002 Medingen              01650  01650                % 00587 RGTR--
+200202001 Medingen, Aire de vi  01651                       % 00587 RGTR--
+*Z 00588 RGTR--                                             % 00588 RGTR--
+*L 165      200304020 200202001  01805  01851               % 00588 RGTR--
+*A ag 200304020 200202001 000003  01805  01851              % 00588 RGTR--
+*R 1 200202001 200304020 200202001  01805  01851            % 00588 RGTR--
+*G RGB 200304020 200202001  01805  01851                    % 00588 RGTR--
+*A VE 200304020 200202001 000003  01805  01851              % 00588 RGTR--
+*I FD 200304020 200202001        0002011  01805  01851      % 00588 RGTR--
+200304020 Howald, P&R Howald Q         01805                % 00588 RGTR--
+200304008 Howald, P&R Howald Q  01806  01806                % 00588 RGTR--
+200304012 Howald, P&R Howald Q  01808  01808                % 00588 RGTR--
+200412021 Gasperich, Gerhard M  01808  01808                % 00588 RGTR--
+200412028 Gasperich, Stengege   01810  01810                % 00588 RGTR--
+200412009 Gasperich, Gaasperec  01811  01811                % 00588 RGTR--
+200415002 Hollerich, Assurance  01812  01812                % 00588 RGTR--
+200415005 Hollerich, Heentze P  01814  01814                % 00588 RGTR--
+200403015 Belair, Rheinsheim    01816  01816                % 00588 RGTR--
+200417047 Kirchberg, Rout Bréc  01821  01821                % 00588 RGTR--
+200417007 Kirchberg, B.E.I.     01822  01822                % 00588 RGTR--
+200417016 Kirchberg, Jean Monn  01823  01823                % 00588 RGTR--
+200417005 Kirchberg, Antoine d  01824  01824                % 00588 RGTR--
+200417019 Kirchberg, Konrad Ad  01825  01825                % 00588 RGTR--
+200417039 Kirchberg, Avalon     01826  01826                % 00588 RGTR--
+200417033 Kirchberg, Poutty St  01828  01828                % 00588 RGTR--
+200417044 Kirchberg, Luxexpo Q  01830  01830                % 00588 RGTR--
+200601009 Sandweiler, Schaedha  01838  01838                % 00588 RGTR--
+200201007 Contern, Weiergewan   01840  01840                % 00588 RGTR--
+200201008 Contern, Rond Point   01841  01841                % 00588 RGTR--
+200201001 Contern, Birewee      01842  01842                % 00588 RGTR--
+200201004 Contern, Kräizgaass   01843  01843                % 00588 RGTR--
+200201003 Contern, Kiircheplaz  01843  01843                % 00588 RGTR--
+200201006 Contern, Millewee     01844  01844                % 00588 RGTR--
+200205001 Milbech               01846  01846                % 00588 RGTR--
+200203002 Moutfort, Juxgaass    01847  01847                % 00588 RGTR--
+200203005 Moutfort, Syrbréck    01847  01847                % 00588 RGTR--
+200202002 Medingen              01850  01850                % 00588 RGTR--
+200202001 Medingen, Aire de vi  01851                       % 00588 RGTR--
+*Z 00589 RGTR--                                             % 00589 RGTR--
+*L 165      200202001 200304020  00637  00732               % 00589 RGTR--
+*A ag 200202001 200304020 000001  00637  00732              % 00589 RGTR--
+*R 2 200304020 200202001 200304020  00637  00732            % 00589 RGTR--
+*G RGB 200202001 200304020  00637  00732                    % 00589 RGTR--
+*A VE 200202001 200304020 000001  00637  00732              % 00589 RGTR--
+*I FD 200202001 200304020        0001845  00637  00732      % 00589 RGTR--
+200202001 Medingen, Aire de vi         00637                % 00589 RGTR--
+200202002 Medingen              00638  00638                % 00589 RGTR--
+200203005 Moutfort, Syrbréck    00641  00641                % 00589 RGTR--
+200203002 Moutfort, Juxgaass    00641  00641                % 00589 RGTR--
+200205001 Milbech               00642  00642                % 00589 RGTR--
+200201006 Contern, Millewee     00644  00644                % 00589 RGTR--
+200201003 Contern, Kiircheplaz  00645  00645                % 00589 RGTR--
+200201004 Contern, Kräizgaass   00646  00646                % 00589 RGTR--
+200201001 Contern, Birewee      00647  00647                % 00589 RGTR--
+200201008 Contern, Rond Point   00649  00649                % 00589 RGTR--
+200201007 Contern, Weiergewan   00649  00649                % 00589 RGTR--
+200601009 Sandweiler, Schaedha  00652  00652                % 00589 RGTR--
+200417040 Kirchberg, Hugo Gern  00702  00702                % 00589 RGTR--
+200417039 Kirchberg, Avalon     00705  00705                % 00589 RGTR--
+200417019 Kirchberg, Konrad Ad  00706  00706                % 00589 RGTR--
+200417005 Kirchberg, Antoine d  00708  00708                % 00589 RGTR--
+200417016 Kirchberg, Jean Monn  00709  00709                % 00589 RGTR--
+200417007 Kirchberg, B.E.I.     00710  00710                % 00589 RGTR--
+200417047 Kirchberg, Rout Bréc  00712  00712                % 00589 RGTR--
+200405045 Centre, Stäreplaz /   00716  00716                % 00589 RGTR--
+200403015 Belair, Rheinsheim    00717  00717                % 00589 RGTR--
+200415005 Hollerich, Heentze P  00720  00720                % 00589 RGTR--
+200415002 Hollerich, Assurance  00723  00723                % 00589 RGTR--
+200412009 Gasperich, Gaasperec  00725  00725                % 00589 RGTR--
+200412028 Gasperich, Stengege   00727  00727                % 00589 RGTR--
+200412021 Gasperich, Gerhard M  00729  00729                % 00589 RGTR--
+200304017 Howald, P&R Howald Q  00730  00730                % 00589 RGTR--
+200304020 Howald, P&R Howald Q  00732                       % 00589 RGTR--
+*Z 00590 RGTR--                                             % 00590 RGTR--
+*L 165      200202001 200304020  00707  00802               % 00590 RGTR--
+*A ag 200202001 200304020 000001  00707  00802              % 00590 RGTR--
+*R 2 200304020 200202001 200304020  00707  00802            % 00590 RGTR--
+*G RGB 200202001 200304020  00707  00802                    % 00590 RGTR--
+*A VE 200202001 200304020 000001  00707  00802              % 00590 RGTR--
+*I FD 200202001 200304020        0002023  00707  00802      % 00590 RGTR--
+200202001 Medingen, Aire de vi         00707                % 00590 RGTR--
+200202002 Medingen              00708  00708                % 00590 RGTR--
+200203005 Moutfort, Syrbréck    00711  00711                % 00590 RGTR--
+200203002 Moutfort, Juxgaass    00711  00711                % 00590 RGTR--
+200205001 Milbech               00712  00712                % 00590 RGTR--
+200201006 Contern, Millewee     00714  00714                % 00590 RGTR--
+200201003 Contern, Kiircheplaz  00715  00715                % 00590 RGTR--
+200201004 Contern, Kräizgaass   00716  00716                % 00590 RGTR--
+200201001 Contern, Birewee      00717  00717                % 00590 RGTR--
+200201008 Contern, Rond Point   00719  00719                % 00590 RGTR--
+200201007 Contern, Weiergewan   00719  00719                % 00590 RGTR--
+200601009 Sandweiler, Schaedha  00722  00722                % 00590 RGTR--
+200417040 Kirchberg, Hugo Gern  00732  00732                % 00590 RGTR--
+200417039 Kirchberg, Avalon     00735  00735                % 00590 RGTR--
+200417019 Kirchberg, Konrad Ad  00736  00736                % 00590 RGTR--
+200417005 Kirchberg, Antoine d  00738  00738                % 00590 RGTR--
+200417016 Kirchberg, Jean Monn  00739  00739                % 00590 RGTR--
+200417007 Kirchberg, B.E.I.     00740  00740                % 00590 RGTR--
+200417047 Kirchberg, Rout Bréc  00742  00742                % 00590 RGTR--
+200405045 Centre, Stäreplaz /   00746  00746                % 00590 RGTR--
+200403015 Belair, Rheinsheim    00747  00747                % 00590 RGTR--
+200415005 Hollerich, Heentze P  00750  00750                % 00590 RGTR--
+200415002 Hollerich, Assurance  00753  00753                % 00590 RGTR--
+200412009 Gasperich, Gaasperec  00755  00755                % 00590 RGTR--
+200412028 Gasperich, Stengege   00757  00757                % 00590 RGTR--
+200412021 Gasperich, Gerhard M  00759  00759                % 00590 RGTR--
+200304017 Howald, P&R Howald Q  00800  00800                % 00590 RGTR--
+200304020 Howald, P&R Howald Q  00802                       % 00590 RGTR--
+*Z 00591 RGTR--                                             % 00591 RGTR--
+*L 165      200202001 200304020  00737  00832               % 00591 RGTR--
+*A ag 200202001 200304020 000001  00737  00832              % 00591 RGTR--
+*R 2 200304020 200202001 200304020  00737  00832            % 00591 RGTR--
+*G RGB 200202001 200304020  00737  00832                    % 00591 RGTR--
+*A VE 200202001 200304020 000001  00737  00832              % 00591 RGTR--
+*I FD 200202001 200304020        0002024  00737  00832      % 00591 RGTR--
+200202001 Medingen, Aire de vi         00737                % 00591 RGTR--
+200202002 Medingen              00738  00738                % 00591 RGTR--
+200203005 Moutfort, Syrbréck    00741  00741                % 00591 RGTR--
+200203002 Moutfort, Juxgaass    00741  00741                % 00591 RGTR--
+200205001 Milbech               00742  00742                % 00591 RGTR--
+200201006 Contern, Millewee     00744  00744                % 00591 RGTR--
+200201003 Contern, Kiircheplaz  00745  00745                % 00591 RGTR--
+200201004 Contern, Kräizgaass   00746  00746                % 00591 RGTR--
+200201001 Contern, Birewee      00747  00747                % 00591 RGTR--
+200201008 Contern, Rond Point   00749  00749                % 00591 RGTR--
+200201007 Contern, Weiergewan   00749  00749                % 00591 RGTR--
+200601009 Sandweiler, Schaedha  00752  00752                % 00591 RGTR--
+200417040 Kirchberg, Hugo Gern  00802  00802                % 00591 RGTR--
+200417039 Kirchberg, Avalon     00805  00805                % 00591 RGTR--
+200417019 Kirchberg, Konrad Ad  00806  00806                % 00591 RGTR--
+200417005 Kirchberg, Antoine d  00808  00808                % 00591 RGTR--
+200417016 Kirchberg, Jean Monn  00809  00809                % 00591 RGTR--
+200417007 Kirchberg, B.E.I.     00810  00810                % 00591 RGTR--
+200417047 Kirchberg, Rout Bréc  00812  00812                % 00591 RGTR--
+200405045 Centre, Stäreplaz /   00816  00816                % 00591 RGTR--
+200403015 Belair, Rheinsheim    00817  00817                % 00591 RGTR--
+200415005 Hollerich, Heentze P  00820  00820                % 00591 RGTR--
+200415002 Hollerich, Assurance  00823  00823                % 00591 RGTR--
+200412009 Gasperich, Gaasperec  00825  00825                % 00591 RGTR--
+200412028 Gasperich, Stengege   00827  00827                % 00591 RGTR--
+200412021 Gasperich, Gerhard M  00829  00829                % 00591 RGTR--
+200304017 Howald, P&R Howald Q  00830  00830                % 00591 RGTR--
+200304020 Howald, P&R Howald Q  00832                       % 00591 RGTR--
+*Z 00592 RGTR--                                             % 00592 RGTR--
+*L 165      200202001 200304020  00807  00902               % 00592 RGTR--
+*A ae 200202001 200304020 000001  00807  00902              % 00592 RGTR--
+*R 2 200304020 200202001 200304020  00807  00902            % 00592 RGTR--
+*G RGB 200202001 200304020  00807  00902                    % 00592 RGTR--
+*A VE 200202001 200304020 000001  00807  00902              % 00592 RGTR--
+*I FD 200202001 200304020        0002025  00807  00902      % 00592 RGTR--
+200202001 Medingen, Aire de vi         00807                % 00592 RGTR--
+200202002 Medingen              00808  00808                % 00592 RGTR--
+200203005 Moutfort, Syrbréck    00811  00811                % 00592 RGTR--
+200203002 Moutfort, Juxgaass    00811  00811                % 00592 RGTR--
+200205001 Milbech               00812  00812                % 00592 RGTR--
+200201006 Contern, Millewee     00814  00814                % 00592 RGTR--
+200201003 Contern, Kiircheplaz  00815  00815                % 00592 RGTR--
+200201004 Contern, Kräizgaass   00816  00816                % 00592 RGTR--
+200201001 Contern, Birewee      00817  00817                % 00592 RGTR--
+200201008 Contern, Rond Point   00819  00819                % 00592 RGTR--
+200201007 Contern, Weiergewan   00819  00819                % 00592 RGTR--
+200601009 Sandweiler, Schaedha  00822  00822                % 00592 RGTR--
+200417040 Kirchberg, Hugo Gern  00832  00832                % 00592 RGTR--
+200417039 Kirchberg, Avalon     00835  00835                % 00592 RGTR--
+200417019 Kirchberg, Konrad Ad  00836  00836                % 00592 RGTR--
+200417005 Kirchberg, Antoine d  00838  00838                % 00592 RGTR--
+200417016 Kirchberg, Jean Monn  00839  00839                % 00592 RGTR--
+200417007 Kirchberg, B.E.I.     00840  00840                % 00592 RGTR--
+200417047 Kirchberg, Rout Bréc  00842  00842                % 00592 RGTR--
+200405045 Centre, Stäreplaz /   00846  00846                % 00592 RGTR--
+200403015 Belair, Rheinsheim    00847  00847                % 00592 RGTR--
+200415005 Hollerich, Heentze P  00850  00850                % 00592 RGTR--
+200415002 Hollerich, Assurance  00853  00853                % 00592 RGTR--
+200412009 Gasperich, Gaasperec  00855  00855                % 00592 RGTR--
+200412028 Gasperich, Stengege   00857  00857                % 00592 RGTR--
+200412021 Gasperich, Gerhard M  00859  00859                % 00592 RGTR--
+200304017 Howald, P&R Howald Q  00900  00900                % 00592 RGTR--
+200304020 Howald, P&R Howald Q  00902                       % 00592 RGTR--
+*Z 00593 RGTR--                                             % 00593 RGTR--
+*L 165      200202001 200304020  00837  00932               % 00593 RGTR--
+*A ae 200202001 200304020 000001  00837  00932              % 00593 RGTR--
+*R 2 200304020 200202001 200304020  00837  00932            % 00593 RGTR--
+*G RGB 200202001 200304020  00837  00932                    % 00593 RGTR--
+*A VE 200202001 200304020 000001  00837  00932              % 00593 RGTR--
+*I FD 200202001 200304020        0002026  00837  00932      % 00593 RGTR--
+200202001 Medingen, Aire de vi         00837                % 00593 RGTR--
+200202002 Medingen              00838  00838                % 00593 RGTR--
+200203005 Moutfort, Syrbréck    00841  00841                % 00593 RGTR--
+200203002 Moutfort, Juxgaass    00841  00841                % 00593 RGTR--
+200205001 Milbech               00842  00842                % 00593 RGTR--
+200201006 Contern, Millewee     00844  00844                % 00593 RGTR--
+200201003 Contern, Kiircheplaz  00845  00845                % 00593 RGTR--
+200201004 Contern, Kräizgaass   00846  00846                % 00593 RGTR--
+200201001 Contern, Birewee      00847  00847                % 00593 RGTR--
+200201008 Contern, Rond Point   00849  00849                % 00593 RGTR--
+200201007 Contern, Weiergewan   00849  00849                % 00593 RGTR--
+200601009 Sandweiler, Schaedha  00852  00852                % 00593 RGTR--
+200417040 Kirchberg, Hugo Gern  00902  00902                % 00593 RGTR--
+200417039 Kirchberg, Avalon     00905  00905                % 00593 RGTR--
+200417019 Kirchberg, Konrad Ad  00906  00906                % 00593 RGTR--
+200417005 Kirchberg, Antoine d  00908  00908                % 00593 RGTR--
+200417016 Kirchberg, Jean Monn  00909  00909                % 00593 RGTR--
+200417007 Kirchberg, B.E.I.     00910  00910                % 00593 RGTR--
+200417047 Kirchberg, Rout Bréc  00912  00912                % 00593 RGTR--
+200405045 Centre, Stäreplaz /   00916  00916                % 00593 RGTR--
+200403015 Belair, Rheinsheim    00917  00917                % 00593 RGTR--
+200415005 Hollerich, Heentze P  00920  00920                % 00593 RGTR--
+200415002 Hollerich, Assurance  00923  00923                % 00593 RGTR--
+200412009 Gasperich, Gaasperec  00925  00925                % 00593 RGTR--
+200412028 Gasperich, Stengege   00927  00927                % 00593 RGTR--
+200412021 Gasperich, Gerhard M  00929  00929                % 00593 RGTR--
+200304017 Howald, P&R Howald Q  00930  00930                % 00593 RGTR--
+200304020 Howald, P&R Howald Q  00932                       % 00593 RGTR--
+*Z 00594 RGTR--                                             % 00594 RGTR--
+*L 165      200202001 200304020  00907  01002               % 00594 RGTR--
+*A ag 200202001 200304020 000001  00907  01002              % 00594 RGTR--
+*R 2 200304020 200202001 200304020  00907  01002            % 00594 RGTR--
+*G RGB 200202001 200304020  00907  01002                    % 00594 RGTR--
+*A VE 200202001 200304020 000001  00907  01002              % 00594 RGTR--
+*I FD 200202001 200304020        0002027  00907  01002      % 00594 RGTR--
+200202001 Medingen, Aire de vi         00907                % 00594 RGTR--
+200202002 Medingen              00908  00908                % 00594 RGTR--
+200203005 Moutfort, Syrbréck    00911  00911                % 00594 RGTR--
+200203002 Moutfort, Juxgaass    00911  00911                % 00594 RGTR--
+200205001 Milbech               00912  00912                % 00594 RGTR--
+200201006 Contern, Millewee     00914  00914                % 00594 RGTR--
+200201003 Contern, Kiircheplaz  00915  00915                % 00594 RGTR--
+200201004 Contern, Kräizgaass   00916  00916                % 00594 RGTR--
+200201001 Contern, Birewee      00917  00917                % 00594 RGTR--
+200201008 Contern, Rond Point   00919  00919                % 00594 RGTR--
+200201007 Contern, Weiergewan   00919  00919                % 00594 RGTR--
+200601009 Sandweiler, Schaedha  00922  00922                % 00594 RGTR--
+200417040 Kirchberg, Hugo Gern  00932  00932                % 00594 RGTR--
+200417039 Kirchberg, Avalon     00935  00935                % 00594 RGTR--
+200417019 Kirchberg, Konrad Ad  00936  00936                % 00594 RGTR--
+200417005 Kirchberg, Antoine d  00938  00938                % 00594 RGTR--
+200417016 Kirchberg, Jean Monn  00939  00939                % 00594 RGTR--
+200417007 Kirchberg, B.E.I.     00940  00940                % 00594 RGTR--
+200417047 Kirchberg, Rout Bréc  00942  00942                % 00594 RGTR--
+200405045 Centre, Stäreplaz /   00946  00946                % 00594 RGTR--
+200403015 Belair, Rheinsheim    00947  00947                % 00594 RGTR--
+200415005 Hollerich, Heentze P  00950  00950                % 00594 RGTR--
+200415002 Hollerich, Assurance  00953  00953                % 00594 RGTR--
+200412009 Gasperich, Gaasperec  00955  00955                % 00594 RGTR--
+200412028 Gasperich, Stengege   00957  00957                % 00594 RGTR--
+200412021 Gasperich, Gerhard M  00959  00959                % 00594 RGTR--
+200304017 Howald, P&R Howald Q  01000  01000                % 00594 RGTR--
+200304020 Howald, P&R Howald Q  01002                       % 00594 RGTR--
+*Z 00595 RGTR--                                             % 00595 RGTR--
+*L 165      200202001 200304020  01607  01702               % 00595 RGTR--
+*A ae 200202001 200304020 000001  01607  01702              % 00595 RGTR--
+*R 2 200304020 200202001 200304020  01607  01702            % 00595 RGTR--
+*G RGB 200202001 200304020  01607  01702                    % 00595 RGTR--
+*A VE 200202001 200304020 000001  01607  01702              % 00595 RGTR--
+*I FD 200202001 200304020        0002028  01607  01702      % 00595 RGTR--
+200202001 Medingen, Aire de vi         01607                % 00595 RGTR--
+200202002 Medingen              01608  01608                % 00595 RGTR--
+200203005 Moutfort, Syrbréck    01611  01611                % 00595 RGTR--
+200203002 Moutfort, Juxgaass    01611  01611                % 00595 RGTR--
+200205001 Milbech               01612  01612                % 00595 RGTR--
+200201006 Contern, Millewee     01614  01614                % 00595 RGTR--
+200201003 Contern, Kiircheplaz  01615  01615                % 00595 RGTR--
+200201004 Contern, Kräizgaass   01616  01616                % 00595 RGTR--
+200201001 Contern, Birewee      01617  01617                % 00595 RGTR--
+200201008 Contern, Rond Point   01619  01619                % 00595 RGTR--
+200201007 Contern, Weiergewan   01619  01619                % 00595 RGTR--
+200601009 Sandweiler, Schaedha  01622  01622                % 00595 RGTR--
+200417040 Kirchberg, Hugo Gern  01632  01632                % 00595 RGTR--
+200417039 Kirchberg, Avalon     01635  01635                % 00595 RGTR--
+200417019 Kirchberg, Konrad Ad  01636  01636                % 00595 RGTR--
+200417005 Kirchberg, Antoine d  01638  01638                % 00595 RGTR--
+200417016 Kirchberg, Jean Monn  01639  01639                % 00595 RGTR--
+200417007 Kirchberg, B.E.I.     01640  01640                % 00595 RGTR--
+200417047 Kirchberg, Rout Bréc  01642  01642                % 00595 RGTR--
+200405045 Centre, Stäreplaz /   01646  01646                % 00595 RGTR--
+200403015 Belair, Rheinsheim    01647  01647                % 00595 RGTR--
+200415005 Hollerich, Heentze P  01650  01650                % 00595 RGTR--
+200415002 Hollerich, Assurance  01653  01653                % 00595 RGTR--
+200412009 Gasperich, Gaasperec  01655  01655                % 00595 RGTR--
+200412028 Gasperich, Stengege   01657  01657                % 00595 RGTR--
+200412021 Gasperich, Gerhard M  01659  01659                % 00595 RGTR--
+200304017 Howald, P&R Howald Q  01700  01700                % 00595 RGTR--
+200304020 Howald, P&R Howald Q  01702                       % 00595 RGTR--
+*Z 00596 RGTR--                                             % 00596 RGTR--
+*L 165      200202001 200304020  01637  01732               % 00596 RGTR--
+*A ag 200202001 200304020 000001  01637  01732              % 00596 RGTR--
+*R 2 200304020 200202001 200304020  01637  01732            % 00596 RGTR--
+*G RGB 200202001 200304020  01637  01732                    % 00596 RGTR--
+*A VE 200202001 200304020 000001  01637  01732              % 00596 RGTR--
+*I FD 200202001 200304020        0002029  01637  01732      % 00596 RGTR--
+200202001 Medingen, Aire de vi         01637                % 00596 RGTR--
+200202002 Medingen              01638  01638                % 00596 RGTR--
+200203005 Moutfort, Syrbréck    01641  01641                % 00596 RGTR--
+200203002 Moutfort, Juxgaass    01641  01641                % 00596 RGTR--
+200205001 Milbech               01642  01642                % 00596 RGTR--
+200201006 Contern, Millewee     01644  01644                % 00596 RGTR--
+200201003 Contern, Kiircheplaz  01645  01645                % 00596 RGTR--
+200201004 Contern, Kräizgaass   01646  01646                % 00596 RGTR--
+200201001 Contern, Birewee      01647  01647                % 00596 RGTR--
+200201008 Contern, Rond Point   01649  01649                % 00596 RGTR--
+200201007 Contern, Weiergewan   01649  01649                % 00596 RGTR--
+200601009 Sandweiler, Schaedha  01652  01652                % 00596 RGTR--
+200417040 Kirchberg, Hugo Gern  01702  01702                % 00596 RGTR--
+200417039 Kirchberg, Avalon     01705  01705                % 00596 RGTR--
+200417019 Kirchberg, Konrad Ad  01706  01706                % 00596 RGTR--
+200417005 Kirchberg, Antoine d  01708  01708                % 00596 RGTR--
+200417016 Kirchberg, Jean Monn  01709  01709                % 00596 RGTR--
+200417007 Kirchberg, B.E.I.     01710  01710                % 00596 RGTR--
+200417047 Kirchberg, Rout Bréc  01712  01712                % 00596 RGTR--
+200405045 Centre, Stäreplaz /   01716  01716                % 00596 RGTR--
+200403015 Belair, Rheinsheim    01717  01717                % 00596 RGTR--
+200415005 Hollerich, Heentze P  01720  01720                % 00596 RGTR--
+200415002 Hollerich, Assurance  01723  01723                % 00596 RGTR--
+200412009 Gasperich, Gaasperec  01725  01725                % 00596 RGTR--
+200412028 Gasperich, Stengege   01727  01727                % 00596 RGTR--
+200412021 Gasperich, Gerhard M  01729  01729                % 00596 RGTR--
+200304017 Howald, P&R Howald Q  01730  01730                % 00596 RGTR--
+200304020 Howald, P&R Howald Q  01732                       % 00596 RGTR--
+*Z 00597 RGTR--                                             % 00597 RGTR--
+*L 165      200202001 200304020  01707  01802               % 00597 RGTR--
+*A ag 200202001 200304020 000001  01707  01802              % 00597 RGTR--
+*R 2 200304020 200202001 200304020  01707  01802            % 00597 RGTR--
+*G RGB 200202001 200304020  01707  01802                    % 00597 RGTR--
+*A VE 200202001 200304020 000001  01707  01802              % 00597 RGTR--
+*I FD 200202001 200304020        0002030  01707  01802      % 00597 RGTR--
+200202001 Medingen, Aire de vi         01707                % 00597 RGTR--
+200202002 Medingen              01708  01708                % 00597 RGTR--
+200203005 Moutfort, Syrbréck    01711  01711                % 00597 RGTR--
+200203002 Moutfort, Juxgaass    01711  01711                % 00597 RGTR--
+200205001 Milbech               01712  01712                % 00597 RGTR--
+200201006 Contern, Millewee     01714  01714                % 00597 RGTR--
+200201003 Contern, Kiircheplaz  01715  01715                % 00597 RGTR--
+200201004 Contern, Kräizgaass   01716  01716                % 00597 RGTR--
+200201001 Contern, Birewee      01717  01717                % 00597 RGTR--
+200201008 Contern, Rond Point   01719  01719                % 00597 RGTR--
+200201007 Contern, Weiergewan   01719  01719                % 00597 RGTR--
+200601009 Sandweiler, Schaedha  01722  01722                % 00597 RGTR--
+200417040 Kirchberg, Hugo Gern  01732  01732                % 00597 RGTR--
+200417039 Kirchberg, Avalon     01735  01735                % 00597 RGTR--
+200417019 Kirchberg, Konrad Ad  01736  01736                % 00597 RGTR--
+200417005 Kirchberg, Antoine d  01738  01738                % 00597 RGTR--
+200417016 Kirchberg, Jean Monn  01739  01739                % 00597 RGTR--
+200417007 Kirchberg, B.E.I.     01740  01740                % 00597 RGTR--
+200417047 Kirchberg, Rout Bréc  01742  01742                % 00597 RGTR--
+200405045 Centre, Stäreplaz /   01746  01746                % 00597 RGTR--
+200403015 Belair, Rheinsheim    01747  01747                % 00597 RGTR--
+200415005 Hollerich, Heentze P  01750  01750                % 00597 RGTR--
+200415002 Hollerich, Assurance  01753  01753                % 00597 RGTR--
+200412009 Gasperich, Gaasperec  01755  01755                % 00597 RGTR--
+200412028 Gasperich, Stengege   01757  01757                % 00597 RGTR--
+200412021 Gasperich, Gerhard M  01759  01759                % 00597 RGTR--
+200304017 Howald, P&R Howald Q  01800  01800                % 00597 RGTR--
+200304020 Howald, P&R Howald Q  01802                       % 00597 RGTR--
+*Z 00598 RGTR--                                             % 00598 RGTR--
+*L 165      200202001 200304020  01737  01832               % 00598 RGTR--
+*A ag 200202001 200304020 000001  01737  01832              % 00598 RGTR--
+*R 2 200304020 200202001 200304020  01737  01832            % 00598 RGTR--
+*G RGB 200202001 200304020  01737  01832                    % 00598 RGTR--
+*A VE 200202001 200304020 000001  01737  01832              % 00598 RGTR--
+*I FD 200202001 200304020        0002031  01737  01832      % 00598 RGTR--
+200202001 Medingen, Aire de vi         01737                % 00598 RGTR--
+200202002 Medingen              01738  01738                % 00598 RGTR--
+200203005 Moutfort, Syrbréck    01741  01741                % 00598 RGTR--
+200203002 Moutfort, Juxgaass    01741  01741                % 00598 RGTR--
+200205001 Milbech               01742  01742                % 00598 RGTR--
+200201006 Contern, Millewee     01744  01744                % 00598 RGTR--
+200201003 Contern, Kiircheplaz  01745  01745                % 00598 RGTR--
+200201004 Contern, Kräizgaass   01746  01746                % 00598 RGTR--
+200201001 Contern, Birewee      01747  01747                % 00598 RGTR--
+200201008 Contern, Rond Point   01749  01749                % 00598 RGTR--
+200201007 Contern, Weiergewan   01749  01749                % 00598 RGTR--
+200601009 Sandweiler, Schaedha  01752  01752                % 00598 RGTR--
+200417040 Kirchberg, Hugo Gern  01802  01802                % 00598 RGTR--
+200417039 Kirchberg, Avalon     01805  01805                % 00598 RGTR--
+200417019 Kirchberg, Konrad Ad  01806  01806                % 00598 RGTR--
+200417005 Kirchberg, Antoine d  01808  01808                % 00598 RGTR--
+200417016 Kirchberg, Jean Monn  01809  01809                % 00598 RGTR--
+200417007 Kirchberg, B.E.I.     01810  01810                % 00598 RGTR--
+200417047 Kirchberg, Rout Bréc  01812  01812                % 00598 RGTR--
+200405045 Centre, Stäreplaz /   01816  01816                % 00598 RGTR--
+200403015 Belair, Rheinsheim    01817  01817                % 00598 RGTR--
+200415005 Hollerich, Heentze P  01820  01820                % 00598 RGTR--
+200415002 Hollerich, Assurance  01823  01823                % 00598 RGTR--
+200412009 Gasperich, Gaasperec  01825  01825                % 00598 RGTR--
+200412028 Gasperich, Stengege   01827  01827                % 00598 RGTR--
+200412021 Gasperich, Gerhard M  01829  01829                % 00598 RGTR--
+200304017 Howald, P&R Howald Q  01830  01830                % 00598 RGTR--
+200304020 Howald, P&R Howald Q  01832                       % 00598 RGTR--
+*Z 00599 RGTR--                                             % 00599 RGTR--
+*L 165      200202001 200304020  01807  01902               % 00599 RGTR--
+*A ae 200202001 200304020 000001  01807  01902              % 00599 RGTR--
+*R 2 200304020 200202001 200304020  01807  01902            % 00599 RGTR--
+*G RGB 200202001 200304020  01807  01902                    % 00599 RGTR--
+*A VE 200202001 200304020 000001  01807  01902              % 00599 RGTR--
+*I FD 200202001 200304020        0002032  01807  01902      % 00599 RGTR--
+200202001 Medingen, Aire de vi         01807                % 00599 RGTR--
+200202002 Medingen              01808  01808                % 00599 RGTR--
+200203005 Moutfort, Syrbréck    01811  01811                % 00599 RGTR--
+200203002 Moutfort, Juxgaass    01811  01811                % 00599 RGTR--
+200205001 Milbech               01812  01812                % 00599 RGTR--
+200201006 Contern, Millewee     01814  01814                % 00599 RGTR--
+200201003 Contern, Kiircheplaz  01815  01815                % 00599 RGTR--
+200201004 Contern, Kräizgaass   01816  01816                % 00599 RGTR--
+200201001 Contern, Birewee      01817  01817                % 00599 RGTR--
+200201008 Contern, Rond Point   01819  01819                % 00599 RGTR--
+200201007 Contern, Weiergewan   01819  01819                % 00599 RGTR--
+200601009 Sandweiler, Schaedha  01822  01822                % 00599 RGTR--
+200417040 Kirchberg, Hugo Gern  01832  01832                % 00599 RGTR--
+200417039 Kirchberg, Avalon     01835  01835                % 00599 RGTR--
+200417019 Kirchberg, Konrad Ad  01836  01836                % 00599 RGTR--
+200417005 Kirchberg, Antoine d  01838  01838                % 00599 RGTR--
+200417016 Kirchberg, Jean Monn  01839  01839                % 00599 RGTR--
+200417007 Kirchberg, B.E.I.     01840  01840                % 00599 RGTR--
+200417047 Kirchberg, Rout Bréc  01842  01842                % 00599 RGTR--
+200405045 Centre, Stäreplaz /   01846  01846                % 00599 RGTR--
+200403015 Belair, Rheinsheim    01847  01847                % 00599 RGTR--
+200415005 Hollerich, Heentze P  01850  01850                % 00599 RGTR--
+200415002 Hollerich, Assurance  01853  01853                % 00599 RGTR--
+200412009 Gasperich, Gaasperec  01855  01855                % 00599 RGTR--
+200412028 Gasperich, Stengege   01857  01857                % 00599 RGTR--
+200412021 Gasperich, Gerhard M  01859  01859                % 00599 RGTR--
+200304017 Howald, P&R Howald Q  01900  01900                % 00599 RGTR--
+200304020 Howald, P&R Howald Q  01902                       % 00599 RGTR--
+*Z 00600 RGTR--                                             % 00600 RGTR--
+*L 165      200202001 200304020  01107  01155               % 00600 RGTR--
+*A ag 200202001 200304020 000003  01107  01155              % 00600 RGTR--
+*A ae 200202001 200304020 000001  01107  01155              % 00600 RGTR--
+*A CC 200202001 200304020 000000  01107  01155              % 00600 RGTR--
+*R 2 200304020 200202001 200304020  01107  01155            % 00600 RGTR--
+*G RGB 200202001 200304020  01107  01155                    % 00600 RGTR--
+*A VE 200202001 200304020 000000  01107  01155              % 00600 RGTR--
+*I FD 200202001 200304020        0001072  01107  01155      % 00600 RGTR--
+200202001 Medingen, Aire de vi         01107                % 00600 RGTR--
+200202002 Medingen              01108  01108                % 00600 RGTR--
+200203005 Moutfort, Syrbréck    01111  01111                % 00600 RGTR--
+200203002 Moutfort, Juxgaass    01111  01111                % 00600 RGTR--
+200205001 Milbech               01112  01112                % 00600 RGTR--
+200201006 Contern, Millewee     01114  01114                % 00600 RGTR--
+200201003 Contern, Kiircheplaz  01115  01115                % 00600 RGTR--
+200201004 Contern, Kräizgaass   01115  01115                % 00600 RGTR--
+200201001 Contern, Birewee      01116  01116                % 00600 RGTR--
+200201008 Contern, Rond Point   01118  01118                % 00600 RGTR--
+200201007 Contern, Weiergewan   01119  01119                % 00600 RGTR--
+200601009 Sandweiler, Schaedha  01121  01121                % 00600 RGTR--
+200417040 Kirchberg, Hugo Gern  01128  01128                % 00600 RGTR--
+200417039 Kirchberg, Avalon     01131  01131                % 00600 RGTR--
+200417019 Kirchberg, Konrad Ad  01132  01132                % 00600 RGTR--
+200417005 Kirchberg, Antoine d  01133  01133                % 00600 RGTR--
+200417016 Kirchberg, Jean Monn  01134  01134                % 00600 RGTR--
+200417007 Kirchberg, B.E.I.     01135  01135                % 00600 RGTR--
+200417047 Kirchberg, Rout Bréc  01137  01137                % 00600 RGTR--
+200405045 Centre, Stäreplaz /   01140  01140                % 00600 RGTR--
+200403015 Belair, Rheinsheim    01141  01141                % 00600 RGTR--
+200415005 Hollerich, Heentze P  01143  01143                % 00600 RGTR--
+200415002 Hollerich, Assurance  01146  01146                % 00600 RGTR--
+200412009 Gasperich, Gaasperec  01148  01148                % 00600 RGTR--
+200412028 Gasperich, Stengege   01150  01150                % 00600 RGTR--
+200412021 Gasperich, Gerhard M  01152  01152                % 00600 RGTR--
+200304017 Howald, P&R Howald Q  01153  01153                % 00600 RGTR--
+200304020 Howald, P&R Howald Q  01155                       % 00600 RGTR--
+*Z 00601 RGTR--                                             % 00601 RGTR--
+*L 165      200202001 200304020  01307  01355               % 00601 RGTR--
+*A ag 200202001 200304020 000003  01307  01355              % 00601 RGTR--
+*A ae 200202001 200304020 000001  01307  01355              % 00601 RGTR--
+*A CC 200202001 200304020 000000  01307  01355              % 00601 RGTR--
+*R 2 200304020 200202001 200304020  01307  01355            % 00601 RGTR--
+*G RGB 200202001 200304020  01307  01355                    % 00601 RGTR--
+*A VE 200202001 200304020 000000  01307  01355              % 00601 RGTR--
+*I FD 200202001 200304020        0002033  01307  01355      % 00601 RGTR--
+200202001 Medingen, Aire de vi         01307                % 00601 RGTR--
+200202002 Medingen              01308  01308                % 00601 RGTR--
+200203005 Moutfort, Syrbréck    01311  01311                % 00601 RGTR--
+200203002 Moutfort, Juxgaass    01311  01311                % 00601 RGTR--
+200205001 Milbech               01312  01312                % 00601 RGTR--
+200201006 Contern, Millewee     01314  01314                % 00601 RGTR--
+200201003 Contern, Kiircheplaz  01315  01315                % 00601 RGTR--
+200201004 Contern, Kräizgaass   01315  01315                % 00601 RGTR--
+200201001 Contern, Birewee      01316  01316                % 00601 RGTR--
+200201008 Contern, Rond Point   01318  01318                % 00601 RGTR--
+200201007 Contern, Weiergewan   01319  01319                % 00601 RGTR--
+200601009 Sandweiler, Schaedha  01321  01321                % 00601 RGTR--
+200417040 Kirchberg, Hugo Gern  01328  01328                % 00601 RGTR--
+200417039 Kirchberg, Avalon     01331  01331                % 00601 RGTR--
+200417019 Kirchberg, Konrad Ad  01332  01332                % 00601 RGTR--
+200417005 Kirchberg, Antoine d  01333  01333                % 00601 RGTR--
+200417016 Kirchberg, Jean Monn  01334  01334                % 00601 RGTR--
+200417007 Kirchberg, B.E.I.     01335  01335                % 00601 RGTR--
+200417047 Kirchberg, Rout Bréc  01337  01337                % 00601 RGTR--
+200405045 Centre, Stäreplaz /   01340  01340                % 00601 RGTR--
+200403015 Belair, Rheinsheim    01341  01341                % 00601 RGTR--
+200415005 Hollerich, Heentze P  01343  01343                % 00601 RGTR--
+200415002 Hollerich, Assurance  01346  01346                % 00601 RGTR--
+200412009 Gasperich, Gaasperec  01348  01348                % 00601 RGTR--
+200412028 Gasperich, Stengege   01350  01350                % 00601 RGTR--
+200412021 Gasperich, Gerhard M  01352  01352                % 00601 RGTR--
+200304017 Howald, P&R Howald Q  01353  01353                % 00601 RGTR--
+200304020 Howald, P&R Howald Q  01355                       % 00601 RGTR--
+*Z 00602 RGTR--                                             % 00602 RGTR--
+*L 165      200202001 200304020  01507  01555               % 00602 RGTR--
+*A ag 200202001 200304020 000000  01507  01555              % 00602 RGTR--
+*R 2 200304020 200202001 200304020  01507  01555            % 00602 RGTR--
+*G RGB 200202001 200304020  01507  01555                    % 00602 RGTR--
+*A VE 200202001 200304020 000000  01507  01555              % 00602 RGTR--
+*I FD 200202001 200304020        0002034  01507  01555      % 00602 RGTR--
+200202001 Medingen, Aire de vi         01507                % 00602 RGTR--
+200202002 Medingen              01508  01508                % 00602 RGTR--
+200203005 Moutfort, Syrbréck    01511  01511                % 00602 RGTR--
+200203002 Moutfort, Juxgaass    01511  01511                % 00602 RGTR--
+200205001 Milbech               01512  01512                % 00602 RGTR--
+200201006 Contern, Millewee     01514  01514                % 00602 RGTR--
+200201003 Contern, Kiircheplaz  01515  01515                % 00602 RGTR--
+200201004 Contern, Kräizgaass   01515  01515                % 00602 RGTR--
+200201001 Contern, Birewee      01516  01516                % 00602 RGTR--
+200201008 Contern, Rond Point   01518  01518                % 00602 RGTR--
+200201007 Contern, Weiergewan   01519  01519                % 00602 RGTR--
+200601009 Sandweiler, Schaedha  01521  01521                % 00602 RGTR--
+200417040 Kirchberg, Hugo Gern  01528  01528                % 00602 RGTR--
+200417039 Kirchberg, Avalon     01531  01531                % 00602 RGTR--
+200417019 Kirchberg, Konrad Ad  01532  01532                % 00602 RGTR--
+200417005 Kirchberg, Antoine d  01533  01533                % 00602 RGTR--
+200417016 Kirchberg, Jean Monn  01534  01534                % 00602 RGTR--
+200417007 Kirchberg, B.E.I.     01535  01535                % 00602 RGTR--
+200417047 Kirchberg, Rout Bréc  01537  01537                % 00602 RGTR--
+200405045 Centre, Stäreplaz /   01540  01540                % 00602 RGTR--
+200403015 Belair, Rheinsheim    01541  01541                % 00602 RGTR--
+200415005 Hollerich, Heentze P  01543  01543                % 00602 RGTR--
+200415002 Hollerich, Assurance  01546  01546                % 00602 RGTR--
+200412009 Gasperich, Gaasperec  01548  01548                % 00602 RGTR--
+200412028 Gasperich, Stengege   01550  01550                % 00602 RGTR--
+200412021 Gasperich, Gerhard M  01552  01552                % 00602 RGTR--
+200304017 Howald, P&R Howald Q  01553  01553                % 00602 RGTR--
+200304020 Howald, P&R Howald Q  01555                       % 00602 RGTR--
+*Z 00603 RGTR--                                             % 00603 RGTR--
+*L 165      200202001 200304020  01907  01955               % 00603 RGTR--
+*A ag 200202001 200304020 000000  01907  01955              % 00603 RGTR--
+*R 2 200304020 200202001 200304020  01907  01955            % 00603 RGTR--
+*G RGB 200202001 200304020  01907  01955                    % 00603 RGTR--
+*A VE 200202001 200304020 000000  01907  01955              % 00603 RGTR--
+*I FD 200202001 200304020        0002035  01907  01955      % 00603 RGTR--
+200202001 Medingen, Aire de vi         01907                % 00603 RGTR--
+200202002 Medingen              01908  01908                % 00603 RGTR--
+200203005 Moutfort, Syrbréck    01911  01911                % 00603 RGTR--
+200203002 Moutfort, Juxgaass    01911  01911                % 00603 RGTR--
+200205001 Milbech               01912  01912                % 00603 RGTR--
+200201006 Contern, Millewee     01914  01914                % 00603 RGTR--
+200201003 Contern, Kiircheplaz  01915  01915                % 00603 RGTR--
+200201004 Contern, Kräizgaass   01915  01915                % 00603 RGTR--
+200201001 Contern, Birewee      01916  01916                % 00603 RGTR--
+200201008 Contern, Rond Point   01918  01918                % 00603 RGTR--
+200201007 Contern, Weiergewan   01919  01919                % 00603 RGTR--
+200601009 Sandweiler, Schaedha  01921  01921                % 00603 RGTR--
+200417040 Kirchberg, Hugo Gern  01928  01928                % 00603 RGTR--
+200417039 Kirchberg, Avalon     01931  01931                % 00603 RGTR--
+200417019 Kirchberg, Konrad Ad  01932  01932                % 00603 RGTR--
+200417005 Kirchberg, Antoine d  01933  01933                % 00603 RGTR--
+200417016 Kirchberg, Jean Monn  01934  01934                % 00603 RGTR--
+200417007 Kirchberg, B.E.I.     01935  01935                % 00603 RGTR--
+200417047 Kirchberg, Rout Bréc  01937  01937                % 00603 RGTR--
+200405045 Centre, Stäreplaz /   01940  01940                % 00603 RGTR--
+200403015 Belair, Rheinsheim    01941  01941                % 00603 RGTR--
+200415005 Hollerich, Heentze P  01943  01943                % 00603 RGTR--
+200415002 Hollerich, Assurance  01946  01946                % 00603 RGTR--
+200412009 Gasperich, Gaasperec  01948  01948                % 00603 RGTR--
+200412028 Gasperich, Stengege   01950  01950                % 00603 RGTR--
+200412021 Gasperich, Gerhard M  01952  01952                % 00603 RGTR--
+200304017 Howald, P&R Howald Q  01953  01953                % 00603 RGTR--
+200304020 Howald, P&R Howald Q  01955                       % 00603 RGTR--
+*Z 00604 RGTR--                                             % 00604 RGTR--
+*L 165      200202001 200304020  00537  00625               % 00604 RGTR--
+*A ae 200202001 200304020 000001  00537  00625              % 00604 RGTR--
+*R 2 200304020 200202001 200304020  00537  00625            % 00604 RGTR--
+*G RGB 200202001 200304020  00537  00625                    % 00604 RGTR--
+*A VE 200202001 200304020 000001  00537  00625              % 00604 RGTR--
+*I FD 200202001 200304020        0000793  00537  00625      % 00604 RGTR--
+200202001 Medingen, Aire de vi         00537                % 00604 RGTR--
+200202002 Medingen              00538  00538                % 00604 RGTR--
+200203005 Moutfort, Syrbréck    00541  00541                % 00604 RGTR--
+200203002 Moutfort, Juxgaass    00541  00541                % 00604 RGTR--
+200205001 Milbech               00542  00542                % 00604 RGTR--
+200201006 Contern, Millewee     00544  00544                % 00604 RGTR--
+200201003 Contern, Kiircheplaz  00545  00545                % 00604 RGTR--
+200201004 Contern, Kräizgaass   00545  00545                % 00604 RGTR--
+200201001 Contern, Birewee      00546  00546                % 00604 RGTR--
+200201008 Contern, Rond Point   00548  00548                % 00604 RGTR--
+200201007 Contern, Weiergewan   00549  00549                % 00604 RGTR--
+200601009 Sandweiler, Schaedha  00551  00551                % 00604 RGTR--
+200417040 Kirchberg, Hugo Gern  00558  00558                % 00604 RGTR--
+200417039 Kirchberg, Avalon     00601  00601                % 00604 RGTR--
+200417019 Kirchberg, Konrad Ad  00602  00602                % 00604 RGTR--
+200417005 Kirchberg, Antoine d  00603  00603                % 00604 RGTR--
+200417016 Kirchberg, Jean Monn  00604  00604                % 00604 RGTR--
+200417007 Kirchberg, B.E.I.     00605  00605                % 00604 RGTR--
+200417047 Kirchberg, Rout Bréc  00607  00607                % 00604 RGTR--
+200405045 Centre, Stäreplaz /   00610  00610                % 00604 RGTR--
+200403015 Belair, Rheinsheim    00611  00611                % 00604 RGTR--
+200415005 Hollerich, Heentze P  00613  00613                % 00604 RGTR--
+200415002 Hollerich, Assurance  00616  00616                % 00604 RGTR--
+200412009 Gasperich, Gaasperec  00618  00618                % 00604 RGTR--
+200412028 Gasperich, Stengege   00620  00620                % 00604 RGTR--
+200412021 Gasperich, Gerhard M  00622  00622                % 00604 RGTR--
+200304017 Howald, P&R Howald Q  00623  00623                % 00604 RGTR--
+200304020 Howald, P&R Howald Q  00625                       % 00604 RGTR--
+*Z 00605 RGTR--                                             % 00605 RGTR--
+*L 165      200202001 200304020  00607  00655               % 00605 RGTR--
+*A ae 200202001 200304020 000001  00607  00655              % 00605 RGTR--
+*R 2 200304020 200202001 200304020  00607  00655            % 00605 RGTR--
+*G RGB 200202001 200304020  00607  00655                    % 00605 RGTR--
+*A VE 200202001 200304020 000001  00607  00655              % 00605 RGTR--
+*I FD 200202001 200304020        0002036  00607  00655      % 00605 RGTR--
+200202001 Medingen, Aire de vi         00607                % 00605 RGTR--
+200202002 Medingen              00608  00608                % 00605 RGTR--
+200203005 Moutfort, Syrbréck    00611  00611                % 00605 RGTR--
+200203002 Moutfort, Juxgaass    00611  00611                % 00605 RGTR--
+200205001 Milbech               00612  00612                % 00605 RGTR--
+200201006 Contern, Millewee     00614  00614                % 00605 RGTR--
+200201003 Contern, Kiircheplaz  00615  00615                % 00605 RGTR--
+200201004 Contern, Kräizgaass   00615  00615                % 00605 RGTR--
+200201001 Contern, Birewee      00616  00616                % 00605 RGTR--
+200201008 Contern, Rond Point   00618  00618                % 00605 RGTR--
+200201007 Contern, Weiergewan   00619  00619                % 00605 RGTR--
+200601009 Sandweiler, Schaedha  00621  00621                % 00605 RGTR--
+200417040 Kirchberg, Hugo Gern  00628  00628                % 00605 RGTR--
+200417039 Kirchberg, Avalon     00631  00631                % 00605 RGTR--
+200417019 Kirchberg, Konrad Ad  00632  00632                % 00605 RGTR--
+200417005 Kirchberg, Antoine d  00633  00633                % 00605 RGTR--
+200417016 Kirchberg, Jean Monn  00634  00634                % 00605 RGTR--
+200417007 Kirchberg, B.E.I.     00635  00635                % 00605 RGTR--
+200417047 Kirchberg, Rout Bréc  00637  00637                % 00605 RGTR--
+200405045 Centre, Stäreplaz /   00640  00640                % 00605 RGTR--
+200403015 Belair, Rheinsheim    00641  00641                % 00605 RGTR--
+200415005 Hollerich, Heentze P  00643  00643                % 00605 RGTR--
+200415002 Hollerich, Assurance  00646  00646                % 00605 RGTR--
+200412009 Gasperich, Gaasperec  00648  00648                % 00605 RGTR--
+200412028 Gasperich, Stengege   00650  00650                % 00605 RGTR--
+200412021 Gasperich, Gerhard M  00652  00652                % 00605 RGTR--
+200304017 Howald, P&R Howald Q  00653  00653                % 00605 RGTR--
+200304020 Howald, P&R Howald Q  00655                       % 00605 RGTR--
+*Z 00606 RGTR--                                             % 00606 RGTR--
+*L 165      200202001 200304020  00937  01025               % 00606 RGTR--
+*A ag 200202001 200304020 000001  00937  01025              % 00606 RGTR--
+*R 2 200304020 200202001 200304020  00937  01025            % 00606 RGTR--
+*G RGB 200202001 200304020  00937  01025                    % 00606 RGTR--
+*A VE 200202001 200304020 000001  00937  01025              % 00606 RGTR--
+*I FD 200202001 200304020        0000981  00937  01025      % 00606 RGTR--
+200202001 Medingen, Aire de vi         00937                % 00606 RGTR--
+200202002 Medingen              00938  00938                % 00606 RGTR--
+200203005 Moutfort, Syrbréck    00941  00941                % 00606 RGTR--
+200203002 Moutfort, Juxgaass    00941  00941                % 00606 RGTR--
+200205001 Milbech               00942  00942                % 00606 RGTR--
+200201006 Contern, Millewee     00944  00944                % 00606 RGTR--
+200201003 Contern, Kiircheplaz  00945  00945                % 00606 RGTR--
+200201004 Contern, Kräizgaass   00945  00945                % 00606 RGTR--
+200201001 Contern, Birewee      00946  00946                % 00606 RGTR--
+200201008 Contern, Rond Point   00948  00948                % 00606 RGTR--
+200201007 Contern, Weiergewan   00949  00949                % 00606 RGTR--
+200601009 Sandweiler, Schaedha  00951  00951                % 00606 RGTR--
+200417040 Kirchberg, Hugo Gern  00958  00958                % 00606 RGTR--
+200417039 Kirchberg, Avalon     01001  01001                % 00606 RGTR--
+200417019 Kirchberg, Konrad Ad  01002  01002                % 00606 RGTR--
+200417005 Kirchberg, Antoine d  01003  01003                % 00606 RGTR--
+200417016 Kirchberg, Jean Monn  01004  01004                % 00606 RGTR--
+200417007 Kirchberg, B.E.I.     01005  01005                % 00606 RGTR--
+200417047 Kirchberg, Rout Bréc  01007  01007                % 00606 RGTR--
+200405045 Centre, Stäreplaz /   01010  01010                % 00606 RGTR--
+200403015 Belair, Rheinsheim    01011  01011                % 00606 RGTR--
+200415005 Hollerich, Heentze P  01013  01013                % 00606 RGTR--
+200415002 Hollerich, Assurance  01016  01016                % 00606 RGTR--
+200412009 Gasperich, Gaasperec  01018  01018                % 00606 RGTR--
+200412028 Gasperich, Stengege   01020  01020                % 00606 RGTR--
+200412021 Gasperich, Gerhard M  01022  01022                % 00606 RGTR--
+200304017 Howald, P&R Howald Q  01023  01023                % 00606 RGTR--
+200304020 Howald, P&R Howald Q  01025                       % 00606 RGTR--
+*Z 00607 RGTR--                                             % 00607 RGTR--
+*L 165      200202001 200304020  01007  01055               % 00607 RGTR--
+*A ag 200202001 200304020 000001  01007  01055              % 00607 RGTR--
+*R 2 200304020 200202001 200304020  01007  01055            % 00607 RGTR--
+*G RGB 200202001 200304020  01007  01055                    % 00607 RGTR--
+*A VE 200202001 200304020 000001  01007  01055              % 00607 RGTR--
+*I FD 200202001 200304020        0002037  01007  01055      % 00607 RGTR--
+200202001 Medingen, Aire de vi         01007                % 00607 RGTR--
+200202002 Medingen              01008  01008                % 00607 RGTR--
+200203005 Moutfort, Syrbréck    01011  01011                % 00607 RGTR--
+200203002 Moutfort, Juxgaass    01011  01011                % 00607 RGTR--
+200205001 Milbech               01012  01012                % 00607 RGTR--
+200201006 Contern, Millewee     01014  01014                % 00607 RGTR--
+200201003 Contern, Kiircheplaz  01015  01015                % 00607 RGTR--
+200201004 Contern, Kräizgaass   01015  01015                % 00607 RGTR--
+200201001 Contern, Birewee      01016  01016                % 00607 RGTR--
+200201008 Contern, Rond Point   01018  01018                % 00607 RGTR--
+200201007 Contern, Weiergewan   01019  01019                % 00607 RGTR--
+200601009 Sandweiler, Schaedha  01021  01021                % 00607 RGTR--
+200417040 Kirchberg, Hugo Gern  01028  01028                % 00607 RGTR--
+200417039 Kirchberg, Avalon     01031  01031                % 00607 RGTR--
+200417019 Kirchberg, Konrad Ad  01032  01032                % 00607 RGTR--
+200417005 Kirchberg, Antoine d  01033  01033                % 00607 RGTR--
+200417016 Kirchberg, Jean Monn  01034  01034                % 00607 RGTR--
+200417007 Kirchberg, B.E.I.     01035  01035                % 00607 RGTR--
+200417047 Kirchberg, Rout Bréc  01037  01037                % 00607 RGTR--
+200405045 Centre, Stäreplaz /   01040  01040                % 00607 RGTR--
+200403015 Belair, Rheinsheim    01041  01041                % 00607 RGTR--
+200415005 Hollerich, Heentze P  01043  01043                % 00607 RGTR--
+200415002 Hollerich, Assurance  01046  01046                % 00607 RGTR--
+200412009 Gasperich, Gaasperec  01048  01048                % 00607 RGTR--
+200412028 Gasperich, Stengege   01050  01050                % 00607 RGTR--
+200412021 Gasperich, Gerhard M  01052  01052                % 00607 RGTR--
+200304017 Howald, P&R Howald Q  01053  01053                % 00607 RGTR--
+200304020 Howald, P&R Howald Q  01055                       % 00607 RGTR--
+*Z 00608 RGTR--                                             % 00608 RGTR--
+*L 165      200202001 200304020  01037  01125               % 00608 RGTR--
+*A ae 200202001 200304020 000001  01037  01125              % 00608 RGTR--
+*R 2 200304020 200202001 200304020  01037  01125            % 00608 RGTR--
+*G RGB 200202001 200304020  01037  01125                    % 00608 RGTR--
+*A VE 200202001 200304020 000001  01037  01125              % 00608 RGTR--
+*I FD 200202001 200304020        0002038  01037  01125      % 00608 RGTR--
+200202001 Medingen, Aire de vi         01037                % 00608 RGTR--
+200202002 Medingen              01038  01038                % 00608 RGTR--
+200203005 Moutfort, Syrbréck    01041  01041                % 00608 RGTR--
+200203002 Moutfort, Juxgaass    01041  01041                % 00608 RGTR--
+200205001 Milbech               01042  01042                % 00608 RGTR--
+200201006 Contern, Millewee     01044  01044                % 00608 RGTR--
+200201003 Contern, Kiircheplaz  01045  01045                % 00608 RGTR--
+200201004 Contern, Kräizgaass   01045  01045                % 00608 RGTR--
+200201001 Contern, Birewee      01046  01046                % 00608 RGTR--
+200201008 Contern, Rond Point   01048  01048                % 00608 RGTR--
+200201007 Contern, Weiergewan   01049  01049                % 00608 RGTR--
+200601009 Sandweiler, Schaedha  01051  01051                % 00608 RGTR--
+200417040 Kirchberg, Hugo Gern  01058  01058                % 00608 RGTR--
+200417039 Kirchberg, Avalon     01101  01101                % 00608 RGTR--
+200417019 Kirchberg, Konrad Ad  01102  01102                % 00608 RGTR--
+200417005 Kirchberg, Antoine d  01103  01103                % 00608 RGTR--
+200417016 Kirchberg, Jean Monn  01104  01104                % 00608 RGTR--
+200417007 Kirchberg, B.E.I.     01105  01105                % 00608 RGTR--
+200417047 Kirchberg, Rout Bréc  01107  01107                % 00608 RGTR--
+200405045 Centre, Stäreplaz /   01110  01110                % 00608 RGTR--
+200403015 Belair, Rheinsheim    01111  01111                % 00608 RGTR--
+200415005 Hollerich, Heentze P  01113  01113                % 00608 RGTR--
+200415002 Hollerich, Assurance  01116  01116                % 00608 RGTR--
+200412009 Gasperich, Gaasperec  01118  01118                % 00608 RGTR--
+200412028 Gasperich, Stengege   01120  01120                % 00608 RGTR--
+200412021 Gasperich, Gerhard M  01122  01122                % 00608 RGTR--
+200304017 Howald, P&R Howald Q  01123  01123                % 00608 RGTR--
+200304020 Howald, P&R Howald Q  01125                       % 00608 RGTR--
+*Z 00609 RGTR--                                             % 00609 RGTR--
+*L 165      200202001 200304020  01137  01225               % 00609 RGTR--
+*A ag 200202001 200304020 000001  01137  01225              % 00609 RGTR--
+*R 2 200304020 200202001 200304020  01137  01225            % 00609 RGTR--
+*G RGB 200202001 200304020  01137  01225                    % 00609 RGTR--
+*A VE 200202001 200304020 000001  01137  01225              % 00609 RGTR--
+*I FD 200202001 200304020        0002039  01137  01225      % 00609 RGTR--
+200202001 Medingen, Aire de vi         01137                % 00609 RGTR--
+200202002 Medingen              01138  01138                % 00609 RGTR--
+200203005 Moutfort, Syrbréck    01141  01141                % 00609 RGTR--
+200203002 Moutfort, Juxgaass    01141  01141                % 00609 RGTR--
+200205001 Milbech               01142  01142                % 00609 RGTR--
+200201006 Contern, Millewee     01144  01144                % 00609 RGTR--
+200201003 Contern, Kiircheplaz  01145  01145                % 00609 RGTR--
+200201004 Contern, Kräizgaass   01145  01145                % 00609 RGTR--
+200201001 Contern, Birewee      01146  01146                % 00609 RGTR--
+200201008 Contern, Rond Point   01148  01148                % 00609 RGTR--
+200201007 Contern, Weiergewan   01149  01149                % 00609 RGTR--
+200601009 Sandweiler, Schaedha  01151  01151                % 00609 RGTR--
+200417040 Kirchberg, Hugo Gern  01158  01158                % 00609 RGTR--
+200417039 Kirchberg, Avalon     01201  01201                % 00609 RGTR--
+200417019 Kirchberg, Konrad Ad  01202  01202                % 00609 RGTR--
+200417005 Kirchberg, Antoine d  01203  01203                % 00609 RGTR--
+200417016 Kirchberg, Jean Monn  01204  01204                % 00609 RGTR--
+200417007 Kirchberg, B.E.I.     01205  01205                % 00609 RGTR--
+200417047 Kirchberg, Rout Bréc  01207  01207                % 00609 RGTR--
+200405045 Centre, Stäreplaz /   01210  01210                % 00609 RGTR--
+200403015 Belair, Rheinsheim    01211  01211                % 00609 RGTR--
+200415005 Hollerich, Heentze P  01213  01213                % 00609 RGTR--
+200415002 Hollerich, Assurance  01216  01216                % 00609 RGTR--
+200412009 Gasperich, Gaasperec  01218  01218                % 00609 RGTR--
+200412028 Gasperich, Stengege   01220  01220                % 00609 RGTR--
+200412021 Gasperich, Gerhard M  01222  01222                % 00609 RGTR--
+200304017 Howald, P&R Howald Q  01223  01223                % 00609 RGTR--
+200304020 Howald, P&R Howald Q  01225                       % 00609 RGTR--
+*Z 00610 RGTR--                                             % 00610 RGTR--
+*L 165      200202001 200304020  01207  01255               % 00610 RGTR--
+*A ag 200202001 200304020 000001  01207  01255              % 00610 RGTR--
+*R 2 200304020 200202001 200304020  01207  01255            % 00610 RGTR--
+*G RGB 200202001 200304020  01207  01255                    % 00610 RGTR--
+*A VE 200202001 200304020 000001  01207  01255              % 00610 RGTR--
+*I FD 200202001 200304020        0002040  01207  01255      % 00610 RGTR--
+200202001 Medingen, Aire de vi         01207                % 00610 RGTR--
+200202002 Medingen              01208  01208                % 00610 RGTR--
+200203005 Moutfort, Syrbréck    01211  01211                % 00610 RGTR--
+200203002 Moutfort, Juxgaass    01211  01211                % 00610 RGTR--
+200205001 Milbech               01212  01212                % 00610 RGTR--
+200201006 Contern, Millewee     01214  01214                % 00610 RGTR--
+200201003 Contern, Kiircheplaz  01215  01215                % 00610 RGTR--
+200201004 Contern, Kräizgaass   01215  01215                % 00610 RGTR--
+200201001 Contern, Birewee      01216  01216                % 00610 RGTR--
+200201008 Contern, Rond Point   01218  01218                % 00610 RGTR--
+200201007 Contern, Weiergewan   01219  01219                % 00610 RGTR--
+200601009 Sandweiler, Schaedha  01221  01221                % 00610 RGTR--
+200417040 Kirchberg, Hugo Gern  01228  01228                % 00610 RGTR--
+200417039 Kirchberg, Avalon     01231  01231                % 00610 RGTR--
+200417019 Kirchberg, Konrad Ad  01232  01232                % 00610 RGTR--
+200417005 Kirchberg, Antoine d  01233  01233                % 00610 RGTR--
+200417016 Kirchberg, Jean Monn  01234  01234                % 00610 RGTR--
+200417007 Kirchberg, B.E.I.     01235  01235                % 00610 RGTR--
+200417047 Kirchberg, Rout Bréc  01237  01237                % 00610 RGTR--
+200405045 Centre, Stäreplaz /   01240  01240                % 00610 RGTR--
+200403015 Belair, Rheinsheim    01241  01241                % 00610 RGTR--
+200415005 Hollerich, Heentze P  01243  01243                % 00610 RGTR--
+200415002 Hollerich, Assurance  01246  01246                % 00610 RGTR--
+200412009 Gasperich, Gaasperec  01248  01248                % 00610 RGTR--
+200412028 Gasperich, Stengege   01250  01250                % 00610 RGTR--
+200412021 Gasperich, Gerhard M  01252  01252                % 00610 RGTR--
+200304017 Howald, P&R Howald Q  01253  01253                % 00610 RGTR--
+200304020 Howald, P&R Howald Q  01255                       % 00610 RGTR--
+*Z 00611 RGTR--                                             % 00611 RGTR--
+*L 165      200202001 200304020  01237  01325               % 00611 RGTR--
+*A ag 200202001 200304020 000001  01237  01325              % 00611 RGTR--
+*R 2 200304020 200202001 200304020  01237  01325            % 00611 RGTR--
+*G RGB 200202001 200304020  01237  01325                    % 00611 RGTR--
+*A VE 200202001 200304020 000001  01237  01325              % 00611 RGTR--
+*I FD 200202001 200304020        0001153  01237  01325      % 00611 RGTR--
+200202001 Medingen, Aire de vi         01237                % 00611 RGTR--
+200202002 Medingen              01238  01238                % 00611 RGTR--
+200203005 Moutfort, Syrbréck    01241  01241                % 00611 RGTR--
+200203002 Moutfort, Juxgaass    01241  01241                % 00611 RGTR--
+200205001 Milbech               01242  01242                % 00611 RGTR--
+200201006 Contern, Millewee     01244  01244                % 00611 RGTR--
+200201003 Contern, Kiircheplaz  01245  01245                % 00611 RGTR--
+200201004 Contern, Kräizgaass   01245  01245                % 00611 RGTR--
+200201001 Contern, Birewee      01246  01246                % 00611 RGTR--
+200201008 Contern, Rond Point   01248  01248                % 00611 RGTR--
+200201007 Contern, Weiergewan   01249  01249                % 00611 RGTR--
+200601009 Sandweiler, Schaedha  01251  01251                % 00611 RGTR--
+200417040 Kirchberg, Hugo Gern  01258  01258                % 00611 RGTR--
+200417039 Kirchberg, Avalon     01301  01301                % 00611 RGTR--
+200417019 Kirchberg, Konrad Ad  01302  01302                % 00611 RGTR--
+200417005 Kirchberg, Antoine d  01303  01303                % 00611 RGTR--
+200417016 Kirchberg, Jean Monn  01304  01304                % 00611 RGTR--
+200417007 Kirchberg, B.E.I.     01305  01305                % 00611 RGTR--
+200417047 Kirchberg, Rout Bréc  01307  01307                % 00611 RGTR--
+200405045 Centre, Stäreplaz /   01310  01310                % 00611 RGTR--
+200403015 Belair, Rheinsheim    01311  01311                % 00611 RGTR--
+200415005 Hollerich, Heentze P  01313  01313                % 00611 RGTR--
+200415002 Hollerich, Assurance  01316  01316                % 00611 RGTR--
+200412009 Gasperich, Gaasperec  01318  01318                % 00611 RGTR--
+200412028 Gasperich, Stengege   01320  01320                % 00611 RGTR--
+200412021 Gasperich, Gerhard M  01322  01322                % 00611 RGTR--
+200304017 Howald, P&R Howald Q  01323  01323                % 00611 RGTR--
+200304020 Howald, P&R Howald Q  01325                       % 00611 RGTR--
+*Z 00612 RGTR--                                             % 00612 RGTR--
+*L 165      200202001 200304020  01337  01425               % 00612 RGTR--
+*A ae 200202001 200304020 000001  01337  01425              % 00612 RGTR--
+*R 2 200304020 200202001 200304020  01337  01425            % 00612 RGTR--
+*G RGB 200202001 200304020  01337  01425                    % 00612 RGTR--
+*A VE 200202001 200304020 000001  01337  01425              % 00612 RGTR--
+*I FD 200202001 200304020        0002041  01337  01425      % 00612 RGTR--
+200202001 Medingen, Aire de vi         01337                % 00612 RGTR--
+200202002 Medingen              01338  01338                % 00612 RGTR--
+200203005 Moutfort, Syrbréck    01341  01341                % 00612 RGTR--
+200203002 Moutfort, Juxgaass    01341  01341                % 00612 RGTR--
+200205001 Milbech               01342  01342                % 00612 RGTR--
+200201006 Contern, Millewee     01344  01344                % 00612 RGTR--
+200201003 Contern, Kiircheplaz  01345  01345                % 00612 RGTR--
+200201004 Contern, Kräizgaass   01345  01345                % 00612 RGTR--
+200201001 Contern, Birewee      01346  01346                % 00612 RGTR--
+200201008 Contern, Rond Point   01348  01348                % 00612 RGTR--
+200201007 Contern, Weiergewan   01349  01349                % 00612 RGTR--
+200601009 Sandweiler, Schaedha  01351  01351                % 00612 RGTR--
+200417040 Kirchberg, Hugo Gern  01358  01358                % 00612 RGTR--
+200417039 Kirchberg, Avalon     01401  01401                % 00612 RGTR--
+200417019 Kirchberg, Konrad Ad  01402  01402                % 00612 RGTR--
+200417005 Kirchberg, Antoine d  01403  01403                % 00612 RGTR--
+200417016 Kirchberg, Jean Monn  01404  01404                % 00612 RGTR--
+200417007 Kirchberg, B.E.I.     01405  01405                % 00612 RGTR--
+200417047 Kirchberg, Rout Bréc  01407  01407                % 00612 RGTR--
+200405045 Centre, Stäreplaz /   01410  01410                % 00612 RGTR--
+200403015 Belair, Rheinsheim    01411  01411                % 00612 RGTR--
+200415005 Hollerich, Heentze P  01413  01413                % 00612 RGTR--
+200415002 Hollerich, Assurance  01416  01416                % 00612 RGTR--
+200412009 Gasperich, Gaasperec  01418  01418                % 00612 RGTR--
+200412028 Gasperich, Stengege   01420  01420                % 00612 RGTR--
+200412021 Gasperich, Gerhard M  01422  01422                % 00612 RGTR--
+200304017 Howald, P&R Howald Q  01423  01423                % 00612 RGTR--
+200304020 Howald, P&R Howald Q  01425                       % 00612 RGTR--
+*Z 00613 RGTR--                                             % 00613 RGTR--
+*L 165      200202001 200304020  01407  01455               % 00613 RGTR--
+*A ag 200202001 200304020 000001  01407  01455              % 00613 RGTR--
+*R 2 200304020 200202001 200304020  01407  01455            % 00613 RGTR--
+*G RGB 200202001 200304020  01407  01455                    % 00613 RGTR--
+*A VE 200202001 200304020 000001  01407  01455              % 00613 RGTR--
+*I FD 200202001 200304020        0002042  01407  01455      % 00613 RGTR--
+200202001 Medingen, Aire de vi         01407                % 00613 RGTR--
+200202002 Medingen              01408  01408                % 00613 RGTR--
+200203005 Moutfort, Syrbréck    01411  01411                % 00613 RGTR--
+200203002 Moutfort, Juxgaass    01411  01411                % 00613 RGTR--
+200205001 Milbech               01412  01412                % 00613 RGTR--
+200201006 Contern, Millewee     01414  01414                % 00613 RGTR--
+200201003 Contern, Kiircheplaz  01415  01415                % 00613 RGTR--
+200201004 Contern, Kräizgaass   01415  01415                % 00613 RGTR--
+200201001 Contern, Birewee      01416  01416                % 00613 RGTR--
+200201008 Contern, Rond Point   01418  01418                % 00613 RGTR--
+200201007 Contern, Weiergewan   01419  01419                % 00613 RGTR--
+200601009 Sandweiler, Schaedha  01421  01421                % 00613 RGTR--
+200417040 Kirchberg, Hugo Gern  01428  01428                % 00613 RGTR--
+200417039 Kirchberg, Avalon     01431  01431                % 00613 RGTR--
+200417019 Kirchberg, Konrad Ad  01432  01432                % 00613 RGTR--
+200417005 Kirchberg, Antoine d  01433  01433                % 00613 RGTR--
+200417016 Kirchberg, Jean Monn  01434  01434                % 00613 RGTR--
+200417007 Kirchberg, B.E.I.     01435  01435                % 00613 RGTR--
+200417047 Kirchberg, Rout Bréc  01437  01437                % 00613 RGTR--
+200405045 Centre, Stäreplaz /   01440  01440                % 00613 RGTR--
+200403015 Belair, Rheinsheim    01441  01441                % 00613 RGTR--
+200415005 Hollerich, Heentze P  01443  01443                % 00613 RGTR--
+200415002 Hollerich, Assurance  01446  01446                % 00613 RGTR--
+200412009 Gasperich, Gaasperec  01448  01448                % 00613 RGTR--
+200412028 Gasperich, Stengege   01450  01450                % 00613 RGTR--
+200412021 Gasperich, Gerhard M  01452  01452                % 00613 RGTR--
+200304017 Howald, P&R Howald Q  01453  01453                % 00613 RGTR--
+200304020 Howald, P&R Howald Q  01455                       % 00613 RGTR--
+*Z 00614 RGTR--                                             % 00614 RGTR--
+*L 165      200202001 200304020  01437  01525               % 00614 RGTR--
+*A ag 200202001 200304020 000001  01437  01525              % 00614 RGTR--
+*R 2 200304020 200202001 200304020  01437  01525            % 00614 RGTR--
+*G RGB 200202001 200304020  01437  01525                    % 00614 RGTR--
+*A VE 200202001 200304020 000001  01437  01525              % 00614 RGTR--
+*I FD 200202001 200304020        0002043  01437  01525      % 00614 RGTR--
+200202001 Medingen, Aire de vi         01437                % 00614 RGTR--
+200202002 Medingen              01438  01438                % 00614 RGTR--
+200203005 Moutfort, Syrbréck    01441  01441                % 00614 RGTR--
+200203002 Moutfort, Juxgaass    01441  01441                % 00614 RGTR--
+200205001 Milbech               01442  01442                % 00614 RGTR--
+200201006 Contern, Millewee     01444  01444                % 00614 RGTR--
+200201003 Contern, Kiircheplaz  01445  01445                % 00614 RGTR--
+200201004 Contern, Kräizgaass   01445  01445                % 00614 RGTR--
+200201001 Contern, Birewee      01446  01446                % 00614 RGTR--
+200201008 Contern, Rond Point   01448  01448                % 00614 RGTR--
+200201007 Contern, Weiergewan   01449  01449                % 00614 RGTR--
+200601009 Sandweiler, Schaedha  01451  01451                % 00614 RGTR--
+200417040 Kirchberg, Hugo Gern  01458  01458                % 00614 RGTR--
+200417039 Kirchberg, Avalon     01501  01501                % 00614 RGTR--
+200417019 Kirchberg, Konrad Ad  01502  01502                % 00614 RGTR--
+200417005 Kirchberg, Antoine d  01503  01503                % 00614 RGTR--
+200417016 Kirchberg, Jean Monn  01504  01504                % 00614 RGTR--
+200417007 Kirchberg, B.E.I.     01505  01505                % 00614 RGTR--
+200417047 Kirchberg, Rout Bréc  01507  01507                % 00614 RGTR--
+200405045 Centre, Stäreplaz /   01510  01510                % 00614 RGTR--
+200403015 Belair, Rheinsheim    01511  01511                % 00614 RGTR--
+200415005 Hollerich, Heentze P  01513  01513                % 00614 RGTR--
+200415002 Hollerich, Assurance  01516  01516                % 00614 RGTR--
+200412009 Gasperich, Gaasperec  01518  01518                % 00614 RGTR--
+200412028 Gasperich, Stengege   01520  01520                % 00614 RGTR--
+200412021 Gasperich, Gerhard M  01522  01522                % 00614 RGTR--
+200304017 Howald, P&R Howald Q  01523  01523                % 00614 RGTR--
+200304020 Howald, P&R Howald Q  01525                       % 00614 RGTR--
+*Z 00615 RGTR--                                             % 00615 RGTR--
+*L 165      200202001 200304020  01537  01625               % 00615 RGTR--
+*A ae 200202001 200304020 000001  01537  01625              % 00615 RGTR--
+*R 2 200304020 200202001 200304020  01537  01625            % 00615 RGTR--
+*G RGB 200202001 200304020  01537  01625                    % 00615 RGTR--
+*A VE 200202001 200304020 000001  01537  01625              % 00615 RGTR--
+*I FD 200202001 200304020        0002044  01537  01625      % 00615 RGTR--
+200202001 Medingen, Aire de vi         01537                % 00615 RGTR--
+200202002 Medingen              01538  01538                % 00615 RGTR--
+200203005 Moutfort, Syrbréck    01541  01541                % 00615 RGTR--
+200203002 Moutfort, Juxgaass    01541  01541                % 00615 RGTR--
+200205001 Milbech               01542  01542                % 00615 RGTR--
+200201006 Contern, Millewee     01544  01544                % 00615 RGTR--
+200201003 Contern, Kiircheplaz  01545  01545                % 00615 RGTR--
+200201004 Contern, Kräizgaass   01545  01545                % 00615 RGTR--
+200201001 Contern, Birewee      01546  01546                % 00615 RGTR--
+200201008 Contern, Rond Point   01548  01548                % 00615 RGTR--
+200201007 Contern, Weiergewan   01549  01549                % 00615 RGTR--
+200601009 Sandweiler, Schaedha  01551  01551                % 00615 RGTR--
+200417040 Kirchberg, Hugo Gern  01558  01558                % 00615 RGTR--
+200417039 Kirchberg, Avalon     01601  01601                % 00615 RGTR--
+200417019 Kirchberg, Konrad Ad  01602  01602                % 00615 RGTR--
+200417005 Kirchberg, Antoine d  01603  01603                % 00615 RGTR--
+200417016 Kirchberg, Jean Monn  01604  01604                % 00615 RGTR--
+200417007 Kirchberg, B.E.I.     01605  01605                % 00615 RGTR--
+200417047 Kirchberg, Rout Bréc  01607  01607                % 00615 RGTR--
+200405045 Centre, Stäreplaz /   01610  01610                % 00615 RGTR--
+200403015 Belair, Rheinsheim    01611  01611                % 00615 RGTR--
+200415005 Hollerich, Heentze P  01613  01613                % 00615 RGTR--
+200415002 Hollerich, Assurance  01616  01616                % 00615 RGTR--
+200412009 Gasperich, Gaasperec  01618  01618                % 00615 RGTR--
+200412028 Gasperich, Stengege   01620  01620                % 00615 RGTR--
+200412021 Gasperich, Gerhard M  01622  01622                % 00615 RGTR--
+200304017 Howald, P&R Howald Q  01623  01623                % 00615 RGTR--
+200304020 Howald, P&R Howald Q  01625                       % 00615 RGTR--
+*Z 00616 RGTR--                                             % 00616 RGTR--
+*L 165      200202001 200304020  01837  01925               % 00616 RGTR--
+*A ae 200202001 200304020 000001  01837  01925              % 00616 RGTR--
+*R 2 200304020 200202001 200304020  01837  01925            % 00616 RGTR--
+*G RGB 200202001 200304020  01837  01925                    % 00616 RGTR--
+*A VE 200202001 200304020 000001  01837  01925              % 00616 RGTR--
+*I FD 200202001 200304020        0001297  01837  01925      % 00616 RGTR--
+200202001 Medingen, Aire de vi         01837                % 00616 RGTR--
+200202002 Medingen              01838  01838                % 00616 RGTR--
+200203005 Moutfort, Syrbréck    01841  01841                % 00616 RGTR--
+200203002 Moutfort, Juxgaass    01841  01841                % 00616 RGTR--
+200205001 Milbech               01842  01842                % 00616 RGTR--
+200201006 Contern, Millewee     01844  01844                % 00616 RGTR--
+200201003 Contern, Kiircheplaz  01845  01845                % 00616 RGTR--
+200201004 Contern, Kräizgaass   01845  01845                % 00616 RGTR--
+200201001 Contern, Birewee      01846  01846                % 00616 RGTR--
+200201008 Contern, Rond Point   01848  01848                % 00616 RGTR--
+200201007 Contern, Weiergewan   01849  01849                % 00616 RGTR--
+200601009 Sandweiler, Schaedha  01851  01851                % 00616 RGTR--
+200417040 Kirchberg, Hugo Gern  01858  01858                % 00616 RGTR--
+200417039 Kirchberg, Avalon     01901  01901                % 00616 RGTR--
+200417019 Kirchberg, Konrad Ad  01902  01902                % 00616 RGTR--
+200417005 Kirchberg, Antoine d  01903  01903                % 00616 RGTR--
+200417016 Kirchberg, Jean Monn  01904  01904                % 00616 RGTR--
+200417007 Kirchberg, B.E.I.     01905  01905                % 00616 RGTR--
+200417047 Kirchberg, Rout Bréc  01907  01907                % 00616 RGTR--
+200405045 Centre, Stäreplaz /   01910  01910                % 00616 RGTR--
+200403015 Belair, Rheinsheim    01911  01911                % 00616 RGTR--
+200415005 Hollerich, Heentze P  01913  01913                % 00616 RGTR--
+200415002 Hollerich, Assurance  01916  01916                % 00616 RGTR--
+200412009 Gasperich, Gaasperec  01918  01918                % 00616 RGTR--
+200412028 Gasperich, Stengege   01920  01920                % 00616 RGTR--
+200412021 Gasperich, Gerhard M  01922  01922                % 00616 RGTR--
+200304017 Howald, P&R Howald Q  01923  01923                % 00616 RGTR--
+200304020 Howald, P&R Howald Q  01925                       % 00616 RGTR--
+*Z 00617 RGTR--                                             % 00617 RGTR--
+*L 165      200202001 200304020  02007  02055               % 00617 RGTR--
+*A ag 200202001 200304020 000001  02007  02055              % 00617 RGTR--
+*R 2 200304020 200202001 200304020  02007  02055            % 00617 RGTR--
+*G RGB 200202001 200304020  02007  02055                    % 00617 RGTR--
+*A VE 200202001 200304020 000001  02007  02055              % 00617 RGTR--
+*I FD 200202001 200304020        0002045  02007  02055      % 00617 RGTR--
+200202001 Medingen, Aire de vi         02007                % 00617 RGTR--
+200202002 Medingen              02008  02008                % 00617 RGTR--
+200203005 Moutfort, Syrbréck    02011  02011                % 00617 RGTR--
+200203002 Moutfort, Juxgaass    02011  02011                % 00617 RGTR--
+200205001 Milbech               02012  02012                % 00617 RGTR--
+200201006 Contern, Millewee     02014  02014                % 00617 RGTR--
+200201003 Contern, Kiircheplaz  02015  02015                % 00617 RGTR--
+200201004 Contern, Kräizgaass   02015  02015                % 00617 RGTR--
+200201001 Contern, Birewee      02016  02016                % 00617 RGTR--
+200201008 Contern, Rond Point   02018  02018                % 00617 RGTR--
+200201007 Contern, Weiergewan   02019  02019                % 00617 RGTR--
+200601009 Sandweiler, Schaedha  02021  02021                % 00617 RGTR--
+200417040 Kirchberg, Hugo Gern  02028  02028                % 00617 RGTR--
+200417039 Kirchberg, Avalon     02031  02031                % 00617 RGTR--
+200417019 Kirchberg, Konrad Ad  02032  02032                % 00617 RGTR--
+200417005 Kirchberg, Antoine d  02033  02033                % 00617 RGTR--
+200417016 Kirchberg, Jean Monn  02034  02034                % 00617 RGTR--
+200417007 Kirchberg, B.E.I.     02035  02035                % 00617 RGTR--
+200417047 Kirchberg, Rout Bréc  02037  02037                % 00617 RGTR--
+200405045 Centre, Stäreplaz /   02040  02040                % 00617 RGTR--
+200403015 Belair, Rheinsheim    02041  02041                % 00617 RGTR--
+200415005 Hollerich, Heentze P  02043  02043                % 00617 RGTR--
+200415002 Hollerich, Assurance  02046  02046                % 00617 RGTR--
+200412009 Gasperich, Gaasperec  02048  02048                % 00617 RGTR--
+200412028 Gasperich, Stengege   02050  02050                % 00617 RGTR--
+200412021 Gasperich, Gerhard M  02052  02052                % 00617 RGTR--
+200304017 Howald, P&R Howald Q  02053  02053                % 00617 RGTR--
+200304020 Howald, P&R Howald Q  02055                       % 00617 RGTR--
+*Z 00618 RGTR--                                             % 00618 RGTR--
+*L 165      200202001 200304020  02107  02155               % 00618 RGTR--
+*A ae 200202001 200304020 000001  02107  02155              % 00618 RGTR--
+*R 2 200304020 200202001 200304020  02107  02155            % 00618 RGTR--
+*G RGB 200202001 200304020  02107  02155                    % 00618 RGTR--
+*A VE 200202001 200304020 000001  02107  02155              % 00618 RGTR--
+*I FD 200202001 200304020        0002046  02107  02155      % 00618 RGTR--
+200202001 Medingen, Aire de vi         02107                % 00618 RGTR--
+200202002 Medingen              02108  02108                % 00618 RGTR--
+200203005 Moutfort, Syrbréck    02111  02111                % 00618 RGTR--
+200203002 Moutfort, Juxgaass    02111  02111                % 00618 RGTR--
+200205001 Milbech               02112  02112                % 00618 RGTR--
+200201006 Contern, Millewee     02114  02114                % 00618 RGTR--
+200201003 Contern, Kiircheplaz  02115  02115                % 00618 RGTR--
+200201004 Contern, Kräizgaass   02115  02115                % 00618 RGTR--
+200201001 Contern, Birewee      02116  02116                % 00618 RGTR--
+200201008 Contern, Rond Point   02118  02118                % 00618 RGTR--
+200201007 Contern, Weiergewan   02119  02119                % 00618 RGTR--
+200601009 Sandweiler, Schaedha  02121  02121                % 00618 RGTR--
+200417040 Kirchberg, Hugo Gern  02128  02128                % 00618 RGTR--
+200417039 Kirchberg, Avalon     02131  02131                % 00618 RGTR--
+200417019 Kirchberg, Konrad Ad  02132  02132                % 00618 RGTR--
+200417005 Kirchberg, Antoine d  02133  02133                % 00618 RGTR--
+200417016 Kirchberg, Jean Monn  02134  02134                % 00618 RGTR--
+200417007 Kirchberg, B.E.I.     02135  02135                % 00618 RGTR--
+200417047 Kirchberg, Rout Bréc  02137  02137                % 00618 RGTR--
+200405045 Centre, Stäreplaz /   02140  02140                % 00618 RGTR--
+200403015 Belair, Rheinsheim    02141  02141                % 00618 RGTR--
+200415005 Hollerich, Heentze P  02143  02143                % 00618 RGTR--
+200415002 Hollerich, Assurance  02146  02146                % 00618 RGTR--
+200412009 Gasperich, Gaasperec  02148  02148                % 00618 RGTR--
+200412028 Gasperich, Stengege   02150  02150                % 00618 RGTR--
+200412021 Gasperich, Gerhard M  02152  02152                % 00618 RGTR--
+200304017 Howald, P&R Howald Q  02153  02153                % 00618 RGTR--
+200304020 Howald, P&R Howald Q  02155                       % 00618 RGTR--
+*Z 00619 RGTR--                                             % 00619 RGTR--
+*L 165      200202001 200304020  02207  02255               % 00619 RGTR--
+*A ag 200202001 200304020 000001  02207  02255              % 00619 RGTR--
+*R 2 200304020 200202001 200304020  02207  02255            % 00619 RGTR--
+*G RGB 200202001 200304020  02207  02255                    % 00619 RGTR--
+*A VE 200202001 200304020 000001  02207  02255              % 00619 RGTR--
+*I FD 200202001 200304020        0002047  02207  02255      % 00619 RGTR--
+200202001 Medingen, Aire de vi         02207                % 00619 RGTR--
+200202002 Medingen              02208  02208                % 00619 RGTR--
+200203005 Moutfort, Syrbréck    02211  02211                % 00619 RGTR--
+200203002 Moutfort, Juxgaass    02211  02211                % 00619 RGTR--
+200205001 Milbech               02212  02212                % 00619 RGTR--
+200201006 Contern, Millewee     02214  02214                % 00619 RGTR--
+200201003 Contern, Kiircheplaz  02215  02215                % 00619 RGTR--
+200201004 Contern, Kräizgaass   02215  02215                % 00619 RGTR--
+200201001 Contern, Birewee      02216  02216                % 00619 RGTR--
+200201008 Contern, Rond Point   02218  02218                % 00619 RGTR--
+200201007 Contern, Weiergewan   02219  02219                % 00619 RGTR--
+200601009 Sandweiler, Schaedha  02221  02221                % 00619 RGTR--
+200417040 Kirchberg, Hugo Gern  02228  02228                % 00619 RGTR--
+200417039 Kirchberg, Avalon     02231  02231                % 00619 RGTR--
+200417019 Kirchberg, Konrad Ad  02232  02232                % 00619 RGTR--
+200417005 Kirchberg, Antoine d  02233  02233                % 00619 RGTR--
+200417016 Kirchberg, Jean Monn  02234  02234                % 00619 RGTR--
+200417007 Kirchberg, B.E.I.     02235  02235                % 00619 RGTR--
+200417047 Kirchberg, Rout Bréc  02237  02237                % 00619 RGTR--
+200405045 Centre, Stäreplaz /   02240  02240                % 00619 RGTR--
+200403015 Belair, Rheinsheim    02241  02241                % 00619 RGTR--
+200415005 Hollerich, Heentze P  02243  02243                % 00619 RGTR--
+200415002 Hollerich, Assurance  02246  02246                % 00619 RGTR--
+200412009 Gasperich, Gaasperec  02248  02248                % 00619 RGTR--
+200412028 Gasperich, Stengege   02250  02250                % 00619 RGTR--
+200412021 Gasperich, Gerhard M  02252  02252                % 00619 RGTR--
+200304017 Howald, P&R Howald Q  02253  02253                % 00619 RGTR--
+200304020 Howald, P&R Howald Q  02255                       % 00619 RGTR--
+*Z 00620 RGTR--                                             % 00620 RGTR--
+*L 165      200202001 200304020  02307  02355               % 00620 RGTR--
+*A ag 200202001 200304020 000001  02307  02355              % 00620 RGTR--
+*R 2 200304020 200202001 200304020  02307  02355            % 00620 RGTR--
+*G RGB 200202001 200304020  02307  02355                    % 00620 RGTR--
+*A VE 200202001 200304020 000001  02307  02355              % 00620 RGTR--
+*I FD 200202001 200304020        0002048  02307  02355      % 00620 RGTR--
+200202001 Medingen, Aire de vi         02307                % 00620 RGTR--
+200202002 Medingen              02308  02308                % 00620 RGTR--
+200203005 Moutfort, Syrbréck    02311  02311                % 00620 RGTR--
+200203002 Moutfort, Juxgaass    02311  02311                % 00620 RGTR--
+200205001 Milbech               02312  02312                % 00620 RGTR--
+200201006 Contern, Millewee     02314  02314                % 00620 RGTR--
+200201003 Contern, Kiircheplaz  02315  02315                % 00620 RGTR--
+200201004 Contern, Kräizgaass   02315  02315                % 00620 RGTR--
+200201001 Contern, Birewee      02316  02316                % 00620 RGTR--
+200201008 Contern, Rond Point   02318  02318                % 00620 RGTR--
+200201007 Contern, Weiergewan   02319  02319                % 00620 RGTR--
+200601009 Sandweiler, Schaedha  02321  02321                % 00620 RGTR--
+200417040 Kirchberg, Hugo Gern  02328  02328                % 00620 RGTR--
+200417039 Kirchberg, Avalon     02331  02331                % 00620 RGTR--
+200417019 Kirchberg, Konrad Ad  02332  02332                % 00620 RGTR--
+200417005 Kirchberg, Antoine d  02333  02333                % 00620 RGTR--
+200417016 Kirchberg, Jean Monn  02334  02334                % 00620 RGTR--
+200417007 Kirchberg, B.E.I.     02335  02335                % 00620 RGTR--
+200417047 Kirchberg, Rout Bréc  02337  02337                % 00620 RGTR--
+200405045 Centre, Stäreplaz /   02340  02340                % 00620 RGTR--
+200403015 Belair, Rheinsheim    02341  02341                % 00620 RGTR--
+200415005 Hollerich, Heentze P  02343  02343                % 00620 RGTR--
+200415002 Hollerich, Assurance  02346  02346                % 00620 RGTR--
+200412009 Gasperich, Gaasperec  02348  02348                % 00620 RGTR--
+200412028 Gasperich, Stengege   02350  02350                % 00620 RGTR--
+200412021 Gasperich, Gerhard M  02352  02352                % 00620 RGTR--
+200304017 Howald, P&R Howald Q  02353  02353                % 00620 RGTR--
+200304020 Howald, P&R Howald Q  02355                       % 00620 RGTR--
+*Z 00621 RGTR--                                             % 00621 RGTR--
+*L 165      200202001 200304020  00907  00955               % 00621 RGTR--
+*A ag 200202001 200304020 000003  00907  00955              % 00621 RGTR--
+*R 2 200304020 200202001 200304020  00907  00955            % 00621 RGTR--
+*G RGB 200202001 200304020  00907  00955                    % 00621 RGTR--
+*A VE 200202001 200304020 000003  00907  00955              % 00621 RGTR--
+*I FD 200202001 200304020        0002027  00907  00955      % 00621 RGTR--
+200202001 Medingen, Aire de vi         00907                % 00621 RGTR--
+200202002 Medingen              00908  00908                % 00621 RGTR--
+200203005 Moutfort, Syrbréck    00911  00911                % 00621 RGTR--
+200203002 Moutfort, Juxgaass    00911  00911                % 00621 RGTR--
+200205001 Milbech               00912  00912                % 00621 RGTR--
+200201006 Contern, Millewee     00914  00914                % 00621 RGTR--
+200201003 Contern, Kiircheplaz  00915  00915                % 00621 RGTR--
+200201004 Contern, Kräizgaass   00915  00915                % 00621 RGTR--
+200201001 Contern, Birewee      00916  00916                % 00621 RGTR--
+200201008 Contern, Rond Point   00918  00918                % 00621 RGTR--
+200201007 Contern, Weiergewan   00919  00919                % 00621 RGTR--
+200601009 Sandweiler, Schaedha  00921  00921                % 00621 RGTR--
+200417040 Kirchberg, Hugo Gern  00928  00928                % 00621 RGTR--
+200417039 Kirchberg, Avalon     00931  00931                % 00621 RGTR--
+200417019 Kirchberg, Konrad Ad  00932  00932                % 00621 RGTR--
+200417005 Kirchberg, Antoine d  00933  00933                % 00621 RGTR--
+200417016 Kirchberg, Jean Monn  00934  00934                % 00621 RGTR--
+200417007 Kirchberg, B.E.I.     00935  00935                % 00621 RGTR--
+200417047 Kirchberg, Rout Bréc  00937  00937                % 00621 RGTR--
+200405045 Centre, Stäreplaz /   00940  00940                % 00621 RGTR--
+200403015 Belair, Rheinsheim    00941  00941                % 00621 RGTR--
+200415005 Hollerich, Heentze P  00943  00943                % 00621 RGTR--
+200415002 Hollerich, Assurance  00946  00946                % 00621 RGTR--
+200412009 Gasperich, Gaasperec  00948  00948                % 00621 RGTR--
+200412028 Gasperich, Stengege   00950  00950                % 00621 RGTR--
+200412021 Gasperich, Gerhard M  00952  00952                % 00621 RGTR--
+200304017 Howald, P&R Howald Q  00953  00953                % 00621 RGTR--
+200304020 Howald, P&R Howald Q  00955                       % 00621 RGTR--
+*Z 00622 RGTR--                                             % 00622 RGTR--
+*L 165      200202001 200304020  01707  01755               % 00622 RGTR--
+*A ag 200202001 200304020 000003  01707  01755              % 00622 RGTR--
+*R 2 200304020 200202001 200304020  01707  01755            % 00622 RGTR--
+*G RGB 200202001 200304020  01707  01755                    % 00622 RGTR--
+*A VE 200202001 200304020 000003  01707  01755              % 00622 RGTR--
+*I FD 200202001 200304020        0002030  01707  01755      % 00622 RGTR--
+200202001 Medingen, Aire de vi         01707                % 00622 RGTR--
+200202002 Medingen              01708  01708                % 00622 RGTR--
+200203005 Moutfort, Syrbréck    01711  01711                % 00622 RGTR--
+200203002 Moutfort, Juxgaass    01711  01711                % 00622 RGTR--
+200205001 Milbech               01712  01712                % 00622 RGTR--
+200201006 Contern, Millewee     01714  01714                % 00622 RGTR--
+200201003 Contern, Kiircheplaz  01715  01715                % 00622 RGTR--
+200201004 Contern, Kräizgaass   01715  01715                % 00622 RGTR--
+200201001 Contern, Birewee      01716  01716                % 00622 RGTR--
+200201008 Contern, Rond Point   01718  01718                % 00622 RGTR--
+200201007 Contern, Weiergewan   01719  01719                % 00622 RGTR--
+200601009 Sandweiler, Schaedha  01721  01721                % 00622 RGTR--
+200417040 Kirchberg, Hugo Gern  01728  01728                % 00622 RGTR--
+200417039 Kirchberg, Avalon     01731  01731                % 00622 RGTR--
+200417019 Kirchberg, Konrad Ad  01732  01732                % 00622 RGTR--
+200417005 Kirchberg, Antoine d  01733  01733                % 00622 RGTR--
+200417016 Kirchberg, Jean Monn  01734  01734                % 00622 RGTR--
+200417007 Kirchberg, B.E.I.     01735  01735                % 00622 RGTR--
+200417047 Kirchberg, Rout Bréc  01737  01737                % 00622 RGTR--
+200405045 Centre, Stäreplaz /   01740  01740                % 00622 RGTR--
+200403015 Belair, Rheinsheim    01741  01741                % 00622 RGTR--
+200415005 Hollerich, Heentze P  01743  01743                % 00622 RGTR--
+200415002 Hollerich, Assurance  01746  01746                % 00622 RGTR--
+200412009 Gasperich, Gaasperec  01748  01748                % 00622 RGTR--
+200412028 Gasperich, Stengege   01750  01750                % 00622 RGTR--
+200412021 Gasperich, Gerhard M  01752  01752                % 00622 RGTR--
+200304017 Howald, P&R Howald Q  01753  01753                % 00622 RGTR--
+200304020 Howald, P&R Howald Q  01755                       % 00622 RGTR--

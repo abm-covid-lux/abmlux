@@ -1,0 +1,441 @@
+*F 03 2
+*Z 01243 RGTR--                                             % 01243 RGTR--
+*L 128      200417050 180511002  00823  00854               % 01243 RGTR--
+*A ay 200417050 180511002 000001  00823  00854              % 01243 RGTR--
+*R 1 180511002 200417050 180511002  00823  00854            % 01243 RGTR--
+*G RGB 200417050 180511002  00823  00854                    % 01243 RGTR--
+*A VE 200417050 180511002 000001  00823  00854              % 01243 RGTR--
+*I FD 200417050 180511002        0002077  00823  00854      % 01243 RGTR--
+200417050 Kirchberg, Gare rout         00823                % 01243 RGTR--
+200507003 Senningen, Um Kiem    00833  00833                % 01243 RGTR--
+200507002 Senningen, Kierch     00834  00834                % 01243 RGTR--
+200504006 Niederanven, Routsch  00835  00835                % 01243 RGTR--
+200504001 Niederanven, Geisfel  00836  00836                % 01243 RGTR--
+180106005 Roodt/Syre, Rothoich  00838  00838                % 01243 RGTR--
+180106002 Roodt/Syre, Campus s  00839  00839                % 01243 RGTR--
+180106001 Roodt/Syre, Barriär   00840  00840                % 01243 RGTR--
+180101001 Banzelt               00842  00842                % 01243 RGTR--
+180105001 Olingen, Am Kéisbier  00844  00844                % 01243 RGTR--
+180105003 Olingen, Rue de Rode  00845  00845                % 01243 RGTR--
+180105002 Olingen, Beim lescht  00847  00847                % 01243 RGTR--
+180512002 Rodenbourg, An der S  00848  00848                % 01243 RGTR--
+180512001 Rodenbourg, Am Duerf  00848  00848                % 01243 RGTR--
+180511002 Junglinster, Op der   00854                       % 01243 RGTR--
+*Z 01244 RGTR--                                             % 01244 RGTR--
+*L 128      200417050 180511002  01623  01654               % 01244 RGTR--
+*A ay 200417050 180511002 000001  01623  01654              % 01244 RGTR--
+*R 1 180511002 200417050 180511002  01623  01654            % 01244 RGTR--
+*G RGB 200417050 180511002  01623  01654                    % 01244 RGTR--
+*A VE 200417050 180511002 000001  01623  01654              % 01244 RGTR--
+*I FD 200417050 180511002        0002081  01623  01654      % 01244 RGTR--
+200417050 Kirchberg, Gare rout         01623                % 01244 RGTR--
+200507003 Senningen, Um Kiem    01633  01633                % 01244 RGTR--
+200507002 Senningen, Kierch     01634  01634                % 01244 RGTR--
+200504006 Niederanven, Routsch  01635  01635                % 01244 RGTR--
+200504001 Niederanven, Geisfel  01636  01636                % 01244 RGTR--
+180106005 Roodt/Syre, Rothoich  01638  01638                % 01244 RGTR--
+180106002 Roodt/Syre, Campus s  01639  01639                % 01244 RGTR--
+180106001 Roodt/Syre, Barriär   01640  01640                % 01244 RGTR--
+180101001 Banzelt               01642  01642                % 01244 RGTR--
+180105001 Olingen, Am Kéisbier  01644  01644                % 01244 RGTR--
+180105003 Olingen, Rue de Rode  01645  01645                % 01244 RGTR--
+180105002 Olingen, Beim lescht  01647  01647                % 01244 RGTR--
+180512002 Rodenbourg, An der S  01648  01648                % 01244 RGTR--
+180512001 Rodenbourg, Am Duerf  01648  01648                % 01244 RGTR--
+180511002 Junglinster, Op der   01654                       % 01244 RGTR--
+*Z 01245 RGTR--                                             % 01245 RGTR--
+*L 128      200417050 180511002  01728  01759               % 01245 RGTR--
+*A ay 200417050 180511002 000001  01728  01759              % 01245 RGTR--
+*R 1 180511002 200417050 180511002  01728  01759            % 01245 RGTR--
+*G RGB 200417050 180511002  01728  01759                    % 01245 RGTR--
+*A VE 200417050 180511002 000001  01728  01759              % 01245 RGTR--
+*I FD 200417050 180511002        0001731  01728  01759      % 01245 RGTR--
+200417050 Kirchberg, Gare rout         01728                % 01245 RGTR--
+200507003 Senningen, Um Kiem    01738  01738                % 01245 RGTR--
+200507002 Senningen, Kierch     01739  01739                % 01245 RGTR--
+200504006 Niederanven, Routsch  01740  01740                % 01245 RGTR--
+200504001 Niederanven, Geisfel  01741  01741                % 01245 RGTR--
+180106005 Roodt/Syre, Rothoich  01743  01743                % 01245 RGTR--
+180106002 Roodt/Syre, Campus s  01744  01744                % 01245 RGTR--
+180106001 Roodt/Syre, Barriär   01745  01745                % 01245 RGTR--
+180101001 Banzelt               01747  01747                % 01245 RGTR--
+180105001 Olingen, Am Kéisbier  01749  01749                % 01245 RGTR--
+180105003 Olingen, Rue de Rode  01750  01750                % 01245 RGTR--
+180105002 Olingen, Beim lescht  01752  01752                % 01245 RGTR--
+180512002 Rodenbourg, An der S  01753  01753                % 01245 RGTR--
+180512001 Rodenbourg, Am Duerf  01753  01753                % 01245 RGTR--
+180511002 Junglinster, Op der   01759                       % 01245 RGTR--
+*Z 01246 RGTR--                                             % 01246 RGTR--
+*L 128      200417050 180511002  01828  01859               % 01246 RGTR--
+*A ay 200417050 180511002 000001  01828  01859              % 01246 RGTR--
+*R 1 180511002 200417050 180511002  01828  01859            % 01246 RGTR--
+*G RGB 200417050 180511002  01828  01859                    % 01246 RGTR--
+*A VE 200417050 180511002 000001  01828  01859              % 01246 RGTR--
+*I FD 200417050 180511002        0001780  01828  01859      % 01246 RGTR--
+200417050 Kirchberg, Gare rout         01828                % 01246 RGTR--
+200507003 Senningen, Um Kiem    01838  01838                % 01246 RGTR--
+200507002 Senningen, Kierch     01839  01839                % 01246 RGTR--
+200504006 Niederanven, Routsch  01840  01840                % 01246 RGTR--
+200504001 Niederanven, Geisfel  01841  01841                % 01246 RGTR--
+180106005 Roodt/Syre, Rothoich  01843  01843                % 01246 RGTR--
+180106002 Roodt/Syre, Campus s  01844  01844                % 01246 RGTR--
+180106001 Roodt/Syre, Barriär   01845  01845                % 01246 RGTR--
+180101001 Banzelt               01847  01847                % 01246 RGTR--
+180105001 Olingen, Am Kéisbier  01849  01849                % 01246 RGTR--
+180105003 Olingen, Rue de Rode  01850  01850                % 01246 RGTR--
+180105002 Olingen, Beim lescht  01852  01852                % 01246 RGTR--
+180512002 Rodenbourg, An der S  01853  01853                % 01246 RGTR--
+180512001 Rodenbourg, Am Duerf  01853  01853                % 01246 RGTR--
+180511002 Junglinster, Op der   01859                       % 01246 RGTR--
+*Z 01247 RGTR--                                             % 01247 RGTR--
+*L 128      200417050 180511002  01025  01055               % 01247 RGTR--
+*A ay 200417050 180511002 000001  01025  01055              % 01247 RGTR--
+*R 1 180511002 200417050 180511002  01025  01055            % 01247 RGTR--
+*G RGB 200417050 180511002  01025  01055                    % 01247 RGTR--
+*A VE 200417050 180511002 000001  01025  01055              % 01247 RGTR--
+*I FD 200417050 180511002        0001733  01025  01055      % 01247 RGTR--
+200417050 Kirchberg, Gare rout         01025                % 01247 RGTR--
+200507003 Senningen, Um Kiem    01034  01034                % 01247 RGTR--
+200507002 Senningen, Kierch     01035  01035                % 01247 RGTR--
+200504006 Niederanven, Routsch  01036  01036                % 01247 RGTR--
+200504001 Niederanven, Geisfel  01037  01037                % 01247 RGTR--
+180106005 Roodt/Syre, Rothoich  01038  01038                % 01247 RGTR--
+180106002 Roodt/Syre, Campus s  01039  01039                % 01247 RGTR--
+180106001 Roodt/Syre, Barriär   01040  01040                % 01247 RGTR--
+180101001 Banzelt               01042  01042                % 01247 RGTR--
+180105001 Olingen, Am Kéisbier  01044  01044                % 01247 RGTR--
+180105003 Olingen, Rue de Rode  01046  01046                % 01247 RGTR--
+180105002 Olingen, Beim lescht  01047  01047                % 01247 RGTR--
+180512002 Rodenbourg, An der S  01049  01049                % 01247 RGTR--
+180512001 Rodenbourg, Am Duerf  01049  01049                % 01247 RGTR--
+180511002 Junglinster, Op der   01055                       % 01247 RGTR--
+*Z 01248 RGTR--                                             % 01248 RGTR--
+*L 128      200417050 180511002  01225  01255               % 01248 RGTR--
+*A ay 200417050 180511002 000001  01225  01255              % 01248 RGTR--
+*R 1 180511002 200417050 180511002  01225  01255            % 01248 RGTR--
+*G RGB 200417050 180511002  01225  01255                    % 01248 RGTR--
+*A VE 200417050 180511002 000001  01225  01255              % 01248 RGTR--
+*I FD 200417050 180511002        0001734  01225  01255      % 01248 RGTR--
+200417050 Kirchberg, Gare rout         01225                % 01248 RGTR--
+200507003 Senningen, Um Kiem    01234  01234                % 01248 RGTR--
+200507002 Senningen, Kierch     01235  01235                % 01248 RGTR--
+200504006 Niederanven, Routsch  01236  01236                % 01248 RGTR--
+200504001 Niederanven, Geisfel  01237  01237                % 01248 RGTR--
+180106005 Roodt/Syre, Rothoich  01238  01238                % 01248 RGTR--
+180106002 Roodt/Syre, Campus s  01239  01239                % 01248 RGTR--
+180106001 Roodt/Syre, Barriär   01240  01240                % 01248 RGTR--
+180101001 Banzelt               01242  01242                % 01248 RGTR--
+180105001 Olingen, Am Kéisbier  01244  01244                % 01248 RGTR--
+180105003 Olingen, Rue de Rode  01246  01246                % 01248 RGTR--
+180105002 Olingen, Beim lescht  01247  01247                % 01248 RGTR--
+180512002 Rodenbourg, An der S  01249  01249                % 01248 RGTR--
+180512001 Rodenbourg, Am Duerf  01249  01249                % 01248 RGTR--
+180511002 Junglinster, Op der   01255                       % 01248 RGTR--
+*Z 01249 RGTR--                                             % 01249 RGTR--
+*L 128      200417050 180511002  01325  01355               % 01249 RGTR--
+*A ay 200417050 180511002 000001  01325  01355              % 01249 RGTR--
+*R 1 180511002 200417050 180511002  01325  01355            % 01249 RGTR--
+*G RGB 200417050 180511002  01325  01355                    % 01249 RGTR--
+*A VE 200417050 180511002 000001  01325  01355              % 01249 RGTR--
+*I FD 200417050 180511002        0001737  01325  01355      % 01249 RGTR--
+200417050 Kirchberg, Gare rout         01325                % 01249 RGTR--
+200507003 Senningen, Um Kiem    01334  01334                % 01249 RGTR--
+200507002 Senningen, Kierch     01335  01335                % 01249 RGTR--
+200504006 Niederanven, Routsch  01336  01336                % 01249 RGTR--
+200504001 Niederanven, Geisfel  01337  01337                % 01249 RGTR--
+180106005 Roodt/Syre, Rothoich  01338  01338                % 01249 RGTR--
+180106002 Roodt/Syre, Campus s  01339  01339                % 01249 RGTR--
+180106001 Roodt/Syre, Barriär   01340  01340                % 01249 RGTR--
+180101001 Banzelt               01342  01342                % 01249 RGTR--
+180105001 Olingen, Am Kéisbier  01344  01344                % 01249 RGTR--
+180105003 Olingen, Rue de Rode  01346  01346                % 01249 RGTR--
+180105002 Olingen, Beim lescht  01347  01347                % 01249 RGTR--
+180512002 Rodenbourg, An der S  01349  01349                % 01249 RGTR--
+180512001 Rodenbourg, Am Duerf  01349  01349                % 01249 RGTR--
+180511002 Junglinster, Op der   01355                       % 01249 RGTR--
+*Z 01250 RGTR--                                             % 01250 RGTR--
+*L 128      200417050 180511002  01425  01455               % 01250 RGTR--
+*A ay 200417050 180511002 000001  01425  01455              % 01250 RGTR--
+*R 1 180511002 200417050 180511002  01425  01455            % 01250 RGTR--
+*G RGB 200417050 180511002  01425  01455                    % 01250 RGTR--
+*A VE 200417050 180511002 000001  01425  01455              % 01250 RGTR--
+*I FD 200417050 180511002        0001735  01425  01455      % 01250 RGTR--
+200417050 Kirchberg, Gare rout         01425                % 01250 RGTR--
+200507003 Senningen, Um Kiem    01434  01434                % 01250 RGTR--
+200507002 Senningen, Kierch     01435  01435                % 01250 RGTR--
+200504006 Niederanven, Routsch  01436  01436                % 01250 RGTR--
+200504001 Niederanven, Geisfel  01437  01437                % 01250 RGTR--
+180106005 Roodt/Syre, Rothoich  01438  01438                % 01250 RGTR--
+180106002 Roodt/Syre, Campus s  01439  01439                % 01250 RGTR--
+180106001 Roodt/Syre, Barriär   01440  01440                % 01250 RGTR--
+180101001 Banzelt               01442  01442                % 01250 RGTR--
+180105001 Olingen, Am Kéisbier  01444  01444                % 01250 RGTR--
+180105003 Olingen, Rue de Rode  01446  01446                % 01250 RGTR--
+180105002 Olingen, Beim lescht  01447  01447                % 01250 RGTR--
+180512002 Rodenbourg, An der S  01449  01449                % 01250 RGTR--
+180512001 Rodenbourg, Am Duerf  01449  01449                % 01250 RGTR--
+180511002 Junglinster, Op der   01455                       % 01250 RGTR--
+*Z 01251 RGTR--                                             % 01251 RGTR--
+*L 128      200417050 180511002  01525  01555               % 01251 RGTR--
+*A ay 200417050 180511002 000001  01525  01555              % 01251 RGTR--
+*R 1 180511002 200417050 180511002  01525  01555            % 01251 RGTR--
+*G RGB 200417050 180511002  01525  01555                    % 01251 RGTR--
+*A VE 200417050 180511002 000001  01525  01555              % 01251 RGTR--
+*I FD 200417050 180511002        0001738  01525  01555      % 01251 RGTR--
+200417050 Kirchberg, Gare rout         01525                % 01251 RGTR--
+200507003 Senningen, Um Kiem    01534  01534                % 01251 RGTR--
+200507002 Senningen, Kierch     01535  01535                % 01251 RGTR--
+200504006 Niederanven, Routsch  01536  01536                % 01251 RGTR--
+200504001 Niederanven, Geisfel  01537  01537                % 01251 RGTR--
+180106005 Roodt/Syre, Rothoich  01538  01538                % 01251 RGTR--
+180106002 Roodt/Syre, Campus s  01539  01539                % 01251 RGTR--
+180106001 Roodt/Syre, Barriär   01540  01540                % 01251 RGTR--
+180101001 Banzelt               01542  01542                % 01251 RGTR--
+180105001 Olingen, Am Kéisbier  01544  01544                % 01251 RGTR--
+180105003 Olingen, Rue de Rode  01546  01546                % 01251 RGTR--
+180105002 Olingen, Beim lescht  01547  01547                % 01251 RGTR--
+180512002 Rodenbourg, An der S  01549  01549                % 01251 RGTR--
+180512001 Rodenbourg, Am Duerf  01549  01549                % 01251 RGTR--
+180511002 Junglinster, Op der   01555                       % 01251 RGTR--
+*Z 01252 RGTR--                                             % 01252 RGTR--
+*L 128      200417050 180511002  02125  02155               % 01252 RGTR--
+*A ay 200417050 180511002 000001  02125  02155              % 01252 RGTR--
+*R 1 180511002 200417050 180511002  02125  02155            % 01252 RGTR--
+*G RGB 200417050 180511002  02125  02155                    % 01252 RGTR--
+*A VE 200417050 180511002 000001  02125  02155              % 01252 RGTR--
+*I FD 200417050 180511002        0002396  02125  02155      % 01252 RGTR--
+200417050 Kirchberg, Gare rout         02125                % 01252 RGTR--
+200507003 Senningen, Um Kiem    02134  02134                % 01252 RGTR--
+200507002 Senningen, Kierch     02135  02135                % 01252 RGTR--
+200504006 Niederanven, Routsch  02136  02136                % 01252 RGTR--
+200504001 Niederanven, Geisfel  02137  02137                % 01252 RGTR--
+180106005 Roodt/Syre, Rothoich  02138  02138                % 01252 RGTR--
+180106002 Roodt/Syre, Campus s  02139  02139                % 01252 RGTR--
+180106001 Roodt/Syre, Barriär   02140  02140                % 01252 RGTR--
+180101001 Banzelt               02142  02142                % 01252 RGTR--
+180105001 Olingen, Am Kéisbier  02144  02144                % 01252 RGTR--
+180105003 Olingen, Rue de Rode  02146  02146                % 01252 RGTR--
+180105002 Olingen, Beim lescht  02147  02147                % 01252 RGTR--
+180512002 Rodenbourg, An der S  02149  02149                % 01252 RGTR--
+180512001 Rodenbourg, Am Duerf  02149  02149                % 01252 RGTR--
+180511002 Junglinster, Op der   02155                       % 01252 RGTR--
+*Z 01253 RGTR--                                             % 01253 RGTR--
+*L 128      180511002 200417050  00900  00930               % 01253 RGTR--
+*A ay 180511002 200417050 000001  00900  00930              % 01253 RGTR--
+*R 2 200417050 180511002 200417050  00900  00930            % 01253 RGTR--
+*G RGB 180511002 200417050  00900  00930                    % 01253 RGTR--
+*A VE 180511002 200417050 000001  00900  00930              % 01253 RGTR--
+*I FD 180511002 200417050        0001891  00900  00930      % 01253 RGTR--
+180511002 Junglinster, Op der          00900                % 01253 RGTR--
+180512001 Rodenbourg, Am Duerf  00905  00905                % 01253 RGTR--
+180512002 Rodenbourg, An der S  00906  00906                % 01253 RGTR--
+180105002 Olingen, Beim lescht  00909  00909                % 01253 RGTR--
+180105003 Olingen, Rue de Rode  00910  00910                % 01253 RGTR--
+180105001 Olingen, Am Kéisbier  00911  00911                % 01253 RGTR--
+180101001 Banzelt               00913  00913                % 01253 RGTR--
+180106001 Roodt/Syre, Barriär   00915  00915                % 01253 RGTR--
+180106002 Roodt/Syre, Campus s  00916  00916                % 01253 RGTR--
+180106005 Roodt/Syre, Rothoich  00917  00917                % 01253 RGTR--
+200504001 Niederanven, Geisfel  00919  00919                % 01253 RGTR--
+200504006 Niederanven, Routsch  00920  00920                % 01253 RGTR--
+200507002 Senningen, Kierch     00921  00921                % 01253 RGTR--
+200507003 Senningen, Um Kiem    00922  00922                % 01253 RGTR--
+200417050 Kirchberg, Gare rout  00930                       % 01253 RGTR--
+*Z 01254 RGTR--                                             % 01254 RGTR--
+*L 128      180511002 200417050  01700  01730               % 01254 RGTR--
+*A ay 180511002 200417050 000001  01700  01730              % 01254 RGTR--
+*R 2 200417050 180511002 200417050  01700  01730            % 01254 RGTR--
+*G RGB 180511002 200417050  01700  01730                    % 01254 RGTR--
+*A VE 180511002 200417050 000001  01700  01730              % 01254 RGTR--
+*I FD 180511002 200417050        0001913  01700  01730      % 01254 RGTR--
+180511002 Junglinster, Op der          01700                % 01254 RGTR--
+180512001 Rodenbourg, Am Duerf  01705  01705                % 01254 RGTR--
+180512002 Rodenbourg, An der S  01706  01706                % 01254 RGTR--
+180105002 Olingen, Beim lescht  01709  01709                % 01254 RGTR--
+180105003 Olingen, Rue de Rode  01710  01710                % 01254 RGTR--
+180105001 Olingen, Am Kéisbier  01711  01711                % 01254 RGTR--
+180101001 Banzelt               01713  01713                % 01254 RGTR--
+180106001 Roodt/Syre, Barriär   01715  01715                % 01254 RGTR--
+180106002 Roodt/Syre, Campus s  01716  01716                % 01254 RGTR--
+180106005 Roodt/Syre, Rothoich  01717  01717                % 01254 RGTR--
+200504001 Niederanven, Geisfel  01719  01719                % 01254 RGTR--
+200504006 Niederanven, Routsch  01720  01720                % 01254 RGTR--
+200507002 Senningen, Kierch     01721  01721                % 01254 RGTR--
+200507003 Senningen, Um Kiem    01722  01722                % 01254 RGTR--
+200417050 Kirchberg, Gare rout  01730                       % 01254 RGTR--
+*Z 01255 RGTR--                                             % 01255 RGTR--
+*L 128      180511002 200417050  00658  00726               % 01255 RGTR--
+*A ay 180511002 200417050 000001  00658  00726              % 01255 RGTR--
+*R 2 200417050 180511002 200417050  00658  00726            % 01255 RGTR--
+*G RGB 180511002 200417050  00658  00726                    % 01255 RGTR--
+*A VE 180511002 200417050 000001  00658  00726              % 01255 RGTR--
+*I FD 180511002 200417050        0002397  00658  00726      % 01255 RGTR--
+180511002 Junglinster, Op der          00658                % 01255 RGTR--
+180512001 Rodenbourg, Am Duerf  00703  00703                % 01255 RGTR--
+180512002 Rodenbourg, An der S  00704  00704                % 01255 RGTR--
+180105002 Olingen, Beim lescht  00706  00706                % 01255 RGTR--
+180105003 Olingen, Rue de Rode  00706  00706                % 01255 RGTR--
+180105001 Olingen, Am Kéisbier  00708  00708                % 01255 RGTR--
+180101001 Banzelt               00709  00709                % 01255 RGTR--
+180106001 Roodt/Syre, Barriär   00711  00711                % 01255 RGTR--
+180106002 Roodt/Syre, Campus s  00712  00712                % 01255 RGTR--
+180106005 Roodt/Syre, Rothoich  00714  00714                % 01255 RGTR--
+200504001 Niederanven, Geisfel  00716  00716                % 01255 RGTR--
+200504006 Niederanven, Routsch  00717  00717                % 01255 RGTR--
+200507002 Senningen, Kierch     00717  00717                % 01255 RGTR--
+200507003 Senningen, Um Kiem    00718  00718                % 01255 RGTR--
+200417050 Kirchberg, Gare rout  00726                       % 01255 RGTR--
+*Z 01256 RGTR--                                             % 01256 RGTR--
+*L 128      180511002 200417050  01100  01128               % 01256 RGTR--
+*A ay 180511002 200417050 000001  01100  01128              % 01256 RGTR--
+*R 2 200417050 180511002 200417050  01100  01128            % 01256 RGTR--
+*G RGB 180511002 200417050  01100  01128                    % 01256 RGTR--
+*A VE 180511002 200417050 000001  01100  01128              % 01256 RGTR--
+*I FD 180511002 200417050        0001897  01100  01128      % 01256 RGTR--
+180511002 Junglinster, Op der          01100                % 01256 RGTR--
+180512001 Rodenbourg, Am Duerf  01105  01105                % 01256 RGTR--
+180512002 Rodenbourg, An der S  01106  01106                % 01256 RGTR--
+180105002 Olingen, Beim lescht  01108  01108                % 01256 RGTR--
+180105003 Olingen, Rue de Rode  01108  01108                % 01256 RGTR--
+180105001 Olingen, Am Kéisbier  01110  01110                % 01256 RGTR--
+180101001 Banzelt               01111  01111                % 01256 RGTR--
+180106001 Roodt/Syre, Barriär   01113  01113                % 01256 RGTR--
+180106002 Roodt/Syre, Campus s  01114  01114                % 01256 RGTR--
+180106005 Roodt/Syre, Rothoich  01116  01116                % 01256 RGTR--
+200504001 Niederanven, Geisfel  01118  01118                % 01256 RGTR--
+200504006 Niederanven, Routsch  01119  01119                % 01256 RGTR--
+200507002 Senningen, Kierch     01119  01119                % 01256 RGTR--
+200507003 Senningen, Um Kiem    01120  01120                % 01256 RGTR--
+200417050 Kirchberg, Gare rout  01128                       % 01256 RGTR--
+*Z 01257 RGTR--                                             % 01257 RGTR--
+*L 128      180511002 200417050  01300  01328               % 01257 RGTR--
+*A ay 180511002 200417050 000001  01300  01328              % 01257 RGTR--
+*R 2 200417050 180511002 200417050  01300  01328            % 01257 RGTR--
+*G RGB 180511002 200417050  01300  01328                    % 01257 RGTR--
+*A VE 180511002 200417050 000001  01300  01328              % 01257 RGTR--
+*I FD 180511002 200417050        0001902  01300  01328      % 01257 RGTR--
+180511002 Junglinster, Op der          01300                % 01257 RGTR--
+180512001 Rodenbourg, Am Duerf  01305  01305                % 01257 RGTR--
+180512002 Rodenbourg, An der S  01306  01306                % 01257 RGTR--
+180105002 Olingen, Beim lescht  01308  01308                % 01257 RGTR--
+180105003 Olingen, Rue de Rode  01308  01308                % 01257 RGTR--
+180105001 Olingen, Am Kéisbier  01310  01310                % 01257 RGTR--
+180101001 Banzelt               01311  01311                % 01257 RGTR--
+180106001 Roodt/Syre, Barriär   01313  01313                % 01257 RGTR--
+180106002 Roodt/Syre, Campus s  01314  01314                % 01257 RGTR--
+180106005 Roodt/Syre, Rothoich  01316  01316                % 01257 RGTR--
+200504001 Niederanven, Geisfel  01318  01318                % 01257 RGTR--
+200504006 Niederanven, Routsch  01319  01319                % 01257 RGTR--
+200507002 Senningen, Kierch     01319  01319                % 01257 RGTR--
+200507003 Senningen, Um Kiem    01320  01320                % 01257 RGTR--
+200417050 Kirchberg, Gare rout  01328                       % 01257 RGTR--
+*Z 01258 RGTR--                                             % 01258 RGTR--
+*L 128      180511002 200417050  01400  01428               % 01258 RGTR--
+*A ay 180511002 200417050 000001  01400  01428              % 01258 RGTR--
+*R 2 200417050 180511002 200417050  01400  01428            % 01258 RGTR--
+*G RGB 180511002 200417050  01400  01428                    % 01258 RGTR--
+*A VE 180511002 200417050 000001  01400  01428              % 01258 RGTR--
+*I FD 180511002 200417050        0001905  01400  01428      % 01258 RGTR--
+180511002 Junglinster, Op der          01400                % 01258 RGTR--
+180512001 Rodenbourg, Am Duerf  01405  01405                % 01258 RGTR--
+180512002 Rodenbourg, An der S  01406  01406                % 01258 RGTR--
+180105002 Olingen, Beim lescht  01408  01408                % 01258 RGTR--
+180105003 Olingen, Rue de Rode  01408  01408                % 01258 RGTR--
+180105001 Olingen, Am Kéisbier  01410  01410                % 01258 RGTR--
+180101001 Banzelt               01411  01411                % 01258 RGTR--
+180106001 Roodt/Syre, Barriär   01413  01413                % 01258 RGTR--
+180106002 Roodt/Syre, Campus s  01414  01414                % 01258 RGTR--
+180106005 Roodt/Syre, Rothoich  01416  01416                % 01258 RGTR--
+200504001 Niederanven, Geisfel  01418  01418                % 01258 RGTR--
+200504006 Niederanven, Routsch  01419  01419                % 01258 RGTR--
+200507002 Senningen, Kierch     01419  01419                % 01258 RGTR--
+200507003 Senningen, Um Kiem    01420  01420                % 01258 RGTR--
+200417050 Kirchberg, Gare rout  01428                       % 01258 RGTR--
+*Z 01259 RGTR--                                             % 01259 RGTR--
+*L 128      180511002 200417050  01500  01528               % 01259 RGTR--
+*A ay 180511002 200417050 000001  01500  01528              % 01259 RGTR--
+*R 2 200417050 180511002 200417050  01500  01528            % 01259 RGTR--
+*G RGB 180511002 200417050  01500  01528                    % 01259 RGTR--
+*A VE 180511002 200417050 000001  01500  01528              % 01259 RGTR--
+*I FD 180511002 200417050        0001908  01500  01528      % 01259 RGTR--
+180511002 Junglinster, Op der          01500                % 01259 RGTR--
+180512001 Rodenbourg, Am Duerf  01505  01505                % 01259 RGTR--
+180512002 Rodenbourg, An der S  01506  01506                % 01259 RGTR--
+180105002 Olingen, Beim lescht  01508  01508                % 01259 RGTR--
+180105003 Olingen, Rue de Rode  01508  01508                % 01259 RGTR--
+180105001 Olingen, Am Kéisbier  01510  01510                % 01259 RGTR--
+180101001 Banzelt               01511  01511                % 01259 RGTR--
+180106001 Roodt/Syre, Barriär   01513  01513                % 01259 RGTR--
+180106002 Roodt/Syre, Campus s  01514  01514                % 01259 RGTR--
+180106005 Roodt/Syre, Rothoich  01516  01516                % 01259 RGTR--
+200504001 Niederanven, Geisfel  01518  01518                % 01259 RGTR--
+200504006 Niederanven, Routsch  01519  01519                % 01259 RGTR--
+200507002 Senningen, Kierch     01519  01519                % 01259 RGTR--
+200507003 Senningen, Um Kiem    01520  01520                % 01259 RGTR--
+200417050 Kirchberg, Gare rout  01528                       % 01259 RGTR--
+*Z 01260 RGTR--                                             % 01260 RGTR--
+*L 128      180511002 200417050  01600  01628               % 01260 RGTR--
+*A ay 180511002 200417050 000001  01600  01628              % 01260 RGTR--
+*R 2 200417050 180511002 200417050  01600  01628            % 01260 RGTR--
+*G RGB 180511002 200417050  01600  01628                    % 01260 RGTR--
+*A VE 180511002 200417050 000001  01600  01628              % 01260 RGTR--
+*I FD 180511002 200417050        0001911  01600  01628      % 01260 RGTR--
+180511002 Junglinster, Op der          01600                % 01260 RGTR--
+180512001 Rodenbourg, Am Duerf  01605  01605                % 01260 RGTR--
+180512002 Rodenbourg, An der S  01606  01606                % 01260 RGTR--
+180105002 Olingen, Beim lescht  01608  01608                % 01260 RGTR--
+180105003 Olingen, Rue de Rode  01608  01608                % 01260 RGTR--
+180105001 Olingen, Am Kéisbier  01610  01610                % 01260 RGTR--
+180101001 Banzelt               01611  01611                % 01260 RGTR--
+180106001 Roodt/Syre, Barriär   01613  01613                % 01260 RGTR--
+180106002 Roodt/Syre, Campus s  01614  01614                % 01260 RGTR--
+180106005 Roodt/Syre, Rothoich  01616  01616                % 01260 RGTR--
+200504001 Niederanven, Geisfel  01618  01618                % 01260 RGTR--
+200504006 Niederanven, Routsch  01619  01619                % 01260 RGTR--
+200507002 Senningen, Kierch     01619  01619                % 01260 RGTR--
+200507003 Senningen, Um Kiem    01620  01620                % 01260 RGTR--
+200417050 Kirchberg, Gare rout  01628                       % 01260 RGTR--
+*Z 01261 RGTR--                                             % 01261 RGTR--
+*L 128      180511002 200417050  02000  02028               % 01261 RGTR--
+*A ay 180511002 200417050 000001  02000  02028              % 01261 RGTR--
+*R 2 200417050 180511002 200417050  02000  02028            % 01261 RGTR--
+*G RGB 180511002 200417050  02000  02028                    % 01261 RGTR--
+*A VE 180511002 200417050 000001  02000  02028              % 01261 RGTR--
+*I FD 180511002 200417050        0002398  02000  02028      % 01261 RGTR--
+180511002 Junglinster, Op der          02000                % 01261 RGTR--
+180512001 Rodenbourg, Am Duerf  02005  02005                % 01261 RGTR--
+180512002 Rodenbourg, An der S  02006  02006                % 01261 RGTR--
+180105002 Olingen, Beim lescht  02008  02008                % 01261 RGTR--
+180105003 Olingen, Rue de Rode  02008  02008                % 01261 RGTR--
+180105001 Olingen, Am Kéisbier  02010  02010                % 01261 RGTR--
+180101001 Banzelt               02011  02011                % 01261 RGTR--
+180106001 Roodt/Syre, Barriär   02013  02013                % 01261 RGTR--
+180106002 Roodt/Syre, Campus s  02014  02014                % 01261 RGTR--
+180106005 Roodt/Syre, Rothoich  02016  02016                % 01261 RGTR--
+200504001 Niederanven, Geisfel  02018  02018                % 01261 RGTR--
+200504006 Niederanven, Routsch  02019  02019                % 01261 RGTR--
+200507002 Senningen, Kierch     02019  02019                % 01261 RGTR--
+200507003 Senningen, Um Kiem    02020  02020                % 01261 RGTR--
+200417050 Kirchberg, Gare rout  02028                       % 01261 RGTR--
+*Z 01262 RGTR--                                             % 01262 RGTR--
+*L 128      180511002 200417050  00643  00711               % 01262 RGTR--
+*A ay 180511002 200417050 000002  00643  00711              % 01262 RGTR--
+*R 2 200417050 180511002 200417050  00643  00711            % 01262 RGTR--
+*G RGB 180511002 200417050  00643  00711                    % 01262 RGTR--
+*A VE 180511002 200417050 000002  00643  00711              % 01262 RGTR--
+*I FD 180511002 200417050        0002306  00643  00711      % 01262 RGTR--
+180511002 Junglinster, Op der          00643                % 01262 RGTR--
+180512001 Rodenbourg, Am Duerf  00648  00648                % 01262 RGTR--
+180512002 Rodenbourg, An der S  00649  00649                % 01262 RGTR--
+180105002 Olingen, Beim lescht  00651  00651                % 01262 RGTR--
+180105003 Olingen, Rue de Rode  00651  00651                % 01262 RGTR--
+180105001 Olingen, Am Kéisbier  00653  00653                % 01262 RGTR--
+180101001 Banzelt               00654  00654                % 01262 RGTR--
+180106001 Roodt/Syre, Barriär   00656  00656                % 01262 RGTR--
+180106002 Roodt/Syre, Campus s  00657  00657                % 01262 RGTR--
+180106005 Roodt/Syre, Rothoich  00659  00659                % 01262 RGTR--
+200504001 Niederanven, Geisfel  00701  00701                % 01262 RGTR--
+200504006 Niederanven, Routsch  00702  00702                % 01262 RGTR--
+200507002 Senningen, Kierch     00702  00702                % 01262 RGTR--
+200507003 Senningen, Um Kiem    00703  00703                % 01262 RGTR--
+200417050 Kirchberg, Gare rout  00711                       % 01262 RGTR--
