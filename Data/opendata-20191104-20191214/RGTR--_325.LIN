@@ -1,0 +1,476 @@
+*F 03 2
+*Z 06398 RGTR--                                             % 06398 RGTR--
+*L 325      200405004 400000112  01624  01721               % 06398 RGTR--
+*A df 200405004 400000112 000001  01624  01721              % 06398 RGTR--
+*R 1 400000112 200405004 400000112  01624  01721            % 06398 RGTR--
+*G RGB 200405004 400000112  01624  01721                    % 06398 RGTR--
+*A VE 200405004 400000112 000001  01624  01721              % 06398 RGTR--
+*I FD 200405004 400000112        0001936  01624  01721      % 06398 RGTR--
+200405004 Centre, Monterey Par         01624                % 06398 RGTR--
+200403015 Belair, Rheinsheim   -01628  01628                % 06398 RGTR--
+200415005 Hollerich, Heentze P -01630  01630                % 06398 RGTR--
+200415002 Hollerich, Assurance -01634  01634                % 06398 RGTR--
+200412009 Gasperich, Gaasperec -01635  01635                % 06398 RGTR--
+200412028 Gasperich, Stengege  -01638  01638                % 06398 RGTR--
+200412006 Gasperich, Cloche d' -01641  01641                % 06398 RGTR--
+200412018 Gasperich, Scharfen  -01643  01643                % 06398 RGTR--
+220402079 Esch/Alzette, Raemer  01701  01701                % 06398 RGTR--
+221301005 Belvaux, Brill        01702  01702                % 06398 RGTR--
+221301016 Belvaux, Roudewee     01703  01703                % 06398 RGTR--
+221301009 Belvaux, Henri Tudor  01704  01704                % 06398 RGTR--
+221301007 Belvaux, Gemeng       01705  01705                % 06398 RGTR--
+221301006 Belvaux-Soleuvre, Ga  01706  01706                % 06398 RGTR--
+221301022 Belvaux, Uewerkuerer  01707  01707                % 06398 RGTR--
+220204003 Obercorn, Neiduerf    01708  01708                % 06398 RGTR--
+220204005 Obercorn, Post        01709  01709                % 06398 RGTR--
+220204006 Obercorn, Rousegaert  01710  01710                % 06398 RGTR--
+220204002 Obercorn, Chiers      01711  01711                % 06398 RGTR--
+220201031 Differdange, Moartpl  01713  01713                % 06398 RGTR--
+220201036 Differdange, Place d  01715  01715                % 06398 RGTR--
+220201044 Differdange, Rue de   01716  01716                % 06398 RGTR--
+220201004 Differdange, Becklec  01716  01716                % 06398 RGTR--
+220201067 Differdange, Vesquen  01717  01717                % 06398 RGTR--
+400000113 Hussigny, Mines       01719  01719                % 06398 RGTR--
+400000112 Hussigny, Place de l  01721                       % 06398 RGTR--
+*Z 06399 RGTR--                                             % 06399 RGTR--
+*L 325      200405004 400000112  01654  01751               % 06399 RGTR--
+*A df 200405004 400000112 000001  01654  01751              % 06399 RGTR--
+*R 1 400000112 200405004 400000112  01654  01751            % 06399 RGTR--
+*G RGB 200405004 400000112  01654  01751                    % 06399 RGTR--
+*A VE 200405004 400000112 000001  01654  01751              % 06399 RGTR--
+*I FD 200405004 400000112        0003291  01654  01751      % 06399 RGTR--
+200405004 Centre, Monterey Par         01654                % 06399 RGTR--
+200403015 Belair, Rheinsheim   -01658  01658                % 06399 RGTR--
+200415005 Hollerich, Heentze P -01700  01700                % 06399 RGTR--
+200415002 Hollerich, Assurance -01704  01704                % 06399 RGTR--
+200412009 Gasperich, Gaasperec -01705  01705                % 06399 RGTR--
+200412028 Gasperich, Stengege  -01708  01708                % 06399 RGTR--
+200412006 Gasperich, Cloche d' -01711  01711                % 06399 RGTR--
+200412018 Gasperich, Scharfen  -01713  01713                % 06399 RGTR--
+220402079 Esch/Alzette, Raemer  01731  01731                % 06399 RGTR--
+221301005 Belvaux, Brill        01732  01732                % 06399 RGTR--
+221301016 Belvaux, Roudewee     01733  01733                % 06399 RGTR--
+221301009 Belvaux, Henri Tudor  01734  01734                % 06399 RGTR--
+221301007 Belvaux, Gemeng       01735  01735                % 06399 RGTR--
+221301006 Belvaux-Soleuvre, Ga  01736  01736                % 06399 RGTR--
+221301022 Belvaux, Uewerkuerer  01737  01737                % 06399 RGTR--
+220204003 Obercorn, Neiduerf    01738  01738                % 06399 RGTR--
+220204005 Obercorn, Post        01739  01739                % 06399 RGTR--
+220204006 Obercorn, Rousegaert  01740  01740                % 06399 RGTR--
+220204002 Obercorn, Chiers      01741  01741                % 06399 RGTR--
+220201031 Differdange, Moartpl  01743  01743                % 06399 RGTR--
+220201036 Differdange, Place d  01745  01745                % 06399 RGTR--
+220201044 Differdange, Rue de   01746  01746                % 06399 RGTR--
+220201004 Differdange, Becklec  01746  01746                % 06399 RGTR--
+220201067 Differdange, Vesquen  01747  01747                % 06399 RGTR--
+400000113 Hussigny, Mines       01749  01749                % 06399 RGTR--
+400000112 Hussigny, Place de l  01751                       % 06399 RGTR--
+*Z 06400 RGTR--                                             % 06400 RGTR--
+*L 325      200405004 400000112  01724  01821               % 06400 RGTR--
+*A df 200405004 400000112 000001  01724  01821              % 06400 RGTR--
+*R 1 400000112 200405004 400000112  01724  01821            % 06400 RGTR--
+*G RGB 200405004 400000112  01724  01821                    % 06400 RGTR--
+*A VE 200405004 400000112 000001  01724  01821              % 06400 RGTR--
+*I FD 200405004 400000112        0001934  01724  01821      % 06400 RGTR--
+200405004 Centre, Monterey Par         01724                % 06400 RGTR--
+200403015 Belair, Rheinsheim   -01728  01728                % 06400 RGTR--
+200415005 Hollerich, Heentze P -01730  01730                % 06400 RGTR--
+200415002 Hollerich, Assurance -01734  01734                % 06400 RGTR--
+200412009 Gasperich, Gaasperec -01735  01735                % 06400 RGTR--
+200412028 Gasperich, Stengege  -01738  01738                % 06400 RGTR--
+200412006 Gasperich, Cloche d' -01741  01741                % 06400 RGTR--
+200412018 Gasperich, Scharfen  -01743  01743                % 06400 RGTR--
+220402079 Esch/Alzette, Raemer  01801  01801                % 06400 RGTR--
+221301005 Belvaux, Brill        01802  01802                % 06400 RGTR--
+221301016 Belvaux, Roudewee     01803  01803                % 06400 RGTR--
+221301009 Belvaux, Henri Tudor  01804  01804                % 06400 RGTR--
+221301007 Belvaux, Gemeng       01805  01805                % 06400 RGTR--
+221301006 Belvaux-Soleuvre, Ga  01806  01806                % 06400 RGTR--
+221301022 Belvaux, Uewerkuerer  01807  01807                % 06400 RGTR--
+220204003 Obercorn, Neiduerf    01808  01808                % 06400 RGTR--
+220204005 Obercorn, Post        01809  01809                % 06400 RGTR--
+220204006 Obercorn, Rousegaert  01810  01810                % 06400 RGTR--
+220204002 Obercorn, Chiers      01811  01811                % 06400 RGTR--
+220201031 Differdange, Moartpl  01813  01813                % 06400 RGTR--
+220201036 Differdange, Place d  01815  01815                % 06400 RGTR--
+220201044 Differdange, Rue de   01816  01816                % 06400 RGTR--
+220201004 Differdange, Becklec  01816  01816                % 06400 RGTR--
+220201067 Differdange, Vesquen  01817  01817                % 06400 RGTR--
+400000113 Hussigny, Mines       01819  01819                % 06400 RGTR--
+400000112 Hussigny, Place de l  01821                       % 06400 RGTR--
+*Z 06401 RGTR--                                             % 06401 RGTR--
+*L 325      200405004 400000112  01754  01851               % 06401 RGTR--
+*A df 200405004 400000112 000001  01754  01851              % 06401 RGTR--
+*R 1 400000112 200405004 400000112  01754  01851            % 06401 RGTR--
+*G RGB 200405004 400000112  01754  01851                    % 06401 RGTR--
+*A VE 200405004 400000112 000001  01754  01851              % 06401 RGTR--
+*I FD 200405004 400000112        0003474  01754  01851      % 06401 RGTR--
+200405004 Centre, Monterey Par         01754                % 06401 RGTR--
+200403015 Belair, Rheinsheim   -01758  01758                % 06401 RGTR--
+200415005 Hollerich, Heentze P -01800  01800                % 06401 RGTR--
+200415002 Hollerich, Assurance -01804  01804                % 06401 RGTR--
+200412009 Gasperich, Gaasperec -01805  01805                % 06401 RGTR--
+200412028 Gasperich, Stengege  -01808  01808                % 06401 RGTR--
+200412006 Gasperich, Cloche d' -01811  01811                % 06401 RGTR--
+200412018 Gasperich, Scharfen  -01813  01813                % 06401 RGTR--
+220402079 Esch/Alzette, Raemer  01831  01831                % 06401 RGTR--
+221301005 Belvaux, Brill        01832  01832                % 06401 RGTR--
+221301016 Belvaux, Roudewee     01833  01833                % 06401 RGTR--
+221301009 Belvaux, Henri Tudor  01834  01834                % 06401 RGTR--
+221301007 Belvaux, Gemeng       01835  01835                % 06401 RGTR--
+221301006 Belvaux-Soleuvre, Ga  01836  01836                % 06401 RGTR--
+221301022 Belvaux, Uewerkuerer  01837  01837                % 06401 RGTR--
+220204003 Obercorn, Neiduerf    01838  01838                % 06401 RGTR--
+220204005 Obercorn, Post        01839  01839                % 06401 RGTR--
+220204006 Obercorn, Rousegaert  01840  01840                % 06401 RGTR--
+220204002 Obercorn, Chiers      01841  01841                % 06401 RGTR--
+220201031 Differdange, Moartpl  01843  01843                % 06401 RGTR--
+220201036 Differdange, Place d  01845  01845                % 06401 RGTR--
+220201044 Differdange, Rue de   01846  01846                % 06401 RGTR--
+220201004 Differdange, Becklec  01846  01846                % 06401 RGTR--
+220201067 Differdange, Vesquen  01847  01847                % 06401 RGTR--
+400000113 Hussigny, Mines       01849  01849                % 06401 RGTR--
+400000112 Hussigny, Place de l  01851                       % 06401 RGTR--
+*Z 06402 RGTR--                                             % 06402 RGTR--
+*L 325      200405004 400000112  01824  01909               % 06402 RGTR--
+*A df 200405004 400000112 000001  01824  01909              % 06402 RGTR--
+*R 1 400000112 200405004 400000112  01824  01909            % 06402 RGTR--
+*G RGB 200405004 400000112  01824  01909                    % 06402 RGTR--
+*A VE 200405004 400000112 000001  01824  01909              % 06402 RGTR--
+*I FD 200405004 400000112        0001938  01824  01909      % 06402 RGTR--
+200405004 Centre, Monterey Par         01824                % 06402 RGTR--
+200403015 Belair, Rheinsheim   -01826  01826                % 06402 RGTR--
+200415005 Hollerich, Heentze P -01828  01828                % 06402 RGTR--
+200415002 Hollerich, Assurance -01831  01831                % 06402 RGTR--
+200412009 Gasperich, Gaasperec -01832  01832                % 06402 RGTR--
+200412028 Gasperich, Stengege  -01834  01834                % 06402 RGTR--
+200412006 Gasperich, Cloche d' -01837  01837                % 06402 RGTR--
+200412018 Gasperich, Scharfen  -01838  01838                % 06402 RGTR--
+220402079 Esch/Alzette, Raemer  01850  01850                % 06402 RGTR--
+221301005 Belvaux, Brill        01852  01852                % 06402 RGTR--
+221301016 Belvaux, Roudewee     01853  01853                % 06402 RGTR--
+221301009 Belvaux, Henri Tudor  01853  01853                % 06402 RGTR--
+221301007 Belvaux, Gemeng       01854  01854                % 06402 RGTR--
+221301006 Belvaux-Soleuvre, Ga  01855  01855                % 06402 RGTR--
+221301022 Belvaux, Uewerkuerer  01856  01856                % 06402 RGTR--
+220204003 Obercorn, Neiduerf    01858  01858                % 06402 RGTR--
+220204005 Obercorn, Post        01858  01858                % 06402 RGTR--
+220204006 Obercorn, Rousegaert  01859  01859                % 06402 RGTR--
+220204002 Obercorn, Chiers      01900  01900                % 06402 RGTR--
+220201031 Differdange, Moartpl  01902  01902                % 06402 RGTR--
+220201036 Differdange, Place d  01903  01903                % 06402 RGTR--
+220201044 Differdange, Rue de   01904  01904                % 06402 RGTR--
+220201004 Differdange, Becklec  01905  01905                % 06402 RGTR--
+220201067 Differdange, Vesquen  01905  01905                % 06402 RGTR--
+400000113 Hussigny, Mines       01907  01907                % 06402 RGTR--
+400000112 Hussigny, Place de l  01909                       % 06402 RGTR--
+*Z 06403 RGTR--                                             % 06403 RGTR--
+*L 325      220204002 400000112  01149  01158               % 06403 RGTR--
+*A df 220204002 400000112 000001  01149  01158              % 06403 RGTR--
+*R 1 400000112 220204002 400000112  01149  01158            % 06403 RGTR--
+*G RGB 220204002 400000112  01149  01158                    % 06403 RGTR--
+*A VE 220204002 400000112 000001  01149  01158              % 06403 RGTR--
+*I FD 220204002 400000112        0001793  01149  01158      % 06403 RGTR--
+220204002 Obercorn, Chiers             01149                % 06403 RGTR--
+220201031 Differdange, Moartpl  01151  01151                % 06403 RGTR--
+220201036 Differdange, Place d  01152  01152                % 06403 RGTR--
+220201044 Differdange, Rue de   01153  01153                % 06403 RGTR--
+220201004 Differdange, Becklec  01154  01154                % 06403 RGTR--
+220201067 Differdange, Vesquen  01154  01154                % 06403 RGTR--
+400000113 Hussigny, Mines       01156  01156                % 06403 RGTR--
+400000112 Hussigny, Place de l  01158                       % 06403 RGTR--
+*Z 06404 RGTR--                                             % 06404 RGTR--
+*L 325      220204002 400000112  01349  01358               % 06404 RGTR--
+*A df 220204002 400000112 000001  01349  01358              % 06404 RGTR--
+*R 1 400000112 220204002 400000112  01349  01358            % 06404 RGTR--
+*G RGB 220204002 400000112  01349  01358                    % 06404 RGTR--
+*A VE 220204002 400000112 000001  01349  01358              % 06404 RGTR--
+*I FD 220204002 400000112        0001799  01349  01358      % 06404 RGTR--
+220204002 Obercorn, Chiers             01349                % 06404 RGTR--
+220201031 Differdange, Moartpl  01351  01351                % 06404 RGTR--
+220201036 Differdange, Place d  01352  01352                % 06404 RGTR--
+220201044 Differdange, Rue de   01353  01353                % 06404 RGTR--
+220201004 Differdange, Becklec  01354  01354                % 06404 RGTR--
+220201067 Differdange, Vesquen  01354  01354                % 06404 RGTR--
+400000113 Hussigny, Mines       01356  01356                % 06404 RGTR--
+400000112 Hussigny, Place de l  01358                       % 06404 RGTR--
+*Z 06405 RGTR--                                             % 06405 RGTR--
+*L 325      220204002 400000112  01549  01558               % 06405 RGTR--
+*A df 220204002 400000112 000001  01549  01558              % 06405 RGTR--
+*R 1 400000112 220204002 400000112  01549  01558            % 06405 RGTR--
+*G RGB 220204002 400000112  01549  01558                    % 06405 RGTR--
+*A VE 220204002 400000112 000001  01549  01558              % 06405 RGTR--
+*I FD 220204002 400000112        0001805  01549  01558      % 06405 RGTR--
+220204002 Obercorn, Chiers             01549                % 06405 RGTR--
+220201031 Differdange, Moartpl  01551  01551                % 06405 RGTR--
+220201036 Differdange, Place d  01552  01552                % 06405 RGTR--
+220201044 Differdange, Rue de   01553  01553                % 06405 RGTR--
+220201004 Differdange, Becklec  01554  01554                % 06405 RGTR--
+220201067 Differdange, Vesquen  01554  01554                % 06405 RGTR--
+400000113 Hussigny, Mines       01556  01556                % 06405 RGTR--
+400000112 Hussigny, Place de l  01558                       % 06405 RGTR--
+*Z 00239 RGTR--                                             % 00239 RGTR--
+*L 325      220204002 400000112  01947  01956               % 00239 RGTR--
+*A df 220204002 400000112 000001  01947  01956              % 00239 RGTR--
+*R 1 400000112 220204002 400000112  01947  01956            % 00239 RGTR--
+*G RGB 220204002 400000112  01947  01956                    % 00239 RGTR--
+*A VE 220204002 400000112 000001  01947  01956              % 00239 RGTR--
+*I FD 220204002 400000112        0003475  01947  01956      % 00239 RGTR--
+220204002 Obercorn, Chiers             01947                % 00239 RGTR--
+220201031 Differdange, Moartpl  01949  01949                % 00239 RGTR--
+220201036 Differdange, Place d  01950  01950                % 00239 RGTR--
+220201044 Differdange, Rue de   01951  01951                % 00239 RGTR--
+220201004 Differdange, Becklec  01952  01952                % 00239 RGTR--
+220201067 Differdange, Vesquen  01952  01952                % 00239 RGTR--
+400000113 Hussigny, Mines       01954  01954                % 00239 RGTR--
+400000112 Hussigny, Place de l  01956                       % 00239 RGTR--
+*Z 00261 RGTR--                                             % 00261 RGTR--
+*L 325      220204002 400000112  02247  02256               % 00261 RGTR--
+*A df 220204002 400000112 000001  02247  02256              % 00261 RGTR--
+*R 1 400000112 220204002 400000112  02247  02256            % 00261 RGTR--
+*G RGB 220204002 400000112  02247  02256                    % 00261 RGTR--
+*A VE 220204002 400000112 000001  02247  02256              % 00261 RGTR--
+*I FD 220204002 400000112        0003476  02247  02256      % 00261 RGTR--
+220204002 Obercorn, Chiers             02247                % 00261 RGTR--
+220201031 Differdange, Moartpl  02249  02249                % 00261 RGTR--
+220201036 Differdange, Place d  02250  02250                % 00261 RGTR--
+220201044 Differdange, Rue de   02251  02251                % 00261 RGTR--
+220201004 Differdange, Becklec  02252  02252                % 00261 RGTR--
+220201067 Differdange, Vesquen  02252  02252                % 00261 RGTR--
+400000113 Hussigny, Mines       02254  02254                % 00261 RGTR--
+400000112 Hussigny, Place de l  02256                       % 00261 RGTR--
+*Z 06406 RGTR--                                             % 06406 RGTR--
+*L 325      400000112 200405004  00515  00605               % 06406 RGTR--
+*A df 400000112 200405004 000001  00515  00605              % 06406 RGTR--
+*R 2 200405004 400000112 200405004  00515  00605            % 06406 RGTR--
+*G RGB 400000112 200405004  00515  00605                    % 06406 RGTR--
+*A VE 400000112 200405004 000001  00515  00605              % 06406 RGTR--
+*I FD 400000112 200405004        0002490  00515  00605      % 06406 RGTR--
+400000112 Hussigny, Place de l         00515                % 06406 RGTR--
+400000113 Hussigny, Mines       00517  00517                % 06406 RGTR--
+220201067 Differdange, Vesquen  00519  00519                % 06406 RGTR--
+220201004 Differdange, Becklec  00520  00520                % 06406 RGTR--
+220201044 Differdange, Rue de   00521  00521                % 06406 RGTR--
+220201036 Differdange, Place d  00521  00521                % 06406 RGTR--
+220201053 Differdange, Schoul   00523  00523                % 06406 RGTR--
+220204002 Obercorn, Chiers      00525  00525                % 06406 RGTR--
+220204005 Obercorn, Post        00526  00526                % 06406 RGTR--
+220204003 Obercorn, Neiduerf    00526  00526                % 06406 RGTR--
+221301022 Belvaux, Uewerkuerer  00528  00528                % 06406 RGTR--
+221301006 Belvaux-Soleuvre, Ga  00529  00529                % 06406 RGTR--
+221301007 Belvaux, Gemeng       00530  00530                % 06406 RGTR--
+221301009 Belvaux, Henri Tudor  00531  00531                % 06406 RGTR--
+221301016 Belvaux, Roudewee     00531  00531                % 06406 RGTR--
+221301005 Belvaux, Brill        00532  00532                % 06406 RGTR--
+220402079 Esch/Alzette, Raemer  00533  00533                % 06406 RGTR--
+200412018 Gasperich, Scharfen   00553 -00553                % 06406 RGTR--
+200412006 Gasperich, Cloche d'  00554 -00554                % 06406 RGTR--
+200412028 Gasperich, Stengege   00558 -00558                % 06406 RGTR--
+200412009 Gasperich, Gaasperec  00558 -00558                % 06406 RGTR--
+200415002 Hollerich, Assurance  00559 -00559                % 06406 RGTR--
+200415005 Hollerich, Heentze P  00601 -00601                % 06406 RGTR--
+200403015 Belair, Rheinsheim    00603 -00603                % 06406 RGTR--
+200405004 Centre, Monterey Par  00605                       % 06406 RGTR--
+*Z 06407 RGTR--                                             % 06407 RGTR--
+*L 325      400000112 200405004  00553  00643               % 06407 RGTR--
+*A df 400000112 200405004 000001  00553  00643              % 06407 RGTR--
+*R 2 200405004 400000112 200405004  00553  00643            % 06407 RGTR--
+*G RGB 400000112 200405004  00553  00643                    % 06407 RGTR--
+*A VE 400000112 200405004 000001  00553  00643              % 06407 RGTR--
+*I FD 400000112 200405004        0003472  00553  00643      % 06407 RGTR--
+400000112 Hussigny, Place de l         00553                % 06407 RGTR--
+400000113 Hussigny, Mines       00555  00555                % 06407 RGTR--
+220201067 Differdange, Vesquen  00557  00557                % 06407 RGTR--
+220201004 Differdange, Becklec  00558  00558                % 06407 RGTR--
+220201044 Differdange, Rue de   00559  00559                % 06407 RGTR--
+220201036 Differdange, Place d  00559  00559                % 06407 RGTR--
+220201053 Differdange, Schoul   00601  00601                % 06407 RGTR--
+220204002 Obercorn, Chiers      00603  00603                % 06407 RGTR--
+220204005 Obercorn, Post        00604  00604                % 06407 RGTR--
+220204003 Obercorn, Neiduerf    00604  00604                % 06407 RGTR--
+221301022 Belvaux, Uewerkuerer  00606  00606                % 06407 RGTR--
+221301006 Belvaux-Soleuvre, Ga  00607  00607                % 06407 RGTR--
+221301007 Belvaux, Gemeng       00608  00608                % 06407 RGTR--
+221301009 Belvaux, Henri Tudor  00609  00609                % 06407 RGTR--
+221301016 Belvaux, Roudewee     00609  00609                % 06407 RGTR--
+221301005 Belvaux, Brill        00610  00610                % 06407 RGTR--
+220402079 Esch/Alzette, Raemer  00611  00611                % 06407 RGTR--
+200412018 Gasperich, Scharfen   00631 -00631                % 06407 RGTR--
+200412006 Gasperich, Cloche d'  00632 -00632                % 06407 RGTR--
+200412028 Gasperich, Stengege   00636 -00636                % 06407 RGTR--
+200412009 Gasperich, Gaasperec  00636 -00636                % 06407 RGTR--
+200415002 Hollerich, Assurance  00637 -00637                % 06407 RGTR--
+200415005 Hollerich, Heentze P  00639 -00639                % 06407 RGTR--
+200403015 Belair, Rheinsheim    00641 -00641                % 06407 RGTR--
+200405004 Centre, Monterey Par  00643                       % 06407 RGTR--
+*Z 06408 RGTR--                                             % 06408 RGTR--
+*L 325      400000112 200405004  00623  00741               % 06408 RGTR--
+*A df 400000112 200405004 000001  00623  00741              % 06408 RGTR--
+*R 2 200405004 400000112 200405004  00623  00741            % 06408 RGTR--
+*G RGB 400000112 200405004  00623  00741                    % 06408 RGTR--
+*A VE 400000112 200405004 000001  00623  00741              % 06408 RGTR--
+*I FD 400000112 200405004        0003473  00623  00741      % 06408 RGTR--
+400000112 Hussigny, Place de l         00623                % 06408 RGTR--
+400000113 Hussigny, Mines       00626  00626                % 06408 RGTR--
+220201067 Differdange, Vesquen  00628  00628                % 06408 RGTR--
+220201004 Differdange, Becklec  00628  00628                % 06408 RGTR--
+220201044 Differdange, Rue de   00629  00629                % 06408 RGTR--
+220201036 Differdange, Place d  00630  00630                % 06408 RGTR--
+220201053 Differdange, Schoul   00632  00632                % 06408 RGTR--
+220204002 Obercorn, Chiers      00634  00634                % 06408 RGTR--
+220204005 Obercorn, Post        00635  00635                % 06408 RGTR--
+220204003 Obercorn, Neiduerf    00636  00636                % 06408 RGTR--
+221301022 Belvaux, Uewerkuerer  00637  00637                % 06408 RGTR--
+221301006 Belvaux-Soleuvre, Ga  00638  00638                % 06408 RGTR--
+221301007 Belvaux, Gemeng       00639  00639                % 06408 RGTR--
+221301009 Belvaux, Henri Tudor  00640  00640                % 06408 RGTR--
+221301016 Belvaux, Roudewee     00641  00641                % 06408 RGTR--
+221301005 Belvaux, Brill        00641  00641                % 06408 RGTR--
+220402079 Esch/Alzette, Raemer  00643  00643                % 06408 RGTR--
+200412018 Gasperich, Scharfen   00723 -00723                % 06408 RGTR--
+200412006 Gasperich, Cloche d'  00724 -00724                % 06408 RGTR--
+200412028 Gasperich, Stengege   00728 -00728                % 06408 RGTR--
+200412009 Gasperich, Gaasperec  00728 -00728                % 06408 RGTR--
+200415002 Hollerich, Assurance  00730 -00730                % 06408 RGTR--
+200415005 Hollerich, Heentze P  00732 -00732                % 06408 RGTR--
+200403015 Belair, Rheinsheim    00735 -00735                % 06408 RGTR--
+200405004 Centre, Monterey Par  00741                       % 06408 RGTR--
+*Z 06409 RGTR--                                             % 06409 RGTR--
+*L 325      400000112 200405004  00653  00811               % 06409 RGTR--
+*A df 400000112 200405004 000001  00653  00811              % 06409 RGTR--
+*R 2 200405004 400000112 200405004  00653  00811            % 06409 RGTR--
+*G RGB 400000112 200405004  00653  00811                    % 06409 RGTR--
+*A VE 400000112 200405004 000001  00653  00811              % 06409 RGTR--
+*I FD 400000112 200405004        0001853  00653  00811      % 06409 RGTR--
+400000112 Hussigny, Place de l         00653                % 06409 RGTR--
+400000113 Hussigny, Mines       00656  00656                % 06409 RGTR--
+220201067 Differdange, Vesquen  00658  00658                % 06409 RGTR--
+220201004 Differdange, Becklec  00658  00658                % 06409 RGTR--
+220201044 Differdange, Rue de   00659  00659                % 06409 RGTR--
+220201036 Differdange, Place d  00700  00700                % 06409 RGTR--
+220201053 Differdange, Schoul   00702  00702                % 06409 RGTR--
+220204002 Obercorn, Chiers      00704  00704                % 06409 RGTR--
+220204005 Obercorn, Post        00705  00705                % 06409 RGTR--
+220204003 Obercorn, Neiduerf    00706  00706                % 06409 RGTR--
+221301022 Belvaux, Uewerkuerer  00707  00707                % 06409 RGTR--
+221301006 Belvaux-Soleuvre, Ga  00708  00708                % 06409 RGTR--
+221301007 Belvaux, Gemeng       00709  00709                % 06409 RGTR--
+221301009 Belvaux, Henri Tudor  00710  00710                % 06409 RGTR--
+221301016 Belvaux, Roudewee     00711  00711                % 06409 RGTR--
+221301005 Belvaux, Brill        00711  00711                % 06409 RGTR--
+220402079 Esch/Alzette, Raemer  00713  00713                % 06409 RGTR--
+200412018 Gasperich, Scharfen   00753 -00753                % 06409 RGTR--
+200412006 Gasperich, Cloche d'  00754 -00754                % 06409 RGTR--
+200412028 Gasperich, Stengege   00758 -00758                % 06409 RGTR--
+200412009 Gasperich, Gaasperec  00758 -00758                % 06409 RGTR--
+200415002 Hollerich, Assurance  00800 -00800                % 06409 RGTR--
+200415005 Hollerich, Heentze P  00802 -00802                % 06409 RGTR--
+200403015 Belair, Rheinsheim    00805 -00805                % 06409 RGTR--
+200405004 Centre, Monterey Par  00811                       % 06409 RGTR--
+*Z 06410 RGTR--                                             % 06410 RGTR--
+*L 325      400000112 200405004  00723  00841               % 06410 RGTR--
+*A df 400000112 200405004 000001  00723  00841              % 06410 RGTR--
+*R 2 200405004 400000112 200405004  00723  00841            % 06410 RGTR--
+*G RGB 400000112 200405004  00723  00841                    % 06410 RGTR--
+*A VE 400000112 200405004 000001  00723  00841              % 06410 RGTR--
+*I FD 400000112 200405004        0002648  00723  00841      % 06410 RGTR--
+400000112 Hussigny, Place de l         00723                % 06410 RGTR--
+400000113 Hussigny, Mines       00726  00726                % 06410 RGTR--
+220201067 Differdange, Vesquen  00728  00728                % 06410 RGTR--
+220201004 Differdange, Becklec  00728  00728                % 06410 RGTR--
+220201044 Differdange, Rue de   00729  00729                % 06410 RGTR--
+220201036 Differdange, Place d  00730  00730                % 06410 RGTR--
+220201053 Differdange, Schoul   00732  00732                % 06410 RGTR--
+220204002 Obercorn, Chiers      00734  00734                % 06410 RGTR--
+220204005 Obercorn, Post        00735  00735                % 06410 RGTR--
+220204003 Obercorn, Neiduerf    00736  00736                % 06410 RGTR--
+221301022 Belvaux, Uewerkuerer  00737  00737                % 06410 RGTR--
+221301006 Belvaux-Soleuvre, Ga  00738  00738                % 06410 RGTR--
+221301007 Belvaux, Gemeng       00739  00739                % 06410 RGTR--
+221301009 Belvaux, Henri Tudor  00740  00740                % 06410 RGTR--
+221301016 Belvaux, Roudewee     00741  00741                % 06410 RGTR--
+221301005 Belvaux, Brill        00741  00741                % 06410 RGTR--
+220402079 Esch/Alzette, Raemer  00743  00743                % 06410 RGTR--
+200412018 Gasperich, Scharfen   00823 -00823                % 06410 RGTR--
+200412006 Gasperich, Cloche d'  00824 -00824                % 06410 RGTR--
+200412028 Gasperich, Stengege   00828 -00828                % 06410 RGTR--
+200412009 Gasperich, Gaasperec  00828 -00828                % 06410 RGTR--
+200415002 Hollerich, Assurance  00830 -00830                % 06410 RGTR--
+200415005 Hollerich, Heentze P  00832 -00832                % 06410 RGTR--
+200403015 Belair, Rheinsheim    00835 -00835                % 06410 RGTR--
+200405004 Centre, Monterey Par  00841                       % 06410 RGTR--
+*Z 06411 RGTR--                                             % 06411 RGTR--
+*L 325      400000112 220204002  00830  00840               % 06411 RGTR--
+*A df 400000112 220204002 000001  00830  00840              % 06411 RGTR--
+*R 2 220204002 400000112 220204002  00830  00840            % 06411 RGTR--
+*G RGB 400000112 220204002  00830  00840                    % 06411 RGTR--
+*A VE 400000112 220204002 000001  00830  00840              % 06411 RGTR--
+*I FD 400000112 220204002        0000926  00830  00840      % 06411 RGTR--
+400000112 Hussigny, Place de l         00830                % 06411 RGTR--
+400000113 Hussigny, Mines       00832  00832                % 06411 RGTR--
+220201067 Differdange, Vesquen  00834  00834                % 06411 RGTR--
+220201004 Differdange, Becklec  00835  00835                % 06411 RGTR--
+220201044 Differdange, Rue de   00836  00836                % 06411 RGTR--
+220201036 Differdange, Place d  00836  00836                % 06411 RGTR--
+220201053 Differdange, Schoul   00838  00838                % 06411 RGTR--
+220204002 Obercorn, Chiers      00840                       % 06411 RGTR--
+*Z 06412 RGTR--                                             % 06412 RGTR--
+*L 325      400000112 220204002  01030  01040               % 06412 RGTR--
+*A df 400000112 220204002 000001  01030  01040              % 06412 RGTR--
+*R 2 220204002 400000112 220204002  01030  01040            % 06412 RGTR--
+*G RGB 400000112 220204002  01030  01040                    % 06412 RGTR--
+*A VE 400000112 220204002 000001  01030  01040              % 06412 RGTR--
+*I FD 400000112 220204002        0002558  01030  01040      % 06412 RGTR--
+400000112 Hussigny, Place de l         01030                % 06412 RGTR--
+400000113 Hussigny, Mines       01032  01032                % 06412 RGTR--
+220201067 Differdange, Vesquen  01034  01034                % 06412 RGTR--
+220201004 Differdange, Becklec  01035  01035                % 06412 RGTR--
+220201044 Differdange, Rue de   01036  01036                % 06412 RGTR--
+220201036 Differdange, Place d  01036  01036                % 06412 RGTR--
+220201053 Differdange, Schoul   01038  01038                % 06412 RGTR--
+220204002 Obercorn, Chiers      01040                       % 06412 RGTR--
+*Z 06413 RGTR--                                             % 06413 RGTR--
+*L 325      400000112 220204002  01230  01240               % 06413 RGTR--
+*A df 400000112 220204002 000001  01230  01240              % 06413 RGTR--
+*R 2 220204002 400000112 220204002  01230  01240            % 06413 RGTR--
+*G RGB 400000112 220204002  01230  01240                    % 06413 RGTR--
+*A VE 400000112 220204002 000001  01230  01240              % 06413 RGTR--
+*I FD 400000112 220204002        0001098  01230  01240      % 06413 RGTR--
+400000112 Hussigny, Place de l         01230                % 06413 RGTR--
+400000113 Hussigny, Mines       01232  01232                % 06413 RGTR--
+220201067 Differdange, Vesquen  01234  01234                % 06413 RGTR--
+220201004 Differdange, Becklec  01235  01235                % 06413 RGTR--
+220201044 Differdange, Rue de   01236  01236                % 06413 RGTR--
+220201036 Differdange, Place d  01236  01236                % 06413 RGTR--
+220201053 Differdange, Schoul   01238  01238                % 06413 RGTR--
+220204002 Obercorn, Chiers      01240                       % 06413 RGTR--
+*Z 06414 RGTR--                                             % 06414 RGTR--
+*L 325      400000112 220204002  01430  01440               % 06414 RGTR--
+*A df 400000112 220204002 000001  01430  01440              % 06414 RGTR--
+*R 2 220204002 400000112 220204002  01430  01440            % 06414 RGTR--
+*G RGB 400000112 220204002  01430  01440                    % 06414 RGTR--
+*A VE 400000112 220204002 000001  01430  01440              % 06414 RGTR--
+*I FD 400000112 220204002        0002745  01430  01440      % 06414 RGTR--
+400000112 Hussigny, Place de l         01430                % 06414 RGTR--
+400000113 Hussigny, Mines       01432  01432                % 06414 RGTR--
+220201067 Differdange, Vesquen  01434  01434                % 06414 RGTR--
+220201004 Differdange, Becklec  01435  01435                % 06414 RGTR--
+220201044 Differdange, Rue de   01436  01436                % 06414 RGTR--
+220201036 Differdange, Place d  01436  01436                % 06414 RGTR--
+220201053 Differdange, Schoul   01438  01438                % 06414 RGTR--
+220204002 Obercorn, Chiers      01440                       % 06414 RGTR--
+*Z 06415 RGTR--                                             % 06415 RGTR--
+*L 325      400000112 220204002  01630  01641               % 06415 RGTR--
+*A df 400000112 220204002 000001  01630  01641              % 06415 RGTR--
+*R 2 220204002 400000112 220204002  01630  01641            % 06415 RGTR--
+*G RGB 400000112 220204002  01630  01641                    % 06415 RGTR--
+*A VE 400000112 220204002 000001  01630  01641              % 06415 RGTR--
+*I FD 400000112 220204002        0001997  01630  01641      % 06415 RGTR--
+400000112 Hussigny, Place de l         01630                % 06415 RGTR--
+400000113 Hussigny, Mines       01633  01633                % 06415 RGTR--
+220201067 Differdange, Vesquen  01635  01635                % 06415 RGTR--
+220201004 Differdange, Becklec  01635  01635                % 06415 RGTR--
+220201044 Differdange, Rue de   01636  01636                % 06415 RGTR--
+220201036 Differdange, Place d  01637  01637                % 06415 RGTR--
+220201053 Differdange, Schoul   01639  01639                % 06415 RGTR--
+220204002 Obercorn, Chiers      01641                       % 06415 RGTR--
