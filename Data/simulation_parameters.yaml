@@ -8,6 +8,7 @@ n: 10_000
 # to the ratio of this number and n above.
 real_n: 626_108
 
+# ################################# Locations ########################
 # How many of these locations should exist on the network.
 #
 # Some of these labels are special, e.g. 'House'
@@ -34,6 +35,47 @@ location_counts:
   Museum or Zoo: 77
 
 
+# For the following location types, all people from a household
+# are assigned to this location.
+#
+# Agents are assigned their closest item, except where this is
+# full, after which the assignment will overflow onto the next
+# closest, etc.
+home_assignment_types:
+  - School
+  - Medical
+  - Place of Worship
+  - Indoor Sport
+
+# Which of the above locations are classed as somewhere
+# where agents can work?
+#
+# Entries in this list must match the keys above.
+work_location_weights:
+  Other Work: 1
+  School: 1
+  Restaurant: 1
+  Public Transport: 1
+  Shop: 1
+  Medical: 1
+  Place of Worship: 1
+  Indoor Sport: 1
+  Cinema or Theatre: 1
+  Museum or Zoo: 1
+
+# Which of the above location are classed as
+# somewhere agents go to entertain themselves?
+#
+# Entries in this list must match keys form location_counts
+entertainment_location_weights:
+  Restaurant: 1
+  Public Transport: 1
+  Shop: 1
+  Cinema or Theatre: 1
+  Museum or Zoo: 1
+
+
+# ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
 # and secondary activities.  Here we map them onto our own list
 # of activities
@@ -82,46 +124,7 @@ tus_activity_mapping:
     secondary: [395,426,429,515,521,523,524]
 
 
-
-# For the following location types, all people from a household
-# are assigned to this location.
-#
-# Agents are assigned their closest item, except where this is
-# full, after which the assignment will overflow onto the next
-# closest, etc.
-home_assignment_types:
-  - School
-  - Medical
-  - Place of Worship
-  - Indoor Sport
-
-# Which of the above locations are classed as somewhere
-# where agents can work?
-#
-# Entries in this list must match the keys above.
-work_location_weights:
-  Other Work: 1
-  School: 1
-  Restaurant: 1
-  Public Transport: 1
-  Shop: 1
-  Medical: 1
-  Place of Worship: 1
-  Indoor Sport: 1
-  Cinema or Theatre: 1
-  Museum or Zoo: 1
-
-# Which of the above location are classed as
-# somewhere agents go to entertain themselves?
-#
-# Entries in this list must match keys form location_counts
-entertainment_location_weights:
-  Restaurant: 1
-  Public Transport: 1
-  Shop: 1
-  Cinema or Theatre: 1
-  Museum or Zoo: 1
-
+# ##################### Network Distribution Stuff. ########################
 # Weighting of houses with each number of children in them.
 #
 # The model will allocate all children to houses, but these

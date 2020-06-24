@@ -22,7 +22,7 @@ POPULATION_SLICES = {
 POPULATION_RANGES = {
         AgentType.CHILD: range(0, 18),   # Children <18
         AgentType.ADULT: range(18, 65),     # Adults 18-65
-        AgentType.RETIRED: range(65, 10000)  # Retired >65
+        AgentType.RETIRED: range(65, 120)  # Retired >65
     }
 
 
@@ -59,6 +59,11 @@ class Agent:
 
         if not location in self.allowed_locations:
             self.add_allowed_location(location)
+
+    def find_allowed_locations_by_type(self, location_type):
+        """Return a set of all locations matching the given type"""
+
+        return set([x for x in self.locations if x.typ == location_type])
 
     def add_allowed_location(self, location):
         # Allow people to add lists

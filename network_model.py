@@ -26,7 +26,7 @@ from config import load_config
 random.seed(652)        # FIXME: read from config
 PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
 DENSITY_MAP_FILENAME   = 'Density_Map/Density_Map.csv'
-PARAMETERS_FILENAME    = 'Data/network_parameters.yaml'
+PARAMETERS_FILENAME    = 'Data/simulation_parameters.yaml'
 
 AGENT_OUTPUT_FILENAME    = "Agents/Agents.pickle"
 LOCATION_OUTPUT_FILENAME = 'Locations/Locations.pickle'
@@ -122,10 +122,6 @@ for car_location, house_location in zip(locations_by_type["Car"], locations_by_t
     car_location.set_coordinates(house_location.coord)
 
 print("Assigning locations to agents...")
-# Each individual, for each activity, will now be assigned a list of possible locations at which the
-# individual can perform that activity:
-#  allowed_locations_by_agent = [[[] for j in range(14)] for i in range(config['n'])]
-
 
 # ------- Assign Children ---------------
 # Sample without replacement from both houses and

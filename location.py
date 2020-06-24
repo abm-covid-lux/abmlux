@@ -10,6 +10,7 @@ class Location:
         self.uuid      = uuid.uuid4().hex
         self.typ       = typ
         self.coord     = coord
+
         self.who       = who
         self.occupancy = set() if occupancy is None else occupancy
 

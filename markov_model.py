@@ -15,7 +15,7 @@
 #the week, of which there are 7*144 in total.
 
 import math
-from tqdm import tqdm
+import pickle
 
 import numpy as np
 import pandas as pd
@@ -25,18 +25,21 @@ from diary import DiaryDay, DiaryWeek, DayOfWeek
 from config import load_config
 # TODO: move to config
 from agent import AgentType, POPULATION_RANGES
+import activity
+import utils
 
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
 INPUT_FILENAME      = 'Data/TUS_Processed_2.xlsx'
-PARAMETERS_FILENAME = 'Data/network_parameters.yaml'
+INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
+TRANSITION_MATRIX_FILENAME = "Transition_Matrices/transition_matrix.pickle"
+PARAMETERS_FILENAME = 'Data/simulation_parameters.yaml'
 
 # ------------------------------------------------[ Config ]------------------------------------
 print(f"Loading config from {PARAMETERS_FILENAME}...")
 config = load_config(PARAMETERS_FILENAME)
-
-
+ActivityType = activity.create_activity_type(config['tus_activity_mapping'])
 
 # ---------------------------------------------------------------------------------------------------
 print(f"Loading time use data from {INPUT_FILENAME}...")
@@ -59,7 +62,7 @@ print('Generating daily routines...')
 # recoded as numbers in the set {0,...,13}, as described in the file FormatActivities.
 
 
-def get_tus_code_mapping(map_config):
+def get_tus_code_mapping(map_config, ActivityType):
     """Return a function mapping TUS activity codes onto those used
     in this model.
 
@@ -87,9 +90,9 @@ def get_tus_code_mapping(map_config):
         secondary = v['secondary'] or [] if 'secondary' in v else []
 
         for p in primary:
-            mapping_pri[p] = abm_code
+            mapping_pri[p] = ActivityType[abm_code].value
         for s in secondary:
-            mapping_sec[s] = abm_code
+            mapping_sec[s] = ActivityType[abm_code].value
 
     # Define mapping function, enclosing the above mapping
     def tus_activity_to_abm_activity(tus_pri, tus_sec):
@@ -120,10 +123,6 @@ def parse_days(tus, map_func):
         days(list):A list of DiaryDay objects.
     """
 
-    # TODO: put in a utilities lib.
-    def flatten(arr):
-        return [item for sublist in arr for item in sublist]
-
     days = []
     for date in tqdm(tus['id_jour'].unique()):
         tus_date  = tus.loc[tus['id_jour'] == date]
@@ -135,7 +134,7 @@ def parse_days(tus, map_func):
         # Build variables for object
         identity, age, day, weight = [tus_date.iloc[0][x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
         daily_routine = [end_activity] * start_time \
-                      + flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
+                      + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
                                   for i, d in enumerate(durations)]) \
                       + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
 
@@ -146,7 +145,7 @@ def parse_days(tus, map_func):
     return days
 
 
-map_func = get_tus_code_mapping(config['tus_activity_mapping'])
+map_func = get_tus_code_mapping(config['tus_activity_mapping'], ActivityType)
 days     = parse_days(tus, map_func)
 print(f"Created {len(days)} days")
 
@@ -205,19 +204,18 @@ print('Generating weighted initial distributions...')
 # AgentType.ADULT: {action: weight,
 #                   action2: weight2},
 #
-init_distribution_by_type = {typ: {activity: 0 for activity in config['tus_activity_mapping'].keys()}
+init_distribution_by_type = {typ: {activity: 0 for activity in list(map(int, ActivityType))}
                    for typ in POPULATION_RANGES.keys()}
 for week in weeks:
     for typ, rng in POPULATION_RANGES.items():
         if week.age in rng:
             init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
 
-# FIXME: change this to export all in one, or hand over some other way (pickles?)
-print(f"WARNING: not saving yet due to change in location coding (string!)")
-#np.savetxt('Initial_Distributions/Init_child.csv', init_distribution_by_type[AgentType.CHILD], fmt='%i', delimiter=',')
-#np.savetxt('Initial_Distributions/Init_adult.csv', init_distribution_by_type[AgentType.ADULT], fmt='%i', delimiter=',')
-#np.savetxt('Initial_Distributions/Init_retired.csv', init_distribution_by_type[AgentType.RETIRED], fmt='%i', delimiter=',')
 
+print(f"Writing initial distributions to {INITIAL_DISTRIBUTIONS_FILENAME}...")
+with open(INITIAL_DISTRIBUTIONS_FILENAME, 'wb') as fout:
+    pickle.dump(init_distribution_by_type, fout)
+del(init_distribution_by_type)
 
 
 print('Generating weighted transition matrices...')
@@ -233,8 +231,8 @@ print('Generating weighted transition matrices...')
 # TODO: simplify this structure.  It's far too hard to follow
 transition_matrix = {typ:
                      [
-                      {x: {y: 0 for y in config['tus_activity_mapping'].keys()}
-                       for x in config['tus_activity_mapping'].keys()}
+                      {x: {y: 0 for y in list(map(int, ActivityType))}
+                       for x in list(map(int, ActivityType))}
                       for _ in range(WEEK_LENGTH_10MIN)]
                      for typ in POPULATION_RANGES.keys()}
 
@@ -246,9 +244,7 @@ for t in tqdm(range(WEEK_LENGTH_10MIN)):
 
                 # Wrap around to zero to make the week
                 # one big loop
-                next_t = t+1 % WEEK_LENGTH_10MIN
-                if next_t == 0:
-                    print(f"-> {t}, {next_t}")
+                next_t = (t+1) % WEEK_LENGTH_10MIN
 
                 # Retrieve the activity transition
                 activity_from = week.weekly_routine[t]
@@ -256,15 +252,10 @@ for t in tqdm(range(WEEK_LENGTH_10MIN)):
 
                 transition_matrix[typ][t][activity_from][activity_to] += week.weight
 
-import code; code.interact(local=locals())
 
 
-# FIXME: save each matrix for all t, separately.
-print(f"WARNING: not saving yet due to change in location coding (string!)")
-# for t in range(WEEK_LENGTH_10MIN):
-#     np.savetxt('Transition_Matrices/Trans_child_' + str(t) + '.csv', Trans_child[t], fmt='%i', delimiter=',')
-#     np.savetxt('Transition_Matrices/Trans_adult_' + str(t) + '.csv', Trans_adult[t], fmt='%i', delimiter=',')
-#     np.savetxt('Transition_Matrices/Trans_retired_' + str(t) + '.csv', Trans_retired[t], fmt='%i', delimiter=',')
-
+print(f"Writing transition matrices to {TRANSITION_MATRIX_FILENAME}...")
+with open(TRANSITION_MATRIX_FILENAME, 'wb') as fout:
+    pickle.dump(transition_matrix, fout)
 
 print('Done.')
