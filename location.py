@@ -4,14 +4,17 @@ import uuid
 class Location:
     """Represents a location to the system"""
 
-    def __init__(self, typ, coord, who=None, occupancy=None):
+    def __init__(self, typ, coord, attendees=None, occupancy=None):
         # FIXME: document this.
         #
         self.uuid      = uuid.uuid4().hex
         self.typ       = typ
         self.coord     = coord
 
-        self.who       = who
+        # Who is currently at the location
+        self.attendees = set() if attendees is None else attendees
+
+        # Who resides at this location
         self.occupancy = set() if occupancy is None else occupancy
 
     def add_occupant(self, agent):

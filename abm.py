@@ -18,22 +18,26 @@ from openpyxl import load_workbook
 import pandas as pd
 from tqdm import tqdm
 
-from random_tools import multinoulli, multinoulli_2d, multinoulli_dict
-from agent import Agent, AgentType, POPULATION_SLICES
+import random_tools
+from agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from location import Location
 from config import load_config
 import utils
+from sim_time import SimClock
+from activity import ActivityManager
 
-
-
-AGENT_INPUT_FILENAME    = "Agents/Agents.pickle"
-LOCATION_INPUT_FILENAME =  "Locations/Locations.pickle"
+AGENT_INPUT_FILENAME           = "Agents/Agents.pickle"
+LOCATION_INPUT_FILENAME        =  "Locations/Locations.pickle"
+INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
+TRANSITION_MATRIX_FILENAME     = "Transition_Matrices/transition_matrix.pickle"
 
 PARAMETERS_FILENAME    = 'Data/simulation_parameters.yaml'
 
 # ------------------------------------------------[ Config ]------------------------------------
 print(f"Loading config from {PARAMETERS_FILENAME}...")
 config = load_config(PARAMETERS_FILENAME)
+activity_manager = ActivityManager(config['activities'])
+clock = SimClock(config['tick_length_s'], config['simulation_length_days'])
 
 
 # ------------------------------------------------[ Agents ]------------------------------------
@@ -41,7 +45,6 @@ print(f'Loading agents from {AGENT_INPUT_FILENAME}...')
 with open(AGENT_INPUT_FILENAME, 'rb') as fin:
     agents_by_type = pickle.load(fin)
 agents = utils.flatten(agents_by_type.values())
-N = len(agents)
 
 
 
@@ -54,76 +57,93 @@ locations = utils.flatten(locations_by_type.values())
 
 
 
-import code; code.interact(local=locals())
 
 # --------------------------------------[ Transition Matrices ]------------------------------------
-print('Loading initial distribution and transition matrices...')
 
-Init = [ [ 0 for i in range(14) ] for j in range(3) ]
-Init[0] = np.genfromtxt('Initial_Distributions/Init_child.csv', delimiter=',', dtype = 'int')
-Init[1] = np.genfromtxt('Initial_Distributions/Init_adult.csv', delimiter=',', dtype = 'int')
-Init[2] = np.genfromtxt('Initial_Distributions/Init_retired.csv', delimiter=',', dtype = 'int')
+print(f"Loading transition matrix from {TRANSITION_MATRIX_FILENAME}...")
+with open(TRANSITION_MATRIX_FILENAME, 'rb') as fin:
+    activity_transition_matrix = pickle.load(fin)
+utils.print_memory_usage()
 
-Trans = [ [ [ [ 0 for i in range(14) ] for j in range(14) ] for k in range(3) ] for t in range(7*144) ]
-for t in range(7*144):
-    Trans[t][0] = np.genfromtxt('Transition_Matrices/Trans_child_' + str(t) + '.csv', delimiter=',', dtype = 'int')
-    Trans[t][1] = np.genfromtxt('Transition_Matrices/Trans_adult_' + str(t) + '.csv', delimiter=',', dtype = 'int')
-    Trans[t][2] = np.genfromtxt('Transition_Matrices/Trans_retired_' + str(t) + '.csv', delimiter=',', dtype = 'int')
 
 # ------------------------------------------------[ Locations ]------------------------------------
 print('Loading pathogenic data...')
 
-virusworkbook = load_workbook(filename='Data/SARS-CoV-2.xlsx')
-virussheet = virusworkbook.active
+incubation_ticks = clock.days_to_ticks(config['incubation_period_days'])
+infectious_ticks = clock.days_to_ticks(config['infectious_period_days'])
 
-incubationperiod = virussheet.cell(row=1, column=1).value #Incubation period, in units of 10 minutes
-infectiousperiod = virussheet.cell(row=2, column=1).value #Infectious period, in units of 10 minutes
 
-pdeath = [0 for i in range(10)]
-for i in range(10):
-    pdeath[i] = virussheet.cell(row=5 + i, column=1).value #Probabilities of death across 10-year age intervals
+def get_p_death_func(p_death_config):
+    """Return a function that takes an age and returns
+    the absolute probability of death at the end of the
+    infectious period"""
 
-#If two individuals, one susceptible and one infectious, spend ten minutes together in location j, th
-#en prob[j] is the average number of times, out of 10000 trials, that the susceptible will become inf
-#ected:
+    # Make a slow lookup by checking the range.
+    #
+    # Assumes no overlapping ranges.
+    def p_death_slow(age):
+        for rng, p in p_death_config:
+            if age >= rng[0] and age < rng[1]:
+                return p
+        return 0.0
 
-prob = [0 for j in range(13)]
-for j in range(13):
-    prob[j] = virussheet.cell(row=17 + j, column=1).value #Transmission probabilities
+    # Make a fast lookup. and use this for integers.
+    # Fall through to the slow one if not in the list
+    oldest_item = max([x[0][1] for x in p_death_config])
+    fast_lookup = [p_death_slow(x) for x in range(0, oldest_item)]
+    def p_death_fast(age):
+        if age in fast_lookup:
+            return fast_lookup[age]
+        return p_death_slow(age)
+
+    return p_death_fast
+
+p_death = get_p_death_func(config['probability_of_death'])
+
+
+
+# If two individuals, one susceptible and one infectious, spend ten minutes together in location j,
+# then prob[j] is the average number of times, out of 10000 trials, that the susceptible will become
+# infected:
+p_transmit_by_location_type = {x: y for x, y in config['infection_probabilities_per_tick'].items()}
+
+
 
 # ------------------------------------------------[ Locations ]------------------------------------
 print('Simulating epidemic...')
 
-# The active status (activity) of each individual will be recorded by traj. Here traj[0][i] will refer to the 
-# current ten minute interval, traj[1][i] to the next:
-traj = [ [ 0 for i in range(N) ] for t in [0, 1] ]  # now, next
-
-# The health status of each individual will be recorded by H. This follows the SEIRD framework with 
-# the possibilities codified in the file FormatHealth. #Here H[0][i] will refer to the current ten 
-# minute interval, H[1][i] to the next:
-#
-# S = 0
-# E = 1
-# I = 2
-# R = 3
-# D = 4
-H = [ [ 0 for i in range(N) ] for t in [0, 1] ] # now, next
-
 # Infect a few people
-numberofinitialseeds = 10 # Number of initial infections at t=0
-for i in range(numberofinitialseeds):
-    H[0][random.randrange(N)] = 2
+for agent in random.sample(agents, k=config['initial_infections']):
+    agent.health = HealthStatus.INFECTED
 
-tenminsincubating = [ 0 for i in range(N) ] # Records how long individual i has been incubating
-tenminsinfectious = [ 0 for i in range(N) ] # Records how long individual i has been infectious
+# FIXME: replace this with state counters for every state in HealthStatus
+#
+tenminsincubating = [0] * len(agents) # Records how long individual i has been incubating
+tenminsinfectious = [0] * len(agents) # Records how long individual i has been infectious
+
+
 
 # Using the initial distribution individuals are now assigned starting locations:
-for i in range(N):
-    traj[0][i]          = multinoulli(Init[agents_[i].agetyp])
-    randloc             = random.randrange(len(LocationListAgent[i][traj[0][i]]))
+print(f"Loading initial activity distributions from {INITIAL_DISTRIBUTIONS_FILENAME}...")
+with open(INITIAL_DISTRIBUTIONS_FILENAME, 'rb') as fin:
+    initial_activity_distributions = pickle.load(fin)
 
-    agents_[i].location = LocationListAgent[i][traj[0][i]][randloc]
-    locations[agents_[i].location].who.append(i)
+print(f"Seeding initial activity states and locations...")
+for agent in agents:
+    allowed_locations = []
+    while len(allowed_locations) == 0:
+        new_activity           = random_tools.multinoulli_dict(initial_activity_distributions[agent.agetyp])
+        allowed_location_types = activity_manager.get_location_types(new_activity)
+        allowed_locations      = agent.find_allowed_locations_by_type(allowed_location_types)
+
+        if len(allowed_locations) == 0:
+            print(f"Warning: No allowed locations found for agent {agent.inspect()} for activity {new_activity}"\
+                  f" (allowed location types={allowed_location_types})."\
+                  f"  Will resample from the starting distribution, but this is not ideal.")
+
+    # Do this activity in this location
+    agent.set_activity(new_activity, random.choice(list(allowed_locations)))
+
 
 
 
@@ -134,10 +154,52 @@ print(f"Simulating outbreak...")
 # individuals, in which the locations of individuals are updated. Note that individuals only change 
 # location if the Markov chain generates a new activity. For example, once an individual is inside a shop,
 # they cannot move directly to another shop.
-T = 10                    # Length of simulation in weeks, starting at midnight on a Saturday
-t = 0
+
+# FIXME: replace this with state counters for every state in HealthStatus
 deaths = 0 #The total number of deaths
-infectious = [ 0 for i in range(T*7*144) ] #How many individuals are infectious at each time
+infectious = [] # How many individuals are infectious at each time
+
+
+# For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
+# 3-tuples, indexed by agent.
+next_agent_state = {}
+while t := clock.tick():
+
+    print(f"[{t} ticks] {clock.time_elapsed()} elapsed, {clock.time_remaining()} remaining")
+
+    # Using int as math.floor here
+    week = int(t.weeks_elapsed())
+
+    for location in locations:
+        # Transmission between those at locations
+        for agent in location.attendees:
+
+            # TODO
+            if agent.health == HealthStatus.EXPOSED:
+                pass
+            elif agent.health == HealthStatus.INFECTED:
+                pass
+            elif agent.health == HealthStatus.RECOVERED:
+                pass
+            elif agent.health == HealthStatus.DEAD:
+                pass
+
+
+    # Update states according to markov chain
+    for agent in agents:
+        # Select what activity happens next for each individual,
+        # based on the transition matrix
+
+        # Read next_agent_state and 
+        #  agent.set_activity()
+        #  agent.health = 
+
+import code; code.interact(local=locals())
+
+
+
+
+
 
 # Cycle through the weeks
 for week in tqdm(range(T)):
@@ -146,11 +208,15 @@ for week in tqdm(range(T)):
     for tenminute in range(7*144):
         t = week*7*144 + tenminute
 
+
+    ## ---- 
+        week, t
+
         # Cycle through all locations
         for j in range(len(locations)):
 
             # Cycle through all agents at that location
-            for i in locations[j].who:
+            for i in locations[j].attendees:
 
                 # Write the next health state for individuals
                 # in the location.
@@ -164,7 +230,7 @@ for week in tqdm(range(T)):
                     tenminsincubating[i] = tenminsincubating[i] + 1
 
                     # Have we reached the incubation time?
-                    if (tenminsincubating[i] < incubationperiod):
+                    if (tenminsincubating[i] < incubation_ticks):
                         H[1][i] = 1 #E
                     else: # Incubation time has been reached
                         H[1][i] = 2 #I
@@ -177,18 +243,18 @@ for week in tqdm(range(T)):
 
                     # Has the agent reached the end of the infectious 
                     # period yet?
-                    if (tenminsinfectious[i] < infectiousperiod):
+                    if (tenminsinfectious[i] < infectious_ticks):
                         H[1][i] = 2 #I
 
                         # With a given p[infection], set others at
                         # this location to Exposed
-                        for k in locations[j].who:
+                        for k in locations[j].attendees:
                             if(H[0][k] == 0): #S --- if the individual is susceptible
-                                if (random.randrange(10000)+1 <= prob[locations[j].typ]):
+                                if random_tools.boolean(p_transmit_by_location_type[locations[j].typ]):
                                     H[1][k] = 1 #E
                     else:
                         # Do they recover or die?  Roll the cosmic dice.
-                        if (random.randrange(100)+1 <= pdeath[agents_[i].age//10]):
+                        if random_tools.boolean(p_death(agents_[i].age)):
                             H[1][i] = 4 #D
 
                             # Update counters
@@ -212,14 +278,14 @@ for week in tqdm(range(T)):
             H[0][i] = H[1][i]
 
             # Select what activity happens next for each individual
-            traj[1][i] = multinoulli(Trans[tenminute][agents_[i].agetyp][traj[0][i],:])
+            traj[1][i] = random_tools.multinoulli(Trans[tenminute][agents_[i].agetyp][traj[0][i],:])
             if ( traj[1][i] != traj[0][i] ):    # If activity is different, transition
-                locations[agents_[i].location].who.remove(i)    # Remove from location
+                locations[agents_[i].location].attendees.remove(i)    # Remove from location
                 randloc             = random.randrange(len(LocationListAgent[i][traj[1][i]])) # select new location of the right type
 
                 # move to new location
                 agents_[i].location = LocationListAgent[i][traj[1][i]][randloc]
-                locations[agents_[i].location].who.append(i)
+                locations[agents_[i].location].attendees.append(i)
 
             # Move traj[1] -> traj[0] (activity)
             traj[0][i] = traj[1][i]

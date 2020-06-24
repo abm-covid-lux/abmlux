@@ -12,6 +12,16 @@ class AgentType(IntEnum):
     RETIRED = 2
 
 
+class HealthStatus(IntEnum):
+    """Agent health status"""
+
+    SUSCEPTIBLE = 0
+    INFECTED    = 1
+    EXPOSED     = 2
+    RECOVERED   = 3
+    DEAD        = 4
+
+
 # TODO: move to config
 POPULATION_SLICES = {
         AgentType.CHILD: slice(None, 18),   # Children <18
@@ -31,16 +41,42 @@ POPULATION_RANGES = {
 class Agent:
     """Represents a single agent within the simulation"""
 
-    def __init__(self, agetyp, age, location=None, workplace=None):
+    def __init__(self, agetyp, age, current_location=None, workplace=None):
         # TODO: documentation of argument meaning
 
         self.uuid              = uuid.uuid4().hex
         self.agetyp            = agetyp  # Should be an AgentType
         self.age               = age
-        self.location          = location
         self.allowed_locations = set()
         self.workplace         = None
         self.home              = None
+
+        self.current_activity  = None
+        self.current_location  = current_location
+        self.health            = HealthStatus.SUSCEPTIBLE
+
+    def set_activity(self, activity, location=None):
+        """Sets the agent as performing the activity given at the location
+        specified.
+
+        If a location is given, the agent will remove itself from
+        any attendee list at the current location, and add itself
+        to the attendee list at the new location"""
+
+        self.current_activity = activity
+
+        # If a location is given, update this too.
+        #
+        # Be aware that this updates the location itself.
+        if location:
+            # Remove self from current location
+            if self.current_location is not None \
+               and self in self.current_location.attendees:
+                self.current_location.attendees.remove(self)
+
+            # add self to new location
+            self.current_location = location
+            location.attendees.add(self)
 
     def set_home(self, location):
         if self.home is not None:
@@ -61,9 +97,17 @@ class Agent:
             self.add_allowed_location(location)
 
     def find_allowed_locations_by_type(self, location_type):
-        """Return a set of all locations matching the given type"""
+        """Return a set of all locations matching the given type.
 
-        return set([x for x in self.locations if x.typ == location_type])
+        location_type may be a string identifying a single location type,
+        or any collection supporting 'in', listing any allowed locations."""
+
+        # If a simple string
+        if isinstance(location_type, str):
+            return set([x for x in self.allowed_locations if x.typ == location_type])
+
+        # If a list type
+        return set([x for x in self.allowed_locations if x.typ in location_type])
 
     def add_allowed_location(self, location):
         # Allow people to add lists
@@ -89,4 +133,4 @@ class Agent:
     def inspect(self):
         return (f"<Agent {self.uuid}; age={self.age}, "
                 f"locations={len(self.allowed_locations)}, "
-                f"current_loc={self.location}>")
+                f"current_loc={self.current_location}>")

@@ -10,15 +10,10 @@ def multinoulli(problist):
 
     # Convert to a list if we've been handed a pandas dataframe
     # or someting else with an index
-    if not isinstance(problist, list):
-        problist = list(problist)
+    # if not isinstance(problist, list):
+    #     problist = list(problist)
 
-    p = random.randint(1, sum(problist))
-    summ = 0
-    for i in range(len(problist)):
-        summ = summ + problist[i]
-        if summ >= p:
-            return i
+    return random.choices(range(len(problist)), problist)[0]
 
 
 def multinoulli_dict(problist_dict):
@@ -28,9 +23,7 @@ def multinoulli_dict(problist_dict):
      {'a': 4, 'b': 6} has a 60% chance of returning
      'b' and a 40% chance of returning 'a'."""
 
-    labels = list(problist_dict.keys())
-    selection = multinoulli(problist_dict.values())
-    return labels[selection]
+    return random.choices(list(problist_dict.keys()), problist_dict.values())[0]
 
 
 def multinoulli_2d(problist_arr, marginals=None):
@@ -47,6 +40,12 @@ def multinoulli_2d(problist_arr, marginals=None):
 
     return x, y
 
+
+def boolean(p):
+    """Return true with the probability given."""
+
+    choice = random.choices([False, True], [1.0-p, p])[0]
+    return choice
 
 
 #test = [[0,0,0], [2,2,2]]

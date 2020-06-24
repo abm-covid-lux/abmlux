@@ -25,21 +25,21 @@ from diary import DiaryDay, DiaryWeek, DayOfWeek
 from config import load_config
 # TODO: move to config
 from agent import AgentType, POPULATION_RANGES
-import activity
+from activity import ActivityManager
 import utils
 
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
-INPUT_FILENAME      = 'Data/TUS_Processed_2.xlsx'
+INPUT_FILENAME                 = 'Data/TUS_Processed_2.xlsx'
 INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
-TRANSITION_MATRIX_FILENAME = "Transition_Matrices/transition_matrix.pickle"
-PARAMETERS_FILENAME = 'Data/simulation_parameters.yaml'
+TRANSITION_MATRIX_FILENAME     = "Transition_Matrices/transition_matrix.pickle"
+PARAMETERS_FILENAME            = 'Data/simulation_parameters.yaml'
 
 # ------------------------------------------------[ Config ]------------------------------------
 print(f"Loading config from {PARAMETERS_FILENAME}...")
 config = load_config(PARAMETERS_FILENAME)
-ActivityType = activity.create_activity_type(config['tus_activity_mapping'])
+activity_manager = ActivityManager(config['activities'])
 
 # ---------------------------------------------------------------------------------------------------
 print(f"Loading time use data from {INPUT_FILENAME}...")
@@ -145,7 +145,7 @@ def parse_days(tus, map_func):
     return days
 
 
-map_func = get_tus_code_mapping(config['tus_activity_mapping'], ActivityType)
+map_func = get_tus_code_mapping(config['activities'], activity_manager.map_class)
 days     = parse_days(tus, map_func)
 print(f"Created {len(days)} days")
 
