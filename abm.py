@@ -146,6 +146,7 @@ print(f"Simulating outbreak...")
 # For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
 # 3-tuples, indexed by agent.
 agent_health_state_change_time = {a: 0 for a in agents}
+import code; code.interact(local=locals())
 while t := clock.tick():
     next_agent_state = {}
 
@@ -159,16 +160,29 @@ while t := clock.tick():
         if agent.health == HealthStatus.DEAD:
             continue
 
-        # --- Risk infection of others at this location ---
-        if agent.health == HealthStatus.INFECTED:
-            # Small chance of passing to everyone else in the location who
-            # is in the SUSCEPTIBLE state.
+        # --- If susceptible, risk of infection from all infected people 
+        #     at the current location ---
+        if agent.health == HealthStatus.SUSCEPTIBLE:
             location = agent.current_location
-            susceptible_agents = [a for a in location.attendees
-                                  if a.health == HealthStatus.SUSCEPTIBLE]
-            for susceptible_agent in susceptible_agents:
-                if random_tools.boolean(config['infection_probabilities_per_tick'][location.typ]):
-                    next_agent_state[susceptible_agent] = (HealthStatus.EXPOSED, None, None)
+            num_infectious_agents = len([a for a in location.attendees if a.health == HealthStatus.INFECTED])
+            p_infection = config['infection_probabilities_per_tick'][location.typ]
+
+            # We'll be exposed n times, so compute a new overall probability of catching
+            # the virus from at least one person:
+            p_infection = 1 - (1-p_infection)**num_infectious_agents
+            if random_tools.boolean(p_infection):
+                next_agent_state[agent] = (HealthStatus.EXPOSED, None, None)
+
+        ## --- Risk infection of others at this location ---
+        #if agent.health == HealthStatus.INFECTED:
+        #    # Small chance of passing to everyone else in the location who
+        #    # is in the SUSCEPTIBLE state.
+        #    location = agent.current_location
+        #    susceptible_agents = [a for a in location.attendees
+        #                          if a.health == HealthStatus.SUSCEPTIBLE]
+        #    for susceptible_agent in susceptible_agents:
+        #        if random_tools.boolean(config['infection_probabilities_per_tick'][location.typ]):
+        #            next_agent_state[susceptible_agent] = (HealthStatus.EXPOSED, None, None)
 
         # --- Update health status ---
         if agent.health == HealthStatus.EXPOSED:
@@ -220,5 +234,8 @@ while t := clock.tick():
 import code; code.interact(local=locals())
 
 # ------------------------------------------------[ Write output ]------------------------------------
+
+# FIXME: - House and Other House don't function correctly
+#        - No logging of stats as the sim runs
 
 print('Done.')

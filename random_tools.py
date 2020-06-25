@@ -1,5 +1,6 @@
 
 import random
+import scipy.stats as sps
 
 def multinoulli(problist):
     """Sample at random from a list of n options with given probabilities.
