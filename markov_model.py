@@ -27,6 +27,7 @@ from config import load_config
 from agent import AgentType, POPULATION_RANGES
 from activity import ActivityManager
 import utils
+import random_tools
 
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
@@ -204,7 +205,7 @@ print('Generating weighted initial distributions...')
 # AgentType.ADULT: {action: weight,
 #                   action2: weight2},
 #
-init_distribution_by_type = {typ: {activity: 0 for activity in list(map(int, ActivityType))}
+init_distribution_by_type = {typ: {activity: 0 for activity in activity_manager.types_as_int}
                    for typ in POPULATION_RANGES.keys()}
 for week in weeks:
     for typ, rng in POPULATION_RANGES.items():
@@ -228,11 +229,12 @@ print('Generating weighted transition matrices...')
 #  - Each agent type has one of those ^
 #
 
+
 # TODO: simplify this structure.  It's far too hard to follow
 transition_matrix = {typ:
                      [
-                      {x: {y: 0 for y in list(map(int, ActivityType))}
-                       for x in list(map(int, ActivityType))}
+                      {x: {y: 0 for y in activity_manager.types_as_int}
+                       for x in activity_manager.types_as_int}
                       for _ in range(WEEK_LENGTH_10MIN)]
                      for typ in POPULATION_RANGES.keys()}
 
@@ -251,7 +253,6 @@ for t in tqdm(range(WEEK_LENGTH_10MIN)):
                 activity_to   = week.weekly_routine[next_t]
 
                 transition_matrix[typ][t][activity_from][activity_to] += week.weight
-
 
 
 print(f"Writing transition matrices to {TRANSITION_MATRIX_FILENAME}...")

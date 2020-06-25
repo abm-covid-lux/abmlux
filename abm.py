@@ -29,6 +29,7 @@ from activity import ActivityManager
 NETWORK_INPUT_FILENAME    = "Network/Network.pickle"
 INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
 TRANSITION_MATRIX_FILENAME     = "Transition_Matrices/transition_matrix.pickle"
+AGENT_COUNTS_FILENAME = "Results/agent_counts.csv"
 
 PARAMETERS_FILENAME    = 'Data/simulation_parameters.yaml'
 
@@ -144,7 +145,15 @@ print(f"Simulating outbreak...")
 # they cannot move directly to another shop.
 
 
-def get_agent_transition(agent, time_in_week):
+def infectious_agents_by_location(locations):
+    """Returns a key-value mapping of locations to the number of
+    infectious agents at that location.  Used to compute the probability that an agent
+    will catch the pathogen when at that location."""
+
+    infectious_count = {l: len([a for a in l.attendees if a.health == HealthStatus.INFECTED]) for l in locations}
+    return infectious_count
+
+def get_agent_transition(agent, time_in_week, infected_count_by_location=None):
 
     # The dead don't participate
     if agent.health == HealthStatus.DEAD:
@@ -158,8 +167,11 @@ def get_agent_transition(agent, time_in_week):
     #     at the current location ---
     if agent.health == HealthStatus.SUSCEPTIBLE:
         location = agent.current_location
-        num_infectious_agents = len([a for a in location.attendees if a.health == HealthStatus.INFECTED])
-        p_infection = config['infection_probabilities_per_tick'][location.typ]
+
+        # If we have been handed a cache object then use this, else
+        # we have to recompute for every agent, which takes a while.
+        num_infectious_agents = infected_count_by_location[location]
+        p_infection           = config['infection_probabilities_per_tick'][location.typ]
 
         # We'll be exposed n times, so compute a new overall probability of catching
         # the virus from at least one person:
@@ -186,7 +198,7 @@ def get_agent_transition(agent, time_in_week):
 
     # --- Update activity status ---
     weighted_next_activity_options = activity_transition_matrix[agent.agetyp][time_in_week][agent.current_activity]
-    possible_next_activity = random_tools.multinoulli_dict(weighted_next_activity_options)
+    possible_next_activity         = random_tools.multinoulli_dict(weighted_next_activity_options)
 
     if possible_next_activity != agent.current_activity:
         allowable_location_types = activity_manager.get_location_types(possible_next_activity)
@@ -195,22 +207,30 @@ def get_agent_transition(agent, time_in_week):
         next_activity = possible_next_activity
         next_location = random.choice(list(allowable_locations))
 
-    return next_health, next_activity, next_location
+    # Return a 3-tuple if we have done anything, else None
+    if next_health is not None or next_activity is not None or next_location is not None:
+        return next_health, next_activity, next_location
+    return None
 
 
 # For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
 # 3-tuples, indexed by agent.
 agent_health_state_change_time = {a: 0 for a in agents}
-import code; code.interact(local=locals())
-while t := clock.tick():
+health_status_by_time = {h.name: [] for h in list(HealthStatus)}
+for t in tqdm(clock):
 
-    print(f"[{t} ticks] {clock.time_elapsed()} elapsed, {clock.time_remaining()} remaining")
+    # print(f"[{t} ticks] {clock.time_elapsed()} elapsed, {clock.time_remaining()} remaining")
 
     # Move people around the network
     time_in_week = int(t % clock.ticks_in_week) # How far through the week are we, in ticks?
 
     # Compute next state for each agent
-    next_agent_state = {agent: get_agent_transition(agent, time_in_week) for agent in agents}
+    infectious_agents_cache = infectious_agents_by_location(locations)
+    next_agent_state = {}
+    for agent in agents:
+        transition = get_agent_transition(agent, time_in_week, infectious_agents_cache)
+        if transition is not None:
+            next_agent_state[agent] = transition
 
     # Update states according to markov chain
     # print(f"=> {len(next_agent_state)} state changes")
@@ -219,12 +239,22 @@ while t := clock.tick():
         next_health, next_activity, next_location = transition
 
         if next_health is not None:
-            agent.next_health = next_health
+            agent.health = next_health
         if next_activity is not None:
             agent.set_activity(next_activity, next_location)
 
 
+    # Count statuses, adding a row to the counts
+    for h in list(HealthStatus):
+        health_status_by_time[h.name].append( len([a for a in agents if a.health == h]) )
+
+
 # ------------------------------------------------[ Write output ]------------------------------------
+
+print(f"Writing agent counts to {AGENT_COUNTS_FILENAME}...")
+health_status_by_time = pd.DataFrame(health_status_by_time)
+health_status_by_time.to_csv(AGENT_COUNTS_FILENAME)
+
 
 # FIXME: - House and Other House don't function correctly
 #        - No logging of stats as the sim runs

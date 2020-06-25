@@ -10,6 +10,8 @@ class ActivityManager:
         self.map_config = activity_map_config
         self.map_class  = self.get_activity_type_class()
 
+        self.types_as_int = list(map(int, self.map_class))
+
     def get_activity_type_class(self):
         """Returns an enum class, 'ActivityType', containing
         all of the labels in the activity mapping.

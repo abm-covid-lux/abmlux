@@ -13,13 +13,20 @@ class SimClock:
         self.ticks_in_week   = 604800   / self.tick_length_s
 
         self.t             = 0
-        self.max_ticks     = self.days_to_ticks(simulation_length_days)
+        self.max_ticks     = int(self.days_to_ticks(simulation_length_days))
 
-    # TODO: make this into an iterator
 
-    def tick(self):
+    def __iter__(self):
+        return self
+
+    def __next__(self):
         self.t += 1
-        return self.t if self.t < self.max_ticks else None
+        if self.t > self.max_ticks:
+            raise StopIteration()
+        return self.t
+
+    def __len__(self):
+        return self.max_ticks
 
     def ticks_elapsed(self):
         return self.t
