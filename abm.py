@@ -143,80 +143,74 @@ print(f"Simulating outbreak...")
 # location if the Markov chain generates a new activity. For example, once an individual is inside a shop,
 # they cannot move directly to another shop.
 
+
+def get_agent_transition(agent, time_in_week):
+
+    # The dead don't participate
+    if agent.health == HealthStatus.DEAD:
+        return
+
+    next_health   = None
+    next_activity = None
+    next_location = None
+
+    # --- If susceptible, risk of infection from all infected people 
+    #     at the current location ---
+    if agent.health == HealthStatus.SUSCEPTIBLE:
+        location = agent.current_location
+        num_infectious_agents = len([a for a in location.attendees if a.health == HealthStatus.INFECTED])
+        p_infection = config['infection_probabilities_per_tick'][location.typ]
+
+        # We'll be exposed n times, so compute a new overall probability of catching
+        # the virus from at least one person:
+        p_infection = 1 - (1-p_infection)**num_infectious_agents
+        if random_tools.boolean(p_infection):
+            next_health = HealthStatus.EXPOSED
+
+    # --- Update health status ---
+    if agent.health == HealthStatus.EXPOSED:
+        # If we have incubated for long enough, become infected
+        ticks_since_exposure = t - agent_health_state_change_time[agent]
+        if ticks_since_exposure > incubation_ticks:
+            next_health = HealthStatus.INFECTED
+    elif agent.health == HealthStatus.INFECTED:
+        # If we have been infected for long enough, become uninfected (i.e.
+        # dead or recovered)
+        ticks_since_infection = t - agent_health_state_change_time[agent]
+        if ticks_since_infection > infectious_ticks:
+            # die or recover?
+            if random_tools.boolean(p_death(agent.age)):
+                next_health = HealthStatus.DEAD
+            else:
+                next_health = HealthStatus.RECOVERED
+
+    # --- Update activity status ---
+    weighted_next_activity_options = activity_transition_matrix[agent.agetyp][time_in_week][agent.current_activity]
+    possible_next_activity = random_tools.multinoulli_dict(weighted_next_activity_options)
+
+    if possible_next_activity != agent.current_activity:
+        allowable_location_types = activity_manager.get_location_types(possible_next_activity)
+        allowable_locations      = agent.find_allowed_locations_by_type(allowable_location_types)
+
+        next_activity = possible_next_activity
+        next_location = random.choice(list(allowable_locations))
+
+    return next_health, next_activity, next_location
+
+
 # For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
 # 3-tuples, indexed by agent.
 agent_health_state_change_time = {a: 0 for a in agents}
 import code; code.interact(local=locals())
 while t := clock.tick():
-    next_agent_state = {}
 
     print(f"[{t} ticks] {clock.time_elapsed()} elapsed, {clock.time_remaining()} remaining")
 
     # Move people around the network
     time_in_week = int(t % clock.ticks_in_week) # How far through the week are we, in ticks?
-    for agent in agents:
 
-        # The dead don't participate
-        if agent.health == HealthStatus.DEAD:
-            continue
-
-        # --- If susceptible, risk of infection from all infected people 
-        #     at the current location ---
-        if agent.health == HealthStatus.SUSCEPTIBLE:
-            location = agent.current_location
-            num_infectious_agents = len([a for a in location.attendees if a.health == HealthStatus.INFECTED])
-            p_infection = config['infection_probabilities_per_tick'][location.typ]
-
-            # We'll be exposed n times, so compute a new overall probability of catching
-            # the virus from at least one person:
-            p_infection = 1 - (1-p_infection)**num_infectious_agents
-            if random_tools.boolean(p_infection):
-                next_agent_state[agent] = (HealthStatus.EXPOSED, None, None)
-
-        ## --- Risk infection of others at this location ---
-        #if agent.health == HealthStatus.INFECTED:
-        #    # Small chance of passing to everyone else in the location who
-        #    # is in the SUSCEPTIBLE state.
-        #    location = agent.current_location
-        #    susceptible_agents = [a for a in location.attendees
-        #                          if a.health == HealthStatus.SUSCEPTIBLE]
-        #    for susceptible_agent in susceptible_agents:
-        #        if random_tools.boolean(config['infection_probabilities_per_tick'][location.typ]):
-        #            next_agent_state[susceptible_agent] = (HealthStatus.EXPOSED, None, None)
-
-        # --- Update health status ---
-        if agent.health == HealthStatus.EXPOSED:
-            # If we have incubated for long enough, become infected
-            ticks_since_exposure = t - agent_health_state_change_time[agent]
-            if ticks_since_exposure > incubation_ticks:
-                next_agent_state[agent] = (HealthStatus.INFECTED, None, None)
-        elif agent.health == HealthStatus.INFECTED:
-            # If we have been infected for long enough, become uninfected (i.e.
-            # dead or recovered)
-            ticks_since_infection = t - agent_health_state_change_time[agent]
-            if ticks_since_infection > infectious_ticks:
-                # die or recover?
-                if random_tools.boolean(p_death(agent.age)):
-                    next_agent_state[agent] = (HealthStatus.DEAD, None, None)
-                else:
-                    next_agent_state[agent] = (HealthStatus.RECOVERED, None, None)
-
-        # --- Update activity status ---
-        weighted_next_activity_options = activity_transition_matrix[agent.agetyp][time_in_week][agent.current_activity]
-        next_activity = random_tools.multinoulli_dict(weighted_next_activity_options)
-
-        if next_activity != agent.current_activity:
-            allowable_location_types = activity_manager.get_location_types(next_activity)
-            allowable_locations      = agent.find_allowed_locations_by_type(allowable_location_types)
-            next_location            = random.choice(list(allowable_locations))
-
-            # Move to the activity, type selected
-            # TODO: move the handling of merging tuples later
-            next_agent_state[agent] = (next_agent_state[agent][0] if agent in next_agent_state else None,
-                                       next_activity,
-                                       next_location)
-
-
+    # Compute next state for each agent
+    next_agent_state = {agent: get_agent_transition(agent, time_in_week) for agent in agents}
 
     # Update states according to markov chain
     # print(f"=> {len(next_agent_state)} state changes")
@@ -229,9 +223,6 @@ while t := clock.tick():
         if next_activity is not None:
             agent.set_activity(next_activity, next_location)
 
-
-
-import code; code.interact(local=locals())
 
 # ------------------------------------------------[ Write output ]------------------------------------
 
