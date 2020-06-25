@@ -7,8 +7,15 @@ class SimClock:
     def __init__(self, tick_length_s, simulation_length_days=100):
 
         self.tick_length_s = tick_length_s
-        self.max_ticks     = self.days_to_ticks(simulation_length_days)
+        self.ticks_in_minute = 60       / self.tick_length_s
+        self.ticks_in_hour   = 3600     / self.tick_length_s
+        self.ticks_in_day    = 86400    / self.tick_length_s
+        self.ticks_in_week   = 604800   / self.tick_length_s
+
         self.t             = 0
+        self.max_ticks     = self.days_to_ticks(simulation_length_days)
+
+    # TODO: make this into an iterator
 
     def tick(self):
         self.t += 1
@@ -30,33 +37,19 @@ class SimClock:
         return self.t * self.tick_length_s
 
     def minutes_elapsed(self):
-        return self.seconds_elapsed() / 60
+        return self.t / self.ticks_in_minute
 
     def hours_elapsed(self):
-        return self.seconds_elapsed() / 3600
+        return self.t / self.ticks_in_hour
 
     def days_elapsed(self):
-        return self.seconds_elapsed() / 86400
+        return self.t / self.ticks_in_day
 
     def weeks_elapsed(self):
-        return self.seconds_elapsed() / 604800
-
-    # --
-
-    def ticks_in_minute(self):
-        return 60 / self.tick_length_s
-
-    def ticks_in_hour(self):
-        return 3600 / self.tick_length_s
-
-    def ticks_in_day(self):
-        return 86400 / self.tick_length_s
-
-    def ticks_in_week(self):
-        return 604800 / self.tick_length_s
+        return self.t / self.ticks_in_week
 
     def days_to_ticks(self, days):
-        return days * self.ticks_in_day()
+        return days * self.ticks_in_day
 
     def timedelta_to_ticks(self, td):
         return td.total_seconds() / self.tick_length_s
