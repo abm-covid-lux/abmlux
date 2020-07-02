@@ -1,0 +1,164 @@
+*F 03 2
+*Z 02587 RGTR--                                             % 02587 RGTR--
+*L 588      191103002 150606005  00701  00735               % 02587 RGTR--
+*A al 191103002 150606005 000002  00701  00735              % 02587 RGTR--
+*A cb 191103002 150606005 000002  00701  00735              % 02587 RGTR--
+*A ad 191103002 150606005 000002  00701  00735              % 02587 RGTR--
+*R 1 150606005 191103002 150606005  00701  00735            % 02587 RGTR--
+*G RGB 191103002 150606005  00701  00735                    % 02587 RGTR--
+*A VE 191103002 150606005 000002  00701  00735              % 02587 RGTR--
+*I FD 191103002 150606005        0002856  00701  00735      % 02587 RGTR--
+191103002 Kleinbettingen, Gare         00701                % 02587 RGTR--
+191103001 Kleinbettingen, Duer  00701  00701                % 02587 RGTR--
+191103003 Kleinbettingen, Kiir  00702  00702                % 02587 RGTR--
+191102001 Hagen, 2 Stengëforte  00703  00703                % 02587 RGTR--
+191102004 Hagen, Laach          00704  00704                % 02587 RGTR--
+191102005 Hagen, Op Eechelter   00705  00705                % 02587 RGTR--
+191104007 Steinfort, Schoul     00706  00706                % 02587 RGTR--
+191104004 Steinfort, Gemeng     00707  00707                % 02587 RGTR--
+191104001 Steinfort, Al Schmel  00707  00707                % 02587 RGTR--
+191104005 Steinfort, Kolonie    00709  00709                % 02587 RGTR--
+190501001 Eischen, Denn         00714  00714                % 02587 RGTR--
+190501002 Eischen, rue de Hobs  00715  00715                % 02587 RGTR--
+190502003 Hobscheid, Schoul     00718  00718                % 02587 RGTR--
+190502004 Hobscheid, Steekaul   00719  00719                % 02587 RGTR--
+190502001 Hobscheid, Ehnerpad   00720  00720                % 02587 RGTR--
+190503001 Kreizerbuch           00721  00721                % 02587 RGTR--
+150108002 Schweich, Peiffer     00724  00724                % 02587 RGTR--
+150606005 Redange, Lycée Atert  00735                       % 02587 RGTR--
+*Z 02588 RGTR--                                             % 02588 RGTR--
+*L 588      150102002 150606005  00726  00745               % 02588 RGTR--
+*A al 150102002 150606005 000002  00726  00745              % 02588 RGTR--
+*A bk 150102002 150606005 000002  00726  00745              % 02588 RGTR--
+*A ad 150102002 150606005 000002  00726  00745              % 02588 RGTR--
+*R 1 150606005 150102002 150606005  00726  00745            % 02588 RGTR--
+*G RGB 150102002 150606005  00726  00745                    % 02588 RGTR--
+*A VE 150102002 150606005 000002  00726  00745              % 02588 RGTR--
+*I FD 150102002 150606005        0002563  00726  00745      % 02588 RGTR--
+150102002 Elvange/Beckerich, S         00726                % 02588 RGTR--
+150103001 Hovelange, Bei Bitze  00726  00726                % 02588 RGTR--
+150103002 Hovelange, Halt       00728  00728                % 02588 RGTR--
+150101002 Beckerich, Fraiheets  00729  00729                % 02588 RGTR--
+150101001 Beckerich, Bei Schma  00730  00730                % 02588 RGTR--
+150105002 Lévelange, Kalek      00732  00732                % 02588 RGTR--
+150107002 Oberpallen, Schnudde  00734  00734                % 02588 RGTR--
+150107001 Oberpallen, Bréck     00734  00734                % 02588 RGTR--
+150105001 Lévelange, Ellerstro  00736  00736                % 02588 RGTR--
+150303001 Ell, Arelerstrooss    00739  00739                % 02588 RGTR--
+150303003 Ell, Beim Schreider   00739  00739                % 02588 RGTR--
+150606003 Redange, Gare         00742  00742                % 02588 RGTR--
+150606001 Redange/Attert, Bian  00743  00743                % 02588 RGTR--
+150606009 Redange, Schock       00744  00744                % 02588 RGTR--
+150606005 Redange, Lycée Atert  00745                       % 02588 RGTR--
+*Z 02589 RGTR--                                             % 02589 RGTR--
+*L 588      150606005 191103002  01225  01307               % 02589 RGTR--
+*A al 150606005 191103002 000021  01225  01307              % 02589 RGTR--
+*A cb 150606005 191103002 000021  01225  01307              % 02589 RGTR--
+*A ad 150606005 191103002 000021  01225  01307              % 02589 RGTR--
+*R 2 191103002 150606005 191103002  01225  01307            % 02589 RGTR--
+*G RGB 150606005 191103002  01225  01307                    % 02589 RGTR--
+*A VE 150606005 191103002 000021  01225  01307              % 02589 RGTR--
+*I FD 150606005 191103002        0002849  01225  01307      % 02589 RGTR--
+150606005 Redange, Lycée Atert         01225                % 02589 RGTR--
+150606009 Redange, Schock       01226  01226                % 02589 RGTR--
+150606007 Redange, Osperstroos  01227  01227                % 02589 RGTR--
+150606003 Redange, Gare         01228  01228                % 02589 RGTR--
+150303003 Ell, Beim Schreider   01230  01230                % 02589 RGTR--
+150303001 Ell, Arelerstrooss    01231  01231                % 02589 RGTR--
+150105001 Lévelange, Ellerstro  01234  01234                % 02589 RGTR--
+150107001 Oberpallen, Bréck     01236  01236                % 02589 RGTR--
+150107002 Oberpallen, Schnudde  01236  01236                % 02589 RGTR--
+150105002 Lévelange, Kalek      01238  01238                % 02589 RGTR--
+150101001 Beckerich, Bei Schma  01240  01240                % 02589 RGTR--
+150101002 Beckerich, Fraiheets  01240  01240                % 02589 RGTR--
+150103002 Hovelange, Halt       01242  01242                % 02589 RGTR--
+150103001 Hovelange, Bei Bitze  01243  01243                % 02589 RGTR--
+150102002 Elvange/Beckerich, S  01244  01244                % 02589 RGTR--
+150108002 Schweich, Peiffer     01245  01245                % 02589 RGTR--
+190503001 Kreizerbuch           01247  01247                % 02589 RGTR--
+190502001 Hobscheid, Ehnerpad   01248  01248                % 02589 RGTR--
+190502004 Hobscheid, Steekaul   01249  01249                % 02589 RGTR--
+190502007 Hobscheid, Laiterie   01250  01250                % 02589 RGTR--
+190501002 Eischen, rue de Hobs  01253  01253                % 02589 RGTR--
+190501001 Eischen, Denn         01254  01254                % 02589 RGTR--
+191104005 Steinfort, Kolonie    01259  01259                % 02589 RGTR--
+191104001 Steinfort, Al Schmel  01300  01300                % 02589 RGTR--
+191104004 Steinfort, Gemeng     01301  01301                % 02589 RGTR--
+191104007 Steinfort, Schoul     01302  01302                % 02589 RGTR--
+191102005 Hagen, Op Eechelter   01303  01303                % 02589 RGTR--
+191102004 Hagen, Laach          01303  01303                % 02589 RGTR--
+191102001 Hagen, 2 Stengëforte  01304  01304                % 02589 RGTR--
+191103003 Kleinbettingen, Kiir  01305  01305                % 02589 RGTR--
+191103001 Kleinbettingen, Duer  01306  01306                % 02589 RGTR--
+191103002 Kleinbettingen, Gare  01307                       % 02589 RGTR--
+*Z 02590 RGTR--                                             % 02590 RGTR--
+*L 588      190502007 191103002  01613  01630               % 02590 RGTR--
+*A al 190502007 191103002 000026  01613  01630              % 02590 RGTR--
+*A cb 190502007 191103002 000026  01613  01630              % 02590 RGTR--
+*A JD 190502007 191103002 000026  01613  01630              % 02590 RGTR--
+*A ad 190502007 191103002 000026  01613  01630              % 02590 RGTR--
+*R 2 191103002 190502007 191103002  01613  01630            % 02590 RGTR--
+*G RGB 190502007 191103002  01613  01630                    % 02590 RGTR--
+*A VE 190502007 191103002 000026  01613  01630              % 02590 RGTR--
+*I FD 190502007 191103002        0001878  01613  01630      % 02590 RGTR--
+190502007 Hobscheid, Laiterie          01613                % 02590 RGTR--
+190501002 Eischen, rue de Hobs  01616  01616                % 02590 RGTR--
+190501001 Eischen, Denn         01617  01617                % 02590 RGTR--
+191104005 Steinfort, Kolonie    01622  01622                % 02590 RGTR--
+191104001 Steinfort, Al Schmel  01623  01623                % 02590 RGTR--
+191104004 Steinfort, Gemeng     01624  01624                % 02590 RGTR--
+191104007 Steinfort, Schoul     01625  01625                % 02590 RGTR--
+191102005 Hagen, Op Eechelter   01626  01626                % 02590 RGTR--
+191102004 Hagen, Laach          01626  01626                % 02590 RGTR--
+191102001 Hagen, 2 Stengëforte  01627  01627                % 02590 RGTR--
+191103003 Kleinbettingen, Kiir  01628  01628                % 02590 RGTR--
+191103001 Kleinbettingen, Duer  01629  01629                % 02590 RGTR--
+191103002 Kleinbettingen, Gare  01630                       % 02590 RGTR--
+*Z 02591 RGTR--                                             % 02591 RGTR--
+*L 588      150606005 150102002  01225  01244               % 02591 RGTR--
+*A al 150606005 150102002 000021  01225  01244              % 02591 RGTR--
+*A bk 150606005 150102002 000021  01225  01244              % 02591 RGTR--
+*A ad 150606005 150102002 000021  01225  01244              % 02591 RGTR--
+*R 2 150102002 150606005 150102002  01225  01244            % 02591 RGTR--
+*G RGB 150606005 150102002  01225  01244                    % 02591 RGTR--
+*A VE 150606005 150102002 000021  01225  01244              % 02591 RGTR--
+*I FD 150606005 150102002        0002857  01225  01244      % 02591 RGTR--
+150606005 Redange, Lycée Atert         01225                % 02591 RGTR--
+150606009 Redange, Schock       01226  01226                % 02591 RGTR--
+150606007 Redange, Osperstroos  01227  01227                % 02591 RGTR--
+150606003 Redange, Gare         01228  01228                % 02591 RGTR--
+150303003 Ell, Beim Schreider   01230  01230                % 02591 RGTR--
+150303001 Ell, Arelerstrooss    01231  01231                % 02591 RGTR--
+150105001 Lévelange, Ellerstro  01234  01234                % 02591 RGTR--
+150107001 Oberpallen, Bréck     01236  01236                % 02591 RGTR--
+150107002 Oberpallen, Schnudde  01236  01236                % 02591 RGTR--
+150105002 Lévelange, Kalek      01238  01238                % 02591 RGTR--
+150101001 Beckerich, Bei Schma  01240  01240                % 02591 RGTR--
+150101002 Beckerich, Fraiheets  01240  01240                % 02591 RGTR--
+150103002 Hovelange, Halt       01242  01242                % 02591 RGTR--
+150103001 Hovelange, Bei Bitze  01243  01243                % 02591 RGTR--
+150102002 Elvange/Beckerich, S  01244                       % 02591 RGTR--
+*Z 02592 RGTR--                                             % 02592 RGTR--
+*L 588      150606005 150102002  01540  01559               % 02592 RGTR--
+*A al 150606005 150102002 000026  01540  01559              % 02592 RGTR--
+*A bk 150606005 150102002 000026  01540  01559              % 02592 RGTR--
+*A ad 150606005 150102002 000026  01540  01559              % 02592 RGTR--
+*R 2 150102002 150606005 150102002  01540  01559            % 02592 RGTR--
+*G RGB 150606005 150102002  01540  01559                    % 02592 RGTR--
+*A VE 150606005 150102002 000026  01540  01559              % 02592 RGTR--
+*I FD 150606005 150102002        0001910  01540  01559      % 02592 RGTR--
+150606005 Redange, Lycée Atert         01540                % 02592 RGTR--
+150606009 Redange, Schock       01541  01541                % 02592 RGTR--
+150606007 Redange, Osperstroos  01542  01542                % 02592 RGTR--
+150606003 Redange, Gare         01543  01543                % 02592 RGTR--
+150303003 Ell, Beim Schreider   01545  01545                % 02592 RGTR--
+150303001 Ell, Arelerstrooss    01546  01546                % 02592 RGTR--
+150105001 Lévelange, Ellerstro  01549  01549                % 02592 RGTR--
+150107001 Oberpallen, Bréck     01551  01551                % 02592 RGTR--
+150107002 Oberpallen, Schnudde  01551  01551                % 02592 RGTR--
+150105002 Lévelange, Kalek      01553  01553                % 02592 RGTR--
+150101001 Beckerich, Bei Schma  01555  01555                % 02592 RGTR--
+150101002 Beckerich, Fraiheets  01555  01555                % 02592 RGTR--
+150103002 Hovelange, Halt       01557  01557                % 02592 RGTR--
+150103001 Hovelange, Bei Bitze  01558  01558                % 02592 RGTR--
+150102002 Elvange/Beckerich, S  01559                       % 02592 RGTR--

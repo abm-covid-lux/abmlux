@@ -1,0 +1,303 @@
+*F 03 2
+*Z 00126 RGTR--                                             % 00126 RGTR--
+*L 571      140701023 130301006  01200  01231               % 00126 RGTR--
+*A al 140701023 130301006 000002  01200  01231              % 00126 RGTR--
+*A bj 140701023 130301006 000002  01200  01231              % 00126 RGTR--
+*A cy 140701023 130301006 000002  01200  01231              % 00126 RGTR--
+*A ad 140701023 130301006 000002  01200  01231              % 00126 RGTR--
+*R 1 130301006 140701023 130301006  01200  01231            % 00126 RGTR--
+*G RGB 140701023 130301006  01200  01231                    % 00126 RGTR--
+*A VE 140701023 130301006 000002  01200  01231              % 00126 RGTR--
+*I FD 140701023 130301006        0002663  01200  01231      % 00126 RGTR--
+140701023 Ettelbruck, Lycée Te         01200                % 00126 RGTR--
+140701016 Ettelbruck, Gare      01204  01204                % 00126 RGTR--
+140602008 Erpeldange/Sûre, Um   01206  01206                % 00126 RGTR--
+140603002 Ingeldorf, Café de l  01208  01208                % 00126 RGTR--
+140401008 Diekirch, Lorentzwue  01209  01209                % 00126 RGTR--
+140401004 Diekirch, Gare        01211  01211                % 00126 RGTR--
+140401001 Diekirch, Altersheem  01212  01212                % 00126 RGTR--
+140401007 Diekirch, rue Merten  01214  01214                % 00126 RGTR--
+140401017 Diekirch, Bei der Ti  01215  01215                % 00126 RGTR--
+140203002 Gilsdorf, Bei der Sc  01215  01215                % 00126 RGTR--
+140203001 Gilsdorf, An der Klé  01217  01217                % 00126 RGTR--
+140202001 Bleesbréck            01218  01218                % 00126 RGTR--
+140205002 Selz                  01219  01219                % 00126 RGTR--
+130208001 Valeriushaff          01219  01219                % 00126 RGTR--
+130207001 Tandel, Schoul        01221  01221                % 00126 RGTR--
+130207002 Tandel, Veianerstroo  01221  01221                % 00126 RGTR--
+130204001 Fouhren, Halt         01223  01223                % 00126 RGTR--
+130301011 Vianden, Plank        01226  01226                % 00126 RGTR--
+130301010 Vianden, Place Engel  01227  01227                % 00126 RGTR--
+130301007 Vianden, Gemeng       01228  01228                % 00126 RGTR--
+130301006 Vianden, Gare         01231                       % 00126 RGTR--
+*Z 03976 RGTR--                                             % 03976 RGTR--
+*L 571      140701023 130301006  01410  01440               % 03976 RGTR--
+*A al 140701023 130301006 000002  01410  01440              % 03976 RGTR--
+*A bj 140701023 130301006 000002  01410  01440              % 03976 RGTR--
+*A cy 140701023 130301006 000002  01410  01440              % 03976 RGTR--
+*A ad 140701023 130301006 000002  01410  01440              % 03976 RGTR--
+*R 1 130301006 140701023 130301006  01410  01440            % 03976 RGTR--
+*G RGB 140701023 130301006  01410  01440                    % 03976 RGTR--
+*A VE 140701023 130301006 000002  01410  01440              % 03976 RGTR--
+*I FD 140701023 130301006        0002065  01410  01440      % 03976 RGTR--
+140701023 Ettelbruck, Lycée Te         01410                % 03976 RGTR--
+140701016 Ettelbruck, Gare      01414  01414                % 03976 RGTR--
+140602008 Erpeldange/Sûre, Um   01416  01416                % 03976 RGTR--
+140603002 Ingeldorf, Café de l  01418  01418                % 03976 RGTR--
+140401008 Diekirch, Lorentzwue  01419  01419                % 03976 RGTR--
+140401004 Diekirch, Gare        01421  01421                % 03976 RGTR--
+140401001 Diekirch, Altersheem  01422  01422                % 03976 RGTR--
+140401007 Diekirch, rue Merten  01424  01424                % 03976 RGTR--
+140401017 Diekirch, Bei der Ti  01425  01425                % 03976 RGTR--
+140203002 Gilsdorf, Bei der Sc  01425  01425                % 03976 RGTR--
+140203001 Gilsdorf, An der Klé  01427  01427                % 03976 RGTR--
+130207001 Tandel, Schoul        01430  01430                % 03976 RGTR--
+130207002 Tandel, Veianerstroo  01430  01430                % 03976 RGTR--
+130204001 Fouhren, Halt         01432  01432                % 03976 RGTR--
+130301011 Vianden, Plank        01435  01435                % 03976 RGTR--
+130301010 Vianden, Place Engel  01436  01436                % 03976 RGTR--
+130301007 Vianden, Gemeng       01437  01437                % 03976 RGTR--
+130301006 Vianden, Gare         01440                       % 03976 RGTR--
+*Z 03977 RGTR--                                             % 03977 RGTR--
+*L 571      140701023 130301006  01600  01632               % 03977 RGTR--
+*A al 140701023 130301006 000008  01600  01632              % 03977 RGTR--
+*A bj 140701023 130301006 000008  01600  01632              % 03977 RGTR--
+*A cy 140701023 130301006 000008  01600  01632              % 03977 RGTR--
+*A ad 140701023 130301006 000008  01600  01632              % 03977 RGTR--
+*R 1 130301006 140701023 130301006  01600  01632            % 03977 RGTR--
+*G RGB 140701023 130301006  01600  01632                    % 03977 RGTR--
+*A VE 140701023 130301006 000008  01600  01632              % 03977 RGTR--
+*I FD 140701023 130301006        0002201  01600  01632      % 03977 RGTR--
+140701023 Ettelbruck, Lycée Te         01600                % 03977 RGTR--
+140701016 Ettelbruck, Gare      01604  01604                % 03977 RGTR--
+140602008 Erpeldange/Sûre, Um   01606  01606                % 03977 RGTR--
+140603002 Ingeldorf, Café de l  01608  01608                % 03977 RGTR--
+140401008 Diekirch, Lorentzwue  01610  01610                % 03977 RGTR--
+140401004 Diekirch, Gare        01611  01611                % 03977 RGTR--
+140401001 Diekirch, Altersheem  01613  01613                % 03977 RGTR--
+140401007 Diekirch, rue Merten  01615  01615                % 03977 RGTR--
+140401017 Diekirch, Bei der Ti  01616  01616                % 03977 RGTR--
+140203002 Gilsdorf, Bei der Sc  01617  01617                % 03977 RGTR--
+140203001 Gilsdorf, An der Klé  01618  01618                % 03977 RGTR--
+130207001 Tandel, Schoul        01621  01621                % 03977 RGTR--
+130207002 Tandel, Veianerstroo  01621  01621                % 03977 RGTR--
+130204001 Fouhren, Halt         01624  01624                % 03977 RGTR--
+130301011 Vianden, Plank        01627  01627                % 03977 RGTR--
+130301010 Vianden, Place Engel  01628  01628                % 03977 RGTR--
+130301007 Vianden, Gemeng       01629  01629                % 03977 RGTR--
+130301006 Vianden, Gare         01632                       % 03977 RGTR--
+*Z 03978 RGTR--                                             % 03978 RGTR--
+*L 571      140701023 110406001  01600  01651               % 03978 RGTR--
+*A al 140701023 110406001 000002  01600  01651              % 03978 RGTR--
+*A cf 140701023 110406001 000002  01600  01651              % 03978 RGTR--
+*A ad 140701023 110406001 000002  01600  01651              % 03978 RGTR--
+*R 1 110406001 140701023 110406001  01600  01651            % 03978 RGTR--
+*G RGB 140701023 110406001  01600  01651                    % 03978 RGTR--
+*A VE 140701023 110406001 000002  01600  01651              % 03978 RGTR--
+*I FD 140701023 110406001        0003148  01600  01651      % 03978 RGTR--
+140701023 Ettelbruck, Lycée Te         01600                % 03978 RGTR--
+140701016 Ettelbruck, Gare      01604  01604                % 03978 RGTR--
+140602008 Erpeldange/Sûre, Um   01606  01606                % 03978 RGTR--
+140603002 Ingeldorf, Café de l  01608  01608                % 03978 RGTR--
+140401008 Diekirch, Lorentzwue  01610  01610                % 03978 RGTR--
+140401004 Diekirch, Gare        01611  01611                % 03978 RGTR--
+140401001 Diekirch, Altersheem  01613  01613                % 03978 RGTR--
+140401007 Diekirch, rue Merten  01615  01615                % 03978 RGTR--
+140401017 Diekirch, Bei der Ti  01616  01616                % 03978 RGTR--
+140203002 Gilsdorf, Bei der Sc  01617  01617                % 03978 RGTR--
+140203001 Gilsdorf, An der Klé  01618  01618                % 03978 RGTR--
+140202001 Bleesbréck            01619  01619                % 03978 RGTR--
+140205002 Selz                  01620  01620                % 03978 RGTR--
+130208001 Valeriushaff          01621  01621                % 03978 RGTR--
+130207001 Tandel, Schoul        01622  01622                % 03978 RGTR--
+130207002 Tandel, Veianerstroo  01623  01623                % 03978 RGTR--
+130204001 Fouhren, Halt         01625  01625                % 03978 RGTR--
+130202002 Bettel, Schmedd       01628  01628                % 03978 RGTR--
+130202001 Bettel, Bei der Bréc  01629  01629                % 03978 RGTR--
+130301005 Vianden, Camping Mou  01630  01630                % 03978 RGTR--
+130301012 Vianden, Ruoderwee    01631  01631                % 03978 RGTR--
+130301006 Vianden, Gare         01632  01632                % 03978 RGTR--
+130301004 Vianden, Bréck        01633  01633                % 03978 RGTR--
+130301002 Vianden, Aale Moart   01634  01634                % 03978 RGTR--
+130101001 Bivels, Op der Mille  01636  01636                % 03978 RGTR--
+130101002 Bivels, Kierch        01637  01637                % 03978 RGTR--
+130101003 Bivels, Loch          01640  01640                % 03978 RGTR--
+130106004 Stolzembourg, S.E.O.  01642  01642                % 03978 RGTR--
+130106002 Stolzembourg, Bréck   01643  01643                % 03978 RGTR--
+130106003 Stolzembourg, Kiirch  01644  01644                % 03978 RGTR--
+130106001 Stolzembourg, Akesch  01645  01645                % 03978 RGTR--
+110402002 Parc Hosingen, Gemön  01647  01647                % 03978 RGTR--
+110408001 Untereisenbach, Bréc  01650  01650                % 03978 RGTR--
+110406001 Obereisenbach, Bei d  01651                       % 03978 RGTR--
+*Z 03979 RGTR--                                             % 03979 RGTR--
+*L 571      140701023 130106001  01155  01237               % 03979 RGTR--
+*A al 140701023 130106001 000002  01155  01237              % 03979 RGTR--
+*A cf 140701023 130106001 000002  01155  01237              % 03979 RGTR--
+*A cy 140701023 130106001 000002  01155  01237              % 03979 RGTR--
+*A ad 140701023 130106001 000002  01155  01237              % 03979 RGTR--
+*R 1 130106001 140701023 130106001  01155  01237            % 03979 RGTR--
+*G RGB 140701023 130106001  01155  01237                    % 03979 RGTR--
+*A VE 140701023 130106001 000002  01155  01237              % 03979 RGTR--
+*I FD 140701023 130106001        0001770  01155  01237      % 03979 RGTR--
+140701023 Ettelbruck, Lycée Te         01155                % 03979 RGTR--
+140701016 Ettelbruck, Gare      01159  01159                % 03979 RGTR--
+140602008 Erpeldange/Sûre, Um   01201  01201                % 03979 RGTR--
+140603002 Ingeldorf, Café de l  01203  01203                % 03979 RGTR--
+140401008 Diekirch, Lorentzwue  01204  01204                % 03979 RGTR--
+140401004 Diekirch, Gare        01206  01206                % 03979 RGTR--
+140401001 Diekirch, Altersheem  01207  01207                % 03979 RGTR--
+140401005 Diekirch, Kleck       01209  01209                % 03979 RGTR--
+140203001 Gilsdorf, An der Klé  01210  01210                % 03979 RGTR--
+140202001 Bleesbréck            01211  01211                % 03979 RGTR--
+140205002 Selz                  01212  01212                % 03979 RGTR--
+130208001 Valeriushaff          01213  01213                % 03979 RGTR--
+130207001 Tandel, Schoul        01214  01214                % 03979 RGTR--
+130207002 Tandel, Veianerstroo  01215  01215                % 03979 RGTR--
+130204001 Fouhren, Halt         01217  01217                % 03979 RGTR--
+130202002 Bettel, Schmedd       01219  01219                % 03979 RGTR--
+130202001 Bettel, Bei der Bréc  01220  01220                % 03979 RGTR--
+130301005 Vianden, Camping Mou  01222  01222                % 03979 RGTR--
+130301012 Vianden, Ruoderwee    01222  01222                % 03979 RGTR--
+130301006 Vianden, Gare         01223  01223                % 03979 RGTR--
+130301004 Vianden, Bréck        01224  01224                % 03979 RGTR--
+130301002 Vianden, Aale Moart   01225  01225                % 03979 RGTR--
+130101001 Bivels, Op der Mille  01227  01227                % 03979 RGTR--
+130101002 Bivels, Kierch        01228  01228                % 03979 RGTR--
+130101003 Bivels, Loch          01231  01231                % 03979 RGTR--
+130106004 Stolzembourg, S.E.O.  01233  01233                % 03979 RGTR--
+130106002 Stolzembourg, Bréck   01234  01234                % 03979 RGTR--
+130106003 Stolzembourg, Kiirch  01235  01235                % 03979 RGTR--
+130106001 Stolzembourg, Akesch  01237                       % 03979 RGTR--
+*Z 03980 RGTR--                                             % 03980 RGTR--
+*L 571      130301011 140701023  00710  00744               % 03980 RGTR--
+*A al 130301011 140701023 000002  00710  00744              % 03980 RGTR--
+*A cf 130301011 140701023 000002  00710  00744              % 03980 RGTR--
+*A TP 130301011 140701023 000002  00710  00744              % 03980 RGTR--
+*A ad 130301011 140701023 000002  00710  00744              % 03980 RGTR--
+*R 2 140701023 130301011 140701023  00710  00744            % 03980 RGTR--
+*G RGB 130301011 140701023  00710  00744                    % 03980 RGTR--
+*A VE 130301011 140701023 000002  00710  00744              % 03980 RGTR--
+*I FD 130301011 140701023        0001952  00710  00744      % 03980 RGTR--
+130301011 Vianden, Plank               00710                % 03980 RGTR--
+130301010 Vianden, Place Engel  00711  00711                % 03980 RGTR--
+130301007 Vianden, Gemeng       00712  00712                % 03980 RGTR--
+130301006 Vianden, Gare         00715  00715                % 03980 RGTR--
+130301012 Vianden, Ruoderwee    00716  00716                % 03980 RGTR--
+130301005 Vianden, Camping Mou  00716  00716                % 03980 RGTR--
+130202001 Bettel, Bei der Bréc  00718  00718                % 03980 RGTR--
+130202002 Bettel, Schmedd       00719  00719                % 03980 RGTR--
+130204001 Fouhren, Halt         00721  00721                % 03980 RGTR--
+130207002 Tandel, Veianerstroo  00724  00724                % 03980 RGTR--
+130207001 Tandel, Schoul        00724  00724                % 03980 RGTR--
+130208001 Valeriushaff          00725  00725                % 03980 RGTR--
+140205002 Selz                  00726  00726                % 03980 RGTR--
+140202001 Bleesbréck            00727  00727                % 03980 RGTR--
+140203001 Gilsdorf, An der Klé  00728  00728                % 03980 RGTR--
+140401005 Diekirch, Kleck       00729  00729                % 03980 RGTR--
+140401006 Diekirch, Kluuster    00731  00731                % 03980 RGTR--
+140401004 Diekirch, Gare        00734  00734                % 03980 RGTR--
+140401008 Diekirch, Lorentzwue  00735  00735                % 03980 RGTR--
+140603002 Ingeldorf, Café de l  00737  00737                % 03980 RGTR--
+140602008 Erpeldange/Sûre, Um   00739  00739                % 03980 RGTR--
+140701001 Ettelbruck, Anc. Cli  00742  00742                % 03980 RGTR--
+140701023 Ettelbruck, Lycée Te  00744                       % 03980 RGTR--
+*Z 03981 RGTR--                                             % 03981 RGTR--
+*L 571      130301006 140701023  01320  01349               % 03981 RGTR--
+*A al 130301006 140701023 000008  01320  01349              % 03981 RGTR--
+*A bj 130301006 140701023 000008  01320  01349              % 03981 RGTR--
+*A ad 130301006 140701023 000008  01320  01349              % 03981 RGTR--
+*R 2 140701023 130301006 140701023  01320  01349            % 03981 RGTR--
+*G RGB 130301006 140701023  01320  01349                    % 03981 RGTR--
+*A VE 130301006 140701023 000008  01320  01349              % 03981 RGTR--
+*I FD 130301006 140701023        0001903  01320  01349      % 03981 RGTR--
+130301006 Vianden, Gare                01320                % 03981 RGTR--
+130301012 Vianden, Ruoderwee    01321  01321                % 03981 RGTR--
+130301005 Vianden, Camping Mou  01321  01321                % 03981 RGTR--
+130202001 Bettel, Bei der Bréc  01322  01322                % 03981 RGTR--
+130202002 Bettel, Schmedd       01323  01323                % 03981 RGTR--
+130204001 Fouhren, Halt         01326  01326                % 03981 RGTR--
+130207002 Tandel, Veianerstroo  01329  01329                % 03981 RGTR--
+130207001 Tandel, Schoul        01329  01329                % 03981 RGTR--
+130208001 Valeriushaff          01330  01330                % 03981 RGTR--
+140205002 Selz                  01331  01331                % 03981 RGTR--
+140202001 Bleesbréck            01332  01332                % 03981 RGTR--
+140203001 Gilsdorf, An der Klé  01333  01333                % 03981 RGTR--
+140203002 Gilsdorf, Bei der Sc  01334  01334                % 03981 RGTR--
+140401017 Diekirch, Bei der Ti  01334  01334                % 03981 RGTR--
+140401007 Diekirch, rue Merten  01335  01335                % 03981 RGTR--
+140401006 Diekirch, Kluuster    01338  01338                % 03981 RGTR--
+140401004 Diekirch, Gare        01340  01340                % 03981 RGTR--
+140401008 Diekirch, Lorentzwue  01342  01342                % 03981 RGTR--
+140603002 Ingeldorf, Café de l  01343  01343                % 03981 RGTR--
+140602008 Erpeldange/Sûre, Um   01345  01345                % 03981 RGTR--
+140701001 Ettelbruck, Anc. Cli  01348  01348                % 03981 RGTR--
+140701023 Ettelbruck, Lycée Te  01349                       % 03981 RGTR--
+*Z 00054 RGTR--                                             % 00054 RGTR--
+*L 571      130301006 140401004  00723  00744               % 00054 RGTR--
+*A al 130301006 140401004 000002  00723  00744              % 00054 RGTR--
+*A bj 130301006 140401004 000002  00723  00744              % 00054 RGTR--
+*A ad 130301006 140401004 000002  00723  00744              % 00054 RGTR--
+*R 2 140401004 130301006 140401004  00723  00744            % 00054 RGTR--
+*G RGB 130301006 140401004  00723  00744                    % 00054 RGTR--
+*A VE 130301006 140401004 000002  00723  00744              % 00054 RGTR--
+*I FD 130301006 140401004        0002648  00723  00744      % 00054 RGTR--
+130301006 Vianden, Gare                00723                % 00054 RGTR--
+130301012 Vianden, Ruoderwee    00724  00724                % 00054 RGTR--
+130301005 Vianden, Camping Mou  00724  00724                % 00054 RGTR--
+130202001 Bettel, Bei der Bréc  00726  00726                % 00054 RGTR--
+130202002 Bettel, Schmedd       00727  00727                % 00054 RGTR--
+130204001 Fouhren, Halt         00729  00729                % 00054 RGTR--
+130207002 Tandel, Veianerstroo  00732  00732                % 00054 RGTR--
+130207001 Tandel, Schoul        00732  00732                % 00054 RGTR--
+130208001 Valeriushaff          00733  00733                % 00054 RGTR--
+140205002 Selz                  00734  00734                % 00054 RGTR--
+140202001 Bleesbréck            00735  00735                % 00054 RGTR--
+140203001 Gilsdorf, An der Klé  00736  00736                % 00054 RGTR--
+140203002 Gilsdorf, Bei der Sc  00737  00737                % 00054 RGTR--
+140401017 Diekirch, Bei der Ti  00738  00738                % 00054 RGTR--
+140401007 Diekirch, rue Merten  00739  00739                % 00054 RGTR--
+140401006 Diekirch, Kluuster    00742  00742                % 00054 RGTR--
+140401004 Diekirch, Gare        00744                       % 00054 RGTR--
+*Z 03982 RGTR--                                             % 03982 RGTR--
+*L 571      110406001 140701023  00649  00741               % 03982 RGTR--
+*A al 110406001 140701023 000002  00649  00741              % 03982 RGTR--
+*A cf 110406001 140701023 000002  00649  00741              % 03982 RGTR--
+*A ad 110406001 140701023 000002  00649  00741              % 03982 RGTR--
+*R 2 140701023 110406001 140701023  00649  00741            % 03982 RGTR--
+*G RGB 110406001 140701023  00649  00741                    % 03982 RGTR--
+*A VE 110406001 140701023 000002  00649  00741              % 03982 RGTR--
+*I FD 110406001 140701023        0001741  00649  00741      % 03982 RGTR--
+110406001 Obereisenbach, Bei d         00649                % 03982 RGTR--
+110408001 Untereisenbach, Bréc  00650  00650                % 03982 RGTR--
+110402002 Parc Hosingen, Gemön  00653  00653                % 03982 RGTR--
+130106001 Stolzembourg, Akesch  00655  00655                % 03982 RGTR--
+130106003 Stolzembourg, Kiirch  00656  00656                % 03982 RGTR--
+130106002 Stolzembourg, Bréck   00657  00657                % 03982 RGTR--
+130106004 Stolzembourg, S.E.O.  00659  00659                % 03982 RGTR--
+130101003 Bivels, Loch          00700  00700                % 03982 RGTR--
+130101002 Bivels, Kierch        00703  00703                % 03982 RGTR--
+130101001 Bivels, Op der Mille  00705  00705                % 03982 RGTR--
+130301002 Vianden, Aale Moart   00706  00706                % 03982 RGTR--
+130301004 Vianden, Bréck        00708  00708                % 03982 RGTR--
+130301006 Vianden, Gare         00709  00709                % 03982 RGTR--
+130301012 Vianden, Ruoderwee    00710  00710                % 03982 RGTR--
+130301005 Vianden, Camping Mou  00711  00711                % 03982 RGTR--
+130202001 Bettel, Bei der Bréc  00712  00712                % 03982 RGTR--
+130202002 Bettel, Schmedd       00713  00713                % 03982 RGTR--
+130204001 Fouhren, Halt         00716  00716                % 03982 RGTR--
+130207002 Tandel, Veianerstroo  00718  00718                % 03982 RGTR--
+130207001 Tandel, Schoul        00719  00719                % 03982 RGTR--
+130208001 Valeriushaff          00720  00720                % 03982 RGTR--
+140205002 Selz                  00721  00721                % 03982 RGTR--
+140202001 Bleesbréck            00722  00722                % 03982 RGTR--
+140203001 Gilsdorf, An der Klé  00723  00723                % 03982 RGTR--
+140203002 Gilsdorf, Bei der Sc  00724  00724                % 03982 RGTR--
+140401017 Diekirch, Bei der Ti  00724  00724                % 03982 RGTR--
+140401007 Diekirch, rue Merten  00726  00726                % 03982 RGTR--
+140401006 Diekirch, Kluuster    00729  00729                % 03982 RGTR--
+140401004 Diekirch, Gare        00731  00731                % 03982 RGTR--
+140401008 Diekirch, Lorentzwue  00733  00733                % 03982 RGTR--
+140603002 Ingeldorf, Café de l  00734  00734                % 03982 RGTR--
+140602008 Erpeldange/Sûre, Um   00736  00736                % 03982 RGTR--
+140701001 Ettelbruck, Anc. Cli  00739  00739                % 03982 RGTR--
+140701023 Ettelbruck, Lycée Te  00741                       % 03982 RGTR--

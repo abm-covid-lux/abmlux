@@ -1,0 +1,1255 @@
+*F 03 2
+*Z 07003 RGTR--                                             % 07003 RGTR--
+*L 255      200405004 191002001  00710  00752               % 07003 RGTR--
+*A ag 200405004 191002001 000001  00710  00752              % 07003 RGTR--
+*R 1 191002001 200405004 191002001  00710  00752            % 07003 RGTR--
+*G RGB 200405004 191002001  00710  00752                    % 07003 RGTR--
+*A VE 200405004 191002001 000001  00710  00752              % 07003 RGTR--
+*I FD 200405004 191002001        0002445  00710  00752      % 07003 RGTR--
+200405004 Centre, Monterey Par         00710                % 07003 RGTR--
+200405045 Centre, Stäreplaz /  -00712  00712                % 07003 RGTR--
+200403018 Belair, Stade        -00714  00714                % 07003 RGTR--
+200403021 Belair, Wandmillen   -00715  00715                % 07003 RGTR--
+200901020 Strassen, Benelux    -00720  00720                % 07003 RGTR--
+200901017 Strassen, Kesseler   -00722  00722                % 07003 RGTR--
+200901011 Strassen, Schoenacht -00723  00723                % 07003 RGTR--
+200101002 Bertrange, Belle Eto -00725  00725                % 07003 RGTR--
+190903013 Mamer, Tossebierg    -00727  00727                % 07003 RGTR--
+190903007 Mamer, Gaaschtbierg  -00728  00728                % 07003 RGTR--
+190903002 Mamer, Baerendall    -00730  00730                % 07003 RGTR--
+190903012 Mamer, Mambra        -00730  00730                % 07003 RGTR--
+190903005 Mamer, Eglantiers    -00732  00732                % 07003 RGTR--
+190901009 Capellen, Pafebruch   00734  00734                % 07003 RGTR--
+190901008 Capellen, Eechterfel  00734  00734                % 07003 RGTR--
+190901010 Capellen, Hirebesch   00735  00735                % 07003 RGTR--
+190606001 Olm, Dréischelsfeld   00737  00737                % 07003 RGTR--
+190702001 Goetzingen, Kiirch    00739  00739                % 07003 RGTR--
+190702002 Goetzingen, Kreiz     00740  00740                % 07003 RGTR--
+190701001 Goeblange, Giewel     00742  00742                % 07003 RGTR--
+190703003 Koerich, Weidewee     00743  00743                % 07003 RGTR--
+190703002 Koerich, Gemeng       00744  00744                % 07003 RGTR--
+190703001 Koerich, Fuurt        00744  00744                % 07003 RGTR--
+190703004 Koerich, SES          00748  00748                % 07003 RGTR--
+191002003 Septfontaines, Op La  00748  00748                % 07003 RGTR--
+191002001 Septfontaines, Schou  00752                       % 07003 RGTR--
+*Z 07004 RGTR--                                             % 07004 RGTR--
+*L 255      200405004 191002001  00810  00852               % 07004 RGTR--
+*A ag 200405004 191002001 000001  00810  00852              % 07004 RGTR--
+*R 1 191002001 200405004 191002001  00810  00852            % 07004 RGTR--
+*G RGB 200405004 191002001  00810  00852                    % 07004 RGTR--
+*A VE 200405004 191002001 000001  00810  00852              % 07004 RGTR--
+*I FD 200405004 191002001        0002077  00810  00852      % 07004 RGTR--
+200405004 Centre, Monterey Par         00810                % 07004 RGTR--
+200405045 Centre, Stäreplaz /  -00812  00812                % 07004 RGTR--
+200403018 Belair, Stade        -00814  00814                % 07004 RGTR--
+200403021 Belair, Wandmillen   -00815  00815                % 07004 RGTR--
+200901020 Strassen, Benelux    -00820  00820                % 07004 RGTR--
+200901017 Strassen, Kesseler   -00822  00822                % 07004 RGTR--
+200901011 Strassen, Schoenacht -00823  00823                % 07004 RGTR--
+200101002 Bertrange, Belle Eto -00825  00825                % 07004 RGTR--
+190903013 Mamer, Tossebierg    -00827  00827                % 07004 RGTR--
+190903007 Mamer, Gaaschtbierg  -00828  00828                % 07004 RGTR--
+190903002 Mamer, Baerendall    -00830  00830                % 07004 RGTR--
+190903012 Mamer, Mambra        -00830  00830                % 07004 RGTR--
+190903005 Mamer, Eglantiers    -00832  00832                % 07004 RGTR--
+190901009 Capellen, Pafebruch   00834  00834                % 07004 RGTR--
+190901008 Capellen, Eechterfel  00834  00834                % 07004 RGTR--
+190901010 Capellen, Hirebesch   00835  00835                % 07004 RGTR--
+190606001 Olm, Dréischelsfeld   00837  00837                % 07004 RGTR--
+190702001 Goetzingen, Kiirch    00839  00839                % 07004 RGTR--
+190702002 Goetzingen, Kreiz     00840  00840                % 07004 RGTR--
+190701001 Goeblange, Giewel     00842  00842                % 07004 RGTR--
+190703003 Koerich, Weidewee     00843  00843                % 07004 RGTR--
+190703002 Koerich, Gemeng       00844  00844                % 07004 RGTR--
+190703001 Koerich, Fuurt        00844  00844                % 07004 RGTR--
+190703004 Koerich, SES          00848  00848                % 07004 RGTR--
+191002003 Septfontaines, Op La  00848  00848                % 07004 RGTR--
+191002001 Septfontaines, Schou  00852                       % 07004 RGTR--
+*Z 07005 RGTR--                                             % 07005 RGTR--
+*L 255      200405004 191002001  00910  00952               % 07005 RGTR--
+*A ag 200405004 191002001 000001  00910  00952              % 07005 RGTR--
+*R 1 191002001 200405004 191002001  00910  00952            % 07005 RGTR--
+*G RGB 200405004 191002001  00910  00952                    % 07005 RGTR--
+*A VE 200405004 191002001 000001  00910  00952              % 07005 RGTR--
+*I FD 200405004 191002001        0002079  00910  00952      % 07005 RGTR--
+200405004 Centre, Monterey Par         00910                % 07005 RGTR--
+200405045 Centre, Stäreplaz /  -00912  00912                % 07005 RGTR--
+200403018 Belair, Stade        -00914  00914                % 07005 RGTR--
+200403021 Belair, Wandmillen   -00915  00915                % 07005 RGTR--
+200901020 Strassen, Benelux    -00920  00920                % 07005 RGTR--
+200901017 Strassen, Kesseler   -00922  00922                % 07005 RGTR--
+200901011 Strassen, Schoenacht -00923  00923                % 07005 RGTR--
+200101002 Bertrange, Belle Eto -00925  00925                % 07005 RGTR--
+190903013 Mamer, Tossebierg    -00927  00927                % 07005 RGTR--
+190903007 Mamer, Gaaschtbierg  -00928  00928                % 07005 RGTR--
+190903002 Mamer, Baerendall    -00930  00930                % 07005 RGTR--
+190903012 Mamer, Mambra        -00930  00930                % 07005 RGTR--
+190903005 Mamer, Eglantiers    -00932  00932                % 07005 RGTR--
+190901009 Capellen, Pafebruch   00934  00934                % 07005 RGTR--
+190901008 Capellen, Eechterfel  00934  00934                % 07005 RGTR--
+190901010 Capellen, Hirebesch   00935  00935                % 07005 RGTR--
+190606001 Olm, Dréischelsfeld   00937  00937                % 07005 RGTR--
+190702001 Goetzingen, Kiirch    00939  00939                % 07005 RGTR--
+190702002 Goetzingen, Kreiz     00940  00940                % 07005 RGTR--
+190701001 Goeblange, Giewel     00942  00942                % 07005 RGTR--
+190703003 Koerich, Weidewee     00943  00943                % 07005 RGTR--
+190703002 Koerich, Gemeng       00944  00944                % 07005 RGTR--
+190703001 Koerich, Fuurt        00944  00944                % 07005 RGTR--
+190703004 Koerich, SES          00948  00948                % 07005 RGTR--
+191002003 Septfontaines, Op La  00948  00948                % 07005 RGTR--
+191002001 Septfontaines, Schou  00952                       % 07005 RGTR--
+*Z 07006 RGTR--                                             % 07006 RGTR--
+*L 255      200405004 191002001  01610  01652               % 07006 RGTR--
+*A ag 200405004 191002001 000001  01610  01652              % 07006 RGTR--
+*R 1 191002001 200405004 191002001  01610  01652            % 07006 RGTR--
+*G RGB 200405004 191002001  01610  01652                    % 07006 RGTR--
+*A VE 200405004 191002001 000001  01610  01652              % 07006 RGTR--
+*I FD 200405004 191002001        0002081  01610  01652      % 07006 RGTR--
+200405004 Centre, Monterey Par         01610                % 07006 RGTR--
+200405045 Centre, Stäreplaz /  -01612  01612                % 07006 RGTR--
+200403018 Belair, Stade        -01614  01614                % 07006 RGTR--
+200403021 Belair, Wandmillen   -01615  01615                % 07006 RGTR--
+200901020 Strassen, Benelux    -01620  01620                % 07006 RGTR--
+200901017 Strassen, Kesseler   -01622  01622                % 07006 RGTR--
+200901011 Strassen, Schoenacht -01623  01623                % 07006 RGTR--
+200101002 Bertrange, Belle Eto -01625  01625                % 07006 RGTR--
+190903013 Mamer, Tossebierg    -01627  01627                % 07006 RGTR--
+190903007 Mamer, Gaaschtbierg  -01628  01628                % 07006 RGTR--
+190903002 Mamer, Baerendall    -01630  01630                % 07006 RGTR--
+190903012 Mamer, Mambra        -01630  01630                % 07006 RGTR--
+190903005 Mamer, Eglantiers    -01632  01632                % 07006 RGTR--
+190901009 Capellen, Pafebruch   01634  01634                % 07006 RGTR--
+190901008 Capellen, Eechterfel  01634  01634                % 07006 RGTR--
+190901010 Capellen, Hirebesch   01635  01635                % 07006 RGTR--
+190606001 Olm, Dréischelsfeld   01637  01637                % 07006 RGTR--
+190702001 Goetzingen, Kiirch    01639  01639                % 07006 RGTR--
+190702002 Goetzingen, Kreiz     01640  01640                % 07006 RGTR--
+190701001 Goeblange, Giewel     01642  01642                % 07006 RGTR--
+190703003 Koerich, Weidewee     01643  01643                % 07006 RGTR--
+190703002 Koerich, Gemeng       01644  01644                % 07006 RGTR--
+190703001 Koerich, Fuurt        01644  01644                % 07006 RGTR--
+190703004 Koerich, SES          01648  01648                % 07006 RGTR--
+191002003 Septfontaines, Op La  01648  01648                % 07006 RGTR--
+191002001 Septfontaines, Schou  01652                       % 07006 RGTR--
+*Z 07007 RGTR--                                             % 07007 RGTR--
+*L 255      200405004 191002001  01710  01752               % 07007 RGTR--
+*A ag 200405004 191002001 000001  01710  01752              % 07007 RGTR--
+*R 1 191002001 200405004 191002001  01710  01752            % 07007 RGTR--
+*G RGB 200405004 191002001  01710  01752                    % 07007 RGTR--
+*A VE 200405004 191002001 000001  01710  01752              % 07007 RGTR--
+*I FD 200405004 191002001        0002073  01710  01752      % 07007 RGTR--
+200405004 Centre, Monterey Par         01710                % 07007 RGTR--
+200405045 Centre, Stäreplaz /  -01712  01712                % 07007 RGTR--
+200403018 Belair, Stade        -01714  01714                % 07007 RGTR--
+200403021 Belair, Wandmillen   -01715  01715                % 07007 RGTR--
+200901020 Strassen, Benelux    -01720  01720                % 07007 RGTR--
+200901017 Strassen, Kesseler   -01722  01722                % 07007 RGTR--
+200901011 Strassen, Schoenacht -01723  01723                % 07007 RGTR--
+200101002 Bertrange, Belle Eto -01725  01725                % 07007 RGTR--
+190903013 Mamer, Tossebierg    -01727  01727                % 07007 RGTR--
+190903007 Mamer, Gaaschtbierg  -01728  01728                % 07007 RGTR--
+190903002 Mamer, Baerendall    -01730  01730                % 07007 RGTR--
+190903012 Mamer, Mambra        -01730  01730                % 07007 RGTR--
+190903005 Mamer, Eglantiers    -01732  01732                % 07007 RGTR--
+190901009 Capellen, Pafebruch   01734  01734                % 07007 RGTR--
+190901008 Capellen, Eechterfel  01734  01734                % 07007 RGTR--
+190901010 Capellen, Hirebesch   01735  01735                % 07007 RGTR--
+190606001 Olm, Dréischelsfeld   01737  01737                % 07007 RGTR--
+190702001 Goetzingen, Kiirch    01739  01739                % 07007 RGTR--
+190702002 Goetzingen, Kreiz     01740  01740                % 07007 RGTR--
+190701001 Goeblange, Giewel     01742  01742                % 07007 RGTR--
+190703003 Koerich, Weidewee     01743  01743                % 07007 RGTR--
+190703002 Koerich, Gemeng       01744  01744                % 07007 RGTR--
+190703001 Koerich, Fuurt        01744  01744                % 07007 RGTR--
+190703004 Koerich, SES          01748  01748                % 07007 RGTR--
+191002003 Septfontaines, Op La  01748  01748                % 07007 RGTR--
+191002001 Septfontaines, Schou  01752                       % 07007 RGTR--
+*Z 07008 RGTR--                                             % 07008 RGTR--
+*L 255      200405004 191002001  01740  01822               % 07008 RGTR--
+*A ag 200405004 191002001 000001  01740  01822              % 07008 RGTR--
+*R 1 191002001 200405004 191002001  01740  01822            % 07008 RGTR--
+*G RGB 200405004 191002001  01740  01822                    % 07008 RGTR--
+*A VE 200405004 191002001 000001  01740  01822              % 07008 RGTR--
+*I FD 200405004 191002001        0001985  01740  01822      % 07008 RGTR--
+200405004 Centre, Monterey Par         01740                % 07008 RGTR--
+200405045 Centre, Stäreplaz /  -01742  01742                % 07008 RGTR--
+200403018 Belair, Stade        -01744  01744                % 07008 RGTR--
+200403021 Belair, Wandmillen   -01745  01745                % 07008 RGTR--
+200901020 Strassen, Benelux    -01750  01750                % 07008 RGTR--
+200901017 Strassen, Kesseler   -01752  01752                % 07008 RGTR--
+200901011 Strassen, Schoenacht -01753  01753                % 07008 RGTR--
+200101002 Bertrange, Belle Eto -01755  01755                % 07008 RGTR--
+190903013 Mamer, Tossebierg    -01757  01757                % 07008 RGTR--
+190903007 Mamer, Gaaschtbierg  -01758  01758                % 07008 RGTR--
+190903002 Mamer, Baerendall    -01800  01800                % 07008 RGTR--
+190903012 Mamer, Mambra        -01800  01800                % 07008 RGTR--
+190903005 Mamer, Eglantiers    -01802  01802                % 07008 RGTR--
+190901009 Capellen, Pafebruch   01804  01804                % 07008 RGTR--
+190901008 Capellen, Eechterfel  01804  01804                % 07008 RGTR--
+190901010 Capellen, Hirebesch   01805  01805                % 07008 RGTR--
+190606001 Olm, Dréischelsfeld   01807  01807                % 07008 RGTR--
+190702001 Goetzingen, Kiirch    01809  01809                % 07008 RGTR--
+190702002 Goetzingen, Kreiz     01810  01810                % 07008 RGTR--
+190701001 Goeblange, Giewel     01812  01812                % 07008 RGTR--
+190703003 Koerich, Weidewee     01813  01813                % 07008 RGTR--
+190703002 Koerich, Gemeng       01814  01814                % 07008 RGTR--
+190703001 Koerich, Fuurt        01814  01814                % 07008 RGTR--
+190703004 Koerich, SES          01818  01818                % 07008 RGTR--
+191002003 Septfontaines, Op La  01818  01818                % 07008 RGTR--
+191002001 Septfontaines, Schou  01822                       % 07008 RGTR--
+*Z 07009 RGTR--                                             % 07009 RGTR--
+*L 255      200405004 191002001  01810  01852               % 07009 RGTR--
+*A ag 200405004 191002001 000001  01810  01852              % 07009 RGTR--
+*R 1 191002001 200405004 191002001  01810  01852            % 07009 RGTR--
+*G RGB 200405004 191002001  01810  01852                    % 07009 RGTR--
+*A VE 200405004 191002001 000001  01810  01852              % 07009 RGTR--
+*I FD 200405004 191002001        0002085  01810  01852      % 07009 RGTR--
+200405004 Centre, Monterey Par         01810                % 07009 RGTR--
+200405045 Centre, Stäreplaz /  -01812  01812                % 07009 RGTR--
+200403018 Belair, Stade        -01814  01814                % 07009 RGTR--
+200403021 Belair, Wandmillen   -01815  01815                % 07009 RGTR--
+200901020 Strassen, Benelux    -01820  01820                % 07009 RGTR--
+200901017 Strassen, Kesseler   -01822  01822                % 07009 RGTR--
+200901011 Strassen, Schoenacht -01823  01823                % 07009 RGTR--
+200101002 Bertrange, Belle Eto -01825  01825                % 07009 RGTR--
+190903013 Mamer, Tossebierg    -01827  01827                % 07009 RGTR--
+190903007 Mamer, Gaaschtbierg  -01828  01828                % 07009 RGTR--
+190903002 Mamer, Baerendall    -01830  01830                % 07009 RGTR--
+190903012 Mamer, Mambra        -01830  01830                % 07009 RGTR--
+190903005 Mamer, Eglantiers    -01832  01832                % 07009 RGTR--
+190901009 Capellen, Pafebruch   01834  01834                % 07009 RGTR--
+190901008 Capellen, Eechterfel  01834  01834                % 07009 RGTR--
+190901010 Capellen, Hirebesch   01835  01835                % 07009 RGTR--
+190606001 Olm, Dréischelsfeld   01837  01837                % 07009 RGTR--
+190702001 Goetzingen, Kiirch    01839  01839                % 07009 RGTR--
+190702002 Goetzingen, Kreiz     01840  01840                % 07009 RGTR--
+190701001 Goeblange, Giewel     01842  01842                % 07009 RGTR--
+190703003 Koerich, Weidewee     01843  01843                % 07009 RGTR--
+190703002 Koerich, Gemeng       01844  01844                % 07009 RGTR--
+190703001 Koerich, Fuurt        01844  01844                % 07009 RGTR--
+190703004 Koerich, SES          01848  01848                % 07009 RGTR--
+191002003 Septfontaines, Op La  01848  01848                % 07009 RGTR--
+191002001 Septfontaines, Schou  01852                       % 07009 RGTR--
+*Z 07010 RGTR--                                             % 07010 RGTR--
+*L 255      200405004 191002001  01645  01727               % 07010 RGTR--
+*A ag 200405004 191002001 000002  01645  01727              % 07010 RGTR--
+*R 1 191002001 200405004 191002001  01645  01727            % 07010 RGTR--
+*G RGB 200405004 191002001  01645  01727                    % 07010 RGTR--
+*A VE 200405004 191002001 000002  01645  01727              % 07010 RGTR--
+*I FD 200405004 191002001        0001267  01645  01727      % 07010 RGTR--
+200405004 Centre, Monterey Par         01645                % 07010 RGTR--
+200405045 Centre, Stäreplaz /  -01647  01647                % 07010 RGTR--
+200403018 Belair, Stade        -01649  01649                % 07010 RGTR--
+200403021 Belair, Wandmillen   -01650  01650                % 07010 RGTR--
+200901020 Strassen, Benelux    -01655  01655                % 07010 RGTR--
+200901017 Strassen, Kesseler   -01657  01657                % 07010 RGTR--
+200901011 Strassen, Schoenacht -01658  01658                % 07010 RGTR--
+200101002 Bertrange, Belle Eto -01700  01700                % 07010 RGTR--
+190903013 Mamer, Tossebierg    -01702  01702                % 07010 RGTR--
+190903007 Mamer, Gaaschtbierg  -01703  01703                % 07010 RGTR--
+190903002 Mamer, Baerendall    -01705  01705                % 07010 RGTR--
+190903012 Mamer, Mambra        -01705  01705                % 07010 RGTR--
+190903005 Mamer, Eglantiers    -01707  01707                % 07010 RGTR--
+190901009 Capellen, Pafebruch   01709  01709                % 07010 RGTR--
+190901008 Capellen, Eechterfel  01709  01709                % 07010 RGTR--
+190901010 Capellen, Hirebesch   01710  01710                % 07010 RGTR--
+190606001 Olm, Dréischelsfeld   01712  01712                % 07010 RGTR--
+190702001 Goetzingen, Kiirch    01714  01714                % 07010 RGTR--
+190702002 Goetzingen, Kreiz     01715  01715                % 07010 RGTR--
+190701001 Goeblange, Giewel     01717  01717                % 07010 RGTR--
+190703003 Koerich, Weidewee     01718  01718                % 07010 RGTR--
+190703002 Koerich, Gemeng       01719  01719                % 07010 RGTR--
+190703001 Koerich, Fuurt        01719  01719                % 07010 RGTR--
+190703004 Koerich, SES          01723  01723                % 07010 RGTR--
+191002003 Septfontaines, Op La  01723  01723                % 07010 RGTR--
+191002001 Septfontaines, Schou  01727                       % 07010 RGTR--
+*Z 07011 RGTR--                                             % 07011 RGTR--
+*L 255      200405004 191002001  01010  01047               % 07011 RGTR--
+*A ag 200405004 191002001 000000  01010  01047              % 07011 RGTR--
+*R 1 191002001 200405004 191002001  01010  01047            % 07011 RGTR--
+*G RGB 200405004 191002001  01010  01047                    % 07011 RGTR--
+*A VE 200405004 191002001 000000  01010  01047              % 07011 RGTR--
+*I FD 200405004 191002001        0002049  01010  01047      % 07011 RGTR--
+200405004 Centre, Monterey Par         01010                % 07011 RGTR--
+200405045 Centre, Stäreplaz /  -01012  01012                % 07011 RGTR--
+200403018 Belair, Stade        -01013  01013                % 07011 RGTR--
+200403021 Belair, Wandmillen   -01014  01014                % 07011 RGTR--
+200901020 Strassen, Benelux    -01019  01019                % 07011 RGTR--
+200901017 Strassen, Kesseler   -01020  01020                % 07011 RGTR--
+200901011 Strassen, Schoenacht -01021  01021                % 07011 RGTR--
+200101002 Bertrange, Belle Eto -01023  01023                % 07011 RGTR--
+190903013 Mamer, Tossebierg    -01024  01024                % 07011 RGTR--
+190903007 Mamer, Gaaschtbierg  -01025  01025                % 07011 RGTR--
+190903002 Mamer, Baerendall    -01026  01026                % 07011 RGTR--
+190903012 Mamer, Mambra        -01027  01027                % 07011 RGTR--
+190903005 Mamer, Eglantiers    -01028  01028                % 07011 RGTR--
+190901009 Capellen, Pafebruch   01029  01029                % 07011 RGTR--
+190901008 Capellen, Eechterfel  01030  01030                % 07011 RGTR--
+190901010 Capellen, Hirebesch   01030  01030                % 07011 RGTR--
+190606001 Olm, Dréischelsfeld   01032  01032                % 07011 RGTR--
+190702001 Goetzingen, Kiirch    01034  01034                % 07011 RGTR--
+190702002 Goetzingen, Kreiz     01035  01035                % 07011 RGTR--
+190701001 Goeblange, Giewel     01037  01037                % 07011 RGTR--
+190703003 Koerich, Weidewee     01038  01038                % 07011 RGTR--
+190703002 Koerich, Gemeng       01039  01039                % 07011 RGTR--
+190703001 Koerich, Fuurt        01039  01039                % 07011 RGTR--
+190703004 Koerich, SES          01043  01043                % 07011 RGTR--
+191002003 Septfontaines, Op La  01043  01043                % 07011 RGTR--
+191002001 Septfontaines, Schou  01047                       % 07011 RGTR--
+*Z 07012 RGTR--                                             % 07012 RGTR--
+*L 255      200405004 191002001  01210  01247               % 07012 RGTR--
+*A ag 200405004 191002001 000000  01210  01247              % 07012 RGTR--
+*R 1 191002001 200405004 191002001  01210  01247            % 07012 RGTR--
+*G RGB 200405004 191002001  01210  01247                    % 07012 RGTR--
+*A VE 200405004 191002001 000000  01210  01247              % 07012 RGTR--
+*I FD 200405004 191002001        0002060  01210  01247      % 07012 RGTR--
+200405004 Centre, Monterey Par         01210                % 07012 RGTR--
+200405045 Centre, Stäreplaz /  -01212  01212                % 07012 RGTR--
+200403018 Belair, Stade        -01213  01213                % 07012 RGTR--
+200403021 Belair, Wandmillen   -01214  01214                % 07012 RGTR--
+200901020 Strassen, Benelux    -01219  01219                % 07012 RGTR--
+200901017 Strassen, Kesseler   -01220  01220                % 07012 RGTR--
+200901011 Strassen, Schoenacht -01221  01221                % 07012 RGTR--
+200101002 Bertrange, Belle Eto -01223  01223                % 07012 RGTR--
+190903013 Mamer, Tossebierg    -01224  01224                % 07012 RGTR--
+190903007 Mamer, Gaaschtbierg  -01225  01225                % 07012 RGTR--
+190903002 Mamer, Baerendall    -01226  01226                % 07012 RGTR--
+190903012 Mamer, Mambra        -01227  01227                % 07012 RGTR--
+190903005 Mamer, Eglantiers    -01228  01228                % 07012 RGTR--
+190901009 Capellen, Pafebruch   01229  01229                % 07012 RGTR--
+190901008 Capellen, Eechterfel  01230  01230                % 07012 RGTR--
+190901010 Capellen, Hirebesch   01230  01230                % 07012 RGTR--
+190606001 Olm, Dréischelsfeld   01232  01232                % 07012 RGTR--
+190702001 Goetzingen, Kiirch    01234  01234                % 07012 RGTR--
+190702002 Goetzingen, Kreiz     01235  01235                % 07012 RGTR--
+190701001 Goeblange, Giewel     01237  01237                % 07012 RGTR--
+190703003 Koerich, Weidewee     01238  01238                % 07012 RGTR--
+190703002 Koerich, Gemeng       01239  01239                % 07012 RGTR--
+190703001 Koerich, Fuurt        01239  01239                % 07012 RGTR--
+190703004 Koerich, SES          01243  01243                % 07012 RGTR--
+191002003 Septfontaines, Op La  01243  01243                % 07012 RGTR--
+191002001 Septfontaines, Schou  01247                       % 07012 RGTR--
+*Z 07013 RGTR--                                             % 07013 RGTR--
+*L 255      200405004 191002001  01410  01447               % 07013 RGTR--
+*A ag 200405004 191002001 000000  01410  01447              % 07013 RGTR--
+*R 1 191002001 200405004 191002001  01410  01447            % 07013 RGTR--
+*G RGB 200405004 191002001  01410  01447                    % 07013 RGTR--
+*A VE 200405004 191002001 000000  01410  01447              % 07013 RGTR--
+*I FD 200405004 191002001        0002065  01410  01447      % 07013 RGTR--
+200405004 Centre, Monterey Par         01410                % 07013 RGTR--
+200405045 Centre, Stäreplaz /  -01412  01412                % 07013 RGTR--
+200403018 Belair, Stade        -01413  01413                % 07013 RGTR--
+200403021 Belair, Wandmillen   -01414  01414                % 07013 RGTR--
+200901020 Strassen, Benelux    -01419  01419                % 07013 RGTR--
+200901017 Strassen, Kesseler   -01420  01420                % 07013 RGTR--
+200901011 Strassen, Schoenacht -01421  01421                % 07013 RGTR--
+200101002 Bertrange, Belle Eto -01423  01423                % 07013 RGTR--
+190903013 Mamer, Tossebierg    -01424  01424                % 07013 RGTR--
+190903007 Mamer, Gaaschtbierg  -01425  01425                % 07013 RGTR--
+190903002 Mamer, Baerendall    -01426  01426                % 07013 RGTR--
+190903012 Mamer, Mambra        -01427  01427                % 07013 RGTR--
+190903005 Mamer, Eglantiers    -01428  01428                % 07013 RGTR--
+190901009 Capellen, Pafebruch   01429  01429                % 07013 RGTR--
+190901008 Capellen, Eechterfel  01430  01430                % 07013 RGTR--
+190901010 Capellen, Hirebesch   01430  01430                % 07013 RGTR--
+190606001 Olm, Dréischelsfeld   01432  01432                % 07013 RGTR--
+190702001 Goetzingen, Kiirch    01434  01434                % 07013 RGTR--
+190702002 Goetzingen, Kreiz     01435  01435                % 07013 RGTR--
+190701001 Goeblange, Giewel     01437  01437                % 07013 RGTR--
+190703003 Koerich, Weidewee     01438  01438                % 07013 RGTR--
+190703002 Koerich, Gemeng       01439  01439                % 07013 RGTR--
+190703001 Koerich, Fuurt        01439  01439                % 07013 RGTR--
+190703004 Koerich, SES          01443  01443                % 07013 RGTR--
+191002003 Septfontaines, Op La  01443  01443                % 07013 RGTR--
+191002001 Septfontaines, Schou  01447                       % 07013 RGTR--
+*Z 07014 RGTR--                                             % 07014 RGTR--
+*L 255      200405004 191002001  01110  01147               % 07014 RGTR--
+*A ag 200405004 191002001 000001  01110  01147              % 07014 RGTR--
+*R 1 191002001 200405004 191002001  01110  01147            % 07014 RGTR--
+*G RGB 200405004 191002001  01110  01147                    % 07014 RGTR--
+*A VE 200405004 191002001 000001  01110  01147              % 07014 RGTR--
+*I FD 200405004 191002001        0001030  01110  01147      % 07014 RGTR--
+200405004 Centre, Monterey Par         01110                % 07014 RGTR--
+200405045 Centre, Stäreplaz /  -01112  01112                % 07014 RGTR--
+200403018 Belair, Stade        -01113  01113                % 07014 RGTR--
+200403021 Belair, Wandmillen   -01114  01114                % 07014 RGTR--
+200901020 Strassen, Benelux    -01119  01119                % 07014 RGTR--
+200901017 Strassen, Kesseler   -01120  01120                % 07014 RGTR--
+200901011 Strassen, Schoenacht -01121  01121                % 07014 RGTR--
+200101002 Bertrange, Belle Eto -01123  01123                % 07014 RGTR--
+190903013 Mamer, Tossebierg    -01124  01124                % 07014 RGTR--
+190903007 Mamer, Gaaschtbierg  -01125  01125                % 07014 RGTR--
+190903002 Mamer, Baerendall    -01126  01126                % 07014 RGTR--
+190903012 Mamer, Mambra        -01127  01127                % 07014 RGTR--
+190903005 Mamer, Eglantiers    -01128  01128                % 07014 RGTR--
+190901009 Capellen, Pafebruch   01129  01129                % 07014 RGTR--
+190901008 Capellen, Eechterfel  01130  01130                % 07014 RGTR--
+190901010 Capellen, Hirebesch   01130  01130                % 07014 RGTR--
+190606001 Olm, Dréischelsfeld   01132  01132                % 07014 RGTR--
+190702001 Goetzingen, Kiirch    01134  01134                % 07014 RGTR--
+190702002 Goetzingen, Kreiz     01135  01135                % 07014 RGTR--
+190701001 Goeblange, Giewel     01137  01137                % 07014 RGTR--
+190703003 Koerich, Weidewee     01138  01138                % 07014 RGTR--
+190703002 Koerich, Gemeng       01139  01139                % 07014 RGTR--
+190703001 Koerich, Fuurt        01139  01139                % 07014 RGTR--
+190703004 Koerich, SES          01143  01143                % 07014 RGTR--
+191002003 Septfontaines, Op La  01143  01143                % 07014 RGTR--
+191002001 Septfontaines, Schou  01147                       % 07014 RGTR--
+*Z 00142 RGTR--                                             % 00142 RGTR--
+*L 255      200405004 191002001  01310  01347               % 00142 RGTR--
+*A ag 200405004 191002001 000001  01310  01347              % 00142 RGTR--
+*R 1 191002001 200405004 191002001  01310  01347            % 00142 RGTR--
+*G RGB 200405004 191002001  01310  01347                    % 00142 RGTR--
+*A VE 200405004 191002001 000001  01310  01347              % 00142 RGTR--
+*I FD 200405004 191002001        0002062  01310  01347      % 00142 RGTR--
+200405004 Centre, Monterey Par         01310                % 00142 RGTR--
+200405045 Centre, Stäreplaz /  -01312  01312                % 00142 RGTR--
+200403018 Belair, Stade        -01313  01313                % 00142 RGTR--
+200403021 Belair, Wandmillen   -01314  01314                % 00142 RGTR--
+200901020 Strassen, Benelux    -01319  01319                % 00142 RGTR--
+200901017 Strassen, Kesseler   -01320  01320                % 00142 RGTR--
+200901011 Strassen, Schoenacht -01321  01321                % 00142 RGTR--
+200101002 Bertrange, Belle Eto -01323  01323                % 00142 RGTR--
+190903013 Mamer, Tossebierg    -01324  01324                % 00142 RGTR--
+190903007 Mamer, Gaaschtbierg  -01325  01325                % 00142 RGTR--
+190903002 Mamer, Baerendall    -01326  01326                % 00142 RGTR--
+190903012 Mamer, Mambra        -01327  01327                % 00142 RGTR--
+190903005 Mamer, Eglantiers    -01328  01328                % 00142 RGTR--
+190901009 Capellen, Pafebruch   01329  01329                % 00142 RGTR--
+190901008 Capellen, Eechterfel  01330  01330                % 00142 RGTR--
+190901010 Capellen, Hirebesch   01330  01330                % 00142 RGTR--
+190606001 Olm, Dréischelsfeld   01332  01332                % 00142 RGTR--
+190702001 Goetzingen, Kiirch    01334  01334                % 00142 RGTR--
+190702002 Goetzingen, Kreiz     01335  01335                % 00142 RGTR--
+190701001 Goeblange, Giewel     01337  01337                % 00142 RGTR--
+190703003 Koerich, Weidewee     01338  01338                % 00142 RGTR--
+190703002 Koerich, Gemeng       01339  01339                % 00142 RGTR--
+190703001 Koerich, Fuurt        01339  01339                % 00142 RGTR--
+190703004 Koerich, SES          01343  01343                % 00142 RGTR--
+191002003 Septfontaines, Op La  01343  01343                % 00142 RGTR--
+191002001 Septfontaines, Schou  01347                       % 00142 RGTR--
+*Z 00180 RGTR--                                             % 00180 RGTR--
+*L 255      200405004 191002001  01510  01547               % 00180 RGTR--
+*A ag 200405004 191002001 000001  01510  01547              % 00180 RGTR--
+*R 1 191002001 200405004 191002001  01510  01547            % 00180 RGTR--
+*G RGB 200405004 191002001  01510  01547                    % 00180 RGTR--
+*A VE 200405004 191002001 000001  01510  01547              % 00180 RGTR--
+*I FD 200405004 191002001        0002067  01510  01547      % 00180 RGTR--
+200405004 Centre, Monterey Par         01510                % 00180 RGTR--
+200405045 Centre, Stäreplaz /  -01512  01512                % 00180 RGTR--
+200403018 Belair, Stade        -01513  01513                % 00180 RGTR--
+200403021 Belair, Wandmillen   -01514  01514                % 00180 RGTR--
+200901020 Strassen, Benelux    -01519  01519                % 00180 RGTR--
+200901017 Strassen, Kesseler   -01520  01520                % 00180 RGTR--
+200901011 Strassen, Schoenacht -01521  01521                % 00180 RGTR--
+200101002 Bertrange, Belle Eto -01523  01523                % 00180 RGTR--
+190903013 Mamer, Tossebierg    -01524  01524                % 00180 RGTR--
+190903007 Mamer, Gaaschtbierg  -01525  01525                % 00180 RGTR--
+190903002 Mamer, Baerendall    -01526  01526                % 00180 RGTR--
+190903012 Mamer, Mambra        -01527  01527                % 00180 RGTR--
+190903005 Mamer, Eglantiers    -01528  01528                % 00180 RGTR--
+190901009 Capellen, Pafebruch   01529  01529                % 00180 RGTR--
+190901008 Capellen, Eechterfel  01530  01530                % 00180 RGTR--
+190901010 Capellen, Hirebesch   01530  01530                % 00180 RGTR--
+190606001 Olm, Dréischelsfeld   01532  01532                % 00180 RGTR--
+190702001 Goetzingen, Kiirch    01534  01534                % 00180 RGTR--
+190702002 Goetzingen, Kreiz     01535  01535                % 00180 RGTR--
+190701001 Goeblange, Giewel     01537  01537                % 00180 RGTR--
+190703003 Koerich, Weidewee     01538  01538                % 00180 RGTR--
+190703002 Koerich, Gemeng       01539  01539                % 00180 RGTR--
+190703001 Koerich, Fuurt        01539  01539                % 00180 RGTR--
+190703004 Koerich, SES          01543  01543                % 00180 RGTR--
+191002003 Septfontaines, Op La  01543  01543                % 00180 RGTR--
+191002001 Septfontaines, Schou  01547                       % 00180 RGTR--
+*Z 07015 RGTR--                                             % 07015 RGTR--
+*L 255      200405004 191002001  01910  01947               % 07015 RGTR--
+*A ag 200405004 191002001 000001  01910  01947              % 07015 RGTR--
+*R 1 191002001 200405004 191002001  01910  01947            % 07015 RGTR--
+*G RGB 200405004 191002001  01910  01947                    % 07015 RGTR--
+*A VE 200405004 191002001 000001  01910  01947              % 07015 RGTR--
+*I FD 200405004 191002001        0002660  01910  01947      % 07015 RGTR--
+200405004 Centre, Monterey Par         01910                % 07015 RGTR--
+200405045 Centre, Stäreplaz /  -01912  01912                % 07015 RGTR--
+200403018 Belair, Stade        -01913  01913                % 07015 RGTR--
+200403021 Belair, Wandmillen   -01914  01914                % 07015 RGTR--
+200901020 Strassen, Benelux    -01919  01919                % 07015 RGTR--
+200901017 Strassen, Kesseler   -01920  01920                % 07015 RGTR--
+200901011 Strassen, Schoenacht -01921  01921                % 07015 RGTR--
+200101002 Bertrange, Belle Eto -01923  01923                % 07015 RGTR--
+190903013 Mamer, Tossebierg    -01924  01924                % 07015 RGTR--
+190903007 Mamer, Gaaschtbierg  -01925  01925                % 07015 RGTR--
+190903002 Mamer, Baerendall    -01926  01926                % 07015 RGTR--
+190903012 Mamer, Mambra        -01927  01927                % 07015 RGTR--
+190903005 Mamer, Eglantiers    -01928  01928                % 07015 RGTR--
+190901009 Capellen, Pafebruch   01929  01929                % 07015 RGTR--
+190901008 Capellen, Eechterfel  01930  01930                % 07015 RGTR--
+190901010 Capellen, Hirebesch   01930  01930                % 07015 RGTR--
+190606001 Olm, Dréischelsfeld   01932  01932                % 07015 RGTR--
+190702001 Goetzingen, Kiirch    01934  01934                % 07015 RGTR--
+190702002 Goetzingen, Kreiz     01935  01935                % 07015 RGTR--
+190701001 Goeblange, Giewel     01937  01937                % 07015 RGTR--
+190703003 Koerich, Weidewee     01938  01938                % 07015 RGTR--
+190703002 Koerich, Gemeng       01939  01939                % 07015 RGTR--
+190703001 Koerich, Fuurt        01939  01939                % 07015 RGTR--
+190703004 Koerich, SES          01943  01943                % 07015 RGTR--
+191002003 Septfontaines, Op La  01943  01943                % 07015 RGTR--
+191002001 Septfontaines, Schou  01947                       % 07015 RGTR--
+*Z 07016 RGTR--                                             % 07016 RGTR--
+*L 255      200405004 191002001  02110  02147               % 07016 RGTR--
+*A ag 200405004 191002001 000001  02110  02147              % 07016 RGTR--
+*R 1 191002001 200405004 191002001  02110  02147            % 07016 RGTR--
+*G RGB 200405004 191002001  02110  02147                    % 07016 RGTR--
+*A VE 200405004 191002001 000001  02110  02147              % 07016 RGTR--
+*I FD 200405004 191002001        0002860  02110  02147      % 07016 RGTR--
+200405004 Centre, Monterey Par         02110                % 07016 RGTR--
+200405045 Centre, Stäreplaz /  -02112  02112                % 07016 RGTR--
+200403018 Belair, Stade        -02113  02113                % 07016 RGTR--
+200403021 Belair, Wandmillen   -02114  02114                % 07016 RGTR--
+200901020 Strassen, Benelux    -02119  02119                % 07016 RGTR--
+200901017 Strassen, Kesseler   -02120  02120                % 07016 RGTR--
+200901011 Strassen, Schoenacht -02121  02121                % 07016 RGTR--
+200101002 Bertrange, Belle Eto -02123  02123                % 07016 RGTR--
+190903013 Mamer, Tossebierg    -02124  02124                % 07016 RGTR--
+190903007 Mamer, Gaaschtbierg  -02125  02125                % 07016 RGTR--
+190903002 Mamer, Baerendall    -02126  02126                % 07016 RGTR--
+190903012 Mamer, Mambra        -02127  02127                % 07016 RGTR--
+190903005 Mamer, Eglantiers    -02128  02128                % 07016 RGTR--
+190901009 Capellen, Pafebruch   02129  02129                % 07016 RGTR--
+190901008 Capellen, Eechterfel  02130  02130                % 07016 RGTR--
+190901010 Capellen, Hirebesch   02130  02130                % 07016 RGTR--
+190606001 Olm, Dréischelsfeld   02132  02132                % 07016 RGTR--
+190702001 Goetzingen, Kiirch    02134  02134                % 07016 RGTR--
+190702002 Goetzingen, Kreiz     02135  02135                % 07016 RGTR--
+190701001 Goeblange, Giewel     02137  02137                % 07016 RGTR--
+190703003 Koerich, Weidewee     02138  02138                % 07016 RGTR--
+190703002 Koerich, Gemeng       02139  02139                % 07016 RGTR--
+190703001 Koerich, Fuurt        02139  02139                % 07016 RGTR--
+190703004 Koerich, SES          02143  02143                % 07016 RGTR--
+191002003 Septfontaines, Op La  02143  02143                % 07016 RGTR--
+191002001 Septfontaines, Schou  02147                       % 07016 RGTR--
+*Z 07017 RGTR--                                             % 07017 RGTR--
+*L 255      200405004 191002001  02310  02347               % 07017 RGTR--
+*A ag 200405004 191002001 000001  02310  02347              % 07017 RGTR--
+*R 1 191002001 200405004 191002001  02310  02347            % 07017 RGTR--
+*G RGB 200405004 191002001  02310  02347                    % 07017 RGTR--
+*A VE 200405004 191002001 000001  02310  02347              % 07017 RGTR--
+*I FD 200405004 191002001        0002861  02310  02347      % 07017 RGTR--
+200405004 Centre, Monterey Par         02310                % 07017 RGTR--
+200405045 Centre, Stäreplaz /  -02312  02312                % 07017 RGTR--
+200403018 Belair, Stade        -02313  02313                % 07017 RGTR--
+200403021 Belair, Wandmillen   -02314  02314                % 07017 RGTR--
+200901020 Strassen, Benelux    -02319  02319                % 07017 RGTR--
+200901017 Strassen, Kesseler   -02320  02320                % 07017 RGTR--
+200901011 Strassen, Schoenacht -02321  02321                % 07017 RGTR--
+200101002 Bertrange, Belle Eto -02323  02323                % 07017 RGTR--
+190903013 Mamer, Tossebierg    -02324  02324                % 07017 RGTR--
+190903007 Mamer, Gaaschtbierg  -02325  02325                % 07017 RGTR--
+190903002 Mamer, Baerendall    -02326  02326                % 07017 RGTR--
+190903012 Mamer, Mambra        -02327  02327                % 07017 RGTR--
+190903005 Mamer, Eglantiers    -02328  02328                % 07017 RGTR--
+190901009 Capellen, Pafebruch   02329  02329                % 07017 RGTR--
+190901008 Capellen, Eechterfel  02330  02330                % 07017 RGTR--
+190901010 Capellen, Hirebesch   02330  02330                % 07017 RGTR--
+190606001 Olm, Dréischelsfeld   02332  02332                % 07017 RGTR--
+190702001 Goetzingen, Kiirch    02334  02334                % 07017 RGTR--
+190702002 Goetzingen, Kreiz     02335  02335                % 07017 RGTR--
+190701001 Goeblange, Giewel     02337  02337                % 07017 RGTR--
+190703003 Koerich, Weidewee     02338  02338                % 07017 RGTR--
+190703002 Koerich, Gemeng       02339  02339                % 07017 RGTR--
+190703001 Koerich, Fuurt        02339  02339                % 07017 RGTR--
+190703004 Koerich, SES          02343  02343                % 07017 RGTR--
+191002003 Septfontaines, Op La  02343  02343                % 07017 RGTR--
+191002001 Septfontaines, Schou  02347                       % 07017 RGTR--
+*Z 07018 RGTR--                                             % 07018 RGTR--
+*L 255      200405004 191002001  01610  01647               % 07018 RGTR--
+*A ag 200405004 191002001 000003  01610  01647              % 07018 RGTR--
+*R 1 191002001 200405004 191002001  01610  01647            % 07018 RGTR--
+*G RGB 200405004 191002001  01610  01647                    % 07018 RGTR--
+*A VE 200405004 191002001 000003  01610  01647              % 07018 RGTR--
+*I FD 200405004 191002001        0002081  01610  01647      % 07018 RGTR--
+200405004 Centre, Monterey Par         01610                % 07018 RGTR--
+200405045 Centre, Stäreplaz /  -01612  01612                % 07018 RGTR--
+200403018 Belair, Stade        -01613  01613                % 07018 RGTR--
+200403021 Belair, Wandmillen   -01614  01614                % 07018 RGTR--
+200901020 Strassen, Benelux    -01619  01619                % 07018 RGTR--
+200901017 Strassen, Kesseler   -01620  01620                % 07018 RGTR--
+200901011 Strassen, Schoenacht -01621  01621                % 07018 RGTR--
+200101002 Bertrange, Belle Eto -01623  01623                % 07018 RGTR--
+190903013 Mamer, Tossebierg    -01624  01624                % 07018 RGTR--
+190903007 Mamer, Gaaschtbierg  -01625  01625                % 07018 RGTR--
+190903002 Mamer, Baerendall    -01626  01626                % 07018 RGTR--
+190903012 Mamer, Mambra        -01627  01627                % 07018 RGTR--
+190903005 Mamer, Eglantiers    -01628  01628                % 07018 RGTR--
+190901009 Capellen, Pafebruch   01629  01629                % 07018 RGTR--
+190901008 Capellen, Eechterfel  01630  01630                % 07018 RGTR--
+190901010 Capellen, Hirebesch   01630  01630                % 07018 RGTR--
+190606001 Olm, Dréischelsfeld   01632  01632                % 07018 RGTR--
+190702001 Goetzingen, Kiirch    01634  01634                % 07018 RGTR--
+190702002 Goetzingen, Kreiz     01635  01635                % 07018 RGTR--
+190701001 Goeblange, Giewel     01637  01637                % 07018 RGTR--
+190703003 Koerich, Weidewee     01638  01638                % 07018 RGTR--
+190703002 Koerich, Gemeng       01639  01639                % 07018 RGTR--
+190703001 Koerich, Fuurt        01639  01639                % 07018 RGTR--
+190703004 Koerich, SES          01643  01643                % 07018 RGTR--
+191002003 Septfontaines, Op La  01643  01643                % 07018 RGTR--
+191002001 Septfontaines, Schou  01647                       % 07018 RGTR--
+*Z 07019 RGTR--                                             % 07019 RGTR--
+*L 255      200405004 191002001  01810  01847               % 07019 RGTR--
+*A ag 200405004 191002001 000003  01810  01847              % 07019 RGTR--
+*R 1 191002001 200405004 191002001  01810  01847            % 07019 RGTR--
+*G RGB 200405004 191002001  01810  01847                    % 07019 RGTR--
+*A VE 200405004 191002001 000003  01810  01847              % 07019 RGTR--
+*I FD 200405004 191002001        0002085  01810  01847      % 07019 RGTR--
+200405004 Centre, Monterey Par         01810                % 07019 RGTR--
+200405045 Centre, Stäreplaz /  -01812  01812                % 07019 RGTR--
+200403018 Belair, Stade        -01813  01813                % 07019 RGTR--
+200403021 Belair, Wandmillen   -01814  01814                % 07019 RGTR--
+200901020 Strassen, Benelux    -01819  01819                % 07019 RGTR--
+200901017 Strassen, Kesseler   -01820  01820                % 07019 RGTR--
+200901011 Strassen, Schoenacht -01821  01821                % 07019 RGTR--
+200101002 Bertrange, Belle Eto -01823  01823                % 07019 RGTR--
+190903013 Mamer, Tossebierg    -01824  01824                % 07019 RGTR--
+190903007 Mamer, Gaaschtbierg  -01825  01825                % 07019 RGTR--
+190903002 Mamer, Baerendall    -01826  01826                % 07019 RGTR--
+190903012 Mamer, Mambra        -01827  01827                % 07019 RGTR--
+190903005 Mamer, Eglantiers    -01828  01828                % 07019 RGTR--
+190901009 Capellen, Pafebruch   01829  01829                % 07019 RGTR--
+190901008 Capellen, Eechterfel  01830  01830                % 07019 RGTR--
+190901010 Capellen, Hirebesch   01830  01830                % 07019 RGTR--
+190606001 Olm, Dréischelsfeld   01832  01832                % 07019 RGTR--
+190702001 Goetzingen, Kiirch    01834  01834                % 07019 RGTR--
+190702002 Goetzingen, Kreiz     01835  01835                % 07019 RGTR--
+190701001 Goeblange, Giewel     01837  01837                % 07019 RGTR--
+190703003 Koerich, Weidewee     01838  01838                % 07019 RGTR--
+190703002 Koerich, Gemeng       01839  01839                % 07019 RGTR--
+190703001 Koerich, Fuurt        01839  01839                % 07019 RGTR--
+190703004 Koerich, SES          01843  01843                % 07019 RGTR--
+191002003 Septfontaines, Op La  01843  01843                % 07019 RGTR--
+191002001 Septfontaines, Schou  01847                       % 07019 RGTR--
+*Z 07020 RGTR--                                             % 07020 RGTR--
+*L 255      191002001 200405004  01100  01139               % 07020 RGTR--
+*A ag 191002001 200405004 000000  01100  01139              % 07020 RGTR--
+*R 2 200405004 191002001 200405004  01100  01139            % 07020 RGTR--
+*G RGB 191002001 200405004  01100  01139                    % 07020 RGTR--
+*A VE 191002001 200405004 000000  01100  01139              % 07020 RGTR--
+*I FD 191002001 200405004        0001897  01100  01139      % 07020 RGTR--
+191002001 Septfontaines, Schou         01100                % 07020 RGTR--
+191002003 Septfontaines, Op La  01102  01102                % 07020 RGTR--
+190703004 Koerich, SES          01103  01103                % 07020 RGTR--
+190703001 Koerich, Fuurt        01106  01106                % 07020 RGTR--
+190703002 Koerich, Gemeng       01107  01107                % 07020 RGTR--
+190703003 Koerich, Weidewee     01108  01108                % 07020 RGTR--
+190701001 Goeblange, Giewel     01109  01109                % 07020 RGTR--
+190702002 Goetzingen, Kreiz     01111  01111                % 07020 RGTR--
+190702001 Goetzingen, Kiirch    01111  01111                % 07020 RGTR--
+190606001 Olm, Dréischelsfeld   01114  01114                % 07020 RGTR--
+190901010 Capellen, Hirebesch   01115  01115                % 07020 RGTR--
+190901008 Capellen, Eechterfel  01116  01116                % 07020 RGTR--
+190901009 Capellen, Pafebruch   01116  01116                % 07020 RGTR--
+190903005 Mamer, Eglantiers     01119 -01119                % 07020 RGTR--
+190903012 Mamer, Mambra         01120 -01120                % 07020 RGTR--
+190903002 Mamer, Baerendall     01120 -01120                % 07020 RGTR--
+190903007 Mamer, Gaaschtbierg   01121 -01121                % 07020 RGTR--
+190903013 Mamer, Tossebierg     01122 -01122                % 07020 RGTR--
+200101002 Bertrange, Belle Eto  01124 -01124                % 07020 RGTR--
+200901011 Strassen, Schoenacht  01125 -01125                % 07020 RGTR--
+200901017 Strassen, Kesseler    01126 -01126                % 07020 RGTR--
+200901020 Strassen, Benelux     01128 -01128                % 07020 RGTR--
+200403021 Belair, Wandmillen    01132 -01132                % 07020 RGTR--
+200403018 Belair, Stade         01132 -01132                % 07020 RGTR--
+200405045 Centre, Stäreplaz /   01134 -01134                % 07020 RGTR--
+200405004 Centre, Monterey Par  01139                       % 07020 RGTR--
+*Z 07021 RGTR--                                             % 07021 RGTR--
+*L 255      191002001 200405004  01300  01339               % 07021 RGTR--
+*A ag 191002001 200405004 000000  01300  01339              % 07021 RGTR--
+*R 2 200405004 191002001 200405004  01300  01339            % 07021 RGTR--
+*G RGB 191002001 200405004  01300  01339                    % 07021 RGTR--
+*A VE 191002001 200405004 000000  01300  01339              % 07021 RGTR--
+*I FD 191002001 200405004        0001902  01300  01339      % 07021 RGTR--
+191002001 Septfontaines, Schou         01300                % 07021 RGTR--
+191002003 Septfontaines, Op La  01302  01302                % 07021 RGTR--
+190703004 Koerich, SES          01303  01303                % 07021 RGTR--
+190703001 Koerich, Fuurt        01306  01306                % 07021 RGTR--
+190703002 Koerich, Gemeng       01307  01307                % 07021 RGTR--
+190703003 Koerich, Weidewee     01308  01308                % 07021 RGTR--
+190701001 Goeblange, Giewel     01309  01309                % 07021 RGTR--
+190702002 Goetzingen, Kreiz     01311  01311                % 07021 RGTR--
+190702001 Goetzingen, Kiirch    01311  01311                % 07021 RGTR--
+190606001 Olm, Dréischelsfeld   01314  01314                % 07021 RGTR--
+190901010 Capellen, Hirebesch   01315  01315                % 07021 RGTR--
+190901008 Capellen, Eechterfel  01316  01316                % 07021 RGTR--
+190901009 Capellen, Pafebruch   01316  01316                % 07021 RGTR--
+190903005 Mamer, Eglantiers     01319 -01319                % 07021 RGTR--
+190903012 Mamer, Mambra         01320 -01320                % 07021 RGTR--
+190903002 Mamer, Baerendall     01320 -01320                % 07021 RGTR--
+190903007 Mamer, Gaaschtbierg   01321 -01321                % 07021 RGTR--
+190903013 Mamer, Tossebierg     01322 -01322                % 07021 RGTR--
+200101002 Bertrange, Belle Eto  01324 -01324                % 07021 RGTR--
+200901011 Strassen, Schoenacht  01325 -01325                % 07021 RGTR--
+200901017 Strassen, Kesseler    01326 -01326                % 07021 RGTR--
+200901020 Strassen, Benelux     01328 -01328                % 07021 RGTR--
+200403021 Belair, Wandmillen    01332 -01332                % 07021 RGTR--
+200403018 Belair, Stade         01332 -01332                % 07021 RGTR--
+200405045 Centre, Stäreplaz /   01334 -01334                % 07021 RGTR--
+200405004 Centre, Monterey Par  01339                       % 07021 RGTR--
+*Z 07022 RGTR--                                             % 07022 RGTR--
+*L 255      191002001 200405004  01500  01539               % 07022 RGTR--
+*A ag 191002001 200405004 000000  01500  01539              % 07022 RGTR--
+*R 2 200405004 191002001 200405004  01500  01539            % 07022 RGTR--
+*G RGB 191002001 200405004  01500  01539                    % 07022 RGTR--
+*A VE 191002001 200405004 000000  01500  01539              % 07022 RGTR--
+*I FD 191002001 200405004        0001908  01500  01539      % 07022 RGTR--
+191002001 Septfontaines, Schou         01500                % 07022 RGTR--
+191002003 Septfontaines, Op La  01502  01502                % 07022 RGTR--
+190703004 Koerich, SES          01503  01503                % 07022 RGTR--
+190703001 Koerich, Fuurt        01506  01506                % 07022 RGTR--
+190703002 Koerich, Gemeng       01507  01507                % 07022 RGTR--
+190703003 Koerich, Weidewee     01508  01508                % 07022 RGTR--
+190701001 Goeblange, Giewel     01509  01509                % 07022 RGTR--
+190702002 Goetzingen, Kreiz     01511  01511                % 07022 RGTR--
+190702001 Goetzingen, Kiirch    01511  01511                % 07022 RGTR--
+190606001 Olm, Dréischelsfeld   01514  01514                % 07022 RGTR--
+190901010 Capellen, Hirebesch   01515  01515                % 07022 RGTR--
+190901008 Capellen, Eechterfel  01516  01516                % 07022 RGTR--
+190901009 Capellen, Pafebruch   01516  01516                % 07022 RGTR--
+190903005 Mamer, Eglantiers     01519 -01519                % 07022 RGTR--
+190903012 Mamer, Mambra         01520 -01520                % 07022 RGTR--
+190903002 Mamer, Baerendall     01520 -01520                % 07022 RGTR--
+190903007 Mamer, Gaaschtbierg   01521 -01521                % 07022 RGTR--
+190903013 Mamer, Tossebierg     01522 -01522                % 07022 RGTR--
+200101002 Bertrange, Belle Eto  01524 -01524                % 07022 RGTR--
+200901011 Strassen, Schoenacht  01525 -01525                % 07022 RGTR--
+200901017 Strassen, Kesseler    01526 -01526                % 07022 RGTR--
+200901020 Strassen, Benelux     01528 -01528                % 07022 RGTR--
+200403021 Belair, Wandmillen    01532 -01532                % 07022 RGTR--
+200403018 Belair, Stade         01532 -01532                % 07022 RGTR--
+200405045 Centre, Stäreplaz /   01534 -01534                % 07022 RGTR--
+200405004 Centre, Monterey Par  01539                       % 07022 RGTR--
+*Z 07023 RGTR--                                             % 07023 RGTR--
+*L 255      191002001 200405004  00600  00639               % 07023 RGTR--
+*A ag 191002001 200405004 000001  00600  00639              % 07023 RGTR--
+*R 2 200405004 191002001 200405004  00600  00639            % 07023 RGTR--
+*G RGB 191002001 200405004  00600  00639                    % 07023 RGTR--
+*A VE 191002001 200405004 000001  00600  00639              % 07023 RGTR--
+*I FD 191002001 200405004        0002365  00600  00639      % 07023 RGTR--
+191002001 Septfontaines, Schou         00600                % 07023 RGTR--
+191002003 Septfontaines, Op La  00602  00602                % 07023 RGTR--
+190703004 Koerich, SES          00603  00603                % 07023 RGTR--
+190703001 Koerich, Fuurt        00606  00606                % 07023 RGTR--
+190703002 Koerich, Gemeng       00607  00607                % 07023 RGTR--
+190703003 Koerich, Weidewee     00608  00608                % 07023 RGTR--
+190701001 Goeblange, Giewel     00609  00609                % 07023 RGTR--
+190702002 Goetzingen, Kreiz     00611  00611                % 07023 RGTR--
+190702001 Goetzingen, Kiirch    00611  00611                % 07023 RGTR--
+190606001 Olm, Dréischelsfeld   00614  00614                % 07023 RGTR--
+190901010 Capellen, Hirebesch   00615  00615                % 07023 RGTR--
+190901008 Capellen, Eechterfel  00616  00616                % 07023 RGTR--
+190901009 Capellen, Pafebruch   00616  00616                % 07023 RGTR--
+190903005 Mamer, Eglantiers     00619 -00619                % 07023 RGTR--
+190903012 Mamer, Mambra         00620 -00620                % 07023 RGTR--
+190903002 Mamer, Baerendall     00620 -00620                % 07023 RGTR--
+190903007 Mamer, Gaaschtbierg   00621 -00621                % 07023 RGTR--
+190903013 Mamer, Tossebierg     00622 -00622                % 07023 RGTR--
+200101002 Bertrange, Belle Eto  00624 -00624                % 07023 RGTR--
+200901011 Strassen, Schoenacht  00625 -00625                % 07023 RGTR--
+200901017 Strassen, Kesseler    00626 -00626                % 07023 RGTR--
+200901020 Strassen, Benelux     00628 -00628                % 07023 RGTR--
+200403021 Belair, Wandmillen    00632 -00632                % 07023 RGTR--
+200403018 Belair, Stade         00632 -00632                % 07023 RGTR--
+200405045 Centre, Stäreplaz /   00634 -00634                % 07023 RGTR--
+200405004 Centre, Monterey Par  00639                       % 07023 RGTR--
+*Z 07024 RGTR--                                             % 07024 RGTR--
+*L 255      191002001 200405004  01000  01039               % 07024 RGTR--
+*A ag 191002001 200405004 000001  01000  01039              % 07024 RGTR--
+*R 2 200405004 191002001 200405004  01000  01039            % 07024 RGTR--
+*G RGB 191002001 200405004  01000  01039                    % 07024 RGTR--
+*A VE 191002001 200405004 000001  01000  01039              % 07024 RGTR--
+*I FD 191002001 200405004        0001894  01000  01039      % 07024 RGTR--
+191002001 Septfontaines, Schou         01000                % 07024 RGTR--
+191002003 Septfontaines, Op La  01002  01002                % 07024 RGTR--
+190703004 Koerich, SES          01003  01003                % 07024 RGTR--
+190703001 Koerich, Fuurt        01006  01006                % 07024 RGTR--
+190703002 Koerich, Gemeng       01007  01007                % 07024 RGTR--
+190703003 Koerich, Weidewee     01008  01008                % 07024 RGTR--
+190701001 Goeblange, Giewel     01009  01009                % 07024 RGTR--
+190702002 Goetzingen, Kreiz     01011  01011                % 07024 RGTR--
+190702001 Goetzingen, Kiirch    01011  01011                % 07024 RGTR--
+190606001 Olm, Dréischelsfeld   01014  01014                % 07024 RGTR--
+190901010 Capellen, Hirebesch   01015  01015                % 07024 RGTR--
+190901008 Capellen, Eechterfel  01016  01016                % 07024 RGTR--
+190901009 Capellen, Pafebruch   01016  01016                % 07024 RGTR--
+190903005 Mamer, Eglantiers     01019 -01019                % 07024 RGTR--
+190903012 Mamer, Mambra         01020 -01020                % 07024 RGTR--
+190903002 Mamer, Baerendall     01020 -01020                % 07024 RGTR--
+190903007 Mamer, Gaaschtbierg   01021 -01021                % 07024 RGTR--
+190903013 Mamer, Tossebierg     01022 -01022                % 07024 RGTR--
+200101002 Bertrange, Belle Eto  01024 -01024                % 07024 RGTR--
+200901011 Strassen, Schoenacht  01025 -01025                % 07024 RGTR--
+200901017 Strassen, Kesseler    01026 -01026                % 07024 RGTR--
+200901020 Strassen, Benelux     01028 -01028                % 07024 RGTR--
+200403021 Belair, Wandmillen    01032 -01032                % 07024 RGTR--
+200403018 Belair, Stade         01032 -01032                % 07024 RGTR--
+200405045 Centre, Stäreplaz /   01034 -01034                % 07024 RGTR--
+200405004 Centre, Monterey Par  01039                       % 07024 RGTR--
+*Z 07025 RGTR--                                             % 07025 RGTR--
+*L 255      191002001 200405004  01200  01239               % 07025 RGTR--
+*A ag 191002001 200405004 000001  01200  01239              % 07025 RGTR--
+*R 2 200405004 191002001 200405004  01200  01239            % 07025 RGTR--
+*G RGB 191002001 200405004  01200  01239                    % 07025 RGTR--
+*A VE 191002001 200405004 000001  01200  01239              % 07025 RGTR--
+*I FD 191002001 200405004        0001900  01200  01239      % 07025 RGTR--
+191002001 Septfontaines, Schou         01200                % 07025 RGTR--
+191002003 Septfontaines, Op La  01202  01202                % 07025 RGTR--
+190703004 Koerich, SES          01203  01203                % 07025 RGTR--
+190703001 Koerich, Fuurt        01206  01206                % 07025 RGTR--
+190703002 Koerich, Gemeng       01207  01207                % 07025 RGTR--
+190703003 Koerich, Weidewee     01208  01208                % 07025 RGTR--
+190701001 Goeblange, Giewel     01209  01209                % 07025 RGTR--
+190702002 Goetzingen, Kreiz     01211  01211                % 07025 RGTR--
+190702001 Goetzingen, Kiirch    01211  01211                % 07025 RGTR--
+190606001 Olm, Dréischelsfeld   01214  01214                % 07025 RGTR--
+190901010 Capellen, Hirebesch   01215  01215                % 07025 RGTR--
+190901008 Capellen, Eechterfel  01216  01216                % 07025 RGTR--
+190901009 Capellen, Pafebruch   01216  01216                % 07025 RGTR--
+190903005 Mamer, Eglantiers     01219 -01219                % 07025 RGTR--
+190903012 Mamer, Mambra         01220 -01220                % 07025 RGTR--
+190903002 Mamer, Baerendall     01220 -01220                % 07025 RGTR--
+190903007 Mamer, Gaaschtbierg   01221 -01221                % 07025 RGTR--
+190903013 Mamer, Tossebierg     01222 -01222                % 07025 RGTR--
+200101002 Bertrange, Belle Eto  01224 -01224                % 07025 RGTR--
+200901011 Strassen, Schoenacht  01225 -01225                % 07025 RGTR--
+200901017 Strassen, Kesseler    01226 -01226                % 07025 RGTR--
+200901020 Strassen, Benelux     01228 -01228                % 07025 RGTR--
+200403021 Belair, Wandmillen    01232 -01232                % 07025 RGTR--
+200403018 Belair, Stade         01232 -01232                % 07025 RGTR--
+200405045 Centre, Stäreplaz /   01234 -01234                % 07025 RGTR--
+200405004 Centre, Monterey Par  01239                       % 07025 RGTR--
+*Z 07026 RGTR--                                             % 07026 RGTR--
+*L 255      191002001 200405004  01400  01439               % 07026 RGTR--
+*A ag 191002001 200405004 000001  01400  01439              % 07026 RGTR--
+*R 2 200405004 191002001 200405004  01400  01439            % 07026 RGTR--
+*G RGB 191002001 200405004  01400  01439                    % 07026 RGTR--
+*A VE 191002001 200405004 000001  01400  01439              % 07026 RGTR--
+*I FD 191002001 200405004        0001905  01400  01439      % 07026 RGTR--
+191002001 Septfontaines, Schou         01400                % 07026 RGTR--
+191002003 Septfontaines, Op La  01402  01402                % 07026 RGTR--
+190703004 Koerich, SES          01403  01403                % 07026 RGTR--
+190703001 Koerich, Fuurt        01406  01406                % 07026 RGTR--
+190703002 Koerich, Gemeng       01407  01407                % 07026 RGTR--
+190703003 Koerich, Weidewee     01408  01408                % 07026 RGTR--
+190701001 Goeblange, Giewel     01409  01409                % 07026 RGTR--
+190702002 Goetzingen, Kreiz     01411  01411                % 07026 RGTR--
+190702001 Goetzingen, Kiirch    01411  01411                % 07026 RGTR--
+190606001 Olm, Dréischelsfeld   01414  01414                % 07026 RGTR--
+190901010 Capellen, Hirebesch   01415  01415                % 07026 RGTR--
+190901008 Capellen, Eechterfel  01416  01416                % 07026 RGTR--
+190901009 Capellen, Pafebruch   01416  01416                % 07026 RGTR--
+190903005 Mamer, Eglantiers     01419 -01419                % 07026 RGTR--
+190903012 Mamer, Mambra         01420 -01420                % 07026 RGTR--
+190903002 Mamer, Baerendall     01420 -01420                % 07026 RGTR--
+190903007 Mamer, Gaaschtbierg   01421 -01421                % 07026 RGTR--
+190903013 Mamer, Tossebierg     01422 -01422                % 07026 RGTR--
+200101002 Bertrange, Belle Eto  01424 -01424                % 07026 RGTR--
+200901011 Strassen, Schoenacht  01425 -01425                % 07026 RGTR--
+200901017 Strassen, Kesseler    01426 -01426                % 07026 RGTR--
+200901020 Strassen, Benelux     01428 -01428                % 07026 RGTR--
+200403021 Belair, Wandmillen    01432 -01432                % 07026 RGTR--
+200403018 Belair, Stade         01432 -01432                % 07026 RGTR--
+200405045 Centre, Stäreplaz /   01434 -01434                % 07026 RGTR--
+200405004 Centre, Monterey Par  01439                       % 07026 RGTR--
+*Z 07027 RGTR--                                             % 07027 RGTR--
+*L 255      191002001 200405004  01600  01639               % 07027 RGTR--
+*A ag 191002001 200405004 000001  01600  01639              % 07027 RGTR--
+*R 2 200405004 191002001 200405004  01600  01639            % 07027 RGTR--
+*G RGB 191002001 200405004  01600  01639                    % 07027 RGTR--
+*A VE 191002001 200405004 000001  01600  01639              % 07027 RGTR--
+*I FD 191002001 200405004        0001911  01600  01639      % 07027 RGTR--
+191002001 Septfontaines, Schou         01600                % 07027 RGTR--
+191002003 Septfontaines, Op La  01602  01602                % 07027 RGTR--
+190703004 Koerich, SES          01603  01603                % 07027 RGTR--
+190703001 Koerich, Fuurt        01606  01606                % 07027 RGTR--
+190703002 Koerich, Gemeng       01607  01607                % 07027 RGTR--
+190703003 Koerich, Weidewee     01608  01608                % 07027 RGTR--
+190701001 Goeblange, Giewel     01609  01609                % 07027 RGTR--
+190702002 Goetzingen, Kreiz     01611  01611                % 07027 RGTR--
+190702001 Goetzingen, Kiirch    01611  01611                % 07027 RGTR--
+190606001 Olm, Dréischelsfeld   01614  01614                % 07027 RGTR--
+190901010 Capellen, Hirebesch   01615  01615                % 07027 RGTR--
+190901008 Capellen, Eechterfel  01616  01616                % 07027 RGTR--
+190901009 Capellen, Pafebruch   01616  01616                % 07027 RGTR--
+190903005 Mamer, Eglantiers     01619 -01619                % 07027 RGTR--
+190903012 Mamer, Mambra         01620 -01620                % 07027 RGTR--
+190903002 Mamer, Baerendall     01620 -01620                % 07027 RGTR--
+190903007 Mamer, Gaaschtbierg   01621 -01621                % 07027 RGTR--
+190903013 Mamer, Tossebierg     01622 -01622                % 07027 RGTR--
+200101002 Bertrange, Belle Eto  01624 -01624                % 07027 RGTR--
+200901011 Strassen, Schoenacht  01625 -01625                % 07027 RGTR--
+200901017 Strassen, Kesseler    01626 -01626                % 07027 RGTR--
+200901020 Strassen, Benelux     01628 -01628                % 07027 RGTR--
+200403021 Belair, Wandmillen    01632 -01632                % 07027 RGTR--
+200403018 Belair, Stade         01632 -01632                % 07027 RGTR--
+200405045 Centre, Stäreplaz /   01634 -01634                % 07027 RGTR--
+200405004 Centre, Monterey Par  01639                       % 07027 RGTR--
+*Z 07028 RGTR--                                             % 07028 RGTR--
+*L 255      191002001 200405004  02000  02039               % 07028 RGTR--
+*A ag 191002001 200405004 000001  02000  02039              % 07028 RGTR--
+*R 2 200405004 191002001 200405004  02000  02039            % 07028 RGTR--
+*G RGB 191002001 200405004  02000  02039                    % 07028 RGTR--
+*A VE 191002001 200405004 000001  02000  02039              % 07028 RGTR--
+*I FD 191002001 200405004        0002398  02000  02039      % 07028 RGTR--
+191002001 Septfontaines, Schou         02000                % 07028 RGTR--
+191002003 Septfontaines, Op La  02002  02002                % 07028 RGTR--
+190703004 Koerich, SES          02003  02003                % 07028 RGTR--
+190703001 Koerich, Fuurt        02006  02006                % 07028 RGTR--
+190703002 Koerich, Gemeng       02007  02007                % 07028 RGTR--
+190703003 Koerich, Weidewee     02008  02008                % 07028 RGTR--
+190701001 Goeblange, Giewel     02009  02009                % 07028 RGTR--
+190702002 Goetzingen, Kreiz     02011  02011                % 07028 RGTR--
+190702001 Goetzingen, Kiirch    02011  02011                % 07028 RGTR--
+190606001 Olm, Dréischelsfeld   02014  02014                % 07028 RGTR--
+190901010 Capellen, Hirebesch   02015  02015                % 07028 RGTR--
+190901008 Capellen, Eechterfel  02016  02016                % 07028 RGTR--
+190901009 Capellen, Pafebruch   02016  02016                % 07028 RGTR--
+190903005 Mamer, Eglantiers     02019 -02019                % 07028 RGTR--
+190903012 Mamer, Mambra         02020 -02020                % 07028 RGTR--
+190903002 Mamer, Baerendall     02020 -02020                % 07028 RGTR--
+190903007 Mamer, Gaaschtbierg   02021 -02021                % 07028 RGTR--
+190903013 Mamer, Tossebierg     02022 -02022                % 07028 RGTR--
+200101002 Bertrange, Belle Eto  02024 -02024                % 07028 RGTR--
+200901011 Strassen, Schoenacht  02025 -02025                % 07028 RGTR--
+200901017 Strassen, Kesseler    02026 -02026                % 07028 RGTR--
+200901020 Strassen, Benelux     02028 -02028                % 07028 RGTR--
+200403021 Belair, Wandmillen    02032 -02032                % 07028 RGTR--
+200403018 Belair, Stade         02032 -02032                % 07028 RGTR--
+200405045 Centre, Stäreplaz /   02034 -02034                % 07028 RGTR--
+200405004 Centre, Monterey Par  02039                       % 07028 RGTR--
+*Z 07029 RGTR--                                             % 07029 RGTR--
+*L 255      191002001 200405004  02200  02239               % 07029 RGTR--
+*A ag 191002001 200405004 000001  02200  02239              % 07029 RGTR--
+*R 2 200405004 191002001 200405004  02200  02239            % 07029 RGTR--
+*G RGB 191002001 200405004  02200  02239                    % 07029 RGTR--
+*A VE 191002001 200405004 000001  02200  02239              % 07029 RGTR--
+*I FD 191002001 200405004        0002489  02200  02239      % 07029 RGTR--
+191002001 Septfontaines, Schou         02200                % 07029 RGTR--
+191002003 Septfontaines, Op La  02202  02202                % 07029 RGTR--
+190703004 Koerich, SES          02203  02203                % 07029 RGTR--
+190703001 Koerich, Fuurt        02206  02206                % 07029 RGTR--
+190703002 Koerich, Gemeng       02207  02207                % 07029 RGTR--
+190703003 Koerich, Weidewee     02208  02208                % 07029 RGTR--
+190701001 Goeblange, Giewel     02209  02209                % 07029 RGTR--
+190702002 Goetzingen, Kreiz     02211  02211                % 07029 RGTR--
+190702001 Goetzingen, Kiirch    02211  02211                % 07029 RGTR--
+190606001 Olm, Dréischelsfeld   02214  02214                % 07029 RGTR--
+190901010 Capellen, Hirebesch   02215  02215                % 07029 RGTR--
+190901008 Capellen, Eechterfel  02216  02216                % 07029 RGTR--
+190901009 Capellen, Pafebruch   02216  02216                % 07029 RGTR--
+190903005 Mamer, Eglantiers     02219 -02219                % 07029 RGTR--
+190903012 Mamer, Mambra         02220 -02220                % 07029 RGTR--
+190903002 Mamer, Baerendall     02220 -02220                % 07029 RGTR--
+190903007 Mamer, Gaaschtbierg   02221 -02221                % 07029 RGTR--
+190903013 Mamer, Tossebierg     02222 -02222                % 07029 RGTR--
+200101002 Bertrange, Belle Eto  02224 -02224                % 07029 RGTR--
+200901011 Strassen, Schoenacht  02225 -02225                % 07029 RGTR--
+200901017 Strassen, Kesseler    02226 -02226                % 07029 RGTR--
+200901020 Strassen, Benelux     02228 -02228                % 07029 RGTR--
+200403021 Belair, Wandmillen    02232 -02232                % 07029 RGTR--
+200403018 Belair, Stade         02232 -02232                % 07029 RGTR--
+200405045 Centre, Stäreplaz /   02234 -02234                % 07029 RGTR--
+200405004 Centre, Monterey Par  02239                       % 07029 RGTR--
+*Z 07030 RGTR--                                             % 07030 RGTR--
+*L 255      191002001 200405004  00900  00939               % 07030 RGTR--
+*A ag 191002001 200405004 000003  00900  00939              % 07030 RGTR--
+*R 2 200405004 191002001 200405004  00900  00939            % 07030 RGTR--
+*G RGB 191002001 200405004  00900  00939                    % 07030 RGTR--
+*A VE 191002001 200405004 000003  00900  00939              % 07030 RGTR--
+*I FD 191002001 200405004        0001891  00900  00939      % 07030 RGTR--
+191002001 Septfontaines, Schou         00900                % 07030 RGTR--
+191002003 Septfontaines, Op La  00902  00902                % 07030 RGTR--
+190703004 Koerich, SES          00903  00903                % 07030 RGTR--
+190703001 Koerich, Fuurt        00906  00906                % 07030 RGTR--
+190703002 Koerich, Gemeng       00907  00907                % 07030 RGTR--
+190703003 Koerich, Weidewee     00908  00908                % 07030 RGTR--
+190701001 Goeblange, Giewel     00909  00909                % 07030 RGTR--
+190702002 Goetzingen, Kreiz     00911  00911                % 07030 RGTR--
+190702001 Goetzingen, Kiirch    00911  00911                % 07030 RGTR--
+190606001 Olm, Dréischelsfeld   00914  00914                % 07030 RGTR--
+190901010 Capellen, Hirebesch   00915  00915                % 07030 RGTR--
+190901008 Capellen, Eechterfel  00916  00916                % 07030 RGTR--
+190901009 Capellen, Pafebruch   00916  00916                % 07030 RGTR--
+190903005 Mamer, Eglantiers     00919 -00919                % 07030 RGTR--
+190903012 Mamer, Mambra         00920 -00920                % 07030 RGTR--
+190903002 Mamer, Baerendall     00920 -00920                % 07030 RGTR--
+190903007 Mamer, Gaaschtbierg   00921 -00921                % 07030 RGTR--
+190903013 Mamer, Tossebierg     00922 -00922                % 07030 RGTR--
+200101002 Bertrange, Belle Eto  00924 -00924                % 07030 RGTR--
+200901011 Strassen, Schoenacht  00925 -00925                % 07030 RGTR--
+200901017 Strassen, Kesseler    00926 -00926                % 07030 RGTR--
+200901020 Strassen, Benelux     00928 -00928                % 07030 RGTR--
+200403021 Belair, Wandmillen    00932 -00932                % 07030 RGTR--
+200403018 Belair, Stade         00932 -00932                % 07030 RGTR--
+200405045 Centre, Stäreplaz /   00934 -00934                % 07030 RGTR--
+200405004 Centre, Monterey Par  00939                       % 07030 RGTR--
+*Z 07031 RGTR--                                             % 07031 RGTR--
+*L 255      191002001 200405004  01700  01739               % 07031 RGTR--
+*A ag 191002001 200405004 000003  01700  01739              % 07031 RGTR--
+*R 2 200405004 191002001 200405004  01700  01739            % 07031 RGTR--
+*G RGB 191002001 200405004  01700  01739                    % 07031 RGTR--
+*A VE 191002001 200405004 000003  01700  01739              % 07031 RGTR--
+*I FD 191002001 200405004        0001913  01700  01739      % 07031 RGTR--
+191002001 Septfontaines, Schou         01700                % 07031 RGTR--
+191002003 Septfontaines, Op La  01702  01702                % 07031 RGTR--
+190703004 Koerich, SES          01703  01703                % 07031 RGTR--
+190703001 Koerich, Fuurt        01706  01706                % 07031 RGTR--
+190703002 Koerich, Gemeng       01707  01707                % 07031 RGTR--
+190703003 Koerich, Weidewee     01708  01708                % 07031 RGTR--
+190701001 Goeblange, Giewel     01709  01709                % 07031 RGTR--
+190702002 Goetzingen, Kreiz     01711  01711                % 07031 RGTR--
+190702001 Goetzingen, Kiirch    01711  01711                % 07031 RGTR--
+190606001 Olm, Dréischelsfeld   01714  01714                % 07031 RGTR--
+190901010 Capellen, Hirebesch   01715  01715                % 07031 RGTR--
+190901008 Capellen, Eechterfel  01716  01716                % 07031 RGTR--
+190901009 Capellen, Pafebruch   01716  01716                % 07031 RGTR--
+190903005 Mamer, Eglantiers     01719 -01719                % 07031 RGTR--
+190903012 Mamer, Mambra         01720 -01720                % 07031 RGTR--
+190903002 Mamer, Baerendall     01720 -01720                % 07031 RGTR--
+190903007 Mamer, Gaaschtbierg   01721 -01721                % 07031 RGTR--
+190903013 Mamer, Tossebierg     01722 -01722                % 07031 RGTR--
+200101002 Bertrange, Belle Eto  01724 -01724                % 07031 RGTR--
+200901011 Strassen, Schoenacht  01725 -01725                % 07031 RGTR--
+200901017 Strassen, Kesseler    01726 -01726                % 07031 RGTR--
+200901020 Strassen, Benelux     01728 -01728                % 07031 RGTR--
+200403021 Belair, Wandmillen    01732 -01732                % 07031 RGTR--
+200403018 Belair, Stade         01732 -01732                % 07031 RGTR--
+200405045 Centre, Stäreplaz /   01734 -01734                % 07031 RGTR--
+200405004 Centre, Monterey Par  01739                       % 07031 RGTR--
+*Z 07032 RGTR--                                             % 07032 RGTR--
+*L 255      191002001 200405004  00700  00746               % 07032 RGTR--
+*A ag 191002001 200405004 000001  00700  00746              % 07032 RGTR--
+*R 2 200405004 191002001 200405004  00700  00746            % 07032 RGTR--
+*G RGB 191002001 200405004  00700  00746                    % 07032 RGTR--
+*A VE 191002001 200405004 000001  00700  00746              % 07032 RGTR--
+*I FD 191002001 200405004        0002197  00700  00746      % 07032 RGTR--
+191002001 Septfontaines, Schou         00700                % 07032 RGTR--
+191002003 Septfontaines, Op La  00702  00702                % 07032 RGTR--
+190703004 Koerich, SES          00703  00703                % 07032 RGTR--
+190703001 Koerich, Fuurt        00706  00706                % 07032 RGTR--
+190703002 Koerich, Gemeng       00707  00707                % 07032 RGTR--
+190703003 Koerich, Weidewee     00708  00708                % 07032 RGTR--
+190701001 Goeblange, Giewel     00709  00709                % 07032 RGTR--
+190702002 Goetzingen, Kreiz     00711  00711                % 07032 RGTR--
+190702001 Goetzingen, Kiirch    00712  00712                % 07032 RGTR--
+190606001 Olm, Dréischelsfeld   00715  00715                % 07032 RGTR--
+190901010 Capellen, Hirebesch   00717  00717                % 07032 RGTR--
+190901008 Capellen, Eechterfel  00718  00718                % 07032 RGTR--
+190901009 Capellen, Pafebruch   00718  00718                % 07032 RGTR--
+190903005 Mamer, Eglantiers     00721 -00721                % 07032 RGTR--
+190903012 Mamer, Mambra         00722 -00722                % 07032 RGTR--
+190903002 Mamer, Baerendall     00723 -00723                % 07032 RGTR--
+190903007 Mamer, Gaaschtbierg   00724 -00724                % 07032 RGTR--
+190903013 Mamer, Tossebierg     00725 -00725                % 07032 RGTR--
+200101002 Bertrange, Belle Eto  00727 -00727                % 07032 RGTR--
+200901011 Strassen, Schoenacht  00728 -00728                % 07032 RGTR--
+200901017 Strassen, Kesseler    00729 -00729                % 07032 RGTR--
+200901020 Strassen, Benelux     00731 -00731                % 07032 RGTR--
+200403021 Belair, Wandmillen    00737 -00737                % 07032 RGTR--
+200403018 Belair, Stade         00738 -00738                % 07032 RGTR--
+200405045 Centre, Stäreplaz /   00740 -00740                % 07032 RGTR--
+200405004 Centre, Monterey Par  00746                       % 07032 RGTR--
+*Z 07033 RGTR--                                             % 07033 RGTR--
+*L 255      191002001 200405004  00730  00816               % 07033 RGTR--
+*A ag 191002001 200405004 000001  00730  00816              % 07033 RGTR--
+*R 2 200405004 191002001 200405004  00730  00816            % 07033 RGTR--
+*G RGB 191002001 200405004  00730  00816                    % 07033 RGTR--
+*A VE 191002001 200405004 000001  00730  00816              % 07033 RGTR--
+*I FD 191002001 200405004        0002366  00730  00816      % 07033 RGTR--
+191002001 Septfontaines, Schou         00730                % 07033 RGTR--
+191002003 Septfontaines, Op La  00732  00732                % 07033 RGTR--
+190703004 Koerich, SES          00733  00733                % 07033 RGTR--
+190703001 Koerich, Fuurt        00736  00736                % 07033 RGTR--
+190703002 Koerich, Gemeng       00737  00737                % 07033 RGTR--
+190703003 Koerich, Weidewee     00738  00738                % 07033 RGTR--
+190701001 Goeblange, Giewel     00739  00739                % 07033 RGTR--
+190702002 Goetzingen, Kreiz     00741  00741                % 07033 RGTR--
+190702001 Goetzingen, Kiirch    00742  00742                % 07033 RGTR--
+190606001 Olm, Dréischelsfeld   00745  00745                % 07033 RGTR--
+190901010 Capellen, Hirebesch   00747  00747                % 07033 RGTR--
+190901008 Capellen, Eechterfel  00748  00748                % 07033 RGTR--
+190901009 Capellen, Pafebruch   00748  00748                % 07033 RGTR--
+190903005 Mamer, Eglantiers     00751 -00751                % 07033 RGTR--
+190903012 Mamer, Mambra         00752 -00752                % 07033 RGTR--
+190903002 Mamer, Baerendall     00753 -00753                % 07033 RGTR--
+190903007 Mamer, Gaaschtbierg   00754 -00754                % 07033 RGTR--
+190903013 Mamer, Tossebierg     00755 -00755                % 07033 RGTR--
+200101002 Bertrange, Belle Eto  00757 -00757                % 07033 RGTR--
+200901011 Strassen, Schoenacht  00758 -00758                % 07033 RGTR--
+200901017 Strassen, Kesseler    00759 -00759                % 07033 RGTR--
+200901020 Strassen, Benelux     00801 -00801                % 07033 RGTR--
+200403021 Belair, Wandmillen    00807 -00807                % 07033 RGTR--
+200403018 Belair, Stade         00808 -00808                % 07033 RGTR--
+200405045 Centre, Stäreplaz /   00810 -00810                % 07033 RGTR--
+200405004 Centre, Monterey Par  00816                       % 07033 RGTR--
+*Z 07034 RGTR--                                             % 07034 RGTR--
+*L 255      191002001 200405004  00800  00846               % 07034 RGTR--
+*A ag 191002001 200405004 000001  00800  00846              % 07034 RGTR--
+*R 2 200405004 191002001 200405004  00800  00846            % 07034 RGTR--
+*G RGB 191002001 200405004  00800  00846                    % 07034 RGTR--
+*A VE 191002001 200405004 000001  00800  00846              % 07034 RGTR--
+*I FD 191002001 200405004        0001889  00800  00846      % 07034 RGTR--
+191002001 Septfontaines, Schou         00800                % 07034 RGTR--
+191002003 Septfontaines, Op La  00802  00802                % 07034 RGTR--
+190703004 Koerich, SES          00803  00803                % 07034 RGTR--
+190703001 Koerich, Fuurt        00806  00806                % 07034 RGTR--
+190703002 Koerich, Gemeng       00807  00807                % 07034 RGTR--
+190703003 Koerich, Weidewee     00808  00808                % 07034 RGTR--
+190701001 Goeblange, Giewel     00809  00809                % 07034 RGTR--
+190702002 Goetzingen, Kreiz     00811  00811                % 07034 RGTR--
+190702001 Goetzingen, Kiirch    00812  00812                % 07034 RGTR--
+190606001 Olm, Dréischelsfeld   00815  00815                % 07034 RGTR--
+190901010 Capellen, Hirebesch   00817  00817                % 07034 RGTR--
+190901008 Capellen, Eechterfel  00818  00818                % 07034 RGTR--
+190901009 Capellen, Pafebruch   00818  00818                % 07034 RGTR--
+190903005 Mamer, Eglantiers     00821 -00821                % 07034 RGTR--
+190903012 Mamer, Mambra         00822 -00822                % 07034 RGTR--
+190903002 Mamer, Baerendall     00823 -00823                % 07034 RGTR--
+190903007 Mamer, Gaaschtbierg   00824 -00824                % 07034 RGTR--
+190903013 Mamer, Tossebierg     00825 -00825                % 07034 RGTR--
+200101002 Bertrange, Belle Eto  00827 -00827                % 07034 RGTR--
+200901011 Strassen, Schoenacht  00828 -00828                % 07034 RGTR--
+200901017 Strassen, Kesseler    00829 -00829                % 07034 RGTR--
+200901020 Strassen, Benelux     00831 -00831                % 07034 RGTR--
+200403021 Belair, Wandmillen    00837 -00837                % 07034 RGTR--
+200403018 Belair, Stade         00838 -00838                % 07034 RGTR--
+200405045 Centre, Stäreplaz /   00840 -00840                % 07034 RGTR--
+200405004 Centre, Monterey Par  00846                       % 07034 RGTR--
+*Z 07035 RGTR--                                             % 07035 RGTR--
+*L 255      191002001 200405004  00900  00946               % 07035 RGTR--
+*A ag 191002001 200405004 000001  00900  00946              % 07035 RGTR--
+*R 2 200405004 191002001 200405004  00900  00946            % 07035 RGTR--
+*G RGB 191002001 200405004  00900  00946                    % 07035 RGTR--
+*A VE 191002001 200405004 000001  00900  00946              % 07035 RGTR--
+*I FD 191002001 200405004        0001891  00900  00946      % 07035 RGTR--
+191002001 Septfontaines, Schou         00900                % 07035 RGTR--
+191002003 Septfontaines, Op La  00902  00902                % 07035 RGTR--
+190703004 Koerich, SES          00903  00903                % 07035 RGTR--
+190703001 Koerich, Fuurt        00906  00906                % 07035 RGTR--
+190703002 Koerich, Gemeng       00907  00907                % 07035 RGTR--
+190703003 Koerich, Weidewee     00908  00908                % 07035 RGTR--
+190701001 Goeblange, Giewel     00909  00909                % 07035 RGTR--
+190702002 Goetzingen, Kreiz     00911  00911                % 07035 RGTR--
+190702001 Goetzingen, Kiirch    00912  00912                % 07035 RGTR--
+190606001 Olm, Dréischelsfeld   00915  00915                % 07035 RGTR--
+190901010 Capellen, Hirebesch   00917  00917                % 07035 RGTR--
+190901008 Capellen, Eechterfel  00918  00918                % 07035 RGTR--
+190901009 Capellen, Pafebruch   00918  00918                % 07035 RGTR--
+190903005 Mamer, Eglantiers     00921 -00921                % 07035 RGTR--
+190903012 Mamer, Mambra         00922 -00922                % 07035 RGTR--
+190903002 Mamer, Baerendall     00923 -00923                % 07035 RGTR--
+190903007 Mamer, Gaaschtbierg   00924 -00924                % 07035 RGTR--
+190903013 Mamer, Tossebierg     00925 -00925                % 07035 RGTR--
+200101002 Bertrange, Belle Eto  00927 -00927                % 07035 RGTR--
+200901011 Strassen, Schoenacht  00928 -00928                % 07035 RGTR--
+200901017 Strassen, Kesseler    00929 -00929                % 07035 RGTR--
+200901020 Strassen, Benelux     00931 -00931                % 07035 RGTR--
+200403021 Belair, Wandmillen    00937 -00937                % 07035 RGTR--
+200403018 Belair, Stade         00938 -00938                % 07035 RGTR--
+200405045 Centre, Stäreplaz /   00940 -00940                % 07035 RGTR--
+200405004 Centre, Monterey Par  00946                       % 07035 RGTR--
+*Z 07036 RGTR--                                             % 07036 RGTR--
+*L 255      191002001 200405004  01700  01746               % 07036 RGTR--
+*A ag 191002001 200405004 000001  01700  01746              % 07036 RGTR--
+*R 2 200405004 191002001 200405004  01700  01746            % 07036 RGTR--
+*G RGB 191002001 200405004  01700  01746                    % 07036 RGTR--
+*A VE 191002001 200405004 000001  01700  01746              % 07036 RGTR--
+*I FD 191002001 200405004        0001913  01700  01746      % 07036 RGTR--
+191002001 Septfontaines, Schou         01700                % 07036 RGTR--
+191002003 Septfontaines, Op La  01702  01702                % 07036 RGTR--
+190703004 Koerich, SES          01703  01703                % 07036 RGTR--
+190703001 Koerich, Fuurt        01706  01706                % 07036 RGTR--
+190703002 Koerich, Gemeng       01707  01707                % 07036 RGTR--
+190703003 Koerich, Weidewee     01708  01708                % 07036 RGTR--
+190701001 Goeblange, Giewel     01709  01709                % 07036 RGTR--
+190702002 Goetzingen, Kreiz     01711  01711                % 07036 RGTR--
+190702001 Goetzingen, Kiirch    01712  01712                % 07036 RGTR--
+190606001 Olm, Dréischelsfeld   01715  01715                % 07036 RGTR--
+190901010 Capellen, Hirebesch   01717  01717                % 07036 RGTR--
+190901008 Capellen, Eechterfel  01718  01718                % 07036 RGTR--
+190901009 Capellen, Pafebruch   01718  01718                % 07036 RGTR--
+190903005 Mamer, Eglantiers     01721 -01721                % 07036 RGTR--
+190903012 Mamer, Mambra         01722 -01722                % 07036 RGTR--
+190903002 Mamer, Baerendall     01723 -01723                % 07036 RGTR--
+190903007 Mamer, Gaaschtbierg   01724 -01724                % 07036 RGTR--
+190903013 Mamer, Tossebierg     01725 -01725                % 07036 RGTR--
+200101002 Bertrange, Belle Eto  01727 -01727                % 07036 RGTR--
+200901011 Strassen, Schoenacht  01728 -01728                % 07036 RGTR--
+200901017 Strassen, Kesseler    01729 -01729                % 07036 RGTR--
+200901020 Strassen, Benelux     01731 -01731                % 07036 RGTR--
+200403021 Belair, Wandmillen    01737 -01737                % 07036 RGTR--
+200403018 Belair, Stade         01738 -01738                % 07036 RGTR--
+200405045 Centre, Stäreplaz /   01740 -01740                % 07036 RGTR--
+200405004 Centre, Monterey Par  01746                       % 07036 RGTR--
+*Z 07037 RGTR--                                             % 07037 RGTR--
+*L 255      191002001 200405004  01800  01846               % 07037 RGTR--
+*A ag 191002001 200405004 000001  01800  01846              % 07037 RGTR--
+*R 2 200405004 191002001 200405004  01800  01846            % 07037 RGTR--
+*G RGB 191002001 200405004  01800  01846                    % 07037 RGTR--
+*A VE 191002001 200405004 000001  01800  01846              % 07037 RGTR--
+*I FD 191002001 200405004        0001916  01800  01846      % 07037 RGTR--
+191002001 Septfontaines, Schou         01800                % 07037 RGTR--
+191002003 Septfontaines, Op La  01802  01802                % 07037 RGTR--
+190703004 Koerich, SES          01803  01803                % 07037 RGTR--
+190703001 Koerich, Fuurt        01806  01806                % 07037 RGTR--
+190703002 Koerich, Gemeng       01807  01807                % 07037 RGTR--
+190703003 Koerich, Weidewee     01808  01808                % 07037 RGTR--
+190701001 Goeblange, Giewel     01809  01809                % 07037 RGTR--
+190702002 Goetzingen, Kreiz     01811  01811                % 07037 RGTR--
+190702001 Goetzingen, Kiirch    01812  01812                % 07037 RGTR--
+190606001 Olm, Dréischelsfeld   01815  01815                % 07037 RGTR--
+190901010 Capellen, Hirebesch   01817  01817                % 07037 RGTR--
+190901008 Capellen, Eechterfel  01818  01818                % 07037 RGTR--
+190901009 Capellen, Pafebruch   01818  01818                % 07037 RGTR--
+190903005 Mamer, Eglantiers     01821 -01821                % 07037 RGTR--
+190903012 Mamer, Mambra         01822 -01822                % 07037 RGTR--
+190903002 Mamer, Baerendall     01823 -01823                % 07037 RGTR--
+190903007 Mamer, Gaaschtbierg   01824 -01824                % 07037 RGTR--
+190903013 Mamer, Tossebierg     01825 -01825                % 07037 RGTR--
+200101002 Bertrange, Belle Eto  01827 -01827                % 07037 RGTR--
+200901011 Strassen, Schoenacht  01828 -01828                % 07037 RGTR--
+200901017 Strassen, Kesseler    01829 -01829                % 07037 RGTR--
+200901020 Strassen, Benelux     01831 -01831                % 07037 RGTR--
+200403021 Belair, Wandmillen    01837 -01837                % 07037 RGTR--
+200403018 Belair, Stade         01838 -01838                % 07037 RGTR--
+200405045 Centre, Stäreplaz /   01840 -01840                % 07037 RGTR--
+200405004 Centre, Monterey Par  01846                       % 07037 RGTR--
+*Z 07038 RGTR--                                             % 07038 RGTR--
+*L 255      191002001 200405004  00630  00716               % 07038 RGTR--
+*A ag 191002001 200405004 000002  00630  00716              % 07038 RGTR--
+*R 2 200405004 191002001 200405004  00630  00716            % 07038 RGTR--
+*G RGB 191002001 200405004  00630  00716                    % 07038 RGTR--
+*A VE 191002001 200405004 000002  00630  00716              % 07038 RGTR--
+*I FD 191002001 200405004        0000827  00630  00716      % 07038 RGTR--
+191002001 Septfontaines, Schou         00630                % 07038 RGTR--
+191002003 Septfontaines, Op La  00632  00632                % 07038 RGTR--
+190703004 Koerich, SES          00633  00633                % 07038 RGTR--
+190703001 Koerich, Fuurt        00636  00636                % 07038 RGTR--
+190703002 Koerich, Gemeng       00637  00637                % 07038 RGTR--
+190703003 Koerich, Weidewee     00638  00638                % 07038 RGTR--
+190701001 Goeblange, Giewel     00639  00639                % 07038 RGTR--
+190702002 Goetzingen, Kreiz     00641  00641                % 07038 RGTR--
+190702001 Goetzingen, Kiirch    00642  00642                % 07038 RGTR--
+190606001 Olm, Dréischelsfeld   00645  00645                % 07038 RGTR--
+190901010 Capellen, Hirebesch   00647  00647                % 07038 RGTR--
+190901008 Capellen, Eechterfel  00648  00648                % 07038 RGTR--
+190901009 Capellen, Pafebruch   00648  00648                % 07038 RGTR--
+190903005 Mamer, Eglantiers     00651 -00651                % 07038 RGTR--
+190903012 Mamer, Mambra         00652 -00652                % 07038 RGTR--
+190903002 Mamer, Baerendall     00653 -00653                % 07038 RGTR--
+190903007 Mamer, Gaaschtbierg   00654 -00654                % 07038 RGTR--
+190903013 Mamer, Tossebierg     00655 -00655                % 07038 RGTR--
+200101002 Bertrange, Belle Eto  00657 -00657                % 07038 RGTR--
+200901011 Strassen, Schoenacht  00658 -00658                % 07038 RGTR--
+200901017 Strassen, Kesseler    00659 -00659                % 07038 RGTR--
+200901020 Strassen, Benelux     00701 -00701                % 07038 RGTR--
+200403021 Belair, Wandmillen    00707 -00707                % 07038 RGTR--
+200403018 Belair, Stade         00708 -00708                % 07038 RGTR--
+200405045 Centre, Stäreplaz /   00710 -00710                % 07038 RGTR--
+200405004 Centre, Monterey Par  00716                       % 07038 RGTR--

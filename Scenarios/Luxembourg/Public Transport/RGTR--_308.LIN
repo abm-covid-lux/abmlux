@@ -1,0 +1,80 @@
+*F 03 2
+*Z 09920 RGTR--                                             % 09920 RGTR--
+*L 308      220102005 221301026  00652  00733               % 09920 RGTR--
+*A al 220102005 221301026 000002  00652  00733              % 09920 RGTR--
+*A BE 220102005 221301026 000002  00652  00733              % 09920 RGTR--
+*A ah 220102005 221301026 000002  00652  00733              % 09920 RGTR--
+*A ad 220102005 221301026 000002  00652  00733              % 09920 RGTR--
+*R 1 221301026 220102005 221301026  00652  00733            % 09920 RGTR--
+*G RGB 220102005 221301026  00652  00733                    % 09920 RGTR--
+*A VE 220102005 221301026 000002  00652  00733              % 09920 RGTR--
+*I FD 220102005 221301026        0003155  00652  00733      % 09920 RGTR--
+220102005 Bettembourg, Gare            00652                % 09920 RGTR--
+220102006 Bettembourg, Kiirche  00654  00654                % 09920 RGTR--
+220102011 Bettembourg, Rousegä  00655  00655                % 09920 RGTR--
+220103002 Fennange, Rue des Ch  00656  00656                % 09920 RGTR--
+220103001 Fennange, Am Duerf    00657  00657                % 09920 RGTR--
+220104004 Huncherange, Rue d'E  00657  00657                % 09920 RGTR--
+220104002 Huncherange, Kreizun  00658  00658                % 09920 RGTR--
+220104001 Huncherange, Kiirch   00659  00659                % 09920 RGTR--
+220105005 Noertzange, Rue Prin  00701  00701                % 09920 RGTR--
+220105001 Noertzange, Am Duerf  00702  00702                % 09920 RGTR--
+220105004 Noertzange, Lohrwies  00703  00703                % 09920 RGTR--
+221401004 Schifflange, Gringe   00706  00706                % 09920 RGTR--
+221401009 Schifflange, Stadhau  00707  00707                % 09920 RGTR--
+221401005 Schifflange, Huele W  00709  00709                % 09920 RGTR--
+221401006 Schifflange, Millche  00710  00710                % 09920 RGTR--
+220402055 Esch/Alzette, Lycée   00714  00714                % 09920 RGTR--
+220402059 Esch/Alzette, Lycée   00717  00717                % 09920 RGTR--
+220402062 Esch/Alzette, Lycée   00725  00725                % 09920 RGTR--
+221301026 Belvaux, Lycée Bel-V  00733                       % 09920 RGTR--
+*Z 09921 RGTR--                                             % 09921 RGTR--
+*L 308      220102005 221301026  00657  00738               % 09921 RGTR--
+*A al 220102005 221301026 000002  00657  00738              % 09921 RGTR--
+*A BE 220102005 221301026 000002  00657  00738              % 09921 RGTR--
+*A ah 220102005 221301026 000002  00657  00738              % 09921 RGTR--
+*A ad 220102005 221301026 000002  00657  00738              % 09921 RGTR--
+*R 1 221301026 220102005 221301026  00657  00738            % 09921 RGTR--
+*G RGB 220102005 221301026  00657  00738                    % 09921 RGTR--
+*A VE 220102005 221301026 000002  00657  00738              % 09921 RGTR--
+*I FD 220102005 221301026        0002978  00657  00738      % 09921 RGTR--
+220102005 Bettembourg, Gare            00657                % 09921 RGTR--
+220102006 Bettembourg, Kiirche  00659  00659                % 09921 RGTR--
+220102011 Bettembourg, Rousegä  00700  00700                % 09921 RGTR--
+220103002 Fennange, Rue des Ch  00701  00701                % 09921 RGTR--
+220103001 Fennange, Am Duerf    00702  00702                % 09921 RGTR--
+220104004 Huncherange, Rue d'E  00702  00702                % 09921 RGTR--
+220104002 Huncherange, Kreizun  00703  00703                % 09921 RGTR--
+220104001 Huncherange, Kiirch   00704  00704                % 09921 RGTR--
+220105005 Noertzange, Rue Prin  00706  00706                % 09921 RGTR--
+220105001 Noertzange, Am Duerf  00707  00707                % 09921 RGTR--
+220105004 Noertzange, Lohrwies  00708  00708                % 09921 RGTR--
+221401004 Schifflange, Gringe   00711  00711                % 09921 RGTR--
+221401009 Schifflange, Stadhau  00712  00712                % 09921 RGTR--
+221401005 Schifflange, Huele W  00714  00714                % 09921 RGTR--
+221401006 Schifflange, Millche  00715  00715                % 09921 RGTR--
+220402055 Esch/Alzette, Lycée   00719  00719                % 09921 RGTR--
+220402059 Esch/Alzette, Lycée   00722  00722                % 09921 RGTR--
+220402062 Esch/Alzette, Lycée   00730  00730                % 09921 RGTR--
+221301026 Belvaux, Lycée Bel-V  00738                       % 09921 RGTR--
+*Z 09922 RGTR--                                             % 09922 RGTR--
+*L 308      220402055 220102005  01427  01450               % 09922 RGTR--
+*A al 220402055 220102005 000002  01427  01450              % 09922 RGTR--
+*A ag 220402055 220102005 000002  01427  01450              % 09922 RGTR--
+*A ad 220402055 220102005 000002  01427  01450              % 09922 RGTR--
+*R 2 220102005 220402055 220102005  01427  01450            % 09922 RGTR--
+*G RGB 220402055 220102005  01427  01450                    % 09922 RGTR--
+*A VE 220402055 220102005 000002  01427  01450              % 09922 RGTR--
+*I FD 220402055 220102005        0003030  01427  01450      % 09922 RGTR--
+220402055 Esch/Alzette, Lycée          01427                % 09922 RGTR--
+220402059 Esch/Alzette, Lycée   01429  01429                % 09922 RGTR--
+220105003 Noertzange, Route de  01440  01440                % 09922 RGTR--
+220105005 Noertzange, Rue Prin  01441  01441                % 09922 RGTR--
+220104001 Huncherange, Kiirch   01443  01443                % 09922 RGTR--
+220104002 Huncherange, Kreizun  01443  01443                % 09922 RGTR--
+220104004 Huncherange, Rue d'E  01444  01444                % 09922 RGTR--
+220103001 Fennange, Am Duerf    01445  01445                % 09922 RGTR--
+220103002 Fennange, Rue des Ch  01446  01446                % 09922 RGTR--
+220102011 Bettembourg, Rousegä  01446  01446                % 09922 RGTR--
+220102006 Bettembourg, Kiirche  01447  01447                % 09922 RGTR--
+220102005 Bettembourg, Gare     01450                       % 09922 RGTR--

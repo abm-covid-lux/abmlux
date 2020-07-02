@@ -1,0 +1,517 @@
+*F 03 2
+*Z 01957 RGTR--                                             % 01957 RGTR--
+*L 575      140401004 141201001  01016  01041               % 01957 RGTR--
+*A ax 140401004 141201001 000001  01016  01041              % 01957 RGTR--
+*A WW 140401004 141201001 000001  01016  01041              % 01957 RGTR--
+*R 1 141201001 140401004 141201001  01016  01041            % 01957 RGTR--
+*G RGB 140401004 141201001  01016  01041                    % 01957 RGTR--
+*A VE 140401004 141201001 000001  01016  01041              % 01957 RGTR--
+*I FD 140401004 141201001        0002688  01016  01041      % 01957 RGTR--
+140401004 Diekirch, Gare               01016                % 01957 RGTR--
+140401001 Diekirch, Altersheem  01017  01017                % 01957 RGTR--
+140401011 Diekirch, Alexis Hec  01018  01018                % 01957 RGTR--
+140401005 Diekirch, Kleck       01019  01019                % 01957 RGTR--
+140203001 Gilsdorf, An der Klé  01020  01020                % 01957 RGTR--
+140202001 Bleesbréck            01021  01021                % 01957 RGTR--
+140205002 Selz                  01022  01022                % 01957 RGTR--
+130206001 Longsdorf, Pompstati  01025  01025                % 01957 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01029  01029                % 01957 RGTR--
+141202002 Hoesdorf, Veräinsbau  01031  01031                % 01957 RGTR--
+141203004 Reisdorf, Cité J. Hi  01035  01035                % 01957 RGTR--
+141203002 Reisdorf, Bei der Ga  01036  01036                % 01957 RGTR--
+141203003 Reisdorf, Beim Gober  01038  01038                % 01957 RGTR--
+141203005 Reisdorf, Duddwee     01039  01039                % 01957 RGTR--
+141201001 Bigelbach, Kiirch     01041                       % 01957 RGTR--
+*Z 01958 RGTR--                                             % 01958 RGTR--
+*L 575      140401004 141201001  01116  01141               % 01958 RGTR--
+*A ax 140401004 141201001 000001  01116  01141              % 01958 RGTR--
+*A WW 140401004 141201001 000001  01116  01141              % 01958 RGTR--
+*R 1 141201001 140401004 141201001  01116  01141            % 01958 RGTR--
+*G RGB 140401004 141201001  01116  01141                    % 01958 RGTR--
+*A VE 140401004 141201001 000001  01116  01141              % 01958 RGTR--
+*I FD 140401004 141201001        0001059  01116  01141      % 01958 RGTR--
+140401004 Diekirch, Gare               01116                % 01958 RGTR--
+140401001 Diekirch, Altersheem  01117  01117                % 01958 RGTR--
+140401011 Diekirch, Alexis Hec  01118  01118                % 01958 RGTR--
+140401005 Diekirch, Kleck       01119  01119                % 01958 RGTR--
+140203001 Gilsdorf, An der Klé  01120  01120                % 01958 RGTR--
+140202001 Bleesbréck            01121  01121                % 01958 RGTR--
+140205002 Selz                  01122  01122                % 01958 RGTR--
+130206001 Longsdorf, Pompstati  01125  01125                % 01958 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01129  01129                % 01958 RGTR--
+141202002 Hoesdorf, Veräinsbau  01131  01131                % 01958 RGTR--
+141203004 Reisdorf, Cité J. Hi  01135  01135                % 01958 RGTR--
+141203002 Reisdorf, Bei der Ga  01136  01136                % 01958 RGTR--
+141203003 Reisdorf, Beim Gober  01138  01138                % 01958 RGTR--
+141203005 Reisdorf, Duddwee     01139  01139                % 01958 RGTR--
+141201001 Bigelbach, Kiirch     01141                       % 01958 RGTR--
+*Z 01959 RGTR--                                             % 01959 RGTR--
+*L 575      140401004 141201001  01214  01239               % 01959 RGTR--
+*A ax 140401004 141201001 000001  01214  01239              % 01959 RGTR--
+*A WW 140401004 141201001 000001  01214  01239              % 01959 RGTR--
+*R 1 141201001 140401004 141201001  01214  01239            % 01959 RGTR--
+*G RGB 140401004 141201001  01214  01239                    % 01959 RGTR--
+*A VE 140401004 141201001 000001  01214  01239              % 01959 RGTR--
+*I FD 140401004 141201001        0002172  01214  01239      % 01959 RGTR--
+140401004 Diekirch, Gare               01214                % 01959 RGTR--
+140401001 Diekirch, Altersheem  01215  01215                % 01959 RGTR--
+140401011 Diekirch, Alexis Hec  01216  01216                % 01959 RGTR--
+140401005 Diekirch, Kleck       01217  01217                % 01959 RGTR--
+140203001 Gilsdorf, An der Klé  01218  01218                % 01959 RGTR--
+140202001 Bleesbréck            01219  01219                % 01959 RGTR--
+140205002 Selz                  01220  01220                % 01959 RGTR--
+130206001 Longsdorf, Pompstati  01223  01223                % 01959 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01227  01227                % 01959 RGTR--
+141202002 Hoesdorf, Veräinsbau  01229  01229                % 01959 RGTR--
+141203004 Reisdorf, Cité J. Hi  01233  01233                % 01959 RGTR--
+141203002 Reisdorf, Bei der Ga  01234  01234                % 01959 RGTR--
+141203003 Reisdorf, Beim Gober  01236  01236                % 01959 RGTR--
+141203005 Reisdorf, Duddwee     01237  01237                % 01959 RGTR--
+141201001 Bigelbach, Kiirch     01239                       % 01959 RGTR--
+*Z 01960 RGTR--                                             % 01960 RGTR--
+*L 575      140401004 141201001  01445  01510               % 01960 RGTR--
+*A ax 140401004 141201001 000001  01445  01510              % 01960 RGTR--
+*R 1 141201001 140401004 141201001  01445  01510            % 01960 RGTR--
+*G RGB 140401004 141201001  01445  01510                    % 01960 RGTR--
+*A VE 140401004 141201001 000001  01445  01510              % 01960 RGTR--
+*I FD 140401004 141201001        0002552  01445  01510      % 01960 RGTR--
+140401004 Diekirch, Gare               01445                % 01960 RGTR--
+140401001 Diekirch, Altersheem  01446  01446                % 01960 RGTR--
+140401011 Diekirch, Alexis Hec  01447  01447                % 01960 RGTR--
+140401005 Diekirch, Kleck       01448  01448                % 01960 RGTR--
+140203001 Gilsdorf, An der Klé  01449  01449                % 01960 RGTR--
+140202001 Bleesbréck            01450  01450                % 01960 RGTR--
+140205002 Selz                  01451  01451                % 01960 RGTR--
+130206001 Longsdorf, Pompstati  01454  01454                % 01960 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01458  01458                % 01960 RGTR--
+141202002 Hoesdorf, Veräinsbau  01500  01500                % 01960 RGTR--
+141203004 Reisdorf, Cité J. Hi  01504  01504                % 01960 RGTR--
+141203002 Reisdorf, Bei der Ga  01505  01505                % 01960 RGTR--
+141203003 Reisdorf, Beim Gober  01507  01507                % 01960 RGTR--
+141203005 Reisdorf, Duddwee     01508  01508                % 01960 RGTR--
+141201001 Bigelbach, Kiirch     01510                       % 01960 RGTR--
+*Z 01961 RGTR--                                             % 01961 RGTR--
+*L 575      140401004 141201001  01518  01543               % 01961 RGTR--
+*A ax 140401004 141201001 000001  01518  01543              % 01961 RGTR--
+*A WW 140401004 141201001 000001  01518  01543              % 01961 RGTR--
+*R 1 141201001 140401004 141201001  01518  01543            % 01961 RGTR--
+*G RGB 140401004 141201001  01518  01543                    % 01961 RGTR--
+*A VE 140401004 141201001 000001  01518  01543              % 01961 RGTR--
+*I FD 140401004 141201001        0002637  01518  01543      % 01961 RGTR--
+140401004 Diekirch, Gare               01518                % 01961 RGTR--
+140401001 Diekirch, Altersheem  01519  01519                % 01961 RGTR--
+140401011 Diekirch, Alexis Hec  01520  01520                % 01961 RGTR--
+140401005 Diekirch, Kleck       01521  01521                % 01961 RGTR--
+140203001 Gilsdorf, An der Klé  01522  01522                % 01961 RGTR--
+140202001 Bleesbréck            01523  01523                % 01961 RGTR--
+140205002 Selz                  01524  01524                % 01961 RGTR--
+130206001 Longsdorf, Pompstati  01527  01527                % 01961 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01531  01531                % 01961 RGTR--
+141202002 Hoesdorf, Veräinsbau  01533  01533                % 01961 RGTR--
+141203004 Reisdorf, Cité J. Hi  01537  01537                % 01961 RGTR--
+141203002 Reisdorf, Bei der Ga  01538  01538                % 01961 RGTR--
+141203003 Reisdorf, Beim Gober  01540  01540                % 01961 RGTR--
+141203005 Reisdorf, Duddwee     01541  01541                % 01961 RGTR--
+141201001 Bigelbach, Kiirch     01543                       % 01961 RGTR--
+*Z 01962 RGTR--                                             % 01962 RGTR--
+*L 575      140401004 141201001  01916  01941               % 01962 RGTR--
+*A ax 140401004 141201001 000001  01916  01941              % 01962 RGTR--
+*A WW 140401004 141201001 000001  01916  01941              % 01962 RGTR--
+*R 1 141201001 140401004 141201001  01916  01941            % 01962 RGTR--
+*G RGB 140401004 141201001  01916  01941                    % 01962 RGTR--
+*A VE 140401004 141201001 000001  01916  01941              % 01962 RGTR--
+*I FD 140401004 141201001        0002689  01916  01941      % 01962 RGTR--
+140401004 Diekirch, Gare               01916                % 01962 RGTR--
+140401001 Diekirch, Altersheem  01917  01917                % 01962 RGTR--
+140401011 Diekirch, Alexis Hec  01918  01918                % 01962 RGTR--
+140401005 Diekirch, Kleck       01919  01919                % 01962 RGTR--
+140203001 Gilsdorf, An der Klé  01920  01920                % 01962 RGTR--
+140202001 Bleesbréck            01921  01921                % 01962 RGTR--
+140205002 Selz                  01922  01922                % 01962 RGTR--
+130206001 Longsdorf, Pompstati  01925  01925                % 01962 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01929  01929                % 01962 RGTR--
+141202002 Hoesdorf, Veräinsbau  01931  01931                % 01962 RGTR--
+141203004 Reisdorf, Cité J. Hi  01935  01935                % 01962 RGTR--
+141203002 Reisdorf, Bei der Ga  01936  01936                % 01962 RGTR--
+141203003 Reisdorf, Beim Gober  01938  01938                % 01962 RGTR--
+141203005 Reisdorf, Duddwee     01939  01939                % 01962 RGTR--
+141201001 Bigelbach, Kiirch     01941                       % 01962 RGTR--
+*Z 01963 RGTR--                                             % 01963 RGTR--
+*L 575      140401004 141201001  02016  02041               % 01963 RGTR--
+*A ax 140401004 141201001 000001  02016  02041              % 01963 RGTR--
+*A WW 140401004 141201001 000001  02016  02041              % 01963 RGTR--
+*R 1 141201001 140401004 141201001  02016  02041            % 01963 RGTR--
+*G RGB 140401004 141201001  02016  02041                    % 01963 RGTR--
+*A VE 140401004 141201001 000001  02016  02041              % 01963 RGTR--
+*I FD 140401004 141201001        0002690  02016  02041      % 01963 RGTR--
+140401004 Diekirch, Gare               02016                % 01963 RGTR--
+140401001 Diekirch, Altersheem  02017  02017                % 01963 RGTR--
+140401011 Diekirch, Alexis Hec  02018  02018                % 01963 RGTR--
+140401005 Diekirch, Kleck       02019  02019                % 01963 RGTR--
+140203001 Gilsdorf, An der Klé  02020  02020                % 01963 RGTR--
+140202001 Bleesbréck            02021  02021                % 01963 RGTR--
+140205002 Selz                  02022  02022                % 01963 RGTR--
+130206001 Longsdorf, Pompstati  02025  02025                % 01963 RGTR--
+141202001 Hoesdorf, Kranzenhaf  02029  02029                % 01963 RGTR--
+141202002 Hoesdorf, Veräinsbau  02031  02031                % 01963 RGTR--
+141203004 Reisdorf, Cité J. Hi  02035  02035                % 01963 RGTR--
+141203002 Reisdorf, Bei der Ga  02036  02036                % 01963 RGTR--
+141203003 Reisdorf, Beim Gober  02038  02038                % 01963 RGTR--
+141203005 Reisdorf, Duddwee     02039  02039                % 01963 RGTR--
+141201001 Bigelbach, Kiirch     02041                       % 01963 RGTR--
+*Z 01964 RGTR--                                             % 01964 RGTR--
+*L 575      140401004 141201001  00816  00842               % 01964 RGTR--
+*A ax 140401004 141201001 000001  00816  00842              % 01964 RGTR--
+*A WW 140401004 141201001 000001  00816  00842              % 01964 RGTR--
+*R 1 141201001 140401004 141201001  00816  00842            % 01964 RGTR--
+*G RGB 140401004 141201001  00816  00842                    % 01964 RGTR--
+*A VE 140401004 141201001 000001  00816  00842              % 01964 RGTR--
+*I FD 140401004 141201001        0002691  00816  00842      % 01964 RGTR--
+140401004 Diekirch, Gare               00816                % 01964 RGTR--
+140401001 Diekirch, Altersheem  00817  00817                % 01964 RGTR--
+140401011 Diekirch, Alexis Hec  00818  00818                % 01964 RGTR--
+140401005 Diekirch, Kleck       00819  00819                % 01964 RGTR--
+140203001 Gilsdorf, An der Klé  00820  00820                % 01964 RGTR--
+140202001 Bleesbréck            00821  00821                % 01964 RGTR--
+140205002 Selz                  00822  00822                % 01964 RGTR--
+130206001 Longsdorf, Pompstati  00826  00826                % 01964 RGTR--
+141202001 Hoesdorf, Kranzenhaf  00829  00829                % 01964 RGTR--
+141202002 Hoesdorf, Veräinsbau  00831  00831                % 01964 RGTR--
+141203004 Reisdorf, Cité J. Hi  00835  00835                % 01964 RGTR--
+141203002 Reisdorf, Bei der Ga  00836  00836                % 01964 RGTR--
+141203003 Reisdorf, Beim Gober  00839  00839                % 01964 RGTR--
+141203005 Reisdorf, Duddwee     00839  00839                % 01964 RGTR--
+141201001 Bigelbach, Kiirch     00842                       % 01964 RGTR--
+*Z 01965 RGTR--                                             % 01965 RGTR--
+*L 575      140401004 141201001  01616  01642               % 01965 RGTR--
+*A ax 140401004 141201001 000001  01616  01642              % 01965 RGTR--
+*A WW 140401004 141201001 000001  01616  01642              % 01965 RGTR--
+*R 1 141201001 140401004 141201001  01616  01642            % 01965 RGTR--
+*G RGB 140401004 141201001  01616  01642                    % 01965 RGTR--
+*A VE 140401004 141201001 000001  01616  01642              % 01965 RGTR--
+*I FD 140401004 141201001        0002692  01616  01642      % 01965 RGTR--
+140401004 Diekirch, Gare               01616                % 01965 RGTR--
+140401001 Diekirch, Altersheem  01617  01617                % 01965 RGTR--
+140401011 Diekirch, Alexis Hec  01618  01618                % 01965 RGTR--
+140401005 Diekirch, Kleck       01619  01619                % 01965 RGTR--
+140203001 Gilsdorf, An der Klé  01620  01620                % 01965 RGTR--
+140202001 Bleesbréck            01621  01621                % 01965 RGTR--
+140205002 Selz                  01622  01622                % 01965 RGTR--
+130206001 Longsdorf, Pompstati  01626  01626                % 01965 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01629  01629                % 01965 RGTR--
+141202002 Hoesdorf, Veräinsbau  01631  01631                % 01965 RGTR--
+141203004 Reisdorf, Cité J. Hi  01635  01635                % 01965 RGTR--
+141203002 Reisdorf, Bei der Ga  01636  01636                % 01965 RGTR--
+141203003 Reisdorf, Beim Gober  01639  01639                % 01965 RGTR--
+141203005 Reisdorf, Duddwee     01639  01639                % 01965 RGTR--
+141201001 Bigelbach, Kiirch     01642                       % 01965 RGTR--
+*Z 01966 RGTR--                                             % 01966 RGTR--
+*L 575      140401004 141201001  01716  01742               % 01966 RGTR--
+*A ax 140401004 141201001 000001  01716  01742              % 01966 RGTR--
+*A WW 140401004 141201001 000001  01716  01742              % 01966 RGTR--
+*R 1 141201001 140401004 141201001  01716  01742            % 01966 RGTR--
+*G RGB 140401004 141201001  01716  01742                    % 01966 RGTR--
+*A VE 140401004 141201001 000001  01716  01742              % 01966 RGTR--
+*I FD 140401004 141201001        0002685  01716  01742      % 01966 RGTR--
+140401004 Diekirch, Gare               01716                % 01966 RGTR--
+140401001 Diekirch, Altersheem  01717  01717                % 01966 RGTR--
+140401011 Diekirch, Alexis Hec  01718  01718                % 01966 RGTR--
+140401005 Diekirch, Kleck       01719  01719                % 01966 RGTR--
+140203001 Gilsdorf, An der Klé  01720  01720                % 01966 RGTR--
+140202001 Bleesbréck            01721  01721                % 01966 RGTR--
+140205002 Selz                  01722  01722                % 01966 RGTR--
+130206001 Longsdorf, Pompstati  01726  01726                % 01966 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01729  01729                % 01966 RGTR--
+141202002 Hoesdorf, Veräinsbau  01731  01731                % 01966 RGTR--
+141203004 Reisdorf, Cité J. Hi  01735  01735                % 01966 RGTR--
+141203002 Reisdorf, Bei der Ga  01736  01736                % 01966 RGTR--
+141203003 Reisdorf, Beim Gober  01739  01739                % 01966 RGTR--
+141203005 Reisdorf, Duddwee     01739  01739                % 01966 RGTR--
+141201001 Bigelbach, Kiirch     01742                       % 01966 RGTR--
+*Z 01967 RGTR--                                             % 01967 RGTR--
+*L 575      140401004 141201001  01748  01814               % 01967 RGTR--
+*A ax 140401004 141201001 000001  01748  01814              % 01967 RGTR--
+*A WW 140401004 141201001 000001  01748  01814              % 01967 RGTR--
+*R 1 141201001 140401004 141201001  01748  01814            % 01967 RGTR--
+*G RGB 140401004 141201001  01748  01814                    % 01967 RGTR--
+*A VE 140401004 141201001 000001  01748  01814              % 01967 RGTR--
+*I FD 140401004 141201001        0002432  01748  01814      % 01967 RGTR--
+140401004 Diekirch, Gare               01748                % 01967 RGTR--
+140401001 Diekirch, Altersheem  01749  01749                % 01967 RGTR--
+140401011 Diekirch, Alexis Hec  01750  01750                % 01967 RGTR--
+140401005 Diekirch, Kleck       01751  01751                % 01967 RGTR--
+140203001 Gilsdorf, An der Klé  01752  01752                % 01967 RGTR--
+140202001 Bleesbréck            01753  01753                % 01967 RGTR--
+140205002 Selz                  01754  01754                % 01967 RGTR--
+130206001 Longsdorf, Pompstati  01758  01758                % 01967 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01801  01801                % 01967 RGTR--
+141202002 Hoesdorf, Veräinsbau  01803  01803                % 01967 RGTR--
+141203004 Reisdorf, Cité J. Hi  01807  01807                % 01967 RGTR--
+141203002 Reisdorf, Bei der Ga  01808  01808                % 01967 RGTR--
+141203003 Reisdorf, Beim Gober  01811  01811                % 01967 RGTR--
+141203005 Reisdorf, Duddwee     01811  01811                % 01967 RGTR--
+141201001 Bigelbach, Kiirch     01814                       % 01967 RGTR--
+*Z 01968 RGTR--                                             % 01968 RGTR--
+*L 575      140401004 141201001  01816  01842               % 01968 RGTR--
+*A ax 140401004 141201001 000001  01816  01842              % 01968 RGTR--
+*A WW 140401004 141201001 000001  01816  01842              % 01968 RGTR--
+*R 1 141201001 140401004 141201001  01816  01842            % 01968 RGTR--
+*G RGB 140401004 141201001  01816  01842                    % 01968 RGTR--
+*A VE 140401004 141201001 000001  01816  01842              % 01968 RGTR--
+*I FD 140401004 141201001        0002693  01816  01842      % 01968 RGTR--
+140401004 Diekirch, Gare               01816                % 01968 RGTR--
+140401001 Diekirch, Altersheem  01817  01817                % 01968 RGTR--
+140401011 Diekirch, Alexis Hec  01818  01818                % 01968 RGTR--
+140401005 Diekirch, Kleck       01819  01819                % 01968 RGTR--
+140203001 Gilsdorf, An der Klé  01820  01820                % 01968 RGTR--
+140202001 Bleesbréck            01821  01821                % 01968 RGTR--
+140205002 Selz                  01822  01822                % 01968 RGTR--
+130206001 Longsdorf, Pompstati  01826  01826                % 01968 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01829  01829                % 01968 RGTR--
+141202002 Hoesdorf, Veräinsbau  01831  01831                % 01968 RGTR--
+141203004 Reisdorf, Cité J. Hi  01835  01835                % 01968 RGTR--
+141203002 Reisdorf, Bei der Ga  01836  01836                % 01968 RGTR--
+141203003 Reisdorf, Beim Gober  01839  01839                % 01968 RGTR--
+141203005 Reisdorf, Duddwee     01839  01839                % 01968 RGTR--
+141201001 Bigelbach, Kiirch     01842                       % 01968 RGTR--
+*Z 01969 RGTR--                                             % 01969 RGTR--
+*L 575      140401004 141201001  01846  01912               % 01969 RGTR--
+*A ax 140401004 141201001 000001  01846  01912              % 01969 RGTR--
+*A WW 140401004 141201001 000001  01846  01912              % 01969 RGTR--
+*R 1 141201001 140401004 141201001  01846  01912            % 01969 RGTR--
+*G RGB 140401004 141201001  01846  01912                    % 01969 RGTR--
+*A VE 140401004 141201001 000001  01846  01912              % 01969 RGTR--
+*I FD 140401004 141201001        0001341  01846  01912      % 01969 RGTR--
+140401004 Diekirch, Gare               01846                % 01969 RGTR--
+140401001 Diekirch, Altersheem  01847  01847                % 01969 RGTR--
+140401011 Diekirch, Alexis Hec  01848  01848                % 01969 RGTR--
+140401005 Diekirch, Kleck       01849  01849                % 01969 RGTR--
+140203001 Gilsdorf, An der Klé  01850  01850                % 01969 RGTR--
+140202001 Bleesbréck            01851  01851                % 01969 RGTR--
+140205002 Selz                  01852  01852                % 01969 RGTR--
+130206001 Longsdorf, Pompstati  01856  01856                % 01969 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01859  01859                % 01969 RGTR--
+141202002 Hoesdorf, Veräinsbau  01901  01901                % 01969 RGTR--
+141203004 Reisdorf, Cité J. Hi  01905  01905                % 01969 RGTR--
+141203002 Reisdorf, Bei der Ga  01906  01906                % 01969 RGTR--
+141203003 Reisdorf, Beim Gober  01909  01909                % 01969 RGTR--
+141203005 Reisdorf, Duddwee     01909  01909                % 01969 RGTR--
+141201001 Bigelbach, Kiirch     01912                       % 01969 RGTR--
+*Z 01970 RGTR--                                             % 01970 RGTR--
+*L 575      141201001 140401004  00715  00743               % 01970 RGTR--
+*A ax 141201001 140401004 000001  00715  00743              % 01970 RGTR--
+*R 2 140401004 141201001 140401004  00715  00743            % 01970 RGTR--
+*G RGB 141201001 140401004  00715  00743                    % 01970 RGTR--
+*A VE 141201001 140401004 000001  00715  00743              % 01970 RGTR--
+*I FD 141201001 140401004        0002680  00715  00743      % 01970 RGTR--
+141201001 Bigelbach, Kiirch            00715                % 01970 RGTR--
+141203005 Reisdorf, Duddwee     00718  00718                % 01970 RGTR--
+141203003 Reisdorf, Beim Gober  00718  00718                % 01970 RGTR--
+141203002 Reisdorf, Bei der Ga  00721  00721                % 01970 RGTR--
+141203004 Reisdorf, Cité J. Hi  00722  00722                % 01970 RGTR--
+141202002 Hoesdorf, Veräinsbau  00726  00726                % 01970 RGTR--
+141202001 Hoesdorf, Kranzenhaf  00728  00728                % 01970 RGTR--
+130206001 Longsdorf, Pompstati  00731  00731                % 01970 RGTR--
+140205002 Selz                  00735  00735                % 01970 RGTR--
+140202001 Bleesbréck            00736  00736                % 01970 RGTR--
+140203001 Gilsdorf, An der Klé  00737  00737                % 01970 RGTR--
+140401005 Diekirch, Kleck       00738  00738                % 01970 RGTR--
+140401006 Diekirch, Kluuster    00740  00740                % 01970 RGTR--
+140401004 Diekirch, Gare        00743                       % 01970 RGTR--
+*Z 01971 RGTR--                                             % 01971 RGTR--
+*L 575      141201001 140401004  00746  00814               % 01971 RGTR--
+*A ax 141201001 140401004 000001  00746  00814              % 01971 RGTR--
+*A XV 141201001 140401004 000001  00746  00814              % 01971 RGTR--
+*R 2 140401004 141201001 140401004  00746  00814            % 01971 RGTR--
+*G RGB 141201001 140401004  00746  00814                    % 01971 RGTR--
+*A VE 141201001 140401004 000001  00746  00814              % 01971 RGTR--
+*I FD 141201001 140401004        0002694  00746  00814      % 01971 RGTR--
+141201001 Bigelbach, Kiirch            00746                % 01971 RGTR--
+141203005 Reisdorf, Duddwee     00749  00749                % 01971 RGTR--
+141203003 Reisdorf, Beim Gober  00749  00749                % 01971 RGTR--
+141203002 Reisdorf, Bei der Ga  00752  00752                % 01971 RGTR--
+141203004 Reisdorf, Cité J. Hi  00753  00753                % 01971 RGTR--
+141202002 Hoesdorf, Veräinsbau  00757  00757                % 01971 RGTR--
+141202001 Hoesdorf, Kranzenhaf  00759  00759                % 01971 RGTR--
+130206001 Longsdorf, Pompstati  00802  00802                % 01971 RGTR--
+140205002 Selz                  00806  00806                % 01971 RGTR--
+140202001 Bleesbréck            00807  00807                % 01971 RGTR--
+140203001 Gilsdorf, An der Klé  00808  00808                % 01971 RGTR--
+140401005 Diekirch, Kleck       00809  00809                % 01971 RGTR--
+140401006 Diekirch, Kluuster    00811  00811                % 01971 RGTR--
+140401004 Diekirch, Gare        00814                       % 01971 RGTR--
+*Z 01972 RGTR--                                             % 01972 RGTR--
+*L 575      141201001 140401004  00846  00914               % 01972 RGTR--
+*A ax 141201001 140401004 000001  00846  00914              % 01972 RGTR--
+*A XV 141201001 140401004 000001  00846  00914              % 01972 RGTR--
+*R 2 140401004 141201001 140401004  00846  00914            % 01972 RGTR--
+*G RGB 141201001 140401004  00846  00914                    % 01972 RGTR--
+*A VE 141201001 140401004 000001  00846  00914              % 01972 RGTR--
+*I FD 141201001 140401004        0002695  00846  00914      % 01972 RGTR--
+141201001 Bigelbach, Kiirch            00846                % 01972 RGTR--
+141203005 Reisdorf, Duddwee     00849  00849                % 01972 RGTR--
+141203003 Reisdorf, Beim Gober  00849  00849                % 01972 RGTR--
+141203002 Reisdorf, Bei der Ga  00852  00852                % 01972 RGTR--
+141203004 Reisdorf, Cité J. Hi  00853  00853                % 01972 RGTR--
+141202002 Hoesdorf, Veräinsbau  00857  00857                % 01972 RGTR--
+141202001 Hoesdorf, Kranzenhaf  00859  00859                % 01972 RGTR--
+130206001 Longsdorf, Pompstati  00902  00902                % 01972 RGTR--
+140205002 Selz                  00906  00906                % 01972 RGTR--
+140202001 Bleesbréck            00907  00907                % 01972 RGTR--
+140203001 Gilsdorf, An der Klé  00908  00908                % 01972 RGTR--
+140401005 Diekirch, Kleck       00909  00909                % 01972 RGTR--
+140401006 Diekirch, Kluuster    00911  00911                % 01972 RGTR--
+140401004 Diekirch, Gare        00914                       % 01972 RGTR--
+*Z 01973 RGTR--                                             % 01973 RGTR--
+*L 575      141201001 140401004  01746  01814               % 01973 RGTR--
+*A ax 141201001 140401004 000001  01746  01814              % 01973 RGTR--
+*A XV 141201001 140401004 000001  01746  01814              % 01973 RGTR--
+*R 2 140401004 141201001 140401004  01746  01814            % 01973 RGTR--
+*G RGB 141201001 140401004  01746  01814                    % 01973 RGTR--
+*A VE 141201001 140401004 000001  01746  01814              % 01973 RGTR--
+*I FD 141201001 140401004        0002696  01746  01814      % 01973 RGTR--
+141201001 Bigelbach, Kiirch            01746                % 01973 RGTR--
+141203005 Reisdorf, Duddwee     01749  01749                % 01973 RGTR--
+141203003 Reisdorf, Beim Gober  01749  01749                % 01973 RGTR--
+141203002 Reisdorf, Bei der Ga  01752  01752                % 01973 RGTR--
+141203004 Reisdorf, Cité J. Hi  01753  01753                % 01973 RGTR--
+141202002 Hoesdorf, Veräinsbau  01757  01757                % 01973 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01759  01759                % 01973 RGTR--
+130206001 Longsdorf, Pompstati  01802  01802                % 01973 RGTR--
+140205002 Selz                  01806  01806                % 01973 RGTR--
+140202001 Bleesbréck            01807  01807                % 01973 RGTR--
+140203001 Gilsdorf, An der Klé  01808  01808                % 01973 RGTR--
+140401005 Diekirch, Kleck       01809  01809                % 01973 RGTR--
+140401006 Diekirch, Kluuster    01811  01811                % 01973 RGTR--
+140401004 Diekirch, Gare        01814                       % 01973 RGTR--
+*Z 01974 RGTR--                                             % 01974 RGTR--
+*L 575      141201001 140401004  00645  00712               % 01974 RGTR--
+*A ax 141201001 140401004 000002  00645  00712              % 01974 RGTR--
+*A XV 141201001 140401004 000002  00645  00712              % 01974 RGTR--
+*R 2 140401004 141201001 140401004  00645  00712            % 01974 RGTR--
+*G RGB 141201001 140401004  00645  00712                    % 01974 RGTR--
+*A VE 141201001 140401004 000002  00645  00712              % 01974 RGTR--
+*I FD 141201001 140401004        0002256  00645  00712      % 01974 RGTR--
+141201001 Bigelbach, Kiirch            00645                % 01974 RGTR--
+141203005 Reisdorf, Duddwee     00647  00647                % 01974 RGTR--
+141203003 Reisdorf, Beim Gober  00647  00647                % 01974 RGTR--
+141203002 Reisdorf, Bei der Ga  00650  00650                % 01974 RGTR--
+141203004 Reisdorf, Cité J. Hi  00651  00651                % 01974 RGTR--
+141202002 Hoesdorf, Veräinsbau  00655  00655                % 01974 RGTR--
+141202001 Hoesdorf, Kranzenhaf  00658  00658                % 01974 RGTR--
+130206001 Longsdorf, Pompstati  00701  00701                % 01974 RGTR--
+140205002 Selz                  00705  00705                % 01974 RGTR--
+140202001 Bleesbréck            00706  00706                % 01974 RGTR--
+140203001 Gilsdorf, An der Klé  00707  00707                % 01974 RGTR--
+140401005 Diekirch, Kleck       00708  00708                % 01974 RGTR--
+140401006 Diekirch, Kluuster    00710  00710                % 01974 RGTR--
+140401004 Diekirch, Gare        00712                       % 01974 RGTR--
+*Z 01975 RGTR--                                             % 01975 RGTR--
+*L 575      141201001 140401004  00547  00614               % 01975 RGTR--
+*A ax 141201001 140401004 000001  00547  00614              % 01975 RGTR--
+*A XV 141201001 140401004 000001  00547  00614              % 01975 RGTR--
+*R 2 140401004 141201001 140401004  00547  00614            % 01975 RGTR--
+*G RGB 141201001 140401004  00547  00614                    % 01975 RGTR--
+*A VE 141201001 140401004 000001  00547  00614              % 01975 RGTR--
+*I FD 141201001 140401004        0002336  00547  00614      % 01975 RGTR--
+141201001 Bigelbach, Kiirch            00547                % 01975 RGTR--
+141203005 Reisdorf, Duddwee     00549  00549                % 01975 RGTR--
+141203003 Reisdorf, Beim Gober  00550  00550                % 01975 RGTR--
+141203002 Reisdorf, Bei der Ga  00553  00553                % 01975 RGTR--
+141203004 Reisdorf, Cité J. Hi  00553  00553                % 01975 RGTR--
+141202002 Hoesdorf, Veräinsbau  00558  00558                % 01975 RGTR--
+141202001 Hoesdorf, Kranzenhaf  00600  00600                % 01975 RGTR--
+130206001 Longsdorf, Pompstati  00603  00603                % 01975 RGTR--
+140205002 Selz                  00607  00607                % 01975 RGTR--
+140202001 Bleesbréck            00608  00608                % 01975 RGTR--
+140203001 Gilsdorf, An der Klé  00609  00609                % 01975 RGTR--
+140401005 Diekirch, Kleck       00610  00610                % 01975 RGTR--
+140401006 Diekirch, Kluuster    00612  00612                % 01975 RGTR--
+140401004 Diekirch, Gare        00614                       % 01975 RGTR--
+*Z 01976 RGTR--                                             % 01976 RGTR--
+*L 575      141201001 140401004  01047  01114               % 01976 RGTR--
+*A ax 141201001 140401004 000001  01047  01114              % 01976 RGTR--
+*A XV 141201001 140401004 000001  01047  01114              % 01976 RGTR--
+*R 2 140401004 141201001 140401004  01047  01114            % 01976 RGTR--
+*G RGB 141201001 140401004  01047  01114                    % 01976 RGTR--
+*A VE 141201001 140401004 000001  01047  01114              % 01976 RGTR--
+*I FD 141201001 140401004        0002697  01047  01114      % 01976 RGTR--
+141201001 Bigelbach, Kiirch            01047                % 01976 RGTR--
+141203005 Reisdorf, Duddwee     01049  01049                % 01976 RGTR--
+141203003 Reisdorf, Beim Gober  01050  01050                % 01976 RGTR--
+141203002 Reisdorf, Bei der Ga  01053  01053                % 01976 RGTR--
+141203004 Reisdorf, Cité J. Hi  01053  01053                % 01976 RGTR--
+141202002 Hoesdorf, Veräinsbau  01058  01058                % 01976 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01100  01100                % 01976 RGTR--
+130206001 Longsdorf, Pompstati  01103  01103                % 01976 RGTR--
+140205002 Selz                  01107  01107                % 01976 RGTR--
+140202001 Bleesbréck            01108  01108                % 01976 RGTR--
+140203001 Gilsdorf, An der Klé  01109  01109                % 01976 RGTR--
+140401005 Diekirch, Kleck       01110  01110                % 01976 RGTR--
+140401006 Diekirch, Kluuster    01112  01112                % 01976 RGTR--
+140401004 Diekirch, Gare        01114                       % 01976 RGTR--
+*Z 01977 RGTR--                                             % 01977 RGTR--
+*L 575      141201001 140401004  01318  01345               % 01977 RGTR--
+*A ax 141201001 140401004 000001  01318  01345              % 01977 RGTR--
+*R 2 140401004 141201001 140401004  01318  01345            % 01977 RGTR--
+*G RGB 141201001 140401004  01318  01345                    % 01977 RGTR--
+*A VE 141201001 140401004 000001  01318  01345              % 01977 RGTR--
+*I FD 141201001 140401004        0002698  01318  01345      % 01977 RGTR--
+141201001 Bigelbach, Kiirch            01318                % 01977 RGTR--
+141203005 Reisdorf, Duddwee     01320  01320                % 01977 RGTR--
+141203003 Reisdorf, Beim Gober  01321  01321                % 01977 RGTR--
+141203002 Reisdorf, Bei der Ga  01324  01324                % 01977 RGTR--
+141203004 Reisdorf, Cité J. Hi  01324  01324                % 01977 RGTR--
+141202002 Hoesdorf, Veräinsbau  01329  01329                % 01977 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01331  01331                % 01977 RGTR--
+130206001 Longsdorf, Pompstati  01334  01334                % 01977 RGTR--
+140205002 Selz                  01338  01338                % 01977 RGTR--
+140202001 Bleesbréck            01339  01339                % 01977 RGTR--
+140203001 Gilsdorf, An der Klé  01340  01340                % 01977 RGTR--
+140401005 Diekirch, Kleck       01341  01341                % 01977 RGTR--
+140401006 Diekirch, Kluuster    01343  01343                % 01977 RGTR--
+140401004 Diekirch, Gare        01345                       % 01977 RGTR--
+*Z 01978 RGTR--                                             % 01978 RGTR--
+*L 575      141201001 140401004  01347  01414               % 01978 RGTR--
+*A ax 141201001 140401004 000001  01347  01414              % 01978 RGTR--
+*A XV 141201001 140401004 000001  01347  01414              % 01978 RGTR--
+*R 2 140401004 141201001 140401004  01347  01414            % 01978 RGTR--
+*G RGB 141201001 140401004  01347  01414                    % 01978 RGTR--
+*A VE 141201001 140401004 000001  01347  01414              % 01978 RGTR--
+*I FD 141201001 140401004        0002334  01347  01414      % 01978 RGTR--
+141201001 Bigelbach, Kiirch            01347                % 01978 RGTR--
+141203005 Reisdorf, Duddwee     01349  01349                % 01978 RGTR--
+141203003 Reisdorf, Beim Gober  01350  01350                % 01978 RGTR--
+141203002 Reisdorf, Bei der Ga  01353  01353                % 01978 RGTR--
+141203004 Reisdorf, Cité J. Hi  01353  01353                % 01978 RGTR--
+141202002 Hoesdorf, Veräinsbau  01358  01358                % 01978 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01400  01400                % 01978 RGTR--
+130206001 Longsdorf, Pompstati  01403  01403                % 01978 RGTR--
+140205002 Selz                  01407  01407                % 01978 RGTR--
+140202001 Bleesbréck            01408  01408                % 01978 RGTR--
+140203001 Gilsdorf, An der Klé  01409  01409                % 01978 RGTR--
+140401005 Diekirch, Kleck       01410  01410                % 01978 RGTR--
+140401006 Diekirch, Kluuster    01412  01412                % 01978 RGTR--
+140401004 Diekirch, Gare        01414                       % 01978 RGTR--
+*Z 01979 RGTR--                                             % 01979 RGTR--
+*L 575      141201001 140401004  01547  01614               % 01979 RGTR--
+*A ax 141201001 140401004 000001  01547  01614              % 01979 RGTR--
+*A XV 141201001 140401004 000001  01547  01614              % 01979 RGTR--
+*R 2 140401004 141201001 140401004  01547  01614            % 01979 RGTR--
+*G RGB 141201001 140401004  01547  01614                    % 01979 RGTR--
+*A VE 141201001 140401004 000001  01547  01614              % 01979 RGTR--
+*I FD 141201001 140401004        0002699  01547  01614      % 01979 RGTR--
+141201001 Bigelbach, Kiirch            01547                % 01979 RGTR--
+141203005 Reisdorf, Duddwee     01549  01549                % 01979 RGTR--
+141203003 Reisdorf, Beim Gober  01550  01550                % 01979 RGTR--
+141203002 Reisdorf, Bei der Ga  01553  01553                % 01979 RGTR--
+141203004 Reisdorf, Cité J. Hi  01553  01553                % 01979 RGTR--
+141202002 Hoesdorf, Veräinsbau  01558  01558                % 01979 RGTR--
+141202001 Hoesdorf, Kranzenhaf  01600  01600                % 01979 RGTR--
+130206001 Longsdorf, Pompstati  01603  01603                % 01979 RGTR--
+140205002 Selz                  01607  01607                % 01979 RGTR--
+140202001 Bleesbréck            01608  01608                % 01979 RGTR--
+140203001 Gilsdorf, An der Klé  01609  01609                % 01979 RGTR--
+140401005 Diekirch, Kleck       01610  01610                % 01979 RGTR--
+140401006 Diekirch, Kluuster    01612  01612                % 01979 RGTR--
+140401004 Diekirch, Gare        01614                       % 01979 RGTR--

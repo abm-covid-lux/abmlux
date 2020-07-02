@@ -1,0 +1,963 @@
+*F 03 2
+*Z 09445 RGTR--                                             % 09445 RGTR--
+*L 445      200405005 150606005  01217  01318               % 09445 RGTR--
+*A bm 200405005 150606005 000001  01217  01318              % 09445 RGTR--
+*A FU 200405005 150606005 000001  01217  01318              % 09445 RGTR--
+*R 1 150606005 200405005 150606005  01217  01318            % 09445 RGTR--
+*G RGB 200405005 150606005  01217  01318                    % 09445 RGTR--
+*A VE 200405005 150606005 000001  01217  01318              % 09445 RGTR--
+*I FD 200405005 150606005        0002604  01217  01318      % 09445 RGTR--
+200405005 Centre, Badanstalt           01217                % 09445 RGTR--
+200410004 Eich, Klinik         -01221  01221                % 09445 RGTR--
+200409007 Dommeldange, Emile M -01222  01222                % 09445 RGTR--
+200402001 Beggen, Bastogne     -01224  01224                % 09445 RGTR--
+160904001 Mersch, Gare          01245  01253                % 09445 RGTR--
+160904005 Mersch, Stäereplaz    01254  01254                % 09445 RGTR--
+160904004 Mersch, Reckenerstro  01255  01255                % 09445 RGTR--
+160907002 Reckange/Mersch, Bei  01256  01256                % 09445 RGTR--
+160907003 Reckange/Mersch, Hos  01257  01257                % 09445 RGTR--
+160907001 Reckange/Mersch, Bar  01259  01259                % 09445 RGTR--
+160204001 Openthalt, Finsterth  01301  01301                % 09445 RGTR--
+160205002 Grevenknapp, Riesenh  01302  01302                % 09445 RGTR--
+160205003 Grevenknapp, Um ënns  01303  01303                % 09445 RGTR--
+160201007 Boevange, Beim Wald   01304  01304                % 09445 RGTR--
+160201005 Boevange, Lëtschert   01304  01304                % 09445 RGTR--
+160201004 Boevange, Helpert     01305  01305                % 09445 RGTR--
+160201003 Boevange, Gare        01306  01306                % 09445 RGTR--
+150804002 Useldange, Raiffeise  01309  01309                % 09445 RGTR--
+150804003 Useldange, Spuerkees  01310  01310                % 09445 RGTR--
+150801001 Everlange, Beim Enge  01313  01313                % 09445 RGTR--
+150805002 Everlange, Everlénge  01314  01314                % 09445 RGTR--
+150205001 Platen, Roudbach      01314  01314                % 09445 RGTR--
+150607001 Reichlange, Hostelle  01315  01315                % 09445 RGTR--
+150606005 Redange, Lycée Atert  01318                       % 09445 RGTR--
+*Z 09446 RGTR--                                             % 09446 RGTR--
+*L 445      200405005 150606005  01611  01720               % 09446 RGTR--
+*A bm 200405005 150606005 000001  01611  01720              % 09446 RGTR--
+*A FU 200405005 150606005 000001  01611  01720              % 09446 RGTR--
+*R 1 150606005 200405005 150606005  01611  01720            % 09446 RGTR--
+*G RGB 200405005 150606005  01611  01720                    % 09446 RGTR--
+*A VE 200405005 150606005 000001  01611  01720              % 09446 RGTR--
+*I FD 200405005 150606005        0003532  01611  01720      % 09446 RGTR--
+200405005 Centre, Badanstalt           01611                % 09446 RGTR--
+200410004 Eich, Klinik         -01618  01618                % 09446 RGTR--
+200409007 Dommeldange, Emile M -01619  01619                % 09446 RGTR--
+200402001 Beggen, Bastogne     -01621  01621                % 09446 RGTR--
+160904001 Mersch, Gare          01643  01654                % 09446 RGTR--
+160904005 Mersch, Stäereplaz    01656  01656                % 09446 RGTR--
+160904004 Mersch, Reckenerstro  01657  01657                % 09446 RGTR--
+160907002 Reckange/Mersch, Bei  01658  01658                % 09446 RGTR--
+160907003 Reckange/Mersch, Hos  01659  01659                % 09446 RGTR--
+160907001 Reckange/Mersch, Bar  01701  01701                % 09446 RGTR--
+160204001 Openthalt, Finsterth  01703  01703                % 09446 RGTR--
+160205002 Grevenknapp, Riesenh  01704  01704                % 09446 RGTR--
+160205003 Grevenknapp, Um ënns  01705  01705                % 09446 RGTR--
+160201007 Boevange, Beim Wald   01705  01705                % 09446 RGTR--
+160201005 Boevange, Lëtschert   01706  01706                % 09446 RGTR--
+160201004 Boevange, Helpert     01707  01707                % 09446 RGTR--
+160201003 Boevange, Gare        01708  01708                % 09446 RGTR--
+150804002 Useldange, Raiffeise  01711  01711                % 09446 RGTR--
+150804003 Useldange, Spuerkees  01712  01712                % 09446 RGTR--
+150801001 Everlange, Beim Enge  01715  01715                % 09446 RGTR--
+150805002 Everlange, Everlénge  01716  01716                % 09446 RGTR--
+150205001 Platen, Roudbach      01716  01716                % 09446 RGTR--
+150607001 Reichlange, Hostelle  01717  01717                % 09446 RGTR--
+150606005 Redange, Lycée Atert  01720                       % 09446 RGTR--
+*Z 09447 RGTR--                                             % 09447 RGTR--
+*L 445      160904001 150606005  00753  00819               % 09447 RGTR--
+*A bm 160904001 150606005 000001  00753  00819              % 09447 RGTR--
+*A FU 160904001 150606005 000001  00753  00819              % 09447 RGTR--
+*R 1 150606005 160904001 150606005  00753  00819            % 09447 RGTR--
+*G RGB 160904001 150606005  00753  00819                    % 09447 RGTR--
+*A VE 160904001 150606005 000001  00753  00819              % 09447 RGTR--
+*I FD 160904001 150606005        0002895  00753  00819      % 09447 RGTR--
+160904001 Mersch, Gare                 00753                % 09447 RGTR--
+160904005 Mersch, Stäereplaz    00755  00755                % 09447 RGTR--
+160904004 Mersch, Reckenerstro  00756  00756                % 09447 RGTR--
+160907002 Reckange/Mersch, Bei  00757  00757                % 09447 RGTR--
+160907003 Reckange/Mersch, Hos  00758  00758                % 09447 RGTR--
+160907001 Reckange/Mersch, Bar  00800  00800                % 09447 RGTR--
+160204001 Openthalt, Finsterth  00802  00802                % 09447 RGTR--
+160205002 Grevenknapp, Riesenh  00803  00803                % 09447 RGTR--
+160205003 Grevenknapp, Um ënns  00804  00804                % 09447 RGTR--
+160201007 Boevange, Beim Wald   00804  00804                % 09447 RGTR--
+160201005 Boevange, Lëtschert   00805  00805                % 09447 RGTR--
+160201004 Boevange, Helpert     00806  00806                % 09447 RGTR--
+160201003 Boevange, Gare        00807  00807                % 09447 RGTR--
+150804002 Useldange, Raiffeise  00810  00810                % 09447 RGTR--
+150804003 Useldange, Spuerkees  00811  00811                % 09447 RGTR--
+150801001 Everlange, Beim Enge  00814  00814                % 09447 RGTR--
+150805002 Everlange, Everlénge  00815  00815                % 09447 RGTR--
+150205001 Platen, Roudbach      00815  00815                % 09447 RGTR--
+150607001 Reichlange, Hostelle  00816  00816                % 09447 RGTR--
+150606005 Redange, Lycée Atert  00819                       % 09447 RGTR--
+*Z 09448 RGTR--                                             % 09448 RGTR--
+*L 445      160904001 150606005  00823  00849               % 09448 RGTR--
+*A bm 160904001 150606005 000001  00823  00849              % 09448 RGTR--
+*A FU 160904001 150606005 000001  00823  00849              % 09448 RGTR--
+*R 1 150606005 160904001 150606005  00823  00849            % 09448 RGTR--
+*G RGB 160904001 150606005  00823  00849                    % 09448 RGTR--
+*A VE 160904001 150606005 000001  00823  00849              % 09448 RGTR--
+*I FD 160904001 150606005        0000892  00823  00849      % 09448 RGTR--
+160904001 Mersch, Gare                 00823                % 09448 RGTR--
+160904005 Mersch, Stäereplaz    00825  00825                % 09448 RGTR--
+160904004 Mersch, Reckenerstro  00826  00826                % 09448 RGTR--
+160907002 Reckange/Mersch, Bei  00827  00827                % 09448 RGTR--
+160907003 Reckange/Mersch, Hos  00828  00828                % 09448 RGTR--
+160907001 Reckange/Mersch, Bar  00830  00830                % 09448 RGTR--
+160204001 Openthalt, Finsterth  00832  00832                % 09448 RGTR--
+160205002 Grevenknapp, Riesenh  00833  00833                % 09448 RGTR--
+160205003 Grevenknapp, Um ënns  00834  00834                % 09448 RGTR--
+160201007 Boevange, Beim Wald   00834  00834                % 09448 RGTR--
+160201005 Boevange, Lëtschert   00835  00835                % 09448 RGTR--
+160201004 Boevange, Helpert     00836  00836                % 09448 RGTR--
+160201003 Boevange, Gare        00837  00837                % 09448 RGTR--
+150804002 Useldange, Raiffeise  00840  00840                % 09448 RGTR--
+150804003 Useldange, Spuerkees  00841  00841                % 09448 RGTR--
+150801001 Everlange, Beim Enge  00844  00844                % 09448 RGTR--
+150805002 Everlange, Everlénge  00845  00845                % 09448 RGTR--
+150205001 Platen, Roudbach      00845  00845                % 09448 RGTR--
+150607001 Reichlange, Hostelle  00846  00846                % 09448 RGTR--
+150606005 Redange, Lycée Atert  00849                       % 09448 RGTR--
+*Z 09449 RGTR--                                             % 09449 RGTR--
+*L 445      160904001 150606005  00853  00919               % 09449 RGTR--
+*A bm 160904001 150606005 000001  00853  00919              % 09449 RGTR--
+*A FU 160904001 150606005 000001  00853  00919              % 09449 RGTR--
+*R 1 150606005 160904001 150606005  00853  00919            % 09449 RGTR--
+*G RGB 160904001 150606005  00853  00919                    % 09449 RGTR--
+*A VE 160904001 150606005 000001  00853  00919              % 09449 RGTR--
+*I FD 160904001 150606005        0002963  00853  00919      % 09449 RGTR--
+160904001 Mersch, Gare                 00853                % 09449 RGTR--
+160904005 Mersch, Stäereplaz    00855  00855                % 09449 RGTR--
+160904004 Mersch, Reckenerstro  00856  00856                % 09449 RGTR--
+160907002 Reckange/Mersch, Bei  00857  00857                % 09449 RGTR--
+160907003 Reckange/Mersch, Hos  00858  00858                % 09449 RGTR--
+160907001 Reckange/Mersch, Bar  00900  00900                % 09449 RGTR--
+160204001 Openthalt, Finsterth  00902  00902                % 09449 RGTR--
+160205002 Grevenknapp, Riesenh  00903  00903                % 09449 RGTR--
+160205003 Grevenknapp, Um ënns  00904  00904                % 09449 RGTR--
+160201007 Boevange, Beim Wald   00904  00904                % 09449 RGTR--
+160201005 Boevange, Lëtschert   00905  00905                % 09449 RGTR--
+160201004 Boevange, Helpert     00906  00906                % 09449 RGTR--
+160201003 Boevange, Gare        00907  00907                % 09449 RGTR--
+150804002 Useldange, Raiffeise  00910  00910                % 09449 RGTR--
+150804003 Useldange, Spuerkees  00911  00911                % 09449 RGTR--
+150801001 Everlange, Beim Enge  00914  00914                % 09449 RGTR--
+150805002 Everlange, Everlénge  00915  00915                % 09449 RGTR--
+150205001 Platen, Roudbach      00915  00915                % 09449 RGTR--
+150607001 Reichlange, Hostelle  00916  00916                % 09449 RGTR--
+150606005 Redange, Lycée Atert  00919                       % 09449 RGTR--
+*Z 09450 RGTR--                                             % 09450 RGTR--
+*L 445      160904001 150606005  01753  01819               % 09450 RGTR--
+*A bm 160904001 150606005 000001  01753  01819              % 09450 RGTR--
+*A FU 160904001 150606005 000001  01753  01819              % 09450 RGTR--
+*R 1 150606005 160904001 150606005  01753  01819            % 09450 RGTR--
+*G RGB 160904001 150606005  01753  01819                    % 09450 RGTR--
+*A VE 160904001 150606005 000001  01753  01819              % 09450 RGTR--
+*I FD 160904001 150606005        0002203  01753  01819      % 09450 RGTR--
+160904001 Mersch, Gare                 01753                % 09450 RGTR--
+160904005 Mersch, Stäereplaz    01755  01755                % 09450 RGTR--
+160904004 Mersch, Reckenerstro  01756  01756                % 09450 RGTR--
+160907002 Reckange/Mersch, Bei  01757  01757                % 09450 RGTR--
+160907003 Reckange/Mersch, Hos  01758  01758                % 09450 RGTR--
+160907001 Reckange/Mersch, Bar  01800  01800                % 09450 RGTR--
+160204001 Openthalt, Finsterth  01802  01802                % 09450 RGTR--
+160205002 Grevenknapp, Riesenh  01803  01803                % 09450 RGTR--
+160205003 Grevenknapp, Um ënns  01804  01804                % 09450 RGTR--
+160201007 Boevange, Beim Wald   01804  01804                % 09450 RGTR--
+160201005 Boevange, Lëtschert   01805  01805                % 09450 RGTR--
+160201004 Boevange, Helpert     01806  01806                % 09450 RGTR--
+160201003 Boevange, Gare        01807  01807                % 09450 RGTR--
+150804002 Useldange, Raiffeise  01810  01810                % 09450 RGTR--
+150804003 Useldange, Spuerkees  01811  01811                % 09450 RGTR--
+150801001 Everlange, Beim Enge  01814  01814                % 09450 RGTR--
+150805002 Everlange, Everlénge  01815  01815                % 09450 RGTR--
+150205001 Platen, Roudbach      01815  01815                % 09450 RGTR--
+150607001 Reichlange, Hostelle  01816  01816                % 09450 RGTR--
+150606005 Redange, Lycée Atert  01819                       % 09450 RGTR--
+*Z 09451 RGTR--                                             % 09451 RGTR--
+*L 445      160904001 150606005  00715  00741               % 09451 RGTR--
+*A bm 160904001 150606005 000002  00715  00741              % 09451 RGTR--
+*A FU 160904001 150606005 000002  00715  00741              % 09451 RGTR--
+*A QE 160904001 150606005 000002  00715  00741              % 09451 RGTR--
+*R 1 150606005 160904001 150606005  00715  00741            % 09451 RGTR--
+*G RGB 160904001 150606005  00715  00741                    % 09451 RGTR--
+*A VE 160904001 150606005 000002  00715  00741              % 09451 RGTR--
+*I FD 160904001 150606005        0001761  00715  00741      % 09451 RGTR--
+160904001 Mersch, Gare                 00715                % 09451 RGTR--
+160904005 Mersch, Stäereplaz    00717  00717                % 09451 RGTR--
+160904004 Mersch, Reckenerstro  00718  00718                % 09451 RGTR--
+160907002 Reckange/Mersch, Bei  00719  00719                % 09451 RGTR--
+160907003 Reckange/Mersch, Hos  00720  00720                % 09451 RGTR--
+160907001 Reckange/Mersch, Bar  00722  00722                % 09451 RGTR--
+160204001 Openthalt, Finsterth  00724  00724                % 09451 RGTR--
+160205002 Grevenknapp, Riesenh  00725  00725                % 09451 RGTR--
+160205003 Grevenknapp, Um ënns  00726  00726                % 09451 RGTR--
+160201007 Boevange, Beim Wald   00726  00726                % 09451 RGTR--
+160201005 Boevange, Lëtschert   00727  00727                % 09451 RGTR--
+160201004 Boevange, Helpert     00728  00728                % 09451 RGTR--
+160201003 Boevange, Gare        00729  00729                % 09451 RGTR--
+150804002 Useldange, Raiffeise  00732  00732                % 09451 RGTR--
+150804003 Useldange, Spuerkees  00733  00733                % 09451 RGTR--
+150801001 Everlange, Beim Enge  00736  00736                % 09451 RGTR--
+150805002 Everlange, Everlénge  00737  00737                % 09451 RGTR--
+150205001 Platen, Roudbach      00737  00737                % 09451 RGTR--
+150607001 Reichlange, Hostelle  00738  00738                % 09451 RGTR--
+150606005 Redange, Lycée Atert  00741                       % 09451 RGTR--
+*Z 09452 RGTR--                                             % 09452 RGTR--
+*L 445      160904001 150606005  01723  01749               % 09452 RGTR--
+*A bm 160904001 150606005 000002  01723  01749              % 09452 RGTR--
+*A FU 160904001 150606005 000002  01723  01749              % 09452 RGTR--
+*R 1 150606005 160904001 150606005  01723  01749            % 09452 RGTR--
+*G RGB 160904001 150606005  01723  01749                    % 09452 RGTR--
+*A VE 160904001 150606005 000002  01723  01749              % 09452 RGTR--
+*I FD 160904001 150606005        0002199  01723  01749      % 09452 RGTR--
+160904001 Mersch, Gare                 01723                % 09452 RGTR--
+160904005 Mersch, Stäereplaz    01725  01725                % 09452 RGTR--
+160904004 Mersch, Reckenerstro  01726  01726                % 09452 RGTR--
+160907002 Reckange/Mersch, Bei  01727  01727                % 09452 RGTR--
+160907003 Reckange/Mersch, Hos  01728  01728                % 09452 RGTR--
+160907001 Reckange/Mersch, Bar  01730  01730                % 09452 RGTR--
+160204001 Openthalt, Finsterth  01732  01732                % 09452 RGTR--
+160205002 Grevenknapp, Riesenh  01733  01733                % 09452 RGTR--
+160205003 Grevenknapp, Um ënns  01734  01734                % 09452 RGTR--
+160201007 Boevange, Beim Wald   01734  01734                % 09452 RGTR--
+160201005 Boevange, Lëtschert   01735  01735                % 09452 RGTR--
+160201004 Boevange, Helpert     01736  01736                % 09452 RGTR--
+160201003 Boevange, Gare        01737  01737                % 09452 RGTR--
+150804002 Useldange, Raiffeise  01740  01740                % 09452 RGTR--
+150804003 Useldange, Spuerkees  01741  01741                % 09452 RGTR--
+150801001 Everlange, Beim Enge  01744  01744                % 09452 RGTR--
+150805002 Everlange, Everlénge  01745  01745                % 09452 RGTR--
+150205001 Platen, Roudbach      01745  01745                % 09452 RGTR--
+150607001 Reichlange, Hostelle  01746  01746                % 09452 RGTR--
+150606005 Redange, Lycée Atert  01749                       % 09452 RGTR--
+*Z 09453 RGTR--                                             % 09453 RGTR--
+*L 445      160904001 150606005  00953  01018               % 09453 RGTR--
+*A bm 160904001 150606005 000001  00953  01018              % 09453 RGTR--
+*A FU 160904001 150606005 000001  00953  01018              % 09453 RGTR--
+*R 1 150606005 160904001 150606005  00953  01018            % 09453 RGTR--
+*G RGB 160904001 150606005  00953  01018                    % 09453 RGTR--
+*A VE 160904001 150606005 000001  00953  01018              % 09453 RGTR--
+*I FD 160904001 150606005        0002964  00953  01018      % 09453 RGTR--
+160904001 Mersch, Gare                 00953                % 09453 RGTR--
+160904005 Mersch, Stäereplaz    00954  00954                % 09453 RGTR--
+160904004 Mersch, Reckenerstro  00955  00955                % 09453 RGTR--
+160907002 Reckange/Mersch, Bei  00956  00956                % 09453 RGTR--
+160907003 Reckange/Mersch, Hos  00957  00957                % 09453 RGTR--
+160907001 Reckange/Mersch, Bar  00959  00959                % 09453 RGTR--
+160204001 Openthalt, Finsterth  01001  01001                % 09453 RGTR--
+160205002 Grevenknapp, Riesenh  01002  01002                % 09453 RGTR--
+160205003 Grevenknapp, Um ënns  01003  01003                % 09453 RGTR--
+160201007 Boevange, Beim Wald   01004  01004                % 09453 RGTR--
+160201005 Boevange, Lëtschert   01004  01004                % 09453 RGTR--
+160201004 Boevange, Helpert     01005  01005                % 09453 RGTR--
+160201003 Boevange, Gare        01006  01006                % 09453 RGTR--
+150804002 Useldange, Raiffeise  01009  01009                % 09453 RGTR--
+150804003 Useldange, Spuerkees  01010  01010                % 09453 RGTR--
+150801001 Everlange, Beim Enge  01013  01013                % 09453 RGTR--
+150805002 Everlange, Everlénge  01014  01014                % 09453 RGTR--
+150205001 Platen, Roudbach      01014  01014                % 09453 RGTR--
+150607001 Reichlange, Hostelle  01015  01015                % 09453 RGTR--
+150606005 Redange, Lycée Atert  01018                       % 09453 RGTR--
+*Z 09454 RGTR--                                             % 09454 RGTR--
+*L 445      160904001 150606005  01053  01118               % 09454 RGTR--
+*A bm 160904001 150606005 000001  01053  01118              % 09454 RGTR--
+*A FU 160904001 150606005 000001  01053  01118              % 09454 RGTR--
+*R 1 150606005 160904001 150606005  01053  01118            % 09454 RGTR--
+*G RGB 160904001 150606005  01053  01118                    % 09454 RGTR--
+*A VE 160904001 150606005 000001  01053  01118              % 09454 RGTR--
+*I FD 160904001 150606005        0002965  01053  01118      % 09454 RGTR--
+160904001 Mersch, Gare                 01053                % 09454 RGTR--
+160904005 Mersch, Stäereplaz    01054  01054                % 09454 RGTR--
+160904004 Mersch, Reckenerstro  01055  01055                % 09454 RGTR--
+160907002 Reckange/Mersch, Bei  01056  01056                % 09454 RGTR--
+160907003 Reckange/Mersch, Hos  01057  01057                % 09454 RGTR--
+160907001 Reckange/Mersch, Bar  01059  01059                % 09454 RGTR--
+160204001 Openthalt, Finsterth  01101  01101                % 09454 RGTR--
+160205002 Grevenknapp, Riesenh  01102  01102                % 09454 RGTR--
+160205003 Grevenknapp, Um ënns  01103  01103                % 09454 RGTR--
+160201007 Boevange, Beim Wald   01104  01104                % 09454 RGTR--
+160201005 Boevange, Lëtschert   01104  01104                % 09454 RGTR--
+160201004 Boevange, Helpert     01105  01105                % 09454 RGTR--
+160201003 Boevange, Gare        01106  01106                % 09454 RGTR--
+150804002 Useldange, Raiffeise  01109  01109                % 09454 RGTR--
+150804003 Useldange, Spuerkees  01110  01110                % 09454 RGTR--
+150801001 Everlange, Beim Enge  01113  01113                % 09454 RGTR--
+150805002 Everlange, Everlénge  01114  01114                % 09454 RGTR--
+150205001 Platen, Roudbach      01114  01114                % 09454 RGTR--
+150607001 Reichlange, Hostelle  01115  01115                % 09454 RGTR--
+150606005 Redange, Lycée Atert  01118                       % 09454 RGTR--
+*Z 09455 RGTR--                                             % 09455 RGTR--
+*L 445      160904001 150606005  01153  01218               % 09455 RGTR--
+*A bm 160904001 150606005 000001  01153  01218              % 09455 RGTR--
+*A FU 160904001 150606005 000001  01153  01218              % 09455 RGTR--
+*R 1 150606005 160904001 150606005  01153  01218            % 09455 RGTR--
+*G RGB 160904001 150606005  01153  01218                    % 09455 RGTR--
+*A VE 160904001 150606005 000001  01153  01218              % 09455 RGTR--
+*I FD 160904001 150606005        0002616  01153  01218      % 09455 RGTR--
+160904001 Mersch, Gare                 01153                % 09455 RGTR--
+160904005 Mersch, Stäereplaz    01154  01154                % 09455 RGTR--
+160904004 Mersch, Reckenerstro  01155  01155                % 09455 RGTR--
+160907002 Reckange/Mersch, Bei  01156  01156                % 09455 RGTR--
+160907003 Reckange/Mersch, Hos  01157  01157                % 09455 RGTR--
+160907001 Reckange/Mersch, Bar  01159  01159                % 09455 RGTR--
+160204001 Openthalt, Finsterth  01201  01201                % 09455 RGTR--
+160205002 Grevenknapp, Riesenh  01202  01202                % 09455 RGTR--
+160205003 Grevenknapp, Um ënns  01203  01203                % 09455 RGTR--
+160201007 Boevange, Beim Wald   01204  01204                % 09455 RGTR--
+160201005 Boevange, Lëtschert   01204  01204                % 09455 RGTR--
+160201004 Boevange, Helpert     01205  01205                % 09455 RGTR--
+160201003 Boevange, Gare        01206  01206                % 09455 RGTR--
+150804002 Useldange, Raiffeise  01209  01209                % 09455 RGTR--
+150804003 Useldange, Spuerkees  01210  01210                % 09455 RGTR--
+150801001 Everlange, Beim Enge  01213  01213                % 09455 RGTR--
+150805002 Everlange, Everlénge  01214  01214                % 09455 RGTR--
+150205001 Platen, Roudbach      01214  01214                % 09455 RGTR--
+150607001 Reichlange, Hostelle  01215  01215                % 09455 RGTR--
+150606005 Redange, Lycée Atert  01218                       % 09455 RGTR--
+*Z 09456 RGTR--                                             % 09456 RGTR--
+*L 445      160904001 150606005  01353  01418               % 09456 RGTR--
+*A bm 160904001 150606005 000001  01353  01418              % 09456 RGTR--
+*A FU 160904001 150606005 000001  01353  01418              % 09456 RGTR--
+*R 1 150606005 160904001 150606005  01353  01418            % 09456 RGTR--
+*G RGB 160904001 150606005  01353  01418                    % 09456 RGTR--
+*A VE 160904001 150606005 000001  01353  01418              % 09456 RGTR--
+*I FD 160904001 150606005        0002966  01353  01418      % 09456 RGTR--
+160904001 Mersch, Gare                 01353                % 09456 RGTR--
+160904005 Mersch, Stäereplaz    01354  01354                % 09456 RGTR--
+160904004 Mersch, Reckenerstro  01355  01355                % 09456 RGTR--
+160907002 Reckange/Mersch, Bei  01356  01356                % 09456 RGTR--
+160907003 Reckange/Mersch, Hos  01357  01357                % 09456 RGTR--
+160907001 Reckange/Mersch, Bar  01359  01359                % 09456 RGTR--
+160204001 Openthalt, Finsterth  01401  01401                % 09456 RGTR--
+160205002 Grevenknapp, Riesenh  01402  01402                % 09456 RGTR--
+160205003 Grevenknapp, Um ënns  01403  01403                % 09456 RGTR--
+160201007 Boevange, Beim Wald   01404  01404                % 09456 RGTR--
+160201005 Boevange, Lëtschert   01404  01404                % 09456 RGTR--
+160201004 Boevange, Helpert     01405  01405                % 09456 RGTR--
+160201003 Boevange, Gare        01406  01406                % 09456 RGTR--
+150804002 Useldange, Raiffeise  01409  01409                % 09456 RGTR--
+150804003 Useldange, Spuerkees  01410  01410                % 09456 RGTR--
+150801001 Everlange, Beim Enge  01413  01413                % 09456 RGTR--
+150805002 Everlange, Everlénge  01414  01414                % 09456 RGTR--
+150205001 Platen, Roudbach      01414  01414                % 09456 RGTR--
+150607001 Reichlange, Hostelle  01415  01415                % 09456 RGTR--
+150606005 Redange, Lycée Atert  01418                       % 09456 RGTR--
+*Z 09457 RGTR--                                             % 09457 RGTR--
+*L 445      160904001 150606005  01453  01518               % 09457 RGTR--
+*A bm 160904001 150606005 000001  01453  01518              % 09457 RGTR--
+*A FU 160904001 150606005 000001  01453  01518              % 09457 RGTR--
+*R 1 150606005 160904001 150606005  01453  01518            % 09457 RGTR--
+*G RGB 160904001 150606005  01453  01518                    % 09457 RGTR--
+*A VE 160904001 150606005 000001  01453  01518              % 09457 RGTR--
+*I FD 160904001 150606005        0002940  01453  01518      % 09457 RGTR--
+160904001 Mersch, Gare                 01453                % 09457 RGTR--
+160904005 Mersch, Stäereplaz    01454  01454                % 09457 RGTR--
+160904004 Mersch, Reckenerstro  01455  01455                % 09457 RGTR--
+160907002 Reckange/Mersch, Bei  01456  01456                % 09457 RGTR--
+160907003 Reckange/Mersch, Hos  01457  01457                % 09457 RGTR--
+160907001 Reckange/Mersch, Bar  01459  01459                % 09457 RGTR--
+160204001 Openthalt, Finsterth  01501  01501                % 09457 RGTR--
+160205002 Grevenknapp, Riesenh  01502  01502                % 09457 RGTR--
+160205003 Grevenknapp, Um ënns  01503  01503                % 09457 RGTR--
+160201007 Boevange, Beim Wald   01504  01504                % 09457 RGTR--
+160201005 Boevange, Lëtschert   01504  01504                % 09457 RGTR--
+160201004 Boevange, Helpert     01505  01505                % 09457 RGTR--
+160201003 Boevange, Gare        01506  01506                % 09457 RGTR--
+150804002 Useldange, Raiffeise  01509  01509                % 09457 RGTR--
+150804003 Useldange, Spuerkees  01510  01510                % 09457 RGTR--
+150801001 Everlange, Beim Enge  01513  01513                % 09457 RGTR--
+150805002 Everlange, Everlénge  01514  01514                % 09457 RGTR--
+150205001 Platen, Roudbach      01514  01514                % 09457 RGTR--
+150607001 Reichlange, Hostelle  01515  01515                % 09457 RGTR--
+150606005 Redange, Lycée Atert  01518                       % 09457 RGTR--
+*Z 09458 RGTR--                                             % 09458 RGTR--
+*L 445      160904001 150606005  01553  01618               % 09458 RGTR--
+*A bm 160904001 150606005 000001  01553  01618              % 09458 RGTR--
+*A FU 160904001 150606005 000001  01553  01618              % 09458 RGTR--
+*R 1 150606005 160904001 150606005  01553  01618            % 09458 RGTR--
+*G RGB 160904001 150606005  01553  01618                    % 09458 RGTR--
+*A VE 160904001 150606005 000001  01553  01618              % 09458 RGTR--
+*I FD 160904001 150606005        0002938  01553  01618      % 09458 RGTR--
+160904001 Mersch, Gare                 01553                % 09458 RGTR--
+160904005 Mersch, Stäereplaz    01554  01554                % 09458 RGTR--
+160904004 Mersch, Reckenerstro  01555  01555                % 09458 RGTR--
+160907002 Reckange/Mersch, Bei  01556  01556                % 09458 RGTR--
+160907003 Reckange/Mersch, Hos  01557  01557                % 09458 RGTR--
+160907001 Reckange/Mersch, Bar  01559  01559                % 09458 RGTR--
+160204001 Openthalt, Finsterth  01601  01601                % 09458 RGTR--
+160205002 Grevenknapp, Riesenh  01602  01602                % 09458 RGTR--
+160205003 Grevenknapp, Um ënns  01603  01603                % 09458 RGTR--
+160201007 Boevange, Beim Wald   01604  01604                % 09458 RGTR--
+160201005 Boevange, Lëtschert   01604  01604                % 09458 RGTR--
+160201004 Boevange, Helpert     01605  01605                % 09458 RGTR--
+160201003 Boevange, Gare        01606  01606                % 09458 RGTR--
+150804002 Useldange, Raiffeise  01609  01609                % 09458 RGTR--
+150804003 Useldange, Spuerkees  01610  01610                % 09458 RGTR--
+150801001 Everlange, Beim Enge  01613  01613                % 09458 RGTR--
+150805002 Everlange, Everlénge  01614  01614                % 09458 RGTR--
+150205001 Platen, Roudbach      01614  01614                % 09458 RGTR--
+150607001 Reichlange, Hostelle  01615  01615                % 09458 RGTR--
+150606005 Redange, Lycée Atert  01618                       % 09458 RGTR--
+*Z 09459 RGTR--                                             % 09459 RGTR--
+*L 445      160904001 150606005  01853  01918               % 09459 RGTR--
+*A bm 160904001 150606005 000001  01853  01918              % 09459 RGTR--
+*A FU 160904001 150606005 000001  01853  01918              % 09459 RGTR--
+*R 1 150606005 160904001 150606005  01853  01918            % 09459 RGTR--
+*G RGB 160904001 150606005  01853  01918                    % 09459 RGTR--
+*A VE 160904001 150606005 000001  01853  01918              % 09459 RGTR--
+*I FD 160904001 150606005        0002211  01853  01918      % 09459 RGTR--
+160904001 Mersch, Gare                 01853                % 09459 RGTR--
+160904005 Mersch, Stäereplaz    01854  01854                % 09459 RGTR--
+160904004 Mersch, Reckenerstro  01855  01855                % 09459 RGTR--
+160907002 Reckange/Mersch, Bei  01856  01856                % 09459 RGTR--
+160907003 Reckange/Mersch, Hos  01857  01857                % 09459 RGTR--
+160907001 Reckange/Mersch, Bar  01859  01859                % 09459 RGTR--
+160204001 Openthalt, Finsterth  01901  01901                % 09459 RGTR--
+160205002 Grevenknapp, Riesenh  01902  01902                % 09459 RGTR--
+160205003 Grevenknapp, Um ënns  01903  01903                % 09459 RGTR--
+160201007 Boevange, Beim Wald   01904  01904                % 09459 RGTR--
+160201005 Boevange, Lëtschert   01904  01904                % 09459 RGTR--
+160201004 Boevange, Helpert     01905  01905                % 09459 RGTR--
+160201003 Boevange, Gare        01906  01906                % 09459 RGTR--
+150804002 Useldange, Raiffeise  01909  01909                % 09459 RGTR--
+150804003 Useldange, Spuerkees  01910  01910                % 09459 RGTR--
+150801001 Everlange, Beim Enge  01913  01913                % 09459 RGTR--
+150805002 Everlange, Everlénge  01914  01914                % 09459 RGTR--
+150205001 Platen, Roudbach      01914  01914                % 09459 RGTR--
+150607001 Reichlange, Hostelle  01915  01915                % 09459 RGTR--
+150606005 Redange, Lycée Atert  01918                       % 09459 RGTR--
+*Z 09460 RGTR--                                             % 09460 RGTR--
+*L 445      160904001 150606005  01953  02018               % 09460 RGTR--
+*A bm 160904001 150606005 000001  01953  02018              % 09460 RGTR--
+*A FU 160904001 150606005 000001  01953  02018              % 09460 RGTR--
+*R 1 150606005 160904001 150606005  01953  02018            % 09460 RGTR--
+*G RGB 160904001 150606005  01953  02018                    % 09460 RGTR--
+*A VE 160904001 150606005 000001  01953  02018              % 09460 RGTR--
+*I FD 160904001 150606005        0003396  01953  02018      % 09460 RGTR--
+160904001 Mersch, Gare                 01953                % 09460 RGTR--
+160904005 Mersch, Stäereplaz    01954  01954                % 09460 RGTR--
+160904004 Mersch, Reckenerstro  01955  01955                % 09460 RGTR--
+160907002 Reckange/Mersch, Bei  01956  01956                % 09460 RGTR--
+160907003 Reckange/Mersch, Hos  01957  01957                % 09460 RGTR--
+160907001 Reckange/Mersch, Bar  01959  01959                % 09460 RGTR--
+160204001 Openthalt, Finsterth  02001  02001                % 09460 RGTR--
+160205002 Grevenknapp, Riesenh  02002  02002                % 09460 RGTR--
+160205003 Grevenknapp, Um ënns  02003  02003                % 09460 RGTR--
+160201007 Boevange, Beim Wald   02004  02004                % 09460 RGTR--
+160201005 Boevange, Lëtschert   02004  02004                % 09460 RGTR--
+160201004 Boevange, Helpert     02005  02005                % 09460 RGTR--
+160201003 Boevange, Gare        02006  02006                % 09460 RGTR--
+150804002 Useldange, Raiffeise  02009  02009                % 09460 RGTR--
+150804003 Useldange, Spuerkees  02010  02010                % 09460 RGTR--
+150801001 Everlange, Beim Enge  02013  02013                % 09460 RGTR--
+150805002 Everlange, Everlénge  02014  02014                % 09460 RGTR--
+150205001 Platen, Roudbach      02014  02014                % 09460 RGTR--
+150607001 Reichlange, Hostelle  02015  02015                % 09460 RGTR--
+150606005 Redange, Lycée Atert  02018                       % 09460 RGTR--
+*Z 09461 RGTR--                                             % 09461 RGTR--
+*L 445      160904001 150606005  01425  01450               % 09461 RGTR--
+*A bm 160904001 150606005 000002  01425  01450              % 09461 RGTR--
+*A FU 160904001 150606005 000002  01425  01450              % 09461 RGTR--
+*R 1 150606005 160904001 150606005  01425  01450            % 09461 RGTR--
+*G RGB 160904001 150606005  01425  01450                    % 09461 RGTR--
+*A VE 160904001 150606005 000002  01425  01450              % 09461 RGTR--
+*I FD 160904001 150606005        0001946  01425  01450      % 09461 RGTR--
+160904001 Mersch, Gare                 01425                % 09461 RGTR--
+160904005 Mersch, Stäereplaz    01426  01426                % 09461 RGTR--
+160904004 Mersch, Reckenerstro  01427  01427                % 09461 RGTR--
+160907002 Reckange/Mersch, Bei  01428  01428                % 09461 RGTR--
+160907003 Reckange/Mersch, Hos  01429  01429                % 09461 RGTR--
+160907001 Reckange/Mersch, Bar  01431  01431                % 09461 RGTR--
+160204001 Openthalt, Finsterth  01433  01433                % 09461 RGTR--
+160205002 Grevenknapp, Riesenh  01434  01434                % 09461 RGTR--
+160205003 Grevenknapp, Um ënns  01435  01435                % 09461 RGTR--
+160201007 Boevange, Beim Wald   01436  01436                % 09461 RGTR--
+160201005 Boevange, Lëtschert   01436  01436                % 09461 RGTR--
+160201004 Boevange, Helpert     01437  01437                % 09461 RGTR--
+160201003 Boevange, Gare        01438  01438                % 09461 RGTR--
+150804002 Useldange, Raiffeise  01441  01441                % 09461 RGTR--
+150804003 Useldange, Spuerkees  01442  01442                % 09461 RGTR--
+150801001 Everlange, Beim Enge  01445  01445                % 09461 RGTR--
+150805002 Everlange, Everlénge  01446  01446                % 09461 RGTR--
+150205001 Platen, Roudbach      01446  01446                % 09461 RGTR--
+150607001 Reichlange, Hostelle  01447  01447                % 09461 RGTR--
+150606005 Redange, Lycée Atert  01450                       % 09461 RGTR--
+*Z 09462 RGTR--                                             % 09462 RGTR--
+*L 445      200405005 150606005  01706  01757               % 09462 RGTR--
+*A ag 200405005 150606005 000002  01706  01757              % 09462 RGTR--
+*A FU 200405005 150606005 000002  01706  01757              % 09462 RGTR--
+*R 1 150606005 200405005 150606005  01706  01757            % 09462 RGTR--
+*G RGB 200405005 150606005  01706  01757                    % 09462 RGTR--
+*A VE 200405005 150606005 000002  01706  01757              % 09462 RGTR--
+*I FD 200405005 150606005        0003101  01706  01757      % 09462 RGTR--
+200405005 Centre, Badanstalt           01706                % 09462 RGTR--
+200410004 Eich, Klinik         -01713  01713                % 09462 RGTR--
+200409007 Dommeldange, Emile M -01714  01714                % 09462 RGTR--
+200402001 Beggen, Bastogne     -01716  01716                % 09462 RGTR--
+160907002 Reckange/Mersch, Bei  01735  01735                % 09462 RGTR--
+160907003 Reckange/Mersch, Hos  01736  01736                % 09462 RGTR--
+160907001 Reckange/Mersch, Bar  01737  01737                % 09462 RGTR--
+160204001 Openthalt, Finsterth  01740  01740                % 09462 RGTR--
+160205002 Grevenknapp, Riesenh  01741  01741                % 09462 RGTR--
+160205003 Grevenknapp, Um ënns  01741  01741                % 09462 RGTR--
+160201007 Boevange, Beim Wald   01742  01742                % 09462 RGTR--
+160201005 Boevange, Lëtschert   01743  01743                % 09462 RGTR--
+160201004 Boevange, Helpert     01744  01744                % 09462 RGTR--
+160201003 Boevange, Gare        01745  01745                % 09462 RGTR--
+150804002 Useldange, Raiffeise  01748  01748                % 09462 RGTR--
+150804003 Useldange, Spuerkees  01748  01748                % 09462 RGTR--
+150801001 Everlange, Beim Enge  01751  01751                % 09462 RGTR--
+150805002 Everlange, Everlénge  01752  01752                % 09462 RGTR--
+150205001 Platen, Roudbach      01753  01753                % 09462 RGTR--
+150607001 Reichlange, Hostelle  01754  01754                % 09462 RGTR--
+150606005 Redange, Lycée Atert  01757                       % 09462 RGTR--
+*Z 09463 RGTR--                                             % 09463 RGTR--
+*L 445      150606005 160904001  00924  00951               % 09463 RGTR--
+*A bm 150606005 160904001 000001  00924  00951              % 09463 RGTR--
+*R 2 160904001 150606005 160904001  00924  00951            % 09463 RGTR--
+*G RGB 150606005 160904001  00924  00951                    % 09463 RGTR--
+*A VE 150606005 160904001 000001  00924  00951              % 09463 RGTR--
+*I FD 150606005 160904001        0003603  00924  00951      % 09463 RGTR--
+150606005 Redange, Lycée Atert         00924                % 09463 RGTR--
+150607001 Reichlange, Hostelle  00928  00928                % 09463 RGTR--
+150205001 Platen, Roudbach      00929  00929                % 09463 RGTR--
+150805002 Everlange, Everlénge  00929  00929                % 09463 RGTR--
+150801001 Everlange, Beim Enge  00931  00931                % 09463 RGTR--
+150804003 Useldange, Spuerkees  00934  00934                % 09463 RGTR--
+160201006 Boevange, Uerbelt     00937  00937                % 09463 RGTR--
+160201004 Boevange, Helpert     00938  00938                % 09463 RGTR--
+160201005 Boevange, Lëtschert   00939  00939                % 09463 RGTR--
+160201007 Boevange, Beim Wald   00940  00940                % 09463 RGTR--
+160205003 Grevenknapp, Um ënns  00941  00941                % 09463 RGTR--
+160205002 Grevenknapp, Riesenh  00941  00941                % 09463 RGTR--
+160204001 Openthalt, Finsterth  00942  00942                % 09463 RGTR--
+160907001 Reckange/Mersch, Bar  00945  00945                % 09463 RGTR--
+160907003 Reckange/Mersch, Hos  00946  00946                % 09463 RGTR--
+160907002 Reckange/Mersch, Bei  00947  00947                % 09463 RGTR--
+160904004 Mersch, Reckenerstro  00948  00948                % 09463 RGTR--
+160904005 Mersch, Stäereplaz    00950  00950                % 09463 RGTR--
+160904001 Mersch, Gare          00951                       % 09463 RGTR--
+*Z 09464 RGTR--                                             % 09464 RGTR--
+*L 445      150606005 160904001  01024  01051               % 09464 RGTR--
+*A bm 150606005 160904001 000001  01024  01051              % 09464 RGTR--
+*R 2 160904001 150606005 160904001  01024  01051            % 09464 RGTR--
+*G RGB 150606005 160904001  01024  01051                    % 09464 RGTR--
+*A VE 150606005 160904001 000001  01024  01051              % 09464 RGTR--
+*I FD 150606005 160904001        0003605  01024  01051      % 09464 RGTR--
+150606005 Redange, Lycée Atert         01024                % 09464 RGTR--
+150607001 Reichlange, Hostelle  01028  01028                % 09464 RGTR--
+150205001 Platen, Roudbach      01029  01029                % 09464 RGTR--
+150805002 Everlange, Everlénge  01029  01029                % 09464 RGTR--
+150801001 Everlange, Beim Enge  01031  01031                % 09464 RGTR--
+150804003 Useldange, Spuerkees  01034  01034                % 09464 RGTR--
+160201006 Boevange, Uerbelt     01037  01037                % 09464 RGTR--
+160201004 Boevange, Helpert     01038  01038                % 09464 RGTR--
+160201005 Boevange, Lëtschert   01039  01039                % 09464 RGTR--
+160201007 Boevange, Beim Wald   01040  01040                % 09464 RGTR--
+160205003 Grevenknapp, Um ënns  01041  01041                % 09464 RGTR--
+160205002 Grevenknapp, Riesenh  01041  01041                % 09464 RGTR--
+160204001 Openthalt, Finsterth  01042  01042                % 09464 RGTR--
+160907001 Reckange/Mersch, Bar  01045  01045                % 09464 RGTR--
+160907003 Reckange/Mersch, Hos  01046  01046                % 09464 RGTR--
+160907002 Reckange/Mersch, Bei  01047  01047                % 09464 RGTR--
+160904004 Mersch, Reckenerstro  01048  01048                % 09464 RGTR--
+160904005 Mersch, Stäereplaz    01050  01050                % 09464 RGTR--
+160904001 Mersch, Gare          01051                       % 09464 RGTR--
+*Z 09465 RGTR--                                             % 09465 RGTR--
+*L 445      150606005 160904001  01124  01151               % 09465 RGTR--
+*A bm 150606005 160904001 000001  01124  01151              % 09465 RGTR--
+*R 2 160904001 150606005 160904001  01124  01151            % 09465 RGTR--
+*G RGB 150606005 160904001  01124  01151                    % 09465 RGTR--
+*A VE 150606005 160904001 000001  01124  01151              % 09465 RGTR--
+*I FD 150606005 160904001        0003628  01124  01151      % 09465 RGTR--
+150606005 Redange, Lycée Atert         01124                % 09465 RGTR--
+150607001 Reichlange, Hostelle  01128  01128                % 09465 RGTR--
+150205001 Platen, Roudbach      01129  01129                % 09465 RGTR--
+150805002 Everlange, Everlénge  01129  01129                % 09465 RGTR--
+150801001 Everlange, Beim Enge  01131  01131                % 09465 RGTR--
+150804003 Useldange, Spuerkees  01134  01134                % 09465 RGTR--
+160201006 Boevange, Uerbelt     01137  01137                % 09465 RGTR--
+160201004 Boevange, Helpert     01138  01138                % 09465 RGTR--
+160201005 Boevange, Lëtschert   01139  01139                % 09465 RGTR--
+160201007 Boevange, Beim Wald   01140  01140                % 09465 RGTR--
+160205003 Grevenknapp, Um ënns  01141  01141                % 09465 RGTR--
+160205002 Grevenknapp, Riesenh  01141  01141                % 09465 RGTR--
+160204001 Openthalt, Finsterth  01142  01142                % 09465 RGTR--
+160907001 Reckange/Mersch, Bar  01145  01145                % 09465 RGTR--
+160907003 Reckange/Mersch, Hos  01146  01146                % 09465 RGTR--
+160907002 Reckange/Mersch, Bei  01147  01147                % 09465 RGTR--
+160904004 Mersch, Reckenerstro  01148  01148                % 09465 RGTR--
+160904005 Mersch, Stäereplaz    01150  01150                % 09465 RGTR--
+160904001 Mersch, Gare          01151                       % 09465 RGTR--
+*Z 09466 RGTR--                                             % 09466 RGTR--
+*L 445      150606005 160904001  01224  01251               % 09466 RGTR--
+*A bm 150606005 160904001 000001  01224  01251              % 09466 RGTR--
+*R 2 160904001 150606005 160904001  01224  01251            % 09466 RGTR--
+*G RGB 150606005 160904001  01224  01251                    % 09466 RGTR--
+*A VE 150606005 160904001 000001  01224  01251              % 09466 RGTR--
+*I FD 150606005 160904001        0003629  01224  01251      % 09466 RGTR--
+150606005 Redange, Lycée Atert         01224                % 09466 RGTR--
+150607001 Reichlange, Hostelle  01228  01228                % 09466 RGTR--
+150205001 Platen, Roudbach      01229  01229                % 09466 RGTR--
+150805002 Everlange, Everlénge  01229  01229                % 09466 RGTR--
+150801001 Everlange, Beim Enge  01231  01231                % 09466 RGTR--
+150804003 Useldange, Spuerkees  01234  01234                % 09466 RGTR--
+160201006 Boevange, Uerbelt     01237  01237                % 09466 RGTR--
+160201004 Boevange, Helpert     01238  01238                % 09466 RGTR--
+160201005 Boevange, Lëtschert   01239  01239                % 09466 RGTR--
+160201007 Boevange, Beim Wald   01240  01240                % 09466 RGTR--
+160205003 Grevenknapp, Um ënns  01241  01241                % 09466 RGTR--
+160205002 Grevenknapp, Riesenh  01241  01241                % 09466 RGTR--
+160204001 Openthalt, Finsterth  01242  01242                % 09466 RGTR--
+160907001 Reckange/Mersch, Bar  01245  01245                % 09466 RGTR--
+160907003 Reckange/Mersch, Hos  01246  01246                % 09466 RGTR--
+160907002 Reckange/Mersch, Bei  01247  01247                % 09466 RGTR--
+160904004 Mersch, Reckenerstro  01248  01248                % 09466 RGTR--
+160904005 Mersch, Stäereplaz    01250  01250                % 09466 RGTR--
+160904001 Mersch, Gare          01251                       % 09466 RGTR--
+*Z 09467 RGTR--                                             % 09467 RGTR--
+*L 445      150606005 160904001  01424  01451               % 09467 RGTR--
+*A bm 150606005 160904001 000001  01424  01451              % 09467 RGTR--
+*R 2 160904001 150606005 160904001  01424  01451            % 09467 RGTR--
+*G RGB 150606005 160904001  01424  01451                    % 09467 RGTR--
+*A VE 150606005 160904001 000001  01424  01451              % 09467 RGTR--
+*I FD 150606005 160904001        0003610  01424  01451      % 09467 RGTR--
+150606005 Redange, Lycée Atert         01424                % 09467 RGTR--
+150607001 Reichlange, Hostelle  01428  01428                % 09467 RGTR--
+150205001 Platen, Roudbach      01429  01429                % 09467 RGTR--
+150805002 Everlange, Everlénge  01429  01429                % 09467 RGTR--
+150801001 Everlange, Beim Enge  01431  01431                % 09467 RGTR--
+150804003 Useldange, Spuerkees  01434  01434                % 09467 RGTR--
+160201006 Boevange, Uerbelt     01437  01437                % 09467 RGTR--
+160201004 Boevange, Helpert     01438  01438                % 09467 RGTR--
+160201005 Boevange, Lëtschert   01439  01439                % 09467 RGTR--
+160201007 Boevange, Beim Wald   01440  01440                % 09467 RGTR--
+160205003 Grevenknapp, Um ënns  01441  01441                % 09467 RGTR--
+160205002 Grevenknapp, Riesenh  01441  01441                % 09467 RGTR--
+160204001 Openthalt, Finsterth  01442  01442                % 09467 RGTR--
+160907001 Reckange/Mersch, Bar  01445  01445                % 09467 RGTR--
+160907003 Reckange/Mersch, Hos  01446  01446                % 09467 RGTR--
+160907002 Reckange/Mersch, Bei  01447  01447                % 09467 RGTR--
+160904004 Mersch, Reckenerstro  01448  01448                % 09467 RGTR--
+160904005 Mersch, Stäereplaz    01450  01450                % 09467 RGTR--
+160904001 Mersch, Gare          01451                       % 09467 RGTR--
+*Z 09468 RGTR--                                             % 09468 RGTR--
+*L 445      150606005 160904001  01524  01551               % 09468 RGTR--
+*A bm 150606005 160904001 000001  01524  01551              % 09468 RGTR--
+*R 2 160904001 150606005 160904001  01524  01551            % 09468 RGTR--
+*G RGB 150606005 160904001  01524  01551                    % 09468 RGTR--
+*A VE 150606005 160904001 000001  01524  01551              % 09468 RGTR--
+*I FD 150606005 160904001        0003630  01524  01551      % 09468 RGTR--
+150606005 Redange, Lycée Atert         01524                % 09468 RGTR--
+150607001 Reichlange, Hostelle  01528  01528                % 09468 RGTR--
+150205001 Platen, Roudbach      01529  01529                % 09468 RGTR--
+150805002 Everlange, Everlénge  01529  01529                % 09468 RGTR--
+150801001 Everlange, Beim Enge  01531  01531                % 09468 RGTR--
+150804003 Useldange, Spuerkees  01534  01534                % 09468 RGTR--
+160201006 Boevange, Uerbelt     01537  01537                % 09468 RGTR--
+160201004 Boevange, Helpert     01538  01538                % 09468 RGTR--
+160201005 Boevange, Lëtschert   01539  01539                % 09468 RGTR--
+160201007 Boevange, Beim Wald   01540  01540                % 09468 RGTR--
+160205003 Grevenknapp, Um ënns  01541  01541                % 09468 RGTR--
+160205002 Grevenknapp, Riesenh  01541  01541                % 09468 RGTR--
+160204001 Openthalt, Finsterth  01542  01542                % 09468 RGTR--
+160907001 Reckange/Mersch, Bar  01545  01545                % 09468 RGTR--
+160907003 Reckange/Mersch, Hos  01546  01546                % 09468 RGTR--
+160907002 Reckange/Mersch, Bei  01547  01547                % 09468 RGTR--
+160904004 Mersch, Reckenerstro  01548  01548                % 09468 RGTR--
+160904005 Mersch, Stäereplaz    01550  01550                % 09468 RGTR--
+160904001 Mersch, Gare          01551                       % 09468 RGTR--
+*Z 09469 RGTR--                                             % 09469 RGTR--
+*L 445      150606005 160904001  01824  01851               % 09469 RGTR--
+*A bm 150606005 160904001 000001  01824  01851              % 09469 RGTR--
+*R 2 160904001 150606005 160904001  01824  01851            % 09469 RGTR--
+*G RGB 150606005 160904001  01824  01851                    % 09469 RGTR--
+*A VE 150606005 160904001 000001  01824  01851              % 09469 RGTR--
+*I FD 150606005 160904001        0003616  01824  01851      % 09469 RGTR--
+150606005 Redange, Lycée Atert         01824                % 09469 RGTR--
+150607001 Reichlange, Hostelle  01828  01828                % 09469 RGTR--
+150205001 Platen, Roudbach      01829  01829                % 09469 RGTR--
+150805002 Everlange, Everlénge  01829  01829                % 09469 RGTR--
+150801001 Everlange, Beim Enge  01831  01831                % 09469 RGTR--
+150804003 Useldange, Spuerkees  01834  01834                % 09469 RGTR--
+160201006 Boevange, Uerbelt     01837  01837                % 09469 RGTR--
+160201004 Boevange, Helpert     01838  01838                % 09469 RGTR--
+160201005 Boevange, Lëtschert   01839  01839                % 09469 RGTR--
+160201007 Boevange, Beim Wald   01840  01840                % 09469 RGTR--
+160205003 Grevenknapp, Um ënns  01841  01841                % 09469 RGTR--
+160205002 Grevenknapp, Riesenh  01841  01841                % 09469 RGTR--
+160204001 Openthalt, Finsterth  01842  01842                % 09469 RGTR--
+160907001 Reckange/Mersch, Bar  01845  01845                % 09469 RGTR--
+160907003 Reckange/Mersch, Hos  01846  01846                % 09469 RGTR--
+160907002 Reckange/Mersch, Bei  01847  01847                % 09469 RGTR--
+160904004 Mersch, Reckenerstro  01848  01848                % 09469 RGTR--
+160904005 Mersch, Stäereplaz    01850  01850                % 09469 RGTR--
+160904001 Mersch, Gare          01851                       % 09469 RGTR--
+*Z 09470 RGTR--                                             % 09470 RGTR--
+*L 445      150606005 160904001  01924  01951               % 09470 RGTR--
+*A bm 150606005 160904001 000001  01924  01951              % 09470 RGTR--
+*R 2 160904001 150606005 160904001  01924  01951            % 09470 RGTR--
+*G RGB 150606005 160904001  01924  01951                    % 09470 RGTR--
+*A VE 150606005 160904001 000001  01924  01951              % 09470 RGTR--
+*I FD 150606005 160904001        0003631  01924  01951      % 09470 RGTR--
+150606005 Redange, Lycée Atert         01924                % 09470 RGTR--
+150607001 Reichlange, Hostelle  01928  01928                % 09470 RGTR--
+150205001 Platen, Roudbach      01929  01929                % 09470 RGTR--
+150805002 Everlange, Everlénge  01929  01929                % 09470 RGTR--
+150801001 Everlange, Beim Enge  01931  01931                % 09470 RGTR--
+150804003 Useldange, Spuerkees  01934  01934                % 09470 RGTR--
+160201006 Boevange, Uerbelt     01937  01937                % 09470 RGTR--
+160201004 Boevange, Helpert     01938  01938                % 09470 RGTR--
+160201005 Boevange, Lëtschert   01939  01939                % 09470 RGTR--
+160201007 Boevange, Beim Wald   01940  01940                % 09470 RGTR--
+160205003 Grevenknapp, Um ënns  01941  01941                % 09470 RGTR--
+160205002 Grevenknapp, Riesenh  01941  01941                % 09470 RGTR--
+160204001 Openthalt, Finsterth  01942  01942                % 09470 RGTR--
+160907001 Reckange/Mersch, Bar  01945  01945                % 09470 RGTR--
+160907003 Reckange/Mersch, Hos  01946  01946                % 09470 RGTR--
+160907002 Reckange/Mersch, Bei  01947  01947                % 09470 RGTR--
+160904004 Mersch, Reckenerstro  01948  01948                % 09470 RGTR--
+160904005 Mersch, Stäereplaz    01950  01950                % 09470 RGTR--
+160904001 Mersch, Gare          01951                       % 09470 RGTR--
+*Z 09471 RGTR--                                             % 09471 RGTR--
+*L 445      150606005 160904001  01540  01607               % 09471 RGTR--
+*A bm 150606005 160904001 000026  01540  01607              % 09471 RGTR--
+*R 2 160904001 150606005 160904001  01540  01607            % 09471 RGTR--
+*G RGB 150606005 160904001  01540  01607                    % 09471 RGTR--
+*A VE 150606005 160904001 000026  01540  01607              % 09471 RGTR--
+*I FD 150606005 160904001        0001910  01540  01607      % 09471 RGTR--
+150606005 Redange, Lycée Atert         01540                % 09471 RGTR--
+150607001 Reichlange, Hostelle  01544  01544                % 09471 RGTR--
+150205001 Platen, Roudbach      01545  01545                % 09471 RGTR--
+150805002 Everlange, Everlénge  01545  01545                % 09471 RGTR--
+150801001 Everlange, Beim Enge  01547  01547                % 09471 RGTR--
+150804003 Useldange, Spuerkees  01550  01550                % 09471 RGTR--
+160201006 Boevange, Uerbelt     01553  01553                % 09471 RGTR--
+160201004 Boevange, Helpert     01554  01554                % 09471 RGTR--
+160201005 Boevange, Lëtschert   01555  01555                % 09471 RGTR--
+160201007 Boevange, Beim Wald   01556  01556                % 09471 RGTR--
+160205003 Grevenknapp, Um ënns  01557  01557                % 09471 RGTR--
+160205002 Grevenknapp, Riesenh  01557  01557                % 09471 RGTR--
+160204001 Openthalt, Finsterth  01558  01558                % 09471 RGTR--
+160907001 Reckange/Mersch, Bar  01601  01601                % 09471 RGTR--
+160907003 Reckange/Mersch, Hos  01602  01602                % 09471 RGTR--
+160907002 Reckange/Mersch, Bei  01603  01603                % 09471 RGTR--
+160904004 Mersch, Reckenerstro  01604  01604                % 09471 RGTR--
+160904005 Mersch, Stäereplaz    01606  01606                % 09471 RGTR--
+160904001 Mersch, Gare          01607                       % 09471 RGTR--
+*Z 09472 RGTR--                                             % 09472 RGTR--
+*L 445      150606005 160904001  00536  00604               % 09472 RGTR--
+*A bm 150606005 160904001 000001  00536  00604              % 09472 RGTR--
+*R 2 160904001 150606005 160904001  00536  00604            % 09472 RGTR--
+*G RGB 150606005 160904001  00536  00604                    % 09472 RGTR--
+*A VE 150606005 160904001 000001  00536  00604              % 09472 RGTR--
+*I FD 150606005 160904001        0000791  00536  00604      % 09472 RGTR--
+150606005 Redange, Lycée Atert         00536                % 09472 RGTR--
+150607001 Reichlange, Hostelle  00540  00540                % 09472 RGTR--
+150205001 Platen, Roudbach      00541  00541                % 09472 RGTR--
+150805002 Everlange, Everlénge  00541  00541                % 09472 RGTR--
+150801001 Everlange, Beim Enge  00543  00543                % 09472 RGTR--
+150804003 Useldange, Spuerkees  00546  00546                % 09472 RGTR--
+160201006 Boevange, Uerbelt     00549  00549                % 09472 RGTR--
+160201004 Boevange, Helpert     00550  00550                % 09472 RGTR--
+160201005 Boevange, Lëtschert   00551  00551                % 09472 RGTR--
+160201007 Boevange, Beim Wald   00552  00552                % 09472 RGTR--
+160205003 Grevenknapp, Um ënns  00553  00553                % 09472 RGTR--
+160205002 Grevenknapp, Riesenh  00553  00553                % 09472 RGTR--
+160204001 Openthalt, Finsterth  00555  00555                % 09472 RGTR--
+160907001 Reckange/Mersch, Bar  00557  00557                % 09472 RGTR--
+160907003 Reckange/Mersch, Hos  00559  00559                % 09472 RGTR--
+160907002 Reckange/Mersch, Bei  00600  00600                % 09472 RGTR--
+160904004 Mersch, Reckenerstro  00601  00601                % 09472 RGTR--
+160904005 Mersch, Stäereplaz    00603  00603                % 09472 RGTR--
+160904001 Mersch, Gare          00604                       % 09472 RGTR--
+*Z 09473 RGTR--                                             % 09473 RGTR--
+*L 445      150606005 160904001  00716  00744               % 09473 RGTR--
+*A bm 150606005 160904001 000001  00716  00744              % 09473 RGTR--
+*A ex 150606005 160904001 000001  00716  00744              % 09473 RGTR--
+*R 2 160904001 150606005 160904001  00716  00744            % 09473 RGTR--
+*G RGB 150606005 160904001  00716  00744                    % 09473 RGTR--
+*A VE 150606005 160904001 000001  00716  00744              % 09473 RGTR--
+*I FD 150606005 160904001        0002284  00716  00744      % 09473 RGTR--
+150606005 Redange, Lycée Atert         00716                % 09473 RGTR--
+150607001 Reichlange, Hostelle  00720  00720                % 09473 RGTR--
+150205001 Platen, Roudbach      00721  00721                % 09473 RGTR--
+150805002 Everlange, Everlénge  00721  00721                % 09473 RGTR--
+150801001 Everlange, Beim Enge  00723  00723                % 09473 RGTR--
+150804003 Useldange, Spuerkees  00726  00726                % 09473 RGTR--
+160201006 Boevange, Uerbelt     00729  00729                % 09473 RGTR--
+160201004 Boevange, Helpert     00730  00730                % 09473 RGTR--
+160201005 Boevange, Lëtschert   00731  00731                % 09473 RGTR--
+160201007 Boevange, Beim Wald   00732  00732                % 09473 RGTR--
+160205003 Grevenknapp, Um ënns  00733  00733                % 09473 RGTR--
+160205002 Grevenknapp, Riesenh  00733  00733                % 09473 RGTR--
+160204001 Openthalt, Finsterth  00735  00735                % 09473 RGTR--
+160907001 Reckange/Mersch, Bar  00737  00737                % 09473 RGTR--
+160907003 Reckange/Mersch, Hos  00739  00739                % 09473 RGTR--
+160907002 Reckange/Mersch, Bei  00740  00740                % 09473 RGTR--
+160904004 Mersch, Reckenerstro  00741  00741                % 09473 RGTR--
+160904005 Mersch, Stäereplaz    00743  00743                % 09473 RGTR--
+160904001 Mersch, Gare          00744                       % 09473 RGTR--
+*Z 09474 RGTR--                                             % 09474 RGTR--
+*L 445      150606005 160904001  00820  00848               % 09474 RGTR--
+*A bm 150606005 160904001 000001  00820  00848              % 09474 RGTR--
+*R 2 160904001 150606005 160904001  00820  00848            % 09474 RGTR--
+*G RGB 150606005 160904001  00820  00848                    % 09474 RGTR--
+*A VE 150606005 160904001 000001  00820  00848              % 09474 RGTR--
+*I FD 150606005 160904001        0000856  00820  00848      % 09474 RGTR--
+150606005 Redange, Lycée Atert         00820                % 09474 RGTR--
+150607001 Reichlange, Hostelle  00824  00824                % 09474 RGTR--
+150205001 Platen, Roudbach      00825  00825                % 09474 RGTR--
+150805002 Everlange, Everlénge  00825  00825                % 09474 RGTR--
+150801001 Everlange, Beim Enge  00827  00827                % 09474 RGTR--
+150804003 Useldange, Spuerkees  00830  00830                % 09474 RGTR--
+160201006 Boevange, Uerbelt     00833  00833                % 09474 RGTR--
+160201004 Boevange, Helpert     00834  00834                % 09474 RGTR--
+160201005 Boevange, Lëtschert   00835  00835                % 09474 RGTR--
+160201007 Boevange, Beim Wald   00836  00836                % 09474 RGTR--
+160205003 Grevenknapp, Um ënns  00837  00837                % 09474 RGTR--
+160205002 Grevenknapp, Riesenh  00837  00837                % 09474 RGTR--
+160204001 Openthalt, Finsterth  00839  00839                % 09474 RGTR--
+160907001 Reckange/Mersch, Bar  00841  00841                % 09474 RGTR--
+160907003 Reckange/Mersch, Hos  00843  00843                % 09474 RGTR--
+160907002 Reckange/Mersch, Bei  00844  00844                % 09474 RGTR--
+160904004 Mersch, Reckenerstro  00845  00845                % 09474 RGTR--
+160904005 Mersch, Stäereplaz    00847  00847                % 09474 RGTR--
+160904001 Mersch, Gare          00848                       % 09474 RGTR--
+*Z 09475 RGTR--                                             % 09475 RGTR--
+*L 445      150606005 160904001  01625  01653               % 09475 RGTR--
+*A bm 150606005 160904001 000001  01625  01653              % 09475 RGTR--
+*R 2 160904001 150606005 160904001  01625  01653            % 09475 RGTR--
+*G RGB 150606005 160904001  01625  01653                    % 09475 RGTR--
+*A VE 150606005 160904001 000001  01625  01653              % 09475 RGTR--
+*I FD 150606005 160904001        0002683  01625  01653      % 09475 RGTR--
+150606005 Redange, Lycée Atert         01625                % 09475 RGTR--
+150607001 Reichlange, Hostelle  01629  01629                % 09475 RGTR--
+150205001 Platen, Roudbach      01630  01630                % 09475 RGTR--
+150805002 Everlange, Everlénge  01630  01630                % 09475 RGTR--
+150801001 Everlange, Beim Enge  01632  01632                % 09475 RGTR--
+150804003 Useldange, Spuerkees  01635  01635                % 09475 RGTR--
+160201006 Boevange, Uerbelt     01638  01638                % 09475 RGTR--
+160201004 Boevange, Helpert     01639  01639                % 09475 RGTR--
+160201005 Boevange, Lëtschert   01640  01640                % 09475 RGTR--
+160201007 Boevange, Beim Wald   01641  01641                % 09475 RGTR--
+160205003 Grevenknapp, Um ënns  01642  01642                % 09475 RGTR--
+160205002 Grevenknapp, Riesenh  01642  01642                % 09475 RGTR--
+160204001 Openthalt, Finsterth  01644  01644                % 09475 RGTR--
+160907001 Reckange/Mersch, Bar  01646  01646                % 09475 RGTR--
+160907003 Reckange/Mersch, Hos  01648  01648                % 09475 RGTR--
+160907002 Reckange/Mersch, Bei  01649  01649                % 09475 RGTR--
+160904004 Mersch, Reckenerstro  01650  01650                % 09475 RGTR--
+160904005 Mersch, Stäereplaz    01652  01652                % 09475 RGTR--
+160904001 Mersch, Gare          01653                       % 09475 RGTR--
+*Z 09476 RGTR--                                             % 09476 RGTR--
+*L 445      150606005 160904001  01725  01753               % 09476 RGTR--
+*A bm 150606005 160904001 000001  01725  01753              % 09476 RGTR--
+*R 2 160904001 150606005 160904001  01725  01753            % 09476 RGTR--
+*G RGB 150606005 160904001  01725  01753                    % 09476 RGTR--
+*A VE 150606005 160904001 000001  01725  01753              % 09476 RGTR--
+*I FD 150606005 160904001        0003272  01725  01753      % 09476 RGTR--
+150606005 Redange, Lycée Atert         01725                % 09476 RGTR--
+150607001 Reichlange, Hostelle  01729  01729                % 09476 RGTR--
+150205001 Platen, Roudbach      01730  01730                % 09476 RGTR--
+150805002 Everlange, Everlénge  01730  01730                % 09476 RGTR--
+150801001 Everlange, Beim Enge  01732  01732                % 09476 RGTR--
+150804003 Useldange, Spuerkees  01735  01735                % 09476 RGTR--
+160201006 Boevange, Uerbelt     01738  01738                % 09476 RGTR--
+160201004 Boevange, Helpert     01739  01739                % 09476 RGTR--
+160201005 Boevange, Lëtschert   01740  01740                % 09476 RGTR--
+160201007 Boevange, Beim Wald   01741  01741                % 09476 RGTR--
+160205003 Grevenknapp, Um ënns  01742  01742                % 09476 RGTR--
+160205002 Grevenknapp, Riesenh  01742  01742                % 09476 RGTR--
+160204001 Openthalt, Finsterth  01744  01744                % 09476 RGTR--
+160907001 Reckange/Mersch, Bar  01746  01746                % 09476 RGTR--
+160907003 Reckange/Mersch, Hos  01748  01748                % 09476 RGTR--
+160907002 Reckange/Mersch, Bei  01749  01749                % 09476 RGTR--
+160904004 Mersch, Reckenerstro  01750  01750                % 09476 RGTR--
+160904005 Mersch, Stäereplaz    01752  01752                % 09476 RGTR--
+160904001 Mersch, Gare          01753                       % 09476 RGTR--
+*Z 09477 RGTR--                                             % 09477 RGTR--
+*L 445      150606005 160904001  00622  00650               % 09477 RGTR--
+*A bm 150606005 160904001 000002  00622  00650              % 09477 RGTR--
+*R 2 160904001 150606005 160904001  00622  00650            % 09477 RGTR--
+*G RGB 150606005 160904001  00622  00650                    % 09477 RGTR--
+*A VE 150606005 160904001 000002  00622  00650              % 09477 RGTR--
+*I FD 150606005 160904001        0002822  00622  00650      % 09477 RGTR--
+150606005 Redange, Lycée Atert         00622                % 09477 RGTR--
+150607001 Reichlange, Hostelle  00626  00626                % 09477 RGTR--
+150205001 Platen, Roudbach      00627  00627                % 09477 RGTR--
+150805002 Everlange, Everlénge  00627  00627                % 09477 RGTR--
+150801001 Everlange, Beim Enge  00629  00629                % 09477 RGTR--
+150804003 Useldange, Spuerkees  00632  00632                % 09477 RGTR--
+160201006 Boevange, Uerbelt     00635  00635                % 09477 RGTR--
+160201004 Boevange, Helpert     00636  00636                % 09477 RGTR--
+160201005 Boevange, Lëtschert   00637  00637                % 09477 RGTR--
+160201007 Boevange, Beim Wald   00638  00638                % 09477 RGTR--
+160205003 Grevenknapp, Um ënns  00639  00639                % 09477 RGTR--
+160205002 Grevenknapp, Riesenh  00639  00639                % 09477 RGTR--
+160204001 Openthalt, Finsterth  00641  00641                % 09477 RGTR--
+160907001 Reckange/Mersch, Bar  00643  00643                % 09477 RGTR--
+160907003 Reckange/Mersch, Hos  00645  00645                % 09477 RGTR--
+160907002 Reckange/Mersch, Bei  00646  00646                % 09477 RGTR--
+160904004 Mersch, Reckenerstro  00647  00647                % 09477 RGTR--
+160904005 Mersch, Stäereplaz    00649  00649                % 09477 RGTR--
+160904001 Mersch, Gare          00650                       % 09477 RGTR--
+*Z 09478 RGTR--                                             % 09478 RGTR--
+*L 445      150606005 200405005  00627  00718               % 09478 RGTR--
+*A bm 150606005 200405005 000001  00627  00718              % 09478 RGTR--
+*R 2 200405005 150606005 200405005  00627  00718            % 09478 RGTR--
+*G RGB 150606005 200405005  00627  00718                    % 09478 RGTR--
+*A VE 150606005 200405005 000001  00627  00718              % 09478 RGTR--
+*I FD 150606005 200405005        0000843  00627  00718      % 09478 RGTR--
+150606005 Redange, Lycée Atert         00627                % 09478 RGTR--
+150607001 Reichlange, Hostelle  00631  00631                % 09478 RGTR--
+150205001 Platen, Roudbach      00632  00632                % 09478 RGTR--
+150805002 Everlange, Everlénge  00632  00632                % 09478 RGTR--
+150801001 Everlange, Beim Enge  00634  00634                % 09478 RGTR--
+150804003 Useldange, Spuerkees  00637  00637                % 09478 RGTR--
+160201006 Boevange, Uerbelt     00640  00640                % 09478 RGTR--
+160201004 Boevange, Helpert     00641  00641                % 09478 RGTR--
+160201005 Boevange, Lëtschert   00642  00642                % 09478 RGTR--
+160201007 Boevange, Beim Wald   00643  00643                % 09478 RGTR--
+160205003 Grevenknapp, Um ënns  00644  00644                % 09478 RGTR--
+160205002 Grevenknapp, Riesenh  00644  00644                % 09478 RGTR--
+160204001 Openthalt, Finsterth  00646  00646                % 09478 RGTR--
+160907001 Reckange/Mersch, Bar  00648  00648                % 09478 RGTR--
+160907003 Reckange/Mersch, Hos  00650  00650                % 09478 RGTR--
+160907002 Reckange/Mersch, Bei  00651  00651                % 09478 RGTR--
+200402001 Beggen, Bastogne      00709 -00709                % 09478 RGTR--
+200409007 Dommeldange, Emile M  00711 -00711                % 09478 RGTR--
+200410004 Eich, Klinik          00713 -00713                % 09478 RGTR--
+200405005 Centre, Badanstalt    00718                       % 09478 RGTR--
+*Z 09479 RGTR--                                             % 09479 RGTR--
+*L 445      150606005 200405005  01324  01414               % 09479 RGTR--
+*A bm 150606005 200405005 000001  01324  01414              % 09479 RGTR--
+*R 2 200405005 150606005 200405005  01324  01414            % 09479 RGTR--
+*G RGB 150606005 200405005  01324  01414                    % 09479 RGTR--
+*A VE 150606005 200405005 000001  01324  01414              % 09479 RGTR--
+*I FD 150606005 200405005        0003609  01324  01414      % 09479 RGTR--
+150606005 Redange, Lycée Atert         01324                % 09479 RGTR--
+150607001 Reichlange, Hostelle  01328  01328                % 09479 RGTR--
+150205001 Platen, Roudbach      01329  01329                % 09479 RGTR--
+150805002 Everlange, Everlénge  01329  01329                % 09479 RGTR--
+150801001 Everlange, Beim Enge  01331  01331                % 09479 RGTR--
+150804003 Useldange, Spuerkees  01334  01334                % 09479 RGTR--
+160201006 Boevange, Uerbelt     01337  01337                % 09479 RGTR--
+160201004 Boevange, Helpert     01338  01338                % 09479 RGTR--
+160201005 Boevange, Lëtschert   01339  01339                % 09479 RGTR--
+160201007 Boevange, Beim Wald   01340  01340                % 09479 RGTR--
+160205003 Grevenknapp, Um ënns  01341  01341                % 09479 RGTR--
+160205002 Grevenknapp, Riesenh  01341  01341                % 09479 RGTR--
+160204001 Openthalt, Finsterth  01342  01342                % 09479 RGTR--
+160907001 Reckange/Mersch, Bar  01345  01345                % 09479 RGTR--
+160907003 Reckange/Mersch, Hos  01346  01346                % 09479 RGTR--
+160907002 Reckange/Mersch, Bei  01347  01347                % 09479 RGTR--
+160904004 Mersch, Reckenerstro  01348  01348                % 09479 RGTR--
+160904005 Mersch, Stäereplaz    01350  01350                % 09479 RGTR--
+160904001 Mersch, Gare          01351  01351                % 09479 RGTR--
+200402001 Beggen, Bastogne      01408 -01408                % 09479 RGTR--
+200409007 Dommeldange, Emile M  01409 -01409                % 09479 RGTR--
+200410004 Eich, Klinik          01410 -01410                % 09479 RGTR--
+200405005 Centre, Badanstalt    01414                       % 09479 RGTR--

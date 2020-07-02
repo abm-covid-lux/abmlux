@@ -1,0 +1,34 @@
+*F 03 2
+*Z 01685 TIC---                                             % 01685 TIC---
+*L 882      220301034 220402034  01433  01504               % 01685 TIC---
+*A ad 220301034 220402034 000002  01433  01504              % 01685 TIC---
+*R 1 220402034 220301034 220402034  01433  01504            % 01685 TIC---
+*G TIB 220301034 220402034  01433  01504                    % 01685 TIC---
+*A VE 220301034 220402034 000002  01433  01504              % 01685 TIC---
+*I FD 220301034 220402034        0001700  01433  01504      % 01685 TIC---
+220301034 Dudelange, Lycée Nic         01433                % 01685 TIC---
+220301022 Dudelange, Gare       01436 -01436                % 01685 TIC---
+220301030 Dudelange, Kierfecht  01438 -01438                % 01685 TIC---
+220301031 Dudelange, rue Aloys  01439 -01439                % 01685 TIC---
+220301019 Dudelange, Route de   01439 -01439                % 01685 TIC---
+220301002 Dudelange, Rue Angel  01440 -01440                % 01685 TIC---
+220301013 Dudelange, Butschebu  01441 -01441                % 01685 TIC---
+220301048 Dudelange, Scherr     01442 -01442                % 01685 TIC---
+220601013 Kayl, Diddelengerstr  01443 -01443                % 01685 TIC---
+220601021 Kayl, Brill           01444 -01444                % 01685 TIC---
+220601007 Kayl, Post            01446 -01446                % 01685 TIC---
+220601017 Kayl, Police          01447 -01447                % 01685 TIC---
+220601002 Kayl, Am Pull         01448 -01448                % 01685 TIC---
+220601005 Kayl, Barrière        01449 -01449                % 01685 TIC---
+220601011 Kayl, Broucherbierg   01449 -01449                % 01685 TIC---
+220601009 Kayl, Stellwierk      01449 -01449                % 01685 TIC---
+221401008 Schifflange, Poto     01452 -01452                % 01685 TIC---
+221401004 Schifflange, Gringe   01453 -01453                % 01685 TIC---
+221401007 Schifflange, Niddesc  01454 -01454                % 01685 TIC---
+221401003 Schifflange, Stadhau  01455 -01455                % 01685 TIC---
+221401005 Schifflange, Huele W  01456 -01456                % 01685 TIC---
+221401006 Schifflange, Millche  01457 -01457                % 01685 TIC---
+220402054 Esch/Alzette, Leesbe  01458 -01458                % 01685 TIC---
+220402086 Esch/Alzette, R. de   01459 -01459                % 01685 TIC---
+220402072 Esch/Alzette, Place   01502 -01502                % 01685 TIC---
+220402034 Esch/Alzette, Gare    01504                       % 01685 TIC---

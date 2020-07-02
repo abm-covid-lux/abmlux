@@ -1,0 +1,113 @@
+*F 03 2
+*Z 10490 RGTR--                                             % 10490 RGTR--
+*L 181      200415003 210503012  00705  00751               % 10490 RGTR--
+*A al 200415003 210503012 000002  00705  00751              % 10490 RGTR--
+*A ao 200415003 210503012 000002  00705  00751              % 10490 RGTR--
+*A av 200415003 210503012 000002  00705  00751              % 10490 RGTR--
+*A ad 200415003 210503012 000002  00705  00751              % 10490 RGTR--
+*R 1 210503012 200415003 210503012  00705  00751            % 10490 RGTR--
+*G RGB 200415003 210503012  00705  00751                    % 10490 RGTR--
+*A VE 200415003 210503012 000002  00705  00751              % 10490 RGTR--
+*I FD 200415003 210503012        0002006  00705  00751      % 10490 RGTR--
+200415003 Hollerich, Fonderie          00705                % 10490 RGTR--
+200303006 Hesperange, Urbengss  00716  00716                % 10490 RGTR--
+200301003 Alzingen, Trapeneck   00717  00717                % 10490 RGTR--
+201103004 Weiler-la-Tour, Schl  00722  00722                % 10490 RGTR--
+201103003 Weiler-la-Tour, Hueh  00723  00723                % 10490 RGTR--
+201103002 Weiler-la-Tour, Gëlt  00724  00724                % 10490 RGTR--
+201103005 Weiler-la-Tour, Peke  00725  00725                % 10490 RGTR--
+210301004 Dalheim, Gemeng       00732  00732                % 10490 RGTR--
+210905001 Gondelengermillen     00734  00734                % 10490 RGTR--
+220501002 Aspelt, Gare          00742  00742                % 10490 RGTR--
+220501001 Aspelt, Am Grëndchen  00743  00743                % 10490 RGTR--
+210501002 Altwies, Beckeschmil  00745  00745                % 10490 RGTR--
+210501001 Altwies, An der Kaz   00746  00746                % 10490 RGTR--
+210503005 Mondorf, Kleng Gare   00747  00747                % 10490 RGTR--
+210503001 Mondorf, Bei der Dou  00748  00748                % 10490 RGTR--
+210503003 Mondorf, Christophor  00749  00749                % 10490 RGTR--
+210503002 Mondorf, Casino 2000  00750  00750                % 10490 RGTR--
+210503012 Mondorf, Ecole Inter  00751                       % 10490 RGTR--
+*Z 10491 RGTR--                                             % 10491 RGTR--
+*L 181      210503012 200415003  01610  01658               % 10491 RGTR--
+*A al 210503012 200415003 000101  01610  01658              % 10491 RGTR--
+*A ao 210503012 200415003 000101  01610  01658              % 10491 RGTR--
+*A av 210503012 200415003 000101  01610  01658              % 10491 RGTR--
+*A ad 210503012 200415003 000101  01610  01658              % 10491 RGTR--
+*R 2 200415003 210503012 200415003  01610  01658            % 10491 RGTR--
+*G RGB 210503012 200415003  01610  01658                    % 10491 RGTR--
+*A VE 210503012 200415003 000101  01610  01658              % 10491 RGTR--
+*I FD 210503012 200415003        0002081  01610  01658      % 10491 RGTR--
+210503012 Mondorf, Ecole Inter         01610                % 10491 RGTR--
+210503002 Mondorf, Casino 2000  01612  01612                % 10491 RGTR--
+210503003 Mondorf, Christophor  01613  01613                % 10491 RGTR--
+210503001 Mondorf, Bei der Dou  01613  01613                % 10491 RGTR--
+210503005 Mondorf, Kleng Gare   01614  01614                % 10491 RGTR--
+210501001 Altwies, An der Kaz   01615  01615                % 10491 RGTR--
+210501002 Altwies, Beckeschmil  01617  01617                % 10491 RGTR--
+220501001 Aspelt, Am Grëndchen  01619  01619                % 10491 RGTR--
+220501002 Aspelt, Gare          01620  01620                % 10491 RGTR--
+210905001 Gondelengermillen     01628  01628                % 10491 RGTR--
+210301004 Dalheim, Gemeng       01631  01631                % 10491 RGTR--
+201103005 Weiler-la-Tour, Peke  01638  01638                % 10491 RGTR--
+201103002 Weiler-la-Tour, Gëlt  01639  01639                % 10491 RGTR--
+201103003 Weiler-la-Tour, Hueh  01640  01640                % 10491 RGTR--
+201103004 Weiler-la-Tour, Schl  01641  01641                % 10491 RGTR--
+200301003 Alzingen, Trapeneck   01646  01646                % 10491 RGTR--
+200303006 Hesperange, Urbengss  01647  01647                % 10491 RGTR--
+200415003 Hollerich, Fonderie   01658                       % 10491 RGTR--
+*Z 10492 RGTR--                                             % 10492 RGTR--
+*L 181      210503012 200415003  01225  01311               % 10492 RGTR--
+*A al 210503012 200415003 000007  01225  01311              % 10492 RGTR--
+*A ao 210503012 200415003 000007  01225  01311              % 10492 RGTR--
+*A av 210503012 200415003 000007  01225  01311              % 10492 RGTR--
+*A ad 210503012 200415003 000007  01225  01311              % 10492 RGTR--
+*R 2 200415003 210503012 200415003  01225  01311            % 10492 RGTR--
+*G RGB 210503012 200415003  01225  01311                    % 10492 RGTR--
+*A VE 210503012 200415003 000007  01225  01311              % 10492 RGTR--
+*I FD 210503012 200415003        0001945  01225  01311      % 10492 RGTR--
+210503012 Mondorf, Ecole Inter         01225                % 10492 RGTR--
+210503002 Mondorf, Casino 2000  01226  01226                % 10492 RGTR--
+210503003 Mondorf, Christophor  01227  01227                % 10492 RGTR--
+210503001 Mondorf, Bei der Dou  01228  01228                % 10492 RGTR--
+210503005 Mondorf, Kleng Gare   01229  01229                % 10492 RGTR--
+210501001 Altwies, An der Kaz   01230  01230                % 10492 RGTR--
+210501002 Altwies, Beckeschmil  01231  01231                % 10492 RGTR--
+220501001 Aspelt, Am Grëndchen  01233  01233                % 10492 RGTR--
+220501002 Aspelt, Gare          01234  01234                % 10492 RGTR--
+210905001 Gondelengermillen     01242  01242                % 10492 RGTR--
+210301004 Dalheim, Gemeng       01245  01245                % 10492 RGTR--
+201103005 Weiler-la-Tour, Peke  01251  01251                % 10492 RGTR--
+201103002 Weiler-la-Tour, Gëlt  01252  01252                % 10492 RGTR--
+201103003 Weiler-la-Tour, Hueh  01253  01253                % 10492 RGTR--
+201103004 Weiler-la-Tour, Schl  01255  01255                % 10492 RGTR--
+200301003 Alzingen, Trapeneck   01259  01259                % 10492 RGTR--
+200303006 Hesperange, Urbengss  01300  01300                % 10492 RGTR--
+200415003 Hollerich, Fonderie   01311                       % 10492 RGTR--
+*Z 10493 RGTR--                                             % 10493 RGTR--
+*L 181      210503012 200415003  01310  01356               % 10493 RGTR--
+*A al 210503012 200415003 000093  01310  01356              % 10493 RGTR--
+*A ao 210503012 200415003 000093  01310  01356              % 10493 RGTR--
+*A av 210503012 200415003 000093  01310  01356              % 10493 RGTR--
+*A ad 210503012 200415003 000093  01310  01356              % 10493 RGTR--
+*R 2 200415003 210503012 200415003  01310  01356            % 10493 RGTR--
+*G RGB 210503012 200415003  01310  01356                    % 10493 RGTR--
+*A VE 210503012 200415003 000093  01310  01356              % 10493 RGTR--
+*I FD 210503012 200415003        0002062  01310  01356      % 10493 RGTR--
+210503012 Mondorf, Ecole Inter         01310                % 10493 RGTR--
+210503002 Mondorf, Casino 2000  01311  01311                % 10493 RGTR--
+210503003 Mondorf, Christophor  01312  01312                % 10493 RGTR--
+210503001 Mondorf, Bei der Dou  01313  01313                % 10493 RGTR--
+210503005 Mondorf, Kleng Gare   01314  01314                % 10493 RGTR--
+210501001 Altwies, An der Kaz   01315  01315                % 10493 RGTR--
+210501002 Altwies, Beckeschmil  01316  01316                % 10493 RGTR--
+220501001 Aspelt, Am Grëndchen  01318  01318                % 10493 RGTR--
+220501002 Aspelt, Gare          01319  01319                % 10493 RGTR--
+210905001 Gondelengermillen     01327  01327                % 10493 RGTR--
+210301004 Dalheim, Gemeng       01330  01330                % 10493 RGTR--
+201103005 Weiler-la-Tour, Peke  01336  01336                % 10493 RGTR--
+201103002 Weiler-la-Tour, Gëlt  01337  01337                % 10493 RGTR--
+201103003 Weiler-la-Tour, Hueh  01338  01338                % 10493 RGTR--
+201103004 Weiler-la-Tour, Schl  01340  01340                % 10493 RGTR--
+200301003 Alzingen, Trapeneck   01344  01344                % 10493 RGTR--
+200303006 Hesperange, Urbengss  01345  01345                % 10493 RGTR--
+200415003 Hollerich, Fonderie   01356                       % 10493 RGTR--

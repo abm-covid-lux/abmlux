@@ -1,0 +1,128 @@
+*F 03 2
+*Z 05759 RGTR--                                             % 05759 RGTR--
+*L 204      200420006 220201003  01425  01459               % 05759 RGTR--
+*A al 200420006 220201003 000002  01425  01459              % 05759 RGTR--
+*A df 200420006 220201003 000002  01425  01459              % 05759 RGTR--
+*A ad 200420006 220201003 000002  01425  01459              % 05759 RGTR--
+*R 1 220201003 200420006 220201003  01425  01459            % 05759 RGTR--
+*G RGB 200420006 220201003  01425  01459                    % 05759 RGTR--
+*A VE 200420006 220201003 000002  01425  01459              % 05759 RGTR--
+*I FD 200420006 220201003        0001946  01425  01459      % 05759 RGTR--
+200420006 Merl, Geesseknäppche         01425                % 05759 RGTR--
+220402079 Esch/Alzette, Raemer  01445  01445                % 05759 RGTR--
+221301005 Belvaux, Brill        01446  01446                % 05759 RGTR--
+221301016 Belvaux, Roudewee     01447  01447                % 05759 RGTR--
+221301009 Belvaux, Henri Tudor  01448  01448                % 05759 RGTR--
+221301007 Belvaux, Gemeng       01448  01448                % 05759 RGTR--
+221301028 Belvaux, Ënnert Zolw  01449  01449                % 05759 RGTR--
+221301013 Belvaux, Paquebierg   01450  01450                % 05759 RGTR--
+221304011 Soleuvre, Jugendhaus  01451  01451                % 05759 RGTR--
+221304012 Soleuvre, Pl. de l'I  01452  01452                % 05759 RGTR--
+221304009 Soleuvre, Emile Mayr  01453  01453                % 05759 RGTR--
+221304005 Soleuvre, Cité Schei  01454  01454                % 05759 RGTR--
+220201023 Differdange, Gewännc  01455  01455                % 05759 RGTR--
+220201026 Differdange, Hansen   01457  01457                % 05759 RGTR--
+220201019 Differdange, Fousban  01458  01458                % 05759 RGTR--
+220201003 Differdange, Arbed    01459                       % 05759 RGTR--
+*Z 05760 RGTR--                                             % 05760 RGTR--
+*L 204      200420006 220201003  01250  01324               % 05760 RGTR--
+*A al 200420006 220201003 000007  01250  01324              % 05760 RGTR--
+*A df 200420006 220201003 000007  01250  01324              % 05760 RGTR--
+*A ad 200420006 220201003 000007  01250  01324              % 05760 RGTR--
+*R 1 220201003 200420006 220201003  01250  01324            % 05760 RGTR--
+*G RGB 200420006 220201003  01250  01324                    % 05760 RGTR--
+*A VE 200420006 220201003 000007  01250  01324              % 05760 RGTR--
+*I FD 200420006 220201003        0002061  01250  01324      % 05760 RGTR--
+200420006 Merl, Geesseknäppche         01250                % 05760 RGTR--
+220402079 Esch/Alzette, Raemer  01310  01310                % 05760 RGTR--
+221301005 Belvaux, Brill        01311  01311                % 05760 RGTR--
+221301016 Belvaux, Roudewee     01312  01312                % 05760 RGTR--
+221301009 Belvaux, Henri Tudor  01313  01313                % 05760 RGTR--
+221301007 Belvaux, Gemeng       01313  01313                % 05760 RGTR--
+221301028 Belvaux, Ënnert Zolw  01314  01314                % 05760 RGTR--
+221301013 Belvaux, Paquebierg   01315  01315                % 05760 RGTR--
+221304011 Soleuvre, Jugendhaus  01316  01316                % 05760 RGTR--
+221304012 Soleuvre, Pl. de l'I  01317  01317                % 05760 RGTR--
+221304009 Soleuvre, Emile Mayr  01318  01318                % 05760 RGTR--
+221304005 Soleuvre, Cité Schei  01319  01319                % 05760 RGTR--
+220201023 Differdange, Gewännc  01320  01320                % 05760 RGTR--
+220201026 Differdange, Hansen   01322  01322                % 05760 RGTR--
+220201019 Differdange, Fousban  01323  01323                % 05760 RGTR--
+220201003 Differdange, Arbed    01324                       % 05760 RGTR--
+*Z 05761 RGTR--                                             % 05761 RGTR--
+*L 204      200420006 220201003  01550  01625               % 05761 RGTR--
+*A al 200420006 220201003 000008  01550  01625              % 05761 RGTR--
+*A df 200420006 220201003 000008  01550  01625              % 05761 RGTR--
+*A ad 200420006 220201003 000008  01550  01625              % 05761 RGTR--
+*R 1 220201003 200420006 220201003  01550  01625            % 05761 RGTR--
+*G RGB 200420006 220201003  01550  01625                    % 05761 RGTR--
+*A VE 200420006 220201003 000008  01550  01625              % 05761 RGTR--
+*I FD 200420006 220201003        0002080  01550  01625      % 05761 RGTR--
+200420006 Merl, Geesseknäppche         01550                % 05761 RGTR--
+220402079 Esch/Alzette, Raemer  01610  01610                % 05761 RGTR--
+221301005 Belvaux, Brill        01611  01611                % 05761 RGTR--
+221301016 Belvaux, Roudewee     01612  01612                % 05761 RGTR--
+221301009 Belvaux, Henri Tudor  01613  01613                % 05761 RGTR--
+221301007 Belvaux, Gemeng       01613  01613                % 05761 RGTR--
+221301028 Belvaux, Ënnert Zolw  01614  01614                % 05761 RGTR--
+221301013 Belvaux, Paquebierg   01615  01615                % 05761 RGTR--
+221304011 Soleuvre, Jugendhaus  01616  01616                % 05761 RGTR--
+221304012 Soleuvre, Pl. de l'I  01617  01617                % 05761 RGTR--
+221304009 Soleuvre, Emile Mayr  01618  01618                % 05761 RGTR--
+221304005 Soleuvre, Cité Schei  01619  01619                % 05761 RGTR--
+220201023 Differdange, Gewännc  01620  01620                % 05761 RGTR--
+220201026 Differdange, Hansen   01622  01622                % 05761 RGTR--
+220201019 Differdange, Fousban  01624  01624                % 05761 RGTR--
+220201003 Differdange, Arbed    01625                       % 05761 RGTR--
+*Z 05762 RGTR--                                             % 05762 RGTR--
+*L 204      220201003 200419021  00630  00739               % 05762 RGTR--
+*A al 220201003 200419021 000002  00630  00739              % 05762 RGTR--
+*A df 220201003 200419021 000002  00630  00739              % 05762 RGTR--
+*A ad 220201003 200419021 000002  00630  00739              % 05762 RGTR--
+*R 2 200419021 220201003 200419021  00630  00739            % 05762 RGTR--
+*G RGB 220201003 200419021  00630  00739                    % 05762 RGTR--
+*A VE 220201003 200419021 000002  00630  00739              % 05762 RGTR--
+*I FD 220201003 200419021        0000827  00630  00739      % 05762 RGTR--
+220201003 Differdange, Arbed           00630                % 05762 RGTR--
+220201019 Differdange, Fousban  00630  00630                % 05762 RGTR--
+220201039 Differdange, Profi    00632  00632                % 05762 RGTR--
+221304004 Soleuvre, Cité Kauff  00635  00635                % 05762 RGTR--
+221304005 Soleuvre, Cité Schei  00636  00636                % 05762 RGTR--
+221304009 Soleuvre, Emile Mayr  00637  00637                % 05762 RGTR--
+221304012 Soleuvre, Pl. de l'I  00637  00637                % 05762 RGTR--
+221304011 Soleuvre, Jugendhaus  00638  00638                % 05762 RGTR--
+221301013 Belvaux, Paquebierg   00639  00639                % 05762 RGTR--
+221301028 Belvaux, Ënnert Zolw  00640  00640                % 05762 RGTR--
+221301007 Belvaux, Gemeng       00641  00641                % 05762 RGTR--
+221301009 Belvaux, Henri Tudor  00642  00642                % 05762 RGTR--
+221301016 Belvaux, Roudewee     00643  00643                % 05762 RGTR--
+221301005 Belvaux, Brill        00644  00644                % 05762 RGTR--
+220402079 Esch/Alzette, Raemer  00645  00645                % 05762 RGTR--
+200419026 Limpertsberg, Theate  00732  00732                % 05762 RGTR--
+200419025 Limpertsberg, Lycée   00735  00735                % 05762 RGTR--
+200419021 Limpertsberg, L.T.C.  00739                       % 05762 RGTR--
+*Z 05763 RGTR--                                             % 05763 RGTR--
+*L 204      220201003 200420006  00640  00745               % 05763 RGTR--
+*A al 220201003 200420006 000002  00640  00745              % 05763 RGTR--
+*A df 220201003 200420006 000002  00640  00745              % 05763 RGTR--
+*A ad 220201003 200420006 000002  00640  00745              % 05763 RGTR--
+*R 2 200420006 220201003 200420006  00640  00745            % 05763 RGTR--
+*G RGB 220201003 200420006  00640  00745                    % 05763 RGTR--
+*A VE 220201003 200420006 000002  00640  00745              % 05763 RGTR--
+*I FD 220201003 200420006        0000784  00640  00745      % 05763 RGTR--
+220201003 Differdange, Arbed           00640                % 05763 RGTR--
+220201019 Differdange, Fousban  00640  00640                % 05763 RGTR--
+220201039 Differdange, Profi    00642  00642                % 05763 RGTR--
+221304004 Soleuvre, Cité Kauff  00645  00645                % 05763 RGTR--
+221304005 Soleuvre, Cité Schei  00646  00646                % 05763 RGTR--
+221304009 Soleuvre, Emile Mayr  00647  00647                % 05763 RGTR--
+221304012 Soleuvre, Pl. de l'I  00647  00647                % 05763 RGTR--
+221304011 Soleuvre, Jugendhaus  00648  00648                % 05763 RGTR--
+221301013 Belvaux, Paquebierg   00649  00649                % 05763 RGTR--
+221301028 Belvaux, Ënnert Zolw  00650  00650                % 05763 RGTR--
+221301007 Belvaux, Gemeng       00651  00651                % 05763 RGTR--
+221301009 Belvaux, Henri Tudor  00652  00652                % 05763 RGTR--
+221301016 Belvaux, Roudewee     00653  00653                % 05763 RGTR--
+221301005 Belvaux, Brill        00654  00654                % 05763 RGTR--
+220402079 Esch/Alzette, Raemer  00655  00655                % 05763 RGTR--
+200420006 Merl, Geesseknäppche  00745                       % 05763 RGTR--

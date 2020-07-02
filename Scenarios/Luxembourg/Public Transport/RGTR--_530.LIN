@@ -1,0 +1,1503 @@
+*F 03 2
+*Z 08119 RGTR--                                             % 08119 RGTR--
+*L 530      140401009 150511005  00800  00927               % 08119 RGTR--
+*A bj 140401009 150511005 000001  00800  00927              % 08119 RGTR--
+*A ee 140401009 150511005 000001  00800  00927              % 08119 RGTR--
+*R 1 150511005 140401009 150511005  00800  00927            % 08119 RGTR--
+*G RGB 140401009 150511005  00800  00927                    % 08119 RGTR--
+*A VE 140401009 150511005 000001  00800  00927              % 08119 RGTR--
+*I FD 140401009 150511005        0001930  00800  00927      % 08119 RGTR--
+140401009 Diekirch, Neie Kolle         00800                % 08119 RGTR--
+140401011 Diekirch, Alexis Hec  00804  00804                % 08119 RGTR--
+140401006 Diekirch, Kluuster    00805  00805                % 08119 RGTR--
+140401004 Diekirch, Gare        00807  00807                % 08119 RGTR--
+140401008 Diekirch, Lorentzwue  00809  00809                % 08119 RGTR--
+140603002 Ingeldorf, Café de l  00811  00811                % 08119 RGTR--
+140602008 Erpeldange/Sûre, Um   00812  00812                % 08119 RGTR--
+140701016 Ettelbruck, Gare      00814  00818                % 08119 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00823  00823                % 08119 RGTR--
+140701009 Ettelbruck, Cité Pat  00824  00824                % 08119 RGTR--
+140701008 Ettelbruck, Cité Lop  00825  00825                % 08119 RGTR--
+140801002 Niederfeulen, Faubou  00828  00828                % 08119 RGTR--
+140801003 Niederfeulen, Mairie  00828  00828                % 08119 RGTR--
+140801005 Niederfeulen, Atelie  00829  00829                % 08119 RGTR--
+120502001 Heiderscheid, Fuusse  00833  00833                % 08119 RGTR--
+120502003 Heiderscheid, Zone C  00834  00834                % 08119 RGTR--
+120502002 Heiderscheid          00835  00835                % 08119 RGTR--
+120501003 Eschdorf, Quatre Ven  00838  00838                % 08119 RGTR--
+120501001 Eschdorf, Braas       00839  00839                % 08119 RGTR--
+120504001 Hierheck              00840  00840                % 08119 RGTR--
+151003001 Grevels, Eneschten E  00843  00843                % 08119 RGTR--
+151003003 Grevels, Zentrum      00843  00843                % 08119 RGTR--
+151003002 Grevels, Ieweschten   00845  00845                % 08119 RGTR--
+120804001 Heispelt, Géierekräi  00847  00847                % 08119 RGTR--
+150512006 Rambrouch, Gare       00852  00852                % 08119 RGTR--
+150512005 Rambrouch, Schlass    00853  00853                % 08119 RGTR--
+150509001 Koetschette, Rond-Po  00854  00854                % 08119 RGTR--
+150501003 Arsdorf, An der Gaas  00857  00857                % 08119 RGTR--
+150501001 Arsdorf, Am Duerf     00858  00858                % 08119 RGTR--
+150501004 Arsdorf, Um Knupp     00859  00859                % 08119 RGTR--
+150503001 Bilsdorf, Am Duerf    00901  00901                % 08119 RGTR--
+150513001 Riesenhaff            00904  00904                % 08119 RGTR--
+150505001 Flatzbour             00906  00906                % 08119 RGTR--
+150502003 Bigonville, Kimm      00907  00907                % 08119 RGTR--
+150502005 Bigonville, Réimerwe  00909  00909                % 08119 RGTR--
+150502006 Bigonville, Am Duerf  00909  00909                % 08119 RGTR--
+150502001 Bigonville, Huelgaas  00910  00910                % 08119 RGTR--
+150502004 Bigonville, Knupp     00911  00911                % 08119 RGTR--
+150502007 Bigonville, Haaptstr  00912  00912                % 08119 RGTR--
+150502002 Bigonville, Kéismaar  00912  00912                % 08119 RGTR--
+150502005 Bigonville, Réimerwe  00913  00913                % 08119 RGTR--
+150510001 Martelange, Gare      00919  00919                % 08119 RGTR--
+150510002 Martelange, Leekoll   00920  00920                % 08119 RGTR--
+150515001 Wolwelange, Ennescht  00921  00921                % 08119 RGTR--
+150515002 Wolwelange, Kiosk     00921  00921                % 08119 RGTR--
+150515003 Wolwelange, Spëtzt    00922  00922                % 08119 RGTR--
+150511002 Perlé, Gare           00925  00925                % 08119 RGTR--
+150511006 Perlé, Kuelewee       00925  00925                % 08119 RGTR--
+150511001 Perlé, An der Huel    00926  00926                % 08119 RGTR--
+150511005 Perlé, Schoul         00927                       % 08119 RGTR--
+*Z 08120 RGTR--                                             % 08120 RGTR--
+*L 530      140401009 150511005  01458  01623               % 08120 RGTR--
+*A dk 140401009 150511005 000001  01458  01623              % 08120 RGTR--
+*A ee 140401009 150511005 000001  01458  01623              % 08120 RGTR--
+*R 1 150511005 140401009 150511005  01458  01623            % 08120 RGTR--
+*G RGB 140401009 150511005  01458  01623                    % 08120 RGTR--
+*A VE 140401009 150511005 000001  01458  01623              % 08120 RGTR--
+*I FD 140401009 150511005        0001926  01458  01623      % 08120 RGTR--
+140401009 Diekirch, Neie Kolle         01458                % 08120 RGTR--
+140401011 Diekirch, Alexis Hec  01501  01501                % 08120 RGTR--
+140401006 Diekirch, Kluuster    01502  01502                % 08120 RGTR--
+140401004 Diekirch, Gare        01504  01504                % 08120 RGTR--
+140401008 Diekirch, Lorentzwue  01506  01506                % 08120 RGTR--
+140603002 Ingeldorf, Café de l  01507  01507                % 08120 RGTR--
+140602008 Erpeldange/Sûre, Um   01509  01509                % 08120 RGTR--
+140701016 Ettelbruck, Gare      01511  01518                % 08120 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01522  01522                % 08120 RGTR--
+140701009 Ettelbruck, Cité Pat  01524  01524                % 08120 RGTR--
+140701008 Ettelbruck, Cité Lop  01525  01525                % 08120 RGTR--
+140801002 Niederfeulen, Faubou  01527  01527                % 08120 RGTR--
+140801003 Niederfeulen, Mairie  01527  01527                % 08120 RGTR--
+140801005 Niederfeulen, Atelie  01529  01529                % 08120 RGTR--
+120502001 Heiderscheid, Fuusse  01532  01532                % 08120 RGTR--
+120502003 Heiderscheid, Zone C  01533  01533                % 08120 RGTR--
+120502002 Heiderscheid          01534  01534                % 08120 RGTR--
+120501003 Eschdorf, Quatre Ven  01537  01537                % 08120 RGTR--
+120501001 Eschdorf, Braas       01538  01538                % 08120 RGTR--
+120504001 Hierheck              01539  01539                % 08120 RGTR--
+151003001 Grevels, Eneschten E  01542  01542                % 08120 RGTR--
+151003003 Grevels, Zentrum      01542  01542                % 08120 RGTR--
+151003002 Grevels, Ieweschten   01544  01544                % 08120 RGTR--
+120804001 Heispelt, Géierekräi  01546  01546                % 08120 RGTR--
+150512006 Rambrouch, Gare       01550  01550                % 08120 RGTR--
+150512005 Rambrouch, Schlass    01551  01551                % 08120 RGTR--
+150509001 Koetschette, Rond-Po  01553  01553                % 08120 RGTR--
+150501003 Arsdorf, An der Gaas  01555  01555                % 08120 RGTR--
+150501001 Arsdorf, Am Duerf     01556  01556                % 08120 RGTR--
+150501004 Arsdorf, Um Knupp     01557  01557                % 08120 RGTR--
+150503001 Bilsdorf, Am Duerf    01559  01559                % 08120 RGTR--
+150513001 Riesenhaff            01602  01602                % 08120 RGTR--
+150505001 Flatzbour             01604  01604                % 08120 RGTR--
+150502003 Bigonville, Kimm      01605  01605                % 08120 RGTR--
+150502005 Bigonville, Réimerwe  01606  01606                % 08120 RGTR--
+150502006 Bigonville, Am Duerf  01607  01607                % 08120 RGTR--
+150502001 Bigonville, Huelgaas  01607  01607                % 08120 RGTR--
+150502004 Bigonville, Knupp     01608  01608                % 08120 RGTR--
+150502007 Bigonville, Haaptstr  01609  01609                % 08120 RGTR--
+150502002 Bigonville, Kéismaar  01610  01610                % 08120 RGTR--
+150502005 Bigonville, Réimerwe  01610  01610                % 08120 RGTR--
+150510001 Martelange, Gare      01615  01615                % 08120 RGTR--
+150510002 Martelange, Leekoll   01617  01617                % 08120 RGTR--
+150515001 Wolwelange, Ennescht  01617  01617                % 08120 RGTR--
+150515002 Wolwelange, Kiosk     01618  01618                % 08120 RGTR--
+150515003 Wolwelange, Spëtzt    01619  01619                % 08120 RGTR--
+150511002 Perlé, Gare           01621  01621                % 08120 RGTR--
+150511006 Perlé, Kuelewee       01621  01621                % 08120 RGTR--
+150511001 Perlé, An der Huel    01623  01623                % 08120 RGTR--
+150511005 Perlé, Schoul         01623                       % 08120 RGTR--
+*Z 08121 RGTR--                                             % 08121 RGTR--
+*L 530      140701016 150511005  01018  01123               % 08121 RGTR--
+*A bk 140701016 150511005 000001  01018  01123              % 08121 RGTR--
+*A ee 140701016 150511005 000001  01018  01123              % 08121 RGTR--
+*R 1 150511005 140701016 150511005  01018  01123            % 08121 RGTR--
+*G RGB 140701016 150511005  01018  01123                    % 08121 RGTR--
+*A VE 140701016 150511005 000001  01018  01123              % 08121 RGTR--
+*I FD 140701016 150511005        0002668  01018  01123      % 08121 RGTR--
+140701016 Ettelbruck, Gare             01018                % 08121 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01022  01022                % 08121 RGTR--
+140701009 Ettelbruck, Cité Pat  01024  01024                % 08121 RGTR--
+140701008 Ettelbruck, Cité Lop  01025  01025                % 08121 RGTR--
+140801002 Niederfeulen, Faubou  01027  01027                % 08121 RGTR--
+140801003 Niederfeulen, Mairie  01027  01027                % 08121 RGTR--
+140801005 Niederfeulen, Atelie  01029  01029                % 08121 RGTR--
+120502001 Heiderscheid, Fuusse  01032  01032                % 08121 RGTR--
+120502003 Heiderscheid, Zone C  01033  01033                % 08121 RGTR--
+120502002 Heiderscheid          01034  01034                % 08121 RGTR--
+120501003 Eschdorf, Quatre Ven  01037  01037                % 08121 RGTR--
+120501001 Eschdorf, Braas       01038  01038                % 08121 RGTR--
+120504001 Hierheck              01039  01039                % 08121 RGTR--
+151003001 Grevels, Eneschten E  01042  01042                % 08121 RGTR--
+151003003 Grevels, Zentrum      01042  01042                % 08121 RGTR--
+151003002 Grevels, Ieweschten   01044  01044                % 08121 RGTR--
+120804001 Heispelt, Géierekräi  01046  01046                % 08121 RGTR--
+150512006 Rambrouch, Gare       01050  01050                % 08121 RGTR--
+150512005 Rambrouch, Schlass    01051  01051                % 08121 RGTR--
+150509001 Koetschette, Rond-Po  01053  01053                % 08121 RGTR--
+150501003 Arsdorf, An der Gaas  01055  01055                % 08121 RGTR--
+150501001 Arsdorf, Am Duerf     01056  01056                % 08121 RGTR--
+150501004 Arsdorf, Um Knupp     01057  01057                % 08121 RGTR--
+150503001 Bilsdorf, Am Duerf    01059  01059                % 08121 RGTR--
+150513001 Riesenhaff            01102  01102                % 08121 RGTR--
+150505001 Flatzbour             01104  01104                % 08121 RGTR--
+150502003 Bigonville, Kimm      01105  01105                % 08121 RGTR--
+150502005 Bigonville, Réimerwe  01106  01106                % 08121 RGTR--
+150502006 Bigonville, Am Duerf  01107  01107                % 08121 RGTR--
+150502001 Bigonville, Huelgaas  01107  01107                % 08121 RGTR--
+150502004 Bigonville, Knupp     01108  01108                % 08121 RGTR--
+150502007 Bigonville, Haaptstr  01109  01109                % 08121 RGTR--
+150502002 Bigonville, Kéismaar  01110  01110                % 08121 RGTR--
+150502005 Bigonville, Réimerwe  01110  01110                % 08121 RGTR--
+150510001 Martelange, Gare      01115  01115                % 08121 RGTR--
+150510002 Martelange, Leekoll   01117  01117                % 08121 RGTR--
+150515001 Wolwelange, Ennescht  01117  01117                % 08121 RGTR--
+150515002 Wolwelange, Kiosk     01118  01118                % 08121 RGTR--
+150515003 Wolwelange, Spëtzt    01119  01119                % 08121 RGTR--
+150511002 Perlé, Gare           01121  01121                % 08121 RGTR--
+150511006 Perlé, Kuelewee       01121  01121                % 08121 RGTR--
+150511001 Perlé, An der Huel    01123  01123                % 08121 RGTR--
+150511005 Perlé, Schoul         01123                       % 08121 RGTR--
+*Z 08122 RGTR--                                             % 08122 RGTR--
+*L 530      140701016 150511005  01118  01223               % 08122 RGTR--
+*A dk 140701016 150511005 000001  01118  01223              % 08122 RGTR--
+*A ee 140701016 150511005 000001  01118  01223              % 08122 RGTR--
+*R 1 150511005 140701016 150511005  01118  01223            % 08122 RGTR--
+*G RGB 140701016 150511005  01118  01223                    % 08122 RGTR--
+*A VE 140701016 150511005 000001  01118  01223              % 08122 RGTR--
+*I FD 140701016 150511005        0001090  01118  01223      % 08122 RGTR--
+140701016 Ettelbruck, Gare             01118                % 08122 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01122  01122                % 08122 RGTR--
+140701009 Ettelbruck, Cité Pat  01124  01124                % 08122 RGTR--
+140701008 Ettelbruck, Cité Lop  01125  01125                % 08122 RGTR--
+140801002 Niederfeulen, Faubou  01127  01127                % 08122 RGTR--
+140801003 Niederfeulen, Mairie  01127  01127                % 08122 RGTR--
+140801005 Niederfeulen, Atelie  01129  01129                % 08122 RGTR--
+120502001 Heiderscheid, Fuusse  01132  01132                % 08122 RGTR--
+120502003 Heiderscheid, Zone C  01133  01133                % 08122 RGTR--
+120502002 Heiderscheid          01134  01134                % 08122 RGTR--
+120501003 Eschdorf, Quatre Ven  01137  01137                % 08122 RGTR--
+120501001 Eschdorf, Braas       01138  01138                % 08122 RGTR--
+120504001 Hierheck              01139  01139                % 08122 RGTR--
+151003001 Grevels, Eneschten E  01142  01142                % 08122 RGTR--
+151003003 Grevels, Zentrum      01142  01142                % 08122 RGTR--
+151003002 Grevels, Ieweschten   01144  01144                % 08122 RGTR--
+120804001 Heispelt, Géierekräi  01146  01146                % 08122 RGTR--
+150512006 Rambrouch, Gare       01150  01150                % 08122 RGTR--
+150512005 Rambrouch, Schlass    01151  01151                % 08122 RGTR--
+150509001 Koetschette, Rond-Po  01153  01153                % 08122 RGTR--
+150501003 Arsdorf, An der Gaas  01155  01155                % 08122 RGTR--
+150501001 Arsdorf, Am Duerf     01156  01156                % 08122 RGTR--
+150501004 Arsdorf, Um Knupp     01157  01157                % 08122 RGTR--
+150503001 Bilsdorf, Am Duerf    01159  01159                % 08122 RGTR--
+150513001 Riesenhaff            01202  01202                % 08122 RGTR--
+150505001 Flatzbour             01204  01204                % 08122 RGTR--
+150502003 Bigonville, Kimm      01205  01205                % 08122 RGTR--
+150502005 Bigonville, Réimerwe  01206  01206                % 08122 RGTR--
+150502006 Bigonville, Am Duerf  01207  01207                % 08122 RGTR--
+150502001 Bigonville, Huelgaas  01207  01207                % 08122 RGTR--
+150502004 Bigonville, Knupp     01208  01208                % 08122 RGTR--
+150502007 Bigonville, Haaptstr  01209  01209                % 08122 RGTR--
+150502002 Bigonville, Kéismaar  01210  01210                % 08122 RGTR--
+150502005 Bigonville, Réimerwe  01210  01210                % 08122 RGTR--
+150510001 Martelange, Gare      01215  01215                % 08122 RGTR--
+150510002 Martelange, Leekoll   01217  01217                % 08122 RGTR--
+150515001 Wolwelange, Ennescht  01217  01217                % 08122 RGTR--
+150515002 Wolwelange, Kiosk     01218  01218                % 08122 RGTR--
+150515003 Wolwelange, Spëtzt    01219  01219                % 08122 RGTR--
+150511002 Perlé, Gare           01221  01221                % 08122 RGTR--
+150511006 Perlé, Kuelewee       01221  01221                % 08122 RGTR--
+150511001 Perlé, An der Huel    01223  01223                % 08122 RGTR--
+150511005 Perlé, Schoul         01223                       % 08122 RGTR--
+*Z 08123 RGTR--                                             % 08123 RGTR--
+*L 530      140701016 150511005  01318  01423               % 08123 RGTR--
+*A bk 140701016 150511005 000001  01318  01423              % 08123 RGTR--
+*A ee 140701016 150511005 000001  01318  01423              % 08123 RGTR--
+*R 1 150511005 140701016 150511005  01318  01423            % 08123 RGTR--
+*G RGB 140701016 150511005  01318  01423                    % 08123 RGTR--
+*A VE 140701016 150511005 000001  01318  01423              % 08123 RGTR--
+*I FD 140701016 150511005        0002686  01318  01423      % 08123 RGTR--
+140701016 Ettelbruck, Gare             01318                % 08123 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01322  01322                % 08123 RGTR--
+140701009 Ettelbruck, Cité Pat  01324  01324                % 08123 RGTR--
+140701008 Ettelbruck, Cité Lop  01325  01325                % 08123 RGTR--
+140801002 Niederfeulen, Faubou  01327  01327                % 08123 RGTR--
+140801003 Niederfeulen, Mairie  01327  01327                % 08123 RGTR--
+140801005 Niederfeulen, Atelie  01329  01329                % 08123 RGTR--
+120502001 Heiderscheid, Fuusse  01332  01332                % 08123 RGTR--
+120502003 Heiderscheid, Zone C  01333  01333                % 08123 RGTR--
+120502002 Heiderscheid          01334  01334                % 08123 RGTR--
+120501003 Eschdorf, Quatre Ven  01337  01337                % 08123 RGTR--
+120501001 Eschdorf, Braas       01338  01338                % 08123 RGTR--
+120504001 Hierheck              01339  01339                % 08123 RGTR--
+151003001 Grevels, Eneschten E  01342  01342                % 08123 RGTR--
+151003003 Grevels, Zentrum      01342  01342                % 08123 RGTR--
+151003002 Grevels, Ieweschten   01344  01344                % 08123 RGTR--
+120804001 Heispelt, Géierekräi  01346  01346                % 08123 RGTR--
+150512006 Rambrouch, Gare       01350  01350                % 08123 RGTR--
+150512005 Rambrouch, Schlass    01351  01351                % 08123 RGTR--
+150509001 Koetschette, Rond-Po  01353  01353                % 08123 RGTR--
+150501003 Arsdorf, An der Gaas  01355  01355                % 08123 RGTR--
+150501001 Arsdorf, Am Duerf     01356  01356                % 08123 RGTR--
+150501004 Arsdorf, Um Knupp     01357  01357                % 08123 RGTR--
+150503001 Bilsdorf, Am Duerf    01359  01359                % 08123 RGTR--
+150513001 Riesenhaff            01402  01402                % 08123 RGTR--
+150505001 Flatzbour             01404  01404                % 08123 RGTR--
+150502003 Bigonville, Kimm      01405  01405                % 08123 RGTR--
+150502005 Bigonville, Réimerwe  01406  01406                % 08123 RGTR--
+150502006 Bigonville, Am Duerf  01407  01407                % 08123 RGTR--
+150502001 Bigonville, Huelgaas  01407  01407                % 08123 RGTR--
+150502004 Bigonville, Knupp     01408  01408                % 08123 RGTR--
+150502007 Bigonville, Haaptstr  01409  01409                % 08123 RGTR--
+150502002 Bigonville, Kéismaar  01410  01410                % 08123 RGTR--
+150502005 Bigonville, Réimerwe  01410  01410                % 08123 RGTR--
+150510001 Martelange, Gare      01415  01415                % 08123 RGTR--
+150510002 Martelange, Leekoll   01417  01417                % 08123 RGTR--
+150515001 Wolwelange, Ennescht  01417  01417                % 08123 RGTR--
+150515002 Wolwelange, Kiosk     01418  01418                % 08123 RGTR--
+150515003 Wolwelange, Spëtzt    01419  01419                % 08123 RGTR--
+150511002 Perlé, Gare           01421  01421                % 08123 RGTR--
+150511006 Perlé, Kuelewee       01421  01421                % 08123 RGTR--
+150511001 Perlé, An der Huel    01423  01423                % 08123 RGTR--
+150511005 Perlé, Schoul         01423                       % 08123 RGTR--
+*Z 08124 RGTR--                                             % 08124 RGTR--
+*L 530      140701016 150511005  01418  01523               % 08124 RGTR--
+*A bm 140701016 150511005 000001  01418  01523              % 08124 RGTR--
+*A ee 140701016 150511005 000001  01418  01523              % 08124 RGTR--
+*R 1 150511005 140701016 150511005  01418  01523            % 08124 RGTR--
+*G RGB 140701016 150511005  01418  01523                    % 08124 RGTR--
+*A VE 140701016 150511005 000001  01418  01523              % 08124 RGTR--
+*I FD 140701016 150511005        0002627  01418  01523      % 08124 RGTR--
+140701016 Ettelbruck, Gare             01418                % 08124 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01422  01422                % 08124 RGTR--
+140701009 Ettelbruck, Cité Pat  01424  01424                % 08124 RGTR--
+140701008 Ettelbruck, Cité Lop  01425  01425                % 08124 RGTR--
+140801002 Niederfeulen, Faubou  01427  01427                % 08124 RGTR--
+140801003 Niederfeulen, Mairie  01427  01427                % 08124 RGTR--
+140801005 Niederfeulen, Atelie  01429  01429                % 08124 RGTR--
+120502001 Heiderscheid, Fuusse  01432  01432                % 08124 RGTR--
+120502003 Heiderscheid, Zone C  01433  01433                % 08124 RGTR--
+120502002 Heiderscheid          01434  01434                % 08124 RGTR--
+120501003 Eschdorf, Quatre Ven  01437  01437                % 08124 RGTR--
+120501001 Eschdorf, Braas       01438  01438                % 08124 RGTR--
+120504001 Hierheck              01439  01439                % 08124 RGTR--
+151003001 Grevels, Eneschten E  01442  01442                % 08124 RGTR--
+151003003 Grevels, Zentrum      01442  01442                % 08124 RGTR--
+151003002 Grevels, Ieweschten   01444  01444                % 08124 RGTR--
+120804001 Heispelt, Géierekräi  01446  01446                % 08124 RGTR--
+150512006 Rambrouch, Gare       01450  01450                % 08124 RGTR--
+150512005 Rambrouch, Schlass    01451  01451                % 08124 RGTR--
+150509001 Koetschette, Rond-Po  01453  01453                % 08124 RGTR--
+150501003 Arsdorf, An der Gaas  01455  01455                % 08124 RGTR--
+150501001 Arsdorf, Am Duerf     01456  01456                % 08124 RGTR--
+150501004 Arsdorf, Um Knupp     01457  01457                % 08124 RGTR--
+150503001 Bilsdorf, Am Duerf    01459  01459                % 08124 RGTR--
+150513001 Riesenhaff            01502  01502                % 08124 RGTR--
+150505001 Flatzbour             01504  01504                % 08124 RGTR--
+150502003 Bigonville, Kimm      01505  01505                % 08124 RGTR--
+150502005 Bigonville, Réimerwe  01506  01506                % 08124 RGTR--
+150502006 Bigonville, Am Duerf  01507  01507                % 08124 RGTR--
+150502001 Bigonville, Huelgaas  01507  01507                % 08124 RGTR--
+150502004 Bigonville, Knupp     01508  01508                % 08124 RGTR--
+150502007 Bigonville, Haaptstr  01509  01509                % 08124 RGTR--
+150502002 Bigonville, Kéismaar  01510  01510                % 08124 RGTR--
+150502005 Bigonville, Réimerwe  01510  01510                % 08124 RGTR--
+150510001 Martelange, Gare      01515  01515                % 08124 RGTR--
+150510002 Martelange, Leekoll   01517  01517                % 08124 RGTR--
+150515001 Wolwelange, Ennescht  01517  01517                % 08124 RGTR--
+150515002 Wolwelange, Kiosk     01518  01518                % 08124 RGTR--
+150515003 Wolwelange, Spëtzt    01519  01519                % 08124 RGTR--
+150511002 Perlé, Gare           01521  01521                % 08124 RGTR--
+150511006 Perlé, Kuelewee       01521  01521                % 08124 RGTR--
+150511001 Perlé, An der Huel    01523  01523                % 08124 RGTR--
+150511005 Perlé, Schoul         01523                       % 08124 RGTR--
+*Z 08125 RGTR--                                             % 08125 RGTR--
+*L 530      140701016 150511005  01918  02023               % 08125 RGTR--
+*A dk 140701016 150511005 000001  01918  02023              % 08125 RGTR--
+*A ee 140701016 150511005 000001  01918  02023              % 08125 RGTR--
+*R 1 150511005 140701016 150511005  01918  02023            % 08125 RGTR--
+*G RGB 140701016 150511005  01918  02023                    % 08125 RGTR--
+*A VE 140701016 150511005 000001  01918  02023              % 08125 RGTR--
+*I FD 140701016 150511005        0002687  01918  02023      % 08125 RGTR--
+140701016 Ettelbruck, Gare             01918                % 08125 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01922  01922                % 08125 RGTR--
+140701009 Ettelbruck, Cité Pat  01924  01924                % 08125 RGTR--
+140701008 Ettelbruck, Cité Lop  01925  01925                % 08125 RGTR--
+140801002 Niederfeulen, Faubou  01927  01927                % 08125 RGTR--
+140801003 Niederfeulen, Mairie  01927  01927                % 08125 RGTR--
+140801005 Niederfeulen, Atelie  01929  01929                % 08125 RGTR--
+120502001 Heiderscheid, Fuusse  01932  01932                % 08125 RGTR--
+120502003 Heiderscheid, Zone C  01933  01933                % 08125 RGTR--
+120502002 Heiderscheid          01934  01934                % 08125 RGTR--
+120501003 Eschdorf, Quatre Ven  01937  01937                % 08125 RGTR--
+120501001 Eschdorf, Braas       01938  01938                % 08125 RGTR--
+120504001 Hierheck              01939  01939                % 08125 RGTR--
+151003001 Grevels, Eneschten E  01942  01942                % 08125 RGTR--
+151003003 Grevels, Zentrum      01942  01942                % 08125 RGTR--
+151003002 Grevels, Ieweschten   01944  01944                % 08125 RGTR--
+120804001 Heispelt, Géierekräi  01946  01946                % 08125 RGTR--
+150512006 Rambrouch, Gare       01950  01950                % 08125 RGTR--
+150512005 Rambrouch, Schlass    01951  01951                % 08125 RGTR--
+150509001 Koetschette, Rond-Po  01953  01953                % 08125 RGTR--
+150501003 Arsdorf, An der Gaas  01955  01955                % 08125 RGTR--
+150501001 Arsdorf, Am Duerf     01956  01956                % 08125 RGTR--
+150501004 Arsdorf, Um Knupp     01957  01957                % 08125 RGTR--
+150503001 Bilsdorf, Am Duerf    01959  01959                % 08125 RGTR--
+150513001 Riesenhaff            02002  02002                % 08125 RGTR--
+150505001 Flatzbour             02004  02004                % 08125 RGTR--
+150502003 Bigonville, Kimm      02005  02005                % 08125 RGTR--
+150502005 Bigonville, Réimerwe  02006  02006                % 08125 RGTR--
+150502006 Bigonville, Am Duerf  02007  02007                % 08125 RGTR--
+150502001 Bigonville, Huelgaas  02007  02007                % 08125 RGTR--
+150502004 Bigonville, Knupp     02008  02008                % 08125 RGTR--
+150502007 Bigonville, Haaptstr  02009  02009                % 08125 RGTR--
+150502002 Bigonville, Kéismaar  02010  02010                % 08125 RGTR--
+150502005 Bigonville, Réimerwe  02010  02010                % 08125 RGTR--
+150510001 Martelange, Gare      02015  02015                % 08125 RGTR--
+150510002 Martelange, Leekoll   02017  02017                % 08125 RGTR--
+150515001 Wolwelange, Ennescht  02017  02017                % 08125 RGTR--
+150515002 Wolwelange, Kiosk     02018  02018                % 08125 RGTR--
+150515003 Wolwelange, Spëtzt    02019  02019                % 08125 RGTR--
+150511002 Perlé, Gare           02021  02021                % 08125 RGTR--
+150511006 Perlé, Kuelewee       02021  02021                % 08125 RGTR--
+150511001 Perlé, An der Huel    02023  02023                % 08125 RGTR--
+150511005 Perlé, Schoul         02023                       % 08125 RGTR--
+*Z 08126 RGTR--                                             % 08126 RGTR--
+*L 530      140701016 150511005  01218  01323               % 08126 RGTR--
+*A dk 140701016 150511005 000003  01218  01323              % 08126 RGTR--
+*R 1 150511005 140701016 150511005  01218  01323            % 08126 RGTR--
+*G RGB 140701016 150511005  01218  01323                    % 08126 RGTR--
+*A VE 140701016 150511005 000003  01218  01323              % 08126 RGTR--
+*I FD 140701016 150511005        0002639  01218  01323      % 08126 RGTR--
+140701016 Ettelbruck, Gare             01218                % 08126 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01222  01222                % 08126 RGTR--
+140701009 Ettelbruck, Cité Pat  01224  01224                % 08126 RGTR--
+140701008 Ettelbruck, Cité Lop  01225  01225                % 08126 RGTR--
+140801002 Niederfeulen, Faubou  01227  01227                % 08126 RGTR--
+140801003 Niederfeulen, Mairie  01227  01227                % 08126 RGTR--
+140801005 Niederfeulen, Atelie  01229  01229                % 08126 RGTR--
+120502001 Heiderscheid, Fuusse  01232  01232                % 08126 RGTR--
+120502003 Heiderscheid, Zone C  01233  01233                % 08126 RGTR--
+120502002 Heiderscheid          01234  01234                % 08126 RGTR--
+120501003 Eschdorf, Quatre Ven  01237  01237                % 08126 RGTR--
+120501001 Eschdorf, Braas       01238  01238                % 08126 RGTR--
+120504001 Hierheck              01239  01239                % 08126 RGTR--
+151003001 Grevels, Eneschten E  01242  01242                % 08126 RGTR--
+151003003 Grevels, Zentrum      01242  01242                % 08126 RGTR--
+151003002 Grevels, Ieweschten   01244  01244                % 08126 RGTR--
+120804001 Heispelt, Géierekräi  01246  01246                % 08126 RGTR--
+150512006 Rambrouch, Gare       01250  01250                % 08126 RGTR--
+150512005 Rambrouch, Schlass    01251  01251                % 08126 RGTR--
+150509001 Koetschette, Rond-Po  01253  01253                % 08126 RGTR--
+150501003 Arsdorf, An der Gaas  01255  01255                % 08126 RGTR--
+150501001 Arsdorf, Am Duerf     01256  01256                % 08126 RGTR--
+150501004 Arsdorf, Um Knupp     01257  01257                % 08126 RGTR--
+150503001 Bilsdorf, Am Duerf    01259  01259                % 08126 RGTR--
+150513001 Riesenhaff            01302  01302                % 08126 RGTR--
+150505001 Flatzbour             01304  01304                % 08126 RGTR--
+150502003 Bigonville, Kimm      01305  01305                % 08126 RGTR--
+150502005 Bigonville, Réimerwe  01306  01306                % 08126 RGTR--
+150502006 Bigonville, Am Duerf  01307  01307                % 08126 RGTR--
+150502001 Bigonville, Huelgaas  01307  01307                % 08126 RGTR--
+150502004 Bigonville, Knupp     01308  01308                % 08126 RGTR--
+150502007 Bigonville, Haaptstr  01309  01309                % 08126 RGTR--
+150502002 Bigonville, Kéismaar  01310  01310                % 08126 RGTR--
+150502005 Bigonville, Réimerwe  01310  01310                % 08126 RGTR--
+150510001 Martelange, Gare      01315  01315                % 08126 RGTR--
+150510002 Martelange, Leekoll   01317  01317                % 08126 RGTR--
+150515001 Wolwelange, Ennescht  01317  01317                % 08126 RGTR--
+150515002 Wolwelange, Kiosk     01318  01318                % 08126 RGTR--
+150515003 Wolwelange, Spëtzt    01319  01319                % 08126 RGTR--
+150511002 Perlé, Gare           01321  01321                % 08126 RGTR--
+150511006 Perlé, Kuelewee       01321  01321                % 08126 RGTR--
+150511001 Perlé, An der Huel    01323  01323                % 08126 RGTR--
+150511005 Perlé, Schoul         01323                       % 08126 RGTR--
+*Z 08127 RGTR--                                             % 08127 RGTR--
+*L 530      140701016 150511005  01518  01623               % 08127 RGTR--
+*A dk 140701016 150511005 000003  01518  01623              % 08127 RGTR--
+*A ee 140701016 150511005 000003  01518  01623              % 08127 RGTR--
+*R 1 150511005 140701016 150511005  01518  01623            % 08127 RGTR--
+*G RGB 140701016 150511005  01518  01623                    % 08127 RGTR--
+*A VE 140701016 150511005 000003  01518  01623              % 08127 RGTR--
+*I FD 140701016 150511005        0002637  01518  01623      % 08127 RGTR--
+140701016 Ettelbruck, Gare             01518                % 08127 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01522  01522                % 08127 RGTR--
+140701009 Ettelbruck, Cité Pat  01524  01524                % 08127 RGTR--
+140701008 Ettelbruck, Cité Lop  01525  01525                % 08127 RGTR--
+140801002 Niederfeulen, Faubou  01527  01527                % 08127 RGTR--
+140801003 Niederfeulen, Mairie  01527  01527                % 08127 RGTR--
+140801005 Niederfeulen, Atelie  01529  01529                % 08127 RGTR--
+120502001 Heiderscheid, Fuusse  01532  01532                % 08127 RGTR--
+120502003 Heiderscheid, Zone C  01533  01533                % 08127 RGTR--
+120502002 Heiderscheid          01534  01534                % 08127 RGTR--
+120501003 Eschdorf, Quatre Ven  01537  01537                % 08127 RGTR--
+120501001 Eschdorf, Braas       01538  01538                % 08127 RGTR--
+120504001 Hierheck              01539  01539                % 08127 RGTR--
+151003001 Grevels, Eneschten E  01542  01542                % 08127 RGTR--
+151003003 Grevels, Zentrum      01542  01542                % 08127 RGTR--
+151003002 Grevels, Ieweschten   01544  01544                % 08127 RGTR--
+120804001 Heispelt, Géierekräi  01546  01546                % 08127 RGTR--
+150512006 Rambrouch, Gare       01550  01550                % 08127 RGTR--
+150512005 Rambrouch, Schlass    01551  01551                % 08127 RGTR--
+150509001 Koetschette, Rond-Po  01553  01553                % 08127 RGTR--
+150501003 Arsdorf, An der Gaas  01555  01555                % 08127 RGTR--
+150501001 Arsdorf, Am Duerf     01556  01556                % 08127 RGTR--
+150501004 Arsdorf, Um Knupp     01557  01557                % 08127 RGTR--
+150503001 Bilsdorf, Am Duerf    01559  01559                % 08127 RGTR--
+150513001 Riesenhaff            01602  01602                % 08127 RGTR--
+150505001 Flatzbour             01604  01604                % 08127 RGTR--
+150502003 Bigonville, Kimm      01605  01605                % 08127 RGTR--
+150502005 Bigonville, Réimerwe  01606  01606                % 08127 RGTR--
+150502006 Bigonville, Am Duerf  01607  01607                % 08127 RGTR--
+150502001 Bigonville, Huelgaas  01607  01607                % 08127 RGTR--
+150502004 Bigonville, Knupp     01608  01608                % 08127 RGTR--
+150502007 Bigonville, Haaptstr  01609  01609                % 08127 RGTR--
+150502002 Bigonville, Kéismaar  01610  01610                % 08127 RGTR--
+150502005 Bigonville, Réimerwe  01610  01610                % 08127 RGTR--
+150510001 Martelange, Gare      01615  01615                % 08127 RGTR--
+150510002 Martelange, Leekoll   01617  01617                % 08127 RGTR--
+150515001 Wolwelange, Ennescht  01617  01617                % 08127 RGTR--
+150515002 Wolwelange, Kiosk     01618  01618                % 08127 RGTR--
+150515003 Wolwelange, Spëtzt    01619  01619                % 08127 RGTR--
+150511002 Perlé, Gare           01621  01621                % 08127 RGTR--
+150511006 Perlé, Kuelewee       01621  01621                % 08127 RGTR--
+150511001 Perlé, An der Huel    01623  01623                % 08127 RGTR--
+150511005 Perlé, Schoul         01623                       % 08127 RGTR--
+*Z 08128 RGTR--                                             % 08128 RGTR--
+*L 530      140701016 150511005  01818  01923               % 08128 RGTR--
+*A dk 140701016 150511005 000003  01818  01923              % 08128 RGTR--
+*R 1 150511005 140701016 150511005  01818  01923            % 08128 RGTR--
+*G RGB 140701016 150511005  01818  01923                    % 08128 RGTR--
+*A VE 140701016 150511005 000003  01818  01923              % 08128 RGTR--
+*I FD 140701016 150511005        0002406  01818  01923      % 08128 RGTR--
+140701016 Ettelbruck, Gare             01818                % 08128 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01822  01822                % 08128 RGTR--
+140701009 Ettelbruck, Cité Pat  01824  01824                % 08128 RGTR--
+140701008 Ettelbruck, Cité Lop  01825  01825                % 08128 RGTR--
+140801002 Niederfeulen, Faubou  01827  01827                % 08128 RGTR--
+140801003 Niederfeulen, Mairie  01827  01827                % 08128 RGTR--
+140801005 Niederfeulen, Atelie  01829  01829                % 08128 RGTR--
+120502001 Heiderscheid, Fuusse  01832  01832                % 08128 RGTR--
+120502003 Heiderscheid, Zone C  01833  01833                % 08128 RGTR--
+120502002 Heiderscheid          01834  01834                % 08128 RGTR--
+120501003 Eschdorf, Quatre Ven  01837  01837                % 08128 RGTR--
+120501001 Eschdorf, Braas       01838  01838                % 08128 RGTR--
+120504001 Hierheck              01839  01839                % 08128 RGTR--
+151003001 Grevels, Eneschten E  01842  01842                % 08128 RGTR--
+151003003 Grevels, Zentrum      01842  01842                % 08128 RGTR--
+151003002 Grevels, Ieweschten   01844  01844                % 08128 RGTR--
+120804001 Heispelt, Géierekräi  01846  01846                % 08128 RGTR--
+150512006 Rambrouch, Gare       01850  01850                % 08128 RGTR--
+150512005 Rambrouch, Schlass    01851  01851                % 08128 RGTR--
+150509001 Koetschette, Rond-Po  01853  01853                % 08128 RGTR--
+150501003 Arsdorf, An der Gaas  01855  01855                % 08128 RGTR--
+150501001 Arsdorf, Am Duerf     01856  01856                % 08128 RGTR--
+150501004 Arsdorf, Um Knupp     01857  01857                % 08128 RGTR--
+150503001 Bilsdorf, Am Duerf    01859  01859                % 08128 RGTR--
+150513001 Riesenhaff            01902  01902                % 08128 RGTR--
+150505001 Flatzbour             01904  01904                % 08128 RGTR--
+150502003 Bigonville, Kimm      01905  01905                % 08128 RGTR--
+150502005 Bigonville, Réimerwe  01906  01906                % 08128 RGTR--
+150502006 Bigonville, Am Duerf  01907  01907                % 08128 RGTR--
+150502001 Bigonville, Huelgaas  01907  01907                % 08128 RGTR--
+150502004 Bigonville, Knupp     01908  01908                % 08128 RGTR--
+150502007 Bigonville, Haaptstr  01909  01909                % 08128 RGTR--
+150502002 Bigonville, Kéismaar  01910  01910                % 08128 RGTR--
+150502005 Bigonville, Réimerwe  01910  01910                % 08128 RGTR--
+150510001 Martelange, Gare      01915  01915                % 08128 RGTR--
+150510002 Martelange, Leekoll   01917  01917                % 08128 RGTR--
+150515001 Wolwelange, Ennescht  01917  01917                % 08128 RGTR--
+150515002 Wolwelange, Kiosk     01918  01918                % 08128 RGTR--
+150515003 Wolwelange, Spëtzt    01919  01919                % 08128 RGTR--
+150511002 Perlé, Gare           01921  01921                % 08128 RGTR--
+150511006 Perlé, Kuelewee       01921  01921                % 08128 RGTR--
+150511001 Perlé, An der Huel    01923  01923                % 08128 RGTR--
+150511005 Perlé, Schoul         01923                       % 08128 RGTR--
+*Z 08129 RGTR--                                             % 08129 RGTR--
+*L 530      140701016 150511005  00918  01027               % 08129 RGTR--
+*A bk 140701016 150511005 000001  00918  01027              % 08129 RGTR--
+*A ee 140701016 150511005 000001  00918  01027              % 08129 RGTR--
+*R 1 150511005 140701016 150511005  00918  01027            % 08129 RGTR--
+*G RGB 140701016 150511005  00918  01027                    % 08129 RGTR--
+*A VE 140701016 150511005 000001  00918  01027              % 08129 RGTR--
+*I FD 140701016 150511005        0002647  00918  01027      % 08129 RGTR--
+140701016 Ettelbruck, Gare             00918                % 08129 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00923  00923                % 08129 RGTR--
+140701009 Ettelbruck, Cité Pat  00924  00924                % 08129 RGTR--
+140701008 Ettelbruck, Cité Lop  00925  00925                % 08129 RGTR--
+140801002 Niederfeulen, Faubou  00928  00928                % 08129 RGTR--
+140801003 Niederfeulen, Mairie  00928  00928                % 08129 RGTR--
+140801005 Niederfeulen, Atelie  00929  00929                % 08129 RGTR--
+120502001 Heiderscheid, Fuusse  00933  00933                % 08129 RGTR--
+120502003 Heiderscheid, Zone C  00934  00934                % 08129 RGTR--
+120502002 Heiderscheid          00935  00935                % 08129 RGTR--
+120501003 Eschdorf, Quatre Ven  00938  00938                % 08129 RGTR--
+120501001 Eschdorf, Braas       00939  00939                % 08129 RGTR--
+120504001 Hierheck              00940  00940                % 08129 RGTR--
+151003001 Grevels, Eneschten E  00943  00943                % 08129 RGTR--
+151003003 Grevels, Zentrum      00943  00943                % 08129 RGTR--
+151003002 Grevels, Ieweschten   00945  00945                % 08129 RGTR--
+120804001 Heispelt, Géierekräi  00947  00947                % 08129 RGTR--
+150512006 Rambrouch, Gare       00952  00952                % 08129 RGTR--
+150512005 Rambrouch, Schlass    00953  00953                % 08129 RGTR--
+150509001 Koetschette, Rond-Po  00954  00954                % 08129 RGTR--
+150501003 Arsdorf, An der Gaas  00957  00957                % 08129 RGTR--
+150501001 Arsdorf, Am Duerf     00958  00958                % 08129 RGTR--
+150501004 Arsdorf, Um Knupp     00959  00959                % 08129 RGTR--
+150503001 Bilsdorf, Am Duerf    01001  01001                % 08129 RGTR--
+150513001 Riesenhaff            01004  01004                % 08129 RGTR--
+150505001 Flatzbour             01006  01006                % 08129 RGTR--
+150502003 Bigonville, Kimm      01007  01007                % 08129 RGTR--
+150502005 Bigonville, Réimerwe  01009  01009                % 08129 RGTR--
+150502006 Bigonville, Am Duerf  01009  01009                % 08129 RGTR--
+150502001 Bigonville, Huelgaas  01010  01010                % 08129 RGTR--
+150502004 Bigonville, Knupp     01011  01011                % 08129 RGTR--
+150502007 Bigonville, Haaptstr  01012  01012                % 08129 RGTR--
+150502002 Bigonville, Kéismaar  01012  01012                % 08129 RGTR--
+150502005 Bigonville, Réimerwe  01013  01013                % 08129 RGTR--
+150510001 Martelange, Gare      01019  01019                % 08129 RGTR--
+150510002 Martelange, Leekoll   01020  01020                % 08129 RGTR--
+150515001 Wolwelange, Ennescht  01021  01021                % 08129 RGTR--
+150515002 Wolwelange, Kiosk     01021  01021                % 08129 RGTR--
+150515003 Wolwelange, Spëtzt    01022  01022                % 08129 RGTR--
+150511002 Perlé, Gare           01025  01025                % 08129 RGTR--
+150511006 Perlé, Kuelewee       01025  01025                % 08129 RGTR--
+150511001 Perlé, An der Huel    01026  01026                % 08129 RGTR--
+150511005 Perlé, Schoul         01027                       % 08129 RGTR--
+*Z 08130 RGTR--                                             % 08130 RGTR--
+*L 530      140701016 150511005  01718  01827               % 08130 RGTR--
+*A bj 140701016 150511005 000001  01718  01827              % 08130 RGTR--
+*A ee 140701016 150511005 000001  01718  01827              % 08130 RGTR--
+*R 1 150511005 140701016 150511005  01718  01827            % 08130 RGTR--
+*G RGB 140701016 150511005  01718  01827                    % 08130 RGTR--
+*A VE 140701016 150511005 000001  01718  01827              % 08130 RGTR--
+*I FD 140701016 150511005        0002404  01718  01827      % 08130 RGTR--
+140701016 Ettelbruck, Gare             01718                % 08130 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01723  01723                % 08130 RGTR--
+140701009 Ettelbruck, Cité Pat  01724  01724                % 08130 RGTR--
+140701008 Ettelbruck, Cité Lop  01725  01725                % 08130 RGTR--
+140801002 Niederfeulen, Faubou  01728  01728                % 08130 RGTR--
+140801003 Niederfeulen, Mairie  01728  01728                % 08130 RGTR--
+140801005 Niederfeulen, Atelie  01729  01729                % 08130 RGTR--
+120502001 Heiderscheid, Fuusse  01733  01733                % 08130 RGTR--
+120502003 Heiderscheid, Zone C  01734  01734                % 08130 RGTR--
+120502002 Heiderscheid          01735  01735                % 08130 RGTR--
+120501003 Eschdorf, Quatre Ven  01738  01738                % 08130 RGTR--
+120501001 Eschdorf, Braas       01739  01739                % 08130 RGTR--
+120504001 Hierheck              01740  01740                % 08130 RGTR--
+151003001 Grevels, Eneschten E  01743  01743                % 08130 RGTR--
+151003003 Grevels, Zentrum      01743  01743                % 08130 RGTR--
+151003002 Grevels, Ieweschten   01745  01745                % 08130 RGTR--
+120804001 Heispelt, Géierekräi  01747  01747                % 08130 RGTR--
+150512006 Rambrouch, Gare       01752  01752                % 08130 RGTR--
+150512005 Rambrouch, Schlass    01753  01753                % 08130 RGTR--
+150509001 Koetschette, Rond-Po  01754  01754                % 08130 RGTR--
+150501003 Arsdorf, An der Gaas  01757  01757                % 08130 RGTR--
+150501001 Arsdorf, Am Duerf     01758  01758                % 08130 RGTR--
+150501004 Arsdorf, Um Knupp     01759  01759                % 08130 RGTR--
+150503001 Bilsdorf, Am Duerf    01801  01801                % 08130 RGTR--
+150513001 Riesenhaff            01804  01804                % 08130 RGTR--
+150505001 Flatzbour             01806  01806                % 08130 RGTR--
+150502003 Bigonville, Kimm      01807  01807                % 08130 RGTR--
+150502005 Bigonville, Réimerwe  01809  01809                % 08130 RGTR--
+150502006 Bigonville, Am Duerf  01809  01809                % 08130 RGTR--
+150502001 Bigonville, Huelgaas  01810  01810                % 08130 RGTR--
+150502004 Bigonville, Knupp     01811  01811                % 08130 RGTR--
+150502007 Bigonville, Haaptstr  01812  01812                % 08130 RGTR--
+150502002 Bigonville, Kéismaar  01812  01812                % 08130 RGTR--
+150502005 Bigonville, Réimerwe  01813  01813                % 08130 RGTR--
+150510001 Martelange, Gare      01819  01819                % 08130 RGTR--
+150510002 Martelange, Leekoll   01820  01820                % 08130 RGTR--
+150515001 Wolwelange, Ennescht  01821  01821                % 08130 RGTR--
+150515002 Wolwelange, Kiosk     01821  01821                % 08130 RGTR--
+150515003 Wolwelange, Spëtzt    01822  01822                % 08130 RGTR--
+150511002 Perlé, Gare           01825  01825                % 08130 RGTR--
+150511006 Perlé, Kuelewee       01825  01825                % 08130 RGTR--
+150511001 Perlé, An der Huel    01826  01826                % 08130 RGTR--
+150511005 Perlé, Schoul         01827                       % 08130 RGTR--
+*Z 00236 RGTR--                                             % 00236 RGTR--
+*L 530      140701016 150511005  01818  01927               % 00236 RGTR--
+*A bk 140701016 150511005 000001  01818  01927              % 00236 RGTR--
+*A ee 140701016 150511005 000001  01818  01927              % 00236 RGTR--
+*R 1 150511005 140701016 150511005  01818  01927            % 00236 RGTR--
+*G RGB 140701016 150511005  01818  01927                    % 00236 RGTR--
+*A VE 140701016 150511005 000001  01818  01927              % 00236 RGTR--
+*I FD 140701016 150511005        0002406  01818  01927      % 00236 RGTR--
+140701016 Ettelbruck, Gare             01818                % 00236 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01823  01823                % 00236 RGTR--
+140701009 Ettelbruck, Cité Pat  01824  01824                % 00236 RGTR--
+140701008 Ettelbruck, Cité Lop  01825  01825                % 00236 RGTR--
+140801002 Niederfeulen, Faubou  01828  01828                % 00236 RGTR--
+140801003 Niederfeulen, Mairie  01828  01828                % 00236 RGTR--
+140801005 Niederfeulen, Atelie  01829  01829                % 00236 RGTR--
+120502001 Heiderscheid, Fuusse  01833  01833                % 00236 RGTR--
+120502003 Heiderscheid, Zone C  01834  01834                % 00236 RGTR--
+120502002 Heiderscheid          01835  01835                % 00236 RGTR--
+120501003 Eschdorf, Quatre Ven  01838  01838                % 00236 RGTR--
+120501001 Eschdorf, Braas       01839  01839                % 00236 RGTR--
+120504001 Hierheck              01840  01840                % 00236 RGTR--
+151003001 Grevels, Eneschten E  01843  01843                % 00236 RGTR--
+151003003 Grevels, Zentrum      01843  01843                % 00236 RGTR--
+151003002 Grevels, Ieweschten   01845  01845                % 00236 RGTR--
+120804001 Heispelt, Géierekräi  01847  01847                % 00236 RGTR--
+150512006 Rambrouch, Gare       01852  01852                % 00236 RGTR--
+150512005 Rambrouch, Schlass    01853  01853                % 00236 RGTR--
+150509001 Koetschette, Rond-Po  01854  01854                % 00236 RGTR--
+150501003 Arsdorf, An der Gaas  01857  01857                % 00236 RGTR--
+150501001 Arsdorf, Am Duerf     01858  01858                % 00236 RGTR--
+150501004 Arsdorf, Um Knupp     01859  01859                % 00236 RGTR--
+150503001 Bilsdorf, Am Duerf    01901  01901                % 00236 RGTR--
+150513001 Riesenhaff            01904  01904                % 00236 RGTR--
+150505001 Flatzbour             01906  01906                % 00236 RGTR--
+150502003 Bigonville, Kimm      01907  01907                % 00236 RGTR--
+150502005 Bigonville, Réimerwe  01909  01909                % 00236 RGTR--
+150502006 Bigonville, Am Duerf  01909  01909                % 00236 RGTR--
+150502001 Bigonville, Huelgaas  01910  01910                % 00236 RGTR--
+150502004 Bigonville, Knupp     01911  01911                % 00236 RGTR--
+150502007 Bigonville, Haaptstr  01912  01912                % 00236 RGTR--
+150502002 Bigonville, Kéismaar  01912  01912                % 00236 RGTR--
+150502005 Bigonville, Réimerwe  01913  01913                % 00236 RGTR--
+150510001 Martelange, Gare      01919  01919                % 00236 RGTR--
+150510002 Martelange, Leekoll   01920  01920                % 00236 RGTR--
+150515001 Wolwelange, Ennescht  01921  01921                % 00236 RGTR--
+150515002 Wolwelange, Kiosk     01921  01921                % 00236 RGTR--
+150515003 Wolwelange, Spëtzt    01922  01922                % 00236 RGTR--
+150511002 Perlé, Gare           01925  01925                % 00236 RGTR--
+150511006 Perlé, Kuelewee       01925  01925                % 00236 RGTR--
+150511001 Perlé, An der Huel    01926  01926                % 00236 RGTR--
+150511005 Perlé, Schoul         01927                       % 00236 RGTR--
+*Z 08131 RGTR--                                             % 08131 RGTR--
+*L 530      140401009 150503001  01158  01257               % 08131 RGTR--
+*A bm 140401009 150503001 000001  01158  01257              % 08131 RGTR--
+*A ee 140401009 150503001 000001  01158  01257              % 08131 RGTR--
+*R 1 150503001 140401009 150503001  01158  01257            % 08131 RGTR--
+*G RGB 140401009 150503001  01158  01257                    % 08131 RGTR--
+*A VE 140401009 150503001 000001  01158  01257              % 08131 RGTR--
+*I FD 140401009 150503001        0001923  01158  01257      % 08131 RGTR--
+140401009 Diekirch, Neie Kolle         01158                % 08131 RGTR--
+140401011 Diekirch, Alexis Hec  01201  01201                % 08131 RGTR--
+140401006 Diekirch, Kluuster    01202  01202                % 08131 RGTR--
+140401004 Diekirch, Gare        01204  01204                % 08131 RGTR--
+140401008 Diekirch, Lorentzwue  01206  01206                % 08131 RGTR--
+140603002 Ingeldorf, Café de l  01207  01207                % 08131 RGTR--
+140602008 Erpeldange/Sûre, Um   01209  01209                % 08131 RGTR--
+140701016 Ettelbruck, Gare      01211  01216                % 08131 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01220  01220                % 08131 RGTR--
+140701009 Ettelbruck, Cité Pat  01222  01222                % 08131 RGTR--
+140701008 Ettelbruck, Cité Lop  01223  01223                % 08131 RGTR--
+140801002 Niederfeulen, Faubou  01225  01225                % 08131 RGTR--
+140801003 Niederfeulen, Mairie  01225  01225                % 08131 RGTR--
+140801005 Niederfeulen, Atelie  01227  01227                % 08131 RGTR--
+120502001 Heiderscheid, Fuusse  01230  01230                % 08131 RGTR--
+120502003 Heiderscheid, Zone C  01231  01231                % 08131 RGTR--
+120502002 Heiderscheid          01232  01232                % 08131 RGTR--
+120501003 Eschdorf, Quatre Ven  01235  01235                % 08131 RGTR--
+120501001 Eschdorf, Braas       01236  01236                % 08131 RGTR--
+120504001 Hierheck              01237  01237                % 08131 RGTR--
+151003001 Grevels, Eneschten E  01240  01240                % 08131 RGTR--
+151003003 Grevels, Zentrum      01240  01240                % 08131 RGTR--
+151003002 Grevels, Ieweschten   01242  01242                % 08131 RGTR--
+120804001 Heispelt, Géierekräi  01244  01244                % 08131 RGTR--
+150512006 Rambrouch, Gare       01248  01248                % 08131 RGTR--
+150512005 Rambrouch, Schlass    01249  01249                % 08131 RGTR--
+150509001 Koetschette, Rond-Po  01251  01251                % 08131 RGTR--
+150501003 Arsdorf, An der Gaas  01253  01253                % 08131 RGTR--
+150501001 Arsdorf, Am Duerf     01254  01254                % 08131 RGTR--
+150501004 Arsdorf, Um Knupp     01255  01255                % 08131 RGTR--
+150503001 Bilsdorf, Am Duerf    01257                       % 08131 RGTR--
+*Z 08132 RGTR--                                             % 08132 RGTR--
+*L 530      140401009 150503001  01558  01701               % 08132 RGTR--
+*A dk 140401009 150503001 000001  01558  01701              % 08132 RGTR--
+*A ee 140401009 150503001 000001  01558  01701              % 08132 RGTR--
+*R 1 150503001 140401009 150503001  01558  01701            % 08132 RGTR--
+*G RGB 140401009 150503001  01558  01701                    % 08132 RGTR--
+*A VE 140401009 150503001 000001  01558  01701              % 08132 RGTR--
+*I FD 140401009 150503001        0001927  01558  01701      % 08132 RGTR--
+140401009 Diekirch, Neie Kolle         01558                % 08132 RGTR--
+140401011 Diekirch, Alexis Hec  01602  01602                % 08132 RGTR--
+140401006 Diekirch, Kluuster    01603  01603                % 08132 RGTR--
+140401004 Diekirch, Gare        01605  01605                % 08132 RGTR--
+140401008 Diekirch, Lorentzwue  01607  01607                % 08132 RGTR--
+140603002 Ingeldorf, Café de l  01609  01609                % 08132 RGTR--
+140602008 Erpeldange/Sûre, Um   01610  01610                % 08132 RGTR--
+140701016 Ettelbruck, Gare      01612  01618                % 08132 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01623  01623                % 08132 RGTR--
+140701009 Ettelbruck, Cité Pat  01624  01624                % 08132 RGTR--
+140701008 Ettelbruck, Cité Lop  01625  01625                % 08132 RGTR--
+140801002 Niederfeulen, Faubou  01628  01628                % 08132 RGTR--
+140801003 Niederfeulen, Mairie  01628  01628                % 08132 RGTR--
+140801005 Niederfeulen, Atelie  01629  01629                % 08132 RGTR--
+120502001 Heiderscheid, Fuusse  01633  01633                % 08132 RGTR--
+120502003 Heiderscheid, Zone C  01634  01634                % 08132 RGTR--
+120502002 Heiderscheid          01635  01635                % 08132 RGTR--
+120501003 Eschdorf, Quatre Ven  01638  01638                % 08132 RGTR--
+120501001 Eschdorf, Braas       01639  01639                % 08132 RGTR--
+120504001 Hierheck              01640  01640                % 08132 RGTR--
+151003001 Grevels, Eneschten E  01643  01643                % 08132 RGTR--
+151003003 Grevels, Zentrum      01643  01643                % 08132 RGTR--
+151003002 Grevels, Ieweschten   01645  01645                % 08132 RGTR--
+120804001 Heispelt, Géierekräi  01647  01647                % 08132 RGTR--
+150512006 Rambrouch, Gare       01652  01652                % 08132 RGTR--
+150512005 Rambrouch, Schlass    01653  01653                % 08132 RGTR--
+150509001 Koetschette, Rond-Po  01654  01654                % 08132 RGTR--
+150501003 Arsdorf, An der Gaas  01657  01657                % 08132 RGTR--
+150501001 Arsdorf, Am Duerf     01658  01658                % 08132 RGTR--
+150501004 Arsdorf, Um Knupp     01659  01659                % 08132 RGTR--
+150503001 Bilsdorf, Am Duerf    01701                       % 08132 RGTR--
+*Z 08133 RGTR--                                             % 08133 RGTR--
+*L 530      150512006 140701016  00607  00640               % 08133 RGTR--
+*A dk 150512006 140701016 000002  00607  00640              % 08133 RGTR--
+*R 2 140701016 150512006 140701016  00607  00640            % 08133 RGTR--
+*G RGB 150512006 140701016  00607  00640                    % 08133 RGTR--
+*A VE 150512006 140701016 000002  00607  00640              % 08133 RGTR--
+*I FD 150512006 140701016        0002036  00607  00640      % 08133 RGTR--
+150512006 Rambrouch, Gare              00607                % 08133 RGTR--
+120804001 Heispelt, Géierekräi  00611  00611                % 08133 RGTR--
+151003002 Grevels, Ieweschten   00614  00614                % 08133 RGTR--
+151003003 Grevels, Zentrum      00615  00615                % 08133 RGTR--
+151003001 Grevels, Eneschten E  00616  00616                % 08133 RGTR--
+120504001 Hierheck              00618  00618                % 08133 RGTR--
+120501001 Eschdorf, Braas       00620  00620                % 08133 RGTR--
+120501003 Eschdorf, Quatre Ven  00620  00620                % 08133 RGTR--
+120502002 Heiderscheid          00624  00624                % 08133 RGTR--
+120502003 Heiderscheid, Zone C  00625  00625                % 08133 RGTR--
+120502001 Heiderscheid, Fuusse  00626  00626                % 08133 RGTR--
+140801005 Niederfeulen, Atelie  00630  00630                % 08133 RGTR--
+140801001 Niederfeulen, Belle   00630  00630                % 08133 RGTR--
+140801002 Niederfeulen, Faubou  00632  00632                % 08133 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00636  00636                % 08133 RGTR--
+140701015 Ettelbruck, Ecole Pr  00638  00638                % 08133 RGTR--
+140701016 Ettelbruck, Gare      00640                       % 08133 RGTR--
+*Z 08134 RGTR--                                             % 08134 RGTR--
+*L 530      150503001 140401009  00657  00752               % 08134 RGTR--
+*A bj 150503001 140401009 000002  00657  00752              % 08134 RGTR--
+*A PY 150503001 140401009 000002  00657  00752              % 08134 RGTR--
+*R 2 140401009 150503001 140401009  00657  00752            % 08134 RGTR--
+*G RGB 150503001 140401009  00657  00752                    % 08134 RGTR--
+*A VE 150503001 140401009 000002  00657  00752              % 08134 RGTR--
+*I FD 150503001 140401009        0002492  00657  00752      % 08134 RGTR--
+150503001 Bilsdorf, Am Duerf           00657                % 08134 RGTR--
+150501004 Arsdorf, Um Knupp     00700  00700                % 08134 RGTR--
+150501001 Arsdorf, Am Duerf     00701  00701                % 08134 RGTR--
+150501003 Arsdorf, An der Gaas  00702  00702                % 08134 RGTR--
+150509001 Koetschette, Rond-Po  00705  00705                % 08134 RGTR--
+150512005 Rambrouch, Schlass    00706  00706                % 08134 RGTR--
+150512006 Rambrouch, Gare       00707  00707                % 08134 RGTR--
+120804001 Heispelt, Géierekräi  00712  00712                % 08134 RGTR--
+151003002 Grevels, Ieweschten   00714  00714                % 08134 RGTR--
+151003003 Grevels, Zentrum      00716  00716                % 08134 RGTR--
+151003001 Grevels, Eneschten E  00716  00716                % 08134 RGTR--
+120504001 Hierheck              00719  00719                % 08134 RGTR--
+120501001 Eschdorf, Braas       00720  00720                % 08134 RGTR--
+120501003 Eschdorf, Quatre Ven  00721  00721                % 08134 RGTR--
+120502002 Heiderscheid          00724  00724                % 08134 RGTR--
+120502003 Heiderscheid, Zone C  00725  00725                % 08134 RGTR--
+120502001 Heiderscheid, Fuusse  00726  00726                % 08134 RGTR--
+140801005 Niederfeulen, Atelie  00730  00730                % 08134 RGTR--
+140801001 Niederfeulen, Belle   00731  00731                % 08134 RGTR--
+140801002 Niederfeulen, Faubou  00732  00732                % 08134 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00736  00736                % 08134 RGTR--
+140701015 Ettelbruck, Ecole Pr  00739  00739                % 08134 RGTR--
+140701016 Ettelbruck, Gare      00740  00740                % 08134 RGTR--
+140602008 Erpeldange/Sûre, Um   00742  00742                % 08134 RGTR--
+140603002 Ingeldorf, Café de l  00744  00744                % 08134 RGTR--
+140401008 Diekirch, Lorentzwue  00746  00746                % 08134 RGTR--
+140401004 Diekirch, Gare        00747  00747                % 08134 RGTR--
+140401001 Diekirch, Altersheem  00749  00749                % 08134 RGTR--
+140401009 Diekirch, Neie Kolle  00752                       % 08134 RGTR--
+*Z 08135 RGTR--                                             % 08135 RGTR--
+*L 530      150511005 140701016  00729  00840               % 08135 RGTR--
+*A bk 150511005 140701016 000001  00729  00840              % 08135 RGTR--
+*A PY 150511005 140701016 000001  00729  00840              % 08135 RGTR--
+*R 2 140701016 150511005 140701016  00729  00840            % 08135 RGTR--
+*G RGB 150511005 140701016  00729  00840                    % 08135 RGTR--
+*A VE 150511005 140701016 000001  00729  00840              % 08135 RGTR--
+*I FD 150511005 140701016        0003281  00729  00840      % 08135 RGTR--
+150511005 Perlé, Schoul                00729                % 08135 RGTR--
+150511001 Perlé, An der Huel    00730  00730                % 08135 RGTR--
+150511006 Perlé, Kuelewee       00731  00731                % 08135 RGTR--
+150511002 Perlé, Gare           00732  00732                % 08135 RGTR--
+150515003 Wolwelange, Spëtzt    00734  00734                % 08135 RGTR--
+150515002 Wolwelange, Kiosk     00735  00735                % 08135 RGTR--
+150515001 Wolwelange, Ennescht  00735  00735                % 08135 RGTR--
+150510002 Martelange, Leekoll   00736  00736                % 08135 RGTR--
+150510001 Martelange, Gare      00738  00738                % 08135 RGTR--
+150502005 Bigonville, Réimerwe  00743  00743                % 08135 RGTR--
+150502006 Bigonville, Am Duerf  00744  00744                % 08135 RGTR--
+150502001 Bigonville, Huelgaas  00745  00745                % 08135 RGTR--
+150502004 Bigonville, Knupp     00746  00746                % 08135 RGTR--
+150502007 Bigonville, Haaptstr  00746  00746                % 08135 RGTR--
+150502002 Bigonville, Kéismaar  00747  00747                % 08135 RGTR--
+150502005 Bigonville, Réimerwe  00748  00748                % 08135 RGTR--
+150502003 Bigonville, Kimm      00750  00750                % 08135 RGTR--
+150505001 Flatzbour             00751  00751                % 08135 RGTR--
+150513001 Riesenhaff            00753  00753                % 08135 RGTR--
+150503001 Bilsdorf, Am Duerf    00756  00756                % 08135 RGTR--
+150501004 Arsdorf, Um Knupp     00759  00759                % 08135 RGTR--
+150501001 Arsdorf, Am Duerf     00800  00800                % 08135 RGTR--
+150501003 Arsdorf, An der Gaas  00801  00801                % 08135 RGTR--
+150509001 Koetschette, Rond-Po  00804  00804                % 08135 RGTR--
+150512005 Rambrouch, Schlass    00806  00806                % 08135 RGTR--
+150512006 Rambrouch, Gare       00806  00806                % 08135 RGTR--
+120804001 Heispelt, Géierekräi  00811  00811                % 08135 RGTR--
+151003002 Grevels, Ieweschten   00814  00814                % 08135 RGTR--
+151003003 Grevels, Zentrum      00815  00815                % 08135 RGTR--
+151003001 Grevels, Eneschten E  00816  00816                % 08135 RGTR--
+120504001 Hierheck              00818  00818                % 08135 RGTR--
+120501001 Eschdorf, Braas       00820  00820                % 08135 RGTR--
+120501003 Eschdorf, Quatre Ven  00820  00820                % 08135 RGTR--
+120502002 Heiderscheid          00824  00824                % 08135 RGTR--
+120502003 Heiderscheid, Zone C  00825  00825                % 08135 RGTR--
+120502001 Heiderscheid, Fuusse  00826  00826                % 08135 RGTR--
+140801005 Niederfeulen, Atelie  00829  00829                % 08135 RGTR--
+140801001 Niederfeulen, Belle   00830  00830                % 08135 RGTR--
+140801002 Niederfeulen, Faubou  00831  00831                % 08135 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00836  00836                % 08135 RGTR--
+140701015 Ettelbruck, Ecole Pr  00838  00838                % 08135 RGTR--
+140701016 Ettelbruck, Gare      00840                       % 08135 RGTR--
+*Z 08136 RGTR--                                             % 08136 RGTR--
+*L 530      150511005 140701016  00829  00940               % 08136 RGTR--
+*A bk 150511005 140701016 000001  00829  00940              % 08136 RGTR--
+*A PY 150511005 140701016 000001  00829  00940              % 08136 RGTR--
+*R 2 140701016 150511005 140701016  00829  00940            % 08136 RGTR--
+*G RGB 150511005 140701016  00829  00940                    % 08136 RGTR--
+*A VE 150511005 140701016 000001  00829  00940              % 08136 RGTR--
+*I FD 150511005 140701016        0000921  00829  00940      % 08136 RGTR--
+150511005 Perlé, Schoul                00829                % 08136 RGTR--
+150511001 Perlé, An der Huel    00830  00830                % 08136 RGTR--
+150511006 Perlé, Kuelewee       00831  00831                % 08136 RGTR--
+150511002 Perlé, Gare           00832  00832                % 08136 RGTR--
+150515003 Wolwelange, Spëtzt    00834  00834                % 08136 RGTR--
+150515002 Wolwelange, Kiosk     00835  00835                % 08136 RGTR--
+150515001 Wolwelange, Ennescht  00835  00835                % 08136 RGTR--
+150510002 Martelange, Leekoll   00836  00836                % 08136 RGTR--
+150510001 Martelange, Gare      00838  00838                % 08136 RGTR--
+150502005 Bigonville, Réimerwe  00843  00843                % 08136 RGTR--
+150502006 Bigonville, Am Duerf  00844  00844                % 08136 RGTR--
+150502001 Bigonville, Huelgaas  00845  00845                % 08136 RGTR--
+150502004 Bigonville, Knupp     00846  00846                % 08136 RGTR--
+150502007 Bigonville, Haaptstr  00846  00846                % 08136 RGTR--
+150502002 Bigonville, Kéismaar  00847  00847                % 08136 RGTR--
+150502005 Bigonville, Réimerwe  00848  00848                % 08136 RGTR--
+150502003 Bigonville, Kimm      00850  00850                % 08136 RGTR--
+150505001 Flatzbour             00851  00851                % 08136 RGTR--
+150513001 Riesenhaff            00853  00853                % 08136 RGTR--
+150503001 Bilsdorf, Am Duerf    00856  00856                % 08136 RGTR--
+150501004 Arsdorf, Um Knupp     00859  00859                % 08136 RGTR--
+150501001 Arsdorf, Am Duerf     00900  00900                % 08136 RGTR--
+150501003 Arsdorf, An der Gaas  00901  00901                % 08136 RGTR--
+150509001 Koetschette, Rond-Po  00904  00904                % 08136 RGTR--
+150512005 Rambrouch, Schlass    00906  00906                % 08136 RGTR--
+150512006 Rambrouch, Gare       00906  00906                % 08136 RGTR--
+120804001 Heispelt, Géierekräi  00911  00911                % 08136 RGTR--
+151003002 Grevels, Ieweschten   00914  00914                % 08136 RGTR--
+151003003 Grevels, Zentrum      00915  00915                % 08136 RGTR--
+151003001 Grevels, Eneschten E  00916  00916                % 08136 RGTR--
+120504001 Hierheck              00918  00918                % 08136 RGTR--
+120501001 Eschdorf, Braas       00920  00920                % 08136 RGTR--
+120501003 Eschdorf, Quatre Ven  00920  00920                % 08136 RGTR--
+120502002 Heiderscheid          00924  00924                % 08136 RGTR--
+120502003 Heiderscheid, Zone C  00925  00925                % 08136 RGTR--
+120502001 Heiderscheid, Fuusse  00926  00926                % 08136 RGTR--
+140801005 Niederfeulen, Atelie  00929  00929                % 08136 RGTR--
+140801001 Niederfeulen, Belle   00930  00930                % 08136 RGTR--
+140801002 Niederfeulen, Faubou  00931  00931                % 08136 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00936  00936                % 08136 RGTR--
+140701015 Ettelbruck, Ecole Pr  00938  00938                % 08136 RGTR--
+140701016 Ettelbruck, Gare      00940                       % 08136 RGTR--
+*Z 08137 RGTR--                                             % 08137 RGTR--
+*L 530      150511005 140701016  01529  01640               % 08137 RGTR--
+*A bm 150511005 140701016 000001  01529  01640              % 08137 RGTR--
+*A PY 150511005 140701016 000001  01529  01640              % 08137 RGTR--
+*R 2 140701016 150511005 140701016  01529  01640            % 08137 RGTR--
+*G RGB 150511005 140701016  01529  01640                    % 08137 RGTR--
+*A VE 150511005 140701016 000001  01529  01640              % 08137 RGTR--
+*I FD 150511005 140701016        0003343  01529  01640      % 08137 RGTR--
+150511005 Perlé, Schoul                01529                % 08137 RGTR--
+150511001 Perlé, An der Huel    01530  01530                % 08137 RGTR--
+150511006 Perlé, Kuelewee       01531  01531                % 08137 RGTR--
+150511002 Perlé, Gare           01532  01532                % 08137 RGTR--
+150515003 Wolwelange, Spëtzt    01534  01534                % 08137 RGTR--
+150515002 Wolwelange, Kiosk     01535  01535                % 08137 RGTR--
+150515001 Wolwelange, Ennescht  01535  01535                % 08137 RGTR--
+150510002 Martelange, Leekoll   01536  01536                % 08137 RGTR--
+150510001 Martelange, Gare      01538  01538                % 08137 RGTR--
+150502005 Bigonville, Réimerwe  01543  01543                % 08137 RGTR--
+150502006 Bigonville, Am Duerf  01544  01544                % 08137 RGTR--
+150502001 Bigonville, Huelgaas  01545  01545                % 08137 RGTR--
+150502004 Bigonville, Knupp     01546  01546                % 08137 RGTR--
+150502007 Bigonville, Haaptstr  01546  01546                % 08137 RGTR--
+150502002 Bigonville, Kéismaar  01547  01547                % 08137 RGTR--
+150502005 Bigonville, Réimerwe  01548  01548                % 08137 RGTR--
+150502003 Bigonville, Kimm      01550  01550                % 08137 RGTR--
+150505001 Flatzbour             01551  01551                % 08137 RGTR--
+150513001 Riesenhaff            01553  01553                % 08137 RGTR--
+150503001 Bilsdorf, Am Duerf    01556  01556                % 08137 RGTR--
+150501004 Arsdorf, Um Knupp     01559  01559                % 08137 RGTR--
+150501001 Arsdorf, Am Duerf     01600  01600                % 08137 RGTR--
+150501003 Arsdorf, An der Gaas  01601  01601                % 08137 RGTR--
+150509001 Koetschette, Rond-Po  01604  01604                % 08137 RGTR--
+150512005 Rambrouch, Schlass    01606  01606                % 08137 RGTR--
+150512006 Rambrouch, Gare       01606  01606                % 08137 RGTR--
+120804001 Heispelt, Géierekräi  01611  01611                % 08137 RGTR--
+151003002 Grevels, Ieweschten   01614  01614                % 08137 RGTR--
+151003003 Grevels, Zentrum      01615  01615                % 08137 RGTR--
+151003001 Grevels, Eneschten E  01616  01616                % 08137 RGTR--
+120504001 Hierheck              01618  01618                % 08137 RGTR--
+120501001 Eschdorf, Braas       01620  01620                % 08137 RGTR--
+120501003 Eschdorf, Quatre Ven  01620  01620                % 08137 RGTR--
+120502002 Heiderscheid          01624  01624                % 08137 RGTR--
+120502003 Heiderscheid, Zone C  01625  01625                % 08137 RGTR--
+120502001 Heiderscheid, Fuusse  01626  01626                % 08137 RGTR--
+140801005 Niederfeulen, Atelie  01629  01629                % 08137 RGTR--
+140801001 Niederfeulen, Belle   01630  01630                % 08137 RGTR--
+140801002 Niederfeulen, Faubou  01631  01631                % 08137 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01636  01636                % 08137 RGTR--
+140701015 Ettelbruck, Ecole Pr  01638  01638                % 08137 RGTR--
+140701016 Ettelbruck, Gare      01640                       % 08137 RGTR--
+*Z 08138 RGTR--                                             % 08138 RGTR--
+*L 530      150511005 140701016  01629  01740               % 08138 RGTR--
+*A bk 150511005 140701016 000001  01629  01740              % 08138 RGTR--
+*A PY 150511005 140701016 000001  01629  01740              % 08138 RGTR--
+*R 2 140701016 150511005 140701016  01629  01740            % 08138 RGTR--
+*G RGB 150511005 140701016  01629  01740                    % 08138 RGTR--
+*A VE 150511005 140701016 000001  01629  01740              % 08138 RGTR--
+*I FD 150511005 140701016        0003345  01629  01740      % 08138 RGTR--
+150511005 Perlé, Schoul                01629                % 08138 RGTR--
+150511001 Perlé, An der Huel    01630  01630                % 08138 RGTR--
+150511006 Perlé, Kuelewee       01631  01631                % 08138 RGTR--
+150511002 Perlé, Gare           01632  01632                % 08138 RGTR--
+150515003 Wolwelange, Spëtzt    01634  01634                % 08138 RGTR--
+150515002 Wolwelange, Kiosk     01635  01635                % 08138 RGTR--
+150515001 Wolwelange, Ennescht  01635  01635                % 08138 RGTR--
+150510002 Martelange, Leekoll   01636  01636                % 08138 RGTR--
+150510001 Martelange, Gare      01638  01638                % 08138 RGTR--
+150502005 Bigonville, Réimerwe  01643  01643                % 08138 RGTR--
+150502006 Bigonville, Am Duerf  01644  01644                % 08138 RGTR--
+150502001 Bigonville, Huelgaas  01645  01645                % 08138 RGTR--
+150502004 Bigonville, Knupp     01646  01646                % 08138 RGTR--
+150502007 Bigonville, Haaptstr  01646  01646                % 08138 RGTR--
+150502002 Bigonville, Kéismaar  01647  01647                % 08138 RGTR--
+150502005 Bigonville, Réimerwe  01648  01648                % 08138 RGTR--
+150502003 Bigonville, Kimm      01650  01650                % 08138 RGTR--
+150505001 Flatzbour             01651  01651                % 08138 RGTR--
+150513001 Riesenhaff            01653  01653                % 08138 RGTR--
+150503001 Bilsdorf, Am Duerf    01656  01656                % 08138 RGTR--
+150501004 Arsdorf, Um Knupp     01659  01659                % 08138 RGTR--
+150501001 Arsdorf, Am Duerf     01700  01700                % 08138 RGTR--
+150501003 Arsdorf, An der Gaas  01701  01701                % 08138 RGTR--
+150509001 Koetschette, Rond-Po  01704  01704                % 08138 RGTR--
+150512005 Rambrouch, Schlass    01706  01706                % 08138 RGTR--
+150512006 Rambrouch, Gare       01706  01706                % 08138 RGTR--
+120804001 Heispelt, Géierekräi  01711  01711                % 08138 RGTR--
+151003002 Grevels, Ieweschten   01714  01714                % 08138 RGTR--
+151003003 Grevels, Zentrum      01715  01715                % 08138 RGTR--
+151003001 Grevels, Eneschten E  01716  01716                % 08138 RGTR--
+120504001 Hierheck              01718  01718                % 08138 RGTR--
+120501001 Eschdorf, Braas       01720  01720                % 08138 RGTR--
+120501003 Eschdorf, Quatre Ven  01720  01720                % 08138 RGTR--
+120502002 Heiderscheid          01724  01724                % 08138 RGTR--
+120502003 Heiderscheid, Zone C  01725  01725                % 08138 RGTR--
+120502001 Heiderscheid, Fuusse  01726  01726                % 08138 RGTR--
+140801005 Niederfeulen, Atelie  01729  01729                % 08138 RGTR--
+140801001 Niederfeulen, Belle   01730  01730                % 08138 RGTR--
+140801002 Niederfeulen, Faubou  01731  01731                % 08138 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01736  01736                % 08138 RGTR--
+140701015 Ettelbruck, Ecole Pr  01738  01738                % 08138 RGTR--
+140701016 Ettelbruck, Gare      01740                       % 08138 RGTR--
+*Z 08139 RGTR--                                             % 08139 RGTR--
+*L 530      150511005 140701016  01729  01840               % 08139 RGTR--
+*A dk 150511005 140701016 000001  01729  01840              % 08139 RGTR--
+*A PY 150511005 140701016 000001  01729  01840              % 08139 RGTR--
+*R 2 140701016 150511005 140701016  01729  01840            % 08139 RGTR--
+*G RGB 150511005 140701016  01729  01840                    % 08139 RGTR--
+*A VE 150511005 140701016 000001  01729  01840              % 08139 RGTR--
+*I FD 150511005 140701016        0003346  01729  01840      % 08139 RGTR--
+150511005 Perlé, Schoul                01729                % 08139 RGTR--
+150511001 Perlé, An der Huel    01730  01730                % 08139 RGTR--
+150511006 Perlé, Kuelewee       01731  01731                % 08139 RGTR--
+150511002 Perlé, Gare           01732  01732                % 08139 RGTR--
+150515003 Wolwelange, Spëtzt    01734  01734                % 08139 RGTR--
+150515002 Wolwelange, Kiosk     01735  01735                % 08139 RGTR--
+150515001 Wolwelange, Ennescht  01735  01735                % 08139 RGTR--
+150510002 Martelange, Leekoll   01736  01736                % 08139 RGTR--
+150510001 Martelange, Gare      01738  01738                % 08139 RGTR--
+150502005 Bigonville, Réimerwe  01743  01743                % 08139 RGTR--
+150502006 Bigonville, Am Duerf  01744  01744                % 08139 RGTR--
+150502001 Bigonville, Huelgaas  01745  01745                % 08139 RGTR--
+150502004 Bigonville, Knupp     01746  01746                % 08139 RGTR--
+150502007 Bigonville, Haaptstr  01746  01746                % 08139 RGTR--
+150502002 Bigonville, Kéismaar  01747  01747                % 08139 RGTR--
+150502005 Bigonville, Réimerwe  01748  01748                % 08139 RGTR--
+150502003 Bigonville, Kimm      01750  01750                % 08139 RGTR--
+150505001 Flatzbour             01751  01751                % 08139 RGTR--
+150513001 Riesenhaff            01753  01753                % 08139 RGTR--
+150503001 Bilsdorf, Am Duerf    01756  01756                % 08139 RGTR--
+150501004 Arsdorf, Um Knupp     01759  01759                % 08139 RGTR--
+150501001 Arsdorf, Am Duerf     01800  01800                % 08139 RGTR--
+150501003 Arsdorf, An der Gaas  01801  01801                % 08139 RGTR--
+150509001 Koetschette, Rond-Po  01804  01804                % 08139 RGTR--
+150512005 Rambrouch, Schlass    01806  01806                % 08139 RGTR--
+150512006 Rambrouch, Gare       01806  01806                % 08139 RGTR--
+120804001 Heispelt, Géierekräi  01811  01811                % 08139 RGTR--
+151003002 Grevels, Ieweschten   01814  01814                % 08139 RGTR--
+151003003 Grevels, Zentrum      01815  01815                % 08139 RGTR--
+151003001 Grevels, Eneschten E  01816  01816                % 08139 RGTR--
+120504001 Hierheck              01818  01818                % 08139 RGTR--
+120501001 Eschdorf, Braas       01820  01820                % 08139 RGTR--
+120501003 Eschdorf, Quatre Ven  01820  01820                % 08139 RGTR--
+120502002 Heiderscheid          01824  01824                % 08139 RGTR--
+120502003 Heiderscheid, Zone C  01825  01825                % 08139 RGTR--
+120502001 Heiderscheid, Fuusse  01826  01826                % 08139 RGTR--
+140801005 Niederfeulen, Atelie  01829  01829                % 08139 RGTR--
+140801001 Niederfeulen, Belle   01830  01830                % 08139 RGTR--
+140801002 Niederfeulen, Faubou  01831  01831                % 08139 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01836  01836                % 08139 RGTR--
+140701015 Ettelbruck, Ecole Pr  01838  01838                % 08139 RGTR--
+140701016 Ettelbruck, Gare      01840                       % 08139 RGTR--
+*Z 08140 RGTR--                                             % 08140 RGTR--
+*L 530      150511005 140701016  01036  01140               % 08140 RGTR--
+*A dk 150511005 140701016 000000  01036  01140              % 08140 RGTR--
+*A PY 150511005 140701016 000000  01036  01140              % 08140 RGTR--
+*R 2 140701016 150511005 140701016  01036  01140            % 08140 RGTR--
+*G RGB 150511005 140701016  01036  01140                    % 08140 RGTR--
+*A VE 150511005 140701016 000000  01036  01140              % 08140 RGTR--
+*I FD 150511005 140701016        0002468  01036  01140      % 08140 RGTR--
+150511005 Perlé, Schoul                01036                % 08140 RGTR--
+150511001 Perlé, An der Huel    01037  01037                % 08140 RGTR--
+150511006 Perlé, Kuelewee       01038  01038                % 08140 RGTR--
+150511002 Perlé, Gare           01038  01038                % 08140 RGTR--
+150515003 Wolwelange, Spëtzt    01041  01041                % 08140 RGTR--
+150515002 Wolwelange, Kiosk     01041  01041                % 08140 RGTR--
+150515001 Wolwelange, Ennescht  01042  01042                % 08140 RGTR--
+150510002 Martelange, Leekoll   01042  01042                % 08140 RGTR--
+150510001 Martelange, Gare      01044  01044                % 08140 RGTR--
+150502005 Bigonville, Réimerwe  01049  01049                % 08140 RGTR--
+150502006 Bigonville, Am Duerf  01050  01050                % 08140 RGTR--
+150502001 Bigonville, Huelgaas  01051  01051                % 08140 RGTR--
+150502004 Bigonville, Knupp     01051  01051                % 08140 RGTR--
+150502007 Bigonville, Haaptstr  01052  01052                % 08140 RGTR--
+150502002 Bigonville, Kéismaar  01053  01053                % 08140 RGTR--
+150502005 Bigonville, Réimerwe  01053  01053                % 08140 RGTR--
+150502003 Bigonville, Kimm      01055  01055                % 08140 RGTR--
+150505001 Flatzbour             01056  01056                % 08140 RGTR--
+150513001 Riesenhaff            01058  01058                % 08140 RGTR--
+150503001 Bilsdorf, Am Duerf    01100  01100                % 08140 RGTR--
+150501004 Arsdorf, Um Knupp     01103  01103                % 08140 RGTR--
+150501001 Arsdorf, Am Duerf     01104  01104                % 08140 RGTR--
+150501003 Arsdorf, An der Gaas  01104  01104                % 08140 RGTR--
+150509001 Koetschette, Rond-Po  01107  01107                % 08140 RGTR--
+150512005 Rambrouch, Schlass    01108  01108                % 08140 RGTR--
+150512006 Rambrouch, Gare       01109  01109                % 08140 RGTR--
+120804001 Heispelt, Géierekräi  01113  01113                % 08140 RGTR--
+151003002 Grevels, Ieweschten   01115  01115                % 08140 RGTR--
+151003003 Grevels, Zentrum      01117  01117                % 08140 RGTR--
+151003001 Grevels, Eneschten E  01117  01117                % 08140 RGTR--
+120504001 Hierheck              01119  01119                % 08140 RGTR--
+120501001 Eschdorf, Braas       01121  01121                % 08140 RGTR--
+120501003 Eschdorf, Quatre Ven  01122  01122                % 08140 RGTR--
+120502002 Heiderscheid          01125  01125                % 08140 RGTR--
+120502003 Heiderscheid, Zone C  01126  01126                % 08140 RGTR--
+120502001 Heiderscheid, Fuusse  01127  01127                % 08140 RGTR--
+140801005 Niederfeulen, Atelie  01131  01131                % 08140 RGTR--
+140801001 Niederfeulen, Belle   01131  01131                % 08140 RGTR--
+140801002 Niederfeulen, Faubou  01133  01133                % 08140 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01136  01136                % 08140 RGTR--
+140701015 Ettelbruck, Ecole Pr  01138  01138                % 08140 RGTR--
+140701016 Ettelbruck, Gare      01140                       % 08140 RGTR--
+*Z 08141 RGTR--                                             % 08141 RGTR--
+*L 530      150511005 140701016  00936  01040               % 08141 RGTR--
+*A bj 150511005 140701016 000001  00936  01040              % 08141 RGTR--
+*A PY 150511005 140701016 000001  00936  01040              % 08141 RGTR--
+*R 2 140701016 150511005 140701016  00936  01040            % 08141 RGTR--
+*G RGB 150511005 140701016  00936  01040                    % 08141 RGTR--
+*A VE 150511005 140701016 000001  00936  01040              % 08141 RGTR--
+*I FD 150511005 140701016        0000976  00936  01040      % 08141 RGTR--
+150511005 Perlé, Schoul                00936                % 08141 RGTR--
+150511001 Perlé, An der Huel    00937  00937                % 08141 RGTR--
+150511006 Perlé, Kuelewee       00938  00938                % 08141 RGTR--
+150511002 Perlé, Gare           00938  00938                % 08141 RGTR--
+150515003 Wolwelange, Spëtzt    00941  00941                % 08141 RGTR--
+150515002 Wolwelange, Kiosk     00941  00941                % 08141 RGTR--
+150515001 Wolwelange, Ennescht  00942  00942                % 08141 RGTR--
+150510002 Martelange, Leekoll   00942  00942                % 08141 RGTR--
+150510001 Martelange, Gare      00944  00944                % 08141 RGTR--
+150502005 Bigonville, Réimerwe  00949  00949                % 08141 RGTR--
+150502006 Bigonville, Am Duerf  00950  00950                % 08141 RGTR--
+150502001 Bigonville, Huelgaas  00951  00951                % 08141 RGTR--
+150502004 Bigonville, Knupp     00951  00951                % 08141 RGTR--
+150502007 Bigonville, Haaptstr  00952  00952                % 08141 RGTR--
+150502002 Bigonville, Kéismaar  00953  00953                % 08141 RGTR--
+150502005 Bigonville, Réimerwe  00953  00953                % 08141 RGTR--
+150502003 Bigonville, Kimm      00955  00955                % 08141 RGTR--
+150505001 Flatzbour             00956  00956                % 08141 RGTR--
+150513001 Riesenhaff            00958  00958                % 08141 RGTR--
+150503001 Bilsdorf, Am Duerf    01000  01000                % 08141 RGTR--
+150501004 Arsdorf, Um Knupp     01003  01003                % 08141 RGTR--
+150501001 Arsdorf, Am Duerf     01004  01004                % 08141 RGTR--
+150501003 Arsdorf, An der Gaas  01004  01004                % 08141 RGTR--
+150509001 Koetschette, Rond-Po  01007  01007                % 08141 RGTR--
+150512005 Rambrouch, Schlass    01008  01008                % 08141 RGTR--
+150512006 Rambrouch, Gare       01009  01009                % 08141 RGTR--
+120804001 Heispelt, Géierekräi  01013  01013                % 08141 RGTR--
+151003002 Grevels, Ieweschten   01015  01015                % 08141 RGTR--
+151003003 Grevels, Zentrum      01017  01017                % 08141 RGTR--
+151003001 Grevels, Eneschten E  01017  01017                % 08141 RGTR--
+120504001 Hierheck              01019  01019                % 08141 RGTR--
+120501001 Eschdorf, Braas       01021  01021                % 08141 RGTR--
+120501003 Eschdorf, Quatre Ven  01022  01022                % 08141 RGTR--
+120502002 Heiderscheid          01025  01025                % 08141 RGTR--
+120502003 Heiderscheid, Zone C  01026  01026                % 08141 RGTR--
+120502001 Heiderscheid, Fuusse  01027  01027                % 08141 RGTR--
+140801005 Niederfeulen, Atelie  01031  01031                % 08141 RGTR--
+140801001 Niederfeulen, Belle   01031  01031                % 08141 RGTR--
+140801002 Niederfeulen, Faubou  01033  01033                % 08141 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01036  01036                % 08141 RGTR--
+140701015 Ettelbruck, Ecole Pr  01038  01038                % 08141 RGTR--
+140701016 Ettelbruck, Gare      01040                       % 08141 RGTR--
+*Z 08142 RGTR--                                             % 08142 RGTR--
+*L 530      150511005 140701016  01136  01240               % 08142 RGTR--
+*A bk 150511005 140701016 000001  01136  01240              % 08142 RGTR--
+*A PY 150511005 140701016 000001  01136  01240              % 08142 RGTR--
+*R 2 140701016 150511005 140701016  01136  01240            % 08142 RGTR--
+*G RGB 150511005 140701016  01136  01240                    % 08142 RGTR--
+*A VE 150511005 140701016 000001  01136  01240              % 08142 RGTR--
+*I FD 150511005 140701016        0002469  01136  01240      % 08142 RGTR--
+150511005 Perlé, Schoul                01136                % 08142 RGTR--
+150511001 Perlé, An der Huel    01137  01137                % 08142 RGTR--
+150511006 Perlé, Kuelewee       01138  01138                % 08142 RGTR--
+150511002 Perlé, Gare           01138  01138                % 08142 RGTR--
+150515003 Wolwelange, Spëtzt    01141  01141                % 08142 RGTR--
+150515002 Wolwelange, Kiosk     01141  01141                % 08142 RGTR--
+150515001 Wolwelange, Ennescht  01142  01142                % 08142 RGTR--
+150510002 Martelange, Leekoll   01142  01142                % 08142 RGTR--
+150510001 Martelange, Gare      01144  01144                % 08142 RGTR--
+150502005 Bigonville, Réimerwe  01149  01149                % 08142 RGTR--
+150502006 Bigonville, Am Duerf  01150  01150                % 08142 RGTR--
+150502001 Bigonville, Huelgaas  01151  01151                % 08142 RGTR--
+150502004 Bigonville, Knupp     01151  01151                % 08142 RGTR--
+150502007 Bigonville, Haaptstr  01152  01152                % 08142 RGTR--
+150502002 Bigonville, Kéismaar  01153  01153                % 08142 RGTR--
+150502005 Bigonville, Réimerwe  01153  01153                % 08142 RGTR--
+150502003 Bigonville, Kimm      01155  01155                % 08142 RGTR--
+150505001 Flatzbour             01156  01156                % 08142 RGTR--
+150513001 Riesenhaff            01158  01158                % 08142 RGTR--
+150503001 Bilsdorf, Am Duerf    01200  01200                % 08142 RGTR--
+150501004 Arsdorf, Um Knupp     01203  01203                % 08142 RGTR--
+150501001 Arsdorf, Am Duerf     01204  01204                % 08142 RGTR--
+150501003 Arsdorf, An der Gaas  01204  01204                % 08142 RGTR--
+150509001 Koetschette, Rond-Po  01207  01207                % 08142 RGTR--
+150512005 Rambrouch, Schlass    01208  01208                % 08142 RGTR--
+150512006 Rambrouch, Gare       01209  01209                % 08142 RGTR--
+120804001 Heispelt, Géierekräi  01213  01213                % 08142 RGTR--
+151003002 Grevels, Ieweschten   01215  01215                % 08142 RGTR--
+151003003 Grevels, Zentrum      01217  01217                % 08142 RGTR--
+151003001 Grevels, Eneschten E  01217  01217                % 08142 RGTR--
+120504001 Hierheck              01219  01219                % 08142 RGTR--
+120501001 Eschdorf, Braas       01221  01221                % 08142 RGTR--
+120501003 Eschdorf, Quatre Ven  01222  01222                % 08142 RGTR--
+120502002 Heiderscheid          01225  01225                % 08142 RGTR--
+120502003 Heiderscheid, Zone C  01226  01226                % 08142 RGTR--
+120502001 Heiderscheid, Fuusse  01227  01227                % 08142 RGTR--
+140801005 Niederfeulen, Atelie  01231  01231                % 08142 RGTR--
+140801001 Niederfeulen, Belle   01231  01231                % 08142 RGTR--
+140801002 Niederfeulen, Faubou  01233  01233                % 08142 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01236  01236                % 08142 RGTR--
+140701015 Ettelbruck, Ecole Pr  01238  01238                % 08142 RGTR--
+140701016 Ettelbruck, Gare      01240                       % 08142 RGTR--
+*Z 08143 RGTR--                                             % 08143 RGTR--
+*L 530      150511005 140701016  01336  01440               % 08143 RGTR--
+*A dk 150511005 140701016 000003  01336  01440              % 08143 RGTR--
+*A PY 150511005 140701016 000003  01336  01440              % 08143 RGTR--
+*R 2 140701016 150511005 140701016  01336  01440            % 08143 RGTR--
+*G RGB 150511005 140701016  01336  01440                    % 08143 RGTR--
+*A VE 150511005 140701016 000003  01336  01440              % 08143 RGTR--
+*I FD 150511005 140701016        0002470  01336  01440      % 08143 RGTR--
+150511005 Perlé, Schoul                01336                % 08143 RGTR--
+150511001 Perlé, An der Huel    01337  01337                % 08143 RGTR--
+150511006 Perlé, Kuelewee       01338  01338                % 08143 RGTR--
+150511002 Perlé, Gare           01338  01338                % 08143 RGTR--
+150515003 Wolwelange, Spëtzt    01341  01341                % 08143 RGTR--
+150515002 Wolwelange, Kiosk     01341  01341                % 08143 RGTR--
+150515001 Wolwelange, Ennescht  01342  01342                % 08143 RGTR--
+150510002 Martelange, Leekoll   01342  01342                % 08143 RGTR--
+150510001 Martelange, Gare      01344  01344                % 08143 RGTR--
+150502005 Bigonville, Réimerwe  01349  01349                % 08143 RGTR--
+150502006 Bigonville, Am Duerf  01350  01350                % 08143 RGTR--
+150502001 Bigonville, Huelgaas  01351  01351                % 08143 RGTR--
+150502004 Bigonville, Knupp     01351  01351                % 08143 RGTR--
+150502007 Bigonville, Haaptstr  01352  01352                % 08143 RGTR--
+150502002 Bigonville, Kéismaar  01353  01353                % 08143 RGTR--
+150502005 Bigonville, Réimerwe  01353  01353                % 08143 RGTR--
+150502003 Bigonville, Kimm      01355  01355                % 08143 RGTR--
+150505001 Flatzbour             01356  01356                % 08143 RGTR--
+150513001 Riesenhaff            01358  01358                % 08143 RGTR--
+150503001 Bilsdorf, Am Duerf    01400  01400                % 08143 RGTR--
+150501004 Arsdorf, Um Knupp     01403  01403                % 08143 RGTR--
+150501001 Arsdorf, Am Duerf     01404  01404                % 08143 RGTR--
+150501003 Arsdorf, An der Gaas  01404  01404                % 08143 RGTR--
+150509001 Koetschette, Rond-Po  01407  01407                % 08143 RGTR--
+150512005 Rambrouch, Schlass    01408  01408                % 08143 RGTR--
+150512006 Rambrouch, Gare       01409  01409                % 08143 RGTR--
+120804001 Heispelt, Géierekräi  01413  01413                % 08143 RGTR--
+151003002 Grevels, Ieweschten   01415  01415                % 08143 RGTR--
+151003003 Grevels, Zentrum      01417  01417                % 08143 RGTR--
+151003001 Grevels, Eneschten E  01417  01417                % 08143 RGTR--
+120504001 Hierheck              01419  01419                % 08143 RGTR--
+120501001 Eschdorf, Braas       01421  01421                % 08143 RGTR--
+120501003 Eschdorf, Quatre Ven  01422  01422                % 08143 RGTR--
+120502002 Heiderscheid          01425  01425                % 08143 RGTR--
+120502003 Heiderscheid, Zone C  01426  01426                % 08143 RGTR--
+120502001 Heiderscheid, Fuusse  01427  01427                % 08143 RGTR--
+140801005 Niederfeulen, Atelie  01431  01431                % 08143 RGTR--
+140801001 Niederfeulen, Belle   01431  01431                % 08143 RGTR--
+140801002 Niederfeulen, Faubou  01433  01433                % 08143 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01436  01436                % 08143 RGTR--
+140701015 Ettelbruck, Ecole Pr  01438  01438                % 08143 RGTR--
+140701016 Ettelbruck, Gare      01440                       % 08143 RGTR--
+*Z 08144 RGTR--                                             % 08144 RGTR--
+*L 530      150511005 140701016  01636  01740               % 08144 RGTR--
+*A dk 150511005 140701016 000003  01636  01740              % 08144 RGTR--
+*R 2 140701016 150511005 140701016  01636  01740            % 08144 RGTR--
+*G RGB 150511005 140701016  01636  01740                    % 08144 RGTR--
+*A VE 150511005 140701016 000003  01636  01740              % 08144 RGTR--
+*I FD 150511005 140701016        0002471  01636  01740      % 08144 RGTR--
+150511005 Perlé, Schoul                01636                % 08144 RGTR--
+150511001 Perlé, An der Huel    01637  01637                % 08144 RGTR--
+150511006 Perlé, Kuelewee       01638  01638                % 08144 RGTR--
+150511002 Perlé, Gare           01638  01638                % 08144 RGTR--
+150515003 Wolwelange, Spëtzt    01641  01641                % 08144 RGTR--
+150515002 Wolwelange, Kiosk     01641  01641                % 08144 RGTR--
+150515001 Wolwelange, Ennescht  01642  01642                % 08144 RGTR--
+150510002 Martelange, Leekoll   01642  01642                % 08144 RGTR--
+150510001 Martelange, Gare      01644  01644                % 08144 RGTR--
+150502005 Bigonville, Réimerwe  01649  01649                % 08144 RGTR--
+150502006 Bigonville, Am Duerf  01650  01650                % 08144 RGTR--
+150502001 Bigonville, Huelgaas  01651  01651                % 08144 RGTR--
+150502004 Bigonville, Knupp     01651  01651                % 08144 RGTR--
+150502007 Bigonville, Haaptstr  01652  01652                % 08144 RGTR--
+150502002 Bigonville, Kéismaar  01653  01653                % 08144 RGTR--
+150502005 Bigonville, Réimerwe  01653  01653                % 08144 RGTR--
+150502003 Bigonville, Kimm      01655  01655                % 08144 RGTR--
+150505001 Flatzbour             01656  01656                % 08144 RGTR--
+150513001 Riesenhaff            01658  01658                % 08144 RGTR--
+150503001 Bilsdorf, Am Duerf    01700  01700                % 08144 RGTR--
+150501004 Arsdorf, Um Knupp     01703  01703                % 08144 RGTR--
+150501001 Arsdorf, Am Duerf     01704  01704                % 08144 RGTR--
+150501003 Arsdorf, An der Gaas  01704  01704                % 08144 RGTR--
+150509001 Koetschette, Rond-Po  01707  01707                % 08144 RGTR--
+150512005 Rambrouch, Schlass    01708  01708                % 08144 RGTR--
+150512006 Rambrouch, Gare       01709  01709                % 08144 RGTR--
+120804001 Heispelt, Géierekräi  01713  01713                % 08144 RGTR--
+151003002 Grevels, Ieweschten   01715  01715                % 08144 RGTR--
+151003003 Grevels, Zentrum      01717  01717                % 08144 RGTR--
+151003001 Grevels, Eneschten E  01717  01717                % 08144 RGTR--
+120504001 Hierheck              01719  01719                % 08144 RGTR--
+120501001 Eschdorf, Braas       01721  01721                % 08144 RGTR--
+120501003 Eschdorf, Quatre Ven  01722  01722                % 08144 RGTR--
+120502002 Heiderscheid          01725  01725                % 08144 RGTR--
+120502003 Heiderscheid, Zone C  01726  01726                % 08144 RGTR--
+120502001 Heiderscheid, Fuusse  01727  01727                % 08144 RGTR--
+140801005 Niederfeulen, Atelie  01731  01731                % 08144 RGTR--
+140801001 Niederfeulen, Belle   01731  01731                % 08144 RGTR--
+140801002 Niederfeulen, Faubou  01733  01733                % 08144 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01736  01736                % 08144 RGTR--
+140701015 Ettelbruck, Ecole Pr  01738  01738                % 08144 RGTR--
+140701016 Ettelbruck, Gare      01740                       % 08144 RGTR--
+*Z 08145 RGTR--                                             % 08145 RGTR--
+*L 530      150502006 140401009  00645  00752               % 08145 RGTR--
+*A bj 150502006 140401009 000005  00645  00752              % 08145 RGTR--
+*A PY 150502006 140401009 000005  00645  00752              % 08145 RGTR--
+*R 2 140401009 150502006 140401009  00645  00752            % 08145 RGTR--
+*G RGB 150502006 140401009  00645  00752                    % 08145 RGTR--
+*A VE 150502006 140401009 000005  00645  00752              % 08145 RGTR--
+*I FD 150502006 140401009        0002256  00645  00752      % 08145 RGTR--
+150502006 Bigonville, Am Duerf         00645                % 08145 RGTR--
+150502001 Bigonville, Huelgaas  00645  00645                % 08145 RGTR--
+150502004 Bigonville, Knupp     00646  00646                % 08145 RGTR--
+150502007 Bigonville, Haaptstr  00647  00647                % 08145 RGTR--
+150502002 Bigonville, Kéismaar  00648  00648                % 08145 RGTR--
+150502005 Bigonville, Réimerwe  00649  00649                % 08145 RGTR--
+150502003 Bigonville, Kimm      00650  00650                % 08145 RGTR--
+150505001 Flatzbour             00651  00651                % 08145 RGTR--
+150513001 Riesenhaff            00654  00654                % 08145 RGTR--
+150503001 Bilsdorf, Am Duerf    00657  00657                % 08145 RGTR--
+150501004 Arsdorf, Um Knupp     00700  00700                % 08145 RGTR--
+150501001 Arsdorf, Am Duerf     00701  00701                % 08145 RGTR--
+150501003 Arsdorf, An der Gaas  00702  00702                % 08145 RGTR--
+150509001 Koetschette, Rond-Po  00705  00705                % 08145 RGTR--
+150512005 Rambrouch, Schlass    00706  00706                % 08145 RGTR--
+150512006 Rambrouch, Gare       00707  00707                % 08145 RGTR--
+120804001 Heispelt, Géierekräi  00712  00712                % 08145 RGTR--
+151003002 Grevels, Ieweschten   00714  00714                % 08145 RGTR--
+151003003 Grevels, Zentrum      00716  00716                % 08145 RGTR--
+151003001 Grevels, Eneschten E  00716  00716                % 08145 RGTR--
+120504001 Hierheck              00719  00719                % 08145 RGTR--
+120501001 Eschdorf, Braas       00720  00720                % 08145 RGTR--
+120501003 Eschdorf, Quatre Ven  00721  00721                % 08145 RGTR--
+120502002 Heiderscheid          00724  00724                % 08145 RGTR--
+120502003 Heiderscheid, Zone C  00725  00725                % 08145 RGTR--
+120502001 Heiderscheid, Fuusse  00726  00726                % 08145 RGTR--
+140801005 Niederfeulen, Atelie  00730  00730                % 08145 RGTR--
+140801001 Niederfeulen, Belle   00731  00731                % 08145 RGTR--
+140801002 Niederfeulen, Faubou  00732  00732                % 08145 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00736  00736                % 08145 RGTR--
+140701015 Ettelbruck, Ecole Pr  00739  00739                % 08145 RGTR--
+140701016 Ettelbruck, Gare      00740  00740                % 08145 RGTR--
+140602008 Erpeldange/Sûre, Um   00742  00742                % 08145 RGTR--
+140603002 Ingeldorf, Café de l  00744  00744                % 08145 RGTR--
+140401008 Diekirch, Lorentzwue  00746  00746                % 08145 RGTR--
+140401004 Diekirch, Gare        00747  00747                % 08145 RGTR--
+140401001 Diekirch, Altersheem  00749  00749                % 08145 RGTR--
+140401009 Diekirch, Neie Kolle  00752                       % 08145 RGTR--
+*Z 08146 RGTR--                                             % 08146 RGTR--
+*L 530      150503001 140701016  01300  01339               % 08146 RGTR--
+*A bm 150503001 140701016 000001  01300  01339              % 08146 RGTR--
+*A PY 150503001 140701016 000001  01300  01339              % 08146 RGTR--
+*R 2 140701016 150503001 140701016  01300  01339            % 08146 RGTR--
+*G RGB 150503001 140701016  01300  01339                    % 08146 RGTR--
+*A VE 150503001 140701016 000001  01300  01339              % 08146 RGTR--
+*I FD 150503001 140701016        0001902  01300  01339      % 08146 RGTR--
+150503001 Bilsdorf, Am Duerf           01300                % 08146 RGTR--
+150501004 Arsdorf, Um Knupp     01302  01302                % 08146 RGTR--
+150501001 Arsdorf, Am Duerf     01303  01303                % 08146 RGTR--
+150501003 Arsdorf, An der Gaas  01303  01303                % 08146 RGTR--
+150509001 Koetschette, Rond-Po  01306  01306                % 08146 RGTR--
+150512005 Rambrouch, Schlass    01307  01307                % 08146 RGTR--
+150512006 Rambrouch, Gare       01308  01308                % 08146 RGTR--
+120804001 Heispelt, Géierekräi  01312  01312                % 08146 RGTR--
+151003002 Grevels, Ieweschten   01315  01315                % 08146 RGTR--
+151003003 Grevels, Zentrum      01316  01316                % 08146 RGTR--
+151003001 Grevels, Eneschten E  01317  01317                % 08146 RGTR--
+120504001 Hierheck              01319  01319                % 08146 RGTR--
+120501001 Eschdorf, Braas       01320  01320                % 08146 RGTR--
+120501003 Eschdorf, Quatre Ven  01321  01321                % 08146 RGTR--
+120502002 Heiderscheid          01324  01324                % 08146 RGTR--
+120502003 Heiderscheid, Zone C  01325  01325                % 08146 RGTR--
+120502001 Heiderscheid, Fuusse  01326  01326                % 08146 RGTR--
+140801005 Niederfeulen, Atelie  01330  01330                % 08146 RGTR--
+140801001 Niederfeulen, Belle   01331  01331                % 08146 RGTR--
+140801002 Niederfeulen, Faubou  01332  01332                % 08146 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01336  01336                % 08146 RGTR--
+140701015 Ettelbruck, Ecole Pr  01338  01338                % 08146 RGTR--
+140701016 Ettelbruck, Gare      01339                       % 08146 RGTR--
+*Z 08147 RGTR--                                             % 08147 RGTR--
+*L 530      150511005 140401009  01336  01451               % 08147 RGTR--
+*A dk 150511005 140401009 000001  01336  01451              % 08147 RGTR--
+*A PY 150511005 140401009 000001  01336  01451              % 08147 RGTR--
+*R 2 140401009 150511005 140401009  01336  01451            % 08147 RGTR--
+*G RGB 150511005 140401009  01336  01451                    % 08147 RGTR--
+*A VE 150511005 140401009 000001  01336  01451              % 08147 RGTR--
+*I FD 150511005 140401009        0002470  01336  01451      % 08147 RGTR--
+150511005 Perlé, Schoul                01336                % 08147 RGTR--
+150511001 Perlé, An der Huel    01337  01337                % 08147 RGTR--
+150511006 Perlé, Kuelewee       01338  01338                % 08147 RGTR--
+150511002 Perlé, Gare           01338  01338                % 08147 RGTR--
+150515003 Wolwelange, Spëtzt    01341  01341                % 08147 RGTR--
+150515002 Wolwelange, Kiosk     01341  01341                % 08147 RGTR--
+150515001 Wolwelange, Ennescht  01342  01342                % 08147 RGTR--
+150510002 Martelange, Leekoll   01342  01342                % 08147 RGTR--
+150510001 Martelange, Gare      01344  01344                % 08147 RGTR--
+150502005 Bigonville, Réimerwe  01349  01349                % 08147 RGTR--
+150502006 Bigonville, Am Duerf  01350  01350                % 08147 RGTR--
+150502001 Bigonville, Huelgaas  01351  01351                % 08147 RGTR--
+150502004 Bigonville, Knupp     01351  01351                % 08147 RGTR--
+150502007 Bigonville, Haaptstr  01352  01352                % 08147 RGTR--
+150502002 Bigonville, Kéismaar  01353  01353                % 08147 RGTR--
+150502005 Bigonville, Réimerwe  01353  01353                % 08147 RGTR--
+150502003 Bigonville, Kimm      01355  01355                % 08147 RGTR--
+150505001 Flatzbour             01356  01356                % 08147 RGTR--
+150513001 Riesenhaff            01358  01358                % 08147 RGTR--
+150503001 Bilsdorf, Am Duerf    01400  01400                % 08147 RGTR--
+150501004 Arsdorf, Um Knupp     01403  01403                % 08147 RGTR--
+150501001 Arsdorf, Am Duerf     01404  01404                % 08147 RGTR--
+150501003 Arsdorf, An der Gaas  01404  01404                % 08147 RGTR--
+150509001 Koetschette, Rond-Po  01407  01407                % 08147 RGTR--
+150512005 Rambrouch, Schlass    01408  01408                % 08147 RGTR--
+150512006 Rambrouch, Gare       01409  01409                % 08147 RGTR--
+120804001 Heispelt, Géierekräi  01413  01413                % 08147 RGTR--
+151003002 Grevels, Ieweschten   01415  01415                % 08147 RGTR--
+151003003 Grevels, Zentrum      01417  01417                % 08147 RGTR--
+151003001 Grevels, Eneschten E  01417  01417                % 08147 RGTR--
+120504001 Hierheck              01419  01419                % 08147 RGTR--
+120501001 Eschdorf, Braas       01421  01421                % 08147 RGTR--
+120501003 Eschdorf, Quatre Ven  01422  01422                % 08147 RGTR--
+120502002 Heiderscheid          01425  01425                % 08147 RGTR--
+120502003 Heiderscheid, Zone C  01426  01426                % 08147 RGTR--
+120502001 Heiderscheid, Fuusse  01427  01427                % 08147 RGTR--
+140801005 Niederfeulen, Atelie  01431  01431                % 08147 RGTR--
+140801001 Niederfeulen, Belle   01431  01431                % 08147 RGTR--
+140801002 Niederfeulen, Faubou  01433  01433                % 08147 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01436  01436                % 08147 RGTR--
+140701015 Ettelbruck, Ecole Pr  01438  01438                % 08147 RGTR--
+140701016 Ettelbruck, Gare      01440  01440                % 08147 RGTR--
+140602008 Erpeldange/Sûre, Um   01442  01442                % 08147 RGTR--
+140603002 Ingeldorf, Café de l  01444  01444                % 08147 RGTR--
+140401008 Diekirch, Lorentzwue  01445  01445                % 08147 RGTR--
+140401004 Diekirch, Gare        01446  01446                % 08147 RGTR--
+140401001 Diekirch, Altersheem  01448  01448                % 08147 RGTR--
+140401009 Diekirch, Neie Kolle  01451                       % 08147 RGTR--
+*Z 08148 RGTR--                                             % 08148 RGTR--
+*L 530      150511005 140401009  01436  01551               % 08148 RGTR--
+*A dk 150511005 140401009 000001  01436  01551              % 08148 RGTR--
+*A PY 150511005 140401009 000001  01436  01551              % 08148 RGTR--
+*R 2 140401009 150511005 140401009  01436  01551            % 08148 RGTR--
+*G RGB 150511005 140401009  01436  01551                    % 08148 RGTR--
+*A VE 150511005 140401009 000001  01436  01551              % 08148 RGTR--
+*I FD 150511005 140401009        0003199  01436  01551      % 08148 RGTR--
+150511005 Perlé, Schoul                01436                % 08148 RGTR--
+150511001 Perlé, An der Huel    01437  01437                % 08148 RGTR--
+150511006 Perlé, Kuelewee       01438  01438                % 08148 RGTR--
+150511002 Perlé, Gare           01438  01438                % 08148 RGTR--
+150515003 Wolwelange, Spëtzt    01441  01441                % 08148 RGTR--
+150515002 Wolwelange, Kiosk     01441  01441                % 08148 RGTR--
+150515001 Wolwelange, Ennescht  01442  01442                % 08148 RGTR--
+150510002 Martelange, Leekoll   01442  01442                % 08148 RGTR--
+150510001 Martelange, Gare      01444  01444                % 08148 RGTR--
+150502005 Bigonville, Réimerwe  01449  01449                % 08148 RGTR--
+150502006 Bigonville, Am Duerf  01450  01450                % 08148 RGTR--
+150502001 Bigonville, Huelgaas  01451  01451                % 08148 RGTR--
+150502004 Bigonville, Knupp     01451  01451                % 08148 RGTR--
+150502007 Bigonville, Haaptstr  01452  01452                % 08148 RGTR--
+150502002 Bigonville, Kéismaar  01453  01453                % 08148 RGTR--
+150502005 Bigonville, Réimerwe  01453  01453                % 08148 RGTR--
+150502003 Bigonville, Kimm      01455  01455                % 08148 RGTR--
+150505001 Flatzbour             01456  01456                % 08148 RGTR--
+150513001 Riesenhaff            01458  01458                % 08148 RGTR--
+150503001 Bilsdorf, Am Duerf    01500  01500                % 08148 RGTR--
+150501004 Arsdorf, Um Knupp     01503  01503                % 08148 RGTR--
+150501001 Arsdorf, Am Duerf     01504  01504                % 08148 RGTR--
+150501003 Arsdorf, An der Gaas  01504  01504                % 08148 RGTR--
+150509001 Koetschette, Rond-Po  01507  01507                % 08148 RGTR--
+150512005 Rambrouch, Schlass    01508  01508                % 08148 RGTR--
+150512006 Rambrouch, Gare       01509  01509                % 08148 RGTR--
+120804001 Heispelt, Géierekräi  01513  01513                % 08148 RGTR--
+151003002 Grevels, Ieweschten   01515  01515                % 08148 RGTR--
+151003003 Grevels, Zentrum      01517  01517                % 08148 RGTR--
+151003001 Grevels, Eneschten E  01517  01517                % 08148 RGTR--
+120504001 Hierheck              01519  01519                % 08148 RGTR--
+120501001 Eschdorf, Braas       01521  01521                % 08148 RGTR--
+120501003 Eschdorf, Quatre Ven  01522  01522                % 08148 RGTR--
+120502002 Heiderscheid          01525  01525                % 08148 RGTR--
+120502003 Heiderscheid, Zone C  01526  01526                % 08148 RGTR--
+120502001 Heiderscheid, Fuusse  01527  01527                % 08148 RGTR--
+140801005 Niederfeulen, Atelie  01531  01531                % 08148 RGTR--
+140801001 Niederfeulen, Belle   01531  01531                % 08148 RGTR--
+140801002 Niederfeulen, Faubou  01533  01533                % 08148 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01536  01536                % 08148 RGTR--
+140701015 Ettelbruck, Ecole Pr  01538  01538                % 08148 RGTR--
+140701016 Ettelbruck, Gare      01540  01540                % 08148 RGTR--
+140602008 Erpeldange/Sûre, Um   01542  01542                % 08148 RGTR--
+140603002 Ingeldorf, Café de l  01544  01544                % 08148 RGTR--
+140401008 Diekirch, Lorentzwue  01545  01545                % 08148 RGTR--
+140401004 Diekirch, Gare        01546  01546                % 08148 RGTR--
+140401001 Diekirch, Altersheem  01548  01548                % 08148 RGTR--
+140401009 Diekirch, Neie Kolle  01551                       % 08148 RGTR--

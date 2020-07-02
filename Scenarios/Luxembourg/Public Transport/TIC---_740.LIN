@@ -1,0 +1,38 @@
+*F 03 2
+*Z 01645 TIC---                                             % 01645 TIC---
+*L 740      220402060 221303002  01447  01522               % 01645 TIC---
+*A ad 220402060 221303002 000002  01447  01522              % 01645 TIC---
+*R 1 221303002 220402060 221303002  01447  01522            % 01645 TIC---
+*G TIB 220402060 221303002  01447  01522                    % 01645 TIC---
+*A VE 220402060 221303002 000002  01447  01522              % 01645 TIC---
+*I FD 220402060 221303002        0001660  01447  01522      % 01645 TIC---
+220402060 Esch/Alzette, Lycée          01447                % 01645 TIC---
+220402071 Esch/Alzette, Place   01453 -01453                % 01645 TIC---
+220402105 Esch/Alzette, Rue de  01454 -01454                % 01645 TIC---
+220402106 Esch/Alzette, Tramsc  01455 -01455                % 01645 TIC---
+220402079 Esch/Alzette, Raemer  01456 -01456                % 01645 TIC---
+221301005 Belvaux, Brill        01457 -01457                % 01645 TIC---
+221301016 Belvaux, Roudewee     01458 -01458                % 01645 TIC---
+221301018 Belvaux, Roudewee Sc  01459 -01459                % 01645 TIC---
+221301011 Belvaux, Boulodrome   01500 -01500                % 01645 TIC---
+221304010 Soleuvre, Huuschtewe  01501 -01501                % 01645 TIC---
+221304003 Soleuvre, Cité 2000   01502 -01502                % 01645 TIC---
+221304012 Soleuvre, Pl. de l'I  01504 -01504                % 01645 TIC---
+221304009 Soleuvre, Emile Mayr  01504 -01504                % 01645 TIC---
+221304005 Soleuvre, Cité Schei  01505 -01505                % 01645 TIC---
+221304007 Soleuvre, Déifferden  01506 -01506                % 01645 TIC---
+221304004 Soleuvre, Cité Kauff  01507 -01507                % 01645 TIC---
+220201011 Differdange, Cité Br  01507 -01507                % 01645 TIC---
+220201026 Differdange, Hansen   01509 -01509                % 01645 TIC---
+220201039 Differdange, Profi    01510 -01510                % 01645 TIC---
+220201019 Differdange, Fousban  01511 -01511                % 01645 TIC---
+220201003 Differdange, Arbed    01512 -01512                % 01645 TIC---
+220201034 Differdange, Parc Ge  01514 -01514                % 01645 TIC---
+220201001 Differdange, Aal Gar  01515 -01515                % 01645 TIC---
+220201057 Differdange, Wagner   01516 -01516                % 01645 TIC---
+220203011 Niedercorn, Schoul    01517 -01517                % 01645 TIC---
+220203012 Niedercorn, Suesseme  01518 -01518                % 01645 TIC---
+220203001 Niedercorn, Aale Sta  01519 -01519                % 01645 TIC---
+221303003 Sanem, Niederkuerers  01520 -01520                % 01645 TIC---
+221303001 Sanem, Cité Tornaco   01521 -01521                % 01645 TIC---
+221303002 Sanem, Kierch         01522                       % 01645 TIC---

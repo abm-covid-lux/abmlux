@@ -1,0 +1,1073 @@
+*F 03 2
+*Z 03038 RGTR--                                             % 03038 RGTR--
+*L 110      200405036 170501016  00753  00846               % 03038 RGTR--
+*A BE 200405036 170501016 000001  00753  00846              % 03038 RGTR--
+*A cj 200405036 170501016 000001  00753  00846              % 03038 RGTR--
+*R 1 170501016 200405036 170501016  00753  00846            % 03038 RGTR--
+*G RGB 200405036 170501016  00753  00846                    % 03038 RGTR--
+*A VE 200405036 170501016 000001  00753  00846              % 03038 RGTR--
+*I FD 200405036 170501016        0002895  00753  00846      % 03038 RGTR--
+200405036 Luxembourg, Gare rou         00753                % 03038 RGTR--
+200405046 Luxembourg, Gare Roc -00757  00757                % 03038 RGTR--
+200405005 Centre, Badanstalt   -00805  00805                % 03038 RGTR--
+200410003 Eich, Eecher Plaz    -00809  00809                % 03038 RGTR--
+200409005 Dommeldange, Contour  00811  00811                % 03038 RGTR--
+200409006 Dommeldange, Dauschb  00813  00813                % 03038 RGTR--
+200509001 Waldhaff              00816  00816                % 03038 RGTR--
+180508001 Gonderange, Am Duerf  00822  00822                % 03038 RGTR--
+180508003 Gonderange, Mierchen  00823  00823                % 03038 RGTR--
+180511009 Junglinster, Op der   00824  00824                % 03038 RGTR--
+180511005 Junglinster, Um Lei   00824  00824                % 03038 RGTR--
+180511007 Junglinster, Um Reil  00827  00827                % 03038 RGTR--
+180512003 Junglinster, P+R      00828  00828                % 03038 RGTR--
+180509002 Graulinster, Haaptst  00832  00832                % 03038 RGTR--
+170205001 Rippig, Rippigerkopp  00834  00834                % 03038 RGTR--
+170201005 Altrier, Kreizenhéic  00835  00835                % 03038 RGTR--
+170201002 Altrier, Heeschbrege  00836  00836                % 03038 RGTR--
+170404001 Wolpert               00838  00838                % 03038 RGTR--
+170405003 Mechelshaff           00840  00840                % 03038 RGTR--
+170502001 Lauterborn            00842  00842                % 03038 RGTR--
+170503001 Specksmillen          00843  00843                % 03038 RGTR--
+170501012 Echternach, Nonnenmi  00844  00844                % 03038 RGTR--
+170501004 Echternach, Centre d  00845  00845                % 03038 RGTR--
+170501016 Echternach, Gare Cen  00846                       % 03038 RGTR--
+*Z 03039 RGTR--                                             % 03039 RGTR--
+*L 110      200405036 170501016  00853  00946               % 03039 RGTR--
+*A BE 200405036 170501016 000001  00853  00946              % 03039 RGTR--
+*A cj 200405036 170501016 000001  00853  00946              % 03039 RGTR--
+*R 1 170501016 200405036 170501016  00853  00946            % 03039 RGTR--
+*G RGB 200405036 170501016  00853  00946                    % 03039 RGTR--
+*A VE 200405036 170501016 000001  00853  00946              % 03039 RGTR--
+*I FD 200405036 170501016        0002963  00853  00946      % 03039 RGTR--
+200405036 Luxembourg, Gare rou         00853                % 03039 RGTR--
+200405046 Luxembourg, Gare Roc -00857  00857                % 03039 RGTR--
+200405005 Centre, Badanstalt   -00905  00905                % 03039 RGTR--
+200410003 Eich, Eecher Plaz    -00909  00909                % 03039 RGTR--
+200409005 Dommeldange, Contour  00911  00911                % 03039 RGTR--
+200409006 Dommeldange, Dauschb  00913  00913                % 03039 RGTR--
+200509001 Waldhaff              00916  00916                % 03039 RGTR--
+180508001 Gonderange, Am Duerf  00922  00922                % 03039 RGTR--
+180508003 Gonderange, Mierchen  00923  00923                % 03039 RGTR--
+180511009 Junglinster, Op der   00924  00924                % 03039 RGTR--
+180511005 Junglinster, Um Lei   00924  00924                % 03039 RGTR--
+180511007 Junglinster, Um Reil  00927  00927                % 03039 RGTR--
+180512003 Junglinster, P+R      00928  00928                % 03039 RGTR--
+180509002 Graulinster, Haaptst  00932  00932                % 03039 RGTR--
+170205001 Rippig, Rippigerkopp  00934  00934                % 03039 RGTR--
+170201005 Altrier, Kreizenhéic  00935  00935                % 03039 RGTR--
+170201002 Altrier, Heeschbrege  00936  00936                % 03039 RGTR--
+170404001 Wolpert               00938  00938                % 03039 RGTR--
+170405003 Mechelshaff           00940  00940                % 03039 RGTR--
+170502001 Lauterborn            00942  00942                % 03039 RGTR--
+170503001 Specksmillen          00943  00943                % 03039 RGTR--
+170501012 Echternach, Nonnenmi  00944  00944                % 03039 RGTR--
+170501004 Echternach, Centre d  00945  00945                % 03039 RGTR--
+170501016 Echternach, Gare Cen  00946                       % 03039 RGTR--
+*Z 03040 RGTR--                                             % 03040 RGTR--
+*L 110      200405036 170501016  01553  01646               % 03040 RGTR--
+*A BE 200405036 170501016 000001  01553  01646              % 03040 RGTR--
+*A cj 200405036 170501016 000001  01553  01646              % 03040 RGTR--
+*A bd 200405036 170501016 000001  01553  01646              % 03040 RGTR--
+*R 1 170501016 200405036 170501016  01553  01646            % 03040 RGTR--
+*G RGB 200405036 170501016  01553  01646                    % 03040 RGTR--
+*A VE 200405036 170501016 000001  01553  01646              % 03040 RGTR--
+*I FD 200405036 170501016        0002938  01553  01646      % 03040 RGTR--
+200405036 Luxembourg, Gare rou         01553                % 03040 RGTR--
+200405046 Luxembourg, Gare Roc -01557  01557                % 03040 RGTR--
+200405005 Centre, Badanstalt   -01605  01605                % 03040 RGTR--
+200410003 Eich, Eecher Plaz    -01609  01609                % 03040 RGTR--
+200409005 Dommeldange, Contour  01611  01611                % 03040 RGTR--
+200409006 Dommeldange, Dauschb  01613  01613                % 03040 RGTR--
+200509001 Waldhaff              01616  01616                % 03040 RGTR--
+180508001 Gonderange, Am Duerf  01622  01622                % 03040 RGTR--
+180508003 Gonderange, Mierchen  01623  01623                % 03040 RGTR--
+180511009 Junglinster, Op der   01624  01624                % 03040 RGTR--
+180511005 Junglinster, Um Lei   01624  01624                % 03040 RGTR--
+180511007 Junglinster, Um Reil  01627  01627                % 03040 RGTR--
+180512003 Junglinster, P+R      01628  01628                % 03040 RGTR--
+180509002 Graulinster, Haaptst  01632  01632                % 03040 RGTR--
+170205001 Rippig, Rippigerkopp  01634  01634                % 03040 RGTR--
+170201005 Altrier, Kreizenhéic  01635  01635                % 03040 RGTR--
+170201002 Altrier, Heeschbrege  01636  01636                % 03040 RGTR--
+170404001 Wolpert               01638  01638                % 03040 RGTR--
+170405003 Mechelshaff           01640  01640                % 03040 RGTR--
+170502001 Lauterborn            01642  01642                % 03040 RGTR--
+170503001 Specksmillen          01643  01643                % 03040 RGTR--
+170501012 Echternach, Nonnenmi  01644  01644                % 03040 RGTR--
+170501004 Echternach, Centre d  01645  01645                % 03040 RGTR--
+170501016 Echternach, Gare Cen  01646                       % 03040 RGTR--
+*Z 03041 RGTR--                                             % 03041 RGTR--
+*L 110      200405036 170501016  01653  01746               % 03041 RGTR--
+*A BE 200405036 170501016 000001  01653  01746              % 03041 RGTR--
+*A cj 200405036 170501016 000001  01653  01746              % 03041 RGTR--
+*A bd 200405036 170501016 000001  01653  01746              % 03041 RGTR--
+*R 1 170501016 200405036 170501016  01653  01746            % 03041 RGTR--
+*G RGB 200405036 170501016  01653  01746                    % 03041 RGTR--
+*A VE 200405036 170501016 000001  01653  01746              % 03041 RGTR--
+*I FD 200405036 170501016        0002202  01653  01746      % 03041 RGTR--
+200405036 Luxembourg, Gare rou         01653                % 03041 RGTR--
+200405046 Luxembourg, Gare Roc -01657  01657                % 03041 RGTR--
+200405005 Centre, Badanstalt   -01705  01705                % 03041 RGTR--
+200410003 Eich, Eecher Plaz    -01709  01709                % 03041 RGTR--
+200409005 Dommeldange, Contour  01711  01711                % 03041 RGTR--
+200409006 Dommeldange, Dauschb  01713  01713                % 03041 RGTR--
+200509001 Waldhaff              01716  01716                % 03041 RGTR--
+180508001 Gonderange, Am Duerf  01722  01722                % 03041 RGTR--
+180508003 Gonderange, Mierchen  01723  01723                % 03041 RGTR--
+180511009 Junglinster, Op der   01724  01724                % 03041 RGTR--
+180511005 Junglinster, Um Lei   01724  01724                % 03041 RGTR--
+180511007 Junglinster, Um Reil  01727  01727                % 03041 RGTR--
+180512003 Junglinster, P+R      01728  01728                % 03041 RGTR--
+180509002 Graulinster, Haaptst  01732  01732                % 03041 RGTR--
+170205001 Rippig, Rippigerkopp  01734  01734                % 03041 RGTR--
+170201005 Altrier, Kreizenhéic  01735  01735                % 03041 RGTR--
+170201002 Altrier, Heeschbrege  01736  01736                % 03041 RGTR--
+170404001 Wolpert               01738  01738                % 03041 RGTR--
+170405003 Mechelshaff           01740  01740                % 03041 RGTR--
+170502001 Lauterborn            01742  01742                % 03041 RGTR--
+170503001 Specksmillen          01743  01743                % 03041 RGTR--
+170501012 Echternach, Nonnenmi  01744  01744                % 03041 RGTR--
+170501004 Echternach, Centre d  01745  01745                % 03041 RGTR--
+170501016 Echternach, Gare Cen  01746                       % 03041 RGTR--
+*Z 03042 RGTR--                                             % 03042 RGTR--
+*L 110      200405036 170501016  01723  01816               % 03042 RGTR--
+*A BE 200405036 170501016 000001  01723  01816              % 03042 RGTR--
+*A cj 200405036 170501016 000001  01723  01816              % 03042 RGTR--
+*R 1 170501016 200405036 170501016  01723  01816            % 03042 RGTR--
+*G RGB 200405036 170501016  01723  01816                    % 03042 RGTR--
+*A VE 200405036 170501016 000001  01723  01816              % 03042 RGTR--
+*I FD 200405036 170501016        0002199  01723  01816      % 03042 RGTR--
+200405036 Luxembourg, Gare rou         01723                % 03042 RGTR--
+200405046 Luxembourg, Gare Roc -01727  01727                % 03042 RGTR--
+200405005 Centre, Badanstalt   -01735  01735                % 03042 RGTR--
+200410003 Eich, Eecher Plaz    -01739  01739                % 03042 RGTR--
+200409005 Dommeldange, Contour  01741  01741                % 03042 RGTR--
+200409006 Dommeldange, Dauschb  01743  01743                % 03042 RGTR--
+200509001 Waldhaff              01746  01746                % 03042 RGTR--
+180508001 Gonderange, Am Duerf  01752  01752                % 03042 RGTR--
+180508003 Gonderange, Mierchen  01753  01753                % 03042 RGTR--
+180511009 Junglinster, Op der   01754  01754                % 03042 RGTR--
+180511005 Junglinster, Um Lei   01754  01754                % 03042 RGTR--
+180511007 Junglinster, Um Reil  01757  01757                % 03042 RGTR--
+180512003 Junglinster, P+R      01758  01758                % 03042 RGTR--
+180509002 Graulinster, Haaptst  01802  01802                % 03042 RGTR--
+170205001 Rippig, Rippigerkopp  01804  01804                % 03042 RGTR--
+170201005 Altrier, Kreizenhéic  01805  01805                % 03042 RGTR--
+170201002 Altrier, Heeschbrege  01806  01806                % 03042 RGTR--
+170404001 Wolpert               01808  01808                % 03042 RGTR--
+170405003 Mechelshaff           01810  01810                % 03042 RGTR--
+170502001 Lauterborn            01812  01812                % 03042 RGTR--
+170503001 Specksmillen          01813  01813                % 03042 RGTR--
+170501012 Echternach, Nonnenmi  01814  01814                % 03042 RGTR--
+170501004 Echternach, Centre d  01815  01815                % 03042 RGTR--
+170501016 Echternach, Gare Cen  01816                       % 03042 RGTR--
+*Z 03043 RGTR--                                             % 03043 RGTR--
+*L 110      200405036 170501016  01753  01846               % 03043 RGTR--
+*A BE 200405036 170501016 000001  01753  01846              % 03043 RGTR--
+*A cj 200405036 170501016 000001  01753  01846              % 03043 RGTR--
+*A IM 200405036 170501016 000001  01753  01846              % 03043 RGTR--
+*R 1 170501016 200405036 170501016  01753  01846            % 03043 RGTR--
+*G RGB 200405036 170501016  01753  01846                    % 03043 RGTR--
+*A VE 200405036 170501016 000001  01753  01846              % 03043 RGTR--
+*I FD 200405036 170501016        0002203  01753  01846      % 03043 RGTR--
+200405036 Luxembourg, Gare rou         01753                % 03043 RGTR--
+200405046 Luxembourg, Gare Roc -01757  01757                % 03043 RGTR--
+200405005 Centre, Badanstalt   -01805  01805                % 03043 RGTR--
+200410003 Eich, Eecher Plaz    -01809  01809                % 03043 RGTR--
+200409005 Dommeldange, Contour  01811  01811                % 03043 RGTR--
+200409006 Dommeldange, Dauschb  01813  01813                % 03043 RGTR--
+200509001 Waldhaff              01816  01816                % 03043 RGTR--
+180508001 Gonderange, Am Duerf  01822  01822                % 03043 RGTR--
+180508003 Gonderange, Mierchen  01823  01823                % 03043 RGTR--
+180511009 Junglinster, Op der   01824  01824                % 03043 RGTR--
+180511005 Junglinster, Um Lei   01824  01824                % 03043 RGTR--
+180511007 Junglinster, Um Reil  01827  01827                % 03043 RGTR--
+180512003 Junglinster, P+R      01828  01828                % 03043 RGTR--
+180509002 Graulinster, Haaptst  01832  01832                % 03043 RGTR--
+170205001 Rippig, Rippigerkopp  01834  01834                % 03043 RGTR--
+170201005 Altrier, Kreizenhéic  01835  01835                % 03043 RGTR--
+170201002 Altrier, Heeschbrege  01836  01836                % 03043 RGTR--
+170404001 Wolpert               01838  01838                % 03043 RGTR--
+170405003 Mechelshaff           01840  01840                % 03043 RGTR--
+170502001 Lauterborn            01842  01842                % 03043 RGTR--
+170503001 Specksmillen          01843  01843                % 03043 RGTR--
+170501012 Echternach, Nonnenmi  01844  01844                % 03043 RGTR--
+170501004 Echternach, Centre d  01845  01845                % 03043 RGTR--
+170501016 Echternach, Gare Cen  01846                       % 03043 RGTR--
+*Z 03044 RGTR--                                             % 03044 RGTR--
+*L 110      200405036 170501016  01608  01701               % 03044 RGTR--
+*A cj 200405036 170501016 000002  01608  01701              % 03044 RGTR--
+*A QG 200405036 170501016 000002  01608  01701              % 03044 RGTR--
+*R 1 170501016 200405036 170501016  01608  01701            % 03044 RGTR--
+*G RGB 200405036 170501016  01608  01701                    % 03044 RGTR--
+*A VE 200405036 170501016 000002  01608  01701              % 03044 RGTR--
+*I FD 200405036 170501016        0002192  01608  01701      % 03044 RGTR--
+200405036 Luxembourg, Gare rou         01608                % 03044 RGTR--
+200405046 Luxembourg, Gare Roc -01612  01612                % 03044 RGTR--
+200405005 Centre, Badanstalt   -01620  01620                % 03044 RGTR--
+200410003 Eich, Eecher Plaz    -01624  01624                % 03044 RGTR--
+200409005 Dommeldange, Contour  01626  01626                % 03044 RGTR--
+200409006 Dommeldange, Dauschb  01628  01628                % 03044 RGTR--
+200509001 Waldhaff              01631  01631                % 03044 RGTR--
+180508001 Gonderange, Am Duerf  01637  01637                % 03044 RGTR--
+180508003 Gonderange, Mierchen  01638  01638                % 03044 RGTR--
+180511009 Junglinster, Op der   01639  01639                % 03044 RGTR--
+180511005 Junglinster, Um Lei   01639  01639                % 03044 RGTR--
+180511007 Junglinster, Um Reil  01642  01642                % 03044 RGTR--
+180512003 Junglinster, P+R      01643  01643                % 03044 RGTR--
+180509002 Graulinster, Haaptst  01647  01647                % 03044 RGTR--
+170205001 Rippig, Rippigerkopp  01649  01649                % 03044 RGTR--
+170201005 Altrier, Kreizenhéic  01650  01650                % 03044 RGTR--
+170201002 Altrier, Heeschbrege  01651  01651                % 03044 RGTR--
+170404001 Wolpert               01653  01653                % 03044 RGTR--
+170405003 Mechelshaff           01655  01655                % 03044 RGTR--
+170502001 Lauterborn            01657  01657                % 03044 RGTR--
+170503001 Specksmillen          01658  01658                % 03044 RGTR--
+170501012 Echternach, Nonnenmi  01659  01659                % 03044 RGTR--
+170501004 Echternach, Centre d  01700  01700                % 03044 RGTR--
+170501016 Echternach, Gare Cen  01701                       % 03044 RGTR--
+*Z 03045 RGTR--                                             % 03045 RGTR--
+*L 110      200405036 170501016  01708  01801               % 03045 RGTR--
+*A cj 200405036 170501016 000002  01708  01801              % 03045 RGTR--
+*A bd 200405036 170501016 000002  01708  01801              % 03045 RGTR--
+*A IM 200405036 170501016 000002  01708  01801              % 03045 RGTR--
+*R 1 170501016 200405036 170501016  01708  01801            % 03045 RGTR--
+*G RGB 200405036 170501016  01708  01801                    % 03045 RGTR--
+*A VE 200405036 170501016 000002  01708  01801              % 03045 RGTR--
+*I FD 200405036 170501016        0002195  01708  01801      % 03045 RGTR--
+200405036 Luxembourg, Gare rou         01708                % 03045 RGTR--
+200405046 Luxembourg, Gare Roc -01712  01712                % 03045 RGTR--
+200405005 Centre, Badanstalt   -01720  01720                % 03045 RGTR--
+200410003 Eich, Eecher Plaz    -01724  01724                % 03045 RGTR--
+200409005 Dommeldange, Contour  01726  01726                % 03045 RGTR--
+200409006 Dommeldange, Dauschb  01728  01728                % 03045 RGTR--
+200509001 Waldhaff              01731  01731                % 03045 RGTR--
+180508001 Gonderange, Am Duerf  01737  01737                % 03045 RGTR--
+180508003 Gonderange, Mierchen  01738  01738                % 03045 RGTR--
+180511009 Junglinster, Op der   01739  01739                % 03045 RGTR--
+180511005 Junglinster, Um Lei   01739  01739                % 03045 RGTR--
+180511007 Junglinster, Um Reil  01742  01742                % 03045 RGTR--
+180512003 Junglinster, P+R      01743  01743                % 03045 RGTR--
+180509002 Graulinster, Haaptst  01747  01747                % 03045 RGTR--
+170205001 Rippig, Rippigerkopp  01749  01749                % 03045 RGTR--
+170201005 Altrier, Kreizenhéic  01750  01750                % 03045 RGTR--
+170201002 Altrier, Heeschbrege  01751  01751                % 03045 RGTR--
+170404001 Wolpert               01753  01753                % 03045 RGTR--
+170405003 Mechelshaff           01755  01755                % 03045 RGTR--
+170502001 Lauterborn            01757  01757                % 03045 RGTR--
+170503001 Specksmillen          01758  01758                % 03045 RGTR--
+170501012 Echternach, Nonnenmi  01759  01759                % 03045 RGTR--
+170501004 Echternach, Centre d  01800  01800                % 03045 RGTR--
+170501016 Echternach, Gare Cen  01801                       % 03045 RGTR--
+*Z 03046 RGTR--                                             % 03046 RGTR--
+*L 110      200405036 170501016  01738  01831               % 03046 RGTR--
+*A BE 200405036 170501016 000002  01738  01831              % 03046 RGTR--
+*A cj 200405036 170501016 000002  01738  01831              % 03046 RGTR--
+*R 1 170501016 200405036 170501016  01738  01831            % 03046 RGTR--
+*G RGB 200405036 170501016  01738  01831                    % 03046 RGTR--
+*A VE 200405036 170501016 000002  01738  01831              % 03046 RGTR--
+*I FD 200405036 170501016        0002499  01738  01831      % 03046 RGTR--
+200405036 Luxembourg, Gare rou         01738                % 03046 RGTR--
+200405046 Luxembourg, Gare Roc -01742  01742                % 03046 RGTR--
+200405005 Centre, Badanstalt   -01750  01750                % 03046 RGTR--
+200410003 Eich, Eecher Plaz    -01754  01754                % 03046 RGTR--
+200409005 Dommeldange, Contour  01756  01756                % 03046 RGTR--
+200409006 Dommeldange, Dauschb  01758  01758                % 03046 RGTR--
+200509001 Waldhaff              01801  01801                % 03046 RGTR--
+180508001 Gonderange, Am Duerf  01807  01807                % 03046 RGTR--
+180508003 Gonderange, Mierchen  01808  01808                % 03046 RGTR--
+180511009 Junglinster, Op der   01809  01809                % 03046 RGTR--
+180511005 Junglinster, Um Lei   01809  01809                % 03046 RGTR--
+180511007 Junglinster, Um Reil  01812  01812                % 03046 RGTR--
+180512003 Junglinster, P+R      01813  01813                % 03046 RGTR--
+180509002 Graulinster, Haaptst  01817  01817                % 03046 RGTR--
+170205001 Rippig, Rippigerkopp  01819  01819                % 03046 RGTR--
+170201005 Altrier, Kreizenhéic  01820  01820                % 03046 RGTR--
+170201002 Altrier, Heeschbrege  01821  01821                % 03046 RGTR--
+170404001 Wolpert               01823  01823                % 03046 RGTR--
+170405003 Mechelshaff           01825  01825                % 03046 RGTR--
+170502001 Lauterborn            01827  01827                % 03046 RGTR--
+170503001 Specksmillen          01828  01828                % 03046 RGTR--
+170501012 Echternach, Nonnenmi  01829  01829                % 03046 RGTR--
+170501004 Echternach, Centre d  01830  01830                % 03046 RGTR--
+170501016 Echternach, Gare Cen  01831                       % 03046 RGTR--
+*Z 03047 RGTR--                                             % 03047 RGTR--
+*L 110      200405036 170501016  00953  01039               % 03047 RGTR--
+*A BE 200405036 170501016 000001  00953  01039              % 03047 RGTR--
+*A cj 200405036 170501016 000001  00953  01039              % 03047 RGTR--
+*R 1 170501016 200405036 170501016  00953  01039            % 03047 RGTR--
+*G RGB 200405036 170501016  00953  01039                    % 03047 RGTR--
+*A VE 200405036 170501016 000001  00953  01039              % 03047 RGTR--
+*I FD 200405036 170501016        0002964  00953  01039      % 03047 RGTR--
+200405036 Luxembourg, Gare rou         00953                % 03047 RGTR--
+200405046 Luxembourg, Gare Roc -00955  00955                % 03047 RGTR--
+200405005 Centre, Badanstalt   -01002  01002                % 03047 RGTR--
+200410003 Eich, Eecher Plaz    -01005  01005                % 03047 RGTR--
+200409005 Dommeldange, Contour  01007  01007                % 03047 RGTR--
+200409006 Dommeldange, Dauschb  01008  01008                % 03047 RGTR--
+200509001 Waldhaff              01011  01011                % 03047 RGTR--
+180508001 Gonderange, Am Duerf  01016  01016                % 03047 RGTR--
+180508003 Gonderange, Mierchen  01017  01017                % 03047 RGTR--
+180511009 Junglinster, Op der   01018  01018                % 03047 RGTR--
+180511005 Junglinster, Um Lei   01019  01019                % 03047 RGTR--
+180511007 Junglinster, Um Reil  01021  01021                % 03047 RGTR--
+180512003 Junglinster, P+R      01022  01022                % 03047 RGTR--
+180509002 Graulinster, Haaptst  01025  01025                % 03047 RGTR--
+170205001 Rippig, Rippigerkopp  01027  01027                % 03047 RGTR--
+170201005 Altrier, Kreizenhéic  01028  01028                % 03047 RGTR--
+170201002 Altrier, Heeschbrege  01029  01029                % 03047 RGTR--
+170404001 Wolpert               01031  01031                % 03047 RGTR--
+170405003 Mechelshaff           01033  01033                % 03047 RGTR--
+170502001 Lauterborn            01035  01035                % 03047 RGTR--
+170503001 Specksmillen          01036  01036                % 03047 RGTR--
+170501012 Echternach, Nonnenmi  01037  01037                % 03047 RGTR--
+170501004 Echternach, Centre d  01038  01038                % 03047 RGTR--
+170501016 Echternach, Gare Cen  01039                       % 03047 RGTR--
+*Z 03048 RGTR--                                             % 03048 RGTR--
+*L 110      200405036 170501016  01053  01139               % 03048 RGTR--
+*A BE 200405036 170501016 000001  01053  01139              % 03048 RGTR--
+*A cj 200405036 170501016 000001  01053  01139              % 03048 RGTR--
+*R 1 170501016 200405036 170501016  01053  01139            % 03048 RGTR--
+*G RGB 200405036 170501016  01053  01139                    % 03048 RGTR--
+*A VE 200405036 170501016 000001  01053  01139              % 03048 RGTR--
+*I FD 200405036 170501016        0002965  01053  01139      % 03048 RGTR--
+200405036 Luxembourg, Gare rou         01053                % 03048 RGTR--
+200405046 Luxembourg, Gare Roc -01055  01055                % 03048 RGTR--
+200405005 Centre, Badanstalt   -01102  01102                % 03048 RGTR--
+200410003 Eich, Eecher Plaz    -01105  01105                % 03048 RGTR--
+200409005 Dommeldange, Contour  01107  01107                % 03048 RGTR--
+200409006 Dommeldange, Dauschb  01108  01108                % 03048 RGTR--
+200509001 Waldhaff              01111  01111                % 03048 RGTR--
+180508001 Gonderange, Am Duerf  01116  01116                % 03048 RGTR--
+180508003 Gonderange, Mierchen  01117  01117                % 03048 RGTR--
+180511009 Junglinster, Op der   01118  01118                % 03048 RGTR--
+180511005 Junglinster, Um Lei   01119  01119                % 03048 RGTR--
+180511007 Junglinster, Um Reil  01121  01121                % 03048 RGTR--
+180512003 Junglinster, P+R      01122  01122                % 03048 RGTR--
+180509002 Graulinster, Haaptst  01125  01125                % 03048 RGTR--
+170205001 Rippig, Rippigerkopp  01127  01127                % 03048 RGTR--
+170201005 Altrier, Kreizenhéic  01128  01128                % 03048 RGTR--
+170201002 Altrier, Heeschbrege  01129  01129                % 03048 RGTR--
+170404001 Wolpert               01131  01131                % 03048 RGTR--
+170405003 Mechelshaff           01133  01133                % 03048 RGTR--
+170502001 Lauterborn            01135  01135                % 03048 RGTR--
+170503001 Specksmillen          01136  01136                % 03048 RGTR--
+170501012 Echternach, Nonnenmi  01137  01137                % 03048 RGTR--
+170501004 Echternach, Centre d  01138  01138                % 03048 RGTR--
+170501016 Echternach, Gare Cen  01139                       % 03048 RGTR--
+*Z 03049 RGTR--                                             % 03049 RGTR--
+*L 110      200405036 170501016  01153  01239               % 03049 RGTR--
+*A BE 200405036 170501016 000001  01153  01239              % 03049 RGTR--
+*A cj 200405036 170501016 000001  01153  01239              % 03049 RGTR--
+*R 1 170501016 200405036 170501016  01153  01239            % 03049 RGTR--
+*G RGB 200405036 170501016  01153  01239                    % 03049 RGTR--
+*A VE 200405036 170501016 000001  01153  01239              % 03049 RGTR--
+*I FD 200405036 170501016        0002616  01153  01239      % 03049 RGTR--
+200405036 Luxembourg, Gare rou         01153                % 03049 RGTR--
+200405046 Luxembourg, Gare Roc -01155  01155                % 03049 RGTR--
+200405005 Centre, Badanstalt   -01202  01202                % 03049 RGTR--
+200410003 Eich, Eecher Plaz    -01205  01205                % 03049 RGTR--
+200409005 Dommeldange, Contour  01207  01207                % 03049 RGTR--
+200409006 Dommeldange, Dauschb  01208  01208                % 03049 RGTR--
+200509001 Waldhaff              01211  01211                % 03049 RGTR--
+180508001 Gonderange, Am Duerf  01216  01216                % 03049 RGTR--
+180508003 Gonderange, Mierchen  01217  01217                % 03049 RGTR--
+180511009 Junglinster, Op der   01218  01218                % 03049 RGTR--
+180511005 Junglinster, Um Lei   01219  01219                % 03049 RGTR--
+180511007 Junglinster, Um Reil  01221  01221                % 03049 RGTR--
+180512003 Junglinster, P+R      01222  01222                % 03049 RGTR--
+180509002 Graulinster, Haaptst  01225  01225                % 03049 RGTR--
+170205001 Rippig, Rippigerkopp  01227  01227                % 03049 RGTR--
+170201005 Altrier, Kreizenhéic  01228  01228                % 03049 RGTR--
+170201002 Altrier, Heeschbrege  01229  01229                % 03049 RGTR--
+170404001 Wolpert               01231  01231                % 03049 RGTR--
+170405003 Mechelshaff           01233  01233                % 03049 RGTR--
+170502001 Lauterborn            01235  01235                % 03049 RGTR--
+170503001 Specksmillen          01236  01236                % 03049 RGTR--
+170501012 Echternach, Nonnenmi  01237  01237                % 03049 RGTR--
+170501004 Echternach, Centre d  01238  01238                % 03049 RGTR--
+170501016 Echternach, Gare Cen  01239                       % 03049 RGTR--
+*Z 03050 RGTR--                                             % 03050 RGTR--
+*L 110      200405036 170501016  01253  01339               % 03050 RGTR--
+*A BE 200405036 170501016 000001  01253  01339              % 03050 RGTR--
+*A cj 200405036 170501016 000001  01253  01339              % 03050 RGTR--
+*R 1 170501016 200405036 170501016  01253  01339            % 03050 RGTR--
+*G RGB 200405036 170501016  01253  01339                    % 03050 RGTR--
+*A VE 200405036 170501016 000001  01253  01339              % 03050 RGTR--
+*I FD 200405036 170501016        0002210  01253  01339      % 03050 RGTR--
+200405036 Luxembourg, Gare rou         01253                % 03050 RGTR--
+200405046 Luxembourg, Gare Roc -01255  01255                % 03050 RGTR--
+200405005 Centre, Badanstalt   -01302  01302                % 03050 RGTR--
+200410003 Eich, Eecher Plaz    -01305  01305                % 03050 RGTR--
+200409005 Dommeldange, Contour  01307  01307                % 03050 RGTR--
+200409006 Dommeldange, Dauschb  01308  01308                % 03050 RGTR--
+200509001 Waldhaff              01311  01311                % 03050 RGTR--
+180508001 Gonderange, Am Duerf  01316  01316                % 03050 RGTR--
+180508003 Gonderange, Mierchen  01317  01317                % 03050 RGTR--
+180511009 Junglinster, Op der   01318  01318                % 03050 RGTR--
+180511005 Junglinster, Um Lei   01319  01319                % 03050 RGTR--
+180511007 Junglinster, Um Reil  01321  01321                % 03050 RGTR--
+180512003 Junglinster, P+R      01322  01322                % 03050 RGTR--
+180509002 Graulinster, Haaptst  01325  01325                % 03050 RGTR--
+170205001 Rippig, Rippigerkopp  01327  01327                % 03050 RGTR--
+170201005 Altrier, Kreizenhéic  01328  01328                % 03050 RGTR--
+170201002 Altrier, Heeschbrege  01329  01329                % 03050 RGTR--
+170404001 Wolpert               01331  01331                % 03050 RGTR--
+170405003 Mechelshaff           01333  01333                % 03050 RGTR--
+170502001 Lauterborn            01335  01335                % 03050 RGTR--
+170503001 Specksmillen          01336  01336                % 03050 RGTR--
+170501012 Echternach, Nonnenmi  01337  01337                % 03050 RGTR--
+170501004 Echternach, Centre d  01338  01338                % 03050 RGTR--
+170501016 Echternach, Gare Cen  01339                       % 03050 RGTR--
+*Z 03051 RGTR--                                             % 03051 RGTR--
+*L 110      200405036 170501016  01353  01439               % 03051 RGTR--
+*A BE 200405036 170501016 000001  01353  01439              % 03051 RGTR--
+*A cj 200405036 170501016 000001  01353  01439              % 03051 RGTR--
+*R 1 170501016 200405036 170501016  01353  01439            % 03051 RGTR--
+*G RGB 200405036 170501016  01353  01439                    % 03051 RGTR--
+*A VE 200405036 170501016 000001  01353  01439              % 03051 RGTR--
+*I FD 200405036 170501016        0002966  01353  01439      % 03051 RGTR--
+200405036 Luxembourg, Gare rou         01353                % 03051 RGTR--
+200405046 Luxembourg, Gare Roc -01355  01355                % 03051 RGTR--
+200405005 Centre, Badanstalt   -01402  01402                % 03051 RGTR--
+200410003 Eich, Eecher Plaz    -01405  01405                % 03051 RGTR--
+200409005 Dommeldange, Contour  01407  01407                % 03051 RGTR--
+200409006 Dommeldange, Dauschb  01408  01408                % 03051 RGTR--
+200509001 Waldhaff              01411  01411                % 03051 RGTR--
+180508001 Gonderange, Am Duerf  01416  01416                % 03051 RGTR--
+180508003 Gonderange, Mierchen  01417  01417                % 03051 RGTR--
+180511009 Junglinster, Op der   01418  01418                % 03051 RGTR--
+180511005 Junglinster, Um Lei   01419  01419                % 03051 RGTR--
+180511007 Junglinster, Um Reil  01421  01421                % 03051 RGTR--
+180512003 Junglinster, P+R      01422  01422                % 03051 RGTR--
+180509002 Graulinster, Haaptst  01425  01425                % 03051 RGTR--
+170205001 Rippig, Rippigerkopp  01427  01427                % 03051 RGTR--
+170201005 Altrier, Kreizenhéic  01428  01428                % 03051 RGTR--
+170201002 Altrier, Heeschbrege  01429  01429                % 03051 RGTR--
+170404001 Wolpert               01431  01431                % 03051 RGTR--
+170405003 Mechelshaff           01433  01433                % 03051 RGTR--
+170502001 Lauterborn            01435  01435                % 03051 RGTR--
+170503001 Specksmillen          01436  01436                % 03051 RGTR--
+170501012 Echternach, Nonnenmi  01437  01437                % 03051 RGTR--
+170501004 Echternach, Centre d  01438  01438                % 03051 RGTR--
+170501016 Echternach, Gare Cen  01439                       % 03051 RGTR--
+*Z 03052 RGTR--                                             % 03052 RGTR--
+*L 110      200405036 170501016  01453  01539               % 03052 RGTR--
+*A BE 200405036 170501016 000001  01453  01539              % 03052 RGTR--
+*A cj 200405036 170501016 000001  01453  01539              % 03052 RGTR--
+*R 1 170501016 200405036 170501016  01453  01539            % 03052 RGTR--
+*G RGB 200405036 170501016  01453  01539                    % 03052 RGTR--
+*A VE 200405036 170501016 000001  01453  01539              % 03052 RGTR--
+*I FD 200405036 170501016        0002940  01453  01539      % 03052 RGTR--
+200405036 Luxembourg, Gare rou         01453                % 03052 RGTR--
+200405046 Luxembourg, Gare Roc -01455  01455                % 03052 RGTR--
+200405005 Centre, Badanstalt   -01502  01502                % 03052 RGTR--
+200410003 Eich, Eecher Plaz    -01505  01505                % 03052 RGTR--
+200409005 Dommeldange, Contour  01507  01507                % 03052 RGTR--
+200409006 Dommeldange, Dauschb  01508  01508                % 03052 RGTR--
+200509001 Waldhaff              01511  01511                % 03052 RGTR--
+180508001 Gonderange, Am Duerf  01516  01516                % 03052 RGTR--
+180508003 Gonderange, Mierchen  01517  01517                % 03052 RGTR--
+180511009 Junglinster, Op der   01518  01518                % 03052 RGTR--
+180511005 Junglinster, Um Lei   01519  01519                % 03052 RGTR--
+180511007 Junglinster, Um Reil  01521  01521                % 03052 RGTR--
+180512003 Junglinster, P+R      01522  01522                % 03052 RGTR--
+180509002 Graulinster, Haaptst  01525  01525                % 03052 RGTR--
+170205001 Rippig, Rippigerkopp  01527  01527                % 03052 RGTR--
+170201005 Altrier, Kreizenhéic  01528  01528                % 03052 RGTR--
+170201002 Altrier, Heeschbrege  01529  01529                % 03052 RGTR--
+170404001 Wolpert               01531  01531                % 03052 RGTR--
+170405003 Mechelshaff           01533  01533                % 03052 RGTR--
+170502001 Lauterborn            01535  01535                % 03052 RGTR--
+170503001 Specksmillen          01536  01536                % 03052 RGTR--
+170501012 Echternach, Nonnenmi  01537  01537                % 03052 RGTR--
+170501004 Echternach, Centre d  01538  01538                % 03052 RGTR--
+170501016 Echternach, Gare Cen  01539                       % 03052 RGTR--
+*Z 03053 RGTR--                                             % 03053 RGTR--
+*L 110      200405036 170501016  01823  01909               % 03053 RGTR--
+*A cj 200405036 170501016 000001  01823  01909              % 03053 RGTR--
+*A bd 200405036 170501016 000001  01823  01909              % 03053 RGTR--
+*A IM 200405036 170501016 000001  01823  01909              % 03053 RGTR--
+*R 1 170501016 200405036 170501016  01823  01909            % 03053 RGTR--
+*G RGB 200405036 170501016  01823  01909                    % 03053 RGTR--
+*A VE 200405036 170501016 000001  01823  01909              % 03053 RGTR--
+*I FD 200405036 170501016        0002200  01823  01909      % 03053 RGTR--
+200405036 Luxembourg, Gare rou         01823                % 03053 RGTR--
+200405046 Luxembourg, Gare Roc -01825  01825                % 03053 RGTR--
+200405005 Centre, Badanstalt   -01832  01832                % 03053 RGTR--
+200410003 Eich, Eecher Plaz    -01835  01835                % 03053 RGTR--
+200409005 Dommeldange, Contour  01837  01837                % 03053 RGTR--
+200409006 Dommeldange, Dauschb  01838  01838                % 03053 RGTR--
+200509001 Waldhaff              01841  01841                % 03053 RGTR--
+180508001 Gonderange, Am Duerf  01846  01846                % 03053 RGTR--
+180508003 Gonderange, Mierchen  01847  01847                % 03053 RGTR--
+180511009 Junglinster, Op der   01848  01848                % 03053 RGTR--
+180511005 Junglinster, Um Lei   01849  01849                % 03053 RGTR--
+180511007 Junglinster, Um Reil  01851  01851                % 03053 RGTR--
+180512003 Junglinster, P+R      01852  01852                % 03053 RGTR--
+180509002 Graulinster, Haaptst  01855  01855                % 03053 RGTR--
+170205001 Rippig, Rippigerkopp  01857  01857                % 03053 RGTR--
+170201005 Altrier, Kreizenhéic  01858  01858                % 03053 RGTR--
+170201002 Altrier, Heeschbrege  01859  01859                % 03053 RGTR--
+170404001 Wolpert               01901  01901                % 03053 RGTR--
+170405003 Mechelshaff           01903  01903                % 03053 RGTR--
+170502001 Lauterborn            01905  01905                % 03053 RGTR--
+170503001 Specksmillen          01906  01906                % 03053 RGTR--
+170501012 Echternach, Nonnenmi  01907  01907                % 03053 RGTR--
+170501004 Echternach, Centre d  01908  01908                % 03053 RGTR--
+170501016 Echternach, Gare Cen  01909                       % 03053 RGTR--
+*Z 03054 RGTR--                                             % 03054 RGTR--
+*L 110      200405036 170501016  01853  01939               % 03054 RGTR--
+*A BE 200405036 170501016 000001  01853  01939              % 03054 RGTR--
+*A cj 200405036 170501016 000001  01853  01939              % 03054 RGTR--
+*R 1 170501016 200405036 170501016  01853  01939            % 03054 RGTR--
+*G RGB 200405036 170501016  01853  01939                    % 03054 RGTR--
+*A VE 200405036 170501016 000001  01853  01939              % 03054 RGTR--
+*I FD 200405036 170501016        0002211  01853  01939      % 03054 RGTR--
+200405036 Luxembourg, Gare rou         01853                % 03054 RGTR--
+200405046 Luxembourg, Gare Roc -01855  01855                % 03054 RGTR--
+200405005 Centre, Badanstalt   -01902  01902                % 03054 RGTR--
+200410003 Eich, Eecher Plaz    -01905  01905                % 03054 RGTR--
+200409005 Dommeldange, Contour  01907  01907                % 03054 RGTR--
+200409006 Dommeldange, Dauschb  01908  01908                % 03054 RGTR--
+200509001 Waldhaff              01911  01911                % 03054 RGTR--
+180508001 Gonderange, Am Duerf  01916  01916                % 03054 RGTR--
+180508003 Gonderange, Mierchen  01917  01917                % 03054 RGTR--
+180511009 Junglinster, Op der   01918  01918                % 03054 RGTR--
+180511005 Junglinster, Um Lei   01919  01919                % 03054 RGTR--
+180511007 Junglinster, Um Reil  01921  01921                % 03054 RGTR--
+180512003 Junglinster, P+R      01922  01922                % 03054 RGTR--
+180509002 Graulinster, Haaptst  01925  01925                % 03054 RGTR--
+170205001 Rippig, Rippigerkopp  01927  01927                % 03054 RGTR--
+170201005 Altrier, Kreizenhéic  01928  01928                % 03054 RGTR--
+170201002 Altrier, Heeschbrege  01929  01929                % 03054 RGTR--
+170404001 Wolpert               01931  01931                % 03054 RGTR--
+170405003 Mechelshaff           01933  01933                % 03054 RGTR--
+170502001 Lauterborn            01935  01935                % 03054 RGTR--
+170503001 Specksmillen          01936  01936                % 03054 RGTR--
+170501012 Echternach, Nonnenmi  01937  01937                % 03054 RGTR--
+170501004 Echternach, Centre d  01938  01938                % 03054 RGTR--
+170501016 Echternach, Gare Cen  01939                       % 03054 RGTR--
+*Z 03055 RGTR--                                             % 03055 RGTR--
+*L 110      170501016 200405036  00558  00649               % 03055 RGTR--
+*A BE 170501016 200405036 000002  00558  00649              % 03055 RGTR--
+*A cj 170501016 200405036 000002  00558  00649              % 03055 RGTR--
+*A PI 170501016 200405036 000002  00558  00649              % 03055 RGTR--
+*A V  170501016 200405036 000002  00558  00649              % 03055 RGTR--
+*R 2 200405036 170501016 200405036  00558  00649            % 03055 RGTR--
+*G RGB 170501016 200405036  00558  00649                    % 03055 RGTR--
+*A VE 170501016 200405036 000002  00558  00649              % 03055 RGTR--
+*I FD 170501016 200405036        0002967  00558  00649      % 03055 RGTR--
+170501016 Echternach, Gare Cen         00558                % 03055 RGTR--
+170501003 Echternach, Belle Vu  00559  00559                % 03055 RGTR--
+170501004 Echternach, Centre d  00600  00600                % 03055 RGTR--
+170501012 Echternach, Nonnenmi  00601  00601                % 03055 RGTR--
+170503001 Specksmillen          00601  00601                % 03055 RGTR--
+170502001 Lauterborn            00602  00602                % 03055 RGTR--
+170405003 Mechelshaff           00604  00604                % 03055 RGTR--
+170405004 Rosswinklerhaff       00605  00605                % 03055 RGTR--
+170404001 Wolpert               00607  00607                % 03055 RGTR--
+170201001 Altrier, Bildchen     00609  00609                % 03055 RGTR--
+170201005 Altrier, Kreizenhéic  00610  00610                % 03055 RGTR--
+170205001 Rippig, Rippigerkopp  00611  00611                % 03055 RGTR--
+180509002 Graulinster, Haaptst  00613  00613                % 03055 RGTR--
+180512003 Junglinster, P+R      00616  00616                % 03055 RGTR--
+180511007 Junglinster, Um Reil  00617  00617                % 03055 RGTR--
+180511005 Junglinster, Um Lei   00619  00619                % 03055 RGTR--
+180511009 Junglinster, Op der   00620  00620                % 03055 RGTR--
+180508003 Gonderange, Mierchen  00621  00621                % 03055 RGTR--
+200509001 Waldhaff              00627  00627                % 03055 RGTR--
+200409006 Dommeldange, Dauschb  00631  00631                % 03055 RGTR--
+200409005 Dommeldange, Contour  00633  00633                % 03055 RGTR--
+200410003 Eich, Eecher Plaz     00636 -00636                % 03055 RGTR--
+200405005 Centre, Badanstalt    00639 -00639                % 03055 RGTR--
+200405036 Luxembourg, Gare rou  00649                       % 03055 RGTR--
+*Z 03056 RGTR--                                             % 03056 RGTR--
+*L 110      170501016 200405036  00635  00726               % 03056 RGTR--
+*A BE 170501016 200405036 000002  00635  00726              % 03056 RGTR--
+*A cj 170501016 200405036 000002  00635  00726              % 03056 RGTR--
+*A PI 170501016 200405036 000002  00635  00726              % 03056 RGTR--
+*A ch 170501016 200405036 000002  00635  00726              % 03056 RGTR--
+*R 2 200405036 170501016 200405036  00635  00726            % 03056 RGTR--
+*G RGB 170501016 200405036  00635  00726                    % 03056 RGTR--
+*A VE 170501016 200405036 000002  00635  00726              % 03056 RGTR--
+*I FD 170501016 200405036        0001979  00635  00726      % 03056 RGTR--
+170501016 Echternach, Gare Cen         00635                % 03056 RGTR--
+170501003 Echternach, Belle Vu  00636  00636                % 03056 RGTR--
+170501004 Echternach, Centre d  00637  00637                % 03056 RGTR--
+170501012 Echternach, Nonnenmi  00638  00638                % 03056 RGTR--
+170503001 Specksmillen          00638  00638                % 03056 RGTR--
+170502001 Lauterborn            00639  00639                % 03056 RGTR--
+170405003 Mechelshaff           00641  00641                % 03056 RGTR--
+170405004 Rosswinklerhaff       00642  00642                % 03056 RGTR--
+170404001 Wolpert               00644  00644                % 03056 RGTR--
+170201001 Altrier, Bildchen     00646  00646                % 03056 RGTR--
+170201005 Altrier, Kreizenhéic  00647  00647                % 03056 RGTR--
+170205001 Rippig, Rippigerkopp  00648  00648                % 03056 RGTR--
+180509002 Graulinster, Haaptst  00650  00650                % 03056 RGTR--
+180512003 Junglinster, P+R      00653  00653                % 03056 RGTR--
+180511007 Junglinster, Um Reil  00654  00654                % 03056 RGTR--
+180511005 Junglinster, Um Lei   00656  00656                % 03056 RGTR--
+180511009 Junglinster, Op der   00657  00657                % 03056 RGTR--
+180508003 Gonderange, Mierchen  00658  00658                % 03056 RGTR--
+200509001 Waldhaff              00704  00704                % 03056 RGTR--
+200409006 Dommeldange, Dauschb  00708  00708                % 03056 RGTR--
+200409005 Dommeldange, Contour  00710  00710                % 03056 RGTR--
+200410003 Eich, Eecher Plaz     00713 -00713                % 03056 RGTR--
+200405005 Centre, Badanstalt    00716 -00716                % 03056 RGTR--
+200405036 Luxembourg, Gare rou  00726                       % 03056 RGTR--
+*Z 03057 RGTR--                                             % 03057 RGTR--
+*L 110      170501016 200405036  01015  01102               % 03057 RGTR--
+*A BE 170501016 200405036 000001  01015  01102              % 03057 RGTR--
+*A cj 170501016 200405036 000001  01015  01102              % 03057 RGTR--
+*R 2 200405036 170501016 200405036  01015  01102            % 03057 RGTR--
+*G RGB 170501016 200405036  01015  01102                    % 03057 RGTR--
+*A VE 170501016 200405036 000001  01015  01102              % 03057 RGTR--
+*I FD 170501016 200405036        0002870  01015  01102      % 03057 RGTR--
+170501016 Echternach, Gare Cen         01015                % 03057 RGTR--
+170501003 Echternach, Belle Vu  01016  01016                % 03057 RGTR--
+170501004 Echternach, Centre d  01016  01016                % 03057 RGTR--
+170501012 Echternach, Nonnenmi  01017  01017                % 03057 RGTR--
+170503001 Specksmillen          01018  01018                % 03057 RGTR--
+170502001 Lauterborn            01018  01018                % 03057 RGTR--
+170405003 Mechelshaff           01021  01021                % 03057 RGTR--
+170405004 Rosswinklerhaff       01021  01021                % 03057 RGTR--
+170404001 Wolpert               01023  01023                % 03057 RGTR--
+170201001 Altrier, Bildchen     01025  01025                % 03057 RGTR--
+170201005 Altrier, Kreizenhéic  01026  01026                % 03057 RGTR--
+170205001 Rippig, Rippigerkopp  01026  01026                % 03057 RGTR--
+180509002 Graulinster, Haaptst  01028  01028                % 03057 RGTR--
+180512003 Junglinster, P+R      01030  01030                % 03057 RGTR--
+180511007 Junglinster, Um Reil  01032  01032                % 03057 RGTR--
+180511002 Junglinster, Op der   01033  01033                % 03057 RGTR--
+180511005 Junglinster, Um Lei   01034  01034                % 03057 RGTR--
+180511009 Junglinster, Op der   01035  01035                % 03057 RGTR--
+180508003 Gonderange, Mierchen  01036  01036                % 03057 RGTR--
+180508004 Gonderange, Op der B  01037  01037                % 03057 RGTR--
+180508006 Gonderange, Stohlbou  01037  01037                % 03057 RGTR--
+200509001 Waldhaff              01042  01042                % 03057 RGTR--
+200409006 Dommeldange, Dauschb  01046  01046                % 03057 RGTR--
+200409005 Dommeldange, Contour  01047  01047                % 03057 RGTR--
+200410003 Eich, Eecher Plaz     01050 -01050                % 03057 RGTR--
+200405005 Centre, Badanstalt    01053 -01053                % 03057 RGTR--
+200405036 Luxembourg, Gare rou  01102                       % 03057 RGTR--
+*Z 03058 RGTR--                                             % 03058 RGTR--
+*L 110      170501016 200405036  01115  01202               % 03058 RGTR--
+*A BE 170501016 200405036 000001  01115  01202              % 03058 RGTR--
+*A cj 170501016 200405036 000001  01115  01202              % 03058 RGTR--
+*R 2 200405036 170501016 200405036  01115  01202            % 03058 RGTR--
+*G RGB 170501016 200405036  01115  01202                    % 03058 RGTR--
+*A VE 170501016 200405036 000001  01115  01202              % 03058 RGTR--
+*I FD 170501016 200405036        0001055  01115  01202      % 03058 RGTR--
+170501016 Echternach, Gare Cen         01115                % 03058 RGTR--
+170501003 Echternach, Belle Vu  01116  01116                % 03058 RGTR--
+170501004 Echternach, Centre d  01116  01116                % 03058 RGTR--
+170501012 Echternach, Nonnenmi  01117  01117                % 03058 RGTR--
+170503001 Specksmillen          01118  01118                % 03058 RGTR--
+170502001 Lauterborn            01118  01118                % 03058 RGTR--
+170405003 Mechelshaff           01121  01121                % 03058 RGTR--
+170405004 Rosswinklerhaff       01121  01121                % 03058 RGTR--
+170404001 Wolpert               01123  01123                % 03058 RGTR--
+170201001 Altrier, Bildchen     01125  01125                % 03058 RGTR--
+170201005 Altrier, Kreizenhéic  01126  01126                % 03058 RGTR--
+170205001 Rippig, Rippigerkopp  01126  01126                % 03058 RGTR--
+180509002 Graulinster, Haaptst  01128  01128                % 03058 RGTR--
+180512003 Junglinster, P+R      01130  01130                % 03058 RGTR--
+180511007 Junglinster, Um Reil  01132  01132                % 03058 RGTR--
+180511002 Junglinster, Op der   01133  01133                % 03058 RGTR--
+180511005 Junglinster, Um Lei   01134  01134                % 03058 RGTR--
+180511009 Junglinster, Op der   01135  01135                % 03058 RGTR--
+180508003 Gonderange, Mierchen  01136  01136                % 03058 RGTR--
+180508004 Gonderange, Op der B  01137  01137                % 03058 RGTR--
+180508006 Gonderange, Stohlbou  01137  01137                % 03058 RGTR--
+200509001 Waldhaff              01142  01142                % 03058 RGTR--
+200409006 Dommeldange, Dauschb  01146  01146                % 03058 RGTR--
+200409005 Dommeldange, Contour  01147  01147                % 03058 RGTR--
+200410003 Eich, Eecher Plaz     01150 -01150                % 03058 RGTR--
+200405005 Centre, Badanstalt    01153 -01153                % 03058 RGTR--
+200405036 Luxembourg, Gare rou  01202                       % 03058 RGTR--
+*Z 03059 RGTR--                                             % 03059 RGTR--
+*L 110      170501016 200405036  01215  01302               % 03059 RGTR--
+*A BE 170501016 200405036 000001  01215  01302              % 03059 RGTR--
+*A cj 170501016 200405036 000001  01215  01302              % 03059 RGTR--
+*R 2 200405036 170501016 200405036  01215  01302            % 03059 RGTR--
+*G RGB 170501016 200405036  01215  01302                    % 03059 RGTR--
+*A VE 170501016 200405036 000001  01215  01302              % 03059 RGTR--
+*I FD 170501016 200405036        0002757  01215  01302      % 03059 RGTR--
+170501016 Echternach, Gare Cen         01215                % 03059 RGTR--
+170501003 Echternach, Belle Vu  01216  01216                % 03059 RGTR--
+170501004 Echternach, Centre d  01216  01216                % 03059 RGTR--
+170501012 Echternach, Nonnenmi  01217  01217                % 03059 RGTR--
+170503001 Specksmillen          01218  01218                % 03059 RGTR--
+170502001 Lauterborn            01218  01218                % 03059 RGTR--
+170405003 Mechelshaff           01221  01221                % 03059 RGTR--
+170405004 Rosswinklerhaff       01221  01221                % 03059 RGTR--
+170404001 Wolpert               01223  01223                % 03059 RGTR--
+170201001 Altrier, Bildchen     01225  01225                % 03059 RGTR--
+170201005 Altrier, Kreizenhéic  01226  01226                % 03059 RGTR--
+170205001 Rippig, Rippigerkopp  01226  01226                % 03059 RGTR--
+180509002 Graulinster, Haaptst  01228  01228                % 03059 RGTR--
+180512003 Junglinster, P+R      01230  01230                % 03059 RGTR--
+180511007 Junglinster, Um Reil  01232  01232                % 03059 RGTR--
+180511002 Junglinster, Op der   01233  01233                % 03059 RGTR--
+180511005 Junglinster, Um Lei   01234  01234                % 03059 RGTR--
+180511009 Junglinster, Op der   01235  01235                % 03059 RGTR--
+180508003 Gonderange, Mierchen  01236  01236                % 03059 RGTR--
+180508004 Gonderange, Op der B  01237  01237                % 03059 RGTR--
+180508006 Gonderange, Stohlbou  01237  01237                % 03059 RGTR--
+200509001 Waldhaff              01242  01242                % 03059 RGTR--
+200409006 Dommeldange, Dauschb  01246  01246                % 03059 RGTR--
+200409005 Dommeldange, Contour  01247  01247                % 03059 RGTR--
+200410003 Eich, Eecher Plaz     01250 -01250                % 03059 RGTR--
+200405005 Centre, Badanstalt    01253 -01253                % 03059 RGTR--
+200405036 Luxembourg, Gare rou  01302                       % 03059 RGTR--
+*Z 03060 RGTR--                                             % 03060 RGTR--
+*L 110      170501016 200405036  01315  01402               % 03060 RGTR--
+*A BE 170501016 200405036 000001  01315  01402              % 03060 RGTR--
+*A cj 170501016 200405036 000001  01315  01402              % 03060 RGTR--
+*A ck 170501016 200405036 000001  01315  01402              % 03060 RGTR--
+*R 2 200405036 170501016 200405036  01315  01402            % 03060 RGTR--
+*G RGB 170501016 200405036  01315  01402                    % 03060 RGTR--
+*A VE 170501016 200405036 000001  01315  01402              % 03060 RGTR--
+*I FD 170501016 200405036        0002501  01315  01402      % 03060 RGTR--
+170501016 Echternach, Gare Cen         01315                % 03060 RGTR--
+170501003 Echternach, Belle Vu  01316  01316                % 03060 RGTR--
+170501004 Echternach, Centre d  01316  01316                % 03060 RGTR--
+170501012 Echternach, Nonnenmi  01317  01317                % 03060 RGTR--
+170503001 Specksmillen          01318  01318                % 03060 RGTR--
+170502001 Lauterborn            01318  01318                % 03060 RGTR--
+170405003 Mechelshaff           01321  01321                % 03060 RGTR--
+170405004 Rosswinklerhaff       01321  01321                % 03060 RGTR--
+170404001 Wolpert               01323  01323                % 03060 RGTR--
+170201001 Altrier, Bildchen     01325  01325                % 03060 RGTR--
+170201005 Altrier, Kreizenhéic  01326  01326                % 03060 RGTR--
+170205001 Rippig, Rippigerkopp  01326  01326                % 03060 RGTR--
+180509002 Graulinster, Haaptst  01328  01328                % 03060 RGTR--
+180512003 Junglinster, P+R      01330  01330                % 03060 RGTR--
+180511007 Junglinster, Um Reil  01332  01332                % 03060 RGTR--
+180511002 Junglinster, Op der   01333  01333                % 03060 RGTR--
+180511005 Junglinster, Um Lei   01334  01334                % 03060 RGTR--
+180511009 Junglinster, Op der   01335  01335                % 03060 RGTR--
+180508003 Gonderange, Mierchen  01336  01336                % 03060 RGTR--
+180508004 Gonderange, Op der B  01337  01337                % 03060 RGTR--
+180508006 Gonderange, Stohlbou  01337  01337                % 03060 RGTR--
+200509001 Waldhaff              01342  01342                % 03060 RGTR--
+200409006 Dommeldange, Dauschb  01346  01346                % 03060 RGTR--
+200409005 Dommeldange, Contour  01347  01347                % 03060 RGTR--
+200410003 Eich, Eecher Plaz     01350 -01350                % 03060 RGTR--
+200405005 Centre, Badanstalt    01353 -01353                % 03060 RGTR--
+200405036 Luxembourg, Gare rou  01402                       % 03060 RGTR--
+*Z 03061 RGTR--                                             % 03061 RGTR--
+*L 110      170501016 200405036  01415  01502               % 03061 RGTR--
+*A BE 170501016 200405036 000001  01415  01502              % 03061 RGTR--
+*A cj 170501016 200405036 000001  01415  01502              % 03061 RGTR--
+*R 2 200405036 170501016 200405036  01415  01502            % 03061 RGTR--
+*G RGB 170501016 200405036  01415  01502                    % 03061 RGTR--
+*A VE 170501016 200405036 000001  01415  01502              % 03061 RGTR--
+*I FD 170501016 200405036        0002758  01415  01502      % 03061 RGTR--
+170501016 Echternach, Gare Cen         01415                % 03061 RGTR--
+170501003 Echternach, Belle Vu  01416  01416                % 03061 RGTR--
+170501004 Echternach, Centre d  01416  01416                % 03061 RGTR--
+170501012 Echternach, Nonnenmi  01417  01417                % 03061 RGTR--
+170503001 Specksmillen          01418  01418                % 03061 RGTR--
+170502001 Lauterborn            01418  01418                % 03061 RGTR--
+170405003 Mechelshaff           01421  01421                % 03061 RGTR--
+170405004 Rosswinklerhaff       01421  01421                % 03061 RGTR--
+170404001 Wolpert               01423  01423                % 03061 RGTR--
+170201001 Altrier, Bildchen     01425  01425                % 03061 RGTR--
+170201005 Altrier, Kreizenhéic  01426  01426                % 03061 RGTR--
+170205001 Rippig, Rippigerkopp  01426  01426                % 03061 RGTR--
+180509002 Graulinster, Haaptst  01428  01428                % 03061 RGTR--
+180512003 Junglinster, P+R      01430  01430                % 03061 RGTR--
+180511007 Junglinster, Um Reil  01432  01432                % 03061 RGTR--
+180511002 Junglinster, Op der   01433  01433                % 03061 RGTR--
+180511005 Junglinster, Um Lei   01434  01434                % 03061 RGTR--
+180511009 Junglinster, Op der   01435  01435                % 03061 RGTR--
+180508003 Gonderange, Mierchen  01436  01436                % 03061 RGTR--
+180508004 Gonderange, Op der B  01437  01437                % 03061 RGTR--
+180508006 Gonderange, Stohlbou  01437  01437                % 03061 RGTR--
+200509001 Waldhaff              01442  01442                % 03061 RGTR--
+200409006 Dommeldange, Dauschb  01446  01446                % 03061 RGTR--
+200409005 Dommeldange, Contour  01447  01447                % 03061 RGTR--
+200410003 Eich, Eecher Plaz     01450 -01450                % 03061 RGTR--
+200405005 Centre, Badanstalt    01453 -01453                % 03061 RGTR--
+200405036 Luxembourg, Gare rou  01502                       % 03061 RGTR--
+*Z 03062 RGTR--                                             % 03062 RGTR--
+*L 110      170501016 200405036  01515  01602               % 03062 RGTR--
+*A BE 170501016 200405036 000001  01515  01602              % 03062 RGTR--
+*A cj 170501016 200405036 000001  01515  01602              % 03062 RGTR--
+*R 2 200405036 170501016 200405036  01515  01602            % 03062 RGTR--
+*G RGB 170501016 200405036  01515  01602                    % 03062 RGTR--
+*A VE 170501016 200405036 000001  01515  01602              % 03062 RGTR--
+*I FD 170501016 200405036        0002681  01515  01602      % 03062 RGTR--
+170501016 Echternach, Gare Cen         01515                % 03062 RGTR--
+170501003 Echternach, Belle Vu  01516  01516                % 03062 RGTR--
+170501004 Echternach, Centre d  01516  01516                % 03062 RGTR--
+170501012 Echternach, Nonnenmi  01517  01517                % 03062 RGTR--
+170503001 Specksmillen          01518  01518                % 03062 RGTR--
+170502001 Lauterborn            01518  01518                % 03062 RGTR--
+170405003 Mechelshaff           01521  01521                % 03062 RGTR--
+170405004 Rosswinklerhaff       01521  01521                % 03062 RGTR--
+170404001 Wolpert               01523  01523                % 03062 RGTR--
+170201001 Altrier, Bildchen     01525  01525                % 03062 RGTR--
+170201005 Altrier, Kreizenhéic  01526  01526                % 03062 RGTR--
+170205001 Rippig, Rippigerkopp  01526  01526                % 03062 RGTR--
+180509002 Graulinster, Haaptst  01528  01528                % 03062 RGTR--
+180512003 Junglinster, P+R      01530  01530                % 03062 RGTR--
+180511007 Junglinster, Um Reil  01532  01532                % 03062 RGTR--
+180511002 Junglinster, Op der   01533  01533                % 03062 RGTR--
+180511005 Junglinster, Um Lei   01534  01534                % 03062 RGTR--
+180511009 Junglinster, Op der   01535  01535                % 03062 RGTR--
+180508003 Gonderange, Mierchen  01536  01536                % 03062 RGTR--
+180508004 Gonderange, Op der B  01537  01537                % 03062 RGTR--
+180508006 Gonderange, Stohlbou  01537  01537                % 03062 RGTR--
+200509001 Waldhaff              01542  01542                % 03062 RGTR--
+200409006 Dommeldange, Dauschb  01546  01546                % 03062 RGTR--
+200409005 Dommeldange, Contour  01547  01547                % 03062 RGTR--
+200410003 Eich, Eecher Plaz     01550 -01550                % 03062 RGTR--
+200405005 Centre, Badanstalt    01553 -01553                % 03062 RGTR--
+200405036 Luxembourg, Gare rou  01602                       % 03062 RGTR--
+*Z 03063 RGTR--                                             % 03063 RGTR--
+*L 110      170501016 200405036  00820  00913               % 03063 RGTR--
+*A BE 170501016 200405036 000001  00820  00913              % 03063 RGTR--
+*A cj 170501016 200405036 000001  00820  00913              % 03063 RGTR--
+*A ch 170501016 200405036 000001  00820  00913              % 03063 RGTR--
+*R 2 200405036 170501016 200405036  00820  00913            % 03063 RGTR--
+*G RGB 170501016 200405036  00820  00913                    % 03063 RGTR--
+*A VE 170501016 200405036 000001  00820  00913              % 03063 RGTR--
+*I FD 170501016 200405036        0000856  00820  00913      % 03063 RGTR--
+170501016 Echternach, Gare Cen         00820                % 03063 RGTR--
+170501003 Echternach, Belle Vu  00821  00821                % 03063 RGTR--
+170501004 Echternach, Centre d  00822  00822                % 03063 RGTR--
+170501012 Echternach, Nonnenmi  00823  00823                % 03063 RGTR--
+170503001 Specksmillen          00823  00823                % 03063 RGTR--
+170502001 Lauterborn            00824  00824                % 03063 RGTR--
+170405003 Mechelshaff           00826  00826                % 03063 RGTR--
+170405004 Rosswinklerhaff       00827  00827                % 03063 RGTR--
+170404001 Wolpert               00829  00829                % 03063 RGTR--
+170201001 Altrier, Bildchen     00831  00831                % 03063 RGTR--
+170201005 Altrier, Kreizenhéic  00832  00832                % 03063 RGTR--
+170205001 Rippig, Rippigerkopp  00833  00833                % 03063 RGTR--
+180509002 Graulinster, Haaptst  00835  00835                % 03063 RGTR--
+180512003 Junglinster, P+R      00838  00838                % 03063 RGTR--
+180511007 Junglinster, Um Reil  00839  00839                % 03063 RGTR--
+180511002 Junglinster, Op der   00841  00841                % 03063 RGTR--
+180511005 Junglinster, Um Lei   00842  00842                % 03063 RGTR--
+180511009 Junglinster, Op der   00843  00843                % 03063 RGTR--
+180508003 Gonderange, Mierchen  00844  00844                % 03063 RGTR--
+180508004 Gonderange, Op der B  00845  00845                % 03063 RGTR--
+180508006 Gonderange, Stohlbou  00846  00846                % 03063 RGTR--
+200509001 Waldhaff              00851  00851                % 03063 RGTR--
+200409006 Dommeldange, Dauschb  00854  00854                % 03063 RGTR--
+200409005 Dommeldange, Contour  00856  00856                % 03063 RGTR--
+200410003 Eich, Eecher Plaz     00859 -00859                % 03063 RGTR--
+200405005 Centre, Badanstalt    00903 -00903                % 03063 RGTR--
+200405036 Luxembourg, Gare rou  00913                       % 03063 RGTR--
+*Z 03064 RGTR--                                             % 03064 RGTR--
+*L 110      170501016 200405036  00915  01008               % 03064 RGTR--
+*A BE 170501016 200405036 000001  00915  01008              % 03064 RGTR--
+*A cj 170501016 200405036 000001  00915  01008              % 03064 RGTR--
+*R 2 200405036 170501016 200405036  00915  01008            % 03064 RGTR--
+*G RGB 170501016 200405036  00915  01008                    % 03064 RGTR--
+*A VE 170501016 200405036 000001  00915  01008              % 03064 RGTR--
+*I FD 170501016 200405036        0002868  00915  01008      % 03064 RGTR--
+170501016 Echternach, Gare Cen         00915                % 03064 RGTR--
+170501003 Echternach, Belle Vu  00916  00916                % 03064 RGTR--
+170501004 Echternach, Centre d  00917  00917                % 03064 RGTR--
+170501012 Echternach, Nonnenmi  00918  00918                % 03064 RGTR--
+170503001 Specksmillen          00918  00918                % 03064 RGTR--
+170502001 Lauterborn            00919  00919                % 03064 RGTR--
+170405003 Mechelshaff           00921  00921                % 03064 RGTR--
+170405004 Rosswinklerhaff       00922  00922                % 03064 RGTR--
+170404001 Wolpert               00924  00924                % 03064 RGTR--
+170201001 Altrier, Bildchen     00926  00926                % 03064 RGTR--
+170201005 Altrier, Kreizenhéic  00927  00927                % 03064 RGTR--
+170205001 Rippig, Rippigerkopp  00928  00928                % 03064 RGTR--
+180509002 Graulinster, Haaptst  00930  00930                % 03064 RGTR--
+180512003 Junglinster, P+R      00933  00933                % 03064 RGTR--
+180511007 Junglinster, Um Reil  00934  00934                % 03064 RGTR--
+180511002 Junglinster, Op der   00936  00936                % 03064 RGTR--
+180511005 Junglinster, Um Lei   00937  00937                % 03064 RGTR--
+180511009 Junglinster, Op der   00938  00938                % 03064 RGTR--
+180508003 Gonderange, Mierchen  00939  00939                % 03064 RGTR--
+180508004 Gonderange, Op der B  00940  00940                % 03064 RGTR--
+180508006 Gonderange, Stohlbou  00941  00941                % 03064 RGTR--
+200509001 Waldhaff              00946  00946                % 03064 RGTR--
+200409006 Dommeldange, Dauschb  00949  00949                % 03064 RGTR--
+200409005 Dommeldange, Contour  00951  00951                % 03064 RGTR--
+200410003 Eich, Eecher Plaz     00954 -00954                % 03064 RGTR--
+200405005 Centre, Badanstalt    00958 -00958                % 03064 RGTR--
+200405036 Luxembourg, Gare rou  01008                       % 03064 RGTR--
+*Z 03065 RGTR--                                             % 03065 RGTR--
+*L 110      170501016 200405036  01615  01708               % 03065 RGTR--
+*A BE 170501016 200405036 000001  01615  01708              % 03065 RGTR--
+*A cj 170501016 200405036 000001  01615  01708              % 03065 RGTR--
+*R 2 200405036 170501016 200405036  01615  01708            % 03065 RGTR--
+*G RGB 170501016 200405036  01615  01708                    % 03065 RGTR--
+*A VE 170501016 200405036 000001  01615  01708              % 03065 RGTR--
+*I FD 170501016 200405036        0002254  01615  01708      % 03065 RGTR--
+170501016 Echternach, Gare Cen         01615                % 03065 RGTR--
+170501003 Echternach, Belle Vu  01616  01616                % 03065 RGTR--
+170501004 Echternach, Centre d  01617  01617                % 03065 RGTR--
+170501012 Echternach, Nonnenmi  01618  01618                % 03065 RGTR--
+170503001 Specksmillen          01618  01618                % 03065 RGTR--
+170502001 Lauterborn            01619  01619                % 03065 RGTR--
+170405003 Mechelshaff           01621  01621                % 03065 RGTR--
+170405004 Rosswinklerhaff       01622  01622                % 03065 RGTR--
+170404001 Wolpert               01624  01624                % 03065 RGTR--
+170201001 Altrier, Bildchen     01626  01626                % 03065 RGTR--
+170201005 Altrier, Kreizenhéic  01627  01627                % 03065 RGTR--
+170205001 Rippig, Rippigerkopp  01628  01628                % 03065 RGTR--
+180509002 Graulinster, Haaptst  01630  01630                % 03065 RGTR--
+180512003 Junglinster, P+R      01633  01633                % 03065 RGTR--
+180511007 Junglinster, Um Reil  01634  01634                % 03065 RGTR--
+180511002 Junglinster, Op der   01636  01636                % 03065 RGTR--
+180511005 Junglinster, Um Lei   01637  01637                % 03065 RGTR--
+180511009 Junglinster, Op der   01638  01638                % 03065 RGTR--
+180508003 Gonderange, Mierchen  01639  01639                % 03065 RGTR--
+180508004 Gonderange, Op der B  01640  01640                % 03065 RGTR--
+180508006 Gonderange, Stohlbou  01641  01641                % 03065 RGTR--
+200509001 Waldhaff              01646  01646                % 03065 RGTR--
+200409006 Dommeldange, Dauschb  01649  01649                % 03065 RGTR--
+200409005 Dommeldange, Contour  01651  01651                % 03065 RGTR--
+200410003 Eich, Eecher Plaz     01654 -01654                % 03065 RGTR--
+200405005 Centre, Badanstalt    01658 -01658                % 03065 RGTR--
+200405036 Luxembourg, Gare rou  01708                       % 03065 RGTR--
+*Z 03066 RGTR--                                             % 03066 RGTR--
+*L 110      170501016 200405036  01715  01808               % 03066 RGTR--
+*A BE 170501016 200405036 000001  01715  01808              % 03066 RGTR--
+*A cj 170501016 200405036 000001  01715  01808              % 03066 RGTR--
+*R 2 200405036 170501016 200405036  01715  01808            % 03066 RGTR--
+*G RGB 170501016 200405036  01715  01808                    % 03066 RGTR--
+*A VE 170501016 200405036 000001  01715  01808              % 03066 RGTR--
+*I FD 170501016 200405036        0002560  01715  01808      % 03066 RGTR--
+170501016 Echternach, Gare Cen         01715                % 03066 RGTR--
+170501003 Echternach, Belle Vu  01716  01716                % 03066 RGTR--
+170501004 Echternach, Centre d  01717  01717                % 03066 RGTR--
+170501012 Echternach, Nonnenmi  01718  01718                % 03066 RGTR--
+170503001 Specksmillen          01718  01718                % 03066 RGTR--
+170502001 Lauterborn            01719  01719                % 03066 RGTR--
+170405003 Mechelshaff           01721  01721                % 03066 RGTR--
+170405004 Rosswinklerhaff       01722  01722                % 03066 RGTR--
+170404001 Wolpert               01724  01724                % 03066 RGTR--
+170201001 Altrier, Bildchen     01726  01726                % 03066 RGTR--
+170201005 Altrier, Kreizenhéic  01727  01727                % 03066 RGTR--
+170205001 Rippig, Rippigerkopp  01728  01728                % 03066 RGTR--
+180509002 Graulinster, Haaptst  01730  01730                % 03066 RGTR--
+180512003 Junglinster, P+R      01733  01733                % 03066 RGTR--
+180511007 Junglinster, Um Reil  01734  01734                % 03066 RGTR--
+180511002 Junglinster, Op der   01736  01736                % 03066 RGTR--
+180511005 Junglinster, Um Lei   01737  01737                % 03066 RGTR--
+180511009 Junglinster, Op der   01738  01738                % 03066 RGTR--
+180508003 Gonderange, Mierchen  01739  01739                % 03066 RGTR--
+180508004 Gonderange, Op der B  01740  01740                % 03066 RGTR--
+180508006 Gonderange, Stohlbou  01741  01741                % 03066 RGTR--
+200509001 Waldhaff              01746  01746                % 03066 RGTR--
+200409006 Dommeldange, Dauschb  01749  01749                % 03066 RGTR--
+200409005 Dommeldange, Contour  01751  01751                % 03066 RGTR--
+200410003 Eich, Eecher Plaz     01754 -01754                % 03066 RGTR--
+200405005 Centre, Badanstalt    01758 -01758                % 03066 RGTR--
+200405036 Luxembourg, Gare rou  01808                       % 03066 RGTR--
+*Z 03067 RGTR--                                             % 03067 RGTR--
+*L 110      170501016 200405036  00720  00813               % 03067 RGTR--
+*A BE 170501016 200405036 000002  00720  00813              % 03067 RGTR--
+*A cj 170501016 200405036 000002  00720  00813              % 03067 RGTR--
+*A ch 170501016 200405036 000002  00720  00813              % 03067 RGTR--
+*R 2 200405036 170501016 200405036  00720  00813            % 03067 RGTR--
+*G RGB 170501016 200405036  00720  00813                    % 03067 RGTR--
+*A VE 170501016 200405036 000002  00720  00813              % 03067 RGTR--
+*I FD 170501016 200405036        0002390  00720  00813      % 03067 RGTR--
+170501016 Echternach, Gare Cen         00720                % 03067 RGTR--
+170501003 Echternach, Belle Vu  00721  00721                % 03067 RGTR--
+170501004 Echternach, Centre d  00722  00722                % 03067 RGTR--
+170501012 Echternach, Nonnenmi  00723  00723                % 03067 RGTR--
+170503001 Specksmillen          00723  00723                % 03067 RGTR--
+170502001 Lauterborn            00724  00724                % 03067 RGTR--
+170405003 Mechelshaff           00726  00726                % 03067 RGTR--
+170405004 Rosswinklerhaff       00727  00727                % 03067 RGTR--
+170404001 Wolpert               00729  00729                % 03067 RGTR--
+170201001 Altrier, Bildchen     00731  00731                % 03067 RGTR--
+170201005 Altrier, Kreizenhéic  00732  00732                % 03067 RGTR--
+170205001 Rippig, Rippigerkopp  00733  00733                % 03067 RGTR--
+180509002 Graulinster, Haaptst  00735  00735                % 03067 RGTR--
+180512003 Junglinster, P+R      00738  00738                % 03067 RGTR--
+180511007 Junglinster, Um Reil  00739  00739                % 03067 RGTR--
+180511002 Junglinster, Op der   00741  00741                % 03067 RGTR--
+180511005 Junglinster, Um Lei   00742  00742                % 03067 RGTR--
+180511009 Junglinster, Op der   00743  00743                % 03067 RGTR--
+180508003 Gonderange, Mierchen  00744  00744                % 03067 RGTR--
+180508004 Gonderange, Op der B  00745  00745                % 03067 RGTR--
+180508006 Gonderange, Stohlbou  00746  00746                % 03067 RGTR--
+200509001 Waldhaff              00751  00751                % 03067 RGTR--
+200409006 Dommeldange, Dauschb  00754  00754                % 03067 RGTR--
+200409005 Dommeldange, Contour  00756  00756                % 03067 RGTR--
+200410003 Eich, Eecher Plaz     00759 -00759                % 03067 RGTR--
+200405005 Centre, Badanstalt    00803 -00803                % 03067 RGTR--
+200405036 Luxembourg, Gare rou  00813                       % 03067 RGTR--
+*Z 03068 RGTR--                                             % 03068 RGTR--
+*L 110      170501016 200405036  00750  00843               % 03068 RGTR--
+*A BE 170501016 200405036 000002  00750  00843              % 03068 RGTR--
+*A cj 170501016 200405036 000002  00750  00843              % 03068 RGTR--
+*R 2 200405036 170501016 200405036  00750  00843            % 03068 RGTR--
+*G RGB 170501016 200405036  00750  00843                    % 03068 RGTR--
+*A VE 170501016 200405036 000002  00750  00843              % 03068 RGTR--
+*I FD 170501016 200405036        0002214  00750  00843      % 03068 RGTR--
+170501016 Echternach, Gare Cen         00750                % 03068 RGTR--
+170501003 Echternach, Belle Vu  00751  00751                % 03068 RGTR--
+170501004 Echternach, Centre d  00752  00752                % 03068 RGTR--
+170501012 Echternach, Nonnenmi  00753  00753                % 03068 RGTR--
+170503001 Specksmillen          00753  00753                % 03068 RGTR--
+170502001 Lauterborn            00754  00754                % 03068 RGTR--
+170405003 Mechelshaff           00756  00756                % 03068 RGTR--
+170405004 Rosswinklerhaff       00757  00757                % 03068 RGTR--
+170404001 Wolpert               00759  00759                % 03068 RGTR--
+170201001 Altrier, Bildchen     00801  00801                % 03068 RGTR--
+170201005 Altrier, Kreizenhéic  00802  00802                % 03068 RGTR--
+170205001 Rippig, Rippigerkopp  00803  00803                % 03068 RGTR--
+180509002 Graulinster, Haaptst  00805  00805                % 03068 RGTR--
+180512003 Junglinster, P+R      00808  00808                % 03068 RGTR--
+180511007 Junglinster, Um Reil  00809  00809                % 03068 RGTR--
+180511002 Junglinster, Op der   00811  00811                % 03068 RGTR--
+180511005 Junglinster, Um Lei   00812  00812                % 03068 RGTR--
+180511009 Junglinster, Op der   00813  00813                % 03068 RGTR--
+180508003 Gonderange, Mierchen  00814  00814                % 03068 RGTR--
+180508004 Gonderange, Op der B  00815  00815                % 03068 RGTR--
+180508006 Gonderange, Stohlbou  00816  00816                % 03068 RGTR--
+200509001 Waldhaff              00821  00821                % 03068 RGTR--
+200409006 Dommeldange, Dauschb  00824  00824                % 03068 RGTR--
+200409005 Dommeldange, Contour  00826  00826                % 03068 RGTR--
+200410003 Eich, Eecher Plaz     00829 -00829                % 03068 RGTR--
+200405005 Centre, Badanstalt    00833 -00833                % 03068 RGTR--
+200405036 Luxembourg, Gare rou  00843                       % 03068 RGTR--
+*Z 03069 RGTR--                                             % 03069 RGTR--
+*L 110      170501016 200405036  00640  00731               % 03069 RGTR--
+*A BE 170501016 200405036 000002  00640  00731              % 03069 RGTR--
+*A cj 170501016 200405036 000002  00640  00731              % 03069 RGTR--
+*A UJ 170501016 200405036 000002  00640  00731              % 03069 RGTR--
+*R 2 200405036 170501016 200405036  00640  00731            % 03069 RGTR--
+*G RGB 170501016 200405036  00640  00731                    % 03069 RGTR--
+*A VE 170501016 200405036 000002  00640  00731              % 03069 RGTR--
+*I FD 170501016 200405036        0000784  00640  00731      % 03069 RGTR--
+170501016 Echternach, Gare Cen         00640                % 03069 RGTR--
+170501003 Echternach, Belle Vu  00641  00641                % 03069 RGTR--
+170501004 Echternach, Centre d  00642  00642                % 03069 RGTR--
+170501012 Echternach, Nonnenmi  00643  00643                % 03069 RGTR--
+170503001 Specksmillen          00643  00643                % 03069 RGTR--
+170502001 Lauterborn            00644  00644                % 03069 RGTR--
+170405003 Mechelshaff           00646  00646                % 03069 RGTR--
+170405004 Rosswinklerhaff       00647  00647                % 03069 RGTR--
+170404001 Wolpert               00649  00649                % 03069 RGTR--
+170201005 Altrier, Kreizenhéic  00652  00652                % 03069 RGTR--
+170205001 Rippig, Rippigerkopp  00653  00653                % 03069 RGTR--
+180509002 Graulinster, Haaptst  00655  00655                % 03069 RGTR--
+180512003 Junglinster, P+R      00657  00657                % 03069 RGTR--
+180511007 Junglinster, Um Reil  00659  00659                % 03069 RGTR--
+180511005 Junglinster, Um Lei   00701  00701                % 03069 RGTR--
+180511009 Junglinster, Op der   00702  00702                % 03069 RGTR--
+180508003 Gonderange, Mierchen  00703  00703                % 03069 RGTR--
+200509001 Waldhaff              00709  00709                % 03069 RGTR--
+200409006 Dommeldange, Dauschb  00713  00713                % 03069 RGTR--
+200409005 Dommeldange, Contour  00715  00715                % 03069 RGTR--
+200410003 Eich, Eecher Plaz     00717 -00717                % 03069 RGTR--
+200405005 Centre, Badanstalt    00721 -00721                % 03069 RGTR--
+200405036 Luxembourg, Gare rou  00731                       % 03069 RGTR--

@@ -1,0 +1,688 @@
+*F 03 2
+*Z 01423 AVL---       001 045                               % 01423 AVL---
+*L 27       200404027 200101002  00655  00734               % 01423 AVL---
+*A BE 200404027 200101002 000002  00655  00734              % 01423 AVL---
+*R 1 200101002 200404027 200101002  00655  00734            % 01423 AVL---
+*G AVG 200404027 200101002  00655  00734                    % 01423 AVL---
+*A VE 200404027 200101002 000002  00655  00734              % 01423 AVL---
+200404027 Bonnevoie, Lycée Tec         00655                % 01423 AVL---
+200404037 Bonnevoie, Willibror  00656  00656                % 01423 AVL---
+200404026 Bonnevoie, Léon XIII  00658  00658                % 01423 AVL---
+200404034 Bonnevoie, Rotonde    00659  00659                % 01423 AVL---
+200405046 Luxembourg, Gare Roc  00701  00701                % 01423 AVL---
+200405039 Luxembourg, Wallis    00702  00702                % 01423 AVL---
+200405032 Luxembourg, Gare Cen  00705  00705                % 01423 AVL---
+200415003 Hollerich, Fonderie   00707  00707                % 01423 AVL---
+200415006 Hollerich, Jean-Bapt  00709  00709                % 01423 AVL---
+200415012 Hollerich, Salzhaff   00710  00710                % 01423 AVL---
+200415017 Hollerich, P+R Bouil  00712  00712                % 01423 AVL---
+200415009 Hollerich, P+R Bouil  00713  00713                % 01423 AVL---
+200420009 Merl, Marcel Cahen    00715  00715                % 01423 AVL---
+200420015 Merl, St. Gengoul     00716  00716                % 01423 AVL---
+200420013 Merl, Plaak           00718  00718                % 01423 AVL---
+200420010 Merl, Op der Millen   00719  00719                % 01423 AVL---
+200901002 Strassen, Atrium      00722  00722                % 01423 AVL---
+200901007 Strassen, Bourmicht   00724  00724                % 01423 AVL---
+200901033 Strassen, Les Therme  00725  00725                % 01423 AVL---
+200102005 Bertrange, Spatzwiss  00727  00727                % 01423 AVL---
+200101007 Bertrange, Gare       00729  00729                % 01423 AVL---
+200101002 Bertrange, Belle Eto  00734                       % 01423 AVL---
+*Z 01424 AVL---       001 045                               % 01424 AVL---
+*L 27       200404027 200101002  00840  00919               % 01424 AVL---
+*A BE 200404027 200101002 000002  00840  00919              % 01424 AVL---
+*R 1 200101002 200404027 200101002  00840  00919            % 01424 AVL---
+*G AVG 200404027 200101002  00840  00919                    % 01424 AVL---
+*A VE 200404027 200101002 000002  00840  00919              % 01424 AVL---
+200404027 Bonnevoie, Lycée Tec         00840                % 01424 AVL---
+200404037 Bonnevoie, Willibror  00841  00841                % 01424 AVL---
+200404026 Bonnevoie, Léon XIII  00843  00843                % 01424 AVL---
+200404034 Bonnevoie, Rotonde    00844  00844                % 01424 AVL---
+200405046 Luxembourg, Gare Roc  00846  00846                % 01424 AVL---
+200405039 Luxembourg, Wallis    00847  00847                % 01424 AVL---
+200405032 Luxembourg, Gare Cen  00850  00850                % 01424 AVL---
+200415003 Hollerich, Fonderie   00852  00852                % 01424 AVL---
+200415006 Hollerich, Jean-Bapt  00854  00854                % 01424 AVL---
+200415012 Hollerich, Salzhaff   00855  00855                % 01424 AVL---
+200415017 Hollerich, P+R Bouil  00857  00857                % 01424 AVL---
+200415009 Hollerich, P+R Bouil  00858  00858                % 01424 AVL---
+200420009 Merl, Marcel Cahen    00900  00900                % 01424 AVL---
+200420015 Merl, St. Gengoul     00901  00901                % 01424 AVL---
+200420013 Merl, Plaak           00903  00903                % 01424 AVL---
+200420010 Merl, Op der Millen   00904  00904                % 01424 AVL---
+200901002 Strassen, Atrium      00907  00907                % 01424 AVL---
+200901007 Strassen, Bourmicht   00909  00909                % 01424 AVL---
+200901033 Strassen, Les Therme  00910  00910                % 01424 AVL---
+200102005 Bertrange, Spatzwiss  00912  00912                % 01424 AVL---
+200101007 Bertrange, Gare       00914  00914                % 01424 AVL---
+200101002 Bertrange, Belle Eto  00919                       % 01424 AVL---
+*Z 01425 AVL---       001 045                               % 01425 AVL---
+*L 27       200404027 200101002  01025  01104               % 01425 AVL---
+*A BE 200404027 200101002 000002  01025  01104              % 01425 AVL---
+*R 1 200101002 200404027 200101002  01025  01104            % 01425 AVL---
+*G AVG 200404027 200101002  01025  01104                    % 01425 AVL---
+*A VE 200404027 200101002 000002  01025  01104              % 01425 AVL---
+200404027 Bonnevoie, Lycée Tec         01025                % 01425 AVL---
+200404037 Bonnevoie, Willibror  01026  01026                % 01425 AVL---
+200404026 Bonnevoie, Léon XIII  01028  01028                % 01425 AVL---
+200404034 Bonnevoie, Rotonde    01029  01029                % 01425 AVL---
+200405046 Luxembourg, Gare Roc  01031  01031                % 01425 AVL---
+200405039 Luxembourg, Wallis    01032  01032                % 01425 AVL---
+200405032 Luxembourg, Gare Cen  01035  01035                % 01425 AVL---
+200415003 Hollerich, Fonderie   01037  01037                % 01425 AVL---
+200415006 Hollerich, Jean-Bapt  01039  01039                % 01425 AVL---
+200415012 Hollerich, Salzhaff   01040  01040                % 01425 AVL---
+200415017 Hollerich, P+R Bouil  01042  01042                % 01425 AVL---
+200415009 Hollerich, P+R Bouil  01043  01043                % 01425 AVL---
+200420009 Merl, Marcel Cahen    01045  01045                % 01425 AVL---
+200420015 Merl, St. Gengoul     01046  01046                % 01425 AVL---
+200420013 Merl, Plaak           01048  01048                % 01425 AVL---
+200420010 Merl, Op der Millen   01049  01049                % 01425 AVL---
+200901002 Strassen, Atrium      01052  01052                % 01425 AVL---
+200901007 Strassen, Bourmicht   01054  01054                % 01425 AVL---
+200901033 Strassen, Les Therme  01055  01055                % 01425 AVL---
+200102005 Bertrange, Spatzwiss  01057  01057                % 01425 AVL---
+200101007 Bertrange, Gare       01059  01059                % 01425 AVL---
+200101002 Bertrange, Belle Eto  01104                       % 01425 AVL---
+*Z 01426 AVL---       001 045                               % 01426 AVL---
+*L 27       200404027 200101002  01210  01249               % 01426 AVL---
+*A BE 200404027 200101002 000002  01210  01249              % 01426 AVL---
+*R 1 200101002 200404027 200101002  01210  01249            % 01426 AVL---
+*G AVG 200404027 200101002  01210  01249                    % 01426 AVL---
+*A VE 200404027 200101002 000002  01210  01249              % 01426 AVL---
+200404027 Bonnevoie, Lycée Tec         01210                % 01426 AVL---
+200404037 Bonnevoie, Willibror  01211  01211                % 01426 AVL---
+200404026 Bonnevoie, Léon XIII  01213  01213                % 01426 AVL---
+200404034 Bonnevoie, Rotonde    01214  01214                % 01426 AVL---
+200405046 Luxembourg, Gare Roc  01216  01216                % 01426 AVL---
+200405039 Luxembourg, Wallis    01217  01217                % 01426 AVL---
+200405032 Luxembourg, Gare Cen  01220  01220                % 01426 AVL---
+200415003 Hollerich, Fonderie   01222  01222                % 01426 AVL---
+200415006 Hollerich, Jean-Bapt  01224  01224                % 01426 AVL---
+200415012 Hollerich, Salzhaff   01225  01225                % 01426 AVL---
+200415017 Hollerich, P+R Bouil  01227  01227                % 01426 AVL---
+200415009 Hollerich, P+R Bouil  01228  01228                % 01426 AVL---
+200420009 Merl, Marcel Cahen    01230  01230                % 01426 AVL---
+200420015 Merl, St. Gengoul     01231  01231                % 01426 AVL---
+200420013 Merl, Plaak           01233  01233                % 01426 AVL---
+200420010 Merl, Op der Millen   01234  01234                % 01426 AVL---
+200901002 Strassen, Atrium      01237  01237                % 01426 AVL---
+200901007 Strassen, Bourmicht   01239  01239                % 01426 AVL---
+200901033 Strassen, Les Therme  01240  01240                % 01426 AVL---
+200102005 Bertrange, Spatzwiss  01242  01242                % 01426 AVL---
+200101007 Bertrange, Gare       01244  01244                % 01426 AVL---
+200101002 Bertrange, Belle Eto  01249                       % 01426 AVL---
+*Z 01427 AVL---       001 045                               % 01427 AVL---
+*L 27       200404027 200101002  01355  01434               % 01427 AVL---
+*A BE 200404027 200101002 000002  01355  01434              % 01427 AVL---
+*R 1 200101002 200404027 200101002  01355  01434            % 01427 AVL---
+*G AVG 200404027 200101002  01355  01434                    % 01427 AVL---
+*A VE 200404027 200101002 000002  01355  01434              % 01427 AVL---
+200404027 Bonnevoie, Lycée Tec         01355                % 01427 AVL---
+200404037 Bonnevoie, Willibror  01356  01356                % 01427 AVL---
+200404026 Bonnevoie, Léon XIII  01358  01358                % 01427 AVL---
+200404034 Bonnevoie, Rotonde    01359  01359                % 01427 AVL---
+200405046 Luxembourg, Gare Roc  01401  01401                % 01427 AVL---
+200405039 Luxembourg, Wallis    01402  01402                % 01427 AVL---
+200405032 Luxembourg, Gare Cen  01405  01405                % 01427 AVL---
+200415003 Hollerich, Fonderie   01407  01407                % 01427 AVL---
+200415006 Hollerich, Jean-Bapt  01409  01409                % 01427 AVL---
+200415012 Hollerich, Salzhaff   01410  01410                % 01427 AVL---
+200415017 Hollerich, P+R Bouil  01412  01412                % 01427 AVL---
+200415009 Hollerich, P+R Bouil  01413  01413                % 01427 AVL---
+200420009 Merl, Marcel Cahen    01415  01415                % 01427 AVL---
+200420015 Merl, St. Gengoul     01416  01416                % 01427 AVL---
+200420013 Merl, Plaak           01418  01418                % 01427 AVL---
+200420010 Merl, Op der Millen   01419  01419                % 01427 AVL---
+200901002 Strassen, Atrium      01422  01422                % 01427 AVL---
+200901007 Strassen, Bourmicht   01424  01424                % 01427 AVL---
+200901033 Strassen, Les Therme  01425  01425                % 01427 AVL---
+200102005 Bertrange, Spatzwiss  01427  01427                % 01427 AVL---
+200101007 Bertrange, Gare       01429  01429                % 01427 AVL---
+200101002 Bertrange, Belle Eto  01434                       % 01427 AVL---
+*Z 01428 AVL---       001 045                               % 01428 AVL---
+*L 27       200404027 200101002  01540  01619               % 01428 AVL---
+*A BE 200404027 200101002 000002  01540  01619              % 01428 AVL---
+*R 1 200101002 200404027 200101002  01540  01619            % 01428 AVL---
+*G AVG 200404027 200101002  01540  01619                    % 01428 AVL---
+*A VE 200404027 200101002 000002  01540  01619              % 01428 AVL---
+200404027 Bonnevoie, Lycée Tec         01540                % 01428 AVL---
+200404037 Bonnevoie, Willibror  01541  01541                % 01428 AVL---
+200404026 Bonnevoie, Léon XIII  01543  01543                % 01428 AVL---
+200404034 Bonnevoie, Rotonde    01544  01544                % 01428 AVL---
+200405046 Luxembourg, Gare Roc  01546  01546                % 01428 AVL---
+200405039 Luxembourg, Wallis    01547  01547                % 01428 AVL---
+200405032 Luxembourg, Gare Cen  01550  01550                % 01428 AVL---
+200415003 Hollerich, Fonderie   01552  01552                % 01428 AVL---
+200415006 Hollerich, Jean-Bapt  01554  01554                % 01428 AVL---
+200415012 Hollerich, Salzhaff   01555  01555                % 01428 AVL---
+200415017 Hollerich, P+R Bouil  01557  01557                % 01428 AVL---
+200415009 Hollerich, P+R Bouil  01558  01558                % 01428 AVL---
+200420009 Merl, Marcel Cahen    01600  01600                % 01428 AVL---
+200420015 Merl, St. Gengoul     01601  01601                % 01428 AVL---
+200420013 Merl, Plaak           01603  01603                % 01428 AVL---
+200420010 Merl, Op der Millen   01604  01604                % 01428 AVL---
+200901002 Strassen, Atrium      01607  01607                % 01428 AVL---
+200901007 Strassen, Bourmicht   01609  01609                % 01428 AVL---
+200901033 Strassen, Les Therme  01610  01610                % 01428 AVL---
+200102005 Bertrange, Spatzwiss  01612  01612                % 01428 AVL---
+200101007 Bertrange, Gare       01614  01614                % 01428 AVL---
+200101002 Bertrange, Belle Eto  01619                       % 01428 AVL---
+*Z 01429 AVL---       001 045                               % 01429 AVL---
+*L 27       200404027 200101002  01725  01804               % 01429 AVL---
+*A BE 200404027 200101002 000002  01725  01804              % 01429 AVL---
+*R 1 200101002 200404027 200101002  01725  01804            % 01429 AVL---
+*G AVG 200404027 200101002  01725  01804                    % 01429 AVL---
+*A VE 200404027 200101002 000002  01725  01804              % 01429 AVL---
+200404027 Bonnevoie, Lycée Tec         01725                % 01429 AVL---
+200404037 Bonnevoie, Willibror  01726  01726                % 01429 AVL---
+200404026 Bonnevoie, Léon XIII  01728  01728                % 01429 AVL---
+200404034 Bonnevoie, Rotonde    01729  01729                % 01429 AVL---
+200405046 Luxembourg, Gare Roc  01731  01731                % 01429 AVL---
+200405039 Luxembourg, Wallis    01732  01732                % 01429 AVL---
+200405032 Luxembourg, Gare Cen  01735  01735                % 01429 AVL---
+200415003 Hollerich, Fonderie   01737  01737                % 01429 AVL---
+200415006 Hollerich, Jean-Bapt  01739  01739                % 01429 AVL---
+200415012 Hollerich, Salzhaff   01740  01740                % 01429 AVL---
+200415017 Hollerich, P+R Bouil  01742  01742                % 01429 AVL---
+200415009 Hollerich, P+R Bouil  01743  01743                % 01429 AVL---
+200420009 Merl, Marcel Cahen    01745  01745                % 01429 AVL---
+200420015 Merl, St. Gengoul     01746  01746                % 01429 AVL---
+200420013 Merl, Plaak           01748  01748                % 01429 AVL---
+200420010 Merl, Op der Millen   01749  01749                % 01429 AVL---
+200901002 Strassen, Atrium      01752  01752                % 01429 AVL---
+200901007 Strassen, Bourmicht   01754  01754                % 01429 AVL---
+200901033 Strassen, Les Therme  01755  01755                % 01429 AVL---
+200102005 Bertrange, Spatzwiss  01757  01757                % 01429 AVL---
+200101007 Bertrange, Gare       01759  01759                % 01429 AVL---
+200101002 Bertrange, Belle Eto  01804                       % 01429 AVL---
+*Z 01430 AVL---                                             % 01430 AVL---
+*L 27       200404027 200101002  01910  01949               % 01430 AVL---
+*A BE 200404027 200101002 000002  01910  01949              % 01430 AVL---
+*R 1 200101002 200404027 200101002  01910  01949            % 01430 AVL---
+*G AVG 200404027 200101002  01910  01949                    % 01430 AVL---
+*A VE 200404027 200101002 000002  01910  01949              % 01430 AVL---
+200404027 Bonnevoie, Lycée Tec         01910                % 01430 AVL---
+200404037 Bonnevoie, Willibror  01911  01911                % 01430 AVL---
+200404026 Bonnevoie, Léon XIII  01913  01913                % 01430 AVL---
+200404034 Bonnevoie, Rotonde    01914  01914                % 01430 AVL---
+200405046 Luxembourg, Gare Roc  01916  01916                % 01430 AVL---
+200405039 Luxembourg, Wallis    01917  01917                % 01430 AVL---
+200405032 Luxembourg, Gare Cen  01920  01920                % 01430 AVL---
+200415003 Hollerich, Fonderie   01922  01922                % 01430 AVL---
+200415006 Hollerich, Jean-Bapt  01924  01924                % 01430 AVL---
+200415012 Hollerich, Salzhaff   01925  01925                % 01430 AVL---
+200415017 Hollerich, P+R Bouil  01927  01927                % 01430 AVL---
+200415009 Hollerich, P+R Bouil  01928  01928                % 01430 AVL---
+200420009 Merl, Marcel Cahen    01930  01930                % 01430 AVL---
+200420015 Merl, St. Gengoul     01931  01931                % 01430 AVL---
+200420013 Merl, Plaak           01933  01933                % 01430 AVL---
+200420010 Merl, Op der Millen   01934  01934                % 01430 AVL---
+200901002 Strassen, Atrium      01937  01937                % 01430 AVL---
+200901007 Strassen, Bourmicht   01939  01939                % 01430 AVL---
+200901033 Strassen, Les Therme  01940  01940                % 01430 AVL---
+200102005 Bertrange, Spatzwiss  01942  01942                % 01430 AVL---
+200101007 Bertrange, Gare       01944  01944                % 01430 AVL---
+200101002 Bertrange, Belle Eto  01949                       % 01430 AVL---
+*Z 01431 AVL---       005 090                               % 01431 AVL---
+*L 27       200404027 200101002  01140  01211               % 01431 AVL---
+*A BE 200404027 200101002 000003  01140  01211              % 01431 AVL---
+*R 1 200101002 200404027 200101002  01140  01211            % 01431 AVL---
+*G AVS 200404027 200101002  01140  01211                    % 01431 AVL---
+*A VE 200404027 200101002 000003  01140  01211              % 01431 AVL---
+200404027 Bonnevoie, Lycée Tec         01140                % 01431 AVL---
+200404037 Bonnevoie, Willibror  01141  01141                % 01431 AVL---
+200404026 Bonnevoie, Léon XIII  01142  01142                % 01431 AVL---
+200404034 Bonnevoie, Rotonde    01143  01143                % 01431 AVL---
+200405046 Luxembourg, Gare Roc  01145  01145                % 01431 AVL---
+200405039 Luxembourg, Wallis    01146  01146                % 01431 AVL---
+200405032 Luxembourg, Gare Cen  01148  01148                % 01431 AVL---
+200415003 Hollerich, Fonderie   01150  01150                % 01431 AVL---
+200415006 Hollerich, Jean-Bapt  01151  01151                % 01431 AVL---
+200415012 Hollerich, Salzhaff   01152  01152                % 01431 AVL---
+200415017 Hollerich, P+R Bouil  01153  01153                % 01431 AVL---
+200415009 Hollerich, P+R Bouil  01154  01154                % 01431 AVL---
+200420009 Merl, Marcel Cahen    01156  01156                % 01431 AVL---
+200420015 Merl, St. Gengoul     01157  01157                % 01431 AVL---
+200420013 Merl, Plaak           01158  01158                % 01431 AVL---
+200420010 Merl, Op der Millen   01159  01159                % 01431 AVL---
+200901002 Strassen, Atrium      01202  01202                % 01431 AVL---
+200901007 Strassen, Bourmicht   01203  01203                % 01431 AVL---
+200901033 Strassen, Les Therme  01204  01204                % 01431 AVL---
+200102005 Bertrange, Spatzwiss  01205  01205                % 01431 AVL---
+200101007 Bertrange, Gare       01207  01207                % 01431 AVL---
+200101002 Bertrange, Belle Eto  01211                       % 01431 AVL---
+*Z 01432 AVL---       007 090                               % 01432 AVL---
+*L 27       200404027 200101002  00810  00841               % 01432 AVL---
+*A BE 200404027 200101002 000005  00810  00841              % 01432 AVL---
+*R 1 200101002 200404027 200101002  00810  00841            % 01432 AVL---
+*G AVG 200404027 200101002  00810  00841                    % 01432 AVL---
+*A VE 200404027 200101002 000005  00810  00841              % 01432 AVL---
+200404027 Bonnevoie, Lycée Tec         00810                % 01432 AVL---
+200404037 Bonnevoie, Willibror  00811  00811                % 01432 AVL---
+200404026 Bonnevoie, Léon XIII  00812  00812                % 01432 AVL---
+200404034 Bonnevoie, Rotonde    00813  00813                % 01432 AVL---
+200405046 Luxembourg, Gare Roc  00815  00815                % 01432 AVL---
+200405039 Luxembourg, Wallis    00816  00816                % 01432 AVL---
+200405032 Luxembourg, Gare Cen  00818  00818                % 01432 AVL---
+200415003 Hollerich, Fonderie   00820  00820                % 01432 AVL---
+200415006 Hollerich, Jean-Bapt  00821  00821                % 01432 AVL---
+200415012 Hollerich, Salzhaff   00822  00822                % 01432 AVL---
+200415017 Hollerich, P+R Bouil  00823  00823                % 01432 AVL---
+200415009 Hollerich, P+R Bouil  00824  00824                % 01432 AVL---
+200420009 Merl, Marcel Cahen    00826  00826                % 01432 AVL---
+200420015 Merl, St. Gengoul     00827  00827                % 01432 AVL---
+200420013 Merl, Plaak           00828  00828                % 01432 AVL---
+200420010 Merl, Op der Millen   00829  00829                % 01432 AVL---
+200901002 Strassen, Atrium      00832  00832                % 01432 AVL---
+200901007 Strassen, Bourmicht   00833  00833                % 01432 AVL---
+200901033 Strassen, Les Therme  00834  00834                % 01432 AVL---
+200102005 Bertrange, Spatzwiss  00835  00835                % 01432 AVL---
+200101007 Bertrange, Gare       00837  00837                % 01432 AVL---
+200101002 Bertrange, Belle Eto  00841                       % 01432 AVL---
+*Z 01433 AVL---       001 090                               % 01433 AVL---
+*L 27       200404027 200101002  00840  00910               % 01433 AVL---
+*A BE 200404027 200101002 000003  00840  00910              % 01433 AVL---
+*R 1 200101002 200404027 200101002  00840  00910            % 01433 AVL---
+*G AVS 200404027 200101002  00840  00910                    % 01433 AVL---
+*A VE 200404027 200101002 000003  00840  00910              % 01433 AVL---
+200404027 Bonnevoie, Lycée Tec         00840                % 01433 AVL---
+200404037 Bonnevoie, Willibror  00841  00841                % 01433 AVL---
+200404026 Bonnevoie, Léon XIII  00843  00843                % 01433 AVL---
+200404034 Bonnevoie, Rotonde    00844  00844                % 01433 AVL---
+200405046 Luxembourg, Gare Roc  00845  00845                % 01433 AVL---
+200405039 Luxembourg, Wallis    00846  00846                % 01433 AVL---
+200405032 Luxembourg, Gare Cen  00848  00848                % 01433 AVL---
+200415003 Hollerich, Fonderie   00850  00850                % 01433 AVL---
+200415006 Hollerich, Jean-Bapt  00850  00850                % 01433 AVL---
+200415012 Hollerich, Salzhaff   00851  00851                % 01433 AVL---
+200415017 Hollerich, P+R Bouil  00853  00853                % 01433 AVL---
+200415009 Hollerich, P+R Bouil  00854  00854                % 01433 AVL---
+200420009 Merl, Marcel Cahen    00855  00855                % 01433 AVL---
+200420015 Merl, St. Gengoul     00856  00856                % 01433 AVL---
+200420013 Merl, Plaak           00857  00857                % 01433 AVL---
+200420010 Merl, Op der Millen   00858  00858                % 01433 AVL---
+200901002 Strassen, Atrium      00901  00901                % 01433 AVL---
+200901007 Strassen, Bourmicht   00902  00902                % 01433 AVL---
+200901033 Strassen, Les Therme  00903  00903                % 01433 AVL---
+200102005 Bertrange, Spatzwiss  00904  00904                % 01433 AVL---
+200101007 Bertrange, Gare       00906  00906                % 01433 AVL---
+200101002 Bertrange, Belle Eto  00910                       % 01433 AVL---
+*Z 01434 AVL---       001 030                               % 01434 AVL---
+*L 27       200404027 200101002  00541  00611               % 01434 AVL---
+*A BE 200404027 200101002 000002  00541  00611              % 01434 AVL---
+*R 1 200101002 200404027 200101002  00541  00611            % 01434 AVL---
+*G AVG 200404027 200101002  00541  00611                    % 01434 AVL---
+*A VE 200404027 200101002 000002  00541  00611              % 01434 AVL---
+200404027 Bonnevoie, Lycée Tec         00541                % 01434 AVL---
+200404037 Bonnevoie, Willibror  00542  00542                % 01434 AVL---
+200404026 Bonnevoie, Léon XIII  00544  00544                % 01434 AVL---
+200404034 Bonnevoie, Rotonde    00545  00545                % 01434 AVL---
+200405046 Luxembourg, Gare Roc  00546  00546                % 01434 AVL---
+200405039 Luxembourg, Wallis    00547  00547                % 01434 AVL---
+200405032 Luxembourg, Gare Cen  00549  00549                % 01434 AVL---
+200415003 Hollerich, Fonderie   00551  00551                % 01434 AVL---
+200415006 Hollerich, Jean-Bapt  00551  00551                % 01434 AVL---
+200415012 Hollerich, Salzhaff   00552  00552                % 01434 AVL---
+200415017 Hollerich, P+R Bouil  00554  00554                % 01434 AVL---
+200415009 Hollerich, P+R Bouil  00555  00555                % 01434 AVL---
+200420009 Merl, Marcel Cahen    00556  00556                % 01434 AVL---
+200420015 Merl, St. Gengoul     00557  00557                % 01434 AVL---
+200420013 Merl, Plaak           00558  00558                % 01434 AVL---
+200420010 Merl, Op der Millen   00559  00559                % 01434 AVL---
+200901002 Strassen, Atrium      00602  00602                % 01434 AVL---
+200901007 Strassen, Bourmicht   00603  00603                % 01434 AVL---
+200901033 Strassen, Les Therme  00604  00604                % 01434 AVL---
+200102005 Bertrange, Spatzwiss  00605  00605                % 01434 AVL---
+200101007 Bertrange, Gare       00607  00607                % 01434 AVL---
+200101002 Bertrange, Belle Eto  00611                       % 01434 AVL---
+*Z 01435 AVL---       004 090                               % 01435 AVL---
+*L 27       200101002 200404027  01218  01249               % 01435 AVL---
+*A BE 200101002 200404027 000003  01218  01249              % 01435 AVL---
+*R 2 200404027 200101002 200404027  01218  01249            % 01435 AVL---
+*G AVS 200101002 200404027  01218  01249                    % 01435 AVL---
+*A VE 200101002 200404027 000003  01218  01249              % 01435 AVL---
+200101002 Bertrange, Belle Eto         01218                % 01435 AVL---
+200101007 Bertrange, Gare       01222  01222                % 01435 AVL---
+200102005 Bertrange, Spatzwiss  01223  01223                % 01435 AVL---
+200901033 Strassen, Les Therme  01225  01225                % 01435 AVL---
+200901007 Strassen, Bourmicht   01226  01226                % 01435 AVL---
+200901002 Strassen, Atrium      01227  01227                % 01435 AVL---
+200420010 Merl, Op der Millen   01230  01230                % 01435 AVL---
+200420013 Merl, Plaak           01230  01230                % 01435 AVL---
+200420015 Merl, St. Gengoul     01231  01231                % 01435 AVL---
+200420009 Merl, Marcel Cahen    01233  01233                % 01435 AVL---
+200415009 Hollerich, P+R Bouil  01235  01235                % 01435 AVL---
+200415017 Hollerich, P+R Bouil  01236  01236                % 01435 AVL---
+200415006 Hollerich, Jean-Bapt  01237  01237                % 01435 AVL---
+200415003 Hollerich, Fonderie   01239  01239                % 01435 AVL---
+200405035 Luxembourg, Gare Cen  01241  01241                % 01435 AVL---
+200405039 Luxembourg, Wallis    01243  01243                % 01435 AVL---
+200405046 Luxembourg, Gare Roc  01245  01245                % 01435 AVL---
+200404034 Bonnevoie, Rotonde    01246  01246                % 01435 AVL---
+200404026 Bonnevoie, Léon XIII  01246  01246                % 01435 AVL---
+200404037 Bonnevoie, Willibror  01248  01248                % 01435 AVL---
+200404027 Bonnevoie, Lycée Tec  01249                       % 01435 AVL---
+*Z 01436 AVL---       007 090                               % 01436 AVL---
+*L 27       200101002 200404027  00848  00919               % 01436 AVL---
+*A BE 200101002 200404027 000005  00848  00919              % 01436 AVL---
+*R 2 200404027 200101002 200404027  00848  00919            % 01436 AVL---
+*G AVG 200101002 200404027  00848  00919                    % 01436 AVL---
+*A VE 200101002 200404027 000005  00848  00919              % 01436 AVL---
+200101002 Bertrange, Belle Eto         00848                % 01436 AVL---
+200101007 Bertrange, Gare       00852  00852                % 01436 AVL---
+200102005 Bertrange, Spatzwiss  00853  00853                % 01436 AVL---
+200901033 Strassen, Les Therme  00855  00855                % 01436 AVL---
+200901007 Strassen, Bourmicht   00856  00856                % 01436 AVL---
+200901002 Strassen, Atrium      00857  00857                % 01436 AVL---
+200420010 Merl, Op der Millen   00900  00900                % 01436 AVL---
+200420013 Merl, Plaak           00900  00900                % 01436 AVL---
+200420015 Merl, St. Gengoul     00901  00901                % 01436 AVL---
+200420009 Merl, Marcel Cahen    00903  00903                % 01436 AVL---
+200415009 Hollerich, P+R Bouil  00905  00905                % 01436 AVL---
+200415017 Hollerich, P+R Bouil  00906  00906                % 01436 AVL---
+200415006 Hollerich, Jean-Bapt  00907  00907                % 01436 AVL---
+200415003 Hollerich, Fonderie   00909  00909                % 01436 AVL---
+200405035 Luxembourg, Gare Cen  00911  00911                % 01436 AVL---
+200405039 Luxembourg, Wallis    00913  00913                % 01436 AVL---
+200405046 Luxembourg, Gare Roc  00915  00915                % 01436 AVL---
+200404034 Bonnevoie, Rotonde    00916  00916                % 01436 AVL---
+200404026 Bonnevoie, Léon XIII  00916  00916                % 01436 AVL---
+200404037 Bonnevoie, Willibror  00918  00918                % 01436 AVL---
+200404027 Bonnevoie, Lycée Tec  00919                       % 01436 AVL---
+*Z 01437 AVL---       001 090                               % 01437 AVL---
+*L 27       200101002 200404027  00920  00949               % 01437 AVL---
+*A BE 200101002 200404027 000003  00920  00949              % 01437 AVL---
+*R 2 200404027 200101002 200404027  00920  00949            % 01437 AVL---
+*G AVS 200101002 200404027  00920  00949                    % 01437 AVL---
+*A VE 200101002 200404027 000003  00920  00949              % 01437 AVL---
+200101002 Bertrange, Belle Eto         00920                % 01437 AVL---
+200101007 Bertrange, Gare       00923  00923                % 01437 AVL---
+200102005 Bertrange, Spatzwiss  00924  00924                % 01437 AVL---
+200901033 Strassen, Les Therme  00926  00926                % 01437 AVL---
+200901007 Strassen, Bourmicht   00927  00927                % 01437 AVL---
+200901002 Strassen, Atrium      00928  00928                % 01437 AVL---
+200420010 Merl, Op der Millen   00931  00931                % 01437 AVL---
+200420013 Merl, Plaak           00931  00931                % 01437 AVL---
+200420015 Merl, St. Gengoul     00932  00932                % 01437 AVL---
+200420009 Merl, Marcel Cahen    00933  00933                % 01437 AVL---
+200415009 Hollerich, P+R Bouil  00935  00935                % 01437 AVL---
+200415017 Hollerich, P+R Bouil  00936  00936                % 01437 AVL---
+200415006 Hollerich, Jean-Bapt  00938  00938                % 01437 AVL---
+200415003 Hollerich, Fonderie   00939  00939                % 01437 AVL---
+200405035 Luxembourg, Gare Cen  00941  00941                % 01437 AVL---
+200405039 Luxembourg, Wallis    00943  00943                % 01437 AVL---
+200405046 Luxembourg, Gare Roc  00945  00945                % 01437 AVL---
+200404034 Bonnevoie, Rotonde    00946  00946                % 01437 AVL---
+200404026 Bonnevoie, Léon XIII  00946  00946                % 01437 AVL---
+200404037 Bonnevoie, Willibror  00948  00948                % 01437 AVL---
+200404027 Bonnevoie, Lycée Tec  00949                       % 01437 AVL---
+*Z 01438 AVL---                                             % 01438 AVL---
+*L 27       200101002 200404027  01950  02019               % 01438 AVL---
+*A BE 200101002 200404027 000003  01950  02019              % 01438 AVL---
+*R 2 200404027 200101002 200404027  01950  02019            % 01438 AVL---
+*G AVS 200101002 200404027  01950  02019                    % 01438 AVL---
+*A VE 200101002 200404027 000003  01950  02019              % 01438 AVL---
+200101002 Bertrange, Belle Eto         01950                % 01438 AVL---
+200101007 Bertrange, Gare       01953  01953                % 01438 AVL---
+200102005 Bertrange, Spatzwiss  01954  01954                % 01438 AVL---
+200901033 Strassen, Les Therme  01956  01956                % 01438 AVL---
+200901007 Strassen, Bourmicht   01957  01957                % 01438 AVL---
+200901002 Strassen, Atrium      01958  01958                % 01438 AVL---
+200420010 Merl, Op der Millen   02001  02001                % 01438 AVL---
+200420013 Merl, Plaak           02001  02001                % 01438 AVL---
+200420015 Merl, St. Gengoul     02002  02002                % 01438 AVL---
+200420009 Merl, Marcel Cahen    02003  02003                % 01438 AVL---
+200415009 Hollerich, P+R Bouil  02005  02005                % 01438 AVL---
+200415017 Hollerich, P+R Bouil  02006  02006                % 01438 AVL---
+200415006 Hollerich, Jean-Bapt  02008  02008                % 01438 AVL---
+200415003 Hollerich, Fonderie   02009  02009                % 01438 AVL---
+200405035 Luxembourg, Gare Cen  02011  02011                % 01438 AVL---
+200405039 Luxembourg, Wallis    02013  02013                % 01438 AVL---
+200405046 Luxembourg, Gare Roc  02015  02015                % 01438 AVL---
+200404034 Bonnevoie, Rotonde    02016  02016                % 01438 AVL---
+200404026 Bonnevoie, Léon XIII  02016  02016                % 01438 AVL---
+200404037 Bonnevoie, Willibror  02018  02018                % 01438 AVL---
+200404027 Bonnevoie, Lycée Tec  02019                       % 01438 AVL---
+*Z 01439 AVL---       001 825                               % 01439 AVL---
+*L 27       200101002 200404027  00620  00649               % 01439 AVL---
+*A BE 200101002 200404027 000002  00620  00649              % 01439 AVL---
+*R 2 200404027 200101002 200404027  00620  00649            % 01439 AVL---
+*G AVG 200101002 200404027  00620  00649                    % 01439 AVL---
+*A VE 200101002 200404027 000002  00620  00649              % 01439 AVL---
+200101002 Bertrange, Belle Eto         00620                % 01439 AVL---
+200101007 Bertrange, Gare       00623  00623                % 01439 AVL---
+200102005 Bertrange, Spatzwiss  00624  00624                % 01439 AVL---
+200901033 Strassen, Les Therme  00626  00626                % 01439 AVL---
+200901007 Strassen, Bourmicht   00627  00627                % 01439 AVL---
+200901002 Strassen, Atrium      00628  00628                % 01439 AVL---
+200420010 Merl, Op der Millen   00631  00631                % 01439 AVL---
+200420013 Merl, Plaak           00631  00631                % 01439 AVL---
+200420015 Merl, St. Gengoul     00632  00632                % 01439 AVL---
+200420009 Merl, Marcel Cahen    00633  00633                % 01439 AVL---
+200415009 Hollerich, P+R Bouil  00635  00635                % 01439 AVL---
+200415017 Hollerich, P+R Bouil  00636  00636                % 01439 AVL---
+200415006 Hollerich, Jean-Bapt  00638  00638                % 01439 AVL---
+200415003 Hollerich, Fonderie   00639  00639                % 01439 AVL---
+200405035 Luxembourg, Gare Cen  00641  00641                % 01439 AVL---
+200405039 Luxembourg, Wallis    00643  00643                % 01439 AVL---
+200405046 Luxembourg, Gare Roc  00645  00645                % 01439 AVL---
+200404034 Bonnevoie, Rotonde    00646  00646                % 01439 AVL---
+200404026 Bonnevoie, Léon XIII  00646  00646                % 01439 AVL---
+200404037 Bonnevoie, Willibror  00648  00648                % 01439 AVL---
+200404027 Bonnevoie, Lycée Tec  00649                       % 01439 AVL---
+*Z 01440 AVL---       001 060                               % 01440 AVL---
+*L 27       200101002 200404027  00648  00726               % 01440 AVL---
+*A BE 200101002 200404027 000002  00648  00726              % 01440 AVL---
+*R 2 200404027 200101002 200404027  00648  00726            % 01440 AVL---
+*G AVG 200101002 200404027  00648  00726                    % 01440 AVL---
+*A VE 200101002 200404027 000002  00648  00726              % 01440 AVL---
+200101002 Bertrange, Belle Eto         00648                % 01440 AVL---
+200101007 Bertrange, Gare       00653  00653                % 01440 AVL---
+200102005 Bertrange, Spatzwiss  00655  00655                % 01440 AVL---
+200901033 Strassen, Les Therme  00656  00656                % 01440 AVL---
+200901007 Strassen, Bourmicht   00658  00658                % 01440 AVL---
+200901002 Strassen, Atrium      00659  00659                % 01440 AVL---
+200420010 Merl, Op der Millen   00702  00702                % 01440 AVL---
+200420013 Merl, Plaak           00703  00703                % 01440 AVL---
+200420015 Merl, St. Gengoul     00704  00704                % 01440 AVL---
+200420009 Merl, Marcel Cahen    00706  00706                % 01440 AVL---
+200415009 Hollerich, P+R Bouil  00709  00709                % 01440 AVL---
+200415017 Hollerich, P+R Bouil  00710  00710                % 01440 AVL---
+200415006 Hollerich, Jean-Bapt  00712  00712                % 01440 AVL---
+200415003 Hollerich, Fonderie   00713  00713                % 01440 AVL---
+200405035 Luxembourg, Gare Cen  00716  00716                % 01440 AVL---
+200405039 Luxembourg, Wallis    00720  00720                % 01440 AVL---
+200405046 Luxembourg, Gare Roc  00722  00722                % 01440 AVL---
+200404034 Bonnevoie, Rotonde    00723  00723                % 01440 AVL---
+200404026 Bonnevoie, Léon XIII  00724  00724                % 01440 AVL---
+200404037 Bonnevoie, Willibror  00725  00725                % 01440 AVL---
+200404027 Bonnevoie, Lycée Tec  00726                       % 01440 AVL---
+*Z 01441 AVL---       001 060                               % 01441 AVL---
+*L 27       200101002 200404027  00833  00911               % 01441 AVL---
+*A BE 200101002 200404027 000002  00833  00911              % 01441 AVL---
+*R 2 200404027 200101002 200404027  00833  00911            % 01441 AVL---
+*G AVG 200101002 200404027  00833  00911                    % 01441 AVL---
+*A VE 200101002 200404027 000002  00833  00911              % 01441 AVL---
+200101002 Bertrange, Belle Eto         00833                % 01441 AVL---
+200101007 Bertrange, Gare       00838  00838                % 01441 AVL---
+200102005 Bertrange, Spatzwiss  00840  00840                % 01441 AVL---
+200901033 Strassen, Les Therme  00841  00841                % 01441 AVL---
+200901007 Strassen, Bourmicht   00843  00843                % 01441 AVL---
+200901002 Strassen, Atrium      00844  00844                % 01441 AVL---
+200420010 Merl, Op der Millen   00847  00847                % 01441 AVL---
+200420013 Merl, Plaak           00848  00848                % 01441 AVL---
+200420015 Merl, St. Gengoul     00849  00849                % 01441 AVL---
+200420009 Merl, Marcel Cahen    00851  00851                % 01441 AVL---
+200415009 Hollerich, P+R Bouil  00854  00854                % 01441 AVL---
+200415017 Hollerich, P+R Bouil  00855  00855                % 01441 AVL---
+200415006 Hollerich, Jean-Bapt  00857  00857                % 01441 AVL---
+200415003 Hollerich, Fonderie   00858  00858                % 01441 AVL---
+200405035 Luxembourg, Gare Cen  00901  00901                % 01441 AVL---
+200405039 Luxembourg, Wallis    00905  00905                % 01441 AVL---
+200405046 Luxembourg, Gare Roc  00907  00907                % 01441 AVL---
+200404034 Bonnevoie, Rotonde    00908  00908                % 01441 AVL---
+200404026 Bonnevoie, Léon XIII  00909  00909                % 01441 AVL---
+200404037 Bonnevoie, Willibror  00910  00910                % 01441 AVL---
+200404027 Bonnevoie, Lycée Tec  00911                       % 01441 AVL---
+*Z 01442 AVL---       001 060                               % 01442 AVL---
+*L 27       200101002 200404027  01018  01056               % 01442 AVL---
+*A BE 200101002 200404027 000002  01018  01056              % 01442 AVL---
+*R 2 200404027 200101002 200404027  01018  01056            % 01442 AVL---
+*G AVG 200101002 200404027  01018  01056                    % 01442 AVL---
+*A VE 200101002 200404027 000002  01018  01056              % 01442 AVL---
+200101002 Bertrange, Belle Eto         01018                % 01442 AVL---
+200101007 Bertrange, Gare       01023  01023                % 01442 AVL---
+200102005 Bertrange, Spatzwiss  01025  01025                % 01442 AVL---
+200901033 Strassen, Les Therme  01026  01026                % 01442 AVL---
+200901007 Strassen, Bourmicht   01028  01028                % 01442 AVL---
+200901002 Strassen, Atrium      01029  01029                % 01442 AVL---
+200420010 Merl, Op der Millen   01032  01032                % 01442 AVL---
+200420013 Merl, Plaak           01033  01033                % 01442 AVL---
+200420015 Merl, St. Gengoul     01034  01034                % 01442 AVL---
+200420009 Merl, Marcel Cahen    01036  01036                % 01442 AVL---
+200415009 Hollerich, P+R Bouil  01039  01039                % 01442 AVL---
+200415017 Hollerich, P+R Bouil  01040  01040                % 01442 AVL---
+200415006 Hollerich, Jean-Bapt  01042  01042                % 01442 AVL---
+200415003 Hollerich, Fonderie   01043  01043                % 01442 AVL---
+200405035 Luxembourg, Gare Cen  01046  01046                % 01442 AVL---
+200405039 Luxembourg, Wallis    01050  01050                % 01442 AVL---
+200405046 Luxembourg, Gare Roc  01052  01052                % 01442 AVL---
+200404034 Bonnevoie, Rotonde    01053  01053                % 01442 AVL---
+200404026 Bonnevoie, Léon XIII  01054  01054                % 01442 AVL---
+200404037 Bonnevoie, Willibror  01055  01055                % 01442 AVL---
+200404027 Bonnevoie, Lycée Tec  01056                       % 01442 AVL---
+*Z 01443 AVL---       001 060                               % 01443 AVL---
+*L 27       200101002 200404027  01203  01241               % 01443 AVL---
+*A BE 200101002 200404027 000002  01203  01241              % 01443 AVL---
+*R 2 200404027 200101002 200404027  01203  01241            % 01443 AVL---
+*G AVG 200101002 200404027  01203  01241                    % 01443 AVL---
+*A VE 200101002 200404027 000002  01203  01241              % 01443 AVL---
+200101002 Bertrange, Belle Eto         01203                % 01443 AVL---
+200101007 Bertrange, Gare       01208  01208                % 01443 AVL---
+200102005 Bertrange, Spatzwiss  01210  01210                % 01443 AVL---
+200901033 Strassen, Les Therme  01211  01211                % 01443 AVL---
+200901007 Strassen, Bourmicht   01213  01213                % 01443 AVL---
+200901002 Strassen, Atrium      01214  01214                % 01443 AVL---
+200420010 Merl, Op der Millen   01217  01217                % 01443 AVL---
+200420013 Merl, Plaak           01218  01218                % 01443 AVL---
+200420015 Merl, St. Gengoul     01219  01219                % 01443 AVL---
+200420009 Merl, Marcel Cahen    01221  01221                % 01443 AVL---
+200415009 Hollerich, P+R Bouil  01224  01224                % 01443 AVL---
+200415017 Hollerich, P+R Bouil  01225  01225                % 01443 AVL---
+200415006 Hollerich, Jean-Bapt  01227  01227                % 01443 AVL---
+200415003 Hollerich, Fonderie   01228  01228                % 01443 AVL---
+200405035 Luxembourg, Gare Cen  01231  01231                % 01443 AVL---
+200405039 Luxembourg, Wallis    01235  01235                % 01443 AVL---
+200405046 Luxembourg, Gare Roc  01237  01237                % 01443 AVL---
+200404034 Bonnevoie, Rotonde    01238  01238                % 01443 AVL---
+200404026 Bonnevoie, Léon XIII  01239  01239                % 01443 AVL---
+200404037 Bonnevoie, Willibror  01240  01240                % 01443 AVL---
+200404027 Bonnevoie, Lycée Tec  01241                       % 01443 AVL---
+*Z 01444 AVL---       001 060                               % 01444 AVL---
+*L 27       200101002 200404027  01348  01426               % 01444 AVL---
+*A BE 200101002 200404027 000002  01348  01426              % 01444 AVL---
+*R 2 200404027 200101002 200404027  01348  01426            % 01444 AVL---
+*G AVG 200101002 200404027  01348  01426                    % 01444 AVL---
+*A VE 200101002 200404027 000002  01348  01426              % 01444 AVL---
+200101002 Bertrange, Belle Eto         01348                % 01444 AVL---
+200101007 Bertrange, Gare       01353  01353                % 01444 AVL---
+200102005 Bertrange, Spatzwiss  01355  01355                % 01444 AVL---
+200901033 Strassen, Les Therme  01356  01356                % 01444 AVL---
+200901007 Strassen, Bourmicht   01358  01358                % 01444 AVL---
+200901002 Strassen, Atrium      01359  01359                % 01444 AVL---
+200420010 Merl, Op der Millen   01402  01402                % 01444 AVL---
+200420013 Merl, Plaak           01403  01403                % 01444 AVL---
+200420015 Merl, St. Gengoul     01404  01404                % 01444 AVL---
+200420009 Merl, Marcel Cahen    01406  01406                % 01444 AVL---
+200415009 Hollerich, P+R Bouil  01409  01409                % 01444 AVL---
+200415017 Hollerich, P+R Bouil  01410  01410                % 01444 AVL---
+200415006 Hollerich, Jean-Bapt  01412  01412                % 01444 AVL---
+200415003 Hollerich, Fonderie   01413  01413                % 01444 AVL---
+200405035 Luxembourg, Gare Cen  01416  01416                % 01444 AVL---
+200405039 Luxembourg, Wallis    01420  01420                % 01444 AVL---
+200405046 Luxembourg, Gare Roc  01422  01422                % 01444 AVL---
+200404034 Bonnevoie, Rotonde    01423  01423                % 01444 AVL---
+200404026 Bonnevoie, Léon XIII  01424  01424                % 01444 AVL---
+200404037 Bonnevoie, Willibror  01425  01425                % 01444 AVL---
+200404027 Bonnevoie, Lycée Tec  01426                       % 01444 AVL---
+*Z 01445 AVL---       001 060                               % 01445 AVL---
+*L 27       200101002 200404027  01533  01611               % 01445 AVL---
+*A BE 200101002 200404027 000002  01533  01611              % 01445 AVL---
+*R 2 200404027 200101002 200404027  01533  01611            % 01445 AVL---
+*G AVG 200101002 200404027  01533  01611                    % 01445 AVL---
+*A VE 200101002 200404027 000002  01533  01611              % 01445 AVL---
+200101002 Bertrange, Belle Eto         01533                % 01445 AVL---
+200101007 Bertrange, Gare       01538  01538                % 01445 AVL---
+200102005 Bertrange, Spatzwiss  01540  01540                % 01445 AVL---
+200901033 Strassen, Les Therme  01541  01541                % 01445 AVL---
+200901007 Strassen, Bourmicht   01543  01543                % 01445 AVL---
+200901002 Strassen, Atrium      01544  01544                % 01445 AVL---
+200420010 Merl, Op der Millen   01547  01547                % 01445 AVL---
+200420013 Merl, Plaak           01548  01548                % 01445 AVL---
+200420015 Merl, St. Gengoul     01549  01549                % 01445 AVL---
+200420009 Merl, Marcel Cahen    01551  01551                % 01445 AVL---
+200415009 Hollerich, P+R Bouil  01554  01554                % 01445 AVL---
+200415017 Hollerich, P+R Bouil  01555  01555                % 01445 AVL---
+200415006 Hollerich, Jean-Bapt  01557  01557                % 01445 AVL---
+200415003 Hollerich, Fonderie   01558  01558                % 01445 AVL---
+200405035 Luxembourg, Gare Cen  01601  01601                % 01445 AVL---
+200405039 Luxembourg, Wallis    01605  01605                % 01445 AVL---
+200405046 Luxembourg, Gare Roc  01607  01607                % 01445 AVL---
+200404034 Bonnevoie, Rotonde    01608  01608                % 01445 AVL---
+200404026 Bonnevoie, Léon XIII  01609  01609                % 01445 AVL---
+200404037 Bonnevoie, Willibror  01610  01610                % 01445 AVL---
+200404027 Bonnevoie, Lycée Tec  01611                       % 01445 AVL---
+*Z 01446 AVL---       001 060                               % 01446 AVL---
+*L 27       200101002 200404027  01718  01756               % 01446 AVL---
+*A BE 200101002 200404027 000002  01718  01756              % 01446 AVL---
+*R 2 200404027 200101002 200404027  01718  01756            % 01446 AVL---
+*G AVG 200101002 200404027  01718  01756                    % 01446 AVL---
+*A VE 200101002 200404027 000002  01718  01756              % 01446 AVL---
+200101002 Bertrange, Belle Eto         01718                % 01446 AVL---
+200101007 Bertrange, Gare       01723  01723                % 01446 AVL---
+200102005 Bertrange, Spatzwiss  01725  01725                % 01446 AVL---
+200901033 Strassen, Les Therme  01726  01726                % 01446 AVL---
+200901007 Strassen, Bourmicht   01728  01728                % 01446 AVL---
+200901002 Strassen, Atrium      01729  01729                % 01446 AVL---
+200420010 Merl, Op der Millen   01732  01732                % 01446 AVL---
+200420013 Merl, Plaak           01733  01733                % 01446 AVL---
+200420015 Merl, St. Gengoul     01734  01734                % 01446 AVL---
+200420009 Merl, Marcel Cahen    01736  01736                % 01446 AVL---
+200415009 Hollerich, P+R Bouil  01739  01739                % 01446 AVL---
+200415017 Hollerich, P+R Bouil  01740  01740                % 01446 AVL---
+200415006 Hollerich, Jean-Bapt  01742  01742                % 01446 AVL---
+200415003 Hollerich, Fonderie   01743  01743                % 01446 AVL---
+200405035 Luxembourg, Gare Cen  01746  01746                % 01446 AVL---
+200405039 Luxembourg, Wallis    01750  01750                % 01446 AVL---
+200405046 Luxembourg, Gare Roc  01752  01752                % 01446 AVL---
+200404034 Bonnevoie, Rotonde    01753  01753                % 01446 AVL---
+200404026 Bonnevoie, Léon XIII  01754  01754                % 01446 AVL---
+200404037 Bonnevoie, Willibror  01755  01755                % 01446 AVL---
+200404027 Bonnevoie, Lycée Tec  01756                       % 01446 AVL---
+*Z 01447 AVL---                                             % 01447 AVL---
+*L 27       200101002 200404027  01903  01941               % 01447 AVL---
+*A BE 200101002 200404027 000002  01903  01941              % 01447 AVL---
+*R 2 200404027 200101002 200404027  01903  01941            % 01447 AVL---
+*G AVG 200101002 200404027  01903  01941                    % 01447 AVL---
+*A VE 200101002 200404027 000002  01903  01941              % 01447 AVL---
+200101002 Bertrange, Belle Eto         01903                % 01447 AVL---
+200101007 Bertrange, Gare       01908  01908                % 01447 AVL---
+200102005 Bertrange, Spatzwiss  01910  01910                % 01447 AVL---
+200901033 Strassen, Les Therme  01911  01911                % 01447 AVL---
+200901007 Strassen, Bourmicht   01913  01913                % 01447 AVL---
+200901002 Strassen, Atrium      01914  01914                % 01447 AVL---
+200420010 Merl, Op der Millen   01917  01917                % 01447 AVL---
+200420013 Merl, Plaak           01918  01918                % 01447 AVL---
+200420015 Merl, St. Gengoul     01919  01919                % 01447 AVL---
+200420009 Merl, Marcel Cahen    01921  01921                % 01447 AVL---
+200415009 Hollerich, P+R Bouil  01924  01924                % 01447 AVL---
+200415017 Hollerich, P+R Bouil  01925  01925                % 01447 AVL---
+200415006 Hollerich, Jean-Bapt  01927  01927                % 01447 AVL---
+200415003 Hollerich, Fonderie   01928  01928                % 01447 AVL---
+200405035 Luxembourg, Gare Cen  01931  01931                % 01447 AVL---
+200405039 Luxembourg, Wallis    01935  01935                % 01447 AVL---
+200405046 Luxembourg, Gare Roc  01937  01937                % 01447 AVL---
+200404034 Bonnevoie, Rotonde    01938  01938                % 01447 AVL---
+200404026 Bonnevoie, Léon XIII  01939  01939                % 01447 AVL---
+200404037 Bonnevoie, Willibror  01940  01940                % 01447 AVL---
+200404027 Bonnevoie, Lycée Tec  01941                       % 01447 AVL---

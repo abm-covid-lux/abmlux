@@ -1,0 +1,577 @@
+*F 03 2
+*Z 09972 RGTR--                                             % 09972 RGTR--
+*L 487      170704003 180703003  00715  00753               % 09972 RGTR--
+*A FR 170704003 180703003 000000  00715  00753              % 09972 RGTR--
+*A t  170704003 180703003 000000  00715  00753              % 09972 RGTR--
+*R 1 180703003 170704003 180703003  00715  00753            % 09972 RGTR--
+*G RGB 170704003 180703003  00715  00753                    % 09972 RGTR--
+*A VE 170704003 180703003 000000  00715  00753              % 09972 RGTR--
+*I FD 170704003 180703003        0001761  00715  00753      % 09972 RGTR--
+170704003 Rosport, Lokal               00715                % 09972 RGTR--
+170704006 Rosport, Rue Neuve    00717  00717                % 09972 RGTR--
+170704007 Rosport, Gemeng       00719  00719                % 09972 RGTR--
+170701001 Dickweiler, Duerfpla  00723  00723                % 09972 RGTR--
+170706001 Osweiler, Duerfplaz   00728  00728                % 09972 RGTR--
+170607003 Pafebierg             00733  00733                % 09972 RGTR--
+170604001 Herborn, Kiercheplaz  00737  00737                % 09972 RGTR--
+170607006 Mompach, Um Buer      00740  00740                % 09972 RGTR--
+170603001 Givenich, Am Duerf    00742  00742                % 09972 RGTR--
+170605003 Moersdorf, Iewescht   00745  00745                % 09972 RGTR--
+170605001 Moersdorf, Duerf      00745  00745                % 09972 RGTR--
+170605002 Moersdorf, Olek       00746  00746                % 09972 RGTR--
+180702001 Pont de Langsur       00749  00749                % 09972 RGTR--
+180703002 Wasserbillig, Cimeti  00751  00751                % 09972 RGTR--
+180703001 Wasserbillig, Centre  00751  00751                % 09972 RGTR--
+180703003 Wasserbillig, Gare    00753                       % 09972 RGTR--
+*Z 09973 RGTR--                                             % 09973 RGTR--
+*L 487      170704003 180703003  00850  00928               % 09973 RGTR--
+*A FR 170704003 180703003 000000  00850  00928              % 09973 RGTR--
+*A t  170704003 180703003 000000  00850  00928              % 09973 RGTR--
+*R 1 180703003 170704003 180703003  00850  00928            % 09973 RGTR--
+*G RGB 170704003 180703003  00850  00928                    % 09973 RGTR--
+*A VE 170704003 180703003 000000  00850  00928              % 09973 RGTR--
+*I FD 170704003 180703003        0002078  00850  00928      % 09973 RGTR--
+170704003 Rosport, Lokal               00850                % 09973 RGTR--
+170704006 Rosport, Rue Neuve    00852  00852                % 09973 RGTR--
+170704007 Rosport, Gemeng       00854  00854                % 09973 RGTR--
+170701001 Dickweiler, Duerfpla  00858  00858                % 09973 RGTR--
+170706001 Osweiler, Duerfplaz   00903  00903                % 09973 RGTR--
+170607003 Pafebierg             00908  00908                % 09973 RGTR--
+170604001 Herborn, Kiercheplaz  00912  00912                % 09973 RGTR--
+170607006 Mompach, Um Buer      00915  00915                % 09973 RGTR--
+170603001 Givenich, Am Duerf    00917  00917                % 09973 RGTR--
+170605003 Moersdorf, Iewescht   00920  00920                % 09973 RGTR--
+170605001 Moersdorf, Duerf      00920  00920                % 09973 RGTR--
+170605002 Moersdorf, Olek       00921  00921                % 09973 RGTR--
+180702001 Pont de Langsur       00924  00924                % 09973 RGTR--
+180703002 Wasserbillig, Cimeti  00926  00926                % 09973 RGTR--
+180703001 Wasserbillig, Centre  00926  00926                % 09973 RGTR--
+180703003 Wasserbillig, Gare    00928                       % 09973 RGTR--
+*Z 09974 RGTR--                                             % 09974 RGTR--
+*L 487      170704003 180703003  01645  01723               % 09974 RGTR--
+*A FR 170704003 180703003 000000  01645  01723              % 09974 RGTR--
+*A t  170704003 180703003 000000  01645  01723              % 09974 RGTR--
+*R 1 180703003 170704003 180703003  01645  01723            % 09974 RGTR--
+*G RGB 170704003 180703003  01645  01723                    % 09974 RGTR--
+*A VE 170704003 180703003 000000  01645  01723              % 09974 RGTR--
+*I FD 170704003 180703003        0001267  01645  01723      % 09974 RGTR--
+170704003 Rosport, Lokal               01645                % 09974 RGTR--
+170704006 Rosport, Rue Neuve    01647  01647                % 09974 RGTR--
+170704007 Rosport, Gemeng       01649  01649                % 09974 RGTR--
+170701001 Dickweiler, Duerfpla  01653  01653                % 09974 RGTR--
+170706001 Osweiler, Duerfplaz   01658  01658                % 09974 RGTR--
+170607003 Pafebierg             01703  01703                % 09974 RGTR--
+170604001 Herborn, Kiercheplaz  01707  01707                % 09974 RGTR--
+170607006 Mompach, Um Buer      01710  01710                % 09974 RGTR--
+170603001 Givenich, Am Duerf    01712  01712                % 09974 RGTR--
+170605003 Moersdorf, Iewescht   01715  01715                % 09974 RGTR--
+170605001 Moersdorf, Duerf      01715  01715                % 09974 RGTR--
+170605002 Moersdorf, Olek       01716  01716                % 09974 RGTR--
+180702001 Pont de Langsur       01719  01719                % 09974 RGTR--
+180703002 Wasserbillig, Cimeti  01721  01721                % 09974 RGTR--
+180703001 Wasserbillig, Centre  01721  01721                % 09974 RGTR--
+180703003 Wasserbillig, Gare    01723                       % 09974 RGTR--
+*Z 09975 RGTR--                                             % 09975 RGTR--
+*L 487      170704003 180703003  00420  00457               % 09975 RGTR--
+*A FR 170704003 180703003 000000  00420  00457              % 09975 RGTR--
+*A t  170704003 180703003 000000  00420  00457              % 09975 RGTR--
+*R 1 180703003 170704003 180703003  00420  00457            % 09975 RGTR--
+*G RGB 170704003 180703003  00420  00457                    % 09975 RGTR--
+*A VE 170704003 180703003 000000  00420  00457              % 09975 RGTR--
+*I FD 170704003 180703003        0003656  00420  00457      % 09975 RGTR--
+170704003 Rosport, Lokal               00420                % 09975 RGTR--
+170704006 Rosport, Rue Neuve    00421  00421                % 09975 RGTR--
+170704007 Rosport, Gemeng       00424  00424                % 09975 RGTR--
+170701001 Dickweiler, Duerfpla  00428  00428                % 09975 RGTR--
+170706001 Osweiler, Duerfplaz   00432  00432                % 09975 RGTR--
+170607003 Pafebierg             00437  00437                % 09975 RGTR--
+170604001 Herborn, Kiercheplaz  00441  00441                % 09975 RGTR--
+170607006 Mompach, Um Buer      00444  00444                % 09975 RGTR--
+170603001 Givenich, Am Duerf    00446  00446                % 09975 RGTR--
+170605003 Moersdorf, Iewescht   00449  00449                % 09975 RGTR--
+170605001 Moersdorf, Duerf      00450  00450                % 09975 RGTR--
+170605002 Moersdorf, Olek       00450  00450                % 09975 RGTR--
+180702001 Pont de Langsur       00453  00453                % 09975 RGTR--
+180703002 Wasserbillig, Cimeti  00455  00455                % 09975 RGTR--
+180703001 Wasserbillig, Centre  00455  00455                % 09975 RGTR--
+180703003 Wasserbillig, Gare    00457                       % 09975 RGTR--
+*Z 09976 RGTR--                                             % 09976 RGTR--
+*L 487      170704003 180703003  00545  00622               % 09976 RGTR--
+*A FR 170704003 180703003 000000  00545  00622              % 09976 RGTR--
+*A t  170704003 180703003 000000  00545  00622              % 09976 RGTR--
+*R 1 180703003 170704003 180703003  00545  00622            % 09976 RGTR--
+*G RGB 170704003 180703003  00545  00622                    % 09976 RGTR--
+*A VE 170704003 180703003 000000  00545  00622              % 09976 RGTR--
+*I FD 170704003 180703003        0003041  00545  00622      % 09976 RGTR--
+170704003 Rosport, Lokal               00545                % 09976 RGTR--
+170704006 Rosport, Rue Neuve    00546  00546                % 09976 RGTR--
+170704007 Rosport, Gemeng       00549  00549                % 09976 RGTR--
+170701001 Dickweiler, Duerfpla  00553  00553                % 09976 RGTR--
+170706001 Osweiler, Duerfplaz   00557  00557                % 09976 RGTR--
+170607003 Pafebierg             00602  00602                % 09976 RGTR--
+170604001 Herborn, Kiercheplaz  00606  00606                % 09976 RGTR--
+170607006 Mompach, Um Buer      00609  00609                % 09976 RGTR--
+170603001 Givenich, Am Duerf    00611  00611                % 09976 RGTR--
+170605003 Moersdorf, Iewescht   00614  00614                % 09976 RGTR--
+170605001 Moersdorf, Duerf      00615  00615                % 09976 RGTR--
+170605002 Moersdorf, Olek       00615  00615                % 09976 RGTR--
+180702001 Pont de Langsur       00618  00618                % 09976 RGTR--
+180703002 Wasserbillig, Cimeti  00620  00620                % 09976 RGTR--
+180703001 Wasserbillig, Centre  00620  00620                % 09976 RGTR--
+180703003 Wasserbillig, Gare    00622                       % 09976 RGTR--
+*Z 09977 RGTR--                                             % 09977 RGTR--
+*L 487      170704003 180703003  01020  01057               % 09977 RGTR--
+*A FR 170704003 180703003 000000  01020  01057              % 09977 RGTR--
+*A t  170704003 180703003 000000  01020  01057              % 09977 RGTR--
+*R 1 180703003 170704003 180703003  01020  01057            % 09977 RGTR--
+*G RGB 170704003 180703003  01020  01057                    % 09977 RGTR--
+*A VE 170704003 180703003 000000  01020  01057              % 09977 RGTR--
+*I FD 170704003 180703003        0003261  01020  01057      % 09977 RGTR--
+170704003 Rosport, Lokal               01020                % 09977 RGTR--
+170704006 Rosport, Rue Neuve    01021  01021                % 09977 RGTR--
+170704007 Rosport, Gemeng       01024  01024                % 09977 RGTR--
+170701001 Dickweiler, Duerfpla  01028  01028                % 09977 RGTR--
+170706001 Osweiler, Duerfplaz   01032  01032                % 09977 RGTR--
+170607003 Pafebierg             01037  01037                % 09977 RGTR--
+170604001 Herborn, Kiercheplaz  01041  01041                % 09977 RGTR--
+170607006 Mompach, Um Buer      01044  01044                % 09977 RGTR--
+170603001 Givenich, Am Duerf    01046  01046                % 09977 RGTR--
+170605003 Moersdorf, Iewescht   01049  01049                % 09977 RGTR--
+170605001 Moersdorf, Duerf      01050  01050                % 09977 RGTR--
+170605002 Moersdorf, Olek       01050  01050                % 09977 RGTR--
+180702001 Pont de Langsur       01053  01053                % 09977 RGTR--
+180703002 Wasserbillig, Cimeti  01055  01055                % 09977 RGTR--
+180703001 Wasserbillig, Centre  01055  01055                % 09977 RGTR--
+180703003 Wasserbillig, Gare    01057                       % 09977 RGTR--
+*Z 09978 RGTR--                                             % 09978 RGTR--
+*L 487      170704003 180703003  01205  01242               % 09978 RGTR--
+*A FR 170704003 180703003 000000  01205  01242              % 09978 RGTR--
+*A t  170704003 180703003 000000  01205  01242              % 09978 RGTR--
+*R 1 180703003 170704003 180703003  01205  01242            % 09978 RGTR--
+*G RGB 170704003 180703003  01205  01242                    % 09978 RGTR--
+*A VE 170704003 180703003 000000  01205  01242              % 09978 RGTR--
+*I FD 170704003 180703003        0002013  01205  01242      % 09978 RGTR--
+170704003 Rosport, Lokal               01205                % 09978 RGTR--
+170704006 Rosport, Rue Neuve    01206  01206                % 09978 RGTR--
+170704007 Rosport, Gemeng       01209  01209                % 09978 RGTR--
+170701001 Dickweiler, Duerfpla  01213  01213                % 09978 RGTR--
+170706001 Osweiler, Duerfplaz   01217  01217                % 09978 RGTR--
+170607003 Pafebierg             01222  01222                % 09978 RGTR--
+170604001 Herborn, Kiercheplaz  01226  01226                % 09978 RGTR--
+170607006 Mompach, Um Buer      01229  01229                % 09978 RGTR--
+170603001 Givenich, Am Duerf    01231  01231                % 09978 RGTR--
+170605003 Moersdorf, Iewescht   01234  01234                % 09978 RGTR--
+170605001 Moersdorf, Duerf      01235  01235                % 09978 RGTR--
+170605002 Moersdorf, Olek       01235  01235                % 09978 RGTR--
+180702001 Pont de Langsur       01238  01238                % 09978 RGTR--
+180703002 Wasserbillig, Cimeti  01240  01240                % 09978 RGTR--
+180703001 Wasserbillig, Centre  01240  01240                % 09978 RGTR--
+180703003 Wasserbillig, Gare    01242                       % 09978 RGTR--
+*Z 09979 RGTR--                                             % 09979 RGTR--
+*L 487      170704003 180703003  01345  01422               % 09979 RGTR--
+*A FR 170704003 180703003 000000  01345  01422              % 09979 RGTR--
+*A t  170704003 180703003 000000  01345  01422              % 09979 RGTR--
+*R 1 180703003 170704003 180703003  01345  01422            % 09979 RGTR--
+*G RGB 170704003 180703003  01345  01422                    % 09979 RGTR--
+*A VE 170704003 180703003 000000  01345  01422              % 09979 RGTR--
+*I FD 170704003 180703003        0002893  01345  01422      % 09979 RGTR--
+170704003 Rosport, Lokal               01345                % 09979 RGTR--
+170704006 Rosport, Rue Neuve    01346  01346                % 09979 RGTR--
+170704007 Rosport, Gemeng       01349  01349                % 09979 RGTR--
+170701001 Dickweiler, Duerfpla  01353  01353                % 09979 RGTR--
+170706001 Osweiler, Duerfplaz   01357  01357                % 09979 RGTR--
+170607003 Pafebierg             01402  01402                % 09979 RGTR--
+170604001 Herborn, Kiercheplaz  01406  01406                % 09979 RGTR--
+170607006 Mompach, Um Buer      01409  01409                % 09979 RGTR--
+170603001 Givenich, Am Duerf    01411  01411                % 09979 RGTR--
+170605003 Moersdorf, Iewescht   01414  01414                % 09979 RGTR--
+170605001 Moersdorf, Duerf      01415  01415                % 09979 RGTR--
+170605002 Moersdorf, Olek       01415  01415                % 09979 RGTR--
+180702001 Pont de Langsur       01418  01418                % 09979 RGTR--
+180703002 Wasserbillig, Cimeti  01420  01420                % 09979 RGTR--
+180703001 Wasserbillig, Centre  01420  01420                % 09979 RGTR--
+180703003 Wasserbillig, Gare    01422                       % 09979 RGTR--
+*Z 09980 RGTR--                                             % 09980 RGTR--
+*L 487      170704003 180703003  01515  01552               % 09980 RGTR--
+*A FR 170704003 180703003 000000  01515  01552              % 09980 RGTR--
+*A t  170704003 180703003 000000  01515  01552              % 09980 RGTR--
+*R 1 180703003 170704003 180703003  01515  01552            % 09980 RGTR--
+*G RGB 170704003 180703003  01515  01552                    % 09980 RGTR--
+*A VE 170704003 180703003 000000  01515  01552              % 09980 RGTR--
+*I FD 170704003 180703003        0002553  01515  01552      % 09980 RGTR--
+170704003 Rosport, Lokal               01515                % 09980 RGTR--
+170704006 Rosport, Rue Neuve    01516  01516                % 09980 RGTR--
+170704007 Rosport, Gemeng       01519  01519                % 09980 RGTR--
+170701001 Dickweiler, Duerfpla  01523  01523                % 09980 RGTR--
+170706001 Osweiler, Duerfplaz   01527  01527                % 09980 RGTR--
+170607003 Pafebierg             01532  01532                % 09980 RGTR--
+170604001 Herborn, Kiercheplaz  01536  01536                % 09980 RGTR--
+170607006 Mompach, Um Buer      01539  01539                % 09980 RGTR--
+170603001 Givenich, Am Duerf    01541  01541                % 09980 RGTR--
+170605003 Moersdorf, Iewescht   01544  01544                % 09980 RGTR--
+170605001 Moersdorf, Duerf      01545  01545                % 09980 RGTR--
+170605002 Moersdorf, Olek       01545  01545                % 09980 RGTR--
+180702001 Pont de Langsur       01548  01548                % 09980 RGTR--
+180703002 Wasserbillig, Cimeti  01550  01550                % 09980 RGTR--
+180703001 Wasserbillig, Centre  01550  01550                % 09980 RGTR--
+180703003 Wasserbillig, Gare    01552                       % 09980 RGTR--
+*Z 09981 RGTR--                                             % 09981 RGTR--
+*L 487      170704003 180703003  01900  01937               % 09981 RGTR--
+*A FR 170704003 180703003 000000  01900  01937              % 09981 RGTR--
+*A t  170704003 180703003 000000  01900  01937              % 09981 RGTR--
+*R 1 180703003 170704003 180703003  01900  01937            % 09981 RGTR--
+*G RGB 170704003 180703003  01900  01937                    % 09981 RGTR--
+*A VE 170704003 180703003 000000  01900  01937              % 09981 RGTR--
+*I FD 170704003 180703003        0002843  01900  01937      % 09981 RGTR--
+170704003 Rosport, Lokal               01900                % 09981 RGTR--
+170704006 Rosport, Rue Neuve    01901  01901                % 09981 RGTR--
+170704007 Rosport, Gemeng       01904  01904                % 09981 RGTR--
+170701001 Dickweiler, Duerfpla  01908  01908                % 09981 RGTR--
+170706001 Osweiler, Duerfplaz   01912  01912                % 09981 RGTR--
+170607003 Pafebierg             01917  01917                % 09981 RGTR--
+170604001 Herborn, Kiercheplaz  01921  01921                % 09981 RGTR--
+170607006 Mompach, Um Buer      01924  01924                % 09981 RGTR--
+170603001 Givenich, Am Duerf    01926  01926                % 09981 RGTR--
+170605003 Moersdorf, Iewescht   01929  01929                % 09981 RGTR--
+170605001 Moersdorf, Duerf      01930  01930                % 09981 RGTR--
+170605002 Moersdorf, Olek       01930  01930                % 09981 RGTR--
+180702001 Pont de Langsur       01933  01933                % 09981 RGTR--
+180703002 Wasserbillig, Cimeti  01935  01935                % 09981 RGTR--
+180703001 Wasserbillig, Centre  01935  01935                % 09981 RGTR--
+180703003 Wasserbillig, Gare    01937                       % 09981 RGTR--
+*Z 09982 RGTR--                                             % 09982 RGTR--
+*L 487      170704003 180703003  02110  02147               % 09982 RGTR--
+*A FR 170704003 180703003 000000  02110  02147              % 09982 RGTR--
+*A t  170704003 180703003 000000  02110  02147              % 09982 RGTR--
+*R 1 180703003 170704003 180703003  02110  02147            % 09982 RGTR--
+*G RGB 170704003 180703003  02110  02147                    % 09982 RGTR--
+*A VE 170704003 180703003 000000  02110  02147              % 09982 RGTR--
+*I FD 170704003 180703003        0002860  02110  02147      % 09982 RGTR--
+170704003 Rosport, Lokal               02110                % 09982 RGTR--
+170704006 Rosport, Rue Neuve    02111  02111                % 09982 RGTR--
+170704007 Rosport, Gemeng       02114  02114                % 09982 RGTR--
+170701001 Dickweiler, Duerfpla  02118  02118                % 09982 RGTR--
+170706001 Osweiler, Duerfplaz   02122  02122                % 09982 RGTR--
+170607003 Pafebierg             02127  02127                % 09982 RGTR--
+170604001 Herborn, Kiercheplaz  02131  02131                % 09982 RGTR--
+170607006 Mompach, Um Buer      02134  02134                % 09982 RGTR--
+170603001 Givenich, Am Duerf    02136  02136                % 09982 RGTR--
+170605003 Moersdorf, Iewescht   02139  02139                % 09982 RGTR--
+170605001 Moersdorf, Duerf      02140  02140                % 09982 RGTR--
+170605002 Moersdorf, Olek       02140  02140                % 09982 RGTR--
+180702001 Pont de Langsur       02143  02143                % 09982 RGTR--
+180703002 Wasserbillig, Cimeti  02145  02145                % 09982 RGTR--
+180703001 Wasserbillig, Centre  02145  02145                % 09982 RGTR--
+180703003 Wasserbillig, Gare    02147                       % 09982 RGTR--
+*Z 09983 RGTR--                                             % 09983 RGTR--
+*L 487      170704003 180703003  02310  02347               % 09983 RGTR--
+*A FR 170704003 180703003 000000  02310  02347              % 09983 RGTR--
+*A t  170704003 180703003 000000  02310  02347              % 09983 RGTR--
+*R 1 180703003 170704003 180703003  02310  02347            % 09983 RGTR--
+*G RGB 170704003 180703003  02310  02347                    % 09983 RGTR--
+*A VE 170704003 180703003 000000  02310  02347              % 09983 RGTR--
+*I FD 170704003 180703003        0002861  02310  02347      % 09983 RGTR--
+170704003 Rosport, Lokal               02310                % 09983 RGTR--
+170704006 Rosport, Rue Neuve    02311  02311                % 09983 RGTR--
+170704007 Rosport, Gemeng       02314  02314                % 09983 RGTR--
+170701001 Dickweiler, Duerfpla  02318  02318                % 09983 RGTR--
+170706001 Osweiler, Duerfplaz   02322  02322                % 09983 RGTR--
+170607003 Pafebierg             02327  02327                % 09983 RGTR--
+170604001 Herborn, Kiercheplaz  02331  02331                % 09983 RGTR--
+170607006 Mompach, Um Buer      02334  02334                % 09983 RGTR--
+170603001 Givenich, Am Duerf    02336  02336                % 09983 RGTR--
+170605003 Moersdorf, Iewescht   02339  02339                % 09983 RGTR--
+170605001 Moersdorf, Duerf      02340  02340                % 09983 RGTR--
+170605002 Moersdorf, Olek       02340  02340                % 09983 RGTR--
+180702001 Pont de Langsur       02343  02343                % 09983 RGTR--
+180703002 Wasserbillig, Cimeti  02345  02345                % 09983 RGTR--
+180703001 Wasserbillig, Centre  02345  02345                % 09983 RGTR--
+180703003 Wasserbillig, Gare    02347                       % 09983 RGTR--
+*Z 09984 RGTR--                                             % 09984 RGTR--
+*L 487      180703003 170704006  00805  00841               % 09984 RGTR--
+*A FR 180703003 170704006 000000  00805  00841              % 09984 RGTR--
+*A t  180703003 170704006 000000  00805  00841              % 09984 RGTR--
+*R 2 170704006 180703003 170704006  00805  00841            % 09984 RGTR--
+*G RGB 180703003 170704006  00805  00841                    % 09984 RGTR--
+*A VE 180703003 170704006 000000  00805  00841              % 09984 RGTR--
+*I FD 180703003 170704006        0002217  00805  00841      % 09984 RGTR--
+180703003 Wasserbillig, Gare           00805                % 09984 RGTR--
+180703001 Wasserbillig, Centre  00806  00806                % 09984 RGTR--
+180703002 Wasserbillig, Cimeti  00807  00807                % 09984 RGTR--
+180702001 Pont de Langsur       00808  00808                % 09984 RGTR--
+170605002 Moersdorf, Olek       00811  00811                % 09984 RGTR--
+170605001 Moersdorf, Duerf      00812  00812                % 09984 RGTR--
+170605003 Moersdorf, Iewescht   00813  00813                % 09984 RGTR--
+170603001 Givenich, Am Duerf    00816  00816                % 09984 RGTR--
+170607006 Mompach, Um Buer      00818  00818                % 09984 RGTR--
+170604001 Herborn, Kiercheplaz  00821  00821                % 09984 RGTR--
+170607003 Pafebierg             00824  00824                % 09984 RGTR--
+170706001 Osweiler, Duerfplaz   00829  00829                % 09984 RGTR--
+170701001 Dickweiler, Duerfpla  00834  00834                % 09984 RGTR--
+170704007 Rosport, Gemeng       00837  00837                % 09984 RGTR--
+170704003 Rosport, Lokal        00839  00839                % 09984 RGTR--
+170704006 Rosport, Rue Neuve    00841                       % 09984 RGTR--
+*Z 09985 RGTR--                                             % 09985 RGTR--
+*L 487      180703003 170704006  01600  01636               % 09985 RGTR--
+*A FR 180703003 170704006 000000  01600  01636              % 09985 RGTR--
+*A t  180703003 170704006 000000  01600  01636              % 09985 RGTR--
+*R 2 170704006 180703003 170704006  01600  01636            % 09985 RGTR--
+*G RGB 180703003 170704006  01600  01636                    % 09985 RGTR--
+*A VE 180703003 170704006 000000  01600  01636              % 09985 RGTR--
+*I FD 180703003 170704006        0001911  01600  01636      % 09985 RGTR--
+180703003 Wasserbillig, Gare           01600                % 09985 RGTR--
+180703001 Wasserbillig, Centre  01601  01601                % 09985 RGTR--
+180703002 Wasserbillig, Cimeti  01602  01602                % 09985 RGTR--
+180702001 Pont de Langsur       01603  01603                % 09985 RGTR--
+170605002 Moersdorf, Olek       01606  01606                % 09985 RGTR--
+170605001 Moersdorf, Duerf      01607  01607                % 09985 RGTR--
+170605003 Moersdorf, Iewescht   01608  01608                % 09985 RGTR--
+170603001 Givenich, Am Duerf    01611  01611                % 09985 RGTR--
+170607006 Mompach, Um Buer      01613  01613                % 09985 RGTR--
+170604001 Herborn, Kiercheplaz  01616  01616                % 09985 RGTR--
+170607003 Pafebierg             01619  01619                % 09985 RGTR--
+170706001 Osweiler, Duerfplaz   01624  01624                % 09985 RGTR--
+170701001 Dickweiler, Duerfpla  01629  01629                % 09985 RGTR--
+170704007 Rosport, Gemeng       01632  01632                % 09985 RGTR--
+170704003 Rosport, Lokal        01634  01634                % 09985 RGTR--
+170704006 Rosport, Rue Neuve    01636                       % 09985 RGTR--
+*Z 09986 RGTR--                                             % 09986 RGTR--
+*L 487      180703003 170704006  01745  01821               % 09986 RGTR--
+*A FR 180703003 170704006 000000  01745  01821              % 09986 RGTR--
+*A t  180703003 170704006 000000  01745  01821              % 09986 RGTR--
+*R 2 170704006 180703003 170704006  01745  01821            % 09986 RGTR--
+*G RGB 180703003 170704006  01745  01821                    % 09986 RGTR--
+*A VE 180703003 170704006 000000  01745  01821              % 09986 RGTR--
+*I FD 180703003 170704006        0002976  01745  01821      % 09986 RGTR--
+180703003 Wasserbillig, Gare           01745                % 09986 RGTR--
+180703001 Wasserbillig, Centre  01746  01746                % 09986 RGTR--
+180703002 Wasserbillig, Cimeti  01747  01747                % 09986 RGTR--
+180702001 Pont de Langsur       01748  01748                % 09986 RGTR--
+170605002 Moersdorf, Olek       01751  01751                % 09986 RGTR--
+170605001 Moersdorf, Duerf      01752  01752                % 09986 RGTR--
+170605003 Moersdorf, Iewescht   01753  01753                % 09986 RGTR--
+170603001 Givenich, Am Duerf    01756  01756                % 09986 RGTR--
+170607006 Mompach, Um Buer      01758  01758                % 09986 RGTR--
+170604001 Herborn, Kiercheplaz  01801  01801                % 09986 RGTR--
+170607003 Pafebierg             01804  01804                % 09986 RGTR--
+170706001 Osweiler, Duerfplaz   01809  01809                % 09986 RGTR--
+170701001 Dickweiler, Duerfpla  01814  01814                % 09986 RGTR--
+170704007 Rosport, Gemeng       01817  01817                % 09986 RGTR--
+170704003 Rosport, Lokal        01819  01819                % 09986 RGTR--
+170704006 Rosport, Rue Neuve    01821                       % 09986 RGTR--
+*Z 09987 RGTR--                                             % 09987 RGTR--
+*L 487      180703003 170704006  02400  02435               % 09987 RGTR--
+*A FR 180703003 170704006 000000  02400  02435              % 09987 RGTR--
+*A t  180703003 170704006 000000  02400  02435              % 09987 RGTR--
+*R 2 170704006 180703003 170704006  02400  02435            % 09987 RGTR--
+*G RGB 180703003 170704006  02400  02435                    % 09987 RGTR--
+*A VE 180703003 170704006 000000  02400  02435              % 09987 RGTR--
+*I FD 180703003 170704006        0000475  02400  02435      % 09987 RGTR--
+180703003 Wasserbillig, Gare           02400                % 09987 RGTR--
+180703001 Wasserbillig, Centre  02401  02401                % 09987 RGTR--
+180703002 Wasserbillig, Cimeti  02401  02401                % 09987 RGTR--
+180702001 Pont de Langsur       02402  02402                % 09987 RGTR--
+170605002 Moersdorf, Olek       02406  02406                % 09987 RGTR--
+170605001 Moersdorf, Duerf      02406  02406                % 09987 RGTR--
+170605003 Moersdorf, Iewescht   02407  02407                % 09987 RGTR--
+170603001 Givenich, Am Duerf    02410  02410                % 09987 RGTR--
+170607006 Mompach, Um Buer      02412  02412                % 09987 RGTR--
+170604001 Herborn, Kiercheplaz  02415  02415                % 09987 RGTR--
+170607003 Pafebierg             02418  02418                % 09987 RGTR--
+170706001 Osweiler, Duerfplaz   02423  02423                % 09987 RGTR--
+170701001 Dickweiler, Duerfpla  02428  02428                % 09987 RGTR--
+170704007 Rosport, Gemeng       02432  02432                % 09987 RGTR--
+170704003 Rosport, Lokal        02433  02433                % 09987 RGTR--
+170704006 Rosport, Rue Neuve    02435                       % 09987 RGTR--
+*Z 09988 RGTR--                                             % 09988 RGTR--
+*L 487      180703003 170704006  00505  00540               % 09988 RGTR--
+*A FR 180703003 170704006 000000  00505  00540              % 09988 RGTR--
+*A t  180703003 170704006 000000  00505  00540              % 09988 RGTR--
+*R 2 170704006 180703003 170704006  00505  00540            % 09988 RGTR--
+*G RGB 180703003 170704006  00505  00540                    % 09988 RGTR--
+*A VE 180703003 170704006 000000  00505  00540              % 09988 RGTR--
+*I FD 180703003 170704006        0001968  00505  00540      % 09988 RGTR--
+180703003 Wasserbillig, Gare           00505                % 09988 RGTR--
+180703001 Wasserbillig, Centre  00506  00506                % 09988 RGTR--
+180703002 Wasserbillig, Cimeti  00506  00506                % 09988 RGTR--
+180702001 Pont de Langsur       00507  00507                % 09988 RGTR--
+170605002 Moersdorf, Olek       00511  00511                % 09988 RGTR--
+170605001 Moersdorf, Duerf      00511  00511                % 09988 RGTR--
+170605003 Moersdorf, Iewescht   00512  00512                % 09988 RGTR--
+170603001 Givenich, Am Duerf    00515  00515                % 09988 RGTR--
+170607006 Mompach, Um Buer      00517  00517                % 09988 RGTR--
+170604001 Herborn, Kiercheplaz  00520  00520                % 09988 RGTR--
+170607003 Pafebierg             00523  00523                % 09988 RGTR--
+170706001 Osweiler, Duerfplaz   00528  00528                % 09988 RGTR--
+170701001 Dickweiler, Duerfpla  00533  00533                % 09988 RGTR--
+170704007 Rosport, Gemeng       00537  00537                % 09988 RGTR--
+170704003 Rosport, Lokal        00538  00538                % 09988 RGTR--
+170704006 Rosport, Rue Neuve    00540                       % 09988 RGTR--
+*Z 09989 RGTR--                                             % 09989 RGTR--
+*L 487      180703003 170704006  00635  00710               % 09989 RGTR--
+*A FR 180703003 170704006 000000  00635  00710              % 09989 RGTR--
+*A t  180703003 170704006 000000  00635  00710              % 09989 RGTR--
+*R 2 170704006 180703003 170704006  00635  00710            % 09989 RGTR--
+*G RGB 180703003 170704006  00635  00710                    % 09989 RGTR--
+*A VE 180703003 170704006 000000  00635  00710              % 09989 RGTR--
+*I FD 180703003 170704006        0001979  00635  00710      % 09989 RGTR--
+180703003 Wasserbillig, Gare           00635                % 09989 RGTR--
+180703001 Wasserbillig, Centre  00636  00636                % 09989 RGTR--
+180703002 Wasserbillig, Cimeti  00636  00636                % 09989 RGTR--
+180702001 Pont de Langsur       00637  00637                % 09989 RGTR--
+170605002 Moersdorf, Olek       00641  00641                % 09989 RGTR--
+170605001 Moersdorf, Duerf      00641  00641                % 09989 RGTR--
+170605003 Moersdorf, Iewescht   00642  00642                % 09989 RGTR--
+170603001 Givenich, Am Duerf    00645  00645                % 09989 RGTR--
+170607006 Mompach, Um Buer      00647  00647                % 09989 RGTR--
+170604001 Herborn, Kiercheplaz  00650  00650                % 09989 RGTR--
+170607003 Pafebierg             00653  00653                % 09989 RGTR--
+170706001 Osweiler, Duerfplaz   00658  00658                % 09989 RGTR--
+170701001 Dickweiler, Duerfpla  00703  00703                % 09989 RGTR--
+170704007 Rosport, Gemeng       00707  00707                % 09989 RGTR--
+170704003 Rosport, Lokal        00708  00708                % 09989 RGTR--
+170704006 Rosport, Rue Neuve    00710                       % 09989 RGTR--
+*Z 09990 RGTR--                                             % 09990 RGTR--
+*L 487      180703003 170704006  00935  01010               % 09990 RGTR--
+*A FR 180703003 170704006 000000  00935  01010              % 09990 RGTR--
+*A t  180703003 170704006 000000  00935  01010              % 09990 RGTR--
+*R 2 170704006 180703003 170704006  00935  01010            % 09990 RGTR--
+*G RGB 180703003 170704006  00935  01010                    % 09990 RGTR--
+*A VE 180703003 170704006 000000  00935  01010              % 09990 RGTR--
+*I FD 180703003 170704006        0000971  00935  01010      % 09990 RGTR--
+180703003 Wasserbillig, Gare           00935                % 09990 RGTR--
+180703001 Wasserbillig, Centre  00936  00936                % 09990 RGTR--
+180703002 Wasserbillig, Cimeti  00936  00936                % 09990 RGTR--
+180702001 Pont de Langsur       00937  00937                % 09990 RGTR--
+170605002 Moersdorf, Olek       00941  00941                % 09990 RGTR--
+170605001 Moersdorf, Duerf      00941  00941                % 09990 RGTR--
+170605003 Moersdorf, Iewescht   00942  00942                % 09990 RGTR--
+170603001 Givenich, Am Duerf    00945  00945                % 09990 RGTR--
+170607006 Mompach, Um Buer      00947  00947                % 09990 RGTR--
+170604001 Herborn, Kiercheplaz  00950  00950                % 09990 RGTR--
+170607003 Pafebierg             00953  00953                % 09990 RGTR--
+170706001 Osweiler, Duerfplaz   00958  00958                % 09990 RGTR--
+170701001 Dickweiler, Duerfpla  01003  01003                % 09990 RGTR--
+170704007 Rosport, Gemeng       01007  01007                % 09990 RGTR--
+170704003 Rosport, Lokal        01008  01008                % 09990 RGTR--
+170704006 Rosport, Rue Neuve    01010                       % 09990 RGTR--
+*Z 09991 RGTR--                                             % 09991 RGTR--
+*L 487      180703003 170704006  01115  01150               % 09991 RGTR--
+*A FR 180703003 170704006 000000  01115  01150              % 09991 RGTR--
+*A t  180703003 170704006 000000  01115  01150              % 09991 RGTR--
+*R 2 170704006 180703003 170704006  01115  01150            % 09991 RGTR--
+*G RGB 180703003 170704006  01115  01150                    % 09991 RGTR--
+*A VE 180703003 170704006 000000  01115  01150              % 09991 RGTR--
+*I FD 180703003 170704006        0001055  01115  01150      % 09991 RGTR--
+180703003 Wasserbillig, Gare           01115                % 09991 RGTR--
+180703001 Wasserbillig, Centre  01116  01116                % 09991 RGTR--
+180703002 Wasserbillig, Cimeti  01116  01116                % 09991 RGTR--
+180702001 Pont de Langsur       01117  01117                % 09991 RGTR--
+170605002 Moersdorf, Olek       01121  01121                % 09991 RGTR--
+170605001 Moersdorf, Duerf      01121  01121                % 09991 RGTR--
+170605003 Moersdorf, Iewescht   01122  01122                % 09991 RGTR--
+170603001 Givenich, Am Duerf    01125  01125                % 09991 RGTR--
+170607006 Mompach, Um Buer      01127  01127                % 09991 RGTR--
+170604001 Herborn, Kiercheplaz  01130  01130                % 09991 RGTR--
+170607003 Pafebierg             01133  01133                % 09991 RGTR--
+170706001 Osweiler, Duerfplaz   01138  01138                % 09991 RGTR--
+170701001 Dickweiler, Duerfpla  01143  01143                % 09991 RGTR--
+170704007 Rosport, Gemeng       01147  01147                % 09991 RGTR--
+170704003 Rosport, Lokal        01148  01148                % 09991 RGTR--
+170704006 Rosport, Rue Neuve    01150                       % 09991 RGTR--
+*Z 09992 RGTR--                                             % 09992 RGTR--
+*L 487      180703003 170704006  01300  01335               % 09992 RGTR--
+*A FR 180703003 170704006 000000  01300  01335              % 09992 RGTR--
+*A t  180703003 170704006 000000  01300  01335              % 09992 RGTR--
+*R 2 170704006 180703003 170704006  01300  01335            % 09992 RGTR--
+*G RGB 180703003 170704006  01300  01335                    % 09992 RGTR--
+*A VE 180703003 170704006 000000  01300  01335              % 09992 RGTR--
+*I FD 180703003 170704006        0001902  01300  01335      % 09992 RGTR--
+180703003 Wasserbillig, Gare           01300                % 09992 RGTR--
+180703001 Wasserbillig, Centre  01301  01301                % 09992 RGTR--
+180703002 Wasserbillig, Cimeti  01301  01301                % 09992 RGTR--
+180702001 Pont de Langsur       01302  01302                % 09992 RGTR--
+170605002 Moersdorf, Olek       01306  01306                % 09992 RGTR--
+170605001 Moersdorf, Duerf      01306  01306                % 09992 RGTR--
+170605003 Moersdorf, Iewescht   01307  01307                % 09992 RGTR--
+170603001 Givenich, Am Duerf    01310  01310                % 09992 RGTR--
+170607006 Mompach, Um Buer      01312  01312                % 09992 RGTR--
+170604001 Herborn, Kiercheplaz  01315  01315                % 09992 RGTR--
+170607003 Pafebierg             01318  01318                % 09992 RGTR--
+170706001 Osweiler, Duerfplaz   01323  01323                % 09992 RGTR--
+170701001 Dickweiler, Duerfpla  01328  01328                % 09992 RGTR--
+170704007 Rosport, Gemeng       01332  01332                % 09992 RGTR--
+170704003 Rosport, Lokal        01333  01333                % 09992 RGTR--
+170704006 Rosport, Rue Neuve    01335                       % 09992 RGTR--
+*Z 09993 RGTR--                                             % 09993 RGTR--
+*L 487      180703003 170704006  01430  01505               % 09993 RGTR--
+*A FR 180703003 170704006 000000  01430  01505              % 09993 RGTR--
+*A t  180703003 170704006 000000  01430  01505              % 09993 RGTR--
+*R 2 170704006 180703003 170704006  01430  01505            % 09993 RGTR--
+*G RGB 180703003 170704006  01430  01505                    % 09993 RGTR--
+*A VE 180703003 170704006 000000  01430  01505              % 09993 RGTR--
+*I FD 180703003 170704006        0002745  01430  01505      % 09993 RGTR--
+180703003 Wasserbillig, Gare           01430                % 09993 RGTR--
+180703001 Wasserbillig, Centre  01431  01431                % 09993 RGTR--
+180703002 Wasserbillig, Cimeti  01431  01431                % 09993 RGTR--
+180702001 Pont de Langsur       01432  01432                % 09993 RGTR--
+170605002 Moersdorf, Olek       01436  01436                % 09993 RGTR--
+170605001 Moersdorf, Duerf      01436  01436                % 09993 RGTR--
+170605003 Moersdorf, Iewescht   01437  01437                % 09993 RGTR--
+170603001 Givenich, Am Duerf    01440  01440                % 09993 RGTR--
+170607006 Mompach, Um Buer      01442  01442                % 09993 RGTR--
+170604001 Herborn, Kiercheplaz  01445  01445                % 09993 RGTR--
+170607003 Pafebierg             01448  01448                % 09993 RGTR--
+170706001 Osweiler, Duerfplaz   01453  01453                % 09993 RGTR--
+170701001 Dickweiler, Duerfpla  01458  01458                % 09993 RGTR--
+170704007 Rosport, Gemeng       01502  01502                % 09993 RGTR--
+170704003 Rosport, Lokal        01503  01503                % 09993 RGTR--
+170704006 Rosport, Rue Neuve    01505                       % 09993 RGTR--
+*Z 09994 RGTR--                                             % 09994 RGTR--
+*L 487      180703003 170704006  01945  02020               % 09994 RGTR--
+*A FR 180703003 170704006 000000  01945  02020              % 09994 RGTR--
+*A t  180703003 170704006 000000  01945  02020              % 09994 RGTR--
+*R 2 170704006 180703003 170704006  01945  02020            % 09994 RGTR--
+*G RGB 180703003 170704006  01945  02020                    % 09994 RGTR--
+*A VE 180703003 170704006 000000  01945  02020              % 09994 RGTR--
+*I FD 180703003 170704006        0002975  01945  02020      % 09994 RGTR--
+180703003 Wasserbillig, Gare           01945                % 09994 RGTR--
+180703001 Wasserbillig, Centre  01946  01946                % 09994 RGTR--
+180703002 Wasserbillig, Cimeti  01946  01946                % 09994 RGTR--
+180702001 Pont de Langsur       01947  01947                % 09994 RGTR--
+170605002 Moersdorf, Olek       01951  01951                % 09994 RGTR--
+170605001 Moersdorf, Duerf      01951  01951                % 09994 RGTR--
+170605003 Moersdorf, Iewescht   01952  01952                % 09994 RGTR--
+170603001 Givenich, Am Duerf    01955  01955                % 09994 RGTR--
+170607006 Mompach, Um Buer      01957  01957                % 09994 RGTR--
+170604001 Herborn, Kiercheplaz  02000  02000                % 09994 RGTR--
+170607003 Pafebierg             02003  02003                % 09994 RGTR--
+170706001 Osweiler, Duerfplaz   02008  02008                % 09994 RGTR--
+170701001 Dickweiler, Duerfpla  02013  02013                % 09994 RGTR--
+170704007 Rosport, Gemeng       02017  02017                % 09994 RGTR--
+170704003 Rosport, Lokal        02018  02018                % 09994 RGTR--
+170704006 Rosport, Rue Neuve    02020                       % 09994 RGTR--
+*Z 09995 RGTR--                                             % 09995 RGTR--
+*L 487      180703003 170704006  02200  02235               % 09995 RGTR--
+*A FR 180703003 170704006 000000  02200  02235              % 09995 RGTR--
+*A t  180703003 170704006 000000  02200  02235              % 09995 RGTR--
+*R 2 170704006 180703003 170704006  02200  02235            % 09995 RGTR--
+*G RGB 180703003 170704006  02200  02235                    % 09995 RGTR--
+*A VE 180703003 170704006 000000  02200  02235              % 09995 RGTR--
+*I FD 180703003 170704006        0002489  02200  02235      % 09995 RGTR--
+180703003 Wasserbillig, Gare           02200                % 09995 RGTR--
+180703001 Wasserbillig, Centre  02201  02201                % 09995 RGTR--
+180703002 Wasserbillig, Cimeti  02201  02201                % 09995 RGTR--
+180702001 Pont de Langsur       02202  02202                % 09995 RGTR--
+170605002 Moersdorf, Olek       02206  02206                % 09995 RGTR--
+170605001 Moersdorf, Duerf      02206  02206                % 09995 RGTR--
+170605003 Moersdorf, Iewescht   02207  02207                % 09995 RGTR--
+170603001 Givenich, Am Duerf    02210  02210                % 09995 RGTR--
+170607006 Mompach, Um Buer      02212  02212                % 09995 RGTR--
+170604001 Herborn, Kiercheplaz  02215  02215                % 09995 RGTR--
+170607003 Pafebierg             02218  02218                % 09995 RGTR--
+170706001 Osweiler, Duerfplaz   02223  02223                % 09995 RGTR--
+170701001 Dickweiler, Duerfpla  02228  02228                % 09995 RGTR--
+170704007 Rosport, Gemeng       02232  02232                % 09995 RGTR--
+170704003 Rosport, Lokal        02233  02233                % 09995 RGTR--
+170704006 Rosport, Rue Neuve    02235                       % 09995 RGTR--

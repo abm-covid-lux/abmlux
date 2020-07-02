@@ -7,6 +7,8 @@
 #n this file, one can set the length of the simulation in weeks and the number of initial seeds. Note
 #that the simulation starts on a Sunday and follows the SEIRD framework.
 
+import os.path as osp
+import sys
 import math
 import random
 import pickle
@@ -21,42 +23,42 @@ from tqdm import tqdm
 import random_tools
 from agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from location import Location
-from config import load_config
+from config import Config
 import utils
 from sim_time import SimClock
 from activity import ActivityManager
 
-NETWORK_INPUT_FILENAME    = "Network/Network.pickle"
-INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
-TRANSITION_MATRIX_FILENAME     = "Transition_Matrices/transition_matrix.pickle"
-AGENT_COUNTS_FILENAME = "Results/agent_counts.csv"
 
-PARAMETERS_FILENAME    = 'Data/simulation_parameters.yaml'
+NETWORK_FILENAME    = "Network.pickle"
+INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
+TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
+
+AGENT_COUNTS_FILENAME = "agent_counts.csv"
 
 # ------------------------------------------------[ Config ]------------------------------------
-print(f"Loading config from {PARAMETERS_FILENAME}...")
-config           = load_config(PARAMETERS_FILENAME)
+config           = Config(sys.argv[1])
 activity_manager = ActivityManager(config['activities'])
 clock            = SimClock(config['tick_length_s'], config['simulation_length_days'])
 
 
 # ------------------------------------------------[ Agents ]------------------------------------
-print(f'Loading network data from {NETWORK_INPUT_FILENAME}...')
-with open(NETWORK_INPUT_FILENAME, 'rb') as fin:
+network_filename = osp.join(config.filepath('working_dir'), NETWORK_FILENAME)
+print(f'Loading network data from {network_filename}...')
+with open(network_filename, 'rb') as fin:
     network = pickle.load(fin)
 
 locations_by_type = network['locations_by_type']
-locations = utils.flatten(locations_by_type.values())
-agents_by_type = network['agents_by_type']
-agents = utils.flatten(agents_by_type.values())
+locations         = utils.flatten(locations_by_type.values())
+agents_by_type    = network['agents_by_type']
+agents            = utils.flatten(agents_by_type.values())
 
 utils.print_memory_usage()
 
 
 # --------------------------------------[ Transition Matrices ]------------------------------------
-
-print(f"Loading transition matrix from {TRANSITION_MATRIX_FILENAME}...")
-with open(TRANSITION_MATRIX_FILENAME, 'rb') as fin:
+transition_matrix_filename = osp.join(config.filepath('working_dir'), TRANSITION_MATRIX_FILENAME)
+print(f"Loading transition matrix from {transition_matrix_filename}...")
+with open(transition_matrix_filename, 'rb') as fin:
     activity_transition_matrix = pickle.load(fin)
 utils.print_memory_usage()
 
@@ -104,18 +106,15 @@ p_transmit_by_location_type = {x: y for x, y in config['infection_probabilities_
 
 
 # ------------------------------------------[ Initial state ]------------------------------------
-print('Simulating epidemic...')
-
+print(f"Loading initial state for simulation...")
 # Infect a few people
 for agent in random.sample(agents, k=config['initial_infections']):
     agent.health = HealthStatus.INFECTED
 
-
-
-
 # Using the initial distribution individuals are now assigned starting locations:
-print(f"Loading initial activity distributions from {INITIAL_DISTRIBUTIONS_FILENAME}...")
-with open(INITIAL_DISTRIBUTIONS_FILENAME, 'rb') as fin:
+initial_distributions_filename = osp.join(config.filepath('working_dir'), INITIAL_DISTRIBUTIONS_FILENAME)
+print(f"Loading initial activity distributions from {initial_distributions_filename}...")
+with open(initial_distributions_filename, 'rb') as fin:
     initial_activity_distributions = pickle.load(fin)
 
 print(f"Seeding initial activity states and locations...")
@@ -250,10 +249,10 @@ for t in tqdm(clock):
 
 
 # ------------------------------------------------[ Write output ]------------------------------------
-
-print(f"Writing agent counts to {AGENT_COUNTS_FILENAME}...")
+agent_counts_filename = osp.join(config.filepath('results_dir', True), AGENT_COUNTS_FILENAME)
+print(f"Writing agent counts to {agent_counts_filename}...")
 health_status_by_time = pd.DataFrame(health_status_by_time)
-health_status_by_time.to_csv(AGENT_COUNTS_FILENAME)
+health_status_by_time.to_csv(agent_counts_filename)
 
 
 # FIXME: - House and Other House don't function correctly

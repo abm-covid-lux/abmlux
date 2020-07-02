@@ -1,0 +1,2572 @@
+*F 03 2
+*Z 07600 RGTR--                                             % 07600 RGTR--
+*L 314      220402034 220803001  00617  00636               % 07600 RGTR--
+*A ag 220402034 220803001 000001  00617  00636              % 07600 RGTR--
+*R 1 220803001 220402034 220803001  00617  00636            % 07600 RGTR--
+*G RGB 220402034 220803001  00617  00636                    % 07600 RGTR--
+*A VE 220402034 220803001 000001  00617  00636              % 07600 RGTR--
+*I FD 220402034 220803001        0002557  00617  00636      % 07600 RGTR--
+220402034 Esch/Alzette, Gare           00617                % 07600 RGTR--
+220402097 Esch/Alzette, Bd. Be  00618  00618                % 07600 RGTR--
+220402049 Esch/Alzette, Cliniq  00619  00619                % 07600 RGTR--
+220402066 Esch/Alzette, Op der  00621  00621                % 07600 RGTR--
+220402020 Esch/Alzette, Cinqua  00622  00622                % 07600 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00623  00623                % 07600 RGTR--
+220402053 Esch/Alzette, Lallen  00623  00623                % 07600 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00624  00624                % 07600 RGTR--
+221401001 Schifflange, Brill    00627  00627                % 07600 RGTR--
+221401011 Schifflange, Ecole N  00627  00627                % 07600 RGTR--
+220802004 Foetz, Am Butterbril  00631  00631                % 07600 RGTR--
+220802010 Foetz, Rond Point     00632  00632                % 07600 RGTR--
+220803013 Mondercange, Krombac  00633  00633                % 07600 RGTR--
+220803030 Mondercange, Dokter   00634  00634                % 07600 RGTR--
+220803031 Mondercange, A Bosse  00635  00635                % 07600 RGTR--
+220803001 Mondercange, A.Thinn  00636                       % 07600 RGTR--
+*Z 07601 RGTR--                                             % 07601 RGTR--
+*L 314      220402034 220803001  00937  00956               % 07601 RGTR--
+*A ag 220402034 220803001 000001  00937  00956              % 07601 RGTR--
+*R 1 220803001 220402034 220803001  00937  00956            % 07601 RGTR--
+*G RGB 220402034 220803001  00937  00956                    % 07601 RGTR--
+*A VE 220402034 220803001 000001  00937  00956              % 07601 RGTR--
+*I FD 220402034 220803001        0000980  00937  00956      % 07601 RGTR--
+220402034 Esch/Alzette, Gare           00937                % 07601 RGTR--
+220402097 Esch/Alzette, Bd. Be  00938  00938                % 07601 RGTR--
+220402049 Esch/Alzette, Cliniq  00939  00939                % 07601 RGTR--
+220402066 Esch/Alzette, Op der  00941  00941                % 07601 RGTR--
+220402020 Esch/Alzette, Cinqua  00942  00942                % 07601 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00943  00943                % 07601 RGTR--
+220402053 Esch/Alzette, Lallen  00943  00943                % 07601 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00944  00944                % 07601 RGTR--
+221401001 Schifflange, Brill    00947  00947                % 07601 RGTR--
+221401011 Schifflange, Ecole N  00947  00947                % 07601 RGTR--
+220802004 Foetz, Am Butterbril  00951  00951                % 07601 RGTR--
+220802010 Foetz, Rond Point     00952  00952                % 07601 RGTR--
+220803013 Mondercange, Krombac  00953  00953                % 07601 RGTR--
+220803030 Mondercange, Dokter   00954  00954                % 07601 RGTR--
+220803031 Mondercange, A Bosse  00955  00955                % 07601 RGTR--
+220803001 Mondercange, A.Thinn  00956                       % 07601 RGTR--
+*Z 07602 RGTR--                                             % 07602 RGTR--
+*L 314      220402034 220803001  00957  01016               % 07602 RGTR--
+*A ag 220402034 220803001 000001  00957  01016              % 07602 RGTR--
+*R 1 220803001 220402034 220803001  00957  01016            % 07602 RGTR--
+*G RGB 220402034 220803001  00957  01016                    % 07602 RGTR--
+*A VE 220402034 220803001 000001  00957  01016              % 07602 RGTR--
+*I FD 220402034 220803001        0003323  00957  01016      % 07602 RGTR--
+220402034 Esch/Alzette, Gare           00957                % 07602 RGTR--
+220402097 Esch/Alzette, Bd. Be  00958  00958                % 07602 RGTR--
+220402049 Esch/Alzette, Cliniq  00959  00959                % 07602 RGTR--
+220402066 Esch/Alzette, Op der  01001  01001                % 07602 RGTR--
+220402020 Esch/Alzette, Cinqua  01002  01002                % 07602 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01003  01003                % 07602 RGTR--
+220402053 Esch/Alzette, Lallen  01003  01003                % 07602 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01004  01004                % 07602 RGTR--
+221401001 Schifflange, Brill    01007  01007                % 07602 RGTR--
+221401011 Schifflange, Ecole N  01007  01007                % 07602 RGTR--
+220802004 Foetz, Am Butterbril  01011  01011                % 07602 RGTR--
+220802010 Foetz, Rond Point     01012  01012                % 07602 RGTR--
+220803013 Mondercange, Krombac  01013  01013                % 07602 RGTR--
+220803030 Mondercange, Dokter   01014  01014                % 07602 RGTR--
+220803031 Mondercange, A Bosse  01015  01015                % 07602 RGTR--
+220803001 Mondercange, A.Thinn  01016                       % 07602 RGTR--
+*Z 07603 RGTR--                                             % 07603 RGTR--
+*L 314      220402034 220803001  01017  01036               % 07603 RGTR--
+*A ag 220402034 220803001 000001  01017  01036              % 07603 RGTR--
+*R 1 220803001 220402034 220803001  01017  01036            % 07603 RGTR--
+*G RGB 220402034 220803001  01017  01036                    % 07603 RGTR--
+*A VE 220402034 220803001 000001  01017  01036              % 07603 RGTR--
+*I FD 220402034 220803001        0003324  01017  01036      % 07603 RGTR--
+220402034 Esch/Alzette, Gare           01017                % 07603 RGTR--
+220402097 Esch/Alzette, Bd. Be  01018  01018                % 07603 RGTR--
+220402049 Esch/Alzette, Cliniq  01019  01019                % 07603 RGTR--
+220402066 Esch/Alzette, Op der  01021  01021                % 07603 RGTR--
+220402020 Esch/Alzette, Cinqua  01022  01022                % 07603 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01023  01023                % 07603 RGTR--
+220402053 Esch/Alzette, Lallen  01023  01023                % 07603 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01024  01024                % 07603 RGTR--
+221401001 Schifflange, Brill    01027  01027                % 07603 RGTR--
+221401011 Schifflange, Ecole N  01027  01027                % 07603 RGTR--
+220802004 Foetz, Am Butterbril  01031  01031                % 07603 RGTR--
+220802010 Foetz, Rond Point     01032  01032                % 07603 RGTR--
+220803013 Mondercange, Krombac  01033  01033                % 07603 RGTR--
+220803030 Mondercange, Dokter   01034  01034                % 07603 RGTR--
+220803031 Mondercange, A Bosse  01035  01035                % 07603 RGTR--
+220803001 Mondercange, A.Thinn  01036                       % 07603 RGTR--
+*Z 07604 RGTR--                                             % 07604 RGTR--
+*L 314      220402034 220803001  01037  01056               % 07604 RGTR--
+*A ag 220402034 220803001 000001  01037  01056              % 07604 RGTR--
+*R 1 220803001 220402034 220803001  01037  01056            % 07604 RGTR--
+*G RGB 220402034 220803001  01037  01056                    % 07604 RGTR--
+*A VE 220402034 220803001 000001  01037  01056              % 07604 RGTR--
+*I FD 220402034 220803001        0003107  01037  01056      % 07604 RGTR--
+220402034 Esch/Alzette, Gare           01037                % 07604 RGTR--
+220402097 Esch/Alzette, Bd. Be  01038  01038                % 07604 RGTR--
+220402049 Esch/Alzette, Cliniq  01039  01039                % 07604 RGTR--
+220402066 Esch/Alzette, Op der  01041  01041                % 07604 RGTR--
+220402020 Esch/Alzette, Cinqua  01042  01042                % 07604 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01043  01043                % 07604 RGTR--
+220402053 Esch/Alzette, Lallen  01043  01043                % 07604 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01044  01044                % 07604 RGTR--
+221401001 Schifflange, Brill    01047  01047                % 07604 RGTR--
+221401011 Schifflange, Ecole N  01047  01047                % 07604 RGTR--
+220802004 Foetz, Am Butterbril  01051  01051                % 07604 RGTR--
+220802010 Foetz, Rond Point     01052  01052                % 07604 RGTR--
+220803013 Mondercange, Krombac  01053  01053                % 07604 RGTR--
+220803030 Mondercange, Dokter   01054  01054                % 07604 RGTR--
+220803031 Mondercange, A Bosse  01055  01055                % 07604 RGTR--
+220803001 Mondercange, A.Thinn  01056                       % 07604 RGTR--
+*Z 07605 RGTR--                                             % 07605 RGTR--
+*L 314      220402034 220803001  01057  01116               % 07605 RGTR--
+*A ag 220402034 220803001 000001  01057  01116              % 07605 RGTR--
+*R 1 220803001 220402034 220803001  01057  01116            % 07605 RGTR--
+*G RGB 220402034 220803001  01057  01116                    % 07605 RGTR--
+*A VE 220402034 220803001 000001  01057  01116              % 07605 RGTR--
+*I FD 220402034 220803001        0003120  01057  01116      % 07605 RGTR--
+220402034 Esch/Alzette, Gare           01057                % 07605 RGTR--
+220402097 Esch/Alzette, Bd. Be  01058  01058                % 07605 RGTR--
+220402049 Esch/Alzette, Cliniq  01059  01059                % 07605 RGTR--
+220402066 Esch/Alzette, Op der  01101  01101                % 07605 RGTR--
+220402020 Esch/Alzette, Cinqua  01102  01102                % 07605 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01103  01103                % 07605 RGTR--
+220402053 Esch/Alzette, Lallen  01103  01103                % 07605 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01104  01104                % 07605 RGTR--
+221401001 Schifflange, Brill    01107  01107                % 07605 RGTR--
+221401011 Schifflange, Ecole N  01107  01107                % 07605 RGTR--
+220802004 Foetz, Am Butterbril  01111  01111                % 07605 RGTR--
+220802010 Foetz, Rond Point     01112  01112                % 07605 RGTR--
+220803013 Mondercange, Krombac  01113  01113                % 07605 RGTR--
+220803030 Mondercange, Dokter   01114  01114                % 07605 RGTR--
+220803031 Mondercange, A Bosse  01115  01115                % 07605 RGTR--
+220803001 Mondercange, A.Thinn  01116                       % 07605 RGTR--
+*Z 07606 RGTR--                                             % 07606 RGTR--
+*L 314      220402034 220803001  01117  01136               % 07606 RGTR--
+*A ag 220402034 220803001 000001  01117  01136              % 07606 RGTR--
+*R 1 220803001 220402034 220803001  01117  01136            % 07606 RGTR--
+*G RGB 220402034 220803001  01117  01136                    % 07606 RGTR--
+*A VE 220402034 220803001 000001  01117  01136              % 07606 RGTR--
+*I FD 220402034 220803001        0001064  01117  01136      % 07606 RGTR--
+220402034 Esch/Alzette, Gare           01117                % 07606 RGTR--
+220402097 Esch/Alzette, Bd. Be  01118  01118                % 07606 RGTR--
+220402049 Esch/Alzette, Cliniq  01119  01119                % 07606 RGTR--
+220402066 Esch/Alzette, Op der  01121  01121                % 07606 RGTR--
+220402020 Esch/Alzette, Cinqua  01122  01122                % 07606 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01123  01123                % 07606 RGTR--
+220402053 Esch/Alzette, Lallen  01123  01123                % 07606 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01124  01124                % 07606 RGTR--
+221401001 Schifflange, Brill    01127  01127                % 07606 RGTR--
+221401011 Schifflange, Ecole N  01127  01127                % 07606 RGTR--
+220802004 Foetz, Am Butterbril  01131  01131                % 07606 RGTR--
+220802010 Foetz, Rond Point     01132  01132                % 07606 RGTR--
+220803013 Mondercange, Krombac  01133  01133                % 07606 RGTR--
+220803030 Mondercange, Dokter   01134  01134                % 07606 RGTR--
+220803031 Mondercange, A Bosse  01135  01135                % 07606 RGTR--
+220803001 Mondercange, A.Thinn  01136                       % 07606 RGTR--
+*Z 07607 RGTR--                                             % 07607 RGTR--
+*L 314      220402034 220803001  01137  01156               % 07607 RGTR--
+*A ag 220402034 220803001 000001  01137  01156              % 07607 RGTR--
+*R 1 220803001 220402034 220803001  01137  01156            % 07607 RGTR--
+*G RGB 220402034 220803001  01137  01156                    % 07607 RGTR--
+*A VE 220402034 220803001 000001  01137  01156              % 07607 RGTR--
+*I FD 220402034 220803001        0003108  01137  01156      % 07607 RGTR--
+220402034 Esch/Alzette, Gare           01137                % 07607 RGTR--
+220402097 Esch/Alzette, Bd. Be  01138  01138                % 07607 RGTR--
+220402049 Esch/Alzette, Cliniq  01139  01139                % 07607 RGTR--
+220402066 Esch/Alzette, Op der  01141  01141                % 07607 RGTR--
+220402020 Esch/Alzette, Cinqua  01142  01142                % 07607 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01143  01143                % 07607 RGTR--
+220402053 Esch/Alzette, Lallen  01143  01143                % 07607 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01144  01144                % 07607 RGTR--
+221401001 Schifflange, Brill    01147  01147                % 07607 RGTR--
+221401011 Schifflange, Ecole N  01147  01147                % 07607 RGTR--
+220802004 Foetz, Am Butterbril  01151  01151                % 07607 RGTR--
+220802010 Foetz, Rond Point     01152  01152                % 07607 RGTR--
+220803013 Mondercange, Krombac  01153  01153                % 07607 RGTR--
+220803030 Mondercange, Dokter   01154  01154                % 07607 RGTR--
+220803031 Mondercange, A Bosse  01155  01155                % 07607 RGTR--
+220803001 Mondercange, A.Thinn  01156                       % 07607 RGTR--
+*Z 07608 RGTR--                                             % 07608 RGTR--
+*L 314      220402034 220803001  01157  01216               % 07608 RGTR--
+*A ag 220402034 220803001 000001  01157  01216              % 07608 RGTR--
+*R 1 220803001 220402034 220803001  01157  01216            % 07608 RGTR--
+*G RGB 220402034 220803001  01157  01216                    % 07608 RGTR--
+*A VE 220402034 220803001 000001  01157  01216              % 07608 RGTR--
+*I FD 220402034 220803001        0002765  01157  01216      % 07608 RGTR--
+220402034 Esch/Alzette, Gare           01157                % 07608 RGTR--
+220402097 Esch/Alzette, Bd. Be  01158  01158                % 07608 RGTR--
+220402049 Esch/Alzette, Cliniq  01159  01159                % 07608 RGTR--
+220402066 Esch/Alzette, Op der  01201  01201                % 07608 RGTR--
+220402020 Esch/Alzette, Cinqua  01202  01202                % 07608 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01203  01203                % 07608 RGTR--
+220402053 Esch/Alzette, Lallen  01203  01203                % 07608 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01204  01204                % 07608 RGTR--
+221401001 Schifflange, Brill    01207  01207                % 07608 RGTR--
+221401011 Schifflange, Ecole N  01207  01207                % 07608 RGTR--
+220802004 Foetz, Am Butterbril  01211  01211                % 07608 RGTR--
+220802010 Foetz, Rond Point     01212  01212                % 07608 RGTR--
+220803013 Mondercange, Krombac  01213  01213                % 07608 RGTR--
+220803030 Mondercange, Dokter   01214  01214                % 07608 RGTR--
+220803031 Mondercange, A Bosse  01215  01215                % 07608 RGTR--
+220803001 Mondercange, A.Thinn  01216                       % 07608 RGTR--
+*Z 07609 RGTR--                                             % 07609 RGTR--
+*L 314      220402034 220803001  01217  01236               % 07609 RGTR--
+*A ag 220402034 220803001 000001  01217  01236              % 07609 RGTR--
+*R 1 220803001 220402034 220803001  01217  01236            % 07609 RGTR--
+*G RGB 220402034 220803001  01217  01236                    % 07609 RGTR--
+*A VE 220402034 220803001 000001  01217  01236              % 07609 RGTR--
+*I FD 220402034 220803001        0002604  01217  01236      % 07609 RGTR--
+220402034 Esch/Alzette, Gare           01217                % 07609 RGTR--
+220402097 Esch/Alzette, Bd. Be  01218  01218                % 07609 RGTR--
+220402049 Esch/Alzette, Cliniq  01219  01219                % 07609 RGTR--
+220402066 Esch/Alzette, Op der  01221  01221                % 07609 RGTR--
+220402020 Esch/Alzette, Cinqua  01222  01222                % 07609 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01223  01223                % 07609 RGTR--
+220402053 Esch/Alzette, Lallen  01223  01223                % 07609 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01224  01224                % 07609 RGTR--
+221401001 Schifflange, Brill    01227  01227                % 07609 RGTR--
+221401011 Schifflange, Ecole N  01227  01227                % 07609 RGTR--
+220802004 Foetz, Am Butterbril  01231  01231                % 07609 RGTR--
+220802010 Foetz, Rond Point     01232  01232                % 07609 RGTR--
+220803013 Mondercange, Krombac  01233  01233                % 07609 RGTR--
+220803030 Mondercange, Dokter   01234  01234                % 07609 RGTR--
+220803031 Mondercange, A Bosse  01235  01235                % 07609 RGTR--
+220803001 Mondercange, A.Thinn  01236                       % 07609 RGTR--
+*Z 07610 RGTR--                                             % 07610 RGTR--
+*L 314      220402034 220803001  01237  01256               % 07610 RGTR--
+*A ag 220402034 220803001 000001  01237  01256              % 07610 RGTR--
+*R 1 220803001 220402034 220803001  01237  01256            % 07610 RGTR--
+*G RGB 220402034 220803001  01237  01256                    % 07610 RGTR--
+*A VE 220402034 220803001 000001  01237  01256              % 07610 RGTR--
+*I FD 220402034 220803001        0001113  01237  01256      % 07610 RGTR--
+220402034 Esch/Alzette, Gare           01237                % 07610 RGTR--
+220402097 Esch/Alzette, Bd. Be  01238  01238                % 07610 RGTR--
+220402049 Esch/Alzette, Cliniq  01239  01239                % 07610 RGTR--
+220402066 Esch/Alzette, Op der  01241  01241                % 07610 RGTR--
+220402020 Esch/Alzette, Cinqua  01242  01242                % 07610 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01243  01243                % 07610 RGTR--
+220402053 Esch/Alzette, Lallen  01243  01243                % 07610 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01244  01244                % 07610 RGTR--
+221401001 Schifflange, Brill    01247  01247                % 07610 RGTR--
+221401011 Schifflange, Ecole N  01247  01247                % 07610 RGTR--
+220802004 Foetz, Am Butterbril  01251  01251                % 07610 RGTR--
+220802010 Foetz, Rond Point     01252  01252                % 07610 RGTR--
+220803013 Mondercange, Krombac  01253  01253                % 07610 RGTR--
+220803030 Mondercange, Dokter   01254  01254                % 07610 RGTR--
+220803031 Mondercange, A Bosse  01255  01255                % 07610 RGTR--
+220803001 Mondercange, A.Thinn  01256                       % 07610 RGTR--
+*Z 07611 RGTR--                                             % 07611 RGTR--
+*L 314      220402034 220803001  01257  01316               % 07611 RGTR--
+*A ag 220402034 220803001 000001  01257  01316              % 07611 RGTR--
+*R 1 220803001 220402034 220803001  01257  01316            % 07611 RGTR--
+*G RGB 220402034 220803001  01257  01316                    % 07611 RGTR--
+*A VE 220402034 220803001 000001  01257  01316              % 07611 RGTR--
+*I FD 220402034 220803001        0003325  01257  01316      % 07611 RGTR--
+220402034 Esch/Alzette, Gare           01257                % 07611 RGTR--
+220402097 Esch/Alzette, Bd. Be  01258  01258                % 07611 RGTR--
+220402049 Esch/Alzette, Cliniq  01259  01259                % 07611 RGTR--
+220402066 Esch/Alzette, Op der  01301  01301                % 07611 RGTR--
+220402020 Esch/Alzette, Cinqua  01302  01302                % 07611 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01303  01303                % 07611 RGTR--
+220402053 Esch/Alzette, Lallen  01303  01303                % 07611 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01304  01304                % 07611 RGTR--
+221401001 Schifflange, Brill    01307  01307                % 07611 RGTR--
+221401011 Schifflange, Ecole N  01307  01307                % 07611 RGTR--
+220802004 Foetz, Am Butterbril  01311  01311                % 07611 RGTR--
+220802010 Foetz, Rond Point     01312  01312                % 07611 RGTR--
+220803013 Mondercange, Krombac  01313  01313                % 07611 RGTR--
+220803030 Mondercange, Dokter   01314  01314                % 07611 RGTR--
+220803031 Mondercange, A Bosse  01315  01315                % 07611 RGTR--
+220803001 Mondercange, A.Thinn  01316                       % 07611 RGTR--
+*Z 07612 RGTR--                                             % 07612 RGTR--
+*L 314      220402034 220803001  01317  01336               % 07612 RGTR--
+*A ag 220402034 220803001 000001  01317  01336              % 07612 RGTR--
+*R 1 220803001 220402034 220803001  01317  01336            % 07612 RGTR--
+*G RGB 220402034 220803001  01317  01336                    % 07612 RGTR--
+*A VE 220402034 220803001 000001  01317  01336              % 07612 RGTR--
+*I FD 220402034 220803001        0003561  01317  01336      % 07612 RGTR--
+220402034 Esch/Alzette, Gare           01317                % 07612 RGTR--
+220402097 Esch/Alzette, Bd. Be  01318  01318                % 07612 RGTR--
+220402049 Esch/Alzette, Cliniq  01319  01319                % 07612 RGTR--
+220402066 Esch/Alzette, Op der  01321  01321                % 07612 RGTR--
+220402020 Esch/Alzette, Cinqua  01322  01322                % 07612 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01323  01323                % 07612 RGTR--
+220402053 Esch/Alzette, Lallen  01323  01323                % 07612 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01324  01324                % 07612 RGTR--
+221401001 Schifflange, Brill    01327  01327                % 07612 RGTR--
+221401011 Schifflange, Ecole N  01327  01327                % 07612 RGTR--
+220802004 Foetz, Am Butterbril  01331  01331                % 07612 RGTR--
+220802010 Foetz, Rond Point     01332  01332                % 07612 RGTR--
+220803013 Mondercange, Krombac  01333  01333                % 07612 RGTR--
+220803030 Mondercange, Dokter   01334  01334                % 07612 RGTR--
+220803031 Mondercange, A Bosse  01335  01335                % 07612 RGTR--
+220803001 Mondercange, A.Thinn  01336                       % 07612 RGTR--
+*Z 07613 RGTR--                                             % 07613 RGTR--
+*L 314      220402034 220803001  01337  01356               % 07613 RGTR--
+*A ag 220402034 220803001 000001  01337  01356              % 07613 RGTR--
+*R 1 220803001 220402034 220803001  01337  01356            % 07613 RGTR--
+*G RGB 220402034 220803001  01337  01356                    % 07613 RGTR--
+*A VE 220402034 220803001 000001  01337  01356              % 07613 RGTR--
+*I FD 220402034 220803001        0003109  01337  01356      % 07613 RGTR--
+220402034 Esch/Alzette, Gare           01337                % 07613 RGTR--
+220402097 Esch/Alzette, Bd. Be  01338  01338                % 07613 RGTR--
+220402049 Esch/Alzette, Cliniq  01339  01339                % 07613 RGTR--
+220402066 Esch/Alzette, Op der  01341  01341                % 07613 RGTR--
+220402020 Esch/Alzette, Cinqua  01342  01342                % 07613 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01343  01343                % 07613 RGTR--
+220402053 Esch/Alzette, Lallen  01343  01343                % 07613 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01344  01344                % 07613 RGTR--
+221401001 Schifflange, Brill    01347  01347                % 07613 RGTR--
+221401011 Schifflange, Ecole N  01347  01347                % 07613 RGTR--
+220802004 Foetz, Am Butterbril  01351  01351                % 07613 RGTR--
+220802010 Foetz, Rond Point     01352  01352                % 07613 RGTR--
+220803013 Mondercange, Krombac  01353  01353                % 07613 RGTR--
+220803030 Mondercange, Dokter   01354  01354                % 07613 RGTR--
+220803031 Mondercange, A Bosse  01355  01355                % 07613 RGTR--
+220803001 Mondercange, A.Thinn  01356                       % 07613 RGTR--
+*Z 07614 RGTR--                                             % 07614 RGTR--
+*L 314      220402034 220803001  01357  01416               % 07614 RGTR--
+*A ag 220402034 220803001 000001  01357  01416              % 07614 RGTR--
+*R 1 220803001 220402034 220803001  01357  01416            % 07614 RGTR--
+*G RGB 220402034 220803001  01357  01416                    % 07614 RGTR--
+*A VE 220402034 220803001 000001  01357  01416              % 07614 RGTR--
+*I FD 220402034 220803001        0003326  01357  01416      % 07614 RGTR--
+220402034 Esch/Alzette, Gare           01357                % 07614 RGTR--
+220402097 Esch/Alzette, Bd. Be  01358  01358                % 07614 RGTR--
+220402049 Esch/Alzette, Cliniq  01359  01359                % 07614 RGTR--
+220402066 Esch/Alzette, Op der  01401  01401                % 07614 RGTR--
+220402020 Esch/Alzette, Cinqua  01402  01402                % 07614 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01403  01403                % 07614 RGTR--
+220402053 Esch/Alzette, Lallen  01403  01403                % 07614 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01404  01404                % 07614 RGTR--
+221401001 Schifflange, Brill    01407  01407                % 07614 RGTR--
+221401011 Schifflange, Ecole N  01407  01407                % 07614 RGTR--
+220802004 Foetz, Am Butterbril  01411  01411                % 07614 RGTR--
+220802010 Foetz, Rond Point     01412  01412                % 07614 RGTR--
+220803013 Mondercange, Krombac  01413  01413                % 07614 RGTR--
+220803030 Mondercange, Dokter   01414  01414                % 07614 RGTR--
+220803031 Mondercange, A Bosse  01415  01415                % 07614 RGTR--
+220803001 Mondercange, A.Thinn  01416                       % 07614 RGTR--
+*Z 07615 RGTR--                                             % 07615 RGTR--
+*L 314      220402034 220803001  01417  01436               % 07615 RGTR--
+*A ag 220402034 220803001 000001  01417  01436              % 07615 RGTR--
+*R 1 220803001 220402034 220803001  01417  01436            % 07615 RGTR--
+*G RGB 220402034 220803001  01417  01436                    % 07615 RGTR--
+*A VE 220402034 220803001 000001  01417  01436              % 07615 RGTR--
+*I FD 220402034 220803001        0002617  01417  01436      % 07615 RGTR--
+220402034 Esch/Alzette, Gare           01417                % 07615 RGTR--
+220402097 Esch/Alzette, Bd. Be  01418  01418                % 07615 RGTR--
+220402049 Esch/Alzette, Cliniq  01419  01419                % 07615 RGTR--
+220402066 Esch/Alzette, Op der  01421  01421                % 07615 RGTR--
+220402020 Esch/Alzette, Cinqua  01422  01422                % 07615 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01423  01423                % 07615 RGTR--
+220402053 Esch/Alzette, Lallen  01423  01423                % 07615 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01424  01424                % 07615 RGTR--
+221401001 Schifflange, Brill    01427  01427                % 07615 RGTR--
+221401011 Schifflange, Ecole N  01427  01427                % 07615 RGTR--
+220802004 Foetz, Am Butterbril  01431  01431                % 07615 RGTR--
+220802010 Foetz, Rond Point     01432  01432                % 07615 RGTR--
+220803013 Mondercange, Krombac  01433  01433                % 07615 RGTR--
+220803030 Mondercange, Dokter   01434  01434                % 07615 RGTR--
+220803031 Mondercange, A Bosse  01435  01435                % 07615 RGTR--
+220803001 Mondercange, A.Thinn  01436                       % 07615 RGTR--
+*Z 07616 RGTR--                                             % 07616 RGTR--
+*L 314      220402034 220803001  01437  01456               % 07616 RGTR--
+*A ag 220402034 220803001 000001  01437  01456              % 07616 RGTR--
+*R 1 220803001 220402034 220803001  01437  01456            % 07616 RGTR--
+*G RGB 220402034 220803001  01437  01456                    % 07616 RGTR--
+*A VE 220402034 220803001 000001  01437  01456              % 07616 RGTR--
+*I FD 220402034 220803001        0003110  01437  01456      % 07616 RGTR--
+220402034 Esch/Alzette, Gare           01437                % 07616 RGTR--
+220402097 Esch/Alzette, Bd. Be  01438  01438                % 07616 RGTR--
+220402049 Esch/Alzette, Cliniq  01439  01439                % 07616 RGTR--
+220402066 Esch/Alzette, Op der  01441  01441                % 07616 RGTR--
+220402020 Esch/Alzette, Cinqua  01442  01442                % 07616 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01443  01443                % 07616 RGTR--
+220402053 Esch/Alzette, Lallen  01443  01443                % 07616 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01444  01444                % 07616 RGTR--
+221401001 Schifflange, Brill    01447  01447                % 07616 RGTR--
+221401011 Schifflange, Ecole N  01447  01447                % 07616 RGTR--
+220802004 Foetz, Am Butterbril  01451  01451                % 07616 RGTR--
+220802010 Foetz, Rond Point     01452  01452                % 07616 RGTR--
+220803013 Mondercange, Krombac  01453  01453                % 07616 RGTR--
+220803030 Mondercange, Dokter   01454  01454                % 07616 RGTR--
+220803031 Mondercange, A Bosse  01455  01455                % 07616 RGTR--
+220803001 Mondercange, A.Thinn  01456                       % 07616 RGTR--
+*Z 07617 RGTR--                                             % 07617 RGTR--
+*L 314      220402034 220803001  01457  01516               % 07617 RGTR--
+*A ag 220402034 220803001 000001  01457  01516              % 07617 RGTR--
+*R 1 220803001 220402034 220803001  01457  01516            % 07617 RGTR--
+*G RGB 220402034 220803001  01457  01516                    % 07617 RGTR--
+*A VE 220402034 220803001 000001  01457  01516              % 07617 RGTR--
+*I FD 220402034 220803001        0003327  01457  01516      % 07617 RGTR--
+220402034 Esch/Alzette, Gare           01457                % 07617 RGTR--
+220402097 Esch/Alzette, Bd. Be  01458  01458                % 07617 RGTR--
+220402049 Esch/Alzette, Cliniq  01459  01459                % 07617 RGTR--
+220402066 Esch/Alzette, Op der  01501  01501                % 07617 RGTR--
+220402020 Esch/Alzette, Cinqua  01502  01502                % 07617 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01503  01503                % 07617 RGTR--
+220402053 Esch/Alzette, Lallen  01503  01503                % 07617 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01504  01504                % 07617 RGTR--
+221401001 Schifflange, Brill    01507  01507                % 07617 RGTR--
+221401011 Schifflange, Ecole N  01507  01507                % 07617 RGTR--
+220802004 Foetz, Am Butterbril  01511  01511                % 07617 RGTR--
+220802010 Foetz, Rond Point     01512  01512                % 07617 RGTR--
+220803013 Mondercange, Krombac  01513  01513                % 07617 RGTR--
+220803030 Mondercange, Dokter   01514  01514                % 07617 RGTR--
+220803031 Mondercange, A Bosse  01515  01515                % 07617 RGTR--
+220803001 Mondercange, A.Thinn  01516                       % 07617 RGTR--
+*Z 07618 RGTR--                                             % 07618 RGTR--
+*L 314      220402034 220803001  01517  01536               % 07618 RGTR--
+*A ag 220402034 220803001 000001  01517  01536              % 07618 RGTR--
+*R 1 220803001 220402034 220803001  01517  01536            % 07618 RGTR--
+*G RGB 220402034 220803001  01517  01536                    % 07618 RGTR--
+*A VE 220402034 220803001 000001  01517  01536              % 07618 RGTR--
+*I FD 220402034 220803001        0003490  01517  01536      % 07618 RGTR--
+220402034 Esch/Alzette, Gare           01517                % 07618 RGTR--
+220402097 Esch/Alzette, Bd. Be  01518  01518                % 07618 RGTR--
+220402049 Esch/Alzette, Cliniq  01519  01519                % 07618 RGTR--
+220402066 Esch/Alzette, Op der  01521  01521                % 07618 RGTR--
+220402020 Esch/Alzette, Cinqua  01522  01522                % 07618 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01523  01523                % 07618 RGTR--
+220402053 Esch/Alzette, Lallen  01523  01523                % 07618 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01524  01524                % 07618 RGTR--
+221401001 Schifflange, Brill    01527  01527                % 07618 RGTR--
+221401011 Schifflange, Ecole N  01527  01527                % 07618 RGTR--
+220802004 Foetz, Am Butterbril  01531  01531                % 07618 RGTR--
+220802010 Foetz, Rond Point     01532  01532                % 07618 RGTR--
+220803013 Mondercange, Krombac  01533  01533                % 07618 RGTR--
+220803030 Mondercange, Dokter   01534  01534                % 07618 RGTR--
+220803031 Mondercange, A Bosse  01535  01535                % 07618 RGTR--
+220803001 Mondercange, A.Thinn  01536                       % 07618 RGTR--
+*Z 07619 RGTR--                                             % 07619 RGTR--
+*L 314      220402034 220803001  01537  01556               % 07619 RGTR--
+*A ag 220402034 220803001 000001  01537  01556              % 07619 RGTR--
+*R 1 220803001 220402034 220803001  01537  01556            % 07619 RGTR--
+*G RGB 220402034 220803001  01537  01556                    % 07619 RGTR--
+*A VE 220402034 220803001 000001  01537  01556              % 07619 RGTR--
+*I FD 220402034 220803001        0002606  01537  01556      % 07619 RGTR--
+220402034 Esch/Alzette, Gare           01537                % 07619 RGTR--
+220402097 Esch/Alzette, Bd. Be  01538  01538                % 07619 RGTR--
+220402049 Esch/Alzette, Cliniq  01539  01539                % 07619 RGTR--
+220402066 Esch/Alzette, Op der  01541  01541                % 07619 RGTR--
+220402020 Esch/Alzette, Cinqua  01542  01542                % 07619 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01543  01543                % 07619 RGTR--
+220402053 Esch/Alzette, Lallen  01543  01543                % 07619 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01544  01544                % 07619 RGTR--
+221401001 Schifflange, Brill    01547  01547                % 07619 RGTR--
+221401011 Schifflange, Ecole N  01547  01547                % 07619 RGTR--
+220802004 Foetz, Am Butterbril  01551  01551                % 07619 RGTR--
+220802010 Foetz, Rond Point     01552  01552                % 07619 RGTR--
+220803013 Mondercange, Krombac  01553  01553                % 07619 RGTR--
+220803030 Mondercange, Dokter   01554  01554                % 07619 RGTR--
+220803031 Mondercange, A Bosse  01555  01555                % 07619 RGTR--
+220803001 Mondercange, A.Thinn  01556                       % 07619 RGTR--
+*Z 07620 RGTR--                                             % 07620 RGTR--
+*L 314      220402034 220803001  01837  01856               % 07620 RGTR--
+*A ag 220402034 220803001 000001  01837  01856              % 07620 RGTR--
+*R 1 220803001 220402034 220803001  01837  01856            % 07620 RGTR--
+*G RGB 220402034 220803001  01837  01856                    % 07620 RGTR--
+*A VE 220402034 220803001 000001  01837  01856              % 07620 RGTR--
+*I FD 220402034 220803001        0001296  01837  01856      % 07620 RGTR--
+220402034 Esch/Alzette, Gare           01837                % 07620 RGTR--
+220402097 Esch/Alzette, Bd. Be  01838  01838                % 07620 RGTR--
+220402049 Esch/Alzette, Cliniq  01839  01839                % 07620 RGTR--
+220402066 Esch/Alzette, Op der  01841  01841                % 07620 RGTR--
+220402020 Esch/Alzette, Cinqua  01842  01842                % 07620 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01843  01843                % 07620 RGTR--
+220402053 Esch/Alzette, Lallen  01843  01843                % 07620 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01844  01844                % 07620 RGTR--
+221401001 Schifflange, Brill    01847  01847                % 07620 RGTR--
+221401011 Schifflange, Ecole N  01847  01847                % 07620 RGTR--
+220802004 Foetz, Am Butterbril  01851  01851                % 07620 RGTR--
+220802010 Foetz, Rond Point     01852  01852                % 07620 RGTR--
+220803013 Mondercange, Krombac  01853  01853                % 07620 RGTR--
+220803030 Mondercange, Dokter   01854  01854                % 07620 RGTR--
+220803031 Mondercange, A Bosse  01855  01855                % 07620 RGTR--
+220803001 Mondercange, A.Thinn  01856                       % 07620 RGTR--
+*Z 07621 RGTR--                                             % 07621 RGTR--
+*L 314      220402034 220803001  01857  01916               % 07621 RGTR--
+*A ag 220402034 220803001 000001  01857  01916              % 07621 RGTR--
+*R 1 220803001 220402034 220803001  01857  01916            % 07621 RGTR--
+*G RGB 220402034 220803001  01857  01916                    % 07621 RGTR--
+*A VE 220402034 220803001 000001  01857  01916              % 07621 RGTR--
+*I FD 220402034 220803001        0001360  01857  01916      % 07621 RGTR--
+220402034 Esch/Alzette, Gare           01857                % 07621 RGTR--
+220402097 Esch/Alzette, Bd. Be  01858  01858                % 07621 RGTR--
+220402049 Esch/Alzette, Cliniq  01859  01859                % 07621 RGTR--
+220402066 Esch/Alzette, Op der  01901  01901                % 07621 RGTR--
+220402020 Esch/Alzette, Cinqua  01902  01902                % 07621 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01903  01903                % 07621 RGTR--
+220402053 Esch/Alzette, Lallen  01903  01903                % 07621 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01904  01904                % 07621 RGTR--
+221401001 Schifflange, Brill    01907  01907                % 07621 RGTR--
+221401011 Schifflange, Ecole N  01907  01907                % 07621 RGTR--
+220802004 Foetz, Am Butterbril  01911  01911                % 07621 RGTR--
+220802010 Foetz, Rond Point     01912  01912                % 07621 RGTR--
+220803013 Mondercange, Krombac  01913  01913                % 07621 RGTR--
+220803030 Mondercange, Dokter   01914  01914                % 07621 RGTR--
+220803031 Mondercange, A Bosse  01915  01915                % 07621 RGTR--
+220803001 Mondercange, A.Thinn  01916                       % 07621 RGTR--
+*Z 07622 RGTR--                                             % 07622 RGTR--
+*L 314      220402034 220803001  01917  01936               % 07622 RGTR--
+*A ag 220402034 220803001 000001  01917  01936              % 07622 RGTR--
+*R 1 220803001 220402034 220803001  01917  01936            % 07622 RGTR--
+*G RGB 220402034 220803001  01917  01936                    % 07622 RGTR--
+*A VE 220402034 220803001 000001  01917  01936              % 07622 RGTR--
+*I FD 220402034 220803001        0002164  01917  01936      % 07622 RGTR--
+220402034 Esch/Alzette, Gare           01917                % 07622 RGTR--
+220402097 Esch/Alzette, Bd. Be  01918  01918                % 07622 RGTR--
+220402049 Esch/Alzette, Cliniq  01919  01919                % 07622 RGTR--
+220402066 Esch/Alzette, Op der  01921  01921                % 07622 RGTR--
+220402020 Esch/Alzette, Cinqua  01922  01922                % 07622 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01923  01923                % 07622 RGTR--
+220402053 Esch/Alzette, Lallen  01923  01923                % 07622 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01924  01924                % 07622 RGTR--
+221401001 Schifflange, Brill    01927  01927                % 07622 RGTR--
+221401011 Schifflange, Ecole N  01927  01927                % 07622 RGTR--
+220802004 Foetz, Am Butterbril  01931  01931                % 07622 RGTR--
+220802010 Foetz, Rond Point     01932  01932                % 07622 RGTR--
+220803013 Mondercange, Krombac  01933  01933                % 07622 RGTR--
+220803030 Mondercange, Dokter   01934  01934                % 07622 RGTR--
+220803031 Mondercange, A Bosse  01935  01935                % 07622 RGTR--
+220803001 Mondercange, A.Thinn  01936                       % 07622 RGTR--
+*Z 07623 RGTR--                                             % 07623 RGTR--
+*L 314      220402034 220803001  01937  01956               % 07623 RGTR--
+*A ag 220402034 220803001 000001  01937  01956              % 07623 RGTR--
+*R 1 220803001 220402034 220803001  01937  01956            % 07623 RGTR--
+*G RGB 220402034 220803001  01937  01956                    % 07623 RGTR--
+*A VE 220402034 220803001 000001  01937  01956              % 07623 RGTR--
+*I FD 220402034 220803001        0002608  01937  01956      % 07623 RGTR--
+220402034 Esch/Alzette, Gare           01937                % 07623 RGTR--
+220402097 Esch/Alzette, Bd. Be  01938  01938                % 07623 RGTR--
+220402049 Esch/Alzette, Cliniq  01939  01939                % 07623 RGTR--
+220402066 Esch/Alzette, Op der  01941  01941                % 07623 RGTR--
+220402020 Esch/Alzette, Cinqua  01942  01942                % 07623 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01943  01943                % 07623 RGTR--
+220402053 Esch/Alzette, Lallen  01943  01943                % 07623 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01944  01944                % 07623 RGTR--
+221401001 Schifflange, Brill    01947  01947                % 07623 RGTR--
+221401011 Schifflange, Ecole N  01947  01947                % 07623 RGTR--
+220802004 Foetz, Am Butterbril  01951  01951                % 07623 RGTR--
+220802010 Foetz, Rond Point     01952  01952                % 07623 RGTR--
+220803013 Mondercange, Krombac  01953  01953                % 07623 RGTR--
+220803030 Mondercange, Dokter   01954  01954                % 07623 RGTR--
+220803031 Mondercange, A Bosse  01955  01955                % 07623 RGTR--
+220803001 Mondercange, A.Thinn  01956                       % 07623 RGTR--
+*Z 07624 RGTR--                                             % 07624 RGTR--
+*L 314      220402034 220803001  01957  02016               % 07624 RGTR--
+*A ag 220402034 220803001 000001  01957  02016              % 07624 RGTR--
+*R 1 220803001 220402034 220803001  01957  02016            % 07624 RGTR--
+*G RGB 220402034 220803001  01957  02016                    % 07624 RGTR--
+*A VE 220402034 220803001 000001  01957  02016              % 07624 RGTR--
+*I FD 220402034 220803001        0003315  01957  02016      % 07624 RGTR--
+220402034 Esch/Alzette, Gare           01957                % 07624 RGTR--
+220402097 Esch/Alzette, Bd. Be  01958  01958                % 07624 RGTR--
+220402049 Esch/Alzette, Cliniq  01959  01959                % 07624 RGTR--
+220402066 Esch/Alzette, Op der  02001  02001                % 07624 RGTR--
+220402020 Esch/Alzette, Cinqua  02002  02002                % 07624 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02003  02003                % 07624 RGTR--
+220402053 Esch/Alzette, Lallen  02003  02003                % 07624 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02004  02004                % 07624 RGTR--
+221401001 Schifflange, Brill    02007  02007                % 07624 RGTR--
+221401011 Schifflange, Ecole N  02007  02007                % 07624 RGTR--
+220802004 Foetz, Am Butterbril  02011  02011                % 07624 RGTR--
+220802010 Foetz, Rond Point     02012  02012                % 07624 RGTR--
+220803013 Mondercange, Krombac  02013  02013                % 07624 RGTR--
+220803030 Mondercange, Dokter   02014  02014                % 07624 RGTR--
+220803031 Mondercange, A Bosse  02015  02015                % 07624 RGTR--
+220803001 Mondercange, A.Thinn  02016                       % 07624 RGTR--
+*Z 07625 RGTR--                                             % 07625 RGTR--
+*L 314      220402034 220803001  02017  02036               % 07625 RGTR--
+*A ag 220402034 220803001 000001  02017  02036              % 07625 RGTR--
+*R 1 220803001 220402034 220803001  02017  02036            % 07625 RGTR--
+*G RGB 220402034 220803001  02017  02036                    % 07625 RGTR--
+*A VE 220402034 220803001 000001  02017  02036              % 07625 RGTR--
+*I FD 220402034 220803001        0003562  02017  02036      % 07625 RGTR--
+220402034 Esch/Alzette, Gare           02017                % 07625 RGTR--
+220402097 Esch/Alzette, Bd. Be  02018  02018                % 07625 RGTR--
+220402049 Esch/Alzette, Cliniq  02019  02019                % 07625 RGTR--
+220402066 Esch/Alzette, Op der  02021  02021                % 07625 RGTR--
+220402020 Esch/Alzette, Cinqua  02022  02022                % 07625 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02023  02023                % 07625 RGTR--
+220402053 Esch/Alzette, Lallen  02023  02023                % 07625 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02024  02024                % 07625 RGTR--
+221401001 Schifflange, Brill    02027  02027                % 07625 RGTR--
+221401011 Schifflange, Ecole N  02027  02027                % 07625 RGTR--
+220802004 Foetz, Am Butterbril  02031  02031                % 07625 RGTR--
+220802010 Foetz, Rond Point     02032  02032                % 07625 RGTR--
+220803013 Mondercange, Krombac  02033  02033                % 07625 RGTR--
+220803030 Mondercange, Dokter   02034  02034                % 07625 RGTR--
+220803031 Mondercange, A Bosse  02035  02035                % 07625 RGTR--
+220803001 Mondercange, A.Thinn  02036                       % 07625 RGTR--
+*Z 07626 RGTR--                                             % 07626 RGTR--
+*L 314      220402034 220803001  02037  02056               % 07626 RGTR--
+*A ag 220402034 220803001 000001  02037  02056              % 07626 RGTR--
+*R 1 220803001 220402034 220803001  02037  02056            % 07626 RGTR--
+*G RGB 220402034 220803001  02037  02056                    % 07626 RGTR--
+*A VE 220402034 220803001 000001  02037  02056              % 07626 RGTR--
+*I FD 220402034 220803001        0003563  02037  02056      % 07626 RGTR--
+220402034 Esch/Alzette, Gare           02037                % 07626 RGTR--
+220402097 Esch/Alzette, Bd. Be  02038  02038                % 07626 RGTR--
+220402049 Esch/Alzette, Cliniq  02039  02039                % 07626 RGTR--
+220402066 Esch/Alzette, Op der  02041  02041                % 07626 RGTR--
+220402020 Esch/Alzette, Cinqua  02042  02042                % 07626 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02043  02043                % 07626 RGTR--
+220402053 Esch/Alzette, Lallen  02043  02043                % 07626 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02044  02044                % 07626 RGTR--
+221401001 Schifflange, Brill    02047  02047                % 07626 RGTR--
+221401011 Schifflange, Ecole N  02047  02047                % 07626 RGTR--
+220802004 Foetz, Am Butterbril  02051  02051                % 07626 RGTR--
+220802010 Foetz, Rond Point     02052  02052                % 07626 RGTR--
+220803013 Mondercange, Krombac  02053  02053                % 07626 RGTR--
+220803030 Mondercange, Dokter   02054  02054                % 07626 RGTR--
+220803031 Mondercange, A Bosse  02055  02055                % 07626 RGTR--
+220803001 Mondercange, A.Thinn  02056                       % 07626 RGTR--
+*Z 07627 RGTR--                                             % 07627 RGTR--
+*L 314      220402034 220803001  02057  02116               % 07627 RGTR--
+*A ag 220402034 220803001 000001  02057  02116              % 07627 RGTR--
+*R 1 220803001 220402034 220803001  02057  02116            % 07627 RGTR--
+*G RGB 220402034 220803001  02057  02116                    % 07627 RGTR--
+*A VE 220402034 220803001 000001  02057  02116              % 07627 RGTR--
+*I FD 220402034 220803001        0003564  02057  02116      % 07627 RGTR--
+220402034 Esch/Alzette, Gare           02057                % 07627 RGTR--
+220402097 Esch/Alzette, Bd. Be  02058  02058                % 07627 RGTR--
+220402049 Esch/Alzette, Cliniq  02059  02059                % 07627 RGTR--
+220402066 Esch/Alzette, Op der  02101  02101                % 07627 RGTR--
+220402020 Esch/Alzette, Cinqua  02102  02102                % 07627 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02103  02103                % 07627 RGTR--
+220402053 Esch/Alzette, Lallen  02103  02103                % 07627 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02104  02104                % 07627 RGTR--
+221401001 Schifflange, Brill    02107  02107                % 07627 RGTR--
+221401011 Schifflange, Ecole N  02107  02107                % 07627 RGTR--
+220802004 Foetz, Am Butterbril  02111  02111                % 07627 RGTR--
+220802010 Foetz, Rond Point     02112  02112                % 07627 RGTR--
+220803013 Mondercange, Krombac  02113  02113                % 07627 RGTR--
+220803030 Mondercange, Dokter   02114  02114                % 07627 RGTR--
+220803031 Mondercange, A Bosse  02115  02115                % 07627 RGTR--
+220803001 Mondercange, A.Thinn  02116                       % 07627 RGTR--
+*Z 07628 RGTR--                                             % 07628 RGTR--
+*L 314      220402034 220803001  02117  02136               % 07628 RGTR--
+*A ag 220402034 220803001 000001  02117  02136              % 07628 RGTR--
+*R 1 220803001 220402034 220803001  02117  02136            % 07628 RGTR--
+*G RGB 220402034 220803001  02117  02136                    % 07628 RGTR--
+*A VE 220402034 220803001 000001  02117  02136              % 07628 RGTR--
+*I FD 220402034 220803001        0003565  02117  02136      % 07628 RGTR--
+220402034 Esch/Alzette, Gare           02117                % 07628 RGTR--
+220402097 Esch/Alzette, Bd. Be  02118  02118                % 07628 RGTR--
+220402049 Esch/Alzette, Cliniq  02119  02119                % 07628 RGTR--
+220402066 Esch/Alzette, Op der  02121  02121                % 07628 RGTR--
+220402020 Esch/Alzette, Cinqua  02122  02122                % 07628 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02123  02123                % 07628 RGTR--
+220402053 Esch/Alzette, Lallen  02123  02123                % 07628 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02124  02124                % 07628 RGTR--
+221401001 Schifflange, Brill    02127  02127                % 07628 RGTR--
+221401011 Schifflange, Ecole N  02127  02127                % 07628 RGTR--
+220802004 Foetz, Am Butterbril  02131  02131                % 07628 RGTR--
+220802010 Foetz, Rond Point     02132  02132                % 07628 RGTR--
+220803013 Mondercange, Krombac  02133  02133                % 07628 RGTR--
+220803030 Mondercange, Dokter   02134  02134                % 07628 RGTR--
+220803031 Mondercange, A Bosse  02135  02135                % 07628 RGTR--
+220803001 Mondercange, A.Thinn  02136                       % 07628 RGTR--
+*Z 07629 RGTR--                                             % 07629 RGTR--
+*L 314      220402034 220803001  02137  02156               % 07629 RGTR--
+*A ag 220402034 220803001 000001  02137  02156              % 07629 RGTR--
+*R 1 220803001 220402034 220803001  02137  02156            % 07629 RGTR--
+*G RGB 220402034 220803001  02137  02156                    % 07629 RGTR--
+*A VE 220402034 220803001 000001  02137  02156              % 07629 RGTR--
+*I FD 220402034 220803001        0003566  02137  02156      % 07629 RGTR--
+220402034 Esch/Alzette, Gare           02137                % 07629 RGTR--
+220402097 Esch/Alzette, Bd. Be  02138  02138                % 07629 RGTR--
+220402049 Esch/Alzette, Cliniq  02139  02139                % 07629 RGTR--
+220402066 Esch/Alzette, Op der  02141  02141                % 07629 RGTR--
+220402020 Esch/Alzette, Cinqua  02142  02142                % 07629 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02143  02143                % 07629 RGTR--
+220402053 Esch/Alzette, Lallen  02143  02143                % 07629 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02144  02144                % 07629 RGTR--
+221401001 Schifflange, Brill    02147  02147                % 07629 RGTR--
+221401011 Schifflange, Ecole N  02147  02147                % 07629 RGTR--
+220802004 Foetz, Am Butterbril  02151  02151                % 07629 RGTR--
+220802010 Foetz, Rond Point     02152  02152                % 07629 RGTR--
+220803013 Mondercange, Krombac  02153  02153                % 07629 RGTR--
+220803030 Mondercange, Dokter   02154  02154                % 07629 RGTR--
+220803031 Mondercange, A Bosse  02155  02155                % 07629 RGTR--
+220803001 Mondercange, A.Thinn  02156                       % 07629 RGTR--
+*Z 07630 RGTR--                                             % 07630 RGTR--
+*L 314      220402034 220803001  02157  02216               % 07630 RGTR--
+*A ag 220402034 220803001 000001  02157  02216              % 07630 RGTR--
+*R 1 220803001 220402034 220803001  02157  02216            % 07630 RGTR--
+*G RGB 220402034 220803001  02157  02216                    % 07630 RGTR--
+*A VE 220402034 220803001 000001  02157  02216              % 07630 RGTR--
+*I FD 220402034 220803001        0003567  02157  02216      % 07630 RGTR--
+220402034 Esch/Alzette, Gare           02157                % 07630 RGTR--
+220402097 Esch/Alzette, Bd. Be  02158  02158                % 07630 RGTR--
+220402049 Esch/Alzette, Cliniq  02159  02159                % 07630 RGTR--
+220402066 Esch/Alzette, Op der  02201  02201                % 07630 RGTR--
+220402020 Esch/Alzette, Cinqua  02202  02202                % 07630 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02203  02203                % 07630 RGTR--
+220402053 Esch/Alzette, Lallen  02203  02203                % 07630 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02204  02204                % 07630 RGTR--
+221401001 Schifflange, Brill    02207  02207                % 07630 RGTR--
+221401011 Schifflange, Ecole N  02207  02207                % 07630 RGTR--
+220802004 Foetz, Am Butterbril  02211  02211                % 07630 RGTR--
+220802010 Foetz, Rond Point     02212  02212                % 07630 RGTR--
+220803013 Mondercange, Krombac  02213  02213                % 07630 RGTR--
+220803030 Mondercange, Dokter   02214  02214                % 07630 RGTR--
+220803031 Mondercange, A Bosse  02215  02215                % 07630 RGTR--
+220803001 Mondercange, A.Thinn  02216                       % 07630 RGTR--
+*Z 07631 RGTR--                                             % 07631 RGTR--
+*L 314      220402034 220803001  02217  02236               % 07631 RGTR--
+*A ag 220402034 220803001 000001  02217  02236              % 07631 RGTR--
+*R 1 220803001 220402034 220803001  02217  02236            % 07631 RGTR--
+*G RGB 220402034 220803001  02217  02236                    % 07631 RGTR--
+*A VE 220402034 220803001 000001  02217  02236              % 07631 RGTR--
+*I FD 220402034 220803001        0001479  02217  02236      % 07631 RGTR--
+220402034 Esch/Alzette, Gare           02217                % 07631 RGTR--
+220402097 Esch/Alzette, Bd. Be  02218  02218                % 07631 RGTR--
+220402049 Esch/Alzette, Cliniq  02219  02219                % 07631 RGTR--
+220402066 Esch/Alzette, Op der  02221  02221                % 07631 RGTR--
+220402020 Esch/Alzette, Cinqua  02222  02222                % 07631 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02223  02223                % 07631 RGTR--
+220402053 Esch/Alzette, Lallen  02223  02223                % 07631 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02224  02224                % 07631 RGTR--
+221401001 Schifflange, Brill    02227  02227                % 07631 RGTR--
+221401011 Schifflange, Ecole N  02227  02227                % 07631 RGTR--
+220802004 Foetz, Am Butterbril  02231  02231                % 07631 RGTR--
+220802010 Foetz, Rond Point     02232  02232                % 07631 RGTR--
+220803013 Mondercange, Krombac  02233  02233                % 07631 RGTR--
+220803030 Mondercange, Dokter   02234  02234                % 07631 RGTR--
+220803031 Mondercange, A Bosse  02235  02235                % 07631 RGTR--
+220803001 Mondercange, A.Thinn  02236                       % 07631 RGTR--
+*Z 07632 RGTR--                                             % 07632 RGTR--
+*L 314      220402034 220803001  02237  02256               % 07632 RGTR--
+*A ag 220402034 220803001 000001  02237  02256              % 07632 RGTR--
+*R 1 220803001 220402034 220803001  02237  02256            % 07632 RGTR--
+*G RGB 220402034 220803001  02237  02256                    % 07632 RGTR--
+*A VE 220402034 220803001 000001  02237  02256              % 07632 RGTR--
+*I FD 220402034 220803001        0003568  02237  02256      % 07632 RGTR--
+220402034 Esch/Alzette, Gare           02237                % 07632 RGTR--
+220402097 Esch/Alzette, Bd. Be  02238  02238                % 07632 RGTR--
+220402049 Esch/Alzette, Cliniq  02239  02239                % 07632 RGTR--
+220402066 Esch/Alzette, Op der  02241  02241                % 07632 RGTR--
+220402020 Esch/Alzette, Cinqua  02242  02242                % 07632 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02243  02243                % 07632 RGTR--
+220402053 Esch/Alzette, Lallen  02243  02243                % 07632 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02244  02244                % 07632 RGTR--
+221401001 Schifflange, Brill    02247  02247                % 07632 RGTR--
+221401011 Schifflange, Ecole N  02247  02247                % 07632 RGTR--
+220802004 Foetz, Am Butterbril  02251  02251                % 07632 RGTR--
+220802010 Foetz, Rond Point     02252  02252                % 07632 RGTR--
+220803013 Mondercange, Krombac  02253  02253                % 07632 RGTR--
+220803030 Mondercange, Dokter   02254  02254                % 07632 RGTR--
+220803031 Mondercange, A Bosse  02255  02255                % 07632 RGTR--
+220803001 Mondercange, A.Thinn  02256                       % 07632 RGTR--
+*Z 07633 RGTR--                                             % 07633 RGTR--
+*L 314      220402034 220803001  02257  02316               % 07633 RGTR--
+*A ag 220402034 220803001 000001  02257  02316              % 07633 RGTR--
+*R 1 220803001 220402034 220803001  02257  02316            % 07633 RGTR--
+*G RGB 220402034 220803001  02257  02316                    % 07633 RGTR--
+*A VE 220402034 220803001 000001  02257  02316              % 07633 RGTR--
+*I FD 220402034 220803001        0003569  02257  02316      % 07633 RGTR--
+220402034 Esch/Alzette, Gare           02257                % 07633 RGTR--
+220402097 Esch/Alzette, Bd. Be  02258  02258                % 07633 RGTR--
+220402049 Esch/Alzette, Cliniq  02259  02259                % 07633 RGTR--
+220402066 Esch/Alzette, Op der  02301  02301                % 07633 RGTR--
+220402020 Esch/Alzette, Cinqua  02302  02302                % 07633 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02303  02303                % 07633 RGTR--
+220402053 Esch/Alzette, Lallen  02303  02303                % 07633 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02304  02304                % 07633 RGTR--
+221401001 Schifflange, Brill    02307  02307                % 07633 RGTR--
+221401011 Schifflange, Ecole N  02307  02307                % 07633 RGTR--
+220802004 Foetz, Am Butterbril  02311  02311                % 07633 RGTR--
+220802010 Foetz, Rond Point     02312  02312                % 07633 RGTR--
+220803013 Mondercange, Krombac  02313  02313                % 07633 RGTR--
+220803030 Mondercange, Dokter   02314  02314                % 07633 RGTR--
+220803031 Mondercange, A Bosse  02315  02315                % 07633 RGTR--
+220803001 Mondercange, A.Thinn  02316                       % 07633 RGTR--
+*Z 07634 RGTR--                                             % 07634 RGTR--
+*L 314      220402034 220803001  02317  02336               % 07634 RGTR--
+*A ag 220402034 220803001 000001  02317  02336              % 07634 RGTR--
+*R 1 220803001 220402034 220803001  02317  02336            % 07634 RGTR--
+*G RGB 220402034 220803001  02317  02336                    % 07634 RGTR--
+*A VE 220402034 220803001 000001  02317  02336              % 07634 RGTR--
+*I FD 220402034 220803001        0003570  02317  02336      % 07634 RGTR--
+220402034 Esch/Alzette, Gare           02317                % 07634 RGTR--
+220402097 Esch/Alzette, Bd. Be  02318  02318                % 07634 RGTR--
+220402049 Esch/Alzette, Cliniq  02319  02319                % 07634 RGTR--
+220402066 Esch/Alzette, Op der  02321  02321                % 07634 RGTR--
+220402020 Esch/Alzette, Cinqua  02322  02322                % 07634 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02323  02323                % 07634 RGTR--
+220402053 Esch/Alzette, Lallen  02323  02323                % 07634 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02324  02324                % 07634 RGTR--
+221401001 Schifflange, Brill    02327  02327                % 07634 RGTR--
+221401011 Schifflange, Ecole N  02327  02327                % 07634 RGTR--
+220802004 Foetz, Am Butterbril  02331  02331                % 07634 RGTR--
+220802010 Foetz, Rond Point     02332  02332                % 07634 RGTR--
+220803013 Mondercange, Krombac  02333  02333                % 07634 RGTR--
+220803030 Mondercange, Dokter   02334  02334                % 07634 RGTR--
+220803031 Mondercange, A Bosse  02335  02335                % 07634 RGTR--
+220803001 Mondercange, A.Thinn  02336                       % 07634 RGTR--
+*Z 07635 RGTR--                                             % 07635 RGTR--
+*L 314      220402034 220803001  00637  00658               % 07635 RGTR--
+*A ag 220402034 220803001 000001  00637  00658              % 07635 RGTR--
+*R 1 220803001 220402034 220803001  00637  00658            % 07635 RGTR--
+*G RGB 220402034 220803001  00637  00658                    % 07635 RGTR--
+*A VE 220402034 220803001 000001  00637  00658              % 07635 RGTR--
+*I FD 220402034 220803001        0002380  00637  00658      % 07635 RGTR--
+220402034 Esch/Alzette, Gare           00637                % 07635 RGTR--
+220402097 Esch/Alzette, Bd. Be  00638  00638                % 07635 RGTR--
+220402049 Esch/Alzette, Cliniq  00640  00640                % 07635 RGTR--
+220402066 Esch/Alzette, Op der  00641  00641                % 07635 RGTR--
+220402020 Esch/Alzette, Cinqua  00643  00643                % 07635 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00644  00644                % 07635 RGTR--
+220402053 Esch/Alzette, Lallen  00645  00645                % 07635 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00645  00645                % 07635 RGTR--
+221401001 Schifflange, Brill    00648  00648                % 07635 RGTR--
+221401011 Schifflange, Ecole N  00649  00649                % 07635 RGTR--
+220802004 Foetz, Am Butterbril  00653  00653                % 07635 RGTR--
+220802010 Foetz, Rond Point     00655  00655                % 07635 RGTR--
+220803013 Mondercange, Krombac  00656  00656                % 07635 RGTR--
+220803030 Mondercange, Dokter   00656  00656                % 07635 RGTR--
+220803031 Mondercange, A Bosse  00658  00658                % 07635 RGTR--
+220803001 Mondercange, A.Thinn  00658                       % 07635 RGTR--
+*Z 07636 RGTR--                                             % 07636 RGTR--
+*L 314      220402034 220803001  00657  00718               % 07636 RGTR--
+*A ag 220402034 220803001 000001  00657  00718              % 07636 RGTR--
+*R 1 220803001 220402034 220803001  00657  00718            % 07636 RGTR--
+*G RGB 220402034 220803001  00657  00718                    % 07636 RGTR--
+*A VE 220402034 220803001 000001  00657  00718              % 07636 RGTR--
+*I FD 220402034 220803001        0002978  00657  00718      % 07636 RGTR--
+220402034 Esch/Alzette, Gare           00657                % 07636 RGTR--
+220402097 Esch/Alzette, Bd. Be  00658  00658                % 07636 RGTR--
+220402049 Esch/Alzette, Cliniq  00700  00700                % 07636 RGTR--
+220402066 Esch/Alzette, Op der  00701  00701                % 07636 RGTR--
+220402020 Esch/Alzette, Cinqua  00703  00703                % 07636 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00704  00704                % 07636 RGTR--
+220402053 Esch/Alzette, Lallen  00705  00705                % 07636 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00705  00705                % 07636 RGTR--
+221401001 Schifflange, Brill    00708  00708                % 07636 RGTR--
+221401011 Schifflange, Ecole N  00709  00709                % 07636 RGTR--
+220802004 Foetz, Am Butterbril  00713  00713                % 07636 RGTR--
+220802010 Foetz, Rond Point     00715  00715                % 07636 RGTR--
+220803013 Mondercange, Krombac  00716  00716                % 07636 RGTR--
+220803030 Mondercange, Dokter   00716  00716                % 07636 RGTR--
+220803031 Mondercange, A Bosse  00718  00718                % 07636 RGTR--
+220803001 Mondercange, A.Thinn  00718                       % 07636 RGTR--
+*Z 07637 RGTR--                                             % 07637 RGTR--
+*L 314      220402034 220803001  00717  00738               % 07637 RGTR--
+*A ag 220402034 220803001 000001  00717  00738              % 07637 RGTR--
+*R 1 220803001 220402034 220803001  00717  00738            % 07637 RGTR--
+*G RGB 220402034 220803001  00717  00738                    % 07637 RGTR--
+*A VE 220402034 220803001 000001  00717  00738              % 07637 RGTR--
+*I FD 220402034 220803001        0002371  00717  00738      % 07637 RGTR--
+220402034 Esch/Alzette, Gare           00717                % 07637 RGTR--
+220402097 Esch/Alzette, Bd. Be  00718  00718                % 07637 RGTR--
+220402049 Esch/Alzette, Cliniq  00720  00720                % 07637 RGTR--
+220402066 Esch/Alzette, Op der  00721  00721                % 07637 RGTR--
+220402020 Esch/Alzette, Cinqua  00723  00723                % 07637 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00724  00724                % 07637 RGTR--
+220402053 Esch/Alzette, Lallen  00725  00725                % 07637 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00725  00725                % 07637 RGTR--
+221401001 Schifflange, Brill    00728  00728                % 07637 RGTR--
+221401011 Schifflange, Ecole N  00729  00729                % 07637 RGTR--
+220802004 Foetz, Am Butterbril  00733  00733                % 07637 RGTR--
+220802010 Foetz, Rond Point     00735  00735                % 07637 RGTR--
+220803013 Mondercange, Krombac  00736  00736                % 07637 RGTR--
+220803030 Mondercange, Dokter   00736  00736                % 07637 RGTR--
+220803031 Mondercange, A Bosse  00738  00738                % 07637 RGTR--
+220803001 Mondercange, A.Thinn  00738                       % 07637 RGTR--
+*Z 07638 RGTR--                                             % 07638 RGTR--
+*L 314      220402034 220803001  00737  00758               % 07638 RGTR--
+*A ag 220402034 220803001 000001  00737  00758              % 07638 RGTR--
+*R 1 220803001 220402034 220803001  00737  00758            % 07638 RGTR--
+*G RGB 220402034 220803001  00737  00758                    % 07638 RGTR--
+*A VE 220402034 220803001 000001  00737  00758              % 07638 RGTR--
+*I FD 220402034 220803001        0002372  00737  00758      % 07638 RGTR--
+220402034 Esch/Alzette, Gare           00737                % 07638 RGTR--
+220402097 Esch/Alzette, Bd. Be  00738  00738                % 07638 RGTR--
+220402049 Esch/Alzette, Cliniq  00740  00740                % 07638 RGTR--
+220402066 Esch/Alzette, Op der  00741  00741                % 07638 RGTR--
+220402020 Esch/Alzette, Cinqua  00743  00743                % 07638 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00744  00744                % 07638 RGTR--
+220402053 Esch/Alzette, Lallen  00745  00745                % 07638 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00745  00745                % 07638 RGTR--
+221401001 Schifflange, Brill    00748  00748                % 07638 RGTR--
+221401011 Schifflange, Ecole N  00749  00749                % 07638 RGTR--
+220802004 Foetz, Am Butterbril  00753  00753                % 07638 RGTR--
+220802010 Foetz, Rond Point     00755  00755                % 07638 RGTR--
+220803013 Mondercange, Krombac  00756  00756                % 07638 RGTR--
+220803030 Mondercange, Dokter   00756  00756                % 07638 RGTR--
+220803031 Mondercange, A Bosse  00758  00758                % 07638 RGTR--
+220803001 Mondercange, A.Thinn  00758                       % 07638 RGTR--
+*Z 07639 RGTR--                                             % 07639 RGTR--
+*L 314      220402034 220803001  00757  00818               % 07639 RGTR--
+*A ag 220402034 220803001 000001  00757  00818              % 07639 RGTR--
+*R 1 220803001 220402034 220803001  00757  00818            % 07639 RGTR--
+*G RGB 220402034 220803001  00757  00818                    % 07639 RGTR--
+*A VE 220402034 220803001 000001  00757  00818              % 07639 RGTR--
+*I FD 220402034 220803001        0002788  00757  00818      % 07639 RGTR--
+220402034 Esch/Alzette, Gare           00757                % 07639 RGTR--
+220402097 Esch/Alzette, Bd. Be  00758  00758                % 07639 RGTR--
+220402049 Esch/Alzette, Cliniq  00800  00800                % 07639 RGTR--
+220402066 Esch/Alzette, Op der  00801  00801                % 07639 RGTR--
+220402020 Esch/Alzette, Cinqua  00803  00803                % 07639 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00804  00804                % 07639 RGTR--
+220402053 Esch/Alzette, Lallen  00805  00805                % 07639 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00805  00805                % 07639 RGTR--
+221401001 Schifflange, Brill    00808  00808                % 07639 RGTR--
+221401011 Schifflange, Ecole N  00809  00809                % 07639 RGTR--
+220802004 Foetz, Am Butterbril  00813  00813                % 07639 RGTR--
+220802010 Foetz, Rond Point     00815  00815                % 07639 RGTR--
+220803013 Mondercange, Krombac  00816  00816                % 07639 RGTR--
+220803030 Mondercange, Dokter   00816  00816                % 07639 RGTR--
+220803031 Mondercange, A Bosse  00818  00818                % 07639 RGTR--
+220803001 Mondercange, A.Thinn  00818                       % 07639 RGTR--
+*Z 07640 RGTR--                                             % 07640 RGTR--
+*L 314      220402034 220803001  00817  00838               % 07640 RGTR--
+*A ag 220402034 220803001 000001  00817  00838              % 07640 RGTR--
+*R 1 220803001 220402034 220803001  00817  00838            % 07640 RGTR--
+*G RGB 220402034 220803001  00817  00838                    % 07640 RGTR--
+*A VE 220402034 220803001 000001  00817  00838              % 07640 RGTR--
+*I FD 220402034 220803001        0003321  00817  00838      % 07640 RGTR--
+220402034 Esch/Alzette, Gare           00817                % 07640 RGTR--
+220402097 Esch/Alzette, Bd. Be  00818  00818                % 07640 RGTR--
+220402049 Esch/Alzette, Cliniq  00820  00820                % 07640 RGTR--
+220402066 Esch/Alzette, Op der  00821  00821                % 07640 RGTR--
+220402020 Esch/Alzette, Cinqua  00823  00823                % 07640 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00824  00824                % 07640 RGTR--
+220402053 Esch/Alzette, Lallen  00825  00825                % 07640 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00825  00825                % 07640 RGTR--
+221401001 Schifflange, Brill    00828  00828                % 07640 RGTR--
+221401011 Schifflange, Ecole N  00829  00829                % 07640 RGTR--
+220802004 Foetz, Am Butterbril  00833  00833                % 07640 RGTR--
+220802010 Foetz, Rond Point     00835  00835                % 07640 RGTR--
+220803013 Mondercange, Krombac  00836  00836                % 07640 RGTR--
+220803030 Mondercange, Dokter   00836  00836                % 07640 RGTR--
+220803031 Mondercange, A Bosse  00838  00838                % 07640 RGTR--
+220803001 Mondercange, A.Thinn  00838                       % 07640 RGTR--
+*Z 07641 RGTR--                                             % 07641 RGTR--
+*L 314      220402034 220803001  00837  00858               % 07641 RGTR--
+*A ag 220402034 220803001 000001  00837  00858              % 07641 RGTR--
+*R 1 220803001 220402034 220803001  00837  00858            % 07641 RGTR--
+*G RGB 220402034 220803001  00837  00858                    % 07641 RGTR--
+*A VE 220402034 220803001 000001  00837  00858              % 07641 RGTR--
+*I FD 220402034 220803001        0002602  00837  00858      % 07641 RGTR--
+220402034 Esch/Alzette, Gare           00837                % 07641 RGTR--
+220402097 Esch/Alzette, Bd. Be  00838  00838                % 07641 RGTR--
+220402049 Esch/Alzette, Cliniq  00840  00840                % 07641 RGTR--
+220402066 Esch/Alzette, Op der  00841  00841                % 07641 RGTR--
+220402020 Esch/Alzette, Cinqua  00843  00843                % 07641 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00844  00844                % 07641 RGTR--
+220402053 Esch/Alzette, Lallen  00845  00845                % 07641 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00845  00845                % 07641 RGTR--
+221401001 Schifflange, Brill    00848  00848                % 07641 RGTR--
+221401011 Schifflange, Ecole N  00849  00849                % 07641 RGTR--
+220802004 Foetz, Am Butterbril  00853  00853                % 07641 RGTR--
+220802010 Foetz, Rond Point     00855  00855                % 07641 RGTR--
+220803013 Mondercange, Krombac  00856  00856                % 07641 RGTR--
+220803030 Mondercange, Dokter   00856  00856                % 07641 RGTR--
+220803031 Mondercange, A Bosse  00858  00858                % 07641 RGTR--
+220803001 Mondercange, A.Thinn  00858                       % 07641 RGTR--
+*Z 07642 RGTR--                                             % 07642 RGTR--
+*L 314      220402034 220803001  00857  00918               % 07642 RGTR--
+*A ag 220402034 220803001 000001  00857  00918              % 07642 RGTR--
+*R 1 220803001 220402034 220803001  00857  00918            % 07642 RGTR--
+*G RGB 220402034 220803001  00857  00918                    % 07642 RGTR--
+*A VE 220402034 220803001 000001  00857  00918              % 07642 RGTR--
+*I FD 220402034 220803001        0003322  00857  00918      % 07642 RGTR--
+220402034 Esch/Alzette, Gare           00857                % 07642 RGTR--
+220402097 Esch/Alzette, Bd. Be  00858  00858                % 07642 RGTR--
+220402049 Esch/Alzette, Cliniq  00900  00900                % 07642 RGTR--
+220402066 Esch/Alzette, Op der  00901  00901                % 07642 RGTR--
+220402020 Esch/Alzette, Cinqua  00903  00903                % 07642 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00904  00904                % 07642 RGTR--
+220402053 Esch/Alzette, Lallen  00905  00905                % 07642 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00905  00905                % 07642 RGTR--
+221401001 Schifflange, Brill    00908  00908                % 07642 RGTR--
+221401011 Schifflange, Ecole N  00909  00909                % 07642 RGTR--
+220802004 Foetz, Am Butterbril  00913  00913                % 07642 RGTR--
+220802010 Foetz, Rond Point     00915  00915                % 07642 RGTR--
+220803013 Mondercange, Krombac  00916  00916                % 07642 RGTR--
+220803030 Mondercange, Dokter   00916  00916                % 07642 RGTR--
+220803031 Mondercange, A Bosse  00918  00918                % 07642 RGTR--
+220803001 Mondercange, A.Thinn  00918                       % 07642 RGTR--
+*Z 07643 RGTR--                                             % 07643 RGTR--
+*L 314      220402034 220803001  00917  00938               % 07643 RGTR--
+*A ag 220402034 220803001 000001  00917  00938              % 07643 RGTR--
+*R 1 220803001 220402034 220803001  00917  00938            % 07643 RGTR--
+*G RGB 220402034 220803001  00917  00938                    % 07643 RGTR--
+*A VE 220402034 220803001 000001  00917  00938              % 07643 RGTR--
+*I FD 220402034 220803001        0003571  00917  00938      % 07643 RGTR--
+220402034 Esch/Alzette, Gare           00917                % 07643 RGTR--
+220402097 Esch/Alzette, Bd. Be  00918  00918                % 07643 RGTR--
+220402049 Esch/Alzette, Cliniq  00920  00920                % 07643 RGTR--
+220402066 Esch/Alzette, Op der  00921  00921                % 07643 RGTR--
+220402020 Esch/Alzette, Cinqua  00923  00923                % 07643 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00924  00924                % 07643 RGTR--
+220402053 Esch/Alzette, Lallen  00925  00925                % 07643 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00925  00925                % 07643 RGTR--
+221401001 Schifflange, Brill    00928  00928                % 07643 RGTR--
+221401011 Schifflange, Ecole N  00929  00929                % 07643 RGTR--
+220802004 Foetz, Am Butterbril  00933  00933                % 07643 RGTR--
+220802010 Foetz, Rond Point     00935  00935                % 07643 RGTR--
+220803013 Mondercange, Krombac  00936  00936                % 07643 RGTR--
+220803030 Mondercange, Dokter   00936  00936                % 07643 RGTR--
+220803031 Mondercange, A Bosse  00938  00938                % 07643 RGTR--
+220803001 Mondercange, A.Thinn  00938                       % 07643 RGTR--
+*Z 07644 RGTR--                                             % 07644 RGTR--
+*L 314      220402034 220803001  01557  01618               % 07644 RGTR--
+*A ag 220402034 220803001 000001  01557  01618              % 07644 RGTR--
+*R 1 220803001 220402034 220803001  01557  01618            % 07644 RGTR--
+*G RGB 220402034 220803001  01557  01618                    % 07644 RGTR--
+*A VE 220402034 220803001 000001  01557  01618              % 07644 RGTR--
+*I FD 220402034 220803001        0002775  01557  01618      % 07644 RGTR--
+220402034 Esch/Alzette, Gare           01557                % 07644 RGTR--
+220402097 Esch/Alzette, Bd. Be  01558  01558                % 07644 RGTR--
+220402049 Esch/Alzette, Cliniq  01600  01600                % 07644 RGTR--
+220402066 Esch/Alzette, Op der  01601  01601                % 07644 RGTR--
+220402020 Esch/Alzette, Cinqua  01603  01603                % 07644 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01604  01604                % 07644 RGTR--
+220402053 Esch/Alzette, Lallen  01605  01605                % 07644 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01605  01605                % 07644 RGTR--
+221401001 Schifflange, Brill    01608  01608                % 07644 RGTR--
+221401011 Schifflange, Ecole N  01609  01609                % 07644 RGTR--
+220802004 Foetz, Am Butterbril  01613  01613                % 07644 RGTR--
+220802010 Foetz, Rond Point     01615  01615                % 07644 RGTR--
+220803013 Mondercange, Krombac  01616  01616                % 07644 RGTR--
+220803030 Mondercange, Dokter   01616  01616                % 07644 RGTR--
+220803031 Mondercange, A Bosse  01618  01618                % 07644 RGTR--
+220803001 Mondercange, A.Thinn  01618                       % 07644 RGTR--
+*Z 07645 RGTR--                                             % 07645 RGTR--
+*L 314      220402034 220803001  01617  01638               % 07645 RGTR--
+*A ag 220402034 220803001 000001  01617  01638              % 07645 RGTR--
+*R 1 220803001 220402034 220803001  01617  01638            % 07645 RGTR--
+*G RGB 220402034 220803001  01617  01638                    % 07645 RGTR--
+*A VE 220402034 220803001 000001  01617  01638              % 07645 RGTR--
+*I FD 220402034 220803001        0002603  01617  01638      % 07645 RGTR--
+220402034 Esch/Alzette, Gare           01617                % 07645 RGTR--
+220402097 Esch/Alzette, Bd. Be  01618  01618                % 07645 RGTR--
+220402049 Esch/Alzette, Cliniq  01620  01620                % 07645 RGTR--
+220402066 Esch/Alzette, Op der  01621  01621                % 07645 RGTR--
+220402020 Esch/Alzette, Cinqua  01623  01623                % 07645 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01624  01624                % 07645 RGTR--
+220402053 Esch/Alzette, Lallen  01625  01625                % 07645 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01625  01625                % 07645 RGTR--
+221401001 Schifflange, Brill    01628  01628                % 07645 RGTR--
+221401011 Schifflange, Ecole N  01629  01629                % 07645 RGTR--
+220802004 Foetz, Am Butterbril  01633  01633                % 07645 RGTR--
+220802010 Foetz, Rond Point     01635  01635                % 07645 RGTR--
+220803013 Mondercange, Krombac  01636  01636                % 07645 RGTR--
+220803030 Mondercange, Dokter   01636  01636                % 07645 RGTR--
+220803031 Mondercange, A Bosse  01638  01638                % 07645 RGTR--
+220803001 Mondercange, A.Thinn  01638                       % 07645 RGTR--
+*Z 07646 RGTR--                                             % 07646 RGTR--
+*L 314      220402034 220803001  01637  01658               % 07646 RGTR--
+*A ag 220402034 220803001 000001  01637  01658              % 07646 RGTR--
+*R 1 220803001 220402034 220803001  01637  01658            % 07646 RGTR--
+*G RGB 220402034 220803001  01637  01658                    % 07646 RGTR--
+*A VE 220402034 220803001 000001  01637  01658              % 07646 RGTR--
+*I FD 220402034 220803001        0003105  01637  01658      % 07646 RGTR--
+220402034 Esch/Alzette, Gare           01637                % 07646 RGTR--
+220402097 Esch/Alzette, Bd. Be  01638  01638                % 07646 RGTR--
+220402049 Esch/Alzette, Cliniq  01640  01640                % 07646 RGTR--
+220402066 Esch/Alzette, Op der  01641  01641                % 07646 RGTR--
+220402020 Esch/Alzette, Cinqua  01643  01643                % 07646 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01644  01644                % 07646 RGTR--
+220402053 Esch/Alzette, Lallen  01645  01645                % 07646 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01645  01645                % 07646 RGTR--
+221401001 Schifflange, Brill    01648  01648                % 07646 RGTR--
+221401011 Schifflange, Ecole N  01649  01649                % 07646 RGTR--
+220802004 Foetz, Am Butterbril  01653  01653                % 07646 RGTR--
+220802010 Foetz, Rond Point     01655  01655                % 07646 RGTR--
+220803013 Mondercange, Krombac  01656  01656                % 07646 RGTR--
+220803030 Mondercange, Dokter   01656  01656                % 07646 RGTR--
+220803031 Mondercange, A Bosse  01658  01658                % 07646 RGTR--
+220803001 Mondercange, A.Thinn  01658                       % 07646 RGTR--
+*Z 07647 RGTR--                                             % 07647 RGTR--
+*L 314      220402034 220803001  01657  01718               % 07647 RGTR--
+*A ag 220402034 220803001 000001  01657  01718              % 07647 RGTR--
+*R 1 220803001 220402034 220803001  01657  01718            % 07647 RGTR--
+*G RGB 220402034 220803001  01657  01718                    % 07647 RGTR--
+*A VE 220402034 220803001 000001  01657  01718              % 07647 RGTR--
+*I FD 220402034 220803001        0001730  01657  01718      % 07647 RGTR--
+220402034 Esch/Alzette, Gare           01657                % 07647 RGTR--
+220402097 Esch/Alzette, Bd. Be  01658  01658                % 07647 RGTR--
+220402049 Esch/Alzette, Cliniq  01700  01700                % 07647 RGTR--
+220402066 Esch/Alzette, Op der  01701  01701                % 07647 RGTR--
+220402020 Esch/Alzette, Cinqua  01703  01703                % 07647 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01704  01704                % 07647 RGTR--
+220402053 Esch/Alzette, Lallen  01705  01705                % 07647 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01705  01705                % 07647 RGTR--
+221401001 Schifflange, Brill    01708  01708                % 07647 RGTR--
+221401011 Schifflange, Ecole N  01709  01709                % 07647 RGTR--
+220802004 Foetz, Am Butterbril  01713  01713                % 07647 RGTR--
+220802010 Foetz, Rond Point     01715  01715                % 07647 RGTR--
+220803013 Mondercange, Krombac  01716  01716                % 07647 RGTR--
+220803030 Mondercange, Dokter   01716  01716                % 07647 RGTR--
+220803031 Mondercange, A Bosse  01718  01718                % 07647 RGTR--
+220803001 Mondercange, A.Thinn  01718                       % 07647 RGTR--
+*Z 07648 RGTR--                                             % 07648 RGTR--
+*L 314      220402034 220803001  01717  01738               % 07648 RGTR--
+*A ag 220402034 220803001 000001  01717  01738              % 07648 RGTR--
+*R 1 220803001 220402034 220803001  01717  01738            % 07648 RGTR--
+*G RGB 220402034 220803001  01717  01738                    % 07648 RGTR--
+*A VE 220402034 220803001 000001  01717  01738              % 07648 RGTR--
+*I FD 220402034 220803001        0003104  01717  01738      % 07648 RGTR--
+220402034 Esch/Alzette, Gare           01717                % 07648 RGTR--
+220402097 Esch/Alzette, Bd. Be  01718  01718                % 07648 RGTR--
+220402049 Esch/Alzette, Cliniq  01720  01720                % 07648 RGTR--
+220402066 Esch/Alzette, Op der  01721  01721                % 07648 RGTR--
+220402020 Esch/Alzette, Cinqua  01723  01723                % 07648 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01724  01724                % 07648 RGTR--
+220402053 Esch/Alzette, Lallen  01725  01725                % 07648 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01725  01725                % 07648 RGTR--
+221401001 Schifflange, Brill    01728  01728                % 07648 RGTR--
+221401011 Schifflange, Ecole N  01729  01729                % 07648 RGTR--
+220802004 Foetz, Am Butterbril  01733  01733                % 07648 RGTR--
+220802010 Foetz, Rond Point     01735  01735                % 07648 RGTR--
+220803013 Mondercange, Krombac  01736  01736                % 07648 RGTR--
+220803030 Mondercange, Dokter   01736  01736                % 07648 RGTR--
+220803031 Mondercange, A Bosse  01738  01738                % 07648 RGTR--
+220803001 Mondercange, A.Thinn  01738                       % 07648 RGTR--
+*Z 07649 RGTR--                                             % 07649 RGTR--
+*L 314      220402034 220803001  01737  01758               % 07649 RGTR--
+*A ag 220402034 220803001 000001  01737  01758              % 07649 RGTR--
+*R 1 220803001 220402034 220803001  01737  01758            % 07649 RGTR--
+*G RGB 220402034 220803001  01737  01758                    % 07649 RGTR--
+*A VE 220402034 220803001 000001  01737  01758              % 07649 RGTR--
+*I FD 220402034 220803001        0002544  01737  01758      % 07649 RGTR--
+220402034 Esch/Alzette, Gare           01737                % 07649 RGTR--
+220402097 Esch/Alzette, Bd. Be  01738  01738                % 07649 RGTR--
+220402049 Esch/Alzette, Cliniq  01740  01740                % 07649 RGTR--
+220402066 Esch/Alzette, Op der  01741  01741                % 07649 RGTR--
+220402020 Esch/Alzette, Cinqua  01743  01743                % 07649 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01744  01744                % 07649 RGTR--
+220402053 Esch/Alzette, Lallen  01745  01745                % 07649 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01745  01745                % 07649 RGTR--
+221401001 Schifflange, Brill    01748  01748                % 07649 RGTR--
+221401011 Schifflange, Ecole N  01749  01749                % 07649 RGTR--
+220802004 Foetz, Am Butterbril  01753  01753                % 07649 RGTR--
+220802010 Foetz, Rond Point     01755  01755                % 07649 RGTR--
+220803013 Mondercange, Krombac  01756  01756                % 07649 RGTR--
+220803030 Mondercange, Dokter   01756  01756                % 07649 RGTR--
+220803031 Mondercange, A Bosse  01758  01758                % 07649 RGTR--
+220803001 Mondercange, A.Thinn  01758                       % 07649 RGTR--
+*Z 07650 RGTR--                                             % 07650 RGTR--
+*L 314      220402034 220803001  01757  01818               % 07650 RGTR--
+*A ag 220402034 220803001 000001  01757  01818              % 07650 RGTR--
+*R 1 220803001 220402034 220803001  01757  01818            % 07650 RGTR--
+*G RGB 220402034 220803001  01757  01818                    % 07650 RGTR--
+*A VE 220402034 220803001 000001  01757  01818              % 07650 RGTR--
+*I FD 220402034 220803001        0003328  01757  01818      % 07650 RGTR--
+220402034 Esch/Alzette, Gare           01757                % 07650 RGTR--
+220402097 Esch/Alzette, Bd. Be  01758  01758                % 07650 RGTR--
+220402049 Esch/Alzette, Cliniq  01800  01800                % 07650 RGTR--
+220402066 Esch/Alzette, Op der  01801  01801                % 07650 RGTR--
+220402020 Esch/Alzette, Cinqua  01803  01803                % 07650 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01804  01804                % 07650 RGTR--
+220402053 Esch/Alzette, Lallen  01805  01805                % 07650 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01805  01805                % 07650 RGTR--
+221401001 Schifflange, Brill    01808  01808                % 07650 RGTR--
+221401011 Schifflange, Ecole N  01809  01809                % 07650 RGTR--
+220802004 Foetz, Am Butterbril  01813  01813                % 07650 RGTR--
+220802010 Foetz, Rond Point     01815  01815                % 07650 RGTR--
+220803013 Mondercange, Krombac  01816  01816                % 07650 RGTR--
+220803030 Mondercange, Dokter   01816  01816                % 07650 RGTR--
+220803031 Mondercange, A Bosse  01818  01818                % 07650 RGTR--
+220803001 Mondercange, A.Thinn  01818                       % 07650 RGTR--
+*Z 07651 RGTR--                                             % 07651 RGTR--
+*L 314      220402034 220803001  01817  01838               % 07651 RGTR--
+*A ag 220402034 220803001 000001  01817  01838              % 07651 RGTR--
+*R 1 220803001 220402034 220803001  01817  01838            % 07651 RGTR--
+*G RGB 220402034 220803001  01817  01838                    % 07651 RGTR--
+*A VE 220402034 220803001 000001  01817  01838              % 07651 RGTR--
+*I FD 220402034 220803001        0003329  01817  01838      % 07651 RGTR--
+220402034 Esch/Alzette, Gare           01817                % 07651 RGTR--
+220402097 Esch/Alzette, Bd. Be  01818  01818                % 07651 RGTR--
+220402049 Esch/Alzette, Cliniq  01820  01820                % 07651 RGTR--
+220402066 Esch/Alzette, Op der  01821  01821                % 07651 RGTR--
+220402020 Esch/Alzette, Cinqua  01823  01823                % 07651 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01824  01824                % 07651 RGTR--
+220402053 Esch/Alzette, Lallen  01825  01825                % 07651 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01825  01825                % 07651 RGTR--
+221401001 Schifflange, Brill    01828  01828                % 07651 RGTR--
+221401011 Schifflange, Ecole N  01829  01829                % 07651 RGTR--
+220802004 Foetz, Am Butterbril  01833  01833                % 07651 RGTR--
+220802010 Foetz, Rond Point     01835  01835                % 07651 RGTR--
+220803013 Mondercange, Krombac  01836  01836                % 07651 RGTR--
+220803030 Mondercange, Dokter   01836  01836                % 07651 RGTR--
+220803031 Mondercange, A Bosse  01838  01838                % 07651 RGTR--
+220803001 Mondercange, A.Thinn  01838                       % 07651 RGTR--
+*Z 07652 RGTR--                                             % 07652 RGTR--
+*L 314      220803001 220402034  00545  00606               % 07652 RGTR--
+*A ag 220803001 220402034 000001  00545  00606              % 07652 RGTR--
+*R 2 220402034 220803001 220402034  00545  00606            % 07652 RGTR--
+*G RGB 220803001 220402034  00545  00606                    % 07652 RGTR--
+*A VE 220803001 220402034 000001  00545  00606              % 07652 RGTR--
+*I FD 220803001 220402034        0002491  00545  00606      % 07652 RGTR--
+220803001 Mondercange, A.Thinn         00545                % 07652 RGTR--
+220803017 Mondercange, Musekss  00546  00546                % 07652 RGTR--
+220803005 Mondercange, Centre   00546  00546                % 07652 RGTR--
+220803031 Mondercange, A Bosse  00547  00547                % 07652 RGTR--
+220803030 Mondercange, Dokter   00548  00548                % 07652 RGTR--
+220803013 Mondercange, Krombac  00549  00549                % 07652 RGTR--
+220802010 Foetz, Rond Point     00550  00550                % 07652 RGTR--
+220802003 Foetz, Am Brill       00552  00552                % 07652 RGTR--
+221401011 Schifflange, Ecole N  00555  00555                % 07652 RGTR--
+221401001 Schifflange, Brill    00556  00556                % 07652 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00558  00558                % 07652 RGTR--
+220402053 Esch/Alzette, Lallen  00559  00559                % 07652 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00600  00600                % 07652 RGTR--
+220402020 Esch/Alzette, Cinqua  00601  00601                % 07652 RGTR--
+220402066 Esch/Alzette, Op der  00602  00602                % 07652 RGTR--
+220402049 Esch/Alzette, Cliniq  00603  00603                % 07652 RGTR--
+220402072 Esch/Alzette, Place   00605  00605                % 07652 RGTR--
+220402034 Esch/Alzette, Gare    00606                       % 07652 RGTR--
+*Z 07653 RGTR--                                             % 07653 RGTR--
+*L 314      220803001 220402034  00605  00626               % 07653 RGTR--
+*A ag 220803001 220402034 000001  00605  00626              % 07653 RGTR--
+*R 2 220402034 220803001 220402034  00605  00626            % 07653 RGTR--
+*G RGB 220803001 220402034  00605  00626                    % 07653 RGTR--
+*A VE 220803001 220402034 000001  00605  00626              % 07653 RGTR--
+*I FD 220803001 220402034        0001969  00605  00626      % 07653 RGTR--
+220803001 Mondercange, A.Thinn         00605                % 07653 RGTR--
+220803017 Mondercange, Musekss  00606  00606                % 07653 RGTR--
+220803005 Mondercange, Centre   00606  00606                % 07653 RGTR--
+220803031 Mondercange, A Bosse  00607  00607                % 07653 RGTR--
+220803030 Mondercange, Dokter   00608  00608                % 07653 RGTR--
+220803013 Mondercange, Krombac  00609  00609                % 07653 RGTR--
+220802010 Foetz, Rond Point     00610  00610                % 07653 RGTR--
+220802003 Foetz, Am Brill       00612  00612                % 07653 RGTR--
+221401011 Schifflange, Ecole N  00615  00615                % 07653 RGTR--
+221401001 Schifflange, Brill    00616  00616                % 07653 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00618  00618                % 07653 RGTR--
+220402053 Esch/Alzette, Lallen  00619  00619                % 07653 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00620  00620                % 07653 RGTR--
+220402020 Esch/Alzette, Cinqua  00621  00621                % 07653 RGTR--
+220402066 Esch/Alzette, Op der  00622  00622                % 07653 RGTR--
+220402049 Esch/Alzette, Cliniq  00623  00623                % 07653 RGTR--
+220402072 Esch/Alzette, Place   00625  00625                % 07653 RGTR--
+220402034 Esch/Alzette, Gare    00626                       % 07653 RGTR--
+*Z 07654 RGTR--                                             % 07654 RGTR--
+*L 314      220803001 220402034  00925  00946               % 07654 RGTR--
+*A ag 220803001 220402034 000001  00925  00946              % 07654 RGTR--
+*R 2 220402034 220803001 220402034  00925  00946            % 07654 RGTR--
+*G RGB 220803001 220402034  00925  00946                    % 07654 RGTR--
+*A VE 220803001 220402034 000001  00925  00946              % 07654 RGTR--
+*I FD 220803001 220402034        0002846  00925  00946      % 07654 RGTR--
+220803001 Mondercange, A.Thinn         00925                % 07654 RGTR--
+220803017 Mondercange, Musekss  00926  00926                % 07654 RGTR--
+220803005 Mondercange, Centre   00926  00926                % 07654 RGTR--
+220803031 Mondercange, A Bosse  00927  00927                % 07654 RGTR--
+220803030 Mondercange, Dokter   00928  00928                % 07654 RGTR--
+220803013 Mondercange, Krombac  00929  00929                % 07654 RGTR--
+220802010 Foetz, Rond Point     00930  00930                % 07654 RGTR--
+220802003 Foetz, Am Brill       00932  00932                % 07654 RGTR--
+221401011 Schifflange, Ecole N  00935  00935                % 07654 RGTR--
+221401001 Schifflange, Brill    00936  00936                % 07654 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00938  00938                % 07654 RGTR--
+220402053 Esch/Alzette, Lallen  00939  00939                % 07654 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00940  00940                % 07654 RGTR--
+220402020 Esch/Alzette, Cinqua  00941  00941                % 07654 RGTR--
+220402066 Esch/Alzette, Op der  00942  00942                % 07654 RGTR--
+220402049 Esch/Alzette, Cliniq  00943  00943                % 07654 RGTR--
+220402072 Esch/Alzette, Place   00945  00945                % 07654 RGTR--
+220402034 Esch/Alzette, Gare    00946                       % 07654 RGTR--
+*Z 07655 RGTR--                                             % 07655 RGTR--
+*L 314      220803001 220402034  00945  01006               % 07655 RGTR--
+*A ag 220803001 220402034 000001  00945  01006              % 07655 RGTR--
+*R 2 220402034 220803001 220402034  00945  01006            % 07655 RGTR--
+*G RGB 220803001 220402034  00945  01006                    % 07655 RGTR--
+*A VE 220803001 220402034 000001  00945  01006              % 07655 RGTR--
+*I FD 220803001 220402034        0002808  00945  01006      % 07655 RGTR--
+220803001 Mondercange, A.Thinn         00945                % 07655 RGTR--
+220803017 Mondercange, Musekss  00946  00946                % 07655 RGTR--
+220803005 Mondercange, Centre   00946  00946                % 07655 RGTR--
+220803031 Mondercange, A Bosse  00947  00947                % 07655 RGTR--
+220803030 Mondercange, Dokter   00948  00948                % 07655 RGTR--
+220803013 Mondercange, Krombac  00949  00949                % 07655 RGTR--
+220802010 Foetz, Rond Point     00950  00950                % 07655 RGTR--
+220802003 Foetz, Am Brill       00952  00952                % 07655 RGTR--
+221401011 Schifflange, Ecole N  00955  00955                % 07655 RGTR--
+221401001 Schifflange, Brill    00956  00956                % 07655 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00958  00958                % 07655 RGTR--
+220402053 Esch/Alzette, Lallen  00959  00959                % 07655 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01000  01000                % 07655 RGTR--
+220402020 Esch/Alzette, Cinqua  01001  01001                % 07655 RGTR--
+220402066 Esch/Alzette, Op der  01002  01002                % 07655 RGTR--
+220402049 Esch/Alzette, Cliniq  01003  01003                % 07655 RGTR--
+220402072 Esch/Alzette, Place   01005  01005                % 07655 RGTR--
+220402034 Esch/Alzette, Gare    01006                       % 07655 RGTR--
+*Z 07656 RGTR--                                             % 07656 RGTR--
+*L 314      220803001 220402034  01005  01026               % 07656 RGTR--
+*A ag 220803001 220402034 000001  01005  01026              % 07656 RGTR--
+*R 2 220402034 220803001 220402034  01005  01026            % 07656 RGTR--
+*G RGB 220803001 220402034  01005  01026                    % 07656 RGTR--
+*A VE 220803001 220402034 000001  01005  01026              % 07656 RGTR--
+*I FD 220803001 220402034        0002879  01005  01026      % 07656 RGTR--
+220803001 Mondercange, A.Thinn         01005                % 07656 RGTR--
+220803017 Mondercange, Musekss  01006  01006                % 07656 RGTR--
+220803005 Mondercange, Centre   01006  01006                % 07656 RGTR--
+220803031 Mondercange, A Bosse  01007  01007                % 07656 RGTR--
+220803030 Mondercange, Dokter   01008  01008                % 07656 RGTR--
+220803013 Mondercange, Krombac  01009  01009                % 07656 RGTR--
+220802010 Foetz, Rond Point     01010  01010                % 07656 RGTR--
+220802003 Foetz, Am Brill       01012  01012                % 07656 RGTR--
+221401011 Schifflange, Ecole N  01015  01015                % 07656 RGTR--
+221401001 Schifflange, Brill    01016  01016                % 07656 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01018  01018                % 07656 RGTR--
+220402053 Esch/Alzette, Lallen  01019  01019                % 07656 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01020  01020                % 07656 RGTR--
+220402020 Esch/Alzette, Cinqua  01021  01021                % 07656 RGTR--
+220402066 Esch/Alzette, Op der  01022  01022                % 07656 RGTR--
+220402049 Esch/Alzette, Cliniq  01023  01023                % 07656 RGTR--
+220402072 Esch/Alzette, Place   01025  01025                % 07656 RGTR--
+220402034 Esch/Alzette, Gare    01026                       % 07656 RGTR--
+*Z 07657 RGTR--                                             % 07657 RGTR--
+*L 314      220803001 220402034  01025  01046               % 07657 RGTR--
+*A ag 220803001 220402034 000001  01025  01046              % 07657 RGTR--
+*R 2 220402034 220803001 220402034  01025  01046            % 07657 RGTR--
+*G RGB 220803001 220402034  01025  01046                    % 07657 RGTR--
+*A VE 220803001 220402034 000001  01025  01046              % 07657 RGTR--
+*I FD 220803001 220402034        0003558  01025  01046      % 07657 RGTR--
+220803001 Mondercange, A.Thinn         01025                % 07657 RGTR--
+220803017 Mondercange, Musekss  01026  01026                % 07657 RGTR--
+220803005 Mondercange, Centre   01026  01026                % 07657 RGTR--
+220803031 Mondercange, A Bosse  01027  01027                % 07657 RGTR--
+220803030 Mondercange, Dokter   01028  01028                % 07657 RGTR--
+220803013 Mondercange, Krombac  01029  01029                % 07657 RGTR--
+220802010 Foetz, Rond Point     01030  01030                % 07657 RGTR--
+220802003 Foetz, Am Brill       01032  01032                % 07657 RGTR--
+221401011 Schifflange, Ecole N  01035  01035                % 07657 RGTR--
+221401001 Schifflange, Brill    01036  01036                % 07657 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01038  01038                % 07657 RGTR--
+220402053 Esch/Alzette, Lallen  01039  01039                % 07657 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01040  01040                % 07657 RGTR--
+220402020 Esch/Alzette, Cinqua  01041  01041                % 07657 RGTR--
+220402066 Esch/Alzette, Op der  01042  01042                % 07657 RGTR--
+220402049 Esch/Alzette, Cliniq  01043  01043                % 07657 RGTR--
+220402072 Esch/Alzette, Place   01045  01045                % 07657 RGTR--
+220402034 Esch/Alzette, Gare    01046                       % 07657 RGTR--
+*Z 07658 RGTR--                                             % 07658 RGTR--
+*L 314      220803001 220402034  01045  01106               % 07658 RGTR--
+*A ag 220803001 220402034 000001  01045  01106              % 07658 RGTR--
+*R 2 220402034 220803001 220402034  01045  01106            % 07658 RGTR--
+*G RGB 220803001 220402034  01045  01106                    % 07658 RGTR--
+*A VE 220803001 220402034 000001  01045  01106              % 07658 RGTR--
+*I FD 220803001 220402034        0002812  01045  01106      % 07658 RGTR--
+220803001 Mondercange, A.Thinn         01045                % 07658 RGTR--
+220803017 Mondercange, Musekss  01046  01046                % 07658 RGTR--
+220803005 Mondercange, Centre   01046  01046                % 07658 RGTR--
+220803031 Mondercange, A Bosse  01047  01047                % 07658 RGTR--
+220803030 Mondercange, Dokter   01048  01048                % 07658 RGTR--
+220803013 Mondercange, Krombac  01049  01049                % 07658 RGTR--
+220802010 Foetz, Rond Point     01050  01050                % 07658 RGTR--
+220802003 Foetz, Am Brill       01052  01052                % 07658 RGTR--
+221401011 Schifflange, Ecole N  01055  01055                % 07658 RGTR--
+221401001 Schifflange, Brill    01056  01056                % 07658 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01058  01058                % 07658 RGTR--
+220402053 Esch/Alzette, Lallen  01059  01059                % 07658 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01100  01100                % 07658 RGTR--
+220402020 Esch/Alzette, Cinqua  01101  01101                % 07658 RGTR--
+220402066 Esch/Alzette, Op der  01102  01102                % 07658 RGTR--
+220402049 Esch/Alzette, Cliniq  01103  01103                % 07658 RGTR--
+220402072 Esch/Alzette, Place   01105  01105                % 07658 RGTR--
+220402034 Esch/Alzette, Gare    01106                       % 07658 RGTR--
+*Z 07659 RGTR--                                             % 07659 RGTR--
+*L 314      220803001 220402034  01105  01126               % 07659 RGTR--
+*A ag 220803001 220402034 000001  01105  01126              % 07659 RGTR--
+*R 2 220402034 220803001 220402034  01105  01126            % 07659 RGTR--
+*G RGB 220803001 220402034  01105  01126                    % 07659 RGTR--
+*A VE 220803001 220402034 000001  01105  01126              % 07659 RGTR--
+*I FD 220803001 220402034        0002623  01105  01126      % 07659 RGTR--
+220803001 Mondercange, A.Thinn         01105                % 07659 RGTR--
+220803017 Mondercange, Musekss  01106  01106                % 07659 RGTR--
+220803005 Mondercange, Centre   01106  01106                % 07659 RGTR--
+220803031 Mondercange, A Bosse  01107  01107                % 07659 RGTR--
+220803030 Mondercange, Dokter   01108  01108                % 07659 RGTR--
+220803013 Mondercange, Krombac  01109  01109                % 07659 RGTR--
+220802010 Foetz, Rond Point     01110  01110                % 07659 RGTR--
+220802003 Foetz, Am Brill       01112  01112                % 07659 RGTR--
+221401011 Schifflange, Ecole N  01115  01115                % 07659 RGTR--
+221401001 Schifflange, Brill    01116  01116                % 07659 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01118  01118                % 07659 RGTR--
+220402053 Esch/Alzette, Lallen  01119  01119                % 07659 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01120  01120                % 07659 RGTR--
+220402020 Esch/Alzette, Cinqua  01121  01121                % 07659 RGTR--
+220402066 Esch/Alzette, Op der  01122  01122                % 07659 RGTR--
+220402049 Esch/Alzette, Cliniq  01123  01123                % 07659 RGTR--
+220402072 Esch/Alzette, Place   01125  01125                % 07659 RGTR--
+220402034 Esch/Alzette, Gare    01126                       % 07659 RGTR--
+*Z 07660 RGTR--                                             % 07660 RGTR--
+*L 314      220803001 220402034  01125  01146               % 07660 RGTR--
+*A ag 220803001 220402034 000001  01125  01146              % 07660 RGTR--
+*R 2 220402034 220803001 220402034  01125  01146            % 07660 RGTR--
+*G RGB 220803001 220402034  01125  01146                    % 07660 RGTR--
+*A VE 220803001 220402034 000001  01125  01146              % 07660 RGTR--
+*I FD 220803001 220402034        0003522  01125  01146      % 07660 RGTR--
+220803001 Mondercange, A.Thinn         01125                % 07660 RGTR--
+220803017 Mondercange, Musekss  01126  01126                % 07660 RGTR--
+220803005 Mondercange, Centre   01126  01126                % 07660 RGTR--
+220803031 Mondercange, A Bosse  01127  01127                % 07660 RGTR--
+220803030 Mondercange, Dokter   01128  01128                % 07660 RGTR--
+220803013 Mondercange, Krombac  01129  01129                % 07660 RGTR--
+220802010 Foetz, Rond Point     01130  01130                % 07660 RGTR--
+220802003 Foetz, Am Brill       01132  01132                % 07660 RGTR--
+221401011 Schifflange, Ecole N  01135  01135                % 07660 RGTR--
+221401001 Schifflange, Brill    01136  01136                % 07660 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01138  01138                % 07660 RGTR--
+220402053 Esch/Alzette, Lallen  01139  01139                % 07660 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01140  01140                % 07660 RGTR--
+220402020 Esch/Alzette, Cinqua  01141  01141                % 07660 RGTR--
+220402066 Esch/Alzette, Op der  01142  01142                % 07660 RGTR--
+220402049 Esch/Alzette, Cliniq  01143  01143                % 07660 RGTR--
+220402072 Esch/Alzette, Place   01145  01145                % 07660 RGTR--
+220402034 Esch/Alzette, Gare    01146                       % 07660 RGTR--
+*Z 07661 RGTR--                                             % 07661 RGTR--
+*L 314      220803001 220402034  01145  01206               % 07661 RGTR--
+*A ag 220803001 220402034 000001  01145  01206              % 07661 RGTR--
+*R 2 220402034 220803001 220402034  01145  01206            % 07661 RGTR--
+*G RGB 220803001 220402034  01145  01206                    % 07661 RGTR--
+*A VE 220803001 220402034 000001  01145  01206              % 07661 RGTR--
+*I FD 220803001 220402034        0002785  01145  01206      % 07661 RGTR--
+220803001 Mondercange, A.Thinn         01145                % 07661 RGTR--
+220803017 Mondercange, Musekss  01146  01146                % 07661 RGTR--
+220803005 Mondercange, Centre   01146  01146                % 07661 RGTR--
+220803031 Mondercange, A Bosse  01147  01147                % 07661 RGTR--
+220803030 Mondercange, Dokter   01148  01148                % 07661 RGTR--
+220803013 Mondercange, Krombac  01149  01149                % 07661 RGTR--
+220802010 Foetz, Rond Point     01150  01150                % 07661 RGTR--
+220802003 Foetz, Am Brill       01152  01152                % 07661 RGTR--
+221401011 Schifflange, Ecole N  01155  01155                % 07661 RGTR--
+221401001 Schifflange, Brill    01156  01156                % 07661 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01158  01158                % 07661 RGTR--
+220402053 Esch/Alzette, Lallen  01159  01159                % 07661 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01200  01200                % 07661 RGTR--
+220402020 Esch/Alzette, Cinqua  01201  01201                % 07661 RGTR--
+220402066 Esch/Alzette, Op der  01202  01202                % 07661 RGTR--
+220402049 Esch/Alzette, Cliniq  01203  01203                % 07661 RGTR--
+220402072 Esch/Alzette, Place   01205  01205                % 07661 RGTR--
+220402034 Esch/Alzette, Gare    01206                       % 07661 RGTR--
+*Z 07662 RGTR--                                             % 07662 RGTR--
+*L 314      220803001 220402034  01205  01226               % 07662 RGTR--
+*A ag 220803001 220402034 000001  01205  01226              % 07662 RGTR--
+*R 2 220402034 220803001 220402034  01205  01226            % 07662 RGTR--
+*G RGB 220803001 220402034  01205  01226                    % 07662 RGTR--
+*A VE 220803001 220402034 000001  01205  01226              % 07662 RGTR--
+*I FD 220803001 220402034        0002624  01205  01226      % 07662 RGTR--
+220803001 Mondercange, A.Thinn         01205                % 07662 RGTR--
+220803017 Mondercange, Musekss  01206  01206                % 07662 RGTR--
+220803005 Mondercange, Centre   01206  01206                % 07662 RGTR--
+220803031 Mondercange, A Bosse  01207  01207                % 07662 RGTR--
+220803030 Mondercange, Dokter   01208  01208                % 07662 RGTR--
+220803013 Mondercange, Krombac  01209  01209                % 07662 RGTR--
+220802010 Foetz, Rond Point     01210  01210                % 07662 RGTR--
+220802003 Foetz, Am Brill       01212  01212                % 07662 RGTR--
+221401011 Schifflange, Ecole N  01215  01215                % 07662 RGTR--
+221401001 Schifflange, Brill    01216  01216                % 07662 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01218  01218                % 07662 RGTR--
+220402053 Esch/Alzette, Lallen  01219  01219                % 07662 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01220  01220                % 07662 RGTR--
+220402020 Esch/Alzette, Cinqua  01221  01221                % 07662 RGTR--
+220402066 Esch/Alzette, Op der  01222  01222                % 07662 RGTR--
+220402049 Esch/Alzette, Cliniq  01223  01223                % 07662 RGTR--
+220402072 Esch/Alzette, Place   01225  01225                % 07662 RGTR--
+220402034 Esch/Alzette, Gare    01226                       % 07662 RGTR--
+*Z 07663 RGTR--                                             % 07663 RGTR--
+*L 314      220803001 220402034  01225  01246               % 07663 RGTR--
+*A ag 220803001 220402034 000001  01225  01246              % 07663 RGTR--
+*R 2 220402034 220803001 220402034  01225  01246            % 07663 RGTR--
+*G RGB 220803001 220402034  01225  01246                    % 07663 RGTR--
+*A VE 220803001 220402034 000001  01225  01246              % 07663 RGTR--
+*I FD 220803001 220402034        0002849  01225  01246      % 07663 RGTR--
+220803001 Mondercange, A.Thinn         01225                % 07663 RGTR--
+220803017 Mondercange, Musekss  01226  01226                % 07663 RGTR--
+220803005 Mondercange, Centre   01226  01226                % 07663 RGTR--
+220803031 Mondercange, A Bosse  01227  01227                % 07663 RGTR--
+220803030 Mondercange, Dokter   01228  01228                % 07663 RGTR--
+220803013 Mondercange, Krombac  01229  01229                % 07663 RGTR--
+220802010 Foetz, Rond Point     01230  01230                % 07663 RGTR--
+220802003 Foetz, Am Brill       01232  01232                % 07663 RGTR--
+221401011 Schifflange, Ecole N  01235  01235                % 07663 RGTR--
+221401001 Schifflange, Brill    01236  01236                % 07663 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01238  01238                % 07663 RGTR--
+220402053 Esch/Alzette, Lallen  01239  01239                % 07663 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01240  01240                % 07663 RGTR--
+220402020 Esch/Alzette, Cinqua  01241  01241                % 07663 RGTR--
+220402066 Esch/Alzette, Op der  01242  01242                % 07663 RGTR--
+220402049 Esch/Alzette, Cliniq  01243  01243                % 07663 RGTR--
+220402072 Esch/Alzette, Place   01245  01245                % 07663 RGTR--
+220402034 Esch/Alzette, Gare    01246                       % 07663 RGTR--
+*Z 07664 RGTR--                                             % 07664 RGTR--
+*L 314      220803001 220402034  01245  01306               % 07664 RGTR--
+*A ag 220803001 220402034 000001  01245  01306              % 07664 RGTR--
+*R 2 220402034 220803001 220402034  01245  01306            % 07664 RGTR--
+*G RGB 220803001 220402034  01245  01306                    % 07664 RGTR--
+*A VE 220803001 220402034 000001  01245  01306              % 07664 RGTR--
+*I FD 220803001 220402034        0002714  01245  01306      % 07664 RGTR--
+220803001 Mondercange, A.Thinn         01245                % 07664 RGTR--
+220803017 Mondercange, Musekss  01246  01246                % 07664 RGTR--
+220803005 Mondercange, Centre   01246  01246                % 07664 RGTR--
+220803031 Mondercange, A Bosse  01247  01247                % 07664 RGTR--
+220803030 Mondercange, Dokter   01248  01248                % 07664 RGTR--
+220803013 Mondercange, Krombac  01249  01249                % 07664 RGTR--
+220802010 Foetz, Rond Point     01250  01250                % 07664 RGTR--
+220802003 Foetz, Am Brill       01252  01252                % 07664 RGTR--
+221401011 Schifflange, Ecole N  01255  01255                % 07664 RGTR--
+221401001 Schifflange, Brill    01256  01256                % 07664 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01258  01258                % 07664 RGTR--
+220402053 Esch/Alzette, Lallen  01259  01259                % 07664 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01300  01300                % 07664 RGTR--
+220402020 Esch/Alzette, Cinqua  01301  01301                % 07664 RGTR--
+220402066 Esch/Alzette, Op der  01302  01302                % 07664 RGTR--
+220402049 Esch/Alzette, Cliniq  01303  01303                % 07664 RGTR--
+220402072 Esch/Alzette, Place   01305  01305                % 07664 RGTR--
+220402034 Esch/Alzette, Gare    01306                       % 07664 RGTR--
+*Z 07665 RGTR--                                             % 07665 RGTR--
+*L 314      220803001 220402034  01305  01326               % 07665 RGTR--
+*A ag 220803001 220402034 000001  01305  01326              % 07665 RGTR--
+*R 2 220402034 220803001 220402034  01305  01326            % 07665 RGTR--
+*G RGB 220803001 220402034  01305  01326                    % 07665 RGTR--
+*A VE 220803001 220402034 000001  01305  01326              % 07665 RGTR--
+*I FD 220803001 220402034        0002625  01305  01326      % 07665 RGTR--
+220803001 Mondercange, A.Thinn         01305                % 07665 RGTR--
+220803017 Mondercange, Musekss  01306  01306                % 07665 RGTR--
+220803005 Mondercange, Centre   01306  01306                % 07665 RGTR--
+220803031 Mondercange, A Bosse  01307  01307                % 07665 RGTR--
+220803030 Mondercange, Dokter   01308  01308                % 07665 RGTR--
+220803013 Mondercange, Krombac  01309  01309                % 07665 RGTR--
+220802010 Foetz, Rond Point     01310  01310                % 07665 RGTR--
+220802003 Foetz, Am Brill       01312  01312                % 07665 RGTR--
+221401011 Schifflange, Ecole N  01315  01315                % 07665 RGTR--
+221401001 Schifflange, Brill    01316  01316                % 07665 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01318  01318                % 07665 RGTR--
+220402053 Esch/Alzette, Lallen  01319  01319                % 07665 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01320  01320                % 07665 RGTR--
+220402020 Esch/Alzette, Cinqua  01321  01321                % 07665 RGTR--
+220402066 Esch/Alzette, Op der  01322  01322                % 07665 RGTR--
+220402049 Esch/Alzette, Cliniq  01323  01323                % 07665 RGTR--
+220402072 Esch/Alzette, Place   01325  01325                % 07665 RGTR--
+220402034 Esch/Alzette, Gare    01326                       % 07665 RGTR--
+*Z 07666 RGTR--                                             % 07666 RGTR--
+*L 314      220803001 220402034  01325  01346               % 07666 RGTR--
+*A ag 220803001 220402034 000001  01325  01346              % 07666 RGTR--
+*R 2 220402034 220803001 220402034  01325  01346            % 07666 RGTR--
+*G RGB 220803001 220402034  01325  01346                    % 07666 RGTR--
+*A VE 220803001 220402034 000001  01325  01346              % 07666 RGTR--
+*I FD 220803001 220402034        0002771  01325  01346      % 07666 RGTR--
+220803001 Mondercange, A.Thinn         01325                % 07666 RGTR--
+220803017 Mondercange, Musekss  01326  01326                % 07666 RGTR--
+220803005 Mondercange, Centre   01326  01326                % 07666 RGTR--
+220803031 Mondercange, A Bosse  01327  01327                % 07666 RGTR--
+220803030 Mondercange, Dokter   01328  01328                % 07666 RGTR--
+220803013 Mondercange, Krombac  01329  01329                % 07666 RGTR--
+220802010 Foetz, Rond Point     01330  01330                % 07666 RGTR--
+220802003 Foetz, Am Brill       01332  01332                % 07666 RGTR--
+221401011 Schifflange, Ecole N  01335  01335                % 07666 RGTR--
+221401001 Schifflange, Brill    01336  01336                % 07666 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01338  01338                % 07666 RGTR--
+220402053 Esch/Alzette, Lallen  01339  01339                % 07666 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01340  01340                % 07666 RGTR--
+220402020 Esch/Alzette, Cinqua  01341  01341                % 07666 RGTR--
+220402066 Esch/Alzette, Op der  01342  01342                % 07666 RGTR--
+220402049 Esch/Alzette, Cliniq  01343  01343                % 07666 RGTR--
+220402072 Esch/Alzette, Place   01345  01345                % 07666 RGTR--
+220402034 Esch/Alzette, Gare    01346                       % 07666 RGTR--
+*Z 07667 RGTR--                                             % 07667 RGTR--
+*L 314      220803001 220402034  01345  01406               % 07667 RGTR--
+*A ag 220803001 220402034 000001  01345  01406              % 07667 RGTR--
+*R 2 220402034 220803001 220402034  01345  01406            % 07667 RGTR--
+*G RGB 220803001 220402034  01345  01406                    % 07667 RGTR--
+*A VE 220803001 220402034 000001  01345  01406              % 07667 RGTR--
+*I FD 220803001 220402034        0002809  01345  01406      % 07667 RGTR--
+220803001 Mondercange, A.Thinn         01345                % 07667 RGTR--
+220803017 Mondercange, Musekss  01346  01346                % 07667 RGTR--
+220803005 Mondercange, Centre   01346  01346                % 07667 RGTR--
+220803031 Mondercange, A Bosse  01347  01347                % 07667 RGTR--
+220803030 Mondercange, Dokter   01348  01348                % 07667 RGTR--
+220803013 Mondercange, Krombac  01349  01349                % 07667 RGTR--
+220802010 Foetz, Rond Point     01350  01350                % 07667 RGTR--
+220802003 Foetz, Am Brill       01352  01352                % 07667 RGTR--
+221401011 Schifflange, Ecole N  01355  01355                % 07667 RGTR--
+221401001 Schifflange, Brill    01356  01356                % 07667 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01358  01358                % 07667 RGTR--
+220402053 Esch/Alzette, Lallen  01359  01359                % 07667 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01400  01400                % 07667 RGTR--
+220402020 Esch/Alzette, Cinqua  01401  01401                % 07667 RGTR--
+220402066 Esch/Alzette, Op der  01402  01402                % 07667 RGTR--
+220402049 Esch/Alzette, Cliniq  01403  01403                % 07667 RGTR--
+220402072 Esch/Alzette, Place   01405  01405                % 07667 RGTR--
+220402034 Esch/Alzette, Gare    01406                       % 07667 RGTR--
+*Z 07668 RGTR--                                             % 07668 RGTR--
+*L 314      220803001 220402034  01405  01426               % 07668 RGTR--
+*A ag 220803001 220402034 000001  01405  01426              % 07668 RGTR--
+*R 2 220402034 220803001 220402034  01405  01426            % 07668 RGTR--
+*G RGB 220803001 220402034  01405  01426                    % 07668 RGTR--
+*A VE 220803001 220402034 000001  01405  01426              % 07668 RGTR--
+*I FD 220803001 220402034        0002538  01405  01426      % 07668 RGTR--
+220803001 Mondercange, A.Thinn         01405                % 07668 RGTR--
+220803017 Mondercange, Musekss  01406  01406                % 07668 RGTR--
+220803005 Mondercange, Centre   01406  01406                % 07668 RGTR--
+220803031 Mondercange, A Bosse  01407  01407                % 07668 RGTR--
+220803030 Mondercange, Dokter   01408  01408                % 07668 RGTR--
+220803013 Mondercange, Krombac  01409  01409                % 07668 RGTR--
+220802010 Foetz, Rond Point     01410  01410                % 07668 RGTR--
+220802003 Foetz, Am Brill       01412  01412                % 07668 RGTR--
+221401011 Schifflange, Ecole N  01415  01415                % 07668 RGTR--
+221401001 Schifflange, Brill    01416  01416                % 07668 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01418  01418                % 07668 RGTR--
+220402053 Esch/Alzette, Lallen  01419  01419                % 07668 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01420  01420                % 07668 RGTR--
+220402020 Esch/Alzette, Cinqua  01421  01421                % 07668 RGTR--
+220402066 Esch/Alzette, Op der  01422  01422                % 07668 RGTR--
+220402049 Esch/Alzette, Cliniq  01423  01423                % 07668 RGTR--
+220402072 Esch/Alzette, Place   01425  01425                % 07668 RGTR--
+220402034 Esch/Alzette, Gare    01426                       % 07668 RGTR--
+*Z 07669 RGTR--                                             % 07669 RGTR--
+*L 314      220803001 220402034  01425  01446               % 07669 RGTR--
+*A ag 220803001 220402034 000001  01425  01446              % 07669 RGTR--
+*R 2 220402034 220803001 220402034  01425  01446            % 07669 RGTR--
+*G RGB 220803001 220402034  01425  01446                    % 07669 RGTR--
+*A VE 220803001 220402034 000001  01425  01446              % 07669 RGTR--
+*I FD 220803001 220402034        0002802  01425  01446      % 07669 RGTR--
+220803001 Mondercange, A.Thinn         01425                % 07669 RGTR--
+220803017 Mondercange, Musekss  01426  01426                % 07669 RGTR--
+220803005 Mondercange, Centre   01426  01426                % 07669 RGTR--
+220803031 Mondercange, A Bosse  01427  01427                % 07669 RGTR--
+220803030 Mondercange, Dokter   01428  01428                % 07669 RGTR--
+220803013 Mondercange, Krombac  01429  01429                % 07669 RGTR--
+220802010 Foetz, Rond Point     01430  01430                % 07669 RGTR--
+220802003 Foetz, Am Brill       01432  01432                % 07669 RGTR--
+221401011 Schifflange, Ecole N  01435  01435                % 07669 RGTR--
+221401001 Schifflange, Brill    01436  01436                % 07669 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01438  01438                % 07669 RGTR--
+220402053 Esch/Alzette, Lallen  01439  01439                % 07669 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01440  01440                % 07669 RGTR--
+220402020 Esch/Alzette, Cinqua  01441  01441                % 07669 RGTR--
+220402066 Esch/Alzette, Op der  01442  01442                % 07669 RGTR--
+220402049 Esch/Alzette, Cliniq  01443  01443                % 07669 RGTR--
+220402072 Esch/Alzette, Place   01445  01445                % 07669 RGTR--
+220402034 Esch/Alzette, Gare    01446                       % 07669 RGTR--
+*Z 07670 RGTR--                                             % 07670 RGTR--
+*L 314      220803001 220402034  01445  01506               % 07670 RGTR--
+*A ag 220803001 220402034 000001  01445  01506              % 07670 RGTR--
+*R 2 220402034 220803001 220402034  01445  01506            % 07670 RGTR--
+*G RGB 220803001 220402034  01445  01506                    % 07670 RGTR--
+*A VE 220803001 220402034 000001  01445  01506              % 07670 RGTR--
+*I FD 220803001 220402034        0002375  01445  01506      % 07670 RGTR--
+220803001 Mondercange, A.Thinn         01445                % 07670 RGTR--
+220803017 Mondercange, Musekss  01446  01446                % 07670 RGTR--
+220803005 Mondercange, Centre   01446  01446                % 07670 RGTR--
+220803031 Mondercange, A Bosse  01447  01447                % 07670 RGTR--
+220803030 Mondercange, Dokter   01448  01448                % 07670 RGTR--
+220803013 Mondercange, Krombac  01449  01449                % 07670 RGTR--
+220802010 Foetz, Rond Point     01450  01450                % 07670 RGTR--
+220802003 Foetz, Am Brill       01452  01452                % 07670 RGTR--
+221401011 Schifflange, Ecole N  01455  01455                % 07670 RGTR--
+221401001 Schifflange, Brill    01456  01456                % 07670 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01458  01458                % 07670 RGTR--
+220402053 Esch/Alzette, Lallen  01459  01459                % 07670 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01500  01500                % 07670 RGTR--
+220402020 Esch/Alzette, Cinqua  01501  01501                % 07670 RGTR--
+220402066 Esch/Alzette, Op der  01502  01502                % 07670 RGTR--
+220402049 Esch/Alzette, Cliniq  01503  01503                % 07670 RGTR--
+220402072 Esch/Alzette, Place   01505  01505                % 07670 RGTR--
+220402034 Esch/Alzette, Gare    01506                       % 07670 RGTR--
+*Z 07671 RGTR--                                             % 07671 RGTR--
+*L 314      220803001 220402034  01505  01526               % 07671 RGTR--
+*A ag 220803001 220402034 000001  01505  01526              % 07671 RGTR--
+*R 2 220402034 220803001 220402034  01505  01526            % 07671 RGTR--
+*G RGB 220803001 220402034  01505  01526                    % 07671 RGTR--
+*A VE 220803001 220402034 000001  01505  01526              % 07671 RGTR--
+*I FD 220803001 220402034        0002880  01505  01526      % 07671 RGTR--
+220803001 Mondercange, A.Thinn         01505                % 07671 RGTR--
+220803017 Mondercange, Musekss  01506  01506                % 07671 RGTR--
+220803005 Mondercange, Centre   01506  01506                % 07671 RGTR--
+220803031 Mondercange, A Bosse  01507  01507                % 07671 RGTR--
+220803030 Mondercange, Dokter   01508  01508                % 07671 RGTR--
+220803013 Mondercange, Krombac  01509  01509                % 07671 RGTR--
+220802010 Foetz, Rond Point     01510  01510                % 07671 RGTR--
+220802003 Foetz, Am Brill       01512  01512                % 07671 RGTR--
+221401011 Schifflange, Ecole N  01515  01515                % 07671 RGTR--
+221401001 Schifflange, Brill    01516  01516                % 07671 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01518  01518                % 07671 RGTR--
+220402053 Esch/Alzette, Lallen  01519  01519                % 07671 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01520  01520                % 07671 RGTR--
+220402020 Esch/Alzette, Cinqua  01521  01521                % 07671 RGTR--
+220402066 Esch/Alzette, Op der  01522  01522                % 07671 RGTR--
+220402049 Esch/Alzette, Cliniq  01523  01523                % 07671 RGTR--
+220402072 Esch/Alzette, Place   01525  01525                % 07671 RGTR--
+220402034 Esch/Alzette, Gare    01526                       % 07671 RGTR--
+*Z 07672 RGTR--                                             % 07672 RGTR--
+*L 314      220803001 220402034  01525  01546               % 07672 RGTR--
+*A ag 220803001 220402034 000001  01525  01546              % 07672 RGTR--
+*R 2 220402034 220803001 220402034  01525  01546            % 07672 RGTR--
+*G RGB 220803001 220402034  01525  01546                    % 07672 RGTR--
+*A VE 220803001 220402034 000001  01525  01546              % 07672 RGTR--
+*I FD 220803001 220402034        0003072  01525  01546      % 07672 RGTR--
+220803001 Mondercange, A.Thinn         01525                % 07672 RGTR--
+220803017 Mondercange, Musekss  01526  01526                % 07672 RGTR--
+220803005 Mondercange, Centre   01526  01526                % 07672 RGTR--
+220803031 Mondercange, A Bosse  01527  01527                % 07672 RGTR--
+220803030 Mondercange, Dokter   01528  01528                % 07672 RGTR--
+220803013 Mondercange, Krombac  01529  01529                % 07672 RGTR--
+220802010 Foetz, Rond Point     01530  01530                % 07672 RGTR--
+220802003 Foetz, Am Brill       01532  01532                % 07672 RGTR--
+221401011 Schifflange, Ecole N  01535  01535                % 07672 RGTR--
+221401001 Schifflange, Brill    01536  01536                % 07672 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01538  01538                % 07672 RGTR--
+220402053 Esch/Alzette, Lallen  01539  01539                % 07672 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01540  01540                % 07672 RGTR--
+220402020 Esch/Alzette, Cinqua  01541  01541                % 07672 RGTR--
+220402066 Esch/Alzette, Op der  01542  01542                % 07672 RGTR--
+220402049 Esch/Alzette, Cliniq  01543  01543                % 07672 RGTR--
+220402072 Esch/Alzette, Place   01545  01545                % 07672 RGTR--
+220402034 Esch/Alzette, Gare    01546                       % 07672 RGTR--
+*Z 07673 RGTR--                                             % 07673 RGTR--
+*L 314      220803001 220402034  01545  01606               % 07673 RGTR--
+*A ag 220803001 220402034 000001  01545  01606              % 07673 RGTR--
+*R 2 220402034 220803001 220402034  01545  01606            % 07673 RGTR--
+*G RGB 220803001 220402034  01545  01606                    % 07673 RGTR--
+*A VE 220803001 220402034 000001  01545  01606              % 07673 RGTR--
+*I FD 220803001 220402034        0002786  01545  01606      % 07673 RGTR--
+220803001 Mondercange, A.Thinn         01545                % 07673 RGTR--
+220803017 Mondercange, Musekss  01546  01546                % 07673 RGTR--
+220803005 Mondercange, Centre   01546  01546                % 07673 RGTR--
+220803031 Mondercange, A Bosse  01547  01547                % 07673 RGTR--
+220803030 Mondercange, Dokter   01548  01548                % 07673 RGTR--
+220803013 Mondercange, Krombac  01549  01549                % 07673 RGTR--
+220802010 Foetz, Rond Point     01550  01550                % 07673 RGTR--
+220802003 Foetz, Am Brill       01552  01552                % 07673 RGTR--
+221401011 Schifflange, Ecole N  01555  01555                % 07673 RGTR--
+221401001 Schifflange, Brill    01556  01556                % 07673 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01558  01558                % 07673 RGTR--
+220402053 Esch/Alzette, Lallen  01559  01559                % 07673 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01600  01600                % 07673 RGTR--
+220402020 Esch/Alzette, Cinqua  01601  01601                % 07673 RGTR--
+220402066 Esch/Alzette, Op der  01602  01602                % 07673 RGTR--
+220402049 Esch/Alzette, Cliniq  01603  01603                % 07673 RGTR--
+220402072 Esch/Alzette, Place   01605  01605                % 07673 RGTR--
+220402034 Esch/Alzette, Gare    01606                       % 07673 RGTR--
+*Z 07674 RGTR--                                             % 07674 RGTR--
+*L 314      220803001 220402034  01825  01846               % 07674 RGTR--
+*A ag 220803001 220402034 000001  01825  01846              % 07674 RGTR--
+*R 2 220402034 220803001 220402034  01825  01846            % 07674 RGTR--
+*G RGB 220803001 220402034  01825  01846                    % 07674 RGTR--
+*A VE 220803001 220402034 000001  01825  01846              % 07674 RGTR--
+*I FD 220803001 220402034        0003273  01825  01846      % 07674 RGTR--
+220803001 Mondercange, A.Thinn         01825                % 07674 RGTR--
+220803017 Mondercange, Musekss  01826  01826                % 07674 RGTR--
+220803005 Mondercange, Centre   01826  01826                % 07674 RGTR--
+220803031 Mondercange, A Bosse  01827  01827                % 07674 RGTR--
+220803030 Mondercange, Dokter   01828  01828                % 07674 RGTR--
+220803013 Mondercange, Krombac  01829  01829                % 07674 RGTR--
+220802010 Foetz, Rond Point     01830  01830                % 07674 RGTR--
+220802003 Foetz, Am Brill       01832  01832                % 07674 RGTR--
+221401011 Schifflange, Ecole N  01835  01835                % 07674 RGTR--
+221401001 Schifflange, Brill    01836  01836                % 07674 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01838  01838                % 07674 RGTR--
+220402053 Esch/Alzette, Lallen  01839  01839                % 07674 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01840  01840                % 07674 RGTR--
+220402020 Esch/Alzette, Cinqua  01841  01841                % 07674 RGTR--
+220402066 Esch/Alzette, Op der  01842  01842                % 07674 RGTR--
+220402049 Esch/Alzette, Cliniq  01843  01843                % 07674 RGTR--
+220402072 Esch/Alzette, Place   01845  01845                % 07674 RGTR--
+220402034 Esch/Alzette, Gare    01846                       % 07674 RGTR--
+*Z 07675 RGTR--                                             % 07675 RGTR--
+*L 314      220803001 220402034  01845  01906               % 07675 RGTR--
+*A ag 220803001 220402034 000001  01845  01906              % 07675 RGTR--
+*R 2 220402034 220803001 220402034  01845  01906            % 07675 RGTR--
+*G RGB 220803001 220402034  01845  01906                    % 07675 RGTR--
+*A VE 220803001 220402034 000001  01845  01906              % 07675 RGTR--
+*I FD 220803001 220402034        0001337  01845  01906      % 07675 RGTR--
+220803001 Mondercange, A.Thinn         01845                % 07675 RGTR--
+220803017 Mondercange, Musekss  01846  01846                % 07675 RGTR--
+220803005 Mondercange, Centre   01846  01846                % 07675 RGTR--
+220803031 Mondercange, A Bosse  01847  01847                % 07675 RGTR--
+220803030 Mondercange, Dokter   01848  01848                % 07675 RGTR--
+220803013 Mondercange, Krombac  01849  01849                % 07675 RGTR--
+220802010 Foetz, Rond Point     01850  01850                % 07675 RGTR--
+220802003 Foetz, Am Brill       01852  01852                % 07675 RGTR--
+221401011 Schifflange, Ecole N  01855  01855                % 07675 RGTR--
+221401001 Schifflange, Brill    01856  01856                % 07675 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01858  01858                % 07675 RGTR--
+220402053 Esch/Alzette, Lallen  01859  01859                % 07675 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01900  01900                % 07675 RGTR--
+220402020 Esch/Alzette, Cinqua  01901  01901                % 07675 RGTR--
+220402066 Esch/Alzette, Op der  01902  01902                % 07675 RGTR--
+220402049 Esch/Alzette, Cliniq  01903  01903                % 07675 RGTR--
+220402072 Esch/Alzette, Place   01905  01905                % 07675 RGTR--
+220402034 Esch/Alzette, Gare    01906                       % 07675 RGTR--
+*Z 07676 RGTR--                                             % 07676 RGTR--
+*L 314      220803001 220402034  01905  01926               % 07676 RGTR--
+*A ag 220803001 220402034 000001  01905  01926              % 07676 RGTR--
+*R 2 220402034 220803001 220402034  01905  01926            % 07676 RGTR--
+*G RGB 220803001 220402034  01905  01926                    % 07676 RGTR--
+*A VE 220803001 220402034 000001  01905  01926              % 07676 RGTR--
+*I FD 220803001 220402034        0002626  01905  01926      % 07676 RGTR--
+220803001 Mondercange, A.Thinn         01905                % 07676 RGTR--
+220803017 Mondercange, Musekss  01906  01906                % 07676 RGTR--
+220803005 Mondercange, Centre   01906  01906                % 07676 RGTR--
+220803031 Mondercange, A Bosse  01907  01907                % 07676 RGTR--
+220803030 Mondercange, Dokter   01908  01908                % 07676 RGTR--
+220803013 Mondercange, Krombac  01909  01909                % 07676 RGTR--
+220802010 Foetz, Rond Point     01910  01910                % 07676 RGTR--
+220802003 Foetz, Am Brill       01912  01912                % 07676 RGTR--
+221401011 Schifflange, Ecole N  01915  01915                % 07676 RGTR--
+221401001 Schifflange, Brill    01916  01916                % 07676 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01918  01918                % 07676 RGTR--
+220402053 Esch/Alzette, Lallen  01919  01919                % 07676 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01920  01920                % 07676 RGTR--
+220402020 Esch/Alzette, Cinqua  01921  01921                % 07676 RGTR--
+220402066 Esch/Alzette, Op der  01922  01922                % 07676 RGTR--
+220402049 Esch/Alzette, Cliniq  01923  01923                % 07676 RGTR--
+220402072 Esch/Alzette, Place   01925  01925                % 07676 RGTR--
+220402034 Esch/Alzette, Gare    01926                       % 07676 RGTR--
+*Z 07677 RGTR--                                             % 07677 RGTR--
+*L 314      220803001 220402034  01925  01946               % 07677 RGTR--
+*A ag 220803001 220402034 000001  01925  01946              % 07677 RGTR--
+*R 2 220402034 220803001 220402034  01925  01946            % 07677 RGTR--
+*G RGB 220803001 220402034  01925  01946                    % 07677 RGTR--
+*A VE 220803001 220402034 000001  01925  01946              % 07677 RGTR--
+*I FD 220803001 220402034        0003274  01925  01946      % 07677 RGTR--
+220803001 Mondercange, A.Thinn         01925                % 07677 RGTR--
+220803017 Mondercange, Musekss  01926  01926                % 07677 RGTR--
+220803005 Mondercange, Centre   01926  01926                % 07677 RGTR--
+220803031 Mondercange, A Bosse  01927  01927                % 07677 RGTR--
+220803030 Mondercange, Dokter   01928  01928                % 07677 RGTR--
+220803013 Mondercange, Krombac  01929  01929                % 07677 RGTR--
+220802010 Foetz, Rond Point     01930  01930                % 07677 RGTR--
+220802003 Foetz, Am Brill       01932  01932                % 07677 RGTR--
+221401011 Schifflange, Ecole N  01935  01935                % 07677 RGTR--
+221401001 Schifflange, Brill    01936  01936                % 07677 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01938  01938                % 07677 RGTR--
+220402053 Esch/Alzette, Lallen  01939  01939                % 07677 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01940  01940                % 07677 RGTR--
+220402020 Esch/Alzette, Cinqua  01941  01941                % 07677 RGTR--
+220402066 Esch/Alzette, Op der  01942  01942                % 07677 RGTR--
+220402049 Esch/Alzette, Cliniq  01943  01943                % 07677 RGTR--
+220402072 Esch/Alzette, Place   01945  01945                % 07677 RGTR--
+220402034 Esch/Alzette, Gare    01946                       % 07677 RGTR--
+*Z 07678 RGTR--                                             % 07678 RGTR--
+*L 314      220803001 220402034  01945  02006               % 07678 RGTR--
+*A ag 220803001 220402034 000001  01945  02006              % 07678 RGTR--
+*R 2 220402034 220803001 220402034  01945  02006            % 07678 RGTR--
+*G RGB 220803001 220402034  01945  02006                    % 07678 RGTR--
+*A VE 220803001 220402034 000001  01945  02006              % 07678 RGTR--
+*I FD 220803001 220402034        0002975  01945  02006      % 07678 RGTR--
+220803001 Mondercange, A.Thinn         01945                % 07678 RGTR--
+220803017 Mondercange, Musekss  01946  01946                % 07678 RGTR--
+220803005 Mondercange, Centre   01946  01946                % 07678 RGTR--
+220803031 Mondercange, A Bosse  01947  01947                % 07678 RGTR--
+220803030 Mondercange, Dokter   01948  01948                % 07678 RGTR--
+220803013 Mondercange, Krombac  01949  01949                % 07678 RGTR--
+220802010 Foetz, Rond Point     01950  01950                % 07678 RGTR--
+220802003 Foetz, Am Brill       01952  01952                % 07678 RGTR--
+221401011 Schifflange, Ecole N  01955  01955                % 07678 RGTR--
+221401001 Schifflange, Brill    01956  01956                % 07678 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01958  01958                % 07678 RGTR--
+220402053 Esch/Alzette, Lallen  01959  01959                % 07678 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02000  02000                % 07678 RGTR--
+220402020 Esch/Alzette, Cinqua  02001  02001                % 07678 RGTR--
+220402066 Esch/Alzette, Op der  02002  02002                % 07678 RGTR--
+220402049 Esch/Alzette, Cliniq  02003  02003                % 07678 RGTR--
+220402072 Esch/Alzette, Place   02005  02005                % 07678 RGTR--
+220402034 Esch/Alzette, Gare    02006                       % 07678 RGTR--
+*Z 07679 RGTR--                                             % 07679 RGTR--
+*L 314      220803001 220402034  02005  02026               % 07679 RGTR--
+*A ag 220803001 220402034 000001  02005  02026              % 07679 RGTR--
+*R 2 220402034 220803001 220402034  02005  02026            % 07679 RGTR--
+*G RGB 220803001 220402034  02005  02026                    % 07679 RGTR--
+*A VE 220803001 220402034 000001  02005  02026              % 07679 RGTR--
+*I FD 220803001 220402034        0002881  02005  02026      % 07679 RGTR--
+220803001 Mondercange, A.Thinn         02005                % 07679 RGTR--
+220803017 Mondercange, Musekss  02006  02006                % 07679 RGTR--
+220803005 Mondercange, Centre   02006  02006                % 07679 RGTR--
+220803031 Mondercange, A Bosse  02007  02007                % 07679 RGTR--
+220803030 Mondercange, Dokter   02008  02008                % 07679 RGTR--
+220803013 Mondercange, Krombac  02009  02009                % 07679 RGTR--
+220802010 Foetz, Rond Point     02010  02010                % 07679 RGTR--
+220802003 Foetz, Am Brill       02012  02012                % 07679 RGTR--
+221401011 Schifflange, Ecole N  02015  02015                % 07679 RGTR--
+221401001 Schifflange, Brill    02016  02016                % 07679 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02018  02018                % 07679 RGTR--
+220402053 Esch/Alzette, Lallen  02019  02019                % 07679 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02020  02020                % 07679 RGTR--
+220402020 Esch/Alzette, Cinqua  02021  02021                % 07679 RGTR--
+220402066 Esch/Alzette, Op der  02022  02022                % 07679 RGTR--
+220402049 Esch/Alzette, Cliniq  02023  02023                % 07679 RGTR--
+220402072 Esch/Alzette, Place   02025  02025                % 07679 RGTR--
+220402034 Esch/Alzette, Gare    02026                       % 07679 RGTR--
+*Z 07680 RGTR--                                             % 07680 RGTR--
+*L 314      220803001 220402034  02025  02046               % 07680 RGTR--
+*A ag 220803001 220402034 000001  02025  02046              % 07680 RGTR--
+*R 2 220402034 220803001 220402034  02025  02046            % 07680 RGTR--
+*G RGB 220803001 220402034  02025  02046                    % 07680 RGTR--
+*A VE 220803001 220402034 000001  02025  02046              % 07680 RGTR--
+*I FD 220803001 220402034        0003547  02025  02046      % 07680 RGTR--
+220803001 Mondercange, A.Thinn         02025                % 07680 RGTR--
+220803017 Mondercange, Musekss  02026  02026                % 07680 RGTR--
+220803005 Mondercange, Centre   02026  02026                % 07680 RGTR--
+220803031 Mondercange, A Bosse  02027  02027                % 07680 RGTR--
+220803030 Mondercange, Dokter   02028  02028                % 07680 RGTR--
+220803013 Mondercange, Krombac  02029  02029                % 07680 RGTR--
+220802010 Foetz, Rond Point     02030  02030                % 07680 RGTR--
+220802003 Foetz, Am Brill       02032  02032                % 07680 RGTR--
+221401011 Schifflange, Ecole N  02035  02035                % 07680 RGTR--
+221401001 Schifflange, Brill    02036  02036                % 07680 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02038  02038                % 07680 RGTR--
+220402053 Esch/Alzette, Lallen  02039  02039                % 07680 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02040  02040                % 07680 RGTR--
+220402020 Esch/Alzette, Cinqua  02041  02041                % 07680 RGTR--
+220402066 Esch/Alzette, Op der  02042  02042                % 07680 RGTR--
+220402049 Esch/Alzette, Cliniq  02043  02043                % 07680 RGTR--
+220402072 Esch/Alzette, Place   02045  02045                % 07680 RGTR--
+220402034 Esch/Alzette, Gare    02046                       % 07680 RGTR--
+*Z 07681 RGTR--                                             % 07681 RGTR--
+*L 314      220803001 220402034  02045  02106               % 07681 RGTR--
+*A ag 220803001 220402034 000001  02045  02106              % 07681 RGTR--
+*R 2 220402034 220803001 220402034  02045  02106            % 07681 RGTR--
+*G RGB 220803001 220402034  02045  02106                    % 07681 RGTR--
+*A VE 220803001 220402034 000001  02045  02106              % 07681 RGTR--
+*I FD 220803001 220402034        0002778  02045  02106      % 07681 RGTR--
+220803001 Mondercange, A.Thinn         02045                % 07681 RGTR--
+220803017 Mondercange, Musekss  02046  02046                % 07681 RGTR--
+220803005 Mondercange, Centre   02046  02046                % 07681 RGTR--
+220803031 Mondercange, A Bosse  02047  02047                % 07681 RGTR--
+220803030 Mondercange, Dokter   02048  02048                % 07681 RGTR--
+220803013 Mondercange, Krombac  02049  02049                % 07681 RGTR--
+220802010 Foetz, Rond Point     02050  02050                % 07681 RGTR--
+220802003 Foetz, Am Brill       02052  02052                % 07681 RGTR--
+221401011 Schifflange, Ecole N  02055  02055                % 07681 RGTR--
+221401001 Schifflange, Brill    02056  02056                % 07681 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02058  02058                % 07681 RGTR--
+220402053 Esch/Alzette, Lallen  02059  02059                % 07681 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02100  02100                % 07681 RGTR--
+220402020 Esch/Alzette, Cinqua  02101  02101                % 07681 RGTR--
+220402066 Esch/Alzette, Op der  02102  02102                % 07681 RGTR--
+220402049 Esch/Alzette, Cliniq  02103  02103                % 07681 RGTR--
+220402072 Esch/Alzette, Place   02105  02105                % 07681 RGTR--
+220402034 Esch/Alzette, Gare    02106                       % 07681 RGTR--
+*Z 07682 RGTR--                                             % 07682 RGTR--
+*L 314      220803001 220402034  02105  02126               % 07682 RGTR--
+*A ag 220803001 220402034 000001  02105  02126              % 07682 RGTR--
+*R 2 220402034 220803001 220402034  02105  02126            % 07682 RGTR--
+*G RGB 220803001 220402034  02105  02126                    % 07682 RGTR--
+*A VE 220803001 220402034 000001  02105  02126              % 07682 RGTR--
+*I FD 220803001 220402034        0002882  02105  02126      % 07682 RGTR--
+220803001 Mondercange, A.Thinn         02105                % 07682 RGTR--
+220803017 Mondercange, Musekss  02106  02106                % 07682 RGTR--
+220803005 Mondercange, Centre   02106  02106                % 07682 RGTR--
+220803031 Mondercange, A Bosse  02107  02107                % 07682 RGTR--
+220803030 Mondercange, Dokter   02108  02108                % 07682 RGTR--
+220803013 Mondercange, Krombac  02109  02109                % 07682 RGTR--
+220802010 Foetz, Rond Point     02110  02110                % 07682 RGTR--
+220802003 Foetz, Am Brill       02112  02112                % 07682 RGTR--
+221401011 Schifflange, Ecole N  02115  02115                % 07682 RGTR--
+221401001 Schifflange, Brill    02116  02116                % 07682 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02118  02118                % 07682 RGTR--
+220402053 Esch/Alzette, Lallen  02119  02119                % 07682 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02120  02120                % 07682 RGTR--
+220402020 Esch/Alzette, Cinqua  02121  02121                % 07682 RGTR--
+220402066 Esch/Alzette, Op der  02122  02122                % 07682 RGTR--
+220402049 Esch/Alzette, Cliniq  02123  02123                % 07682 RGTR--
+220402072 Esch/Alzette, Place   02125  02125                % 07682 RGTR--
+220402034 Esch/Alzette, Gare    02126                       % 07682 RGTR--
+*Z 07683 RGTR--                                             % 07683 RGTR--
+*L 314      220803001 220402034  02125  02146               % 07683 RGTR--
+*A ag 220803001 220402034 000001  02125  02146              % 07683 RGTR--
+*R 2 220402034 220803001 220402034  02125  02146            % 07683 RGTR--
+*G RGB 220803001 220402034  02125  02146                    % 07683 RGTR--
+*A VE 220803001 220402034 000001  02125  02146              % 07683 RGTR--
+*I FD 220803001 220402034        0003548  02125  02146      % 07683 RGTR--
+220803001 Mondercange, A.Thinn         02125                % 07683 RGTR--
+220803017 Mondercange, Musekss  02126  02126                % 07683 RGTR--
+220803005 Mondercange, Centre   02126  02126                % 07683 RGTR--
+220803031 Mondercange, A Bosse  02127  02127                % 07683 RGTR--
+220803030 Mondercange, Dokter   02128  02128                % 07683 RGTR--
+220803013 Mondercange, Krombac  02129  02129                % 07683 RGTR--
+220802010 Foetz, Rond Point     02130  02130                % 07683 RGTR--
+220802003 Foetz, Am Brill       02132  02132                % 07683 RGTR--
+221401011 Schifflange, Ecole N  02135  02135                % 07683 RGTR--
+221401001 Schifflange, Brill    02136  02136                % 07683 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02138  02138                % 07683 RGTR--
+220402053 Esch/Alzette, Lallen  02139  02139                % 07683 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02140  02140                % 07683 RGTR--
+220402020 Esch/Alzette, Cinqua  02141  02141                % 07683 RGTR--
+220402066 Esch/Alzette, Op der  02142  02142                % 07683 RGTR--
+220402049 Esch/Alzette, Cliniq  02143  02143                % 07683 RGTR--
+220402072 Esch/Alzette, Place   02145  02145                % 07683 RGTR--
+220402034 Esch/Alzette, Gare    02146                       % 07683 RGTR--
+*Z 07684 RGTR--                                             % 07684 RGTR--
+*L 314      220803001 220402034  02145  02206               % 07684 RGTR--
+*A ag 220803001 220402034 000001  02145  02206              % 07684 RGTR--
+*R 2 220402034 220803001 220402034  02145  02206            % 07684 RGTR--
+*G RGB 220803001 220402034  02145  02206                    % 07684 RGTR--
+*A VE 220803001 220402034 000001  02145  02206              % 07684 RGTR--
+*I FD 220803001 220402034        0001427  02145  02206      % 07684 RGTR--
+220803001 Mondercange, A.Thinn         02145                % 07684 RGTR--
+220803017 Mondercange, Musekss  02146  02146                % 07684 RGTR--
+220803005 Mondercange, Centre   02146  02146                % 07684 RGTR--
+220803031 Mondercange, A Bosse  02147  02147                % 07684 RGTR--
+220803030 Mondercange, Dokter   02148  02148                % 07684 RGTR--
+220803013 Mondercange, Krombac  02149  02149                % 07684 RGTR--
+220802010 Foetz, Rond Point     02150  02150                % 07684 RGTR--
+220802003 Foetz, Am Brill       02152  02152                % 07684 RGTR--
+221401011 Schifflange, Ecole N  02155  02155                % 07684 RGTR--
+221401001 Schifflange, Brill    02156  02156                % 07684 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02158  02158                % 07684 RGTR--
+220402053 Esch/Alzette, Lallen  02159  02159                % 07684 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02200  02200                % 07684 RGTR--
+220402020 Esch/Alzette, Cinqua  02201  02201                % 07684 RGTR--
+220402066 Esch/Alzette, Op der  02202  02202                % 07684 RGTR--
+220402049 Esch/Alzette, Cliniq  02203  02203                % 07684 RGTR--
+220402072 Esch/Alzette, Place   02205  02205                % 07684 RGTR--
+220402034 Esch/Alzette, Gare    02206                       % 07684 RGTR--
+*Z 07685 RGTR--                                             % 07685 RGTR--
+*L 314      220803001 220402034  02205  02226               % 07685 RGTR--
+*A ag 220803001 220402034 000001  02205  02226              % 07685 RGTR--
+*R 2 220402034 220803001 220402034  02205  02226            % 07685 RGTR--
+*G RGB 220803001 220402034  02205  02226                    % 07685 RGTR--
+*A VE 220803001 220402034 000001  02205  02226              % 07685 RGTR--
+*I FD 220803001 220402034        0002883  02205  02226      % 07685 RGTR--
+220803001 Mondercange, A.Thinn         02205                % 07685 RGTR--
+220803017 Mondercange, Musekss  02206  02206                % 07685 RGTR--
+220803005 Mondercange, Centre   02206  02206                % 07685 RGTR--
+220803031 Mondercange, A Bosse  02207  02207                % 07685 RGTR--
+220803030 Mondercange, Dokter   02208  02208                % 07685 RGTR--
+220803013 Mondercange, Krombac  02209  02209                % 07685 RGTR--
+220802010 Foetz, Rond Point     02210  02210                % 07685 RGTR--
+220802003 Foetz, Am Brill       02212  02212                % 07685 RGTR--
+221401011 Schifflange, Ecole N  02215  02215                % 07685 RGTR--
+221401001 Schifflange, Brill    02216  02216                % 07685 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02218  02218                % 07685 RGTR--
+220402053 Esch/Alzette, Lallen  02219  02219                % 07685 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02220  02220                % 07685 RGTR--
+220402020 Esch/Alzette, Cinqua  02221  02221                % 07685 RGTR--
+220402066 Esch/Alzette, Op der  02222  02222                % 07685 RGTR--
+220402049 Esch/Alzette, Cliniq  02223  02223                % 07685 RGTR--
+220402072 Esch/Alzette, Place   02225  02225                % 07685 RGTR--
+220402034 Esch/Alzette, Gare    02226                       % 07685 RGTR--
+*Z 07686 RGTR--                                             % 07686 RGTR--
+*L 314      220803001 220402034  02225  02246               % 07686 RGTR--
+*A ag 220803001 220402034 000001  02225  02246              % 07686 RGTR--
+*R 2 220402034 220803001 220402034  02225  02246            % 07686 RGTR--
+*G RGB 220803001 220402034  02225  02246                    % 07686 RGTR--
+*A VE 220803001 220402034 000001  02225  02246              % 07686 RGTR--
+*I FD 220803001 220402034        0003069  02225  02246      % 07686 RGTR--
+220803001 Mondercange, A.Thinn         02225                % 07686 RGTR--
+220803017 Mondercange, Musekss  02226  02226                % 07686 RGTR--
+220803005 Mondercange, Centre   02226  02226                % 07686 RGTR--
+220803031 Mondercange, A Bosse  02227  02227                % 07686 RGTR--
+220803030 Mondercange, Dokter   02228  02228                % 07686 RGTR--
+220803013 Mondercange, Krombac  02229  02229                % 07686 RGTR--
+220802010 Foetz, Rond Point     02230  02230                % 07686 RGTR--
+220802003 Foetz, Am Brill       02232  02232                % 07686 RGTR--
+221401011 Schifflange, Ecole N  02235  02235                % 07686 RGTR--
+221401001 Schifflange, Brill    02236  02236                % 07686 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02238  02238                % 07686 RGTR--
+220402053 Esch/Alzette, Lallen  02239  02239                % 07686 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02240  02240                % 07686 RGTR--
+220402020 Esch/Alzette, Cinqua  02241  02241                % 07686 RGTR--
+220402066 Esch/Alzette, Op der  02242  02242                % 07686 RGTR--
+220402049 Esch/Alzette, Cliniq  02243  02243                % 07686 RGTR--
+220402072 Esch/Alzette, Place   02245  02245                % 07686 RGTR--
+220402034 Esch/Alzette, Gare    02246                       % 07686 RGTR--
+*Z 07687 RGTR--                                             % 07687 RGTR--
+*L 314      220803001 220402034  02245  02306               % 07687 RGTR--
+*A ag 220803001 220402034 000001  02245  02306              % 07687 RGTR--
+*R 2 220402034 220803001 220402034  02245  02306            % 07687 RGTR--
+*G RGB 220803001 220402034  02245  02306                    % 07687 RGTR--
+*A VE 220803001 220402034 000001  02245  02306              % 07687 RGTR--
+*I FD 220803001 220402034        0002851  02245  02306      % 07687 RGTR--
+220803001 Mondercange, A.Thinn         02245                % 07687 RGTR--
+220803017 Mondercange, Musekss  02246  02246                % 07687 RGTR--
+220803005 Mondercange, Centre   02246  02246                % 07687 RGTR--
+220803031 Mondercange, A Bosse  02247  02247                % 07687 RGTR--
+220803030 Mondercange, Dokter   02248  02248                % 07687 RGTR--
+220803013 Mondercange, Krombac  02249  02249                % 07687 RGTR--
+220802010 Foetz, Rond Point     02250  02250                % 07687 RGTR--
+220802003 Foetz, Am Brill       02252  02252                % 07687 RGTR--
+221401011 Schifflange, Ecole N  02255  02255                % 07687 RGTR--
+221401001 Schifflange, Brill    02256  02256                % 07687 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02258  02258                % 07687 RGTR--
+220402053 Esch/Alzette, Lallen  02259  02259                % 07687 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02300  02300                % 07687 RGTR--
+220402020 Esch/Alzette, Cinqua  02301  02301                % 07687 RGTR--
+220402066 Esch/Alzette, Op der  02302  02302                % 07687 RGTR--
+220402049 Esch/Alzette, Cliniq  02303  02303                % 07687 RGTR--
+220402072 Esch/Alzette, Place   02305  02305                % 07687 RGTR--
+220402034 Esch/Alzette, Gare    02306                       % 07687 RGTR--
+*Z 07688 RGTR--                                             % 07688 RGTR--
+*L 314      220803001 220402034  02305  02326               % 07688 RGTR--
+*A ag 220803001 220402034 000001  02305  02326              % 07688 RGTR--
+*R 2 220402034 220803001 220402034  02305  02326            % 07688 RGTR--
+*G RGB 220803001 220402034  02305  02326                    % 07688 RGTR--
+*A VE 220803001 220402034 000001  02305  02326              % 07688 RGTR--
+*I FD 220803001 220402034        0003464  02305  02326      % 07688 RGTR--
+220803001 Mondercange, A.Thinn         02305                % 07688 RGTR--
+220803017 Mondercange, Musekss  02306  02306                % 07688 RGTR--
+220803005 Mondercange, Centre   02306  02306                % 07688 RGTR--
+220803031 Mondercange, A Bosse  02307  02307                % 07688 RGTR--
+220803030 Mondercange, Dokter   02308  02308                % 07688 RGTR--
+220803013 Mondercange, Krombac  02309  02309                % 07688 RGTR--
+220802010 Foetz, Rond Point     02310  02310                % 07688 RGTR--
+220802003 Foetz, Am Brill       02312  02312                % 07688 RGTR--
+221401011 Schifflange, Ecole N  02315  02315                % 07688 RGTR--
+221401001 Schifflange, Brill    02316  02316                % 07688 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02318  02318                % 07688 RGTR--
+220402053 Esch/Alzette, Lallen  02319  02319                % 07688 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02320  02320                % 07688 RGTR--
+220402020 Esch/Alzette, Cinqua  02321  02321                % 07688 RGTR--
+220402066 Esch/Alzette, Op der  02322  02322                % 07688 RGTR--
+220402049 Esch/Alzette, Cliniq  02323  02323                % 07688 RGTR--
+220402072 Esch/Alzette, Place   02325  02325                % 07688 RGTR--
+220402034 Esch/Alzette, Gare    02326                       % 07688 RGTR--
+*Z 07689 RGTR--                                             % 07689 RGTR--
+*L 314      220803001 220402034  02325  02346               % 07689 RGTR--
+*A ag 220803001 220402034 000001  02325  02346              % 07689 RGTR--
+*R 2 220402034 220803001 220402034  02325  02346            % 07689 RGTR--
+*G RGB 220803001 220402034  02325  02346                    % 07689 RGTR--
+*A VE 220803001 220402034 000001  02325  02346              % 07689 RGTR--
+*I FD 220803001 220402034        0003572  02325  02346      % 07689 RGTR--
+220803001 Mondercange, A.Thinn         02325                % 07689 RGTR--
+220803017 Mondercange, Musekss  02326  02326                % 07689 RGTR--
+220803005 Mondercange, Centre   02326  02326                % 07689 RGTR--
+220803031 Mondercange, A Bosse  02327  02327                % 07689 RGTR--
+220803030 Mondercange, Dokter   02328  02328                % 07689 RGTR--
+220803013 Mondercange, Krombac  02329  02329                % 07689 RGTR--
+220802010 Foetz, Rond Point     02330  02330                % 07689 RGTR--
+220802003 Foetz, Am Brill       02332  02332                % 07689 RGTR--
+221401011 Schifflange, Ecole N  02335  02335                % 07689 RGTR--
+221401001 Schifflange, Brill    02336  02336                % 07689 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02338  02338                % 07689 RGTR--
+220402053 Esch/Alzette, Lallen  02339  02339                % 07689 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02340  02340                % 07689 RGTR--
+220402020 Esch/Alzette, Cinqua  02341  02341                % 07689 RGTR--
+220402066 Esch/Alzette, Op der  02342  02342                % 07689 RGTR--
+220402049 Esch/Alzette, Cliniq  02343  02343                % 07689 RGTR--
+220402072 Esch/Alzette, Place   02345  02345                % 07689 RGTR--
+220402034 Esch/Alzette, Gare    02346                       % 07689 RGTR--
+*Z 07690 RGTR--                                             % 07690 RGTR--
+*L 314      220803001 220402034  02345  02406               % 07690 RGTR--
+*A ag 220803001 220402034 000001  02345  02406              % 07690 RGTR--
+*R 2 220402034 220803001 220402034  02345  02406            % 07690 RGTR--
+*G RGB 220803001 220402034  02345  02406                    % 07690 RGTR--
+*A VE 220803001 220402034 000001  02345  02406              % 07690 RGTR--
+*I FD 220803001 220402034        0003573  02345  02406      % 07690 RGTR--
+220803001 Mondercange, A.Thinn         02345                % 07690 RGTR--
+220803017 Mondercange, Musekss  02346  02346                % 07690 RGTR--
+220803005 Mondercange, Centre   02346  02346                % 07690 RGTR--
+220803031 Mondercange, A Bosse  02347  02347                % 07690 RGTR--
+220803030 Mondercange, Dokter   02348  02348                % 07690 RGTR--
+220803013 Mondercange, Krombac  02349  02349                % 07690 RGTR--
+220802010 Foetz, Rond Point     02350  02350                % 07690 RGTR--
+220802003 Foetz, Am Brill       02352  02352                % 07690 RGTR--
+221401011 Schifflange, Ecole N  02355  02355                % 07690 RGTR--
+221401001 Schifflange, Brill    02356  02356                % 07690 RGTR--
+220402013 Esch/Alzette, Bd. Pi  02358  02358                % 07690 RGTR--
+220402053 Esch/Alzette, Lallen  02359  02359                % 07690 RGTR--
+220402012 Esch/Alzette, Bd. Hu  02400  02400                % 07690 RGTR--
+220402020 Esch/Alzette, Cinqua  02401  02401                % 07690 RGTR--
+220402066 Esch/Alzette, Op der  02402  02402                % 07690 RGTR--
+220402049 Esch/Alzette, Cliniq  02403  02403                % 07690 RGTR--
+220402072 Esch/Alzette, Place   02405  02405                % 07690 RGTR--
+220402034 Esch/Alzette, Gare    02406                       % 07690 RGTR--
+*Z 07691 RGTR--                                             % 07691 RGTR--
+*L 314      220803001 220402034  00625  00649               % 07691 RGTR--
+*A ag 220803001 220402034 000001  00625  00649              % 07691 RGTR--
+*R 2 220402034 220803001 220402034  00625  00649            % 07691 RGTR--
+*G RGB 220803001 220402034  00625  00649                    % 07691 RGTR--
+*A VE 220803001 220402034 000001  00625  00649              % 07691 RGTR--
+*I FD 220803001 220402034        0000835  00625  00649      % 07691 RGTR--
+220803001 Mondercange, A.Thinn         00625                % 07691 RGTR--
+220803017 Mondercange, Musekss  00626  00626                % 07691 RGTR--
+220803005 Mondercange, Centre   00627  00627                % 07691 RGTR--
+220803031 Mondercange, A Bosse  00627  00627                % 07691 RGTR--
+220803030 Mondercange, Dokter   00628  00628                % 07691 RGTR--
+220803013 Mondercange, Krombac  00629  00629                % 07691 RGTR--
+220802010 Foetz, Rond Point     00630  00630                % 07691 RGTR--
+220802003 Foetz, Am Brill       00632  00632                % 07691 RGTR--
+221401011 Schifflange, Ecole N  00636  00636                % 07691 RGTR--
+221401001 Schifflange, Brill    00636  00636                % 07691 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00639  00639                % 07691 RGTR--
+220402053 Esch/Alzette, Lallen  00640  00640                % 07691 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00640  00640                % 07691 RGTR--
+220402020 Esch/Alzette, Cinqua  00642  00642                % 07691 RGTR--
+220402066 Esch/Alzette, Op der  00643  00643                % 07691 RGTR--
+220402049 Esch/Alzette, Cliniq  00645  00645                % 07691 RGTR--
+220402072 Esch/Alzette, Place   00647  00647                % 07691 RGTR--
+220402034 Esch/Alzette, Gare    00649                       % 07691 RGTR--
+*Z 07692 RGTR--                                             % 07692 RGTR--
+*L 314      220803001 220402034  00645  00709               % 07692 RGTR--
+*A ag 220803001 220402034 000001  00645  00709              % 07692 RGTR--
+*R 2 220402034 220803001 220402034  00645  00709            % 07692 RGTR--
+*G RGB 220803001 220402034  00645  00709                    % 07692 RGTR--
+*A VE 220803001 220402034 000001  00645  00709              % 07692 RGTR--
+*I FD 220803001 220402034        0002256  00645  00709      % 07692 RGTR--
+220803001 Mondercange, A.Thinn         00645                % 07692 RGTR--
+220803017 Mondercange, Musekss  00646  00646                % 07692 RGTR--
+220803005 Mondercange, Centre   00647  00647                % 07692 RGTR--
+220803031 Mondercange, A Bosse  00647  00647                % 07692 RGTR--
+220803030 Mondercange, Dokter   00648  00648                % 07692 RGTR--
+220803013 Mondercange, Krombac  00649  00649                % 07692 RGTR--
+220802010 Foetz, Rond Point     00650  00650                % 07692 RGTR--
+220802003 Foetz, Am Brill       00652  00652                % 07692 RGTR--
+221401011 Schifflange, Ecole N  00656  00656                % 07692 RGTR--
+221401001 Schifflange, Brill    00656  00656                % 07692 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00659  00659                % 07692 RGTR--
+220402053 Esch/Alzette, Lallen  00700  00700                % 07692 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00700  00700                % 07692 RGTR--
+220402020 Esch/Alzette, Cinqua  00702  00702                % 07692 RGTR--
+220402066 Esch/Alzette, Op der  00703  00703                % 07692 RGTR--
+220402049 Esch/Alzette, Cliniq  00705  00705                % 07692 RGTR--
+220402072 Esch/Alzette, Place   00707  00707                % 07692 RGTR--
+220402034 Esch/Alzette, Gare    00709                       % 07692 RGTR--
+*Z 07693 RGTR--                                             % 07693 RGTR--
+*L 314      220803001 220402034  00705  00729               % 07693 RGTR--
+*A ag 220803001 220402034 000001  00705  00729              % 07693 RGTR--
+*R 2 220402034 220803001 220402034  00705  00729            % 07693 RGTR--
+*G RGB 220803001 220402034  00705  00729                    % 07693 RGTR--
+*A VE 220803001 220402034 000001  00705  00729              % 07693 RGTR--
+*I FD 220803001 220402034        0002189  00705  00729      % 07693 RGTR--
+220803001 Mondercange, A.Thinn         00705                % 07693 RGTR--
+220803017 Mondercange, Musekss  00706  00706                % 07693 RGTR--
+220803005 Mondercange, Centre   00707  00707                % 07693 RGTR--
+220803031 Mondercange, A Bosse  00707  00707                % 07693 RGTR--
+220803030 Mondercange, Dokter   00708  00708                % 07693 RGTR--
+220803013 Mondercange, Krombac  00709  00709                % 07693 RGTR--
+220802010 Foetz, Rond Point     00710  00710                % 07693 RGTR--
+220802003 Foetz, Am Brill       00712  00712                % 07693 RGTR--
+221401011 Schifflange, Ecole N  00716  00716                % 07693 RGTR--
+221401001 Schifflange, Brill    00716  00716                % 07693 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00719  00719                % 07693 RGTR--
+220402053 Esch/Alzette, Lallen  00720  00720                % 07693 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00720  00720                % 07693 RGTR--
+220402020 Esch/Alzette, Cinqua  00722  00722                % 07693 RGTR--
+220402066 Esch/Alzette, Op der  00723  00723                % 07693 RGTR--
+220402049 Esch/Alzette, Cliniq  00725  00725                % 07693 RGTR--
+220402072 Esch/Alzette, Place   00727  00727                % 07693 RGTR--
+220402034 Esch/Alzette, Gare    00729                       % 07693 RGTR--
+*Z 07694 RGTR--                                             % 07694 RGTR--
+*L 314      220803001 220402034  00725  00749               % 07694 RGTR--
+*A ag 220803001 220402034 000001  00725  00749              % 07694 RGTR--
+*R 2 220402034 220803001 220402034  00725  00749            % 07694 RGTR--
+*G RGB 220803001 220402034  00725  00749                    % 07694 RGTR--
+*A VE 220803001 220402034 000001  00725  00749              % 07694 RGTR--
+*I FD 220803001 220402034        0001954  00725  00749      % 07694 RGTR--
+220803001 Mondercange, A.Thinn         00725                % 07694 RGTR--
+220803017 Mondercange, Musekss  00726  00726                % 07694 RGTR--
+220803005 Mondercange, Centre   00727  00727                % 07694 RGTR--
+220803031 Mondercange, A Bosse  00727  00727                % 07694 RGTR--
+220803030 Mondercange, Dokter   00728  00728                % 07694 RGTR--
+220803013 Mondercange, Krombac  00729  00729                % 07694 RGTR--
+220802010 Foetz, Rond Point     00730  00730                % 07694 RGTR--
+220802003 Foetz, Am Brill       00732  00732                % 07694 RGTR--
+221401011 Schifflange, Ecole N  00736  00736                % 07694 RGTR--
+221401001 Schifflange, Brill    00736  00736                % 07694 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00739  00739                % 07694 RGTR--
+220402053 Esch/Alzette, Lallen  00740  00740                % 07694 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00740  00740                % 07694 RGTR--
+220402020 Esch/Alzette, Cinqua  00742  00742                % 07694 RGTR--
+220402066 Esch/Alzette, Op der  00743  00743                % 07694 RGTR--
+220402049 Esch/Alzette, Cliniq  00745  00745                % 07694 RGTR--
+220402072 Esch/Alzette, Place   00747  00747                % 07694 RGTR--
+220402034 Esch/Alzette, Gare    00749                       % 07694 RGTR--
+*Z 07695 RGTR--                                             % 07695 RGTR--
+*L 314      220803001 220402034  00745  00809               % 07695 RGTR--
+*A ag 220803001 220402034 000001  00745  00809              % 07695 RGTR--
+*R 2 220402034 220803001 220402034  00745  00809            % 07695 RGTR--
+*G RGB 220803001 220402034  00745  00809                    % 07695 RGTR--
+*A VE 220803001 220402034 000001  00745  00809              % 07695 RGTR--
+*I FD 220803001 220402034        0002257  00745  00809      % 07695 RGTR--
+220803001 Mondercange, A.Thinn         00745                % 07695 RGTR--
+220803017 Mondercange, Musekss  00746  00746                % 07695 RGTR--
+220803005 Mondercange, Centre   00747  00747                % 07695 RGTR--
+220803031 Mondercange, A Bosse  00747  00747                % 07695 RGTR--
+220803030 Mondercange, Dokter   00748  00748                % 07695 RGTR--
+220803013 Mondercange, Krombac  00749  00749                % 07695 RGTR--
+220802010 Foetz, Rond Point     00750  00750                % 07695 RGTR--
+220802003 Foetz, Am Brill       00752  00752                % 07695 RGTR--
+221401011 Schifflange, Ecole N  00756  00756                % 07695 RGTR--
+221401001 Schifflange, Brill    00756  00756                % 07695 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00759  00759                % 07695 RGTR--
+220402053 Esch/Alzette, Lallen  00800  00800                % 07695 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00800  00800                % 07695 RGTR--
+220402020 Esch/Alzette, Cinqua  00802  00802                % 07695 RGTR--
+220402066 Esch/Alzette, Op der  00803  00803                % 07695 RGTR--
+220402049 Esch/Alzette, Cliniq  00805  00805                % 07695 RGTR--
+220402072 Esch/Alzette, Place   00807  00807                % 07695 RGTR--
+220402034 Esch/Alzette, Gare    00809                       % 07695 RGTR--
+*Z 07696 RGTR--                                             % 07696 RGTR--
+*L 314      220803001 220402034  00805  00829               % 07696 RGTR--
+*A ag 220803001 220402034 000001  00805  00829              % 07696 RGTR--
+*R 2 220402034 220803001 220402034  00805  00829            % 07696 RGTR--
+*G RGB 220803001 220402034  00805  00829                    % 07696 RGTR--
+*A VE 220803001 220402034 000001  00805  00829              % 07696 RGTR--
+*I FD 220803001 220402034        0002217  00805  00829      % 07696 RGTR--
+220803001 Mondercange, A.Thinn         00805                % 07696 RGTR--
+220803017 Mondercange, Musekss  00806  00806                % 07696 RGTR--
+220803005 Mondercange, Centre   00807  00807                % 07696 RGTR--
+220803031 Mondercange, A Bosse  00807  00807                % 07696 RGTR--
+220803030 Mondercange, Dokter   00808  00808                % 07696 RGTR--
+220803013 Mondercange, Krombac  00809  00809                % 07696 RGTR--
+220802010 Foetz, Rond Point     00810  00810                % 07696 RGTR--
+220802003 Foetz, Am Brill       00812  00812                % 07696 RGTR--
+221401011 Schifflange, Ecole N  00816  00816                % 07696 RGTR--
+221401001 Schifflange, Brill    00816  00816                % 07696 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00819  00819                % 07696 RGTR--
+220402053 Esch/Alzette, Lallen  00820  00820                % 07696 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00820  00820                % 07696 RGTR--
+220402020 Esch/Alzette, Cinqua  00822  00822                % 07696 RGTR--
+220402066 Esch/Alzette, Op der  00823  00823                % 07696 RGTR--
+220402049 Esch/Alzette, Cliniq  00825  00825                % 07696 RGTR--
+220402072 Esch/Alzette, Place   00827  00827                % 07696 RGTR--
+220402034 Esch/Alzette, Gare    00829                       % 07696 RGTR--
+*Z 07697 RGTR--                                             % 07697 RGTR--
+*L 314      220803001 220402034  00825  00849               % 07697 RGTR--
+*A ag 220803001 220402034 000001  00825  00849              % 07697 RGTR--
+*R 2 220402034 220803001 220402034  00825  00849            % 07697 RGTR--
+*G RGB 220803001 220402034  00825  00849                    % 07697 RGTR--
+*A VE 220803001 220402034 000001  00825  00849              % 07697 RGTR--
+*I FD 220803001 220402034        0000902  00825  00849      % 07697 RGTR--
+220803001 Mondercange, A.Thinn         00825                % 07697 RGTR--
+220803017 Mondercange, Musekss  00826  00826                % 07697 RGTR--
+220803005 Mondercange, Centre   00827  00827                % 07697 RGTR--
+220803031 Mondercange, A Bosse  00827  00827                % 07697 RGTR--
+220803030 Mondercange, Dokter   00828  00828                % 07697 RGTR--
+220803013 Mondercange, Krombac  00829  00829                % 07697 RGTR--
+220802010 Foetz, Rond Point     00830  00830                % 07697 RGTR--
+220802003 Foetz, Am Brill       00832  00832                % 07697 RGTR--
+221401011 Schifflange, Ecole N  00836  00836                % 07697 RGTR--
+221401001 Schifflange, Brill    00836  00836                % 07697 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00839  00839                % 07697 RGTR--
+220402053 Esch/Alzette, Lallen  00840  00840                % 07697 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00840  00840                % 07697 RGTR--
+220402020 Esch/Alzette, Cinqua  00842  00842                % 07697 RGTR--
+220402066 Esch/Alzette, Op der  00843  00843                % 07697 RGTR--
+220402049 Esch/Alzette, Cliniq  00845  00845                % 07697 RGTR--
+220402072 Esch/Alzette, Place   00847  00847                % 07697 RGTR--
+220402034 Esch/Alzette, Gare    00849                       % 07697 RGTR--
+*Z 07698 RGTR--                                             % 07698 RGTR--
+*L 314      220803001 220402034  00845  00909               % 07698 RGTR--
+*A ag 220803001 220402034 000001  00845  00909              % 07698 RGTR--
+*R 2 220402034 220803001 220402034  00845  00909            % 07698 RGTR--
+*G RGB 220803001 220402034  00845  00909                    % 07698 RGTR--
+*A VE 220803001 220402034 000001  00845  00909              % 07698 RGTR--
+*I FD 220803001 220402034        0002807  00845  00909      % 07698 RGTR--
+220803001 Mondercange, A.Thinn         00845                % 07698 RGTR--
+220803017 Mondercange, Musekss  00846  00846                % 07698 RGTR--
+220803005 Mondercange, Centre   00847  00847                % 07698 RGTR--
+220803031 Mondercange, A Bosse  00847  00847                % 07698 RGTR--
+220803030 Mondercange, Dokter   00848  00848                % 07698 RGTR--
+220803013 Mondercange, Krombac  00849  00849                % 07698 RGTR--
+220802010 Foetz, Rond Point     00850  00850                % 07698 RGTR--
+220802003 Foetz, Am Brill       00852  00852                % 07698 RGTR--
+221401011 Schifflange, Ecole N  00856  00856                % 07698 RGTR--
+221401001 Schifflange, Brill    00856  00856                % 07698 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00859  00859                % 07698 RGTR--
+220402053 Esch/Alzette, Lallen  00900  00900                % 07698 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00900  00900                % 07698 RGTR--
+220402020 Esch/Alzette, Cinqua  00902  00902                % 07698 RGTR--
+220402066 Esch/Alzette, Op der  00903  00903                % 07698 RGTR--
+220402049 Esch/Alzette, Cliniq  00905  00905                % 07698 RGTR--
+220402072 Esch/Alzette, Place   00907  00907                % 07698 RGTR--
+220402034 Esch/Alzette, Gare    00909                       % 07698 RGTR--
+*Z 07699 RGTR--                                             % 07699 RGTR--
+*L 314      220803001 220402034  00905  00929               % 07699 RGTR--
+*A ag 220803001 220402034 000001  00905  00929              % 07699 RGTR--
+*R 2 220402034 220803001 220402034  00905  00929            % 07699 RGTR--
+*G RGB 220803001 220402034  00905  00929                    % 07699 RGTR--
+*A VE 220803001 220402034 000001  00905  00929              % 07699 RGTR--
+*I FD 220803001 220402034        0002218  00905  00929      % 07699 RGTR--
+220803001 Mondercange, A.Thinn         00905                % 07699 RGTR--
+220803017 Mondercange, Musekss  00906  00906                % 07699 RGTR--
+220803005 Mondercange, Centre   00907  00907                % 07699 RGTR--
+220803031 Mondercange, A Bosse  00907  00907                % 07699 RGTR--
+220803030 Mondercange, Dokter   00908  00908                % 07699 RGTR--
+220803013 Mondercange, Krombac  00909  00909                % 07699 RGTR--
+220802010 Foetz, Rond Point     00910  00910                % 07699 RGTR--
+220802003 Foetz, Am Brill       00912  00912                % 07699 RGTR--
+221401011 Schifflange, Ecole N  00916  00916                % 07699 RGTR--
+221401001 Schifflange, Brill    00916  00916                % 07699 RGTR--
+220402013 Esch/Alzette, Bd. Pi  00919  00919                % 07699 RGTR--
+220402053 Esch/Alzette, Lallen  00920  00920                % 07699 RGTR--
+220402012 Esch/Alzette, Bd. Hu  00920  00920                % 07699 RGTR--
+220402020 Esch/Alzette, Cinqua  00922  00922                % 07699 RGTR--
+220402066 Esch/Alzette, Op der  00923  00923                % 07699 RGTR--
+220402049 Esch/Alzette, Cliniq  00925  00925                % 07699 RGTR--
+220402072 Esch/Alzette, Place   00927  00927                % 07699 RGTR--
+220402034 Esch/Alzette, Gare    00929                       % 07699 RGTR--
+*Z 07700 RGTR--                                             % 07700 RGTR--
+*L 314      220803001 220402034  01605  01629               % 07700 RGTR--
+*A ag 220803001 220402034 000001  01605  01629              % 07700 RGTR--
+*R 2 220402034 220803001 220402034  01605  01629            % 07700 RGTR--
+*G RGB 220803001 220402034  01605  01629                    % 07700 RGTR--
+*A VE 220803001 220402034 000001  01605  01629              % 07700 RGTR--
+*I FD 220803001 220402034        0002219  01605  01629      % 07700 RGTR--
+220803001 Mondercange, A.Thinn         01605                % 07700 RGTR--
+220803017 Mondercange, Musekss  01606  01606                % 07700 RGTR--
+220803005 Mondercange, Centre   01607  01607                % 07700 RGTR--
+220803031 Mondercange, A Bosse  01607  01607                % 07700 RGTR--
+220803030 Mondercange, Dokter   01608  01608                % 07700 RGTR--
+220803013 Mondercange, Krombac  01609  01609                % 07700 RGTR--
+220802010 Foetz, Rond Point     01610  01610                % 07700 RGTR--
+220802003 Foetz, Am Brill       01612  01612                % 07700 RGTR--
+221401011 Schifflange, Ecole N  01616  01616                % 07700 RGTR--
+221401001 Schifflange, Brill    01616  01616                % 07700 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01619  01619                % 07700 RGTR--
+220402053 Esch/Alzette, Lallen  01620  01620                % 07700 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01620  01620                % 07700 RGTR--
+220402020 Esch/Alzette, Cinqua  01622  01622                % 07700 RGTR--
+220402066 Esch/Alzette, Op der  01623  01623                % 07700 RGTR--
+220402049 Esch/Alzette, Cliniq  01625  01625                % 07700 RGTR--
+220402072 Esch/Alzette, Place   01627  01627                % 07700 RGTR--
+220402034 Esch/Alzette, Gare    01629                       % 07700 RGTR--
+*Z 07701 RGTR--                                             % 07701 RGTR--
+*L 314      220803001 220402034  01625  01649               % 07701 RGTR--
+*A ag 220803001 220402034 000001  01625  01649              % 07701 RGTR--
+*R 2 220402034 220803001 220402034  01625  01649            % 07701 RGTR--
+*G RGB 220803001 220402034  01625  01649                    % 07701 RGTR--
+*A VE 220803001 220402034 000001  01625  01649              % 07701 RGTR--
+*I FD 220803001 220402034        0002683  01625  01649      % 07701 RGTR--
+220803001 Mondercange, A.Thinn         01625                % 07701 RGTR--
+220803017 Mondercange, Musekss  01626  01626                % 07701 RGTR--
+220803005 Mondercange, Centre   01627  01627                % 07701 RGTR--
+220803031 Mondercange, A Bosse  01627  01627                % 07701 RGTR--
+220803030 Mondercange, Dokter   01628  01628                % 07701 RGTR--
+220803013 Mondercange, Krombac  01629  01629                % 07701 RGTR--
+220802010 Foetz, Rond Point     01630  01630                % 07701 RGTR--
+220802003 Foetz, Am Brill       01632  01632                % 07701 RGTR--
+221401011 Schifflange, Ecole N  01636  01636                % 07701 RGTR--
+221401001 Schifflange, Brill    01636  01636                % 07701 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01639  01639                % 07701 RGTR--
+220402053 Esch/Alzette, Lallen  01640  01640                % 07701 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01640  01640                % 07701 RGTR--
+220402020 Esch/Alzette, Cinqua  01642  01642                % 07701 RGTR--
+220402066 Esch/Alzette, Op der  01643  01643                % 07701 RGTR--
+220402049 Esch/Alzette, Cliniq  01645  01645                % 07701 RGTR--
+220402072 Esch/Alzette, Place   01647  01647                % 07701 RGTR--
+220402034 Esch/Alzette, Gare    01649                       % 07701 RGTR--
+*Z 07702 RGTR--                                             % 07702 RGTR--
+*L 314      220803001 220402034  01645  01709               % 07702 RGTR--
+*A ag 220803001 220402034 000001  01645  01709              % 07702 RGTR--
+*R 2 220402034 220803001 220402034  01645  01709            % 07702 RGTR--
+*G RGB 220803001 220402034  01645  01709                    % 07702 RGTR--
+*A VE 220803001 220402034 000001  01645  01709              % 07702 RGTR--
+*I FD 220803001 220402034        0001268  01645  01709      % 07702 RGTR--
+220803001 Mondercange, A.Thinn         01645                % 07702 RGTR--
+220803017 Mondercange, Musekss  01646  01646                % 07702 RGTR--
+220803005 Mondercange, Centre   01647  01647                % 07702 RGTR--
+220803031 Mondercange, A Bosse  01647  01647                % 07702 RGTR--
+220803030 Mondercange, Dokter   01648  01648                % 07702 RGTR--
+220803013 Mondercange, Krombac  01649  01649                % 07702 RGTR--
+220802010 Foetz, Rond Point     01650  01650                % 07702 RGTR--
+220802003 Foetz, Am Brill       01652  01652                % 07702 RGTR--
+221401011 Schifflange, Ecole N  01656  01656                % 07702 RGTR--
+221401001 Schifflange, Brill    01656  01656                % 07702 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01659  01659                % 07702 RGTR--
+220402053 Esch/Alzette, Lallen  01700  01700                % 07702 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01700  01700                % 07702 RGTR--
+220402020 Esch/Alzette, Cinqua  01702  01702                % 07702 RGTR--
+220402066 Esch/Alzette, Op der  01703  01703                % 07702 RGTR--
+220402049 Esch/Alzette, Cliniq  01705  01705                % 07702 RGTR--
+220402072 Esch/Alzette, Place   01707  01707                % 07702 RGTR--
+220402034 Esch/Alzette, Gare    01709                       % 07702 RGTR--
+*Z 07703 RGTR--                                             % 07703 RGTR--
+*L 314      220803001 220402034  01705  01729               % 07703 RGTR--
+*A ag 220803001 220402034 000001  01705  01729              % 07703 RGTR--
+*R 2 220402034 220803001 220402034  01705  01729            % 07703 RGTR--
+*G RGB 220803001 220402034  01705  01729                    % 07703 RGTR--
+*A VE 220803001 220402034 000001  01705  01729              % 07703 RGTR--
+*I FD 220803001 220402034        0002220  01705  01729      % 07703 RGTR--
+220803001 Mondercange, A.Thinn         01705                % 07703 RGTR--
+220803017 Mondercange, Musekss  01706  01706                % 07703 RGTR--
+220803005 Mondercange, Centre   01707  01707                % 07703 RGTR--
+220803031 Mondercange, A Bosse  01707  01707                % 07703 RGTR--
+220803030 Mondercange, Dokter   01708  01708                % 07703 RGTR--
+220803013 Mondercange, Krombac  01709  01709                % 07703 RGTR--
+220802010 Foetz, Rond Point     01710  01710                % 07703 RGTR--
+220802003 Foetz, Am Brill       01712  01712                % 07703 RGTR--
+221401011 Schifflange, Ecole N  01716  01716                % 07703 RGTR--
+221401001 Schifflange, Brill    01716  01716                % 07703 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01719  01719                % 07703 RGTR--
+220402053 Esch/Alzette, Lallen  01720  01720                % 07703 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01720  01720                % 07703 RGTR--
+220402020 Esch/Alzette, Cinqua  01722  01722                % 07703 RGTR--
+220402066 Esch/Alzette, Op der  01723  01723                % 07703 RGTR--
+220402049 Esch/Alzette, Cliniq  01725  01725                % 07703 RGTR--
+220402072 Esch/Alzette, Place   01727  01727                % 07703 RGTR--
+220402034 Esch/Alzette, Gare    01729                       % 07703 RGTR--
+*Z 07704 RGTR--                                             % 07704 RGTR--
+*L 314      220803001 220402034  01725  01749               % 07704 RGTR--
+*A ag 220803001 220402034 000001  01725  01749              % 07704 RGTR--
+*R 2 220402034 220803001 220402034  01725  01749            % 07704 RGTR--
+*G RGB 220803001 220402034  01725  01749                    % 07704 RGTR--
+*A VE 220803001 220402034 000001  01725  01749              % 07704 RGTR--
+*I FD 220803001 220402034        0003272  01725  01749      % 07704 RGTR--
+220803001 Mondercange, A.Thinn         01725                % 07704 RGTR--
+220803017 Mondercange, Musekss  01726  01726                % 07704 RGTR--
+220803005 Mondercange, Centre   01727  01727                % 07704 RGTR--
+220803031 Mondercange, A Bosse  01727  01727                % 07704 RGTR--
+220803030 Mondercange, Dokter   01728  01728                % 07704 RGTR--
+220803013 Mondercange, Krombac  01729  01729                % 07704 RGTR--
+220802010 Foetz, Rond Point     01730  01730                % 07704 RGTR--
+220802003 Foetz, Am Brill       01732  01732                % 07704 RGTR--
+221401011 Schifflange, Ecole N  01736  01736                % 07704 RGTR--
+221401001 Schifflange, Brill    01736  01736                % 07704 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01739  01739                % 07704 RGTR--
+220402053 Esch/Alzette, Lallen  01740  01740                % 07704 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01740  01740                % 07704 RGTR--
+220402020 Esch/Alzette, Cinqua  01742  01742                % 07704 RGTR--
+220402066 Esch/Alzette, Op der  01743  01743                % 07704 RGTR--
+220402049 Esch/Alzette, Cliniq  01745  01745                % 07704 RGTR--
+220402072 Esch/Alzette, Place   01747  01747                % 07704 RGTR--
+220402034 Esch/Alzette, Gare    01749                       % 07704 RGTR--
+*Z 07705 RGTR--                                             % 07705 RGTR--
+*L 314      220803001 220402034  01745  01809               % 07705 RGTR--
+*A ag 220803001 220402034 000001  01745  01809              % 07705 RGTR--
+*R 2 220402034 220803001 220402034  01745  01809            % 07705 RGTR--
+*G RGB 220803001 220402034  01745  01809                    % 07705 RGTR--
+*A VE 220803001 220402034 000001  01745  01809              % 07705 RGTR--
+*I FD 220803001 220402034        0002976  01745  01809      % 07705 RGTR--
+220803001 Mondercange, A.Thinn         01745                % 07705 RGTR--
+220803017 Mondercange, Musekss  01746  01746                % 07705 RGTR--
+220803005 Mondercange, Centre   01747  01747                % 07705 RGTR--
+220803031 Mondercange, A Bosse  01747  01747                % 07705 RGTR--
+220803030 Mondercange, Dokter   01748  01748                % 07705 RGTR--
+220803013 Mondercange, Krombac  01749  01749                % 07705 RGTR--
+220802010 Foetz, Rond Point     01750  01750                % 07705 RGTR--
+220802003 Foetz, Am Brill       01752  01752                % 07705 RGTR--
+221401011 Schifflange, Ecole N  01756  01756                % 07705 RGTR--
+221401001 Schifflange, Brill    01756  01756                % 07705 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01759  01759                % 07705 RGTR--
+220402053 Esch/Alzette, Lallen  01800  01800                % 07705 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01800  01800                % 07705 RGTR--
+220402020 Esch/Alzette, Cinqua  01802  01802                % 07705 RGTR--
+220402066 Esch/Alzette, Op der  01803  01803                % 07705 RGTR--
+220402049 Esch/Alzette, Cliniq  01805  01805                % 07705 RGTR--
+220402072 Esch/Alzette, Place   01807  01807                % 07705 RGTR--
+220402034 Esch/Alzette, Gare    01809                       % 07705 RGTR--
+*Z 07706 RGTR--                                             % 07706 RGTR--
+*L 314      220803001 220402034  01805  01829               % 07706 RGTR--
+*A ag 220803001 220402034 000001  01805  01829              % 07706 RGTR--
+*R 2 220402034 220803001 220402034  01805  01829            % 07706 RGTR--
+*G RGB 220803001 220402034  01805  01829                    % 07706 RGTR--
+*A VE 220803001 220402034 000001  01805  01829              % 07706 RGTR--
+*I FD 220803001 220402034        0002221  01805  01829      % 07706 RGTR--
+220803001 Mondercange, A.Thinn         01805                % 07706 RGTR--
+220803017 Mondercange, Musekss  01806  01806                % 07706 RGTR--
+220803005 Mondercange, Centre   01807  01807                % 07706 RGTR--
+220803031 Mondercange, A Bosse  01807  01807                % 07706 RGTR--
+220803030 Mondercange, Dokter   01808  01808                % 07706 RGTR--
+220803013 Mondercange, Krombac  01809  01809                % 07706 RGTR--
+220802010 Foetz, Rond Point     01810  01810                % 07706 RGTR--
+220802003 Foetz, Am Brill       01812  01812                % 07706 RGTR--
+221401011 Schifflange, Ecole N  01816  01816                % 07706 RGTR--
+221401001 Schifflange, Brill    01816  01816                % 07706 RGTR--
+220402013 Esch/Alzette, Bd. Pi  01819  01819                % 07706 RGTR--
+220402053 Esch/Alzette, Lallen  01820  01820                % 07706 RGTR--
+220402012 Esch/Alzette, Bd. Hu  01820  01820                % 07706 RGTR--
+220402020 Esch/Alzette, Cinqua  01822  01822                % 07706 RGTR--
+220402066 Esch/Alzette, Op der  01823  01823                % 07706 RGTR--
+220402049 Esch/Alzette, Cliniq  01825  01825                % 07706 RGTR--
+220402072 Esch/Alzette, Place   01827  01827                % 07706 RGTR--
+220402034 Esch/Alzette, Gare    01829                       % 07706 RGTR--

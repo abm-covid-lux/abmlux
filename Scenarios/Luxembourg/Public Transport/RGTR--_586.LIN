@@ -1,0 +1,71 @@
+*F 03 2
+*Z 09761 RGTR--                                             % 09761 RGTR--
+*L 586      150704003 150606005  00725  00743               % 09761 RGTR--
+*A al 150704003 150606005 000002  00725  00743              % 09761 RGTR--
+*A dk 150704003 150606005 000002  00725  00743              % 09761 RGTR--
+*A ad 150704003 150606005 000002  00725  00743              % 09761 RGTR--
+*R 1 150606005 150704003 150606005  00725  00743            % 09761 RGTR--
+*G RGB 150704003 150606005  00725  00743                    % 09761 RGTR--
+*A VE 150704003 150606005 000002  00725  00743              % 09761 RGTR--
+*I FD 150704003 150606005        0002075  00725  00743      % 09761 RGTR--
+150704003 Saeul, Post                  00725                % 09761 RGTR--
+150705002 Schwebach, Bréck      00728  00728                % 09761 RGTR--
+150802001 Rippweiler, Beim Nös  00730  00730                % 09761 RGTR--
+150106001 Noerdange, Ale Pompj  00733  00733                % 09761 RGTR--
+150106004 Noerdange, Bei der P  00734  00734                % 09761 RGTR--
+150106002 Noerdange, A Batzent  00735  00735                % 09761 RGTR--
+150604002 Niederpallen, Veräin  00737  00737                % 09761 RGTR--
+150604001 Niederpallen, Ditzeb  00737  00737                % 09761 RGTR--
+150606010 Redange, Solupla      00738  00738                % 09761 RGTR--
+150606008 Redange, Schleissche  00739  00739                % 09761 RGTR--
+150606004 Redange, Gemeng       00740  00740                % 09761 RGTR--
+150606009 Redange, Schock       00742  00742                % 09761 RGTR--
+150606005 Redange, Lycée Atert  00743                       % 09761 RGTR--
+*Z 09762 RGTR--                                             % 09762 RGTR--
+*L 586      150606005 150704001  01225  01243               % 09762 RGTR--
+*A al 150606005 150704001 000021  01225  01243              % 09762 RGTR--
+*A dk 150606005 150704001 000021  01225  01243              % 09762 RGTR--
+*A ad 150606005 150704001 000021  01225  01243              % 09762 RGTR--
+*R 2 150704001 150606005 150704001  01225  01243            % 09762 RGTR--
+*G RGB 150606005 150704001  01225  01243                    % 09762 RGTR--
+*A VE 150606005 150704001 000021  01225  01243              % 09762 RGTR--
+*I FD 150606005 150704001        0002849  01225  01243      % 09762 RGTR--
+150606005 Redange, Lycée Atert         01225                % 09762 RGTR--
+150606009 Redange, Schock       01226  01226                % 09762 RGTR--
+150606007 Redange, Osperstroos  01227  01227                % 09762 RGTR--
+150606003 Redange, Gare         01228  01228                % 09762 RGTR--
+150606001 Redange/Attert, Bian  01229  01229                % 09762 RGTR--
+150606008 Redange, Schleissche  01230  01230                % 09762 RGTR--
+150606010 Redange, Solupla      01231  01231                % 09762 RGTR--
+150604001 Niederpallen, Ditzeb  01232  01232                % 09762 RGTR--
+150604002 Niederpallen, Veräin  01232  01232                % 09762 RGTR--
+150106002 Noerdange, A Batzent  01234  01234                % 09762 RGTR--
+150106004 Noerdange, Bei der P  01235  01235                % 09762 RGTR--
+150106001 Noerdange, Ale Pompj  01235  01235                % 09762 RGTR--
+150802001 Rippweiler, Beim Nös  01238  01238                % 09762 RGTR--
+150705002 Schwebach, Bréck      01240  01240                % 09762 RGTR--
+150704001 Saeul, Beim Sand      01243                       % 09762 RGTR--
+*Z 09763 RGTR--                                             % 09763 RGTR--
+*L 586      150606005 150704001  01540  01558               % 09763 RGTR--
+*A al 150606005 150704001 000026  01540  01558              % 09763 RGTR--
+*A dk 150606005 150704001 000026  01540  01558              % 09763 RGTR--
+*A ad 150606005 150704001 000026  01540  01558              % 09763 RGTR--
+*R 2 150704001 150606005 150704001  01540  01558            % 09763 RGTR--
+*G RGB 150606005 150704001  01540  01558                    % 09763 RGTR--
+*A VE 150606005 150704001 000026  01540  01558              % 09763 RGTR--
+*I FD 150606005 150704001        0001910  01540  01558      % 09763 RGTR--
+150606005 Redange, Lycée Atert         01540                % 09763 RGTR--
+150606009 Redange, Schock       01541  01541                % 09763 RGTR--
+150606007 Redange, Osperstroos  01542  01542                % 09763 RGTR--
+150606003 Redange, Gare         01543  01543                % 09763 RGTR--
+150606001 Redange/Attert, Bian  01544  01544                % 09763 RGTR--
+150606008 Redange, Schleissche  01545  01545                % 09763 RGTR--
+150606010 Redange, Solupla      01546  01546                % 09763 RGTR--
+150604001 Niederpallen, Ditzeb  01547  01547                % 09763 RGTR--
+150604002 Niederpallen, Veräin  01547  01547                % 09763 RGTR--
+150106002 Noerdange, A Batzent  01549  01549                % 09763 RGTR--
+150106004 Noerdange, Bei der P  01550  01550                % 09763 RGTR--
+150106001 Noerdange, Ale Pompj  01550  01550                % 09763 RGTR--
+150802001 Rippweiler, Beim Nös  01553  01553                % 09763 RGTR--
+150705002 Schwebach, Bréck      01555  01555                % 09763 RGTR--
+150704001 Saeul, Beim Sand      01558                       % 09763 RGTR--

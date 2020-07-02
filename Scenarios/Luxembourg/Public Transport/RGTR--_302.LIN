@@ -1,0 +1,133 @@
+*F 03 2
+*Z 10648 RGTR--                                             % 10648 RGTR--
+*L 302      200302001 210503012  00700  00739               % 10648 RGTR--
+*A au 200302001 210503012 000002  00700  00739              % 10648 RGTR--
+*A ad 200302001 210503012 000002  00700  00739              % 10648 RGTR--
+*R 1 210503012 200302001 210503012  00700  00739            % 10648 RGTR--
+*G RGB 200302001 210503012  00700  00739                    % 10648 RGTR--
+*A VE 200302001 210503012 000002  00700  00739              % 10648 RGTR--
+*I FD 200302001 210503012        0002858  00700  00739      % 10648 RGTR--
+200302001 Fentange, Duelemerba         00700                % 10648 RGTR--
+200302003 Fentange, Hiehl       00700  00700                % 10648 RGTR--
+200302002 Fentange, Fuertwee    00701  00701                % 10648 RGTR--
+221106003 Roeser, Kiirfecht     00704  00704                % 10648 RGTR--
+221106005 Roeser, Oradour       00705  00705                % 10648 RGTR--
+221106002 Roeser, Gemeng        00706  00706                % 10648 RGTR--
+221103001 Crauthem, Am Gruef    00707  00707                % 10648 RGTR--
+221103002 Crauthem, Beim Schla  00708  00708                % 10648 RGTR--
+221105002 Peppange, Kirchwois   00709  00709                % 10648 RGTR--
+221105003 Peppange, Musée       00710  00710                % 10648 RGTR--
+220102009 Bettembourg, Peppeng  00712  00712                % 10648 RGTR--
+220102003 Bettembourg, Am Dräi  00712  00712                % 10648 RGTR--
+220102005 Bettembourg, Gare     00714  00714                % 10648 RGTR--
+220503003 Hellange, Kiirch      00722  00722                % 10648 RGTR--
+220502004 Frisange, Op der Krä  00726  00726                % 10648 RGTR--
+220502002 Frisange, Ennescht D  00727  00727                % 10648 RGTR--
+220501002 Aspelt, Gare          00730  00730                % 10648 RGTR--
+220501001 Aspelt, Am Grëndchen  00731  00731                % 10648 RGTR--
+210501002 Altwies, Beckeschmil  00732  00732                % 10648 RGTR--
+210501001 Altwies, An der Kaz   00734  00734                % 10648 RGTR--
+210503005 Mondorf, Kleng Gare   00735  00735                % 10648 RGTR--
+210503001 Mondorf, Bei der Dou  00735  00735                % 10648 RGTR--
+210503003 Mondorf, Christophor  00736  00736                % 10648 RGTR--
+210503002 Mondorf, Casino 2000  00737  00737                % 10648 RGTR--
+210503012 Mondorf, Ecole Inter  00739                       % 10648 RGTR--
+*Z 10649 RGTR--                                             % 10649 RGTR--
+*L 302      210503012 200302001  01610  01651               % 10649 RGTR--
+*A au 210503012 200302001 000101  01610  01651              % 10649 RGTR--
+*A ad 210503012 200302001 000101  01610  01651              % 10649 RGTR--
+*R 2 200302001 210503012 200302001  01610  01651            % 10649 RGTR--
+*G RGB 210503012 200302001  01610  01651                    % 10649 RGTR--
+*A VE 210503012 200302001 000101  01610  01651              % 10649 RGTR--
+*I FD 210503012 200302001        0002081  01610  01651      % 10649 RGTR--
+210503012 Mondorf, Ecole Inter         01610                % 10649 RGTR--
+210503002 Mondorf, Casino 2000  01612  01612                % 10649 RGTR--
+210503003 Mondorf, Christophor  01613  01613                % 10649 RGTR--
+210503001 Mondorf, Bei der Dou  01613  01613                % 10649 RGTR--
+210503005 Mondorf, Kleng Gare   01614  01614                % 10649 RGTR--
+210501001 Altwies, An der Kaz   01615  01615                % 10649 RGTR--
+210501002 Altwies, Beckeschmil  01617  01617                % 10649 RGTR--
+220501001 Aspelt, Am Grëndchen  01619  01619                % 10649 RGTR--
+220501002 Aspelt, Gare          01620  01620                % 10649 RGTR--
+220502002 Frisange, Ennescht D  01622  01622                % 10649 RGTR--
+220502004 Frisange, Op der Krä  01624  01624                % 10649 RGTR--
+220503003 Hellange, Kiirch      01628  01628                % 10649 RGTR--
+220102005 Bettembourg, Gare     01636  01636                % 10649 RGTR--
+220102003 Bettembourg, Am Dräi  01637  01637                % 10649 RGTR--
+220102009 Bettembourg, Peppeng  01638  01638                % 10649 RGTR--
+221105003 Peppange, Musée       01640  01640                % 10649 RGTR--
+221105002 Peppange, Kirchwois   01640  01640                % 10649 RGTR--
+221103002 Crauthem, Beim Schla  01642  01642                % 10649 RGTR--
+221103001 Crauthem, Am Gruef    01643  01643                % 10649 RGTR--
+221106002 Roeser, Gemeng        01644  01644                % 10649 RGTR--
+221106005 Roeser, Oradour       01645  01645                % 10649 RGTR--
+221106004 Roeser, Op der Hoehl  01646  01646                % 10649 RGTR--
+200302002 Fentange, Fuertwee    01650  01650                % 10649 RGTR--
+200302003 Fentange, Hiehl       01651  01651                % 10649 RGTR--
+200302001 Fentange, Duelemerba  01651                       % 10649 RGTR--
+*Z 10650 RGTR--                                             % 10650 RGTR--
+*L 302      210503012 200302001  01225  01304               % 10650 RGTR--
+*A au 210503012 200302001 000007  01225  01304              % 10650 RGTR--
+*A ad 210503012 200302001 000007  01225  01304              % 10650 RGTR--
+*R 2 200302001 210503012 200302001  01225  01304            % 10650 RGTR--
+*G RGB 210503012 200302001  01225  01304                    % 10650 RGTR--
+*A VE 210503012 200302001 000007  01225  01304              % 10650 RGTR--
+*I FD 210503012 200302001        0001945  01225  01304      % 10650 RGTR--
+210503012 Mondorf, Ecole Inter         01225                % 10650 RGTR--
+210503002 Mondorf, Casino 2000  01226  01226                % 10650 RGTR--
+210503003 Mondorf, Christophor  01227  01227                % 10650 RGTR--
+210503001 Mondorf, Bei der Dou  01228  01228                % 10650 RGTR--
+210503005 Mondorf, Kleng Gare   01229  01229                % 10650 RGTR--
+210501001 Altwies, An der Kaz   01230  01230                % 10650 RGTR--
+210501002 Altwies, Beckeschmil  01231  01231                % 10650 RGTR--
+220501001 Aspelt, Am Grëndchen  01233  01233                % 10650 RGTR--
+220501002 Aspelt, Gare          01234  01234                % 10650 RGTR--
+220502002 Frisange, Ennescht D  01237  01237                % 10650 RGTR--
+220502004 Frisange, Op der Krä  01238  01238                % 10650 RGTR--
+220503003 Hellange, Kiirch      01242  01242                % 10650 RGTR--
+220102005 Bettembourg, Gare     01249  01249                % 10650 RGTR--
+220102003 Bettembourg, Am Dräi  01251  01251                % 10650 RGTR--
+220102009 Bettembourg, Peppeng  01251  01251                % 10650 RGTR--
+221105003 Peppange, Musée       01253  01253                % 10650 RGTR--
+221105002 Peppange, Kirchwois   01254  01254                % 10650 RGTR--
+221103002 Crauthem, Beim Schla  01256  01256                % 10650 RGTR--
+221103001 Crauthem, Am Gruef    01256  01256                % 10650 RGTR--
+221106002 Roeser, Gemeng        01258  01258                % 10650 RGTR--
+221106005 Roeser, Oradour       01259  01259                % 10650 RGTR--
+221106004 Roeser, Op der Hoehl  01300  01300                % 10650 RGTR--
+200302002 Fentange, Fuertwee    01303  01303                % 10650 RGTR--
+200302003 Fentange, Hiehl       01303  01303                % 10650 RGTR--
+200302001 Fentange, Duelemerba  01304                       % 10650 RGTR--
+*Z 10651 RGTR--                                             % 10651 RGTR--
+*L 302      210503012 200302001  01310  01349               % 10651 RGTR--
+*A au 210503012 200302001 000093  01310  01349              % 10651 RGTR--
+*A ad 210503012 200302001 000093  01310  01349              % 10651 RGTR--
+*R 2 200302001 210503012 200302001  01310  01349            % 10651 RGTR--
+*G RGB 210503012 200302001  01310  01349                    % 10651 RGTR--
+*A VE 210503012 200302001 000093  01310  01349              % 10651 RGTR--
+*I FD 210503012 200302001        0002062  01310  01349      % 10651 RGTR--
+210503012 Mondorf, Ecole Inter         01310                % 10651 RGTR--
+210503002 Mondorf, Casino 2000  01311  01311                % 10651 RGTR--
+210503003 Mondorf, Christophor  01312  01312                % 10651 RGTR--
+210503001 Mondorf, Bei der Dou  01313  01313                % 10651 RGTR--
+210503005 Mondorf, Kleng Gare   01314  01314                % 10651 RGTR--
+210501001 Altwies, An der Kaz   01315  01315                % 10651 RGTR--
+210501002 Altwies, Beckeschmil  01316  01316                % 10651 RGTR--
+220501001 Aspelt, Am Grëndchen  01318  01318                % 10651 RGTR--
+220501002 Aspelt, Gare          01319  01319                % 10651 RGTR--
+220502002 Frisange, Ennescht D  01322  01322                % 10651 RGTR--
+220502004 Frisange, Op der Krä  01323  01323                % 10651 RGTR--
+220503003 Hellange, Kiirch      01327  01327                % 10651 RGTR--
+220102005 Bettembourg, Gare     01334  01334                % 10651 RGTR--
+220102003 Bettembourg, Am Dräi  01336  01336                % 10651 RGTR--
+220102009 Bettembourg, Peppeng  01336  01336                % 10651 RGTR--
+221105003 Peppange, Musée       01338  01338                % 10651 RGTR--
+221105002 Peppange, Kirchwois   01339  01339                % 10651 RGTR--
+221103002 Crauthem, Beim Schla  01341  01341                % 10651 RGTR--
+221103001 Crauthem, Am Gruef    01341  01341                % 10651 RGTR--
+221106002 Roeser, Gemeng        01343  01343                % 10651 RGTR--
+221106005 Roeser, Oradour       01344  01344                % 10651 RGTR--
+221106004 Roeser, Op der Hoehl  01345  01345                % 10651 RGTR--
+200302002 Fentange, Fuertwee    01348  01348                % 10651 RGTR--
+200302003 Fentange, Hiehl       01348  01348                % 10651 RGTR--
+200302001 Fentange, Duelemerba  01349                       % 10651 RGTR--
