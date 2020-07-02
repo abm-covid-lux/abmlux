@@ -1,0 +1,130 @@
+*F 03 2
+*Z 02583 RGTR--                                             % 02583 RGTR--
+*L 435      160904001 190501001  01445  01523               % 02583 RGTR--
+*A al 160904001 190501001 000002  01445  01523              % 02583 RGTR--
+*A cb 160904001 190501001 000002  01445  01523              % 02583 RGTR--
+*A ad 160904001 190501001 000002  01445  01523              % 02583 RGTR--
+*R 1 190501001 160904001 190501001  01445  01523            % 02583 RGTR--
+*G RGB 160904001 190501001  01445  01523                    % 02583 RGTR--
+*A VE 160904001 190501001 000002  01445  01523              % 02583 RGTR--
+*I FD 160904001 190501001        0002552  01445  01523      % 02583 RGTR--
+160904001 Mersch, Gare                 01445                % 02583 RGTR--
+160904003 Mersch, Maartplaz     01446  01446                % 02583 RGTR--
+160904010 Mersch, Nic. Welter   01446  01446                % 02583 RGTR--
+160904002 Mersch, Lankheck      01447  01447                % 02583 RGTR--
+160907004 Reckange/Mersch, Hun  01449  01449                % 02583 RGTR--
+160903001 Mersch, Hunnebour     01451  01451                % 02583 RGTR--
+161104001 Kuelbecherhaff        01454  01454                % 02583 RGTR--
+161103002 Hollenfels, Vereinsb  01457  01457                % 02583 RGTR--
+161103001 Hollenfels, Schoul    01458  01458                % 02583 RGTR--
+161106003 Tuntange, Knupp       01501  01501                % 02583 RGTR--
+161106002 Tuntange, Kiirch      01502  01502                % 02583 RGTR--
+161106001 Tuntange, Duerf       01503  01503                % 02583 RGTR--
+161106005 Tuntange, Weisserche  01503  01503                % 02583 RGTR--
+161102001 Bour                  01506  01506                % 02583 RGTR--
+191003001 Roodt/Bour, Bréck     01507  01507                % 02583 RGTR--
+191002002 Septfontaines, Simme  01509  01509                % 02583 RGTR--
+191002001 Septfontaines, Schou  01511  01511                % 02583 RGTR--
+191002003 Septfontaines, Op La  01514  01514                % 02583 RGTR--
+190703004 Koerich, SES          01515  01515                % 02583 RGTR--
+190502006 Hobscheid, Ruppert    01518  01518                % 02583 RGTR--
+190502007 Hobscheid, Laiterie   01519  01519                % 02583 RGTR--
+190501002 Eischen, rue de Hobs  01523  01523                % 02583 RGTR--
+190501001 Eischen, Denn         01523                       % 02583 RGTR--
+*Z 02584 RGTR--                                             % 02584 RGTR--
+*L 435      160904001 190501001  01415  01453               % 02584 RGTR--
+*A al 160904001 190501001 000047  01415  01453              % 02584 RGTR--
+*A cb 160904001 190501001 000047  01415  01453              % 02584 RGTR--
+*A ad 160904001 190501001 000047  01415  01453              % 02584 RGTR--
+*R 1 190501001 160904001 190501001  01415  01453            % 02584 RGTR--
+*G RGB 160904001 190501001  01415  01453                    % 02584 RGTR--
+*A VE 160904001 190501001 000047  01415  01453              % 02584 RGTR--
+*I FD 160904001 190501001        0001735  01415  01453      % 02584 RGTR--
+160904001 Mersch, Gare                 01415                % 02584 RGTR--
+160904003 Mersch, Maartplaz     01416  01416                % 02584 RGTR--
+160904010 Mersch, Nic. Welter   01416  01416                % 02584 RGTR--
+160904002 Mersch, Lankheck      01417  01417                % 02584 RGTR--
+160907004 Reckange/Mersch, Hun  01419  01419                % 02584 RGTR--
+160903001 Mersch, Hunnebour     01421  01421                % 02584 RGTR--
+161104001 Kuelbecherhaff        01424  01424                % 02584 RGTR--
+161103002 Hollenfels, Vereinsb  01427  01427                % 02584 RGTR--
+161103001 Hollenfels, Schoul    01428  01428                % 02584 RGTR--
+161106003 Tuntange, Knupp       01431  01431                % 02584 RGTR--
+161106002 Tuntange, Kiirch      01432  01432                % 02584 RGTR--
+161106001 Tuntange, Duerf       01433  01433                % 02584 RGTR--
+161106005 Tuntange, Weisserche  01433  01433                % 02584 RGTR--
+161102001 Bour                  01436  01436                % 02584 RGTR--
+191003001 Roodt/Bour, Bréck     01437  01437                % 02584 RGTR--
+191002002 Septfontaines, Simme  01439  01439                % 02584 RGTR--
+191002001 Septfontaines, Schou  01441  01441                % 02584 RGTR--
+191002003 Septfontaines, Op La  01444  01444                % 02584 RGTR--
+190703004 Koerich, SES          01445  01445                % 02584 RGTR--
+190502006 Hobscheid, Ruppert    01448  01448                % 02584 RGTR--
+190502007 Hobscheid, Laiterie   01449  01449                % 02584 RGTR--
+190501002 Eischen, rue de Hobs  01453  01453                % 02584 RGTR--
+190501001 Eischen, Denn         01453                       % 02584 RGTR--
+*Z 02585 RGTR--                                             % 02585 RGTR--
+*L 435      160904001 190501001  01630  01708               % 02585 RGTR--
+*A al 160904001 190501001 000099  01630  01708              % 02585 RGTR--
+*A cb 160904001 190501001 000099  01630  01708              % 02585 RGTR--
+*A ad 160904001 190501001 000099  01630  01708              % 02585 RGTR--
+*R 1 190501001 160904001 190501001  01630  01708            % 02585 RGTR--
+*G RGB 160904001 190501001  01630  01708                    % 02585 RGTR--
+*A VE 160904001 190501001 000099  01630  01708              % 02585 RGTR--
+*I FD 160904001 190501001        0002082  01630  01708      % 02585 RGTR--
+160904001 Mersch, Gare                 01630                % 02585 RGTR--
+160904003 Mersch, Maartplaz     01631  01631                % 02585 RGTR--
+160904010 Mersch, Nic. Welter   01631  01631                % 02585 RGTR--
+160904002 Mersch, Lankheck      01632  01632                % 02585 RGTR--
+160907004 Reckange/Mersch, Hun  01634  01634                % 02585 RGTR--
+160903001 Mersch, Hunnebour     01636  01636                % 02585 RGTR--
+161104001 Kuelbecherhaff        01639  01639                % 02585 RGTR--
+161103002 Hollenfels, Vereinsb  01642  01642                % 02585 RGTR--
+161103001 Hollenfels, Schoul    01643  01643                % 02585 RGTR--
+161106003 Tuntange, Knupp       01646  01646                % 02585 RGTR--
+161106002 Tuntange, Kiirch      01647  01647                % 02585 RGTR--
+161106001 Tuntange, Duerf       01648  01648                % 02585 RGTR--
+161106005 Tuntange, Weisserche  01648  01648                % 02585 RGTR--
+161102001 Bour                  01651  01651                % 02585 RGTR--
+191003001 Roodt/Bour, Bréck     01652  01652                % 02585 RGTR--
+191002002 Septfontaines, Simme  01654  01654                % 02585 RGTR--
+191002001 Septfontaines, Schou  01656  01656                % 02585 RGTR--
+191002003 Septfontaines, Op La  01659  01659                % 02585 RGTR--
+190703004 Koerich, SES          01700  01700                % 02585 RGTR--
+190502006 Hobscheid, Ruppert    01703  01703                % 02585 RGTR--
+190502007 Hobscheid, Laiterie   01704  01704                % 02585 RGTR--
+190501002 Eischen, rue de Hobs  01708  01708                % 02585 RGTR--
+190501001 Eischen, Denn         01708                       % 02585 RGTR--
+*Z 02586 RGTR--                                             % 02586 RGTR--
+*L 435      190501001 160904001  00718  00800               % 02586 RGTR--
+*A al 190501001 160904001 000002  00718  00800              % 02586 RGTR--
+*A cb 190501001 160904001 000002  00718  00800              % 02586 RGTR--
+*A ad 190501001 160904001 000002  00718  00800              % 02586 RGTR--
+*R 2 160904001 190501001 160904001  00718  00800            % 02586 RGTR--
+*G RGB 190501001 160904001  00718  00800                    % 02586 RGTR--
+*A VE 190501001 160904001 000002  00718  00800              % 02586 RGTR--
+*I FD 190501001 160904001        0002855  00718  00800      % 02586 RGTR--
+190501001 Eischen, Denn                00718                % 02586 RGTR--
+190501002 Eischen, rue de Hobs  00719  00719                % 02586 RGTR--
+190502003 Hobscheid, Schoul     00722  00722                % 02586 RGTR--
+190502006 Hobscheid, Ruppert    00723  00723                % 02586 RGTR--
+190703004 Koerich, SES          00726  00726                % 02586 RGTR--
+191002003 Septfontaines, Op La  00727  00727                % 02586 RGTR--
+191002001 Septfontaines, Schou  00730  00730                % 02586 RGTR--
+191002002 Septfontaines, Simme  00732  00732                % 02586 RGTR--
+191003001 Roodt/Bour, Bréck     00734  00734                % 02586 RGTR--
+161102001 Bour                  00736  00736                % 02586 RGTR--
+161106005 Tuntange, Weisserche  00739  00739                % 02586 RGTR--
+161106001 Tuntange, Duerf       00740  00740                % 02586 RGTR--
+161106002 Tuntange, Kiirch      00740  00740                % 02586 RGTR--
+161106003 Tuntange, Knupp       00742  00742                % 02586 RGTR--
+161103001 Hollenfels, Schoul    00744  00744                % 02586 RGTR--
+161103002 Hollenfels, Vereinsb  00745  00745                % 02586 RGTR--
+161104001 Kuelbecherhaff        00748  00748                % 02586 RGTR--
+160903001 Mersch, Hunnebour     00751  00751                % 02586 RGTR--
+160907004 Reckange/Mersch, Hun  00753  00753                % 02586 RGTR--
+160904002 Mersch, Lankheck      00756  00756                % 02586 RGTR--
+160904010 Mersch, Nic. Welter   00757  00757                % 02586 RGTR--
+160904003 Mersch, Maartplaz     00757  00757                % 02586 RGTR--
+160904005 Mersch, Stäereplaz    00759  00759                % 02586 RGTR--
+160904001 Mersch, Gare          00800                       % 02586 RGTR--

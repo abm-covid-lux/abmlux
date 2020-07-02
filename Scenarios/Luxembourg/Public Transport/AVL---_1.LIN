@@ -1,0 +1,1753 @@
+*F 03 2
+*Z 00443 AVL---                                             % 00443 AVL---
+*L 1        200415016 200417023  02036  02107               % 00443 AVL---
+*A BE 200415016 200417023 000005  02036  02107              % 00443 AVL---
+*R 1 200417023 200415016 200417023  02036  02107            % 00443 AVL---
+*G AVS 200415016 200417023  02036  02107                    % 00443 AVL---
+*A VE 200415016 200417023 000005  02036  02107              % 00443 AVL---
+200415016 Hollerich, AVL Porta         02036                % 00443 AVL---
+200415009 Hollerich, P+R Bouil  02037  02037                % 00443 AVL---
+200415017 Hollerich, P+R Bouil  02038  02038                % 00443 AVL---
+200415006 Hollerich, Jean-Bapt  02039  02039                % 00443 AVL---
+200415003 Hollerich, Fonderie   02041  02041                % 00443 AVL---
+200405036 Luxembourg, Gare rou  02043  02043                % 00443 AVL---
+200405013 Centre, F.D. Rooseve  02047  02047                % 00443 AVL---
+200405020 Hamilius              02050  02050                % 00443 AVL---
+200405014 Centre, Fondation Pe  02052  02052                % 00443 AVL---
+200417047 Kirchberg, Rout Bréc  02054  02054                % 00443 AVL---
+200417007 Kirchberg, B.E.I.     02055  02055                % 00443 AVL---
+200417016 Kirchberg, Jean Monn  02057  02057                % 00443 AVL---
+200417005 Kirchberg, Antoine d  02058  02058                % 00443 AVL---
+200417019 Kirchberg, Konrad Ad  02058  02058                % 00443 AVL---
+200417013 Kirchberg, Coudenhov  02059  02059                % 00443 AVL---
+200417002 Kirchberg, Albert Bo  02100  02100                % 00443 AVL---
+200417036 Kirchberg, Réimerwee  02100  02100                % 00443 AVL---
+200417004 Kirchberg, Alphonse   02101  02101                % 00443 AVL---
+200417015 Kirchberg, Hôpital    02103  02103                % 00443 AVL---
+200417057 Kirchberg, Luxexpo Q  02105  02105                % 00443 AVL---
+200417033 Kirchberg, Poutty St  02106  02106                % 00443 AVL---
+200417023 Kirchberg, Luxexpo E  02107                       % 00443 AVL---
+*Z 00444 AVL---                                             % 00444 AVL---
+*L 1        200415016 200417023  00629  00700               % 00444 AVL---
+*A BE 200415016 200417023 000002  00629  00700              % 00444 AVL---
+*R 1 200417023 200415016 200417023  00629  00700            % 00444 AVL---
+*G AVG 200415016 200417023  00629  00700                    % 00444 AVL---
+*A VE 200415016 200417023 000002  00629  00700              % 00444 AVL---
+200415016 Hollerich, AVL Porta         00629                % 00444 AVL---
+200415009 Hollerich, P+R Bouil  00630  00630                % 00444 AVL---
+200415017 Hollerich, P+R Bouil  00631  00631                % 00444 AVL---
+200415006 Hollerich, Jean-Bapt  00632  00632                % 00444 AVL---
+200415003 Hollerich, Fonderie   00634  00634                % 00444 AVL---
+200405036 Luxembourg, Gare rou  00636  00636                % 00444 AVL---
+200405013 Centre, F.D. Rooseve  00640  00640                % 00444 AVL---
+200405020 Hamilius              00643  00643                % 00444 AVL---
+200405014 Centre, Fondation Pe  00645  00645                % 00444 AVL---
+200417047 Kirchberg, Rout Bréc  00647  00647                % 00444 AVL---
+200417007 Kirchberg, B.E.I.     00648  00648                % 00444 AVL---
+200417016 Kirchberg, Jean Monn  00650  00650                % 00444 AVL---
+200417005 Kirchberg, Antoine d  00651  00651                % 00444 AVL---
+200417019 Kirchberg, Konrad Ad  00651  00651                % 00444 AVL---
+200417013 Kirchberg, Coudenhov  00652  00652                % 00444 AVL---
+200417002 Kirchberg, Albert Bo  00653  00653                % 00444 AVL---
+200417036 Kirchberg, Réimerwee  00653  00653                % 00444 AVL---
+200417004 Kirchberg, Alphonse   00654  00654                % 00444 AVL---
+200417015 Kirchberg, Hôpital    00656  00656                % 00444 AVL---
+200417057 Kirchberg, Luxexpo Q  00658  00658                % 00444 AVL---
+200417033 Kirchberg, Poutty St  00659  00659                % 00444 AVL---
+200417023 Kirchberg, Luxexpo E  00700                       % 00444 AVL---
+*Z 00445 AVL---       001 030                               % 00445 AVL---
+*L 1        200415016 200417023  00521  00552               % 00445 AVL---
+*A BE 200415016 200417023 000005  00521  00552              % 00445 AVL---
+*R 1 200417023 200415016 200417023  00521  00552            % 00445 AVL---
+*G AVS 200415016 200417023  00521  00552                    % 00445 AVL---
+*A VE 200415016 200417023 000005  00521  00552              % 00445 AVL---
+200415016 Hollerich, AVL Porta         00521                % 00445 AVL---
+200415009 Hollerich, P+R Bouil  00522  00522                % 00445 AVL---
+200415017 Hollerich, P+R Bouil  00523  00523                % 00445 AVL---
+200415006 Hollerich, Jean-Bapt  00524  00524                % 00445 AVL---
+200415003 Hollerich, Fonderie   00526  00526                % 00445 AVL---
+200405036 Luxembourg, Gare rou  00528  00528                % 00445 AVL---
+200405013 Centre, F.D. Rooseve  00532  00532                % 00445 AVL---
+200405020 Hamilius              00535  00535                % 00445 AVL---
+200405014 Centre, Fondation Pe  00537  00537                % 00445 AVL---
+200417047 Kirchberg, Rout Bréc  00539  00539                % 00445 AVL---
+200417007 Kirchberg, B.E.I.     00540  00540                % 00445 AVL---
+200417016 Kirchberg, Jean Monn  00542  00542                % 00445 AVL---
+200417005 Kirchberg, Antoine d  00543  00543                % 00445 AVL---
+200417019 Kirchberg, Konrad Ad  00543  00543                % 00445 AVL---
+200417013 Kirchberg, Coudenhov  00544  00544                % 00445 AVL---
+200417002 Kirchberg, Albert Bo  00545  00545                % 00445 AVL---
+200417036 Kirchberg, Réimerwee  00545  00545                % 00445 AVL---
+200417004 Kirchberg, Alphonse   00546  00546                % 00445 AVL---
+200417015 Kirchberg, Hôpital    00548  00548                % 00445 AVL---
+200417057 Kirchberg, Luxexpo Q  00550  00550                % 00445 AVL---
+200417033 Kirchberg, Poutty St  00551  00551                % 00445 AVL---
+200417023 Kirchberg, Luxexpo E  00552                       % 00445 AVL---
+*Z 00446 AVL---       001 030                               % 00446 AVL---
+*L 1        200415016 200417023  00521  00552               % 00446 AVL---
+*A BE 200415016 200417023 000002  00521  00552              % 00446 AVL---
+*R 1 200417023 200415016 200417023  00521  00552            % 00446 AVL---
+*G AVG 200415016 200417023  00521  00552                    % 00446 AVL---
+*A VE 200415016 200417023 000002  00521  00552              % 00446 AVL---
+200415016 Hollerich, AVL Porta         00521                % 00446 AVL---
+200415009 Hollerich, P+R Bouil  00522  00522                % 00446 AVL---
+200415017 Hollerich, P+R Bouil  00523  00523                % 00446 AVL---
+200415006 Hollerich, Jean-Bapt  00524  00524                % 00446 AVL---
+200415003 Hollerich, Fonderie   00526  00526                % 00446 AVL---
+200405036 Luxembourg, Gare rou  00528  00528                % 00446 AVL---
+200405013 Centre, F.D. Rooseve  00532  00532                % 00446 AVL---
+200405020 Hamilius              00535  00535                % 00446 AVL---
+200405014 Centre, Fondation Pe  00537  00537                % 00446 AVL---
+200417047 Kirchberg, Rout Bréc  00539  00539                % 00446 AVL---
+200417007 Kirchberg, B.E.I.     00540  00540                % 00446 AVL---
+200417016 Kirchberg, Jean Monn  00542  00542                % 00446 AVL---
+200417005 Kirchberg, Antoine d  00543  00543                % 00446 AVL---
+200417019 Kirchberg, Konrad Ad  00543  00543                % 00446 AVL---
+200417013 Kirchberg, Coudenhov  00544  00544                % 00446 AVL---
+200417002 Kirchberg, Albert Bo  00545  00545                % 00446 AVL---
+200417036 Kirchberg, Réimerwee  00545  00545                % 00446 AVL---
+200417004 Kirchberg, Alphonse   00546  00546                % 00446 AVL---
+200417015 Kirchberg, Hôpital    00548  00548                % 00446 AVL---
+200417057 Kirchberg, Luxexpo Q  00550  00550                % 00446 AVL---
+200417033 Kirchberg, Poutty St  00551  00551                % 00446 AVL---
+200417023 Kirchberg, Luxexpo E  00552                       % 00446 AVL---
+*Z 00447 AVL---                                             % 00447 AVL---
+*L 1        200415016 200417023  00609  00640               % 00447 AVL---
+*A BE 200415016 200417023 000002  00609  00640              % 00447 AVL---
+*R 1 200417023 200415016 200417023  00609  00640            % 00447 AVL---
+*G AVG 200415016 200417023  00609  00640                    % 00447 AVL---
+*A VE 200415016 200417023 000002  00609  00640              % 00447 AVL---
+200415016 Hollerich, AVL Porta         00609                % 00447 AVL---
+200415009 Hollerich, P+R Bouil  00610  00610                % 00447 AVL---
+200415017 Hollerich, P+R Bouil  00611  00611                % 00447 AVL---
+200415006 Hollerich, Jean-Bapt  00612  00612                % 00447 AVL---
+200415003 Hollerich, Fonderie   00614  00614                % 00447 AVL---
+200405036 Luxembourg, Gare rou  00616  00616                % 00447 AVL---
+200405013 Centre, F.D. Rooseve  00620  00620                % 00447 AVL---
+200405020 Hamilius              00623  00623                % 00447 AVL---
+200405014 Centre, Fondation Pe  00625  00625                % 00447 AVL---
+200417047 Kirchberg, Rout Bréc  00627  00627                % 00447 AVL---
+200417007 Kirchberg, B.E.I.     00628  00628                % 00447 AVL---
+200417016 Kirchberg, Jean Monn  00630  00630                % 00447 AVL---
+200417005 Kirchberg, Antoine d  00631  00631                % 00447 AVL---
+200417019 Kirchberg, Konrad Ad  00631  00631                % 00447 AVL---
+200417013 Kirchberg, Coudenhov  00632  00632                % 00447 AVL---
+200417002 Kirchberg, Albert Bo  00633  00633                % 00447 AVL---
+200417036 Kirchberg, Réimerwee  00633  00633                % 00447 AVL---
+200417004 Kirchberg, Alphonse   00634  00634                % 00447 AVL---
+200417015 Kirchberg, Hôpital    00636  00636                % 00447 AVL---
+200417057 Kirchberg, Luxexpo Q  00638  00638                % 00447 AVL---
+200417033 Kirchberg, Poutty St  00639  00639                % 00447 AVL---
+200417023 Kirchberg, Luxexpo E  00640                       % 00447 AVL---
+*Z 00448 AVL---       001 023                               % 00448 AVL---
+*L 1        200415016 200417023  01948  02021               % 00448 AVL---
+*A BE 200415016 200417023 000002  01948  02021              % 00448 AVL---
+*R 1 200417023 200415016 200417023  01948  02021            % 00448 AVL---
+*G AVG 200415016 200417023  01948  02021                    % 00448 AVL---
+*A VE 200415016 200417023 000002  01948  02021              % 00448 AVL---
+200415016 Hollerich, AVL Porta         01948                % 00448 AVL---
+200415009 Hollerich, P+R Bouil  01949  01949                % 00448 AVL---
+200415017 Hollerich, P+R Bouil  01950  01950                % 00448 AVL---
+200415006 Hollerich, Jean-Bapt  01952  01952                % 00448 AVL---
+200415003 Hollerich, Fonderie   01953  01953                % 00448 AVL---
+200405036 Luxembourg, Gare rou  01955  01955                % 00448 AVL---
+200405013 Centre, F.D. Rooseve  02000  02000                % 00448 AVL---
+200405020 Hamilius              02003  02003                % 00448 AVL---
+200405014 Centre, Fondation Pe  02005  02005                % 00448 AVL---
+200417047 Kirchberg, Rout Bréc  02007  02007                % 00448 AVL---
+200417007 Kirchberg, B.E.I.     02009  02009                % 00448 AVL---
+200417016 Kirchberg, Jean Monn  02010  02010                % 00448 AVL---
+200417005 Kirchberg, Antoine d  02011  02011                % 00448 AVL---
+200417019 Kirchberg, Konrad Ad  02012  02012                % 00448 AVL---
+200417013 Kirchberg, Coudenhov  02012  02012                % 00448 AVL---
+200417002 Kirchberg, Albert Bo  02013  02013                % 00448 AVL---
+200417036 Kirchberg, Réimerwee  02014  02014                % 00448 AVL---
+200417004 Kirchberg, Alphonse   02015  02015                % 00448 AVL---
+200417015 Kirchberg, Hôpital    02016  02016                % 00448 AVL---
+200417057 Kirchberg, Luxexpo Q  02018  02018                % 00448 AVL---
+200417033 Kirchberg, Poutty St  02020  02020                % 00448 AVL---
+200417023 Kirchberg, Luxexpo E  02021                       % 00448 AVL---
+*Z 00449 AVL---                                             % 00449 AVL---
+*L 1        200415009 200417023  02057  02129               % 00449 AVL---
+*A BE 200415009 200417023 000002  02057  02129              % 00449 AVL---
+*R 1 200417023 200415009 200417023  02057  02129            % 00449 AVL---
+*G AVG 200415009 200417023  02057  02129                    % 00449 AVL---
+*A VE 200415009 200417023 000002  02057  02129              % 00449 AVL---
+200415009 Hollerich, P+R Bouil         02057                % 00449 AVL---
+200415017 Hollerich, P+R Bouil  02058  02058                % 00449 AVL---
+200415006 Hollerich, Jean-Bapt  02100  02100                % 00449 AVL---
+200415003 Hollerich, Fonderie   02101  02101                % 00449 AVL---
+200405036 Luxembourg, Gare rou  02103  02103                % 00449 AVL---
+200405013 Centre, F.D. Rooseve  02108  02108                % 00449 AVL---
+200405020 Hamilius              02111  02111                % 00449 AVL---
+200405014 Centre, Fondation Pe  02113  02113                % 00449 AVL---
+200417047 Kirchberg, Rout Bréc  02115  02115                % 00449 AVL---
+200417007 Kirchberg, B.E.I.     02117  02117                % 00449 AVL---
+200417016 Kirchberg, Jean Monn  02118  02118                % 00449 AVL---
+200417005 Kirchberg, Antoine d  02119  02119                % 00449 AVL---
+200417019 Kirchberg, Konrad Ad  02120  02120                % 00449 AVL---
+200417013 Kirchberg, Coudenhov  02120  02120                % 00449 AVL---
+200417002 Kirchberg, Albert Bo  02121  02121                % 00449 AVL---
+200417036 Kirchberg, Réimerwee  02122  02122                % 00449 AVL---
+200417004 Kirchberg, Alphonse   02123  02123                % 00449 AVL---
+200417015 Kirchberg, Hôpital    02124  02124                % 00449 AVL---
+200417057 Kirchberg, Luxexpo Q  02126  02126                % 00449 AVL---
+200417033 Kirchberg, Poutty St  02128  02128                % 00449 AVL---
+200417023 Kirchberg, Luxexpo E  02129                       % 00449 AVL---
+*Z 00450 AVL---                                             % 00450 AVL---
+*L 1        200415009 200417023  02042  02114               % 00450 AVL---
+*A BE 200415009 200417023 000002  02042  02114              % 00450 AVL---
+*R 1 200417023 200415009 200417023  02042  02114            % 00450 AVL---
+*G AVS 200415009 200417023  02042  02114                    % 00450 AVL---
+*A VE 200415009 200417023 000002  02042  02114              % 00450 AVL---
+200415009 Hollerich, P+R Bouil         02042                % 00450 AVL---
+200415017 Hollerich, P+R Bouil  02043  02043                % 00450 AVL---
+200415006 Hollerich, Jean-Bapt  02045  02045                % 00450 AVL---
+200415003 Hollerich, Fonderie   02046  02046                % 00450 AVL---
+200405036 Luxembourg, Gare rou  02048  02048                % 00450 AVL---
+200405013 Centre, F.D. Rooseve  02053  02053                % 00450 AVL---
+200405020 Hamilius              02056  02056                % 00450 AVL---
+200405014 Centre, Fondation Pe  02058  02058                % 00450 AVL---
+200417047 Kirchberg, Rout Bréc  02100  02100                % 00450 AVL---
+200417007 Kirchberg, B.E.I.     02102  02102                % 00450 AVL---
+200417016 Kirchberg, Jean Monn  02103  02103                % 00450 AVL---
+200417005 Kirchberg, Antoine d  02104  02104                % 00450 AVL---
+200417019 Kirchberg, Konrad Ad  02105  02105                % 00450 AVL---
+200417013 Kirchberg, Coudenhov  02105  02105                % 00450 AVL---
+200417002 Kirchberg, Albert Bo  02106  02106                % 00450 AVL---
+200417036 Kirchberg, Réimerwee  02107  02107                % 00450 AVL---
+200417004 Kirchberg, Alphonse   02108  02108                % 00450 AVL---
+200417015 Kirchberg, Hôpital    02109  02109                % 00450 AVL---
+200417057 Kirchberg, Luxexpo Q  02111  02111                % 00450 AVL---
+200417033 Kirchberg, Poutty St  02113  02113                % 00450 AVL---
+200417023 Kirchberg, Luxexpo E  02114                       % 00450 AVL---
+*Z 00451 AVL---       001 040                               % 00451 AVL---
+*L 1        200415016 200417023  00645  00726               % 00451 AVL---
+*A BE 200415016 200417023 000002  00645  00726              % 00451 AVL---
+*R 1 200417023 200415016 200417023  00645  00726            % 00451 AVL---
+*G AVG 200415016 200417023  00645  00726                    % 00451 AVL---
+*A VE 200415016 200417023 000002  00645  00726              % 00451 AVL---
+200415016 Hollerich, AVL Porta         00645                % 00451 AVL---
+200415009 Hollerich, P+R Bouil  00647  00647                % 00451 AVL---
+200415017 Hollerich, P+R Bouil  00647  00647                % 00451 AVL---
+200415006 Hollerich, Jean-Bapt  00649  00649                % 00451 AVL---
+200415003 Hollerich, Fonderie   00651  00651                % 00451 AVL---
+200405036 Luxembourg, Gare rou  00654  00654                % 00451 AVL---
+200405013 Centre, F.D. Rooseve  00700  00700                % 00451 AVL---
+200405020 Hamilius              00703  00703                % 00451 AVL---
+200405014 Centre, Fondation Pe  00706  00706                % 00451 AVL---
+200417047 Kirchberg, Rout Bréc  00708  00708                % 00451 AVL---
+200417007 Kirchberg, B.E.I.     00711  00711                % 00451 AVL---
+200417016 Kirchberg, Jean Monn  00712  00712                % 00451 AVL---
+200417005 Kirchberg, Antoine d  00713  00713                % 00451 AVL---
+200417019 Kirchberg, Konrad Ad  00715  00715                % 00451 AVL---
+200417013 Kirchberg, Coudenhov  00715  00715                % 00451 AVL---
+200417002 Kirchberg, Albert Bo  00716  00716                % 00451 AVL---
+200417036 Kirchberg, Réimerwee  00718  00718                % 00451 AVL---
+200417004 Kirchberg, Alphonse   00718  00718                % 00451 AVL---
+200417015 Kirchberg, Hôpital    00721  00721                % 00451 AVL---
+200417057 Kirchberg, Luxexpo Q  00724  00724                % 00451 AVL---
+200417033 Kirchberg, Poutty St  00725  00725                % 00451 AVL---
+200417023 Kirchberg, Luxexpo E  00726                       % 00451 AVL---
+*Z 00452 AVL---       035 020                               % 00452 AVL---
+*L 1        200415016 200417023  00745  00826               % 00452 AVL---
+*A BE 200415016 200417023 000002  00745  00826              % 00452 AVL---
+*R 1 200417023 200415016 200417023  00745  00826            % 00452 AVL---
+*G AVG 200415016 200417023  00745  00826                    % 00452 AVL---
+*A VE 200415016 200417023 000002  00745  00826              % 00452 AVL---
+200415016 Hollerich, AVL Porta         00745                % 00452 AVL---
+200415009 Hollerich, P+R Bouil  00747  00747                % 00452 AVL---
+200415017 Hollerich, P+R Bouil  00747  00747                % 00452 AVL---
+200415006 Hollerich, Jean-Bapt  00749  00749                % 00452 AVL---
+200415003 Hollerich, Fonderie   00751  00751                % 00452 AVL---
+200405036 Luxembourg, Gare rou  00754  00754                % 00452 AVL---
+200405013 Centre, F.D. Rooseve  00800  00800                % 00452 AVL---
+200405020 Hamilius              00803  00803                % 00452 AVL---
+200405014 Centre, Fondation Pe  00806  00806                % 00452 AVL---
+200417047 Kirchberg, Rout Bréc  00808  00808                % 00452 AVL---
+200417007 Kirchberg, B.E.I.     00811  00811                % 00452 AVL---
+200417016 Kirchberg, Jean Monn  00812  00812                % 00452 AVL---
+200417005 Kirchberg, Antoine d  00813  00813                % 00452 AVL---
+200417019 Kirchberg, Konrad Ad  00815  00815                % 00452 AVL---
+200417013 Kirchberg, Coudenhov  00815  00815                % 00452 AVL---
+200417002 Kirchberg, Albert Bo  00816  00816                % 00452 AVL---
+200417036 Kirchberg, Réimerwee  00818  00818                % 00452 AVL---
+200417004 Kirchberg, Alphonse   00818  00818                % 00452 AVL---
+200417015 Kirchberg, Hôpital    00821  00821                % 00452 AVL---
+200417057 Kirchberg, Luxexpo Q  00824  00824                % 00452 AVL---
+200417033 Kirchberg, Poutty St  00825  00825                % 00452 AVL---
+200417023 Kirchberg, Luxexpo E  00826                       % 00452 AVL---
+*Z 00453 AVL---                                             % 00453 AVL---
+*L 1        200415016 200417023  00705  00746               % 00453 AVL---
+*A BE 200415016 200417023 000002  00705  00746              % 00453 AVL---
+*R 1 200417023 200415016 200417023  00705  00746            % 00453 AVL---
+*G AVG 200415016 200417023  00705  00746                    % 00453 AVL---
+*A VE 200415016 200417023 000002  00705  00746              % 00453 AVL---
+200415016 Hollerich, AVL Porta         00705                % 00453 AVL---
+200415009 Hollerich, P+R Bouil  00707  00707                % 00453 AVL---
+200415017 Hollerich, P+R Bouil  00707  00707                % 00453 AVL---
+200415006 Hollerich, Jean-Bapt  00709  00709                % 00453 AVL---
+200415003 Hollerich, Fonderie   00711  00711                % 00453 AVL---
+200405036 Luxembourg, Gare rou  00714  00714                % 00453 AVL---
+200405013 Centre, F.D. Rooseve  00720  00720                % 00453 AVL---
+200405020 Hamilius              00723  00723                % 00453 AVL---
+200405014 Centre, Fondation Pe  00726  00726                % 00453 AVL---
+200417047 Kirchberg, Rout Bréc  00728  00728                % 00453 AVL---
+200417007 Kirchberg, B.E.I.     00731  00731                % 00453 AVL---
+200417016 Kirchberg, Jean Monn  00732  00732                % 00453 AVL---
+200417005 Kirchberg, Antoine d  00733  00733                % 00453 AVL---
+200417019 Kirchberg, Konrad Ad  00735  00735                % 00453 AVL---
+200417013 Kirchberg, Coudenhov  00735  00735                % 00453 AVL---
+200417002 Kirchberg, Albert Bo  00736  00736                % 00453 AVL---
+200417036 Kirchberg, Réimerwee  00738  00738                % 00453 AVL---
+200417004 Kirchberg, Alphonse   00738  00738                % 00453 AVL---
+200417015 Kirchberg, Hôpital    00741  00741                % 00453 AVL---
+200417057 Kirchberg, Luxexpo Q  00744  00744                % 00453 AVL---
+200417033 Kirchberg, Poutty St  00745  00745                % 00453 AVL---
+200417023 Kirchberg, Luxexpo E  00746                       % 00453 AVL---
+*Z 00005 AVL---                                             % 00005 AVL---
+*L 1        200415016 200405036  00536  00543               % 00005 AVL---
+*A BE 200415016 200405036 000003  00536  00543              % 00005 AVL---
+*R 1 200405036 200415016 200405036  00536  00543            % 00005 AVL---
+*G AVG 200415016 200405036  00536  00543                    % 00005 AVL---
+*A VE 200415016 200405036 000003  00536  00543              % 00005 AVL---
+200415016 Hollerich, AVL Porta         00536                % 00005 AVL---
+200415009 Hollerich, P+R Bouil  00537  00537                % 00005 AVL---
+200415017 Hollerich, P+R Bouil  00538  00538                % 00005 AVL---
+200415006 Hollerich, Jean-Bapt  00539  00539                % 00005 AVL---
+200415003 Hollerich, Fonderie   00541  00541                % 00005 AVL---
+200405036 Luxembourg, Gare rou  00543                       % 00005 AVL---
+*Z 00016 AVL---                                             % 00016 AVL---
+*L 1        200415016 200405036  00606  00613               % 00016 AVL---
+*A BE 200415016 200405036 000003  00606  00613              % 00016 AVL---
+*R 1 200405036 200415016 200405036  00606  00613            % 00016 AVL---
+*G AVG 200415016 200405036  00606  00613                    % 00016 AVL---
+*A VE 200415016 200405036 000003  00606  00613              % 00016 AVL---
+200415016 Hollerich, AVL Porta         00606                % 00016 AVL---
+200415009 Hollerich, P+R Bouil  00607  00607                % 00016 AVL---
+200415017 Hollerich, P+R Bouil  00608  00608                % 00016 AVL---
+200415006 Hollerich, Jean-Bapt  00609  00609                % 00016 AVL---
+200415003 Hollerich, Fonderie   00611  00611                % 00016 AVL---
+200405036 Luxembourg, Gare rou  00613                       % 00016 AVL---
+*Z 00120 AVL---                                             % 00120 AVL---
+*L 1        200415009 200405036  00917  00923               % 00120 AVL---
+*A BE 200415009 200405036 000006  00917  00923              % 00120 AVL---
+*R 1 200405036 200415009 200405036  00917  00923            % 00120 AVL---
+*G AVG 200415009 200405036  00917  00923                    % 00120 AVL---
+*A VE 200415009 200405036 000006  00917  00923              % 00120 AVL---
+200415009 Hollerich, P+R Bouil         00917                % 00120 AVL---
+200415017 Hollerich, P+R Bouil  00918  00918                % 00120 AVL---
+200415006 Hollerich, Jean-Bapt  00919  00919                % 00120 AVL---
+200415003 Hollerich, Fonderie   00921  00921                % 00120 AVL---
+200405036 Luxembourg, Gare rou  00923                       % 00120 AVL---
+*Z 00134 AVL---                                             % 00134 AVL---
+*L 1        200415009 200405036  00947  00953               % 00134 AVL---
+*A BE 200415009 200405036 000006  00947  00953              % 00134 AVL---
+*R 1 200405036 200415009 200405036  00947  00953            % 00134 AVL---
+*G AVG 200415009 200405036  00947  00953                    % 00134 AVL---
+*A VE 200415009 200405036 000006  00947  00953              % 00134 AVL---
+200415009 Hollerich, P+R Bouil         00947                % 00134 AVL---
+200415017 Hollerich, P+R Bouil  00948  00948                % 00134 AVL---
+200415006 Hollerich, Jean-Bapt  00949  00949                % 00134 AVL---
+200415003 Hollerich, Fonderie   00951  00951                % 00134 AVL---
+200405036 Luxembourg, Gare rou  00953                       % 00134 AVL---
+*Z 00148 AVL---                                             % 00148 AVL---
+*L 1        200415009 200405036  01017  01023               % 00148 AVL---
+*A BE 200415009 200405036 000006  01017  01023              % 00148 AVL---
+*R 1 200405036 200415009 200405036  01017  01023            % 00148 AVL---
+*G AVG 200415009 200405036  01017  01023                    % 00148 AVL---
+*A VE 200415009 200405036 000006  01017  01023              % 00148 AVL---
+200415009 Hollerich, P+R Bouil         01017                % 00148 AVL---
+200415017 Hollerich, P+R Bouil  01018  01018                % 00148 AVL---
+200415006 Hollerich, Jean-Bapt  01019  01019                % 00148 AVL---
+200415003 Hollerich, Fonderie   01021  01021                % 00148 AVL---
+200405036 Luxembourg, Gare rou  01023                       % 00148 AVL---
+*Z 00162 AVL---                                             % 00162 AVL---
+*L 1        200415009 200405036  01047  01053               % 00162 AVL---
+*A BE 200415009 200405036 000006  01047  01053              % 00162 AVL---
+*R 1 200405036 200415009 200405036  01047  01053            % 00162 AVL---
+*G AVG 200415009 200405036  01047  01053                    % 00162 AVL---
+*A VE 200415009 200405036 000006  01047  01053              % 00162 AVL---
+200415009 Hollerich, P+R Bouil         01047                % 00162 AVL---
+200415017 Hollerich, P+R Bouil  01048  01048                % 00162 AVL---
+200415006 Hollerich, Jean-Bapt  01049  01049                % 00162 AVL---
+200415003 Hollerich, Fonderie   01051  01051                % 00162 AVL---
+200405036 Luxembourg, Gare rou  01053                       % 00162 AVL---
+*Z 00176 AVL---                                             % 00176 AVL---
+*L 1        200415009 200405036  01116  01121               % 00176 AVL---
+*A BE 200415009 200405036 000006  01116  01121              % 00176 AVL---
+*R 1 200405036 200415009 200405036  01116  01121            % 00176 AVL---
+*G AVG 200415009 200405036  01116  01121                    % 00176 AVL---
+*A VE 200415009 200405036 000006  01116  01121              % 00176 AVL---
+200415009 Hollerich, P+R Bouil         01116                % 00176 AVL---
+200415017 Hollerich, P+R Bouil  01116  01116                % 00176 AVL---
+200415006 Hollerich, Jean-Bapt  01118  01118                % 00176 AVL---
+200415003 Hollerich, Fonderie   01119  01119                % 00176 AVL---
+200405036 Luxembourg, Gare rou  01121                       % 00176 AVL---
+*Z 00190 AVL---                                             % 00190 AVL---
+*L 1        200415009 200405036  01146  01151               % 00190 AVL---
+*A BE 200415009 200405036 000006  01146  01151              % 00190 AVL---
+*R 1 200405036 200415009 200405036  01146  01151            % 00190 AVL---
+*G AVG 200415009 200405036  01146  01151                    % 00190 AVL---
+*A VE 200415009 200405036 000006  01146  01151              % 00190 AVL---
+200415009 Hollerich, P+R Bouil         01146                % 00190 AVL---
+200415017 Hollerich, P+R Bouil  01146  01146                % 00190 AVL---
+200415006 Hollerich, Jean-Bapt  01148  01148                % 00190 AVL---
+200415003 Hollerich, Fonderie   01149  01149                % 00190 AVL---
+200405036 Luxembourg, Gare rou  01151                       % 00190 AVL---
+*Z 00204 AVL---                                             % 00204 AVL---
+*L 1        200415009 200405036  01216  01221               % 00204 AVL---
+*A BE 200415009 200405036 000006  01216  01221              % 00204 AVL---
+*R 1 200405036 200415009 200405036  01216  01221            % 00204 AVL---
+*G AVG 200415009 200405036  01216  01221                    % 00204 AVL---
+*A VE 200415009 200405036 000006  01216  01221              % 00204 AVL---
+200415009 Hollerich, P+R Bouil         01216                % 00204 AVL---
+200415017 Hollerich, P+R Bouil  01216  01216                % 00204 AVL---
+200415006 Hollerich, Jean-Bapt  01218  01218                % 00204 AVL---
+200415003 Hollerich, Fonderie   01219  01219                % 00204 AVL---
+200405036 Luxembourg, Gare rou  01221                       % 00204 AVL---
+*Z 00218 AVL---                                             % 00218 AVL---
+*L 1        200415009 200405036  01246  01251               % 00218 AVL---
+*A BE 200415009 200405036 000006  01246  01251              % 00218 AVL---
+*R 1 200405036 200415009 200405036  01246  01251            % 00218 AVL---
+*G AVG 200415009 200405036  01246  01251                    % 00218 AVL---
+*A VE 200415009 200405036 000006  01246  01251              % 00218 AVL---
+200415009 Hollerich, P+R Bouil         01246                % 00218 AVL---
+200415017 Hollerich, P+R Bouil  01246  01246                % 00218 AVL---
+200415006 Hollerich, Jean-Bapt  01248  01248                % 00218 AVL---
+200415003 Hollerich, Fonderie   01249  01249                % 00218 AVL---
+200405036 Luxembourg, Gare rou  01251                       % 00218 AVL---
+*Z 00232 AVL---                                             % 00232 AVL---
+*L 1        200415009 200405036  01316  01321               % 00232 AVL---
+*A BE 200415009 200405036 000006  01316  01321              % 00232 AVL---
+*R 1 200405036 200415009 200405036  01316  01321            % 00232 AVL---
+*G AVG 200415009 200405036  01316  01321                    % 00232 AVL---
+*A VE 200415009 200405036 000006  01316  01321              % 00232 AVL---
+200415009 Hollerich, P+R Bouil         01316                % 00232 AVL---
+200415017 Hollerich, P+R Bouil  01316  01316                % 00232 AVL---
+200415006 Hollerich, Jean-Bapt  01318  01318                % 00232 AVL---
+200415003 Hollerich, Fonderie   01319  01319                % 00232 AVL---
+200405036 Luxembourg, Gare rou  01321                       % 00232 AVL---
+*Z 00246 AVL---                                             % 00246 AVL---
+*L 1        200415009 200405036  01346  01351               % 00246 AVL---
+*A BE 200415009 200405036 000006  01346  01351              % 00246 AVL---
+*R 1 200405036 200415009 200405036  01346  01351            % 00246 AVL---
+*G AVG 200415009 200405036  01346  01351                    % 00246 AVL---
+*A VE 200415009 200405036 000006  01346  01351              % 00246 AVL---
+200415009 Hollerich, P+R Bouil         01346                % 00246 AVL---
+200415017 Hollerich, P+R Bouil  01346  01346                % 00246 AVL---
+200415006 Hollerich, Jean-Bapt  01348  01348                % 00246 AVL---
+200415003 Hollerich, Fonderie   01349  01349                % 00246 AVL---
+200405036 Luxembourg, Gare rou  01351                       % 00246 AVL---
+*Z 00260 AVL---                                             % 00260 AVL---
+*L 1        200415009 200405036  01416  01421               % 00260 AVL---
+*A BE 200415009 200405036 000006  01416  01421              % 00260 AVL---
+*R 1 200405036 200415009 200405036  01416  01421            % 00260 AVL---
+*G AVG 200415009 200405036  01416  01421                    % 00260 AVL---
+*A VE 200415009 200405036 000006  01416  01421              % 00260 AVL---
+200415009 Hollerich, P+R Bouil         01416                % 00260 AVL---
+200415017 Hollerich, P+R Bouil  01416  01416                % 00260 AVL---
+200415006 Hollerich, Jean-Bapt  01418  01418                % 00260 AVL---
+200415003 Hollerich, Fonderie   01419  01419                % 00260 AVL---
+200405036 Luxembourg, Gare rou  01421                       % 00260 AVL---
+*Z 00274 AVL---                                             % 00274 AVL---
+*L 1        200415009 200405036  01446  01451               % 00274 AVL---
+*A BE 200415009 200405036 000006  01446  01451              % 00274 AVL---
+*R 1 200405036 200415009 200405036  01446  01451            % 00274 AVL---
+*G AVG 200415009 200405036  01446  01451                    % 00274 AVL---
+*A VE 200415009 200405036 000006  01446  01451              % 00274 AVL---
+200415009 Hollerich, P+R Bouil         01446                % 00274 AVL---
+200415017 Hollerich, P+R Bouil  01446  01446                % 00274 AVL---
+200415006 Hollerich, Jean-Bapt  01448  01448                % 00274 AVL---
+200415003 Hollerich, Fonderie   01449  01449                % 00274 AVL---
+200405036 Luxembourg, Gare rou  01451                       % 00274 AVL---
+*Z 00288 AVL---                                             % 00288 AVL---
+*L 1        200415009 200405036  01516  01521               % 00288 AVL---
+*A BE 200415009 200405036 000006  01516  01521              % 00288 AVL---
+*R 1 200405036 200415009 200405036  01516  01521            % 00288 AVL---
+*G AVG 200415009 200405036  01516  01521                    % 00288 AVL---
+*A VE 200415009 200405036 000006  01516  01521              % 00288 AVL---
+200415009 Hollerich, P+R Bouil         01516                % 00288 AVL---
+200415017 Hollerich, P+R Bouil  01516  01516                % 00288 AVL---
+200415006 Hollerich, Jean-Bapt  01518  01518                % 00288 AVL---
+200415003 Hollerich, Fonderie   01519  01519                % 00288 AVL---
+200405036 Luxembourg, Gare rou  01521                       % 00288 AVL---
+*Z 00302 AVL---                                             % 00302 AVL---
+*L 1        200415009 200405036  01546  01551               % 00302 AVL---
+*A BE 200415009 200405036 000006  01546  01551              % 00302 AVL---
+*R 1 200405036 200415009 200405036  01546  01551            % 00302 AVL---
+*G AVG 200415009 200405036  01546  01551                    % 00302 AVL---
+*A VE 200415009 200405036 000006  01546  01551              % 00302 AVL---
+200415009 Hollerich, P+R Bouil         01546                % 00302 AVL---
+200415017 Hollerich, P+R Bouil  01546  01546                % 00302 AVL---
+200415006 Hollerich, Jean-Bapt  01548  01548                % 00302 AVL---
+200415003 Hollerich, Fonderie   01549  01549                % 00302 AVL---
+200405036 Luxembourg, Gare rou  01551                       % 00302 AVL---
+*Z 00316 AVL---                                             % 00316 AVL---
+*L 1        200415009 200405036  01616  01621               % 00316 AVL---
+*A BE 200415009 200405036 000006  01616  01621              % 00316 AVL---
+*R 1 200405036 200415009 200405036  01616  01621            % 00316 AVL---
+*G AVG 200415009 200405036  01616  01621                    % 00316 AVL---
+*A VE 200415009 200405036 000006  01616  01621              % 00316 AVL---
+200415009 Hollerich, P+R Bouil         01616                % 00316 AVL---
+200415017 Hollerich, P+R Bouil  01616  01616                % 00316 AVL---
+200415006 Hollerich, Jean-Bapt  01618  01618                % 00316 AVL---
+200415003 Hollerich, Fonderie   01619  01619                % 00316 AVL---
+200405036 Luxembourg, Gare rou  01621                       % 00316 AVL---
+*Z 00330 AVL---                                             % 00330 AVL---
+*L 1        200415009 200405036  01646  01651               % 00330 AVL---
+*A BE 200415009 200405036 000006  01646  01651              % 00330 AVL---
+*R 1 200405036 200415009 200405036  01646  01651            % 00330 AVL---
+*G AVG 200415009 200405036  01646  01651                    % 00330 AVL---
+*A VE 200415009 200405036 000006  01646  01651              % 00330 AVL---
+200415009 Hollerich, P+R Bouil         01646                % 00330 AVL---
+200415017 Hollerich, P+R Bouil  01646  01646                % 00330 AVL---
+200415006 Hollerich, Jean-Bapt  01648  01648                % 00330 AVL---
+200415003 Hollerich, Fonderie   01649  01649                % 00330 AVL---
+200405036 Luxembourg, Gare rou  01651                       % 00330 AVL---
+*Z 00346 AVL---                                             % 00346 AVL---
+*L 1        200415009 200405036  01716  01721               % 00346 AVL---
+*A BE 200415009 200405036 000006  01716  01721              % 00346 AVL---
+*R 1 200405036 200415009 200405036  01716  01721            % 00346 AVL---
+*G AVG 200415009 200405036  01716  01721                    % 00346 AVL---
+*A VE 200415009 200405036 000006  01716  01721              % 00346 AVL---
+200415009 Hollerich, P+R Bouil         01716                % 00346 AVL---
+200415017 Hollerich, P+R Bouil  01716  01716                % 00346 AVL---
+200415006 Hollerich, Jean-Bapt  01718  01718                % 00346 AVL---
+200415003 Hollerich, Fonderie   01719  01719                % 00346 AVL---
+200405036 Luxembourg, Gare rou  01721                       % 00346 AVL---
+*Z 00362 AVL---                                             % 00362 AVL---
+*L 1        200415009 200405036  01746  01751               % 00362 AVL---
+*A BE 200415009 200405036 000006  01746  01751              % 00362 AVL---
+*R 1 200405036 200415009 200405036  01746  01751            % 00362 AVL---
+*G AVG 200415009 200405036  01746  01751                    % 00362 AVL---
+*A VE 200415009 200405036 000006  01746  01751              % 00362 AVL---
+200415009 Hollerich, P+R Bouil         01746                % 00362 AVL---
+200415017 Hollerich, P+R Bouil  01746  01746                % 00362 AVL---
+200415006 Hollerich, Jean-Bapt  01748  01748                % 00362 AVL---
+200415003 Hollerich, Fonderie   01749  01749                % 00362 AVL---
+200405036 Luxembourg, Gare rou  01751                       % 00362 AVL---
+*Z 00380 AVL---                                             % 00380 AVL---
+*L 1        200415009 200405036  01816  01821               % 00380 AVL---
+*A BE 200415009 200405036 000006  01816  01821              % 00380 AVL---
+*R 1 200405036 200415009 200405036  01816  01821            % 00380 AVL---
+*G AVG 200415009 200405036  01816  01821                    % 00380 AVL---
+*A VE 200415009 200405036 000006  01816  01821              % 00380 AVL---
+200415009 Hollerich, P+R Bouil         01816                % 00380 AVL---
+200415017 Hollerich, P+R Bouil  01816  01816                % 00380 AVL---
+200415006 Hollerich, Jean-Bapt  01818  01818                % 00380 AVL---
+200415003 Hollerich, Fonderie   01819  01819                % 00380 AVL---
+200405036 Luxembourg, Gare rou  01821                       % 00380 AVL---
+*Z 00028 AVL---                                             % 00028 AVL---
+*L 1        200415009 200405036  00637  00643               % 00028 AVL---
+*A BE 200415009 200405036 000003  00637  00643              % 00028 AVL---
+*R 1 200405036 200415009 200405036  00637  00643            % 00028 AVL---
+*G AVG 200415009 200405036  00637  00643                    % 00028 AVL---
+*A VE 200415009 200405036 000003  00637  00643              % 00028 AVL---
+200415009 Hollerich, P+R Bouil         00637                % 00028 AVL---
+200415017 Hollerich, P+R Bouil  00638  00638                % 00028 AVL---
+200415006 Hollerich, Jean-Bapt  00639  00639                % 00028 AVL---
+200415003 Hollerich, Fonderie   00641  00641                % 00028 AVL---
+200405036 Luxembourg, Gare rou  00643                       % 00028 AVL---
+*Z 00044 AVL---                                             % 00044 AVL---
+*L 1        200415009 200405036  00707  00713               % 00044 AVL---
+*A BE 200415009 200405036 000003  00707  00713              % 00044 AVL---
+*R 1 200405036 200415009 200405036  00707  00713            % 00044 AVL---
+*G AVG 200415009 200405036  00707  00713                    % 00044 AVL---
+*A VE 200415009 200405036 000003  00707  00713              % 00044 AVL---
+200415009 Hollerich, P+R Bouil         00707                % 00044 AVL---
+200415017 Hollerich, P+R Bouil  00708  00708                % 00044 AVL---
+200415006 Hollerich, Jean-Bapt  00709  00709                % 00044 AVL---
+200415003 Hollerich, Fonderie   00711  00711                % 00044 AVL---
+200405036 Luxembourg, Gare rou  00713                       % 00044 AVL---
+*Z 00062 AVL---                                             % 00062 AVL---
+*L 1        200415009 200405036  00737  00743               % 00062 AVL---
+*A BE 200415009 200405036 000003  00737  00743              % 00062 AVL---
+*R 1 200405036 200415009 200405036  00737  00743            % 00062 AVL---
+*G AVG 200415009 200405036  00737  00743                    % 00062 AVL---
+*A VE 200415009 200405036 000003  00737  00743              % 00062 AVL---
+200415009 Hollerich, P+R Bouil         00737                % 00062 AVL---
+200415017 Hollerich, P+R Bouil  00738  00738                % 00062 AVL---
+200415006 Hollerich, Jean-Bapt  00739  00739                % 00062 AVL---
+200415003 Hollerich, Fonderie   00741  00741                % 00062 AVL---
+200405036 Luxembourg, Gare rou  00743                       % 00062 AVL---
+*Z 00078 AVL---                                             % 00078 AVL---
+*L 1        200415009 200405036  00807  00813               % 00078 AVL---
+*A BE 200415009 200405036 000003  00807  00813              % 00078 AVL---
+*R 1 200405036 200415009 200405036  00807  00813            % 00078 AVL---
+*G AVG 200415009 200405036  00807  00813                    % 00078 AVL---
+*A VE 200415009 200405036 000003  00807  00813              % 00078 AVL---
+200415009 Hollerich, P+R Bouil         00807                % 00078 AVL---
+200415017 Hollerich, P+R Bouil  00808  00808                % 00078 AVL---
+200415006 Hollerich, Jean-Bapt  00809  00809                % 00078 AVL---
+200415003 Hollerich, Fonderie   00811  00811                % 00078 AVL---
+200405036 Luxembourg, Gare rou  00813                       % 00078 AVL---
+*Z 00096 AVL---                                             % 00096 AVL---
+*L 1        200415009 200405036  00837  00843               % 00096 AVL---
+*A BE 200415009 200405036 000003  00837  00843              % 00096 AVL---
+*R 1 200405036 200415009 200405036  00837  00843            % 00096 AVL---
+*G AVG 200415009 200405036  00837  00843                    % 00096 AVL---
+*A VE 200415009 200405036 000003  00837  00843              % 00096 AVL---
+200415009 Hollerich, P+R Bouil         00837                % 00096 AVL---
+200415017 Hollerich, P+R Bouil  00838  00838                % 00096 AVL---
+200415006 Hollerich, Jean-Bapt  00839  00839                % 00096 AVL---
+200415003 Hollerich, Fonderie   00841  00841                % 00096 AVL---
+200405036 Luxembourg, Gare rou  00843                       % 00096 AVL---
+*Z 00454 AVL---       007 060                               % 00454 AVL---
+*L 1        200415009 200417023  01151  01223               % 00454 AVL---
+*A BE 200415009 200417023 000003  01151  01223              % 00454 AVL---
+*R 1 200417023 200415009 200417023  01151  01223            % 00454 AVL---
+*G AVG 200415009 200417023  01151  01223                    % 00454 AVL---
+*A VE 200415009 200417023 000003  01151  01223              % 00454 AVL---
+200415009 Hollerich, P+R Bouil         01151                % 00454 AVL---
+200415017 Hollerich, P+R Bouil  01152  01152                % 00454 AVL---
+200415006 Hollerich, Jean-Bapt  01154  01154                % 00454 AVL---
+200415003 Hollerich, Fonderie   01155  01155                % 00454 AVL---
+200405036 Luxembourg, Gare rou  01157  01157                % 00454 AVL---
+200405013 Centre, F.D. Rooseve  01202  01202                % 00454 AVL---
+200405020 Hamilius              01205  01205                % 00454 AVL---
+200405014 Centre, Fondation Pe  01207  01207                % 00454 AVL---
+200417047 Kirchberg, Rout Bréc  01209  01209                % 00454 AVL---
+200417007 Kirchberg, B.E.I.     01211  01211                % 00454 AVL---
+200417016 Kirchberg, Jean Monn  01212  01212                % 00454 AVL---
+200417005 Kirchberg, Antoine d  01213  01213                % 00454 AVL---
+200417019 Kirchberg, Konrad Ad  01214  01214                % 00454 AVL---
+200417013 Kirchberg, Coudenhov  01214  01214                % 00454 AVL---
+200417002 Kirchberg, Albert Bo  01215  01215                % 00454 AVL---
+200417036 Kirchberg, Réimerwee  01216  01216                % 00454 AVL---
+200417004 Kirchberg, Alphonse   01217  01217                % 00454 AVL---
+200417015 Kirchberg, Hôpital    01218  01218                % 00454 AVL---
+200417057 Kirchberg, Luxexpo Q  01220  01220                % 00454 AVL---
+200417033 Kirchberg, Poutty St  01222  01222                % 00454 AVL---
+200417023 Kirchberg, Luxexpo E  01223                       % 00454 AVL---
+*Z 00455 AVL---                                             % 00455 AVL---
+*L 1        200415009 200417023  02112  02144               % 00455 AVL---
+*A BE 200415009 200417023 000002  02112  02144              % 00455 AVL---
+*R 1 200417023 200415009 200417023  02112  02144            % 00455 AVL---
+*G AVG 200415009 200417023  02112  02144                    % 00455 AVL---
+*A VE 200415009 200417023 000002  02112  02144              % 00455 AVL---
+200415009 Hollerich, P+R Bouil         02112                % 00455 AVL---
+200415017 Hollerich, P+R Bouil  02113  02113                % 00455 AVL---
+200415006 Hollerich, Jean-Bapt  02115  02115                % 00455 AVL---
+200415003 Hollerich, Fonderie   02116  02116                % 00455 AVL---
+200405036 Luxembourg, Gare rou  02118  02118                % 00455 AVL---
+200405013 Centre, F.D. Rooseve  02123  02123                % 00455 AVL---
+200405020 Hamilius              02126  02126                % 00455 AVL---
+200405014 Centre, Fondation Pe  02128  02128                % 00455 AVL---
+200417047 Kirchberg, Rout Bréc  02130  02130                % 00455 AVL---
+200417007 Kirchberg, B.E.I.     02132  02132                % 00455 AVL---
+200417016 Kirchberg, Jean Monn  02133  02133                % 00455 AVL---
+200417005 Kirchberg, Antoine d  02134  02134                % 00455 AVL---
+200417019 Kirchberg, Konrad Ad  02135  02135                % 00455 AVL---
+200417013 Kirchberg, Coudenhov  02135  02135                % 00455 AVL---
+200417002 Kirchberg, Albert Bo  02136  02136                % 00455 AVL---
+200417036 Kirchberg, Réimerwee  02137  02137                % 00455 AVL---
+200417004 Kirchberg, Alphonse   02138  02138                % 00455 AVL---
+200417015 Kirchberg, Hôpital    02139  02139                % 00455 AVL---
+200417057 Kirchberg, Luxexpo Q  02141  02141                % 00455 AVL---
+200417033 Kirchberg, Poutty St  02143  02143                % 00455 AVL---
+200417023 Kirchberg, Luxexpo E  02144                       % 00455 AVL---
+*Z 00456 AVL---       001 012                               % 00456 AVL---
+*L 1        200415016 200417023  00529  00600               % 00456 AVL---
+*A BE 200415016 200417023 000002  00529  00600              % 00456 AVL---
+*R 1 200417023 200415016 200417023  00529  00600            % 00456 AVL---
+*G AVG 200415016 200417023  00529  00600                    % 00456 AVL---
+*A VE 200415016 200417023 000002  00529  00600              % 00456 AVL---
+200415016 Hollerich, AVL Porta         00529                % 00456 AVL---
+200415009 Hollerich, P+R Bouil  00530  00530                % 00456 AVL---
+200415017 Hollerich, P+R Bouil  00531  00531                % 00456 AVL---
+200415006 Hollerich, Jean-Bapt  00532  00532                % 00456 AVL---
+200415003 Hollerich, Fonderie   00534  00534                % 00456 AVL---
+200405036 Luxembourg, Gare rou  00536  00536                % 00456 AVL---
+200405013 Centre, F.D. Rooseve  00540  00540                % 00456 AVL---
+200405020 Hamilius              00543  00543                % 00456 AVL---
+200405014 Centre, Fondation Pe  00545  00545                % 00456 AVL---
+200417047 Kirchberg, Rout Bréc  00547  00547                % 00456 AVL---
+200417007 Kirchberg, B.E.I.     00548  00548                % 00456 AVL---
+200417016 Kirchberg, Jean Monn  00550  00550                % 00456 AVL---
+200417005 Kirchberg, Antoine d  00551  00551                % 00456 AVL---
+200417019 Kirchberg, Konrad Ad  00551  00551                % 00456 AVL---
+200417013 Kirchberg, Coudenhov  00552  00552                % 00456 AVL---
+200417002 Kirchberg, Albert Bo  00553  00553                % 00456 AVL---
+200417036 Kirchberg, Réimerwee  00553  00553                % 00456 AVL---
+200417004 Kirchberg, Alphonse   00554  00554                % 00456 AVL---
+200417015 Kirchberg, Hôpital    00556  00556                % 00456 AVL---
+200417057 Kirchberg, Luxexpo Q  00558  00558                % 00456 AVL---
+200417033 Kirchberg, Poutty St  00559  00559                % 00456 AVL---
+200417023 Kirchberg, Luxexpo E  00600                       % 00456 AVL---
+*Z 00457 AVL---       002 060                               % 00457 AVL---
+*L 1        200415009 200417023  00852  00922               % 00457 AVL---
+*A BE 200415009 200417023 000003  00852  00922              % 00457 AVL---
+*R 1 200417023 200415009 200417023  00852  00922            % 00457 AVL---
+*G AVG 200415009 200417023  00852  00922                    % 00457 AVL---
+*A VE 200415009 200417023 000003  00852  00922              % 00457 AVL---
+200415009 Hollerich, P+R Bouil         00852                % 00457 AVL---
+200415017 Hollerich, P+R Bouil  00853  00853                % 00457 AVL---
+200415006 Hollerich, Jean-Bapt  00854  00854                % 00457 AVL---
+200415003 Hollerich, Fonderie   00856  00856                % 00457 AVL---
+200405036 Luxembourg, Gare rou  00858  00858                % 00457 AVL---
+200405013 Centre, F.D. Rooseve  00902  00902                % 00457 AVL---
+200405020 Hamilius              00905  00905                % 00457 AVL---
+200405014 Centre, Fondation Pe  00907  00907                % 00457 AVL---
+200417047 Kirchberg, Rout Bréc  00909  00909                % 00457 AVL---
+200417007 Kirchberg, B.E.I.     00910  00910                % 00457 AVL---
+200417016 Kirchberg, Jean Monn  00912  00912                % 00457 AVL---
+200417005 Kirchberg, Antoine d  00913  00913                % 00457 AVL---
+200417019 Kirchberg, Konrad Ad  00913  00913                % 00457 AVL---
+200417013 Kirchberg, Coudenhov  00914  00914                % 00457 AVL---
+200417002 Kirchberg, Albert Bo  00915  00915                % 00457 AVL---
+200417036 Kirchberg, Réimerwee  00915  00915                % 00457 AVL---
+200417004 Kirchberg, Alphonse   00916  00916                % 00457 AVL---
+200417015 Kirchberg, Hôpital    00918  00918                % 00457 AVL---
+200417057 Kirchberg, Luxexpo Q  00920  00920                % 00457 AVL---
+200417033 Kirchberg, Poutty St  00921  00921                % 00457 AVL---
+200417023 Kirchberg, Luxexpo E  00922                       % 00457 AVL---
+*Z 00458 AVL---       001 030                               % 00458 AVL---
+*L 1        200415009 200417023  01952  02022               % 00458 AVL---
+*A BE 200415009 200417023 000003  01952  02022              % 00458 AVL---
+*R 1 200417023 200415009 200417023  01952  02022            % 00458 AVL---
+*G AVG 200415009 200417023  01952  02022                    % 00458 AVL---
+*A VE 200415009 200417023 000003  01952  02022              % 00458 AVL---
+200415009 Hollerich, P+R Bouil         01952                % 00458 AVL---
+200415017 Hollerich, P+R Bouil  01953  01953                % 00458 AVL---
+200415006 Hollerich, Jean-Bapt  01954  01954                % 00458 AVL---
+200415003 Hollerich, Fonderie   01956  01956                % 00458 AVL---
+200405036 Luxembourg, Gare rou  01958  01958                % 00458 AVL---
+200405013 Centre, F.D. Rooseve  02002  02002                % 00458 AVL---
+200405020 Hamilius              02005  02005                % 00458 AVL---
+200405014 Centre, Fondation Pe  02007  02007                % 00458 AVL---
+200417047 Kirchberg, Rout Bréc  02009  02009                % 00458 AVL---
+200417007 Kirchberg, B.E.I.     02010  02010                % 00458 AVL---
+200417016 Kirchberg, Jean Monn  02012  02012                % 00458 AVL---
+200417005 Kirchberg, Antoine d  02013  02013                % 00458 AVL---
+200417019 Kirchberg, Konrad Ad  02013  02013                % 00458 AVL---
+200417013 Kirchberg, Coudenhov  02014  02014                % 00458 AVL---
+200417002 Kirchberg, Albert Bo  02015  02015                % 00458 AVL---
+200417036 Kirchberg, Réimerwee  02015  02015                % 00458 AVL---
+200417004 Kirchberg, Alphonse   02016  02016                % 00458 AVL---
+200417015 Kirchberg, Hôpital    02018  02018                % 00458 AVL---
+200417057 Kirchberg, Luxexpo Q  02020  02020                % 00458 AVL---
+200417033 Kirchberg, Poutty St  02021  02021                % 00458 AVL---
+200417023 Kirchberg, Luxexpo E  02022                       % 00458 AVL---
+*Z 00459 AVL---                                             % 00459 AVL---
+*L 1        200415009 200417023  02052  02122               % 00459 AVL---
+*A BE 200415009 200417023 000005  02052  02122              % 00459 AVL---
+*R 1 200417023 200415009 200417023  02052  02122            % 00459 AVL---
+*G AVG 200415009 200417023  02052  02122                    % 00459 AVL---
+*A VE 200415009 200417023 000005  02052  02122              % 00459 AVL---
+200415009 Hollerich, P+R Bouil         02052                % 00459 AVL---
+200415017 Hollerich, P+R Bouil  02053  02053                % 00459 AVL---
+200415006 Hollerich, Jean-Bapt  02054  02054                % 00459 AVL---
+200415003 Hollerich, Fonderie   02056  02056                % 00459 AVL---
+200405036 Luxembourg, Gare rou  02058  02058                % 00459 AVL---
+200405013 Centre, F.D. Rooseve  02102  02102                % 00459 AVL---
+200405020 Hamilius              02105  02105                % 00459 AVL---
+200405014 Centre, Fondation Pe  02107  02107                % 00459 AVL---
+200417047 Kirchberg, Rout Bréc  02109  02109                % 00459 AVL---
+200417007 Kirchberg, B.E.I.     02110  02110                % 00459 AVL---
+200417016 Kirchberg, Jean Monn  02112  02112                % 00459 AVL---
+200417005 Kirchberg, Antoine d  02113  02113                % 00459 AVL---
+200417019 Kirchberg, Konrad Ad  02113  02113                % 00459 AVL---
+200417013 Kirchberg, Coudenhov  02114  02114                % 00459 AVL---
+200417002 Kirchberg, Albert Bo  02115  02115                % 00459 AVL---
+200417036 Kirchberg, Réimerwee  02115  02115                % 00459 AVL---
+200417004 Kirchberg, Alphonse   02116  02116                % 00459 AVL---
+200417015 Kirchberg, Hôpital    02118  02118                % 00459 AVL---
+200417057 Kirchberg, Luxexpo Q  02120  02120                % 00459 AVL---
+200417033 Kirchberg, Poutty St  02121  02121                % 00459 AVL---
+200417023 Kirchberg, Luxexpo E  02122                       % 00459 AVL---
+*Z 00460 AVL---       001 060                               % 00460 AVL---
+*L 1        200415009 200417023  02152  02222               % 00460 AVL---
+*A BE 200415009 200417023 000001  02152  02222              % 00460 AVL---
+*R 1 200417023 200415009 200417023  02152  02222            % 00460 AVL---
+*G AVG 200415009 200417023  02152  02222                    % 00460 AVL---
+*A VE 200415009 200417023 000001  02152  02222              % 00460 AVL---
+200415009 Hollerich, P+R Bouil         02152                % 00460 AVL---
+200415017 Hollerich, P+R Bouil  02153  02153                % 00460 AVL---
+200415006 Hollerich, Jean-Bapt  02154  02154                % 00460 AVL---
+200415003 Hollerich, Fonderie   02156  02156                % 00460 AVL---
+200405036 Luxembourg, Gare rou  02158  02158                % 00460 AVL---
+200405013 Centre, F.D. Rooseve  02202  02202                % 00460 AVL---
+200405020 Hamilius              02205  02205                % 00460 AVL---
+200405014 Centre, Fondation Pe  02207  02207                % 00460 AVL---
+200417047 Kirchberg, Rout Bréc  02209  02209                % 00460 AVL---
+200417007 Kirchberg, B.E.I.     02210  02210                % 00460 AVL---
+200417016 Kirchberg, Jean Monn  02212  02212                % 00460 AVL---
+200417005 Kirchberg, Antoine d  02213  02213                % 00460 AVL---
+200417019 Kirchberg, Konrad Ad  02213  02213                % 00460 AVL---
+200417013 Kirchberg, Coudenhov  02214  02214                % 00460 AVL---
+200417002 Kirchberg, Albert Bo  02215  02215                % 00460 AVL---
+200417036 Kirchberg, Réimerwee  02215  02215                % 00460 AVL---
+200417004 Kirchberg, Alphonse   02216  02216                % 00460 AVL---
+200417015 Kirchberg, Hôpital    02218  02218                % 00460 AVL---
+200417057 Kirchberg, Luxexpo Q  02220  02220                % 00460 AVL---
+200417033 Kirchberg, Poutty St  02221  02221                % 00460 AVL---
+200417023 Kirchberg, Luxexpo E  02222                       % 00460 AVL---
+*Z 00461 AVL---       001 010                               % 00461 AVL---
+*L 1        200417023 200415009  01946  02019               % 00461 AVL---
+*A BE 200417023 200415009 000002  01946  02019              % 00461 AVL---
+*R 2 200415009 200417023 200415009  01946  02019            % 00461 AVL---
+*G AVG 200417023 200415009  01946  02019                    % 00461 AVL---
+*A VE 200417023 200415009 000002  01946  02019              % 00461 AVL---
+200417023 Kirchberg, Luxexpo E         01946                % 00461 AVL---
+200417033 Kirchberg, Poutty St  01947  01947                % 00461 AVL---
+200417044 Kirchberg, Luxexpo Q  01949  01949                % 00461 AVL---
+200417015 Kirchberg, Hôpital    01950  01950                % 00461 AVL---
+200417004 Kirchberg, Alphonse   01952  01952                % 00461 AVL---
+200417036 Kirchberg, Réimerwee  01953  01953                % 00461 AVL---
+200417002 Kirchberg, Albert Bo  01954  01954                % 00461 AVL---
+200417013 Kirchberg, Coudenhov  01955  01955                % 00461 AVL---
+200417019 Kirchberg, Konrad Ad  01956  01956                % 00461 AVL---
+200417005 Kirchberg, Antoine d  01956  01956                % 00461 AVL---
+200417016 Kirchberg, Jean Monn  01957  01957                % 00461 AVL---
+200417007 Kirchberg, B.E.I.     01959  01959                % 00461 AVL---
+200417047 Kirchberg, Rout Bréc  02000  02000                % 00461 AVL---
+200405014 Centre, Fondation Pe  02003  02003                % 00461 AVL---
+200405020 Hamilius              02007  02007                % 00461 AVL---
+200405054 Centre, F.D. Rooseve  02010  02010                % 00461 AVL---
+200405032 Luxembourg, Gare Cen  02013  02013                % 00461 AVL---
+200415003 Hollerich, Fonderie   02015  02015                % 00461 AVL---
+200415006 Hollerich, Jean-Bapt  02016  02016                % 00461 AVL---
+200415012 Hollerich, Salzhaff   02017  02017                % 00461 AVL---
+200415017 Hollerich, P+R Bouil  02019  02019                % 00461 AVL---
+200415009 Hollerich, P+R Bouil  02019                       % 00461 AVL---
+*Z 00462 AVL---       001 030                               % 00462 AVL---
+*L 1        200417023 200415009  02017  02050               % 00462 AVL---
+*A BE 200417023 200415009 000002  02017  02050              % 00462 AVL---
+*R 2 200415009 200417023 200415009  02017  02050            % 00462 AVL---
+*G AVG 200417023 200415009  02017  02050                    % 00462 AVL---
+*A VE 200417023 200415009 000002  02017  02050              % 00462 AVL---
+200417023 Kirchberg, Luxexpo E         02017                % 00462 AVL---
+200417033 Kirchberg, Poutty St  02018  02018                % 00462 AVL---
+200417044 Kirchberg, Luxexpo Q  02020  02020                % 00462 AVL---
+200417015 Kirchberg, Hôpital    02021  02021                % 00462 AVL---
+200417004 Kirchberg, Alphonse   02023  02023                % 00462 AVL---
+200417036 Kirchberg, Réimerwee  02024  02024                % 00462 AVL---
+200417002 Kirchberg, Albert Bo  02025  02025                % 00462 AVL---
+200417013 Kirchberg, Coudenhov  02026  02026                % 00462 AVL---
+200417019 Kirchberg, Konrad Ad  02027  02027                % 00462 AVL---
+200417005 Kirchberg, Antoine d  02027  02027                % 00462 AVL---
+200417016 Kirchberg, Jean Monn  02028  02028                % 00462 AVL---
+200417007 Kirchberg, B.E.I.     02030  02030                % 00462 AVL---
+200417047 Kirchberg, Rout Bréc  02031  02031                % 00462 AVL---
+200405014 Centre, Fondation Pe  02034  02034                % 00462 AVL---
+200405020 Hamilius              02038  02038                % 00462 AVL---
+200405054 Centre, F.D. Rooseve  02041  02041                % 00462 AVL---
+200405032 Luxembourg, Gare Cen  02044  02044                % 00462 AVL---
+200415003 Hollerich, Fonderie   02046  02046                % 00462 AVL---
+200415006 Hollerich, Jean-Bapt  02047  02047                % 00462 AVL---
+200415012 Hollerich, Salzhaff   02048  02048                % 00462 AVL---
+200415017 Hollerich, P+R Bouil  02050  02050                % 00462 AVL---
+200415009 Hollerich, P+R Bouil  02050                       % 00462 AVL---
+*Z 00463 AVL---       001 030                               % 00463 AVL---
+*L 1        200417023 200415009  02102  02135               % 00463 AVL---
+*A BE 200417023 200415009 000002  02102  02135              % 00463 AVL---
+*R 2 200415009 200417023 200415009  02102  02135            % 00463 AVL---
+*G AVG 200417023 200415009  02102  02135                    % 00463 AVL---
+*A VE 200417023 200415009 000002  02102  02135              % 00463 AVL---
+200417023 Kirchberg, Luxexpo E         02102                % 00463 AVL---
+200417033 Kirchberg, Poutty St  02103  02103                % 00463 AVL---
+200417044 Kirchberg, Luxexpo Q  02105  02105                % 00463 AVL---
+200417015 Kirchberg, Hôpital    02106  02106                % 00463 AVL---
+200417004 Kirchberg, Alphonse   02108  02108                % 00463 AVL---
+200417036 Kirchberg, Réimerwee  02109  02109                % 00463 AVL---
+200417002 Kirchberg, Albert Bo  02110  02110                % 00463 AVL---
+200417013 Kirchberg, Coudenhov  02111  02111                % 00463 AVL---
+200417019 Kirchberg, Konrad Ad  02112  02112                % 00463 AVL---
+200417005 Kirchberg, Antoine d  02112  02112                % 00463 AVL---
+200417016 Kirchberg, Jean Monn  02113  02113                % 00463 AVL---
+200417007 Kirchberg, B.E.I.     02115  02115                % 00463 AVL---
+200417047 Kirchberg, Rout Bréc  02116  02116                % 00463 AVL---
+200405014 Centre, Fondation Pe  02119  02119                % 00463 AVL---
+200405020 Hamilius              02123  02123                % 00463 AVL---
+200405054 Centre, F.D. Rooseve  02126  02126                % 00463 AVL---
+200405032 Luxembourg, Gare Cen  02129  02129                % 00463 AVL---
+200415003 Hollerich, Fonderie   02131  02131                % 00463 AVL---
+200415006 Hollerich, Jean-Bapt  02132  02132                % 00463 AVL---
+200415012 Hollerich, Salzhaff   02133  02133                % 00463 AVL---
+200415017 Hollerich, P+R Bouil  02135  02135                % 00463 AVL---
+200415009 Hollerich, P+R Bouil  02135                       % 00463 AVL---
+*Z 00464 AVL---       001 071                               % 00464 AVL---
+*L 1        200417023 200415009  02006  02039               % 00464 AVL---
+*A BE 200417023 200415009 000002  02006  02039              % 00464 AVL---
+*R 2 200415009 200417023 200415009  02006  02039            % 00464 AVL---
+*G AVS 200417023 200415009  02006  02039                    % 00464 AVL---
+*A VE 200417023 200415009 000002  02006  02039              % 00464 AVL---
+200417023 Kirchberg, Luxexpo E         02006                % 00464 AVL---
+200417033 Kirchberg, Poutty St  02007  02007                % 00464 AVL---
+200417044 Kirchberg, Luxexpo Q  02009  02009                % 00464 AVL---
+200417015 Kirchberg, Hôpital    02010  02010                % 00464 AVL---
+200417004 Kirchberg, Alphonse   02012  02012                % 00464 AVL---
+200417036 Kirchberg, Réimerwee  02013  02013                % 00464 AVL---
+200417002 Kirchberg, Albert Bo  02014  02014                % 00464 AVL---
+200417013 Kirchberg, Coudenhov  02015  02015                % 00464 AVL---
+200417019 Kirchberg, Konrad Ad  02016  02016                % 00464 AVL---
+200417005 Kirchberg, Antoine d  02016  02016                % 00464 AVL---
+200417016 Kirchberg, Jean Monn  02017  02017                % 00464 AVL---
+200417007 Kirchberg, B.E.I.     02019  02019                % 00464 AVL---
+200417047 Kirchberg, Rout Bréc  02020  02020                % 00464 AVL---
+200405014 Centre, Fondation Pe  02023  02023                % 00464 AVL---
+200405020 Hamilius              02027  02027                % 00464 AVL---
+200405054 Centre, F.D. Rooseve  02030  02030                % 00464 AVL---
+200405032 Luxembourg, Gare Cen  02033  02033                % 00464 AVL---
+200415003 Hollerich, Fonderie   02035  02035                % 00464 AVL---
+200415006 Hollerich, Jean-Bapt  02036  02036                % 00464 AVL---
+200415012 Hollerich, Salzhaff   02037  02037                % 00464 AVL---
+200415017 Hollerich, P+R Bouil  02039  02039                % 00464 AVL---
+200415009 Hollerich, P+R Bouil  02039                       % 00464 AVL---
+*Z 00465 AVL---                                             % 00465 AVL---
+*L 1        200417023 200415009  02406  02436               % 00465 AVL---
+*A BE 200417023 200415009 000001  02406  02436              % 00465 AVL---
+*R 2 200415009 200417023 200415009  02406  02436            % 00465 AVL---
+*G AVG 200417023 200415009  02406  02436                    % 00465 AVL---
+*A VE 200417023 200415009 000001  02406  02436              % 00465 AVL---
+200417023 Kirchberg, Luxexpo E         02406                % 00465 AVL---
+200417033 Kirchberg, Poutty St  02407  02407                % 00465 AVL---
+200417044 Kirchberg, Luxexpo Q  02408  02408                % 00465 AVL---
+200417015 Kirchberg, Hôpital    02410  02410                % 00465 AVL---
+200417004 Kirchberg, Alphonse   02411  02411                % 00465 AVL---
+200417036 Kirchberg, Réimerwee  02412  02412                % 00465 AVL---
+200417002 Kirchberg, Albert Bo  02413  02413                % 00465 AVL---
+200417013 Kirchberg, Coudenhov  02414  02414                % 00465 AVL---
+200417019 Kirchberg, Konrad Ad  02415  02415                % 00465 AVL---
+200417005 Kirchberg, Antoine d  02416  02416                % 00465 AVL---
+200417016 Kirchberg, Jean Monn  02417  02417                % 00465 AVL---
+200417007 Kirchberg, B.E.I.     02418  02418                % 00465 AVL---
+200417047 Kirchberg, Rout Bréc  02419  02419                % 00465 AVL---
+200405014 Centre, Fondation Pe  02422  02422                % 00465 AVL---
+200405020 Hamilius              02425  02425                % 00465 AVL---
+200405054 Centre, F.D. Rooseve  02427  02427                % 00465 AVL---
+200405032 Luxembourg, Gare Cen  02431  02431                % 00465 AVL---
+200415003 Hollerich, Fonderie   02432  02432                % 00465 AVL---
+200415006 Hollerich, Jean-Bapt  02433  02433                % 00465 AVL---
+200415012 Hollerich, Salzhaff   02434  02434                % 00465 AVL---
+200415017 Hollerich, P+R Bouil  02436  02436                % 00465 AVL---
+200415009 Hollerich, P+R Bouil  02436                       % 00465 AVL---
+*Z 00466 AVL---                                             % 00466 AVL---
+*L 1        200417023 200415009  01956  02026               % 00466 AVL---
+*A BE 200417023 200415009 000005  01956  02026              % 00466 AVL---
+*R 2 200415009 200417023 200415009  01956  02026            % 00466 AVL---
+*G AVS 200417023 200415009  01956  02026                    % 00466 AVL---
+*A VE 200417023 200415009 000005  01956  02026              % 00466 AVL---
+200417023 Kirchberg, Luxexpo E         01956                % 00466 AVL---
+200417033 Kirchberg, Poutty St  01957  01957                % 00466 AVL---
+200417044 Kirchberg, Luxexpo Q  01958  01958                % 00466 AVL---
+200417015 Kirchberg, Hôpital    02000  02000                % 00466 AVL---
+200417004 Kirchberg, Alphonse   02001  02001                % 00466 AVL---
+200417036 Kirchberg, Réimerwee  02002  02002                % 00466 AVL---
+200417002 Kirchberg, Albert Bo  02003  02003                % 00466 AVL---
+200417013 Kirchberg, Coudenhov  02004  02004                % 00466 AVL---
+200417019 Kirchberg, Konrad Ad  02005  02005                % 00466 AVL---
+200417005 Kirchberg, Antoine d  02006  02006                % 00466 AVL---
+200417016 Kirchberg, Jean Monn  02007  02007                % 00466 AVL---
+200417007 Kirchberg, B.E.I.     02008  02008                % 00466 AVL---
+200417047 Kirchberg, Rout Bréc  02009  02009                % 00466 AVL---
+200405014 Centre, Fondation Pe  02012  02012                % 00466 AVL---
+200405020 Hamilius              02015  02015                % 00466 AVL---
+200405054 Centre, F.D. Rooseve  02017  02017                % 00466 AVL---
+200405032 Luxembourg, Gare Cen  02021  02021                % 00466 AVL---
+200415003 Hollerich, Fonderie   02022  02022                % 00466 AVL---
+200415006 Hollerich, Jean-Bapt  02023  02023                % 00466 AVL---
+200415012 Hollerich, Salzhaff   02024  02024                % 00466 AVL---
+200415017 Hollerich, P+R Bouil  02026  02026                % 00466 AVL---
+200415009 Hollerich, P+R Bouil  02026                       % 00466 AVL---
+*Z 00467 AVL---       002 020                               % 00467 AVL---
+*L 1        200417023 200415009  00548  00618               % 00467 AVL---
+*A BE 200417023 200415009 000002  00548  00618              % 00467 AVL---
+*R 2 200415009 200417023 200415009  00548  00618            % 00467 AVL---
+*G AVG 200417023 200415009  00548  00618                    % 00467 AVL---
+*A VE 200417023 200415009 000002  00548  00618              % 00467 AVL---
+200417023 Kirchberg, Luxexpo E         00548                % 00467 AVL---
+200417033 Kirchberg, Poutty St  00549  00549                % 00467 AVL---
+200417044 Kirchberg, Luxexpo Q  00550  00550                % 00467 AVL---
+200417015 Kirchberg, Hôpital    00552  00552                % 00467 AVL---
+200417004 Kirchberg, Alphonse   00553  00553                % 00467 AVL---
+200417036 Kirchberg, Réimerwee  00554  00554                % 00467 AVL---
+200417002 Kirchberg, Albert Bo  00555  00555                % 00467 AVL---
+200417013 Kirchberg, Coudenhov  00556  00556                % 00467 AVL---
+200417019 Kirchberg, Konrad Ad  00557  00557                % 00467 AVL---
+200417005 Kirchberg, Antoine d  00558  00558                % 00467 AVL---
+200417016 Kirchberg, Jean Monn  00559  00559                % 00467 AVL---
+200417007 Kirchberg, B.E.I.     00600  00600                % 00467 AVL---
+200417047 Kirchberg, Rout Bréc  00601  00601                % 00467 AVL---
+200405014 Centre, Fondation Pe  00604  00604                % 00467 AVL---
+200405020 Hamilius              00607  00607                % 00467 AVL---
+200405054 Centre, F.D. Rooseve  00609  00609                % 00467 AVL---
+200405032 Luxembourg, Gare Cen  00613  00613                % 00467 AVL---
+200415003 Hollerich, Fonderie   00614  00614                % 00467 AVL---
+200415006 Hollerich, Jean-Bapt  00615  00615                % 00467 AVL---
+200415012 Hollerich, Salzhaff   00616  00616                % 00467 AVL---
+200415017 Hollerich, P+R Bouil  00618  00618                % 00467 AVL---
+200415009 Hollerich, P+R Bouil  00618                       % 00467 AVL---
+*Z 00117 AVL---                                             % 00117 AVL---
+*L 1        200417019 200415009  00920  00941               % 00117 AVL---
+*A BE 200417019 200415009 000006  00920  00941              % 00117 AVL---
+*R 2 200415009 200417019 200415009  00920  00941            % 00117 AVL---
+*G AVG 200417019 200415009  00920  00941                    % 00117 AVL---
+*A VE 200417019 200415009 000006  00920  00941              % 00117 AVL---
+200417019 Kirchberg, Konrad Ad         00920                % 00117 AVL---
+200417005 Kirchberg, Antoine d  00921  00921                % 00117 AVL---
+200417016 Kirchberg, Jean Monn  00922  00922                % 00117 AVL---
+200417007 Kirchberg, B.E.I.     00923  00923                % 00117 AVL---
+200417047 Kirchberg, Rout Bréc  00924  00924                % 00117 AVL---
+200405014 Centre, Fondation Pe  00927  00927                % 00117 AVL---
+200405020 Hamilius              00930  00930                % 00117 AVL---
+200405054 Centre, F.D. Rooseve  00932  00932                % 00117 AVL---
+200405032 Luxembourg, Gare Cen  00936  00936                % 00117 AVL---
+200415003 Hollerich, Fonderie   00937  00937                % 00117 AVL---
+200415006 Hollerich, Jean-Bapt  00938  00938                % 00117 AVL---
+200415012 Hollerich, Salzhaff   00939  00939                % 00117 AVL---
+200415017 Hollerich, P+R Bouil  00941  00941                % 00117 AVL---
+200415009 Hollerich, P+R Bouil  00941                       % 00117 AVL---
+*Z 00131 AVL---                                             % 00131 AVL---
+*L 1        200417019 200415009  00950  01011               % 00131 AVL---
+*A BE 200417019 200415009 000006  00950  01011              % 00131 AVL---
+*R 2 200415009 200417019 200415009  00950  01011            % 00131 AVL---
+*G AVG 200417019 200415009  00950  01011                    % 00131 AVL---
+*A VE 200417019 200415009 000006  00950  01011              % 00131 AVL---
+200417019 Kirchberg, Konrad Ad         00950                % 00131 AVL---
+200417005 Kirchberg, Antoine d  00951  00951                % 00131 AVL---
+200417016 Kirchberg, Jean Monn  00952  00952                % 00131 AVL---
+200417007 Kirchberg, B.E.I.     00953  00953                % 00131 AVL---
+200417047 Kirchberg, Rout Bréc  00954  00954                % 00131 AVL---
+200405014 Centre, Fondation Pe  00957  00957                % 00131 AVL---
+200405020 Hamilius              01000  01000                % 00131 AVL---
+200405054 Centre, F.D. Rooseve  01002  01002                % 00131 AVL---
+200405032 Luxembourg, Gare Cen  01006  01006                % 00131 AVL---
+200415003 Hollerich, Fonderie   01007  01007                % 00131 AVL---
+200415006 Hollerich, Jean-Bapt  01008  01008                % 00131 AVL---
+200415012 Hollerich, Salzhaff   01009  01009                % 00131 AVL---
+200415017 Hollerich, P+R Bouil  01011  01011                % 00131 AVL---
+200415009 Hollerich, P+R Bouil  01011                       % 00131 AVL---
+*Z 00145 AVL---                                             % 00145 AVL---
+*L 1        200417019 200415009  01020  01041               % 00145 AVL---
+*A BE 200417019 200415009 000006  01020  01041              % 00145 AVL---
+*R 2 200415009 200417019 200415009  01020  01041            % 00145 AVL---
+*G AVG 200417019 200415009  01020  01041                    % 00145 AVL---
+*A VE 200417019 200415009 000006  01020  01041              % 00145 AVL---
+200417019 Kirchberg, Konrad Ad         01020                % 00145 AVL---
+200417005 Kirchberg, Antoine d  01021  01021                % 00145 AVL---
+200417016 Kirchberg, Jean Monn  01022  01022                % 00145 AVL---
+200417007 Kirchberg, B.E.I.     01023  01023                % 00145 AVL---
+200417047 Kirchberg, Rout Bréc  01024  01024                % 00145 AVL---
+200405014 Centre, Fondation Pe  01027  01027                % 00145 AVL---
+200405020 Hamilius              01030  01030                % 00145 AVL---
+200405054 Centre, F.D. Rooseve  01032  01032                % 00145 AVL---
+200405032 Luxembourg, Gare Cen  01036  01036                % 00145 AVL---
+200415003 Hollerich, Fonderie   01037  01037                % 00145 AVL---
+200415006 Hollerich, Jean-Bapt  01038  01038                % 00145 AVL---
+200415012 Hollerich, Salzhaff   01039  01039                % 00145 AVL---
+200415017 Hollerich, P+R Bouil  01041  01041                % 00145 AVL---
+200415009 Hollerich, P+R Bouil  01041                       % 00145 AVL---
+*Z 00159 AVL---                                             % 00159 AVL---
+*L 1        200417019 200415009  01050  01111               % 00159 AVL---
+*A BE 200417019 200415009 000006  01050  01111              % 00159 AVL---
+*R 2 200415009 200417019 200415009  01050  01111            % 00159 AVL---
+*G AVG 200417019 200415009  01050  01111                    % 00159 AVL---
+*A VE 200417019 200415009 000006  01050  01111              % 00159 AVL---
+200417019 Kirchberg, Konrad Ad         01050                % 00159 AVL---
+200417005 Kirchberg, Antoine d  01051  01051                % 00159 AVL---
+200417016 Kirchberg, Jean Monn  01052  01052                % 00159 AVL---
+200417007 Kirchberg, B.E.I.     01053  01053                % 00159 AVL---
+200417047 Kirchberg, Rout Bréc  01054  01054                % 00159 AVL---
+200405014 Centre, Fondation Pe  01057  01057                % 00159 AVL---
+200405020 Hamilius              01100  01100                % 00159 AVL---
+200405054 Centre, F.D. Rooseve  01102  01102                % 00159 AVL---
+200405032 Luxembourg, Gare Cen  01106  01106                % 00159 AVL---
+200415003 Hollerich, Fonderie   01107  01107                % 00159 AVL---
+200415006 Hollerich, Jean-Bapt  01108  01108                % 00159 AVL---
+200415012 Hollerich, Salzhaff   01109  01109                % 00159 AVL---
+200415017 Hollerich, P+R Bouil  01111  01111                % 00159 AVL---
+200415009 Hollerich, P+R Bouil  01111                       % 00159 AVL---
+*Z 00173 AVL---                                             % 00173 AVL---
+*L 1        200417019 200415009  01120  01141               % 00173 AVL---
+*A BE 200417019 200415009 000006  01120  01141              % 00173 AVL---
+*R 2 200415009 200417019 200415009  01120  01141            % 00173 AVL---
+*G AVG 200417019 200415009  01120  01141                    % 00173 AVL---
+*A VE 200417019 200415009 000006  01120  01141              % 00173 AVL---
+200417019 Kirchberg, Konrad Ad         01120                % 00173 AVL---
+200417005 Kirchberg, Antoine d  01121  01121                % 00173 AVL---
+200417016 Kirchberg, Jean Monn  01122  01122                % 00173 AVL---
+200417007 Kirchberg, B.E.I.     01123  01123                % 00173 AVL---
+200417047 Kirchberg, Rout Bréc  01124  01124                % 00173 AVL---
+200405014 Centre, Fondation Pe  01127  01127                % 00173 AVL---
+200405020 Hamilius              01130  01130                % 00173 AVL---
+200405054 Centre, F.D. Rooseve  01132  01132                % 00173 AVL---
+200405032 Luxembourg, Gare Cen  01136  01136                % 00173 AVL---
+200415003 Hollerich, Fonderie   01137  01137                % 00173 AVL---
+200415006 Hollerich, Jean-Bapt  01138  01138                % 00173 AVL---
+200415012 Hollerich, Salzhaff   01139  01139                % 00173 AVL---
+200415017 Hollerich, P+R Bouil  01141  01141                % 00173 AVL---
+200415009 Hollerich, P+R Bouil  01141                       % 00173 AVL---
+*Z 00185 AVL---                                             % 00185 AVL---
+*L 1        200417019 200415009  01148  01210               % 00185 AVL---
+*A BE 200417019 200415009 000006  01148  01210              % 00185 AVL---
+*R 2 200415009 200417019 200415009  01148  01210            % 00185 AVL---
+*G AVG 200417019 200415009  01148  01210                    % 00185 AVL---
+*A VE 200417019 200415009 000006  01148  01210              % 00185 AVL---
+200417019 Kirchberg, Konrad Ad         01148                % 00185 AVL---
+200417005 Kirchberg, Antoine d  01149  01149                % 00185 AVL---
+200417016 Kirchberg, Jean Monn  01150  01150                % 00185 AVL---
+200417007 Kirchberg, B.E.I.     01151  01151                % 00185 AVL---
+200417047 Kirchberg, Rout Bréc  01153  01153                % 00185 AVL---
+200405014 Centre, Fondation Pe  01155  01155                % 00185 AVL---
+200405020 Hamilius              01158  01158                % 00185 AVL---
+200405054 Centre, F.D. Rooseve  01201  01201                % 00185 AVL---
+200405032 Luxembourg, Gare Cen  01204  01204                % 00185 AVL---
+200415003 Hollerich, Fonderie   01206  01206                % 00185 AVL---
+200415006 Hollerich, Jean-Bapt  01207  01207                % 00185 AVL---
+200415012 Hollerich, Salzhaff   01208  01208                % 00185 AVL---
+200415017 Hollerich, P+R Bouil  01209  01209                % 00185 AVL---
+200415009 Hollerich, P+R Bouil  01210                       % 00185 AVL---
+*Z 00199 AVL---                                             % 00199 AVL---
+*L 1        200417019 200415009  01218  01240               % 00199 AVL---
+*A BE 200417019 200415009 000006  01218  01240              % 00199 AVL---
+*R 2 200415009 200417019 200415009  01218  01240            % 00199 AVL---
+*G AVG 200417019 200415009  01218  01240                    % 00199 AVL---
+*A VE 200417019 200415009 000006  01218  01240              % 00199 AVL---
+200417019 Kirchberg, Konrad Ad         01218                % 00199 AVL---
+200417005 Kirchberg, Antoine d  01219  01219                % 00199 AVL---
+200417016 Kirchberg, Jean Monn  01220  01220                % 00199 AVL---
+200417007 Kirchberg, B.E.I.     01221  01221                % 00199 AVL---
+200417047 Kirchberg, Rout Bréc  01223  01223                % 00199 AVL---
+200405014 Centre, Fondation Pe  01225  01225                % 00199 AVL---
+200405020 Hamilius              01228  01228                % 00199 AVL---
+200405054 Centre, F.D. Rooseve  01231  01231                % 00199 AVL---
+200405032 Luxembourg, Gare Cen  01234  01234                % 00199 AVL---
+200415003 Hollerich, Fonderie   01236  01236                % 00199 AVL---
+200415006 Hollerich, Jean-Bapt  01237  01237                % 00199 AVL---
+200415012 Hollerich, Salzhaff   01238  01238                % 00199 AVL---
+200415017 Hollerich, P+R Bouil  01239  01239                % 00199 AVL---
+200415009 Hollerich, P+R Bouil  01240                       % 00199 AVL---
+*Z 00213 AVL---                                             % 00213 AVL---
+*L 1        200417019 200415009  01248  01310               % 00213 AVL---
+*A BE 200417019 200415009 000006  01248  01310              % 00213 AVL---
+*R 2 200415009 200417019 200415009  01248  01310            % 00213 AVL---
+*G AVG 200417019 200415009  01248  01310                    % 00213 AVL---
+*A VE 200417019 200415009 000006  01248  01310              % 00213 AVL---
+200417019 Kirchberg, Konrad Ad         01248                % 00213 AVL---
+200417005 Kirchberg, Antoine d  01249  01249                % 00213 AVL---
+200417016 Kirchberg, Jean Monn  01250  01250                % 00213 AVL---
+200417007 Kirchberg, B.E.I.     01251  01251                % 00213 AVL---
+200417047 Kirchberg, Rout Bréc  01253  01253                % 00213 AVL---
+200405014 Centre, Fondation Pe  01255  01255                % 00213 AVL---
+200405020 Hamilius              01258  01258                % 00213 AVL---
+200405054 Centre, F.D. Rooseve  01301  01301                % 00213 AVL---
+200405032 Luxembourg, Gare Cen  01304  01304                % 00213 AVL---
+200415003 Hollerich, Fonderie   01306  01306                % 00213 AVL---
+200415006 Hollerich, Jean-Bapt  01307  01307                % 00213 AVL---
+200415012 Hollerich, Salzhaff   01308  01308                % 00213 AVL---
+200415017 Hollerich, P+R Bouil  01309  01309                % 00213 AVL---
+200415009 Hollerich, P+R Bouil  01310                       % 00213 AVL---
+*Z 00227 AVL---                                             % 00227 AVL---
+*L 1        200417019 200415009  01318  01340               % 00227 AVL---
+*A BE 200417019 200415009 000006  01318  01340              % 00227 AVL---
+*R 2 200415009 200417019 200415009  01318  01340            % 00227 AVL---
+*G AVG 200417019 200415009  01318  01340                    % 00227 AVL---
+*A VE 200417019 200415009 000006  01318  01340              % 00227 AVL---
+200417019 Kirchberg, Konrad Ad         01318                % 00227 AVL---
+200417005 Kirchberg, Antoine d  01319  01319                % 00227 AVL---
+200417016 Kirchberg, Jean Monn  01320  01320                % 00227 AVL---
+200417007 Kirchberg, B.E.I.     01321  01321                % 00227 AVL---
+200417047 Kirchberg, Rout Bréc  01323  01323                % 00227 AVL---
+200405014 Centre, Fondation Pe  01325  01325                % 00227 AVL---
+200405020 Hamilius              01328  01328                % 00227 AVL---
+200405054 Centre, F.D. Rooseve  01331  01331                % 00227 AVL---
+200405032 Luxembourg, Gare Cen  01334  01334                % 00227 AVL---
+200415003 Hollerich, Fonderie   01336  01336                % 00227 AVL---
+200415006 Hollerich, Jean-Bapt  01337  01337                % 00227 AVL---
+200415012 Hollerich, Salzhaff   01338  01338                % 00227 AVL---
+200415017 Hollerich, P+R Bouil  01339  01339                % 00227 AVL---
+200415009 Hollerich, P+R Bouil  01340                       % 00227 AVL---
+*Z 00241 AVL---                                             % 00241 AVL---
+*L 1        200417019 200415009  01348  01410               % 00241 AVL---
+*A BE 200417019 200415009 000006  01348  01410              % 00241 AVL---
+*R 2 200415009 200417019 200415009  01348  01410            % 00241 AVL---
+*G AVG 200417019 200415009  01348  01410                    % 00241 AVL---
+*A VE 200417019 200415009 000006  01348  01410              % 00241 AVL---
+200417019 Kirchberg, Konrad Ad         01348                % 00241 AVL---
+200417005 Kirchberg, Antoine d  01349  01349                % 00241 AVL---
+200417016 Kirchberg, Jean Monn  01350  01350                % 00241 AVL---
+200417007 Kirchberg, B.E.I.     01351  01351                % 00241 AVL---
+200417047 Kirchberg, Rout Bréc  01353  01353                % 00241 AVL---
+200405014 Centre, Fondation Pe  01355  01355                % 00241 AVL---
+200405020 Hamilius              01358  01358                % 00241 AVL---
+200405054 Centre, F.D. Rooseve  01401  01401                % 00241 AVL---
+200405032 Luxembourg, Gare Cen  01404  01404                % 00241 AVL---
+200415003 Hollerich, Fonderie   01406  01406                % 00241 AVL---
+200415006 Hollerich, Jean-Bapt  01407  01407                % 00241 AVL---
+200415012 Hollerich, Salzhaff   01408  01408                % 00241 AVL---
+200415017 Hollerich, P+R Bouil  01409  01409                % 00241 AVL---
+200415009 Hollerich, P+R Bouil  01410                       % 00241 AVL---
+*Z 00255 AVL---                                             % 00255 AVL---
+*L 1        200417019 200415009  01418  01440               % 00255 AVL---
+*A BE 200417019 200415009 000006  01418  01440              % 00255 AVL---
+*R 2 200415009 200417019 200415009  01418  01440            % 00255 AVL---
+*G AVG 200417019 200415009  01418  01440                    % 00255 AVL---
+*A VE 200417019 200415009 000006  01418  01440              % 00255 AVL---
+200417019 Kirchberg, Konrad Ad         01418                % 00255 AVL---
+200417005 Kirchberg, Antoine d  01419  01419                % 00255 AVL---
+200417016 Kirchberg, Jean Monn  01420  01420                % 00255 AVL---
+200417007 Kirchberg, B.E.I.     01421  01421                % 00255 AVL---
+200417047 Kirchberg, Rout Bréc  01423  01423                % 00255 AVL---
+200405014 Centre, Fondation Pe  01425  01425                % 00255 AVL---
+200405020 Hamilius              01428  01428                % 00255 AVL---
+200405054 Centre, F.D. Rooseve  01431  01431                % 00255 AVL---
+200405032 Luxembourg, Gare Cen  01434  01434                % 00255 AVL---
+200415003 Hollerich, Fonderie   01436  01436                % 00255 AVL---
+200415006 Hollerich, Jean-Bapt  01437  01437                % 00255 AVL---
+200415012 Hollerich, Salzhaff   01438  01438                % 00255 AVL---
+200415017 Hollerich, P+R Bouil  01439  01439                % 00255 AVL---
+200415009 Hollerich, P+R Bouil  01440                       % 00255 AVL---
+*Z 00269 AVL---                                             % 00269 AVL---
+*L 1        200417019 200415009  01448  01510               % 00269 AVL---
+*A BE 200417019 200415009 000006  01448  01510              % 00269 AVL---
+*R 2 200415009 200417019 200415009  01448  01510            % 00269 AVL---
+*G AVG 200417019 200415009  01448  01510                    % 00269 AVL---
+*A VE 200417019 200415009 000006  01448  01510              % 00269 AVL---
+200417019 Kirchberg, Konrad Ad         01448                % 00269 AVL---
+200417005 Kirchberg, Antoine d  01449  01449                % 00269 AVL---
+200417016 Kirchberg, Jean Monn  01450  01450                % 00269 AVL---
+200417007 Kirchberg, B.E.I.     01451  01451                % 00269 AVL---
+200417047 Kirchberg, Rout Bréc  01453  01453                % 00269 AVL---
+200405014 Centre, Fondation Pe  01455  01455                % 00269 AVL---
+200405020 Hamilius              01458  01458                % 00269 AVL---
+200405054 Centre, F.D. Rooseve  01501  01501                % 00269 AVL---
+200405032 Luxembourg, Gare Cen  01504  01504                % 00269 AVL---
+200415003 Hollerich, Fonderie   01506  01506                % 00269 AVL---
+200415006 Hollerich, Jean-Bapt  01507  01507                % 00269 AVL---
+200415012 Hollerich, Salzhaff   01508  01508                % 00269 AVL---
+200415017 Hollerich, P+R Bouil  01509  01509                % 00269 AVL---
+200415009 Hollerich, P+R Bouil  01510                       % 00269 AVL---
+*Z 00283 AVL---                                             % 00283 AVL---
+*L 1        200417019 200415009  01518  01540               % 00283 AVL---
+*A BE 200417019 200415009 000006  01518  01540              % 00283 AVL---
+*R 2 200415009 200417019 200415009  01518  01540            % 00283 AVL---
+*G AVG 200417019 200415009  01518  01540                    % 00283 AVL---
+*A VE 200417019 200415009 000006  01518  01540              % 00283 AVL---
+200417019 Kirchberg, Konrad Ad         01518                % 00283 AVL---
+200417005 Kirchberg, Antoine d  01519  01519                % 00283 AVL---
+200417016 Kirchberg, Jean Monn  01520  01520                % 00283 AVL---
+200417007 Kirchberg, B.E.I.     01521  01521                % 00283 AVL---
+200417047 Kirchberg, Rout Bréc  01523  01523                % 00283 AVL---
+200405014 Centre, Fondation Pe  01525  01525                % 00283 AVL---
+200405020 Hamilius              01528  01528                % 00283 AVL---
+200405054 Centre, F.D. Rooseve  01531  01531                % 00283 AVL---
+200405032 Luxembourg, Gare Cen  01534  01534                % 00283 AVL---
+200415003 Hollerich, Fonderie   01536  01536                % 00283 AVL---
+200415006 Hollerich, Jean-Bapt  01537  01537                % 00283 AVL---
+200415012 Hollerich, Salzhaff   01538  01538                % 00283 AVL---
+200415017 Hollerich, P+R Bouil  01539  01539                % 00283 AVL---
+200415009 Hollerich, P+R Bouil  01540                       % 00283 AVL---
+*Z 00297 AVL---                                             % 00297 AVL---
+*L 1        200417019 200415009  01548  01610               % 00297 AVL---
+*A BE 200417019 200415009 000006  01548  01610              % 00297 AVL---
+*R 2 200415009 200417019 200415009  01548  01610            % 00297 AVL---
+*G AVG 200417019 200415009  01548  01610                    % 00297 AVL---
+*A VE 200417019 200415009 000006  01548  01610              % 00297 AVL---
+200417019 Kirchberg, Konrad Ad         01548                % 00297 AVL---
+200417005 Kirchberg, Antoine d  01549  01549                % 00297 AVL---
+200417016 Kirchberg, Jean Monn  01550  01550                % 00297 AVL---
+200417007 Kirchberg, B.E.I.     01551  01551                % 00297 AVL---
+200417047 Kirchberg, Rout Bréc  01553  01553                % 00297 AVL---
+200405014 Centre, Fondation Pe  01555  01555                % 00297 AVL---
+200405020 Hamilius              01558  01558                % 00297 AVL---
+200405054 Centre, F.D. Rooseve  01601  01601                % 00297 AVL---
+200405032 Luxembourg, Gare Cen  01604  01604                % 00297 AVL---
+200415003 Hollerich, Fonderie   01606  01606                % 00297 AVL---
+200415006 Hollerich, Jean-Bapt  01607  01607                % 00297 AVL---
+200415012 Hollerich, Salzhaff   01608  01608                % 00297 AVL---
+200415017 Hollerich, P+R Bouil  01609  01609                % 00297 AVL---
+200415009 Hollerich, P+R Bouil  01610                       % 00297 AVL---
+*Z 00311 AVL---                                             % 00311 AVL---
+*L 1        200417019 200415009  01618  01640               % 00311 AVL---
+*A BE 200417019 200415009 000006  01618  01640              % 00311 AVL---
+*R 2 200415009 200417019 200415009  01618  01640            % 00311 AVL---
+*G AVG 200417019 200415009  01618  01640                    % 00311 AVL---
+*A VE 200417019 200415009 000006  01618  01640              % 00311 AVL---
+200417019 Kirchberg, Konrad Ad         01618                % 00311 AVL---
+200417005 Kirchberg, Antoine d  01619  01619                % 00311 AVL---
+200417016 Kirchberg, Jean Monn  01620  01620                % 00311 AVL---
+200417007 Kirchberg, B.E.I.     01621  01621                % 00311 AVL---
+200417047 Kirchberg, Rout Bréc  01623  01623                % 00311 AVL---
+200405014 Centre, Fondation Pe  01625  01625                % 00311 AVL---
+200405020 Hamilius              01628  01628                % 00311 AVL---
+200405054 Centre, F.D. Rooseve  01631  01631                % 00311 AVL---
+200405032 Luxembourg, Gare Cen  01634  01634                % 00311 AVL---
+200415003 Hollerich, Fonderie   01636  01636                % 00311 AVL---
+200415006 Hollerich, Jean-Bapt  01637  01637                % 00311 AVL---
+200415012 Hollerich, Salzhaff   01638  01638                % 00311 AVL---
+200415017 Hollerich, P+R Bouil  01639  01639                % 00311 AVL---
+200415009 Hollerich, P+R Bouil  01640                       % 00311 AVL---
+*Z 00325 AVL---                                             % 00325 AVL---
+*L 1        200417019 200415009  01648  01710               % 00325 AVL---
+*A BE 200417019 200415009 000006  01648  01710              % 00325 AVL---
+*R 2 200415009 200417019 200415009  01648  01710            % 00325 AVL---
+*G AVG 200417019 200415009  01648  01710                    % 00325 AVL---
+*A VE 200417019 200415009 000006  01648  01710              % 00325 AVL---
+200417019 Kirchberg, Konrad Ad         01648                % 00325 AVL---
+200417005 Kirchberg, Antoine d  01649  01649                % 00325 AVL---
+200417016 Kirchberg, Jean Monn  01650  01650                % 00325 AVL---
+200417007 Kirchberg, B.E.I.     01651  01651                % 00325 AVL---
+200417047 Kirchberg, Rout Bréc  01653  01653                % 00325 AVL---
+200405014 Centre, Fondation Pe  01655  01655                % 00325 AVL---
+200405020 Hamilius              01658  01658                % 00325 AVL---
+200405054 Centre, F.D. Rooseve  01701  01701                % 00325 AVL---
+200405032 Luxembourg, Gare Cen  01704  01704                % 00325 AVL---
+200415003 Hollerich, Fonderie   01706  01706                % 00325 AVL---
+200415006 Hollerich, Jean-Bapt  01707  01707                % 00325 AVL---
+200415012 Hollerich, Salzhaff   01708  01708                % 00325 AVL---
+200415017 Hollerich, P+R Bouil  01709  01709                % 00325 AVL---
+200415009 Hollerich, P+R Bouil  01710                       % 00325 AVL---
+*Z 00339 AVL---                                             % 00339 AVL---
+*L 1        200417019 200415009  01718  01740               % 00339 AVL---
+*A BE 200417019 200415009 000006  01718  01740              % 00339 AVL---
+*R 2 200415009 200417019 200415009  01718  01740            % 00339 AVL---
+*G AVG 200417019 200415009  01718  01740                    % 00339 AVL---
+*A VE 200417019 200415009 000006  01718  01740              % 00339 AVL---
+200417019 Kirchberg, Konrad Ad         01718                % 00339 AVL---
+200417005 Kirchberg, Antoine d  01719  01719                % 00339 AVL---
+200417016 Kirchberg, Jean Monn  01720  01720                % 00339 AVL---
+200417007 Kirchberg, B.E.I.     01721  01721                % 00339 AVL---
+200417047 Kirchberg, Rout Bréc  01723  01723                % 00339 AVL---
+200405014 Centre, Fondation Pe  01725  01725                % 00339 AVL---
+200405020 Hamilius              01728  01728                % 00339 AVL---
+200405054 Centre, F.D. Rooseve  01731  01731                % 00339 AVL---
+200405032 Luxembourg, Gare Cen  01734  01734                % 00339 AVL---
+200415003 Hollerich, Fonderie   01736  01736                % 00339 AVL---
+200415006 Hollerich, Jean-Bapt  01737  01737                % 00339 AVL---
+200415012 Hollerich, Salzhaff   01738  01738                % 00339 AVL---
+200415017 Hollerich, P+R Bouil  01739  01739                % 00339 AVL---
+200415009 Hollerich, P+R Bouil  01740                       % 00339 AVL---
+*Z 00355 AVL---                                             % 00355 AVL---
+*L 1        200417019 200415009  01748  01810               % 00355 AVL---
+*A BE 200417019 200415009 000006  01748  01810              % 00355 AVL---
+*R 2 200415009 200417019 200415009  01748  01810            % 00355 AVL---
+*G AVG 200417019 200415009  01748  01810                    % 00355 AVL---
+*A VE 200417019 200415009 000006  01748  01810              % 00355 AVL---
+200417019 Kirchberg, Konrad Ad         01748                % 00355 AVL---
+200417005 Kirchberg, Antoine d  01749  01749                % 00355 AVL---
+200417016 Kirchberg, Jean Monn  01750  01750                % 00355 AVL---
+200417007 Kirchberg, B.E.I.     01751  01751                % 00355 AVL---
+200417047 Kirchberg, Rout Bréc  01753  01753                % 00355 AVL---
+200405014 Centre, Fondation Pe  01755  01755                % 00355 AVL---
+200405020 Hamilius              01758  01758                % 00355 AVL---
+200405054 Centre, F.D. Rooseve  01801  01801                % 00355 AVL---
+200405032 Luxembourg, Gare Cen  01804  01804                % 00355 AVL---
+200415003 Hollerich, Fonderie   01806  01806                % 00355 AVL---
+200415006 Hollerich, Jean-Bapt  01807  01807                % 00355 AVL---
+200415012 Hollerich, Salzhaff   01808  01808                % 00355 AVL---
+200415017 Hollerich, P+R Bouil  01809  01809                % 00355 AVL---
+200415009 Hollerich, P+R Bouil  01810                       % 00355 AVL---
+*Z 00373 AVL---                                             % 00373 AVL---
+*L 1        200417019 200415009  01818  01840               % 00373 AVL---
+*A BE 200417019 200415009 000006  01818  01840              % 00373 AVL---
+*R 2 200415009 200417019 200415009  01818  01840            % 00373 AVL---
+*G AVG 200417019 200415009  01818  01840                    % 00373 AVL---
+*A VE 200417019 200415009 000006  01818  01840              % 00373 AVL---
+200417019 Kirchberg, Konrad Ad         01818                % 00373 AVL---
+200417005 Kirchberg, Antoine d  01819  01819                % 00373 AVL---
+200417016 Kirchberg, Jean Monn  01820  01820                % 00373 AVL---
+200417007 Kirchberg, B.E.I.     01821  01821                % 00373 AVL---
+200417047 Kirchberg, Rout Bréc  01823  01823                % 00373 AVL---
+200405014 Centre, Fondation Pe  01825  01825                % 00373 AVL---
+200405020 Hamilius              01828  01828                % 00373 AVL---
+200405054 Centre, F.D. Rooseve  01831  01831                % 00373 AVL---
+200405032 Luxembourg, Gare Cen  01834  01834                % 00373 AVL---
+200415003 Hollerich, Fonderie   01836  01836                % 00373 AVL---
+200415006 Hollerich, Jean-Bapt  01837  01837                % 00373 AVL---
+200415012 Hollerich, Salzhaff   01838  01838                % 00373 AVL---
+200415017 Hollerich, P+R Bouil  01839  01839                % 00373 AVL---
+200415009 Hollerich, P+R Bouil  01840                       % 00373 AVL---
+*Z 00468 AVL---       008 060                               % 00468 AVL---
+*L 1        200417023 200415009  01109  01147               % 00468 AVL---
+*A BE 200417023 200415009 000003  01109  01147              % 00468 AVL---
+*R 2 200415009 200417023 200415009  01109  01147            % 00468 AVL---
+*G AVG 200417023 200415009  01109  01147                    % 00468 AVL---
+*A VE 200417023 200415009 000003  01109  01147              % 00468 AVL---
+200417023 Kirchberg, Luxexpo E         01109                % 00468 AVL---
+200417033 Kirchberg, Poutty St  01110  01110                % 00468 AVL---
+200417044 Kirchberg, Luxexpo Q  01112  01112                % 00468 AVL---
+200417015 Kirchberg, Hôpital    01113  01113                % 00468 AVL---
+200417004 Kirchberg, Alphonse   01115  01115                % 00468 AVL---
+200417036 Kirchberg, Réimerwee  01116  01116                % 00468 AVL---
+200417002 Kirchberg, Albert Bo  01117  01117                % 00468 AVL---
+200417013 Kirchberg, Coudenhov  01118  01118                % 00468 AVL---
+200417019 Kirchberg, Konrad Ad  01119  01119                % 00468 AVL---
+200417005 Kirchberg, Antoine d  01119  01119                % 00468 AVL---
+200417016 Kirchberg, Jean Monn  01120  01120                % 00468 AVL---
+200417007 Kirchberg, B.E.I.     01122  01122                % 00468 AVL---
+200417047 Kirchberg, Rout Bréc  01123  01123                % 00468 AVL---
+200405014 Centre, Fondation Pe  01126  01126                % 00468 AVL---
+200405020 Hamilius              01130  01135                % 00468 AVL---
+200405054 Centre, F.D. Rooseve  01138  01138                % 00468 AVL---
+200405032 Luxembourg, Gare Cen  01141  01141                % 00468 AVL---
+200415003 Hollerich, Fonderie   01143  01143                % 00468 AVL---
+200415006 Hollerich, Jean-Bapt  01144  01144                % 00468 AVL---
+200415012 Hollerich, Salzhaff   01145  01145                % 00468 AVL---
+200415017 Hollerich, P+R Bouil  01147  01147                % 00468 AVL---
+200415009 Hollerich, P+R Bouil  01147                       % 00468 AVL---
+*Z 00469 AVL---       001 060                               % 00469 AVL---
+*L 1        200417023 200415009  00911  00946               % 00469 AVL---
+*A BE 200417023 200415009 000003  00911  00946              % 00469 AVL---
+*R 2 200415009 200417023 200415009  00911  00946            % 00469 AVL---
+*G AVG 200417023 200415009  00911  00946                    % 00469 AVL---
+*A VE 200417023 200415009 000003  00911  00946              % 00469 AVL---
+200417023 Kirchberg, Luxexpo E         00911                % 00469 AVL---
+200417033 Kirchberg, Poutty St  00912  00912                % 00469 AVL---
+200417044 Kirchberg, Luxexpo Q  00913  00913                % 00469 AVL---
+200417015 Kirchberg, Hôpital    00915  00915                % 00469 AVL---
+200417004 Kirchberg, Alphonse   00916  00916                % 00469 AVL---
+200417036 Kirchberg, Réimerwee  00917  00917                % 00469 AVL---
+200417002 Kirchberg, Albert Bo  00918  00918                % 00469 AVL---
+200417013 Kirchberg, Coudenhov  00919  00919                % 00469 AVL---
+200417019 Kirchberg, Konrad Ad  00920  00920                % 00469 AVL---
+200417005 Kirchberg, Antoine d  00921  00921                % 00469 AVL---
+200417016 Kirchberg, Jean Monn  00922  00922                % 00469 AVL---
+200417007 Kirchberg, B.E.I.     00923  00923                % 00469 AVL---
+200417047 Kirchberg, Rout Bréc  00924  00924                % 00469 AVL---
+200405014 Centre, Fondation Pe  00927  00927                % 00469 AVL---
+200405020 Hamilius              00930  00935                % 00469 AVL---
+200405054 Centre, F.D. Rooseve  00937  00937                % 00469 AVL---
+200405032 Luxembourg, Gare Cen  00941  00941                % 00469 AVL---
+200415003 Hollerich, Fonderie   00942  00942                % 00469 AVL---
+200415006 Hollerich, Jean-Bapt  00943  00943                % 00469 AVL---
+200415012 Hollerich, Salzhaff   00944  00944                % 00469 AVL---
+200415017 Hollerich, P+R Bouil  00946  00946                % 00469 AVL---
+200415009 Hollerich, P+R Bouil  00946                       % 00469 AVL---
+*Z 00470 AVL---       002 030                               % 00470 AVL---
+*L 1        200417023 200415009  01941  02016               % 00470 AVL---
+*A BE 200417023 200415009 000003  01941  02016              % 00470 AVL---
+*R 2 200415009 200417023 200415009  01941  02016            % 00470 AVL---
+*G AVG 200417023 200415009  01941  02016                    % 00470 AVL---
+*A VE 200417023 200415009 000003  01941  02016              % 00470 AVL---
+200417023 Kirchberg, Luxexpo E         01941                % 00470 AVL---
+200417033 Kirchberg, Poutty St  01942  01942                % 00470 AVL---
+200417044 Kirchberg, Luxexpo Q  01943  01943                % 00470 AVL---
+200417015 Kirchberg, Hôpital    01945  01945                % 00470 AVL---
+200417004 Kirchberg, Alphonse   01946  01946                % 00470 AVL---
+200417036 Kirchberg, Réimerwee  01947  01947                % 00470 AVL---
+200417002 Kirchberg, Albert Bo  01948  01948                % 00470 AVL---
+200417013 Kirchberg, Coudenhov  01949  01949                % 00470 AVL---
+200417019 Kirchberg, Konrad Ad  01950  01950                % 00470 AVL---
+200417005 Kirchberg, Antoine d  01951  01951                % 00470 AVL---
+200417016 Kirchberg, Jean Monn  01952  01952                % 00470 AVL---
+200417007 Kirchberg, B.E.I.     01953  01953                % 00470 AVL---
+200417047 Kirchberg, Rout Bréc  01954  01954                % 00470 AVL---
+200405014 Centre, Fondation Pe  01957  01957                % 00470 AVL---
+200405020 Hamilius              02000  02005                % 00470 AVL---
+200405054 Centre, F.D. Rooseve  02007  02007                % 00470 AVL---
+200405032 Luxembourg, Gare Cen  02011  02011                % 00470 AVL---
+200415003 Hollerich, Fonderie   02012  02012                % 00470 AVL---
+200415006 Hollerich, Jean-Bapt  02013  02013                % 00470 AVL---
+200415012 Hollerich, Salzhaff   02014  02014                % 00470 AVL---
+200415017 Hollerich, P+R Bouil  02016  02016                % 00470 AVL---
+200415009 Hollerich, P+R Bouil  02016                       % 00470 AVL---
+*Z 00471 AVL---       001 060                               % 00471 AVL---
+*L 1        200417023 200415009  02011  02046               % 00471 AVL---
+*A BE 200417023 200415009 000005  02011  02046              % 00471 AVL---
+*R 2 200415009 200417023 200415009  02011  02046            % 00471 AVL---
+*G AVS 200417023 200415009  02011  02046                    % 00471 AVL---
+*A VE 200417023 200415009 000005  02011  02046              % 00471 AVL---
+200417023 Kirchberg, Luxexpo E         02011                % 00471 AVL---
+200417033 Kirchberg, Poutty St  02012  02012                % 00471 AVL---
+200417044 Kirchberg, Luxexpo Q  02013  02013                % 00471 AVL---
+200417015 Kirchberg, Hôpital    02015  02015                % 00471 AVL---
+200417004 Kirchberg, Alphonse   02016  02016                % 00471 AVL---
+200417036 Kirchberg, Réimerwee  02017  02017                % 00471 AVL---
+200417002 Kirchberg, Albert Bo  02018  02018                % 00471 AVL---
+200417013 Kirchberg, Coudenhov  02019  02019                % 00471 AVL---
+200417019 Kirchberg, Konrad Ad  02020  02020                % 00471 AVL---
+200417005 Kirchberg, Antoine d  02021  02021                % 00471 AVL---
+200417016 Kirchberg, Jean Monn  02022  02022                % 00471 AVL---
+200417007 Kirchberg, B.E.I.     02023  02023                % 00471 AVL---
+200417047 Kirchberg, Rout Bréc  02024  02024                % 00471 AVL---
+200405014 Centre, Fondation Pe  02027  02027                % 00471 AVL---
+200405020 Hamilius              02030  02035                % 00471 AVL---
+200405054 Centre, F.D. Rooseve  02037  02037                % 00471 AVL---
+200405032 Luxembourg, Gare Cen  02041  02041                % 00471 AVL---
+200415003 Hollerich, Fonderie   02042  02042                % 00471 AVL---
+200415006 Hollerich, Jean-Bapt  02043  02043                % 00471 AVL---
+200415012 Hollerich, Salzhaff   02044  02044                % 00471 AVL---
+200415017 Hollerich, P+R Bouil  02046  02046                % 00471 AVL---
+200415009 Hollerich, P+R Bouil  02046                       % 00471 AVL---
+*Z 00472 AVL---       001 060                               % 00472 AVL---
+*L 1        200417023 200415009  02211  02246               % 00472 AVL---
+*A BE 200417023 200415009 000001  02211  02246              % 00472 AVL---
+*R 2 200415009 200417023 200415009  02211  02246            % 00472 AVL---
+*G AVG 200417023 200415009  02211  02246                    % 00472 AVL---
+*A VE 200417023 200415009 000001  02211  02246              % 00472 AVL---
+200417023 Kirchberg, Luxexpo E         02211                % 00472 AVL---
+200417033 Kirchberg, Poutty St  02212  02212                % 00472 AVL---
+200417044 Kirchberg, Luxexpo Q  02213  02213                % 00472 AVL---
+200417015 Kirchberg, Hôpital    02215  02215                % 00472 AVL---
+200417004 Kirchberg, Alphonse   02216  02216                % 00472 AVL---
+200417036 Kirchberg, Réimerwee  02217  02217                % 00472 AVL---
+200417002 Kirchberg, Albert Bo  02218  02218                % 00472 AVL---
+200417013 Kirchberg, Coudenhov  02219  02219                % 00472 AVL---
+200417019 Kirchberg, Konrad Ad  02220  02220                % 00472 AVL---
+200417005 Kirchberg, Antoine d  02221  02221                % 00472 AVL---
+200417016 Kirchberg, Jean Monn  02222  02222                % 00472 AVL---
+200417007 Kirchberg, B.E.I.     02223  02223                % 00472 AVL---
+200417047 Kirchberg, Rout Bréc  02224  02224                % 00472 AVL---
+200405014 Centre, Fondation Pe  02227  02227                % 00472 AVL---
+200405020 Hamilius              02230  02235                % 00472 AVL---
+200405054 Centre, F.D. Rooseve  02237  02237                % 00472 AVL---
+200405032 Luxembourg, Gare Cen  02241  02241                % 00472 AVL---
+200415003 Hollerich, Fonderie   02242  02242                % 00472 AVL---
+200415006 Hollerich, Jean-Bapt  02243  02243                % 00472 AVL---
+200415012 Hollerich, Salzhaff   02244  02244                % 00472 AVL---
+200415017 Hollerich, P+R Bouil  02246  02246                % 00472 AVL---
+200415009 Hollerich, P+R Bouil  02246                       % 00472 AVL---
+*Z 00473 AVL---                                             % 00473 AVL---
+*L 1        200417023 200415009  02341  02416               % 00473 AVL---
+*A BE 200417023 200415009 000001  02341  02416              % 00473 AVL---
+*R 2 200415009 200417023 200415009  02341  02416            % 00473 AVL---
+*G AVG 200417023 200415009  02341  02416                    % 00473 AVL---
+*A VE 200417023 200415009 000001  02341  02416              % 00473 AVL---
+200417023 Kirchberg, Luxexpo E         02341                % 00473 AVL---
+200417033 Kirchberg, Poutty St  02342  02342                % 00473 AVL---
+200417044 Kirchberg, Luxexpo Q  02343  02343                % 00473 AVL---
+200417015 Kirchberg, Hôpital    02345  02345                % 00473 AVL---
+200417004 Kirchberg, Alphonse   02346  02346                % 00473 AVL---
+200417036 Kirchberg, Réimerwee  02347  02347                % 00473 AVL---
+200417002 Kirchberg, Albert Bo  02348  02348                % 00473 AVL---
+200417013 Kirchberg, Coudenhov  02349  02349                % 00473 AVL---
+200417019 Kirchberg, Konrad Ad  02350  02350                % 00473 AVL---
+200417005 Kirchberg, Antoine d  02351  02351                % 00473 AVL---
+200417016 Kirchberg, Jean Monn  02352  02352                % 00473 AVL---
+200417007 Kirchberg, B.E.I.     02353  02353                % 00473 AVL---
+200417047 Kirchberg, Rout Bréc  02354  02354                % 00473 AVL---
+200405014 Centre, Fondation Pe  02357  02357                % 00473 AVL---
+200405020 Hamilius              02400  02405                % 00473 AVL---
+200405054 Centre, F.D. Rooseve  02407  02407                % 00473 AVL---
+200405032 Luxembourg, Gare Cen  02411  02411                % 00473 AVL---
+200415003 Hollerich, Fonderie   02412  02412                % 00473 AVL---
+200415006 Hollerich, Jean-Bapt  02413  02413                % 00473 AVL---
+200415012 Hollerich, Salzhaff   02414  02414                % 00473 AVL---
+200415017 Hollerich, P+R Bouil  02416  02416                % 00473 AVL---
+200415009 Hollerich, P+R Bouil  02416                       % 00473 AVL---
+*Z 00014 AVL---                                             % 00014 AVL---
+*L 1        200417019 200415009  00550  00616               % 00014 AVL---
+*A BE 200417019 200415009 000003  00550  00616              % 00014 AVL---
+*R 2 200415009 200417019 200415009  00550  00616            % 00014 AVL---
+*G AVG 200417019 200415009  00550  00616                    % 00014 AVL---
+*A VE 200417019 200415009 000003  00550  00616              % 00014 AVL---
+200417019 Kirchberg, Konrad Ad         00550                % 00014 AVL---
+200417005 Kirchberg, Antoine d  00551  00551                % 00014 AVL---
+200417016 Kirchberg, Jean Monn  00552  00552                % 00014 AVL---
+200417007 Kirchberg, B.E.I.     00553  00553                % 00014 AVL---
+200417047 Kirchberg, Rout Bréc  00554  00554                % 00014 AVL---
+200405014 Centre, Fondation Pe  00557  00557                % 00014 AVL---
+200405020 Hamilius              00600  00605                % 00014 AVL---
+200405054 Centre, F.D. Rooseve  00607  00607                % 00014 AVL---
+200405032 Luxembourg, Gare Cen  00611  00611                % 00014 AVL---
+200415003 Hollerich, Fonderie   00612  00612                % 00014 AVL---
+200415006 Hollerich, Jean-Bapt  00613  00613                % 00014 AVL---
+200415012 Hollerich, Salzhaff   00614  00614                % 00014 AVL---
+200415017 Hollerich, P+R Bouil  00616  00616                % 00014 AVL---
+200415009 Hollerich, P+R Bouil  00616                       % 00014 AVL---
+*Z 00025 AVL---                                             % 00025 AVL---
+*L 1        200417019 200415009  00620  00646               % 00025 AVL---
+*A BE 200417019 200415009 000003  00620  00646              % 00025 AVL---
+*R 2 200415009 200417019 200415009  00620  00646            % 00025 AVL---
+*G AVG 200417019 200415009  00620  00646                    % 00025 AVL---
+*A VE 200417019 200415009 000003  00620  00646              % 00025 AVL---
+200417019 Kirchberg, Konrad Ad         00620                % 00025 AVL---
+200417005 Kirchberg, Antoine d  00621  00621                % 00025 AVL---
+200417016 Kirchberg, Jean Monn  00622  00622                % 00025 AVL---
+200417007 Kirchberg, B.E.I.     00623  00623                % 00025 AVL---
+200417047 Kirchberg, Rout Bréc  00624  00624                % 00025 AVL---
+200405014 Centre, Fondation Pe  00627  00627                % 00025 AVL---
+200405020 Hamilius              00630  00635                % 00025 AVL---
+200405054 Centre, F.D. Rooseve  00637  00637                % 00025 AVL---
+200405032 Luxembourg, Gare Cen  00641  00641                % 00025 AVL---
+200415003 Hollerich, Fonderie   00642  00642                % 00025 AVL---
+200415006 Hollerich, Jean-Bapt  00643  00643                % 00025 AVL---
+200415012 Hollerich, Salzhaff   00644  00644                % 00025 AVL---
+200415017 Hollerich, P+R Bouil  00646  00646                % 00025 AVL---
+200415009 Hollerich, P+R Bouil  00646                       % 00025 AVL---
+*Z 00039 AVL---                                             % 00039 AVL---
+*L 1        200417019 200415009  00650  00716               % 00039 AVL---
+*A BE 200417019 200415009 000003  00650  00716              % 00039 AVL---
+*R 2 200415009 200417019 200415009  00650  00716            % 00039 AVL---
+*G AVG 200417019 200415009  00650  00716                    % 00039 AVL---
+*A VE 200417019 200415009 000003  00650  00716              % 00039 AVL---
+200417019 Kirchberg, Konrad Ad         00650                % 00039 AVL---
+200417005 Kirchberg, Antoine d  00651  00651                % 00039 AVL---
+200417016 Kirchberg, Jean Monn  00652  00652                % 00039 AVL---
+200417007 Kirchberg, B.E.I.     00653  00653                % 00039 AVL---
+200417047 Kirchberg, Rout Bréc  00654  00654                % 00039 AVL---
+200405014 Centre, Fondation Pe  00657  00657                % 00039 AVL---
+200405020 Hamilius              00700  00705                % 00039 AVL---
+200405054 Centre, F.D. Rooseve  00707  00707                % 00039 AVL---
+200405032 Luxembourg, Gare Cen  00711  00711                % 00039 AVL---
+200415003 Hollerich, Fonderie   00712  00712                % 00039 AVL---
+200415006 Hollerich, Jean-Bapt  00713  00713                % 00039 AVL---
+200415012 Hollerich, Salzhaff   00714  00714                % 00039 AVL---
+200415017 Hollerich, P+R Bouil  00716  00716                % 00039 AVL---
+200415009 Hollerich, P+R Bouil  00716                       % 00039 AVL---
+*Z 00055 AVL---                                             % 00055 AVL---
+*L 1        200417019 200415009  00720  00746               % 00055 AVL---
+*A BE 200417019 200415009 000003  00720  00746              % 00055 AVL---
+*R 2 200415009 200417019 200415009  00720  00746            % 00055 AVL---
+*G AVG 200417019 200415009  00720  00746                    % 00055 AVL---
+*A VE 200417019 200415009 000003  00720  00746              % 00055 AVL---
+200417019 Kirchberg, Konrad Ad         00720                % 00055 AVL---
+200417005 Kirchberg, Antoine d  00721  00721                % 00055 AVL---
+200417016 Kirchberg, Jean Monn  00722  00722                % 00055 AVL---
+200417007 Kirchberg, B.E.I.     00723  00723                % 00055 AVL---
+200417047 Kirchberg, Rout Bréc  00724  00724                % 00055 AVL---
+200405014 Centre, Fondation Pe  00727  00727                % 00055 AVL---
+200405020 Hamilius              00730  00735                % 00055 AVL---
+200405054 Centre, F.D. Rooseve  00737  00737                % 00055 AVL---
+200405032 Luxembourg, Gare Cen  00741  00741                % 00055 AVL---
+200415003 Hollerich, Fonderie   00742  00742                % 00055 AVL---
+200415006 Hollerich, Jean-Bapt  00743  00743                % 00055 AVL---
+200415012 Hollerich, Salzhaff   00744  00744                % 00055 AVL---
+200415017 Hollerich, P+R Bouil  00746  00746                % 00055 AVL---
+200415009 Hollerich, P+R Bouil  00746                       % 00055 AVL---
+*Z 00073 AVL---                                             % 00073 AVL---
+*L 1        200417019 200415009  00750  00816               % 00073 AVL---
+*A BE 200417019 200415009 000003  00750  00816              % 00073 AVL---
+*R 2 200415009 200417019 200415009  00750  00816            % 00073 AVL---
+*G AVG 200417019 200415009  00750  00816                    % 00073 AVL---
+*A VE 200417019 200415009 000003  00750  00816              % 00073 AVL---
+200417019 Kirchberg, Konrad Ad         00750                % 00073 AVL---
+200417005 Kirchberg, Antoine d  00751  00751                % 00073 AVL---
+200417016 Kirchberg, Jean Monn  00752  00752                % 00073 AVL---
+200417007 Kirchberg, B.E.I.     00753  00753                % 00073 AVL---
+200417047 Kirchberg, Rout Bréc  00754  00754                % 00073 AVL---
+200405014 Centre, Fondation Pe  00757  00757                % 00073 AVL---
+200405020 Hamilius              00800  00805                % 00073 AVL---
+200405054 Centre, F.D. Rooseve  00807  00807                % 00073 AVL---
+200405032 Luxembourg, Gare Cen  00811  00811                % 00073 AVL---
+200415003 Hollerich, Fonderie   00812  00812                % 00073 AVL---
+200415006 Hollerich, Jean-Bapt  00813  00813                % 00073 AVL---
+200415012 Hollerich, Salzhaff   00814  00814                % 00073 AVL---
+200415017 Hollerich, P+R Bouil  00816  00816                % 00073 AVL---
+200415009 Hollerich, P+R Bouil  00816                       % 00073 AVL---
+*Z 00089 AVL---                                             % 00089 AVL---
+*L 1        200417019 200415009  00820  00846               % 00089 AVL---
+*A BE 200417019 200415009 000003  00820  00846              % 00089 AVL---
+*R 2 200415009 200417019 200415009  00820  00846            % 00089 AVL---
+*G AVG 200417019 200415009  00820  00846                    % 00089 AVL---
+*A VE 200417019 200415009 000003  00820  00846              % 00089 AVL---
+200417019 Kirchberg, Konrad Ad         00820                % 00089 AVL---
+200417005 Kirchberg, Antoine d  00821  00821                % 00089 AVL---
+200417016 Kirchberg, Jean Monn  00822  00822                % 00089 AVL---
+200417007 Kirchberg, B.E.I.     00823  00823                % 00089 AVL---
+200417047 Kirchberg, Rout Bréc  00824  00824                % 00089 AVL---
+200405014 Centre, Fondation Pe  00827  00827                % 00089 AVL---
+200405020 Hamilius              00830  00835                % 00089 AVL---
+200405054 Centre, F.D. Rooseve  00837  00837                % 00089 AVL---
+200405032 Luxembourg, Gare Cen  00841  00841                % 00089 AVL---
+200415003 Hollerich, Fonderie   00842  00842                % 00089 AVL---
+200415006 Hollerich, Jean-Bapt  00843  00843                % 00089 AVL---
+200415012 Hollerich, Salzhaff   00844  00844                % 00089 AVL---
+200415017 Hollerich, P+R Bouil  00846  00846                % 00089 AVL---
+200415009 Hollerich, P+R Bouil  00846                       % 00089 AVL---
+*Z 00103 AVL---                                             % 00103 AVL---
+*L 1        200417019 200415009  00850  00916               % 00103 AVL---
+*A BE 200417019 200415009 000003  00850  00916              % 00103 AVL---
+*R 2 200415009 200417019 200415009  00850  00916            % 00103 AVL---
+*G AVG 200417019 200415009  00850  00916                    % 00103 AVL---
+*A VE 200417019 200415009 000003  00850  00916              % 00103 AVL---
+200417019 Kirchberg, Konrad Ad         00850                % 00103 AVL---
+200417005 Kirchberg, Antoine d  00851  00851                % 00103 AVL---
+200417016 Kirchberg, Jean Monn  00852  00852                % 00103 AVL---
+200417007 Kirchberg, B.E.I.     00853  00853                % 00103 AVL---
+200417047 Kirchberg, Rout Bréc  00854  00854                % 00103 AVL---
+200405014 Centre, Fondation Pe  00857  00857                % 00103 AVL---
+200405020 Hamilius              00900  00905                % 00103 AVL---
+200405054 Centre, F.D. Rooseve  00907  00907                % 00103 AVL---
+200405032 Luxembourg, Gare Cen  00911  00911                % 00103 AVL---
+200415003 Hollerich, Fonderie   00912  00912                % 00103 AVL---
+200415006 Hollerich, Jean-Bapt  00913  00913                % 00103 AVL---
+200415012 Hollerich, Salzhaff   00914  00914                % 00103 AVL---
+200415017 Hollerich, P+R Bouil  00916  00916                % 00103 AVL---
+200415009 Hollerich, P+R Bouil  00916                       % 00103 AVL---
+*Z 00474 AVL---                                             % 00474 AVL---
+*L 1        200417023 200415009  01842  01922               % 00474 AVL---
+*A BE 200417023 200415009 000002  01842  01922              % 00474 AVL---
+*R 2 200415009 200417023 200415009  01842  01922            % 00474 AVL---
+*G AVG 200417023 200415009  01842  01922                    % 00474 AVL---
+*A VE 200417023 200415009 000002  01842  01922              % 00474 AVL---
+200417023 Kirchberg, Luxexpo E         01842                % 00474 AVL---
+200417033 Kirchberg, Poutty St  01843  01843                % 00474 AVL---
+200417044 Kirchberg, Luxexpo Q  01845  01845                % 00474 AVL---
+200417015 Kirchberg, Hôpital    01847  01847                % 00474 AVL---
+200417004 Kirchberg, Alphonse   01849  01849                % 00474 AVL---
+200417036 Kirchberg, Réimerwee  01850  01850                % 00474 AVL---
+200417002 Kirchberg, Albert Bo  01852  01852                % 00474 AVL---
+200417013 Kirchberg, Coudenhov  01853  01853                % 00474 AVL---
+200417019 Kirchberg, Konrad Ad  01854  01854                % 00474 AVL---
+200417005 Kirchberg, Antoine d  01855  01855                % 00474 AVL---
+200417016 Kirchberg, Jean Monn  01856  01856                % 00474 AVL---
+200417007 Kirchberg, B.E.I.     01858  01858                % 00474 AVL---
+200417047 Kirchberg, Rout Bréc  01900  01900                % 00474 AVL---
+200405014 Centre, Fondation Pe  01902  01902                % 00474 AVL---
+200405020 Hamilius              01907  01907                % 00474 AVL---
+200405054 Centre, F.D. Rooseve  01910  01910                % 00474 AVL---
+200405032 Luxembourg, Gare Cen  01915  01915                % 00474 AVL---
+200415003 Hollerich, Fonderie   01917  01917                % 00474 AVL---
+200415006 Hollerich, Jean-Bapt  01918  01918                % 00474 AVL---
+200415012 Hollerich, Salzhaff   01920  01920                % 00474 AVL---
+200415017 Hollerich, P+R Bouil  01922  01922                % 00474 AVL---
+200415009 Hollerich, P+R Bouil  01922                       % 00474 AVL---
+*Z 00475 AVL---       035 020                               % 00475 AVL---
+*L 1        200417023 200415009  00642  00722               % 00475 AVL---
+*A BE 200417023 200415009 000002  00642  00722              % 00475 AVL---
+*R 2 200415009 200417023 200415009  00642  00722            % 00475 AVL---
+*G AVG 200417023 200415009  00642  00722                    % 00475 AVL---
+*A VE 200417023 200415009 000002  00642  00722              % 00475 AVL---
+200417023 Kirchberg, Luxexpo E         00642                % 00475 AVL---
+200417033 Kirchberg, Poutty St  00643  00643                % 00475 AVL---
+200417044 Kirchberg, Luxexpo Q  00645  00645                % 00475 AVL---
+200417015 Kirchberg, Hôpital    00647  00647                % 00475 AVL---
+200417004 Kirchberg, Alphonse   00649  00649                % 00475 AVL---
+200417036 Kirchberg, Réimerwee  00650  00650                % 00475 AVL---
+200417002 Kirchberg, Albert Bo  00652  00652                % 00475 AVL---
+200417013 Kirchberg, Coudenhov  00653  00653                % 00475 AVL---
+200417019 Kirchberg, Konrad Ad  00654  00654                % 00475 AVL---
+200417005 Kirchberg, Antoine d  00655  00655                % 00475 AVL---
+200417016 Kirchberg, Jean Monn  00656  00656                % 00475 AVL---
+200417007 Kirchberg, B.E.I.     00658  00658                % 00475 AVL---
+200417047 Kirchberg, Rout Bréc  00700  00700                % 00475 AVL---
+200405014 Centre, Fondation Pe  00702  00702                % 00475 AVL---
+200405020 Hamilius              00707  00707                % 00475 AVL---
+200405054 Centre, F.D. Rooseve  00710  00710                % 00475 AVL---
+200405032 Luxembourg, Gare Cen  00715  00715                % 00475 AVL---
+200415003 Hollerich, Fonderie   00717  00717                % 00475 AVL---
+200415006 Hollerich, Jean-Bapt  00718  00718                % 00475 AVL---
+200415012 Hollerich, Salzhaff   00720  00720                % 00475 AVL---
+200415017 Hollerich, P+R Bouil  00722  00722                % 00475 AVL---
+200415009 Hollerich, P+R Bouil  00722                       % 00475 AVL---
+*Z 00476 AVL---       001 020                               % 00476 AVL---
+*L 1        200417023 200415009  01902  01942               % 00476 AVL---
+*A BE 200417023 200415009 000002  01902  01942              % 00476 AVL---
+*R 2 200415009 200417023 200415009  01902  01942            % 00476 AVL---
+*G AVG 200417023 200415009  01902  01942                    % 00476 AVL---
+*A VE 200417023 200415009 000002  01902  01942              % 00476 AVL---
+200417023 Kirchberg, Luxexpo E         01902                % 00476 AVL---
+200417033 Kirchberg, Poutty St  01903  01903                % 00476 AVL---
+200417044 Kirchberg, Luxexpo Q  01905  01905                % 00476 AVL---
+200417015 Kirchberg, Hôpital    01907  01907                % 00476 AVL---
+200417004 Kirchberg, Alphonse   01909  01909                % 00476 AVL---
+200417036 Kirchberg, Réimerwee  01910  01910                % 00476 AVL---
+200417002 Kirchberg, Albert Bo  01912  01912                % 00476 AVL---
+200417013 Kirchberg, Coudenhov  01913  01913                % 00476 AVL---
+200417019 Kirchberg, Konrad Ad  01914  01914                % 00476 AVL---
+200417005 Kirchberg, Antoine d  01915  01915                % 00476 AVL---
+200417016 Kirchberg, Jean Monn  01916  01916                % 00476 AVL---
+200417007 Kirchberg, B.E.I.     01918  01918                % 00476 AVL---
+200417047 Kirchberg, Rout Bréc  01920  01920                % 00476 AVL---
+200405014 Centre, Fondation Pe  01922  01922                % 00476 AVL---
+200405020 Hamilius              01927  01927                % 00476 AVL---
+200405054 Centre, F.D. Rooseve  01930  01930                % 00476 AVL---
+200405032 Luxembourg, Gare Cen  01935  01935                % 00476 AVL---
+200415003 Hollerich, Fonderie   01937  01937                % 00476 AVL---
+200415006 Hollerich, Jean-Bapt  01938  01938                % 00476 AVL---
+200415012 Hollerich, Salzhaff   01940  01940                % 00476 AVL---
+200415017 Hollerich, P+R Bouil  01942  01942                % 00476 AVL---
+200415009 Hollerich, P+R Bouil  01942                       % 00476 AVL---

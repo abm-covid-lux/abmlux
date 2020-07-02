@@ -1,0 +1,176 @@
+*F 03 2
+*Z 03595 RGTR--                                             % 03595 RGTR--
+*L 129      180106001 170501009  00703  00744               % 03595 RGTR--
+*A al 180106001 170501009 000002  00703  00744              % 03595 RGTR--
+*A ao 180106001 170501009 000002  00703  00744              % 03595 RGTR--
+*A FR 180106001 170501009 000002  00703  00744              % 03595 RGTR--
+*A cs 180106001 170501009 000002  00703  00744              % 03595 RGTR--
+*A ad 180106001 170501009 000002  00703  00744              % 03595 RGTR--
+*R 1 170501009 180106001 170501009  00703  00744            % 03595 RGTR--
+*G RGB 180106001 170501009  00703  00744                    % 03595 RGTR--
+*A VE 180106001 170501009 000002  00703  00744              % 03595 RGTR--
+*I FD 180106001 170501009        0003073  00703  00744      % 03595 RGTR--
+180106001 Roodt/Syre, Barriär          00703                % 03595 RGTR--
+180106003 Roodt/Syre, Gare      00703  00703                % 03595 RGTR--
+180105003 Olingen, Rue de Rode  00706  00706                % 03595 RGTR--
+180105002 Olingen, Beim lescht  00708  00708                % 03595 RGTR--
+180512002 Rodenbourg, An der S  00709  00709                % 03595 RGTR--
+180512001 Rodenbourg, Am Duerf  00710  00710                % 03595 RGTR--
+180508002 Gonderange, Eeschële  00714  00714                % 03595 RGTR--
+180508005 Gonderange, Schoul    00715  00715                % 03595 RGTR--
+180508003 Gonderange, Mierchen  00717  00717                % 03595 RGTR--
+180511009 Junglinster, Op der   00718  00718                % 03595 RGTR--
+180511005 Junglinster, Um Lei   00718  00718                % 03595 RGTR--
+180511002 Junglinster, Op der   00719  00719                % 03595 RGTR--
+180511007 Junglinster, Um Reil  00722  00722                % 03595 RGTR--
+180509002 Graulinster, Haaptst  00726  00726                % 03595 RGTR--
+170205001 Rippig, Rippigerkopp  00728  00728                % 03595 RGTR--
+170201005 Altrier, Kreizenhéic  00729  00729                % 03595 RGTR--
+170201002 Altrier, Heeschbrege  00730  00730                % 03595 RGTR--
+170404001 Wolpert               00732  00732                % 03595 RGTR--
+170405003 Mechelshaff           00734  00734                % 03595 RGTR--
+170502001 Lauterborn            00736  00736                % 03595 RGTR--
+170503001 Specksmillen          00737  00737                % 03595 RGTR--
+170501012 Echternach, Nonnenmi  00738  00738                % 03595 RGTR--
+170501004 Echternach, Centre d  00739  00739                % 03595 RGTR--
+170501006 Echternach, Charly's  00740  00740                % 03595 RGTR--
+170501011 Echternach, Morgenst  00741  00741                % 03595 RGTR--
+170501009 Echternach, Lycée     00744                       % 03595 RGTR--
+*Z 03596 RGTR--                                             % 03596 RGTR--
+*L 129      180511002 170501009  00715  00739               % 03596 RGTR--
+*A al 180511002 170501009 000002  00715  00739              % 03596 RGTR--
+*A FR 180511002 170501009 000002  00715  00739              % 03596 RGTR--
+*A ad 180511002 170501009 000002  00715  00739              % 03596 RGTR--
+*R 1 170501009 180511002 170501009  00715  00739            % 03596 RGTR--
+*G RGB 180511002 170501009  00715  00739                    % 03596 RGTR--
+*A VE 180511002 170501009 000002  00715  00739              % 03596 RGTR--
+*I FD 180511002 170501009        0001761  00715  00739      % 03596 RGTR--
+180511002 Junglinster, Op der          00715                % 03596 RGTR--
+180511007 Junglinster, Um Reil  00717  00717                % 03596 RGTR--
+180509002 Graulinster, Haaptst  00721  00721                % 03596 RGTR--
+170205001 Rippig, Rippigerkopp  00723  00723                % 03596 RGTR--
+170201005 Altrier, Kreizenhéic  00724  00724                % 03596 RGTR--
+170201002 Altrier, Heeschbrege  00725  00725                % 03596 RGTR--
+170404001 Wolpert               00727  00727                % 03596 RGTR--
+170405003 Mechelshaff           00729  00729                % 03596 RGTR--
+170502001 Lauterborn            00731  00731                % 03596 RGTR--
+170503001 Specksmillen          00732  00732                % 03596 RGTR--
+170501012 Echternach, Nonnenmi  00733  00733                % 03596 RGTR--
+170501004 Echternach, Centre d  00734  00734                % 03596 RGTR--
+170501006 Echternach, Charly's  00735  00735                % 03596 RGTR--
+170501011 Echternach, Morgenst  00736  00736                % 03596 RGTR--
+170501009 Echternach, Lycée     00739                       % 03596 RGTR--
+*Z 03597 RGTR--                                             % 03597 RGTR--
+*L 129      180511002 170501009  00715  00739               % 03597 RGTR--
+*A al 180511002 170501009 000002  00715  00739              % 03597 RGTR--
+*A FR 180511002 170501009 000002  00715  00739              % 03597 RGTR--
+*A ad 180511002 170501009 000002  00715  00739              % 03597 RGTR--
+*R 1 170501009 180511002 170501009  00715  00739            % 03597 RGTR--
+*G RGB 180511002 170501009  00715  00739                    % 03597 RGTR--
+*A VE 180511002 170501009 000002  00715  00739              % 03597 RGTR--
+*I FD 180511002 170501009        0003074  00715  00739      % 03597 RGTR--
+180511002 Junglinster, Op der          00715                % 03597 RGTR--
+180511007 Junglinster, Um Reil  00717  00717                % 03597 RGTR--
+180509002 Graulinster, Haaptst  00721  00721                % 03597 RGTR--
+170205001 Rippig, Rippigerkopp  00723  00723                % 03597 RGTR--
+170201005 Altrier, Kreizenhéic  00724  00724                % 03597 RGTR--
+170201002 Altrier, Heeschbrege  00725  00725                % 03597 RGTR--
+170404001 Wolpert               00727  00727                % 03597 RGTR--
+170405003 Mechelshaff           00729  00729                % 03597 RGTR--
+170502001 Lauterborn            00731  00731                % 03597 RGTR--
+170503001 Specksmillen          00732  00732                % 03597 RGTR--
+170501012 Echternach, Nonnenmi  00733  00733                % 03597 RGTR--
+170501004 Echternach, Centre d  00734  00734                % 03597 RGTR--
+170501006 Echternach, Charly's  00735  00735                % 03597 RGTR--
+170501011 Echternach, Morgenst  00736  00736                % 03597 RGTR--
+170501009 Echternach, Lycée     00739                       % 03597 RGTR--
+*Z 03598 RGTR--                                             % 03598 RGTR--
+*L 129      170501009 180511002  01435  01457               % 03598 RGTR--
+*A al 170501009 180511002 000002  01435  01457              % 03598 RGTR--
+*A ao 170501009 180511002 000002  01435  01457              % 03598 RGTR--
+*A FR 170501009 180511002 000002  01435  01457              % 03598 RGTR--
+*A ad 170501009 180511002 000002  01435  01457              % 03598 RGTR--
+*R 2 180511002 170501009 180511002  01435  01457            % 03598 RGTR--
+*G RGB 170501009 180511002  01435  01457                    % 03598 RGTR--
+*A VE 170501009 180511002 000002  01435  01457              % 03598 RGTR--
+*I FD 170501009 180511002        0002545  01435  01457      % 03598 RGTR--
+170501009 Echternach, Lycée            01435                % 03598 RGTR--
+170501005 Echternach, Centre V  01436  01436                % 03598 RGTR--
+170501003 Echternach, Belle Vu  01439  01439                % 03598 RGTR--
+170501004 Echternach, Centre d  01440  01440                % 03598 RGTR--
+170501012 Echternach, Nonnenmi  01440  01440                % 03598 RGTR--
+170503001 Specksmillen          01441  01441                % 03598 RGTR--
+170502001 Lauterborn            01441  01441                % 03598 RGTR--
+170405003 Mechelshaff           01444  01444                % 03598 RGTR--
+170405004 Rosswinklerhaff       01445  01445                % 03598 RGTR--
+170404001 Wolpert               01446  01446                % 03598 RGTR--
+170201001 Altrier, Bildchen     01448  01448                % 03598 RGTR--
+170201005 Altrier, Kreizenhéic  01449  01449                % 03598 RGTR--
+170205001 Rippig, Rippigerkopp  01450  01450                % 03598 RGTR--
+180509002 Graulinster, Haaptst  01451  01451                % 03598 RGTR--
+180511007 Junglinster, Um Reil  01455  01455                % 03598 RGTR--
+180511002 Junglinster, Op der   01457                       % 03598 RGTR--
+*Z 03599 RGTR--                                             % 03599 RGTR--
+*L 129      170501009 180511002  01530  01552               % 03599 RGTR--
+*A al 170501009 180511002 000002  01530  01552              % 03599 RGTR--
+*A ao 170501009 180511002 000002  01530  01552              % 03599 RGTR--
+*A FR 170501009 180511002 000002  01530  01552              % 03599 RGTR--
+*A NW 170501009 180511002 000002  01530  01552              % 03599 RGTR--
+*A ad 170501009 180511002 000002  01530  01552              % 03599 RGTR--
+*R 2 180511002 170501009 180511002  01530  01552            % 03599 RGTR--
+*G RGB 170501009 180511002  01530  01552                    % 03599 RGTR--
+*A VE 170501009 180511002 000002  01530  01552              % 03599 RGTR--
+*I FD 170501009 180511002        0002746  01530  01552      % 03599 RGTR--
+170501009 Echternach, Lycée            01530                % 03599 RGTR--
+170501005 Echternach, Centre V  01531  01531                % 03599 RGTR--
+170501003 Echternach, Belle Vu  01534  01534                % 03599 RGTR--
+170501004 Echternach, Centre d  01535  01535                % 03599 RGTR--
+170501012 Echternach, Nonnenmi  01535  01535                % 03599 RGTR--
+170503001 Specksmillen          01536  01536                % 03599 RGTR--
+170502001 Lauterborn            01536  01536                % 03599 RGTR--
+170405003 Mechelshaff           01539  01539                % 03599 RGTR--
+170405004 Rosswinklerhaff       01540  01540                % 03599 RGTR--
+170404001 Wolpert               01541  01541                % 03599 RGTR--
+170201001 Altrier, Bildchen     01543  01543                % 03599 RGTR--
+170201005 Altrier, Kreizenhéic  01544  01544                % 03599 RGTR--
+170205001 Rippig, Rippigerkopp  01545  01545                % 03599 RGTR--
+180509002 Graulinster, Haaptst  01546  01546                % 03599 RGTR--
+180511007 Junglinster, Um Reil  01550  01550                % 03599 RGTR--
+180511002 Junglinster, Op der   01552                       % 03599 RGTR--
+*Z 03600 RGTR--                                             % 03600 RGTR--
+*L 129      170501009 180106001  01435  01514               % 03600 RGTR--
+*A al 170501009 180106001 000002  01435  01514              % 03600 RGTR--
+*A FR 170501009 180106001 000002  01435  01514              % 03600 RGTR--
+*A ad 170501009 180106001 000002  01435  01514              % 03600 RGTR--
+*R 2 180106001 170501009 180106001  01435  01514            % 03600 RGTR--
+*G RGB 170501009 180106001  01435  01514                    % 03600 RGTR--
+*A VE 170501009 180106001 000002  01435  01514              % 03600 RGTR--
+*I FD 170501009 180106001        0003075  01435  01514      % 03600 RGTR--
+170501009 Echternach, Lycée            01435                % 03600 RGTR--
+170501005 Echternach, Centre V  01436  01436                % 03600 RGTR--
+170501003 Echternach, Belle Vu  01439  01439                % 03600 RGTR--
+170501004 Echternach, Centre d  01440  01440                % 03600 RGTR--
+170501012 Echternach, Nonnenmi  01440  01440                % 03600 RGTR--
+170503001 Specksmillen          01441  01441                % 03600 RGTR--
+170502001 Lauterborn            01441  01441                % 03600 RGTR--
+170405003 Mechelshaff           01444  01444                % 03600 RGTR--
+170405004 Rosswinklerhaff       01445  01445                % 03600 RGTR--
+170404001 Wolpert               01446  01446                % 03600 RGTR--
+170201001 Altrier, Bildchen     01448  01448                % 03600 RGTR--
+170201005 Altrier, Kreizenhéic  01449  01449                % 03600 RGTR--
+170205001 Rippig, Rippigerkopp  01450  01450                % 03600 RGTR--
+180509002 Graulinster, Haaptst  01451  01451                % 03600 RGTR--
+180511007 Junglinster, Um Reil  01455  01455                % 03600 RGTR--
+180511002 Junglinster, Op der   01457  01457                % 03600 RGTR--
+180511005 Junglinster, Um Lei   01458  01458                % 03600 RGTR--
+180511009 Junglinster, Op der   01459  01459                % 03600 RGTR--
+180508003 Gonderange, Mierchen  01459  01459                % 03600 RGTR--
+180508004 Gonderange, Op der B  01500  01500                % 03600 RGTR--
+180508007 Gonderange, Op der G  01503  01503                % 03600 RGTR--
+180512001 Rodenbourg, Am Duerf  01505  01505                % 03600 RGTR--
+180512002 Rodenbourg, An der S  01506  01506                % 03600 RGTR--
+180105002 Olingen, Beim lescht  01508  01508                % 03600 RGTR--
+180105003 Olingen, Rue de Rode  01509  01509                % 03600 RGTR--
+180105001 Olingen, Am Kéisbier  01510  01510                % 03600 RGTR--
+180101001 Banzelt               01512  01512                % 03600 RGTR--
+180106001 Roodt/Syre, Barriär   01514                       % 03600 RGTR--

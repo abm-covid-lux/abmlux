@@ -1,0 +1,49 @@
+*F 03 2
+*Z 09918 RGTR--                                             % 09918 RGTR--
+*L 289      200419021 160904003  01403  01443               % 09918 RGTR--
+*A al 200419021 160904003 000002  01403  01443              % 09918 RGTR--
+*A ag 200419021 160904003 000002  01403  01443              % 09918 RGTR--
+*A ad 200419021 160904003 000002  01403  01443              % 09918 RGTR--
+*R 1 160904003 200419021 160904003  01403  01443            % 09918 RGTR--
+*G RGB 200419021 160904003  01403  01443                    % 09918 RGTR--
+*A VE 200419021 160904003 000002  01403  01443              % 09918 RGTR--
+*I FD 200419021 160904003        0002368  01403  01443      % 09918 RGTR--
+200419021 Limpertsberg, L.T.C.         01403                % 09918 RGTR--
+200419025 Limpertsberg, Lycée   01407  01407                % 09918 RGTR--
+200419009 Limpertsberg, Bd.P.   01410  01410                % 09918 RGTR--
+160803002 Bouferknupp           01430  01430                % 09918 RGTR--
+160803001 Boufer, Maison de Re  01431  01431                % 09918 RGTR--
+160804001 Helmdange, Fautelfie  01432  01432                % 09918 RGTR--
+160807003 Lorentzweiler, Gare   01433  01433                % 09918 RGTR--
+160807002 Lorentzweiler, An de  01434  01434                % 09918 RGTR--
+160702001 Lintgen, An der Kléc  01436  01436                % 09918 RGTR--
+160702003 Lintgen, Kräizung     01437  01437                % 09918 RGTR--
+160701004 Gosseldange, Op der   01438  01438                % 09918 RGTR--
+160701003 Gosseldange, Vor Bel  01439  01439                % 09918 RGTR--
+160701001 Gosseldange, Kapell   01440  01440                % 09918 RGTR--
+160701002 Gosseldange, Route d  01440  01440                % 09918 RGTR--
+160904003 Mersch, Maartplaz     01443                       % 09918 RGTR--
+*Z 09919 RGTR--                                             % 09919 RGTR--
+*L 289      160904003 200419021  00705  00751               % 09919 RGTR--
+*A al 160904003 200419021 000002  00705  00751              % 09919 RGTR--
+*A ag 160904003 200419021 000002  00705  00751              % 09919 RGTR--
+*A ad 160904003 200419021 000002  00705  00751              % 09919 RGTR--
+*R 2 200419021 160904003 200419021  00705  00751            % 09919 RGTR--
+*G RGB 160904003 200419021  00705  00751                    % 09919 RGTR--
+*A VE 160904003 200419021 000002  00705  00751              % 09919 RGTR--
+*I FD 160904003 200419021        0002189  00705  00751      % 09919 RGTR--
+160904003 Mersch, Maartplaz            00705                % 09919 RGTR--
+160701002 Gosseldange, Route d  00708  00708                % 09919 RGTR--
+160701001 Gosseldange, Kapell   00708  00708                % 09919 RGTR--
+160701003 Gosseldange, Vor Bel  00709  00709                % 09919 RGTR--
+160701004 Gosseldange, Op der   00710  00710                % 09919 RGTR--
+160702003 Lintgen, Kräizung     00711  00711                % 09919 RGTR--
+160702001 Lintgen, An der Kléc  00712  00712                % 09919 RGTR--
+160807002 Lorentzweiler, An de  00715  00715                % 09919 RGTR--
+160807003 Lorentzweiler, Gare   00716  00716                % 09919 RGTR--
+160804001 Helmdange, Fautelfie  00717  00717                % 09919 RGTR--
+160803001 Boufer, Maison de Re  00718  00718                % 09919 RGTR--
+160803002 Bouferknupp           00719  00719                % 09919 RGTR--
+200419005 Limpertsberg, Arts e  00745  00745                % 09919 RGTR--
+200419025 Limpertsberg, Lycée   00747  00747                % 09919 RGTR--
+200419021 Limpertsberg, L.T.C.  00751                       % 09919 RGTR--

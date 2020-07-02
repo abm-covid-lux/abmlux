@@ -1,0 +1,154 @@
+*F 03 2
+*Z 09826 RGTR--                                             % 09826 RGTR--
+*L 178      220502003 500000065  00706  00735               % 09826 RGTR--
+*A al 220502003 500000065 000002  00706  00735              % 09826 RGTR--
+*A ao 220502003 500000065 000002  00706  00735              % 09826 RGTR--
+*A au 220502003 500000065 000002  00706  00735              % 09826 RGTR--
+*A ad 220502003 500000065 000002  00706  00735              % 09826 RGTR--
+*R 1 500000065 220502003 500000065  00706  00735            % 09826 RGTR--
+*G RGB 220502003 500000065  00706  00735                    % 09826 RGTR--
+*A VE 220502003 500000065 000002  00706  00735              % 09826 RGTR--
+*I FD 220502003 500000065        0002369  00706  00735      % 09826 RGTR--
+220502003 Frisange, Hau                00706                % 09826 RGTR--
+220502004 Frisange, Op der Krä  00707  00707                % 09826 RGTR--
+220502002 Frisange, Ennescht D  00708  00708                % 09826 RGTR--
+210302002 Filsdorf, Wäschbour   00713  00713                % 09826 RGTR--
+210501002 Altwies, Beckeschmil  00717  00717                % 09826 RGTR--
+210501001 Altwies, An der Kaz   00718  00718                % 09826 RGTR--
+210503005 Mondorf, Kleng Gare   00720  00720                % 09826 RGTR--
+210503001 Mondorf, Bei der Dou  00720  00720                % 09826 RGTR--
+210503003 Mondorf, Christophor  00721  00721                % 09826 RGTR--
+210503002 Mondorf, Casino 2000  00722  00722                % 09826 RGTR--
+500000065 Perl, Schengen Lyzeu  00735                       % 09826 RGTR--
+*Z 09827 RGTR--                                             % 09827 RGTR--
+*L 178      201103002 500000065  00656  00740               % 09827 RGTR--
+*A al 201103002 500000065 000002  00656  00740              % 09827 RGTR--
+*A au 201103002 500000065 000002  00656  00740              % 09827 RGTR--
+*A TR 201103002 500000065 000002  00656  00740              % 09827 RGTR--
+*A ad 201103002 500000065 000002  00656  00740              % 09827 RGTR--
+*R 1 500000065 201103002 500000065  00656  00740            % 09827 RGTR--
+*G RGB 201103002 500000065  00656  00740                    % 09827 RGTR--
+*A VE 201103002 500000065 000002  00656  00740              % 09827 RGTR--
+*I FD 201103002 500000065        0002620  00656  00740      % 09827 RGTR--
+201103002 Weiler-la-Tour, Gëlt         00656                % 09827 RGTR--
+201103005 Weiler-la-Tour, Peke  00656  00656                % 09827 RGTR--
+201101001 Hassel, Dielchen      00658  00658                % 09827 RGTR--
+201101002 Hassel, Karmesch      00658  00658                % 09827 RGTR--
+201101003 Hassel, Küneftchen    00659  00659                % 09827 RGTR--
+201102001 Syren, Klappsbréck    00703  00703                % 09827 RGTR--
+210301003 Dalheim, Waasserklap  00707  00707                % 09827 RGTR--
+210301002 Dalheim, Poste        00708  00708                % 09827 RGTR--
+210301004 Dalheim, Gemeng       00709  00709                % 09827 RGTR--
+210301001 Dalheim, Hossegaass   00710  00710                % 09827 RGTR--
+210303001 Welfrange, Op der Pl  00713  00713                % 09827 RGTR--
+210502002 Ellange, Martialis    00718  00718                % 09827 RGTR--
+210502001 Ellenger Gare         00719  00719                % 09827 RGTR--
+210202003 Elvange/Mondorf, Vil  00721  00721                % 09827 RGTR--
+210202001 Elvange/Mondorf, Bei  00723  00723                % 09827 RGTR--
+210202002 Elvange/Mondorf, Kal  00724  00724                % 09827 RGTR--
+210201003 Burmerange, Um Schot  00726  00726                % 09827 RGTR--
+210201001 Burmerange, Bei der   00726  00726                % 09827 RGTR--
+210201002 Burmerange, Résidenc  00727  00727                % 09827 RGTR--
+500000065 Perl, Schengen Lyzeu  00740                       % 09827 RGTR--
+*Z 09828 RGTR--                                             % 09828 RGTR--
+*L 178      500000065 201103002  01310  01353               % 09828 RGTR--
+*A al 500000065 201103002 000007  01310  01353              % 09828 RGTR--
+*A ao 500000065 201103002 000007  01310  01353              % 09828 RGTR--
+*A au 500000065 201103002 000007  01310  01353              % 09828 RGTR--
+*A ad 500000065 201103002 000007  01310  01353              % 09828 RGTR--
+*R 2 201103002 500000065 201103002  01310  01353            % 09828 RGTR--
+*G RGB 500000065 201103002  01310  01353                    % 09828 RGTR--
+*A VE 500000065 201103002 000007  01310  01353              % 09828 RGTR--
+*I FD 500000065 201103002        0001971  01310  01353      % 09828 RGTR--
+500000065 Perl, Schengen Lyzeu         01310                % 09828 RGTR--
+210201002 Burmerange, Résidenc  01321  01321                % 09828 RGTR--
+210201001 Burmerange, Bei der   01321  01321                % 09828 RGTR--
+210201003 Burmerange, Um Schot  01322  01322                % 09828 RGTR--
+210202002 Elvange/Mondorf, Kal  01324  01324                % 09828 RGTR--
+210202001 Elvange/Mondorf, Bei  01325  01325                % 09828 RGTR--
+210202003 Elvange/Mondorf, Vil  01326  01326                % 09828 RGTR--
+210502001 Ellenger Gare         01328  01328                % 09828 RGTR--
+210502002 Ellange, Martialis    01330  01330                % 09828 RGTR--
+210303001 Welfrange, Op der Pl  01334  01334                % 09828 RGTR--
+210301001 Dalheim, Hossegaass   01337  01337                % 09828 RGTR--
+210301004 Dalheim, Gemeng       01339  01339                % 09828 RGTR--
+210301002 Dalheim, Poste        01340  01340                % 09828 RGTR--
+210301003 Dalheim, Waasserklap  01341  01341                % 09828 RGTR--
+201102001 Syren, Klappsbréck    01345  01345                % 09828 RGTR--
+201101003 Hassel, Küneftchen    01350  01350                % 09828 RGTR--
+201101002 Hassel, Karmesch      01350  01350                % 09828 RGTR--
+201101001 Hassel, Dielchen      01351  01351                % 09828 RGTR--
+201103005 Weiler-la-Tour, Peke  01352  01352                % 09828 RGTR--
+201103002 Weiler-la-Tour, Gëlt  01353                       % 09828 RGTR--
+*Z 09829 RGTR--                                             % 09829 RGTR--
+*L 178      500000065 201103002  01600  01645               % 09829 RGTR--
+*A al 500000065 201103002 000002  01600  01645              % 09829 RGTR--
+*A ao 500000065 201103002 000002  01600  01645              % 09829 RGTR--
+*A au 500000065 201103002 000002  01600  01645              % 09829 RGTR--
+*A ad 500000065 201103002 000002  01600  01645              % 09829 RGTR--
+*R 2 201103002 500000065 201103002  01600  01645            % 09829 RGTR--
+*G RGB 500000065 201103002  01600  01645                    % 09829 RGTR--
+*A VE 500000065 201103002 000002  01600  01645              % 09829 RGTR--
+*I FD 500000065 201103002        0001911  01600  01645      % 09829 RGTR--
+500000065 Perl, Schengen Lyzeu         01600                % 09829 RGTR--
+210201002 Burmerange, Résidenc  01611  01611                % 09829 RGTR--
+210201001 Burmerange, Bei der   01612  01612                % 09829 RGTR--
+210201003 Burmerange, Um Schot  01612  01612                % 09829 RGTR--
+210202002 Elvange/Mondorf, Kal  01615  01615                % 09829 RGTR--
+210202001 Elvange/Mondorf, Bei  01616  01616                % 09829 RGTR--
+210202003 Elvange/Mondorf, Vil  01617  01617                % 09829 RGTR--
+210502001 Ellenger Gare         01619  01619                % 09829 RGTR--
+210502002 Ellange, Martialis    01620  01620                % 09829 RGTR--
+210303001 Welfrange, Op der Pl  01625  01625                % 09829 RGTR--
+210301001 Dalheim, Hossegaass   01629  01629                % 09829 RGTR--
+210301004 Dalheim, Gemeng       01630  01630                % 09829 RGTR--
+210301002 Dalheim, Poste        01631  01631                % 09829 RGTR--
+210301003 Dalheim, Waasserklap  01633  01633                % 09829 RGTR--
+201102001 Syren, Klappsbréck    01637  01637                % 09829 RGTR--
+201101003 Hassel, Küneftchen    01642  01642                % 09829 RGTR--
+201101002 Hassel, Karmesch      01642  01642                % 09829 RGTR--
+201101001 Hassel, Dielchen      01643  01643                % 09829 RGTR--
+201103005 Weiler-la-Tour, Peke  01644  01644                % 09829 RGTR--
+201103002 Weiler-la-Tour, Gëlt  01645                       % 09829 RGTR--
+*Z 09830 RGTR--                                             % 09830 RGTR--
+*L 178      500000065 220502003  01600  01631               % 09830 RGTR--
+*A al 500000065 220502003 000002  01600  01631              % 09830 RGTR--
+*A au 500000065 220502003 000002  01600  01631              % 09830 RGTR--
+*A ad 500000065 220502003 000002  01600  01631              % 09830 RGTR--
+*R 2 220502003 500000065 220502003  01600  01631            % 09830 RGTR--
+*G RGB 500000065 220502003  01600  01631                    % 09830 RGTR--
+*A VE 500000065 220502003 000002  01600  01631              % 09830 RGTR--
+*I FD 500000065 220502003        0002377  01600  01631      % 09830 RGTR--
+500000065 Perl, Schengen Lyzeu         01600                % 09830 RGTR--
+210503006 Mondorf, Réimecherst  01613  01613                % 09830 RGTR--
+210503002 Mondorf, Casino 2000  01613  01613                % 09830 RGTR--
+210503003 Mondorf, Christophor  01615  01615                % 09830 RGTR--
+210503001 Mondorf, Bei der Dou  01615  01615                % 09830 RGTR--
+210503005 Mondorf, Kleng Gare   01616  01616                % 09830 RGTR--
+210501003 Altwies, Buergässel   01618  01618                % 09830 RGTR--
+210501002 Altwies, Beckeschmil  01618  01618                % 09830 RGTR--
+210302002 Filsdorf, Wäschbour   01624  01624                % 09830 RGTR--
+220502002 Frisange, Ennescht D  01628  01628                % 09830 RGTR--
+220502004 Frisange, Op der Krä  01629  01629                % 09830 RGTR--
+220502003 Frisange, Hau         01631                       % 09830 RGTR--
+*Z 09831 RGTR--                                             % 09831 RGTR--
+*L 178      500000065 220502003  01310  01339               % 09831 RGTR--
+*A al 500000065 220502003 000007  01310  01339              % 09831 RGTR--
+*A au 500000065 220502003 000007  01310  01339              % 09831 RGTR--
+*A ad 500000065 220502003 000007  01310  01339              % 09831 RGTR--
+*R 2 220502003 500000065 220502003  01310  01339            % 09831 RGTR--
+*G RGB 500000065 220502003  01310  01339                    % 09831 RGTR--
+*A VE 500000065 220502003 000007  01310  01339              % 09831 RGTR--
+*I FD 500000065 220502003        0003645  01310  01339      % 09831 RGTR--
+500000065 Perl, Schengen Lyzeu         01310                % 09831 RGTR--
+210503006 Mondorf, Réimecherst  01322  01322                % 09831 RGTR--
+210503002 Mondorf, Casino 2000  01323  01323                % 09831 RGTR--
+210503003 Mondorf, Christophor  01324  01324                % 09831 RGTR--
+210503001 Mondorf, Bei der Dou  01324  01324                % 09831 RGTR--
+210503005 Mondorf, Kleng Gare   01325  01325                % 09831 RGTR--
+210501003 Altwies, Buergässel   01327  01327                % 09831 RGTR--
+210501002 Altwies, Beckeschmil  01327  01327                % 09831 RGTR--
+210302002 Filsdorf, Wäschbour   01333  01333                % 09831 RGTR--
+220502002 Frisange, Ennescht D  01337  01337                % 09831 RGTR--
+220502004 Frisange, Op der Krä  01338  01338                % 09831 RGTR--
+220502003 Frisange, Hau         01339                       % 09831 RGTR--

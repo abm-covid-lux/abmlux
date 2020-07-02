@@ -1,0 +1,414 @@
+*F 03 2
+*Z 03326 RGTR--                                             % 03326 RGTR--
+*L 176      200419021 210701015  01403  01500               % 03326 RGTR--
+*A al 200419021 210701015 000002  01403  01500              % 03326 RGTR--
+*A ao 200419021 210701015 000002  01403  01500              % 03326 RGTR--
+*A BE 200419021 210701015 000002  01403  01500              % 03326 RGTR--
+*A cj 200419021 210701015 000002  01403  01500              % 03326 RGTR--
+*A ad 200419021 210701015 000002  01403  01500              % 03326 RGTR--
+*R 1 210701015 200419021 210701015  01403  01500            % 03326 RGTR--
+*G RGB 200419021 210701015  01403  01500                    % 03326 RGTR--
+*A VE 200419021 210701015 000002  01403  01500              % 03326 RGTR--
+*I FD 200419021 210701015        0002368  01403  01500      % 03326 RGTR--
+200419021 Limpertsberg, L.T.C.         01403                % 03326 RGTR--
+200419025 Limpertsberg, Lycée   01407  01407                % 03326 RGTR--
+200419026 Limpertsberg, Theate  01410  01410                % 03326 RGTR--
+200405014 Centre, Fondation Pe  01412  01412                % 03326 RGTR--
+200304004 Howald, Jhangeli      01421  01421                % 03326 RGTR--
+200304001 Howald, Am Houwaldsb  01422  01422                % 03326 RGTR--
+200303007 Hesperange, Wollefsm  01423  01423                % 03326 RGTR--
+200303001 Hesperange, Am Kelle  01425  01425                % 03326 RGTR--
+200303006 Hesperange, Urbengss  01426  01426                % 03326 RGTR--
+200301003 Alzingen, Trapeneck   01426  01426                % 03326 RGTR--
+200301002 Alzingen, Hondsbréck  01427  01427                % 03326 RGTR--
+201103001 Weiler-la-Tour, Camp  01429  01429                % 03326 RGTR--
+201103004 Weiler-la-Tour, Schl  01431  01431                % 03326 RGTR--
+220502003 Frisange, Hau         01432  01432                % 03326 RGTR--
+220502004 Frisange, Op der Krä  01434  01434                % 03326 RGTR--
+220502002 Frisange, Ennescht D  01435  01435                % 03326 RGTR--
+220501002 Aspelt, Gare          01437  01437                % 03326 RGTR--
+220501001 Aspelt, Am Grëndchen  01438  01438                % 03326 RGTR--
+210501002 Altwies, Beckeschmil  01440  01440                % 03326 RGTR--
+210501001 Altwies, An der Kaz   01441  01441                % 03326 RGTR--
+210503005 Mondorf, Kleng Gare   01442  01442                % 03326 RGTR--
+210503001 Mondorf, Bei der Dou  01442  01442                % 03326 RGTR--
+210503003 Mondorf, Christophor  01443  01443                % 03326 RGTR--
+210503002 Mondorf, Casino 2000  01444  01444                % 03326 RGTR--
+210503007 Mondorf, Stade John   01445  01445                % 03326 RGTR--
+210502001 Ellenger Gare         01447  01447                % 03326 RGTR--
+211003002 Wellenstein, rte de   01451  01451                % 03326 RGTR--
+211003001 Wellenstein, Centre   01452  01452                % 03326 RGTR--
+211003003 Wellenstein, Caves c  01453  01453                % 03326 RGTR--
+211001002 Bech-Kleinmacher, Ce  01454  01454                % 03326 RGTR--
+210701011 Remich, Piscine       01456  01456                % 03326 RGTR--
+210701006 Remich, Gare routièr  01457  01457                % 03326 RGTR--
+210701008 Remich, Maatebierg    01458  01458                % 03326 RGTR--
+210701001 Remich, Belvédère     01459  01459                % 03326 RGTR--
+210701015 Remich, rue de la Co  01500                       % 03326 RGTR--
+*Z 03327 RGTR--                                             % 03327 RGTR--
+*L 176      200419021 210701015  01535  01632               % 03327 RGTR--
+*A al 200419021 210701015 000008  01535  01632              % 03327 RGTR--
+*A ao 200419021 210701015 000008  01535  01632              % 03327 RGTR--
+*A BE 200419021 210701015 000008  01535  01632              % 03327 RGTR--
+*A cj 200419021 210701015 000008  01535  01632              % 03327 RGTR--
+*A ad 200419021 210701015 000008  01535  01632              % 03327 RGTR--
+*R 1 210701015 200419021 210701015  01535  01632            % 03327 RGTR--
+*G RGB 200419021 210701015  01535  01632                    % 03327 RGTR--
+*A VE 200419021 210701015 000008  01535  01632              % 03327 RGTR--
+*I FD 200419021 210701015        0001205  01535  01632      % 03327 RGTR--
+200419021 Limpertsberg, L.T.C.         01535                % 03327 RGTR--
+200419025 Limpertsberg, Lycée   01539  01539                % 03327 RGTR--
+200419026 Limpertsberg, Theate  01542  01542                % 03327 RGTR--
+200405014 Centre, Fondation Pe  01544  01544                % 03327 RGTR--
+200304004 Howald, Jhangeli      01553  01553                % 03327 RGTR--
+200304001 Howald, Am Houwaldsb  01554  01554                % 03327 RGTR--
+200303007 Hesperange, Wollefsm  01555  01555                % 03327 RGTR--
+200303001 Hesperange, Am Kelle  01557  01557                % 03327 RGTR--
+200303006 Hesperange, Urbengss  01558  01558                % 03327 RGTR--
+200301003 Alzingen, Trapeneck   01558  01558                % 03327 RGTR--
+200301002 Alzingen, Hondsbréck  01559  01559                % 03327 RGTR--
+201103001 Weiler-la-Tour, Camp  01601  01601                % 03327 RGTR--
+201103004 Weiler-la-Tour, Schl  01603  01603                % 03327 RGTR--
+220502003 Frisange, Hau         01604  01604                % 03327 RGTR--
+220502004 Frisange, Op der Krä  01606  01606                % 03327 RGTR--
+220502002 Frisange, Ennescht D  01607  01607                % 03327 RGTR--
+220501002 Aspelt, Gare          01609  01609                % 03327 RGTR--
+220501001 Aspelt, Am Grëndchen  01610  01610                % 03327 RGTR--
+210501002 Altwies, Beckeschmil  01612  01612                % 03327 RGTR--
+210501001 Altwies, An der Kaz   01613  01613                % 03327 RGTR--
+210503005 Mondorf, Kleng Gare   01614  01614                % 03327 RGTR--
+210503001 Mondorf, Bei der Dou  01614  01614                % 03327 RGTR--
+210503003 Mondorf, Christophor  01615  01615                % 03327 RGTR--
+210503002 Mondorf, Casino 2000  01616  01616                % 03327 RGTR--
+210503007 Mondorf, Stade John   01617  01617                % 03327 RGTR--
+210502001 Ellenger Gare         01619  01619                % 03327 RGTR--
+211003002 Wellenstein, rte de   01623  01623                % 03327 RGTR--
+211003001 Wellenstein, Centre   01624  01624                % 03327 RGTR--
+211003003 Wellenstein, Caves c  01625  01625                % 03327 RGTR--
+211001002 Bech-Kleinmacher, Ce  01626  01626                % 03327 RGTR--
+210701011 Remich, Piscine       01628  01628                % 03327 RGTR--
+210701006 Remich, Gare routièr  01629  01629                % 03327 RGTR--
+210701008 Remich, Maatebierg    01630  01630                % 03327 RGTR--
+210701001 Remich, Belvédère     01631  01631                % 03327 RGTR--
+210701015 Remich, rue de la Co  01632                       % 03327 RGTR--
+*Z 03328 RGTR--                                             % 03328 RGTR--
+*L 176      200420006 210701012  01250  01336               % 03328 RGTR--
+*A al 200420006 210701012 000007  01250  01336              % 03328 RGTR--
+*A BE 200420006 210701012 000007  01250  01336              % 03328 RGTR--
+*A cj 200420006 210701012 000007  01250  01336              % 03328 RGTR--
+*A ad 200420006 210701012 000007  01250  01336              % 03328 RGTR--
+*R 1 210701012 200420006 210701012  01250  01336            % 03328 RGTR--
+*G RGB 200420006 210701012  01250  01336                    % 03328 RGTR--
+*A VE 200420006 210701012 000007  01250  01336              % 03328 RGTR--
+*I FD 200420006 210701012        0002061  01250  01336      % 03328 RGTR--
+200420006 Merl, Geesseknäppche         01250                % 03328 RGTR--
+200301003 Alzingen, Trapeneck   01303  01303                % 03328 RGTR--
+200301002 Alzingen, Hondsbréck  01303  01303                % 03328 RGTR--
+201103001 Weiler-la-Tour, Camp  01305  01305                % 03328 RGTR--
+201103004 Weiler-la-Tour, Schl  01307  01307                % 03328 RGTR--
+220502003 Frisange, Hau         01308  01308                % 03328 RGTR--
+220502004 Frisange, Op der Krä  01310  01310                % 03328 RGTR--
+220502002 Frisange, Ennescht D  01311  01311                % 03328 RGTR--
+220501002 Aspelt, Gare          01313  01313                % 03328 RGTR--
+220501001 Aspelt, Am Grëndchen  01314  01314                % 03328 RGTR--
+210501002 Altwies, Beckeschmil  01316  01316                % 03328 RGTR--
+210501001 Altwies, An der Kaz   01317  01317                % 03328 RGTR--
+210503005 Mondorf, Kleng Gare   01318  01318                % 03328 RGTR--
+210503001 Mondorf, Bei der Dou  01319  01319                % 03328 RGTR--
+210503003 Mondorf, Christophor  01319  01319                % 03328 RGTR--
+210503002 Mondorf, Casino 2000  01321  01321                % 03328 RGTR--
+210503007 Mondorf, Stade John   01322  01322                % 03328 RGTR--
+210502001 Ellenger Gare         01323  01323                % 03328 RGTR--
+211003002 Wellenstein, rte de   01328  01328                % 03328 RGTR--
+211003001 Wellenstein, Centre   01328  01328                % 03328 RGTR--
+211003003 Wellenstein, Caves c  01329  01329                % 03328 RGTR--
+211001002 Bech-Kleinmacher, Ce  01331  01331                % 03328 RGTR--
+210701011 Remich, Piscine       01332  01332                % 03328 RGTR--
+210701006 Remich, Gare routièr  01333  01333                % 03328 RGTR--
+210701024 Remich, Schoul        01335  01335                % 03328 RGTR--
+210701012 Remich, Pl. Nico Klo  01336                       % 03328 RGTR--
+*Z 03329 RGTR--                                             % 03329 RGTR--
+*L 176      200420006 210701012  01550  01639               % 03329 RGTR--
+*A al 200420006 210701012 000008  01550  01639              % 03329 RGTR--
+*A BE 200420006 210701012 000008  01550  01639              % 03329 RGTR--
+*A cj 200420006 210701012 000008  01550  01639              % 03329 RGTR--
+*A ad 200420006 210701012 000008  01550  01639              % 03329 RGTR--
+*R 1 210701012 200420006 210701012  01550  01639            % 03329 RGTR--
+*G RGB 200420006 210701012  01550  01639                    % 03329 RGTR--
+*A VE 200420006 210701012 000008  01550  01639              % 03329 RGTR--
+*I FD 200420006 210701012        0002080  01550  01639      % 03329 RGTR--
+200420006 Merl, Geesseknäppche         01550                % 03329 RGTR--
+200301003 Alzingen, Trapeneck   01603  01603                % 03329 RGTR--
+200301002 Alzingen, Hondsbréck  01603  01603                % 03329 RGTR--
+201103001 Weiler-la-Tour, Camp  01605  01605                % 03329 RGTR--
+201103004 Weiler-la-Tour, Schl  01607  01607                % 03329 RGTR--
+220502003 Frisange, Hau         01609  01609                % 03329 RGTR--
+220502004 Frisange, Op der Krä  01610  01610                % 03329 RGTR--
+220502002 Frisange, Ennescht D  01611  01611                % 03329 RGTR--
+220501002 Aspelt, Gare          01614  01614                % 03329 RGTR--
+220501001 Aspelt, Am Grëndchen  01615  01615                % 03329 RGTR--
+210501002 Altwies, Beckeschmil  01617  01617                % 03329 RGTR--
+210501001 Altwies, An der Kaz   01618  01618                % 03329 RGTR--
+210503005 Mondorf, Kleng Gare   01619  01619                % 03329 RGTR--
+210503001 Mondorf, Bei der Dou  01620  01620                % 03329 RGTR--
+210503003 Mondorf, Christophor  01620  01620                % 03329 RGTR--
+210503002 Mondorf, Casino 2000  01622  01622                % 03329 RGTR--
+210503007 Mondorf, Stade John   01623  01623                % 03329 RGTR--
+210502001 Ellenger Gare         01624  01624                % 03329 RGTR--
+211003002 Wellenstein, rte de   01629  01629                % 03329 RGTR--
+211003001 Wellenstein, Centre   01629  01629                % 03329 RGTR--
+211003003 Wellenstein, Caves c  01630  01630                % 03329 RGTR--
+211001002 Bech-Kleinmacher, Ce  01632  01632                % 03329 RGTR--
+210701011 Remich, Piscine       01633  01633                % 03329 RGTR--
+210701006 Remich, Gare routièr  01635  01635                % 03329 RGTR--
+210701024 Remich, Schoul        01638  01638                % 03329 RGTR--
+210701012 Remich, Pl. Nico Klo  01639                       % 03329 RGTR--
+*Z 03330 RGTR--                                             % 03330 RGTR--
+*L 176      200420006 210103001  01425  01516               % 03330 RGTR--
+*A al 200420006 210103001 000002  01425  01516              % 03330 RGTR--
+*A BE 200420006 210103001 000002  01425  01516              % 03330 RGTR--
+*A cj 200420006 210103001 000002  01425  01516              % 03330 RGTR--
+*A ad 200420006 210103001 000002  01425  01516              % 03330 RGTR--
+*R 1 210103001 200420006 210103001  01425  01516            % 03330 RGTR--
+*G RGB 200420006 210103001  01425  01516                    % 03330 RGTR--
+*A VE 200420006 210103001 000002  01425  01516              % 03330 RGTR--
+*I FD 200420006 210103001        0001946  01425  01516      % 03330 RGTR--
+200420006 Merl, Geesseknäppche         01425                % 03330 RGTR--
+200301003 Alzingen, Trapeneck   01438  01438                % 03330 RGTR--
+200301002 Alzingen, Hondsbréck  01438  01438                % 03330 RGTR--
+201103001 Weiler-la-Tour, Camp  01440  01440                % 03330 RGTR--
+201103004 Weiler-la-Tour, Schl  01442  01442                % 03330 RGTR--
+220502003 Frisange, Hau         01443  01443                % 03330 RGTR--
+220502004 Frisange, Op der Krä  01445  01445                % 03330 RGTR--
+220502002 Frisange, Ennescht D  01446  01446                % 03330 RGTR--
+220501002 Aspelt, Gare          01448  01448                % 03330 RGTR--
+220501001 Aspelt, Am Grëndchen  01449  01449                % 03330 RGTR--
+210501002 Altwies, Beckeschmil  01451  01451                % 03330 RGTR--
+210501001 Altwies, An der Kaz   01452  01452                % 03330 RGTR--
+210503005 Mondorf, Kleng Gare   01453  01453                % 03330 RGTR--
+210503001 Mondorf, Bei der Dou  01454  01454                % 03330 RGTR--
+210503003 Mondorf, Christophor  01454  01454                % 03330 RGTR--
+210503002 Mondorf, Casino 2000  01456  01456                % 03330 RGTR--
+210503007 Mondorf, Stade John   01457  01457                % 03330 RGTR--
+210502001 Ellenger Gare         01458  01458                % 03330 RGTR--
+211003002 Wellenstein, rte de   01503  01503                % 03330 RGTR--
+211003001 Wellenstein, Centre   01503  01503                % 03330 RGTR--
+211003003 Wellenstein, Caves c  01504  01504                % 03330 RGTR--
+211001002 Bech-Kleinmacher, Ce  01506  01506                % 03330 RGTR--
+210701011 Remich, Piscine       01507  01507                % 03330 RGTR--
+210701006 Remich, Gare routièr  01508  01508                % 03330 RGTR--
+210701024 Remich, Schoul        01510  01510                % 03330 RGTR--
+210701012 Remich, Pl. Nico Klo  01511  01511                % 03330 RGTR--
+210701014 Remich, Route de Lux  01512  01512                % 03330 RGTR--
+210103001 Erpeldange/Bous, Krä  01516                       % 03330 RGTR--
+*Z 03331 RGTR--                                             % 03331 RGTR--
+*L 176      210701015 200419021  00635  00742               % 03331 RGTR--
+*A al 210701015 200419021 000002  00635  00742              % 03331 RGTR--
+*A ao 210701015 200419021 000002  00635  00742              % 03331 RGTR--
+*A BE 210701015 200419021 000002  00635  00742              % 03331 RGTR--
+*A cj 210701015 200419021 000002  00635  00742              % 03331 RGTR--
+*A ad 210701015 200419021 000002  00635  00742              % 03331 RGTR--
+*R 2 200419021 210701015 200419021  00635  00742            % 03331 RGTR--
+*G RGB 210701015 200419021  00635  00742                    % 03331 RGTR--
+*A VE 210701015 200419021 000002  00635  00742              % 03331 RGTR--
+*I FD 210701015 200419021        0001979  00635  00742      % 03331 RGTR--
+210701015 Remich, rue de la Co         00635                % 03331 RGTR--
+210701001 Remich, Belvédère     00635  00635                % 03331 RGTR--
+210701008 Remich, Maatebierg    00636  00636                % 03331 RGTR--
+210701006 Remich, Gare routièr  00638  00638                % 03331 RGTR--
+210701011 Remich, Piscine       00639  00639                % 03331 RGTR--
+211001002 Bech-Kleinmacher, Ce  00642  00642                % 03331 RGTR--
+211003003 Wellenstein, Caves c  00643  00643                % 03331 RGTR--
+211003001 Wellenstein, Centre   00644  00644                % 03331 RGTR--
+211003002 Wellenstein, rte de   00645  00645                % 03331 RGTR--
+210502001 Ellenger Gare         00650  00650                % 03331 RGTR--
+210503006 Mondorf, Réimecherst  00652  00652                % 03331 RGTR--
+210503002 Mondorf, Casino 2000  00652  00652                % 03331 RGTR--
+210503003 Mondorf, Christophor  00654  00654                % 03331 RGTR--
+210503001 Mondorf, Bei der Dou  00654  00654                % 03331 RGTR--
+210503005 Mondorf, Kleng Gare   00655  00655                % 03331 RGTR--
+210501003 Altwies, Buergässel   00657  00657                % 03331 RGTR--
+210501002 Altwies, Beckeschmil  00657  00657                % 03331 RGTR--
+220501001 Aspelt, Am Grëndchen  00659  00659                % 03331 RGTR--
+220501002 Aspelt, Gare          00700  00700                % 03331 RGTR--
+220502002 Frisange, Ennescht D  00703  00703                % 03331 RGTR--
+220502004 Frisange, Op der Krä  00704  00704                % 03331 RGTR--
+201103004 Weiler-la-Tour, Schl  00707  00707                % 03331 RGTR--
+201103001 Weiler-la-Tour, Camp  00709  00709                % 03331 RGTR--
+200301002 Alzingen, Hondsbréck  00711  00711                % 03331 RGTR--
+200301003 Alzingen, Trapeneck   00712  00712                % 03331 RGTR--
+200303006 Hesperange, Urbengss  00713  00713                % 03331 RGTR--
+200303001 Hesperange, Am Kelle  00714  00714                % 03331 RGTR--
+200303007 Hesperange, Wollefsm  00716  00716                % 03331 RGTR--
+200304001 Howald, Am Houwaldsb  00717  00717                % 03331 RGTR--
+200304004 Howald, Jhangeli      00718  00718                % 03331 RGTR--
+200404028 Bonnevoie, Neufchâte  00720  00720                % 03331 RGTR--
+200404016 Bonnevoie, Hippodrom  00721  00721                % 03331 RGTR--
+200419026 Limpertsberg, Theate  00736  00736                % 03331 RGTR--
+200419025 Limpertsberg, Lycée   00738  00738                % 03331 RGTR--
+200419021 Limpertsberg, L.T.C.  00742                       % 03331 RGTR--
+*Z 03332 RGTR--                                             % 03332 RGTR--
+*L 176      210503004 200419021  00650  00740               % 03332 RGTR--
+*A al 210503004 200419021 000002  00650  00740              % 03332 RGTR--
+*A BE 210503004 200419021 000002  00650  00740              % 03332 RGTR--
+*A cj 210503004 200419021 000002  00650  00740              % 03332 RGTR--
+*A ad 210503004 200419021 000002  00650  00740              % 03332 RGTR--
+*R 2 200419021 210503004 200419021  00650  00740            % 03332 RGTR--
+*G RGB 210503004 200419021  00650  00740                    % 03332 RGTR--
+*A VE 210503004 200419021 000002  00650  00740              % 03332 RGTR--
+*I FD 210503004 200419021        0002389  00650  00740      % 03332 RGTR--
+210503004 Mondorf, Daundorf            00650                % 03332 RGTR--
+210503002 Mondorf, Casino 2000  00651  00651                % 03332 RGTR--
+210503003 Mondorf, Christophor  00652  00652                % 03332 RGTR--
+210503001 Mondorf, Bei der Dou  00653  00653                % 03332 RGTR--
+210503005 Mondorf, Kleng Gare   00653  00653                % 03332 RGTR--
+210501003 Altwies, Buergässel   00655  00655                % 03332 RGTR--
+210501002 Altwies, Beckeschmil  00656  00656                % 03332 RGTR--
+220501001 Aspelt, Am Grëndchen  00658  00658                % 03332 RGTR--
+220501002 Aspelt, Gare          00659  00659                % 03332 RGTR--
+220502002 Frisange, Ennescht D  00701  00701                % 03332 RGTR--
+220502004 Frisange, Op der Krä  00702  00702                % 03332 RGTR--
+220502003 Frisange, Hau         00704  00704                % 03332 RGTR--
+201103004 Weiler-la-Tour, Schl  00705  00705                % 03332 RGTR--
+201103001 Weiler-la-Tour, Camp  00707  00707                % 03332 RGTR--
+200301002 Alzingen, Hondsbréck  00709  00709                % 03332 RGTR--
+200301003 Alzingen, Trapeneck   00710  00710                % 03332 RGTR--
+200303006 Hesperange, Urbengss  00711  00711                % 03332 RGTR--
+200303001 Hesperange, Am Kelle  00713  00713                % 03332 RGTR--
+200303007 Hesperange, Wollefsm  00714  00714                % 03332 RGTR--
+200304001 Howald, Am Houwaldsb  00715  00715                % 03332 RGTR--
+200304004 Howald, Jhangeli      00716  00716                % 03332 RGTR--
+200404028 Bonnevoie, Neufchâte  00718  00718                % 03332 RGTR--
+200404016 Bonnevoie, Hippodrom  00719  00719                % 03332 RGTR--
+200419026 Limpertsberg, Theate  00734  00734                % 03332 RGTR--
+200419025 Limpertsberg, Lycée   00736  00736                % 03332 RGTR--
+200419021 Limpertsberg, L.T.C.  00740                       % 03332 RGTR--
+*Z 03333 RGTR--                                             % 03333 RGTR--
+*L 176      210503003 200420006  00702  00738               % 03333 RGTR--
+*A al 210503003 200420006 000002  00702  00738              % 03333 RGTR--
+*A BE 210503003 200420006 000002  00702  00738              % 03333 RGTR--
+*A cj 210503003 200420006 000002  00702  00738              % 03333 RGTR--
+*A ad 210503003 200420006 000002  00702  00738              % 03333 RGTR--
+*R 2 200420006 210503003 200420006  00702  00738            % 03333 RGTR--
+*G RGB 210503003 200420006  00702  00738                    % 03333 RGTR--
+*A VE 210503003 200420006 000002  00702  00738              % 03333 RGTR--
+*I FD 210503003 200420006        0002713  00702  00738      % 03333 RGTR--
+210503003 Mondorf, Christophor         00702                % 03333 RGTR--
+210503001 Mondorf, Bei der Dou  00702  00702                % 03333 RGTR--
+210503005 Mondorf, Kleng Gare   00703  00703                % 03333 RGTR--
+210501003 Altwies, Buergässel   00704  00704                % 03333 RGTR--
+210501002 Altwies, Beckeschmil  00705  00705                % 03333 RGTR--
+220501001 Aspelt, Am Grëndchen  00707  00707                % 03333 RGTR--
+220501002 Aspelt, Gare          00708  00708                % 03333 RGTR--
+220502002 Frisange, Ennescht D  00711  00711                % 03333 RGTR--
+220502004 Frisange, Op der Krä  00712  00712                % 03333 RGTR--
+220502003 Frisange, Hau         00713  00713                % 03333 RGTR--
+201103004 Weiler-la-Tour, Schl  00715  00715                % 03333 RGTR--
+201103001 Weiler-la-Tour, Camp  00716  00716                % 03333 RGTR--
+200301002 Alzingen, Hondsbréck  00719  00719                % 03333 RGTR--
+200301003 Alzingen, Trapeneck   00720  00720                % 03333 RGTR--
+200303006 Hesperange, Urbengss  00721  00721                % 03333 RGTR--
+200303001 Hesperange, Am Kelle  00722  00722                % 03333 RGTR--
+200420006 Merl, Geesseknäppche  00738                       % 03333 RGTR--
+*Z 03334 RGTR--                                             % 03334 RGTR--
+*L 176      210103001 200420006  00652  00739               % 03334 RGTR--
+*A al 210103001 200420006 000002  00652  00739              % 03334 RGTR--
+*A BE 210103001 200420006 000002  00652  00739              % 03334 RGTR--
+*A cj 210103001 200420006 000002  00652  00739              % 03334 RGTR--
+*A ad 210103001 200420006 000002  00652  00739              % 03334 RGTR--
+*R 2 200420006 210103001 200420006  00652  00739            % 03334 RGTR--
+*G RGB 210103001 200420006  00652  00739                    % 03334 RGTR--
+*A VE 210103001 200420006 000002  00652  00739              % 03334 RGTR--
+*I FD 210103001 200420006        0003005  00652  00739      % 03334 RGTR--
+210103001 Erpeldange/Bous, Krä         00652                % 03334 RGTR--
+210103003 Erpeldange/Bous, Sch  00652  00652                % 03334 RGTR--
+210105001 Emeringerhaff         00653  00653                % 03334 RGTR--
+210502002 Ellange, Martialis    00657  00657                % 03334 RGTR--
+210502001 Ellenger Gare         00659  00659                % 03334 RGTR--
+210503006 Mondorf, Réimecherst  00701  00701                % 03334 RGTR--
+210503002 Mondorf, Casino 2000  00701  00701                % 03334 RGTR--
+210503003 Mondorf, Christophor  00703  00703                % 03334 RGTR--
+210503001 Mondorf, Bei der Dou  00703  00703                % 03334 RGTR--
+210503005 Mondorf, Kleng Gare   00704  00704                % 03334 RGTR--
+210501003 Altwies, Buergässel   00706  00706                % 03334 RGTR--
+210501002 Altwies, Beckeschmil  00706  00706                % 03334 RGTR--
+220501001 Aspelt, Am Grëndchen  00708  00708                % 03334 RGTR--
+220501002 Aspelt, Gare          00709  00709                % 03334 RGTR--
+220502002 Frisange, Ennescht D  00712  00712                % 03334 RGTR--
+220502004 Frisange, Op der Krä  00713  00713                % 03334 RGTR--
+201103004 Weiler-la-Tour, Schl  00716  00716                % 03334 RGTR--
+201103001 Weiler-la-Tour, Camp  00718  00718                % 03334 RGTR--
+200301002 Alzingen, Hondsbréck  00720  00720                % 03334 RGTR--
+200301003 Alzingen, Trapeneck   00721  00721                % 03334 RGTR--
+200303006 Hesperange, Urbengss  00722  00722                % 03334 RGTR--
+200303001 Hesperange, Am Kelle  00723  00723                % 03334 RGTR--
+200420006 Merl, Geesseknäppche  00739                       % 03334 RGTR--
+*Z 03335 RGTR--                                             % 03335 RGTR--
+*L 176      210701015 200420006  00645  00740               % 03335 RGTR--
+*A al 210701015 200420006 000002  00645  00740              % 03335 RGTR--
+*A BE 210701015 200420006 000002  00645  00740              % 03335 RGTR--
+*A cj 210701015 200420006 000002  00645  00740              % 03335 RGTR--
+*A ad 210701015 200420006 000002  00645  00740              % 03335 RGTR--
+*R 2 200420006 210701015 200420006  00645  00740            % 03335 RGTR--
+*G RGB 210701015 200420006  00645  00740                    % 03335 RGTR--
+*A VE 210701015 200420006 000002  00645  00740              % 03335 RGTR--
+*I FD 210701015 200420006        0002256  00645  00740      % 03335 RGTR--
+210701015 Remich, rue de la Co         00645                % 03335 RGTR--
+210701001 Remich, Belvédère     00645  00645                % 03335 RGTR--
+210701008 Remich, Maatebierg    00646  00646                % 03335 RGTR--
+210701006 Remich, Gare routièr  00648  00648                % 03335 RGTR--
+210701011 Remich, Piscine       00649  00649                % 03335 RGTR--
+211001002 Bech-Kleinmacher, Ce  00652  00652                % 03335 RGTR--
+211003003 Wellenstein, Caves c  00653  00653                % 03335 RGTR--
+211003001 Wellenstein, Centre   00654  00654                % 03335 RGTR--
+211003002 Wellenstein, rte de   00655  00655                % 03335 RGTR--
+210502001 Ellenger Gare         00700  00700                % 03335 RGTR--
+210503006 Mondorf, Réimecherst  00702  00702                % 03335 RGTR--
+210503002 Mondorf, Casino 2000  00702  00702                % 03335 RGTR--
+210503003 Mondorf, Christophor  00704  00704                % 03335 RGTR--
+210503001 Mondorf, Bei der Dou  00704  00704                % 03335 RGTR--
+210503005 Mondorf, Kleng Gare   00705  00705                % 03335 RGTR--
+210501003 Altwies, Buergässel   00707  00707                % 03335 RGTR--
+210501002 Altwies, Beckeschmil  00707  00707                % 03335 RGTR--
+220501001 Aspelt, Am Grëndchen  00709  00709                % 03335 RGTR--
+220501002 Aspelt, Gare          00710  00710                % 03335 RGTR--
+220502002 Frisange, Ennescht D  00713  00713                % 03335 RGTR--
+220502004 Frisange, Op der Krä  00714  00714                % 03335 RGTR--
+201103004 Weiler-la-Tour, Schl  00717  00717                % 03335 RGTR--
+201103001 Weiler-la-Tour, Camp  00719  00719                % 03335 RGTR--
+200301002 Alzingen, Hondsbréck  00721  00721                % 03335 RGTR--
+200301003 Alzingen, Trapeneck   00722  00722                % 03335 RGTR--
+200303006 Hesperange, Urbengss  00723  00723                % 03335 RGTR--
+200303001 Hesperange, Am Kelle  00724  00724                % 03335 RGTR--
+200420006 Merl, Geesseknäppche  00740                       % 03335 RGTR--
+*Z 03336 RGTR--                                             % 03336 RGTR--
+*L 176      210503003 200405036  00700  00729               % 03336 RGTR--
+*A al 210503003 200405036 000002  00700  00729              % 03336 RGTR--
+*A BE 210503003 200405036 000002  00700  00729              % 03336 RGTR--
+*A cj 210503003 200405036 000002  00700  00729              % 03336 RGTR--
+*A ad 210503003 200405036 000002  00700  00729              % 03336 RGTR--
+*R 2 200405036 210503003 200405036  00700  00729            % 03336 RGTR--
+*G RGB 210503003 200405036  00700  00729                    % 03336 RGTR--
+*A VE 210503003 200405036 000002  00700  00729              % 03336 RGTR--
+*I FD 210503003 200405036        0002197  00700  00729      % 03336 RGTR--
+210503003 Mondorf, Christophor         00700                % 03336 RGTR--
+210503001 Mondorf, Bei der Dou  00700  00700                % 03336 RGTR--
+210503005 Mondorf, Kleng Gare   00701  00701                % 03336 RGTR--
+210501003 Altwies, Buergässel   00702  00702                % 03336 RGTR--
+210501002 Altwies, Beckeschmil  00703  00703                % 03336 RGTR--
+220501001 Aspelt, Am Grëndchen  00705  00705                % 03336 RGTR--
+220501002 Aspelt, Gare          00706  00706                % 03336 RGTR--
+220502002 Frisange, Ennescht D  00709  00709                % 03336 RGTR--
+220502004 Frisange, Op der Krä  00710  00710                % 03336 RGTR--
+201103004 Weiler-la-Tour, Schl  00713  00713                % 03336 RGTR--
+201103001 Weiler-la-Tour, Camp  00715  00715                % 03336 RGTR--
+200301002 Alzingen, Hondsbréck  00717  00717                % 03336 RGTR--
+200301003 Alzingen, Trapeneck   00718  00718                % 03336 RGTR--
+200303006 Hesperange, Urbengss  00719  00719                % 03336 RGTR--
+200303001 Hesperange, Am Kelle  00720  00720                % 03336 RGTR--
+200303007 Hesperange, Wollefsm  00722  00722                % 03336 RGTR--
+200304001 Howald, Am Houwaldsb  00723  00723                % 03336 RGTR--
+200304004 Howald, Jhangeli      00724  00724                % 03336 RGTR--
+200404028 Bonnevoie, Neufchâte  00726  00726                % 03336 RGTR--
+200404016 Bonnevoie, Hippodrom  00726  00726                % 03336 RGTR--
+200405036 Luxembourg, Gare rou  00729                       % 03336 RGTR--

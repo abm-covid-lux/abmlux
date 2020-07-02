@@ -1,0 +1,1744 @@
+*F 03 2
+*Z 08149 RGTR--                                             % 08149 RGTR--
+*L 537      120402002 300000026  00636  00716               % 08149 RGTR--
+*A ef 120402002 300000026 000001  00636  00716              % 08149 RGTR--
+*R 1 300000026 120402002 300000026  00636  00716            % 08149 RGTR--
+*G RGB 120402002 300000026  00636  00716                    % 08149 RGTR--
+*A VE 120402002 300000026 000001  00636  00716              % 08149 RGTR--
+*I FD 120402002 300000026        0002951  00636  00716      % 08149 RGTR--
+120402002 Büderscheid, Village         00636                % 08149 RGTR--
+120903003 Wiltz, Batzendelt     00640  00640                % 08149 RGTR--
+120903005 Wiltz, Belle Vue      00641  00641                % 08149 RGTR--
+120903006 Wiltz, Brandbau       00643  00643                % 08149 RGTR--
+120903011 Wiltz, Clinique       00644  00644                % 08149 RGTR--
+120903008 Wiltz, Pompjeesbau    00647  00647                % 08149 RGTR--
+120903021 Wiltz, Lann           00648  00648                % 08149 RGTR--
+120903008 Wiltz, Pompjeesbau    00650  00650                % 08149 RGTR--
+120903025 Wiltz, Wanselerstro.  00651  00651                % 08149 RGTR--
+120903010 Wiltz, Follmillen     00651  00651                % 08149 RGTR--
+120903036 Wiltz, Salzbaach      00652  00652                % 08149 RGTR--
+120903001 Wiltz, Aalen Tipp     00653  00653                % 08149 RGTR--
+120903038 Wiltz, Schumann       00656  00656                % 08149 RGTR--
+121006001 Pommerlach, Theis     00659  00659                % 08149 RGTR--
+121006003 Pommerlach (Knauf)    00659  00659                % 08149 RGTR--
+300000029 Bras, Carrefour       00704  00704                % 08149 RGTR--
+300000047 Wardin, rue de Wiltz  00706  00706                % 08149 RGTR--
+300000111 Marvie, A la Boule (  00709  00709                % 08149 RGTR--
+300000042 Marvie, rue de Wiltz  00709  00709                % 08149 RGTR--
+300000027 Bastogne, Home Marke  00711  00711                % 08149 RGTR--
+300000022 Bastogne, Pl. McAuli  00713  00713                % 08149 RGTR--
+300000026 Bastogne, Renval      00716                       % 08149 RGTR--
+*Z 08150 RGTR--                                             % 08150 RGTR--
+*L 537      140701023 120903038  02210  02254               % 08150 RGTR--
+*A ef 140701023 120903038 000001  02210  02254              % 08150 RGTR--
+*R 1 120903038 140701023 120903038  02210  02254            % 08150 RGTR--
+*G RGB 140701023 120903038  02210  02254                    % 08150 RGTR--
+*A VE 140701023 120903038 000001  02210  02254              % 08150 RGTR--
+*I FD 140701023 120903038        0002878  02210  02254      % 08150 RGTR--
+140701023 Ettelbruck, Lycée Te         02210                % 08150 RGTR--
+140701024 Ettelbruck, Boffer    02211  02211                % 08150 RGTR--
+140701025 Ettelbruck, Pl.du Ma  02214  02214                % 08150 RGTR--
+140701009 Ettelbruck, Cité Pat  02216  02216                % 08150 RGTR--
+140701008 Ettelbruck, Cité Lop  02216  02216                % 08150 RGTR--
+140801002 Niederfeulen, Faubou  02219  02219                % 08150 RGTR--
+140801003 Niederfeulen, Mairie  02219  02219                % 08150 RGTR--
+140801005 Niederfeulen, Atelie  02220  02220                % 08150 RGTR--
+120502001 Heiderscheid, Fuusse  02224  02224                % 08150 RGTR--
+120502003 Heiderscheid, Zone C  02225  02225                % 08150 RGTR--
+120502002 Heiderscheid          02226  02226                % 08150 RGTR--
+120503001 Heischtergronn, Beim  02231  02231                % 08150 RGTR--
+120402002 Büderscheid, Village  02234  02234                % 08150 RGTR--
+120903003 Wiltz, Batzendelt     02239  02239                % 08150 RGTR--
+120903005 Wiltz, Belle Vue      02240  02240                % 08150 RGTR--
+120903006 Wiltz, Brandbau       02241  02241                % 08150 RGTR--
+120903011 Wiltz, Clinique       02242  02242                % 08150 RGTR--
+120903008 Wiltz, Pompjeesbau    02245  02245                % 08150 RGTR--
+120903021 Wiltz, Lann           02246  02246                % 08150 RGTR--
+120903008 Wiltz, Pompjeesbau    02248  02248                % 08150 RGTR--
+120903025 Wiltz, Wanselerstro.  02248  02248                % 08150 RGTR--
+120903010 Wiltz, Follmillen     02249  02249                % 08150 RGTR--
+120903036 Wiltz, Salzbaach      02250  02250                % 08150 RGTR--
+120903001 Wiltz, Aalen Tipp     02251  02251                % 08150 RGTR--
+120903038 Wiltz, Schumann       02254                       % 08150 RGTR--
+*Z 08151 RGTR--                                             % 08151 RGTR--
+*L 537      140701023 300000026  01210  01314               % 08151 RGTR--
+*A ef 140701023 300000026 000000  01210  01314              % 08151 RGTR--
+*R 1 300000026 140701023 300000026  01210  01314            % 08151 RGTR--
+*G RGB 140701023 300000026  01210  01314                    % 08151 RGTR--
+*A VE 140701023 300000026 000000  01210  01314              % 08151 RGTR--
+*I FD 140701023 300000026        0002060  01210  01314      % 08151 RGTR--
+140701023 Ettelbruck, Lycée Te         01210                % 08151 RGTR--
+140701024 Ettelbruck, Boffer    01211  01211                % 08151 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01214  01214                % 08151 RGTR--
+140701009 Ettelbruck, Cité Pat  01216  01216                % 08151 RGTR--
+140701008 Ettelbruck, Cité Lop  01216  01216                % 08151 RGTR--
+140801002 Niederfeulen, Faubou  01219  01219                % 08151 RGTR--
+140801003 Niederfeulen, Mairie  01219  01219                % 08151 RGTR--
+140801005 Niederfeulen, Atelie  01220  01220                % 08151 RGTR--
+120502001 Heiderscheid, Fuusse  01224  01224                % 08151 RGTR--
+120502003 Heiderscheid, Zone C  01225  01225                % 08151 RGTR--
+120502002 Heiderscheid          01226  01226                % 08151 RGTR--
+120503001 Heischtergronn, Beim  01231  01231                % 08151 RGTR--
+120402002 Büderscheid, Village  01234  01234                % 08151 RGTR--
+120903003 Wiltz, Batzendelt     01239  01239                % 08151 RGTR--
+120903005 Wiltz, Belle Vue      01240  01240                % 08151 RGTR--
+120903006 Wiltz, Brandbau       01241  01241                % 08151 RGTR--
+120903011 Wiltz, Clinique       01242  01242                % 08151 RGTR--
+120903008 Wiltz, Pompjeesbau    01245  01245                % 08151 RGTR--
+120903021 Wiltz, Lann           01246  01246                % 08151 RGTR--
+120903008 Wiltz, Pompjeesbau    01248  01248                % 08151 RGTR--
+120903025 Wiltz, Wanselerstro.  01248  01248                % 08151 RGTR--
+120903010 Wiltz, Follmillen     01249  01249                % 08151 RGTR--
+120903036 Wiltz, Salzbaach      01250  01250                % 08151 RGTR--
+120903001 Wiltz, Aalen Tipp     01251  01251                % 08151 RGTR--
+120903038 Wiltz, Schumann       01254  01254                % 08151 RGTR--
+121006001 Pommerlach, Theis     01256  01256                % 08151 RGTR--
+121006003 Pommerlach (Knauf)    01257  01257                % 08151 RGTR--
+300000029 Bras, Carrefour       01301  01301                % 08151 RGTR--
+300000047 Wardin, rue de Wiltz  01303  01303                % 08151 RGTR--
+300000111 Marvie, A la Boule (  01306  01306                % 08151 RGTR--
+300000042 Marvie, rue de Wiltz  01307  01307                % 08151 RGTR--
+300000027 Bastogne, Home Marke  01308  01308                % 08151 RGTR--
+300000022 Bastogne, Pl. McAuli  01310  01310                % 08151 RGTR--
+300000026 Bastogne, Renval      01314                       % 08151 RGTR--
+*Z 08152 RGTR--                                             % 08152 RGTR--
+*L 537      140701023 300000026  01510  01614               % 08152 RGTR--
+*A ef 140701023 300000026 000000  01510  01614              % 08152 RGTR--
+*R 1 300000026 140701023 300000026  01510  01614            % 08152 RGTR--
+*G RGB 140701023 300000026  01510  01614                    % 08152 RGTR--
+*A VE 140701023 300000026 000000  01510  01614              % 08152 RGTR--
+*I FD 140701023 300000026        0002067  01510  01614      % 08152 RGTR--
+140701023 Ettelbruck, Lycée Te         01510                % 08152 RGTR--
+140701024 Ettelbruck, Boffer    01511  01511                % 08152 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01514  01514                % 08152 RGTR--
+140701009 Ettelbruck, Cité Pat  01516  01516                % 08152 RGTR--
+140701008 Ettelbruck, Cité Lop  01516  01516                % 08152 RGTR--
+140801002 Niederfeulen, Faubou  01519  01519                % 08152 RGTR--
+140801003 Niederfeulen, Mairie  01519  01519                % 08152 RGTR--
+140801005 Niederfeulen, Atelie  01520  01520                % 08152 RGTR--
+120502001 Heiderscheid, Fuusse  01524  01524                % 08152 RGTR--
+120502003 Heiderscheid, Zone C  01525  01525                % 08152 RGTR--
+120502002 Heiderscheid          01526  01526                % 08152 RGTR--
+120503001 Heischtergronn, Beim  01531  01531                % 08152 RGTR--
+120402002 Büderscheid, Village  01534  01534                % 08152 RGTR--
+120903003 Wiltz, Batzendelt     01539  01539                % 08152 RGTR--
+120903005 Wiltz, Belle Vue      01540  01540                % 08152 RGTR--
+120903006 Wiltz, Brandbau       01541  01541                % 08152 RGTR--
+120903011 Wiltz, Clinique       01542  01542                % 08152 RGTR--
+120903008 Wiltz, Pompjeesbau    01545  01545                % 08152 RGTR--
+120903021 Wiltz, Lann           01546  01546                % 08152 RGTR--
+120903008 Wiltz, Pompjeesbau    01548  01548                % 08152 RGTR--
+120903025 Wiltz, Wanselerstro.  01548  01548                % 08152 RGTR--
+120903010 Wiltz, Follmillen     01549  01549                % 08152 RGTR--
+120903036 Wiltz, Salzbaach      01550  01550                % 08152 RGTR--
+120903001 Wiltz, Aalen Tipp     01551  01551                % 08152 RGTR--
+120903038 Wiltz, Schumann       01554  01554                % 08152 RGTR--
+121006001 Pommerlach, Theis     01556  01556                % 08152 RGTR--
+121006003 Pommerlach (Knauf)    01557  01557                % 08152 RGTR--
+300000029 Bras, Carrefour       01601  01601                % 08152 RGTR--
+300000047 Wardin, rue de Wiltz  01603  01603                % 08152 RGTR--
+300000111 Marvie, A la Boule (  01606  01606                % 08152 RGTR--
+300000042 Marvie, rue de Wiltz  01607  01607                % 08152 RGTR--
+300000027 Bastogne, Home Marke  01608  01608                % 08152 RGTR--
+300000022 Bastogne, Pl. McAuli  01610  01610                % 08152 RGTR--
+300000026 Bastogne, Renval      01614                       % 08152 RGTR--
+*Z 08153 RGTR--                                             % 08153 RGTR--
+*L 537      140701023 300000026  01010  01114               % 08153 RGTR--
+*A ef 140701023 300000026 000001  01010  01114              % 08153 RGTR--
+*R 1 300000026 140701023 300000026  01010  01114            % 08153 RGTR--
+*G RGB 140701023 300000026  01010  01114                    % 08153 RGTR--
+*A VE 140701023 300000026 000001  01010  01114              % 08153 RGTR--
+*I FD 140701023 300000026        0002049  01010  01114      % 08153 RGTR--
+140701023 Ettelbruck, Lycée Te         01010                % 08153 RGTR--
+140701024 Ettelbruck, Boffer    01011  01011                % 08153 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01014  01014                % 08153 RGTR--
+140701009 Ettelbruck, Cité Pat  01016  01016                % 08153 RGTR--
+140701008 Ettelbruck, Cité Lop  01016  01016                % 08153 RGTR--
+140801002 Niederfeulen, Faubou  01019  01019                % 08153 RGTR--
+140801003 Niederfeulen, Mairie  01019  01019                % 08153 RGTR--
+140801005 Niederfeulen, Atelie  01020  01020                % 08153 RGTR--
+120502001 Heiderscheid, Fuusse  01024  01024                % 08153 RGTR--
+120502003 Heiderscheid, Zone C  01025  01025                % 08153 RGTR--
+120502002 Heiderscheid          01026  01026                % 08153 RGTR--
+120503001 Heischtergronn, Beim  01031  01031                % 08153 RGTR--
+120402002 Büderscheid, Village  01034  01034                % 08153 RGTR--
+120903003 Wiltz, Batzendelt     01039  01039                % 08153 RGTR--
+120903005 Wiltz, Belle Vue      01040  01040                % 08153 RGTR--
+120903006 Wiltz, Brandbau       01041  01041                % 08153 RGTR--
+120903011 Wiltz, Clinique       01042  01042                % 08153 RGTR--
+120903008 Wiltz, Pompjeesbau    01045  01045                % 08153 RGTR--
+120903021 Wiltz, Lann           01046  01046                % 08153 RGTR--
+120903008 Wiltz, Pompjeesbau    01048  01048                % 08153 RGTR--
+120903025 Wiltz, Wanselerstro.  01048  01048                % 08153 RGTR--
+120903010 Wiltz, Follmillen     01049  01049                % 08153 RGTR--
+120903036 Wiltz, Salzbaach      01050  01050                % 08153 RGTR--
+120903001 Wiltz, Aalen Tipp     01051  01051                % 08153 RGTR--
+120903038 Wiltz, Schumann       01054  01054                % 08153 RGTR--
+121006001 Pommerlach, Theis     01056  01056                % 08153 RGTR--
+121006003 Pommerlach (Knauf)    01057  01057                % 08153 RGTR--
+300000029 Bras, Carrefour       01101  01101                % 08153 RGTR--
+300000047 Wardin, rue de Wiltz  01103  01103                % 08153 RGTR--
+300000111 Marvie, A la Boule (  01106  01106                % 08153 RGTR--
+300000042 Marvie, rue de Wiltz  01107  01107                % 08153 RGTR--
+300000027 Bastogne, Home Marke  01108  01108                % 08153 RGTR--
+300000022 Bastogne, Pl. McAuli  01110  01110                % 08153 RGTR--
+300000026 Bastogne, Renval      01114                       % 08153 RGTR--
+*Z 08154 RGTR--                                             % 08154 RGTR--
+*L 537      140701023 300000026  01110  01214               % 08154 RGTR--
+*A bv 140701023 300000026 000001  01110  01214              % 08154 RGTR--
+*R 1 300000026 140701023 300000026  01110  01214            % 08154 RGTR--
+*G RGB 140701023 300000026  01110  01214                    % 08154 RGTR--
+*A VE 140701023 300000026 000001  01110  01214              % 08154 RGTR--
+*I FD 140701023 300000026        0001030  01110  01214      % 08154 RGTR--
+140701023 Ettelbruck, Lycée Te         01110                % 08154 RGTR--
+140701024 Ettelbruck, Boffer    01111  01111                % 08154 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01114  01114                % 08154 RGTR--
+140701009 Ettelbruck, Cité Pat  01116  01116                % 08154 RGTR--
+140701008 Ettelbruck, Cité Lop  01116  01116                % 08154 RGTR--
+140801002 Niederfeulen, Faubou  01119  01119                % 08154 RGTR--
+140801003 Niederfeulen, Mairie  01119  01119                % 08154 RGTR--
+140801005 Niederfeulen, Atelie  01120  01120                % 08154 RGTR--
+120502001 Heiderscheid, Fuusse  01124  01124                % 08154 RGTR--
+120502003 Heiderscheid, Zone C  01125  01125                % 08154 RGTR--
+120502002 Heiderscheid          01126  01126                % 08154 RGTR--
+120503001 Heischtergronn, Beim  01131  01131                % 08154 RGTR--
+120402002 Büderscheid, Village  01134  01134                % 08154 RGTR--
+120903003 Wiltz, Batzendelt     01139  01139                % 08154 RGTR--
+120903005 Wiltz, Belle Vue      01140  01140                % 08154 RGTR--
+120903006 Wiltz, Brandbau       01141  01141                % 08154 RGTR--
+120903011 Wiltz, Clinique       01142  01142                % 08154 RGTR--
+120903008 Wiltz, Pompjeesbau    01145  01145                % 08154 RGTR--
+120903021 Wiltz, Lann           01146  01146                % 08154 RGTR--
+120903008 Wiltz, Pompjeesbau    01148  01148                % 08154 RGTR--
+120903025 Wiltz, Wanselerstro.  01148  01148                % 08154 RGTR--
+120903010 Wiltz, Follmillen     01149  01149                % 08154 RGTR--
+120903036 Wiltz, Salzbaach      01150  01150                % 08154 RGTR--
+120903001 Wiltz, Aalen Tipp     01151  01151                % 08154 RGTR--
+120903038 Wiltz, Schumann       01154  01154                % 08154 RGTR--
+121006001 Pommerlach, Theis     01156  01156                % 08154 RGTR--
+121006003 Pommerlach (Knauf)    01157  01157                % 08154 RGTR--
+300000029 Bras, Carrefour       01201  01201                % 08154 RGTR--
+300000047 Wardin, rue de Wiltz  01203  01203                % 08154 RGTR--
+300000111 Marvie, A la Boule (  01206  01206                % 08154 RGTR--
+300000042 Marvie, rue de Wiltz  01207  01207                % 08154 RGTR--
+300000027 Bastogne, Home Marke  01208  01208                % 08154 RGTR--
+300000022 Bastogne, Pl. McAuli  01210  01210                % 08154 RGTR--
+300000026 Bastogne, Renval      01214                       % 08154 RGTR--
+*Z 08155 RGTR--                                             % 08155 RGTR--
+*L 537      140701023 300000026  01310  01414               % 08155 RGTR--
+*A ef 140701023 300000026 000001  01310  01414              % 08155 RGTR--
+*R 1 300000026 140701023 300000026  01310  01414            % 08155 RGTR--
+*G RGB 140701023 300000026  01310  01414                    % 08155 RGTR--
+*A VE 140701023 300000026 000001  01310  01414              % 08155 RGTR--
+*I FD 140701023 300000026        0002062  01310  01414      % 08155 RGTR--
+140701023 Ettelbruck, Lycée Te         01310                % 08155 RGTR--
+140701024 Ettelbruck, Boffer    01311  01311                % 08155 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01314  01314                % 08155 RGTR--
+140701009 Ettelbruck, Cité Pat  01316  01316                % 08155 RGTR--
+140701008 Ettelbruck, Cité Lop  01316  01316                % 08155 RGTR--
+140801002 Niederfeulen, Faubou  01319  01319                % 08155 RGTR--
+140801003 Niederfeulen, Mairie  01319  01319                % 08155 RGTR--
+140801005 Niederfeulen, Atelie  01320  01320                % 08155 RGTR--
+120502001 Heiderscheid, Fuusse  01324  01324                % 08155 RGTR--
+120502003 Heiderscheid, Zone C  01325  01325                % 08155 RGTR--
+120502002 Heiderscheid          01326  01326                % 08155 RGTR--
+120503001 Heischtergronn, Beim  01331  01331                % 08155 RGTR--
+120402002 Büderscheid, Village  01334  01334                % 08155 RGTR--
+120903003 Wiltz, Batzendelt     01339  01339                % 08155 RGTR--
+120903005 Wiltz, Belle Vue      01340  01340                % 08155 RGTR--
+120903006 Wiltz, Brandbau       01341  01341                % 08155 RGTR--
+120903011 Wiltz, Clinique       01342  01342                % 08155 RGTR--
+120903008 Wiltz, Pompjeesbau    01345  01345                % 08155 RGTR--
+120903021 Wiltz, Lann           01346  01346                % 08155 RGTR--
+120903008 Wiltz, Pompjeesbau    01348  01348                % 08155 RGTR--
+120903025 Wiltz, Wanselerstro.  01348  01348                % 08155 RGTR--
+120903010 Wiltz, Follmillen     01349  01349                % 08155 RGTR--
+120903036 Wiltz, Salzbaach      01350  01350                % 08155 RGTR--
+120903001 Wiltz, Aalen Tipp     01351  01351                % 08155 RGTR--
+120903038 Wiltz, Schumann       01354  01354                % 08155 RGTR--
+121006001 Pommerlach, Theis     01356  01356                % 08155 RGTR--
+121006003 Pommerlach (Knauf)    01357  01357                % 08155 RGTR--
+300000029 Bras, Carrefour       01401  01401                % 08155 RGTR--
+300000047 Wardin, rue de Wiltz  01403  01403                % 08155 RGTR--
+300000111 Marvie, A la Boule (  01406  01406                % 08155 RGTR--
+300000042 Marvie, rue de Wiltz  01407  01407                % 08155 RGTR--
+300000027 Bastogne, Home Marke  01408  01408                % 08155 RGTR--
+300000022 Bastogne, Pl. McAuli  01410  01410                % 08155 RGTR--
+300000026 Bastogne, Renval      01414                       % 08155 RGTR--
+*Z 08156 RGTR--                                             % 08156 RGTR--
+*L 537      140701023 300000026  01410  01514               % 08156 RGTR--
+*A bv 140701023 300000026 000001  01410  01514              % 08156 RGTR--
+*R 1 300000026 140701023 300000026  01410  01514            % 08156 RGTR--
+*G RGB 140701023 300000026  01410  01514                    % 08156 RGTR--
+*A VE 140701023 300000026 000001  01410  01514              % 08156 RGTR--
+*I FD 140701023 300000026        0002065  01410  01514      % 08156 RGTR--
+140701023 Ettelbruck, Lycée Te         01410                % 08156 RGTR--
+140701024 Ettelbruck, Boffer    01411  01411                % 08156 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01414  01414                % 08156 RGTR--
+140701009 Ettelbruck, Cité Pat  01416  01416                % 08156 RGTR--
+140701008 Ettelbruck, Cité Lop  01416  01416                % 08156 RGTR--
+140801002 Niederfeulen, Faubou  01419  01419                % 08156 RGTR--
+140801003 Niederfeulen, Mairie  01419  01419                % 08156 RGTR--
+140801005 Niederfeulen, Atelie  01420  01420                % 08156 RGTR--
+120502001 Heiderscheid, Fuusse  01424  01424                % 08156 RGTR--
+120502003 Heiderscheid, Zone C  01425  01425                % 08156 RGTR--
+120502002 Heiderscheid          01426  01426                % 08156 RGTR--
+120503001 Heischtergronn, Beim  01431  01431                % 08156 RGTR--
+120402002 Büderscheid, Village  01434  01434                % 08156 RGTR--
+120903003 Wiltz, Batzendelt     01439  01439                % 08156 RGTR--
+120903005 Wiltz, Belle Vue      01440  01440                % 08156 RGTR--
+120903006 Wiltz, Brandbau       01441  01441                % 08156 RGTR--
+120903011 Wiltz, Clinique       01442  01442                % 08156 RGTR--
+120903008 Wiltz, Pompjeesbau    01445  01445                % 08156 RGTR--
+120903021 Wiltz, Lann           01446  01446                % 08156 RGTR--
+120903008 Wiltz, Pompjeesbau    01448  01448                % 08156 RGTR--
+120903025 Wiltz, Wanselerstro.  01448  01448                % 08156 RGTR--
+120903010 Wiltz, Follmillen     01449  01449                % 08156 RGTR--
+120903036 Wiltz, Salzbaach      01450  01450                % 08156 RGTR--
+120903001 Wiltz, Aalen Tipp     01451  01451                % 08156 RGTR--
+120903038 Wiltz, Schumann       01454  01454                % 08156 RGTR--
+121006001 Pommerlach, Theis     01456  01456                % 08156 RGTR--
+121006003 Pommerlach (Knauf)    01457  01457                % 08156 RGTR--
+300000029 Bras, Carrefour       01501  01501                % 08156 RGTR--
+300000047 Wardin, rue de Wiltz  01503  01503                % 08156 RGTR--
+300000111 Marvie, A la Boule (  01506  01506                % 08156 RGTR--
+300000042 Marvie, rue de Wiltz  01507  01507                % 08156 RGTR--
+300000027 Bastogne, Home Marke  01508  01508                % 08156 RGTR--
+300000022 Bastogne, Pl. McAuli  01510  01510                % 08156 RGTR--
+300000026 Bastogne, Renval      01514                       % 08156 RGTR--
+*Z 08157 RGTR--                                             % 08157 RGTR--
+*L 537      140701023 300000026  01840  01944               % 08157 RGTR--
+*A bv 140701023 300000026 000001  01840  01944              % 08157 RGTR--
+*R 1 300000026 140701023 300000026  01840  01944            % 08157 RGTR--
+*G RGB 140701023 300000026  01840  01944                    % 08157 RGTR--
+*A VE 140701023 300000026 000001  01840  01944              % 08157 RGTR--
+*I FD 140701023 300000026        0001363  01840  01944      % 08157 RGTR--
+140701023 Ettelbruck, Lycée Te         01840                % 08157 RGTR--
+140701024 Ettelbruck, Boffer    01841  01841                % 08157 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01844  01844                % 08157 RGTR--
+140701009 Ettelbruck, Cité Pat  01846  01846                % 08157 RGTR--
+140701008 Ettelbruck, Cité Lop  01846  01846                % 08157 RGTR--
+140801002 Niederfeulen, Faubou  01849  01849                % 08157 RGTR--
+140801003 Niederfeulen, Mairie  01849  01849                % 08157 RGTR--
+140801005 Niederfeulen, Atelie  01850  01850                % 08157 RGTR--
+120502001 Heiderscheid, Fuusse  01854  01854                % 08157 RGTR--
+120502003 Heiderscheid, Zone C  01855  01855                % 08157 RGTR--
+120502002 Heiderscheid          01856  01856                % 08157 RGTR--
+120503001 Heischtergronn, Beim  01901  01901                % 08157 RGTR--
+120402002 Büderscheid, Village  01904  01904                % 08157 RGTR--
+120903003 Wiltz, Batzendelt     01909  01909                % 08157 RGTR--
+120903005 Wiltz, Belle Vue      01910  01910                % 08157 RGTR--
+120903006 Wiltz, Brandbau       01911  01911                % 08157 RGTR--
+120903011 Wiltz, Clinique       01912  01912                % 08157 RGTR--
+120903008 Wiltz, Pompjeesbau    01915  01915                % 08157 RGTR--
+120903021 Wiltz, Lann           01916  01916                % 08157 RGTR--
+120903008 Wiltz, Pompjeesbau    01918  01918                % 08157 RGTR--
+120903025 Wiltz, Wanselerstro.  01918  01918                % 08157 RGTR--
+120903010 Wiltz, Follmillen     01919  01919                % 08157 RGTR--
+120903036 Wiltz, Salzbaach      01920  01920                % 08157 RGTR--
+120903001 Wiltz, Aalen Tipp     01921  01921                % 08157 RGTR--
+120903038 Wiltz, Schumann       01924  01924                % 08157 RGTR--
+121006001 Pommerlach, Theis     01926  01926                % 08157 RGTR--
+121006003 Pommerlach (Knauf)    01927  01927                % 08157 RGTR--
+300000029 Bras, Carrefour       01931  01931                % 08157 RGTR--
+300000047 Wardin, rue de Wiltz  01933  01933                % 08157 RGTR--
+300000111 Marvie, A la Boule (  01936  01936                % 08157 RGTR--
+300000042 Marvie, rue de Wiltz  01937  01937                % 08157 RGTR--
+300000027 Bastogne, Home Marke  01938  01938                % 08157 RGTR--
+300000022 Bastogne, Pl. McAuli  01940  01940                % 08157 RGTR--
+300000026 Bastogne, Renval      01944                       % 08157 RGTR--
+*Z 08158 RGTR--                                             % 08158 RGTR--
+*L 537      140701023 300000026  01910  02014               % 08158 RGTR--
+*A ef 140701023 300000026 000001  01910  02014              % 08158 RGTR--
+*R 1 300000026 140701023 300000026  01910  02014            % 08158 RGTR--
+*G RGB 140701023 300000026  01910  02014                    % 08158 RGTR--
+*A VE 140701023 300000026 000001  01910  02014              % 08158 RGTR--
+*I FD 140701023 300000026        0002660  01910  02014      % 08158 RGTR--
+140701023 Ettelbruck, Lycée Te         01910                % 08158 RGTR--
+140701024 Ettelbruck, Boffer    01911  01911                % 08158 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01914  01914                % 08158 RGTR--
+140701009 Ettelbruck, Cité Pat  01916  01916                % 08158 RGTR--
+140701008 Ettelbruck, Cité Lop  01916  01916                % 08158 RGTR--
+140801002 Niederfeulen, Faubou  01919  01919                % 08158 RGTR--
+140801003 Niederfeulen, Mairie  01919  01919                % 08158 RGTR--
+140801005 Niederfeulen, Atelie  01920  01920                % 08158 RGTR--
+120502001 Heiderscheid, Fuusse  01924  01924                % 08158 RGTR--
+120502003 Heiderscheid, Zone C  01925  01925                % 08158 RGTR--
+120502002 Heiderscheid          01926  01926                % 08158 RGTR--
+120503001 Heischtergronn, Beim  01931  01931                % 08158 RGTR--
+120402002 Büderscheid, Village  01934  01934                % 08158 RGTR--
+120903003 Wiltz, Batzendelt     01939  01939                % 08158 RGTR--
+120903005 Wiltz, Belle Vue      01940  01940                % 08158 RGTR--
+120903006 Wiltz, Brandbau       01941  01941                % 08158 RGTR--
+120903011 Wiltz, Clinique       01942  01942                % 08158 RGTR--
+120903008 Wiltz, Pompjeesbau    01945  01945                % 08158 RGTR--
+120903021 Wiltz, Lann           01946  01946                % 08158 RGTR--
+120903008 Wiltz, Pompjeesbau    01948  01948                % 08158 RGTR--
+120903025 Wiltz, Wanselerstro.  01948  01948                % 08158 RGTR--
+120903010 Wiltz, Follmillen     01949  01949                % 08158 RGTR--
+120903036 Wiltz, Salzbaach      01950  01950                % 08158 RGTR--
+120903001 Wiltz, Aalen Tipp     01951  01951                % 08158 RGTR--
+120903038 Wiltz, Schumann       01954  01954                % 08158 RGTR--
+121006001 Pommerlach, Theis     01956  01956                % 08158 RGTR--
+121006003 Pommerlach (Knauf)    01957  01957                % 08158 RGTR--
+300000029 Bras, Carrefour       02001  02001                % 08158 RGTR--
+300000047 Wardin, rue de Wiltz  02003  02003                % 08158 RGTR--
+300000111 Marvie, A la Boule (  02006  02006                % 08158 RGTR--
+300000042 Marvie, rue de Wiltz  02007  02007                % 08158 RGTR--
+300000027 Bastogne, Home Marke  02008  02008                % 08158 RGTR--
+300000022 Bastogne, Pl. McAuli  02010  02010                % 08158 RGTR--
+300000026 Bastogne, Renval      02014                       % 08158 RGTR--
+*Z 08159 RGTR--                                             % 08159 RGTR--
+*L 537      140701023 300000026  02010  02114               % 08159 RGTR--
+*A bv 140701023 300000026 000001  02010  02114              % 08159 RGTR--
+*R 1 300000026 140701023 300000026  02010  02114            % 08159 RGTR--
+*G RGB 140701023 300000026  02010  02114                    % 08159 RGTR--
+*A VE 140701023 300000026 000001  02010  02114              % 08159 RGTR--
+*I FD 140701023 300000026        0002877  02010  02114      % 08159 RGTR--
+140701023 Ettelbruck, Lycée Te         02010                % 08159 RGTR--
+140701024 Ettelbruck, Boffer    02011  02011                % 08159 RGTR--
+140701025 Ettelbruck, Pl.du Ma  02014  02014                % 08159 RGTR--
+140701009 Ettelbruck, Cité Pat  02016  02016                % 08159 RGTR--
+140701008 Ettelbruck, Cité Lop  02016  02016                % 08159 RGTR--
+140801002 Niederfeulen, Faubou  02019  02019                % 08159 RGTR--
+140801003 Niederfeulen, Mairie  02019  02019                % 08159 RGTR--
+140801005 Niederfeulen, Atelie  02020  02020                % 08159 RGTR--
+120502001 Heiderscheid, Fuusse  02024  02024                % 08159 RGTR--
+120502003 Heiderscheid, Zone C  02025  02025                % 08159 RGTR--
+120502002 Heiderscheid          02026  02026                % 08159 RGTR--
+120503001 Heischtergronn, Beim  02031  02031                % 08159 RGTR--
+120402002 Büderscheid, Village  02034  02034                % 08159 RGTR--
+120903003 Wiltz, Batzendelt     02039  02039                % 08159 RGTR--
+120903005 Wiltz, Belle Vue      02040  02040                % 08159 RGTR--
+120903006 Wiltz, Brandbau       02041  02041                % 08159 RGTR--
+120903011 Wiltz, Clinique       02042  02042                % 08159 RGTR--
+120903008 Wiltz, Pompjeesbau    02045  02045                % 08159 RGTR--
+120903021 Wiltz, Lann           02046  02046                % 08159 RGTR--
+120903008 Wiltz, Pompjeesbau    02048  02048                % 08159 RGTR--
+120903025 Wiltz, Wanselerstro.  02048  02048                % 08159 RGTR--
+120903010 Wiltz, Follmillen     02049  02049                % 08159 RGTR--
+120903036 Wiltz, Salzbaach      02050  02050                % 08159 RGTR--
+120903001 Wiltz, Aalen Tipp     02051  02051                % 08159 RGTR--
+120903038 Wiltz, Schumann       02054  02054                % 08159 RGTR--
+121006001 Pommerlach, Theis     02056  02056                % 08159 RGTR--
+121006003 Pommerlach (Knauf)    02057  02057                % 08159 RGTR--
+300000029 Bras, Carrefour       02101  02101                % 08159 RGTR--
+300000047 Wardin, rue de Wiltz  02103  02103                % 08159 RGTR--
+300000111 Marvie, A la Boule (  02106  02106                % 08159 RGTR--
+300000042 Marvie, rue de Wiltz  02107  02107                % 08159 RGTR--
+300000027 Bastogne, Home Marke  02108  02108                % 08159 RGTR--
+300000022 Bastogne, Pl. McAuli  02110  02110                % 08159 RGTR--
+300000026 Bastogne, Renval      02114                       % 08159 RGTR--
+*Z 08160 RGTR--                                             % 08160 RGTR--
+*L 537      140701023 300000026  02110  02214               % 08160 RGTR--
+*A ef 140701023 300000026 000001  02110  02214              % 08160 RGTR--
+*R 1 300000026 140701023 300000026  02110  02214            % 08160 RGTR--
+*G RGB 140701023 300000026  02110  02214                    % 08160 RGTR--
+*A VE 140701023 300000026 000001  02110  02214              % 08160 RGTR--
+*I FD 140701023 300000026        0002860  02110  02214      % 08160 RGTR--
+140701023 Ettelbruck, Lycée Te         02110                % 08160 RGTR--
+140701024 Ettelbruck, Boffer    02111  02111                % 08160 RGTR--
+140701025 Ettelbruck, Pl.du Ma  02114  02114                % 08160 RGTR--
+140701009 Ettelbruck, Cité Pat  02116  02116                % 08160 RGTR--
+140701008 Ettelbruck, Cité Lop  02116  02116                % 08160 RGTR--
+140801002 Niederfeulen, Faubou  02119  02119                % 08160 RGTR--
+140801003 Niederfeulen, Mairie  02119  02119                % 08160 RGTR--
+140801005 Niederfeulen, Atelie  02120  02120                % 08160 RGTR--
+120502001 Heiderscheid, Fuusse  02124  02124                % 08160 RGTR--
+120502003 Heiderscheid, Zone C  02125  02125                % 08160 RGTR--
+120502002 Heiderscheid          02126  02126                % 08160 RGTR--
+120503001 Heischtergronn, Beim  02131  02131                % 08160 RGTR--
+120402002 Büderscheid, Village  02134  02134                % 08160 RGTR--
+120903003 Wiltz, Batzendelt     02139  02139                % 08160 RGTR--
+120903005 Wiltz, Belle Vue      02140  02140                % 08160 RGTR--
+120903006 Wiltz, Brandbau       02141  02141                % 08160 RGTR--
+120903011 Wiltz, Clinique       02142  02142                % 08160 RGTR--
+120903008 Wiltz, Pompjeesbau    02145  02145                % 08160 RGTR--
+120903021 Wiltz, Lann           02146  02146                % 08160 RGTR--
+120903008 Wiltz, Pompjeesbau    02148  02148                % 08160 RGTR--
+120903025 Wiltz, Wanselerstro.  02148  02148                % 08160 RGTR--
+120903010 Wiltz, Follmillen     02149  02149                % 08160 RGTR--
+120903036 Wiltz, Salzbaach      02150  02150                % 08160 RGTR--
+120903001 Wiltz, Aalen Tipp     02151  02151                % 08160 RGTR--
+120903038 Wiltz, Schumann       02154  02154                % 08160 RGTR--
+121006001 Pommerlach, Theis     02156  02156                % 08160 RGTR--
+121006003 Pommerlach (Knauf)    02157  02157                % 08160 RGTR--
+300000029 Bras, Carrefour       02201  02201                % 08160 RGTR--
+300000047 Wardin, rue de Wiltz  02203  02203                % 08160 RGTR--
+300000111 Marvie, A la Boule (  02206  02206                % 08160 RGTR--
+300000042 Marvie, rue de Wiltz  02207  02207                % 08160 RGTR--
+300000027 Bastogne, Home Marke  02208  02208                % 08160 RGTR--
+300000022 Bastogne, Pl. McAuli  02210  02210                % 08160 RGTR--
+300000026 Bastogne, Renval      02214                       % 08160 RGTR--
+*Z 08161 RGTR--                                             % 08161 RGTR--
+*L 537      140701023 300000026  01810  01914               % 08161 RGTR--
+*A ef 140701023 300000026 000003  01810  01914              % 08161 RGTR--
+*R 1 300000026 140701023 300000026  01810  01914            % 08161 RGTR--
+*G RGB 140701023 300000026  01810  01914                    % 08161 RGTR--
+*A VE 140701023 300000026 000003  01810  01914              % 08161 RGTR--
+*I FD 140701023 300000026        0002085  01810  01914      % 08161 RGTR--
+140701023 Ettelbruck, Lycée Te         01810                % 08161 RGTR--
+140701024 Ettelbruck, Boffer    01811  01811                % 08161 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01814  01814                % 08161 RGTR--
+140701009 Ettelbruck, Cité Pat  01816  01816                % 08161 RGTR--
+140701008 Ettelbruck, Cité Lop  01816  01816                % 08161 RGTR--
+140801002 Niederfeulen, Faubou  01819  01819                % 08161 RGTR--
+140801003 Niederfeulen, Mairie  01819  01819                % 08161 RGTR--
+140801005 Niederfeulen, Atelie  01820  01820                % 08161 RGTR--
+120502001 Heiderscheid, Fuusse  01824  01824                % 08161 RGTR--
+120502003 Heiderscheid, Zone C  01825  01825                % 08161 RGTR--
+120502002 Heiderscheid          01826  01826                % 08161 RGTR--
+120503001 Heischtergronn, Beim  01831  01831                % 08161 RGTR--
+120402002 Büderscheid, Village  01834  01834                % 08161 RGTR--
+120903003 Wiltz, Batzendelt     01839  01839                % 08161 RGTR--
+120903005 Wiltz, Belle Vue      01840  01840                % 08161 RGTR--
+120903006 Wiltz, Brandbau       01841  01841                % 08161 RGTR--
+120903011 Wiltz, Clinique       01842  01842                % 08161 RGTR--
+120903008 Wiltz, Pompjeesbau    01845  01845                % 08161 RGTR--
+120903021 Wiltz, Lann           01846  01846                % 08161 RGTR--
+120903008 Wiltz, Pompjeesbau    01848  01848                % 08161 RGTR--
+120903025 Wiltz, Wanselerstro.  01848  01848                % 08161 RGTR--
+120903010 Wiltz, Follmillen     01849  01849                % 08161 RGTR--
+120903036 Wiltz, Salzbaach      01850  01850                % 08161 RGTR--
+120903001 Wiltz, Aalen Tipp     01851  01851                % 08161 RGTR--
+120903038 Wiltz, Schumann       01854  01854                % 08161 RGTR--
+121006001 Pommerlach, Theis     01856  01856                % 08161 RGTR--
+121006003 Pommerlach (Knauf)    01857  01857                % 08161 RGTR--
+300000029 Bras, Carrefour       01901  01901                % 08161 RGTR--
+300000047 Wardin, rue de Wiltz  01903  01903                % 08161 RGTR--
+300000111 Marvie, A la Boule (  01906  01906                % 08161 RGTR--
+300000042 Marvie, rue de Wiltz  01907  01907                % 08161 RGTR--
+300000027 Bastogne, Home Marke  01908  01908                % 08161 RGTR--
+300000022 Bastogne, Pl. McAuli  01910  01910                % 08161 RGTR--
+300000026 Bastogne, Renval      01914                       % 08161 RGTR--
+*Z 08162 RGTR--                                             % 08162 RGTR--
+*L 537      140701023 300000026  00710  00816               % 08162 RGTR--
+*A ef 140701023 300000026 000001  00710  00816              % 08162 RGTR--
+*R 1 300000026 140701023 300000026  00710  00816            % 08162 RGTR--
+*G RGB 140701023 300000026  00710  00816                    % 08162 RGTR--
+*A VE 140701023 300000026 000001  00710  00816              % 08162 RGTR--
+*I FD 140701023 300000026        0002445  00710  00816      % 08162 RGTR--
+140701023 Ettelbruck, Lycée Te         00710                % 08162 RGTR--
+140701024 Ettelbruck, Boffer    00711  00711                % 08162 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00714  00714                % 08162 RGTR--
+140701009 Ettelbruck, Cité Pat  00716  00716                % 08162 RGTR--
+140701008 Ettelbruck, Cité Lop  00717  00717                % 08162 RGTR--
+140801002 Niederfeulen, Faubou  00719  00719                % 08162 RGTR--
+140801003 Niederfeulen, Mairie  00720  00720                % 08162 RGTR--
+140801005 Niederfeulen, Atelie  00721  00721                % 08162 RGTR--
+120502001 Heiderscheid, Fuusse  00725  00725                % 08162 RGTR--
+120502003 Heiderscheid, Zone C  00726  00726                % 08162 RGTR--
+120502002 Heiderscheid          00727  00727                % 08162 RGTR--
+120503001 Heischtergronn, Beim  00732  00732                % 08162 RGTR--
+120402002 Büderscheid, Village  00736  00736                % 08162 RGTR--
+120903003 Wiltz, Batzendelt     00740  00740                % 08162 RGTR--
+120903005 Wiltz, Belle Vue      00741  00741                % 08162 RGTR--
+120903006 Wiltz, Brandbau       00743  00743                % 08162 RGTR--
+120903011 Wiltz, Clinique       00744  00744                % 08162 RGTR--
+120903008 Wiltz, Pompjeesbau    00747  00747                % 08162 RGTR--
+120903021 Wiltz, Lann           00748  00748                % 08162 RGTR--
+120903008 Wiltz, Pompjeesbau    00750  00750                % 08162 RGTR--
+120903025 Wiltz, Wanselerstro.  00751  00751                % 08162 RGTR--
+120903010 Wiltz, Follmillen     00751  00751                % 08162 RGTR--
+120903036 Wiltz, Salzbaach      00752  00752                % 08162 RGTR--
+120903001 Wiltz, Aalen Tipp     00753  00753                % 08162 RGTR--
+120903038 Wiltz, Schumann       00756  00756                % 08162 RGTR--
+121006001 Pommerlach, Theis     00759  00759                % 08162 RGTR--
+121006003 Pommerlach (Knauf)    00759  00759                % 08162 RGTR--
+300000029 Bras, Carrefour       00804  00804                % 08162 RGTR--
+300000047 Wardin, rue de Wiltz  00806  00806                % 08162 RGTR--
+300000111 Marvie, A la Boule (  00809  00809                % 08162 RGTR--
+300000042 Marvie, rue de Wiltz  00809  00809                % 08162 RGTR--
+300000027 Bastogne, Home Marke  00811  00811                % 08162 RGTR--
+300000022 Bastogne, Pl. McAuli  00813  00813                % 08162 RGTR--
+300000026 Bastogne, Renval      00816                       % 08162 RGTR--
+*Z 08163 RGTR--                                             % 08163 RGTR--
+*L 537      140701023 300000026  00810  00916               % 08163 RGTR--
+*A bv 140701023 300000026 000001  00810  00916              % 08163 RGTR--
+*R 1 300000026 140701023 300000026  00810  00916            % 08163 RGTR--
+*G RGB 140701023 300000026  00810  00916                    % 08163 RGTR--
+*A VE 140701023 300000026 000001  00810  00916              % 08163 RGTR--
+*I FD 140701023 300000026        0002077  00810  00916      % 08163 RGTR--
+140701023 Ettelbruck, Lycée Te         00810                % 08163 RGTR--
+140701024 Ettelbruck, Boffer    00811  00811                % 08163 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00814  00814                % 08163 RGTR--
+140701009 Ettelbruck, Cité Pat  00816  00816                % 08163 RGTR--
+140701008 Ettelbruck, Cité Lop  00817  00817                % 08163 RGTR--
+140801002 Niederfeulen, Faubou  00819  00819                % 08163 RGTR--
+140801003 Niederfeulen, Mairie  00820  00820                % 08163 RGTR--
+140801005 Niederfeulen, Atelie  00821  00821                % 08163 RGTR--
+120502001 Heiderscheid, Fuusse  00825  00825                % 08163 RGTR--
+120502003 Heiderscheid, Zone C  00826  00826                % 08163 RGTR--
+120502002 Heiderscheid          00827  00827                % 08163 RGTR--
+120503001 Heischtergronn, Beim  00832  00832                % 08163 RGTR--
+120402002 Büderscheid, Village  00836  00836                % 08163 RGTR--
+120903003 Wiltz, Batzendelt     00840  00840                % 08163 RGTR--
+120903005 Wiltz, Belle Vue      00841  00841                % 08163 RGTR--
+120903006 Wiltz, Brandbau       00843  00843                % 08163 RGTR--
+120903011 Wiltz, Clinique       00844  00844                % 08163 RGTR--
+120903008 Wiltz, Pompjeesbau    00847  00847                % 08163 RGTR--
+120903021 Wiltz, Lann           00848  00848                % 08163 RGTR--
+120903008 Wiltz, Pompjeesbau    00850  00850                % 08163 RGTR--
+120903025 Wiltz, Wanselerstro.  00851  00851                % 08163 RGTR--
+120903010 Wiltz, Follmillen     00851  00851                % 08163 RGTR--
+120903036 Wiltz, Salzbaach      00852  00852                % 08163 RGTR--
+120903001 Wiltz, Aalen Tipp     00853  00853                % 08163 RGTR--
+120903038 Wiltz, Schumann       00856  00856                % 08163 RGTR--
+121006001 Pommerlach, Theis     00859  00859                % 08163 RGTR--
+121006003 Pommerlach (Knauf)    00859  00859                % 08163 RGTR--
+300000029 Bras, Carrefour       00904  00904                % 08163 RGTR--
+300000047 Wardin, rue de Wiltz  00906  00906                % 08163 RGTR--
+300000111 Marvie, A la Boule (  00909  00909                % 08163 RGTR--
+300000042 Marvie, rue de Wiltz  00909  00909                % 08163 RGTR--
+300000027 Bastogne, Home Marke  00911  00911                % 08163 RGTR--
+300000022 Bastogne, Pl. McAuli  00913  00913                % 08163 RGTR--
+300000026 Bastogne, Renval      00916                       % 08163 RGTR--
+*Z 08164 RGTR--                                             % 08164 RGTR--
+*L 537      140701023 300000026  00910  01016               % 08164 RGTR--
+*A ef 140701023 300000026 000001  00910  01016              % 08164 RGTR--
+*R 1 300000026 140701023 300000026  00910  01016            % 08164 RGTR--
+*G RGB 140701023 300000026  00910  01016                    % 08164 RGTR--
+*A VE 140701023 300000026 000001  00910  01016              % 08164 RGTR--
+*I FD 140701023 300000026        0002079  00910  01016      % 08164 RGTR--
+140701023 Ettelbruck, Lycée Te         00910                % 08164 RGTR--
+140701024 Ettelbruck, Boffer    00911  00911                % 08164 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00914  00914                % 08164 RGTR--
+140701009 Ettelbruck, Cité Pat  00916  00916                % 08164 RGTR--
+140701008 Ettelbruck, Cité Lop  00917  00917                % 08164 RGTR--
+140801002 Niederfeulen, Faubou  00919  00919                % 08164 RGTR--
+140801003 Niederfeulen, Mairie  00920  00920                % 08164 RGTR--
+140801005 Niederfeulen, Atelie  00921  00921                % 08164 RGTR--
+120502001 Heiderscheid, Fuusse  00925  00925                % 08164 RGTR--
+120502003 Heiderscheid, Zone C  00926  00926                % 08164 RGTR--
+120502002 Heiderscheid          00927  00927                % 08164 RGTR--
+120503001 Heischtergronn, Beim  00932  00932                % 08164 RGTR--
+120402002 Büderscheid, Village  00936  00936                % 08164 RGTR--
+120903003 Wiltz, Batzendelt     00940  00940                % 08164 RGTR--
+120903005 Wiltz, Belle Vue      00941  00941                % 08164 RGTR--
+120903006 Wiltz, Brandbau       00943  00943                % 08164 RGTR--
+120903011 Wiltz, Clinique       00944  00944                % 08164 RGTR--
+120903008 Wiltz, Pompjeesbau    00947  00947                % 08164 RGTR--
+120903021 Wiltz, Lann           00948  00948                % 08164 RGTR--
+120903008 Wiltz, Pompjeesbau    00950  00950                % 08164 RGTR--
+120903025 Wiltz, Wanselerstro.  00951  00951                % 08164 RGTR--
+120903010 Wiltz, Follmillen     00951  00951                % 08164 RGTR--
+120903036 Wiltz, Salzbaach      00952  00952                % 08164 RGTR--
+120903001 Wiltz, Aalen Tipp     00953  00953                % 08164 RGTR--
+120903038 Wiltz, Schumann       00956  00956                % 08164 RGTR--
+121006001 Pommerlach, Theis     00959  00959                % 08164 RGTR--
+121006003 Pommerlach (Knauf)    00959  00959                % 08164 RGTR--
+300000029 Bras, Carrefour       01004  01004                % 08164 RGTR--
+300000047 Wardin, rue de Wiltz  01006  01006                % 08164 RGTR--
+300000111 Marvie, A la Boule (  01009  01009                % 08164 RGTR--
+300000042 Marvie, rue de Wiltz  01009  01009                % 08164 RGTR--
+300000027 Bastogne, Home Marke  01011  01011                % 08164 RGTR--
+300000022 Bastogne, Pl. McAuli  01013  01013                % 08164 RGTR--
+300000026 Bastogne, Renval      01016                       % 08164 RGTR--
+*Z 08165 RGTR--                                             % 08165 RGTR--
+*L 537      140701023 300000026  01610  01716               % 08165 RGTR--
+*A ef 140701023 300000026 000001  01610  01716              % 08165 RGTR--
+*R 1 300000026 140701023 300000026  01610  01716            % 08165 RGTR--
+*G RGB 140701023 300000026  01610  01716                    % 08165 RGTR--
+*A VE 140701023 300000026 000001  01610  01716              % 08165 RGTR--
+*I FD 140701023 300000026        0002081  01610  01716      % 08165 RGTR--
+140701023 Ettelbruck, Lycée Te         01610                % 08165 RGTR--
+140701024 Ettelbruck, Boffer    01611  01611                % 08165 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01614  01614                % 08165 RGTR--
+140701009 Ettelbruck, Cité Pat  01616  01616                % 08165 RGTR--
+140701008 Ettelbruck, Cité Lop  01617  01617                % 08165 RGTR--
+140801002 Niederfeulen, Faubou  01619  01619                % 08165 RGTR--
+140801003 Niederfeulen, Mairie  01620  01620                % 08165 RGTR--
+140801005 Niederfeulen, Atelie  01621  01621                % 08165 RGTR--
+120502001 Heiderscheid, Fuusse  01625  01625                % 08165 RGTR--
+120502003 Heiderscheid, Zone C  01626  01626                % 08165 RGTR--
+120502002 Heiderscheid          01627  01627                % 08165 RGTR--
+120503001 Heischtergronn, Beim  01632  01632                % 08165 RGTR--
+120402002 Büderscheid, Village  01636  01636                % 08165 RGTR--
+120903003 Wiltz, Batzendelt     01640  01640                % 08165 RGTR--
+120903005 Wiltz, Belle Vue      01641  01641                % 08165 RGTR--
+120903006 Wiltz, Brandbau       01643  01643                % 08165 RGTR--
+120903011 Wiltz, Clinique       01644  01644                % 08165 RGTR--
+120903008 Wiltz, Pompjeesbau    01647  01647                % 08165 RGTR--
+120903021 Wiltz, Lann           01648  01648                % 08165 RGTR--
+120903008 Wiltz, Pompjeesbau    01650  01650                % 08165 RGTR--
+120903025 Wiltz, Wanselerstro.  01651  01651                % 08165 RGTR--
+120903010 Wiltz, Follmillen     01651  01651                % 08165 RGTR--
+120903036 Wiltz, Salzbaach      01652  01652                % 08165 RGTR--
+120903001 Wiltz, Aalen Tipp     01653  01653                % 08165 RGTR--
+120903038 Wiltz, Schumann       01656  01656                % 08165 RGTR--
+121006001 Pommerlach, Theis     01659  01659                % 08165 RGTR--
+121006003 Pommerlach (Knauf)    01659  01659                % 08165 RGTR--
+300000029 Bras, Carrefour       01704  01704                % 08165 RGTR--
+300000047 Wardin, rue de Wiltz  01706  01706                % 08165 RGTR--
+300000111 Marvie, A la Boule (  01709  01709                % 08165 RGTR--
+300000042 Marvie, rue de Wiltz  01709  01709                % 08165 RGTR--
+300000027 Bastogne, Home Marke  01711  01711                % 08165 RGTR--
+300000022 Bastogne, Pl. McAuli  01713  01713                % 08165 RGTR--
+300000026 Bastogne, Renval      01716                       % 08165 RGTR--
+*Z 08166 RGTR--                                             % 08166 RGTR--
+*L 537      140701023 300000026  01640  01746               % 08166 RGTR--
+*A bv 140701023 300000026 000001  01640  01746              % 08166 RGTR--
+*R 1 300000026 140701023 300000026  01640  01746            % 08166 RGTR--
+*G RGB 140701023 300000026  01640  01746                    % 08166 RGTR--
+*A VE 140701023 300000026 000001  01640  01746              % 08166 RGTR--
+*I FD 140701023 300000026        0001984  01640  01746      % 08166 RGTR--
+140701023 Ettelbruck, Lycée Te         01640                % 08166 RGTR--
+140701024 Ettelbruck, Boffer    01641  01641                % 08166 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01644  01644                % 08166 RGTR--
+140701009 Ettelbruck, Cité Pat  01646  01646                % 08166 RGTR--
+140701008 Ettelbruck, Cité Lop  01647  01647                % 08166 RGTR--
+140801002 Niederfeulen, Faubou  01649  01649                % 08166 RGTR--
+140801003 Niederfeulen, Mairie  01650  01650                % 08166 RGTR--
+140801005 Niederfeulen, Atelie  01651  01651                % 08166 RGTR--
+120502001 Heiderscheid, Fuusse  01655  01655                % 08166 RGTR--
+120502003 Heiderscheid, Zone C  01656  01656                % 08166 RGTR--
+120502002 Heiderscheid          01657  01657                % 08166 RGTR--
+120503001 Heischtergronn, Beim  01702  01702                % 08166 RGTR--
+120402002 Büderscheid, Village  01706  01706                % 08166 RGTR--
+120903003 Wiltz, Batzendelt     01710  01710                % 08166 RGTR--
+120903005 Wiltz, Belle Vue      01711  01711                % 08166 RGTR--
+120903006 Wiltz, Brandbau       01713  01713                % 08166 RGTR--
+120903011 Wiltz, Clinique       01714  01714                % 08166 RGTR--
+120903008 Wiltz, Pompjeesbau    01717  01717                % 08166 RGTR--
+120903021 Wiltz, Lann           01718  01718                % 08166 RGTR--
+120903008 Wiltz, Pompjeesbau    01720  01720                % 08166 RGTR--
+120903025 Wiltz, Wanselerstro.  01721  01721                % 08166 RGTR--
+120903010 Wiltz, Follmillen     01721  01721                % 08166 RGTR--
+120903036 Wiltz, Salzbaach      01722  01722                % 08166 RGTR--
+120903001 Wiltz, Aalen Tipp     01723  01723                % 08166 RGTR--
+120903038 Wiltz, Schumann       01726  01726                % 08166 RGTR--
+121006001 Pommerlach, Theis     01729  01729                % 08166 RGTR--
+121006003 Pommerlach (Knauf)    01729  01729                % 08166 RGTR--
+300000029 Bras, Carrefour       01734  01734                % 08166 RGTR--
+300000047 Wardin, rue de Wiltz  01736  01736                % 08166 RGTR--
+300000111 Marvie, A la Boule (  01739  01739                % 08166 RGTR--
+300000042 Marvie, rue de Wiltz  01739  01739                % 08166 RGTR--
+300000027 Bastogne, Home Marke  01741  01741                % 08166 RGTR--
+300000022 Bastogne, Pl. McAuli  01743  01743                % 08166 RGTR--
+300000026 Bastogne, Renval      01746                       % 08166 RGTR--
+*Z 08167 RGTR--                                             % 08167 RGTR--
+*L 537      140701023 300000026  01710  01816               % 08167 RGTR--
+*A bv 140701023 300000026 000001  01710  01816              % 08167 RGTR--
+*R 1 300000026 140701023 300000026  01710  01816            % 08167 RGTR--
+*G RGB 140701023 300000026  01710  01816                    % 08167 RGTR--
+*A VE 140701023 300000026 000001  01710  01816              % 08167 RGTR--
+*I FD 140701023 300000026        0002073  01710  01816      % 08167 RGTR--
+140701023 Ettelbruck, Lycée Te         01710                % 08167 RGTR--
+140701024 Ettelbruck, Boffer    01711  01711                % 08167 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01714  01714                % 08167 RGTR--
+140701009 Ettelbruck, Cité Pat  01716  01716                % 08167 RGTR--
+140701008 Ettelbruck, Cité Lop  01717  01717                % 08167 RGTR--
+140801002 Niederfeulen, Faubou  01719  01719                % 08167 RGTR--
+140801003 Niederfeulen, Mairie  01720  01720                % 08167 RGTR--
+140801005 Niederfeulen, Atelie  01721  01721                % 08167 RGTR--
+120502001 Heiderscheid, Fuusse  01725  01725                % 08167 RGTR--
+120502003 Heiderscheid, Zone C  01726  01726                % 08167 RGTR--
+120502002 Heiderscheid          01727  01727                % 08167 RGTR--
+120503001 Heischtergronn, Beim  01732  01732                % 08167 RGTR--
+120402002 Büderscheid, Village  01736  01736                % 08167 RGTR--
+120903003 Wiltz, Batzendelt     01740  01740                % 08167 RGTR--
+120903005 Wiltz, Belle Vue      01741  01741                % 08167 RGTR--
+120903006 Wiltz, Brandbau       01743  01743                % 08167 RGTR--
+120903011 Wiltz, Clinique       01744  01744                % 08167 RGTR--
+120903008 Wiltz, Pompjeesbau    01747  01747                % 08167 RGTR--
+120903021 Wiltz, Lann           01748  01748                % 08167 RGTR--
+120903008 Wiltz, Pompjeesbau    01750  01750                % 08167 RGTR--
+120903025 Wiltz, Wanselerstro.  01751  01751                % 08167 RGTR--
+120903010 Wiltz, Follmillen     01751  01751                % 08167 RGTR--
+120903036 Wiltz, Salzbaach      01752  01752                % 08167 RGTR--
+120903001 Wiltz, Aalen Tipp     01753  01753                % 08167 RGTR--
+120903038 Wiltz, Schumann       01756  01756                % 08167 RGTR--
+121006001 Pommerlach, Theis     01759  01759                % 08167 RGTR--
+121006003 Pommerlach (Knauf)    01759  01759                % 08167 RGTR--
+300000029 Bras, Carrefour       01804  01804                % 08167 RGTR--
+300000047 Wardin, rue de Wiltz  01806  01806                % 08167 RGTR--
+300000111 Marvie, A la Boule (  01809  01809                % 08167 RGTR--
+300000042 Marvie, rue de Wiltz  01809  01809                % 08167 RGTR--
+300000027 Bastogne, Home Marke  01811  01811                % 08167 RGTR--
+300000022 Bastogne, Pl. McAuli  01813  01813                % 08167 RGTR--
+300000026 Bastogne, Renval      01816                       % 08167 RGTR--
+*Z 08168 RGTR--                                             % 08168 RGTR--
+*L 537      140701023 300000026  01740  01846               % 08168 RGTR--
+*A ef 140701023 300000026 000001  01740  01846              % 08168 RGTR--
+*R 1 300000026 140701023 300000026  01740  01846            % 08168 RGTR--
+*G RGB 140701023 300000026  01740  01846                    % 08168 RGTR--
+*A VE 140701023 300000026 000001  01740  01846              % 08168 RGTR--
+*I FD 140701023 300000026        0001985  01740  01846      % 08168 RGTR--
+140701023 Ettelbruck, Lycée Te         01740                % 08168 RGTR--
+140701024 Ettelbruck, Boffer    01741  01741                % 08168 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01744  01744                % 08168 RGTR--
+140701009 Ettelbruck, Cité Pat  01746  01746                % 08168 RGTR--
+140701008 Ettelbruck, Cité Lop  01747  01747                % 08168 RGTR--
+140801002 Niederfeulen, Faubou  01749  01749                % 08168 RGTR--
+140801003 Niederfeulen, Mairie  01750  01750                % 08168 RGTR--
+140801005 Niederfeulen, Atelie  01751  01751                % 08168 RGTR--
+120502001 Heiderscheid, Fuusse  01755  01755                % 08168 RGTR--
+120502003 Heiderscheid, Zone C  01756  01756                % 08168 RGTR--
+120502002 Heiderscheid          01757  01757                % 08168 RGTR--
+120503001 Heischtergronn, Beim  01802  01802                % 08168 RGTR--
+120402002 Büderscheid, Village  01806  01806                % 08168 RGTR--
+120903003 Wiltz, Batzendelt     01810  01810                % 08168 RGTR--
+120903005 Wiltz, Belle Vue      01811  01811                % 08168 RGTR--
+120903006 Wiltz, Brandbau       01813  01813                % 08168 RGTR--
+120903011 Wiltz, Clinique       01814  01814                % 08168 RGTR--
+120903008 Wiltz, Pompjeesbau    01817  01817                % 08168 RGTR--
+120903021 Wiltz, Lann           01818  01818                % 08168 RGTR--
+120903008 Wiltz, Pompjeesbau    01820  01820                % 08168 RGTR--
+120903025 Wiltz, Wanselerstro.  01821  01821                % 08168 RGTR--
+120903010 Wiltz, Follmillen     01821  01821                % 08168 RGTR--
+120903036 Wiltz, Salzbaach      01822  01822                % 08168 RGTR--
+120903001 Wiltz, Aalen Tipp     01823  01823                % 08168 RGTR--
+120903038 Wiltz, Schumann       01826  01826                % 08168 RGTR--
+121006001 Pommerlach, Theis     01829  01829                % 08168 RGTR--
+121006003 Pommerlach (Knauf)    01829  01829                % 08168 RGTR--
+300000029 Bras, Carrefour       01834  01834                % 08168 RGTR--
+300000047 Wardin, rue de Wiltz  01836  01836                % 08168 RGTR--
+300000111 Marvie, A la Boule (  01839  01839                % 08168 RGTR--
+300000042 Marvie, rue de Wiltz  01839  01839                % 08168 RGTR--
+300000027 Bastogne, Home Marke  01841  01841                % 08168 RGTR--
+300000022 Bastogne, Pl. McAuli  01843  01843                % 08168 RGTR--
+300000026 Bastogne, Renval      01846                       % 08168 RGTR--
+*Z 08169 RGTR--                                             % 08169 RGTR--
+*L 537      140701023 300000026  01810  01916               % 08169 RGTR--
+*A ef 140701023 300000026 000001  01810  01916              % 08169 RGTR--
+*R 1 300000026 140701023 300000026  01810  01916            % 08169 RGTR--
+*G RGB 140701023 300000026  01810  01916                    % 08169 RGTR--
+*A VE 140701023 300000026 000001  01810  01916              % 08169 RGTR--
+*I FD 140701023 300000026        0002085  01810  01916      % 08169 RGTR--
+140701023 Ettelbruck, Lycée Te         01810                % 08169 RGTR--
+140701024 Ettelbruck, Boffer    01811  01811                % 08169 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01814  01814                % 08169 RGTR--
+140701009 Ettelbruck, Cité Pat  01816  01816                % 08169 RGTR--
+140701008 Ettelbruck, Cité Lop  01817  01817                % 08169 RGTR--
+140801002 Niederfeulen, Faubou  01819  01819                % 08169 RGTR--
+140801003 Niederfeulen, Mairie  01820  01820                % 08169 RGTR--
+140801005 Niederfeulen, Atelie  01821  01821                % 08169 RGTR--
+120502001 Heiderscheid, Fuusse  01825  01825                % 08169 RGTR--
+120502003 Heiderscheid, Zone C  01826  01826                % 08169 RGTR--
+120502002 Heiderscheid          01827  01827                % 08169 RGTR--
+120503001 Heischtergronn, Beim  01832  01832                % 08169 RGTR--
+120402002 Büderscheid, Village  01836  01836                % 08169 RGTR--
+120903003 Wiltz, Batzendelt     01840  01840                % 08169 RGTR--
+120903005 Wiltz, Belle Vue      01841  01841                % 08169 RGTR--
+120903006 Wiltz, Brandbau       01843  01843                % 08169 RGTR--
+120903011 Wiltz, Clinique       01844  01844                % 08169 RGTR--
+120903008 Wiltz, Pompjeesbau    01847  01847                % 08169 RGTR--
+120903021 Wiltz, Lann           01848  01848                % 08169 RGTR--
+120903008 Wiltz, Pompjeesbau    01850  01850                % 08169 RGTR--
+120903025 Wiltz, Wanselerstro.  01851  01851                % 08169 RGTR--
+120903010 Wiltz, Follmillen     01851  01851                % 08169 RGTR--
+120903036 Wiltz, Salzbaach      01852  01852                % 08169 RGTR--
+120903001 Wiltz, Aalen Tipp     01853  01853                % 08169 RGTR--
+120903038 Wiltz, Schumann       01856  01856                % 08169 RGTR--
+121006001 Pommerlach, Theis     01859  01859                % 08169 RGTR--
+121006003 Pommerlach (Knauf)    01859  01859                % 08169 RGTR--
+300000029 Bras, Carrefour       01904  01904                % 08169 RGTR--
+300000047 Wardin, rue de Wiltz  01906  01906                % 08169 RGTR--
+300000111 Marvie, A la Boule (  01909  01909                % 08169 RGTR--
+300000042 Marvie, rue de Wiltz  01909  01909                % 08169 RGTR--
+300000027 Bastogne, Home Marke  01911  01911                % 08169 RGTR--
+300000022 Bastogne, Pl. McAuli  01913  01913                % 08169 RGTR--
+300000026 Bastogne, Renval      01916                       % 08169 RGTR--
+*Z 08170 RGTR--                                             % 08170 RGTR--
+*L 537      300000026 140701023  01030  01135               % 08170 RGTR--
+*A ef 300000026 140701023 000000  01030  01135              % 08170 RGTR--
+*R 2 140701023 300000026 140701023  01030  01135            % 08170 RGTR--
+*G RGB 300000026 140701023  01030  01135                    % 08170 RGTR--
+*A VE 300000026 140701023 000000  01030  01135              % 08170 RGTR--
+*I FD 300000026 140701023        0002558  01030  01135      % 08170 RGTR--
+300000026 Bastogne, Renval             01030                % 08170 RGTR--
+300000023 Bastogne, Place Merc  01032  01032                % 08170 RGTR--
+300000027 Bastogne, Home Marke  01034  01034                % 08170 RGTR--
+300000042 Marvie, rue de Wiltz  01035  01035                % 08170 RGTR--
+300000111 Marvie, A la Boule (  01036  01036                % 08170 RGTR--
+300000047 Wardin, rue de Wiltz  01038  01038                % 08170 RGTR--
+300000029 Bras, Carrefour       01040  01040                % 08170 RGTR--
+121006003 Pommerlach (Knauf)    01044  01044                % 08170 RGTR--
+121006001 Pommerlach, Theis     01045  01045                % 08170 RGTR--
+120903038 Wiltz, Schumann       01048  01048                % 08170 RGTR--
+120903008 Wiltz, Pompjeesbau    01052  01052                % 08170 RGTR--
+120903021 Wiltz, Lann           01053  01053                % 08170 RGTR--
+120903008 Wiltz, Pompjeesbau    01054  01054                % 08170 RGTR--
+120903025 Wiltz, Wanselerstro.  01055  01055                % 08170 RGTR--
+120903010 Wiltz, Follmillen     01056  01056                % 08170 RGTR--
+120903036 Wiltz, Salzbaach      01057  01057                % 08170 RGTR--
+120903001 Wiltz, Aalen Tipp     01057  01057                % 08170 RGTR--
+120903031 Wiltz, Huuschtewee/P  01100  01100                % 08170 RGTR--
+120903035 Wiltz, Huuschtewee    01100  01100                % 08170 RGTR--
+120903011 Wiltz, Clinique       01101  01101                % 08170 RGTR--
+120903006 Wiltz, Brandbau       01102  01102                % 08170 RGTR--
+120903005 Wiltz, Belle Vue      01103  01103                % 08170 RGTR--
+120903003 Wiltz, Batzendelt     01104  01104                % 08170 RGTR--
+120402002 Büderscheid, Village  01108  01108                % 08170 RGTR--
+120503001 Heischtergronn, Beim  01112  01112                % 08170 RGTR--
+120502002 Heiderscheid          01117  01117                % 08170 RGTR--
+120502003 Heiderscheid, Zone C  01118  01118                % 08170 RGTR--
+120502001 Heiderscheid, Fuusse  01120  01120                % 08170 RGTR--
+140801005 Niederfeulen, Atelie  01123  01123                % 08170 RGTR--
+140801001 Niederfeulen, Belle   01124  01124                % 08170 RGTR--
+140801002 Niederfeulen, Faubou  01125  01125                % 08170 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01129  01129                % 08170 RGTR--
+140701015 Ettelbruck, Ecole Pr  01131  01131                % 08170 RGTR--
+140701016 Ettelbruck, Gare      01133  01133                % 08170 RGTR--
+140701001 Ettelbruck, Anc. Cli  01133  01133                % 08170 RGTR--
+140701023 Ettelbruck, Lycée Te  01135                       % 08170 RGTR--
+*Z 08171 RGTR--                                             % 08171 RGTR--
+*L 537      300000026 140701023  01330  01435               % 08171 RGTR--
+*A ef 300000026 140701023 000000  01330  01435              % 08171 RGTR--
+*R 2 140701023 300000026 140701023  01330  01435            % 08171 RGTR--
+*G RGB 300000026 140701023  01330  01435                    % 08171 RGTR--
+*A VE 300000026 140701023 000000  01330  01435              % 08171 RGTR--
+*I FD 300000026 140701023        0002744  01330  01435      % 08171 RGTR--
+300000026 Bastogne, Renval             01330                % 08171 RGTR--
+300000023 Bastogne, Place Merc  01332  01332                % 08171 RGTR--
+300000027 Bastogne, Home Marke  01334  01334                % 08171 RGTR--
+300000042 Marvie, rue de Wiltz  01335  01335                % 08171 RGTR--
+300000111 Marvie, A la Boule (  01336  01336                % 08171 RGTR--
+300000047 Wardin, rue de Wiltz  01338  01338                % 08171 RGTR--
+300000029 Bras, Carrefour       01340  01340                % 08171 RGTR--
+121006003 Pommerlach (Knauf)    01344  01344                % 08171 RGTR--
+121006001 Pommerlach, Theis     01345  01345                % 08171 RGTR--
+120903038 Wiltz, Schumann       01348  01348                % 08171 RGTR--
+120903008 Wiltz, Pompjeesbau    01352  01352                % 08171 RGTR--
+120903021 Wiltz, Lann           01353  01353                % 08171 RGTR--
+120903008 Wiltz, Pompjeesbau    01354  01354                % 08171 RGTR--
+120903025 Wiltz, Wanselerstro.  01355  01355                % 08171 RGTR--
+120903010 Wiltz, Follmillen     01356  01356                % 08171 RGTR--
+120903036 Wiltz, Salzbaach      01357  01357                % 08171 RGTR--
+120903001 Wiltz, Aalen Tipp     01357  01357                % 08171 RGTR--
+120903031 Wiltz, Huuschtewee/P  01400  01400                % 08171 RGTR--
+120903035 Wiltz, Huuschtewee    01400  01400                % 08171 RGTR--
+120903011 Wiltz, Clinique       01401  01401                % 08171 RGTR--
+120903006 Wiltz, Brandbau       01402  01402                % 08171 RGTR--
+120903005 Wiltz, Belle Vue      01403  01403                % 08171 RGTR--
+120903003 Wiltz, Batzendelt     01404  01404                % 08171 RGTR--
+120402002 Büderscheid, Village  01408  01408                % 08171 RGTR--
+120503001 Heischtergronn, Beim  01412  01412                % 08171 RGTR--
+120502002 Heiderscheid          01417  01417                % 08171 RGTR--
+120502003 Heiderscheid, Zone C  01418  01418                % 08171 RGTR--
+120502001 Heiderscheid, Fuusse  01420  01420                % 08171 RGTR--
+140801005 Niederfeulen, Atelie  01423  01423                % 08171 RGTR--
+140801001 Niederfeulen, Belle   01424  01424                % 08171 RGTR--
+140801002 Niederfeulen, Faubou  01425  01425                % 08171 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01429  01429                % 08171 RGTR--
+140701015 Ettelbruck, Ecole Pr  01431  01431                % 08171 RGTR--
+140701016 Ettelbruck, Gare      01433  01433                % 08171 RGTR--
+140701001 Ettelbruck, Anc. Cli  01433  01433                % 08171 RGTR--
+140701023 Ettelbruck, Lycée Te  01435                       % 08171 RGTR--
+*Z 08172 RGTR--                                             % 08172 RGTR--
+*L 537      300000026 140701023  00530  00635               % 08172 RGTR--
+*A ef 300000026 140701023 000001  00530  00635              % 08172 RGTR--
+*R 2 140701023 300000026 140701023  00530  00635            % 08172 RGTR--
+*G RGB 300000026 140701023  00530  00635                    % 08172 RGTR--
+*A VE 300000026 140701023 000001  00530  00635              % 08172 RGTR--
+*I FD 300000026 140701023        0002187  00530  00635      % 08172 RGTR--
+300000026 Bastogne, Renval             00530                % 08172 RGTR--
+300000023 Bastogne, Place Merc  00532  00532                % 08172 RGTR--
+300000027 Bastogne, Home Marke  00534  00534                % 08172 RGTR--
+300000042 Marvie, rue de Wiltz  00535  00535                % 08172 RGTR--
+300000111 Marvie, A la Boule (  00536  00536                % 08172 RGTR--
+300000047 Wardin, rue de Wiltz  00538  00538                % 08172 RGTR--
+300000029 Bras, Carrefour       00540  00540                % 08172 RGTR--
+121006003 Pommerlach (Knauf)    00544  00544                % 08172 RGTR--
+121006001 Pommerlach, Theis     00545  00545                % 08172 RGTR--
+120903038 Wiltz, Schumann       00548  00548                % 08172 RGTR--
+120903008 Wiltz, Pompjeesbau    00552  00552                % 08172 RGTR--
+120903021 Wiltz, Lann           00553  00553                % 08172 RGTR--
+120903008 Wiltz, Pompjeesbau    00554  00554                % 08172 RGTR--
+120903025 Wiltz, Wanselerstro.  00555  00555                % 08172 RGTR--
+120903010 Wiltz, Follmillen     00556  00556                % 08172 RGTR--
+120903036 Wiltz, Salzbaach      00557  00557                % 08172 RGTR--
+120903001 Wiltz, Aalen Tipp     00557  00557                % 08172 RGTR--
+120903031 Wiltz, Huuschtewee/P  00600  00600                % 08172 RGTR--
+120903035 Wiltz, Huuschtewee    00600  00600                % 08172 RGTR--
+120903011 Wiltz, Clinique       00601  00601                % 08172 RGTR--
+120903006 Wiltz, Brandbau       00602  00602                % 08172 RGTR--
+120903005 Wiltz, Belle Vue      00603  00603                % 08172 RGTR--
+120903003 Wiltz, Batzendelt     00604  00604                % 08172 RGTR--
+120402002 Büderscheid, Village  00608  00608                % 08172 RGTR--
+120503001 Heischtergronn, Beim  00612  00612                % 08172 RGTR--
+120502002 Heiderscheid          00617  00617                % 08172 RGTR--
+120502003 Heiderscheid, Zone C  00618  00618                % 08172 RGTR--
+120502001 Heiderscheid, Fuusse  00620  00620                % 08172 RGTR--
+140801005 Niederfeulen, Atelie  00623  00623                % 08172 RGTR--
+140801001 Niederfeulen, Belle   00624  00624                % 08172 RGTR--
+140801002 Niederfeulen, Faubou  00625  00625                % 08172 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00629  00629                % 08172 RGTR--
+140701015 Ettelbruck, Ecole Pr  00631  00631                % 08172 RGTR--
+140701016 Ettelbruck, Gare      00633  00633                % 08172 RGTR--
+140701001 Ettelbruck, Anc. Cli  00633  00633                % 08172 RGTR--
+140701023 Ettelbruck, Lycée Te  00635                       % 08172 RGTR--
+*Z 08173 RGTR--                                             % 08173 RGTR--
+*L 537      300000026 140701023  00600  00705               % 08173 RGTR--
+*A bv 300000026 140701023 000001  00600  00705              % 08173 RGTR--
+*R 2 140701023 300000026 140701023  00600  00705            % 08173 RGTR--
+*G RGB 300000026 140701023  00600  00705                    % 08173 RGTR--
+*A VE 300000026 140701023 000001  00600  00705              % 08173 RGTR--
+*I FD 300000026 140701023        0002365  00600  00705      % 08173 RGTR--
+300000026 Bastogne, Renval             00600                % 08173 RGTR--
+300000023 Bastogne, Place Merc  00602  00602                % 08173 RGTR--
+300000027 Bastogne, Home Marke  00604  00604                % 08173 RGTR--
+300000042 Marvie, rue de Wiltz  00605  00605                % 08173 RGTR--
+300000111 Marvie, A la Boule (  00606  00606                % 08173 RGTR--
+300000047 Wardin, rue de Wiltz  00608  00608                % 08173 RGTR--
+300000029 Bras, Carrefour       00610  00610                % 08173 RGTR--
+121006003 Pommerlach (Knauf)    00614  00614                % 08173 RGTR--
+121006001 Pommerlach, Theis     00615  00615                % 08173 RGTR--
+120903038 Wiltz, Schumann       00618  00618                % 08173 RGTR--
+120903008 Wiltz, Pompjeesbau    00622  00622                % 08173 RGTR--
+120903021 Wiltz, Lann           00623  00623                % 08173 RGTR--
+120903008 Wiltz, Pompjeesbau    00624  00624                % 08173 RGTR--
+120903025 Wiltz, Wanselerstro.  00625  00625                % 08173 RGTR--
+120903010 Wiltz, Follmillen     00626  00626                % 08173 RGTR--
+120903036 Wiltz, Salzbaach      00627  00627                % 08173 RGTR--
+120903001 Wiltz, Aalen Tipp     00627  00627                % 08173 RGTR--
+120903031 Wiltz, Huuschtewee/P  00630  00630                % 08173 RGTR--
+120903035 Wiltz, Huuschtewee    00630  00630                % 08173 RGTR--
+120903011 Wiltz, Clinique       00631  00631                % 08173 RGTR--
+120903006 Wiltz, Brandbau       00632  00632                % 08173 RGTR--
+120903005 Wiltz, Belle Vue      00633  00633                % 08173 RGTR--
+120903003 Wiltz, Batzendelt     00634  00634                % 08173 RGTR--
+120402002 Büderscheid, Village  00638  00638                % 08173 RGTR--
+120503001 Heischtergronn, Beim  00642  00642                % 08173 RGTR--
+120502002 Heiderscheid          00647  00647                % 08173 RGTR--
+120502003 Heiderscheid, Zone C  00648  00648                % 08173 RGTR--
+120502001 Heiderscheid, Fuusse  00650  00650                % 08173 RGTR--
+140801005 Niederfeulen, Atelie  00653  00653                % 08173 RGTR--
+140801001 Niederfeulen, Belle   00654  00654                % 08173 RGTR--
+140801002 Niederfeulen, Faubou  00655  00655                % 08173 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00659  00659                % 08173 RGTR--
+140701015 Ettelbruck, Ecole Pr  00701  00701                % 08173 RGTR--
+140701016 Ettelbruck, Gare      00703  00703                % 08173 RGTR--
+140701001 Ettelbruck, Anc. Cli  00703  00703                % 08173 RGTR--
+140701023 Ettelbruck, Lycée Te  00705                       % 08173 RGTR--
+*Z 08174 RGTR--                                             % 08174 RGTR--
+*L 537      300000026 140701023  00930  01035               % 08174 RGTR--
+*A bv 300000026 140701023 000001  00930  01035              % 08174 RGTR--
+*R 2 140701023 300000026 140701023  00930  01035            % 08174 RGTR--
+*G RGB 300000026 140701023  00930  01035                    % 08174 RGTR--
+*A VE 300000026 140701023 000001  00930  01035              % 08174 RGTR--
+*I FD 300000026 140701023        0000947  00930  01035      % 08174 RGTR--
+300000026 Bastogne, Renval             00930                % 08174 RGTR--
+300000023 Bastogne, Place Merc  00932  00932                % 08174 RGTR--
+300000027 Bastogne, Home Marke  00934  00934                % 08174 RGTR--
+300000042 Marvie, rue de Wiltz  00935  00935                % 08174 RGTR--
+300000111 Marvie, A la Boule (  00936  00936                % 08174 RGTR--
+300000047 Wardin, rue de Wiltz  00938  00938                % 08174 RGTR--
+300000029 Bras, Carrefour       00940  00940                % 08174 RGTR--
+121006003 Pommerlach (Knauf)    00944  00944                % 08174 RGTR--
+121006001 Pommerlach, Theis     00945  00945                % 08174 RGTR--
+120903038 Wiltz, Schumann       00948  00948                % 08174 RGTR--
+120903008 Wiltz, Pompjeesbau    00952  00952                % 08174 RGTR--
+120903021 Wiltz, Lann           00953  00953                % 08174 RGTR--
+120903008 Wiltz, Pompjeesbau    00954  00954                % 08174 RGTR--
+120903025 Wiltz, Wanselerstro.  00955  00955                % 08174 RGTR--
+120903010 Wiltz, Follmillen     00956  00956                % 08174 RGTR--
+120903036 Wiltz, Salzbaach      00957  00957                % 08174 RGTR--
+120903001 Wiltz, Aalen Tipp     00957  00957                % 08174 RGTR--
+120903031 Wiltz, Huuschtewee/P  01000  01000                % 08174 RGTR--
+120903035 Wiltz, Huuschtewee    01000  01000                % 08174 RGTR--
+120903011 Wiltz, Clinique       01001  01001                % 08174 RGTR--
+120903006 Wiltz, Brandbau       01002  01002                % 08174 RGTR--
+120903005 Wiltz, Belle Vue      01003  01003                % 08174 RGTR--
+120903003 Wiltz, Batzendelt     01004  01004                % 08174 RGTR--
+120402002 Büderscheid, Village  01008  01008                % 08174 RGTR--
+120503001 Heischtergronn, Beim  01012  01012                % 08174 RGTR--
+120502002 Heiderscheid          01017  01017                % 08174 RGTR--
+120502003 Heiderscheid, Zone C  01018  01018                % 08174 RGTR--
+120502001 Heiderscheid, Fuusse  01020  01020                % 08174 RGTR--
+140801005 Niederfeulen, Atelie  01023  01023                % 08174 RGTR--
+140801001 Niederfeulen, Belle   01024  01024                % 08174 RGTR--
+140801002 Niederfeulen, Faubou  01025  01025                % 08174 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01029  01029                % 08174 RGTR--
+140701015 Ettelbruck, Ecole Pr  01031  01031                % 08174 RGTR--
+140701016 Ettelbruck, Gare      01033  01033                % 08174 RGTR--
+140701001 Ettelbruck, Anc. Cli  01033  01033                % 08174 RGTR--
+140701023 Ettelbruck, Lycée Te  01035                       % 08174 RGTR--
+*Z 08175 RGTR--                                             % 08175 RGTR--
+*L 537      300000026 140701023  01130  01235               % 08175 RGTR--
+*A ef 300000026 140701023 000001  01130  01235              % 08175 RGTR--
+*R 2 140701023 300000026 140701023  01130  01235            % 08175 RGTR--
+*G RGB 300000026 140701023  01130  01235                    % 08175 RGTR--
+*A VE 300000026 140701023 000001  01130  01235              % 08175 RGTR--
+*I FD 300000026 140701023        0002743  01130  01235      % 08175 RGTR--
+300000026 Bastogne, Renval             01130                % 08175 RGTR--
+300000023 Bastogne, Place Merc  01132  01132                % 08175 RGTR--
+300000027 Bastogne, Home Marke  01134  01134                % 08175 RGTR--
+300000042 Marvie, rue de Wiltz  01135  01135                % 08175 RGTR--
+300000111 Marvie, A la Boule (  01136  01136                % 08175 RGTR--
+300000047 Wardin, rue de Wiltz  01138  01138                % 08175 RGTR--
+300000029 Bras, Carrefour       01140  01140                % 08175 RGTR--
+121006003 Pommerlach (Knauf)    01144  01144                % 08175 RGTR--
+121006001 Pommerlach, Theis     01145  01145                % 08175 RGTR--
+120903038 Wiltz, Schumann       01148  01148                % 08175 RGTR--
+120903008 Wiltz, Pompjeesbau    01152  01152                % 08175 RGTR--
+120903021 Wiltz, Lann           01153  01153                % 08175 RGTR--
+120903008 Wiltz, Pompjeesbau    01154  01154                % 08175 RGTR--
+120903025 Wiltz, Wanselerstro.  01155  01155                % 08175 RGTR--
+120903010 Wiltz, Follmillen     01156  01156                % 08175 RGTR--
+120903036 Wiltz, Salzbaach      01157  01157                % 08175 RGTR--
+120903001 Wiltz, Aalen Tipp     01157  01157                % 08175 RGTR--
+120903031 Wiltz, Huuschtewee/P  01200  01200                % 08175 RGTR--
+120903035 Wiltz, Huuschtewee    01200  01200                % 08175 RGTR--
+120903011 Wiltz, Clinique       01201  01201                % 08175 RGTR--
+120903006 Wiltz, Brandbau       01202  01202                % 08175 RGTR--
+120903005 Wiltz, Belle Vue      01203  01203                % 08175 RGTR--
+120903003 Wiltz, Batzendelt     01204  01204                % 08175 RGTR--
+120402002 Büderscheid, Village  01208  01208                % 08175 RGTR--
+120503001 Heischtergronn, Beim  01212  01212                % 08175 RGTR--
+120502002 Heiderscheid          01217  01217                % 08175 RGTR--
+120502003 Heiderscheid, Zone C  01218  01218                % 08175 RGTR--
+120502001 Heiderscheid, Fuusse  01220  01220                % 08175 RGTR--
+140801005 Niederfeulen, Atelie  01223  01223                % 08175 RGTR--
+140801001 Niederfeulen, Belle   01224  01224                % 08175 RGTR--
+140801002 Niederfeulen, Faubou  01225  01225                % 08175 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01229  01229                % 08175 RGTR--
+140701015 Ettelbruck, Ecole Pr  01231  01231                % 08175 RGTR--
+140701016 Ettelbruck, Gare      01233  01233                % 08175 RGTR--
+140701001 Ettelbruck, Anc. Cli  01233  01233                % 08175 RGTR--
+140701023 Ettelbruck, Lycée Te  01235                       % 08175 RGTR--
+*Z 08176 RGTR--                                             % 08176 RGTR--
+*L 537      300000026 140701023  01230  01335               % 08176 RGTR--
+*A bv 300000026 140701023 000001  01230  01335              % 08176 RGTR--
+*R 2 140701023 300000026 140701023  01230  01335            % 08176 RGTR--
+*G RGB 300000026 140701023  01230  01335                    % 08176 RGTR--
+*A VE 300000026 140701023 000001  01230  01335              % 08176 RGTR--
+*I FD 300000026 140701023        0001098  01230  01335      % 08176 RGTR--
+300000026 Bastogne, Renval             01230                % 08176 RGTR--
+300000023 Bastogne, Place Merc  01232  01232                % 08176 RGTR--
+300000027 Bastogne, Home Marke  01234  01234                % 08176 RGTR--
+300000042 Marvie, rue de Wiltz  01235  01235                % 08176 RGTR--
+300000111 Marvie, A la Boule (  01236  01236                % 08176 RGTR--
+300000047 Wardin, rue de Wiltz  01238  01238                % 08176 RGTR--
+300000029 Bras, Carrefour       01240  01240                % 08176 RGTR--
+121006003 Pommerlach (Knauf)    01244  01244                % 08176 RGTR--
+121006001 Pommerlach, Theis     01245  01245                % 08176 RGTR--
+120903038 Wiltz, Schumann       01248  01248                % 08176 RGTR--
+120903008 Wiltz, Pompjeesbau    01252  01252                % 08176 RGTR--
+120903021 Wiltz, Lann           01253  01253                % 08176 RGTR--
+120903008 Wiltz, Pompjeesbau    01254  01254                % 08176 RGTR--
+120903025 Wiltz, Wanselerstro.  01255  01255                % 08176 RGTR--
+120903010 Wiltz, Follmillen     01256  01256                % 08176 RGTR--
+120903036 Wiltz, Salzbaach      01257  01257                % 08176 RGTR--
+120903001 Wiltz, Aalen Tipp     01257  01257                % 08176 RGTR--
+120903031 Wiltz, Huuschtewee/P  01300  01300                % 08176 RGTR--
+120903035 Wiltz, Huuschtewee    01300  01300                % 08176 RGTR--
+120903011 Wiltz, Clinique       01301  01301                % 08176 RGTR--
+120903006 Wiltz, Brandbau       01302  01302                % 08176 RGTR--
+120903005 Wiltz, Belle Vue      01303  01303                % 08176 RGTR--
+120903003 Wiltz, Batzendelt     01304  01304                % 08176 RGTR--
+120402002 Büderscheid, Village  01308  01308                % 08176 RGTR--
+120503001 Heischtergronn, Beim  01312  01312                % 08176 RGTR--
+120502002 Heiderscheid          01317  01317                % 08176 RGTR--
+120502003 Heiderscheid, Zone C  01318  01318                % 08176 RGTR--
+120502001 Heiderscheid, Fuusse  01320  01320                % 08176 RGTR--
+140801005 Niederfeulen, Atelie  01323  01323                % 08176 RGTR--
+140801001 Niederfeulen, Belle   01324  01324                % 08176 RGTR--
+140801002 Niederfeulen, Faubou  01325  01325                % 08176 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01329  01329                % 08176 RGTR--
+140701015 Ettelbruck, Ecole Pr  01331  01331                % 08176 RGTR--
+140701016 Ettelbruck, Gare      01333  01333                % 08176 RGTR--
+140701001 Ettelbruck, Anc. Cli  01333  01333                % 08176 RGTR--
+140701023 Ettelbruck, Lycée Te  01335                       % 08176 RGTR--
+*Z 08177 RGTR--                                             % 08177 RGTR--
+*L 537      300000026 140701023  01300  01405               % 08177 RGTR--
+*A ef 300000026 140701023 000001  01300  01405              % 08177 RGTR--
+*R 2 140701023 300000026 140701023  01300  01405            % 08177 RGTR--
+*G RGB 300000026 140701023  01300  01405                    % 08177 RGTR--
+*A VE 300000026 140701023 000001  01300  01405              % 08177 RGTR--
+*I FD 300000026 140701023        0001902  01300  01405      % 08177 RGTR--
+300000026 Bastogne, Renval             01300                % 08177 RGTR--
+300000023 Bastogne, Place Merc  01302  01302                % 08177 RGTR--
+300000027 Bastogne, Home Marke  01304  01304                % 08177 RGTR--
+300000042 Marvie, rue de Wiltz  01305  01305                % 08177 RGTR--
+300000111 Marvie, A la Boule (  01306  01306                % 08177 RGTR--
+300000047 Wardin, rue de Wiltz  01308  01308                % 08177 RGTR--
+300000029 Bras, Carrefour       01310  01310                % 08177 RGTR--
+121006003 Pommerlach (Knauf)    01314  01314                % 08177 RGTR--
+121006001 Pommerlach, Theis     01315  01315                % 08177 RGTR--
+120903038 Wiltz, Schumann       01318  01318                % 08177 RGTR--
+120903008 Wiltz, Pompjeesbau    01322  01322                % 08177 RGTR--
+120903021 Wiltz, Lann           01323  01323                % 08177 RGTR--
+120903008 Wiltz, Pompjeesbau    01324  01324                % 08177 RGTR--
+120903025 Wiltz, Wanselerstro.  01325  01325                % 08177 RGTR--
+120903010 Wiltz, Follmillen     01326  01326                % 08177 RGTR--
+120903036 Wiltz, Salzbaach      01327  01327                % 08177 RGTR--
+120903001 Wiltz, Aalen Tipp     01327  01327                % 08177 RGTR--
+120903031 Wiltz, Huuschtewee/P  01330  01330                % 08177 RGTR--
+120903035 Wiltz, Huuschtewee    01330  01330                % 08177 RGTR--
+120903011 Wiltz, Clinique       01331  01331                % 08177 RGTR--
+120903006 Wiltz, Brandbau       01332  01332                % 08177 RGTR--
+120903005 Wiltz, Belle Vue      01333  01333                % 08177 RGTR--
+120903003 Wiltz, Batzendelt     01334  01334                % 08177 RGTR--
+120402002 Büderscheid, Village  01338  01338                % 08177 RGTR--
+120503001 Heischtergronn, Beim  01342  01342                % 08177 RGTR--
+120502002 Heiderscheid          01347  01347                % 08177 RGTR--
+120502003 Heiderscheid, Zone C  01348  01348                % 08177 RGTR--
+120502001 Heiderscheid, Fuusse  01350  01350                % 08177 RGTR--
+140801005 Niederfeulen, Atelie  01353  01353                % 08177 RGTR--
+140801001 Niederfeulen, Belle   01354  01354                % 08177 RGTR--
+140801002 Niederfeulen, Faubou  01355  01355                % 08177 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01359  01359                % 08177 RGTR--
+140701015 Ettelbruck, Ecole Pr  01401  01401                % 08177 RGTR--
+140701016 Ettelbruck, Gare      01403  01403                % 08177 RGTR--
+140701001 Ettelbruck, Anc. Cli  01403  01403                % 08177 RGTR--
+140701023 Ettelbruck, Lycée Te  01405                       % 08177 RGTR--
+*Z 08178 RGTR--                                             % 08178 RGTR--
+*L 537      300000026 140701023  01430  01535               % 08178 RGTR--
+*A ef 300000026 140701023 000001  01430  01535              % 08178 RGTR--
+*R 2 140701023 300000026 140701023  01430  01535            % 08178 RGTR--
+*G RGB 300000026 140701023  01430  01535                    % 08178 RGTR--
+*A VE 300000026 140701023 000001  01430  01535              % 08178 RGTR--
+*I FD 300000026 140701023        0002745  01430  01535      % 08178 RGTR--
+300000026 Bastogne, Renval             01430                % 08178 RGTR--
+300000023 Bastogne, Place Merc  01432  01432                % 08178 RGTR--
+300000027 Bastogne, Home Marke  01434  01434                % 08178 RGTR--
+300000042 Marvie, rue de Wiltz  01435  01435                % 08178 RGTR--
+300000111 Marvie, A la Boule (  01436  01436                % 08178 RGTR--
+300000047 Wardin, rue de Wiltz  01438  01438                % 08178 RGTR--
+300000029 Bras, Carrefour       01440  01440                % 08178 RGTR--
+121006003 Pommerlach (Knauf)    01444  01444                % 08178 RGTR--
+121006001 Pommerlach, Theis     01445  01445                % 08178 RGTR--
+120903038 Wiltz, Schumann       01448  01448                % 08178 RGTR--
+120903008 Wiltz, Pompjeesbau    01452  01452                % 08178 RGTR--
+120903021 Wiltz, Lann           01453  01453                % 08178 RGTR--
+120903008 Wiltz, Pompjeesbau    01454  01454                % 08178 RGTR--
+120903025 Wiltz, Wanselerstro.  01455  01455                % 08178 RGTR--
+120903010 Wiltz, Follmillen     01456  01456                % 08178 RGTR--
+120903036 Wiltz, Salzbaach      01457  01457                % 08178 RGTR--
+120903001 Wiltz, Aalen Tipp     01457  01457                % 08178 RGTR--
+120903031 Wiltz, Huuschtewee/P  01500  01500                % 08178 RGTR--
+120903035 Wiltz, Huuschtewee    01500  01500                % 08178 RGTR--
+120903011 Wiltz, Clinique       01501  01501                % 08178 RGTR--
+120903006 Wiltz, Brandbau       01502  01502                % 08178 RGTR--
+120903005 Wiltz, Belle Vue      01503  01503                % 08178 RGTR--
+120903003 Wiltz, Batzendelt     01504  01504                % 08178 RGTR--
+120402002 Büderscheid, Village  01508  01508                % 08178 RGTR--
+120503001 Heischtergronn, Beim  01512  01512                % 08178 RGTR--
+120502002 Heiderscheid          01517  01517                % 08178 RGTR--
+120502003 Heiderscheid, Zone C  01518  01518                % 08178 RGTR--
+120502001 Heiderscheid, Fuusse  01520  01520                % 08178 RGTR--
+140801005 Niederfeulen, Atelie  01523  01523                % 08178 RGTR--
+140801001 Niederfeulen, Belle   01524  01524                % 08178 RGTR--
+140801002 Niederfeulen, Faubou  01525  01525                % 08178 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01529  01529                % 08178 RGTR--
+140701015 Ettelbruck, Ecole Pr  01531  01531                % 08178 RGTR--
+140701016 Ettelbruck, Gare      01533  01533                % 08178 RGTR--
+140701001 Ettelbruck, Anc. Cli  01533  01533                % 08178 RGTR--
+140701023 Ettelbruck, Lycée Te  01535                       % 08178 RGTR--
+*Z 08179 RGTR--                                             % 08179 RGTR--
+*L 537      300000026 140701023  01530  01635               % 08179 RGTR--
+*A bv 300000026 140701023 000001  01530  01635              % 08179 RGTR--
+*R 2 140701023 300000026 140701023  01530  01635            % 08179 RGTR--
+*G RGB 300000026 140701023  01530  01635                    % 08179 RGTR--
+*A VE 300000026 140701023 000001  01530  01635              % 08179 RGTR--
+*I FD 300000026 140701023        0002746  01530  01635      % 08179 RGTR--
+300000026 Bastogne, Renval             01530                % 08179 RGTR--
+300000023 Bastogne, Place Merc  01532  01532                % 08179 RGTR--
+300000027 Bastogne, Home Marke  01534  01534                % 08179 RGTR--
+300000042 Marvie, rue de Wiltz  01535  01535                % 08179 RGTR--
+300000111 Marvie, A la Boule (  01536  01536                % 08179 RGTR--
+300000047 Wardin, rue de Wiltz  01538  01538                % 08179 RGTR--
+300000029 Bras, Carrefour       01540  01540                % 08179 RGTR--
+121006003 Pommerlach (Knauf)    01544  01544                % 08179 RGTR--
+121006001 Pommerlach, Theis     01545  01545                % 08179 RGTR--
+120903038 Wiltz, Schumann       01548  01548                % 08179 RGTR--
+120903008 Wiltz, Pompjeesbau    01552  01552                % 08179 RGTR--
+120903021 Wiltz, Lann           01553  01553                % 08179 RGTR--
+120903008 Wiltz, Pompjeesbau    01554  01554                % 08179 RGTR--
+120903025 Wiltz, Wanselerstro.  01555  01555                % 08179 RGTR--
+120903010 Wiltz, Follmillen     01556  01556                % 08179 RGTR--
+120903036 Wiltz, Salzbaach      01557  01557                % 08179 RGTR--
+120903001 Wiltz, Aalen Tipp     01557  01557                % 08179 RGTR--
+120903031 Wiltz, Huuschtewee/P  01600  01600                % 08179 RGTR--
+120903035 Wiltz, Huuschtewee    01600  01600                % 08179 RGTR--
+120903011 Wiltz, Clinique       01601  01601                % 08179 RGTR--
+120903006 Wiltz, Brandbau       01602  01602                % 08179 RGTR--
+120903005 Wiltz, Belle Vue      01603  01603                % 08179 RGTR--
+120903003 Wiltz, Batzendelt     01604  01604                % 08179 RGTR--
+120402002 Büderscheid, Village  01608  01608                % 08179 RGTR--
+120503001 Heischtergronn, Beim  01612  01612                % 08179 RGTR--
+120502002 Heiderscheid          01617  01617                % 08179 RGTR--
+120502003 Heiderscheid, Zone C  01618  01618                % 08179 RGTR--
+120502001 Heiderscheid, Fuusse  01620  01620                % 08179 RGTR--
+140801005 Niederfeulen, Atelie  01623  01623                % 08179 RGTR--
+140801001 Niederfeulen, Belle   01624  01624                % 08179 RGTR--
+140801002 Niederfeulen, Faubou  01625  01625                % 08179 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01629  01629                % 08179 RGTR--
+140701015 Ettelbruck, Ecole Pr  01631  01631                % 08179 RGTR--
+140701016 Ettelbruck, Gare      01633  01633                % 08179 RGTR--
+140701001 Ettelbruck, Anc. Cli  01633  01633                % 08179 RGTR--
+140701023 Ettelbruck, Lycée Te  01635                       % 08179 RGTR--
+*Z 08180 RGTR--                                             % 08180 RGTR--
+*L 537      300000026 140701023  01830  01935               % 08180 RGTR--
+*A bv 300000026 140701023 000001  01830  01935              % 08180 RGTR--
+*R 2 140701023 300000026 140701023  01830  01935            % 08180 RGTR--
+*G RGB 300000026 140701023  01830  01935                    % 08180 RGTR--
+*A VE 300000026 140701023 000001  01830  01935              % 08180 RGTR--
+*I FD 300000026 140701023        0002747  01830  01935      % 08180 RGTR--
+300000026 Bastogne, Renval             01830                % 08180 RGTR--
+300000023 Bastogne, Place Merc  01832  01832                % 08180 RGTR--
+300000027 Bastogne, Home Marke  01834  01834                % 08180 RGTR--
+300000042 Marvie, rue de Wiltz  01835  01835                % 08180 RGTR--
+300000111 Marvie, A la Boule (  01836  01836                % 08180 RGTR--
+300000047 Wardin, rue de Wiltz  01838  01838                % 08180 RGTR--
+300000029 Bras, Carrefour       01840  01840                % 08180 RGTR--
+121006003 Pommerlach (Knauf)    01844  01844                % 08180 RGTR--
+121006001 Pommerlach, Theis     01845  01845                % 08180 RGTR--
+120903038 Wiltz, Schumann       01848  01848                % 08180 RGTR--
+120903008 Wiltz, Pompjeesbau    01852  01852                % 08180 RGTR--
+120903021 Wiltz, Lann           01853  01853                % 08180 RGTR--
+120903008 Wiltz, Pompjeesbau    01854  01854                % 08180 RGTR--
+120903025 Wiltz, Wanselerstro.  01855  01855                % 08180 RGTR--
+120903010 Wiltz, Follmillen     01856  01856                % 08180 RGTR--
+120903036 Wiltz, Salzbaach      01857  01857                % 08180 RGTR--
+120903001 Wiltz, Aalen Tipp     01857  01857                % 08180 RGTR--
+120903031 Wiltz, Huuschtewee/P  01900  01900                % 08180 RGTR--
+120903035 Wiltz, Huuschtewee    01900  01900                % 08180 RGTR--
+120903011 Wiltz, Clinique       01901  01901                % 08180 RGTR--
+120903006 Wiltz, Brandbau       01902  01902                % 08180 RGTR--
+120903005 Wiltz, Belle Vue      01903  01903                % 08180 RGTR--
+120903003 Wiltz, Batzendelt     01904  01904                % 08180 RGTR--
+120402002 Büderscheid, Village  01908  01908                % 08180 RGTR--
+120503001 Heischtergronn, Beim  01912  01912                % 08180 RGTR--
+120502002 Heiderscheid          01917  01917                % 08180 RGTR--
+120502003 Heiderscheid, Zone C  01918  01918                % 08180 RGTR--
+120502001 Heiderscheid, Fuusse  01920  01920                % 08180 RGTR--
+140801005 Niederfeulen, Atelie  01923  01923                % 08180 RGTR--
+140801001 Niederfeulen, Belle   01924  01924                % 08180 RGTR--
+140801002 Niederfeulen, Faubou  01925  01925                % 08180 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01929  01929                % 08180 RGTR--
+140701015 Ettelbruck, Ecole Pr  01931  01931                % 08180 RGTR--
+140701016 Ettelbruck, Gare      01933  01933                % 08180 RGTR--
+140701001 Ettelbruck, Anc. Cli  01933  01933                % 08180 RGTR--
+140701023 Ettelbruck, Lycée Te  01935                       % 08180 RGTR--
+*Z 08181 RGTR--                                             % 08181 RGTR--
+*L 537      300000026 140701023  01930  02035               % 08181 RGTR--
+*A ef 300000026 140701023 000001  01930  02035              % 08181 RGTR--
+*R 2 140701023 300000026 140701023  01930  02035            % 08181 RGTR--
+*G RGB 300000026 140701023  01930  02035                    % 08181 RGTR--
+*A VE 300000026 140701023 000001  01930  02035              % 08181 RGTR--
+*I FD 300000026 140701023        0001389  01930  02035      % 08181 RGTR--
+300000026 Bastogne, Renval             01930                % 08181 RGTR--
+300000023 Bastogne, Place Merc  01932  01932                % 08181 RGTR--
+300000027 Bastogne, Home Marke  01934  01934                % 08181 RGTR--
+300000042 Marvie, rue de Wiltz  01935  01935                % 08181 RGTR--
+300000111 Marvie, A la Boule (  01936  01936                % 08181 RGTR--
+300000047 Wardin, rue de Wiltz  01938  01938                % 08181 RGTR--
+300000029 Bras, Carrefour       01940  01940                % 08181 RGTR--
+121006003 Pommerlach (Knauf)    01944  01944                % 08181 RGTR--
+121006001 Pommerlach, Theis     01945  01945                % 08181 RGTR--
+120903038 Wiltz, Schumann       01948  01948                % 08181 RGTR--
+120903008 Wiltz, Pompjeesbau    01952  01952                % 08181 RGTR--
+120903021 Wiltz, Lann           01953  01953                % 08181 RGTR--
+120903008 Wiltz, Pompjeesbau    01954  01954                % 08181 RGTR--
+120903025 Wiltz, Wanselerstro.  01955  01955                % 08181 RGTR--
+120903010 Wiltz, Follmillen     01956  01956                % 08181 RGTR--
+120903036 Wiltz, Salzbaach      01957  01957                % 08181 RGTR--
+120903001 Wiltz, Aalen Tipp     01957  01957                % 08181 RGTR--
+120903031 Wiltz, Huuschtewee/P  02000  02000                % 08181 RGTR--
+120903035 Wiltz, Huuschtewee    02000  02000                % 08181 RGTR--
+120903011 Wiltz, Clinique       02001  02001                % 08181 RGTR--
+120903006 Wiltz, Brandbau       02002  02002                % 08181 RGTR--
+120903005 Wiltz, Belle Vue      02003  02003                % 08181 RGTR--
+120903003 Wiltz, Batzendelt     02004  02004                % 08181 RGTR--
+120402002 Büderscheid, Village  02008  02008                % 08181 RGTR--
+120503001 Heischtergronn, Beim  02012  02012                % 08181 RGTR--
+120502002 Heiderscheid          02017  02017                % 08181 RGTR--
+120502003 Heiderscheid, Zone C  02018  02018                % 08181 RGTR--
+120502001 Heiderscheid, Fuusse  02020  02020                % 08181 RGTR--
+140801005 Niederfeulen, Atelie  02023  02023                % 08181 RGTR--
+140801001 Niederfeulen, Belle   02024  02024                % 08181 RGTR--
+140801002 Niederfeulen, Faubou  02025  02025                % 08181 RGTR--
+140701025 Ettelbruck, Pl.du Ma  02029  02029                % 08181 RGTR--
+140701015 Ettelbruck, Ecole Pr  02031  02031                % 08181 RGTR--
+140701016 Ettelbruck, Gare      02033  02033                % 08181 RGTR--
+140701001 Ettelbruck, Anc. Cli  02033  02033                % 08181 RGTR--
+140701023 Ettelbruck, Lycée Te  02035                       % 08181 RGTR--
+*Z 08182 RGTR--                                             % 08182 RGTR--
+*L 537      300000026 140701023  02030  02135               % 08182 RGTR--
+*A ef 300000026 140701023 000001  02030  02135              % 08182 RGTR--
+*R 2 140701023 300000026 140701023  02030  02135            % 08182 RGTR--
+*G RGB 300000026 140701023  02030  02135                    % 08182 RGTR--
+*A VE 300000026 140701023 000001  02030  02135              % 08182 RGTR--
+*I FD 300000026 140701023        0003067  02030  02135      % 08182 RGTR--
+300000026 Bastogne, Renval             02030                % 08182 RGTR--
+300000023 Bastogne, Place Merc  02032  02032                % 08182 RGTR--
+300000027 Bastogne, Home Marke  02034  02034                % 08182 RGTR--
+300000042 Marvie, rue de Wiltz  02035  02035                % 08182 RGTR--
+300000111 Marvie, A la Boule (  02036  02036                % 08182 RGTR--
+300000047 Wardin, rue de Wiltz  02038  02038                % 08182 RGTR--
+300000029 Bras, Carrefour       02040  02040                % 08182 RGTR--
+121006003 Pommerlach (Knauf)    02044  02044                % 08182 RGTR--
+121006001 Pommerlach, Theis     02045  02045                % 08182 RGTR--
+120903038 Wiltz, Schumann       02048  02048                % 08182 RGTR--
+120903008 Wiltz, Pompjeesbau    02052  02052                % 08182 RGTR--
+120903021 Wiltz, Lann           02053  02053                % 08182 RGTR--
+120903008 Wiltz, Pompjeesbau    02054  02054                % 08182 RGTR--
+120903025 Wiltz, Wanselerstro.  02055  02055                % 08182 RGTR--
+120903010 Wiltz, Follmillen     02056  02056                % 08182 RGTR--
+120903036 Wiltz, Salzbaach      02057  02057                % 08182 RGTR--
+120903001 Wiltz, Aalen Tipp     02057  02057                % 08182 RGTR--
+120903031 Wiltz, Huuschtewee/P  02100  02100                % 08182 RGTR--
+120903035 Wiltz, Huuschtewee    02100  02100                % 08182 RGTR--
+120903011 Wiltz, Clinique       02101  02101                % 08182 RGTR--
+120903006 Wiltz, Brandbau       02102  02102                % 08182 RGTR--
+120903005 Wiltz, Belle Vue      02103  02103                % 08182 RGTR--
+120903003 Wiltz, Batzendelt     02104  02104                % 08182 RGTR--
+120402002 Büderscheid, Village  02108  02108                % 08182 RGTR--
+120503001 Heischtergronn, Beim  02112  02112                % 08182 RGTR--
+120502002 Heiderscheid          02117  02117                % 08182 RGTR--
+120502003 Heiderscheid, Zone C  02118  02118                % 08182 RGTR--
+120502001 Heiderscheid, Fuusse  02120  02120                % 08182 RGTR--
+140801005 Niederfeulen, Atelie  02123  02123                % 08182 RGTR--
+140801001 Niederfeulen, Belle   02124  02124                % 08182 RGTR--
+140801002 Niederfeulen, Faubou  02125  02125                % 08182 RGTR--
+140701025 Ettelbruck, Pl.du Ma  02129  02129                % 08182 RGTR--
+140701015 Ettelbruck, Ecole Pr  02131  02131                % 08182 RGTR--
+140701016 Ettelbruck, Gare      02133  02133                % 08182 RGTR--
+140701001 Ettelbruck, Anc. Cli  02133  02133                % 08182 RGTR--
+140701023 Ettelbruck, Lycée Te  02135                       % 08182 RGTR--
+*Z 08183 RGTR--                                             % 08183 RGTR--
+*L 537      300000026 140701023  01630  01735               % 08183 RGTR--
+*A ef 300000026 140701023 000003  01630  01735              % 08183 RGTR--
+*R 2 140701023 300000026 140701023  01630  01735            % 08183 RGTR--
+*G RGB 300000026 140701023  01630  01735                    % 08183 RGTR--
+*A VE 300000026 140701023 000003  01630  01735              % 08183 RGTR--
+*I FD 300000026 140701023        0001997  01630  01735      % 08183 RGTR--
+300000026 Bastogne, Renval             01630                % 08183 RGTR--
+300000023 Bastogne, Place Merc  01632  01632                % 08183 RGTR--
+300000027 Bastogne, Home Marke  01634  01634                % 08183 RGTR--
+300000042 Marvie, rue de Wiltz  01635  01635                % 08183 RGTR--
+300000111 Marvie, A la Boule (  01636  01636                % 08183 RGTR--
+300000047 Wardin, rue de Wiltz  01638  01638                % 08183 RGTR--
+300000029 Bras, Carrefour       01640  01640                % 08183 RGTR--
+121006003 Pommerlach (Knauf)    01644  01644                % 08183 RGTR--
+121006001 Pommerlach, Theis     01645  01645                % 08183 RGTR--
+120903038 Wiltz, Schumann       01648  01648                % 08183 RGTR--
+120903008 Wiltz, Pompjeesbau    01652  01652                % 08183 RGTR--
+120903021 Wiltz, Lann           01653  01653                % 08183 RGTR--
+120903008 Wiltz, Pompjeesbau    01654  01654                % 08183 RGTR--
+120903025 Wiltz, Wanselerstro.  01655  01655                % 08183 RGTR--
+120903010 Wiltz, Follmillen     01656  01656                % 08183 RGTR--
+120903036 Wiltz, Salzbaach      01657  01657                % 08183 RGTR--
+120903001 Wiltz, Aalen Tipp     01657  01657                % 08183 RGTR--
+120903031 Wiltz, Huuschtewee/P  01700  01700                % 08183 RGTR--
+120903035 Wiltz, Huuschtewee    01700  01700                % 08183 RGTR--
+120903011 Wiltz, Clinique       01701  01701                % 08183 RGTR--
+120903006 Wiltz, Brandbau       01702  01702                % 08183 RGTR--
+120903005 Wiltz, Belle Vue      01703  01703                % 08183 RGTR--
+120903003 Wiltz, Batzendelt     01704  01704                % 08183 RGTR--
+120402002 Büderscheid, Village  01708  01708                % 08183 RGTR--
+120503001 Heischtergronn, Beim  01712  01712                % 08183 RGTR--
+120502002 Heiderscheid          01717  01717                % 08183 RGTR--
+120502003 Heiderscheid, Zone C  01718  01718                % 08183 RGTR--
+120502001 Heiderscheid, Fuusse  01720  01720                % 08183 RGTR--
+140801005 Niederfeulen, Atelie  01723  01723                % 08183 RGTR--
+140801001 Niederfeulen, Belle   01724  01724                % 08183 RGTR--
+140801002 Niederfeulen, Faubou  01725  01725                % 08183 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01729  01729                % 08183 RGTR--
+140701015 Ettelbruck, Ecole Pr  01731  01731                % 08183 RGTR--
+140701016 Ettelbruck, Gare      01733  01733                % 08183 RGTR--
+140701001 Ettelbruck, Anc. Cli  01733  01733                % 08183 RGTR--
+140701023 Ettelbruck, Lycée Te  01735                       % 08183 RGTR--
+*Z 08184 RGTR--                                             % 08184 RGTR--
+*L 537      300000026 140701023  00630  00738               % 08184 RGTR--
+*A bv 300000026 140701023 000001  00630  00738              % 08184 RGTR--
+*R 2 140701023 300000026 140701023  00630  00738            % 08184 RGTR--
+*G RGB 300000026 140701023  00630  00738                    % 08184 RGTR--
+*A VE 300000026 140701023 000001  00630  00738              % 08184 RGTR--
+*I FD 300000026 140701023        0000827  00630  00738      % 08184 RGTR--
+300000026 Bastogne, Renval             00630                % 08184 RGTR--
+300000023 Bastogne, Place Merc  00632  00632                % 08184 RGTR--
+300000027 Bastogne, Home Marke  00634  00634                % 08184 RGTR--
+300000042 Marvie, rue de Wiltz  00636  00636                % 08184 RGTR--
+300000111 Marvie, A la Boule (  00636  00636                % 08184 RGTR--
+300000047 Wardin, rue de Wiltz  00639  00639                % 08184 RGTR--
+300000029 Bras, Carrefour       00641  00641                % 08184 RGTR--
+121006003 Pommerlach (Knauf)    00645  00645                % 08184 RGTR--
+121006001 Pommerlach, Theis     00646  00646                % 08184 RGTR--
+120903038 Wiltz, Schumann       00649  00649                % 08184 RGTR--
+120903008 Wiltz, Pompjeesbau    00653  00653                % 08184 RGTR--
+120903021 Wiltz, Lann           00655  00655                % 08184 RGTR--
+120903008 Wiltz, Pompjeesbau    00656  00656                % 08184 RGTR--
+120903025 Wiltz, Wanselerstro.  00657  00657                % 08184 RGTR--
+120903010 Wiltz, Follmillen     00658  00658                % 08184 RGTR--
+120903036 Wiltz, Salzbaach      00659  00659                % 08184 RGTR--
+120903001 Wiltz, Aalen Tipp     00659  00659                % 08184 RGTR--
+120903031 Wiltz, Huuschtewee/P  00702  00702                % 08184 RGTR--
+120903035 Wiltz, Huuschtewee    00702  00702                % 08184 RGTR--
+120903011 Wiltz, Clinique       00703  00703                % 08184 RGTR--
+120903006 Wiltz, Brandbau       00704  00704                % 08184 RGTR--
+120903005 Wiltz, Belle Vue      00705  00705                % 08184 RGTR--
+120903003 Wiltz, Batzendelt     00706  00706                % 08184 RGTR--
+120402002 Büderscheid, Village  00710  00710                % 08184 RGTR--
+120503001 Heischtergronn, Beim  00714  00714                % 08184 RGTR--
+120502002 Heiderscheid          00720  00720                % 08184 RGTR--
+120502003 Heiderscheid, Zone C  00721  00721                % 08184 RGTR--
+120502001 Heiderscheid, Fuusse  00722  00722                % 08184 RGTR--
+140801005 Niederfeulen, Atelie  00725  00725                % 08184 RGTR--
+140801001 Niederfeulen, Belle   00726  00726                % 08184 RGTR--
+140801002 Niederfeulen, Faubou  00727  00727                % 08184 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00732  00732                % 08184 RGTR--
+140701015 Ettelbruck, Ecole Pr  00734  00734                % 08184 RGTR--
+140701016 Ettelbruck, Gare      00736  00736                % 08184 RGTR--
+140701001 Ettelbruck, Anc. Cli  00737  00737                % 08184 RGTR--
+140701023 Ettelbruck, Lycée Te  00738                       % 08184 RGTR--
+*Z 08185 RGTR--                                             % 08185 RGTR--
+*L 537      300000026 140701023  00700  00808               % 08185 RGTR--
+*A ef 300000026 140701023 000001  00700  00808              % 08185 RGTR--
+*R 2 140701023 300000026 140701023  00700  00808            % 08185 RGTR--
+*G RGB 300000026 140701023  00700  00808                    % 08185 RGTR--
+*A VE 300000026 140701023 000001  00700  00808              % 08185 RGTR--
+*I FD 300000026 140701023        0002197  00700  00808      % 08185 RGTR--
+300000026 Bastogne, Renval             00700                % 08185 RGTR--
+300000023 Bastogne, Place Merc  00702  00702                % 08185 RGTR--
+300000027 Bastogne, Home Marke  00704  00704                % 08185 RGTR--
+300000042 Marvie, rue de Wiltz  00706  00706                % 08185 RGTR--
+300000111 Marvie, A la Boule (  00706  00706                % 08185 RGTR--
+300000047 Wardin, rue de Wiltz  00709  00709                % 08185 RGTR--
+300000029 Bras, Carrefour       00711  00711                % 08185 RGTR--
+121006003 Pommerlach (Knauf)    00715  00715                % 08185 RGTR--
+121006001 Pommerlach, Theis     00716  00716                % 08185 RGTR--
+120903038 Wiltz, Schumann       00719  00719                % 08185 RGTR--
+120903008 Wiltz, Pompjeesbau    00723  00723                % 08185 RGTR--
+120903021 Wiltz, Lann           00725  00725                % 08185 RGTR--
+120903008 Wiltz, Pompjeesbau    00726  00726                % 08185 RGTR--
+120903025 Wiltz, Wanselerstro.  00727  00727                % 08185 RGTR--
+120903010 Wiltz, Follmillen     00728  00728                % 08185 RGTR--
+120903036 Wiltz, Salzbaach      00729  00729                % 08185 RGTR--
+120903001 Wiltz, Aalen Tipp     00729  00729                % 08185 RGTR--
+120903031 Wiltz, Huuschtewee/P  00732  00732                % 08185 RGTR--
+120903035 Wiltz, Huuschtewee    00732  00732                % 08185 RGTR--
+120903011 Wiltz, Clinique       00733  00733                % 08185 RGTR--
+120903006 Wiltz, Brandbau       00734  00734                % 08185 RGTR--
+120903005 Wiltz, Belle Vue      00735  00735                % 08185 RGTR--
+120903003 Wiltz, Batzendelt     00736  00736                % 08185 RGTR--
+120402002 Büderscheid, Village  00740  00740                % 08185 RGTR--
+120503001 Heischtergronn, Beim  00744  00744                % 08185 RGTR--
+120502002 Heiderscheid          00750  00750                % 08185 RGTR--
+120502003 Heiderscheid, Zone C  00751  00751                % 08185 RGTR--
+120502001 Heiderscheid, Fuusse  00752  00752                % 08185 RGTR--
+140801005 Niederfeulen, Atelie  00755  00755                % 08185 RGTR--
+140801001 Niederfeulen, Belle   00756  00756                % 08185 RGTR--
+140801002 Niederfeulen, Faubou  00757  00757                % 08185 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00802  00802                % 08185 RGTR--
+140701015 Ettelbruck, Ecole Pr  00804  00804                % 08185 RGTR--
+140701016 Ettelbruck, Gare      00806  00806                % 08185 RGTR--
+140701001 Ettelbruck, Anc. Cli  00807  00807                % 08185 RGTR--
+140701023 Ettelbruck, Lycée Te  00808                       % 08185 RGTR--
+*Z 08186 RGTR--                                             % 08186 RGTR--
+*L 537      300000026 140701023  00730  00838               % 08186 RGTR--
+*A ef 300000026 140701023 000001  00730  00838              % 08186 RGTR--
+*R 2 140701023 300000026 140701023  00730  00838            % 08186 RGTR--
+*G RGB 300000026 140701023  00730  00838                    % 08186 RGTR--
+*A VE 300000026 140701023 000001  00730  00838              % 08186 RGTR--
+*I FD 300000026 140701023        0002366  00730  00838      % 08186 RGTR--
+300000026 Bastogne, Renval             00730                % 08186 RGTR--
+300000023 Bastogne, Place Merc  00732  00732                % 08186 RGTR--
+300000027 Bastogne, Home Marke  00734  00734                % 08186 RGTR--
+300000042 Marvie, rue de Wiltz  00736  00736                % 08186 RGTR--
+300000111 Marvie, A la Boule (  00736  00736                % 08186 RGTR--
+300000047 Wardin, rue de Wiltz  00739  00739                % 08186 RGTR--
+300000029 Bras, Carrefour       00741  00741                % 08186 RGTR--
+121006003 Pommerlach (Knauf)    00745  00745                % 08186 RGTR--
+121006001 Pommerlach, Theis     00746  00746                % 08186 RGTR--
+120903038 Wiltz, Schumann       00749  00749                % 08186 RGTR--
+120903008 Wiltz, Pompjeesbau    00753  00753                % 08186 RGTR--
+120903021 Wiltz, Lann           00755  00755                % 08186 RGTR--
+120903008 Wiltz, Pompjeesbau    00756  00756                % 08186 RGTR--
+120903025 Wiltz, Wanselerstro.  00757  00757                % 08186 RGTR--
+120903010 Wiltz, Follmillen     00758  00758                % 08186 RGTR--
+120903036 Wiltz, Salzbaach      00759  00759                % 08186 RGTR--
+120903001 Wiltz, Aalen Tipp     00759  00759                % 08186 RGTR--
+120903031 Wiltz, Huuschtewee/P  00802  00802                % 08186 RGTR--
+120903035 Wiltz, Huuschtewee    00802  00802                % 08186 RGTR--
+120903011 Wiltz, Clinique       00803  00803                % 08186 RGTR--
+120903006 Wiltz, Brandbau       00804  00804                % 08186 RGTR--
+120903005 Wiltz, Belle Vue      00805  00805                % 08186 RGTR--
+120903003 Wiltz, Batzendelt     00806  00806                % 08186 RGTR--
+120402002 Büderscheid, Village  00810  00810                % 08186 RGTR--
+120503001 Heischtergronn, Beim  00814  00814                % 08186 RGTR--
+120502002 Heiderscheid          00820  00820                % 08186 RGTR--
+120502003 Heiderscheid, Zone C  00821  00821                % 08186 RGTR--
+120502001 Heiderscheid, Fuusse  00822  00822                % 08186 RGTR--
+140801005 Niederfeulen, Atelie  00825  00825                % 08186 RGTR--
+140801001 Niederfeulen, Belle   00826  00826                % 08186 RGTR--
+140801002 Niederfeulen, Faubou  00827  00827                % 08186 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00832  00832                % 08186 RGTR--
+140701015 Ettelbruck, Ecole Pr  00834  00834                % 08186 RGTR--
+140701016 Ettelbruck, Gare      00836  00836                % 08186 RGTR--
+140701001 Ettelbruck, Anc. Cli  00837  00837                % 08186 RGTR--
+140701023 Ettelbruck, Lycée Te  00838                       % 08186 RGTR--
+*Z 08187 RGTR--                                             % 08187 RGTR--
+*L 537      300000026 140701023  00830  00938               % 08187 RGTR--
+*A ef 300000026 140701023 000001  00830  00938              % 08187 RGTR--
+*R 2 140701023 300000026 140701023  00830  00938            % 08187 RGTR--
+*G RGB 300000026 140701023  00830  00938                    % 08187 RGTR--
+*A VE 300000026 140701023 000001  00830  00938              % 08187 RGTR--
+*I FD 300000026 140701023        0000926  00830  00938      % 08187 RGTR--
+300000026 Bastogne, Renval             00830                % 08187 RGTR--
+300000023 Bastogne, Place Merc  00832  00832                % 08187 RGTR--
+300000027 Bastogne, Home Marke  00834  00834                % 08187 RGTR--
+300000042 Marvie, rue de Wiltz  00836  00836                % 08187 RGTR--
+300000111 Marvie, A la Boule (  00836  00836                % 08187 RGTR--
+300000047 Wardin, rue de Wiltz  00839  00839                % 08187 RGTR--
+300000029 Bras, Carrefour       00841  00841                % 08187 RGTR--
+121006003 Pommerlach (Knauf)    00845  00845                % 08187 RGTR--
+121006001 Pommerlach, Theis     00846  00846                % 08187 RGTR--
+120903038 Wiltz, Schumann       00849  00849                % 08187 RGTR--
+120903008 Wiltz, Pompjeesbau    00853  00853                % 08187 RGTR--
+120903021 Wiltz, Lann           00855  00855                % 08187 RGTR--
+120903008 Wiltz, Pompjeesbau    00856  00856                % 08187 RGTR--
+120903025 Wiltz, Wanselerstro.  00857  00857                % 08187 RGTR--
+120903010 Wiltz, Follmillen     00858  00858                % 08187 RGTR--
+120903036 Wiltz, Salzbaach      00859  00859                % 08187 RGTR--
+120903001 Wiltz, Aalen Tipp     00859  00859                % 08187 RGTR--
+120903031 Wiltz, Huuschtewee/P  00902  00902                % 08187 RGTR--
+120903035 Wiltz, Huuschtewee    00902  00902                % 08187 RGTR--
+120903011 Wiltz, Clinique       00903  00903                % 08187 RGTR--
+120903006 Wiltz, Brandbau       00904  00904                % 08187 RGTR--
+120903005 Wiltz, Belle Vue      00905  00905                % 08187 RGTR--
+120903003 Wiltz, Batzendelt     00906  00906                % 08187 RGTR--
+120402002 Büderscheid, Village  00910  00910                % 08187 RGTR--
+120503001 Heischtergronn, Beim  00914  00914                % 08187 RGTR--
+120502002 Heiderscheid          00920  00920                % 08187 RGTR--
+120502003 Heiderscheid, Zone C  00921  00921                % 08187 RGTR--
+120502001 Heiderscheid, Fuusse  00922  00922                % 08187 RGTR--
+140801005 Niederfeulen, Atelie  00925  00925                % 08187 RGTR--
+140801001 Niederfeulen, Belle   00926  00926                % 08187 RGTR--
+140801002 Niederfeulen, Faubou  00927  00927                % 08187 RGTR--
+140701025 Ettelbruck, Pl.du Ma  00932  00932                % 08187 RGTR--
+140701015 Ettelbruck, Ecole Pr  00934  00934                % 08187 RGTR--
+140701016 Ettelbruck, Gare      00936  00936                % 08187 RGTR--
+140701001 Ettelbruck, Anc. Cli  00937  00937                % 08187 RGTR--
+140701023 Ettelbruck, Lycée Te  00938                       % 08187 RGTR--
+*Z 08188 RGTR--                                             % 08188 RGTR--
+*L 537      300000026 140701023  01600  01708               % 08188 RGTR--
+*A ef 300000026 140701023 000001  01600  01708              % 08188 RGTR--
+*R 2 140701023 300000026 140701023  01600  01708            % 08188 RGTR--
+*G RGB 300000026 140701023  01600  01708                    % 08188 RGTR--
+*A VE 300000026 140701023 000001  01600  01708              % 08188 RGTR--
+*I FD 300000026 140701023        0001911  01600  01708      % 08188 RGTR--
+300000026 Bastogne, Renval             01600                % 08188 RGTR--
+300000023 Bastogne, Place Merc  01602  01602                % 08188 RGTR--
+300000027 Bastogne, Home Marke  01604  01604                % 08188 RGTR--
+300000042 Marvie, rue de Wiltz  01606  01606                % 08188 RGTR--
+300000111 Marvie, A la Boule (  01606  01606                % 08188 RGTR--
+300000047 Wardin, rue de Wiltz  01609  01609                % 08188 RGTR--
+300000029 Bras, Carrefour       01611  01611                % 08188 RGTR--
+121006003 Pommerlach (Knauf)    01615  01615                % 08188 RGTR--
+121006001 Pommerlach, Theis     01616  01616                % 08188 RGTR--
+120903038 Wiltz, Schumann       01619  01619                % 08188 RGTR--
+120903008 Wiltz, Pompjeesbau    01623  01623                % 08188 RGTR--
+120903021 Wiltz, Lann           01625  01625                % 08188 RGTR--
+120903008 Wiltz, Pompjeesbau    01626  01626                % 08188 RGTR--
+120903025 Wiltz, Wanselerstro.  01627  01627                % 08188 RGTR--
+120903010 Wiltz, Follmillen     01628  01628                % 08188 RGTR--
+120903036 Wiltz, Salzbaach      01629  01629                % 08188 RGTR--
+120903001 Wiltz, Aalen Tipp     01629  01629                % 08188 RGTR--
+120903031 Wiltz, Huuschtewee/P  01632  01632                % 08188 RGTR--
+120903035 Wiltz, Huuschtewee    01632  01632                % 08188 RGTR--
+120903011 Wiltz, Clinique       01633  01633                % 08188 RGTR--
+120903006 Wiltz, Brandbau       01634  01634                % 08188 RGTR--
+120903005 Wiltz, Belle Vue      01635  01635                % 08188 RGTR--
+120903003 Wiltz, Batzendelt     01636  01636                % 08188 RGTR--
+120402002 Büderscheid, Village  01640  01640                % 08188 RGTR--
+120503001 Heischtergronn, Beim  01644  01644                % 08188 RGTR--
+120502002 Heiderscheid          01650  01650                % 08188 RGTR--
+120502003 Heiderscheid, Zone C  01651  01651                % 08188 RGTR--
+120502001 Heiderscheid, Fuusse  01652  01652                % 08188 RGTR--
+140801005 Niederfeulen, Atelie  01655  01655                % 08188 RGTR--
+140801001 Niederfeulen, Belle   01656  01656                % 08188 RGTR--
+140801002 Niederfeulen, Faubou  01657  01657                % 08188 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01702  01702                % 08188 RGTR--
+140701015 Ettelbruck, Ecole Pr  01704  01704                % 08188 RGTR--
+140701016 Ettelbruck, Gare      01706  01706                % 08188 RGTR--
+140701001 Ettelbruck, Anc. Cli  01707  01707                % 08188 RGTR--
+140701023 Ettelbruck, Lycée Te  01708                       % 08188 RGTR--
+*Z 08189 RGTR--                                             % 08189 RGTR--
+*L 537      300000026 140701023  01630  01738               % 08189 RGTR--
+*A ef 300000026 140701023 000001  01630  01738              % 08189 RGTR--
+*R 2 140701023 300000026 140701023  01630  01738            % 08189 RGTR--
+*G RGB 300000026 140701023  01630  01738                    % 08189 RGTR--
+*A VE 300000026 140701023 000001  01630  01738              % 08189 RGTR--
+*I FD 300000026 140701023        0001997  01630  01738      % 08189 RGTR--
+300000026 Bastogne, Renval             01630                % 08189 RGTR--
+300000023 Bastogne, Place Merc  01632  01632                % 08189 RGTR--
+300000027 Bastogne, Home Marke  01634  01634                % 08189 RGTR--
+300000042 Marvie, rue de Wiltz  01636  01636                % 08189 RGTR--
+300000111 Marvie, A la Boule (  01636  01636                % 08189 RGTR--
+300000047 Wardin, rue de Wiltz  01639  01639                % 08189 RGTR--
+300000029 Bras, Carrefour       01641  01641                % 08189 RGTR--
+121006003 Pommerlach (Knauf)    01645  01645                % 08189 RGTR--
+121006001 Pommerlach, Theis     01646  01646                % 08189 RGTR--
+120903038 Wiltz, Schumann       01649  01649                % 08189 RGTR--
+120903008 Wiltz, Pompjeesbau    01653  01653                % 08189 RGTR--
+120903021 Wiltz, Lann           01655  01655                % 08189 RGTR--
+120903008 Wiltz, Pompjeesbau    01656  01656                % 08189 RGTR--
+120903025 Wiltz, Wanselerstro.  01657  01657                % 08189 RGTR--
+120903010 Wiltz, Follmillen     01658  01658                % 08189 RGTR--
+120903036 Wiltz, Salzbaach      01659  01659                % 08189 RGTR--
+120903001 Wiltz, Aalen Tipp     01659  01659                % 08189 RGTR--
+120903031 Wiltz, Huuschtewee/P  01702  01702                % 08189 RGTR--
+120903035 Wiltz, Huuschtewee    01702  01702                % 08189 RGTR--
+120903011 Wiltz, Clinique       01703  01703                % 08189 RGTR--
+120903006 Wiltz, Brandbau       01704  01704                % 08189 RGTR--
+120903005 Wiltz, Belle Vue      01705  01705                % 08189 RGTR--
+120903003 Wiltz, Batzendelt     01706  01706                % 08189 RGTR--
+120402002 Büderscheid, Village  01710  01710                % 08189 RGTR--
+120503001 Heischtergronn, Beim  01714  01714                % 08189 RGTR--
+120502002 Heiderscheid          01720  01720                % 08189 RGTR--
+120502003 Heiderscheid, Zone C  01721  01721                % 08189 RGTR--
+120502001 Heiderscheid, Fuusse  01722  01722                % 08189 RGTR--
+140801005 Niederfeulen, Atelie  01725  01725                % 08189 RGTR--
+140801001 Niederfeulen, Belle   01726  01726                % 08189 RGTR--
+140801002 Niederfeulen, Faubou  01727  01727                % 08189 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01732  01732                % 08189 RGTR--
+140701015 Ettelbruck, Ecole Pr  01734  01734                % 08189 RGTR--
+140701016 Ettelbruck, Gare      01736  01736                % 08189 RGTR--
+140701001 Ettelbruck, Anc. Cli  01737  01737                % 08189 RGTR--
+140701023 Ettelbruck, Lycée Te  01738                       % 08189 RGTR--
+*Z 08190 RGTR--                                             % 08190 RGTR--
+*L 537      300000026 140701023  01730  01838               % 08190 RGTR--
+*A ef 300000026 140701023 000001  01730  01838              % 08190 RGTR--
+*R 2 140701023 300000026 140701023  01730  01838            % 08190 RGTR--
+*G RGB 300000026 140701023  01730  01838                    % 08190 RGTR--
+*A VE 300000026 140701023 000001  01730  01838              % 08190 RGTR--
+*I FD 300000026 140701023        0001998  01730  01838      % 08190 RGTR--
+300000026 Bastogne, Renval             01730                % 08190 RGTR--
+300000023 Bastogne, Place Merc  01732  01732                % 08190 RGTR--
+300000027 Bastogne, Home Marke  01734  01734                % 08190 RGTR--
+300000042 Marvie, rue de Wiltz  01736  01736                % 08190 RGTR--
+300000111 Marvie, A la Boule (  01736  01736                % 08190 RGTR--
+300000047 Wardin, rue de Wiltz  01739  01739                % 08190 RGTR--
+300000029 Bras, Carrefour       01741  01741                % 08190 RGTR--
+121006003 Pommerlach (Knauf)    01745  01745                % 08190 RGTR--
+121006001 Pommerlach, Theis     01746  01746                % 08190 RGTR--
+120903038 Wiltz, Schumann       01749  01749                % 08190 RGTR--
+120903008 Wiltz, Pompjeesbau    01753  01753                % 08190 RGTR--
+120903021 Wiltz, Lann           01755  01755                % 08190 RGTR--
+120903008 Wiltz, Pompjeesbau    01756  01756                % 08190 RGTR--
+120903025 Wiltz, Wanselerstro.  01757  01757                % 08190 RGTR--
+120903010 Wiltz, Follmillen     01758  01758                % 08190 RGTR--
+120903036 Wiltz, Salzbaach      01759  01759                % 08190 RGTR--
+120903001 Wiltz, Aalen Tipp     01759  01759                % 08190 RGTR--
+120903031 Wiltz, Huuschtewee/P  01802  01802                % 08190 RGTR--
+120903035 Wiltz, Huuschtewee    01802  01802                % 08190 RGTR--
+120903011 Wiltz, Clinique       01803  01803                % 08190 RGTR--
+120903006 Wiltz, Brandbau       01804  01804                % 08190 RGTR--
+120903005 Wiltz, Belle Vue      01805  01805                % 08190 RGTR--
+120903003 Wiltz, Batzendelt     01806  01806                % 08190 RGTR--
+120402002 Büderscheid, Village  01810  01810                % 08190 RGTR--
+120503001 Heischtergronn, Beim  01814  01814                % 08190 RGTR--
+120502002 Heiderscheid          01820  01820                % 08190 RGTR--
+120502003 Heiderscheid, Zone C  01821  01821                % 08190 RGTR--
+120502001 Heiderscheid, Fuusse  01822  01822                % 08190 RGTR--
+140801005 Niederfeulen, Atelie  01825  01825                % 08190 RGTR--
+140801001 Niederfeulen, Belle   01826  01826                % 08190 RGTR--
+140801002 Niederfeulen, Faubou  01827  01827                % 08190 RGTR--
+140701025 Ettelbruck, Pl.du Ma  01832  01832                % 08190 RGTR--
+140701015 Ettelbruck, Ecole Pr  01834  01834                % 08190 RGTR--
+140701016 Ettelbruck, Gare      01836  01836                % 08190 RGTR--
+140701001 Ettelbruck, Anc. Cli  01837  01837                % 08190 RGTR--
+140701023 Ettelbruck, Lycée Te  01838                       % 08190 RGTR--

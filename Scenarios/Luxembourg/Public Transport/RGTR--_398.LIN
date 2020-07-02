@@ -1,0 +1,1723 @@
+*F 03 2
+*Z 09362 RGTR--                                             % 09362 RGTR--
+*L 398      220903008 400000087  00808  00850               % 09362 RGTR--
+*A ew 220903008 400000087 000001  00808  00850              % 09362 RGTR--
+*A RJ 220903008 400000087 000001  00808  00850              % 09362 RGTR--
+*R 1 400000087 220903008 400000087  00808  00850            % 09362 RGTR--
+*G RGB 220903008 400000087  00808  00850                    % 09362 RGTR--
+*A VE 220903008 400000087 000001  00808  00850              % 09362 RGTR--
+*I FD 220903008 400000087        0002193  00808  00850      % 09362 RGTR--
+220903008 Rodange, Gare                00808                % 09362 RGTR--
+220903009 Rodange, Gendarmerie  00809  00809                % 09362 RGTR--
+220903020 Rodange, Schlackenmi  00810  00810                % 09362 RGTR--
+220903004 Rodange, Fonderie     00812  00812                % 09362 RGTR--
+400000126 Mt.St.Martin, Auchan  00816 -00816                % 09362 RGTR--
+400000127 Mt.St.Martin, Maison  00818 -00818                % 09362 RGTR--
+400000061 Mt.St.Martin, Hôpita  00819 -00819                % 09362 RGTR--
+400000062 Mt.St.Martin, Nancy   00820 -00820                % 09362 RGTR--
+400000142 Mt.St.Martin, Centre  00821 -00821                % 09362 RGTR--
+400000060 Mt.St.Martin, Foch    00823 -00823                % 09362 RGTR--
+400000063 Mt.St.Martin, Résist  00824 -00824                % 09362 RGTR--
+400000056 Mt.St.Martin, Cité J  00826 -00826                % 09362 RGTR--
+400000057 Mt.St.Martin, Notre   00826 -00826                % 09362 RGTR--
+400000043 Longwy, Vauban        00827 -00827                % 09362 RGTR--
+400000042 Longwy, Stade         00828 -00828                % 09362 RGTR--
+400000037 Longwy, Place Darche  00829 -00829                % 09362 RGTR--
+400000029 Longwy, 11 Novembre   00830 -00830                % 09362 RGTR--
+400000039 Longwy, République    00831 -00831                % 09362 RGTR--
+400000032 Longwy, Home City     00832 -00832                % 09362 RGTR--
+400000040 Longwy, rue de Metz   00833 -00833                % 09362 RGTR--
+400000144 Longwy, Labro         00834 -00834                % 09362 RGTR--
+400000030 Longwy, Bas/Espace B  00835 -00835                % 09362 RGTR--
+400000036 Longwy, Merlin        00837 -00837                % 09362 RGTR--
+400000033 Longwy, Lafontaine    00838 -00838                % 09362 RGTR--
+400000051 Mexy, La Forchette    00841 -00841                % 09362 RGTR--
+400000049 Mexy, Condé           00842 -00842                % 09362 RGTR--
+400000050 Mexy, Ecole           00843 -00843                % 09362 RGTR--
+400000052 Mexy, Lorraine        00843 -00843                % 09362 RGTR--
+400000145 Mexy, La Grotte       00844 -00844                % 09362 RGTR--
+400000088 St. Charles, Rhin     00848 -00848                % 09362 RGTR--
+400000086 St. Charles, Château  00848 -00848                % 09362 RGTR--
+400000087 St. Charles, Eglise   00850                       % 09362 RGTR--
+*Z 09363 RGTR--                                             % 09363 RGTR--
+*L 398      220903008 400000087  00908  00950               % 09363 RGTR--
+*A eb 220903008 400000087 000001  00908  00950              % 09363 RGTR--
+*A RJ 220903008 400000087 000001  00908  00950              % 09363 RGTR--
+*R 1 400000087 220903008 400000087  00908  00950            % 09363 RGTR--
+*G RGB 220903008 400000087  00908  00950                    % 09363 RGTR--
+*A VE 220903008 400000087 000001  00908  00950              % 09363 RGTR--
+*I FD 220903008 400000087        0002194  00908  00950      % 09363 RGTR--
+220903008 Rodange, Gare                00908                % 09363 RGTR--
+220903009 Rodange, Gendarmerie  00909  00909                % 09363 RGTR--
+220903020 Rodange, Schlackenmi  00910  00910                % 09363 RGTR--
+220903004 Rodange, Fonderie     00912  00912                % 09363 RGTR--
+400000126 Mt.St.Martin, Auchan  00916 -00916                % 09363 RGTR--
+400000127 Mt.St.Martin, Maison  00918 -00918                % 09363 RGTR--
+400000061 Mt.St.Martin, Hôpita  00919 -00919                % 09363 RGTR--
+400000062 Mt.St.Martin, Nancy   00920 -00920                % 09363 RGTR--
+400000142 Mt.St.Martin, Centre  00921 -00921                % 09363 RGTR--
+400000060 Mt.St.Martin, Foch    00923 -00923                % 09363 RGTR--
+400000063 Mt.St.Martin, Résist  00924 -00924                % 09363 RGTR--
+400000056 Mt.St.Martin, Cité J  00926 -00926                % 09363 RGTR--
+400000057 Mt.St.Martin, Notre   00926 -00926                % 09363 RGTR--
+400000043 Longwy, Vauban        00927 -00927                % 09363 RGTR--
+400000042 Longwy, Stade         00928 -00928                % 09363 RGTR--
+400000037 Longwy, Place Darche  00929 -00929                % 09363 RGTR--
+400000029 Longwy, 11 Novembre   00930 -00930                % 09363 RGTR--
+400000039 Longwy, République    00931 -00931                % 09363 RGTR--
+400000032 Longwy, Home City     00932 -00932                % 09363 RGTR--
+400000040 Longwy, rue de Metz   00933 -00933                % 09363 RGTR--
+400000144 Longwy, Labro         00934 -00934                % 09363 RGTR--
+400000030 Longwy, Bas/Espace B  00935 -00935                % 09363 RGTR--
+400000036 Longwy, Merlin        00937 -00937                % 09363 RGTR--
+400000033 Longwy, Lafontaine    00938 -00938                % 09363 RGTR--
+400000051 Mexy, La Forchette    00941 -00941                % 09363 RGTR--
+400000049 Mexy, Condé           00942 -00942                % 09363 RGTR--
+400000050 Mexy, Ecole           00943 -00943                % 09363 RGTR--
+400000052 Mexy, Lorraine        00943 -00943                % 09363 RGTR--
+400000145 Mexy, La Grotte       00944 -00944                % 09363 RGTR--
+400000088 St. Charles, Rhin     00948 -00948                % 09363 RGTR--
+400000086 St. Charles, Château  00948 -00948                % 09363 RGTR--
+400000087 St. Charles, Eglise   00950                       % 09363 RGTR--
+*Z 09364 RGTR--                                             % 09364 RGTR--
+*L 398      220903008 400000087  01608  01650               % 09364 RGTR--
+*A eb 220903008 400000087 000001  01608  01650              % 09364 RGTR--
+*A RJ 220903008 400000087 000001  01608  01650              % 09364 RGTR--
+*R 1 400000087 220903008 400000087  01608  01650            % 09364 RGTR--
+*G RGB 220903008 400000087  01608  01650                    % 09364 RGTR--
+*A VE 220903008 400000087 000001  01608  01650              % 09364 RGTR--
+*I FD 220903008 400000087        0002192  01608  01650      % 09364 RGTR--
+220903008 Rodange, Gare                01608                % 09364 RGTR--
+220903009 Rodange, Gendarmerie  01609  01609                % 09364 RGTR--
+220903020 Rodange, Schlackenmi  01610  01610                % 09364 RGTR--
+220903004 Rodange, Fonderie     01612  01612                % 09364 RGTR--
+400000126 Mt.St.Martin, Auchan  01616 -01616                % 09364 RGTR--
+400000127 Mt.St.Martin, Maison  01618 -01618                % 09364 RGTR--
+400000061 Mt.St.Martin, Hôpita  01619 -01619                % 09364 RGTR--
+400000062 Mt.St.Martin, Nancy   01620 -01620                % 09364 RGTR--
+400000142 Mt.St.Martin, Centre  01621 -01621                % 09364 RGTR--
+400000060 Mt.St.Martin, Foch    01623 -01623                % 09364 RGTR--
+400000063 Mt.St.Martin, Résist  01624 -01624                % 09364 RGTR--
+400000056 Mt.St.Martin, Cité J  01626 -01626                % 09364 RGTR--
+400000057 Mt.St.Martin, Notre   01626 -01626                % 09364 RGTR--
+400000043 Longwy, Vauban        01627 -01627                % 09364 RGTR--
+400000042 Longwy, Stade         01628 -01628                % 09364 RGTR--
+400000037 Longwy, Place Darche  01629 -01629                % 09364 RGTR--
+400000029 Longwy, 11 Novembre   01630 -01630                % 09364 RGTR--
+400000039 Longwy, République    01631 -01631                % 09364 RGTR--
+400000032 Longwy, Home City     01632 -01632                % 09364 RGTR--
+400000040 Longwy, rue de Metz   01633 -01633                % 09364 RGTR--
+400000144 Longwy, Labro         01634 -01634                % 09364 RGTR--
+400000030 Longwy, Bas/Espace B  01635 -01635                % 09364 RGTR--
+400000036 Longwy, Merlin        01637 -01637                % 09364 RGTR--
+400000033 Longwy, Lafontaine    01638 -01638                % 09364 RGTR--
+400000051 Mexy, La Forchette    01641 -01641                % 09364 RGTR--
+400000049 Mexy, Condé           01642 -01642                % 09364 RGTR--
+400000050 Mexy, Ecole           01643 -01643                % 09364 RGTR--
+400000052 Mexy, Lorraine        01643 -01643                % 09364 RGTR--
+400000145 Mexy, La Grotte       01644 -01644                % 09364 RGTR--
+400000088 St. Charles, Rhin     01648 -01648                % 09364 RGTR--
+400000086 St. Charles, Château  01648 -01648                % 09364 RGTR--
+400000087 St. Charles, Eglise   01650                       % 09364 RGTR--
+*Z 09365 RGTR--                                             % 09365 RGTR--
+*L 398      220903008 400000087  01708  01750               % 09365 RGTR--
+*A ew 220903008 400000087 000001  01708  01750              % 09365 RGTR--
+*A RJ 220903008 400000087 000001  01708  01750              % 09365 RGTR--
+*R 1 400000087 220903008 400000087  01708  01750            % 09365 RGTR--
+*G RGB 220903008 400000087  01708  01750                    % 09365 RGTR--
+*A VE 220903008 400000087 000001  01708  01750              % 09365 RGTR--
+*I FD 220903008 400000087        0002195  01708  01750      % 09365 RGTR--
+220903008 Rodange, Gare                01708                % 09365 RGTR--
+220903009 Rodange, Gendarmerie  01709  01709                % 09365 RGTR--
+220903020 Rodange, Schlackenmi  01710  01710                % 09365 RGTR--
+220903004 Rodange, Fonderie     01712  01712                % 09365 RGTR--
+400000126 Mt.St.Martin, Auchan  01716 -01716                % 09365 RGTR--
+400000127 Mt.St.Martin, Maison  01718 -01718                % 09365 RGTR--
+400000061 Mt.St.Martin, Hôpita  01719 -01719                % 09365 RGTR--
+400000062 Mt.St.Martin, Nancy   01720 -01720                % 09365 RGTR--
+400000142 Mt.St.Martin, Centre  01721 -01721                % 09365 RGTR--
+400000060 Mt.St.Martin, Foch    01723 -01723                % 09365 RGTR--
+400000063 Mt.St.Martin, Résist  01724 -01724                % 09365 RGTR--
+400000056 Mt.St.Martin, Cité J  01726 -01726                % 09365 RGTR--
+400000057 Mt.St.Martin, Notre   01726 -01726                % 09365 RGTR--
+400000043 Longwy, Vauban        01727 -01727                % 09365 RGTR--
+400000042 Longwy, Stade         01728 -01728                % 09365 RGTR--
+400000037 Longwy, Place Darche  01729 -01729                % 09365 RGTR--
+400000029 Longwy, 11 Novembre   01730 -01730                % 09365 RGTR--
+400000039 Longwy, République    01731 -01731                % 09365 RGTR--
+400000032 Longwy, Home City     01732 -01732                % 09365 RGTR--
+400000040 Longwy, rue de Metz   01733 -01733                % 09365 RGTR--
+400000144 Longwy, Labro         01734 -01734                % 09365 RGTR--
+400000030 Longwy, Bas/Espace B  01735 -01735                % 09365 RGTR--
+400000036 Longwy, Merlin        01737 -01737                % 09365 RGTR--
+400000033 Longwy, Lafontaine    01738 -01738                % 09365 RGTR--
+400000051 Mexy, La Forchette    01741 -01741                % 09365 RGTR--
+400000049 Mexy, Condé           01742 -01742                % 09365 RGTR--
+400000050 Mexy, Ecole           01743 -01743                % 09365 RGTR--
+400000052 Mexy, Lorraine        01743 -01743                % 09365 RGTR--
+400000145 Mexy, La Grotte       01744 -01744                % 09365 RGTR--
+400000088 St. Charles, Rhin     01748 -01748                % 09365 RGTR--
+400000086 St. Charles, Château  01748 -01748                % 09365 RGTR--
+400000087 St. Charles, Eglise   01750                       % 09365 RGTR--
+*Z 09366 RGTR--                                             % 09366 RGTR--
+*L 398      220903008 400000087  01808  01850               % 09366 RGTR--
+*A eb 220903008 400000087 000001  01808  01850              % 09366 RGTR--
+*A RJ 220903008 400000087 000001  01808  01850              % 09366 RGTR--
+*R 1 400000087 220903008 400000087  01808  01850            % 09366 RGTR--
+*G RGB 220903008 400000087  01808  01850                    % 09366 RGTR--
+*A VE 220903008 400000087 000001  01808  01850              % 09366 RGTR--
+*I FD 220903008 400000087        0002196  01808  01850      % 09366 RGTR--
+220903008 Rodange, Gare                01808                % 09366 RGTR--
+220903009 Rodange, Gendarmerie  01809  01809                % 09366 RGTR--
+220903020 Rodange, Schlackenmi  01810  01810                % 09366 RGTR--
+220903004 Rodange, Fonderie     01812  01812                % 09366 RGTR--
+400000126 Mt.St.Martin, Auchan  01816 -01816                % 09366 RGTR--
+400000127 Mt.St.Martin, Maison  01818 -01818                % 09366 RGTR--
+400000061 Mt.St.Martin, Hôpita  01819 -01819                % 09366 RGTR--
+400000062 Mt.St.Martin, Nancy   01820 -01820                % 09366 RGTR--
+400000142 Mt.St.Martin, Centre  01821 -01821                % 09366 RGTR--
+400000060 Mt.St.Martin, Foch    01823 -01823                % 09366 RGTR--
+400000063 Mt.St.Martin, Résist  01824 -01824                % 09366 RGTR--
+400000056 Mt.St.Martin, Cité J  01826 -01826                % 09366 RGTR--
+400000057 Mt.St.Martin, Notre   01826 -01826                % 09366 RGTR--
+400000043 Longwy, Vauban        01827 -01827                % 09366 RGTR--
+400000042 Longwy, Stade         01828 -01828                % 09366 RGTR--
+400000037 Longwy, Place Darche  01829 -01829                % 09366 RGTR--
+400000029 Longwy, 11 Novembre   01830 -01830                % 09366 RGTR--
+400000039 Longwy, République    01831 -01831                % 09366 RGTR--
+400000032 Longwy, Home City     01832 -01832                % 09366 RGTR--
+400000040 Longwy, rue de Metz   01833 -01833                % 09366 RGTR--
+400000144 Longwy, Labro         01834 -01834                % 09366 RGTR--
+400000030 Longwy, Bas/Espace B  01835 -01835                % 09366 RGTR--
+400000036 Longwy, Merlin        01837 -01837                % 09366 RGTR--
+400000033 Longwy, Lafontaine    01838 -01838                % 09366 RGTR--
+400000051 Mexy, La Forchette    01841 -01841                % 09366 RGTR--
+400000049 Mexy, Condé           01842 -01842                % 09366 RGTR--
+400000050 Mexy, Ecole           01843 -01843                % 09366 RGTR--
+400000052 Mexy, Lorraine        01843 -01843                % 09366 RGTR--
+400000145 Mexy, La Grotte       01844 -01844                % 09366 RGTR--
+400000088 St. Charles, Rhin     01848 -01848                % 09366 RGTR--
+400000086 St. Charles, Château  01848 -01848                % 09366 RGTR--
+400000087 St. Charles, Eglise   01850                       % 09366 RGTR--
+*Z 09367 RGTR--                                             % 09367 RGTR--
+*L 398      220903008 400000087  01638  01720               % 09367 RGTR--
+*A eb 220903008 400000087 000002  01638  01720              % 09367 RGTR--
+*A RJ 220903008 400000087 000002  01638  01720              % 09367 RGTR--
+*R 1 400000087 220903008 400000087  01638  01720            % 09367 RGTR--
+*G RGB 220903008 400000087  01638  01720                    % 09367 RGTR--
+*A VE 220903008 400000087 000002  01638  01720              % 09367 RGTR--
+*I FD 220903008 400000087        0002498  01638  01720      % 09367 RGTR--
+220903008 Rodange, Gare                01638                % 09367 RGTR--
+220903009 Rodange, Gendarmerie  01639  01639                % 09367 RGTR--
+220903020 Rodange, Schlackenmi  01640  01640                % 09367 RGTR--
+220903004 Rodange, Fonderie     01642  01642                % 09367 RGTR--
+400000126 Mt.St.Martin, Auchan  01646 -01646                % 09367 RGTR--
+400000127 Mt.St.Martin, Maison  01648 -01648                % 09367 RGTR--
+400000061 Mt.St.Martin, Hôpita  01649 -01649                % 09367 RGTR--
+400000062 Mt.St.Martin, Nancy   01650 -01650                % 09367 RGTR--
+400000142 Mt.St.Martin, Centre  01651 -01651                % 09367 RGTR--
+400000060 Mt.St.Martin, Foch    01653 -01653                % 09367 RGTR--
+400000063 Mt.St.Martin, Résist  01654 -01654                % 09367 RGTR--
+400000056 Mt.St.Martin, Cité J  01656 -01656                % 09367 RGTR--
+400000057 Mt.St.Martin, Notre   01656 -01656                % 09367 RGTR--
+400000043 Longwy, Vauban        01657 -01657                % 09367 RGTR--
+400000042 Longwy, Stade         01658 -01658                % 09367 RGTR--
+400000037 Longwy, Place Darche  01659 -01659                % 09367 RGTR--
+400000029 Longwy, 11 Novembre   01700 -01700                % 09367 RGTR--
+400000039 Longwy, République    01701 -01701                % 09367 RGTR--
+400000032 Longwy, Home City     01702 -01702                % 09367 RGTR--
+400000040 Longwy, rue de Metz   01703 -01703                % 09367 RGTR--
+400000144 Longwy, Labro         01704 -01704                % 09367 RGTR--
+400000030 Longwy, Bas/Espace B  01705 -01705                % 09367 RGTR--
+400000036 Longwy, Merlin        01707 -01707                % 09367 RGTR--
+400000033 Longwy, Lafontaine    01708 -01708                % 09367 RGTR--
+400000051 Mexy, La Forchette    01711 -01711                % 09367 RGTR--
+400000049 Mexy, Condé           01712 -01712                % 09367 RGTR--
+400000050 Mexy, Ecole           01713 -01713                % 09367 RGTR--
+400000052 Mexy, Lorraine        01713 -01713                % 09367 RGTR--
+400000145 Mexy, La Grotte       01714 -01714                % 09367 RGTR--
+400000088 St. Charles, Rhin     01718 -01718                % 09367 RGTR--
+400000086 St. Charles, Château  01718 -01718                % 09367 RGTR--
+400000087 St. Charles, Eglise   01720                       % 09367 RGTR--
+*Z 09368 RGTR--                                             % 09368 RGTR--
+*L 398      220903008 400000087  01738  01820               % 09368 RGTR--
+*A eb 220903008 400000087 000002  01738  01820              % 09368 RGTR--
+*A RJ 220903008 400000087 000002  01738  01820              % 09368 RGTR--
+*R 1 400000087 220903008 400000087  01738  01820            % 09368 RGTR--
+*G RGB 220903008 400000087  01738  01820                    % 09368 RGTR--
+*A VE 220903008 400000087 000002  01738  01820              % 09368 RGTR--
+*I FD 220903008 400000087        0002499  01738  01820      % 09368 RGTR--
+220903008 Rodange, Gare                01738                % 09368 RGTR--
+220903009 Rodange, Gendarmerie  01739  01739                % 09368 RGTR--
+220903020 Rodange, Schlackenmi  01740  01740                % 09368 RGTR--
+220903004 Rodange, Fonderie     01742  01742                % 09368 RGTR--
+400000126 Mt.St.Martin, Auchan  01746 -01746                % 09368 RGTR--
+400000127 Mt.St.Martin, Maison  01748 -01748                % 09368 RGTR--
+400000061 Mt.St.Martin, Hôpita  01749 -01749                % 09368 RGTR--
+400000062 Mt.St.Martin, Nancy   01750 -01750                % 09368 RGTR--
+400000142 Mt.St.Martin, Centre  01751 -01751                % 09368 RGTR--
+400000060 Mt.St.Martin, Foch    01753 -01753                % 09368 RGTR--
+400000063 Mt.St.Martin, Résist  01754 -01754                % 09368 RGTR--
+400000056 Mt.St.Martin, Cité J  01756 -01756                % 09368 RGTR--
+400000057 Mt.St.Martin, Notre   01756 -01756                % 09368 RGTR--
+400000043 Longwy, Vauban        01757 -01757                % 09368 RGTR--
+400000042 Longwy, Stade         01758 -01758                % 09368 RGTR--
+400000037 Longwy, Place Darche  01759 -01759                % 09368 RGTR--
+400000029 Longwy, 11 Novembre   01800 -01800                % 09368 RGTR--
+400000039 Longwy, République    01801 -01801                % 09368 RGTR--
+400000032 Longwy, Home City     01802 -01802                % 09368 RGTR--
+400000040 Longwy, rue de Metz   01803 -01803                % 09368 RGTR--
+400000144 Longwy, Labro         01804 -01804                % 09368 RGTR--
+400000030 Longwy, Bas/Espace B  01805 -01805                % 09368 RGTR--
+400000036 Longwy, Merlin        01807 -01807                % 09368 RGTR--
+400000033 Longwy, Lafontaine    01808 -01808                % 09368 RGTR--
+400000051 Mexy, La Forchette    01811 -01811                % 09368 RGTR--
+400000049 Mexy, Condé           01812 -01812                % 09368 RGTR--
+400000050 Mexy, Ecole           01813 -01813                % 09368 RGTR--
+400000052 Mexy, Lorraine        01813 -01813                % 09368 RGTR--
+400000145 Mexy, La Grotte       01814 -01814                % 09368 RGTR--
+400000088 St. Charles, Rhin     01818 -01818                % 09368 RGTR--
+400000086 St. Charles, Château  01818 -01818                % 09368 RGTR--
+400000087 St. Charles, Eglise   01820                       % 09368 RGTR--
+*Z 09369 RGTR--                                             % 09369 RGTR--
+*L 398      220903008 400000087  01008  01044               % 09369 RGTR--
+*A eb 220903008 400000087 000001  01008  01044              % 09369 RGTR--
+*A RJ 220903008 400000087 000001  01008  01044              % 09369 RGTR--
+*R 1 400000087 220903008 400000087  01008  01044            % 09369 RGTR--
+*G RGB 220903008 400000087  01008  01044                    % 09369 RGTR--
+*A VE 220903008 400000087 000001  01008  01044              % 09369 RGTR--
+*I FD 220903008 400000087        0002190  01008  01044      % 09369 RGTR--
+220903008 Rodange, Gare                01008                % 09369 RGTR--
+220903009 Rodange, Gendarmerie  01009  01009                % 09369 RGTR--
+220903020 Rodange, Schlackenmi  01010  01010                % 09369 RGTR--
+220903004 Rodange, Fonderie     01011  01011                % 09369 RGTR--
+400000126 Mt.St.Martin, Auchan  01014 -01014                % 09369 RGTR--
+400000127 Mt.St.Martin, Maison  01016 -01016                % 09369 RGTR--
+400000061 Mt.St.Martin, Hôpita  01017 -01017                % 09369 RGTR--
+400000062 Mt.St.Martin, Nancy   01018 -01018                % 09369 RGTR--
+400000142 Mt.St.Martin, Centre  01019 -01019                % 09369 RGTR--
+400000060 Mt.St.Martin, Foch    01020 -01020                % 09369 RGTR--
+400000063 Mt.St.Martin, Résist  01021 -01021                % 09369 RGTR--
+400000056 Mt.St.Martin, Cité J  01022 -01022                % 09369 RGTR--
+400000057 Mt.St.Martin, Notre   01023 -01023                % 09369 RGTR--
+400000043 Longwy, Vauban        01024 -01024                % 09369 RGTR--
+400000042 Longwy, Stade         01024 -01024                % 09369 RGTR--
+400000037 Longwy, Place Darche  01025 -01025                % 09369 RGTR--
+400000029 Longwy, 11 Novembre   01026 -01026                % 09369 RGTR--
+400000039 Longwy, République    01027 -01027                % 09369 RGTR--
+400000032 Longwy, Home City     01028 -01028                % 09369 RGTR--
+400000040 Longwy, rue de Metz   01029 -01029                % 09369 RGTR--
+400000144 Longwy, Labro         01030 -01030                % 09369 RGTR--
+400000030 Longwy, Bas/Espace B  01030 -01030                % 09369 RGTR--
+400000036 Longwy, Merlin        01032 -01032                % 09369 RGTR--
+400000033 Longwy, Lafontaine    01033 -01033                % 09369 RGTR--
+400000051 Mexy, La Forchette    01035 -01035                % 09369 RGTR--
+400000049 Mexy, Condé           01036 -01036                % 09369 RGTR--
+400000050 Mexy, Ecole           01037 -01037                % 09369 RGTR--
+400000052 Mexy, Lorraine        01038 -01038                % 09369 RGTR--
+400000145 Mexy, La Grotte       01039 -01039                % 09369 RGTR--
+400000088 St. Charles, Rhin     01042 -01042                % 09369 RGTR--
+400000086 St. Charles, Château  01043 -01043                % 09369 RGTR--
+400000087 St. Charles, Eglise   01044                       % 09369 RGTR--
+*Z 09370 RGTR--                                             % 09370 RGTR--
+*L 398      220903008 400000087  01108  01144               % 09370 RGTR--
+*A ew 220903008 400000087 000001  01108  01144              % 09370 RGTR--
+*A RJ 220903008 400000087 000001  01108  01144              % 09370 RGTR--
+*R 1 400000087 220903008 400000087  01108  01144            % 09370 RGTR--
+*G RGB 220903008 400000087  01108  01144                    % 09370 RGTR--
+*A VE 220903008 400000087 000001  01108  01144              % 09370 RGTR--
+*I FD 220903008 400000087        0001074  01108  01144      % 09370 RGTR--
+220903008 Rodange, Gare                01108                % 09370 RGTR--
+220903009 Rodange, Gendarmerie  01109  01109                % 09370 RGTR--
+220903020 Rodange, Schlackenmi  01110  01110                % 09370 RGTR--
+220903004 Rodange, Fonderie     01111  01111                % 09370 RGTR--
+400000126 Mt.St.Martin, Auchan  01114 -01114                % 09370 RGTR--
+400000127 Mt.St.Martin, Maison  01116 -01116                % 09370 RGTR--
+400000061 Mt.St.Martin, Hôpita  01117 -01117                % 09370 RGTR--
+400000062 Mt.St.Martin, Nancy   01118 -01118                % 09370 RGTR--
+400000142 Mt.St.Martin, Centre  01119 -01119                % 09370 RGTR--
+400000060 Mt.St.Martin, Foch    01120 -01120                % 09370 RGTR--
+400000063 Mt.St.Martin, Résist  01121 -01121                % 09370 RGTR--
+400000056 Mt.St.Martin, Cité J  01122 -01122                % 09370 RGTR--
+400000057 Mt.St.Martin, Notre   01123 -01123                % 09370 RGTR--
+400000043 Longwy, Vauban        01124 -01124                % 09370 RGTR--
+400000042 Longwy, Stade         01124 -01124                % 09370 RGTR--
+400000037 Longwy, Place Darche  01125 -01125                % 09370 RGTR--
+400000029 Longwy, 11 Novembre   01126 -01126                % 09370 RGTR--
+400000039 Longwy, République    01127 -01127                % 09370 RGTR--
+400000032 Longwy, Home City     01128 -01128                % 09370 RGTR--
+400000040 Longwy, rue de Metz   01129 -01129                % 09370 RGTR--
+400000144 Longwy, Labro         01130 -01130                % 09370 RGTR--
+400000030 Longwy, Bas/Espace B  01130 -01130                % 09370 RGTR--
+400000036 Longwy, Merlin        01132 -01132                % 09370 RGTR--
+400000033 Longwy, Lafontaine    01133 -01133                % 09370 RGTR--
+400000051 Mexy, La Forchette    01135 -01135                % 09370 RGTR--
+400000049 Mexy, Condé           01136 -01136                % 09370 RGTR--
+400000050 Mexy, Ecole           01137 -01137                % 09370 RGTR--
+400000052 Mexy, Lorraine        01138 -01138                % 09370 RGTR--
+400000145 Mexy, La Grotte       01139 -01139                % 09370 RGTR--
+400000088 St. Charles, Rhin     01142 -01142                % 09370 RGTR--
+400000086 St. Charles, Château  01143 -01143                % 09370 RGTR--
+400000087 St. Charles, Eglise   01144                       % 09370 RGTR--
+*Z 09371 RGTR--                                             % 09371 RGTR--
+*L 398      220903008 400000087  01208  01244               % 09371 RGTR--
+*A eb 220903008 400000087 000001  01208  01244              % 09371 RGTR--
+*A RJ 220903008 400000087 000001  01208  01244              % 09371 RGTR--
+*R 1 400000087 220903008 400000087  01208  01244            % 09371 RGTR--
+*G RGB 220903008 400000087  01208  01244                    % 09371 RGTR--
+*A VE 220903008 400000087 000001  01208  01244              % 09371 RGTR--
+*I FD 220903008 400000087        0002188  01208  01244      % 09371 RGTR--
+220903008 Rodange, Gare                01208                % 09371 RGTR--
+220903009 Rodange, Gendarmerie  01209  01209                % 09371 RGTR--
+220903020 Rodange, Schlackenmi  01210  01210                % 09371 RGTR--
+220903004 Rodange, Fonderie     01211  01211                % 09371 RGTR--
+400000126 Mt.St.Martin, Auchan  01214 -01214                % 09371 RGTR--
+400000127 Mt.St.Martin, Maison  01216 -01216                % 09371 RGTR--
+400000061 Mt.St.Martin, Hôpita  01217 -01217                % 09371 RGTR--
+400000062 Mt.St.Martin, Nancy   01218 -01218                % 09371 RGTR--
+400000142 Mt.St.Martin, Centre  01219 -01219                % 09371 RGTR--
+400000060 Mt.St.Martin, Foch    01220 -01220                % 09371 RGTR--
+400000063 Mt.St.Martin, Résist  01221 -01221                % 09371 RGTR--
+400000056 Mt.St.Martin, Cité J  01222 -01222                % 09371 RGTR--
+400000057 Mt.St.Martin, Notre   01223 -01223                % 09371 RGTR--
+400000043 Longwy, Vauban        01224 -01224                % 09371 RGTR--
+400000042 Longwy, Stade         01224 -01224                % 09371 RGTR--
+400000037 Longwy, Place Darche  01225 -01225                % 09371 RGTR--
+400000029 Longwy, 11 Novembre   01226 -01226                % 09371 RGTR--
+400000039 Longwy, République    01227 -01227                % 09371 RGTR--
+400000032 Longwy, Home City     01228 -01228                % 09371 RGTR--
+400000040 Longwy, rue de Metz   01229 -01229                % 09371 RGTR--
+400000144 Longwy, Labro         01230 -01230                % 09371 RGTR--
+400000030 Longwy, Bas/Espace B  01230 -01230                % 09371 RGTR--
+400000036 Longwy, Merlin        01232 -01232                % 09371 RGTR--
+400000033 Longwy, Lafontaine    01233 -01233                % 09371 RGTR--
+400000051 Mexy, La Forchette    01235 -01235                % 09371 RGTR--
+400000049 Mexy, Condé           01236 -01236                % 09371 RGTR--
+400000050 Mexy, Ecole           01237 -01237                % 09371 RGTR--
+400000052 Mexy, Lorraine        01238 -01238                % 09371 RGTR--
+400000145 Mexy, La Grotte       01239 -01239                % 09371 RGTR--
+400000088 St. Charles, Rhin     01242 -01242                % 09371 RGTR--
+400000086 St. Charles, Château  01243 -01243                % 09371 RGTR--
+400000087 St. Charles, Eglise   01244                       % 09371 RGTR--
+*Z 09372 RGTR--                                             % 09372 RGTR--
+*L 398      220903008 400000087  01237  01313               % 09372 RGTR--
+*A eb 220903008 400000087 000001  01237  01313              % 09372 RGTR--
+*A RJ 220903008 400000087 000001  01237  01313              % 09372 RGTR--
+*R 1 400000087 220903008 400000087  01237  01313            % 09372 RGTR--
+*G RGB 220903008 400000087  01237  01313                    % 09372 RGTR--
+*A VE 220903008 400000087 000001  01237  01313              % 09372 RGTR--
+*I FD 220903008 400000087        0001113  01237  01313      % 09372 RGTR--
+220903008 Rodange, Gare                01237                % 09372 RGTR--
+220903009 Rodange, Gendarmerie  01238  01238                % 09372 RGTR--
+220903020 Rodange, Schlackenmi  01239  01239                % 09372 RGTR--
+220903004 Rodange, Fonderie     01240  01240                % 09372 RGTR--
+400000126 Mt.St.Martin, Auchan  01243 -01243                % 09372 RGTR--
+400000127 Mt.St.Martin, Maison  01245 -01245                % 09372 RGTR--
+400000061 Mt.St.Martin, Hôpita  01246 -01246                % 09372 RGTR--
+400000062 Mt.St.Martin, Nancy   01247 -01247                % 09372 RGTR--
+400000142 Mt.St.Martin, Centre  01248 -01248                % 09372 RGTR--
+400000060 Mt.St.Martin, Foch    01249 -01249                % 09372 RGTR--
+400000063 Mt.St.Martin, Résist  01250 -01250                % 09372 RGTR--
+400000056 Mt.St.Martin, Cité J  01251 -01251                % 09372 RGTR--
+400000057 Mt.St.Martin, Notre   01252 -01252                % 09372 RGTR--
+400000043 Longwy, Vauban        01253 -01253                % 09372 RGTR--
+400000042 Longwy, Stade         01253 -01253                % 09372 RGTR--
+400000037 Longwy, Place Darche  01254 -01254                % 09372 RGTR--
+400000029 Longwy, 11 Novembre   01255 -01255                % 09372 RGTR--
+400000039 Longwy, République    01256 -01256                % 09372 RGTR--
+400000032 Longwy, Home City     01257 -01257                % 09372 RGTR--
+400000040 Longwy, rue de Metz   01258 -01258                % 09372 RGTR--
+400000144 Longwy, Labro         01259 -01259                % 09372 RGTR--
+400000030 Longwy, Bas/Espace B  01259 -01259                % 09372 RGTR--
+400000036 Longwy, Merlin        01301 -01301                % 09372 RGTR--
+400000033 Longwy, Lafontaine    01302 -01302                % 09372 RGTR--
+400000051 Mexy, La Forchette    01304 -01304                % 09372 RGTR--
+400000049 Mexy, Condé           01305 -01305                % 09372 RGTR--
+400000050 Mexy, Ecole           01306 -01306                % 09372 RGTR--
+400000052 Mexy, Lorraine        01307 -01307                % 09372 RGTR--
+400000145 Mexy, La Grotte       01308 -01308                % 09372 RGTR--
+400000088 St. Charles, Rhin     01311 -01311                % 09372 RGTR--
+400000086 St. Charles, Château  01312 -01312                % 09372 RGTR--
+400000087 St. Charles, Eglise   01313                       % 09372 RGTR--
+*Z 09373 RGTR--                                             % 09373 RGTR--
+*L 398      220903008 400000087  01308  01344               % 09373 RGTR--
+*A ew 220903008 400000087 000001  01308  01344              % 09373 RGTR--
+*A RJ 220903008 400000087 000001  01308  01344              % 09373 RGTR--
+*R 1 400000087 220903008 400000087  01308  01344            % 09373 RGTR--
+*G RGB 220903008 400000087  01308  01344                    % 09373 RGTR--
+*A VE 220903008 400000087 000001  01308  01344              % 09373 RGTR--
+*I FD 220903008 400000087        0002438  01308  01344      % 09373 RGTR--
+220903008 Rodange, Gare                01308                % 09373 RGTR--
+220903009 Rodange, Gendarmerie  01309  01309                % 09373 RGTR--
+220903020 Rodange, Schlackenmi  01310  01310                % 09373 RGTR--
+220903004 Rodange, Fonderie     01311  01311                % 09373 RGTR--
+400000126 Mt.St.Martin, Auchan  01314 -01314                % 09373 RGTR--
+400000127 Mt.St.Martin, Maison  01316 -01316                % 09373 RGTR--
+400000061 Mt.St.Martin, Hôpita  01317 -01317                % 09373 RGTR--
+400000062 Mt.St.Martin, Nancy   01318 -01318                % 09373 RGTR--
+400000142 Mt.St.Martin, Centre  01319 -01319                % 09373 RGTR--
+400000060 Mt.St.Martin, Foch    01320 -01320                % 09373 RGTR--
+400000063 Mt.St.Martin, Résist  01321 -01321                % 09373 RGTR--
+400000056 Mt.St.Martin, Cité J  01322 -01322                % 09373 RGTR--
+400000057 Mt.St.Martin, Notre   01323 -01323                % 09373 RGTR--
+400000043 Longwy, Vauban        01324 -01324                % 09373 RGTR--
+400000042 Longwy, Stade         01324 -01324                % 09373 RGTR--
+400000037 Longwy, Place Darche  01325 -01325                % 09373 RGTR--
+400000029 Longwy, 11 Novembre   01326 -01326                % 09373 RGTR--
+400000039 Longwy, République    01327 -01327                % 09373 RGTR--
+400000032 Longwy, Home City     01328 -01328                % 09373 RGTR--
+400000040 Longwy, rue de Metz   01329 -01329                % 09373 RGTR--
+400000144 Longwy, Labro         01330 -01330                % 09373 RGTR--
+400000030 Longwy, Bas/Espace B  01330 -01330                % 09373 RGTR--
+400000036 Longwy, Merlin        01332 -01332                % 09373 RGTR--
+400000033 Longwy, Lafontaine    01333 -01333                % 09373 RGTR--
+400000051 Mexy, La Forchette    01335 -01335                % 09373 RGTR--
+400000049 Mexy, Condé           01336 -01336                % 09373 RGTR--
+400000050 Mexy, Ecole           01337 -01337                % 09373 RGTR--
+400000052 Mexy, Lorraine        01338 -01338                % 09373 RGTR--
+400000145 Mexy, La Grotte       01339 -01339                % 09373 RGTR--
+400000088 St. Charles, Rhin     01342 -01342                % 09373 RGTR--
+400000086 St. Charles, Château  01343 -01343                % 09373 RGTR--
+400000087 St. Charles, Eglise   01344                       % 09373 RGTR--
+*Z 09374 RGTR--                                             % 09374 RGTR--
+*L 398      220903008 400000087  01408  01444               % 09374 RGTR--
+*A eb 220903008 400000087 000001  01408  01444              % 09374 RGTR--
+*A RJ 220903008 400000087 000001  01408  01444              % 09374 RGTR--
+*R 1 400000087 220903008 400000087  01408  01444            % 09374 RGTR--
+*G RGB 220903008 400000087  01408  01444                    % 09374 RGTR--
+*A VE 220903008 400000087 000001  01408  01444              % 09374 RGTR--
+*I FD 220903008 400000087        0002191  01408  01444      % 09374 RGTR--
+220903008 Rodange, Gare                01408                % 09374 RGTR--
+220903009 Rodange, Gendarmerie  01409  01409                % 09374 RGTR--
+220903020 Rodange, Schlackenmi  01410  01410                % 09374 RGTR--
+220903004 Rodange, Fonderie     01411  01411                % 09374 RGTR--
+400000126 Mt.St.Martin, Auchan  01414 -01414                % 09374 RGTR--
+400000127 Mt.St.Martin, Maison  01416 -01416                % 09374 RGTR--
+400000061 Mt.St.Martin, Hôpita  01417 -01417                % 09374 RGTR--
+400000062 Mt.St.Martin, Nancy   01418 -01418                % 09374 RGTR--
+400000142 Mt.St.Martin, Centre  01419 -01419                % 09374 RGTR--
+400000060 Mt.St.Martin, Foch    01420 -01420                % 09374 RGTR--
+400000063 Mt.St.Martin, Résist  01421 -01421                % 09374 RGTR--
+400000056 Mt.St.Martin, Cité J  01422 -01422                % 09374 RGTR--
+400000057 Mt.St.Martin, Notre   01423 -01423                % 09374 RGTR--
+400000043 Longwy, Vauban        01424 -01424                % 09374 RGTR--
+400000042 Longwy, Stade         01424 -01424                % 09374 RGTR--
+400000037 Longwy, Place Darche  01425 -01425                % 09374 RGTR--
+400000029 Longwy, 11 Novembre   01426 -01426                % 09374 RGTR--
+400000039 Longwy, République    01427 -01427                % 09374 RGTR--
+400000032 Longwy, Home City     01428 -01428                % 09374 RGTR--
+400000040 Longwy, rue de Metz   01429 -01429                % 09374 RGTR--
+400000144 Longwy, Labro         01430 -01430                % 09374 RGTR--
+400000030 Longwy, Bas/Espace B  01430 -01430                % 09374 RGTR--
+400000036 Longwy, Merlin        01432 -01432                % 09374 RGTR--
+400000033 Longwy, Lafontaine    01433 -01433                % 09374 RGTR--
+400000051 Mexy, La Forchette    01435 -01435                % 09374 RGTR--
+400000049 Mexy, Condé           01436 -01436                % 09374 RGTR--
+400000050 Mexy, Ecole           01437 -01437                % 09374 RGTR--
+400000052 Mexy, Lorraine        01438 -01438                % 09374 RGTR--
+400000145 Mexy, La Grotte       01439 -01439                % 09374 RGTR--
+400000088 St. Charles, Rhin     01442 -01442                % 09374 RGTR--
+400000086 St. Charles, Château  01443 -01443                % 09374 RGTR--
+400000087 St. Charles, Eglise   01444                       % 09374 RGTR--
+*Z 09375 RGTR--                                             % 09375 RGTR--
+*L 398      220903008 400000087  01508  01544               % 09375 RGTR--
+*A ew 220903008 400000087 000001  01508  01544              % 09375 RGTR--
+*A RJ 220903008 400000087 000001  01508  01544              % 09375 RGTR--
+*R 1 400000087 220903008 400000087  01508  01544            % 09375 RGTR--
+*G RGB 220903008 400000087  01508  01544                    % 09375 RGTR--
+*A VE 220903008 400000087 000001  01508  01544              % 09375 RGTR--
+*I FD 220903008 400000087        0002439  01508  01544      % 09375 RGTR--
+220903008 Rodange, Gare                01508                % 09375 RGTR--
+220903009 Rodange, Gendarmerie  01509  01509                % 09375 RGTR--
+220903020 Rodange, Schlackenmi  01510  01510                % 09375 RGTR--
+220903004 Rodange, Fonderie     01511  01511                % 09375 RGTR--
+400000126 Mt.St.Martin, Auchan  01514 -01514                % 09375 RGTR--
+400000127 Mt.St.Martin, Maison  01516 -01516                % 09375 RGTR--
+400000061 Mt.St.Martin, Hôpita  01517 -01517                % 09375 RGTR--
+400000062 Mt.St.Martin, Nancy   01518 -01518                % 09375 RGTR--
+400000142 Mt.St.Martin, Centre  01519 -01519                % 09375 RGTR--
+400000060 Mt.St.Martin, Foch    01520 -01520                % 09375 RGTR--
+400000063 Mt.St.Martin, Résist  01521 -01521                % 09375 RGTR--
+400000056 Mt.St.Martin, Cité J  01522 -01522                % 09375 RGTR--
+400000057 Mt.St.Martin, Notre   01523 -01523                % 09375 RGTR--
+400000043 Longwy, Vauban        01524 -01524                % 09375 RGTR--
+400000042 Longwy, Stade         01524 -01524                % 09375 RGTR--
+400000037 Longwy, Place Darche  01525 -01525                % 09375 RGTR--
+400000029 Longwy, 11 Novembre   01526 -01526                % 09375 RGTR--
+400000039 Longwy, République    01527 -01527                % 09375 RGTR--
+400000032 Longwy, Home City     01528 -01528                % 09375 RGTR--
+400000040 Longwy, rue de Metz   01529 -01529                % 09375 RGTR--
+400000144 Longwy, Labro         01530 -01530                % 09375 RGTR--
+400000030 Longwy, Bas/Espace B  01530 -01530                % 09375 RGTR--
+400000036 Longwy, Merlin        01532 -01532                % 09375 RGTR--
+400000033 Longwy, Lafontaine    01533 -01533                % 09375 RGTR--
+400000051 Mexy, La Forchette    01535 -01535                % 09375 RGTR--
+400000049 Mexy, Condé           01536 -01536                % 09375 RGTR--
+400000050 Mexy, Ecole           01537 -01537                % 09375 RGTR--
+400000052 Mexy, Lorraine        01538 -01538                % 09375 RGTR--
+400000145 Mexy, La Grotte       01539 -01539                % 09375 RGTR--
+400000088 St. Charles, Rhin     01542 -01542                % 09375 RGTR--
+400000086 St. Charles, Château  01543 -01543                % 09375 RGTR--
+400000087 St. Charles, Eglise   01544                       % 09375 RGTR--
+*Z 09376 RGTR--                                             % 09376 RGTR--
+*L 398      220903008 400000087  01838  01914               % 09376 RGTR--
+*A eb 220903008 400000087 000001  01838  01914              % 09376 RGTR--
+*A RJ 220903008 400000087 000001  01838  01914              % 09376 RGTR--
+*R 1 400000087 220903008 400000087  01838  01914            % 09376 RGTR--
+*G RGB 220903008 400000087  01838  01914                    % 09376 RGTR--
+*A VE 220903008 400000087 000001  01838  01914              % 09376 RGTR--
+*I FD 220903008 400000087        0001300  01838  01914      % 09376 RGTR--
+220903008 Rodange, Gare                01838                % 09376 RGTR--
+220903009 Rodange, Gendarmerie  01839  01839                % 09376 RGTR--
+220903020 Rodange, Schlackenmi  01840  01840                % 09376 RGTR--
+220903004 Rodange, Fonderie     01841  01841                % 09376 RGTR--
+400000126 Mt.St.Martin, Auchan  01844 -01844                % 09376 RGTR--
+400000127 Mt.St.Martin, Maison  01846 -01846                % 09376 RGTR--
+400000061 Mt.St.Martin, Hôpita  01847 -01847                % 09376 RGTR--
+400000062 Mt.St.Martin, Nancy   01848 -01848                % 09376 RGTR--
+400000142 Mt.St.Martin, Centre  01849 -01849                % 09376 RGTR--
+400000060 Mt.St.Martin, Foch    01850 -01850                % 09376 RGTR--
+400000063 Mt.St.Martin, Résist  01851 -01851                % 09376 RGTR--
+400000056 Mt.St.Martin, Cité J  01852 -01852                % 09376 RGTR--
+400000057 Mt.St.Martin, Notre   01853 -01853                % 09376 RGTR--
+400000043 Longwy, Vauban        01854 -01854                % 09376 RGTR--
+400000042 Longwy, Stade         01854 -01854                % 09376 RGTR--
+400000037 Longwy, Place Darche  01855 -01855                % 09376 RGTR--
+400000029 Longwy, 11 Novembre   01856 -01856                % 09376 RGTR--
+400000039 Longwy, République    01857 -01857                % 09376 RGTR--
+400000032 Longwy, Home City     01858 -01858                % 09376 RGTR--
+400000040 Longwy, rue de Metz   01859 -01859                % 09376 RGTR--
+400000144 Longwy, Labro         01900 -01900                % 09376 RGTR--
+400000030 Longwy, Bas/Espace B  01900 -01900                % 09376 RGTR--
+400000036 Longwy, Merlin        01902 -01902                % 09376 RGTR--
+400000033 Longwy, Lafontaine    01903 -01903                % 09376 RGTR--
+400000051 Mexy, La Forchette    01905 -01905                % 09376 RGTR--
+400000049 Mexy, Condé           01906 -01906                % 09376 RGTR--
+400000050 Mexy, Ecole           01907 -01907                % 09376 RGTR--
+400000052 Mexy, Lorraine        01908 -01908                % 09376 RGTR--
+400000145 Mexy, La Grotte       01909 -01909                % 09376 RGTR--
+400000088 St. Charles, Rhin     01912 -01912                % 09376 RGTR--
+400000086 St. Charles, Château  01913 -01913                % 09376 RGTR--
+400000087 St. Charles, Eglise   01914                       % 09376 RGTR--
+*Z 09377 RGTR--                                             % 09377 RGTR--
+*L 398      220903008 400000087  01908  01944               % 09377 RGTR--
+*A ew 220903008 400000087 000001  01908  01944              % 09377 RGTR--
+*A RJ 220903008 400000087 000001  01908  01944              % 09377 RGTR--
+*R 1 400000087 220903008 400000087  01908  01944            % 09377 RGTR--
+*G RGB 220903008 400000087  01908  01944                    % 09377 RGTR--
+*A VE 220903008 400000087 000001  01908  01944              % 09377 RGTR--
+*I FD 220903008 400000087        0002440  01908  01944      % 09377 RGTR--
+220903008 Rodange, Gare                01908                % 09377 RGTR--
+220903009 Rodange, Gendarmerie  01909  01909                % 09377 RGTR--
+220903020 Rodange, Schlackenmi  01910  01910                % 09377 RGTR--
+220903004 Rodange, Fonderie     01911  01911                % 09377 RGTR--
+400000126 Mt.St.Martin, Auchan  01914 -01914                % 09377 RGTR--
+400000127 Mt.St.Martin, Maison  01916 -01916                % 09377 RGTR--
+400000061 Mt.St.Martin, Hôpita  01917 -01917                % 09377 RGTR--
+400000062 Mt.St.Martin, Nancy   01918 -01918                % 09377 RGTR--
+400000142 Mt.St.Martin, Centre  01919 -01919                % 09377 RGTR--
+400000060 Mt.St.Martin, Foch    01920 -01920                % 09377 RGTR--
+400000063 Mt.St.Martin, Résist  01921 -01921                % 09377 RGTR--
+400000056 Mt.St.Martin, Cité J  01922 -01922                % 09377 RGTR--
+400000057 Mt.St.Martin, Notre   01923 -01923                % 09377 RGTR--
+400000043 Longwy, Vauban        01924 -01924                % 09377 RGTR--
+400000042 Longwy, Stade         01924 -01924                % 09377 RGTR--
+400000037 Longwy, Place Darche  01925 -01925                % 09377 RGTR--
+400000029 Longwy, 11 Novembre   01926 -01926                % 09377 RGTR--
+400000039 Longwy, République    01927 -01927                % 09377 RGTR--
+400000032 Longwy, Home City     01928 -01928                % 09377 RGTR--
+400000040 Longwy, rue de Metz   01929 -01929                % 09377 RGTR--
+400000144 Longwy, Labro         01930 -01930                % 09377 RGTR--
+400000030 Longwy, Bas/Espace B  01930 -01930                % 09377 RGTR--
+400000036 Longwy, Merlin        01932 -01932                % 09377 RGTR--
+400000033 Longwy, Lafontaine    01933 -01933                % 09377 RGTR--
+400000051 Mexy, La Forchette    01935 -01935                % 09377 RGTR--
+400000049 Mexy, Condé           01936 -01936                % 09377 RGTR--
+400000050 Mexy, Ecole           01937 -01937                % 09377 RGTR--
+400000052 Mexy, Lorraine        01938 -01938                % 09377 RGTR--
+400000145 Mexy, La Grotte       01939 -01939                % 09377 RGTR--
+400000088 St. Charles, Rhin     01942 -01942                % 09377 RGTR--
+400000086 St. Charles, Château  01943 -01943                % 09377 RGTR--
+400000087 St. Charles, Eglise   01944                       % 09377 RGTR--
+*Z 09378 RGTR--                                             % 09378 RGTR--
+*L 398      220903008 400000087  02010  02046               % 09378 RGTR--
+*A eb 220903008 400000087 000001  02010  02046              % 09378 RGTR--
+*A RJ 220903008 400000087 000001  02010  02046              % 09378 RGTR--
+*R 1 400000087 220903008 400000087  02010  02046            % 09378 RGTR--
+*G RGB 220903008 400000087  02010  02046                    % 09378 RGTR--
+*A VE 220903008 400000087 000001  02010  02046              % 09378 RGTR--
+*I FD 220903008 400000087        0002877  02010  02046      % 09378 RGTR--
+220903008 Rodange, Gare                02010                % 09378 RGTR--
+220903009 Rodange, Gendarmerie  02011  02011                % 09378 RGTR--
+220903020 Rodange, Schlackenmi  02012  02012                % 09378 RGTR--
+220903004 Rodange, Fonderie     02013  02013                % 09378 RGTR--
+400000126 Mt.St.Martin, Auchan  02016 -02016                % 09378 RGTR--
+400000127 Mt.St.Martin, Maison  02018 -02018                % 09378 RGTR--
+400000061 Mt.St.Martin, Hôpita  02019 -02019                % 09378 RGTR--
+400000062 Mt.St.Martin, Nancy   02020 -02020                % 09378 RGTR--
+400000142 Mt.St.Martin, Centre  02021 -02021                % 09378 RGTR--
+400000060 Mt.St.Martin, Foch    02022 -02022                % 09378 RGTR--
+400000063 Mt.St.Martin, Résist  02023 -02023                % 09378 RGTR--
+400000056 Mt.St.Martin, Cité J  02024 -02024                % 09378 RGTR--
+400000057 Mt.St.Martin, Notre   02025 -02025                % 09378 RGTR--
+400000043 Longwy, Vauban        02026 -02026                % 09378 RGTR--
+400000042 Longwy, Stade         02026 -02026                % 09378 RGTR--
+400000037 Longwy, Place Darche  02027 -02027                % 09378 RGTR--
+400000029 Longwy, 11 Novembre   02028 -02028                % 09378 RGTR--
+400000039 Longwy, République    02029 -02029                % 09378 RGTR--
+400000032 Longwy, Home City     02030 -02030                % 09378 RGTR--
+400000040 Longwy, rue de Metz   02031 -02031                % 09378 RGTR--
+400000144 Longwy, Labro         02032 -02032                % 09378 RGTR--
+400000030 Longwy, Bas/Espace B  02032 -02032                % 09378 RGTR--
+400000036 Longwy, Merlin        02034 -02034                % 09378 RGTR--
+400000033 Longwy, Lafontaine    02035 -02035                % 09378 RGTR--
+400000051 Mexy, La Forchette    02037 -02037                % 09378 RGTR--
+400000049 Mexy, Condé           02038 -02038                % 09378 RGTR--
+400000050 Mexy, Ecole           02039 -02039                % 09378 RGTR--
+400000052 Mexy, Lorraine        02040 -02040                % 09378 RGTR--
+400000145 Mexy, La Grotte       02041 -02041                % 09378 RGTR--
+400000088 St. Charles, Rhin     02044 -02044                % 09378 RGTR--
+400000086 St. Charles, Château  02045 -02045                % 09378 RGTR--
+400000087 St. Charles, Eglise   02046                       % 09378 RGTR--
+*Z 09379 RGTR--                                             % 09379 RGTR--
+*L 398      220903008 400000087  02110  02146               % 09379 RGTR--
+*A eb 220903008 400000087 000001  02110  02146              % 09379 RGTR--
+*A RJ 220903008 400000087 000001  02110  02146              % 09379 RGTR--
+*R 1 400000087 220903008 400000087  02110  02146            % 09379 RGTR--
+*G RGB 220903008 400000087  02110  02146                    % 09379 RGTR--
+*A VE 220903008 400000087 000001  02110  02146              % 09379 RGTR--
+*I FD 220903008 400000087        0002860  02110  02146      % 09379 RGTR--
+220903008 Rodange, Gare                02110                % 09379 RGTR--
+220903009 Rodange, Gendarmerie  02111  02111                % 09379 RGTR--
+220903020 Rodange, Schlackenmi  02112  02112                % 09379 RGTR--
+220903004 Rodange, Fonderie     02113  02113                % 09379 RGTR--
+400000126 Mt.St.Martin, Auchan  02116 -02116                % 09379 RGTR--
+400000127 Mt.St.Martin, Maison  02118 -02118                % 09379 RGTR--
+400000061 Mt.St.Martin, Hôpita  02119 -02119                % 09379 RGTR--
+400000062 Mt.St.Martin, Nancy   02120 -02120                % 09379 RGTR--
+400000142 Mt.St.Martin, Centre  02121 -02121                % 09379 RGTR--
+400000060 Mt.St.Martin, Foch    02122 -02122                % 09379 RGTR--
+400000063 Mt.St.Martin, Résist  02123 -02123                % 09379 RGTR--
+400000056 Mt.St.Martin, Cité J  02124 -02124                % 09379 RGTR--
+400000057 Mt.St.Martin, Notre   02125 -02125                % 09379 RGTR--
+400000043 Longwy, Vauban        02126 -02126                % 09379 RGTR--
+400000042 Longwy, Stade         02126 -02126                % 09379 RGTR--
+400000037 Longwy, Place Darche  02127 -02127                % 09379 RGTR--
+400000029 Longwy, 11 Novembre   02128 -02128                % 09379 RGTR--
+400000039 Longwy, République    02129 -02129                % 09379 RGTR--
+400000032 Longwy, Home City     02130 -02130                % 09379 RGTR--
+400000040 Longwy, rue de Metz   02131 -02131                % 09379 RGTR--
+400000144 Longwy, Labro         02132 -02132                % 09379 RGTR--
+400000030 Longwy, Bas/Espace B  02132 -02132                % 09379 RGTR--
+400000036 Longwy, Merlin        02134 -02134                % 09379 RGTR--
+400000033 Longwy, Lafontaine    02135 -02135                % 09379 RGTR--
+400000051 Mexy, La Forchette    02137 -02137                % 09379 RGTR--
+400000049 Mexy, Condé           02138 -02138                % 09379 RGTR--
+400000050 Mexy, Ecole           02139 -02139                % 09379 RGTR--
+400000052 Mexy, Lorraine        02140 -02140                % 09379 RGTR--
+400000145 Mexy, La Grotte       02141 -02141                % 09379 RGTR--
+400000088 St. Charles, Rhin     02144 -02144                % 09379 RGTR--
+400000086 St. Charles, Château  02145 -02145                % 09379 RGTR--
+400000087 St. Charles, Eglise   02146                       % 09379 RGTR--
+*Z 09380 RGTR--                                             % 09380 RGTR--
+*L 398      220903008 400000087  02210  02246               % 09380 RGTR--
+*A eb 220903008 400000087 000001  02210  02246              % 09380 RGTR--
+*A RJ 220903008 400000087 000001  02210  02246              % 09380 RGTR--
+*R 1 400000087 220903008 400000087  02210  02246            % 09380 RGTR--
+*G RGB 220903008 400000087  02210  02246                    % 09380 RGTR--
+*A VE 220903008 400000087 000001  02210  02246              % 09380 RGTR--
+*I FD 220903008 400000087        0002878  02210  02246      % 09380 RGTR--
+220903008 Rodange, Gare                02210                % 09380 RGTR--
+220903009 Rodange, Gendarmerie  02211  02211                % 09380 RGTR--
+220903020 Rodange, Schlackenmi  02212  02212                % 09380 RGTR--
+220903004 Rodange, Fonderie     02213  02213                % 09380 RGTR--
+400000126 Mt.St.Martin, Auchan  02216 -02216                % 09380 RGTR--
+400000127 Mt.St.Martin, Maison  02218 -02218                % 09380 RGTR--
+400000061 Mt.St.Martin, Hôpita  02219 -02219                % 09380 RGTR--
+400000062 Mt.St.Martin, Nancy   02220 -02220                % 09380 RGTR--
+400000142 Mt.St.Martin, Centre  02221 -02221                % 09380 RGTR--
+400000060 Mt.St.Martin, Foch    02222 -02222                % 09380 RGTR--
+400000063 Mt.St.Martin, Résist  02223 -02223                % 09380 RGTR--
+400000056 Mt.St.Martin, Cité J  02224 -02224                % 09380 RGTR--
+400000057 Mt.St.Martin, Notre   02225 -02225                % 09380 RGTR--
+400000043 Longwy, Vauban        02226 -02226                % 09380 RGTR--
+400000042 Longwy, Stade         02226 -02226                % 09380 RGTR--
+400000037 Longwy, Place Darche  02227 -02227                % 09380 RGTR--
+400000029 Longwy, 11 Novembre   02228 -02228                % 09380 RGTR--
+400000039 Longwy, République    02229 -02229                % 09380 RGTR--
+400000032 Longwy, Home City     02230 -02230                % 09380 RGTR--
+400000040 Longwy, rue de Metz   02231 -02231                % 09380 RGTR--
+400000144 Longwy, Labro         02232 -02232                % 09380 RGTR--
+400000030 Longwy, Bas/Espace B  02232 -02232                % 09380 RGTR--
+400000036 Longwy, Merlin        02234 -02234                % 09380 RGTR--
+400000033 Longwy, Lafontaine    02235 -02235                % 09380 RGTR--
+400000051 Mexy, La Forchette    02237 -02237                % 09380 RGTR--
+400000049 Mexy, Condé           02238 -02238                % 09380 RGTR--
+400000050 Mexy, Ecole           02239 -02239                % 09380 RGTR--
+400000052 Mexy, Lorraine        02240 -02240                % 09380 RGTR--
+400000145 Mexy, La Grotte       02241 -02241                % 09380 RGTR--
+400000088 St. Charles, Rhin     02244 -02244                % 09380 RGTR--
+400000086 St. Charles, Château  02245 -02245                % 09380 RGTR--
+400000087 St. Charles, Eglise   02246                       % 09380 RGTR--
+*Z 09381 RGTR--                                             % 09381 RGTR--
+*L 398      220903008 400000087  02310  02346               % 09381 RGTR--
+*A eb 220903008 400000087 000001  02310  02346              % 09381 RGTR--
+*A RJ 220903008 400000087 000001  02310  02346              % 09381 RGTR--
+*R 1 400000087 220903008 400000087  02310  02346            % 09381 RGTR--
+*G RGB 220903008 400000087  02310  02346                    % 09381 RGTR--
+*A VE 220903008 400000087 000001  02310  02346              % 09381 RGTR--
+*I FD 220903008 400000087        0002861  02310  02346      % 09381 RGTR--
+220903008 Rodange, Gare                02310                % 09381 RGTR--
+220903009 Rodange, Gendarmerie  02311  02311                % 09381 RGTR--
+220903020 Rodange, Schlackenmi  02312  02312                % 09381 RGTR--
+220903004 Rodange, Fonderie     02313  02313                % 09381 RGTR--
+400000126 Mt.St.Martin, Auchan  02316 -02316                % 09381 RGTR--
+400000127 Mt.St.Martin, Maison  02318 -02318                % 09381 RGTR--
+400000061 Mt.St.Martin, Hôpita  02319 -02319                % 09381 RGTR--
+400000062 Mt.St.Martin, Nancy   02320 -02320                % 09381 RGTR--
+400000142 Mt.St.Martin, Centre  02321 -02321                % 09381 RGTR--
+400000060 Mt.St.Martin, Foch    02322 -02322                % 09381 RGTR--
+400000063 Mt.St.Martin, Résist  02323 -02323                % 09381 RGTR--
+400000056 Mt.St.Martin, Cité J  02324 -02324                % 09381 RGTR--
+400000057 Mt.St.Martin, Notre   02325 -02325                % 09381 RGTR--
+400000043 Longwy, Vauban        02326 -02326                % 09381 RGTR--
+400000042 Longwy, Stade         02326 -02326                % 09381 RGTR--
+400000037 Longwy, Place Darche  02327 -02327                % 09381 RGTR--
+400000029 Longwy, 11 Novembre   02328 -02328                % 09381 RGTR--
+400000039 Longwy, République    02329 -02329                % 09381 RGTR--
+400000032 Longwy, Home City     02330 -02330                % 09381 RGTR--
+400000040 Longwy, rue de Metz   02331 -02331                % 09381 RGTR--
+400000144 Longwy, Labro         02332 -02332                % 09381 RGTR--
+400000030 Longwy, Bas/Espace B  02332 -02332                % 09381 RGTR--
+400000036 Longwy, Merlin        02334 -02334                % 09381 RGTR--
+400000033 Longwy, Lafontaine    02335 -02335                % 09381 RGTR--
+400000051 Mexy, La Forchette    02337 -02337                % 09381 RGTR--
+400000049 Mexy, Condé           02338 -02338                % 09381 RGTR--
+400000050 Mexy, Ecole           02339 -02339                % 09381 RGTR--
+400000052 Mexy, Lorraine        02340 -02340                % 09381 RGTR--
+400000145 Mexy, La Grotte       02341 -02341                % 09381 RGTR--
+400000088 St. Charles, Rhin     02344 -02344                % 09381 RGTR--
+400000086 St. Charles, Château  02345 -02345                % 09381 RGTR--
+400000087 St. Charles, Eglise   02346                       % 09381 RGTR--
+*Z 09382 RGTR--                                             % 09382 RGTR--
+*L 398      220903008 400000087  01828  01904               % 09382 RGTR--
+*A ew 220903008 400000087 000002  01828  01904              % 09382 RGTR--
+*A RJ 220903008 400000087 000002  01828  01904              % 09382 RGTR--
+*R 1 400000087 220903008 400000087  01828  01904            % 09382 RGTR--
+*G RGB 220903008 400000087  01828  01904                    % 09382 RGTR--
+*A VE 220903008 400000087 000002  01828  01904              % 09382 RGTR--
+*I FD 220903008 400000087        0002361  01828  01904      % 09382 RGTR--
+220903008 Rodange, Gare                01828                % 09382 RGTR--
+220903009 Rodange, Gendarmerie  01829  01829                % 09382 RGTR--
+220903020 Rodange, Schlackenmi  01830  01830                % 09382 RGTR--
+220903004 Rodange, Fonderie     01831  01831                % 09382 RGTR--
+400000126 Mt.St.Martin, Auchan  01834 -01834                % 09382 RGTR--
+400000127 Mt.St.Martin, Maison  01836 -01836                % 09382 RGTR--
+400000061 Mt.St.Martin, Hôpita  01837 -01837                % 09382 RGTR--
+400000062 Mt.St.Martin, Nancy   01838 -01838                % 09382 RGTR--
+400000142 Mt.St.Martin, Centre  01839 -01839                % 09382 RGTR--
+400000060 Mt.St.Martin, Foch    01840 -01840                % 09382 RGTR--
+400000063 Mt.St.Martin, Résist  01841 -01841                % 09382 RGTR--
+400000056 Mt.St.Martin, Cité J  01842 -01842                % 09382 RGTR--
+400000057 Mt.St.Martin, Notre   01843 -01843                % 09382 RGTR--
+400000043 Longwy, Vauban        01844 -01844                % 09382 RGTR--
+400000042 Longwy, Stade         01844 -01844                % 09382 RGTR--
+400000037 Longwy, Place Darche  01845 -01845                % 09382 RGTR--
+400000029 Longwy, 11 Novembre   01846 -01846                % 09382 RGTR--
+400000039 Longwy, République    01847 -01847                % 09382 RGTR--
+400000032 Longwy, Home City     01848 -01848                % 09382 RGTR--
+400000040 Longwy, rue de Metz   01849 -01849                % 09382 RGTR--
+400000144 Longwy, Labro         01850 -01850                % 09382 RGTR--
+400000030 Longwy, Bas/Espace B  01850 -01850                % 09382 RGTR--
+400000036 Longwy, Merlin        01852 -01852                % 09382 RGTR--
+400000033 Longwy, Lafontaine    01853 -01853                % 09382 RGTR--
+400000051 Mexy, La Forchette    01855 -01855                % 09382 RGTR--
+400000049 Mexy, Condé           01856 -01856                % 09382 RGTR--
+400000050 Mexy, Ecole           01857 -01857                % 09382 RGTR--
+400000052 Mexy, Lorraine        01858 -01858                % 09382 RGTR--
+400000145 Mexy, La Grotte       01859 -01859                % 09382 RGTR--
+400000088 St. Charles, Rhin     01902 -01902                % 09382 RGTR--
+400000086 St. Charles, Château  01903 -01903                % 09382 RGTR--
+400000087 St. Charles, Eglise   01904                       % 09382 RGTR--
+*Z 09383 RGTR--                                             % 09383 RGTR--
+*L 398      220903008 400000087  01938  02014               % 09383 RGTR--
+*A ew 220903008 400000087 000002  01938  02014              % 09383 RGTR--
+*A RJ 220903008 400000087 000002  01938  02014              % 09383 RGTR--
+*R 1 400000087 220903008 400000087  01938  02014            % 09383 RGTR--
+*G RGB 220903008 400000087  01938  02014                    % 09383 RGTR--
+*A VE 220903008 400000087 000002  01938  02014              % 09383 RGTR--
+*I FD 220903008 400000087        0002509  01938  02014      % 09383 RGTR--
+220903008 Rodange, Gare                01938                % 09383 RGTR--
+220903009 Rodange, Gendarmerie  01939  01939                % 09383 RGTR--
+220903020 Rodange, Schlackenmi  01940  01940                % 09383 RGTR--
+220903004 Rodange, Fonderie     01941  01941                % 09383 RGTR--
+400000126 Mt.St.Martin, Auchan  01944 -01944                % 09383 RGTR--
+400000127 Mt.St.Martin, Maison  01946 -01946                % 09383 RGTR--
+400000061 Mt.St.Martin, Hôpita  01947 -01947                % 09383 RGTR--
+400000062 Mt.St.Martin, Nancy   01948 -01948                % 09383 RGTR--
+400000142 Mt.St.Martin, Centre  01949 -01949                % 09383 RGTR--
+400000060 Mt.St.Martin, Foch    01950 -01950                % 09383 RGTR--
+400000063 Mt.St.Martin, Résist  01951 -01951                % 09383 RGTR--
+400000056 Mt.St.Martin, Cité J  01952 -01952                % 09383 RGTR--
+400000057 Mt.St.Martin, Notre   01953 -01953                % 09383 RGTR--
+400000043 Longwy, Vauban        01954 -01954                % 09383 RGTR--
+400000042 Longwy, Stade         01954 -01954                % 09383 RGTR--
+400000037 Longwy, Place Darche  01955 -01955                % 09383 RGTR--
+400000029 Longwy, 11 Novembre   01956 -01956                % 09383 RGTR--
+400000039 Longwy, République    01957 -01957                % 09383 RGTR--
+400000032 Longwy, Home City     01958 -01958                % 09383 RGTR--
+400000040 Longwy, rue de Metz   01959 -01959                % 09383 RGTR--
+400000144 Longwy, Labro         02000 -02000                % 09383 RGTR--
+400000030 Longwy, Bas/Espace B  02000 -02000                % 09383 RGTR--
+400000036 Longwy, Merlin        02002 -02002                % 09383 RGTR--
+400000033 Longwy, Lafontaine    02003 -02003                % 09383 RGTR--
+400000051 Mexy, La Forchette    02005 -02005                % 09383 RGTR--
+400000049 Mexy, Condé           02006 -02006                % 09383 RGTR--
+400000050 Mexy, Ecole           02007 -02007                % 09383 RGTR--
+400000052 Mexy, Lorraine        02008 -02008                % 09383 RGTR--
+400000145 Mexy, La Grotte       02009 -02009                % 09383 RGTR--
+400000088 St. Charles, Rhin     02012 -02012                % 09383 RGTR--
+400000086 St. Charles, Château  02013 -02013                % 09383 RGTR--
+400000087 St. Charles, Eglise   02014                       % 09383 RGTR--
+*Z 09384 RGTR--                                             % 09384 RGTR--
+*L 398      220903008 400000087  02140  02216               % 09384 RGTR--
+*A eb 220903008 400000087 000002  02140  02216              % 09384 RGTR--
+*A RJ 220903008 400000087 000002  02140  02216              % 09384 RGTR--
+*R 1 400000087 220903008 400000087  02140  02216            % 09384 RGTR--
+*G RGB 220903008 400000087  02140  02216                    % 09384 RGTR--
+*A VE 220903008 400000087 000002  02140  02216              % 09384 RGTR--
+*I FD 220903008 400000087        0002992  02140  02216      % 09384 RGTR--
+220903008 Rodange, Gare                02140                % 09384 RGTR--
+220903009 Rodange, Gendarmerie  02141  02141                % 09384 RGTR--
+220903020 Rodange, Schlackenmi  02142  02142                % 09384 RGTR--
+220903004 Rodange, Fonderie     02143  02143                % 09384 RGTR--
+400000126 Mt.St.Martin, Auchan  02146 -02146                % 09384 RGTR--
+400000127 Mt.St.Martin, Maison  02148 -02148                % 09384 RGTR--
+400000061 Mt.St.Martin, Hôpita  02149 -02149                % 09384 RGTR--
+400000062 Mt.St.Martin, Nancy   02150 -02150                % 09384 RGTR--
+400000142 Mt.St.Martin, Centre  02151 -02151                % 09384 RGTR--
+400000060 Mt.St.Martin, Foch    02152 -02152                % 09384 RGTR--
+400000063 Mt.St.Martin, Résist  02153 -02153                % 09384 RGTR--
+400000056 Mt.St.Martin, Cité J  02154 -02154                % 09384 RGTR--
+400000057 Mt.St.Martin, Notre   02155 -02155                % 09384 RGTR--
+400000043 Longwy, Vauban        02156 -02156                % 09384 RGTR--
+400000042 Longwy, Stade         02156 -02156                % 09384 RGTR--
+400000037 Longwy, Place Darche  02157 -02157                % 09384 RGTR--
+400000029 Longwy, 11 Novembre   02158 -02158                % 09384 RGTR--
+400000039 Longwy, République    02159 -02159                % 09384 RGTR--
+400000032 Longwy, Home City     02200 -02200                % 09384 RGTR--
+400000040 Longwy, rue de Metz   02201 -02201                % 09384 RGTR--
+400000144 Longwy, Labro         02202 -02202                % 09384 RGTR--
+400000030 Longwy, Bas/Espace B  02202 -02202                % 09384 RGTR--
+400000036 Longwy, Merlin        02204 -02204                % 09384 RGTR--
+400000033 Longwy, Lafontaine    02205 -02205                % 09384 RGTR--
+400000051 Mexy, La Forchette    02207 -02207                % 09384 RGTR--
+400000049 Mexy, Condé           02208 -02208                % 09384 RGTR--
+400000050 Mexy, Ecole           02209 -02209                % 09384 RGTR--
+400000052 Mexy, Lorraine        02210 -02210                % 09384 RGTR--
+400000145 Mexy, La Grotte       02211 -02211                % 09384 RGTR--
+400000088 St. Charles, Rhin     02214 -02214                % 09384 RGTR--
+400000086 St. Charles, Château  02215 -02215                % 09384 RGTR--
+400000087 St. Charles, Eglise   02216                       % 09384 RGTR--
+*Z 09385 RGTR--                                             % 09385 RGTR--
+*L 398      220903008 400000087  02230  02306               % 09385 RGTR--
+*A eb 220903008 400000087 000002  02230  02306              % 09385 RGTR--
+*A RJ 220903008 400000087 000002  02230  02306              % 09385 RGTR--
+*R 1 400000087 220903008 400000087  02230  02306            % 09385 RGTR--
+*G RGB 220903008 400000087  02230  02306                    % 09385 RGTR--
+*A VE 220903008 400000087 000002  02230  02306              % 09385 RGTR--
+*I FD 220903008 400000087        0002614  02230  02306      % 09385 RGTR--
+220903008 Rodange, Gare                02230                % 09385 RGTR--
+220903009 Rodange, Gendarmerie  02231  02231                % 09385 RGTR--
+220903020 Rodange, Schlackenmi  02232  02232                % 09385 RGTR--
+220903004 Rodange, Fonderie     02233  02233                % 09385 RGTR--
+400000126 Mt.St.Martin, Auchan  02236 -02236                % 09385 RGTR--
+400000127 Mt.St.Martin, Maison  02238 -02238                % 09385 RGTR--
+400000061 Mt.St.Martin, Hôpita  02239 -02239                % 09385 RGTR--
+400000062 Mt.St.Martin, Nancy   02240 -02240                % 09385 RGTR--
+400000142 Mt.St.Martin, Centre  02241 -02241                % 09385 RGTR--
+400000060 Mt.St.Martin, Foch    02242 -02242                % 09385 RGTR--
+400000063 Mt.St.Martin, Résist  02243 -02243                % 09385 RGTR--
+400000056 Mt.St.Martin, Cité J  02244 -02244                % 09385 RGTR--
+400000057 Mt.St.Martin, Notre   02245 -02245                % 09385 RGTR--
+400000043 Longwy, Vauban        02246 -02246                % 09385 RGTR--
+400000042 Longwy, Stade         02246 -02246                % 09385 RGTR--
+400000037 Longwy, Place Darche  02247 -02247                % 09385 RGTR--
+400000029 Longwy, 11 Novembre   02248 -02248                % 09385 RGTR--
+400000039 Longwy, République    02249 -02249                % 09385 RGTR--
+400000032 Longwy, Home City     02250 -02250                % 09385 RGTR--
+400000040 Longwy, rue de Metz   02251 -02251                % 09385 RGTR--
+400000144 Longwy, Labro         02252 -02252                % 09385 RGTR--
+400000030 Longwy, Bas/Espace B  02252 -02252                % 09385 RGTR--
+400000036 Longwy, Merlin        02254 -02254                % 09385 RGTR--
+400000033 Longwy, Lafontaine    02255 -02255                % 09385 RGTR--
+400000051 Mexy, La Forchette    02257 -02257                % 09385 RGTR--
+400000049 Mexy, Condé           02258 -02258                % 09385 RGTR--
+400000050 Mexy, Ecole           02259 -02259                % 09385 RGTR--
+400000052 Mexy, Lorraine        02300 -02300                % 09385 RGTR--
+400000145 Mexy, La Grotte       02301 -02301                % 09385 RGTR--
+400000088 St. Charles, Rhin     02304 -02304                % 09385 RGTR--
+400000086 St. Charles, Château  02305 -02305                % 09385 RGTR--
+400000087 St. Charles, Eglise   02306                       % 09385 RGTR--
+*Z 09386 RGTR--                                             % 09386 RGTR--
+*L 398      400000087 220903008  00452  00529               % 09386 RGTR--
+*A eb 400000087 220903008 000001  00452  00529              % 09386 RGTR--
+*A RK 400000087 220903008 000001  00452  00529              % 09386 RGTR--
+*A RN 400000087 220903008 000001  00452  00529              % 09386 RGTR--
+*R 2 220903008 400000087 220903008  00452  00529            % 09386 RGTR--
+*G RGB 400000087 220903008  00452  00529                    % 09386 RGTR--
+*A VE 400000087 220903008 000001  00452  00529              % 09386 RGTR--
+*I FD 400000087 220903008        0003556  00452  00529      % 09386 RGTR--
+400000087 St. Charles, Eglise          00452                % 09386 RGTR--
+400000086 St. Charles, Château -00453  00453                % 09386 RGTR--
+400000088 St. Charles, Rhin    -00453  00453                % 09386 RGTR--
+400000049 Mexy, Condé          -00457  00457                % 09386 RGTR--
+400000050 Mexy, Ecole          -00458  00458                % 09386 RGTR--
+400000052 Mexy, Lorraine       -00459  00459                % 09386 RGTR--
+400000145 Mexy, La Grotte      -00500  00500                % 09386 RGTR--
+400000051 Mexy, La Forchette   -00500  00500                % 09386 RGTR--
+400000033 Longwy, Lafontaine   -00503  00503                % 09386 RGTR--
+400000036 Longwy, Merlin       -00504  00504                % 09386 RGTR--
+400000030 Longwy, Bas/Espace B -00506  00506                % 09386 RGTR--
+400000040 Longwy, rue de Metz  -00507  00507                % 09386 RGTR--
+400000032 Longwy, Home City    -00508  00508                % 09386 RGTR--
+400000039 Longwy, République   -00510  00510                % 09386 RGTR--
+400000029 Longwy, 11 Novembre  -00510  00510                % 09386 RGTR--
+400000037 Longwy, Place Darche -00511  00511                % 09386 RGTR--
+400000042 Longwy, Stade        -00512  00512                % 09386 RGTR--
+400000043 Longwy, Vauban       -00512  00512                % 09386 RGTR--
+400000057 Mt.St.Martin, Notre  -00513  00513                % 09386 RGTR--
+400000056 Mt.St.Martin, Cité J -00514  00514                % 09386 RGTR--
+400000063 Mt.St.Martin, Résist -00515  00515                % 09386 RGTR--
+400000060 Mt.St.Martin, Foch   -00516  00516                % 09386 RGTR--
+400000142 Mt.St.Martin, Centre -00517  00517                % 09386 RGTR--
+400000059 Mt.St.Martin, Eglant -00518  00518                % 09386 RGTR--
+400000062 Mt.St.Martin, Nancy  -00518  00518                % 09386 RGTR--
+400000061 Mt.St.Martin, Hôpita -00520  00520                % 09386 RGTR--
+400000127 Mt.St.Martin, Maison -00521  00521                % 09386 RGTR--
+400000126 Mt.St.Martin, Auchan -00523  00523                % 09386 RGTR--
+220903004 Rodange, Fonderie     00526  00526                % 09386 RGTR--
+220903020 Rodange, Schlackenmi  00527  00527                % 09386 RGTR--
+220903009 Rodange, Gendarmerie  00528  00528                % 09386 RGTR--
+220903008 Rodange, Gare         00529                       % 09386 RGTR--
+*Z 09387 RGTR--                                             % 09387 RGTR--
+*L 398      400000087 220903008  01015  01052               % 09387 RGTR--
+*A eb 400000087 220903008 000001  01015  01052              % 09387 RGTR--
+*A RK 400000087 220903008 000001  01015  01052              % 09387 RGTR--
+*R 2 220903008 400000087 220903008  01015  01052            % 09387 RGTR--
+*G RGB 400000087 220903008  01015  01052                    % 09387 RGTR--
+*A VE 400000087 220903008 000001  01015  01052              % 09387 RGTR--
+*I FD 400000087 220903008        0002870  01015  01052      % 09387 RGTR--
+400000087 St. Charles, Eglise          01015                % 09387 RGTR--
+400000086 St. Charles, Château -01016  01016                % 09387 RGTR--
+400000088 St. Charles, Rhin    -01016  01016                % 09387 RGTR--
+400000049 Mexy, Condé          -01020  01020                % 09387 RGTR--
+400000050 Mexy, Ecole          -01021  01021                % 09387 RGTR--
+400000052 Mexy, Lorraine       -01022  01022                % 09387 RGTR--
+400000145 Mexy, La Grotte      -01023  01023                % 09387 RGTR--
+400000051 Mexy, La Forchette   -01023  01023                % 09387 RGTR--
+400000033 Longwy, Lafontaine   -01026  01026                % 09387 RGTR--
+400000036 Longwy, Merlin       -01027  01027                % 09387 RGTR--
+400000030 Longwy, Bas/Espace B -01029  01029                % 09387 RGTR--
+400000040 Longwy, rue de Metz  -01030  01030                % 09387 RGTR--
+400000032 Longwy, Home City    -01031  01031                % 09387 RGTR--
+400000039 Longwy, République   -01033  01033                % 09387 RGTR--
+400000029 Longwy, 11 Novembre  -01033  01033                % 09387 RGTR--
+400000037 Longwy, Place Darche -01034  01034                % 09387 RGTR--
+400000042 Longwy, Stade        -01035  01035                % 09387 RGTR--
+400000043 Longwy, Vauban       -01035  01035                % 09387 RGTR--
+400000057 Mt.St.Martin, Notre  -01036  01036                % 09387 RGTR--
+400000056 Mt.St.Martin, Cité J -01037  01037                % 09387 RGTR--
+400000063 Mt.St.Martin, Résist -01038  01038                % 09387 RGTR--
+400000060 Mt.St.Martin, Foch   -01039  01039                % 09387 RGTR--
+400000142 Mt.St.Martin, Centre -01040  01040                % 09387 RGTR--
+400000059 Mt.St.Martin, Eglant -01041  01041                % 09387 RGTR--
+400000062 Mt.St.Martin, Nancy  -01041  01041                % 09387 RGTR--
+400000061 Mt.St.Martin, Hôpita -01043  01043                % 09387 RGTR--
+400000127 Mt.St.Martin, Maison -01044  01044                % 09387 RGTR--
+400000126 Mt.St.Martin, Auchan -01046  01046                % 09387 RGTR--
+220903004 Rodange, Fonderie     01049  01049                % 09387 RGTR--
+220903020 Rodange, Schlackenmi  01050  01050                % 09387 RGTR--
+220903009 Rodange, Gendarmerie  01051  01051                % 09387 RGTR--
+220903008 Rodange, Gare         01052                       % 09387 RGTR--
+*Z 09388 RGTR--                                             % 09388 RGTR--
+*L 398      400000087 220903008  01115  01152               % 09388 RGTR--
+*A eb 400000087 220903008 000001  01115  01152              % 09388 RGTR--
+*A RK 400000087 220903008 000001  01115  01152              % 09388 RGTR--
+*R 2 220903008 400000087 220903008  01115  01152            % 09388 RGTR--
+*G RGB 400000087 220903008  01115  01152                    % 09388 RGTR--
+*A VE 400000087 220903008 000001  01115  01152              % 09388 RGTR--
+*I FD 400000087 220903008        0001055  01115  01152      % 09388 RGTR--
+400000087 St. Charles, Eglise          01115                % 09388 RGTR--
+400000086 St. Charles, Château -01116  01116                % 09388 RGTR--
+400000088 St. Charles, Rhin    -01116  01116                % 09388 RGTR--
+400000049 Mexy, Condé          -01120  01120                % 09388 RGTR--
+400000050 Mexy, Ecole          -01121  01121                % 09388 RGTR--
+400000052 Mexy, Lorraine       -01122  01122                % 09388 RGTR--
+400000145 Mexy, La Grotte      -01123  01123                % 09388 RGTR--
+400000051 Mexy, La Forchette   -01123  01123                % 09388 RGTR--
+400000033 Longwy, Lafontaine   -01126  01126                % 09388 RGTR--
+400000036 Longwy, Merlin       -01127  01127                % 09388 RGTR--
+400000030 Longwy, Bas/Espace B -01129  01129                % 09388 RGTR--
+400000040 Longwy, rue de Metz  -01130  01130                % 09388 RGTR--
+400000032 Longwy, Home City    -01131  01131                % 09388 RGTR--
+400000039 Longwy, République   -01133  01133                % 09388 RGTR--
+400000029 Longwy, 11 Novembre  -01133  01133                % 09388 RGTR--
+400000037 Longwy, Place Darche -01134  01134                % 09388 RGTR--
+400000042 Longwy, Stade        -01135  01135                % 09388 RGTR--
+400000043 Longwy, Vauban       -01135  01135                % 09388 RGTR--
+400000057 Mt.St.Martin, Notre  -01136  01136                % 09388 RGTR--
+400000056 Mt.St.Martin, Cité J -01137  01137                % 09388 RGTR--
+400000063 Mt.St.Martin, Résist -01138  01138                % 09388 RGTR--
+400000060 Mt.St.Martin, Foch   -01139  01139                % 09388 RGTR--
+400000142 Mt.St.Martin, Centre -01140  01140                % 09388 RGTR--
+400000059 Mt.St.Martin, Eglant -01141  01141                % 09388 RGTR--
+400000062 Mt.St.Martin, Nancy  -01141  01141                % 09388 RGTR--
+400000061 Mt.St.Martin, Hôpita -01143  01143                % 09388 RGTR--
+400000127 Mt.St.Martin, Maison -01144  01144                % 09388 RGTR--
+400000126 Mt.St.Martin, Auchan -01146  01146                % 09388 RGTR--
+220903004 Rodange, Fonderie     01149  01149                % 09388 RGTR--
+220903020 Rodange, Schlackenmi  01150  01150                % 09388 RGTR--
+220903009 Rodange, Gendarmerie  01151  01151                % 09388 RGTR--
+220903008 Rodange, Gare         01152                       % 09388 RGTR--
+*Z 09389 RGTR--                                             % 09389 RGTR--
+*L 398      400000087 220903008  01215  01252               % 09389 RGTR--
+*A ew 400000087 220903008 000001  01215  01252              % 09389 RGTR--
+*A RK 400000087 220903008 000001  01215  01252              % 09389 RGTR--
+*R 2 220903008 400000087 220903008  01215  01252            % 09389 RGTR--
+*G RGB 400000087 220903008  01215  01252                    % 09389 RGTR--
+*A VE 400000087 220903008 000001  01215  01252              % 09389 RGTR--
+*I FD 400000087 220903008        0002757  01215  01252      % 09389 RGTR--
+400000087 St. Charles, Eglise          01215                % 09389 RGTR--
+400000086 St. Charles, Château -01216  01216                % 09389 RGTR--
+400000088 St. Charles, Rhin    -01216  01216                % 09389 RGTR--
+400000049 Mexy, Condé          -01220  01220                % 09389 RGTR--
+400000050 Mexy, Ecole          -01221  01221                % 09389 RGTR--
+400000052 Mexy, Lorraine       -01222  01222                % 09389 RGTR--
+400000145 Mexy, La Grotte      -01223  01223                % 09389 RGTR--
+400000051 Mexy, La Forchette   -01223  01223                % 09389 RGTR--
+400000033 Longwy, Lafontaine   -01226  01226                % 09389 RGTR--
+400000036 Longwy, Merlin       -01227  01227                % 09389 RGTR--
+400000030 Longwy, Bas/Espace B -01229  01229                % 09389 RGTR--
+400000040 Longwy, rue de Metz  -01230  01230                % 09389 RGTR--
+400000032 Longwy, Home City    -01231  01231                % 09389 RGTR--
+400000039 Longwy, République   -01233  01233                % 09389 RGTR--
+400000029 Longwy, 11 Novembre  -01233  01233                % 09389 RGTR--
+400000037 Longwy, Place Darche -01234  01234                % 09389 RGTR--
+400000042 Longwy, Stade        -01235  01235                % 09389 RGTR--
+400000043 Longwy, Vauban       -01235  01235                % 09389 RGTR--
+400000057 Mt.St.Martin, Notre  -01236  01236                % 09389 RGTR--
+400000056 Mt.St.Martin, Cité J -01237  01237                % 09389 RGTR--
+400000063 Mt.St.Martin, Résist -01238  01238                % 09389 RGTR--
+400000060 Mt.St.Martin, Foch   -01239  01239                % 09389 RGTR--
+400000142 Mt.St.Martin, Centre -01240  01240                % 09389 RGTR--
+400000059 Mt.St.Martin, Eglant -01241  01241                % 09389 RGTR--
+400000062 Mt.St.Martin, Nancy  -01241  01241                % 09389 RGTR--
+400000061 Mt.St.Martin, Hôpita -01243  01243                % 09389 RGTR--
+400000127 Mt.St.Martin, Maison -01244  01244                % 09389 RGTR--
+400000126 Mt.St.Martin, Auchan -01246  01246                % 09389 RGTR--
+220903004 Rodange, Fonderie     01249  01249                % 09389 RGTR--
+220903020 Rodange, Schlackenmi  01250  01250                % 09389 RGTR--
+220903009 Rodange, Gendarmerie  01251  01251                % 09389 RGTR--
+220903008 Rodange, Gare         01252                       % 09389 RGTR--
+*Z 09390 RGTR--                                             % 09390 RGTR--
+*L 398      400000087 220903008  01315  01352               % 09390 RGTR--
+*A eb 400000087 220903008 000001  01315  01352              % 09390 RGTR--
+*A RK 400000087 220903008 000001  01315  01352              % 09390 RGTR--
+*R 2 220903008 400000087 220903008  01315  01352            % 09390 RGTR--
+*G RGB 400000087 220903008  01315  01352                    % 09390 RGTR--
+*A VE 400000087 220903008 000001  01315  01352              % 09390 RGTR--
+*I FD 400000087 220903008        0002501  01315  01352      % 09390 RGTR--
+400000087 St. Charles, Eglise          01315                % 09390 RGTR--
+400000086 St. Charles, Château -01316  01316                % 09390 RGTR--
+400000088 St. Charles, Rhin    -01316  01316                % 09390 RGTR--
+400000049 Mexy, Condé          -01320  01320                % 09390 RGTR--
+400000050 Mexy, Ecole          -01321  01321                % 09390 RGTR--
+400000052 Mexy, Lorraine       -01322  01322                % 09390 RGTR--
+400000145 Mexy, La Grotte      -01323  01323                % 09390 RGTR--
+400000051 Mexy, La Forchette   -01323  01323                % 09390 RGTR--
+400000033 Longwy, Lafontaine   -01326  01326                % 09390 RGTR--
+400000036 Longwy, Merlin       -01327  01327                % 09390 RGTR--
+400000030 Longwy, Bas/Espace B -01329  01329                % 09390 RGTR--
+400000040 Longwy, rue de Metz  -01330  01330                % 09390 RGTR--
+400000032 Longwy, Home City    -01331  01331                % 09390 RGTR--
+400000039 Longwy, République   -01333  01333                % 09390 RGTR--
+400000029 Longwy, 11 Novembre  -01333  01333                % 09390 RGTR--
+400000037 Longwy, Place Darche -01334  01334                % 09390 RGTR--
+400000042 Longwy, Stade        -01335  01335                % 09390 RGTR--
+400000043 Longwy, Vauban       -01335  01335                % 09390 RGTR--
+400000057 Mt.St.Martin, Notre  -01336  01336                % 09390 RGTR--
+400000056 Mt.St.Martin, Cité J -01337  01337                % 09390 RGTR--
+400000063 Mt.St.Martin, Résist -01338  01338                % 09390 RGTR--
+400000060 Mt.St.Martin, Foch   -01339  01339                % 09390 RGTR--
+400000142 Mt.St.Martin, Centre -01340  01340                % 09390 RGTR--
+400000059 Mt.St.Martin, Eglant -01341  01341                % 09390 RGTR--
+400000062 Mt.St.Martin, Nancy  -01341  01341                % 09390 RGTR--
+400000061 Mt.St.Martin, Hôpita -01343  01343                % 09390 RGTR--
+400000127 Mt.St.Martin, Maison -01344  01344                % 09390 RGTR--
+400000126 Mt.St.Martin, Auchan -01346  01346                % 09390 RGTR--
+220903004 Rodange, Fonderie     01349  01349                % 09390 RGTR--
+220903020 Rodange, Schlackenmi  01350  01350                % 09390 RGTR--
+220903009 Rodange, Gendarmerie  01351  01351                % 09390 RGTR--
+220903008 Rodange, Gare         01352                       % 09390 RGTR--
+*Z 09391 RGTR--                                             % 09391 RGTR--
+*L 398      400000087 220903008  01415  01452               % 09391 RGTR--
+*A eb 400000087 220903008 000001  01415  01452              % 09391 RGTR--
+*A RK 400000087 220903008 000001  01415  01452              % 09391 RGTR--
+*R 2 220903008 400000087 220903008  01415  01452            % 09391 RGTR--
+*G RGB 400000087 220903008  01415  01452                    % 09391 RGTR--
+*A VE 400000087 220903008 000001  01415  01452              % 09391 RGTR--
+*I FD 400000087 220903008        0002758  01415  01452      % 09391 RGTR--
+400000087 St. Charles, Eglise          01415                % 09391 RGTR--
+400000086 St. Charles, Château -01416  01416                % 09391 RGTR--
+400000088 St. Charles, Rhin    -01416  01416                % 09391 RGTR--
+400000049 Mexy, Condé          -01420  01420                % 09391 RGTR--
+400000050 Mexy, Ecole          -01421  01421                % 09391 RGTR--
+400000052 Mexy, Lorraine       -01422  01422                % 09391 RGTR--
+400000145 Mexy, La Grotte      -01423  01423                % 09391 RGTR--
+400000051 Mexy, La Forchette   -01423  01423                % 09391 RGTR--
+400000033 Longwy, Lafontaine   -01426  01426                % 09391 RGTR--
+400000036 Longwy, Merlin       -01427  01427                % 09391 RGTR--
+400000030 Longwy, Bas/Espace B -01429  01429                % 09391 RGTR--
+400000040 Longwy, rue de Metz  -01430  01430                % 09391 RGTR--
+400000032 Longwy, Home City    -01431  01431                % 09391 RGTR--
+400000039 Longwy, République   -01433  01433                % 09391 RGTR--
+400000029 Longwy, 11 Novembre  -01433  01433                % 09391 RGTR--
+400000037 Longwy, Place Darche -01434  01434                % 09391 RGTR--
+400000042 Longwy, Stade        -01435  01435                % 09391 RGTR--
+400000043 Longwy, Vauban       -01435  01435                % 09391 RGTR--
+400000057 Mt.St.Martin, Notre  -01436  01436                % 09391 RGTR--
+400000056 Mt.St.Martin, Cité J -01437  01437                % 09391 RGTR--
+400000063 Mt.St.Martin, Résist -01438  01438                % 09391 RGTR--
+400000060 Mt.St.Martin, Foch   -01439  01439                % 09391 RGTR--
+400000142 Mt.St.Martin, Centre -01440  01440                % 09391 RGTR--
+400000059 Mt.St.Martin, Eglant -01441  01441                % 09391 RGTR--
+400000062 Mt.St.Martin, Nancy  -01441  01441                % 09391 RGTR--
+400000061 Mt.St.Martin, Hôpita -01443  01443                % 09391 RGTR--
+400000127 Mt.St.Martin, Maison -01444  01444                % 09391 RGTR--
+400000126 Mt.St.Martin, Auchan -01446  01446                % 09391 RGTR--
+220903004 Rodange, Fonderie     01449  01449                % 09391 RGTR--
+220903020 Rodange, Schlackenmi  01450  01450                % 09391 RGTR--
+220903009 Rodange, Gendarmerie  01451  01451                % 09391 RGTR--
+220903008 Rodange, Gare         01452                       % 09391 RGTR--
+*Z 09392 RGTR--                                             % 09392 RGTR--
+*L 398      400000087 220903008  01515  01552               % 09392 RGTR--
+*A eb 400000087 220903008 000001  01515  01552              % 09392 RGTR--
+*A RK 400000087 220903008 000001  01515  01552              % 09392 RGTR--
+*A RN 400000087 220903008 000001  01515  01552              % 09392 RGTR--
+*R 2 220903008 400000087 220903008  01515  01552            % 09392 RGTR--
+*G RGB 400000087 220903008  01515  01552                    % 09392 RGTR--
+*A VE 400000087 220903008 000001  01515  01552              % 09392 RGTR--
+*I FD 400000087 220903008        0002681  01515  01552      % 09392 RGTR--
+400000087 St. Charles, Eglise          01515                % 09392 RGTR--
+400000086 St. Charles, Château -01516  01516                % 09392 RGTR--
+400000088 St. Charles, Rhin    -01516  01516                % 09392 RGTR--
+400000049 Mexy, Condé          -01520  01520                % 09392 RGTR--
+400000050 Mexy, Ecole          -01521  01521                % 09392 RGTR--
+400000052 Mexy, Lorraine       -01522  01522                % 09392 RGTR--
+400000145 Mexy, La Grotte      -01523  01523                % 09392 RGTR--
+400000051 Mexy, La Forchette   -01523  01523                % 09392 RGTR--
+400000033 Longwy, Lafontaine   -01526  01526                % 09392 RGTR--
+400000036 Longwy, Merlin       -01527  01527                % 09392 RGTR--
+400000030 Longwy, Bas/Espace B -01529  01529                % 09392 RGTR--
+400000040 Longwy, rue de Metz  -01530  01530                % 09392 RGTR--
+400000032 Longwy, Home City    -01531  01531                % 09392 RGTR--
+400000039 Longwy, République   -01533  01533                % 09392 RGTR--
+400000029 Longwy, 11 Novembre  -01533  01533                % 09392 RGTR--
+400000037 Longwy, Place Darche -01534  01534                % 09392 RGTR--
+400000042 Longwy, Stade        -01535  01535                % 09392 RGTR--
+400000043 Longwy, Vauban       -01535  01535                % 09392 RGTR--
+400000057 Mt.St.Martin, Notre  -01536  01536                % 09392 RGTR--
+400000056 Mt.St.Martin, Cité J -01537  01537                % 09392 RGTR--
+400000063 Mt.St.Martin, Résist -01538  01538                % 09392 RGTR--
+400000060 Mt.St.Martin, Foch   -01539  01539                % 09392 RGTR--
+400000142 Mt.St.Martin, Centre -01540  01540                % 09392 RGTR--
+400000059 Mt.St.Martin, Eglant -01541  01541                % 09392 RGTR--
+400000062 Mt.St.Martin, Nancy  -01541  01541                % 09392 RGTR--
+400000061 Mt.St.Martin, Hôpita -01543  01543                % 09392 RGTR--
+400000127 Mt.St.Martin, Maison -01544  01544                % 09392 RGTR--
+400000126 Mt.St.Martin, Auchan -01546  01546                % 09392 RGTR--
+220903004 Rodange, Fonderie     01549  01549                % 09392 RGTR--
+220903020 Rodange, Schlackenmi  01550  01550                % 09392 RGTR--
+220903009 Rodange, Gendarmerie  01551  01551                % 09392 RGTR--
+220903008 Rodange, Gare         01552                       % 09392 RGTR--
+*Z 09393 RGTR--                                             % 09393 RGTR--
+*L 398      400000087 220903008  01817  01854               % 09393 RGTR--
+*A ew 400000087 220903008 000001  01817  01854              % 09393 RGTR--
+*A RK 400000087 220903008 000001  01817  01854              % 09393 RGTR--
+*R 2 220903008 400000087 220903008  01817  01854            % 09393 RGTR--
+*G RGB 400000087 220903008  01817  01854                    % 09393 RGTR--
+*A VE 400000087 220903008 000001  01817  01854              % 09393 RGTR--
+*I FD 400000087 220903008        0002333  01817  01854      % 09393 RGTR--
+400000087 St. Charles, Eglise          01817                % 09393 RGTR--
+400000086 St. Charles, Château -01818  01818                % 09393 RGTR--
+400000088 St. Charles, Rhin    -01818  01818                % 09393 RGTR--
+400000049 Mexy, Condé          -01822  01822                % 09393 RGTR--
+400000050 Mexy, Ecole          -01823  01823                % 09393 RGTR--
+400000052 Mexy, Lorraine       -01824  01824                % 09393 RGTR--
+400000145 Mexy, La Grotte      -01825  01825                % 09393 RGTR--
+400000051 Mexy, La Forchette   -01825  01825                % 09393 RGTR--
+400000033 Longwy, Lafontaine   -01828  01828                % 09393 RGTR--
+400000036 Longwy, Merlin       -01829  01829                % 09393 RGTR--
+400000030 Longwy, Bas/Espace B -01831  01831                % 09393 RGTR--
+400000040 Longwy, rue de Metz  -01832  01832                % 09393 RGTR--
+400000032 Longwy, Home City    -01833  01833                % 09393 RGTR--
+400000039 Longwy, République   -01835  01835                % 09393 RGTR--
+400000029 Longwy, 11 Novembre  -01835  01835                % 09393 RGTR--
+400000037 Longwy, Place Darche -01836  01836                % 09393 RGTR--
+400000042 Longwy, Stade        -01837  01837                % 09393 RGTR--
+400000043 Longwy, Vauban       -01837  01837                % 09393 RGTR--
+400000057 Mt.St.Martin, Notre  -01838  01838                % 09393 RGTR--
+400000056 Mt.St.Martin, Cité J -01839  01839                % 09393 RGTR--
+400000063 Mt.St.Martin, Résist -01840  01840                % 09393 RGTR--
+400000060 Mt.St.Martin, Foch   -01841  01841                % 09393 RGTR--
+400000142 Mt.St.Martin, Centre -01842  01842                % 09393 RGTR--
+400000059 Mt.St.Martin, Eglant -01843  01843                % 09393 RGTR--
+400000062 Mt.St.Martin, Nancy  -01843  01843                % 09393 RGTR--
+400000061 Mt.St.Martin, Hôpita -01845  01845                % 09393 RGTR--
+400000127 Mt.St.Martin, Maison -01846  01846                % 09393 RGTR--
+400000126 Mt.St.Martin, Auchan -01848  01848                % 09393 RGTR--
+220903004 Rodange, Fonderie     01851  01851                % 09393 RGTR--
+220903020 Rodange, Schlackenmi  01852  01852                % 09393 RGTR--
+220903009 Rodange, Gendarmerie  01853  01853                % 09393 RGTR--
+220903008 Rodange, Gare         01854                       % 09393 RGTR--
+*Z 09394 RGTR--                                             % 09394 RGTR--
+*L 398      400000087 220903008  01917  01954               % 09394 RGTR--
+*A eb 400000087 220903008 000001  01917  01954              % 09394 RGTR--
+*A RK 400000087 220903008 000001  01917  01954              % 09394 RGTR--
+*R 2 220903008 400000087 220903008  01917  01954            % 09394 RGTR--
+*G RGB 400000087 220903008  01917  01954                    % 09394 RGTR--
+*A VE 400000087 220903008 000001  01917  01954              % 09394 RGTR--
+*I FD 400000087 220903008        0002345  01917  01954      % 09394 RGTR--
+400000087 St. Charles, Eglise          01917                % 09394 RGTR--
+400000086 St. Charles, Château -01918  01918                % 09394 RGTR--
+400000088 St. Charles, Rhin    -01918  01918                % 09394 RGTR--
+400000049 Mexy, Condé          -01922  01922                % 09394 RGTR--
+400000050 Mexy, Ecole          -01923  01923                % 09394 RGTR--
+400000052 Mexy, Lorraine       -01924  01924                % 09394 RGTR--
+400000145 Mexy, La Grotte      -01925  01925                % 09394 RGTR--
+400000051 Mexy, La Forchette   -01925  01925                % 09394 RGTR--
+400000033 Longwy, Lafontaine   -01928  01928                % 09394 RGTR--
+400000036 Longwy, Merlin       -01929  01929                % 09394 RGTR--
+400000030 Longwy, Bas/Espace B -01931  01931                % 09394 RGTR--
+400000040 Longwy, rue de Metz  -01932  01932                % 09394 RGTR--
+400000032 Longwy, Home City    -01933  01933                % 09394 RGTR--
+400000039 Longwy, République   -01935  01935                % 09394 RGTR--
+400000029 Longwy, 11 Novembre  -01935  01935                % 09394 RGTR--
+400000037 Longwy, Place Darche -01936  01936                % 09394 RGTR--
+400000042 Longwy, Stade        -01937  01937                % 09394 RGTR--
+400000043 Longwy, Vauban       -01937  01937                % 09394 RGTR--
+400000057 Mt.St.Martin, Notre  -01938  01938                % 09394 RGTR--
+400000056 Mt.St.Martin, Cité J -01939  01939                % 09394 RGTR--
+400000063 Mt.St.Martin, Résist -01940  01940                % 09394 RGTR--
+400000060 Mt.St.Martin, Foch   -01941  01941                % 09394 RGTR--
+400000142 Mt.St.Martin, Centre -01942  01942                % 09394 RGTR--
+400000059 Mt.St.Martin, Eglant -01943  01943                % 09394 RGTR--
+400000062 Mt.St.Martin, Nancy  -01943  01943                % 09394 RGTR--
+400000061 Mt.St.Martin, Hôpita -01945  01945                % 09394 RGTR--
+400000127 Mt.St.Martin, Maison -01946  01946                % 09394 RGTR--
+400000126 Mt.St.Martin, Auchan -01948  01948                % 09394 RGTR--
+220903004 Rodange, Fonderie     01951  01951                % 09394 RGTR--
+220903020 Rodange, Schlackenmi  01952  01952                % 09394 RGTR--
+220903009 Rodange, Gendarmerie  01953  01953                % 09394 RGTR--
+220903008 Rodange, Gare         01954                       % 09394 RGTR--
+*Z 09395 RGTR--                                             % 09395 RGTR--
+*L 398      400000087 220903008  02015  02052               % 09395 RGTR--
+*A ew 400000087 220903008 000001  02015  02052              % 09395 RGTR--
+*A RK 400000087 220903008 000001  02015  02052              % 09395 RGTR--
+*R 2 220903008 400000087 220903008  02015  02052            % 09395 RGTR--
+*G RGB 400000087 220903008  02015  02052                    % 09395 RGTR--
+*A VE 400000087 220903008 000001  02015  02052              % 09395 RGTR--
+*I FD 400000087 220903008        0002474  02015  02052      % 09395 RGTR--
+400000087 St. Charles, Eglise          02015                % 09395 RGTR--
+400000086 St. Charles, Château -02016  02016                % 09395 RGTR--
+400000088 St. Charles, Rhin    -02016  02016                % 09395 RGTR--
+400000049 Mexy, Condé          -02020  02020                % 09395 RGTR--
+400000050 Mexy, Ecole          -02021  02021                % 09395 RGTR--
+400000052 Mexy, Lorraine       -02022  02022                % 09395 RGTR--
+400000145 Mexy, La Grotte      -02023  02023                % 09395 RGTR--
+400000051 Mexy, La Forchette   -02023  02023                % 09395 RGTR--
+400000033 Longwy, Lafontaine   -02026  02026                % 09395 RGTR--
+400000036 Longwy, Merlin       -02027  02027                % 09395 RGTR--
+400000030 Longwy, Bas/Espace B -02029  02029                % 09395 RGTR--
+400000040 Longwy, rue de Metz  -02030  02030                % 09395 RGTR--
+400000032 Longwy, Home City    -02031  02031                % 09395 RGTR--
+400000039 Longwy, République   -02033  02033                % 09395 RGTR--
+400000029 Longwy, 11 Novembre  -02033  02033                % 09395 RGTR--
+400000037 Longwy, Place Darche -02034  02034                % 09395 RGTR--
+400000042 Longwy, Stade        -02035  02035                % 09395 RGTR--
+400000043 Longwy, Vauban       -02035  02035                % 09395 RGTR--
+400000057 Mt.St.Martin, Notre  -02036  02036                % 09395 RGTR--
+400000056 Mt.St.Martin, Cité J -02037  02037                % 09395 RGTR--
+400000063 Mt.St.Martin, Résist -02038  02038                % 09395 RGTR--
+400000060 Mt.St.Martin, Foch   -02039  02039                % 09395 RGTR--
+400000142 Mt.St.Martin, Centre -02040  02040                % 09395 RGTR--
+400000059 Mt.St.Martin, Eglant -02041  02041                % 09395 RGTR--
+400000062 Mt.St.Martin, Nancy  -02041  02041                % 09395 RGTR--
+400000061 Mt.St.Martin, Hôpita -02043  02043                % 09395 RGTR--
+400000127 Mt.St.Martin, Maison -02044  02044                % 09395 RGTR--
+400000126 Mt.St.Martin, Auchan -02046  02046                % 09395 RGTR--
+220903004 Rodange, Fonderie     02049  02049                % 09395 RGTR--
+220903020 Rodange, Schlackenmi  02050  02050                % 09395 RGTR--
+220903009 Rodange, Gendarmerie  02051  02051                % 09395 RGTR--
+220903008 Rodange, Gare         02052                       % 09395 RGTR--
+*Z 09396 RGTR--                                             % 09396 RGTR--
+*L 398      400000087 220903008  00515  00552               % 09396 RGTR--
+*A eb 400000087 220903008 000002  00515  00552              % 09396 RGTR--
+*A RK 400000087 220903008 000002  00515  00552              % 09396 RGTR--
+*R 2 220903008 400000087 220903008  00515  00552            % 09396 RGTR--
+*G RGB 400000087 220903008  00515  00552                    % 09396 RGTR--
+*A VE 400000087 220903008 000002  00515  00552              % 09396 RGTR--
+*I FD 400000087 220903008        0002490  00515  00552      % 09396 RGTR--
+400000087 St. Charles, Eglise          00515                % 09396 RGTR--
+400000086 St. Charles, Château -00516  00516                % 09396 RGTR--
+400000088 St. Charles, Rhin    -00516  00516                % 09396 RGTR--
+400000049 Mexy, Condé          -00520  00520                % 09396 RGTR--
+400000050 Mexy, Ecole          -00521  00521                % 09396 RGTR--
+400000052 Mexy, Lorraine       -00522  00522                % 09396 RGTR--
+400000145 Mexy, La Grotte      -00523  00523                % 09396 RGTR--
+400000051 Mexy, La Forchette   -00523  00523                % 09396 RGTR--
+400000033 Longwy, Lafontaine   -00526  00526                % 09396 RGTR--
+400000036 Longwy, Merlin       -00527  00527                % 09396 RGTR--
+400000030 Longwy, Bas/Espace B -00529  00529                % 09396 RGTR--
+400000040 Longwy, rue de Metz  -00530  00530                % 09396 RGTR--
+400000032 Longwy, Home City    -00531  00531                % 09396 RGTR--
+400000039 Longwy, République   -00533  00533                % 09396 RGTR--
+400000029 Longwy, 11 Novembre  -00533  00533                % 09396 RGTR--
+400000037 Longwy, Place Darche -00534  00534                % 09396 RGTR--
+400000042 Longwy, Stade        -00535  00535                % 09396 RGTR--
+400000043 Longwy, Vauban       -00535  00535                % 09396 RGTR--
+400000057 Mt.St.Martin, Notre  -00536  00536                % 09396 RGTR--
+400000056 Mt.St.Martin, Cité J -00537  00537                % 09396 RGTR--
+400000063 Mt.St.Martin, Résist -00538  00538                % 09396 RGTR--
+400000060 Mt.St.Martin, Foch   -00539  00539                % 09396 RGTR--
+400000142 Mt.St.Martin, Centre -00540  00540                % 09396 RGTR--
+400000059 Mt.St.Martin, Eglant -00541  00541                % 09396 RGTR--
+400000062 Mt.St.Martin, Nancy  -00541  00541                % 09396 RGTR--
+400000061 Mt.St.Martin, Hôpita -00543  00543                % 09396 RGTR--
+400000127 Mt.St.Martin, Maison -00544  00544                % 09396 RGTR--
+400000126 Mt.St.Martin, Auchan -00546  00546                % 09396 RGTR--
+220903004 Rodange, Fonderie     00549  00549                % 09396 RGTR--
+220903020 Rodange, Schlackenmi  00550  00550                % 09396 RGTR--
+220903009 Rodange, Gendarmerie  00551  00551                % 09396 RGTR--
+220903008 Rodange, Gare         00552                       % 09396 RGTR--
+*Z 09397 RGTR--                                             % 09397 RGTR--
+*L 398      400000087 220903008  00541  00623               % 09397 RGTR--
+*A ew 400000087 220903008 000001  00541  00623              % 09397 RGTR--
+*A RK 400000087 220903008 000001  00541  00623              % 09397 RGTR--
+*R 2 220903008 400000087 220903008  00541  00623            % 09397 RGTR--
+*G RGB 400000087 220903008  00541  00623                    % 09397 RGTR--
+*A VE 400000087 220903008 000001  00541  00623              % 09397 RGTR--
+*I FD 400000087 220903008        0000776  00541  00623      % 09397 RGTR--
+400000087 St. Charles, Eglise          00541                % 09397 RGTR--
+400000086 St. Charles, Château -00542  00542                % 09397 RGTR--
+400000088 St. Charles, Rhin    -00542  00542                % 09397 RGTR--
+400000049 Mexy, Condé          -00546  00546                % 09397 RGTR--
+400000050 Mexy, Ecole          -00548  00548                % 09397 RGTR--
+400000052 Mexy, Lorraine       -00548  00548                % 09397 RGTR--
+400000145 Mexy, La Grotte      -00549  00549                % 09397 RGTR--
+400000051 Mexy, La Forchette   -00550  00550                % 09397 RGTR--
+400000033 Longwy, Lafontaine   -00553  00553                % 09397 RGTR--
+400000036 Longwy, Merlin       -00554  00554                % 09397 RGTR--
+400000030 Longwy, Bas/Espace B -00556  00556                % 09397 RGTR--
+400000040 Longwy, rue de Metz  -00557  00557                % 09397 RGTR--
+400000032 Longwy, Home City    -00558  00558                % 09397 RGTR--
+400000039 Longwy, République   -00600  00600                % 09397 RGTR--
+400000029 Longwy, 11 Novembre  -00601  00601                % 09397 RGTR--
+400000037 Longwy, Place Darche -00602  00602                % 09397 RGTR--
+400000042 Longwy, Stade        -00603  00603                % 09397 RGTR--
+400000043 Longwy, Vauban       -00604  00604                % 09397 RGTR--
+400000057 Mt.St.Martin, Notre  -00604  00604                % 09397 RGTR--
+400000056 Mt.St.Martin, Cité J -00605  00605                % 09397 RGTR--
+400000063 Mt.St.Martin, Résist -00607  00607                % 09397 RGTR--
+400000060 Mt.St.Martin, Foch   -00607  00607                % 09397 RGTR--
+400000142 Mt.St.Martin, Centre -00609  00609                % 09397 RGTR--
+400000059 Mt.St.Martin, Eglant -00609  00609                % 09397 RGTR--
+400000062 Mt.St.Martin, Nancy  -00610  00610                % 09397 RGTR--
+400000061 Mt.St.Martin, Hôpita -00612  00612                % 09397 RGTR--
+400000127 Mt.St.Martin, Maison -00614  00614                % 09397 RGTR--
+400000126 Mt.St.Martin, Auchan -00615  00615                % 09397 RGTR--
+220903004 Rodange, Fonderie     00619  00619                % 09397 RGTR--
+220903020 Rodange, Schlackenmi  00620  00620                % 09397 RGTR--
+220903009 Rodange, Gendarmerie  00622  00622                % 09397 RGTR--
+220903008 Rodange, Gare         00623                       % 09397 RGTR--
+*Z 09398 RGTR--                                             % 09398 RGTR--
+*L 398      400000087 220903008  00641  00723               % 09398 RGTR--
+*A eb 400000087 220903008 000001  00641  00723              % 09398 RGTR--
+*A RK 400000087 220903008 000001  00641  00723              % 09398 RGTR--
+*R 2 220903008 400000087 220903008  00641  00723            % 09398 RGTR--
+*G RGB 400000087 220903008  00641  00723                    % 09398 RGTR--
+*A VE 400000087 220903008 000001  00641  00723              % 09398 RGTR--
+*I FD 400000087 220903008        0002086  00641  00723      % 09398 RGTR--
+400000087 St. Charles, Eglise          00641                % 09398 RGTR--
+400000086 St. Charles, Château -00642  00642                % 09398 RGTR--
+400000088 St. Charles, Rhin    -00642  00642                % 09398 RGTR--
+400000049 Mexy, Condé          -00646  00646                % 09398 RGTR--
+400000050 Mexy, Ecole          -00648  00648                % 09398 RGTR--
+400000052 Mexy, Lorraine       -00648  00648                % 09398 RGTR--
+400000145 Mexy, La Grotte      -00649  00649                % 09398 RGTR--
+400000051 Mexy, La Forchette   -00650  00650                % 09398 RGTR--
+400000033 Longwy, Lafontaine   -00653  00653                % 09398 RGTR--
+400000036 Longwy, Merlin       -00654  00654                % 09398 RGTR--
+400000030 Longwy, Bas/Espace B -00656  00656                % 09398 RGTR--
+400000040 Longwy, rue de Metz  -00657  00657                % 09398 RGTR--
+400000032 Longwy, Home City    -00658  00658                % 09398 RGTR--
+400000039 Longwy, République   -00700  00700                % 09398 RGTR--
+400000029 Longwy, 11 Novembre  -00701  00701                % 09398 RGTR--
+400000037 Longwy, Place Darche -00702  00702                % 09398 RGTR--
+400000042 Longwy, Stade        -00703  00703                % 09398 RGTR--
+400000043 Longwy, Vauban       -00704  00704                % 09398 RGTR--
+400000057 Mt.St.Martin, Notre  -00704  00704                % 09398 RGTR--
+400000056 Mt.St.Martin, Cité J -00705  00705                % 09398 RGTR--
+400000063 Mt.St.Martin, Résist -00707  00707                % 09398 RGTR--
+400000060 Mt.St.Martin, Foch   -00707  00707                % 09398 RGTR--
+400000142 Mt.St.Martin, Centre -00709  00709                % 09398 RGTR--
+400000059 Mt.St.Martin, Eglant -00709  00709                % 09398 RGTR--
+400000062 Mt.St.Martin, Nancy  -00710  00710                % 09398 RGTR--
+400000061 Mt.St.Martin, Hôpita -00712  00712                % 09398 RGTR--
+400000127 Mt.St.Martin, Maison -00714  00714                % 09398 RGTR--
+400000126 Mt.St.Martin, Auchan -00715  00715                % 09398 RGTR--
+220903004 Rodange, Fonderie     00719  00719                % 09398 RGTR--
+220903020 Rodange, Schlackenmi  00720  00720                % 09398 RGTR--
+220903009 Rodange, Gendarmerie  00722  00722                % 09398 RGTR--
+220903008 Rodange, Gare         00723                       % 09398 RGTR--
+*Z 09399 RGTR--                                             % 09399 RGTR--
+*L 398      400000087 220903008  00711  00753               % 09399 RGTR--
+*A ew 400000087 220903008 000001  00711  00753              % 09399 RGTR--
+*A RK 400000087 220903008 000001  00711  00753              % 09399 RGTR--
+*R 2 220903008 400000087 220903008  00711  00753            % 09399 RGTR--
+*G RGB 400000087 220903008  00711  00753                    % 09399 RGTR--
+*A VE 400000087 220903008 000001  00711  00753              % 09399 RGTR--
+*I FD 400000087 220903008        0002100  00711  00753      % 09399 RGTR--
+400000087 St. Charles, Eglise          00711                % 09399 RGTR--
+400000086 St. Charles, Château -00712  00712                % 09399 RGTR--
+400000088 St. Charles, Rhin    -00712  00712                % 09399 RGTR--
+400000049 Mexy, Condé          -00716  00716                % 09399 RGTR--
+400000050 Mexy, Ecole          -00718  00718                % 09399 RGTR--
+400000052 Mexy, Lorraine       -00718  00718                % 09399 RGTR--
+400000145 Mexy, La Grotte      -00719  00719                % 09399 RGTR--
+400000051 Mexy, La Forchette   -00720  00720                % 09399 RGTR--
+400000033 Longwy, Lafontaine   -00723  00723                % 09399 RGTR--
+400000036 Longwy, Merlin       -00724  00724                % 09399 RGTR--
+400000030 Longwy, Bas/Espace B -00726  00726                % 09399 RGTR--
+400000040 Longwy, rue de Metz  -00727  00727                % 09399 RGTR--
+400000032 Longwy, Home City    -00728  00728                % 09399 RGTR--
+400000039 Longwy, République   -00730  00730                % 09399 RGTR--
+400000029 Longwy, 11 Novembre  -00731  00731                % 09399 RGTR--
+400000037 Longwy, Place Darche -00732  00732                % 09399 RGTR--
+400000042 Longwy, Stade        -00733  00733                % 09399 RGTR--
+400000043 Longwy, Vauban       -00734  00734                % 09399 RGTR--
+400000057 Mt.St.Martin, Notre  -00734  00734                % 09399 RGTR--
+400000056 Mt.St.Martin, Cité J -00735  00735                % 09399 RGTR--
+400000063 Mt.St.Martin, Résist -00737  00737                % 09399 RGTR--
+400000060 Mt.St.Martin, Foch   -00737  00737                % 09399 RGTR--
+400000142 Mt.St.Martin, Centre -00739  00739                % 09399 RGTR--
+400000059 Mt.St.Martin, Eglant -00739  00739                % 09399 RGTR--
+400000062 Mt.St.Martin, Nancy  -00740  00740                % 09399 RGTR--
+400000061 Mt.St.Martin, Hôpita -00742  00742                % 09399 RGTR--
+400000127 Mt.St.Martin, Maison -00744  00744                % 09399 RGTR--
+400000126 Mt.St.Martin, Auchan -00745  00745                % 09399 RGTR--
+220903004 Rodange, Fonderie     00749  00749                % 09399 RGTR--
+220903020 Rodange, Schlackenmi  00750  00750                % 09399 RGTR--
+220903009 Rodange, Gendarmerie  00752  00752                % 09399 RGTR--
+220903008 Rodange, Gare         00753                       % 09399 RGTR--
+*Z 09400 RGTR--                                             % 09400 RGTR--
+*L 398      400000087 220903008  00811  00853               % 09400 RGTR--
+*A eb 400000087 220903008 000001  00811  00853              % 09400 RGTR--
+*A RK 400000087 220903008 000001  00811  00853              % 09400 RGTR--
+*A RN 400000087 220903008 000001  00811  00853              % 09400 RGTR--
+*R 2 220903008 400000087 220903008  00811  00853            % 09400 RGTR--
+*G RGB 400000087 220903008  00811  00853                    % 09400 RGTR--
+*A VE 400000087 220903008 000001  00811  00853              % 09400 RGTR--
+*I FD 400000087 220903008        0002574  00811  00853      % 09400 RGTR--
+400000087 St. Charles, Eglise          00811                % 09400 RGTR--
+400000086 St. Charles, Château -00812  00812                % 09400 RGTR--
+400000088 St. Charles, Rhin    -00812  00812                % 09400 RGTR--
+400000049 Mexy, Condé          -00816  00816                % 09400 RGTR--
+400000050 Mexy, Ecole          -00818  00818                % 09400 RGTR--
+400000052 Mexy, Lorraine       -00818  00818                % 09400 RGTR--
+400000145 Mexy, La Grotte      -00819  00819                % 09400 RGTR--
+400000051 Mexy, La Forchette   -00820  00820                % 09400 RGTR--
+400000033 Longwy, Lafontaine   -00823  00823                % 09400 RGTR--
+400000036 Longwy, Merlin       -00824  00824                % 09400 RGTR--
+400000030 Longwy, Bas/Espace B -00826  00826                % 09400 RGTR--
+400000040 Longwy, rue de Metz  -00827  00827                % 09400 RGTR--
+400000032 Longwy, Home City    -00828  00828                % 09400 RGTR--
+400000039 Longwy, République   -00830  00830                % 09400 RGTR--
+400000029 Longwy, 11 Novembre  -00831  00831                % 09400 RGTR--
+400000037 Longwy, Place Darche -00832  00832                % 09400 RGTR--
+400000042 Longwy, Stade        -00833  00833                % 09400 RGTR--
+400000043 Longwy, Vauban       -00834  00834                % 09400 RGTR--
+400000057 Mt.St.Martin, Notre  -00834  00834                % 09400 RGTR--
+400000056 Mt.St.Martin, Cité J -00835  00835                % 09400 RGTR--
+400000063 Mt.St.Martin, Résist -00837  00837                % 09400 RGTR--
+400000060 Mt.St.Martin, Foch   -00837  00837                % 09400 RGTR--
+400000142 Mt.St.Martin, Centre -00839  00839                % 09400 RGTR--
+400000059 Mt.St.Martin, Eglant -00839  00839                % 09400 RGTR--
+400000062 Mt.St.Martin, Nancy  -00840  00840                % 09400 RGTR--
+400000061 Mt.St.Martin, Hôpita -00842  00842                % 09400 RGTR--
+400000127 Mt.St.Martin, Maison -00844  00844                % 09400 RGTR--
+400000126 Mt.St.Martin, Auchan -00845  00845                % 09400 RGTR--
+220903004 Rodange, Fonderie     00849  00849                % 09400 RGTR--
+220903020 Rodange, Schlackenmi  00850  00850                % 09400 RGTR--
+220903009 Rodange, Gendarmerie  00852  00852                % 09400 RGTR--
+220903008 Rodange, Gare         00853                       % 09400 RGTR--
+*Z 09401 RGTR--                                             % 09401 RGTR--
+*L 398      400000087 220903008  00915  00957               % 09401 RGTR--
+*A ew 400000087 220903008 000001  00915  00957              % 09401 RGTR--
+*A RK 400000087 220903008 000001  00915  00957              % 09401 RGTR--
+*R 2 220903008 400000087 220903008  00915  00957            % 09401 RGTR--
+*G RGB 400000087 220903008  00915  00957                    % 09401 RGTR--
+*A VE 400000087 220903008 000001  00915  00957              % 09401 RGTR--
+*I FD 400000087 220903008        0001732  00915  00957      % 09401 RGTR--
+400000087 St. Charles, Eglise          00915                % 09401 RGTR--
+400000086 St. Charles, Château -00916  00916                % 09401 RGTR--
+400000088 St. Charles, Rhin    -00916  00916                % 09401 RGTR--
+400000049 Mexy, Condé          -00920  00920                % 09401 RGTR--
+400000050 Mexy, Ecole          -00922  00922                % 09401 RGTR--
+400000052 Mexy, Lorraine       -00922  00922                % 09401 RGTR--
+400000145 Mexy, La Grotte      -00923  00923                % 09401 RGTR--
+400000051 Mexy, La Forchette   -00924  00924                % 09401 RGTR--
+400000033 Longwy, Lafontaine   -00927  00927                % 09401 RGTR--
+400000036 Longwy, Merlin       -00928  00928                % 09401 RGTR--
+400000030 Longwy, Bas/Espace B -00930  00930                % 09401 RGTR--
+400000040 Longwy, rue de Metz  -00931  00931                % 09401 RGTR--
+400000032 Longwy, Home City    -00932  00932                % 09401 RGTR--
+400000039 Longwy, République   -00934  00934                % 09401 RGTR--
+400000029 Longwy, 11 Novembre  -00935  00935                % 09401 RGTR--
+400000037 Longwy, Place Darche -00936  00936                % 09401 RGTR--
+400000042 Longwy, Stade        -00937  00937                % 09401 RGTR--
+400000043 Longwy, Vauban       -00938  00938                % 09401 RGTR--
+400000057 Mt.St.Martin, Notre  -00938  00938                % 09401 RGTR--
+400000056 Mt.St.Martin, Cité J -00939  00939                % 09401 RGTR--
+400000063 Mt.St.Martin, Résist -00941  00941                % 09401 RGTR--
+400000060 Mt.St.Martin, Foch   -00941  00941                % 09401 RGTR--
+400000142 Mt.St.Martin, Centre -00943  00943                % 09401 RGTR--
+400000059 Mt.St.Martin, Eglant -00943  00943                % 09401 RGTR--
+400000062 Mt.St.Martin, Nancy  -00944  00944                % 09401 RGTR--
+400000061 Mt.St.Martin, Hôpita -00946  00946                % 09401 RGTR--
+400000127 Mt.St.Martin, Maison -00948  00948                % 09401 RGTR--
+400000126 Mt.St.Martin, Auchan -00949  00949                % 09401 RGTR--
+220903004 Rodange, Fonderie     00953  00953                % 09401 RGTR--
+220903020 Rodange, Schlackenmi  00954  00954                % 09401 RGTR--
+220903009 Rodange, Gendarmerie  00956  00956                % 09401 RGTR--
+220903008 Rodange, Gare         00957                       % 09401 RGTR--
+*Z 09402 RGTR--                                             % 09402 RGTR--
+*L 398      400000087 220903008  01607  01649               % 09402 RGTR--
+*A ew 400000087 220903008 000001  01607  01649              % 09402 RGTR--
+*A RK 400000087 220903008 000001  01607  01649              % 09402 RGTR--
+*R 2 220903008 400000087 220903008  01607  01649            % 09402 RGTR--
+*G RGB 400000087 220903008  01607  01649                    % 09402 RGTR--
+*A VE 400000087 220903008 000001  01607  01649              % 09402 RGTR--
+*I FD 400000087 220903008        0002028  01607  01649      % 09402 RGTR--
+400000087 St. Charles, Eglise          01607                % 09402 RGTR--
+400000086 St. Charles, Château -01608  01608                % 09402 RGTR--
+400000088 St. Charles, Rhin    -01608  01608                % 09402 RGTR--
+400000049 Mexy, Condé          -01612  01612                % 09402 RGTR--
+400000050 Mexy, Ecole          -01614  01614                % 09402 RGTR--
+400000052 Mexy, Lorraine       -01614  01614                % 09402 RGTR--
+400000145 Mexy, La Grotte      -01615  01615                % 09402 RGTR--
+400000051 Mexy, La Forchette   -01616  01616                % 09402 RGTR--
+400000033 Longwy, Lafontaine   -01619  01619                % 09402 RGTR--
+400000036 Longwy, Merlin       -01620  01620                % 09402 RGTR--
+400000030 Longwy, Bas/Espace B -01622  01622                % 09402 RGTR--
+400000040 Longwy, rue de Metz  -01623  01623                % 09402 RGTR--
+400000032 Longwy, Home City    -01624  01624                % 09402 RGTR--
+400000039 Longwy, République   -01626  01626                % 09402 RGTR--
+400000029 Longwy, 11 Novembre  -01627  01627                % 09402 RGTR--
+400000037 Longwy, Place Darche -01628  01628                % 09402 RGTR--
+400000042 Longwy, Stade        -01629  01629                % 09402 RGTR--
+400000043 Longwy, Vauban       -01630  01630                % 09402 RGTR--
+400000057 Mt.St.Martin, Notre  -01630  01630                % 09402 RGTR--
+400000056 Mt.St.Martin, Cité J -01631  01631                % 09402 RGTR--
+400000063 Mt.St.Martin, Résist -01633  01633                % 09402 RGTR--
+400000060 Mt.St.Martin, Foch   -01633  01633                % 09402 RGTR--
+400000142 Mt.St.Martin, Centre -01635  01635                % 09402 RGTR--
+400000059 Mt.St.Martin, Eglant -01635  01635                % 09402 RGTR--
+400000062 Mt.St.Martin, Nancy  -01636  01636                % 09402 RGTR--
+400000061 Mt.St.Martin, Hôpita -01638  01638                % 09402 RGTR--
+400000127 Mt.St.Martin, Maison -01640  01640                % 09402 RGTR--
+400000126 Mt.St.Martin, Auchan -01641  01641                % 09402 RGTR--
+220903004 Rodange, Fonderie     01645  01645                % 09402 RGTR--
+220903020 Rodange, Schlackenmi  01646  01646                % 09402 RGTR--
+220903009 Rodange, Gendarmerie  01648  01648                % 09402 RGTR--
+220903008 Rodange, Gare         01649                       % 09402 RGTR--
+*Z 09403 RGTR--                                             % 09403 RGTR--
+*L 398      400000087 220903008  01711  01753               % 09403 RGTR--
+*A eb 400000087 220903008 000001  01711  01753              % 09403 RGTR--
+*A RK 400000087 220903008 000001  01711  01753              % 09403 RGTR--
+*R 2 220903008 400000087 220903008  01711  01753            % 09403 RGTR--
+*G RGB 400000087 220903008  01711  01753                    % 09403 RGTR--
+*A VE 400000087 220903008 000001  01711  01753              % 09403 RGTR--
+*I FD 400000087 220903008        0003002  01711  01753      % 09403 RGTR--
+400000087 St. Charles, Eglise          01711                % 09403 RGTR--
+400000086 St. Charles, Château -01712  01712                % 09403 RGTR--
+400000088 St. Charles, Rhin    -01712  01712                % 09403 RGTR--
+400000049 Mexy, Condé          -01716  01716                % 09403 RGTR--
+400000050 Mexy, Ecole          -01718  01718                % 09403 RGTR--
+400000052 Mexy, Lorraine       -01718  01718                % 09403 RGTR--
+400000145 Mexy, La Grotte      -01719  01719                % 09403 RGTR--
+400000051 Mexy, La Forchette   -01720  01720                % 09403 RGTR--
+400000033 Longwy, Lafontaine   -01723  01723                % 09403 RGTR--
+400000036 Longwy, Merlin       -01724  01724                % 09403 RGTR--
+400000030 Longwy, Bas/Espace B -01726  01726                % 09403 RGTR--
+400000040 Longwy, rue de Metz  -01727  01727                % 09403 RGTR--
+400000032 Longwy, Home City    -01728  01728                % 09403 RGTR--
+400000039 Longwy, République   -01730  01730                % 09403 RGTR--
+400000029 Longwy, 11 Novembre  -01731  01731                % 09403 RGTR--
+400000037 Longwy, Place Darche -01732  01732                % 09403 RGTR--
+400000042 Longwy, Stade        -01733  01733                % 09403 RGTR--
+400000043 Longwy, Vauban       -01734  01734                % 09403 RGTR--
+400000057 Mt.St.Martin, Notre  -01734  01734                % 09403 RGTR--
+400000056 Mt.St.Martin, Cité J -01735  01735                % 09403 RGTR--
+400000063 Mt.St.Martin, Résist -01737  01737                % 09403 RGTR--
+400000060 Mt.St.Martin, Foch   -01737  01737                % 09403 RGTR--
+400000142 Mt.St.Martin, Centre -01739  01739                % 09403 RGTR--
+400000059 Mt.St.Martin, Eglant -01739  01739                % 09403 RGTR--
+400000062 Mt.St.Martin, Nancy  -01740  01740                % 09403 RGTR--
+400000061 Mt.St.Martin, Hôpita -01742  01742                % 09403 RGTR--
+400000127 Mt.St.Martin, Maison -01744  01744                % 09403 RGTR--
+400000126 Mt.St.Martin, Auchan -01745  01745                % 09403 RGTR--
+220903004 Rodange, Fonderie     01749  01749                % 09403 RGTR--
+220903020 Rodange, Schlackenmi  01750  01750                % 09403 RGTR--
+220903009 Rodange, Gendarmerie  01752  01752                % 09403 RGTR--
+220903008 Rodange, Gare         01753                       % 09403 RGTR--
+*Z 09404 RGTR--                                             % 09404 RGTR--
+*L 398      400000087 220903008  00617  00659               % 09404 RGTR--
+*A eb 400000087 220903008 000002  00617  00659              % 09404 RGTR--
+*R 2 220903008 400000087 220903008  00617  00659            % 09404 RGTR--
+*G RGB 400000087 220903008  00617  00659                    % 09404 RGTR--
+*A VE 400000087 220903008 000002  00617  00659              % 09404 RGTR--
+*I FD 400000087 220903008        0002301  00617  00659      % 09404 RGTR--
+400000087 St. Charles, Eglise          00617                % 09404 RGTR--
+400000086 St. Charles, Château -00618  00618                % 09404 RGTR--
+400000088 St. Charles, Rhin    -00618  00618                % 09404 RGTR--
+400000049 Mexy, Condé          -00622  00622                % 09404 RGTR--
+400000050 Mexy, Ecole          -00624  00624                % 09404 RGTR--
+400000052 Mexy, Lorraine       -00624  00624                % 09404 RGTR--
+400000145 Mexy, La Grotte      -00625  00625                % 09404 RGTR--
+400000051 Mexy, La Forchette   -00626  00626                % 09404 RGTR--
+400000033 Longwy, Lafontaine   -00629  00629                % 09404 RGTR--
+400000036 Longwy, Merlin       -00630  00630                % 09404 RGTR--
+400000030 Longwy, Bas/Espace B -00632  00632                % 09404 RGTR--
+400000040 Longwy, rue de Metz  -00633  00633                % 09404 RGTR--
+400000032 Longwy, Home City    -00634  00634                % 09404 RGTR--
+400000039 Longwy, République   -00636  00636                % 09404 RGTR--
+400000029 Longwy, 11 Novembre  -00637  00637                % 09404 RGTR--
+400000037 Longwy, Place Darche -00638  00638                % 09404 RGTR--
+400000042 Longwy, Stade        -00639  00639                % 09404 RGTR--
+400000043 Longwy, Vauban       -00640  00640                % 09404 RGTR--
+400000057 Mt.St.Martin, Notre  -00640  00640                % 09404 RGTR--
+400000056 Mt.St.Martin, Cité J -00641  00641                % 09404 RGTR--
+400000063 Mt.St.Martin, Résist -00643  00643                % 09404 RGTR--
+400000060 Mt.St.Martin, Foch   -00643  00643                % 09404 RGTR--
+400000142 Mt.St.Martin, Centre -00645  00645                % 09404 RGTR--
+400000059 Mt.St.Martin, Eglant -00645  00645                % 09404 RGTR--
+400000062 Mt.St.Martin, Nancy  -00646  00646                % 09404 RGTR--
+400000061 Mt.St.Martin, Hôpita -00648  00648                % 09404 RGTR--
+400000127 Mt.St.Martin, Maison -00650  00650                % 09404 RGTR--
+400000126 Mt.St.Martin, Auchan -00651  00651                % 09404 RGTR--
+220903004 Rodange, Fonderie     00655  00655                % 09404 RGTR--
+220903020 Rodange, Schlackenmi  00656  00656                % 09404 RGTR--
+220903009 Rodange, Gendarmerie  00658  00658                % 09404 RGTR--
+220903008 Rodange, Gare         00659                       % 09404 RGTR--

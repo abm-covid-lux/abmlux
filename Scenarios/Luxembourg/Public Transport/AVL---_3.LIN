@@ -1,0 +1,774 @@
+*F 03 2
+*Z 01109 AVL---       004 030                               % 01109 AVL---
+*L 3        200304013 200404027  02023  02030               % 01109 AVL---
+*A BE 200304013 200404027 000000  02023  02030              % 01109 AVL---
+*R 1 200404027 200304013 200404027  02023  02030            % 01109 AVL---
+*G AVM 200304013 200404027  02023  02030                    % 01109 AVL---
+*A VE 200304013 200404027 000000  02023  02030              % 01109 AVL---
+200304013 Howald, Waassertuerm         02023                % 01109 AVL---
+200304005 Howald, Minsbësch     02025  02025                % 01109 AVL---
+200304002 Howald, Bei der Kier  02026  02026                % 01109 AVL---
+200304015 Howald, 9 Mai 1944    02027  02027                % 01109 AVL---
+200304010 Howald, Rangwee       02028  02028                % 01109 AVL---
+200404027 Bonnevoie, Lycée Tec  02030                       % 01109 AVL---
+*Z 01110 AVL---       002 030                               % 01110 AVL---
+*L 3        200304013 200404027  00753  00800               % 01110 AVL---
+*A BE 200304013 200404027 000003  00753  00800              % 01110 AVL---
+*R 1 200404027 200304013 200404027  00753  00800            % 01110 AVL---
+*G AVM 200304013 200404027  00753  00800                    % 01110 AVL---
+*A VE 200304013 200404027 000003  00753  00800              % 01110 AVL---
+200304013 Howald, Waassertuerm         00753                % 01110 AVL---
+200304005 Howald, Minsbësch     00755  00755                % 01110 AVL---
+200304002 Howald, Bei der Kier  00756  00756                % 01110 AVL---
+200304015 Howald, 9 Mai 1944    00757  00757                % 01110 AVL---
+200304010 Howald, Rangwee       00758  00758                % 01110 AVL---
+200404027 Bonnevoie, Lycée Tec  00800                       % 01110 AVL---
+*Z 01111 AVL---       008 060                               % 01111 AVL---
+*L 3        200304013 200404027  00953  01000               % 01111 AVL---
+*A BE 200304013 200404027 000003  00953  01000              % 01111 AVL---
+*R 1 200404027 200304013 200404027  00953  01000            % 01111 AVL---
+*G AVM 200304013 200404027  00953  01000                    % 01111 AVL---
+*A VE 200304013 200404027 000003  00953  01000              % 01111 AVL---
+200304013 Howald, Waassertuerm         00953                % 01111 AVL---
+200304005 Howald, Minsbësch     00955  00955                % 01111 AVL---
+200304002 Howald, Bei der Kier  00956  00956                % 01111 AVL---
+200304015 Howald, 9 Mai 1944    00957  00957                % 01111 AVL---
+200304010 Howald, Rangwee       00958  00958                % 01111 AVL---
+200404027 Bonnevoie, Lycée Tec  01000                       % 01111 AVL---
+*Z 01112 AVL---       003 030                               % 01112 AVL---
+*L 3        200304013 200404027  01823  01830               % 01112 AVL---
+*A BE 200304013 200404027 000003  01823  01830              % 01112 AVL---
+*R 1 200404027 200304013 200404027  01823  01830            % 01112 AVL---
+*G AVM 200304013 200404027  01823  01830                    % 01112 AVL---
+*A VE 200304013 200404027 000003  01823  01830              % 01112 AVL---
+200304013 Howald, Waassertuerm         01823                % 01112 AVL---
+200304005 Howald, Minsbësch     01825  01825                % 01112 AVL---
+200304002 Howald, Bei der Kier  01826  01826                % 01112 AVL---
+200304015 Howald, 9 Mai 1944    01827  01827                % 01112 AVL---
+200304010 Howald, Rangwee       01828  01828                % 01112 AVL---
+200404027 Bonnevoie, Lycée Tec  01830                       % 01112 AVL---
+*Z 01113 AVL---       003 030                               % 01113 AVL---
+*L 3        200304013 200404027  00553  00600               % 01113 AVL---
+*A BE 200304013 200404027 000005  00553  00600              % 01113 AVL---
+*R 1 200404027 200304013 200404027  00553  00600            % 01113 AVL---
+*G AVM 200304013 200404027  00553  00600                    % 01113 AVL---
+*A VE 200304013 200404027 000005  00553  00600              % 01113 AVL---
+200304013 Howald, Waassertuerm         00553                % 01113 AVL---
+200304005 Howald, Minsbësch     00555  00555                % 01113 AVL---
+200304002 Howald, Bei der Kier  00556  00556                % 01113 AVL---
+200304015 Howald, 9 Mai 1944    00557  00557                % 01113 AVL---
+200304010 Howald, Rangwee       00558  00558                % 01113 AVL---
+200404027 Bonnevoie, Lycée Tec  00600                       % 01113 AVL---
+*Z 01114 AVL---                                             % 01114 AVL---
+*L 3        200304013 200404027  00523  00530               % 01114 AVL---
+*A BE 200304013 200404027 000001  00523  00530              % 01114 AVL---
+*R 1 200404027 200304013 200404027  00523  00530            % 01114 AVL---
+*G AVM 200304013 200404027  00523  00530                    % 01114 AVL---
+*A VE 200304013 200404027 000001  00523  00530              % 01114 AVL---
+200304013 Howald, Waassertuerm         00523                % 01114 AVL---
+200304005 Howald, Minsbësch     00525  00525                % 01114 AVL---
+200304002 Howald, Bei der Kier  00526  00526                % 01114 AVL---
+200304015 Howald, 9 Mai 1944    00527  00527                % 01114 AVL---
+200304010 Howald, Rangwee       00528  00528                % 01114 AVL---
+200404027 Bonnevoie, Lycée Tec  00530                       % 01114 AVL---
+*Z 01115 AVL---       002 030                               % 01115 AVL---
+*L 3        200304013 200404027  02253  02300               % 01115 AVL---
+*A BE 200304013 200404027 000001  02253  02300              % 01115 AVL---
+*R 1 200404027 200304013 200404027  02253  02300            % 01115 AVL---
+*G AVM 200304013 200404027  02253  02300                    % 01115 AVL---
+*A VE 200304013 200404027 000001  02253  02300              % 01115 AVL---
+200304013 Howald, Waassertuerm         02253                % 01115 AVL---
+200304005 Howald, Minsbësch     02255  02255                % 01115 AVL---
+200304002 Howald, Bei der Kier  02256  02256                % 01115 AVL---
+200304015 Howald, 9 Mai 1944    02257  02257                % 01115 AVL---
+200304010 Howald, Rangwee       02258  02258                % 01115 AVL---
+200404027 Bonnevoie, Lycée Tec  02300                       % 01115 AVL---
+*Z 01116 AVL---       001 022                               % 01116 AVL---
+*L 3        200304013 200404027  00548  00555               % 01116 AVL---
+*A BE 200304013 200404027 000002  00548  00555              % 01116 AVL---
+*R 1 200404027 200304013 200404027  00548  00555            % 01116 AVL---
+*G AVM 200304013 200404027  00548  00555                    % 01116 AVL---
+*A VE 200304013 200404027 000002  00548  00555              % 01116 AVL---
+200304013 Howald, Waassertuerm         00548                % 01116 AVL---
+200304005 Howald, Minsbësch     00550  00550                % 01116 AVL---
+200304002 Howald, Bei der Kier  00551  00551                % 01116 AVL---
+200304015 Howald, 9 Mai 1944    00552  00552                % 01116 AVL---
+200304010 Howald, Rangwee       00553  00553                % 01116 AVL---
+200404027 Bonnevoie, Lycée Tec  00555                       % 01116 AVL---
+*Z 01117 AVL---       032 020                               % 01117 AVL---
+*L 3        200304013 200419022  00741  00810               % 01117 AVL---
+*A BE 200304013 200419022 000005  00741  00810              % 01117 AVL---
+*R 1 200419022 200304013 200419022  00741  00810            % 01117 AVL---
+*G AVS 200304013 200419022  00741  00810                    % 01117 AVL---
+*A VE 200304013 200419022 000005  00741  00810              % 01117 AVL---
+200304013 Howald, Waassertuerm         00741                % 01117 AVL---
+200304005 Howald, Minsbësch     00743  00743                % 01117 AVL---
+200304002 Howald, Bei der Kier  00744  00744                % 01117 AVL---
+200304015 Howald, 9 Mai 1944    00745  00745                % 01117 AVL---
+200304010 Howald, Rangwee       00746  00746                % 01117 AVL---
+200404027 Bonnevoie, Lycée Tec  00748  00748                % 01117 AVL---
+200404037 Bonnevoie, Willibror  00749  00749                % 01117 AVL---
+200404026 Bonnevoie, Léon XIII  00750  00750                % 01117 AVL---
+200404013 Bonnevoie, Fraternit  00752  00752                % 01117 AVL---
+200404036 Bonnevoie, Virchow    00753  00753                % 01117 AVL---
+200404017 Bonnevoie, Huese Vic  00754  00754                % 01117 AVL---
+200405039 Luxembourg, Wallis    00755  00755                % 01117 AVL---
+200405013 Centre, F.D. Rooseve  00758  00758                % 01117 AVL---
+200405020 Hamilius              00801  00801                % 01117 AVL---
+200405014 Centre, Fondation Pe  00803  00803                % 01117 AVL---
+200419036 Limpertsberg, Faïenc  00805  00805                % 01117 AVL---
+200419019 Limpertsberg, Henri   00806  00806                % 01117 AVL---
+200419014 Limpertsberg, Ermesi  00807  00807                % 01117 AVL---
+200419020 Luxembourg, Uni Camp  00808  00808                % 01117 AVL---
+200419008 Limpertsberg, Batty   00809  00809                % 01117 AVL---
+200419022 Limpertsberg, Lycée   00810                       % 01117 AVL---
+*Z 01118 AVL---       002 020                               % 01118 AVL---
+*L 3        200304013 200419022  01841  01909               % 01118 AVL---
+*A BE 200304013 200419022 000005  01841  01909              % 01118 AVL---
+*R 1 200419022 200304013 200419022  01841  01909            % 01118 AVL---
+*G AVS 200304013 200419022  01841  01909                    % 01118 AVL---
+*A VE 200304013 200419022 000005  01841  01909              % 01118 AVL---
+200304013 Howald, Waassertuerm         01841                % 01118 AVL---
+200304005 Howald, Minsbësch     01843  01843                % 01118 AVL---
+200304002 Howald, Bei der Kier  01844  01844                % 01118 AVL---
+200304015 Howald, 9 Mai 1944    01845  01845                % 01118 AVL---
+200304010 Howald, Rangwee       01846  01846                % 01118 AVL---
+200404027 Bonnevoie, Lycée Tec  01848  01848                % 01118 AVL---
+200404037 Bonnevoie, Willibror  01849  01849                % 01118 AVL---
+200404026 Bonnevoie, Léon XIII  01850  01850                % 01118 AVL---
+200404013 Bonnevoie, Fraternit  01852  01852                % 01118 AVL---
+200404036 Bonnevoie, Virchow    01853  01853                % 01118 AVL---
+200404017 Bonnevoie, Huese Vic  01854  01854                % 01118 AVL---
+200405039 Luxembourg, Wallis    01855  01855                % 01118 AVL---
+200405013 Centre, F.D. Rooseve  01858  01858                % 01118 AVL---
+200405020 Hamilius              01901  01901                % 01118 AVL---
+200405014 Centre, Fondation Pe  01903  01903                % 01118 AVL---
+200419036 Limpertsberg, Faïenc  01905  01905                % 01118 AVL---
+200419019 Limpertsberg, Henri   01906  01906                % 01118 AVL---
+200419014 Limpertsberg, Ermesi  01907  01907                % 01118 AVL---
+200419020 Luxembourg, Uni Camp  01908  01908                % 01118 AVL---
+200419008 Limpertsberg, Batty   01909  01909                % 01118 AVL---
+200419022 Limpertsberg, Lycée   01909                       % 01118 AVL---
+*Z 01119 AVL---                                             % 01119 AVL---
+*L 3        200304013 200419022  02002  02029               % 01119 AVL---
+*A BE 200304013 200419022 000017  02002  02029              % 01119 AVL---
+*R 1 200419022 200304013 200419022  02002  02029            % 01119 AVL---
+*G AVS 200304013 200419022  02002  02029                    % 01119 AVL---
+*A VE 200304013 200419022 000017  02002  02029              % 01119 AVL---
+200304013 Howald, Waassertuerm         02002                % 01119 AVL---
+200304005 Howald, Minsbësch     02004  02004                % 01119 AVL---
+200304002 Howald, Bei der Kier  02005  02005                % 01119 AVL---
+200304015 Howald, 9 Mai 1944    02006  02006                % 01119 AVL---
+200304010 Howald, Rangwee       02007  02007                % 01119 AVL---
+200404027 Bonnevoie, Lycée Tec  02009  02009                % 01119 AVL---
+200404037 Bonnevoie, Willibror  02010  02010                % 01119 AVL---
+200404026 Bonnevoie, Léon XIII  02011  02011                % 01119 AVL---
+200404013 Bonnevoie, Fraternit  02012  02012                % 01119 AVL---
+200404036 Bonnevoie, Virchow    02013  02013                % 01119 AVL---
+200404017 Bonnevoie, Huese Vic  02014  02014                % 01119 AVL---
+200405039 Luxembourg, Wallis    02015  02015                % 01119 AVL---
+200405013 Centre, F.D. Rooseve  02018  02018                % 01119 AVL---
+200405020 Hamilius              02021  02021                % 01119 AVL---
+200405014 Centre, Fondation Pe  02023  02023                % 01119 AVL---
+200419036 Limpertsberg, Faïenc  02025  02025                % 01119 AVL---
+200419019 Limpertsberg, Henri   02026  02026                % 01119 AVL---
+200419014 Limpertsberg, Ermesi  02027  02027                % 01119 AVL---
+200419020 Luxembourg, Uni Camp  02028  02028                % 01119 AVL---
+200419008 Limpertsberg, Batty   02028  02028                % 01119 AVL---
+200419022 Limpertsberg, Lycée   02029                       % 01119 AVL---
+*Z 01120 AVL---       001 020                               % 01120 AVL---
+*L 3        200304013 200419022  01937  02004               % 01120 AVL---
+*A BE 200304013 200419022 000002  01937  02004              % 01120 AVL---
+*R 1 200419022 200304013 200419022  01937  02004            % 01120 AVL---
+*G AVG 200304013 200419022  01937  02004                    % 01120 AVL---
+*A VE 200304013 200419022 000002  01937  02004              % 01120 AVL---
+200304013 Howald, Waassertuerm         01937                % 01120 AVL---
+200304005 Howald, Minsbësch     01939  01939                % 01120 AVL---
+200304002 Howald, Bei der Kier  01940  01940                % 01120 AVL---
+200304015 Howald, 9 Mai 1944    01941  01941                % 01120 AVL---
+200304010 Howald, Rangwee       01942  01942                % 01120 AVL---
+200404027 Bonnevoie, Lycée Tec  01944  01944                % 01120 AVL---
+200404037 Bonnevoie, Willibror  01945  01945                % 01120 AVL---
+200404026 Bonnevoie, Léon XIII  01946  01946                % 01120 AVL---
+200404013 Bonnevoie, Fraternit  01947  01947                % 01120 AVL---
+200404036 Bonnevoie, Virchow    01948  01948                % 01120 AVL---
+200404017 Bonnevoie, Huese Vic  01949  01949                % 01120 AVL---
+200405039 Luxembourg, Wallis    01950  01950                % 01120 AVL---
+200405013 Centre, F.D. Rooseve  01953  01953                % 01120 AVL---
+200405020 Hamilius              01956  01956                % 01120 AVL---
+200405014 Centre, Fondation Pe  01958  01958                % 01120 AVL---
+200419036 Limpertsberg, Faïenc  02000  02000                % 01120 AVL---
+200419019 Limpertsberg, Henri   02001  02001                % 01120 AVL---
+200419014 Limpertsberg, Ermesi  02002  02002                % 01120 AVL---
+200419020 Luxembourg, Uni Camp  02003  02003                % 01120 AVL---
+200419008 Limpertsberg, Batty   02003  02003                % 01120 AVL---
+200419022 Limpertsberg, Lycée   02004                       % 01120 AVL---
+*Z 01121 AVL---                                             % 01121 AVL---
+*L 3        200304013 200419022  02002  02029               % 01121 AVL---
+*A BE 200304013 200419022 000018  02002  02029              % 01121 AVL---
+*R 1 200419022 200304013 200419022  02002  02029            % 01121 AVL---
+*G AVG 200304013 200419022  02002  02029                    % 01121 AVL---
+*A VE 200304013 200419022 000018  02002  02029              % 01121 AVL---
+200304013 Howald, Waassertuerm         02002                % 01121 AVL---
+200304005 Howald, Minsbësch     02004  02004                % 01121 AVL---
+200304002 Howald, Bei der Kier  02005  02005                % 01121 AVL---
+200304015 Howald, 9 Mai 1944    02006  02006                % 01121 AVL---
+200304010 Howald, Rangwee       02007  02007                % 01121 AVL---
+200404027 Bonnevoie, Lycée Tec  02009  02009                % 01121 AVL---
+200404037 Bonnevoie, Willibror  02010  02010                % 01121 AVL---
+200404026 Bonnevoie, Léon XIII  02011  02011                % 01121 AVL---
+200404013 Bonnevoie, Fraternit  02012  02012                % 01121 AVL---
+200404036 Bonnevoie, Virchow    02013  02013                % 01121 AVL---
+200404017 Bonnevoie, Huese Vic  02014  02014                % 01121 AVL---
+200405039 Luxembourg, Wallis    02015  02015                % 01121 AVL---
+200405013 Centre, F.D. Rooseve  02018  02018                % 01121 AVL---
+200405020 Hamilius              02021  02021                % 01121 AVL---
+200405014 Centre, Fondation Pe  02023  02023                % 01121 AVL---
+200419036 Limpertsberg, Faïenc  02025  02025                % 01121 AVL---
+200419019 Limpertsberg, Henri   02026  02026                % 01121 AVL---
+200419014 Limpertsberg, Ermesi  02027  02027                % 01121 AVL---
+200419020 Luxembourg, Uni Camp  02028  02028                % 01121 AVL---
+200419008 Limpertsberg, Batty   02028  02028                % 01121 AVL---
+200419022 Limpertsberg, Lycée   02029                       % 01121 AVL---
+*Z 01122 AVL---                                             % 01122 AVL---
+*L 3        200304013 200419022  01942  02009               % 01122 AVL---
+*A BE 200304013 200419022 000005  01942  02009              % 01122 AVL---
+*R 1 200419022 200304013 200419022  01942  02009            % 01122 AVL---
+*G AVS 200304013 200419022  01942  02009                    % 01122 AVL---
+*A VE 200304013 200419022 000005  01942  02009              % 01122 AVL---
+200304013 Howald, Waassertuerm         01942                % 01122 AVL---
+200304005 Howald, Minsbësch     01944  01944                % 01122 AVL---
+200304002 Howald, Bei der Kier  01945  01945                % 01122 AVL---
+200304015 Howald, 9 Mai 1944    01946  01946                % 01122 AVL---
+200304010 Howald, Rangwee       01947  01947                % 01122 AVL---
+200404027 Bonnevoie, Lycée Tec  01949  01949                % 01122 AVL---
+200404037 Bonnevoie, Willibror  01950  01950                % 01122 AVL---
+200404026 Bonnevoie, Léon XIII  01951  01951                % 01122 AVL---
+200404013 Bonnevoie, Fraternit  01952  01952                % 01122 AVL---
+200404036 Bonnevoie, Virchow    01953  01953                % 01122 AVL---
+200404017 Bonnevoie, Huese Vic  01954  01954                % 01122 AVL---
+200405039 Luxembourg, Wallis    01955  01955                % 01122 AVL---
+200405013 Centre, F.D. Rooseve  01958  01958                % 01122 AVL---
+200405020 Hamilius              02001  02001                % 01122 AVL---
+200405014 Centre, Fondation Pe  02003  02003                % 01122 AVL---
+200419036 Limpertsberg, Faïenc  02005  02005                % 01122 AVL---
+200419019 Limpertsberg, Henri   02006  02006                % 01122 AVL---
+200419014 Limpertsberg, Ermesi  02007  02007                % 01122 AVL---
+200419020 Luxembourg, Uni Camp  02008  02008                % 01122 AVL---
+200419008 Limpertsberg, Batty   02008  02008                % 01122 AVL---
+200419022 Limpertsberg, Lycée   02009                       % 01122 AVL---
+*Z 01123 AVL---                                             % 01123 AVL---
+*L 3        200304013 200419022  01918  01951               % 01123 AVL---
+*A BE 200304013 200419022 000002  01918  01951              % 01123 AVL---
+*R 1 200419022 200304013 200419022  01918  01951            % 01123 AVL---
+*G AVG 200304013 200419022  01918  01951                    % 01123 AVL---
+*A VE 200304013 200419022 000002  01918  01951              % 01123 AVL---
+200304013 Howald, Waassertuerm         01918                % 01123 AVL---
+200304005 Howald, Minsbësch     01920  01920                % 01123 AVL---
+200304002 Howald, Bei der Kier  01921  01921                % 01123 AVL---
+200304015 Howald, 9 Mai 1944    01922  01922                % 01123 AVL---
+200304010 Howald, Rangwee       01924  01924                % 01123 AVL---
+200404027 Bonnevoie, Lycée Tec  01926  01926                % 01123 AVL---
+200404037 Bonnevoie, Willibror  01927  01927                % 01123 AVL---
+200404026 Bonnevoie, Léon XIII  01929  01929                % 01123 AVL---
+200404013 Bonnevoie, Fraternit  01930  01930                % 01123 AVL---
+200404036 Bonnevoie, Virchow    01931  01931                % 01123 AVL---
+200404017 Bonnevoie, Huese Vic  01932  01932                % 01123 AVL---
+200405039 Luxembourg, Wallis    01934  01934                % 01123 AVL---
+200405013 Centre, F.D. Rooseve  01938  01938                % 01123 AVL---
+200405020 Hamilius              01941  01941                % 01123 AVL---
+200405014 Centre, Fondation Pe  01944  01944                % 01123 AVL---
+200419036 Limpertsberg, Faïenc  01947  01947                % 01123 AVL---
+200419019 Limpertsberg, Henri   01948  01948                % 01123 AVL---
+200419014 Limpertsberg, Ermesi  01948  01948                % 01123 AVL---
+200419020 Luxembourg, Uni Camp  01950  01950                % 01123 AVL---
+200419008 Limpertsberg, Batty   01951  01951                % 01123 AVL---
+200419022 Limpertsberg, Lycée   01951                       % 01123 AVL---
+*Z 01124 AVL---                                             % 01124 AVL---
+*L 3        200404027 200419022  00741  00806               % 01124 AVL---
+*A BE 200404027 200419022 000002  00741  00806              % 01124 AVL---
+*R 1 200419022 200404027 200419022  00741  00806            % 01124 AVL---
+*G AVS 200404027 200419022  00741  00806                    % 01124 AVL---
+*A VE 200404027 200419022 000002  00741  00806              % 01124 AVL---
+200404027 Bonnevoie, Lycée Tec         00741                % 01124 AVL---
+200404037 Bonnevoie, Willibror  00742  00742                % 01124 AVL---
+200404026 Bonnevoie, Léon XIII  00744  00744                % 01124 AVL---
+200404013 Bonnevoie, Fraternit  00745  00745                % 01124 AVL---
+200404036 Bonnevoie, Virchow    00746  00746                % 01124 AVL---
+200404017 Bonnevoie, Huese Vic  00747  00747                % 01124 AVL---
+200405039 Luxembourg, Wallis    00749  00749                % 01124 AVL---
+200405013 Centre, F.D. Rooseve  00753  00753                % 01124 AVL---
+200405020 Hamilius              00756  00756                % 01124 AVL---
+200405014 Centre, Fondation Pe  00759  00759                % 01124 AVL---
+200419036 Limpertsberg, Faïenc  00802  00802                % 01124 AVL---
+200419019 Limpertsberg, Henri   00803  00803                % 01124 AVL---
+200419014 Limpertsberg, Ermesi  00803  00803                % 01124 AVL---
+200419020 Luxembourg, Uni Camp  00805  00805                % 01124 AVL---
+200419008 Limpertsberg, Batty   00806  00806                % 01124 AVL---
+200419022 Limpertsberg, Lycée   00806                       % 01124 AVL---
+*Z 01125 AVL---                                             % 01125 AVL---
+*L 3        200304013 200419022  00622  00649               % 01125 AVL---
+*A BE 200304013 200419022 000002  00622  00649              % 01125 AVL---
+*R 1 200419022 200304013 200419022  00622  00649            % 01125 AVL---
+*G AVG 200304013 200419022  00622  00649                    % 01125 AVL---
+*A VE 200304013 200419022 000002  00622  00649              % 01125 AVL---
+200304013 Howald, Waassertuerm         00622                % 01125 AVL---
+200304005 Howald, Minsbësch     00624  00624                % 01125 AVL---
+200304002 Howald, Bei der Kier  00625  00625                % 01125 AVL---
+200304015 Howald, 9 Mai 1944    00626  00626                % 01125 AVL---
+200304010 Howald, Rangwee       00627  00627                % 01125 AVL---
+200404027 Bonnevoie, Lycée Tec  00629  00629                % 01125 AVL---
+200404037 Bonnevoie, Willibror  00630  00630                % 01125 AVL---
+200404026 Bonnevoie, Léon XIII  00631  00631                % 01125 AVL---
+200404013 Bonnevoie, Fraternit  00632  00632                % 01125 AVL---
+200404036 Bonnevoie, Virchow    00633  00633                % 01125 AVL---
+200404017 Bonnevoie, Huese Vic  00634  00634                % 01125 AVL---
+200405039 Luxembourg, Wallis    00635  00635                % 01125 AVL---
+200405013 Centre, F.D. Rooseve  00638  00638                % 01125 AVL---
+200405020 Hamilius              00641  00641                % 01125 AVL---
+200405014 Centre, Fondation Pe  00643  00643                % 01125 AVL---
+200419036 Limpertsberg, Faïenc  00645  00645                % 01125 AVL---
+200419019 Limpertsberg, Henri   00646  00646                % 01125 AVL---
+200419014 Limpertsberg, Ermesi  00647  00647                % 01125 AVL---
+200419020 Luxembourg, Uni Camp  00648  00648                % 01125 AVL---
+200419008 Limpertsberg, Batty   00648  00648                % 01125 AVL---
+200419022 Limpertsberg, Lycée   00649                       % 01125 AVL---
+*Z 01126 AVL---       037 020                               % 01126 AVL---
+*L 3        200304013 200419022  00638  00711               % 01126 AVL---
+*A BE 200304013 200419022 000002  00638  00711              % 01126 AVL---
+*R 1 200419022 200304013 200419022  00638  00711            % 01126 AVL---
+*G AVG 200304013 200419022  00638  00711                    % 01126 AVL---
+*A VE 200304013 200419022 000002  00638  00711              % 01126 AVL---
+200304013 Howald, Waassertuerm         00638                % 01126 AVL---
+200304005 Howald, Minsbësch     00640  00640                % 01126 AVL---
+200304002 Howald, Bei der Kier  00641  00641                % 01126 AVL---
+200304015 Howald, 9 Mai 1944    00642  00642                % 01126 AVL---
+200304010 Howald, Rangwee       00644  00644                % 01126 AVL---
+200404027 Bonnevoie, Lycée Tec  00646  00646                % 01126 AVL---
+200404037 Bonnevoie, Willibror  00647  00647                % 01126 AVL---
+200404026 Bonnevoie, Léon XIII  00649  00649                % 01126 AVL---
+200404013 Bonnevoie, Fraternit  00650  00650                % 01126 AVL---
+200404036 Bonnevoie, Virchow    00651  00651                % 01126 AVL---
+200404017 Bonnevoie, Huese Vic  00652  00652                % 01126 AVL---
+200405039 Luxembourg, Wallis    00654  00654                % 01126 AVL---
+200405013 Centre, F.D. Rooseve  00658  00658                % 01126 AVL---
+200405020 Hamilius              00701  00701                % 01126 AVL---
+200405014 Centre, Fondation Pe  00704  00704                % 01126 AVL---
+200419036 Limpertsberg, Faïenc  00707  00707                % 01126 AVL---
+200419019 Limpertsberg, Henri   00708  00708                % 01126 AVL---
+200419014 Limpertsberg, Ermesi  00708  00708                % 01126 AVL---
+200419020 Luxembourg, Uni Camp  00710  00710                % 01126 AVL---
+200419008 Limpertsberg, Batty   00711  00711                % 01126 AVL---
+200419022 Limpertsberg, Lycée   00711                       % 01126 AVL---
+*Z 01127 AVL---       008 060                               % 01127 AVL---
+*L 3        200304003 200404027  00918  00930               % 01127 AVL---
+*A BE 200304003 200404027 000003  00918  00930              % 01127 AVL---
+*R 1 200404027 200304003 200404027  00918  00930            % 01127 AVL---
+*G AVM 200304003 200404027  00918  00930                    % 01127 AVL---
+*A VE 200304003 200404027 000003  00918  00930              % 01127 AVL---
+200304003 Howald, C.I.P.A.             00918                % 01127 AVL---
+200304013 Howald, Waassertuerm  00923  00923                % 01127 AVL---
+200304005 Howald, Minsbësch     00925  00925                % 01127 AVL---
+200304002 Howald, Bei der Kier  00926  00926                % 01127 AVL---
+200304015 Howald, 9 Mai 1944    00927  00927                % 01127 AVL---
+200304010 Howald, Rangwee       00928  00928                % 01127 AVL---
+200404027 Bonnevoie, Lycée Tec  00930                       % 01127 AVL---
+*Z 01128 AVL---       001 030                               % 01128 AVL---
+*L 3        200404027 200304013  00733  00738               % 01128 AVL---
+*A BE 200404027 200304013 000005  00733  00738              % 01128 AVL---
+*R 2 200304013 200404027 200304013  00733  00738            % 01128 AVL---
+*G AVS 200404027 200304013  00733  00738                    % 01128 AVL---
+*A VE 200404027 200304013 000005  00733  00738              % 01128 AVL---
+200404027 Bonnevoie, Lycée Tec         00733                % 01128 AVL---
+200404028 Bonnevoie, Neufchâte  00734  00734                % 01128 AVL---
+200304010 Howald, Rangwee       00734  00734                % 01128 AVL---
+200304015 Howald, 9 Mai 1944    00735  00735                % 01128 AVL---
+200304002 Howald, Bei der Kier  00736  00736                % 01128 AVL---
+200304005 Howald, Minsbësch     00737  00737                % 01128 AVL---
+200304013 Howald, Waassertuerm  00738                       % 01128 AVL---
+*Z 01129 AVL---       002 060                               % 01129 AVL---
+*L 3        200404027 200304003  00903  00914               % 01129 AVL---
+*A BE 200404027 200304003 000003  00903  00914              % 01129 AVL---
+*R 2 200304003 200404027 200304003  00903  00914            % 01129 AVL---
+*G AVM 200404027 200304003  00903  00914                    % 01129 AVL---
+*A VE 200404027 200304003 000003  00903  00914              % 01129 AVL---
+200404027 Bonnevoie, Lycée Tec         00903                % 01129 AVL---
+200404028 Bonnevoie, Neufchâte  00904  00904                % 01129 AVL---
+200304010 Howald, Rangwee       00904  00904                % 01129 AVL---
+200304015 Howald, 9 Mai 1944    00905  00905                % 01129 AVL---
+200304002 Howald, Bei der Kier  00906  00906                % 01129 AVL---
+200304005 Howald, Minsbësch     00907  00907                % 01129 AVL---
+200304013 Howald, Waassertuerm  00908  00908                % 01129 AVL---
+200304003 Howald, C.I.P.A.      00914                       % 01129 AVL---
+*Z 01130 AVL---       005 060                               % 01130 AVL---
+*L 3        200404027 200304003  01203  01214               % 01130 AVL---
+*A BE 200404027 200304003 000003  01203  01214              % 01130 AVL---
+*R 2 200304003 200404027 200304003  01203  01214            % 01130 AVL---
+*G AVM 200404027 200304003  01203  01214                    % 01130 AVL---
+*A VE 200404027 200304003 000003  01203  01214              % 01130 AVL---
+200404027 Bonnevoie, Lycée Tec         01203                % 01130 AVL---
+200404028 Bonnevoie, Neufchâte  01204  01204                % 01130 AVL---
+200304010 Howald, Rangwee       01204  01204                % 01130 AVL---
+200304015 Howald, 9 Mai 1944    01206  01206                % 01130 AVL---
+200304002 Howald, Bei der Kier  01207  01207                % 01130 AVL---
+200304005 Howald, Minsbësch     01208  01208                % 01130 AVL---
+200304013 Howald, Waassertuerm  01208  01208                % 01130 AVL---
+200304003 Howald, C.I.P.A.      01214                       % 01130 AVL---
+*Z 01131 AVL---       033 020                               % 01131 AVL---
+*L 3        200419022 200304013  00800  00827               % 01131 AVL---
+*A BE 200419022 200304013 000005  00800  00827              % 01131 AVL---
+*R 2 200304013 200419022 200304013  00800  00827            % 01131 AVL---
+*G AVS 200419022 200304013  00800  00827                    % 01131 AVL---
+*A VE 200419022 200304013 000005  00800  00827              % 01131 AVL---
+200419022 Limpertsberg, Lycée          00800                % 01131 AVL---
+200419008 Limpertsberg, Batty   00801  00801                % 01131 AVL---
+200419020 Luxembourg, Uni Camp  00801  00801                % 01131 AVL---
+200419014 Limpertsberg, Ermesi  00802  00802                % 01131 AVL---
+200419019 Limpertsberg, Henri   00803  00803                % 01131 AVL---
+200419036 Limpertsberg, Faïenc  00803  00803                % 01131 AVL---
+200405014 Centre, Fondation Pe  00805  00805                % 01131 AVL---
+200405020 Hamilius              00809  00809                % 01131 AVL---
+200405054 Centre, F.D. Rooseve  00812  00812                % 01131 AVL---
+200405039 Luxembourg, Wallis    00815  00815                % 01131 AVL---
+200404017 Bonnevoie, Huese Vic  00816  00816                % 01131 AVL---
+200404036 Bonnevoie, Virchow    00817  00817                % 01131 AVL---
+200404013 Bonnevoie, Fraternit  00818  00818                % 01131 AVL---
+200404026 Bonnevoie, Léon XIII  00819  00819                % 01131 AVL---
+200404037 Bonnevoie, Willibror  00820  00820                % 01131 AVL---
+200404027 Bonnevoie, Lycée Tec  00821  00821                % 01131 AVL---
+200404028 Bonnevoie, Neufchâte  00822  00822                % 01131 AVL---
+200304010 Howald, Rangwee       00823  00823                % 01131 AVL---
+200304015 Howald, 9 Mai 1944    00824  00824                % 01131 AVL---
+200304002 Howald, Bei der Kier  00825  00825                % 01131 AVL---
+200304005 Howald, Minsbësch     00826  00826                % 01131 AVL---
+200304013 Howald, Waassertuerm  00827                       % 01131 AVL---
+*Z 01132 AVL---       001 020                               % 01132 AVL---
+*L 3        200419022 200304013  01920  01947               % 01132 AVL---
+*A BE 200419022 200304013 000017  01920  01947              % 01132 AVL---
+*R 2 200304013 200419022 200304013  01920  01947            % 01132 AVL---
+*G AVS 200419022 200304013  01920  01947                    % 01132 AVL---
+*A VE 200419022 200304013 000017  01920  01947              % 01132 AVL---
+200419022 Limpertsberg, Lycée          01920                % 01132 AVL---
+200419008 Limpertsberg, Batty   01921  01921                % 01132 AVL---
+200419020 Luxembourg, Uni Camp  01921  01921                % 01132 AVL---
+200419014 Limpertsberg, Ermesi  01922  01922                % 01132 AVL---
+200419019 Limpertsberg, Henri   01923  01923                % 01132 AVL---
+200419036 Limpertsberg, Faïenc  01923  01923                % 01132 AVL---
+200405014 Centre, Fondation Pe  01925  01925                % 01132 AVL---
+200405020 Hamilius              01929  01929                % 01132 AVL---
+200405054 Centre, F.D. Rooseve  01932  01932                % 01132 AVL---
+200405039 Luxembourg, Wallis    01935  01935                % 01132 AVL---
+200404017 Bonnevoie, Huese Vic  01936  01936                % 01132 AVL---
+200404036 Bonnevoie, Virchow    01937  01937                % 01132 AVL---
+200404013 Bonnevoie, Fraternit  01938  01938                % 01132 AVL---
+200404026 Bonnevoie, Léon XIII  01939  01939                % 01132 AVL---
+200404037 Bonnevoie, Willibror  01940  01940                % 01132 AVL---
+200404027 Bonnevoie, Lycée Tec  01941  01941                % 01132 AVL---
+200404028 Bonnevoie, Neufchâte  01942  01942                % 01132 AVL---
+200304010 Howald, Rangwee       01943  01943                % 01132 AVL---
+200304015 Howald, 9 Mai 1944    01944  01944                % 01132 AVL---
+200304002 Howald, Bei der Kier  01945  01945                % 01132 AVL---
+200304005 Howald, Minsbësch     01946  01946                % 01132 AVL---
+200304013 Howald, Waassertuerm  01947                       % 01132 AVL---
+*Z 01133 AVL---       001 020                               % 01133 AVL---
+*L 3        200419022 200304013  01920  01947               % 01133 AVL---
+*A BE 200419022 200304013 000018  01920  01947              % 01133 AVL---
+*R 2 200304013 200419022 200304013  01920  01947            % 01133 AVL---
+*G AVG 200419022 200304013  01920  01947                    % 01133 AVL---
+*A VE 200419022 200304013 000018  01920  01947              % 01133 AVL---
+200419022 Limpertsberg, Lycée          01920                % 01133 AVL---
+200419008 Limpertsberg, Batty   01921  01921                % 01133 AVL---
+200419020 Luxembourg, Uni Camp  01921  01921                % 01133 AVL---
+200419014 Limpertsberg, Ermesi  01922  01922                % 01133 AVL---
+200419019 Limpertsberg, Henri   01923  01923                % 01133 AVL---
+200419036 Limpertsberg, Faïenc  01923  01923                % 01133 AVL---
+200405014 Centre, Fondation Pe  01925  01925                % 01133 AVL---
+200405020 Hamilius              01929  01929                % 01133 AVL---
+200405054 Centre, F.D. Rooseve  01932  01932                % 01133 AVL---
+200405039 Luxembourg, Wallis    01935  01935                % 01133 AVL---
+200404017 Bonnevoie, Huese Vic  01936  01936                % 01133 AVL---
+200404036 Bonnevoie, Virchow    01937  01937                % 01133 AVL---
+200404013 Bonnevoie, Fraternit  01938  01938                % 01133 AVL---
+200404026 Bonnevoie, Léon XIII  01939  01939                % 01133 AVL---
+200404037 Bonnevoie, Willibror  01940  01940                % 01133 AVL---
+200404027 Bonnevoie, Lycée Tec  01941  01941                % 01133 AVL---
+200404028 Bonnevoie, Neufchâte  01942  01942                % 01133 AVL---
+200304010 Howald, Rangwee       01943  01943                % 01133 AVL---
+200304015 Howald, 9 Mai 1944    01944  01944                % 01133 AVL---
+200304002 Howald, Bei der Kier  01945  01945                % 01133 AVL---
+200304005 Howald, Minsbësch     01946  01946                % 01133 AVL---
+200304013 Howald, Waassertuerm  01947                       % 01133 AVL---
+*Z 01134 AVL---       038 020                               % 01134 AVL---
+*L 3        200419022 200304013  00658  00730               % 01134 AVL---
+*A BE 200419022 200304013 000002  00658  00730              % 01134 AVL---
+*R 2 200304013 200419022 200304013  00658  00730            % 01134 AVL---
+*G AVG 200419022 200304013  00658  00730                    % 01134 AVL---
+*A VE 200419022 200304013 000002  00658  00730              % 01134 AVL---
+200419022 Limpertsberg, Lycée          00658                % 01134 AVL---
+200419008 Limpertsberg, Batty   00659  00659                % 01134 AVL---
+200419020 Luxembourg, Uni Camp  00700  00700                % 01134 AVL---
+200419014 Limpertsberg, Ermesi  00701  00701                % 01134 AVL---
+200419019 Limpertsberg, Henri   00702  00702                % 01134 AVL---
+200419036 Limpertsberg, Faïenc  00703  00703                % 01134 AVL---
+200405014 Centre, Fondation Pe  00704  00704                % 01134 AVL---
+200405020 Hamilius              00709  00709                % 01134 AVL---
+200405054 Centre, F.D. Rooseve  00712  00712                % 01134 AVL---
+200405039 Luxembourg, Wallis    00716  00716                % 01134 AVL---
+200404017 Bonnevoie, Huese Vic  00717  00717                % 01134 AVL---
+200404036 Bonnevoie, Virchow    00718  00718                % 01134 AVL---
+200404013 Bonnevoie, Fraternit  00719  00719                % 01134 AVL---
+200404026 Bonnevoie, Léon XIII  00721  00721                % 01134 AVL---
+200404037 Bonnevoie, Willibror  00722  00722                % 01134 AVL---
+200404027 Bonnevoie, Lycée Tec  00723  00723                % 01134 AVL---
+200404028 Bonnevoie, Neufchâte  00724  00724                % 01134 AVL---
+200304010 Howald, Rangwee       00725  00725                % 01134 AVL---
+200304015 Howald, 9 Mai 1944    00727  00727                % 01134 AVL---
+200304002 Howald, Bei der Kier  00728  00728                % 01134 AVL---
+200304005 Howald, Minsbësch     00729  00729                % 01134 AVL---
+200304013 Howald, Waassertuerm  00730                       % 01134 AVL---
+*Z 01135 AVL---                                             % 01135 AVL---
+*L 3        200419022 200405020  02100  02107               % 01135 AVL---
+*A BE 200419022 200405020 000002  02100  02107              % 01135 AVL---
+*R 2 200405020 200419022 200405020  02100  02107            % 01135 AVL---
+*G AVG 200419022 200405020  02100  02107                    % 01135 AVL---
+*A VE 200419022 200405020 000002  02100  02107              % 01135 AVL---
+200419022 Limpertsberg, Lycée          02100                % 01135 AVL---
+200419008 Limpertsberg, Batty   02100  02100                % 01135 AVL---
+200419020 Luxembourg, Uni Camp  02101  02101                % 01135 AVL---
+200419014 Limpertsberg, Ermesi  02102  02102                % 01135 AVL---
+200419019 Limpertsberg, Henri   02103  02103                % 01135 AVL---
+200419036 Limpertsberg, Faïenc  02103  02103                % 01135 AVL---
+200405014 Centre, Fondation Pe  02105  02105                % 01135 AVL---
+200405020 Hamilius              02107                       % 01135 AVL---
+*Z 01136 AVL---                                             % 01136 AVL---
+*L 3        200419022 200404027  02021  02041               % 01136 AVL---
+*A BE 200419022 200404027 000017  02021  02041              % 01136 AVL---
+*R 2 200404027 200419022 200404027  02021  02041            % 01136 AVL---
+*G AVS 200419022 200404027  02021  02041                    % 01136 AVL---
+*A VE 200419022 200404027 000017  02021  02041              % 01136 AVL---
+200419022 Limpertsberg, Lycée          02021                % 01136 AVL---
+200419008 Limpertsberg, Batty   02022  02022                % 01136 AVL---
+200419020 Luxembourg, Uni Camp  02022  02022                % 01136 AVL---
+200419014 Limpertsberg, Ermesi  02023  02023                % 01136 AVL---
+200419019 Limpertsberg, Henri   02024  02024                % 01136 AVL---
+200419036 Limpertsberg, Faïenc  02024  02024                % 01136 AVL---
+200405014 Centre, Fondation Pe  02026  02026                % 01136 AVL---
+200405020 Hamilius              02029  02029                % 01136 AVL---
+200405054 Centre, F.D. Rooseve  02031  02031                % 01136 AVL---
+200405039 Luxembourg, Wallis    02034  02034                % 01136 AVL---
+200404017 Bonnevoie, Huese Vic  02035  02035                % 01136 AVL---
+200404036 Bonnevoie, Virchow    02036  02036                % 01136 AVL---
+200404013 Bonnevoie, Fraternit  02037  02037                % 01136 AVL---
+200404026 Bonnevoie, Léon XIII  02038  02038                % 01136 AVL---
+200404037 Bonnevoie, Willibror  02040  02040                % 01136 AVL---
+200404027 Bonnevoie, Lycée Tec  02041                       % 01136 AVL---
+*Z 01137 AVL---                                             % 01137 AVL---
+*L 3        200419022 200404027  02021  02041               % 01137 AVL---
+*A BE 200419022 200404027 000019  02021  02041              % 01137 AVL---
+*R 2 200404027 200419022 200404027  02021  02041            % 01137 AVL---
+*G AVG 200419022 200404027  02021  02041                    % 01137 AVL---
+*A VE 200419022 200404027 000019  02021  02041              % 01137 AVL---
+200419022 Limpertsberg, Lycée          02021                % 01137 AVL---
+200419008 Limpertsberg, Batty   02022  02022                % 01137 AVL---
+200419020 Luxembourg, Uni Camp  02022  02022                % 01137 AVL---
+200419014 Limpertsberg, Ermesi  02023  02023                % 01137 AVL---
+200419019 Limpertsberg, Henri   02024  02024                % 01137 AVL---
+200419036 Limpertsberg, Faïenc  02024  02024                % 01137 AVL---
+200405014 Centre, Fondation Pe  02026  02026                % 01137 AVL---
+200405020 Hamilius              02029  02029                % 01137 AVL---
+200405054 Centre, F.D. Rooseve  02031  02031                % 01137 AVL---
+200405039 Luxembourg, Wallis    02034  02034                % 01137 AVL---
+200404017 Bonnevoie, Huese Vic  02035  02035                % 01137 AVL---
+200404036 Bonnevoie, Virchow    02036  02036                % 01137 AVL---
+200404013 Bonnevoie, Fraternit  02037  02037                % 01137 AVL---
+200404026 Bonnevoie, Léon XIII  02038  02038                % 01137 AVL---
+200404037 Bonnevoie, Willibror  02040  02040                % 01137 AVL---
+200404027 Bonnevoie, Lycée Tec  02041                       % 01137 AVL---
+*Z 01138 AVL---                                             % 01138 AVL---
+*L 3        200419022 200304013  02001  02026               % 01138 AVL---
+*A BE 200419022 200304013 000017  02001  02026              % 01138 AVL---
+*R 2 200304013 200419022 200304013  02001  02026            % 01138 AVL---
+*G AVS 200419022 200304013  02001  02026                    % 01138 AVL---
+*A VE 200419022 200304013 000017  02001  02026              % 01138 AVL---
+200419022 Limpertsberg, Lycée          02001                % 01138 AVL---
+200419008 Limpertsberg, Batty   02002  02002                % 01138 AVL---
+200419020 Luxembourg, Uni Camp  02002  02002                % 01138 AVL---
+200419014 Limpertsberg, Ermesi  02003  02003                % 01138 AVL---
+200419019 Limpertsberg, Henri   02004  02004                % 01138 AVL---
+200419036 Limpertsberg, Faïenc  02004  02004                % 01138 AVL---
+200405014 Centre, Fondation Pe  02006  02006                % 01138 AVL---
+200405020 Hamilius              02009  02009                % 01138 AVL---
+200405054 Centre, F.D. Rooseve  02011  02011                % 01138 AVL---
+200405039 Luxembourg, Wallis    02014  02014                % 01138 AVL---
+200404017 Bonnevoie, Huese Vic  02015  02015                % 01138 AVL---
+200404036 Bonnevoie, Virchow    02016  02016                % 01138 AVL---
+200404013 Bonnevoie, Fraternit  02017  02017                % 01138 AVL---
+200404026 Bonnevoie, Léon XIII  02018  02018                % 01138 AVL---
+200404037 Bonnevoie, Willibror  02020  02020                % 01138 AVL---
+200404027 Bonnevoie, Lycée Tec  02021  02021                % 01138 AVL---
+200404028 Bonnevoie, Neufchâte  02021  02021                % 01138 AVL---
+200304010 Howald, Rangwee       02022  02022                % 01138 AVL---
+200304015 Howald, 9 Mai 1944    02023  02023                % 01138 AVL---
+200304002 Howald, Bei der Kier  02024  02024                % 01138 AVL---
+200304005 Howald, Minsbësch     02025  02025                % 01138 AVL---
+200304013 Howald, Waassertuerm  02026                       % 01138 AVL---
+*Z 01139 AVL---       002 020                               % 01139 AVL---
+*L 3        200419022 200304013  00601  00626               % 01139 AVL---
+*A BE 200419022 200304013 000002  00601  00626              % 01139 AVL---
+*R 2 200304013 200419022 200304013  00601  00626            % 01139 AVL---
+*G AVG 200419022 200304013  00601  00626                    % 01139 AVL---
+*A VE 200419022 200304013 000002  00601  00626              % 01139 AVL---
+200419022 Limpertsberg, Lycée          00601                % 01139 AVL---
+200419008 Limpertsberg, Batty   00602  00602                % 01139 AVL---
+200419020 Luxembourg, Uni Camp  00602  00602                % 01139 AVL---
+200419014 Limpertsberg, Ermesi  00603  00603                % 01139 AVL---
+200419019 Limpertsberg, Henri   00604  00604                % 01139 AVL---
+200419036 Limpertsberg, Faïenc  00604  00604                % 01139 AVL---
+200405014 Centre, Fondation Pe  00606  00606                % 01139 AVL---
+200405020 Hamilius              00609  00609                % 01139 AVL---
+200405054 Centre, F.D. Rooseve  00611  00611                % 01139 AVL---
+200405039 Luxembourg, Wallis    00614  00614                % 01139 AVL---
+200404017 Bonnevoie, Huese Vic  00615  00615                % 01139 AVL---
+200404036 Bonnevoie, Virchow    00616  00616                % 01139 AVL---
+200404013 Bonnevoie, Fraternit  00617  00617                % 01139 AVL---
+200404026 Bonnevoie, Léon XIII  00618  00618                % 01139 AVL---
+200404037 Bonnevoie, Willibror  00620  00620                % 01139 AVL---
+200404027 Bonnevoie, Lycée Tec  00621  00621                % 01139 AVL---
+200404028 Bonnevoie, Neufchâte  00621  00621                % 01139 AVL---
+200304010 Howald, Rangwee       00622  00622                % 01139 AVL---
+200304015 Howald, 9 Mai 1944    00623  00623                % 01139 AVL---
+200304002 Howald, Bei der Kier  00624  00624                % 01139 AVL---
+200304005 Howald, Minsbësch     00625  00625                % 01139 AVL---
+200304013 Howald, Waassertuerm  00626                       % 01139 AVL---
+*Z 01140 AVL---                                             % 01140 AVL---
+*L 3        200419022 200304013  02001  02026               % 01140 AVL---
+*A BE 200419022 200304013 000019  02001  02026              % 01140 AVL---
+*R 2 200304013 200419022 200304013  02001  02026            % 01140 AVL---
+*G AVG 200419022 200304013  02001  02026                    % 01140 AVL---
+*A VE 200419022 200304013 000019  02001  02026              % 01140 AVL---
+200419022 Limpertsberg, Lycée          02001                % 01140 AVL---
+200419008 Limpertsberg, Batty   02002  02002                % 01140 AVL---
+200419020 Luxembourg, Uni Camp  02002  02002                % 01140 AVL---
+200419014 Limpertsberg, Ermesi  02003  02003                % 01140 AVL---
+200419019 Limpertsberg, Henri   02004  02004                % 01140 AVL---
+200419036 Limpertsberg, Faïenc  02004  02004                % 01140 AVL---
+200405014 Centre, Fondation Pe  02006  02006                % 01140 AVL---
+200405020 Hamilius              02009  02009                % 01140 AVL---
+200405054 Centre, F.D. Rooseve  02011  02011                % 01140 AVL---
+200405039 Luxembourg, Wallis    02014  02014                % 01140 AVL---
+200404017 Bonnevoie, Huese Vic  02015  02015                % 01140 AVL---
+200404036 Bonnevoie, Virchow    02016  02016                % 01140 AVL---
+200404013 Bonnevoie, Fraternit  02017  02017                % 01140 AVL---
+200404026 Bonnevoie, Léon XIII  02018  02018                % 01140 AVL---
+200404037 Bonnevoie, Willibror  02020  02020                % 01140 AVL---
+200404027 Bonnevoie, Lycée Tec  02021  02021                % 01140 AVL---
+200404028 Bonnevoie, Neufchâte  02021  02021                % 01140 AVL---
+200304010 Howald, Rangwee       02022  02022                % 01140 AVL---
+200304015 Howald, 9 Mai 1944    02023  02023                % 01140 AVL---
+200304002 Howald, Bei der Kier  02024  02024                % 01140 AVL---
+200304005 Howald, Minsbësch     02025  02025                % 01140 AVL---
+200304013 Howald, Waassertuerm  02026                       % 01140 AVL---
+*Z 01141 AVL---       004 030                               % 01141 AVL---
+*L 3        200404027 200304013  02033  02038               % 01141 AVL---
+*A BE 200404027 200304013 000000  02033  02038              % 01141 AVL---
+*R 2 200304013 200404027 200304013  02033  02038            % 01141 AVL---
+*G AVM 200404027 200304013  02033  02038                    % 01141 AVL---
+*A VE 200404027 200304013 000000  02033  02038              % 01141 AVL---
+200404027 Bonnevoie, Lycée Tec         02033                % 01141 AVL---
+200404028 Bonnevoie, Neufchâte  02034  02034                % 01141 AVL---
+200304010 Howald, Rangwee       02034  02034                % 01141 AVL---
+200304015 Howald, 9 Mai 1944    02035  02035                % 01141 AVL---
+200304002 Howald, Bei der Kier  02036  02036                % 01141 AVL---
+200304005 Howald, Minsbësch     02037  02037                % 01141 AVL---
+200304013 Howald, Waassertuerm  02038                       % 01141 AVL---
+*Z 01142 AVL---       001 030                               % 01142 AVL---
+*L 3        200404027 200304013  00803  00808               % 01142 AVL---
+*A BE 200404027 200304013 000003  00803  00808              % 01142 AVL---
+*R 2 200304013 200404027 200304013  00803  00808            % 01142 AVL---
+*G AVM 200404027 200304013  00803  00808                    % 01142 AVL---
+*A VE 200404027 200304013 000003  00803  00808              % 01142 AVL---
+200404027 Bonnevoie, Lycée Tec         00803                % 01142 AVL---
+200404028 Bonnevoie, Neufchâte  00804  00804                % 01142 AVL---
+200304010 Howald, Rangwee       00804  00804                % 01142 AVL---
+200304015 Howald, 9 Mai 1944    00805  00805                % 01142 AVL---
+200304002 Howald, Bei der Kier  00806  00806                % 01142 AVL---
+200304005 Howald, Minsbësch     00807  00807                % 01142 AVL---
+200304013 Howald, Waassertuerm  00808                       % 01142 AVL---
+*Z 01143 AVL---       002 060                               % 01143 AVL---
+*L 3        200404027 200304013  00933  00938               % 01143 AVL---
+*A BE 200404027 200304013 000003  00933  00938              % 01143 AVL---
+*R 2 200304013 200404027 200304013  00933  00938            % 01143 AVL---
+*G AVM 200404027 200304013  00933  00938                    % 01143 AVL---
+*A VE 200404027 200304013 000003  00933  00938              % 01143 AVL---
+200404027 Bonnevoie, Lycée Tec         00933                % 01143 AVL---
+200404028 Bonnevoie, Neufchâte  00934  00934                % 01143 AVL---
+200304010 Howald, Rangwee       00934  00934                % 01143 AVL---
+200304015 Howald, 9 Mai 1944    00935  00935                % 01143 AVL---
+200304002 Howald, Bei der Kier  00936  00936                % 01143 AVL---
+200304005 Howald, Minsbësch     00937  00937                % 01143 AVL---
+200304013 Howald, Waassertuerm  00938                       % 01143 AVL---
+*Z 01144 AVL---       001 030                               % 01144 AVL---
+*L 3        200404027 200304013  00633  00638               % 01144 AVL---
+*A BE 200404027 200304013 000005  00633  00638              % 01144 AVL---
+*R 2 200304013 200404027 200304013  00633  00638            % 01144 AVL---
+*G AVM 200404027 200304013  00633  00638                    % 01144 AVL---
+*A VE 200404027 200304013 000005  00633  00638              % 01144 AVL---
+200404027 Bonnevoie, Lycée Tec         00633                % 01144 AVL---
+200404028 Bonnevoie, Neufchâte  00634  00634                % 01144 AVL---
+200304010 Howald, Rangwee       00634  00634                % 01144 AVL---
+200304015 Howald, 9 Mai 1944    00635  00635                % 01144 AVL---
+200304002 Howald, Bei der Kier  00636  00636                % 01144 AVL---
+200304005 Howald, Minsbësch     00637  00637                % 01144 AVL---
+200304013 Howald, Waassertuerm  00638                       % 01144 AVL---
+*Z 01145 AVL---       001 030                               % 01145 AVL---
+*L 3        200404027 200304013  00533  00538               % 01145 AVL---
+*A BE 200404027 200304013 000001  00533  00538              % 01145 AVL---
+*R 2 200304013 200404027 200304013  00533  00538            % 01145 AVL---
+*G AVM 200404027 200304013  00533  00538                    % 01145 AVL---
+*A VE 200404027 200304013 000001  00533  00538              % 01145 AVL---
+200404027 Bonnevoie, Lycée Tec         00533                % 01145 AVL---
+200404028 Bonnevoie, Neufchâte  00534  00534                % 01145 AVL---
+200304010 Howald, Rangwee       00534  00534                % 01145 AVL---
+200304015 Howald, 9 Mai 1944    00535  00535                % 01145 AVL---
+200304002 Howald, Bei der Kier  00536  00536                % 01145 AVL---
+200304005 Howald, Minsbësch     00537  00537                % 01145 AVL---
+200304013 Howald, Waassertuerm  00538                       % 01145 AVL---
+*Z 01146 AVL---       002 030                               % 01146 AVL---
+*L 3        200404027 200304013  02303  02308               % 01146 AVL---
+*A BE 200404027 200304013 000001  02303  02308              % 01146 AVL---
+*R 2 200304013 200404027 200304013  02303  02308            % 01146 AVL---
+*G AVM 200404027 200304013  02303  02308                    % 01146 AVL---
+*A VE 200404027 200304013 000001  02303  02308              % 01146 AVL---
+200404027 Bonnevoie, Lycée Tec         02303                % 01146 AVL---
+200404028 Bonnevoie, Neufchâte  02304  02304                % 01146 AVL---
+200304010 Howald, Rangwee       02304  02304                % 01146 AVL---
+200304015 Howald, 9 Mai 1944    02305  02305                % 01146 AVL---
+200304002 Howald, Bei der Kier  02306  02306                % 01146 AVL---
+200304005 Howald, Minsbësch     02307  02307                % 01146 AVL---
+200304013 Howald, Waassertuerm  02308                       % 01146 AVL---
+*Z 01147 AVL---       005 060                               % 01147 AVL---
+*L 3        200404027 200304013  01233  01238               % 01147 AVL---
+*A BE 200404027 200304013 000003  01233  01238              % 01147 AVL---
+*R 2 200304013 200404027 200304013  01233  01238            % 01147 AVL---
+*G AVM 200404027 200304013  01233  01238                    % 01147 AVL---
+*A VE 200404027 200304013 000003  01233  01238              % 01147 AVL---
+200404027 Bonnevoie, Lycée Tec         01233                % 01147 AVL---
+200404028 Bonnevoie, Neufchâte  01234  01234                % 01147 AVL---
+200304010 Howald, Rangwee       01234  01234                % 01147 AVL---
+200304015 Howald, 9 Mai 1944    01236  01236                % 01147 AVL---
+200304002 Howald, Bei der Kier  01237  01237                % 01147 AVL---
+200304005 Howald, Minsbësch     01238  01238                % 01147 AVL---
+200304013 Howald, Waassertuerm  01238                       % 01147 AVL---
+*Z 01148 AVL---       004 030                               % 01148 AVL---
+*L 3        200404027 200304013  01803  01808               % 01148 AVL---
+*A BE 200404027 200304013 000003  01803  01808              % 01148 AVL---
+*R 2 200304013 200404027 200304013  01803  01808            % 01148 AVL---
+*G AVM 200404027 200304013  01803  01808                    % 01148 AVL---
+*A VE 200404027 200304013 000003  01803  01808              % 01148 AVL---
+200404027 Bonnevoie, Lycée Tec         01803                % 01148 AVL---
+200404028 Bonnevoie, Neufchâte  01804  01804                % 01148 AVL---
+200304010 Howald, Rangwee       01804  01804                % 01148 AVL---
+200304015 Howald, 9 Mai 1944    01806  01806                % 01148 AVL---
+200304002 Howald, Bei der Kier  01807  01807                % 01148 AVL---
+200304005 Howald, Minsbësch     01808  01808                % 01148 AVL---
+200304013 Howald, Waassertuerm  01808                       % 01148 AVL---

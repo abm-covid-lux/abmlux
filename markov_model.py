@@ -14,6 +14,8 @@
 #In particular, for each age group a transition matrix is constructed for each 10 minute interval of 
 #the week, of which there are 7*144 in total.
 
+import sys
+import os.path as osp
 import math
 import pickle
 
@@ -22,7 +24,7 @@ import pandas as pd
 from tqdm import tqdm
 
 from diary import DiaryDay, DiaryWeek, DayOfWeek
-from config import load_config
+from config import Config
 # TODO: move to config
 from agent import AgentType, POPULATION_RANGES
 from activity import ActivityManager
@@ -32,21 +34,18 @@ import random_tools
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
-INPUT_FILENAME                 = 'Data/TUS_Processed_2.xlsx'
-INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
-TRANSITION_MATRIX_FILENAME     = "Transition_Matrices/transition_matrix.pickle"
-PARAMETERS_FILENAME            = 'Data/simulation_parameters.yaml'
+INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
+TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
 
 # ------------------------------------------------[ Config ]------------------------------------
-print(f"Loading config from {PARAMETERS_FILENAME}...")
-config = load_config(PARAMETERS_FILENAME)
+config = Config(sys.argv[1])
 activity_manager = ActivityManager(config['activities'])
 
 # ---------------------------------------------------------------------------------------------------
-print(f"Loading time use data from {INPUT_FILENAME}...")
+print(f"Loading time use data from {config.filepath('time_use_fp')}...")
 # TODO: force pandas to read the numeric ID columns as factors or ints
 #       same for weights
-tus = pd.read_excel(INPUT_FILENAME)
+tus = pd.read_csv(config.filepath('time_use_fp'))
 tus = tus.dropna()
 
 
@@ -212,14 +211,14 @@ for week in weeks:
         if week.age in rng:
             init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
 
-
-print(f"Writing initial distributions to {INITIAL_DISTRIBUTIONS_FILENAME}...")
-with open(INITIAL_DISTRIBUTIONS_FILENAME, 'wb') as fout:
+initial_distributions_filename = osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME)
+print(f"Writing initial distributions to {initial_distributions_filename}...")
+with open(initial_distributions_filename, 'wb') as fout:
     pickle.dump(init_distribution_by_type, fout)
 del(init_distribution_by_type)
 
 
-print('Generating weighted transition matrices...')
+print('Generating weighted activity transition matrices...')
 # Activity -> activity transition matrix
 #
 # AgentType.CHILD: [[[activity, activity], [activity, activity]]]
@@ -228,7 +227,6 @@ print('Generating weighted transition matrices...')
 #  - Each 10 minute slice has a transition matrix between activities
 #  - Each agent type has one of those ^
 #
-
 
 # TODO: simplify this structure.  It's far too hard to follow
 transition_matrix = {typ:
@@ -254,9 +252,9 @@ for t in tqdm(range(WEEK_LENGTH_10MIN)):
 
                 transition_matrix[typ][t][activity_from][activity_to] += week.weight
 
-
-print(f"Writing transition matrices to {TRANSITION_MATRIX_FILENAME}...")
-with open(TRANSITION_MATRIX_FILENAME, 'wb') as fout:
+transition_matrix_filename = osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME)
+print(f"Writing transition matrices to {transition_matrix_filename}...")
+with open(transition_matrix_filename, 'wb') as fout:
     pickle.dump(transition_matrix, fout)
 
 print('Done.')

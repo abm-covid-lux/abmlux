@@ -1,0 +1,2485 @@
+*F 03 2
+*Z 08438 RGTR--                                             % 08438 RGTR--
+*L 212      200405004 220903008  01610  01654               % 08438 RGTR--
+*A eb 200405004 220903008 000005  01610  01654              % 08438 RGTR--
+*R 1 220903008 200405004 220903008  01610  01654            % 08438 RGTR--
+*G RGB 200405004 220903008  01610  01654                    % 08438 RGTR--
+*A VE 200405004 220903008 000005  01610  01654              % 08438 RGTR--
+*I FD 200405004 220903008        0002081  01610  01654      % 08438 RGTR--
+200405004 Centre, Monterey Par         01610                % 08438 RGTR--
+200403015 Belair, Rheinsheim   -01612  01612                % 08438 RGTR--
+200415005 Hollerich, Heentze P -01614  01614                % 08438 RGTR--
+200415002 Hollerich, Assurance  01617  01617                % 08438 RGTR--
+200412009 Gasperich, Gaasperec -01618  01618                % 08438 RGTR--
+200412028 Gasperich, Stengege  -01620  01620                % 08438 RGTR--
+200412006 Gasperich, Cloche d' -01623  01623                % 08438 RGTR--
+200412018 Gasperich, Scharfen  -01624  01624                % 08438 RGTR--
+221303003 Sanem, Niederkuerers  01640  01640                % 08438 RGTR--
+220203001 Niedercorn, Aale Sta  01641  01641                % 08438 RGTR--
+220203012 Niedercorn, Suesseme  01642  01642                % 08438 RGTR--
+220203011 Niedercorn, Schoul    01643  01643                % 08438 RGTR--
+220203008 Niedercorn, Péitenge  01644  01644                % 08438 RGTR--
+220203004 Niedercorn, Cité de   01645  01645                % 08438 RGTR--
+220203007 Niedercorn, Maison d  01645  01645                % 08438 RGTR--
+220902018 Pétange, Prënzebierg  01646  01646                % 08438 RGTR--
+220902015 Pétange, Oberst Däss  01647  01647                % 08438 RGTR--
+220902009 Pétange, Kierfecht    01647  01647                % 08438 RGTR--
+220902001 Pétange, A Rousen     01649  01649                % 08438 RGTR--
+220902004 Pétange, Cactus       01650  01650                % 08438 RGTR--
+220902019 Pétange, Porte Lamad  01651  01651                % 08438 RGTR--
+220901007 Lamadelaine, Route d  01652  01652                % 08438 RGTR--
+220903018 Rodange, Raths        01653  01653                % 08438 RGTR--
+220903008 Rodange, Gare         01654                       % 08438 RGTR--
+*Z 08439 RGTR--                                             % 08439 RGTR--
+*L 212      200405004 220903008  01710  01754               % 08439 RGTR--
+*A eb 200405004 220903008 000005  01710  01754              % 08439 RGTR--
+*R 1 220903008 200405004 220903008  01710  01754            % 08439 RGTR--
+*G RGB 200405004 220903008  01710  01754                    % 08439 RGTR--
+*A VE 200405004 220903008 000005  01710  01754              % 08439 RGTR--
+*I FD 200405004 220903008        0002073  01710  01754      % 08439 RGTR--
+200405004 Centre, Monterey Par         01710                % 08439 RGTR--
+200403015 Belair, Rheinsheim   -01712  01712                % 08439 RGTR--
+200415005 Hollerich, Heentze P -01714  01714                % 08439 RGTR--
+200415002 Hollerich, Assurance  01717  01717                % 08439 RGTR--
+200412009 Gasperich, Gaasperec -01718  01718                % 08439 RGTR--
+200412028 Gasperich, Stengege  -01720  01720                % 08439 RGTR--
+200412006 Gasperich, Cloche d' -01723  01723                % 08439 RGTR--
+200412018 Gasperich, Scharfen  -01724  01724                % 08439 RGTR--
+221303003 Sanem, Niederkuerers  01740  01740                % 08439 RGTR--
+220203001 Niedercorn, Aale Sta  01741  01741                % 08439 RGTR--
+220203012 Niedercorn, Suesseme  01742  01742                % 08439 RGTR--
+220203011 Niedercorn, Schoul    01743  01743                % 08439 RGTR--
+220203008 Niedercorn, Péitenge  01744  01744                % 08439 RGTR--
+220203004 Niedercorn, Cité de   01745  01745                % 08439 RGTR--
+220203007 Niedercorn, Maison d  01745  01745                % 08439 RGTR--
+220902018 Pétange, Prënzebierg  01746  01746                % 08439 RGTR--
+220902015 Pétange, Oberst Däss  01747  01747                % 08439 RGTR--
+220902009 Pétange, Kierfecht    01747  01747                % 08439 RGTR--
+220902001 Pétange, A Rousen     01749  01749                % 08439 RGTR--
+220902004 Pétange, Cactus       01750  01750                % 08439 RGTR--
+220902019 Pétange, Porte Lamad  01751  01751                % 08439 RGTR--
+220901007 Lamadelaine, Route d  01752  01752                % 08439 RGTR--
+220903018 Rodange, Raths        01753  01753                % 08439 RGTR--
+220903008 Rodange, Gare         01754                       % 08439 RGTR--
+*Z 08440 RGTR--                                             % 08440 RGTR--
+*L 212      200405004 220903008  01810  01854               % 08440 RGTR--
+*A eb 200405004 220903008 000005  01810  01854              % 08440 RGTR--
+*R 1 220903008 200405004 220903008  01810  01854            % 08440 RGTR--
+*G RGB 200405004 220903008  01810  01854                    % 08440 RGTR--
+*A VE 200405004 220903008 000005  01810  01854              % 08440 RGTR--
+*I FD 200405004 220903008        0002085  01810  01854      % 08440 RGTR--
+200405004 Centre, Monterey Par         01810                % 08440 RGTR--
+200403015 Belair, Rheinsheim   -01812  01812                % 08440 RGTR--
+200415005 Hollerich, Heentze P -01814  01814                % 08440 RGTR--
+200415002 Hollerich, Assurance  01817  01817                % 08440 RGTR--
+200412009 Gasperich, Gaasperec -01818  01818                % 08440 RGTR--
+200412028 Gasperich, Stengege  -01820  01820                % 08440 RGTR--
+200412006 Gasperich, Cloche d' -01823  01823                % 08440 RGTR--
+200412018 Gasperich, Scharfen  -01824  01824                % 08440 RGTR--
+221303003 Sanem, Niederkuerers  01840  01840                % 08440 RGTR--
+220203001 Niedercorn, Aale Sta  01841  01841                % 08440 RGTR--
+220203012 Niedercorn, Suesseme  01842  01842                % 08440 RGTR--
+220203011 Niedercorn, Schoul    01843  01843                % 08440 RGTR--
+220203008 Niedercorn, Péitenge  01844  01844                % 08440 RGTR--
+220203004 Niedercorn, Cité de   01845  01845                % 08440 RGTR--
+220203007 Niedercorn, Maison d  01845  01845                % 08440 RGTR--
+220902018 Pétange, Prënzebierg  01846  01846                % 08440 RGTR--
+220902015 Pétange, Oberst Däss  01847  01847                % 08440 RGTR--
+220902009 Pétange, Kierfecht    01847  01847                % 08440 RGTR--
+220902001 Pétange, A Rousen     01849  01849                % 08440 RGTR--
+220902004 Pétange, Cactus       01850  01850                % 08440 RGTR--
+220902019 Pétange, Porte Lamad  01851  01851                % 08440 RGTR--
+220901007 Lamadelaine, Route d  01852  01852                % 08440 RGTR--
+220903018 Rodange, Raths        01853  01853                % 08440 RGTR--
+220903008 Rodange, Gare         01854                       % 08440 RGTR--
+*Z 08441 RGTR--                                             % 08441 RGTR--
+*L 212      200405004 220903008  00810  00854               % 08441 RGTR--
+*A eb 200405004 220903008 000001  00810  00854              % 08441 RGTR--
+*R 1 220903008 200405004 220903008  00810  00854            % 08441 RGTR--
+*G RGB 200405004 220903008  00810  00854                    % 08441 RGTR--
+*A VE 200405004 220903008 000001  00810  00854              % 08441 RGTR--
+*I FD 200405004 220903008        0002077  00810  00854      % 08441 RGTR--
+200405004 Centre, Monterey Par         00810                % 08441 RGTR--
+200403015 Belair, Rheinsheim   -00812  00812                % 08441 RGTR--
+200415005 Hollerich, Heentze P -00814  00814                % 08441 RGTR--
+200415002 Hollerich, Assurance  00817  00817                % 08441 RGTR--
+200412009 Gasperich, Gaasperec -00818  00818                % 08441 RGTR--
+200412028 Gasperich, Stengege  -00820  00820                % 08441 RGTR--
+200412006 Gasperich, Cloche d' -00823  00823                % 08441 RGTR--
+200412018 Gasperich, Scharfen  -00824  00824                % 08441 RGTR--
+221303003 Sanem, Niederkuerers  00840  00840                % 08441 RGTR--
+220203001 Niedercorn, Aale Sta  00841  00841                % 08441 RGTR--
+220203012 Niedercorn, Suesseme  00842  00842                % 08441 RGTR--
+220203011 Niedercorn, Schoul    00843  00843                % 08441 RGTR--
+220203008 Niedercorn, Péitenge  00844  00844                % 08441 RGTR--
+220203004 Niedercorn, Cité de   00845  00845                % 08441 RGTR--
+220203007 Niedercorn, Maison d  00845  00845                % 08441 RGTR--
+220902018 Pétange, Prënzebierg  00846  00846                % 08441 RGTR--
+220902015 Pétange, Oberst Däss  00847  00847                % 08441 RGTR--
+220902009 Pétange, Kierfecht    00847  00847                % 08441 RGTR--
+220902001 Pétange, A Rousen     00849  00849                % 08441 RGTR--
+220902004 Pétange, Cactus       00850  00850                % 08441 RGTR--
+220902019 Pétange, Porte Lamad  00851  00851                % 08441 RGTR--
+220901007 Lamadelaine, Route d  00852  00852                % 08441 RGTR--
+220903018 Rodange, Raths        00853  00853                % 08441 RGTR--
+220903008 Rodange, Gare         00854                       % 08441 RGTR--
+*Z 08442 RGTR--                                             % 08442 RGTR--
+*L 212      200405004 220903008  00910  00954               % 08442 RGTR--
+*A eb 200405004 220903008 000001  00910  00954              % 08442 RGTR--
+*R 1 220903008 200405004 220903008  00910  00954            % 08442 RGTR--
+*G RGB 200405004 220903008  00910  00954                    % 08442 RGTR--
+*A VE 200405004 220903008 000001  00910  00954              % 08442 RGTR--
+*I FD 200405004 220903008        0002079  00910  00954      % 08442 RGTR--
+200405004 Centre, Monterey Par         00910                % 08442 RGTR--
+200403015 Belair, Rheinsheim   -00912  00912                % 08442 RGTR--
+200415005 Hollerich, Heentze P -00914  00914                % 08442 RGTR--
+200415002 Hollerich, Assurance  00917  00917                % 08442 RGTR--
+200412009 Gasperich, Gaasperec -00918  00918                % 08442 RGTR--
+200412028 Gasperich, Stengege  -00920  00920                % 08442 RGTR--
+200412006 Gasperich, Cloche d' -00923  00923                % 08442 RGTR--
+200412018 Gasperich, Scharfen  -00924  00924                % 08442 RGTR--
+221303003 Sanem, Niederkuerers  00940  00940                % 08442 RGTR--
+220203001 Niedercorn, Aale Sta  00941  00941                % 08442 RGTR--
+220203012 Niedercorn, Suesseme  00942  00942                % 08442 RGTR--
+220203011 Niedercorn, Schoul    00943  00943                % 08442 RGTR--
+220203008 Niedercorn, Péitenge  00944  00944                % 08442 RGTR--
+220203004 Niedercorn, Cité de   00945  00945                % 08442 RGTR--
+220203007 Niedercorn, Maison d  00945  00945                % 08442 RGTR--
+220902018 Pétange, Prënzebierg  00946  00946                % 08442 RGTR--
+220902015 Pétange, Oberst Däss  00947  00947                % 08442 RGTR--
+220902009 Pétange, Kierfecht    00947  00947                % 08442 RGTR--
+220902001 Pétange, A Rousen     00949  00949                % 08442 RGTR--
+220902004 Pétange, Cactus       00950  00950                % 08442 RGTR--
+220902019 Pétange, Porte Lamad  00951  00951                % 08442 RGTR--
+220901007 Lamadelaine, Route d  00952  00952                % 08442 RGTR--
+220903018 Rodange, Raths        00953  00953                % 08442 RGTR--
+220903008 Rodange, Gare         00954                       % 08442 RGTR--
+*Z 08443 RGTR--                                             % 08443 RGTR--
+*L 212      200405004 220903008  01010  01054               % 08443 RGTR--
+*A eb 200405004 220903008 000001  01010  01054              % 08443 RGTR--
+*R 1 220903008 200405004 220903008  01010  01054            % 08443 RGTR--
+*G RGB 200405004 220903008  01010  01054                    % 08443 RGTR--
+*A VE 200405004 220903008 000001  01010  01054              % 08443 RGTR--
+*I FD 200405004 220903008        0002049  01010  01054      % 08443 RGTR--
+200405004 Centre, Monterey Par         01010                % 08443 RGTR--
+200403015 Belair, Rheinsheim   -01012  01012                % 08443 RGTR--
+200415005 Hollerich, Heentze P -01014  01014                % 08443 RGTR--
+200415002 Hollerich, Assurance  01017  01017                % 08443 RGTR--
+200412009 Gasperich, Gaasperec -01018  01018                % 08443 RGTR--
+200412028 Gasperich, Stengege  -01020  01020                % 08443 RGTR--
+200412006 Gasperich, Cloche d' -01023  01023                % 08443 RGTR--
+200412018 Gasperich, Scharfen  -01024  01024                % 08443 RGTR--
+221303003 Sanem, Niederkuerers  01040  01040                % 08443 RGTR--
+220203001 Niedercorn, Aale Sta  01041  01041                % 08443 RGTR--
+220203012 Niedercorn, Suesseme  01042  01042                % 08443 RGTR--
+220203011 Niedercorn, Schoul    01043  01043                % 08443 RGTR--
+220203008 Niedercorn, Péitenge  01044  01044                % 08443 RGTR--
+220203004 Niedercorn, Cité de   01045  01045                % 08443 RGTR--
+220203007 Niedercorn, Maison d  01045  01045                % 08443 RGTR--
+220902018 Pétange, Prënzebierg  01046  01046                % 08443 RGTR--
+220902015 Pétange, Oberst Däss  01047  01047                % 08443 RGTR--
+220902009 Pétange, Kierfecht    01047  01047                % 08443 RGTR--
+220902001 Pétange, A Rousen     01049  01049                % 08443 RGTR--
+220902004 Pétange, Cactus       01050  01050                % 08443 RGTR--
+220902019 Pétange, Porte Lamad  01051  01051                % 08443 RGTR--
+220901007 Lamadelaine, Route d  01052  01052                % 08443 RGTR--
+220903018 Rodange, Raths        01053  01053                % 08443 RGTR--
+220903008 Rodange, Gare         01054                       % 08443 RGTR--
+*Z 08444 RGTR--                                             % 08444 RGTR--
+*L 212      200405004 220903008  01110  01154               % 08444 RGTR--
+*A eb 200405004 220903008 000001  01110  01154              % 08444 RGTR--
+*R 1 220903008 200405004 220903008  01110  01154            % 08444 RGTR--
+*G RGB 200405004 220903008  01110  01154                    % 08444 RGTR--
+*A VE 200405004 220903008 000001  01110  01154              % 08444 RGTR--
+*I FD 200405004 220903008        0001030  01110  01154      % 08444 RGTR--
+200405004 Centre, Monterey Par         01110                % 08444 RGTR--
+200403015 Belair, Rheinsheim   -01112  01112                % 08444 RGTR--
+200415005 Hollerich, Heentze P -01114  01114                % 08444 RGTR--
+200415002 Hollerich, Assurance  01117  01117                % 08444 RGTR--
+200412009 Gasperich, Gaasperec -01118  01118                % 08444 RGTR--
+200412028 Gasperich, Stengege  -01120  01120                % 08444 RGTR--
+200412006 Gasperich, Cloche d' -01123  01123                % 08444 RGTR--
+200412018 Gasperich, Scharfen  -01124  01124                % 08444 RGTR--
+221303003 Sanem, Niederkuerers  01140  01140                % 08444 RGTR--
+220203001 Niedercorn, Aale Sta  01141  01141                % 08444 RGTR--
+220203012 Niedercorn, Suesseme  01142  01142                % 08444 RGTR--
+220203011 Niedercorn, Schoul    01143  01143                % 08444 RGTR--
+220203008 Niedercorn, Péitenge  01144  01144                % 08444 RGTR--
+220203004 Niedercorn, Cité de   01145  01145                % 08444 RGTR--
+220203007 Niedercorn, Maison d  01145  01145                % 08444 RGTR--
+220902018 Pétange, Prënzebierg  01146  01146                % 08444 RGTR--
+220902015 Pétange, Oberst Däss  01147  01147                % 08444 RGTR--
+220902009 Pétange, Kierfecht    01147  01147                % 08444 RGTR--
+220902001 Pétange, A Rousen     01149  01149                % 08444 RGTR--
+220902004 Pétange, Cactus       01150  01150                % 08444 RGTR--
+220902019 Pétange, Porte Lamad  01151  01151                % 08444 RGTR--
+220901007 Lamadelaine, Route d  01152  01152                % 08444 RGTR--
+220903018 Rodange, Raths        01153  01153                % 08444 RGTR--
+220903008 Rodange, Gare         01154                       % 08444 RGTR--
+*Z 08445 RGTR--                                             % 08445 RGTR--
+*L 212      200405004 220903008  01210  01254               % 08445 RGTR--
+*A eb 200405004 220903008 000001  01210  01254              % 08445 RGTR--
+*R 1 220903008 200405004 220903008  01210  01254            % 08445 RGTR--
+*G RGB 200405004 220903008  01210  01254                    % 08445 RGTR--
+*A VE 200405004 220903008 000001  01210  01254              % 08445 RGTR--
+*I FD 200405004 220903008        0002060  01210  01254      % 08445 RGTR--
+200405004 Centre, Monterey Par         01210                % 08445 RGTR--
+200403015 Belair, Rheinsheim   -01212  01212                % 08445 RGTR--
+200415005 Hollerich, Heentze P -01214  01214                % 08445 RGTR--
+200415002 Hollerich, Assurance  01217  01217                % 08445 RGTR--
+200412009 Gasperich, Gaasperec -01218  01218                % 08445 RGTR--
+200412028 Gasperich, Stengege  -01220  01220                % 08445 RGTR--
+200412006 Gasperich, Cloche d' -01223  01223                % 08445 RGTR--
+200412018 Gasperich, Scharfen  -01224  01224                % 08445 RGTR--
+221303003 Sanem, Niederkuerers  01240  01240                % 08445 RGTR--
+220203001 Niedercorn, Aale Sta  01241  01241                % 08445 RGTR--
+220203012 Niedercorn, Suesseme  01242  01242                % 08445 RGTR--
+220203011 Niedercorn, Schoul    01243  01243                % 08445 RGTR--
+220203008 Niedercorn, Péitenge  01244  01244                % 08445 RGTR--
+220203004 Niedercorn, Cité de   01245  01245                % 08445 RGTR--
+220203007 Niedercorn, Maison d  01245  01245                % 08445 RGTR--
+220902018 Pétange, Prënzebierg  01246  01246                % 08445 RGTR--
+220902015 Pétange, Oberst Däss  01247  01247                % 08445 RGTR--
+220902009 Pétange, Kierfecht    01247  01247                % 08445 RGTR--
+220902001 Pétange, A Rousen     01249  01249                % 08445 RGTR--
+220902004 Pétange, Cactus       01250  01250                % 08445 RGTR--
+220902019 Pétange, Porte Lamad  01251  01251                % 08445 RGTR--
+220901007 Lamadelaine, Route d  01252  01252                % 08445 RGTR--
+220903018 Rodange, Raths        01253  01253                % 08445 RGTR--
+220903008 Rodange, Gare         01254                       % 08445 RGTR--
+*Z 08446 RGTR--                                             % 08446 RGTR--
+*L 212      200405004 220903008  01310  01354               % 08446 RGTR--
+*A eb 200405004 220903008 000001  01310  01354              % 08446 RGTR--
+*R 1 220903008 200405004 220903008  01310  01354            % 08446 RGTR--
+*G RGB 200405004 220903008  01310  01354                    % 08446 RGTR--
+*A VE 200405004 220903008 000001  01310  01354              % 08446 RGTR--
+*I FD 200405004 220903008        0002062  01310  01354      % 08446 RGTR--
+200405004 Centre, Monterey Par         01310                % 08446 RGTR--
+200403015 Belair, Rheinsheim   -01312  01312                % 08446 RGTR--
+200415005 Hollerich, Heentze P -01314  01314                % 08446 RGTR--
+200415002 Hollerich, Assurance  01317  01317                % 08446 RGTR--
+200412009 Gasperich, Gaasperec -01318  01318                % 08446 RGTR--
+200412028 Gasperich, Stengege  -01320  01320                % 08446 RGTR--
+200412006 Gasperich, Cloche d' -01323  01323                % 08446 RGTR--
+200412018 Gasperich, Scharfen  -01324  01324                % 08446 RGTR--
+221303003 Sanem, Niederkuerers  01340  01340                % 08446 RGTR--
+220203001 Niedercorn, Aale Sta  01341  01341                % 08446 RGTR--
+220203012 Niedercorn, Suesseme  01342  01342                % 08446 RGTR--
+220203011 Niedercorn, Schoul    01343  01343                % 08446 RGTR--
+220203008 Niedercorn, Péitenge  01344  01344                % 08446 RGTR--
+220203004 Niedercorn, Cité de   01345  01345                % 08446 RGTR--
+220203007 Niedercorn, Maison d  01345  01345                % 08446 RGTR--
+220902018 Pétange, Prënzebierg  01346  01346                % 08446 RGTR--
+220902015 Pétange, Oberst Däss  01347  01347                % 08446 RGTR--
+220902009 Pétange, Kierfecht    01347  01347                % 08446 RGTR--
+220902001 Pétange, A Rousen     01349  01349                % 08446 RGTR--
+220902004 Pétange, Cactus       01350  01350                % 08446 RGTR--
+220902019 Pétange, Porte Lamad  01351  01351                % 08446 RGTR--
+220901007 Lamadelaine, Route d  01352  01352                % 08446 RGTR--
+220903018 Rodange, Raths        01353  01353                % 08446 RGTR--
+220903008 Rodange, Gare         01354                       % 08446 RGTR--
+*Z 08447 RGTR--                                             % 08447 RGTR--
+*L 212      200405004 220903008  01410  01454               % 08447 RGTR--
+*A eb 200405004 220903008 000001  01410  01454              % 08447 RGTR--
+*R 1 220903008 200405004 220903008  01410  01454            % 08447 RGTR--
+*G RGB 200405004 220903008  01410  01454                    % 08447 RGTR--
+*A VE 200405004 220903008 000001  01410  01454              % 08447 RGTR--
+*I FD 200405004 220903008        0002065  01410  01454      % 08447 RGTR--
+200405004 Centre, Monterey Par         01410                % 08447 RGTR--
+200403015 Belair, Rheinsheim   -01412  01412                % 08447 RGTR--
+200415005 Hollerich, Heentze P -01414  01414                % 08447 RGTR--
+200415002 Hollerich, Assurance  01417  01417                % 08447 RGTR--
+200412009 Gasperich, Gaasperec -01418  01418                % 08447 RGTR--
+200412028 Gasperich, Stengege  -01420  01420                % 08447 RGTR--
+200412006 Gasperich, Cloche d' -01423  01423                % 08447 RGTR--
+200412018 Gasperich, Scharfen  -01424  01424                % 08447 RGTR--
+221303003 Sanem, Niederkuerers  01440  01440                % 08447 RGTR--
+220203001 Niedercorn, Aale Sta  01441  01441                % 08447 RGTR--
+220203012 Niedercorn, Suesseme  01442  01442                % 08447 RGTR--
+220203011 Niedercorn, Schoul    01443  01443                % 08447 RGTR--
+220203008 Niedercorn, Péitenge  01444  01444                % 08447 RGTR--
+220203004 Niedercorn, Cité de   01445  01445                % 08447 RGTR--
+220203007 Niedercorn, Maison d  01445  01445                % 08447 RGTR--
+220902018 Pétange, Prënzebierg  01446  01446                % 08447 RGTR--
+220902015 Pétange, Oberst Däss  01447  01447                % 08447 RGTR--
+220902009 Pétange, Kierfecht    01447  01447                % 08447 RGTR--
+220902001 Pétange, A Rousen     01449  01449                % 08447 RGTR--
+220902004 Pétange, Cactus       01450  01450                % 08447 RGTR--
+220902019 Pétange, Porte Lamad  01451  01451                % 08447 RGTR--
+220901007 Lamadelaine, Route d  01452  01452                % 08447 RGTR--
+220903018 Rodange, Raths        01453  01453                % 08447 RGTR--
+220903008 Rodange, Gare         01454                       % 08447 RGTR--
+*Z 08448 RGTR--                                             % 08448 RGTR--
+*L 212      200405004 220903008  01510  01554               % 08448 RGTR--
+*A eb 200405004 220903008 000001  01510  01554              % 08448 RGTR--
+*R 1 220903008 200405004 220903008  01510  01554            % 08448 RGTR--
+*G RGB 200405004 220903008  01510  01554                    % 08448 RGTR--
+*A VE 200405004 220903008 000001  01510  01554              % 08448 RGTR--
+*I FD 200405004 220903008        0002067  01510  01554      % 08448 RGTR--
+200405004 Centre, Monterey Par         01510                % 08448 RGTR--
+200403015 Belair, Rheinsheim   -01512  01512                % 08448 RGTR--
+200415005 Hollerich, Heentze P -01514  01514                % 08448 RGTR--
+200415002 Hollerich, Assurance  01517  01517                % 08448 RGTR--
+200412009 Gasperich, Gaasperec -01518  01518                % 08448 RGTR--
+200412028 Gasperich, Stengege  -01520  01520                % 08448 RGTR--
+200412006 Gasperich, Cloche d' -01523  01523                % 08448 RGTR--
+200412018 Gasperich, Scharfen  -01524  01524                % 08448 RGTR--
+221303003 Sanem, Niederkuerers  01540  01540                % 08448 RGTR--
+220203001 Niedercorn, Aale Sta  01541  01541                % 08448 RGTR--
+220203012 Niedercorn, Suesseme  01542  01542                % 08448 RGTR--
+220203011 Niedercorn, Schoul    01543  01543                % 08448 RGTR--
+220203008 Niedercorn, Péitenge  01544  01544                % 08448 RGTR--
+220203004 Niedercorn, Cité de   01545  01545                % 08448 RGTR--
+220203007 Niedercorn, Maison d  01545  01545                % 08448 RGTR--
+220902018 Pétange, Prënzebierg  01546  01546                % 08448 RGTR--
+220902015 Pétange, Oberst Däss  01547  01547                % 08448 RGTR--
+220902009 Pétange, Kierfecht    01547  01547                % 08448 RGTR--
+220902001 Pétange, A Rousen     01549  01549                % 08448 RGTR--
+220902004 Pétange, Cactus       01550  01550                % 08448 RGTR--
+220902019 Pétange, Porte Lamad  01551  01551                % 08448 RGTR--
+220901007 Lamadelaine, Route d  01552  01552                % 08448 RGTR--
+220903018 Rodange, Raths        01553  01553                % 08448 RGTR--
+220903008 Rodange, Gare         01554                       % 08448 RGTR--
+*Z 08449 RGTR--                                             % 08449 RGTR--
+*L 212      200405004 220903008  01915  01959               % 08449 RGTR--
+*A eb 200405004 220903008 000001  01915  01959              % 08449 RGTR--
+*R 1 220903008 200405004 220903008  01915  01959            % 08449 RGTR--
+*G RGB 200405004 220903008  01915  01959                    % 08449 RGTR--
+*A VE 200405004 220903008 000001  01915  01959              % 08449 RGTR--
+*I FD 200405004 220903008        0001739  01915  01959      % 08449 RGTR--
+200405004 Centre, Monterey Par         01915                % 08449 RGTR--
+200403015 Belair, Rheinsheim   -01917  01917                % 08449 RGTR--
+200415005 Hollerich, Heentze P -01919  01919                % 08449 RGTR--
+200415002 Hollerich, Assurance  01922  01922                % 08449 RGTR--
+200412009 Gasperich, Gaasperec -01923  01923                % 08449 RGTR--
+200412028 Gasperich, Stengege  -01925  01925                % 08449 RGTR--
+200412006 Gasperich, Cloche d' -01928  01928                % 08449 RGTR--
+200412018 Gasperich, Scharfen  -01929  01929                % 08449 RGTR--
+221303003 Sanem, Niederkuerers  01945  01945                % 08449 RGTR--
+220203001 Niedercorn, Aale Sta  01946  01946                % 08449 RGTR--
+220203012 Niedercorn, Suesseme  01947  01947                % 08449 RGTR--
+220203011 Niedercorn, Schoul    01948  01948                % 08449 RGTR--
+220203008 Niedercorn, Péitenge  01949  01949                % 08449 RGTR--
+220203004 Niedercorn, Cité de   01950  01950                % 08449 RGTR--
+220203007 Niedercorn, Maison d  01950  01950                % 08449 RGTR--
+220902018 Pétange, Prënzebierg  01951  01951                % 08449 RGTR--
+220902015 Pétange, Oberst Däss  01952  01952                % 08449 RGTR--
+220902009 Pétange, Kierfecht    01952  01952                % 08449 RGTR--
+220902001 Pétange, A Rousen     01954  01954                % 08449 RGTR--
+220902004 Pétange, Cactus       01955  01955                % 08449 RGTR--
+220902019 Pétange, Porte Lamad  01956  01956                % 08449 RGTR--
+220901007 Lamadelaine, Route d  01957  01957                % 08449 RGTR--
+220903018 Rodange, Raths        01958  01958                % 08449 RGTR--
+220903008 Rodange, Gare         01959                       % 08449 RGTR--
+*Z 08450 RGTR--                                             % 08450 RGTR--
+*L 212      200405004 220903008  02010  02054               % 08450 RGTR--
+*A eb 200405004 220903008 000001  02010  02054              % 08450 RGTR--
+*R 1 220903008 200405004 220903008  02010  02054            % 08450 RGTR--
+*G RGB 200405004 220903008  02010  02054                    % 08450 RGTR--
+*A VE 200405004 220903008 000001  02010  02054              % 08450 RGTR--
+*I FD 200405004 220903008        0002877  02010  02054      % 08450 RGTR--
+200405004 Centre, Monterey Par         02010                % 08450 RGTR--
+200403015 Belair, Rheinsheim   -02012  02012                % 08450 RGTR--
+200415005 Hollerich, Heentze P -02014  02014                % 08450 RGTR--
+200415002 Hollerich, Assurance  02017  02017                % 08450 RGTR--
+200412009 Gasperich, Gaasperec -02018  02018                % 08450 RGTR--
+200412028 Gasperich, Stengege  -02020  02020                % 08450 RGTR--
+200412006 Gasperich, Cloche d' -02023  02023                % 08450 RGTR--
+200412018 Gasperich, Scharfen  -02024  02024                % 08450 RGTR--
+221303003 Sanem, Niederkuerers  02040  02040                % 08450 RGTR--
+220203001 Niedercorn, Aale Sta  02041  02041                % 08450 RGTR--
+220203012 Niedercorn, Suesseme  02042  02042                % 08450 RGTR--
+220203011 Niedercorn, Schoul    02043  02043                % 08450 RGTR--
+220203008 Niedercorn, Péitenge  02044  02044                % 08450 RGTR--
+220203004 Niedercorn, Cité de   02045  02045                % 08450 RGTR--
+220203007 Niedercorn, Maison d  02045  02045                % 08450 RGTR--
+220902018 Pétange, Prënzebierg  02046  02046                % 08450 RGTR--
+220902015 Pétange, Oberst Däss  02047  02047                % 08450 RGTR--
+220902009 Pétange, Kierfecht    02047  02047                % 08450 RGTR--
+220902001 Pétange, A Rousen     02049  02049                % 08450 RGTR--
+220902004 Pétange, Cactus       02050  02050                % 08450 RGTR--
+220902019 Pétange, Porte Lamad  02051  02051                % 08450 RGTR--
+220901007 Lamadelaine, Route d  02052  02052                % 08450 RGTR--
+220903018 Rodange, Raths        02053  02053                % 08450 RGTR--
+220903008 Rodange, Gare         02054                       % 08450 RGTR--
+*Z 08451 RGTR--                                             % 08451 RGTR--
+*L 212      200405004 220903008  02110  02154               % 08451 RGTR--
+*A eb 200405004 220903008 000001  02110  02154              % 08451 RGTR--
+*R 1 220903008 200405004 220903008  02110  02154            % 08451 RGTR--
+*G RGB 200405004 220903008  02110  02154                    % 08451 RGTR--
+*A VE 200405004 220903008 000001  02110  02154              % 08451 RGTR--
+*I FD 200405004 220903008        0002860  02110  02154      % 08451 RGTR--
+200405004 Centre, Monterey Par         02110                % 08451 RGTR--
+200403015 Belair, Rheinsheim   -02112  02112                % 08451 RGTR--
+200415005 Hollerich, Heentze P -02114  02114                % 08451 RGTR--
+200415002 Hollerich, Assurance  02117  02117                % 08451 RGTR--
+200412009 Gasperich, Gaasperec -02118  02118                % 08451 RGTR--
+200412028 Gasperich, Stengege  -02120  02120                % 08451 RGTR--
+200412006 Gasperich, Cloche d' -02123  02123                % 08451 RGTR--
+200412018 Gasperich, Scharfen  -02124  02124                % 08451 RGTR--
+221303003 Sanem, Niederkuerers  02140  02140                % 08451 RGTR--
+220203001 Niedercorn, Aale Sta  02141  02141                % 08451 RGTR--
+220203012 Niedercorn, Suesseme  02142  02142                % 08451 RGTR--
+220203011 Niedercorn, Schoul    02143  02143                % 08451 RGTR--
+220203008 Niedercorn, Péitenge  02144  02144                % 08451 RGTR--
+220203004 Niedercorn, Cité de   02145  02145                % 08451 RGTR--
+220203007 Niedercorn, Maison d  02145  02145                % 08451 RGTR--
+220902018 Pétange, Prënzebierg  02146  02146                % 08451 RGTR--
+220902015 Pétange, Oberst Däss  02147  02147                % 08451 RGTR--
+220902009 Pétange, Kierfecht    02147  02147                % 08451 RGTR--
+220902001 Pétange, A Rousen     02149  02149                % 08451 RGTR--
+220902004 Pétange, Cactus       02150  02150                % 08451 RGTR--
+220902019 Pétange, Porte Lamad  02151  02151                % 08451 RGTR--
+220901007 Lamadelaine, Route d  02152  02152                % 08451 RGTR--
+220903018 Rodange, Raths        02153  02153                % 08451 RGTR--
+220903008 Rodange, Gare         02154                       % 08451 RGTR--
+*Z 08452 RGTR--                                             % 08452 RGTR--
+*L 212      200405004 220903008  02210  02254               % 08452 RGTR--
+*A eb 200405004 220903008 000001  02210  02254              % 08452 RGTR--
+*R 1 220903008 200405004 220903008  02210  02254            % 08452 RGTR--
+*G RGB 200405004 220903008  02210  02254                    % 08452 RGTR--
+*A VE 200405004 220903008 000001  02210  02254              % 08452 RGTR--
+*I FD 200405004 220903008        0002878  02210  02254      % 08452 RGTR--
+200405004 Centre, Monterey Par         02210                % 08452 RGTR--
+200403015 Belair, Rheinsheim   -02212  02212                % 08452 RGTR--
+200415005 Hollerich, Heentze P -02214  02214                % 08452 RGTR--
+200415002 Hollerich, Assurance  02217  02217                % 08452 RGTR--
+200412009 Gasperich, Gaasperec -02218  02218                % 08452 RGTR--
+200412028 Gasperich, Stengege  -02220  02220                % 08452 RGTR--
+200412006 Gasperich, Cloche d' -02223  02223                % 08452 RGTR--
+200412018 Gasperich, Scharfen  -02224  02224                % 08452 RGTR--
+221303003 Sanem, Niederkuerers  02240  02240                % 08452 RGTR--
+220203001 Niedercorn, Aale Sta  02241  02241                % 08452 RGTR--
+220203012 Niedercorn, Suesseme  02242  02242                % 08452 RGTR--
+220203011 Niedercorn, Schoul    02243  02243                % 08452 RGTR--
+220203008 Niedercorn, Péitenge  02244  02244                % 08452 RGTR--
+220203004 Niedercorn, Cité de   02245  02245                % 08452 RGTR--
+220203007 Niedercorn, Maison d  02245  02245                % 08452 RGTR--
+220902018 Pétange, Prënzebierg  02246  02246                % 08452 RGTR--
+220902015 Pétange, Oberst Däss  02247  02247                % 08452 RGTR--
+220902009 Pétange, Kierfecht    02247  02247                % 08452 RGTR--
+220902001 Pétange, A Rousen     02249  02249                % 08452 RGTR--
+220902004 Pétange, Cactus       02250  02250                % 08452 RGTR--
+220902019 Pétange, Porte Lamad  02251  02251                % 08452 RGTR--
+220901007 Lamadelaine, Route d  02252  02252                % 08452 RGTR--
+220903018 Rodange, Raths        02253  02253                % 08452 RGTR--
+220903008 Rodange, Gare         02254                       % 08452 RGTR--
+*Z 08453 RGTR--                                             % 08453 RGTR--
+*L 212      200405004 220903008  02310  02354               % 08453 RGTR--
+*A eb 200405004 220903008 000001  02310  02354              % 08453 RGTR--
+*R 1 220903008 200405004 220903008  02310  02354            % 08453 RGTR--
+*G RGB 200405004 220903008  02310  02354                    % 08453 RGTR--
+*A VE 200405004 220903008 000001  02310  02354              % 08453 RGTR--
+*I FD 200405004 220903008        0002861  02310  02354      % 08453 RGTR--
+200405004 Centre, Monterey Par         02310                % 08453 RGTR--
+200403015 Belair, Rheinsheim   -02312  02312                % 08453 RGTR--
+200415005 Hollerich, Heentze P -02314  02314                % 08453 RGTR--
+200415002 Hollerich, Assurance  02317  02317                % 08453 RGTR--
+200412009 Gasperich, Gaasperec -02318  02318                % 08453 RGTR--
+200412028 Gasperich, Stengege  -02320  02320                % 08453 RGTR--
+200412006 Gasperich, Cloche d' -02323  02323                % 08453 RGTR--
+200412018 Gasperich, Scharfen  -02324  02324                % 08453 RGTR--
+221303003 Sanem, Niederkuerers  02340  02340                % 08453 RGTR--
+220203001 Niedercorn, Aale Sta  02341  02341                % 08453 RGTR--
+220203012 Niedercorn, Suesseme  02342  02342                % 08453 RGTR--
+220203011 Niedercorn, Schoul    02343  02343                % 08453 RGTR--
+220203008 Niedercorn, Péitenge  02344  02344                % 08453 RGTR--
+220203004 Niedercorn, Cité de   02345  02345                % 08453 RGTR--
+220203007 Niedercorn, Maison d  02345  02345                % 08453 RGTR--
+220902018 Pétange, Prënzebierg  02346  02346                % 08453 RGTR--
+220902015 Pétange, Oberst Däss  02347  02347                % 08453 RGTR--
+220902009 Pétange, Kierfecht    02347  02347                % 08453 RGTR--
+220902001 Pétange, A Rousen     02349  02349                % 08453 RGTR--
+220902004 Pétange, Cactus       02350  02350                % 08453 RGTR--
+220902019 Pétange, Porte Lamad  02351  02351                % 08453 RGTR--
+220901007 Lamadelaine, Route d  02352  02352                % 08453 RGTR--
+220903018 Rodange, Raths        02353  02353                % 08453 RGTR--
+220903008 Rodange, Gare         02354                       % 08453 RGTR--
+*Z 08454 RGTR--                                             % 08454 RGTR--
+*L 212      200405004 220903008  00840  00924               % 08454 RGTR--
+*A eb 200405004 220903008 000002  00840  00924              % 08454 RGTR--
+*R 1 220903008 200405004 220903008  00840  00924            % 08454 RGTR--
+*G RGB 200405004 220903008  00840  00924                    % 08454 RGTR--
+*A VE 200405004 220903008 000002  00840  00924              % 08454 RGTR--
+*I FD 200405004 220903008        0002813  00840  00924      % 08454 RGTR--
+200405004 Centre, Monterey Par         00840                % 08454 RGTR--
+200403015 Belair, Rheinsheim   -00842  00842                % 08454 RGTR--
+200415005 Hollerich, Heentze P -00844  00844                % 08454 RGTR--
+200415002 Hollerich, Assurance  00847  00847                % 08454 RGTR--
+200412009 Gasperich, Gaasperec -00848  00848                % 08454 RGTR--
+200412028 Gasperich, Stengege  -00850  00850                % 08454 RGTR--
+200412006 Gasperich, Cloche d' -00853  00853                % 08454 RGTR--
+200412018 Gasperich, Scharfen  -00854  00854                % 08454 RGTR--
+221303003 Sanem, Niederkuerers  00910  00910                % 08454 RGTR--
+220203001 Niedercorn, Aale Sta  00911  00911                % 08454 RGTR--
+220203012 Niedercorn, Suesseme  00912  00912                % 08454 RGTR--
+220203011 Niedercorn, Schoul    00913  00913                % 08454 RGTR--
+220203008 Niedercorn, Péitenge  00914  00914                % 08454 RGTR--
+220203004 Niedercorn, Cité de   00915  00915                % 08454 RGTR--
+220203007 Niedercorn, Maison d  00915  00915                % 08454 RGTR--
+220902018 Pétange, Prënzebierg  00916  00916                % 08454 RGTR--
+220902015 Pétange, Oberst Däss  00917  00917                % 08454 RGTR--
+220902009 Pétange, Kierfecht    00917  00917                % 08454 RGTR--
+220902001 Pétange, A Rousen     00919  00919                % 08454 RGTR--
+220902004 Pétange, Cactus       00920  00920                % 08454 RGTR--
+220902019 Pétange, Porte Lamad  00921  00921                % 08454 RGTR--
+220901007 Lamadelaine, Route d  00922  00922                % 08454 RGTR--
+220903018 Rodange, Raths        00923  00923                % 08454 RGTR--
+220903008 Rodange, Gare         00924                       % 08454 RGTR--
+*Z 08455 RGTR--                                             % 08455 RGTR--
+*L 212      200405004 220903008  00940  01024               % 08455 RGTR--
+*A eb 200405004 220903008 000002  00940  01024              % 08455 RGTR--
+*R 1 220903008 200405004 220903008  00940  01024            % 08455 RGTR--
+*G RGB 200405004 220903008  00940  01024                    % 08455 RGTR--
+*A VE 200405004 220903008 000002  00940  01024              % 08455 RGTR--
+*I FD 200405004 220903008        0000992  00940  01024      % 08455 RGTR--
+200405004 Centre, Monterey Par         00940                % 08455 RGTR--
+200403015 Belair, Rheinsheim   -00942  00942                % 08455 RGTR--
+200415005 Hollerich, Heentze P -00944  00944                % 08455 RGTR--
+200415002 Hollerich, Assurance  00947  00947                % 08455 RGTR--
+200412009 Gasperich, Gaasperec -00948  00948                % 08455 RGTR--
+200412028 Gasperich, Stengege  -00950  00950                % 08455 RGTR--
+200412006 Gasperich, Cloche d' -00953  00953                % 08455 RGTR--
+200412018 Gasperich, Scharfen  -00954  00954                % 08455 RGTR--
+221303003 Sanem, Niederkuerers  01010  01010                % 08455 RGTR--
+220203001 Niedercorn, Aale Sta  01011  01011                % 08455 RGTR--
+220203012 Niedercorn, Suesseme  01012  01012                % 08455 RGTR--
+220203011 Niedercorn, Schoul    01013  01013                % 08455 RGTR--
+220203008 Niedercorn, Péitenge  01014  01014                % 08455 RGTR--
+220203004 Niedercorn, Cité de   01015  01015                % 08455 RGTR--
+220203007 Niedercorn, Maison d  01015  01015                % 08455 RGTR--
+220902018 Pétange, Prënzebierg  01016  01016                % 08455 RGTR--
+220902015 Pétange, Oberst Däss  01017  01017                % 08455 RGTR--
+220902009 Pétange, Kierfecht    01017  01017                % 08455 RGTR--
+220902001 Pétange, A Rousen     01019  01019                % 08455 RGTR--
+220902004 Pétange, Cactus       01020  01020                % 08455 RGTR--
+220902019 Pétange, Porte Lamad  01021  01021                % 08455 RGTR--
+220901007 Lamadelaine, Route d  01022  01022                % 08455 RGTR--
+220903018 Rodange, Raths        01023  01023                % 08455 RGTR--
+220903008 Rodange, Gare         01024                       % 08455 RGTR--
+*Z 08456 RGTR--                                             % 08456 RGTR--
+*L 212      200405004 220903008  01040  01124               % 08456 RGTR--
+*A eb 200405004 220903008 000002  01040  01124              % 08456 RGTR--
+*R 1 220903008 200405004 220903008  01040  01124            % 08456 RGTR--
+*G RGB 200405004 220903008  01040  01124                    % 08456 RGTR--
+*A VE 200405004 220903008 000002  01040  01124              % 08456 RGTR--
+*I FD 200405004 220903008        0002815  01040  01124      % 08456 RGTR--
+200405004 Centre, Monterey Par         01040                % 08456 RGTR--
+200403015 Belair, Rheinsheim   -01042  01042                % 08456 RGTR--
+200415005 Hollerich, Heentze P -01044  01044                % 08456 RGTR--
+200415002 Hollerich, Assurance  01047  01047                % 08456 RGTR--
+200412009 Gasperich, Gaasperec -01048  01048                % 08456 RGTR--
+200412028 Gasperich, Stengege  -01050  01050                % 08456 RGTR--
+200412006 Gasperich, Cloche d' -01053  01053                % 08456 RGTR--
+200412018 Gasperich, Scharfen  -01054  01054                % 08456 RGTR--
+221303003 Sanem, Niederkuerers  01110  01110                % 08456 RGTR--
+220203001 Niedercorn, Aale Sta  01111  01111                % 08456 RGTR--
+220203012 Niedercorn, Suesseme  01112  01112                % 08456 RGTR--
+220203011 Niedercorn, Schoul    01113  01113                % 08456 RGTR--
+220203008 Niedercorn, Péitenge  01114  01114                % 08456 RGTR--
+220203004 Niedercorn, Cité de   01115  01115                % 08456 RGTR--
+220203007 Niedercorn, Maison d  01115  01115                % 08456 RGTR--
+220902018 Pétange, Prënzebierg  01116  01116                % 08456 RGTR--
+220902015 Pétange, Oberst Däss  01117  01117                % 08456 RGTR--
+220902009 Pétange, Kierfecht    01117  01117                % 08456 RGTR--
+220902001 Pétange, A Rousen     01119  01119                % 08456 RGTR--
+220902004 Pétange, Cactus       01120  01120                % 08456 RGTR--
+220902019 Pétange, Porte Lamad  01121  01121                % 08456 RGTR--
+220901007 Lamadelaine, Route d  01122  01122                % 08456 RGTR--
+220903018 Rodange, Raths        01123  01123                % 08456 RGTR--
+220903008 Rodange, Gare         01124                       % 08456 RGTR--
+*Z 08457 RGTR--                                             % 08457 RGTR--
+*L 212      200405004 220903008  01140  01224               % 08457 RGTR--
+*A eb 200405004 220903008 000002  01140  01224              % 08457 RGTR--
+*R 1 220903008 200405004 220903008  01140  01224            % 08457 RGTR--
+*G RGB 200405004 220903008  01140  01224                    % 08457 RGTR--
+*A VE 200405004 220903008 000002  01140  01224              % 08457 RGTR--
+*I FD 200405004 220903008        0002555  01140  01224      % 08457 RGTR--
+200405004 Centre, Monterey Par         01140                % 08457 RGTR--
+200403015 Belair, Rheinsheim   -01142  01142                % 08457 RGTR--
+200415005 Hollerich, Heentze P -01144  01144                % 08457 RGTR--
+200415002 Hollerich, Assurance  01147  01147                % 08457 RGTR--
+200412009 Gasperich, Gaasperec -01148  01148                % 08457 RGTR--
+200412028 Gasperich, Stengege  -01150  01150                % 08457 RGTR--
+200412006 Gasperich, Cloche d' -01153  01153                % 08457 RGTR--
+200412018 Gasperich, Scharfen  -01154  01154                % 08457 RGTR--
+221303003 Sanem, Niederkuerers  01210  01210                % 08457 RGTR--
+220203001 Niedercorn, Aale Sta  01211  01211                % 08457 RGTR--
+220203012 Niedercorn, Suesseme  01212  01212                % 08457 RGTR--
+220203011 Niedercorn, Schoul    01213  01213                % 08457 RGTR--
+220203008 Niedercorn, Péitenge  01214  01214                % 08457 RGTR--
+220203004 Niedercorn, Cité de   01215  01215                % 08457 RGTR--
+220203007 Niedercorn, Maison d  01215  01215                % 08457 RGTR--
+220902018 Pétange, Prënzebierg  01216  01216                % 08457 RGTR--
+220902015 Pétange, Oberst Däss  01217  01217                % 08457 RGTR--
+220902009 Pétange, Kierfecht    01217  01217                % 08457 RGTR--
+220902001 Pétange, A Rousen     01219  01219                % 08457 RGTR--
+220902004 Pétange, Cactus       01220  01220                % 08457 RGTR--
+220902019 Pétange, Porte Lamad  01221  01221                % 08457 RGTR--
+220901007 Lamadelaine, Route d  01222  01222                % 08457 RGTR--
+220903018 Rodange, Raths        01223  01223                % 08457 RGTR--
+220903008 Rodange, Gare         01224                       % 08457 RGTR--
+*Z 08458 RGTR--                                             % 08458 RGTR--
+*L 212      200405004 220903008  01155  01239               % 08458 RGTR--
+*A eb 200405004 220903008 000002  01155  01239              % 08458 RGTR--
+*R 1 220903008 200405004 220903008  01155  01239            % 08458 RGTR--
+*G RGB 200405004 220903008  01155  01239                    % 08458 RGTR--
+*A VE 200405004 220903008 000002  01155  01239              % 08458 RGTR--
+*I FD 200405004 220903008        0001770  01155  01239      % 08458 RGTR--
+200405004 Centre, Monterey Par         01155                % 08458 RGTR--
+200403015 Belair, Rheinsheim   -01157  01157                % 08458 RGTR--
+200415005 Hollerich, Heentze P -01159  01159                % 08458 RGTR--
+200415002 Hollerich, Assurance  01202  01202                % 08458 RGTR--
+200412009 Gasperich, Gaasperec -01203  01203                % 08458 RGTR--
+200412028 Gasperich, Stengege  -01205  01205                % 08458 RGTR--
+200412006 Gasperich, Cloche d' -01208  01208                % 08458 RGTR--
+200412018 Gasperich, Scharfen  -01209  01209                % 08458 RGTR--
+221303003 Sanem, Niederkuerers  01225  01225                % 08458 RGTR--
+220203001 Niedercorn, Aale Sta  01226  01226                % 08458 RGTR--
+220203012 Niedercorn, Suesseme  01227  01227                % 08458 RGTR--
+220203011 Niedercorn, Schoul    01228  01228                % 08458 RGTR--
+220203008 Niedercorn, Péitenge  01229  01229                % 08458 RGTR--
+220203004 Niedercorn, Cité de   01230  01230                % 08458 RGTR--
+220203007 Niedercorn, Maison d  01230  01230                % 08458 RGTR--
+220902018 Pétange, Prënzebierg  01231  01231                % 08458 RGTR--
+220902015 Pétange, Oberst Däss  01232  01232                % 08458 RGTR--
+220902009 Pétange, Kierfecht    01232  01232                % 08458 RGTR--
+220902001 Pétange, A Rousen     01234  01234                % 08458 RGTR--
+220902004 Pétange, Cactus       01235  01235                % 08458 RGTR--
+220902019 Pétange, Porte Lamad  01236  01236                % 08458 RGTR--
+220901007 Lamadelaine, Route d  01237  01237                % 08458 RGTR--
+220903018 Rodange, Raths        01238  01238                % 08458 RGTR--
+220903008 Rodange, Gare         01239                       % 08458 RGTR--
+*Z 08459 RGTR--                                             % 08459 RGTR--
+*L 212      200405004 220903008  01240  01324               % 08459 RGTR--
+*A eb 200405004 220903008 000002  01240  01324              % 08459 RGTR--
+*R 1 220903008 200405004 220903008  01240  01324            % 08459 RGTR--
+*G RGB 200405004 220903008  01240  01324                    % 08459 RGTR--
+*A VE 200405004 220903008 000002  01240  01324              % 08459 RGTR--
+*I FD 200405004 220903008        0001167  01240  01324      % 08459 RGTR--
+200405004 Centre, Monterey Par         01240                % 08459 RGTR--
+200403015 Belair, Rheinsheim   -01242  01242                % 08459 RGTR--
+200415005 Hollerich, Heentze P -01244  01244                % 08459 RGTR--
+200415002 Hollerich, Assurance  01247  01247                % 08459 RGTR--
+200412009 Gasperich, Gaasperec -01248  01248                % 08459 RGTR--
+200412028 Gasperich, Stengege  -01250  01250                % 08459 RGTR--
+200412006 Gasperich, Cloche d' -01253  01253                % 08459 RGTR--
+200412018 Gasperich, Scharfen  -01254  01254                % 08459 RGTR--
+221303003 Sanem, Niederkuerers  01310  01310                % 08459 RGTR--
+220203001 Niedercorn, Aale Sta  01311  01311                % 08459 RGTR--
+220203012 Niedercorn, Suesseme  01312  01312                % 08459 RGTR--
+220203011 Niedercorn, Schoul    01313  01313                % 08459 RGTR--
+220203008 Niedercorn, Péitenge  01314  01314                % 08459 RGTR--
+220203004 Niedercorn, Cité de   01315  01315                % 08459 RGTR--
+220203007 Niedercorn, Maison d  01315  01315                % 08459 RGTR--
+220902018 Pétange, Prënzebierg  01316  01316                % 08459 RGTR--
+220902015 Pétange, Oberst Däss  01317  01317                % 08459 RGTR--
+220902009 Pétange, Kierfecht    01317  01317                % 08459 RGTR--
+220902001 Pétange, A Rousen     01319  01319                % 08459 RGTR--
+220902004 Pétange, Cactus       01320  01320                % 08459 RGTR--
+220902019 Pétange, Porte Lamad  01321  01321                % 08459 RGTR--
+220901007 Lamadelaine, Route d  01322  01322                % 08459 RGTR--
+220903018 Rodange, Raths        01323  01323                % 08459 RGTR--
+220903008 Rodange, Gare         01324                       % 08459 RGTR--
+*Z 08460 RGTR--                                             % 08460 RGTR--
+*L 212      200405004 220903008  01340  01424               % 08460 RGTR--
+*A eb 200405004 220903008 000002  01340  01424              % 08460 RGTR--
+*R 1 220903008 200405004 220903008  01340  01424            % 08460 RGTR--
+*G RGB 200405004 220903008  01340  01424                    % 08460 RGTR--
+*A VE 200405004 220903008 000002  01340  01424              % 08460 RGTR--
+*I FD 200405004 220903008        0002816  01340  01424      % 08460 RGTR--
+200405004 Centre, Monterey Par         01340                % 08460 RGTR--
+200403015 Belair, Rheinsheim   -01342  01342                % 08460 RGTR--
+200415005 Hollerich, Heentze P -01344  01344                % 08460 RGTR--
+200415002 Hollerich, Assurance  01347  01347                % 08460 RGTR--
+200412009 Gasperich, Gaasperec -01348  01348                % 08460 RGTR--
+200412028 Gasperich, Stengege  -01350  01350                % 08460 RGTR--
+200412006 Gasperich, Cloche d' -01353  01353                % 08460 RGTR--
+200412018 Gasperich, Scharfen  -01354  01354                % 08460 RGTR--
+221303003 Sanem, Niederkuerers  01410  01410                % 08460 RGTR--
+220203001 Niedercorn, Aale Sta  01411  01411                % 08460 RGTR--
+220203012 Niedercorn, Suesseme  01412  01412                % 08460 RGTR--
+220203011 Niedercorn, Schoul    01413  01413                % 08460 RGTR--
+220203008 Niedercorn, Péitenge  01414  01414                % 08460 RGTR--
+220203004 Niedercorn, Cité de   01415  01415                % 08460 RGTR--
+220203007 Niedercorn, Maison d  01415  01415                % 08460 RGTR--
+220902018 Pétange, Prënzebierg  01416  01416                % 08460 RGTR--
+220902015 Pétange, Oberst Däss  01417  01417                % 08460 RGTR--
+220902009 Pétange, Kierfecht    01417  01417                % 08460 RGTR--
+220902001 Pétange, A Rousen     01419  01419                % 08460 RGTR--
+220902004 Pétange, Cactus       01420  01420                % 08460 RGTR--
+220902019 Pétange, Porte Lamad  01421  01421                % 08460 RGTR--
+220901007 Lamadelaine, Route d  01422  01422                % 08460 RGTR--
+220903018 Rodange, Raths        01423  01423                % 08460 RGTR--
+220903008 Rodange, Gare         01424                       % 08460 RGTR--
+*Z 08461 RGTR--                                             % 08461 RGTR--
+*L 212      200405004 220903008  01440  01524               % 08461 RGTR--
+*A eb 200405004 220903008 000002  01440  01524              % 08461 RGTR--
+*R 1 220903008 200405004 220903008  01440  01524            % 08461 RGTR--
+*G RGB 200405004 220903008  01440  01524                    % 08461 RGTR--
+*A VE 200405004 220903008 000002  01440  01524              % 08461 RGTR--
+*I FD 200405004 220903008        0002817  01440  01524      % 08461 RGTR--
+200405004 Centre, Monterey Par         01440                % 08461 RGTR--
+200403015 Belair, Rheinsheim   -01442  01442                % 08461 RGTR--
+200415005 Hollerich, Heentze P -01444  01444                % 08461 RGTR--
+200415002 Hollerich, Assurance  01447  01447                % 08461 RGTR--
+200412009 Gasperich, Gaasperec -01448  01448                % 08461 RGTR--
+200412028 Gasperich, Stengege  -01450  01450                % 08461 RGTR--
+200412006 Gasperich, Cloche d' -01453  01453                % 08461 RGTR--
+200412018 Gasperich, Scharfen  -01454  01454                % 08461 RGTR--
+221303003 Sanem, Niederkuerers  01510  01510                % 08461 RGTR--
+220203001 Niedercorn, Aale Sta  01511  01511                % 08461 RGTR--
+220203012 Niedercorn, Suesseme  01512  01512                % 08461 RGTR--
+220203011 Niedercorn, Schoul    01513  01513                % 08461 RGTR--
+220203008 Niedercorn, Péitenge  01514  01514                % 08461 RGTR--
+220203004 Niedercorn, Cité de   01515  01515                % 08461 RGTR--
+220203007 Niedercorn, Maison d  01515  01515                % 08461 RGTR--
+220902018 Pétange, Prënzebierg  01516  01516                % 08461 RGTR--
+220902015 Pétange, Oberst Däss  01517  01517                % 08461 RGTR--
+220902009 Pétange, Kierfecht    01517  01517                % 08461 RGTR--
+220902001 Pétange, A Rousen     01519  01519                % 08461 RGTR--
+220902004 Pétange, Cactus       01520  01520                % 08461 RGTR--
+220902019 Pétange, Porte Lamad  01521  01521                % 08461 RGTR--
+220901007 Lamadelaine, Route d  01522  01522                % 08461 RGTR--
+220903018 Rodange, Raths        01523  01523                % 08461 RGTR--
+220903008 Rodange, Gare         01524                       % 08461 RGTR--
+*Z 08462 RGTR--                                             % 08462 RGTR--
+*L 212      200405004 220903008  01840  01924               % 08462 RGTR--
+*A eb 200405004 220903008 000002  01840  01924              % 08462 RGTR--
+*R 1 220903008 200405004 220903008  01840  01924            % 08462 RGTR--
+*G RGB 200405004 220903008  01840  01924                    % 08462 RGTR--
+*A VE 200405004 220903008 000002  01840  01924              % 08462 RGTR--
+*I FD 200405004 220903008        0001363  01840  01924      % 08462 RGTR--
+200405004 Centre, Monterey Par         01840                % 08462 RGTR--
+200403015 Belair, Rheinsheim   -01842  01842                % 08462 RGTR--
+200415005 Hollerich, Heentze P -01844  01844                % 08462 RGTR--
+200415002 Hollerich, Assurance  01847  01847                % 08462 RGTR--
+200412009 Gasperich, Gaasperec -01848  01848                % 08462 RGTR--
+200412028 Gasperich, Stengege  -01850  01850                % 08462 RGTR--
+200412006 Gasperich, Cloche d' -01853  01853                % 08462 RGTR--
+200412018 Gasperich, Scharfen  -01854  01854                % 08462 RGTR--
+221303003 Sanem, Niederkuerers  01910  01910                % 08462 RGTR--
+220203001 Niedercorn, Aale Sta  01911  01911                % 08462 RGTR--
+220203012 Niedercorn, Suesseme  01912  01912                % 08462 RGTR--
+220203011 Niedercorn, Schoul    01913  01913                % 08462 RGTR--
+220203008 Niedercorn, Péitenge  01914  01914                % 08462 RGTR--
+220203004 Niedercorn, Cité de   01915  01915                % 08462 RGTR--
+220203007 Niedercorn, Maison d  01915  01915                % 08462 RGTR--
+220902018 Pétange, Prënzebierg  01916  01916                % 08462 RGTR--
+220902015 Pétange, Oberst Däss  01917  01917                % 08462 RGTR--
+220902009 Pétange, Kierfecht    01917  01917                % 08462 RGTR--
+220902001 Pétange, A Rousen     01919  01919                % 08462 RGTR--
+220902004 Pétange, Cactus       01920  01920                % 08462 RGTR--
+220902019 Pétange, Porte Lamad  01921  01921                % 08462 RGTR--
+220901007 Lamadelaine, Route d  01922  01922                % 08462 RGTR--
+220903018 Rodange, Raths        01923  01923                % 08462 RGTR--
+220903008 Rodange, Gare         01924                       % 08462 RGTR--
+*Z 08463 RGTR--                                             % 08463 RGTR--
+*L 212      200405004 220903008  01855  01939               % 08463 RGTR--
+*A eb 200405004 220903008 000002  01855  01939              % 08463 RGTR--
+*R 1 220903008 200405004 220903008  01855  01939            % 08463 RGTR--
+*G RGB 200405004 220903008  01855  01939                    % 08463 RGTR--
+*A VE 200405004 220903008 000002  01855  01939              % 08463 RGTR--
+*I FD 200405004 220903008        0001782  01855  01939      % 08463 RGTR--
+200405004 Centre, Monterey Par         01855                % 08463 RGTR--
+200403015 Belair, Rheinsheim   -01857  01857                % 08463 RGTR--
+200415005 Hollerich, Heentze P -01859  01859                % 08463 RGTR--
+200415002 Hollerich, Assurance  01902  01902                % 08463 RGTR--
+200412009 Gasperich, Gaasperec -01903  01903                % 08463 RGTR--
+200412028 Gasperich, Stengege  -01905  01905                % 08463 RGTR--
+200412006 Gasperich, Cloche d' -01908  01908                % 08463 RGTR--
+200412018 Gasperich, Scharfen  -01909  01909                % 08463 RGTR--
+221303003 Sanem, Niederkuerers  01925  01925                % 08463 RGTR--
+220203001 Niedercorn, Aale Sta  01926  01926                % 08463 RGTR--
+220203012 Niedercorn, Suesseme  01927  01927                % 08463 RGTR--
+220203011 Niedercorn, Schoul    01928  01928                % 08463 RGTR--
+220203008 Niedercorn, Péitenge  01929  01929                % 08463 RGTR--
+220203004 Niedercorn, Cité de   01930  01930                % 08463 RGTR--
+220203007 Niedercorn, Maison d  01930  01930                % 08463 RGTR--
+220902018 Pétange, Prënzebierg  01931  01931                % 08463 RGTR--
+220902015 Pétange, Oberst Däss  01932  01932                % 08463 RGTR--
+220902009 Pétange, Kierfecht    01932  01932                % 08463 RGTR--
+220902001 Pétange, A Rousen     01934  01934                % 08463 RGTR--
+220902004 Pétange, Cactus       01935  01935                % 08463 RGTR--
+220902019 Pétange, Porte Lamad  01936  01936                % 08463 RGTR--
+220901007 Lamadelaine, Route d  01937  01937                % 08463 RGTR--
+220903018 Rodange, Raths        01938  01938                % 08463 RGTR--
+220903008 Rodange, Gare         01939                       % 08463 RGTR--
+*Z 08464 RGTR--                                             % 08464 RGTR--
+*L 212      200405004 220903008  01940  02024               % 08464 RGTR--
+*A eb 200405004 220903008 000002  01940  02024              % 08464 RGTR--
+*R 1 220903008 200405004 220903008  01940  02024            % 08464 RGTR--
+*G RGB 200405004 220903008  01940  02024                    % 08464 RGTR--
+*A VE 200405004 220903008 000002  01940  02024              % 08464 RGTR--
+*I FD 200405004 220903008        0002554  01940  02024      % 08464 RGTR--
+200405004 Centre, Monterey Par         01940                % 08464 RGTR--
+200403015 Belair, Rheinsheim   -01942  01942                % 08464 RGTR--
+200415005 Hollerich, Heentze P -01944  01944                % 08464 RGTR--
+200415002 Hollerich, Assurance  01947  01947                % 08464 RGTR--
+200412009 Gasperich, Gaasperec -01948  01948                % 08464 RGTR--
+200412028 Gasperich, Stengege  -01950  01950                % 08464 RGTR--
+200412006 Gasperich, Cloche d' -01953  01953                % 08464 RGTR--
+200412018 Gasperich, Scharfen  -01954  01954                % 08464 RGTR--
+221303003 Sanem, Niederkuerers  02010  02010                % 08464 RGTR--
+220203001 Niedercorn, Aale Sta  02011  02011                % 08464 RGTR--
+220203012 Niedercorn, Suesseme  02012  02012                % 08464 RGTR--
+220203011 Niedercorn, Schoul    02013  02013                % 08464 RGTR--
+220203008 Niedercorn, Péitenge  02014  02014                % 08464 RGTR--
+220203004 Niedercorn, Cité de   02015  02015                % 08464 RGTR--
+220203007 Niedercorn, Maison d  02015  02015                % 08464 RGTR--
+220902018 Pétange, Prënzebierg  02016  02016                % 08464 RGTR--
+220902015 Pétange, Oberst Däss  02017  02017                % 08464 RGTR--
+220902009 Pétange, Kierfecht    02017  02017                % 08464 RGTR--
+220902001 Pétange, A Rousen     02019  02019                % 08464 RGTR--
+220902004 Pétange, Cactus       02020  02020                % 08464 RGTR--
+220902019 Pétange, Porte Lamad  02021  02021                % 08464 RGTR--
+220901007 Lamadelaine, Route d  02022  02022                % 08464 RGTR--
+220903018 Rodange, Raths        02023  02023                % 08464 RGTR--
+220903008 Rodange, Gare         02024                       % 08464 RGTR--
+*Z 08465 RGTR--                                             % 08465 RGTR--
+*L 212      200405004 220903008  02050  02134               % 08465 RGTR--
+*A eb 200405004 220903008 000002  02050  02134              % 08465 RGTR--
+*R 1 220903008 200405004 220903008  02050  02134            % 08465 RGTR--
+*G RGB 200405004 220903008  02050  02134                    % 08465 RGTR--
+*A VE 200405004 220903008 000002  02050  02134              % 08465 RGTR--
+*I FD 200405004 220903008        0002070  02050  02134      % 08465 RGTR--
+200405004 Centre, Monterey Par         02050                % 08465 RGTR--
+200403015 Belair, Rheinsheim   -02052  02052                % 08465 RGTR--
+200415005 Hollerich, Heentze P -02054  02054                % 08465 RGTR--
+200415002 Hollerich, Assurance  02057  02057                % 08465 RGTR--
+200412009 Gasperich, Gaasperec -02058  02058                % 08465 RGTR--
+200412028 Gasperich, Stengege  -02100  02100                % 08465 RGTR--
+200412006 Gasperich, Cloche d' -02103  02103                % 08465 RGTR--
+200412018 Gasperich, Scharfen  -02104  02104                % 08465 RGTR--
+221303003 Sanem, Niederkuerers  02120  02120                % 08465 RGTR--
+220203001 Niedercorn, Aale Sta  02121  02121                % 08465 RGTR--
+220203012 Niedercorn, Suesseme  02122  02122                % 08465 RGTR--
+220203011 Niedercorn, Schoul    02123  02123                % 08465 RGTR--
+220203008 Niedercorn, Péitenge  02124  02124                % 08465 RGTR--
+220203004 Niedercorn, Cité de   02125  02125                % 08465 RGTR--
+220203007 Niedercorn, Maison d  02125  02125                % 08465 RGTR--
+220902018 Pétange, Prënzebierg  02126  02126                % 08465 RGTR--
+220902015 Pétange, Oberst Däss  02127  02127                % 08465 RGTR--
+220902009 Pétange, Kierfecht    02127  02127                % 08465 RGTR--
+220902001 Pétange, A Rousen     02129  02129                % 08465 RGTR--
+220902004 Pétange, Cactus       02130  02130                % 08465 RGTR--
+220902019 Pétange, Porte Lamad  02131  02131                % 08465 RGTR--
+220901007 Lamadelaine, Route d  02132  02132                % 08465 RGTR--
+220903018 Rodange, Raths        02133  02133                % 08465 RGTR--
+220903008 Rodange, Gare         02134                       % 08465 RGTR--
+*Z 08466 RGTR--                                             % 08466 RGTR--
+*L 212      200405004 220903008  02140  02224               % 08466 RGTR--
+*A eb 200405004 220903008 000002  02140  02224              % 08466 RGTR--
+*R 1 220903008 200405004 220903008  02140  02224            % 08466 RGTR--
+*G RGB 200405004 220903008  02140  02224                    % 08466 RGTR--
+*A VE 200405004 220903008 000002  02140  02224              % 08466 RGTR--
+*I FD 200405004 220903008        0002992  02140  02224      % 08466 RGTR--
+200405004 Centre, Monterey Par         02140                % 08466 RGTR--
+200403015 Belair, Rheinsheim   -02142  02142                % 08466 RGTR--
+200415005 Hollerich, Heentze P -02144  02144                % 08466 RGTR--
+200415002 Hollerich, Assurance  02147  02147                % 08466 RGTR--
+200412009 Gasperich, Gaasperec -02148  02148                % 08466 RGTR--
+200412028 Gasperich, Stengege  -02150  02150                % 08466 RGTR--
+200412006 Gasperich, Cloche d' -02153  02153                % 08466 RGTR--
+200412018 Gasperich, Scharfen  -02154  02154                % 08466 RGTR--
+221303003 Sanem, Niederkuerers  02210  02210                % 08466 RGTR--
+220203001 Niedercorn, Aale Sta  02211  02211                % 08466 RGTR--
+220203012 Niedercorn, Suesseme  02212  02212                % 08466 RGTR--
+220203011 Niedercorn, Schoul    02213  02213                % 08466 RGTR--
+220203008 Niedercorn, Péitenge  02214  02214                % 08466 RGTR--
+220203004 Niedercorn, Cité de   02215  02215                % 08466 RGTR--
+220203007 Niedercorn, Maison d  02215  02215                % 08466 RGTR--
+220902018 Pétange, Prënzebierg  02216  02216                % 08466 RGTR--
+220902015 Pétange, Oberst Däss  02217  02217                % 08466 RGTR--
+220902009 Pétange, Kierfecht    02217  02217                % 08466 RGTR--
+220902001 Pétange, A Rousen     02219  02219                % 08466 RGTR--
+220902004 Pétange, Cactus       02220  02220                % 08466 RGTR--
+220902019 Pétange, Porte Lamad  02221  02221                % 08466 RGTR--
+220901007 Lamadelaine, Route d  02222  02222                % 08466 RGTR--
+220903018 Rodange, Raths        02223  02223                % 08466 RGTR--
+220903008 Rodange, Gare         02224                       % 08466 RGTR--
+*Z 08467 RGTR--                                             % 08467 RGTR--
+*L 212      200405004 220903008  01540  01637               % 08467 RGTR--
+*A eb 200405004 220903008 000002  01540  01637              % 08467 RGTR--
+*R 1 220903008 200405004 220903008  01540  01637            % 08467 RGTR--
+*G RGB 200405004 220903008  01540  01637                    % 08467 RGTR--
+*A VE 200405004 220903008 000002  01540  01637              % 08467 RGTR--
+*I FD 200405004 220903008        0002618  01540  01637      % 08467 RGTR--
+200405004 Centre, Monterey Par         01540                % 08467 RGTR--
+200403015 Belair, Rheinsheim   -01544  01544                % 08467 RGTR--
+200415005 Hollerich, Heentze P -01546  01546                % 08467 RGTR--
+200415002 Hollerich, Assurance  01550  01550                % 08467 RGTR--
+200412009 Gasperich, Gaasperec -01551  01551                % 08467 RGTR--
+200412028 Gasperich, Stengege  -01554  01554                % 08467 RGTR--
+200412006 Gasperich, Cloche d' -01557  01557                % 08467 RGTR--
+200412018 Gasperich, Scharfen  -01559  01559                % 08467 RGTR--
+221303003 Sanem, Niederkuerers  01619  01619                % 08467 RGTR--
+220203001 Niedercorn, Aale Sta  01620  01620                % 08467 RGTR--
+220203012 Niedercorn, Suesseme  01621  01621                % 08467 RGTR--
+220203011 Niedercorn, Schoul    01623  01623                % 08467 RGTR--
+220203008 Niedercorn, Péitenge  01624  01624                % 08467 RGTR--
+220203004 Niedercorn, Cité de   01625  01625                % 08467 RGTR--
+220203007 Niedercorn, Maison d  01626  01626                % 08467 RGTR--
+220902018 Pétange, Prënzebierg  01627  01627                % 08467 RGTR--
+220902015 Pétange, Oberst Däss  01627  01627                % 08467 RGTR--
+220902009 Pétange, Kierfecht    01628  01628                % 08467 RGTR--
+220902001 Pétange, A Rousen     01630  01630                % 08467 RGTR--
+220902004 Pétange, Cactus       01633  01633                % 08467 RGTR--
+220902019 Pétange, Porte Lamad  01634  01634                % 08467 RGTR--
+220901007 Lamadelaine, Route d  01635  01635                % 08467 RGTR--
+220903018 Rodange, Raths        01636  01636                % 08467 RGTR--
+220903008 Rodange, Gare         01637                       % 08467 RGTR--
+*Z 08468 RGTR--                                             % 08468 RGTR--
+*L 212      200405004 220903008  01610  01707               % 08468 RGTR--
+*A eb 200405004 220903008 000002  01610  01707              % 08468 RGTR--
+*R 1 220903008 200405004 220903008  01610  01707            % 08468 RGTR--
+*G RGB 200405004 220903008  01610  01707                    % 08468 RGTR--
+*A VE 200405004 220903008 000002  01610  01707              % 08468 RGTR--
+*I FD 200405004 220903008        0002081  01610  01707      % 08468 RGTR--
+200405004 Centre, Monterey Par         01610                % 08468 RGTR--
+200403015 Belair, Rheinsheim   -01614  01614                % 08468 RGTR--
+200415005 Hollerich, Heentze P -01616  01616                % 08468 RGTR--
+200415002 Hollerich, Assurance  01620  01620                % 08468 RGTR--
+200412009 Gasperich, Gaasperec -01621  01621                % 08468 RGTR--
+200412028 Gasperich, Stengege  -01624  01624                % 08468 RGTR--
+200412006 Gasperich, Cloche d' -01627  01627                % 08468 RGTR--
+200412018 Gasperich, Scharfen  -01629  01629                % 08468 RGTR--
+221303003 Sanem, Niederkuerers  01649  01649                % 08468 RGTR--
+220203001 Niedercorn, Aale Sta  01650  01650                % 08468 RGTR--
+220203012 Niedercorn, Suesseme  01651  01651                % 08468 RGTR--
+220203011 Niedercorn, Schoul    01653  01653                % 08468 RGTR--
+220203008 Niedercorn, Péitenge  01654  01654                % 08468 RGTR--
+220203004 Niedercorn, Cité de   01655  01655                % 08468 RGTR--
+220203007 Niedercorn, Maison d  01656  01656                % 08468 RGTR--
+220902018 Pétange, Prënzebierg  01657  01657                % 08468 RGTR--
+220902015 Pétange, Oberst Däss  01657  01657                % 08468 RGTR--
+220902009 Pétange, Kierfecht    01658  01658                % 08468 RGTR--
+220902001 Pétange, A Rousen     01700  01700                % 08468 RGTR--
+220902004 Pétange, Cactus       01703  01703                % 08468 RGTR--
+220902019 Pétange, Porte Lamad  01704  01704                % 08468 RGTR--
+220901007 Lamadelaine, Route d  01705  01705                % 08468 RGTR--
+220903018 Rodange, Raths        01706  01706                % 08468 RGTR--
+220903008 Rodange, Gare         01707                       % 08468 RGTR--
+*Z 08469 RGTR--                                             % 08469 RGTR--
+*L 212      200405004 220903008  01625  01722               % 08469 RGTR--
+*A eb 200405004 220903008 000002  01625  01722              % 08469 RGTR--
+*R 1 220903008 200405004 220903008  01625  01722            % 08469 RGTR--
+*G RGB 200405004 220903008  01625  01722                    % 08469 RGTR--
+*A VE 200405004 220903008 000002  01625  01722              % 08469 RGTR--
+*I FD 200405004 220903008        0002433  01625  01722      % 08469 RGTR--
+200405004 Centre, Monterey Par         01625                % 08469 RGTR--
+200403015 Belair, Rheinsheim   -01629  01629                % 08469 RGTR--
+200415005 Hollerich, Heentze P -01631  01631                % 08469 RGTR--
+200415002 Hollerich, Assurance  01635  01635                % 08469 RGTR--
+200412009 Gasperich, Gaasperec -01636  01636                % 08469 RGTR--
+200412028 Gasperich, Stengege  -01639  01639                % 08469 RGTR--
+200412006 Gasperich, Cloche d' -01642  01642                % 08469 RGTR--
+200412018 Gasperich, Scharfen  -01644  01644                % 08469 RGTR--
+221303003 Sanem, Niederkuerers  01704  01704                % 08469 RGTR--
+220203001 Niedercorn, Aale Sta  01705  01705                % 08469 RGTR--
+220203012 Niedercorn, Suesseme  01706  01706                % 08469 RGTR--
+220203011 Niedercorn, Schoul    01708  01708                % 08469 RGTR--
+220203008 Niedercorn, Péitenge  01709  01709                % 08469 RGTR--
+220203004 Niedercorn, Cité de   01710  01710                % 08469 RGTR--
+220203007 Niedercorn, Maison d  01711  01711                % 08469 RGTR--
+220902018 Pétange, Prënzebierg  01712  01712                % 08469 RGTR--
+220902015 Pétange, Oberst Däss  01712  01712                % 08469 RGTR--
+220902009 Pétange, Kierfecht    01713  01713                % 08469 RGTR--
+220902001 Pétange, A Rousen     01715  01715                % 08469 RGTR--
+220902004 Pétange, Cactus       01718  01718                % 08469 RGTR--
+220902019 Pétange, Porte Lamad  01719  01719                % 08469 RGTR--
+220901007 Lamadelaine, Route d  01720  01720                % 08469 RGTR--
+220903018 Rodange, Raths        01721  01721                % 08469 RGTR--
+220903008 Rodange, Gare         01722                       % 08469 RGTR--
+*Z 08470 RGTR--                                             % 08470 RGTR--
+*L 212      200405004 220903008  01640  01737               % 08470 RGTR--
+*A eb 200405004 220903008 000002  01640  01737              % 08470 RGTR--
+*R 1 220903008 200405004 220903008  01640  01737            % 08470 RGTR--
+*G RGB 200405004 220903008  01640  01737                    % 08470 RGTR--
+*A VE 200405004 220903008 000002  01640  01737              % 08470 RGTR--
+*I FD 200405004 220903008        0001984  01640  01737      % 08470 RGTR--
+200405004 Centre, Monterey Par         01640                % 08470 RGTR--
+200403015 Belair, Rheinsheim   -01644  01644                % 08470 RGTR--
+200415005 Hollerich, Heentze P -01646  01646                % 08470 RGTR--
+200415002 Hollerich, Assurance  01650  01650                % 08470 RGTR--
+200412009 Gasperich, Gaasperec -01651  01651                % 08470 RGTR--
+200412028 Gasperich, Stengege  -01654  01654                % 08470 RGTR--
+200412006 Gasperich, Cloche d' -01657  01657                % 08470 RGTR--
+200412018 Gasperich, Scharfen  -01659  01659                % 08470 RGTR--
+221303003 Sanem, Niederkuerers  01719  01719                % 08470 RGTR--
+220203001 Niedercorn, Aale Sta  01720  01720                % 08470 RGTR--
+220203012 Niedercorn, Suesseme  01721  01721                % 08470 RGTR--
+220203011 Niedercorn, Schoul    01723  01723                % 08470 RGTR--
+220203008 Niedercorn, Péitenge  01724  01724                % 08470 RGTR--
+220203004 Niedercorn, Cité de   01725  01725                % 08470 RGTR--
+220203007 Niedercorn, Maison d  01726  01726                % 08470 RGTR--
+220902018 Pétange, Prënzebierg  01727  01727                % 08470 RGTR--
+220902015 Pétange, Oberst Däss  01727  01727                % 08470 RGTR--
+220902009 Pétange, Kierfecht    01728  01728                % 08470 RGTR--
+220902001 Pétange, A Rousen     01730  01730                % 08470 RGTR--
+220902004 Pétange, Cactus       01733  01733                % 08470 RGTR--
+220902019 Pétange, Porte Lamad  01734  01734                % 08470 RGTR--
+220901007 Lamadelaine, Route d  01735  01735                % 08470 RGTR--
+220903018 Rodange, Raths        01736  01736                % 08470 RGTR--
+220903008 Rodange, Gare         01737                       % 08470 RGTR--
+*Z 08471 RGTR--                                             % 08471 RGTR--
+*L 212      200405004 220903008  01655  01752               % 08471 RGTR--
+*A eb 200405004 220903008 000002  01655  01752              % 08471 RGTR--
+*R 1 220903008 200405004 220903008  01655  01752            % 08471 RGTR--
+*G RGB 200405004 220903008  01655  01752                    % 08471 RGTR--
+*A VE 200405004 220903008 000002  01655  01752              % 08471 RGTR--
+*I FD 200405004 220903008        0001777  01655  01752      % 08471 RGTR--
+200405004 Centre, Monterey Par         01655                % 08471 RGTR--
+200403015 Belair, Rheinsheim   -01659  01659                % 08471 RGTR--
+200415005 Hollerich, Heentze P -01701  01701                % 08471 RGTR--
+200415002 Hollerich, Assurance  01705  01705                % 08471 RGTR--
+200412009 Gasperich, Gaasperec -01706  01706                % 08471 RGTR--
+200412028 Gasperich, Stengege  -01709  01709                % 08471 RGTR--
+200412006 Gasperich, Cloche d' -01712  01712                % 08471 RGTR--
+200412018 Gasperich, Scharfen  -01714  01714                % 08471 RGTR--
+221303003 Sanem, Niederkuerers  01734  01734                % 08471 RGTR--
+220203001 Niedercorn, Aale Sta  01735  01735                % 08471 RGTR--
+220203012 Niedercorn, Suesseme  01736  01736                % 08471 RGTR--
+220203011 Niedercorn, Schoul    01738  01738                % 08471 RGTR--
+220203008 Niedercorn, Péitenge  01739  01739                % 08471 RGTR--
+220203004 Niedercorn, Cité de   01740  01740                % 08471 RGTR--
+220203007 Niedercorn, Maison d  01741  01741                % 08471 RGTR--
+220902018 Pétange, Prënzebierg  01742  01742                % 08471 RGTR--
+220902015 Pétange, Oberst Däss  01742  01742                % 08471 RGTR--
+220902009 Pétange, Kierfecht    01743  01743                % 08471 RGTR--
+220902001 Pétange, A Rousen     01745  01745                % 08471 RGTR--
+220902004 Pétange, Cactus       01748  01748                % 08471 RGTR--
+220902019 Pétange, Porte Lamad  01749  01749                % 08471 RGTR--
+220901007 Lamadelaine, Route d  01750  01750                % 08471 RGTR--
+220903018 Rodange, Raths        01751  01751                % 08471 RGTR--
+220903008 Rodange, Gare         01752                       % 08471 RGTR--
+*Z 08472 RGTR--                                             % 08472 RGTR--
+*L 212      200405004 220903008  01710  01807               % 08472 RGTR--
+*A eb 200405004 220903008 000002  01710  01807              % 08472 RGTR--
+*R 1 220903008 200405004 220903008  01710  01807            % 08472 RGTR--
+*G RGB 200405004 220903008  01710  01807                    % 08472 RGTR--
+*A VE 200405004 220903008 000002  01710  01807              % 08472 RGTR--
+*I FD 200405004 220903008        0002073  01710  01807      % 08472 RGTR--
+200405004 Centre, Monterey Par         01710                % 08472 RGTR--
+200403015 Belair, Rheinsheim   -01714  01714                % 08472 RGTR--
+200415005 Hollerich, Heentze P -01716  01716                % 08472 RGTR--
+200415002 Hollerich, Assurance  01720  01720                % 08472 RGTR--
+200412009 Gasperich, Gaasperec -01721  01721                % 08472 RGTR--
+200412028 Gasperich, Stengege  -01724  01724                % 08472 RGTR--
+200412006 Gasperich, Cloche d' -01727  01727                % 08472 RGTR--
+200412018 Gasperich, Scharfen  -01729  01729                % 08472 RGTR--
+221303003 Sanem, Niederkuerers  01749  01749                % 08472 RGTR--
+220203001 Niedercorn, Aale Sta  01750  01750                % 08472 RGTR--
+220203012 Niedercorn, Suesseme  01751  01751                % 08472 RGTR--
+220203011 Niedercorn, Schoul    01753  01753                % 08472 RGTR--
+220203008 Niedercorn, Péitenge  01754  01754                % 08472 RGTR--
+220203004 Niedercorn, Cité de   01755  01755                % 08472 RGTR--
+220203007 Niedercorn, Maison d  01756  01756                % 08472 RGTR--
+220902018 Pétange, Prënzebierg  01757  01757                % 08472 RGTR--
+220902015 Pétange, Oberst Däss  01757  01757                % 08472 RGTR--
+220902009 Pétange, Kierfecht    01758  01758                % 08472 RGTR--
+220902001 Pétange, A Rousen     01800  01800                % 08472 RGTR--
+220902004 Pétange, Cactus       01803  01803                % 08472 RGTR--
+220902019 Pétange, Porte Lamad  01804  01804                % 08472 RGTR--
+220901007 Lamadelaine, Route d  01805  01805                % 08472 RGTR--
+220903018 Rodange, Raths        01806  01806                % 08472 RGTR--
+220903008 Rodange, Gare         01807                       % 08472 RGTR--
+*Z 08473 RGTR--                                             % 08473 RGTR--
+*L 212      200405004 220903008  01725  01822               % 08473 RGTR--
+*A eb 200405004 220903008 000002  01725  01822              % 08473 RGTR--
+*R 1 220903008 200405004 220903008  01725  01822            % 08473 RGTR--
+*G RGB 200405004 220903008  01725  01822                    % 08473 RGTR--
+*A VE 200405004 220903008 000002  01725  01822              % 08473 RGTR--
+*I FD 200405004 220903008        0002550  01725  01822      % 08473 RGTR--
+200405004 Centre, Monterey Par         01725                % 08473 RGTR--
+200403015 Belair, Rheinsheim   -01729  01729                % 08473 RGTR--
+200415005 Hollerich, Heentze P -01731  01731                % 08473 RGTR--
+200415002 Hollerich, Assurance  01735  01735                % 08473 RGTR--
+200412009 Gasperich, Gaasperec -01736  01736                % 08473 RGTR--
+200412028 Gasperich, Stengege  -01739  01739                % 08473 RGTR--
+200412006 Gasperich, Cloche d' -01742  01742                % 08473 RGTR--
+200412018 Gasperich, Scharfen  -01744  01744                % 08473 RGTR--
+221303003 Sanem, Niederkuerers  01804  01804                % 08473 RGTR--
+220203001 Niedercorn, Aale Sta  01805  01805                % 08473 RGTR--
+220203012 Niedercorn, Suesseme  01806  01806                % 08473 RGTR--
+220203011 Niedercorn, Schoul    01808  01808                % 08473 RGTR--
+220203008 Niedercorn, Péitenge  01809  01809                % 08473 RGTR--
+220203004 Niedercorn, Cité de   01810  01810                % 08473 RGTR--
+220203007 Niedercorn, Maison d  01811  01811                % 08473 RGTR--
+220902018 Pétange, Prënzebierg  01812  01812                % 08473 RGTR--
+220902015 Pétange, Oberst Däss  01812  01812                % 08473 RGTR--
+220902009 Pétange, Kierfecht    01813  01813                % 08473 RGTR--
+220902001 Pétange, A Rousen     01815  01815                % 08473 RGTR--
+220902004 Pétange, Cactus       01818  01818                % 08473 RGTR--
+220902019 Pétange, Porte Lamad  01819  01819                % 08473 RGTR--
+220901007 Lamadelaine, Route d  01820  01820                % 08473 RGTR--
+220903018 Rodange, Raths        01821  01821                % 08473 RGTR--
+220903008 Rodange, Gare         01822                       % 08473 RGTR--
+*Z 08474 RGTR--                                             % 08474 RGTR--
+*L 212      200405004 220903008  01740  01837               % 08474 RGTR--
+*A eb 200405004 220903008 000002  01740  01837              % 08474 RGTR--
+*R 1 220903008 200405004 220903008  01740  01837            % 08474 RGTR--
+*G RGB 200405004 220903008  01740  01837                    % 08474 RGTR--
+*A VE 200405004 220903008 000002  01740  01837              % 08474 RGTR--
+*I FD 200405004 220903008        0001985  01740  01837      % 08474 RGTR--
+200405004 Centre, Monterey Par         01740                % 08474 RGTR--
+200403015 Belair, Rheinsheim   -01744  01744                % 08474 RGTR--
+200415005 Hollerich, Heentze P -01746  01746                % 08474 RGTR--
+200415002 Hollerich, Assurance  01750  01750                % 08474 RGTR--
+200412009 Gasperich, Gaasperec -01751  01751                % 08474 RGTR--
+200412028 Gasperich, Stengege  -01754  01754                % 08474 RGTR--
+200412006 Gasperich, Cloche d' -01757  01757                % 08474 RGTR--
+200412018 Gasperich, Scharfen  -01759  01759                % 08474 RGTR--
+221303003 Sanem, Niederkuerers  01819  01819                % 08474 RGTR--
+220203001 Niedercorn, Aale Sta  01820  01820                % 08474 RGTR--
+220203012 Niedercorn, Suesseme  01821  01821                % 08474 RGTR--
+220203011 Niedercorn, Schoul    01823  01823                % 08474 RGTR--
+220203008 Niedercorn, Péitenge  01824  01824                % 08474 RGTR--
+220203004 Niedercorn, Cité de   01825  01825                % 08474 RGTR--
+220203007 Niedercorn, Maison d  01826  01826                % 08474 RGTR--
+220902018 Pétange, Prënzebierg  01827  01827                % 08474 RGTR--
+220902015 Pétange, Oberst Däss  01827  01827                % 08474 RGTR--
+220902009 Pétange, Kierfecht    01828  01828                % 08474 RGTR--
+220902001 Pétange, A Rousen     01830  01830                % 08474 RGTR--
+220902004 Pétange, Cactus       01833  01833                % 08474 RGTR--
+220902019 Pétange, Porte Lamad  01834  01834                % 08474 RGTR--
+220901007 Lamadelaine, Route d  01835  01835                % 08474 RGTR--
+220903018 Rodange, Raths        01836  01836                % 08474 RGTR--
+220903008 Rodange, Gare         01837                       % 08474 RGTR--
+*Z 08475 RGTR--                                             % 08475 RGTR--
+*L 212      200405004 220903008  01755  01852               % 08475 RGTR--
+*A eb 200405004 220903008 000002  01755  01852              % 08475 RGTR--
+*R 1 220903008 200405004 220903008  01755  01852            % 08475 RGTR--
+*G RGB 200405004 220903008  01755  01852                    % 08475 RGTR--
+*A VE 200405004 220903008 000002  01755  01852              % 08475 RGTR--
+*I FD 200405004 220903008        0001779  01755  01852      % 08475 RGTR--
+200405004 Centre, Monterey Par         01755                % 08475 RGTR--
+200403015 Belair, Rheinsheim   -01759  01759                % 08475 RGTR--
+200415005 Hollerich, Heentze P -01801  01801                % 08475 RGTR--
+200415002 Hollerich, Assurance  01805  01805                % 08475 RGTR--
+200412009 Gasperich, Gaasperec -01806  01806                % 08475 RGTR--
+200412028 Gasperich, Stengege  -01809  01809                % 08475 RGTR--
+200412006 Gasperich, Cloche d' -01812  01812                % 08475 RGTR--
+200412018 Gasperich, Scharfen  -01814  01814                % 08475 RGTR--
+221303003 Sanem, Niederkuerers  01834  01834                % 08475 RGTR--
+220203001 Niedercorn, Aale Sta  01835  01835                % 08475 RGTR--
+220203012 Niedercorn, Suesseme  01836  01836                % 08475 RGTR--
+220203011 Niedercorn, Schoul    01838  01838                % 08475 RGTR--
+220203008 Niedercorn, Péitenge  01839  01839                % 08475 RGTR--
+220203004 Niedercorn, Cité de   01840  01840                % 08475 RGTR--
+220203007 Niedercorn, Maison d  01841  01841                % 08475 RGTR--
+220902018 Pétange, Prënzebierg  01842  01842                % 08475 RGTR--
+220902015 Pétange, Oberst Däss  01842  01842                % 08475 RGTR--
+220902009 Pétange, Kierfecht    01843  01843                % 08475 RGTR--
+220902001 Pétange, A Rousen     01845  01845                % 08475 RGTR--
+220902004 Pétange, Cactus       01848  01848                % 08475 RGTR--
+220902019 Pétange, Porte Lamad  01849  01849                % 08475 RGTR--
+220901007 Lamadelaine, Route d  01850  01850                % 08475 RGTR--
+220903018 Rodange, Raths        01851  01851                % 08475 RGTR--
+220903008 Rodange, Gare         01852                       % 08475 RGTR--
+*Z 08476 RGTR--                                             % 08476 RGTR--
+*L 212      200405004 220903008  01810  01907               % 08476 RGTR--
+*A eb 200405004 220903008 000002  01810  01907              % 08476 RGTR--
+*R 1 220903008 200405004 220903008  01810  01907            % 08476 RGTR--
+*G RGB 200405004 220903008  01810  01907                    % 08476 RGTR--
+*A VE 200405004 220903008 000002  01810  01907              % 08476 RGTR--
+*I FD 200405004 220903008        0002085  01810  01907      % 08476 RGTR--
+200405004 Centre, Monterey Par         01810                % 08476 RGTR--
+200403015 Belair, Rheinsheim   -01814  01814                % 08476 RGTR--
+200415005 Hollerich, Heentze P -01816  01816                % 08476 RGTR--
+200415002 Hollerich, Assurance  01820  01820                % 08476 RGTR--
+200412009 Gasperich, Gaasperec -01821  01821                % 08476 RGTR--
+200412028 Gasperich, Stengege  -01824  01824                % 08476 RGTR--
+200412006 Gasperich, Cloche d' -01827  01827                % 08476 RGTR--
+200412018 Gasperich, Scharfen  -01829  01829                % 08476 RGTR--
+221303003 Sanem, Niederkuerers  01849  01849                % 08476 RGTR--
+220203001 Niedercorn, Aale Sta  01850  01850                % 08476 RGTR--
+220203012 Niedercorn, Suesseme  01851  01851                % 08476 RGTR--
+220203011 Niedercorn, Schoul    01853  01853                % 08476 RGTR--
+220203008 Niedercorn, Péitenge  01854  01854                % 08476 RGTR--
+220203004 Niedercorn, Cité de   01855  01855                % 08476 RGTR--
+220203007 Niedercorn, Maison d  01856  01856                % 08476 RGTR--
+220902018 Pétange, Prënzebierg  01857  01857                % 08476 RGTR--
+220902015 Pétange, Oberst Däss  01857  01857                % 08476 RGTR--
+220902009 Pétange, Kierfecht    01858  01858                % 08476 RGTR--
+220902001 Pétange, A Rousen     01900  01900                % 08476 RGTR--
+220902004 Pétange, Cactus       01903  01903                % 08476 RGTR--
+220902019 Pétange, Porte Lamad  01904  01904                % 08476 RGTR--
+220901007 Lamadelaine, Route d  01905  01905                % 08476 RGTR--
+220903018 Rodange, Raths        01906  01906                % 08476 RGTR--
+220903008 Rodange, Gare         01907                       % 08476 RGTR--
+*Z 08477 RGTR--                                             % 08477 RGTR--
+*L 212      220903008 200405004  00645  00726               % 08477 RGTR--
+*A eb 220903008 200405004 000005  00645  00726              % 08477 RGTR--
+*R 2 200405004 220903008 200405004  00645  00726            % 08477 RGTR--
+*G RGB 220903008 200405004  00645  00726                    % 08477 RGTR--
+*A VE 220903008 200405004 000005  00645  00726              % 08477 RGTR--
+*I FD 220903008 200405004        0002256  00645  00726      % 08477 RGTR--
+220903008 Rodange, Gare                00645                % 08477 RGTR--
+220903018 Rodange, Raths        00646  00646                % 08477 RGTR--
+220901007 Lamadelaine, Route d  00646  00646                % 08477 RGTR--
+220902019 Pétange, Porte Lamad  00647  00647                % 08477 RGTR--
+220902004 Pétange, Cactus       00648  00648                % 08477 RGTR--
+220902021 Pétange, Rue des Rom  00649  00649                % 08477 RGTR--
+220902009 Pétange, Kierfecht    00651  00651                % 08477 RGTR--
+220902015 Pétange, Oberst Däss  00652  00652                % 08477 RGTR--
+220902018 Pétange, Prënzebierg  00652  00652                % 08477 RGTR--
+220203007 Niedercorn, Maison d  00653  00653                % 08477 RGTR--
+220203004 Niedercorn, Cité de   00654  00654                % 08477 RGTR--
+220203008 Niedercorn, Péitenge  00654  00654                % 08477 RGTR--
+220203011 Niedercorn, Schoul    00656  00656                % 08477 RGTR--
+220203012 Niedercorn, Suesseme  00657  00657                % 08477 RGTR--
+220203001 Niedercorn, Aale Sta  00657  00657                % 08477 RGTR--
+221303003 Sanem, Niederkuerers  00658  00658                % 08477 RGTR--
+200412018 Gasperich, Scharfen   00714 -00714                % 08477 RGTR--
+200412006 Gasperich, Cloche d'  00715 -00715                % 08477 RGTR--
+200412028 Gasperich, Stengege   00719 -00719                % 08477 RGTR--
+200412009 Gasperich, Gaasperec  00719 -00719                % 08477 RGTR--
+200415002 Hollerich, Assurance  00720  00720                % 08477 RGTR--
+200415005 Hollerich, Heentze P  00722 -00722                % 08477 RGTR--
+200403015 Belair, Rheinsheim    00724 -00724                % 08477 RGTR--
+200405004 Centre, Monterey Par  00726                       % 08477 RGTR--
+*Z 08478 RGTR--                                             % 08478 RGTR--
+*L 212      220903008 200405004  00715  00756               % 08478 RGTR--
+*A eb 220903008 200405004 000005  00715  00756              % 08478 RGTR--
+*R 2 200405004 220903008 200405004  00715  00756            % 08478 RGTR--
+*G RGB 220903008 200405004  00715  00756                    % 08478 RGTR--
+*A VE 220903008 200405004 000005  00715  00756              % 08478 RGTR--
+*I FD 220903008 200405004        0001951  00715  00756      % 08478 RGTR--
+220903008 Rodange, Gare                00715                % 08478 RGTR--
+220903018 Rodange, Raths        00716  00716                % 08478 RGTR--
+220901007 Lamadelaine, Route d  00716  00716                % 08478 RGTR--
+220902019 Pétange, Porte Lamad  00717  00717                % 08478 RGTR--
+220902004 Pétange, Cactus       00718  00718                % 08478 RGTR--
+220902021 Pétange, Rue des Rom  00719  00719                % 08478 RGTR--
+220902009 Pétange, Kierfecht    00721  00721                % 08478 RGTR--
+220902015 Pétange, Oberst Däss  00722  00722                % 08478 RGTR--
+220902018 Pétange, Prënzebierg  00722  00722                % 08478 RGTR--
+220203007 Niedercorn, Maison d  00723  00723                % 08478 RGTR--
+220203004 Niedercorn, Cité de   00724  00724                % 08478 RGTR--
+220203008 Niedercorn, Péitenge  00724  00724                % 08478 RGTR--
+220203011 Niedercorn, Schoul    00726  00726                % 08478 RGTR--
+220203012 Niedercorn, Suesseme  00727  00727                % 08478 RGTR--
+220203001 Niedercorn, Aale Sta  00727  00727                % 08478 RGTR--
+221303003 Sanem, Niederkuerers  00728  00728                % 08478 RGTR--
+200412018 Gasperich, Scharfen   00744 -00744                % 08478 RGTR--
+200412006 Gasperich, Cloche d'  00745 -00745                % 08478 RGTR--
+200412028 Gasperich, Stengege   00749 -00749                % 08478 RGTR--
+200412009 Gasperich, Gaasperec  00749 -00749                % 08478 RGTR--
+200415002 Hollerich, Assurance  00750  00750                % 08478 RGTR--
+200415005 Hollerich, Heentze P  00752 -00752                % 08478 RGTR--
+200403015 Belair, Rheinsheim    00754 -00754                % 08478 RGTR--
+200405004 Centre, Monterey Par  00756                       % 08478 RGTR--
+*Z 08479 RGTR--                                             % 08479 RGTR--
+*L 212      220903008 200405004  00745  00826               % 08479 RGTR--
+*A eb 220903008 200405004 000005  00745  00826              % 08479 RGTR--
+*R 2 200405004 220903008 200405004  00745  00826            % 08479 RGTR--
+*G RGB 220903008 200405004  00745  00826                    % 08479 RGTR--
+*A VE 220903008 200405004 000005  00745  00826              % 08479 RGTR--
+*I FD 220903008 200405004        0002257  00745  00826      % 08479 RGTR--
+220903008 Rodange, Gare                00745                % 08479 RGTR--
+220903018 Rodange, Raths        00746  00746                % 08479 RGTR--
+220901007 Lamadelaine, Route d  00746  00746                % 08479 RGTR--
+220902019 Pétange, Porte Lamad  00747  00747                % 08479 RGTR--
+220902004 Pétange, Cactus       00748  00748                % 08479 RGTR--
+220902021 Pétange, Rue des Rom  00749  00749                % 08479 RGTR--
+220902009 Pétange, Kierfecht    00751  00751                % 08479 RGTR--
+220902015 Pétange, Oberst Däss  00752  00752                % 08479 RGTR--
+220902018 Pétange, Prënzebierg  00752  00752                % 08479 RGTR--
+220203007 Niedercorn, Maison d  00753  00753                % 08479 RGTR--
+220203004 Niedercorn, Cité de   00754  00754                % 08479 RGTR--
+220203008 Niedercorn, Péitenge  00754  00754                % 08479 RGTR--
+220203011 Niedercorn, Schoul    00756  00756                % 08479 RGTR--
+220203012 Niedercorn, Suesseme  00757  00757                % 08479 RGTR--
+220203001 Niedercorn, Aale Sta  00757  00757                % 08479 RGTR--
+221303003 Sanem, Niederkuerers  00758  00758                % 08479 RGTR--
+200412018 Gasperich, Scharfen   00814 -00814                % 08479 RGTR--
+200412006 Gasperich, Cloche d'  00815 -00815                % 08479 RGTR--
+200412028 Gasperich, Stengege   00819 -00819                % 08479 RGTR--
+200412009 Gasperich, Gaasperec  00819 -00819                % 08479 RGTR--
+200415002 Hollerich, Assurance  00820  00820                % 08479 RGTR--
+200415005 Hollerich, Heentze P  00822 -00822                % 08479 RGTR--
+200403015 Belair, Rheinsheim    00824 -00824                % 08479 RGTR--
+200405004 Centre, Monterey Par  00826                       % 08479 RGTR--
+*Z 08480 RGTR--                                             % 08480 RGTR--
+*L 212      220903008 200405004  00900  00941               % 08480 RGTR--
+*A eb 220903008 200405004 000005  00900  00941              % 08480 RGTR--
+*A RO 220903008 200405004 000005  00900  00941              % 08480 RGTR--
+*R 2 200405004 220903008 200405004  00900  00941            % 08480 RGTR--
+*G RGB 220903008 200405004  00900  00941                    % 08480 RGTR--
+*A VE 220903008 200405004 000005  00900  00941              % 08480 RGTR--
+*I FD 220903008 200405004        0001891  00900  00941      % 08480 RGTR--
+220903008 Rodange, Gare                00900                % 08480 RGTR--
+220903018 Rodange, Raths        00901  00901                % 08480 RGTR--
+220901007 Lamadelaine, Route d  00901  00901                % 08480 RGTR--
+220902019 Pétange, Porte Lamad  00902  00902                % 08480 RGTR--
+220902004 Pétange, Cactus       00903  00903                % 08480 RGTR--
+220902021 Pétange, Rue des Rom  00904  00904                % 08480 RGTR--
+220902009 Pétange, Kierfecht    00906  00906                % 08480 RGTR--
+220902015 Pétange, Oberst Däss  00907  00907                % 08480 RGTR--
+220902018 Pétange, Prënzebierg  00907  00907                % 08480 RGTR--
+220203007 Niedercorn, Maison d  00908  00908                % 08480 RGTR--
+220203004 Niedercorn, Cité de   00909  00909                % 08480 RGTR--
+220203008 Niedercorn, Péitenge  00909  00909                % 08480 RGTR--
+220203011 Niedercorn, Schoul    00911  00911                % 08480 RGTR--
+220203012 Niedercorn, Suesseme  00912  00912                % 08480 RGTR--
+220203001 Niedercorn, Aale Sta  00912  00912                % 08480 RGTR--
+221303003 Sanem, Niederkuerers  00913  00913                % 08480 RGTR--
+200412018 Gasperich, Scharfen   00929 -00929                % 08480 RGTR--
+200412006 Gasperich, Cloche d'  00930 -00930                % 08480 RGTR--
+200412028 Gasperich, Stengege   00934 -00934                % 08480 RGTR--
+200412009 Gasperich, Gaasperec  00934 -00934                % 08480 RGTR--
+200415002 Hollerich, Assurance  00935  00935                % 08480 RGTR--
+200415005 Hollerich, Heentze P  00937 -00937                % 08480 RGTR--
+200403015 Belair, Rheinsheim    00939 -00939                % 08480 RGTR--
+200405004 Centre, Monterey Par  00941                       % 08480 RGTR--
+*Z 08481 RGTR--                                             % 08481 RGTR--
+*L 212      220903008 200405004  00500  00541               % 08481 RGTR--
+*A eb 220903008 200405004 000001  00500  00541              % 08481 RGTR--
+*R 2 200405004 220903008 200405004  00500  00541            % 08481 RGTR--
+*G RGB 220903008 200405004  00500  00541                    % 08481 RGTR--
+*A VE 220903008 200405004 000001  00500  00541              % 08481 RGTR--
+*I FD 220903008 200405004        0002364  00500  00541      % 08481 RGTR--
+220903008 Rodange, Gare                00500                % 08481 RGTR--
+220903018 Rodange, Raths        00501  00501                % 08481 RGTR--
+220901007 Lamadelaine, Route d  00501  00501                % 08481 RGTR--
+220902019 Pétange, Porte Lamad  00502  00502                % 08481 RGTR--
+220902004 Pétange, Cactus       00503  00503                % 08481 RGTR--
+220902021 Pétange, Rue des Rom  00504  00504                % 08481 RGTR--
+220902009 Pétange, Kierfecht    00506  00506                % 08481 RGTR--
+220902015 Pétange, Oberst Däss  00507  00507                % 08481 RGTR--
+220902018 Pétange, Prënzebierg  00507  00507                % 08481 RGTR--
+220203007 Niedercorn, Maison d  00508  00508                % 08481 RGTR--
+220203004 Niedercorn, Cité de   00509  00509                % 08481 RGTR--
+220203008 Niedercorn, Péitenge  00509  00509                % 08481 RGTR--
+220203011 Niedercorn, Schoul    00511  00511                % 08481 RGTR--
+220203012 Niedercorn, Suesseme  00512  00512                % 08481 RGTR--
+220203001 Niedercorn, Aale Sta  00512  00512                % 08481 RGTR--
+221303003 Sanem, Niederkuerers  00513  00513                % 08481 RGTR--
+200412018 Gasperich, Scharfen   00529 -00529                % 08481 RGTR--
+200412006 Gasperich, Cloche d'  00530 -00530                % 08481 RGTR--
+200412028 Gasperich, Stengege   00534 -00534                % 08481 RGTR--
+200412009 Gasperich, Gaasperec  00534 -00534                % 08481 RGTR--
+200415002 Hollerich, Assurance  00535  00535                % 08481 RGTR--
+200415005 Hollerich, Heentze P  00537 -00537                % 08481 RGTR--
+200403015 Belair, Rheinsheim    00539 -00539                % 08481 RGTR--
+200405004 Centre, Monterey Par  00541                       % 08481 RGTR--
+*Z 08482 RGTR--                                             % 08482 RGTR--
+*L 212      220903008 200405004  00600  00641               % 08482 RGTR--
+*A eb 220903008 200405004 000001  00600  00641              % 08482 RGTR--
+*R 2 200405004 220903008 200405004  00600  00641            % 08482 RGTR--
+*G RGB 220903008 200405004  00600  00641                    % 08482 RGTR--
+*A VE 220903008 200405004 000001  00600  00641              % 08482 RGTR--
+*I FD 220903008 200405004        0002365  00600  00641      % 08482 RGTR--
+220903008 Rodange, Gare                00600                % 08482 RGTR--
+220903018 Rodange, Raths        00601  00601                % 08482 RGTR--
+220901007 Lamadelaine, Route d  00601  00601                % 08482 RGTR--
+220902019 Pétange, Porte Lamad  00602  00602                % 08482 RGTR--
+220902004 Pétange, Cactus       00603  00603                % 08482 RGTR--
+220902021 Pétange, Rue des Rom  00604  00604                % 08482 RGTR--
+220902009 Pétange, Kierfecht    00606  00606                % 08482 RGTR--
+220902015 Pétange, Oberst Däss  00607  00607                % 08482 RGTR--
+220902018 Pétange, Prënzebierg  00607  00607                % 08482 RGTR--
+220203007 Niedercorn, Maison d  00608  00608                % 08482 RGTR--
+220203004 Niedercorn, Cité de   00609  00609                % 08482 RGTR--
+220203008 Niedercorn, Péitenge  00609  00609                % 08482 RGTR--
+220203011 Niedercorn, Schoul    00611  00611                % 08482 RGTR--
+220203012 Niedercorn, Suesseme  00612  00612                % 08482 RGTR--
+220203001 Niedercorn, Aale Sta  00612  00612                % 08482 RGTR--
+221303003 Sanem, Niederkuerers  00613  00613                % 08482 RGTR--
+200412018 Gasperich, Scharfen   00629 -00629                % 08482 RGTR--
+200412006 Gasperich, Cloche d'  00630 -00630                % 08482 RGTR--
+200412028 Gasperich, Stengege   00634 -00634                % 08482 RGTR--
+200412009 Gasperich, Gaasperec  00634 -00634                % 08482 RGTR--
+200415002 Hollerich, Assurance  00635  00635                % 08482 RGTR--
+200415005 Hollerich, Heentze P  00637 -00637                % 08482 RGTR--
+200403015 Belair, Rheinsheim    00639 -00639                % 08482 RGTR--
+200405004 Centre, Monterey Par  00641                       % 08482 RGTR--
+*Z 08483 RGTR--                                             % 08483 RGTR--
+*L 212      220903008 200405004  01000  01041               % 08483 RGTR--
+*A eb 220903008 200405004 000001  01000  01041              % 08483 RGTR--
+*R 2 200405004 220903008 200405004  01000  01041            % 08483 RGTR--
+*G RGB 220903008 200405004  01000  01041                    % 08483 RGTR--
+*A VE 220903008 200405004 000001  01000  01041              % 08483 RGTR--
+*I FD 220903008 200405004        0001894  01000  01041      % 08483 RGTR--
+220903008 Rodange, Gare                01000                % 08483 RGTR--
+220903018 Rodange, Raths        01001  01001                % 08483 RGTR--
+220901007 Lamadelaine, Route d  01001  01001                % 08483 RGTR--
+220902019 Pétange, Porte Lamad  01002  01002                % 08483 RGTR--
+220902004 Pétange, Cactus       01003  01003                % 08483 RGTR--
+220902021 Pétange, Rue des Rom  01004  01004                % 08483 RGTR--
+220902009 Pétange, Kierfecht    01006  01006                % 08483 RGTR--
+220902015 Pétange, Oberst Däss  01007  01007                % 08483 RGTR--
+220902018 Pétange, Prënzebierg  01007  01007                % 08483 RGTR--
+220203007 Niedercorn, Maison d  01008  01008                % 08483 RGTR--
+220203004 Niedercorn, Cité de   01009  01009                % 08483 RGTR--
+220203008 Niedercorn, Péitenge  01009  01009                % 08483 RGTR--
+220203011 Niedercorn, Schoul    01011  01011                % 08483 RGTR--
+220203012 Niedercorn, Suesseme  01012  01012                % 08483 RGTR--
+220203001 Niedercorn, Aale Sta  01012  01012                % 08483 RGTR--
+221303003 Sanem, Niederkuerers  01013  01013                % 08483 RGTR--
+200412018 Gasperich, Scharfen   01029 -01029                % 08483 RGTR--
+200412006 Gasperich, Cloche d'  01030 -01030                % 08483 RGTR--
+200412028 Gasperich, Stengege   01034 -01034                % 08483 RGTR--
+200412009 Gasperich, Gaasperec  01034 -01034                % 08483 RGTR--
+200415002 Hollerich, Assurance  01035  01035                % 08483 RGTR--
+200415005 Hollerich, Heentze P  01037 -01037                % 08483 RGTR--
+200403015 Belair, Rheinsheim    01039 -01039                % 08483 RGTR--
+200405004 Centre, Monterey Par  01041                       % 08483 RGTR--
+*Z 08484 RGTR--                                             % 08484 RGTR--
+*L 212      220903008 200405004  01100  01141               % 08484 RGTR--
+*A eb 220903008 200405004 000001  01100  01141              % 08484 RGTR--
+*R 2 200405004 220903008 200405004  01100  01141            % 08484 RGTR--
+*G RGB 220903008 200405004  01100  01141                    % 08484 RGTR--
+*A VE 220903008 200405004 000001  01100  01141              % 08484 RGTR--
+*I FD 220903008 200405004        0001897  01100  01141      % 08484 RGTR--
+220903008 Rodange, Gare                01100                % 08484 RGTR--
+220903018 Rodange, Raths        01101  01101                % 08484 RGTR--
+220901007 Lamadelaine, Route d  01101  01101                % 08484 RGTR--
+220902019 Pétange, Porte Lamad  01102  01102                % 08484 RGTR--
+220902004 Pétange, Cactus       01103  01103                % 08484 RGTR--
+220902021 Pétange, Rue des Rom  01104  01104                % 08484 RGTR--
+220902009 Pétange, Kierfecht    01106  01106                % 08484 RGTR--
+220902015 Pétange, Oberst Däss  01107  01107                % 08484 RGTR--
+220902018 Pétange, Prënzebierg  01107  01107                % 08484 RGTR--
+220203007 Niedercorn, Maison d  01108  01108                % 08484 RGTR--
+220203004 Niedercorn, Cité de   01109  01109                % 08484 RGTR--
+220203008 Niedercorn, Péitenge  01109  01109                % 08484 RGTR--
+220203011 Niedercorn, Schoul    01111  01111                % 08484 RGTR--
+220203012 Niedercorn, Suesseme  01112  01112                % 08484 RGTR--
+220203001 Niedercorn, Aale Sta  01112  01112                % 08484 RGTR--
+221303003 Sanem, Niederkuerers  01113  01113                % 08484 RGTR--
+200412018 Gasperich, Scharfen   01129 -01129                % 08484 RGTR--
+200412006 Gasperich, Cloche d'  01130 -01130                % 08484 RGTR--
+200412028 Gasperich, Stengege   01134 -01134                % 08484 RGTR--
+200412009 Gasperich, Gaasperec  01134 -01134                % 08484 RGTR--
+200415002 Hollerich, Assurance  01135  01135                % 08484 RGTR--
+200415005 Hollerich, Heentze P  01137 -01137                % 08484 RGTR--
+200403015 Belair, Rheinsheim    01139 -01139                % 08484 RGTR--
+200405004 Centre, Monterey Par  01141                       % 08484 RGTR--
+*Z 08485 RGTR--                                             % 08485 RGTR--
+*L 212      220903008 200405004  01200  01241               % 08485 RGTR--
+*A eb 220903008 200405004 000001  01200  01241              % 08485 RGTR--
+*R 2 200405004 220903008 200405004  01200  01241            % 08485 RGTR--
+*G RGB 220903008 200405004  01200  01241                    % 08485 RGTR--
+*A VE 220903008 200405004 000001  01200  01241              % 08485 RGTR--
+*I FD 220903008 200405004        0001900  01200  01241      % 08485 RGTR--
+220903008 Rodange, Gare                01200                % 08485 RGTR--
+220903018 Rodange, Raths        01201  01201                % 08485 RGTR--
+220901007 Lamadelaine, Route d  01201  01201                % 08485 RGTR--
+220902019 Pétange, Porte Lamad  01202  01202                % 08485 RGTR--
+220902004 Pétange, Cactus       01203  01203                % 08485 RGTR--
+220902021 Pétange, Rue des Rom  01204  01204                % 08485 RGTR--
+220902009 Pétange, Kierfecht    01206  01206                % 08485 RGTR--
+220902015 Pétange, Oberst Däss  01207  01207                % 08485 RGTR--
+220902018 Pétange, Prënzebierg  01207  01207                % 08485 RGTR--
+220203007 Niedercorn, Maison d  01208  01208                % 08485 RGTR--
+220203004 Niedercorn, Cité de   01209  01209                % 08485 RGTR--
+220203008 Niedercorn, Péitenge  01209  01209                % 08485 RGTR--
+220203011 Niedercorn, Schoul    01211  01211                % 08485 RGTR--
+220203012 Niedercorn, Suesseme  01212  01212                % 08485 RGTR--
+220203001 Niedercorn, Aale Sta  01212  01212                % 08485 RGTR--
+221303003 Sanem, Niederkuerers  01213  01213                % 08485 RGTR--
+200412018 Gasperich, Scharfen   01229 -01229                % 08485 RGTR--
+200412006 Gasperich, Cloche d'  01230 -01230                % 08485 RGTR--
+200412028 Gasperich, Stengege   01234 -01234                % 08485 RGTR--
+200412009 Gasperich, Gaasperec  01234 -01234                % 08485 RGTR--
+200415002 Hollerich, Assurance  01235  01235                % 08485 RGTR--
+200415005 Hollerich, Heentze P  01237 -01237                % 08485 RGTR--
+200403015 Belair, Rheinsheim    01239 -01239                % 08485 RGTR--
+200405004 Centre, Monterey Par  01241                       % 08485 RGTR--
+*Z 08486 RGTR--                                             % 08486 RGTR--
+*L 212      220903008 200405004  01300  01341               % 08486 RGTR--
+*A eb 220903008 200405004 000001  01300  01341              % 08486 RGTR--
+*R 2 200405004 220903008 200405004  01300  01341            % 08486 RGTR--
+*G RGB 220903008 200405004  01300  01341                    % 08486 RGTR--
+*A VE 220903008 200405004 000001  01300  01341              % 08486 RGTR--
+*I FD 220903008 200405004        0001902  01300  01341      % 08486 RGTR--
+220903008 Rodange, Gare                01300                % 08486 RGTR--
+220903018 Rodange, Raths        01301  01301                % 08486 RGTR--
+220901007 Lamadelaine, Route d  01301  01301                % 08486 RGTR--
+220902019 Pétange, Porte Lamad  01302  01302                % 08486 RGTR--
+220902004 Pétange, Cactus       01303  01303                % 08486 RGTR--
+220902021 Pétange, Rue des Rom  01304  01304                % 08486 RGTR--
+220902009 Pétange, Kierfecht    01306  01306                % 08486 RGTR--
+220902015 Pétange, Oberst Däss  01307  01307                % 08486 RGTR--
+220902018 Pétange, Prënzebierg  01307  01307                % 08486 RGTR--
+220203007 Niedercorn, Maison d  01308  01308                % 08486 RGTR--
+220203004 Niedercorn, Cité de   01309  01309                % 08486 RGTR--
+220203008 Niedercorn, Péitenge  01309  01309                % 08486 RGTR--
+220203011 Niedercorn, Schoul    01311  01311                % 08486 RGTR--
+220203012 Niedercorn, Suesseme  01312  01312                % 08486 RGTR--
+220203001 Niedercorn, Aale Sta  01312  01312                % 08486 RGTR--
+221303003 Sanem, Niederkuerers  01313  01313                % 08486 RGTR--
+200412018 Gasperich, Scharfen   01329 -01329                % 08486 RGTR--
+200412006 Gasperich, Cloche d'  01330 -01330                % 08486 RGTR--
+200412028 Gasperich, Stengege   01334 -01334                % 08486 RGTR--
+200412009 Gasperich, Gaasperec  01334 -01334                % 08486 RGTR--
+200415002 Hollerich, Assurance  01335  01335                % 08486 RGTR--
+200415005 Hollerich, Heentze P  01337 -01337                % 08486 RGTR--
+200403015 Belair, Rheinsheim    01339 -01339                % 08486 RGTR--
+200405004 Centre, Monterey Par  01341                       % 08486 RGTR--
+*Z 08487 RGTR--                                             % 08487 RGTR--
+*L 212      220903008 200405004  01400  01441               % 08487 RGTR--
+*A eb 220903008 200405004 000001  01400  01441              % 08487 RGTR--
+*R 2 200405004 220903008 200405004  01400  01441            % 08487 RGTR--
+*G RGB 220903008 200405004  01400  01441                    % 08487 RGTR--
+*A VE 220903008 200405004 000001  01400  01441              % 08487 RGTR--
+*I FD 220903008 200405004        0001905  01400  01441      % 08487 RGTR--
+220903008 Rodange, Gare                01400                % 08487 RGTR--
+220903018 Rodange, Raths        01401  01401                % 08487 RGTR--
+220901007 Lamadelaine, Route d  01401  01401                % 08487 RGTR--
+220902019 Pétange, Porte Lamad  01402  01402                % 08487 RGTR--
+220902004 Pétange, Cactus       01403  01403                % 08487 RGTR--
+220902021 Pétange, Rue des Rom  01404  01404                % 08487 RGTR--
+220902009 Pétange, Kierfecht    01406  01406                % 08487 RGTR--
+220902015 Pétange, Oberst Däss  01407  01407                % 08487 RGTR--
+220902018 Pétange, Prënzebierg  01407  01407                % 08487 RGTR--
+220203007 Niedercorn, Maison d  01408  01408                % 08487 RGTR--
+220203004 Niedercorn, Cité de   01409  01409                % 08487 RGTR--
+220203008 Niedercorn, Péitenge  01409  01409                % 08487 RGTR--
+220203011 Niedercorn, Schoul    01411  01411                % 08487 RGTR--
+220203012 Niedercorn, Suesseme  01412  01412                % 08487 RGTR--
+220203001 Niedercorn, Aale Sta  01412  01412                % 08487 RGTR--
+221303003 Sanem, Niederkuerers  01413  01413                % 08487 RGTR--
+200412018 Gasperich, Scharfen   01429 -01429                % 08487 RGTR--
+200412006 Gasperich, Cloche d'  01430 -01430                % 08487 RGTR--
+200412028 Gasperich, Stengege   01434 -01434                % 08487 RGTR--
+200412009 Gasperich, Gaasperec  01434 -01434                % 08487 RGTR--
+200415002 Hollerich, Assurance  01435  01435                % 08487 RGTR--
+200415005 Hollerich, Heentze P  01437 -01437                % 08487 RGTR--
+200403015 Belair, Rheinsheim    01439 -01439                % 08487 RGTR--
+200405004 Centre, Monterey Par  01441                       % 08487 RGTR--
+*Z 08488 RGTR--                                             % 08488 RGTR--
+*L 212      220903008 200405004  01500  01541               % 08488 RGTR--
+*A eb 220903008 200405004 000001  01500  01541              % 08488 RGTR--
+*R 2 200405004 220903008 200405004  01500  01541            % 08488 RGTR--
+*G RGB 220903008 200405004  01500  01541                    % 08488 RGTR--
+*A VE 220903008 200405004 000001  01500  01541              % 08488 RGTR--
+*I FD 220903008 200405004        0001908  01500  01541      % 08488 RGTR--
+220903008 Rodange, Gare                01500                % 08488 RGTR--
+220903018 Rodange, Raths        01501  01501                % 08488 RGTR--
+220901007 Lamadelaine, Route d  01501  01501                % 08488 RGTR--
+220902019 Pétange, Porte Lamad  01502  01502                % 08488 RGTR--
+220902004 Pétange, Cactus       01503  01503                % 08488 RGTR--
+220902021 Pétange, Rue des Rom  01504  01504                % 08488 RGTR--
+220902009 Pétange, Kierfecht    01506  01506                % 08488 RGTR--
+220902015 Pétange, Oberst Däss  01507  01507                % 08488 RGTR--
+220902018 Pétange, Prënzebierg  01507  01507                % 08488 RGTR--
+220203007 Niedercorn, Maison d  01508  01508                % 08488 RGTR--
+220203004 Niedercorn, Cité de   01509  01509                % 08488 RGTR--
+220203008 Niedercorn, Péitenge  01509  01509                % 08488 RGTR--
+220203011 Niedercorn, Schoul    01511  01511                % 08488 RGTR--
+220203012 Niedercorn, Suesseme  01512  01512                % 08488 RGTR--
+220203001 Niedercorn, Aale Sta  01512  01512                % 08488 RGTR--
+221303003 Sanem, Niederkuerers  01513  01513                % 08488 RGTR--
+200412018 Gasperich, Scharfen   01529 -01529                % 08488 RGTR--
+200412006 Gasperich, Cloche d'  01530 -01530                % 08488 RGTR--
+200412028 Gasperich, Stengege   01534 -01534                % 08488 RGTR--
+200412009 Gasperich, Gaasperec  01534 -01534                % 08488 RGTR--
+200415002 Hollerich, Assurance  01535  01535                % 08488 RGTR--
+200415005 Hollerich, Heentze P  01537 -01537                % 08488 RGTR--
+200403015 Belair, Rheinsheim    01539 -01539                % 08488 RGTR--
+200405004 Centre, Monterey Par  01541                       % 08488 RGTR--
+*Z 08489 RGTR--                                             % 08489 RGTR--
+*L 212      220903008 200405004  01600  01641               % 08489 RGTR--
+*A eb 220903008 200405004 000001  01600  01641              % 08489 RGTR--
+*A RO 220903008 200405004 000001  01600  01641              % 08489 RGTR--
+*R 2 200405004 220903008 200405004  01600  01641            % 08489 RGTR--
+*G RGB 220903008 200405004  01600  01641                    % 08489 RGTR--
+*A VE 220903008 200405004 000001  01600  01641              % 08489 RGTR--
+*I FD 220903008 200405004        0001911  01600  01641      % 08489 RGTR--
+220903008 Rodange, Gare                01600                % 08489 RGTR--
+220903018 Rodange, Raths        01601  01601                % 08489 RGTR--
+220901007 Lamadelaine, Route d  01601  01601                % 08489 RGTR--
+220902019 Pétange, Porte Lamad  01602  01602                % 08489 RGTR--
+220902004 Pétange, Cactus       01603  01603                % 08489 RGTR--
+220902021 Pétange, Rue des Rom  01604  01604                % 08489 RGTR--
+220902009 Pétange, Kierfecht    01606  01606                % 08489 RGTR--
+220902015 Pétange, Oberst Däss  01607  01607                % 08489 RGTR--
+220902018 Pétange, Prënzebierg  01607  01607                % 08489 RGTR--
+220203007 Niedercorn, Maison d  01608  01608                % 08489 RGTR--
+220203004 Niedercorn, Cité de   01609  01609                % 08489 RGTR--
+220203008 Niedercorn, Péitenge  01609  01609                % 08489 RGTR--
+220203011 Niedercorn, Schoul    01611  01611                % 08489 RGTR--
+220203012 Niedercorn, Suesseme  01612  01612                % 08489 RGTR--
+220203001 Niedercorn, Aale Sta  01612  01612                % 08489 RGTR--
+221303003 Sanem, Niederkuerers  01613  01613                % 08489 RGTR--
+200412018 Gasperich, Scharfen   01629 -01629                % 08489 RGTR--
+200412006 Gasperich, Cloche d'  01630 -01630                % 08489 RGTR--
+200412028 Gasperich, Stengege   01634 -01634                % 08489 RGTR--
+200412009 Gasperich, Gaasperec  01634 -01634                % 08489 RGTR--
+200415002 Hollerich, Assurance  01635  01635                % 08489 RGTR--
+200415005 Hollerich, Heentze P  01637 -01637                % 08489 RGTR--
+200403015 Belair, Rheinsheim    01639 -01639                % 08489 RGTR--
+200405004 Centre, Monterey Par  01641                       % 08489 RGTR--
+*Z 08490 RGTR--                                             % 08490 RGTR--
+*L 212      220903008 200405004  01700  01741               % 08490 RGTR--
+*A eb 220903008 200405004 000001  01700  01741              % 08490 RGTR--
+*R 2 200405004 220903008 200405004  01700  01741            % 08490 RGTR--
+*G RGB 220903008 200405004  01700  01741                    % 08490 RGTR--
+*A VE 220903008 200405004 000001  01700  01741              % 08490 RGTR--
+*I FD 220903008 200405004        0001913  01700  01741      % 08490 RGTR--
+220903008 Rodange, Gare                01700                % 08490 RGTR--
+220903018 Rodange, Raths        01701  01701                % 08490 RGTR--
+220901007 Lamadelaine, Route d  01701  01701                % 08490 RGTR--
+220902019 Pétange, Porte Lamad  01702  01702                % 08490 RGTR--
+220902004 Pétange, Cactus       01703  01703                % 08490 RGTR--
+220902021 Pétange, Rue des Rom  01704  01704                % 08490 RGTR--
+220902009 Pétange, Kierfecht    01706  01706                % 08490 RGTR--
+220902015 Pétange, Oberst Däss  01707  01707                % 08490 RGTR--
+220902018 Pétange, Prënzebierg  01707  01707                % 08490 RGTR--
+220203007 Niedercorn, Maison d  01708  01708                % 08490 RGTR--
+220203004 Niedercorn, Cité de   01709  01709                % 08490 RGTR--
+220203008 Niedercorn, Péitenge  01709  01709                % 08490 RGTR--
+220203011 Niedercorn, Schoul    01711  01711                % 08490 RGTR--
+220203012 Niedercorn, Suesseme  01712  01712                % 08490 RGTR--
+220203001 Niedercorn, Aale Sta  01712  01712                % 08490 RGTR--
+221303003 Sanem, Niederkuerers  01713  01713                % 08490 RGTR--
+200412018 Gasperich, Scharfen   01729 -01729                % 08490 RGTR--
+200412006 Gasperich, Cloche d'  01730 -01730                % 08490 RGTR--
+200412028 Gasperich, Stengege   01734 -01734                % 08490 RGTR--
+200412009 Gasperich, Gaasperec  01734 -01734                % 08490 RGTR--
+200415002 Hollerich, Assurance  01735  01735                % 08490 RGTR--
+200415005 Hollerich, Heentze P  01737 -01737                % 08490 RGTR--
+200403015 Belair, Rheinsheim    01739 -01739                % 08490 RGTR--
+200405004 Centre, Monterey Par  01741                       % 08490 RGTR--
+*Z 08491 RGTR--                                             % 08491 RGTR--
+*L 212      220903008 200405004  01800  01841               % 08491 RGTR--
+*A eb 220903008 200405004 000001  01800  01841              % 08491 RGTR--
+*R 2 200405004 220903008 200405004  01800  01841            % 08491 RGTR--
+*G RGB 220903008 200405004  01800  01841                    % 08491 RGTR--
+*A VE 220903008 200405004 000001  01800  01841              % 08491 RGTR--
+*I FD 220903008 200405004        0001916  01800  01841      % 08491 RGTR--
+220903008 Rodange, Gare                01800                % 08491 RGTR--
+220903018 Rodange, Raths        01801  01801                % 08491 RGTR--
+220901007 Lamadelaine, Route d  01801  01801                % 08491 RGTR--
+220902019 Pétange, Porte Lamad  01802  01802                % 08491 RGTR--
+220902004 Pétange, Cactus       01803  01803                % 08491 RGTR--
+220902021 Pétange, Rue des Rom  01804  01804                % 08491 RGTR--
+220902009 Pétange, Kierfecht    01806  01806                % 08491 RGTR--
+220902015 Pétange, Oberst Däss  01807  01807                % 08491 RGTR--
+220902018 Pétange, Prënzebierg  01807  01807                % 08491 RGTR--
+220203007 Niedercorn, Maison d  01808  01808                % 08491 RGTR--
+220203004 Niedercorn, Cité de   01809  01809                % 08491 RGTR--
+220203008 Niedercorn, Péitenge  01809  01809                % 08491 RGTR--
+220203011 Niedercorn, Schoul    01811  01811                % 08491 RGTR--
+220203012 Niedercorn, Suesseme  01812  01812                % 08491 RGTR--
+220203001 Niedercorn, Aale Sta  01812  01812                % 08491 RGTR--
+221303003 Sanem, Niederkuerers  01813  01813                % 08491 RGTR--
+200412018 Gasperich, Scharfen   01829 -01829                % 08491 RGTR--
+200412006 Gasperich, Cloche d'  01830 -01830                % 08491 RGTR--
+200412028 Gasperich, Stengege   01834 -01834                % 08491 RGTR--
+200412009 Gasperich, Gaasperec  01834 -01834                % 08491 RGTR--
+200415002 Hollerich, Assurance  01835  01835                % 08491 RGTR--
+200415005 Hollerich, Heentze P  01837 -01837                % 08491 RGTR--
+200403015 Belair, Rheinsheim    01839 -01839                % 08491 RGTR--
+200405004 Centre, Monterey Par  01841                       % 08491 RGTR--
+*Z 08492 RGTR--                                             % 08492 RGTR--
+*L 212      220903008 200405004  01900  01941               % 08492 RGTR--
+*A eb 220903008 200405004 000001  01900  01941              % 08492 RGTR--
+*R 2 200405004 220903008 200405004  01900  01941            % 08492 RGTR--
+*G RGB 220903008 200405004  01900  01941                    % 08492 RGTR--
+*A VE 220903008 200405004 000001  01900  01941              % 08492 RGTR--
+*I FD 220903008 200405004        0001918  01900  01941      % 08492 RGTR--
+220903008 Rodange, Gare                01900                % 08492 RGTR--
+220903018 Rodange, Raths        01901  01901                % 08492 RGTR--
+220901007 Lamadelaine, Route d  01901  01901                % 08492 RGTR--
+220902019 Pétange, Porte Lamad  01902  01902                % 08492 RGTR--
+220902004 Pétange, Cactus       01903  01903                % 08492 RGTR--
+220902021 Pétange, Rue des Rom  01904  01904                % 08492 RGTR--
+220902009 Pétange, Kierfecht    01906  01906                % 08492 RGTR--
+220902015 Pétange, Oberst Däss  01907  01907                % 08492 RGTR--
+220902018 Pétange, Prënzebierg  01907  01907                % 08492 RGTR--
+220203007 Niedercorn, Maison d  01908  01908                % 08492 RGTR--
+220203004 Niedercorn, Cité de   01909  01909                % 08492 RGTR--
+220203008 Niedercorn, Péitenge  01909  01909                % 08492 RGTR--
+220203011 Niedercorn, Schoul    01911  01911                % 08492 RGTR--
+220203012 Niedercorn, Suesseme  01912  01912                % 08492 RGTR--
+220203001 Niedercorn, Aale Sta  01912  01912                % 08492 RGTR--
+221303003 Sanem, Niederkuerers  01913  01913                % 08492 RGTR--
+200412018 Gasperich, Scharfen   01929 -01929                % 08492 RGTR--
+200412006 Gasperich, Cloche d'  01930 -01930                % 08492 RGTR--
+200412028 Gasperich, Stengege   01934 -01934                % 08492 RGTR--
+200412009 Gasperich, Gaasperec  01934 -01934                % 08492 RGTR--
+200415002 Hollerich, Assurance  01935  01935                % 08492 RGTR--
+200415005 Hollerich, Heentze P  01937 -01937                % 08492 RGTR--
+200403015 Belair, Rheinsheim    01939 -01939                % 08492 RGTR--
+200405004 Centre, Monterey Par  01941                       % 08492 RGTR--
+*Z 08493 RGTR--                                             % 08493 RGTR--
+*L 212      220903008 200405004  02000  02041               % 08493 RGTR--
+*A eb 220903008 200405004 000001  02000  02041              % 08493 RGTR--
+*R 2 200405004 220903008 200405004  02000  02041            % 08493 RGTR--
+*G RGB 220903008 200405004  02000  02041                    % 08493 RGTR--
+*A VE 220903008 200405004 000001  02000  02041              % 08493 RGTR--
+*I FD 220903008 200405004        0002398  02000  02041      % 08493 RGTR--
+220903008 Rodange, Gare                02000                % 08493 RGTR--
+220903018 Rodange, Raths        02001  02001                % 08493 RGTR--
+220901007 Lamadelaine, Route d  02001  02001                % 08493 RGTR--
+220902019 Pétange, Porte Lamad  02002  02002                % 08493 RGTR--
+220902004 Pétange, Cactus       02003  02003                % 08493 RGTR--
+220902021 Pétange, Rue des Rom  02004  02004                % 08493 RGTR--
+220902009 Pétange, Kierfecht    02006  02006                % 08493 RGTR--
+220902015 Pétange, Oberst Däss  02007  02007                % 08493 RGTR--
+220902018 Pétange, Prënzebierg  02007  02007                % 08493 RGTR--
+220203007 Niedercorn, Maison d  02008  02008                % 08493 RGTR--
+220203004 Niedercorn, Cité de   02009  02009                % 08493 RGTR--
+220203008 Niedercorn, Péitenge  02009  02009                % 08493 RGTR--
+220203011 Niedercorn, Schoul    02011  02011                % 08493 RGTR--
+220203012 Niedercorn, Suesseme  02012  02012                % 08493 RGTR--
+220203001 Niedercorn, Aale Sta  02012  02012                % 08493 RGTR--
+221303003 Sanem, Niederkuerers  02013  02013                % 08493 RGTR--
+200412018 Gasperich, Scharfen   02029 -02029                % 08493 RGTR--
+200412006 Gasperich, Cloche d'  02030 -02030                % 08493 RGTR--
+200412028 Gasperich, Stengege   02034 -02034                % 08493 RGTR--
+200412009 Gasperich, Gaasperec  02034 -02034                % 08493 RGTR--
+200415002 Hollerich, Assurance  02035  02035                % 08493 RGTR--
+200415005 Hollerich, Heentze P  02037 -02037                % 08493 RGTR--
+200403015 Belair, Rheinsheim    02039 -02039                % 08493 RGTR--
+200405004 Centre, Monterey Par  02041                       % 08493 RGTR--
+*Z 08494 RGTR--                                             % 08494 RGTR--
+*L 212      220903008 200405004  02100  02141               % 08494 RGTR--
+*A eb 220903008 200405004 000001  02100  02141              % 08494 RGTR--
+*R 2 200405004 220903008 200405004  02100  02141            % 08494 RGTR--
+*G RGB 220903008 200405004  02100  02141                    % 08494 RGTR--
+*A VE 220903008 200405004 000001  02100  02141              % 08494 RGTR--
+*I FD 220903008 200405004        0002488  02100  02141      % 08494 RGTR--
+220903008 Rodange, Gare                02100                % 08494 RGTR--
+220903018 Rodange, Raths        02101  02101                % 08494 RGTR--
+220901007 Lamadelaine, Route d  02101  02101                % 08494 RGTR--
+220902019 Pétange, Porte Lamad  02102  02102                % 08494 RGTR--
+220902004 Pétange, Cactus       02103  02103                % 08494 RGTR--
+220902021 Pétange, Rue des Rom  02104  02104                % 08494 RGTR--
+220902009 Pétange, Kierfecht    02106  02106                % 08494 RGTR--
+220902015 Pétange, Oberst Däss  02107  02107                % 08494 RGTR--
+220902018 Pétange, Prënzebierg  02107  02107                % 08494 RGTR--
+220203007 Niedercorn, Maison d  02108  02108                % 08494 RGTR--
+220203004 Niedercorn, Cité de   02109  02109                % 08494 RGTR--
+220203008 Niedercorn, Péitenge  02109  02109                % 08494 RGTR--
+220203011 Niedercorn, Schoul    02111  02111                % 08494 RGTR--
+220203012 Niedercorn, Suesseme  02112  02112                % 08494 RGTR--
+220203001 Niedercorn, Aale Sta  02112  02112                % 08494 RGTR--
+221303003 Sanem, Niederkuerers  02113  02113                % 08494 RGTR--
+200412018 Gasperich, Scharfen   02129 -02129                % 08494 RGTR--
+200412006 Gasperich, Cloche d'  02130 -02130                % 08494 RGTR--
+200412028 Gasperich, Stengege   02134 -02134                % 08494 RGTR--
+200412009 Gasperich, Gaasperec  02134 -02134                % 08494 RGTR--
+200415002 Hollerich, Assurance  02135  02135                % 08494 RGTR--
+200415005 Hollerich, Heentze P  02137 -02137                % 08494 RGTR--
+200403015 Belair, Rheinsheim    02139 -02139                % 08494 RGTR--
+200405004 Centre, Monterey Par  02141                       % 08494 RGTR--
+*Z 08495 RGTR--                                             % 08495 RGTR--
+*L 212      220903008 200405004  02200  02241               % 08495 RGTR--
+*A eb 220903008 200405004 000001  02200  02241              % 08495 RGTR--
+*R 2 200405004 220903008 200405004  02200  02241            % 08495 RGTR--
+*G RGB 220903008 200405004  02200  02241                    % 08495 RGTR--
+*A VE 220903008 200405004 000001  02200  02241              % 08495 RGTR--
+*I FD 220903008 200405004        0002489  02200  02241      % 08495 RGTR--
+220903008 Rodange, Gare                02200                % 08495 RGTR--
+220903018 Rodange, Raths        02201  02201                % 08495 RGTR--
+220901007 Lamadelaine, Route d  02201  02201                % 08495 RGTR--
+220902019 Pétange, Porte Lamad  02202  02202                % 08495 RGTR--
+220902004 Pétange, Cactus       02203  02203                % 08495 RGTR--
+220902021 Pétange, Rue des Rom  02204  02204                % 08495 RGTR--
+220902009 Pétange, Kierfecht    02206  02206                % 08495 RGTR--
+220902015 Pétange, Oberst Däss  02207  02207                % 08495 RGTR--
+220902018 Pétange, Prënzebierg  02207  02207                % 08495 RGTR--
+220203007 Niedercorn, Maison d  02208  02208                % 08495 RGTR--
+220203004 Niedercorn, Cité de   02209  02209                % 08495 RGTR--
+220203008 Niedercorn, Péitenge  02209  02209                % 08495 RGTR--
+220203011 Niedercorn, Schoul    02211  02211                % 08495 RGTR--
+220203012 Niedercorn, Suesseme  02212  02212                % 08495 RGTR--
+220203001 Niedercorn, Aale Sta  02212  02212                % 08495 RGTR--
+221303003 Sanem, Niederkuerers  02213  02213                % 08495 RGTR--
+200412018 Gasperich, Scharfen   02229 -02229                % 08495 RGTR--
+200412006 Gasperich, Cloche d'  02230 -02230                % 08495 RGTR--
+200412028 Gasperich, Stengege   02234 -02234                % 08495 RGTR--
+200412009 Gasperich, Gaasperec  02234 -02234                % 08495 RGTR--
+200415002 Hollerich, Assurance  02235  02235                % 08495 RGTR--
+200415005 Hollerich, Heentze P  02237 -02237                % 08495 RGTR--
+200403015 Belair, Rheinsheim    02239 -02239                % 08495 RGTR--
+200405004 Centre, Monterey Par  02241                       % 08495 RGTR--
+*Z 08496 RGTR--                                             % 08496 RGTR--
+*L 212      220903008 200405004  00530  00611               % 08496 RGTR--
+*A eb 220903008 200405004 000002  00530  00611              % 08496 RGTR--
+*A RO 220903008 200405004 000002  00530  00611              % 08496 RGTR--
+*R 2 200405004 220903008 200405004  00530  00611            % 08496 RGTR--
+*G RGB 220903008 200405004  00530  00611                    % 08496 RGTR--
+*A VE 220903008 200405004 000002  00530  00611              % 08496 RGTR--
+*I FD 220903008 200405004        0002187  00530  00611      % 08496 RGTR--
+220903008 Rodange, Gare                00530                % 08496 RGTR--
+220903018 Rodange, Raths        00531  00531                % 08496 RGTR--
+220901007 Lamadelaine, Route d  00531  00531                % 08496 RGTR--
+220902019 Pétange, Porte Lamad  00532  00532                % 08496 RGTR--
+220902004 Pétange, Cactus       00533  00533                % 08496 RGTR--
+220902021 Pétange, Rue des Rom  00534  00534                % 08496 RGTR--
+220902009 Pétange, Kierfecht    00536  00536                % 08496 RGTR--
+220902015 Pétange, Oberst Däss  00537  00537                % 08496 RGTR--
+220902018 Pétange, Prënzebierg  00537  00537                % 08496 RGTR--
+220203007 Niedercorn, Maison d  00538  00538                % 08496 RGTR--
+220203004 Niedercorn, Cité de   00539  00539                % 08496 RGTR--
+220203008 Niedercorn, Péitenge  00539  00539                % 08496 RGTR--
+220203011 Niedercorn, Schoul    00541  00541                % 08496 RGTR--
+220203012 Niedercorn, Suesseme  00542  00542                % 08496 RGTR--
+220203001 Niedercorn, Aale Sta  00542  00542                % 08496 RGTR--
+221303003 Sanem, Niederkuerers  00543  00543                % 08496 RGTR--
+200412018 Gasperich, Scharfen   00559 -00559                % 08496 RGTR--
+200412006 Gasperich, Cloche d'  00600 -00600                % 08496 RGTR--
+200412028 Gasperich, Stengege   00604 -00604                % 08496 RGTR--
+200412009 Gasperich, Gaasperec  00604 -00604                % 08496 RGTR--
+200415002 Hollerich, Assurance  00605  00605                % 08496 RGTR--
+200415005 Hollerich, Heentze P  00607 -00607                % 08496 RGTR--
+200403015 Belair, Rheinsheim    00609 -00609                % 08496 RGTR--
+200405004 Centre, Monterey Par  00611                       % 08496 RGTR--
+*Z 08497 RGTR--                                             % 08497 RGTR--
+*L 212      220903008 200405004  00615  00656               % 08497 RGTR--
+*A eb 220903008 200405004 000002  00615  00656              % 08497 RGTR--
+*R 2 200405004 220903008 200405004  00615  00656            % 08497 RGTR--
+*G RGB 220903008 200405004  00615  00656                    % 08497 RGTR--
+*A VE 220903008 200405004 000002  00615  00656              % 08497 RGTR--
+*I FD 220903008 200405004        0002477  00615  00656      % 08497 RGTR--
+220903008 Rodange, Gare                00615                % 08497 RGTR--
+220903018 Rodange, Raths        00616  00616                % 08497 RGTR--
+220901007 Lamadelaine, Route d  00616  00616                % 08497 RGTR--
+220902019 Pétange, Porte Lamad  00617  00617                % 08497 RGTR--
+220902004 Pétange, Cactus       00618  00618                % 08497 RGTR--
+220902021 Pétange, Rue des Rom  00619  00619                % 08497 RGTR--
+220902009 Pétange, Kierfecht    00621  00621                % 08497 RGTR--
+220902015 Pétange, Oberst Däss  00622  00622                % 08497 RGTR--
+220902018 Pétange, Prënzebierg  00622  00622                % 08497 RGTR--
+220203007 Niedercorn, Maison d  00623  00623                % 08497 RGTR--
+220203004 Niedercorn, Cité de   00624  00624                % 08497 RGTR--
+220203008 Niedercorn, Péitenge  00624  00624                % 08497 RGTR--
+220203011 Niedercorn, Schoul    00626  00626                % 08497 RGTR--
+220203012 Niedercorn, Suesseme  00627  00627                % 08497 RGTR--
+220203001 Niedercorn, Aale Sta  00627  00627                % 08497 RGTR--
+221303003 Sanem, Niederkuerers  00628  00628                % 08497 RGTR--
+200412018 Gasperich, Scharfen   00644 -00644                % 08497 RGTR--
+200412006 Gasperich, Cloche d'  00645 -00645                % 08497 RGTR--
+200412028 Gasperich, Stengege   00649 -00649                % 08497 RGTR--
+200412009 Gasperich, Gaasperec  00649 -00649                % 08497 RGTR--
+200415002 Hollerich, Assurance  00650  00650                % 08497 RGTR--
+200415005 Hollerich, Heentze P  00652 -00652                % 08497 RGTR--
+200403015 Belair, Rheinsheim    00654 -00654                % 08497 RGTR--
+200405004 Centre, Monterey Par  00656                       % 08497 RGTR--
+*Z 08498 RGTR--                                             % 08498 RGTR--
+*L 212      220903008 200405004  00930  01011               % 08498 RGTR--
+*A eb 220903008 200405004 000002  00930  01011              % 08498 RGTR--
+*R 2 200405004 220903008 200405004  00930  01011            % 08498 RGTR--
+*G RGB 220903008 200405004  00930  01011                    % 08498 RGTR--
+*A VE 220903008 200405004 000002  00930  01011              % 08498 RGTR--
+*I FD 220903008 200405004        0000947  00930  01011      % 08498 RGTR--
+220903008 Rodange, Gare                00930                % 08498 RGTR--
+220903018 Rodange, Raths        00931  00931                % 08498 RGTR--
+220901007 Lamadelaine, Route d  00931  00931                % 08498 RGTR--
+220902019 Pétange, Porte Lamad  00932  00932                % 08498 RGTR--
+220902004 Pétange, Cactus       00933  00933                % 08498 RGTR--
+220902021 Pétange, Rue des Rom  00934  00934                % 08498 RGTR--
+220902009 Pétange, Kierfecht    00936  00936                % 08498 RGTR--
+220902015 Pétange, Oberst Däss  00937  00937                % 08498 RGTR--
+220902018 Pétange, Prënzebierg  00937  00937                % 08498 RGTR--
+220203007 Niedercorn, Maison d  00938  00938                % 08498 RGTR--
+220203004 Niedercorn, Cité de   00939  00939                % 08498 RGTR--
+220203008 Niedercorn, Péitenge  00939  00939                % 08498 RGTR--
+220203011 Niedercorn, Schoul    00941  00941                % 08498 RGTR--
+220203012 Niedercorn, Suesseme  00942  00942                % 08498 RGTR--
+220203001 Niedercorn, Aale Sta  00942  00942                % 08498 RGTR--
+221303003 Sanem, Niederkuerers  00943  00943                % 08498 RGTR--
+200412018 Gasperich, Scharfen   00959 -00959                % 08498 RGTR--
+200412006 Gasperich, Cloche d'  01000 -01000                % 08498 RGTR--
+200412028 Gasperich, Stengege   01004 -01004                % 08498 RGTR--
+200412009 Gasperich, Gaasperec  01004 -01004                % 08498 RGTR--
+200415002 Hollerich, Assurance  01005  01005                % 08498 RGTR--
+200415005 Hollerich, Heentze P  01007 -01007                % 08498 RGTR--
+200403015 Belair, Rheinsheim    01009 -01009                % 08498 RGTR--
+200405004 Centre, Monterey Par  01011                       % 08498 RGTR--
+*Z 08499 RGTR--                                             % 08499 RGTR--
+*L 212      220903008 200405004  01030  01111               % 08499 RGTR--
+*A eb 220903008 200405004 000002  01030  01111              % 08499 RGTR--
+*R 2 200405004 220903008 200405004  01030  01111            % 08499 RGTR--
+*G RGB 220903008 200405004  01030  01111                    % 08499 RGTR--
+*A VE 220903008 200405004 000002  01030  01111              % 08499 RGTR--
+*I FD 220903008 200405004        0002558  01030  01111      % 08499 RGTR--
+220903008 Rodange, Gare                01030                % 08499 RGTR--
+220903018 Rodange, Raths        01031  01031                % 08499 RGTR--
+220901007 Lamadelaine, Route d  01031  01031                % 08499 RGTR--
+220902019 Pétange, Porte Lamad  01032  01032                % 08499 RGTR--
+220902004 Pétange, Cactus       01033  01033                % 08499 RGTR--
+220902021 Pétange, Rue des Rom  01034  01034                % 08499 RGTR--
+220902009 Pétange, Kierfecht    01036  01036                % 08499 RGTR--
+220902015 Pétange, Oberst Däss  01037  01037                % 08499 RGTR--
+220902018 Pétange, Prënzebierg  01037  01037                % 08499 RGTR--
+220203007 Niedercorn, Maison d  01038  01038                % 08499 RGTR--
+220203004 Niedercorn, Cité de   01039  01039                % 08499 RGTR--
+220203008 Niedercorn, Péitenge  01039  01039                % 08499 RGTR--
+220203011 Niedercorn, Schoul    01041  01041                % 08499 RGTR--
+220203012 Niedercorn, Suesseme  01042  01042                % 08499 RGTR--
+220203001 Niedercorn, Aale Sta  01042  01042                % 08499 RGTR--
+221303003 Sanem, Niederkuerers  01043  01043                % 08499 RGTR--
+200412018 Gasperich, Scharfen   01059 -01059                % 08499 RGTR--
+200412006 Gasperich, Cloche d'  01100 -01100                % 08499 RGTR--
+200412028 Gasperich, Stengege   01104 -01104                % 08499 RGTR--
+200412009 Gasperich, Gaasperec  01104 -01104                % 08499 RGTR--
+200415002 Hollerich, Assurance  01105  01105                % 08499 RGTR--
+200415005 Hollerich, Heentze P  01107 -01107                % 08499 RGTR--
+200403015 Belair, Rheinsheim    01109 -01109                % 08499 RGTR--
+200405004 Centre, Monterey Par  01111                       % 08499 RGTR--
+*Z 08500 RGTR--                                             % 08500 RGTR--
+*L 212      220903008 200405004  01130  01211               % 08500 RGTR--
+*A eb 220903008 200405004 000002  01130  01211              % 08500 RGTR--
+*R 2 200405004 220903008 200405004  01130  01211            % 08500 RGTR--
+*G RGB 220903008 200405004  01130  01211                    % 08500 RGTR--
+*A VE 220903008 200405004 000002  01130  01211              % 08500 RGTR--
+*I FD 220903008 200405004        0002743  01130  01211      % 08500 RGTR--
+220903008 Rodange, Gare                01130                % 08500 RGTR--
+220903018 Rodange, Raths        01131  01131                % 08500 RGTR--
+220901007 Lamadelaine, Route d  01131  01131                % 08500 RGTR--
+220902019 Pétange, Porte Lamad  01132  01132                % 08500 RGTR--
+220902004 Pétange, Cactus       01133  01133                % 08500 RGTR--
+220902021 Pétange, Rue des Rom  01134  01134                % 08500 RGTR--
+220902009 Pétange, Kierfecht    01136  01136                % 08500 RGTR--
+220902015 Pétange, Oberst Däss  01137  01137                % 08500 RGTR--
+220902018 Pétange, Prënzebierg  01137  01137                % 08500 RGTR--
+220203007 Niedercorn, Maison d  01138  01138                % 08500 RGTR--
+220203004 Niedercorn, Cité de   01139  01139                % 08500 RGTR--
+220203008 Niedercorn, Péitenge  01139  01139                % 08500 RGTR--
+220203011 Niedercorn, Schoul    01141  01141                % 08500 RGTR--
+220203012 Niedercorn, Suesseme  01142  01142                % 08500 RGTR--
+220203001 Niedercorn, Aale Sta  01142  01142                % 08500 RGTR--
+221303003 Sanem, Niederkuerers  01143  01143                % 08500 RGTR--
+200412018 Gasperich, Scharfen   01159 -01159                % 08500 RGTR--
+200412006 Gasperich, Cloche d'  01200 -01200                % 08500 RGTR--
+200412028 Gasperich, Stengege   01204 -01204                % 08500 RGTR--
+200412009 Gasperich, Gaasperec  01204 -01204                % 08500 RGTR--
+200415002 Hollerich, Assurance  01205  01205                % 08500 RGTR--
+200415005 Hollerich, Heentze P  01207 -01207                % 08500 RGTR--
+200403015 Belair, Rheinsheim    01209 -01209                % 08500 RGTR--
+200405004 Centre, Monterey Par  01211                       % 08500 RGTR--
+*Z 08501 RGTR--                                             % 08501 RGTR--
+*L 212      220903008 200405004  01230  01311               % 08501 RGTR--
+*A eb 220903008 200405004 000002  01230  01311              % 08501 RGTR--
+*R 2 200405004 220903008 200405004  01230  01311            % 08501 RGTR--
+*G RGB 220903008 200405004  01230  01311                    % 08501 RGTR--
+*A VE 220903008 200405004 000002  01230  01311              % 08501 RGTR--
+*I FD 220903008 200405004        0001098  01230  01311      % 08501 RGTR--
+220903008 Rodange, Gare                01230                % 08501 RGTR--
+220903018 Rodange, Raths        01231  01231                % 08501 RGTR--
+220901007 Lamadelaine, Route d  01231  01231                % 08501 RGTR--
+220902019 Pétange, Porte Lamad  01232  01232                % 08501 RGTR--
+220902004 Pétange, Cactus       01233  01233                % 08501 RGTR--
+220902021 Pétange, Rue des Rom  01234  01234                % 08501 RGTR--
+220902009 Pétange, Kierfecht    01236  01236                % 08501 RGTR--
+220902015 Pétange, Oberst Däss  01237  01237                % 08501 RGTR--
+220902018 Pétange, Prënzebierg  01237  01237                % 08501 RGTR--
+220203007 Niedercorn, Maison d  01238  01238                % 08501 RGTR--
+220203004 Niedercorn, Cité de   01239  01239                % 08501 RGTR--
+220203008 Niedercorn, Péitenge  01239  01239                % 08501 RGTR--
+220203011 Niedercorn, Schoul    01241  01241                % 08501 RGTR--
+220203012 Niedercorn, Suesseme  01242  01242                % 08501 RGTR--
+220203001 Niedercorn, Aale Sta  01242  01242                % 08501 RGTR--
+221303003 Sanem, Niederkuerers  01243  01243                % 08501 RGTR--
+200412018 Gasperich, Scharfen   01259 -01259                % 08501 RGTR--
+200412006 Gasperich, Cloche d'  01300 -01300                % 08501 RGTR--
+200412028 Gasperich, Stengege   01304 -01304                % 08501 RGTR--
+200412009 Gasperich, Gaasperec  01304 -01304                % 08501 RGTR--
+200415002 Hollerich, Assurance  01305  01305                % 08501 RGTR--
+200415005 Hollerich, Heentze P  01307 -01307                % 08501 RGTR--
+200403015 Belair, Rheinsheim    01309 -01309                % 08501 RGTR--
+200405004 Centre, Monterey Par  01311                       % 08501 RGTR--
+*Z 08502 RGTR--                                             % 08502 RGTR--
+*L 212      220903008 200405004  01330  01411               % 08502 RGTR--
+*A eb 220903008 200405004 000002  01330  01411              % 08502 RGTR--
+*R 2 200405004 220903008 200405004  01330  01411            % 08502 RGTR--
+*G RGB 220903008 200405004  01330  01411                    % 08502 RGTR--
+*A VE 220903008 200405004 000002  01330  01411              % 08502 RGTR--
+*I FD 220903008 200405004        0002744  01330  01411      % 08502 RGTR--
+220903008 Rodange, Gare                01330                % 08502 RGTR--
+220903018 Rodange, Raths        01331  01331                % 08502 RGTR--
+220901007 Lamadelaine, Route d  01331  01331                % 08502 RGTR--
+220902019 Pétange, Porte Lamad  01332  01332                % 08502 RGTR--
+220902004 Pétange, Cactus       01333  01333                % 08502 RGTR--
+220902021 Pétange, Rue des Rom  01334  01334                % 08502 RGTR--
+220902009 Pétange, Kierfecht    01336  01336                % 08502 RGTR--
+220902015 Pétange, Oberst Däss  01337  01337                % 08502 RGTR--
+220902018 Pétange, Prënzebierg  01337  01337                % 08502 RGTR--
+220203007 Niedercorn, Maison d  01338  01338                % 08502 RGTR--
+220203004 Niedercorn, Cité de   01339  01339                % 08502 RGTR--
+220203008 Niedercorn, Péitenge  01339  01339                % 08502 RGTR--
+220203011 Niedercorn, Schoul    01341  01341                % 08502 RGTR--
+220203012 Niedercorn, Suesseme  01342  01342                % 08502 RGTR--
+220203001 Niedercorn, Aale Sta  01342  01342                % 08502 RGTR--
+221303003 Sanem, Niederkuerers  01343  01343                % 08502 RGTR--
+200412018 Gasperich, Scharfen   01359 -01359                % 08502 RGTR--
+200412006 Gasperich, Cloche d'  01400 -01400                % 08502 RGTR--
+200412028 Gasperich, Stengege   01404 -01404                % 08502 RGTR--
+200412009 Gasperich, Gaasperec  01404 -01404                % 08502 RGTR--
+200415002 Hollerich, Assurance  01405  01405                % 08502 RGTR--
+200415005 Hollerich, Heentze P  01407 -01407                % 08502 RGTR--
+200403015 Belair, Rheinsheim    01409 -01409                % 08502 RGTR--
+200405004 Centre, Monterey Par  01411                       % 08502 RGTR--
+*Z 08503 RGTR--                                             % 08503 RGTR--
+*L 212      220903008 200405004  01430  01511               % 08503 RGTR--
+*A eb 220903008 200405004 000002  01430  01511              % 08503 RGTR--
+*R 2 200405004 220903008 200405004  01430  01511            % 08503 RGTR--
+*G RGB 220903008 200405004  01430  01511                    % 08503 RGTR--
+*A VE 220903008 200405004 000002  01430  01511              % 08503 RGTR--
+*I FD 220903008 200405004        0002745  01430  01511      % 08503 RGTR--
+220903008 Rodange, Gare                01430                % 08503 RGTR--
+220903018 Rodange, Raths        01431  01431                % 08503 RGTR--
+220901007 Lamadelaine, Route d  01431  01431                % 08503 RGTR--
+220902019 Pétange, Porte Lamad  01432  01432                % 08503 RGTR--
+220902004 Pétange, Cactus       01433  01433                % 08503 RGTR--
+220902021 Pétange, Rue des Rom  01434  01434                % 08503 RGTR--
+220902009 Pétange, Kierfecht    01436  01436                % 08503 RGTR--
+220902015 Pétange, Oberst Däss  01437  01437                % 08503 RGTR--
+220902018 Pétange, Prënzebierg  01437  01437                % 08503 RGTR--
+220203007 Niedercorn, Maison d  01438  01438                % 08503 RGTR--
+220203004 Niedercorn, Cité de   01439  01439                % 08503 RGTR--
+220203008 Niedercorn, Péitenge  01439  01439                % 08503 RGTR--
+220203011 Niedercorn, Schoul    01441  01441                % 08503 RGTR--
+220203012 Niedercorn, Suesseme  01442  01442                % 08503 RGTR--
+220203001 Niedercorn, Aale Sta  01442  01442                % 08503 RGTR--
+221303003 Sanem, Niederkuerers  01443  01443                % 08503 RGTR--
+200412018 Gasperich, Scharfen   01459 -01459                % 08503 RGTR--
+200412006 Gasperich, Cloche d'  01500 -01500                % 08503 RGTR--
+200412028 Gasperich, Stengege   01504 -01504                % 08503 RGTR--
+200412009 Gasperich, Gaasperec  01504 -01504                % 08503 RGTR--
+200415002 Hollerich, Assurance  01505  01505                % 08503 RGTR--
+200415005 Hollerich, Heentze P  01507 -01507                % 08503 RGTR--
+200403015 Belair, Rheinsheim    01509 -01509                % 08503 RGTR--
+200405004 Centre, Monterey Par  01511                       % 08503 RGTR--
+*Z 08504 RGTR--                                             % 08504 RGTR--
+*L 212      220903008 200405004  01530  01611               % 08504 RGTR--
+*A eb 220903008 200405004 000002  01530  01611              % 08504 RGTR--
+*R 2 200405004 220903008 200405004  01530  01611            % 08504 RGTR--
+*G RGB 220903008 200405004  01530  01611                    % 08504 RGTR--
+*A VE 220903008 200405004 000002  01530  01611              % 08504 RGTR--
+*I FD 220903008 200405004        0002746  01530  01611      % 08504 RGTR--
+220903008 Rodange, Gare                01530                % 08504 RGTR--
+220903018 Rodange, Raths        01531  01531                % 08504 RGTR--
+220901007 Lamadelaine, Route d  01531  01531                % 08504 RGTR--
+220902019 Pétange, Porte Lamad  01532  01532                % 08504 RGTR--
+220902004 Pétange, Cactus       01533  01533                % 08504 RGTR--
+220902021 Pétange, Rue des Rom  01534  01534                % 08504 RGTR--
+220902009 Pétange, Kierfecht    01536  01536                % 08504 RGTR--
+220902015 Pétange, Oberst Däss  01537  01537                % 08504 RGTR--
+220902018 Pétange, Prënzebierg  01537  01537                % 08504 RGTR--
+220203007 Niedercorn, Maison d  01538  01538                % 08504 RGTR--
+220203004 Niedercorn, Cité de   01539  01539                % 08504 RGTR--
+220203008 Niedercorn, Péitenge  01539  01539                % 08504 RGTR--
+220203011 Niedercorn, Schoul    01541  01541                % 08504 RGTR--
+220203012 Niedercorn, Suesseme  01542  01542                % 08504 RGTR--
+220203001 Niedercorn, Aale Sta  01542  01542                % 08504 RGTR--
+221303003 Sanem, Niederkuerers  01543  01543                % 08504 RGTR--
+200412018 Gasperich, Scharfen   01559 -01559                % 08504 RGTR--
+200412006 Gasperich, Cloche d'  01600 -01600                % 08504 RGTR--
+200412028 Gasperich, Stengege   01604 -01604                % 08504 RGTR--
+200412009 Gasperich, Gaasperec  01604 -01604                % 08504 RGTR--
+200415002 Hollerich, Assurance  01605  01605                % 08504 RGTR--
+200415005 Hollerich, Heentze P  01607 -01607                % 08504 RGTR--
+200403015 Belair, Rheinsheim    01609 -01609                % 08504 RGTR--
+200405004 Centre, Monterey Par  01611                       % 08504 RGTR--
+*Z 08505 RGTR--                                             % 08505 RGTR--
+*L 212      220903008 200405004  01630  01711               % 08505 RGTR--
+*A eb 220903008 200405004 000002  01630  01711              % 08505 RGTR--
+*R 2 200405004 220903008 200405004  01630  01711            % 08505 RGTR--
+*G RGB 220903008 200405004  01630  01711                    % 08505 RGTR--
+*A VE 220903008 200405004 000002  01630  01711              % 08505 RGTR--
+*I FD 220903008 200405004        0001997  01630  01711      % 08505 RGTR--
+220903008 Rodange, Gare                01630                % 08505 RGTR--
+220903018 Rodange, Raths        01631  01631                % 08505 RGTR--
+220901007 Lamadelaine, Route d  01631  01631                % 08505 RGTR--
+220902019 Pétange, Porte Lamad  01632  01632                % 08505 RGTR--
+220902004 Pétange, Cactus       01633  01633                % 08505 RGTR--
+220902021 Pétange, Rue des Rom  01634  01634                % 08505 RGTR--
+220902009 Pétange, Kierfecht    01636  01636                % 08505 RGTR--
+220902015 Pétange, Oberst Däss  01637  01637                % 08505 RGTR--
+220902018 Pétange, Prënzebierg  01637  01637                % 08505 RGTR--
+220203007 Niedercorn, Maison d  01638  01638                % 08505 RGTR--
+220203004 Niedercorn, Cité de   01639  01639                % 08505 RGTR--
+220203008 Niedercorn, Péitenge  01639  01639                % 08505 RGTR--
+220203011 Niedercorn, Schoul    01641  01641                % 08505 RGTR--
+220203012 Niedercorn, Suesseme  01642  01642                % 08505 RGTR--
+220203001 Niedercorn, Aale Sta  01642  01642                % 08505 RGTR--
+221303003 Sanem, Niederkuerers  01643  01643                % 08505 RGTR--
+200412018 Gasperich, Scharfen   01659 -01659                % 08505 RGTR--
+200412006 Gasperich, Cloche d'  01700 -01700                % 08505 RGTR--
+200412028 Gasperich, Stengege   01704 -01704                % 08505 RGTR--
+200412009 Gasperich, Gaasperec  01704 -01704                % 08505 RGTR--
+200415002 Hollerich, Assurance  01705  01705                % 08505 RGTR--
+200415005 Hollerich, Heentze P  01707 -01707                % 08505 RGTR--
+200403015 Belair, Rheinsheim    01709 -01709                % 08505 RGTR--
+200405004 Centre, Monterey Par  01711                       % 08505 RGTR--
+*Z 08506 RGTR--                                             % 08506 RGTR--
+*L 212      220903008 200405004  01730  01811               % 08506 RGTR--
+*A eb 220903008 200405004 000002  01730  01811              % 08506 RGTR--
+*R 2 200405004 220903008 200405004  01730  01811            % 08506 RGTR--
+*G RGB 220903008 200405004  01730  01811                    % 08506 RGTR--
+*A VE 220903008 200405004 000002  01730  01811              % 08506 RGTR--
+*I FD 220903008 200405004        0001998  01730  01811      % 08506 RGTR--
+220903008 Rodange, Gare                01730                % 08506 RGTR--
+220903018 Rodange, Raths        01731  01731                % 08506 RGTR--
+220901007 Lamadelaine, Route d  01731  01731                % 08506 RGTR--
+220902019 Pétange, Porte Lamad  01732  01732                % 08506 RGTR--
+220902004 Pétange, Cactus       01733  01733                % 08506 RGTR--
+220902021 Pétange, Rue des Rom  01734  01734                % 08506 RGTR--
+220902009 Pétange, Kierfecht    01736  01736                % 08506 RGTR--
+220902015 Pétange, Oberst Däss  01737  01737                % 08506 RGTR--
+220902018 Pétange, Prënzebierg  01737  01737                % 08506 RGTR--
+220203007 Niedercorn, Maison d  01738  01738                % 08506 RGTR--
+220203004 Niedercorn, Cité de   01739  01739                % 08506 RGTR--
+220203008 Niedercorn, Péitenge  01739  01739                % 08506 RGTR--
+220203011 Niedercorn, Schoul    01741  01741                % 08506 RGTR--
+220203012 Niedercorn, Suesseme  01742  01742                % 08506 RGTR--
+220203001 Niedercorn, Aale Sta  01742  01742                % 08506 RGTR--
+221303003 Sanem, Niederkuerers  01743  01743                % 08506 RGTR--
+200412018 Gasperich, Scharfen   01759 -01759                % 08506 RGTR--
+200412006 Gasperich, Cloche d'  01800 -01800                % 08506 RGTR--
+200412028 Gasperich, Stengege   01804 -01804                % 08506 RGTR--
+200412009 Gasperich, Gaasperec  01804 -01804                % 08506 RGTR--
+200415002 Hollerich, Assurance  01805  01805                % 08506 RGTR--
+200415005 Hollerich, Heentze P  01807 -01807                % 08506 RGTR--
+200403015 Belair, Rheinsheim    01809 -01809                % 08506 RGTR--
+200405004 Centre, Monterey Par  01811                       % 08506 RGTR--
+*Z 08507 RGTR--                                             % 08507 RGTR--
+*L 212      220903008 200405004  01830  01911               % 08507 RGTR--
+*A eb 220903008 200405004 000002  01830  01911              % 08507 RGTR--
+*R 2 200405004 220903008 200405004  01830  01911            % 08507 RGTR--
+*G RGB 220903008 200405004  01830  01911                    % 08507 RGTR--
+*A VE 220903008 200405004 000002  01830  01911              % 08507 RGTR--
+*I FD 220903008 200405004        0002747  01830  01911      % 08507 RGTR--
+220903008 Rodange, Gare                01830                % 08507 RGTR--
+220903018 Rodange, Raths        01831  01831                % 08507 RGTR--
+220901007 Lamadelaine, Route d  01831  01831                % 08507 RGTR--
+220902019 Pétange, Porte Lamad  01832  01832                % 08507 RGTR--
+220902004 Pétange, Cactus       01833  01833                % 08507 RGTR--
+220902021 Pétange, Rue des Rom  01834  01834                % 08507 RGTR--
+220902009 Pétange, Kierfecht    01836  01836                % 08507 RGTR--
+220902015 Pétange, Oberst Däss  01837  01837                % 08507 RGTR--
+220902018 Pétange, Prënzebierg  01837  01837                % 08507 RGTR--
+220203007 Niedercorn, Maison d  01838  01838                % 08507 RGTR--
+220203004 Niedercorn, Cité de   01839  01839                % 08507 RGTR--
+220203008 Niedercorn, Péitenge  01839  01839                % 08507 RGTR--
+220203011 Niedercorn, Schoul    01841  01841                % 08507 RGTR--
+220203012 Niedercorn, Suesseme  01842  01842                % 08507 RGTR--
+220203001 Niedercorn, Aale Sta  01842  01842                % 08507 RGTR--
+221303003 Sanem, Niederkuerers  01843  01843                % 08507 RGTR--
+200412018 Gasperich, Scharfen   01859 -01859                % 08507 RGTR--
+200412006 Gasperich, Cloche d'  01900 -01900                % 08507 RGTR--
+200412028 Gasperich, Stengege   01904 -01904                % 08507 RGTR--
+200412009 Gasperich, Gaasperec  01904 -01904                % 08507 RGTR--
+200415002 Hollerich, Assurance  01905  01905                % 08507 RGTR--
+200415005 Hollerich, Heentze P  01907 -01907                % 08507 RGTR--
+200403015 Belair, Rheinsheim    01909 -01909                % 08507 RGTR--
+200405004 Centre, Monterey Par  01911                       % 08507 RGTR--
+*Z 08508 RGTR--                                             % 08508 RGTR--
+*L 212      220903008 200405004  02030  02111               % 08508 RGTR--
+*A eb 220903008 200405004 000002  02030  02111              % 08508 RGTR--
+*R 2 200405004 220903008 200405004  02030  02111            % 08508 RGTR--
+*G RGB 220903008 200405004  02030  02111                    % 08508 RGTR--
+*A VE 220903008 200405004 000002  02030  02111              % 08508 RGTR--
+*I FD 220903008 200405004        0003067  02030  02111      % 08508 RGTR--
+220903008 Rodange, Gare                02030                % 08508 RGTR--
+220903018 Rodange, Raths        02031  02031                % 08508 RGTR--
+220901007 Lamadelaine, Route d  02031  02031                % 08508 RGTR--
+220902019 Pétange, Porte Lamad  02032  02032                % 08508 RGTR--
+220902004 Pétange, Cactus       02033  02033                % 08508 RGTR--
+220902021 Pétange, Rue des Rom  02034  02034                % 08508 RGTR--
+220902009 Pétange, Kierfecht    02036  02036                % 08508 RGTR--
+220902015 Pétange, Oberst Däss  02037  02037                % 08508 RGTR--
+220902018 Pétange, Prënzebierg  02037  02037                % 08508 RGTR--
+220203007 Niedercorn, Maison d  02038  02038                % 08508 RGTR--
+220203004 Niedercorn, Cité de   02039  02039                % 08508 RGTR--
+220203008 Niedercorn, Péitenge  02039  02039                % 08508 RGTR--
+220203011 Niedercorn, Schoul    02041  02041                % 08508 RGTR--
+220203012 Niedercorn, Suesseme  02042  02042                % 08508 RGTR--
+220203001 Niedercorn, Aale Sta  02042  02042                % 08508 RGTR--
+221303003 Sanem, Niederkuerers  02043  02043                % 08508 RGTR--
+200412018 Gasperich, Scharfen   02059 -02059                % 08508 RGTR--
+200412006 Gasperich, Cloche d'  02100 -02100                % 08508 RGTR--
+200412028 Gasperich, Stengege   02104 -02104                % 08508 RGTR--
+200412009 Gasperich, Gaasperec  02104 -02104                % 08508 RGTR--
+200415002 Hollerich, Assurance  02105  02105                % 08508 RGTR--
+200415005 Hollerich, Heentze P  02107 -02107                % 08508 RGTR--
+200403015 Belair, Rheinsheim    02109 -02109                % 08508 RGTR--
+200405004 Centre, Monterey Par  02111                       % 08508 RGTR--
+*Z 08509 RGTR--                                             % 08509 RGTR--
+*L 212      220903008 200405004  00630  00725               % 08509 RGTR--
+*A eb 220903008 200405004 000002  00630  00725              % 08509 RGTR--
+*R 2 200405004 220903008 200405004  00630  00725            % 08509 RGTR--
+*G RGB 220903008 200405004  00630  00725                    % 08509 RGTR--
+*A VE 220903008 200405004 000002  00630  00725              % 08509 RGTR--
+*I FD 220903008 200405004        0000827  00630  00725      % 08509 RGTR--
+220903008 Rodange, Gare                00630                % 08509 RGTR--
+220903018 Rodange, Raths        00631  00631                % 08509 RGTR--
+220901007 Lamadelaine, Route d  00631  00631                % 08509 RGTR--
+220902019 Pétange, Porte Lamad  00633  00633                % 08509 RGTR--
+220902004 Pétange, Cactus       00633  00633                % 08509 RGTR--
+220902021 Pétange, Rue des Rom  00634  00634                % 08509 RGTR--
+220902009 Pétange, Kierfecht    00636  00636                % 08509 RGTR--
+220902015 Pétange, Oberst Däss  00637  00637                % 08509 RGTR--
+220902018 Pétange, Prënzebierg  00638  00638                % 08509 RGTR--
+220203007 Niedercorn, Maison d  00639  00639                % 08509 RGTR--
+220203004 Niedercorn, Cité de   00639  00639                % 08509 RGTR--
+220203008 Niedercorn, Péitenge  00640  00640                % 08509 RGTR--
+220203011 Niedercorn, Schoul    00642  00642                % 08509 RGTR--
+220203012 Niedercorn, Suesseme  00643  00643                % 08509 RGTR--
+220203001 Niedercorn, Aale Sta  00644  00644                % 08509 RGTR--
+221303003 Sanem, Niederkuerers  00645  00645                % 08509 RGTR--
+200412018 Gasperich, Scharfen   00707 -00707                % 08509 RGTR--
+200412006 Gasperich, Cloche d'  00709 -00709                % 08509 RGTR--
+200412028 Gasperich, Stengege   00712 -00712                % 08509 RGTR--
+200412009 Gasperich, Gaasperec  00713 -00713                % 08509 RGTR--
+200415002 Hollerich, Assurance  00714  00714                % 08509 RGTR--
+200415005 Hollerich, Heentze P  00716 -00716                % 08509 RGTR--
+200403015 Belair, Rheinsheim    00719 -00719                % 08509 RGTR--
+200405004 Centre, Monterey Par  00725                       % 08509 RGTR--
+*Z 08510 RGTR--                                             % 08510 RGTR--
+*L 212      220903008 200405004  00645  00740               % 08510 RGTR--
+*A eb 220903008 200405004 000002  00645  00740              % 08510 RGTR--
+*R 2 200405004 220903008 200405004  00645  00740            % 08510 RGTR--
+*G RGB 220903008 200405004  00645  00740                    % 08510 RGTR--
+*A VE 220903008 200405004 000002  00645  00740              % 08510 RGTR--
+*I FD 220903008 200405004        0002256  00645  00740      % 08510 RGTR--
+220903008 Rodange, Gare                00645                % 08510 RGTR--
+220903018 Rodange, Raths        00646  00646                % 08510 RGTR--
+220901007 Lamadelaine, Route d  00646  00646                % 08510 RGTR--
+220902019 Pétange, Porte Lamad  00648  00648                % 08510 RGTR--
+220902004 Pétange, Cactus       00648  00648                % 08510 RGTR--
+220902021 Pétange, Rue des Rom  00649  00649                % 08510 RGTR--
+220902009 Pétange, Kierfecht    00651  00651                % 08510 RGTR--
+220902015 Pétange, Oberst Däss  00652  00652                % 08510 RGTR--
+220902018 Pétange, Prënzebierg  00653  00653                % 08510 RGTR--
+220203007 Niedercorn, Maison d  00654  00654                % 08510 RGTR--
+220203004 Niedercorn, Cité de   00654  00654                % 08510 RGTR--
+220203008 Niedercorn, Péitenge  00655  00655                % 08510 RGTR--
+220203011 Niedercorn, Schoul    00657  00657                % 08510 RGTR--
+220203012 Niedercorn, Suesseme  00658  00658                % 08510 RGTR--
+220203001 Niedercorn, Aale Sta  00659  00659                % 08510 RGTR--
+221303003 Sanem, Niederkuerers  00700  00700                % 08510 RGTR--
+200412018 Gasperich, Scharfen   00722 -00722                % 08510 RGTR--
+200412006 Gasperich, Cloche d'  00724 -00724                % 08510 RGTR--
+200412028 Gasperich, Stengege   00727 -00727                % 08510 RGTR--
+200412009 Gasperich, Gaasperec  00728 -00728                % 08510 RGTR--
+200415002 Hollerich, Assurance  00729  00729                % 08510 RGTR--
+200415005 Hollerich, Heentze P  00731 -00731                % 08510 RGTR--
+200403015 Belair, Rheinsheim    00734 -00734                % 08510 RGTR--
+200405004 Centre, Monterey Par  00740                       % 08510 RGTR--
+*Z 08511 RGTR--                                             % 08511 RGTR--
+*L 212      220903008 200405004  00700  00755               % 08511 RGTR--
+*A eb 220903008 200405004 000002  00700  00755              % 08511 RGTR--
+*R 2 200405004 220903008 200405004  00700  00755            % 08511 RGTR--
+*G RGB 220903008 200405004  00700  00755                    % 08511 RGTR--
+*A VE 220903008 200405004 000002  00700  00755              % 08511 RGTR--
+*I FD 220903008 200405004        0002197  00700  00755      % 08511 RGTR--
+220903008 Rodange, Gare                00700                % 08511 RGTR--
+220903018 Rodange, Raths        00701  00701                % 08511 RGTR--
+220901007 Lamadelaine, Route d  00701  00701                % 08511 RGTR--
+220902019 Pétange, Porte Lamad  00703  00703                % 08511 RGTR--
+220902004 Pétange, Cactus       00703  00703                % 08511 RGTR--
+220902021 Pétange, Rue des Rom  00704  00704                % 08511 RGTR--
+220902009 Pétange, Kierfecht    00706  00706                % 08511 RGTR--
+220902015 Pétange, Oberst Däss  00707  00707                % 08511 RGTR--
+220902018 Pétange, Prënzebierg  00708  00708                % 08511 RGTR--
+220203007 Niedercorn, Maison d  00709  00709                % 08511 RGTR--
+220203004 Niedercorn, Cité de   00709  00709                % 08511 RGTR--
+220203008 Niedercorn, Péitenge  00710  00710                % 08511 RGTR--
+220203011 Niedercorn, Schoul    00712  00712                % 08511 RGTR--
+220203012 Niedercorn, Suesseme  00713  00713                % 08511 RGTR--
+220203001 Niedercorn, Aale Sta  00714  00714                % 08511 RGTR--
+221303003 Sanem, Niederkuerers  00715  00715                % 08511 RGTR--
+200412018 Gasperich, Scharfen   00737 -00737                % 08511 RGTR--
+200412006 Gasperich, Cloche d'  00739 -00739                % 08511 RGTR--
+200412028 Gasperich, Stengege   00742 -00742                % 08511 RGTR--
+200412009 Gasperich, Gaasperec  00743 -00743                % 08511 RGTR--
+200415002 Hollerich, Assurance  00744  00744                % 08511 RGTR--
+200415005 Hollerich, Heentze P  00746 -00746                % 08511 RGTR--
+200403015 Belair, Rheinsheim    00749 -00749                % 08511 RGTR--
+200405004 Centre, Monterey Par  00755                       % 08511 RGTR--
+*Z 08512 RGTR--                                             % 08512 RGTR--
+*L 212      220903008 200405004  00715  00810               % 08512 RGTR--
+*A eb 220903008 200405004 000002  00715  00810              % 08512 RGTR--
+*R 2 200405004 220903008 200405004  00715  00810            % 08512 RGTR--
+*G RGB 220903008 200405004  00715  00810                    % 08512 RGTR--
+*A VE 220903008 200405004 000002  00715  00810              % 08512 RGTR--
+*I FD 220903008 200405004        0001951  00715  00810      % 08512 RGTR--
+220903008 Rodange, Gare                00715                % 08512 RGTR--
+220903018 Rodange, Raths        00716  00716                % 08512 RGTR--
+220901007 Lamadelaine, Route d  00716  00716                % 08512 RGTR--
+220902019 Pétange, Porte Lamad  00718  00718                % 08512 RGTR--
+220902004 Pétange, Cactus       00718  00718                % 08512 RGTR--
+220902021 Pétange, Rue des Rom  00719  00719                % 08512 RGTR--
+220902009 Pétange, Kierfecht    00721  00721                % 08512 RGTR--
+220902015 Pétange, Oberst Däss  00722  00722                % 08512 RGTR--
+220902018 Pétange, Prënzebierg  00723  00723                % 08512 RGTR--
+220203007 Niedercorn, Maison d  00724  00724                % 08512 RGTR--
+220203004 Niedercorn, Cité de   00724  00724                % 08512 RGTR--
+220203008 Niedercorn, Péitenge  00725  00725                % 08512 RGTR--
+220203011 Niedercorn, Schoul    00727  00727                % 08512 RGTR--
+220203012 Niedercorn, Suesseme  00728  00728                % 08512 RGTR--
+220203001 Niedercorn, Aale Sta  00729  00729                % 08512 RGTR--
+221303003 Sanem, Niederkuerers  00730  00730                % 08512 RGTR--
+200412018 Gasperich, Scharfen   00752 -00752                % 08512 RGTR--
+200412006 Gasperich, Cloche d'  00754 -00754                % 08512 RGTR--
+200412028 Gasperich, Stengege   00757 -00757                % 08512 RGTR--
+200412009 Gasperich, Gaasperec  00758 -00758                % 08512 RGTR--
+200415002 Hollerich, Assurance  00759  00759                % 08512 RGTR--
+200415005 Hollerich, Heentze P  00801 -00801                % 08512 RGTR--
+200403015 Belair, Rheinsheim    00804 -00804                % 08512 RGTR--
+200405004 Centre, Monterey Par  00810                       % 08512 RGTR--
+*Z 08513 RGTR--                                             % 08513 RGTR--
+*L 212      220903008 200405004  00730  00825               % 08513 RGTR--
+*A eb 220903008 200405004 000002  00730  00825              % 08513 RGTR--
+*R 2 200405004 220903008 200405004  00730  00825            % 08513 RGTR--
+*G RGB 220903008 200405004  00730  00825                    % 08513 RGTR--
+*A VE 220903008 200405004 000002  00730  00825              % 08513 RGTR--
+*I FD 220903008 200405004        0002366  00730  00825      % 08513 RGTR--
+220903008 Rodange, Gare                00730                % 08513 RGTR--
+220903018 Rodange, Raths        00731  00731                % 08513 RGTR--
+220901007 Lamadelaine, Route d  00731  00731                % 08513 RGTR--
+220902019 Pétange, Porte Lamad  00733  00733                % 08513 RGTR--
+220902004 Pétange, Cactus       00733  00733                % 08513 RGTR--
+220902021 Pétange, Rue des Rom  00734  00734                % 08513 RGTR--
+220902009 Pétange, Kierfecht    00736  00736                % 08513 RGTR--
+220902015 Pétange, Oberst Däss  00737  00737                % 08513 RGTR--
+220902018 Pétange, Prënzebierg  00738  00738                % 08513 RGTR--
+220203007 Niedercorn, Maison d  00739  00739                % 08513 RGTR--
+220203004 Niedercorn, Cité de   00739  00739                % 08513 RGTR--
+220203008 Niedercorn, Péitenge  00740  00740                % 08513 RGTR--
+220203011 Niedercorn, Schoul    00742  00742                % 08513 RGTR--
+220203012 Niedercorn, Suesseme  00743  00743                % 08513 RGTR--
+220203001 Niedercorn, Aale Sta  00744  00744                % 08513 RGTR--
+221303003 Sanem, Niederkuerers  00745  00745                % 08513 RGTR--
+200412018 Gasperich, Scharfen   00807 -00807                % 08513 RGTR--
+200412006 Gasperich, Cloche d'  00809 -00809                % 08513 RGTR--
+200412028 Gasperich, Stengege   00812 -00812                % 08513 RGTR--
+200412009 Gasperich, Gaasperec  00813 -00813                % 08513 RGTR--
+200415002 Hollerich, Assurance  00814  00814                % 08513 RGTR--
+200415005 Hollerich, Heentze P  00816 -00816                % 08513 RGTR--
+200403015 Belair, Rheinsheim    00819 -00819                % 08513 RGTR--
+200405004 Centre, Monterey Par  00825                       % 08513 RGTR--
+*Z 08514 RGTR--                                             % 08514 RGTR--
+*L 212      220903008 200405004  00745  00840               % 08514 RGTR--
+*A eb 220903008 200405004 000002  00745  00840              % 08514 RGTR--
+*R 2 200405004 220903008 200405004  00745  00840            % 08514 RGTR--
+*G RGB 220903008 200405004  00745  00840                    % 08514 RGTR--
+*A VE 220903008 200405004 000002  00745  00840              % 08514 RGTR--
+*I FD 220903008 200405004        0002257  00745  00840      % 08514 RGTR--
+220903008 Rodange, Gare                00745                % 08514 RGTR--
+220903018 Rodange, Raths        00746  00746                % 08514 RGTR--
+220901007 Lamadelaine, Route d  00746  00746                % 08514 RGTR--
+220902019 Pétange, Porte Lamad  00748  00748                % 08514 RGTR--
+220902004 Pétange, Cactus       00748  00748                % 08514 RGTR--
+220902021 Pétange, Rue des Rom  00749  00749                % 08514 RGTR--
+220902009 Pétange, Kierfecht    00751  00751                % 08514 RGTR--
+220902015 Pétange, Oberst Däss  00752  00752                % 08514 RGTR--
+220902018 Pétange, Prënzebierg  00753  00753                % 08514 RGTR--
+220203007 Niedercorn, Maison d  00754  00754                % 08514 RGTR--
+220203004 Niedercorn, Cité de   00754  00754                % 08514 RGTR--
+220203008 Niedercorn, Péitenge  00755  00755                % 08514 RGTR--
+220203011 Niedercorn, Schoul    00757  00757                % 08514 RGTR--
+220203012 Niedercorn, Suesseme  00758  00758                % 08514 RGTR--
+220203001 Niedercorn, Aale Sta  00759  00759                % 08514 RGTR--
+221303003 Sanem, Niederkuerers  00800  00800                % 08514 RGTR--
+200412018 Gasperich, Scharfen   00822 -00822                % 08514 RGTR--
+200412006 Gasperich, Cloche d'  00824 -00824                % 08514 RGTR--
+200412028 Gasperich, Stengege   00827 -00827                % 08514 RGTR--
+200412009 Gasperich, Gaasperec  00828 -00828                % 08514 RGTR--
+200415002 Hollerich, Assurance  00829  00829                % 08514 RGTR--
+200415005 Hollerich, Heentze P  00831 -00831                % 08514 RGTR--
+200403015 Belair, Rheinsheim    00834 -00834                % 08514 RGTR--
+200405004 Centre, Monterey Par  00840                       % 08514 RGTR--
+*Z 08515 RGTR--                                             % 08515 RGTR--
+*L 212      220903008 200405004  00800  00855               % 08515 RGTR--
+*A eb 220903008 200405004 000002  00800  00855              % 08515 RGTR--
+*R 2 200405004 220903008 200405004  00800  00855            % 08515 RGTR--
+*G RGB 220903008 200405004  00800  00855                    % 08515 RGTR--
+*A VE 220903008 200405004 000002  00800  00855              % 08515 RGTR--
+*I FD 220903008 200405004        0001889  00800  00855      % 08515 RGTR--
+220903008 Rodange, Gare                00800                % 08515 RGTR--
+220903018 Rodange, Raths        00801  00801                % 08515 RGTR--
+220901007 Lamadelaine, Route d  00801  00801                % 08515 RGTR--
+220902019 Pétange, Porte Lamad  00803  00803                % 08515 RGTR--
+220902004 Pétange, Cactus       00803  00803                % 08515 RGTR--
+220902021 Pétange, Rue des Rom  00804  00804                % 08515 RGTR--
+220902009 Pétange, Kierfecht    00806  00806                % 08515 RGTR--
+220902015 Pétange, Oberst Däss  00807  00807                % 08515 RGTR--
+220902018 Pétange, Prënzebierg  00808  00808                % 08515 RGTR--
+220203007 Niedercorn, Maison d  00809  00809                % 08515 RGTR--
+220203004 Niedercorn, Cité de   00809  00809                % 08515 RGTR--
+220203008 Niedercorn, Péitenge  00810  00810                % 08515 RGTR--
+220203011 Niedercorn, Schoul    00812  00812                % 08515 RGTR--
+220203012 Niedercorn, Suesseme  00813  00813                % 08515 RGTR--
+220203001 Niedercorn, Aale Sta  00814  00814                % 08515 RGTR--
+221303003 Sanem, Niederkuerers  00815  00815                % 08515 RGTR--
+200412018 Gasperich, Scharfen   00837 -00837                % 08515 RGTR--
+200412006 Gasperich, Cloche d'  00839 -00839                % 08515 RGTR--
+200412028 Gasperich, Stengege   00842 -00842                % 08515 RGTR--
+200412009 Gasperich, Gaasperec  00843 -00843                % 08515 RGTR--
+200415002 Hollerich, Assurance  00844  00844                % 08515 RGTR--
+200415005 Hollerich, Heentze P  00846 -00846                % 08515 RGTR--
+200403015 Belair, Rheinsheim    00849 -00849                % 08515 RGTR--
+200405004 Centre, Monterey Par  00855                       % 08515 RGTR--
+*Z 08516 RGTR--                                             % 08516 RGTR--
+*L 212      220903008 200405004  00830  00925               % 08516 RGTR--
+*A eb 220903008 200405004 000002  00830  00925              % 08516 RGTR--
+*R 2 200405004 220903008 200405004  00830  00925            % 08516 RGTR--
+*G RGB 220903008 200405004  00830  00925                    % 08516 RGTR--
+*A VE 220903008 200405004 000002  00830  00925              % 08516 RGTR--
+*I FD 220903008 200405004        0000926  00830  00925      % 08516 RGTR--
+220903008 Rodange, Gare                00830                % 08516 RGTR--
+220903018 Rodange, Raths        00831  00831                % 08516 RGTR--
+220901007 Lamadelaine, Route d  00831  00831                % 08516 RGTR--
+220902019 Pétange, Porte Lamad  00833  00833                % 08516 RGTR--
+220902004 Pétange, Cactus       00833  00833                % 08516 RGTR--
+220902021 Pétange, Rue des Rom  00834  00834                % 08516 RGTR--
+220902009 Pétange, Kierfecht    00836  00836                % 08516 RGTR--
+220902015 Pétange, Oberst Däss  00837  00837                % 08516 RGTR--
+220902018 Pétange, Prënzebierg  00838  00838                % 08516 RGTR--
+220203007 Niedercorn, Maison d  00839  00839                % 08516 RGTR--
+220203004 Niedercorn, Cité de   00839  00839                % 08516 RGTR--
+220203008 Niedercorn, Péitenge  00840  00840                % 08516 RGTR--
+220203011 Niedercorn, Schoul    00842  00842                % 08516 RGTR--
+220203012 Niedercorn, Suesseme  00843  00843                % 08516 RGTR--
+220203001 Niedercorn, Aale Sta  00844  00844                % 08516 RGTR--
+221303003 Sanem, Niederkuerers  00845  00845                % 08516 RGTR--
+200412018 Gasperich, Scharfen   00907 -00907                % 08516 RGTR--
+200412006 Gasperich, Cloche d'  00909 -00909                % 08516 RGTR--
+200412028 Gasperich, Stengege   00912 -00912                % 08516 RGTR--
+200412009 Gasperich, Gaasperec  00913 -00913                % 08516 RGTR--
+200415002 Hollerich, Assurance  00914  00914                % 08516 RGTR--
+200415005 Hollerich, Heentze P  00916 -00916                % 08516 RGTR--
+200403015 Belair, Rheinsheim    00919 -00919                % 08516 RGTR--
+200405004 Centre, Monterey Par  00925                       % 08516 RGTR--
+*Z 08517 RGTR--                                             % 08517 RGTR--
+*L 212      220903008 200405004  00900  00955               % 08517 RGTR--
+*A eb 220903008 200405004 000002  00900  00955              % 08517 RGTR--
+*A RO 220903008 200405004 000002  00900  00955              % 08517 RGTR--
+*R 2 200405004 220903008 200405004  00900  00955            % 08517 RGTR--
+*G RGB 220903008 200405004  00900  00955                    % 08517 RGTR--
+*A VE 220903008 200405004 000002  00900  00955              % 08517 RGTR--
+*I FD 220903008 200405004        0001891  00900  00955      % 08517 RGTR--
+220903008 Rodange, Gare                00900                % 08517 RGTR--
+220903018 Rodange, Raths        00901  00901                % 08517 RGTR--
+220901007 Lamadelaine, Route d  00901  00901                % 08517 RGTR--
+220902019 Pétange, Porte Lamad  00903  00903                % 08517 RGTR--
+220902004 Pétange, Cactus       00903  00903                % 08517 RGTR--
+220902021 Pétange, Rue des Rom  00904  00904                % 08517 RGTR--
+220902009 Pétange, Kierfecht    00906  00906                % 08517 RGTR--
+220902015 Pétange, Oberst Däss  00907  00907                % 08517 RGTR--
+220902018 Pétange, Prënzebierg  00908  00908                % 08517 RGTR--
+220203007 Niedercorn, Maison d  00909  00909                % 08517 RGTR--
+220203004 Niedercorn, Cité de   00909  00909                % 08517 RGTR--
+220203008 Niedercorn, Péitenge  00910  00910                % 08517 RGTR--
+220203011 Niedercorn, Schoul    00912  00912                % 08517 RGTR--
+220203012 Niedercorn, Suesseme  00913  00913                % 08517 RGTR--
+220203001 Niedercorn, Aale Sta  00914  00914                % 08517 RGTR--
+221303003 Sanem, Niederkuerers  00915  00915                % 08517 RGTR--
+200412018 Gasperich, Scharfen   00937 -00937                % 08517 RGTR--
+200412006 Gasperich, Cloche d'  00939 -00939                % 08517 RGTR--
+200412028 Gasperich, Stengege   00942 -00942                % 08517 RGTR--
+200412009 Gasperich, Gaasperec  00943 -00943                % 08517 RGTR--
+200415002 Hollerich, Assurance  00944  00944                % 08517 RGTR--
+200415005 Hollerich, Heentze P  00946 -00946                % 08517 RGTR--
+200403015 Belair, Rheinsheim    00949 -00949                % 08517 RGTR--
+200405004 Centre, Monterey Par  00955                       % 08517 RGTR--

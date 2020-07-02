@@ -1,0 +1,1104 @@
+*F 03 2
+*Z 09188 RGTR--                                             % 09188 RGTR--
+*L 677      110101002 110102003  00726  00733               % 09188 RGTR--
+*A bv 110101002 110102003 000002  00726  00733              % 09188 RGTR--
+*A MT 110101002 110102003 000002  00726  00733              % 09188 RGTR--
+*R 1 110102003 110101002 110102003  00726  00733            % 09188 RGTR--
+*G RGB 110101002 110102003  00726  00733                    % 09188 RGTR--
+*A VE 110101002 110102003 000002  00726  00733              % 09188 RGTR--
+*I FD 110101002 110102003        0002563  00726  00733      % 09188 RGTR--
+110101002 Clervaux, Gare routi         00726                % 09188 RGTR--
+110101015 Clervaux, Hall Polyv  00727  00727                % 09188 RGTR--
+110102002 Eselborn, Neidierfch  00729  00729                % 09188 RGTR--
+110102001 Eselborn, Dueref      00730  00730                % 09188 RGTR--
+110102003 Lentzweiler, Op der   00733                       % 09188 RGTR--
+*Z 09189 RGTR--                                             % 09189 RGTR--
+*L 677      110101008 110821001  01123  01139               % 09189 RGTR--
+*A bv 110101008 110821001 000001  01123  01139              % 09189 RGTR--
+*A MT 110101008 110821001 000001  01123  01139              % 09189 RGTR--
+*R 1 110821001 110101008 110821001  01123  01139            % 09189 RGTR--
+*G RGB 110101008 110821001  01123  01139                    % 09189 RGTR--
+*A VE 110101008 110821001 000001  01123  01139              % 09189 RGTR--
+*I FD 110101008 110821001        0002205  01123  01139      % 09189 RGTR--
+110101008 Clervaux, Pl. de la          01123                % 09189 RGTR--
+110101011 Clervaux, Postes      01124  01124                % 09189 RGTR--
+110101004 Clervaux, Maison de   01125  01125                % 09189 RGTR--
+110101002 Clervaux, Gare routi  01126  01126                % 09189 RGTR--
+110101015 Clervaux, Hall Polyv  01127  01127                % 09189 RGTR--
+110102002 Eselborn, Neidierfch  01128  01128                % 09189 RGTR--
+110102001 Eselborn, Dueref      01128  01128                % 09189 RGTR--
+110102003 Lentzweiler, Op der   01131  01131                % 09189 RGTR--
+110812001 Lentzweiler, Haaptst  01132  01132                % 09189 RGTR--
+110806001 Deiffelt, Haaptstroo  01133  01133                % 09189 RGTR--
+110808001 Doennange, Haaptstro  01134  01134                % 09189 RGTR--
+110813001 Lullange, Haaptstroo  01136  01136                % 09189 RGTR--
+110824001 Boevange, Wëntgerdal  01138  01138                % 09189 RGTR--
+110821001 Wincrange, Bei der K  01139                       % 09189 RGTR--
+*Z 09190 RGTR--                                             % 09190 RGTR--
+*L 677      110103001 110102001  01210  01216               % 09190 RGTR--
+*A bv 110103001 110102001 000002  01210  01216              % 09190 RGTR--
+*R 1 110102001 110103001 110102001  01210  01216            % 09190 RGTR--
+*G RGB 110103001 110102001  01210  01216                    % 09190 RGTR--
+*A VE 110103001 110102001 000002  01210  01216              % 09190 RGTR--
+*I FD 110103001 110102001        0003623  01210  01216      % 09190 RGTR--
+110103001 Reuler, Centre Scola         01210                % 09190 RGTR--
+110101012 Clervaux, Scierie     01213  01213                % 09190 RGTR--
+110102002 Eselborn, Neidierfch  01216  01216                % 09190 RGTR--
+110102001 Eselborn, Dueref      01216                       % 09190 RGTR--
+*Z 09191 RGTR--                                             % 09191 RGTR--
+*L 677      110103001 110102001  01605  01612               % 09191 RGTR--
+*A bv 110103001 110102001 000008  01605  01612              % 09191 RGTR--
+*R 1 110102001 110103001 110102001  01605  01612            % 09191 RGTR--
+*G RGB 110103001 110102001  01605  01612                    % 09191 RGTR--
+*A VE 110103001 110102001 000008  01605  01612              % 09191 RGTR--
+*I FD 110103001 110102001        0002009  01605  01612      % 09191 RGTR--
+110103001 Reuler, Centre Scola         01605                % 09191 RGTR--
+110101012 Clervaux, Scierie     01608  01608                % 09191 RGTR--
+110102002 Eselborn, Neidierfch  01611  01611                % 09191 RGTR--
+110102001 Eselborn, Dueref      01612                       % 09191 RGTR--
+*Z 00187 RGTR--                                             % 00187 RGTR--
+*L 677      110101002 110820002  01557  01620               % 00187 RGTR--
+*A bv 110101002 110820002 000002  01557  01620              % 00187 RGTR--
+*R 1 110820002 110101002 110820002  01557  01620            % 00187 RGTR--
+*G RGB 110101002 110820002  01557  01620                    % 00187 RGTR--
+*A VE 110101002 110820002 000002  01557  01620              % 00187 RGTR--
+*I FD 110101002 110820002        0002775  01557  01620      % 00187 RGTR--
+110101002 Clervaux, Gare routi         01557                % 00187 RGTR--
+110101015 Clervaux, Hall Polyv  01558  01558                % 00187 RGTR--
+110102002 Eselborn, Neidierfch  01559  01559                % 00187 RGTR--
+110102001 Eselborn, Dueref      01600  01600                % 00187 RGTR--
+110102003 Lentzweiler, Op der   01603  01603                % 00187 RGTR--
+110812001 Lentzweiler, Haaptst  01604  01604                % 00187 RGTR--
+110806001 Deiffelt, Haaptstroo  01605  01605                % 00187 RGTR--
+110808001 Doennange, Haaptstro  01606  01606                % 00187 RGTR--
+110813001 Lullange, Haaptstroo  01608  01608                % 00187 RGTR--
+110824001 Boevange, Wëntgerdal  01610  01610                % 00187 RGTR--
+110821001 Wincrange, Bei der K  01611  01611                % 00187 RGTR--
+110821003 Wincrange, Op der Lo  01612  01612                % 00187 RGTR--
+110810002 Hamiville, Haaptstro  01613  01613                % 00187 RGTR--
+110810001 Hamiville, Beim Tout  01614  01614                % 00187 RGTR--
+110820003 Troine-Route, Op der  01616  01616                % 00187 RGTR--
+110820004 Troine-Route, Op der  01617  01617                % 00187 RGTR--
+110820001 Troine, Bréck         01619  01619                % 00187 RGTR--
+110820002 Troine, Duarrefstroo  01620                       % 00187 RGTR--
+*Z 00173 RGTR--                                             % 00173 RGTR--
+*L 677      110101002 110820002  01526  01548               % 00173 RGTR--
+*A bv 110101002 110820002 000001  01526  01548              % 00173 RGTR--
+*A MT 110101002 110820002 000001  01526  01548              % 00173 RGTR--
+*R 1 110820002 110101002 110820002  01526  01548            % 00173 RGTR--
+*G RGB 110101002 110820002  01526  01548                    % 00173 RGTR--
+*A VE 110101002 110820002 000001  01526  01548              % 00173 RGTR--
+*I FD 110101002 110820002        0002767  01526  01548      % 00173 RGTR--
+110101002 Clervaux, Gare routi         01526                % 00173 RGTR--
+110101015 Clervaux, Hall Polyv  01527  01527                % 00173 RGTR--
+110102002 Eselborn, Neidierfch  01528  01528                % 00173 RGTR--
+110102001 Eselborn, Dueref      01528  01528                % 00173 RGTR--
+110102003 Lentzweiler, Op der   01531  01531                % 00173 RGTR--
+110812001 Lentzweiler, Haaptst  01532  01532                % 00173 RGTR--
+110806001 Deiffelt, Haaptstroo  01533  01533                % 00173 RGTR--
+110808001 Doennange, Haaptstro  01534  01534                % 00173 RGTR--
+110813001 Lullange, Haaptstroo  01536  01536                % 00173 RGTR--
+110824001 Boevange, Wëntgerdal  01538  01538                % 00173 RGTR--
+110821001 Wincrange, Bei der K  01539  01539                % 00173 RGTR--
+110821003 Wincrange, Op der Lo  01540  01540                % 00173 RGTR--
+110810002 Hamiville, Haaptstro  01541  01541                % 00173 RGTR--
+110810001 Hamiville, Beim Tout  01542  01542                % 00173 RGTR--
+110820003 Troine-Route, Op der  01544  01544                % 00173 RGTR--
+110820004 Troine-Route, Op der  01545  01545                % 00173 RGTR--
+110820001 Troine, Bréck         01547  01547                % 00173 RGTR--
+110820002 Troine, Duarrefstroo  01548                       % 00173 RGTR--
+*Z 09192 RGTR--                                             % 09192 RGTR--
+*L 677      110101002 110820002  01256  01318               % 09192 RGTR--
+*A bv 110101002 110820002 000002  01256  01318              % 09192 RGTR--
+*A MT 110101002 110820002 000002  01256  01318              % 09192 RGTR--
+*R 1 110820002 110101002 110820002  01256  01318            % 09192 RGTR--
+*G RGB 110101002 110820002  01256  01318                    % 09192 RGTR--
+*A VE 110101002 110820002 000002  01256  01318              % 09192 RGTR--
+*I FD 110101002 110820002        0003085  01256  01318      % 09192 RGTR--
+110101002 Clervaux, Gare routi         01256                % 09192 RGTR--
+110101015 Clervaux, Hall Polyv  01257  01257                % 09192 RGTR--
+110102002 Eselborn, Neidierfch  01258  01258                % 09192 RGTR--
+110102001 Eselborn, Dueref      01258  01258                % 09192 RGTR--
+110102003 Lentzweiler, Op der   01301  01301                % 09192 RGTR--
+110812001 Lentzweiler, Haaptst  01302  01302                % 09192 RGTR--
+110806001 Deiffelt, Haaptstroo  01303  01303                % 09192 RGTR--
+110808001 Doennange, Haaptstro  01304  01304                % 09192 RGTR--
+110813001 Lullange, Haaptstroo  01306  01306                % 09192 RGTR--
+110824001 Boevange, Wëntgerdal  01308  01308                % 09192 RGTR--
+110821001 Wincrange, Bei der K  01309  01309                % 09192 RGTR--
+110821003 Wincrange, Op der Lo  01310  01310                % 09192 RGTR--
+110810002 Hamiville, Haaptstro  01311  01311                % 09192 RGTR--
+110810001 Hamiville, Beim Tout  01312  01312                % 09192 RGTR--
+110820003 Troine-Route, Op der  01314  01314                % 09192 RGTR--
+110820004 Troine-Route, Op der  01315  01315                % 09192 RGTR--
+110820001 Troine, Bréck         01317  01317                % 09192 RGTR--
+110820002 Troine, Duarrefstroo  01318                       % 09192 RGTR--
+*Z 09193 RGTR--                                             % 09193 RGTR--
+*L 677      110101008 110820002  01023  01048               % 09193 RGTR--
+*A bv 110101008 110820002 000001  01023  01048              % 09193 RGTR--
+*A MT 110101008 110820002 000001  01023  01048              % 09193 RGTR--
+*R 1 110820002 110101008 110820002  01023  01048            % 09193 RGTR--
+*G RGB 110101008 110820002  01023  01048                    % 09193 RGTR--
+*A VE 110101008 110820002 000001  01023  01048              % 09193 RGTR--
+*I FD 110101008 110820002        0002204  01023  01048      % 09193 RGTR--
+110101008 Clervaux, Pl. de la          01023                % 09193 RGTR--
+110101011 Clervaux, Postes      01024  01024                % 09193 RGTR--
+110101004 Clervaux, Maison de   01025  01025                % 09193 RGTR--
+110101002 Clervaux, Gare routi  01026  01026                % 09193 RGTR--
+110101015 Clervaux, Hall Polyv  01027  01027                % 09193 RGTR--
+110102002 Eselborn, Neidierfch  01028  01028                % 09193 RGTR--
+110102001 Eselborn, Dueref      01028  01028                % 09193 RGTR--
+110102003 Lentzweiler, Op der   01031  01031                % 09193 RGTR--
+110812001 Lentzweiler, Haaptst  01032  01032                % 09193 RGTR--
+110806001 Deiffelt, Haaptstroo  01033  01033                % 09193 RGTR--
+110808001 Doennange, Haaptstro  01034  01034                % 09193 RGTR--
+110813001 Lullange, Haaptstroo  01036  01036                % 09193 RGTR--
+110824001 Boevange, Wëntgerdal  01038  01038                % 09193 RGTR--
+110821001 Wincrange, Bei der K  01039  01039                % 09193 RGTR--
+110821003 Wincrange, Op der Lo  01040  01040                % 09193 RGTR--
+110810002 Hamiville, Haaptstro  01041  01041                % 09193 RGTR--
+110810001 Hamiville, Beim Tout  01042  01042                % 09193 RGTR--
+110820003 Troine-Route, Op der  01044  01044                % 09193 RGTR--
+110820004 Troine-Route, Op der  01045  01045                % 09193 RGTR--
+110820001 Troine, Bréck         01047  01047                % 09193 RGTR--
+110820002 Troine, Duarrefstroo  01048                       % 09193 RGTR--
+*Z 09194 RGTR--                                             % 09194 RGTR--
+*L 677      110101008 110820002  01323  01348               % 09194 RGTR--
+*A bv 110101008 110820002 000001  01323  01348              % 09194 RGTR--
+*A MT 110101008 110820002 000001  01323  01348              % 09194 RGTR--
+*R 1 110820002 110101008 110820002  01323  01348            % 09194 RGTR--
+*G RGB 110101008 110820002  01323  01348                    % 09194 RGTR--
+*A VE 110101008 110820002 000001  01323  01348              % 09194 RGTR--
+*I FD 110101008 110820002        0002206  01323  01348      % 09194 RGTR--
+110101008 Clervaux, Pl. de la          01323                % 09194 RGTR--
+110101011 Clervaux, Postes      01324  01324                % 09194 RGTR--
+110101004 Clervaux, Maison de   01325  01325                % 09194 RGTR--
+110101002 Clervaux, Gare routi  01326  01326                % 09194 RGTR--
+110101015 Clervaux, Hall Polyv  01327  01327                % 09194 RGTR--
+110102002 Eselborn, Neidierfch  01328  01328                % 09194 RGTR--
+110102001 Eselborn, Dueref      01328  01328                % 09194 RGTR--
+110102003 Lentzweiler, Op der   01331  01331                % 09194 RGTR--
+110812001 Lentzweiler, Haaptst  01332  01332                % 09194 RGTR--
+110806001 Deiffelt, Haaptstroo  01333  01333                % 09194 RGTR--
+110808001 Doennange, Haaptstro  01334  01334                % 09194 RGTR--
+110813001 Lullange, Haaptstroo  01336  01336                % 09194 RGTR--
+110824001 Boevange, Wëntgerdal  01338  01338                % 09194 RGTR--
+110821001 Wincrange, Bei der K  01339  01339                % 09194 RGTR--
+110821003 Wincrange, Op der Lo  01340  01340                % 09194 RGTR--
+110810002 Hamiville, Haaptstro  01341  01341                % 09194 RGTR--
+110810001 Hamiville, Beim Tout  01342  01342                % 09194 RGTR--
+110820003 Troine-Route, Op der  01344  01344                % 09194 RGTR--
+110820004 Troine-Route, Op der  01345  01345                % 09194 RGTR--
+110820001 Troine, Bréck         01347  01347                % 09194 RGTR--
+110820002 Troine, Duarrefstroo  01348                       % 09194 RGTR--
+*Z 09195 RGTR--                                             % 09195 RGTR--
+*L 677      110101008 110820002  01423  01448               % 09195 RGTR--
+*A bv 110101008 110820002 000001  01423  01448              % 09195 RGTR--
+*A MT 110101008 110820002 000001  01423  01448              % 09195 RGTR--
+*R 1 110820002 110101008 110820002  01423  01448            % 09195 RGTR--
+*G RGB 110101008 110820002  01423  01448                    % 09195 RGTR--
+*A VE 110101008 110820002 000001  01423  01448              % 09195 RGTR--
+*I FD 110101008 110820002        0002207  01423  01448      % 09195 RGTR--
+110101008 Clervaux, Pl. de la          01423                % 09195 RGTR--
+110101011 Clervaux, Postes      01424  01424                % 09195 RGTR--
+110101004 Clervaux, Maison de   01425  01425                % 09195 RGTR--
+110101002 Clervaux, Gare routi  01426  01426                % 09195 RGTR--
+110101015 Clervaux, Hall Polyv  01427  01427                % 09195 RGTR--
+110102002 Eselborn, Neidierfch  01428  01428                % 09195 RGTR--
+110102001 Eselborn, Dueref      01428  01428                % 09195 RGTR--
+110102003 Lentzweiler, Op der   01431  01431                % 09195 RGTR--
+110812001 Lentzweiler, Haaptst  01432  01432                % 09195 RGTR--
+110806001 Deiffelt, Haaptstroo  01433  01433                % 09195 RGTR--
+110808001 Doennange, Haaptstro  01434  01434                % 09195 RGTR--
+110813001 Lullange, Haaptstroo  01436  01436                % 09195 RGTR--
+110824001 Boevange, Wëntgerdal  01438  01438                % 09195 RGTR--
+110821001 Wincrange, Bei der K  01439  01439                % 09195 RGTR--
+110821003 Wincrange, Op der Lo  01440  01440                % 09195 RGTR--
+110810002 Hamiville, Haaptstro  01441  01441                % 09195 RGTR--
+110810001 Hamiville, Beim Tout  01442  01442                % 09195 RGTR--
+110820003 Troine-Route, Op der  01444  01444                % 09195 RGTR--
+110820004 Troine-Route, Op der  01445  01445                % 09195 RGTR--
+110820001 Troine, Bréck         01447  01447                % 09195 RGTR--
+110820002 Troine, Duarrefstroo  01448                       % 09195 RGTR--
+*Z 09196 RGTR--                                             % 09196 RGTR--
+*L 677      110101008 110820002  01923  01948               % 09196 RGTR--
+*A bv 110101008 110820002 000001  01923  01948              % 09196 RGTR--
+*A MT 110101008 110820002 000001  01923  01948              % 09196 RGTR--
+*R 1 110820002 110101008 110820002  01923  01948            % 09196 RGTR--
+*G RGB 110101008 110820002  01923  01948                    % 09196 RGTR--
+*A VE 110101008 110820002 000001  01923  01948              % 09196 RGTR--
+*I FD 110101008 110820002        0002209  01923  01948      % 09196 RGTR--
+110101008 Clervaux, Pl. de la          01923                % 09196 RGTR--
+110101011 Clervaux, Postes      01924  01924                % 09196 RGTR--
+110101004 Clervaux, Maison de   01925  01925                % 09196 RGTR--
+110101002 Clervaux, Gare routi  01926  01926                % 09196 RGTR--
+110101015 Clervaux, Hall Polyv  01927  01927                % 09196 RGTR--
+110102002 Eselborn, Neidierfch  01928  01928                % 09196 RGTR--
+110102001 Eselborn, Dueref      01928  01928                % 09196 RGTR--
+110102003 Lentzweiler, Op der   01931  01931                % 09196 RGTR--
+110812001 Lentzweiler, Haaptst  01932  01932                % 09196 RGTR--
+110806001 Deiffelt, Haaptstroo  01933  01933                % 09196 RGTR--
+110808001 Doennange, Haaptstro  01934  01934                % 09196 RGTR--
+110813001 Lullange, Haaptstroo  01936  01936                % 09196 RGTR--
+110824001 Boevange, Wëntgerdal  01938  01938                % 09196 RGTR--
+110821001 Wincrange, Bei der K  01939  01939                % 09196 RGTR--
+110821003 Wincrange, Op der Lo  01940  01940                % 09196 RGTR--
+110810002 Hamiville, Haaptstro  01941  01941                % 09196 RGTR--
+110810001 Hamiville, Beim Tout  01942  01942                % 09196 RGTR--
+110820003 Troine-Route, Op der  01944  01944                % 09196 RGTR--
+110820004 Troine-Route, Op der  01945  01945                % 09196 RGTR--
+110820001 Troine, Bréck         01947  01947                % 09196 RGTR--
+110820002 Troine, Duarrefstroo  01948                       % 09196 RGTR--
+*Z 09197 RGTR--                                             % 09197 RGTR--
+*L 677      110101008 110820002  01853  01918               % 09197 RGTR--
+*A bv 110101008 110820002 000002  01853  01918              % 09197 RGTR--
+*A MT 110101008 110820002 000002  01853  01918              % 09197 RGTR--
+*R 1 110820002 110101008 110820002  01853  01918            % 09197 RGTR--
+*G RGB 110101008 110820002  01853  01918                    % 09197 RGTR--
+*A VE 110101008 110820002 000002  01853  01918              % 09197 RGTR--
+*I FD 110101008 110820002        0002211  01853  01918      % 09197 RGTR--
+110101008 Clervaux, Pl. de la          01853                % 09197 RGTR--
+110101011 Clervaux, Postes      01854  01854                % 09197 RGTR--
+110101004 Clervaux, Maison de   01855  01855                % 09197 RGTR--
+110101002 Clervaux, Gare routi  01856  01856                % 09197 RGTR--
+110101015 Clervaux, Hall Polyv  01857  01857                % 09197 RGTR--
+110102002 Eselborn, Neidierfch  01858  01858                % 09197 RGTR--
+110102001 Eselborn, Dueref      01858  01858                % 09197 RGTR--
+110102003 Lentzweiler, Op der   01901  01901                % 09197 RGTR--
+110812001 Lentzweiler, Haaptst  01902  01902                % 09197 RGTR--
+110806001 Deiffelt, Haaptstroo  01903  01903                % 09197 RGTR--
+110808001 Doennange, Haaptstro  01904  01904                % 09197 RGTR--
+110813001 Lullange, Haaptstroo  01906  01906                % 09197 RGTR--
+110824001 Boevange, Wëntgerdal  01908  01908                % 09197 RGTR--
+110821001 Wincrange, Bei der K  01909  01909                % 09197 RGTR--
+110821003 Wincrange, Op der Lo  01910  01910                % 09197 RGTR--
+110810002 Hamiville, Haaptstro  01911  01911                % 09197 RGTR--
+110810001 Hamiville, Beim Tout  01912  01912                % 09197 RGTR--
+110820003 Troine-Route, Op der  01914  01914                % 09197 RGTR--
+110820004 Troine-Route, Op der  01915  01915                % 09197 RGTR--
+110820001 Troine, Bréck         01917  01917                % 09197 RGTR--
+110820002 Troine, Duarrefstroo  01918                       % 09197 RGTR--
+*Z 09198 RGTR--                                             % 09198 RGTR--
+*L 677      110101008 110820002  01223  01248               % 09198 RGTR--
+*A bv 110101008 110820002 000005  01223  01248              % 09198 RGTR--
+*A MT 110101008 110820002 000005  01223  01248              % 09198 RGTR--
+*R 1 110820002 110101008 110820002  01223  01248            % 09198 RGTR--
+*G RGB 110101008 110820002  01223  01248                    % 09198 RGTR--
+*A VE 110101008 110820002 000005  01223  01248              % 09198 RGTR--
+*I FD 110101008 110820002        0002495  01223  01248      % 09198 RGTR--
+110101008 Clervaux, Pl. de la          01223                % 09198 RGTR--
+110101011 Clervaux, Postes      01224  01224                % 09198 RGTR--
+110101004 Clervaux, Maison de   01225  01225                % 09198 RGTR--
+110101002 Clervaux, Gare routi  01226  01226                % 09198 RGTR--
+110101015 Clervaux, Hall Polyv  01227  01227                % 09198 RGTR--
+110102002 Eselborn, Neidierfch  01228  01228                % 09198 RGTR--
+110102001 Eselborn, Dueref      01228  01228                % 09198 RGTR--
+110102003 Lentzweiler, Op der   01231  01231                % 09198 RGTR--
+110812001 Lentzweiler, Haaptst  01232  01232                % 09198 RGTR--
+110806001 Deiffelt, Haaptstroo  01233  01233                % 09198 RGTR--
+110808001 Doennange, Haaptstro  01234  01234                % 09198 RGTR--
+110813001 Lullange, Haaptstroo  01236  01236                % 09198 RGTR--
+110824001 Boevange, Wëntgerdal  01238  01238                % 09198 RGTR--
+110821001 Wincrange, Bei der K  01239  01239                % 09198 RGTR--
+110821003 Wincrange, Op der Lo  01240  01240                % 09198 RGTR--
+110810002 Hamiville, Haaptstro  01241  01241                % 09198 RGTR--
+110810001 Hamiville, Beim Tout  01242  01242                % 09198 RGTR--
+110820003 Troine-Route, Op der  01244  01244                % 09198 RGTR--
+110820004 Troine-Route, Op der  01245  01245                % 09198 RGTR--
+110820001 Troine, Bréck         01247  01247                % 09198 RGTR--
+110820002 Troine, Duarrefstroo  01248                       % 09198 RGTR--
+*Z 09199 RGTR--                                             % 09199 RGTR--
+*L 677      110101008 110820002  00823  00849               % 09199 RGTR--
+*A bv 110101008 110820002 000001  00823  00849              % 09199 RGTR--
+*A MT 110101008 110820002 000001  00823  00849              % 09199 RGTR--
+*R 1 110820002 110101008 110820002  00823  00849            % 09199 RGTR--
+*G RGB 110101008 110820002  00823  00849                    % 09199 RGTR--
+*A VE 110101008 110820002 000001  00823  00849              % 09199 RGTR--
+*I FD 110101008 110820002        0000892  00823  00849      % 09199 RGTR--
+110101008 Clervaux, Pl. de la          00823                % 09199 RGTR--
+110101011 Clervaux, Postes      00824  00824                % 09199 RGTR--
+110101004 Clervaux, Maison de   00825  00825                % 09199 RGTR--
+110101002 Clervaux, Gare routi  00826  00826                % 09199 RGTR--
+110101015 Clervaux, Hall Polyv  00827  00827                % 09199 RGTR--
+110102002 Eselborn, Neidierfch  00828  00828                % 09199 RGTR--
+110102001 Eselborn, Dueref      00829  00829                % 09199 RGTR--
+110102003 Lentzweiler, Op der   00832  00832                % 09199 RGTR--
+110812001 Lentzweiler, Haaptst  00833  00833                % 09199 RGTR--
+110806001 Deiffelt, Haaptstroo  00834  00834                % 09199 RGTR--
+110808001 Doennange, Haaptstro  00835  00835                % 09199 RGTR--
+110813001 Lullange, Haaptstroo  00837  00837                % 09199 RGTR--
+110824001 Boevange, Wëntgerdal  00839  00839                % 09199 RGTR--
+110821001 Wincrange, Bei der K  00840  00840                % 09199 RGTR--
+110821003 Wincrange, Op der Lo  00841  00841                % 09199 RGTR--
+110810002 Hamiville, Haaptstro  00842  00842                % 09199 RGTR--
+110810001 Hamiville, Beim Tout  00843  00843                % 09199 RGTR--
+110820003 Troine-Route, Op der  00845  00845                % 09199 RGTR--
+110820004 Troine-Route, Op der  00846  00846                % 09199 RGTR--
+110820001 Troine, Bréck         00848  00848                % 09199 RGTR--
+110820002 Troine, Duarrefstroo  00849                       % 09199 RGTR--
+*Z 09200 RGTR--                                             % 09200 RGTR--
+*L 677      110101008 110820002  00923  00949               % 09200 RGTR--
+*A bv 110101008 110820002 000001  00923  00949              % 09200 RGTR--
+*A MT 110101008 110820002 000001  00923  00949              % 09200 RGTR--
+*R 1 110820002 110101008 110820002  00923  00949            % 09200 RGTR--
+*G RGB 110101008 110820002  00923  00949                    % 09200 RGTR--
+*A VE 110101008 110820002 000001  00923  00949              % 09200 RGTR--
+*I FD 110101008 110820002        0002198  00923  00949      % 09200 RGTR--
+110101008 Clervaux, Pl. de la          00923                % 09200 RGTR--
+110101011 Clervaux, Postes      00924  00924                % 09200 RGTR--
+110101004 Clervaux, Maison de   00925  00925                % 09200 RGTR--
+110101002 Clervaux, Gare routi  00926  00926                % 09200 RGTR--
+110101015 Clervaux, Hall Polyv  00927  00927                % 09200 RGTR--
+110102002 Eselborn, Neidierfch  00928  00928                % 09200 RGTR--
+110102001 Eselborn, Dueref      00929  00929                % 09200 RGTR--
+110102003 Lentzweiler, Op der   00932  00932                % 09200 RGTR--
+110812001 Lentzweiler, Haaptst  00933  00933                % 09200 RGTR--
+110806001 Deiffelt, Haaptstroo  00934  00934                % 09200 RGTR--
+110808001 Doennange, Haaptstro  00935  00935                % 09200 RGTR--
+110813001 Lullange, Haaptstroo  00937  00937                % 09200 RGTR--
+110824001 Boevange, Wëntgerdal  00939  00939                % 09200 RGTR--
+110821001 Wincrange, Bei der K  00940  00940                % 09200 RGTR--
+110821003 Wincrange, Op der Lo  00941  00941                % 09200 RGTR--
+110810002 Hamiville, Haaptstro  00942  00942                % 09200 RGTR--
+110810001 Hamiville, Beim Tout  00943  00943                % 09200 RGTR--
+110820003 Troine-Route, Op der  00945  00945                % 09200 RGTR--
+110820004 Troine-Route, Op der  00946  00946                % 09200 RGTR--
+110820001 Troine, Bréck         00948  00948                % 09200 RGTR--
+110820002 Troine, Duarrefstroo  00949                       % 09200 RGTR--
+*Z 09201 RGTR--                                             % 09201 RGTR--
+*L 677      110101008 110820002  01723  01749               % 09201 RGTR--
+*A bv 110101008 110820002 000001  01723  01749              % 09201 RGTR--
+*A MT 110101008 110820002 000001  01723  01749              % 09201 RGTR--
+*R 1 110820002 110101008 110820002  01723  01749            % 09201 RGTR--
+*G RGB 110101008 110820002  01723  01749                    % 09201 RGTR--
+*A VE 110101008 110820002 000001  01723  01749              % 09201 RGTR--
+*I FD 110101008 110820002        0002199  01723  01749      % 09201 RGTR--
+110101008 Clervaux, Pl. de la          01723                % 09201 RGTR--
+110101011 Clervaux, Postes      01724  01724                % 09201 RGTR--
+110101004 Clervaux, Maison de   01725  01725                % 09201 RGTR--
+110101002 Clervaux, Gare routi  01726  01726                % 09201 RGTR--
+110101015 Clervaux, Hall Polyv  01727  01727                % 09201 RGTR--
+110102002 Eselborn, Neidierfch  01728  01728                % 09201 RGTR--
+110102001 Eselborn, Dueref      01729  01729                % 09201 RGTR--
+110102003 Lentzweiler, Op der   01732  01732                % 09201 RGTR--
+110812001 Lentzweiler, Haaptst  01733  01733                % 09201 RGTR--
+110806001 Deiffelt, Haaptstroo  01734  01734                % 09201 RGTR--
+110808001 Doennange, Haaptstro  01735  01735                % 09201 RGTR--
+110813001 Lullange, Haaptstroo  01737  01737                % 09201 RGTR--
+110824001 Boevange, Wëntgerdal  01739  01739                % 09201 RGTR--
+110821001 Wincrange, Bei der K  01740  01740                % 09201 RGTR--
+110821003 Wincrange, Op der Lo  01741  01741                % 09201 RGTR--
+110810002 Hamiville, Haaptstro  01742  01742                % 09201 RGTR--
+110810001 Hamiville, Beim Tout  01743  01743                % 09201 RGTR--
+110820003 Troine-Route, Op der  01745  01745                % 09201 RGTR--
+110820004 Troine-Route, Op der  01746  01746                % 09201 RGTR--
+110820001 Troine, Bréck         01748  01748                % 09201 RGTR--
+110820002 Troine, Duarrefstroo  01749                       % 09201 RGTR--
+*Z 09202 RGTR--                                             % 09202 RGTR--
+*L 677      110101008 110820002  01823  01849               % 09202 RGTR--
+*A bv 110101008 110820002 000001  01823  01849              % 09202 RGTR--
+*A MT 110101008 110820002 000001  01823  01849              % 09202 RGTR--
+*R 1 110820002 110101008 110820002  01823  01849            % 09202 RGTR--
+*G RGB 110101008 110820002  01823  01849                    % 09202 RGTR--
+*A VE 110101008 110820002 000001  01823  01849              % 09202 RGTR--
+*I FD 110101008 110820002        0002200  01823  01849      % 09202 RGTR--
+110101008 Clervaux, Pl. de la          01823                % 09202 RGTR--
+110101011 Clervaux, Postes      01824  01824                % 09202 RGTR--
+110101004 Clervaux, Maison de   01825  01825                % 09202 RGTR--
+110101002 Clervaux, Gare routi  01826  01826                % 09202 RGTR--
+110101015 Clervaux, Hall Polyv  01827  01827                % 09202 RGTR--
+110102002 Eselborn, Neidierfch  01828  01828                % 09202 RGTR--
+110102001 Eselborn, Dueref      01829  01829                % 09202 RGTR--
+110102003 Lentzweiler, Op der   01832  01832                % 09202 RGTR--
+110812001 Lentzweiler, Haaptst  01833  01833                % 09202 RGTR--
+110806001 Deiffelt, Haaptstroo  01834  01834                % 09202 RGTR--
+110808001 Doennange, Haaptstro  01835  01835                % 09202 RGTR--
+110813001 Lullange, Haaptstroo  01837  01837                % 09202 RGTR--
+110824001 Boevange, Wëntgerdal  01839  01839                % 09202 RGTR--
+110821001 Wincrange, Bei der K  01840  01840                % 09202 RGTR--
+110821003 Wincrange, Op der Lo  01841  01841                % 09202 RGTR--
+110810002 Hamiville, Haaptstro  01842  01842                % 09202 RGTR--
+110810001 Hamiville, Beim Tout  01843  01843                % 09202 RGTR--
+110820003 Troine-Route, Op der  01845  01845                % 09202 RGTR--
+110820004 Troine-Route, Op der  01846  01846                % 09202 RGTR--
+110820001 Troine, Bréck         01848  01848                % 09202 RGTR--
+110820002 Troine, Duarrefstroo  01849                       % 09202 RGTR--
+*Z 09203 RGTR--                                             % 09203 RGTR--
+*L 677      110101008 110820002  01653  01719               % 09203 RGTR--
+*A bv 110101008 110820002 000002  01653  01719              % 09203 RGTR--
+*A MT 110101008 110820002 000002  01653  01719              % 09203 RGTR--
+*R 1 110820002 110101008 110820002  01653  01719            % 09203 RGTR--
+*G RGB 110101008 110820002  01653  01719                    % 09203 RGTR--
+*A VE 110101008 110820002 000002  01653  01719              % 09203 RGTR--
+*I FD 110101008 110820002        0002202  01653  01719      % 09203 RGTR--
+110101008 Clervaux, Pl. de la          01653                % 09203 RGTR--
+110101011 Clervaux, Postes      01654  01654                % 09203 RGTR--
+110101004 Clervaux, Maison de   01655  01655                % 09203 RGTR--
+110101002 Clervaux, Gare routi  01656  01656                % 09203 RGTR--
+110101015 Clervaux, Hall Polyv  01657  01657                % 09203 RGTR--
+110102002 Eselborn, Neidierfch  01658  01658                % 09203 RGTR--
+110102001 Eselborn, Dueref      01659  01659                % 09203 RGTR--
+110102003 Lentzweiler, Op der   01702  01702                % 09203 RGTR--
+110812001 Lentzweiler, Haaptst  01703  01703                % 09203 RGTR--
+110806001 Deiffelt, Haaptstroo  01704  01704                % 09203 RGTR--
+110808001 Doennange, Haaptstro  01705  01705                % 09203 RGTR--
+110813001 Lullange, Haaptstroo  01707  01707                % 09203 RGTR--
+110824001 Boevange, Wëntgerdal  01709  01709                % 09203 RGTR--
+110821001 Wincrange, Bei der K  01710  01710                % 09203 RGTR--
+110821003 Wincrange, Op der Lo  01711  01711                % 09203 RGTR--
+110810002 Hamiville, Haaptstro  01712  01712                % 09203 RGTR--
+110810001 Hamiville, Beim Tout  01713  01713                % 09203 RGTR--
+110820003 Troine-Route, Op der  01715  01715                % 09203 RGTR--
+110820004 Troine-Route, Op der  01716  01716                % 09203 RGTR--
+110820001 Troine, Bréck         01718  01718                % 09203 RGTR--
+110820002 Troine, Duarrefstroo  01719                       % 09203 RGTR--
+*Z 09204 RGTR--                                             % 09204 RGTR--
+*L 677      110101008 110820002  01753  01819               % 09204 RGTR--
+*A bv 110101008 110820002 000002  01753  01819              % 09204 RGTR--
+*A MT 110101008 110820002 000002  01753  01819              % 09204 RGTR--
+*R 1 110820002 110101008 110820002  01753  01819            % 09204 RGTR--
+*G RGB 110101008 110820002  01753  01819                    % 09204 RGTR--
+*A VE 110101008 110820002 000002  01753  01819              % 09204 RGTR--
+*I FD 110101008 110820002        0002203  01753  01819      % 09204 RGTR--
+110101008 Clervaux, Pl. de la          01753                % 09204 RGTR--
+110101011 Clervaux, Postes      01754  01754                % 09204 RGTR--
+110101004 Clervaux, Maison de   01755  01755                % 09204 RGTR--
+110101002 Clervaux, Gare routi  01756  01756                % 09204 RGTR--
+110101015 Clervaux, Hall Polyv  01757  01757                % 09204 RGTR--
+110102002 Eselborn, Neidierfch  01758  01758                % 09204 RGTR--
+110102001 Eselborn, Dueref      01759  01759                % 09204 RGTR--
+110102003 Lentzweiler, Op der   01802  01802                % 09204 RGTR--
+110812001 Lentzweiler, Haaptst  01803  01803                % 09204 RGTR--
+110806001 Deiffelt, Haaptstroo  01804  01804                % 09204 RGTR--
+110808001 Doennange, Haaptstro  01805  01805                % 09204 RGTR--
+110813001 Lullange, Haaptstroo  01807  01807                % 09204 RGTR--
+110824001 Boevange, Wëntgerdal  01809  01809                % 09204 RGTR--
+110821001 Wincrange, Bei der K  01810  01810                % 09204 RGTR--
+110821003 Wincrange, Op der Lo  01811  01811                % 09204 RGTR--
+110810002 Hamiville, Haaptstro  01812  01812                % 09204 RGTR--
+110810001 Hamiville, Beim Tout  01813  01813                % 09204 RGTR--
+110820003 Troine-Route, Op der  01815  01815                % 09204 RGTR--
+110820004 Troine-Route, Op der  01816  01816                % 09204 RGTR--
+110820001 Troine, Bréck         01818  01818                % 09204 RGTR--
+110820002 Troine, Duarrefstroo  01819                       % 09204 RGTR--
+*Z 09205 RGTR--                                             % 09205 RGTR--
+*L 677      110101008 110820002  01623  01649               % 09205 RGTR--
+*A bv 110101008 110820002 000097  01623  01649              % 09205 RGTR--
+*A MT 110101008 110820002 000097  01623  01649              % 09205 RGTR--
+*R 1 110820002 110101008 110820002  01623  01649            % 09205 RGTR--
+*G RGB 110101008 110820002  01623  01649                    % 09205 RGTR--
+*A VE 110101008 110820002 000097  01623  01649              % 09205 RGTR--
+*I FD 110101008 110820002        0002494  01623  01649      % 09205 RGTR--
+110101008 Clervaux, Pl. de la          01623                % 09205 RGTR--
+110101011 Clervaux, Postes      01624  01624                % 09205 RGTR--
+110101004 Clervaux, Maison de   01625  01625                % 09205 RGTR--
+110101002 Clervaux, Gare routi  01626  01626                % 09205 RGTR--
+110101015 Clervaux, Hall Polyv  01627  01627                % 09205 RGTR--
+110102002 Eselborn, Neidierfch  01628  01628                % 09205 RGTR--
+110102001 Eselborn, Dueref      01629  01629                % 09205 RGTR--
+110102003 Lentzweiler, Op der   01632  01632                % 09205 RGTR--
+110812001 Lentzweiler, Haaptst  01633  01633                % 09205 RGTR--
+110806001 Deiffelt, Haaptstroo  01634  01634                % 09205 RGTR--
+110808001 Doennange, Haaptstro  01635  01635                % 09205 RGTR--
+110813001 Lullange, Haaptstroo  01637  01637                % 09205 RGTR--
+110824001 Boevange, Wëntgerdal  01639  01639                % 09205 RGTR--
+110821001 Wincrange, Bei der K  01640  01640                % 09205 RGTR--
+110821003 Wincrange, Op der Lo  01641  01641                % 09205 RGTR--
+110810002 Hamiville, Haaptstro  01642  01642                % 09205 RGTR--
+110810001 Hamiville, Beim Tout  01643  01643                % 09205 RGTR--
+110820003 Troine-Route, Op der  01645  01645                % 09205 RGTR--
+110820004 Troine-Route, Op der  01646  01646                % 09205 RGTR--
+110820001 Troine, Bréck         01648  01648                % 09205 RGTR--
+110820002 Troine, Duarrefstroo  01649                       % 09205 RGTR--
+*Z 09206 RGTR--                                             % 09206 RGTR--
+*L 677      110103001 110820002  01210  01244               % 09206 RGTR--
+*A bv 110103001 110820002 000002  01210  01244              % 09206 RGTR--
+*R 1 110820002 110103001 110820002  01210  01244            % 09206 RGTR--
+*G RGB 110103001 110820002  01210  01244                    % 09206 RGTR--
+*A VE 110103001 110820002 000002  01210  01244              % 09206 RGTR--
+*I FD 110103001 110820002        0002060  01210  01244      % 09206 RGTR--
+110103001 Reuler, Centre Scola         01210                % 09206 RGTR--
+110101009 Clervaux, Place Bene  01215  01215                % 09206 RGTR--
+110101006 Clervaux, Parc        01215  01215                % 09206 RGTR--
+110101008 Clervaux, Pl. de la   01218  01218                % 09206 RGTR--
+110101011 Clervaux, Postes      01219  01219                % 09206 RGTR--
+110101004 Clervaux, Maison de   01220  01220                % 09206 RGTR--
+110101002 Clervaux, Gare routi  01221  01221                % 09206 RGTR--
+110101015 Clervaux, Hall Polyv  01222  01222                % 09206 RGTR--
+110102002 Eselborn, Neidierfch  01223  01223                % 09206 RGTR--
+110102001 Eselborn, Dueref      01224  01224                % 09206 RGTR--
+110102003 Lentzweiler, Op der   01227  01227                % 09206 RGTR--
+110812001 Lentzweiler, Haaptst  01228  01228                % 09206 RGTR--
+110806001 Deiffelt, Haaptstroo  01229  01229                % 09206 RGTR--
+110808001 Doennange, Haaptstro  01230  01230                % 09206 RGTR--
+110813001 Lullange, Haaptstroo  01232  01232                % 09206 RGTR--
+110824001 Boevange, Wëntgerdal  01234  01234                % 09206 RGTR--
+110821001 Wincrange, Bei der K  01235  01235                % 09206 RGTR--
+110821003 Wincrange, Op der Lo  01236  01236                % 09206 RGTR--
+110810002 Hamiville, Haaptstro  01237  01237                % 09206 RGTR--
+110810001 Hamiville, Beim Tout  01238  01238                % 09206 RGTR--
+110820003 Troine-Route, Op der  01240  01240                % 09206 RGTR--
+110820004 Troine-Route, Op der  01241  01241                % 09206 RGTR--
+110820001 Troine, Bréck         01243  01243                % 09206 RGTR--
+110820002 Troine, Duarrefstroo  01244                       % 09206 RGTR--
+*Z 09207 RGTR--                                             % 09207 RGTR--
+*L 677      110103001 110820002  01605  01639               % 09207 RGTR--
+*A bv 110103001 110820002 000008  01605  01639              % 09207 RGTR--
+*R 1 110820002 110103001 110820002  01605  01639            % 09207 RGTR--
+*G RGB 110103001 110820002  01605  01639                    % 09207 RGTR--
+*A VE 110103001 110820002 000008  01605  01639              % 09207 RGTR--
+*I FD 110103001 110820002        0002995  01605  01639      % 09207 RGTR--
+110103001 Reuler, Centre Scola         01605                % 09207 RGTR--
+110101009 Clervaux, Place Bene  01610  01610                % 09207 RGTR--
+110101006 Clervaux, Parc        01610  01610                % 09207 RGTR--
+110101008 Clervaux, Pl. de la   01613  01613                % 09207 RGTR--
+110101011 Clervaux, Postes      01614  01614                % 09207 RGTR--
+110101004 Clervaux, Maison de   01615  01615                % 09207 RGTR--
+110101002 Clervaux, Gare routi  01616  01616                % 09207 RGTR--
+110101015 Clervaux, Hall Polyv  01617  01617                % 09207 RGTR--
+110102002 Eselborn, Neidierfch  01618  01618                % 09207 RGTR--
+110102001 Eselborn, Dueref      01619  01619                % 09207 RGTR--
+110102003 Lentzweiler, Op der   01622  01622                % 09207 RGTR--
+110812001 Lentzweiler, Haaptst  01623  01623                % 09207 RGTR--
+110806001 Deiffelt, Haaptstroo  01624  01624                % 09207 RGTR--
+110808001 Doennange, Haaptstro  01625  01625                % 09207 RGTR--
+110813001 Lullange, Haaptstroo  01627  01627                % 09207 RGTR--
+110824001 Boevange, Wëntgerdal  01629  01629                % 09207 RGTR--
+110821001 Wincrange, Bei der K  01630  01630                % 09207 RGTR--
+110821003 Wincrange, Op der Lo  01631  01631                % 09207 RGTR--
+110810002 Hamiville, Haaptstro  01632  01632                % 09207 RGTR--
+110810001 Hamiville, Beim Tout  01633  01633                % 09207 RGTR--
+110820003 Troine-Route, Op der  01635  01635                % 09207 RGTR--
+110820004 Troine-Route, Op der  01636  01636                % 09207 RGTR--
+110820001 Troine, Bréck         01638  01638                % 09207 RGTR--
+110820002 Troine, Duarrefstroo  01639                       % 09207 RGTR--
+*Z 09208 RGTR--                                             % 09208 RGTR--
+*L 677      110102001 110103001  00740  00747               % 09208 RGTR--
+*A bv 110102001 110103001 000002  00740  00747              % 09208 RGTR--
+*R 2 110103001 110102001 110103001  00740  00747            % 09208 RGTR--
+*G RGB 110102001 110103001  00740  00747                    % 09208 RGTR--
+*A VE 110102001 110103001 000002  00740  00747              % 09208 RGTR--
+*I FD 110102001 110103001        0001888  00740  00747      % 09208 RGTR--
+110102001 Eselborn, Dueref             00740                % 09208 RGTR--
+110102002 Eselborn, Neidierfch  00741  00741                % 09208 RGTR--
+110101012 Clervaux, Scierie     00744  00744                % 09208 RGTR--
+110103001 Reuler, Centre Scola  00747                       % 09208 RGTR--
+*Z 09209 RGTR--                                             % 09209 RGTR--
+*L 677      110102001 110103001  01340  01347               % 09209 RGTR--
+*A bv 110102001 110103001 000008  01340  01347              % 09209 RGTR--
+*R 2 110103001 110102001 110103001  01340  01347            % 09209 RGTR--
+*G RGB 110102001 110103001  01340  01347                    % 09209 RGTR--
+*A VE 110102001 110103001 000008  01340  01347              % 09209 RGTR--
+*I FD 110102001 110103001        0001904  01340  01347      % 09209 RGTR--
+110102001 Eselborn, Dueref             01340                % 09209 RGTR--
+110102002 Eselborn, Neidierfch  01341  01341                % 09209 RGTR--
+110101012 Clervaux, Scierie     01344  01344                % 09209 RGTR--
+110103001 Reuler, Centre Scola  01347                       % 09209 RGTR--
+*Z 09210 RGTR--                                             % 09210 RGTR--
+*L 677      110820002 110101008  00809  00837               % 09210 RGTR--
+*A bv 110820002 110101008 000001  00809  00837              % 09210 RGTR--
+*A MP 110820002 110101008 000001  00809  00837              % 09210 RGTR--
+*R 2 110101008 110820002 110101008  00809  00837            % 09210 RGTR--
+*G RGB 110820002 110101008  00809  00837                    % 09210 RGTR--
+*A VE 110820002 110101008 000001  00809  00837              % 09210 RGTR--
+*I FD 110820002 110101008        0002709  00809  00837      % 09210 RGTR--
+110820002 Troine, Duarrefstroo         00809                % 09210 RGTR--
+110820001 Troine, Bréck         00810  00810                % 09210 RGTR--
+110820004 Troine-Route, Op der  00812  00812                % 09210 RGTR--
+110820003 Troine-Route, Op der  00813  00813                % 09210 RGTR--
+110810001 Hamiville, Beim Tout  00815  00815                % 09210 RGTR--
+110810002 Hamiville, Haaptstro  00816  00816                % 09210 RGTR--
+110821003 Wincrange, Op der Lo  00817  00817                % 09210 RGTR--
+110821001 Wincrange, Bei der K  00818  00818                % 09210 RGTR--
+110824001 Boevange, Wëntgerdal  00819  00819                % 09210 RGTR--
+110813001 Lullange, Haaptstroo  00821  00821                % 09210 RGTR--
+110808001 Doennange, Haaptstro  00823  00823                % 09210 RGTR--
+110806001 Deiffelt, Haaptstroo  00824  00824                % 09210 RGTR--
+110812001 Lentzweiler, Haaptst  00826  00826                % 09210 RGTR--
+110102003 Lentzweiler, Op der   00828  00828                % 09210 RGTR--
+110102001 Eselborn, Dueref      00830  00830                % 09210 RGTR--
+110102002 Eselborn, Neidierfch  00831  00831                % 09210 RGTR--
+110101015 Clervaux, Hall Polyv  00832  00832                % 09210 RGTR--
+110101002 Clervaux, Gare routi  00834  00834                % 09210 RGTR--
+110101004 Clervaux, Maison de   00835  00835                % 09210 RGTR--
+110101009 Clervaux, Place Bene  00836  00836                % 09210 RGTR--
+110101008 Clervaux, Pl. de la   00837                       % 09210 RGTR--
+*Z 09211 RGTR--                                             % 09211 RGTR--
+*L 677      110820002 110101008  00909  00937               % 09211 RGTR--
+*A bv 110820002 110101008 000001  00909  00937              % 09211 RGTR--
+*A MP 110820002 110101008 000001  00909  00937              % 09211 RGTR--
+*R 2 110101008 110820002 110101008  00909  00937            % 09211 RGTR--
+*G RGB 110820002 110101008  00909  00937                    % 09211 RGTR--
+*A VE 110820002 110101008 000001  00909  00937              % 09211 RGTR--
+*I FD 110820002 110101008        0002710  00909  00937      % 09211 RGTR--
+110820002 Troine, Duarrefstroo         00909                % 09211 RGTR--
+110820001 Troine, Bréck         00910  00910                % 09211 RGTR--
+110820004 Troine-Route, Op der  00912  00912                % 09211 RGTR--
+110820003 Troine-Route, Op der  00913  00913                % 09211 RGTR--
+110810001 Hamiville, Beim Tout  00915  00915                % 09211 RGTR--
+110810002 Hamiville, Haaptstro  00916  00916                % 09211 RGTR--
+110821003 Wincrange, Op der Lo  00917  00917                % 09211 RGTR--
+110821001 Wincrange, Bei der K  00918  00918                % 09211 RGTR--
+110824001 Boevange, Wëntgerdal  00919  00919                % 09211 RGTR--
+110813001 Lullange, Haaptstroo  00921  00921                % 09211 RGTR--
+110808001 Doennange, Haaptstro  00923  00923                % 09211 RGTR--
+110806001 Deiffelt, Haaptstroo  00924  00924                % 09211 RGTR--
+110812001 Lentzweiler, Haaptst  00926  00926                % 09211 RGTR--
+110102003 Lentzweiler, Op der   00928  00928                % 09211 RGTR--
+110102001 Eselborn, Dueref      00930  00930                % 09211 RGTR--
+110102002 Eselborn, Neidierfch  00931  00931                % 09211 RGTR--
+110101015 Clervaux, Hall Polyv  00932  00932                % 09211 RGTR--
+110101002 Clervaux, Gare routi  00934  00934                % 09211 RGTR--
+110101004 Clervaux, Maison de   00935  00935                % 09211 RGTR--
+110101009 Clervaux, Place Bene  00936  00936                % 09211 RGTR--
+110101008 Clervaux, Pl. de la   00937                       % 09211 RGTR--
+*Z 09212 RGTR--                                             % 09212 RGTR--
+*L 677      110820002 110101008  01009  01037               % 09212 RGTR--
+*A bv 110820002 110101008 000001  01009  01037              % 09212 RGTR--
+*A MP 110820002 110101008 000001  01009  01037              % 09212 RGTR--
+*R 2 110101008 110820002 110101008  01009  01037            % 09212 RGTR--
+*G RGB 110820002 110101008  01009  01037                    % 09212 RGTR--
+*A VE 110820002 110101008 000001  01009  01037              % 09212 RGTR--
+*I FD 110820002 110101008        0002706  01009  01037      % 09212 RGTR--
+110820002 Troine, Duarrefstroo         01009                % 09212 RGTR--
+110820001 Troine, Bréck         01010  01010                % 09212 RGTR--
+110820004 Troine-Route, Op der  01012  01012                % 09212 RGTR--
+110820003 Troine-Route, Op der  01013  01013                % 09212 RGTR--
+110810001 Hamiville, Beim Tout  01015  01015                % 09212 RGTR--
+110810002 Hamiville, Haaptstro  01016  01016                % 09212 RGTR--
+110821003 Wincrange, Op der Lo  01017  01017                % 09212 RGTR--
+110821001 Wincrange, Bei der K  01018  01018                % 09212 RGTR--
+110824001 Boevange, Wëntgerdal  01019  01019                % 09212 RGTR--
+110813001 Lullange, Haaptstroo  01021  01021                % 09212 RGTR--
+110808001 Doennange, Haaptstro  01023  01023                % 09212 RGTR--
+110806001 Deiffelt, Haaptstroo  01024  01024                % 09212 RGTR--
+110812001 Lentzweiler, Haaptst  01026  01026                % 09212 RGTR--
+110102003 Lentzweiler, Op der   01028  01028                % 09212 RGTR--
+110102001 Eselborn, Dueref      01030  01030                % 09212 RGTR--
+110102002 Eselborn, Neidierfch  01031  01031                % 09212 RGTR--
+110101015 Clervaux, Hall Polyv  01032  01032                % 09212 RGTR--
+110101002 Clervaux, Gare routi  01034  01034                % 09212 RGTR--
+110101004 Clervaux, Maison de   01035  01035                % 09212 RGTR--
+110101009 Clervaux, Place Bene  01036  01036                % 09212 RGTR--
+110101008 Clervaux, Pl. de la   01037                       % 09212 RGTR--
+*Z 09213 RGTR--                                             % 09213 RGTR--
+*L 677      110820002 110101008  01109  01137               % 09213 RGTR--
+*A bv 110820002 110101008 000001  01109  01137              % 09213 RGTR--
+*A MP 110820002 110101008 000001  01109  01137              % 09213 RGTR--
+*R 2 110101008 110820002 110101008  01109  01137            % 09213 RGTR--
+*G RGB 110820002 110101008  01109  01137                    % 09213 RGTR--
+*A VE 110820002 110101008 000001  01109  01137              % 09213 RGTR--
+*I FD 110820002 110101008        0001026  01109  01137      % 09213 RGTR--
+110820002 Troine, Duarrefstroo         01109                % 09213 RGTR--
+110820001 Troine, Bréck         01110  01110                % 09213 RGTR--
+110820004 Troine-Route, Op der  01112  01112                % 09213 RGTR--
+110820003 Troine-Route, Op der  01113  01113                % 09213 RGTR--
+110810001 Hamiville, Beim Tout  01115  01115                % 09213 RGTR--
+110810002 Hamiville, Haaptstro  01116  01116                % 09213 RGTR--
+110821003 Wincrange, Op der Lo  01117  01117                % 09213 RGTR--
+110821001 Wincrange, Bei der K  01118  01118                % 09213 RGTR--
+110824001 Boevange, Wëntgerdal  01119  01119                % 09213 RGTR--
+110813001 Lullange, Haaptstroo  01121  01121                % 09213 RGTR--
+110808001 Doennange, Haaptstro  01123  01123                % 09213 RGTR--
+110806001 Deiffelt, Haaptstroo  01124  01124                % 09213 RGTR--
+110812001 Lentzweiler, Haaptst  01126  01126                % 09213 RGTR--
+110102003 Lentzweiler, Op der   01128  01128                % 09213 RGTR--
+110102001 Eselborn, Dueref      01130  01130                % 09213 RGTR--
+110102002 Eselborn, Neidierfch  01131  01131                % 09213 RGTR--
+110101015 Clervaux, Hall Polyv  01132  01132                % 09213 RGTR--
+110101002 Clervaux, Gare routi  01134  01134                % 09213 RGTR--
+110101004 Clervaux, Maison de   01135  01135                % 09213 RGTR--
+110101009 Clervaux, Place Bene  01136  01136                % 09213 RGTR--
+110101008 Clervaux, Pl. de la   01137                       % 09213 RGTR--
+*Z 09214 RGTR--                                             % 09214 RGTR--
+*L 677      110820002 110101008  01209  01237               % 09214 RGTR--
+*A bv 110820002 110101008 000001  01209  01237              % 09214 RGTR--
+*A MP 110820002 110101008 000001  01209  01237              % 09214 RGTR--
+*R 2 110101008 110820002 110101008  01209  01237            % 09214 RGTR--
+*G RGB 110820002 110101008  01209  01237                    % 09214 RGTR--
+*A VE 110820002 110101008 000001  01209  01237              % 09214 RGTR--
+*I FD 110820002 110101008        0003338  01209  01237      % 09214 RGTR--
+110820002 Troine, Duarrefstroo         01209                % 09214 RGTR--
+110820001 Troine, Bréck         01210  01210                % 09214 RGTR--
+110820004 Troine-Route, Op der  01212  01212                % 09214 RGTR--
+110820003 Troine-Route, Op der  01213  01213                % 09214 RGTR--
+110810001 Hamiville, Beim Tout  01215  01215                % 09214 RGTR--
+110810002 Hamiville, Haaptstro  01216  01216                % 09214 RGTR--
+110821003 Wincrange, Op der Lo  01217  01217                % 09214 RGTR--
+110821001 Wincrange, Bei der K  01218  01218                % 09214 RGTR--
+110824001 Boevange, Wëntgerdal  01219  01219                % 09214 RGTR--
+110813001 Lullange, Haaptstroo  01221  01221                % 09214 RGTR--
+110808001 Doennange, Haaptstro  01223  01223                % 09214 RGTR--
+110806001 Deiffelt, Haaptstroo  01224  01224                % 09214 RGTR--
+110812001 Lentzweiler, Haaptst  01226  01226                % 09214 RGTR--
+110102003 Lentzweiler, Op der   01228  01228                % 09214 RGTR--
+110102001 Eselborn, Dueref      01230  01230                % 09214 RGTR--
+110102002 Eselborn, Neidierfch  01231  01231                % 09214 RGTR--
+110101015 Clervaux, Hall Polyv  01232  01232                % 09214 RGTR--
+110101002 Clervaux, Gare routi  01234  01234                % 09214 RGTR--
+110101004 Clervaux, Maison de   01235  01235                % 09214 RGTR--
+110101009 Clervaux, Place Bene  01236  01236                % 09214 RGTR--
+110101008 Clervaux, Pl. de la   01237                       % 09214 RGTR--
+*Z 09215 RGTR--                                             % 09215 RGTR--
+*L 677      110820002 110101008  01409  01437               % 09215 RGTR--
+*A bv 110820002 110101008 000001  01409  01437              % 09215 RGTR--
+*A MP 110820002 110101008 000001  01409  01437              % 09215 RGTR--
+*R 2 110101008 110820002 110101008  01409  01437            % 09215 RGTR--
+*G RGB 110820002 110101008  01409  01437                    % 09215 RGTR--
+*A VE 110820002 110101008 000001  01409  01437              % 09215 RGTR--
+*I FD 110820002 110101008        0002707  01409  01437      % 09215 RGTR--
+110820002 Troine, Duarrefstroo         01409                % 09215 RGTR--
+110820001 Troine, Bréck         01410  01410                % 09215 RGTR--
+110820004 Troine-Route, Op der  01412  01412                % 09215 RGTR--
+110820003 Troine-Route, Op der  01413  01413                % 09215 RGTR--
+110810001 Hamiville, Beim Tout  01415  01415                % 09215 RGTR--
+110810002 Hamiville, Haaptstro  01416  01416                % 09215 RGTR--
+110821003 Wincrange, Op der Lo  01417  01417                % 09215 RGTR--
+110821001 Wincrange, Bei der K  01418  01418                % 09215 RGTR--
+110824001 Boevange, Wëntgerdal  01419  01419                % 09215 RGTR--
+110813001 Lullange, Haaptstroo  01421  01421                % 09215 RGTR--
+110808001 Doennange, Haaptstro  01423  01423                % 09215 RGTR--
+110806001 Deiffelt, Haaptstroo  01424  01424                % 09215 RGTR--
+110812001 Lentzweiler, Haaptst  01426  01426                % 09215 RGTR--
+110102003 Lentzweiler, Op der   01428  01428                % 09215 RGTR--
+110102001 Eselborn, Dueref      01430  01430                % 09215 RGTR--
+110102002 Eselborn, Neidierfch  01431  01431                % 09215 RGTR--
+110101015 Clervaux, Hall Polyv  01432  01432                % 09215 RGTR--
+110101002 Clervaux, Gare routi  01434  01434                % 09215 RGTR--
+110101004 Clervaux, Maison de   01435  01435                % 09215 RGTR--
+110101009 Clervaux, Place Bene  01436  01436                % 09215 RGTR--
+110101008 Clervaux, Pl. de la   01437                       % 09215 RGTR--
+*Z 09216 RGTR--                                             % 09216 RGTR--
+*L 677      110820002 110101008  01509  01537               % 09216 RGTR--
+*A bv 110820002 110101008 000001  01509  01537              % 09216 RGTR--
+*A MP 110820002 110101008 000001  01509  01537              % 09216 RGTR--
+*R 2 110101008 110820002 110101008  01509  01537            % 09216 RGTR--
+*G RGB 110820002 110101008  01509  01537                    % 09216 RGTR--
+*A VE 110820002 110101008 000001  01509  01537              % 09216 RGTR--
+*I FD 110820002 110101008        0001803  01509  01537      % 09216 RGTR--
+110820002 Troine, Duarrefstroo         01509                % 09216 RGTR--
+110820001 Troine, Bréck         01510  01510                % 09216 RGTR--
+110820004 Troine-Route, Op der  01512  01512                % 09216 RGTR--
+110820003 Troine-Route, Op der  01513  01513                % 09216 RGTR--
+110810001 Hamiville, Beim Tout  01515  01515                % 09216 RGTR--
+110810002 Hamiville, Haaptstro  01516  01516                % 09216 RGTR--
+110821003 Wincrange, Op der Lo  01517  01517                % 09216 RGTR--
+110821001 Wincrange, Bei der K  01518  01518                % 09216 RGTR--
+110824001 Boevange, Wëntgerdal  01519  01519                % 09216 RGTR--
+110813001 Lullange, Haaptstroo  01521  01521                % 09216 RGTR--
+110808001 Doennange, Haaptstro  01523  01523                % 09216 RGTR--
+110806001 Deiffelt, Haaptstroo  01524  01524                % 09216 RGTR--
+110812001 Lentzweiler, Haaptst  01526  01526                % 09216 RGTR--
+110102003 Lentzweiler, Op der   01528  01528                % 09216 RGTR--
+110102001 Eselborn, Dueref      01530  01530                % 09216 RGTR--
+110102002 Eselborn, Neidierfch  01531  01531                % 09216 RGTR--
+110101015 Clervaux, Hall Polyv  01532  01532                % 09216 RGTR--
+110101002 Clervaux, Gare routi  01534  01534                % 09216 RGTR--
+110101004 Clervaux, Maison de   01535  01535                % 09216 RGTR--
+110101009 Clervaux, Place Bene  01536  01536                % 09216 RGTR--
+110101008 Clervaux, Pl. de la   01537                       % 09216 RGTR--
+*Z 09217 RGTR--                                             % 09217 RGTR--
+*L 677      110820002 110101008  01609  01637               % 09217 RGTR--
+*A bv 110820002 110101008 000001  01609  01637              % 09217 RGTR--
+*A MP 110820002 110101008 000001  01609  01637              % 09217 RGTR--
+*R 2 110101008 110820002 110101008  01609  01637            % 09217 RGTR--
+*G RGB 110820002 110101008  01609  01637                    % 09217 RGTR--
+*A VE 110820002 110101008 000001  01609  01637              % 09217 RGTR--
+*I FD 110820002 110101008        0001806  01609  01637      % 09217 RGTR--
+110820002 Troine, Duarrefstroo         01609                % 09217 RGTR--
+110820001 Troine, Bréck         01610  01610                % 09217 RGTR--
+110820004 Troine-Route, Op der  01612  01612                % 09217 RGTR--
+110820003 Troine-Route, Op der  01613  01613                % 09217 RGTR--
+110810001 Hamiville, Beim Tout  01615  01615                % 09217 RGTR--
+110810002 Hamiville, Haaptstro  01616  01616                % 09217 RGTR--
+110821003 Wincrange, Op der Lo  01617  01617                % 09217 RGTR--
+110821001 Wincrange, Bei der K  01618  01618                % 09217 RGTR--
+110824001 Boevange, Wëntgerdal  01619  01619                % 09217 RGTR--
+110813001 Lullange, Haaptstroo  01621  01621                % 09217 RGTR--
+110808001 Doennange, Haaptstro  01623  01623                % 09217 RGTR--
+110806001 Deiffelt, Haaptstroo  01624  01624                % 09217 RGTR--
+110812001 Lentzweiler, Haaptst  01626  01626                % 09217 RGTR--
+110102003 Lentzweiler, Op der   01628  01628                % 09217 RGTR--
+110102001 Eselborn, Dueref      01630  01630                % 09217 RGTR--
+110102002 Eselborn, Neidierfch  01631  01631                % 09217 RGTR--
+110101015 Clervaux, Hall Polyv  01632  01632                % 09217 RGTR--
+110101002 Clervaux, Gare routi  01634  01634                % 09217 RGTR--
+110101004 Clervaux, Maison de   01635  01635                % 09217 RGTR--
+110101009 Clervaux, Place Bene  01636  01636                % 09217 RGTR--
+110101008 Clervaux, Pl. de la   01637                       % 09217 RGTR--
+*Z 09218 RGTR--                                             % 09218 RGTR--
+*L 677      110820002 110101008  01709  01737               % 09218 RGTR--
+*A bv 110820002 110101008 000001  01709  01737              % 09218 RGTR--
+*A MP 110820002 110101008 000001  01709  01737              % 09218 RGTR--
+*R 2 110101008 110820002 110101008  01709  01737            % 09218 RGTR--
+*G RGB 110820002 110101008  01709  01737                    % 09218 RGTR--
+*A VE 110820002 110101008 000001  01709  01737              % 09218 RGTR--
+*I FD 110820002 110101008        0002711  01709  01737      % 09218 RGTR--
+110820002 Troine, Duarrefstroo         01709                % 09218 RGTR--
+110820001 Troine, Bréck         01710  01710                % 09218 RGTR--
+110820004 Troine-Route, Op der  01712  01712                % 09218 RGTR--
+110820003 Troine-Route, Op der  01713  01713                % 09218 RGTR--
+110810001 Hamiville, Beim Tout  01715  01715                % 09218 RGTR--
+110810002 Hamiville, Haaptstro  01716  01716                % 09218 RGTR--
+110821003 Wincrange, Op der Lo  01717  01717                % 09218 RGTR--
+110821001 Wincrange, Bei der K  01718  01718                % 09218 RGTR--
+110824001 Boevange, Wëntgerdal  01719  01719                % 09218 RGTR--
+110813001 Lullange, Haaptstroo  01721  01721                % 09218 RGTR--
+110808001 Doennange, Haaptstro  01723  01723                % 09218 RGTR--
+110806001 Deiffelt, Haaptstroo  01724  01724                % 09218 RGTR--
+110812001 Lentzweiler, Haaptst  01726  01726                % 09218 RGTR--
+110102003 Lentzweiler, Op der   01728  01728                % 09218 RGTR--
+110102001 Eselborn, Dueref      01730  01730                % 09218 RGTR--
+110102002 Eselborn, Neidierfch  01731  01731                % 09218 RGTR--
+110101015 Clervaux, Hall Polyv  01732  01732                % 09218 RGTR--
+110101002 Clervaux, Gare routi  01734  01734                % 09218 RGTR--
+110101004 Clervaux, Maison de   01735  01735                % 09218 RGTR--
+110101009 Clervaux, Place Bene  01736  01736                % 09218 RGTR--
+110101008 Clervaux, Pl. de la   01737                       % 09218 RGTR--
+*Z 09219 RGTR--                                             % 09219 RGTR--
+*L 677      110820002 110101008  01809  01837               % 09219 RGTR--
+*A bv 110820002 110101008 000001  01809  01837              % 09219 RGTR--
+*A MP 110820002 110101008 000001  01809  01837              % 09219 RGTR--
+*R 2 110101008 110820002 110101008  01809  01837            % 09219 RGTR--
+*G RGB 110820002 110101008  01809  01837                    % 09219 RGTR--
+*A VE 110820002 110101008 000001  01809  01837              % 09219 RGTR--
+*I FD 110820002 110101008        0001811  01809  01837      % 09219 RGTR--
+110820002 Troine, Duarrefstroo         01809                % 09219 RGTR--
+110820001 Troine, Bréck         01810  01810                % 09219 RGTR--
+110820004 Troine-Route, Op der  01812  01812                % 09219 RGTR--
+110820003 Troine-Route, Op der  01813  01813                % 09219 RGTR--
+110810001 Hamiville, Beim Tout  01815  01815                % 09219 RGTR--
+110810002 Hamiville, Haaptstro  01816  01816                % 09219 RGTR--
+110821003 Wincrange, Op der Lo  01817  01817                % 09219 RGTR--
+110821001 Wincrange, Bei der K  01818  01818                % 09219 RGTR--
+110824001 Boevange, Wëntgerdal  01819  01819                % 09219 RGTR--
+110813001 Lullange, Haaptstroo  01821  01821                % 09219 RGTR--
+110808001 Doennange, Haaptstro  01823  01823                % 09219 RGTR--
+110806001 Deiffelt, Haaptstroo  01824  01824                % 09219 RGTR--
+110812001 Lentzweiler, Haaptst  01826  01826                % 09219 RGTR--
+110102003 Lentzweiler, Op der   01828  01828                % 09219 RGTR--
+110102001 Eselborn, Dueref      01830  01830                % 09219 RGTR--
+110102002 Eselborn, Neidierfch  01831  01831                % 09219 RGTR--
+110101015 Clervaux, Hall Polyv  01832  01832                % 09219 RGTR--
+110101002 Clervaux, Gare routi  01834  01834                % 09219 RGTR--
+110101004 Clervaux, Maison de   01835  01835                % 09219 RGTR--
+110101009 Clervaux, Place Bene  01836  01836                % 09219 RGTR--
+110101008 Clervaux, Pl. de la   01837                       % 09219 RGTR--
+*Z 09220 RGTR--                                             % 09220 RGTR--
+*L 677      110820002 110101008  00713  00740               % 09220 RGTR--
+*A bv 110820002 110101008 000005  00713  00740              % 09220 RGTR--
+*R 2 110101008 110820002 110101008  00713  00740            % 09220 RGTR--
+*G RGB 110820002 110101008  00713  00740                    % 09220 RGTR--
+*A VE 110820002 110101008 000005  00713  00740              % 09220 RGTR--
+*I FD 110820002 110101008        0001854  00713  00740      % 09220 RGTR--
+110820002 Troine, Duarrefstroo         00713                % 09220 RGTR--
+110820001 Troine, Bréck         00714  00714                % 09220 RGTR--
+110820004 Troine-Route, Op der  00716  00716                % 09220 RGTR--
+110820003 Troine-Route, Op der  00717  00717                % 09220 RGTR--
+110810001 Hamiville, Beim Tout  00719  00719                % 09220 RGTR--
+110810002 Hamiville, Haaptstro  00720  00720                % 09220 RGTR--
+110821003 Wincrange, Op der Lo  00721  00721                % 09220 RGTR--
+110821001 Wincrange, Bei der K  00722  00722                % 09220 RGTR--
+110824001 Boevange, Wëntgerdal  00723  00723                % 09220 RGTR--
+110813001 Lullange, Haaptstroo  00725  00725                % 09220 RGTR--
+110808001 Doennange, Haaptstro  00727  00727                % 09220 RGTR--
+110806001 Deiffelt, Haaptstroo  00728  00728                % 09220 RGTR--
+110812001 Lentzweiler, Haaptst  00730  00730                % 09220 RGTR--
+110102003 Lentzweiler, Op der   00731  00731                % 09220 RGTR--
+110102001 Eselborn, Dueref      00733  00733                % 09220 RGTR--
+110102002 Eselborn, Neidierfch  00734  00734                % 09220 RGTR--
+110101015 Clervaux, Hall Polyv  00735  00735                % 09220 RGTR--
+110101002 Clervaux, Gare routi  00737  00737                % 09220 RGTR--
+110101004 Clervaux, Maison de   00738  00738                % 09220 RGTR--
+110101009 Clervaux, Place Bene  00739  00739                % 09220 RGTR--
+110101008 Clervaux, Pl. de la   00740                       % 09220 RGTR--
+*Z 09221 RGTR--                                             % 09221 RGTR--
+*L 677      110820002 110101008  01309  01337               % 09221 RGTR--
+*A bv 110820002 110101008 000097  01309  01337              % 09221 RGTR--
+*A MP 110820002 110101008 000097  01309  01337              % 09221 RGTR--
+*R 2 110101008 110820002 110101008  01309  01337            % 09221 RGTR--
+*G RGB 110820002 110101008  01309  01337                    % 09221 RGTR--
+*A VE 110820002 110101008 000097  01309  01337              % 09221 RGTR--
+*I FD 110820002 110101008        0003340  01309  01337      % 09221 RGTR--
+110820002 Troine, Duarrefstroo         01309                % 09221 RGTR--
+110820001 Troine, Bréck         01310  01310                % 09221 RGTR--
+110820004 Troine-Route, Op der  01312  01312                % 09221 RGTR--
+110820003 Troine-Route, Op der  01313  01313                % 09221 RGTR--
+110810001 Hamiville, Beim Tout  01315  01315                % 09221 RGTR--
+110810002 Hamiville, Haaptstro  01316  01316                % 09221 RGTR--
+110821003 Wincrange, Op der Lo  01317  01317                % 09221 RGTR--
+110821001 Wincrange, Bei der K  01318  01318                % 09221 RGTR--
+110824001 Boevange, Wëntgerdal  01319  01319                % 09221 RGTR--
+110813001 Lullange, Haaptstroo  01321  01321                % 09221 RGTR--
+110808001 Doennange, Haaptstro  01323  01323                % 09221 RGTR--
+110806001 Deiffelt, Haaptstroo  01324  01324                % 09221 RGTR--
+110812001 Lentzweiler, Haaptst  01326  01326                % 09221 RGTR--
+110102003 Lentzweiler, Op der   01328  01328                % 09221 RGTR--
+110102001 Eselborn, Dueref      01330  01330                % 09221 RGTR--
+110102002 Eselborn, Neidierfch  01331  01331                % 09221 RGTR--
+110101015 Clervaux, Hall Polyv  01332  01332                % 09221 RGTR--
+110101002 Clervaux, Gare routi  01334  01334                % 09221 RGTR--
+110101004 Clervaux, Maison de   01335  01335                % 09221 RGTR--
+110101009 Clervaux, Place Bene  01336  01336                % 09221 RGTR--
+110101008 Clervaux, Pl. de la   01337                       % 09221 RGTR--
+*Z 09222 RGTR--                                             % 09222 RGTR--
+*L 677      110820002 110101002  00509  00534               % 09222 RGTR--
+*A bv 110820002 110101002 000001  00509  00534              % 09222 RGTR--
+*A MP 110820002 110101002 000001  00509  00534              % 09222 RGTR--
+*R 2 110101002 110820002 110101002  00509  00534            % 09222 RGTR--
+*G RGB 110820002 110101002  00509  00534                    % 09222 RGTR--
+*A VE 110820002 110101002 000001  00509  00534              % 09222 RGTR--
+*I FD 110820002 110101002        0003624  00509  00534      % 09222 RGTR--
+110820002 Troine, Duarrefstroo         00509                % 09222 RGTR--
+110820001 Troine, Bréck         00510  00510                % 09222 RGTR--
+110820004 Troine-Route, Op der  00512  00512                % 09222 RGTR--
+110820003 Troine-Route, Op der  00513  00513                % 09222 RGTR--
+110810001 Hamiville, Beim Tout  00515  00515                % 09222 RGTR--
+110810002 Hamiville, Haaptstro  00516  00516                % 09222 RGTR--
+110821003 Wincrange, Op der Lo  00517  00517                % 09222 RGTR--
+110821001 Wincrange, Bei der K  00518  00518                % 09222 RGTR--
+110824001 Boevange, Wëntgerdal  00519  00519                % 09222 RGTR--
+110813001 Lullange, Haaptstroo  00521  00521                % 09222 RGTR--
+110808001 Doennange, Haaptstro  00523  00523                % 09222 RGTR--
+110806001 Deiffelt, Haaptstroo  00524  00524                % 09222 RGTR--
+110812001 Lentzweiler, Haaptst  00526  00526                % 09222 RGTR--
+110102003 Lentzweiler, Op der   00528  00528                % 09222 RGTR--
+110102001 Eselborn, Dueref      00530  00530                % 09222 RGTR--
+110102002 Eselborn, Neidierfch  00531  00531                % 09222 RGTR--
+110101015 Clervaux, Hall Polyv  00532  00532                % 09222 RGTR--
+110101002 Clervaux, Gare routi  00534                       % 09222 RGTR--
+*Z 09223 RGTR--                                             % 09223 RGTR--
+*L 677      110820002 110101002  00609  00634               % 09223 RGTR--
+*A bv 110820002 110101002 000001  00609  00634              % 09223 RGTR--
+*A MP 110820002 110101002 000001  00609  00634              % 09223 RGTR--
+*R 2 110101002 110820002 110101002  00609  00634            % 09223 RGTR--
+*G RGB 110820002 110101002  00609  00634                    % 09223 RGTR--
+*A VE 110820002 110101002 000001  00609  00634              % 09223 RGTR--
+*I FD 110820002 110101002        0002311  00609  00634      % 09223 RGTR--
+110820002 Troine, Duarrefstroo         00609                % 09223 RGTR--
+110820001 Troine, Bréck         00610  00610                % 09223 RGTR--
+110820004 Troine-Route, Op der  00612  00612                % 09223 RGTR--
+110820003 Troine-Route, Op der  00613  00613                % 09223 RGTR--
+110810001 Hamiville, Beim Tout  00615  00615                % 09223 RGTR--
+110810002 Hamiville, Haaptstro  00616  00616                % 09223 RGTR--
+110821003 Wincrange, Op der Lo  00617  00617                % 09223 RGTR--
+110821001 Wincrange, Bei der K  00618  00618                % 09223 RGTR--
+110824001 Boevange, Wëntgerdal  00619  00619                % 09223 RGTR--
+110813001 Lullange, Haaptstroo  00621  00621                % 09223 RGTR--
+110808001 Doennange, Haaptstro  00623  00623                % 09223 RGTR--
+110806001 Deiffelt, Haaptstroo  00624  00624                % 09223 RGTR--
+110812001 Lentzweiler, Haaptst  00626  00626                % 09223 RGTR--
+110102003 Lentzweiler, Op der   00628  00628                % 09223 RGTR--
+110102001 Eselborn, Dueref      00630  00630                % 09223 RGTR--
+110102002 Eselborn, Neidierfch  00631  00631                % 09223 RGTR--
+110101015 Clervaux, Hall Polyv  00632  00632                % 09223 RGTR--
+110101002 Clervaux, Gare routi  00634                       % 09223 RGTR--
+*Z 09224 RGTR--                                             % 09224 RGTR--
+*L 677      110820002 110101002  00539  00604               % 09224 RGTR--
+*A bv 110820002 110101002 000002  00539  00604              % 09224 RGTR--
+*A MP 110820002 110101002 000002  00539  00604              % 09224 RGTR--
+*R 2 110101002 110820002 110101002  00539  00604            % 09224 RGTR--
+*G RGB 110820002 110101002  00539  00604                    % 09224 RGTR--
+*A VE 110820002 110101002 000002  00539  00604              % 09224 RGTR--
+*I FD 110820002 110101002        0000797  00539  00604      % 09224 RGTR--
+110820002 Troine, Duarrefstroo         00539                % 09224 RGTR--
+110820001 Troine, Bréck         00540  00540                % 09224 RGTR--
+110820004 Troine-Route, Op der  00542  00542                % 09224 RGTR--
+110820003 Troine-Route, Op der  00543  00543                % 09224 RGTR--
+110810001 Hamiville, Beim Tout  00545  00545                % 09224 RGTR--
+110810002 Hamiville, Haaptstro  00546  00546                % 09224 RGTR--
+110821003 Wincrange, Op der Lo  00547  00547                % 09224 RGTR--
+110821001 Wincrange, Bei der K  00548  00548                % 09224 RGTR--
+110824001 Boevange, Wëntgerdal  00549  00549                % 09224 RGTR--
+110813001 Lullange, Haaptstroo  00551  00551                % 09224 RGTR--
+110808001 Doennange, Haaptstro  00553  00553                % 09224 RGTR--
+110806001 Deiffelt, Haaptstroo  00554  00554                % 09224 RGTR--
+110812001 Lentzweiler, Haaptst  00556  00556                % 09224 RGTR--
+110102003 Lentzweiler, Op der   00558  00558                % 09224 RGTR--
+110102001 Eselborn, Dueref      00600  00600                % 09224 RGTR--
+110102002 Eselborn, Neidierfch  00601  00601                % 09224 RGTR--
+110101015 Clervaux, Hall Polyv  00602  00602                % 09224 RGTR--
+110101002 Clervaux, Gare routi  00604                       % 09224 RGTR--
+*Z 00029 RGTR--                                             % 00029 RGTR--
+*L 677      110820002 110101002  00636  00702               % 00029 RGTR--
+*A bv 110820002 110101002 000002  00636  00702              % 00029 RGTR--
+*R 2 110101002 110820002 110101002  00636  00702            % 00029 RGTR--
+*G RGB 110820002 110101002  00636  00702                    % 00029 RGTR--
+*A VE 110820002 110101002 000002  00636  00702              % 00029 RGTR--
+*I FD 110820002 110101002        0002244  00636  00702      % 00029 RGTR--
+110820002 Troine, Duarrefstroo         00636                % 00029 RGTR--
+110820001 Troine, Bréck         00637  00637                % 00029 RGTR--
+110820004 Troine-Route, Op der  00639  00639                % 00029 RGTR--
+110820003 Troine-Route, Op der  00640  00640                % 00029 RGTR--
+110810001 Hamiville, Beim Tout  00643  00643                % 00029 RGTR--
+110810002 Hamiville, Haaptstro  00644  00644                % 00029 RGTR--
+110821003 Wincrange, Op der Lo  00645  00645                % 00029 RGTR--
+110821001 Wincrange, Bei der K  00646  00646                % 00029 RGTR--
+110824001 Boevange, Wëntgerdal  00647  00647                % 00029 RGTR--
+110813001 Lullange, Haaptstroo  00649  00649                % 00029 RGTR--
+110808001 Doennange, Haaptstro  00651  00651                % 00029 RGTR--
+110806001 Deiffelt, Haaptstroo  00652  00652                % 00029 RGTR--
+110812001 Lentzweiler, Haaptst  00654  00654                % 00029 RGTR--
+110102003 Lentzweiler, Op der   00655  00655                % 00029 RGTR--
+110102001 Eselborn, Dueref      00658  00658                % 00029 RGTR--
+110102002 Eselborn, Neidierfch  00659  00659                % 00029 RGTR--
+110101015 Clervaux, Hall Polyv  00700  00700                % 00029 RGTR--
+110101002 Clervaux, Gare routi  00702                       % 00029 RGTR--
+*Z 09225 RGTR--                                             % 09225 RGTR--
+*L 677      110820002 110103001  00713  00747               % 09225 RGTR--
+*A bv 110820002 110103001 000002  00713  00747              % 09225 RGTR--
+*R 2 110103001 110820002 110103001  00713  00747            % 09225 RGTR--
+*G RGB 110820002 110103001  00713  00747                    % 09225 RGTR--
+*A VE 110820002 110103001 000002  00713  00747              % 09225 RGTR--
+*I FD 110820002 110103001        0001854  00713  00747      % 09225 RGTR--
+110820002 Troine, Duarrefstroo         00713                % 09225 RGTR--
+110820001 Troine, Bréck         00714  00714                % 09225 RGTR--
+110820004 Troine-Route, Op der  00716  00716                % 09225 RGTR--
+110820003 Troine-Route, Op der  00717  00717                % 09225 RGTR--
+110810001 Hamiville, Beim Tout  00719  00719                % 09225 RGTR--
+110810002 Hamiville, Haaptstro  00720  00720                % 09225 RGTR--
+110821003 Wincrange, Op der Lo  00721  00721                % 09225 RGTR--
+110821001 Wincrange, Bei der K  00722  00722                % 09225 RGTR--
+110824001 Boevange, Wëntgerdal  00723  00723                % 09225 RGTR--
+110813001 Lullange, Haaptstroo  00725  00725                % 09225 RGTR--
+110808001 Doennange, Haaptstro  00727  00727                % 09225 RGTR--
+110806001 Deiffelt, Haaptstroo  00728  00728                % 09225 RGTR--
+110812001 Lentzweiler, Haaptst  00730  00730                % 09225 RGTR--
+110102003 Lentzweiler, Op der   00731  00731                % 09225 RGTR--
+110102001 Eselborn, Dueref      00733  00733                % 09225 RGTR--
+110102002 Eselborn, Neidierfch  00734  00734                % 09225 RGTR--
+110101015 Clervaux, Hall Polyv  00735  00735                % 09225 RGTR--
+110101002 Clervaux, Gare routi  00737  00737                % 09225 RGTR--
+110101004 Clervaux, Maison de   00738  00738                % 09225 RGTR--
+110101006 Clervaux, Parc        00740  00740                % 09225 RGTR--
+110101011 Clervaux, Postes      00741  00741                % 09225 RGTR--
+110103001 Reuler, Centre Scola  00747                       % 09225 RGTR--
+*Z 09226 RGTR--                                             % 09226 RGTR--
+*L 677      110820002 110103001  01322  01357               % 09226 RGTR--
+*A bv 110820002 110103001 000008  01322  01357              % 09226 RGTR--
+*R 2 110103001 110820002 110103001  01322  01357            % 09226 RGTR--
+*G RGB 110820002 110103001  01322  01357                    % 09226 RGTR--
+*A VE 110820002 110103001 000008  01322  01357              % 09226 RGTR--
+*I FD 110820002 110103001        0003398  01322  01357      % 09226 RGTR--
+110820002 Troine, Duarrefstroo         01322                % 09226 RGTR--
+110820001 Troine, Bréck         01323  01323                % 09226 RGTR--
+110820004 Troine-Route, Op der  01325  01325                % 09226 RGTR--
+110820003 Troine-Route, Op der  01326  01326                % 09226 RGTR--
+110810001 Hamiville, Beim Tout  01328  01328                % 09226 RGTR--
+110810002 Hamiville, Haaptstro  01329  01329                % 09226 RGTR--
+110821003 Wincrange, Op der Lo  01330  01330                % 09226 RGTR--
+110821001 Wincrange, Bei der K  01331  01331                % 09226 RGTR--
+110824001 Boevange, Wëntgerdal  01332  01332                % 09226 RGTR--
+110813001 Lullange, Haaptstroo  01334  01334                % 09226 RGTR--
+110808001 Doennange, Haaptstro  01336  01336                % 09226 RGTR--
+110806001 Deiffelt, Haaptstroo  01337  01337                % 09226 RGTR--
+110812001 Lentzweiler, Haaptst  01339  01339                % 09226 RGTR--
+110102003 Lentzweiler, Op der   01341  01341                % 09226 RGTR--
+110102001 Eselborn, Dueref      01343  01343                % 09226 RGTR--
+110102002 Eselborn, Neidierfch  01344  01344                % 09226 RGTR--
+110101015 Clervaux, Hall Polyv  01345  01345                % 09226 RGTR--
+110101002 Clervaux, Gare routi  01347  01347                % 09226 RGTR--
+110101004 Clervaux, Maison de   01348  01348                % 09226 RGTR--
+110101006 Clervaux, Parc        01350  01350                % 09226 RGTR--
+110101011 Clervaux, Postes      01351  01351                % 09226 RGTR--
+110103001 Reuler, Centre Scola  01357                       % 09226 RGTR--

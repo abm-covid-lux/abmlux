@@ -1,0 +1,27 @@
+*F 03 2
+*Z 01663 TIC---                                             % 01663 TIC---
+*L 784      220901004 220903009  01453  01507               % 01663 TIC---
+*A ad 220901004 220903009 000002  01453  01507              % 01663 TIC---
+*R 1 220903009 220901004 220903009  01453  01507            % 01663 TIC---
+*G TIB 220901004 220903009  01453  01507                    % 01663 TIC---
+*A VE 220901004 220903009 000002  01453  01507              % 01663 TIC---
+*I FD 220901004 220903009        0001678  01453  01507      % 01663 TIC---
+220901004 Lamadelaine, Lycée T         01453                % 01663 TIC---
+220901002 Lamadelaine, Gare     01455 -01455                % 01663 TIC---
+220901012 Lamadelaine, Bei der  01456 -01456                % 01663 TIC---
+220901013 Lamadelaine, Wisestr  01456 -01456                % 01663 TIC---
+220901008 Lamadelaine, Schoul   01457 -01457                % 01663 TIC---
+220901003 Lamadelaine, Kierch   01458 -01458                % 01663 TIC---
+220901009 Lamadelaine, Spuerke  01458 -01458                % 01663 TIC---
+220901001 Lamadelaine, Avenue   01459 -01459                % 01663 TIC---
+220903008 Rodange, Gare         01500 -01500                % 01663 TIC---
+220903010 Rodange, Kierch       01501 -01501                % 01663 TIC---
+220903013 Rodange, Klopp        01501 -01501                % 01663 TIC---
+220903025 Rodange, Waeschbur    01502 -01502                % 01663 TIC---
+220903003 Rodange, Croix St. P  01502 -01502                % 01663 TIC---
+220903022 Rodange, Siole        01503 -01503                % 01663 TIC---
+220903005 Rodange, Fontaine d'  01503 -01503                % 01663 TIC---
+220903004 Rodange, Fonderie     01504 -01504                % 01663 TIC---
+220903002 Rodange, Cité à la W  01505 -01505                % 01663 TIC---
+220903020 Rodange, Schlackenmi  01506 -01506                % 01663 TIC---
+220903009 Rodange, Gendarmerie  01507                       % 01663 TIC---

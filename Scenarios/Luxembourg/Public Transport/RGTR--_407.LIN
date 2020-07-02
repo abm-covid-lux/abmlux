@@ -1,0 +1,673 @@
+*F 03 2
+*Z 08954 RGTR--                                             % 08954 RGTR--
+*L 407      140701016 500000126  00948  01107               % 08954 RGTR--
+*A ei 140701016 500000126 000001  00948  01107              % 08954 RGTR--
+*A JQ 140701016 500000126 000001  00948  01107              % 08954 RGTR--
+*R 1 500000126 140701016 500000126  00948  01107            % 08954 RGTR--
+*G RGB 140701016 500000126  00948  01107                    % 08954 RGTR--
+*A VE 140701016 500000126 000001  00948  01107              % 08954 RGTR--
+*I FD 140701016 500000126        0002631  00948  01107      % 08954 RGTR--
+140701016 Ettelbruck, Gare             00948                % 08954 RGTR--
+140602007 Erpeldange/Sûre, Bei -00951  00951                % 08954 RGTR--
+140902001 Hoscheid-Dickt, Um P -01005  01005                % 08954 RGTR--
+140902002 Hoscheid-Dickt, Um W -01006  01006                % 08954 RGTR--
+110403003 Hosingen, Z.A.E.R.    01010  01010                % 08954 RGTR--
+110403001 Hosingen, Eesberwee   01011  01011                % 08954 RGTR--
+110403002 Hosingen, Ewescht Du  01012  01012                % 08954 RGTR--
+110502005 Marnach, Geschäftsze  01017  01017                % 08954 RGTR--
+110502008 Marnach, Op der Bréc  01017  01017                % 08954 RGTR--
+110402001 Dosberbréck           01026  01026                % 08954 RGTR--
+500000119 Dasburg, Ort          01027  01027                % 08954 RGTR--
+500000120 Dasburg, Lehmkaul     01028  01028                % 08954 RGTR--
+500000121 Dasburg, Abzw. Preis  01029  01029                % 08954 RGTR--
+500000122 Daleiden, Zingent     01033  01033                % 08954 RGTR--
+500000123 Daleiden, Kirche      01034  01034                % 08954 RGTR--
+500000124 Daleiden, Laarberg    01036  01036                % 08954 RGTR--
+500000099 Irrhausen, Im Pfenn   01037  01037                % 08954 RGTR--
+500000125 Irrhausen, Wartehall  01038  01038                % 08954 RGTR--
+500000127 Irrhausen, Eigelsfen  01040  01040                % 08954 RGTR--
+500000128 Arzfeld, Wartehalle   01043  01043                % 08954 RGTR--
+500000101 Arzfeld, Kapelle      01044  01044                % 08954 RGTR--
+500000129 Arzfeld, Abzw. Faule  01046  01046                % 08954 RGTR--
+500000102 Lichtenborn, Dorfpla  01047  01047                % 08954 RGTR--
+500000130 Lichtenborn, Fuchswi  01049  01049                % 08954 RGTR--
+500000103 Lünebach, Brücke      01053  01053                % 08954 RGTR--
+500000131 Pronsfeld, Lünebache  01055  01055                % 08954 RGTR--
+500000104 Pronsfeld, Kirche     01056  01056                % 08954 RGTR--
+500000132 Pittenbach, Abzw. Pi  01058  01058                % 08954 RGTR--
+500000133 Watzenrath, Gasthaus  01059  01059                % 08954 RGTR--
+500000134 Watzenrath, Nord      01059  01059                % 08954 RGTR--
+500000135 Prüm, Niederprüm Sie  01102  01102                % 08954 RGTR--
+500000136 Prüm, Niederprüm Feu  01103  01103                % 08954 RGTR--
+500000137 Prüm, Bahnhof         01105  01105                % 08954 RGTR--
+500000126 Prüm, Gerberweg       01107                       % 08954 RGTR--
+*Z 08955 RGTR--                                             % 08955 RGTR--
+*L 407      140701016 500000126  01148  01307               % 08955 RGTR--
+*A ak 140701016 500000126 000001  01148  01307              % 08955 RGTR--
+*A JQ 140701016 500000126 000001  01148  01307              % 08955 RGTR--
+*R 1 500000126 140701016 500000126  01148  01307            % 08955 RGTR--
+*G RGB 140701016 500000126  01148  01307                    % 08955 RGTR--
+*A VE 140701016 500000126 000001  01148  01307              % 08955 RGTR--
+*I FD 140701016 500000126        0002633  01148  01307      % 08955 RGTR--
+140701016 Ettelbruck, Gare             01148                % 08955 RGTR--
+140602007 Erpeldange/Sûre, Bei -01151  01151                % 08955 RGTR--
+140902001 Hoscheid-Dickt, Um P -01205  01205                % 08955 RGTR--
+140902002 Hoscheid-Dickt, Um W -01206  01206                % 08955 RGTR--
+110403003 Hosingen, Z.A.E.R.    01210  01210                % 08955 RGTR--
+110403001 Hosingen, Eesberwee   01211  01211                % 08955 RGTR--
+110403002 Hosingen, Ewescht Du  01212  01212                % 08955 RGTR--
+110502005 Marnach, Geschäftsze  01217  01217                % 08955 RGTR--
+110502008 Marnach, Op der Bréc  01217  01217                % 08955 RGTR--
+110402001 Dosberbréck           01226  01226                % 08955 RGTR--
+500000119 Dasburg, Ort          01227  01227                % 08955 RGTR--
+500000120 Dasburg, Lehmkaul     01228  01228                % 08955 RGTR--
+500000121 Dasburg, Abzw. Preis  01229  01229                % 08955 RGTR--
+500000122 Daleiden, Zingent     01233  01233                % 08955 RGTR--
+500000123 Daleiden, Kirche      01234  01234                % 08955 RGTR--
+500000124 Daleiden, Laarberg    01236  01236                % 08955 RGTR--
+500000099 Irrhausen, Im Pfenn   01237  01237                % 08955 RGTR--
+500000125 Irrhausen, Wartehall  01238  01238                % 08955 RGTR--
+500000127 Irrhausen, Eigelsfen  01240  01240                % 08955 RGTR--
+500000128 Arzfeld, Wartehalle   01243  01243                % 08955 RGTR--
+500000101 Arzfeld, Kapelle      01244  01244                % 08955 RGTR--
+500000129 Arzfeld, Abzw. Faule  01246  01246                % 08955 RGTR--
+500000102 Lichtenborn, Dorfpla  01247  01247                % 08955 RGTR--
+500000130 Lichtenborn, Fuchswi  01249  01249                % 08955 RGTR--
+500000103 Lünebach, Brücke      01253  01253                % 08955 RGTR--
+500000131 Pronsfeld, Lünebache  01255  01255                % 08955 RGTR--
+500000104 Pronsfeld, Kirche     01256  01256                % 08955 RGTR--
+500000132 Pittenbach, Abzw. Pi  01258  01258                % 08955 RGTR--
+500000133 Watzenrath, Gasthaus  01259  01259                % 08955 RGTR--
+500000134 Watzenrath, Nord      01259  01259                % 08955 RGTR--
+500000135 Prüm, Niederprüm Sie  01302  01302                % 08955 RGTR--
+500000136 Prüm, Niederprüm Feu  01303  01303                % 08955 RGTR--
+500000137 Prüm, Bahnhof         01305  01305                % 08955 RGTR--
+500000126 Prüm, Gerberweg       01307                       % 08955 RGTR--
+*Z 08956 RGTR--                                             % 08956 RGTR--
+*L 407      140701016 500000126  01348  01507               % 08956 RGTR--
+*A ei 140701016 500000126 000001  01348  01507              % 08956 RGTR--
+*A JQ 140701016 500000126 000001  01348  01507              % 08956 RGTR--
+*R 1 500000126 140701016 500000126  01348  01507            % 08956 RGTR--
+*G RGB 140701016 500000126  01348  01507                    % 08956 RGTR--
+*A VE 140701016 500000126 000001  01348  01507              % 08956 RGTR--
+*I FD 140701016 500000126        0002635  01348  01507      % 08956 RGTR--
+140701016 Ettelbruck, Gare             01348                % 08956 RGTR--
+140602007 Erpeldange/Sûre, Bei -01351  01351                % 08956 RGTR--
+140902001 Hoscheid-Dickt, Um P -01405  01405                % 08956 RGTR--
+140902002 Hoscheid-Dickt, Um W -01406  01406                % 08956 RGTR--
+110403003 Hosingen, Z.A.E.R.    01410  01410                % 08956 RGTR--
+110403001 Hosingen, Eesberwee   01411  01411                % 08956 RGTR--
+110403002 Hosingen, Ewescht Du  01412  01412                % 08956 RGTR--
+110502005 Marnach, Geschäftsze  01417  01417                % 08956 RGTR--
+110502008 Marnach, Op der Bréc  01417  01417                % 08956 RGTR--
+110402001 Dosberbréck           01426  01426                % 08956 RGTR--
+500000119 Dasburg, Ort          01427  01427                % 08956 RGTR--
+500000120 Dasburg, Lehmkaul     01428  01428                % 08956 RGTR--
+500000121 Dasburg, Abzw. Preis  01429  01429                % 08956 RGTR--
+500000122 Daleiden, Zingent     01433  01433                % 08956 RGTR--
+500000123 Daleiden, Kirche      01434  01434                % 08956 RGTR--
+500000124 Daleiden, Laarberg    01436  01436                % 08956 RGTR--
+500000099 Irrhausen, Im Pfenn   01437  01437                % 08956 RGTR--
+500000125 Irrhausen, Wartehall  01438  01438                % 08956 RGTR--
+500000127 Irrhausen, Eigelsfen  01440  01440                % 08956 RGTR--
+500000128 Arzfeld, Wartehalle   01443  01443                % 08956 RGTR--
+500000101 Arzfeld, Kapelle      01444  01444                % 08956 RGTR--
+500000129 Arzfeld, Abzw. Faule  01446  01446                % 08956 RGTR--
+500000102 Lichtenborn, Dorfpla  01447  01447                % 08956 RGTR--
+500000130 Lichtenborn, Fuchswi  01449  01449                % 08956 RGTR--
+500000103 Lünebach, Brücke      01453  01453                % 08956 RGTR--
+500000131 Pronsfeld, Lünebache  01455  01455                % 08956 RGTR--
+500000104 Pronsfeld, Kirche     01456  01456                % 08956 RGTR--
+500000132 Pittenbach, Abzw. Pi  01458  01458                % 08956 RGTR--
+500000133 Watzenrath, Gasthaus  01459  01459                % 08956 RGTR--
+500000134 Watzenrath, Nord      01459  01459                % 08956 RGTR--
+500000135 Prüm, Niederprüm Sie  01502  01502                % 08956 RGTR--
+500000136 Prüm, Niederprüm Feu  01503  01503                % 08956 RGTR--
+500000137 Prüm, Bahnhof         01505  01505                % 08956 RGTR--
+500000126 Prüm, Gerberweg       01507                       % 08956 RGTR--
+*Z 08957 RGTR--                                             % 08957 RGTR--
+*L 407      140701016 500000126  01848  02007               % 08957 RGTR--
+*A ei 140701016 500000126 000001  01848  02007              % 08957 RGTR--
+*A JQ 140701016 500000126 000001  01848  02007              % 08957 RGTR--
+*R 1 500000126 140701016 500000126  01848  02007            % 08957 RGTR--
+*G RGB 140701016 500000126  01848  02007                    % 08957 RGTR--
+*A VE 140701016 500000126 000001  01848  02007              % 08957 RGTR--
+*I FD 140701016 500000126        0001373  01848  02007      % 08957 RGTR--
+140701016 Ettelbruck, Gare             01848                % 08957 RGTR--
+140602007 Erpeldange/Sûre, Bei -01851  01851                % 08957 RGTR--
+140902001 Hoscheid-Dickt, Um P -01905  01905                % 08957 RGTR--
+140902002 Hoscheid-Dickt, Um W -01906  01906                % 08957 RGTR--
+110403003 Hosingen, Z.A.E.R.    01910  01910                % 08957 RGTR--
+110403001 Hosingen, Eesberwee   01911  01911                % 08957 RGTR--
+110403002 Hosingen, Ewescht Du  01912  01912                % 08957 RGTR--
+110502005 Marnach, Geschäftsze  01917  01917                % 08957 RGTR--
+110502008 Marnach, Op der Bréc  01917  01917                % 08957 RGTR--
+110402001 Dosberbréck           01926  01926                % 08957 RGTR--
+500000119 Dasburg, Ort          01927  01927                % 08957 RGTR--
+500000120 Dasburg, Lehmkaul     01928  01928                % 08957 RGTR--
+500000121 Dasburg, Abzw. Preis  01929  01929                % 08957 RGTR--
+500000122 Daleiden, Zingent     01933  01933                % 08957 RGTR--
+500000123 Daleiden, Kirche      01934  01934                % 08957 RGTR--
+500000124 Daleiden, Laarberg    01936  01936                % 08957 RGTR--
+500000099 Irrhausen, Im Pfenn   01937  01937                % 08957 RGTR--
+500000125 Irrhausen, Wartehall  01938  01938                % 08957 RGTR--
+500000127 Irrhausen, Eigelsfen  01940  01940                % 08957 RGTR--
+500000128 Arzfeld, Wartehalle   01943  01943                % 08957 RGTR--
+500000101 Arzfeld, Kapelle      01944  01944                % 08957 RGTR--
+500000129 Arzfeld, Abzw. Faule  01946  01946                % 08957 RGTR--
+500000102 Lichtenborn, Dorfpla  01947  01947                % 08957 RGTR--
+500000130 Lichtenborn, Fuchswi  01949  01949                % 08957 RGTR--
+500000103 Lünebach, Brücke      01953  01953                % 08957 RGTR--
+500000131 Pronsfeld, Lünebache  01955  01955                % 08957 RGTR--
+500000104 Pronsfeld, Kirche     01956  01956                % 08957 RGTR--
+500000132 Pittenbach, Abzw. Pi  01958  01958                % 08957 RGTR--
+500000133 Watzenrath, Gasthaus  01959  01959                % 08957 RGTR--
+500000134 Watzenrath, Nord      01959  01959                % 08957 RGTR--
+500000135 Prüm, Niederprüm Sie  02002  02002                % 08957 RGTR--
+500000136 Prüm, Niederprüm Feu  02003  02003                % 08957 RGTR--
+500000137 Prüm, Bahnhof         02005  02005                % 08957 RGTR--
+500000126 Prüm, Gerberweg       02007                       % 08957 RGTR--
+*Z 08958 RGTR--                                             % 08958 RGTR--
+*L 407      140701016 500000126  00848  01011               % 08958 RGTR--
+*A ei 140701016 500000126 000001  00848  01011              % 08958 RGTR--
+*A JQ 140701016 500000126 000001  00848  01011              % 08958 RGTR--
+*R 1 500000126 140701016 500000126  00848  01011            % 08958 RGTR--
+*G RGB 140701016 500000126  00848  01011                    % 08958 RGTR--
+*A VE 140701016 500000126 000001  00848  01011              % 08958 RGTR--
+*I FD 140701016 500000126        0002628  00848  01011      % 08958 RGTR--
+140701016 Ettelbruck, Gare             00848                % 08958 RGTR--
+140602007 Erpeldange/Sûre, Bei -00851  00851                % 08958 RGTR--
+140902001 Hoscheid-Dickt, Um P -00906  00906                % 08958 RGTR--
+140902002 Hoscheid-Dickt, Um W -00907  00907                % 08958 RGTR--
+110403003 Hosingen, Z.A.E.R.    00911  00911                % 08958 RGTR--
+110403001 Hosingen, Eesberwee   00912  00912                % 08958 RGTR--
+110403002 Hosingen, Ewescht Du  00913  00913                % 08958 RGTR--
+110502005 Marnach, Geschäftsze  00919  00919                % 08958 RGTR--
+110502008 Marnach, Op der Bréc  00920  00920                % 08958 RGTR--
+110402001 Dosberbréck           00929  00929                % 08958 RGTR--
+500000119 Dasburg, Ort          00931  00931                % 08958 RGTR--
+500000120 Dasburg, Lehmkaul     00931  00931                % 08958 RGTR--
+500000121 Dasburg, Abzw. Preis  00933  00933                % 08958 RGTR--
+500000122 Daleiden, Zingent     00936  00936                % 08958 RGTR--
+500000123 Daleiden, Kirche      00937  00937                % 08958 RGTR--
+500000124 Daleiden, Laarberg    00940  00940                % 08958 RGTR--
+500000099 Irrhausen, Im Pfenn   00941  00941                % 08958 RGTR--
+500000125 Irrhausen, Wartehall  00941  00941                % 08958 RGTR--
+500000127 Irrhausen, Eigelsfen  00943  00943                % 08958 RGTR--
+500000128 Arzfeld, Wartehalle   00946  00946                % 08958 RGTR--
+500000101 Arzfeld, Kapelle      00947  00947                % 08958 RGTR--
+500000129 Arzfeld, Abzw. Faule  00949  00949                % 08958 RGTR--
+500000102 Lichtenborn, Dorfpla  00950  00950                % 08958 RGTR--
+500000130 Lichtenborn, Fuchswi  00952  00952                % 08958 RGTR--
+500000103 Lünebach, Brücke      00956  00956                % 08958 RGTR--
+500000131 Pronsfeld, Lünebache  00959  00959                % 08958 RGTR--
+500000104 Pronsfeld, Kirche     01000  01000                % 08958 RGTR--
+500000132 Pittenbach, Abzw. Pi  01002  01002                % 08958 RGTR--
+500000133 Watzenrath, Gasthaus  01003  01003                % 08958 RGTR--
+500000134 Watzenrath, Nord      01004  01004                % 08958 RGTR--
+500000135 Prüm, Niederprüm Sie  01007  01007                % 08958 RGTR--
+500000136 Prüm, Niederprüm Feu  01008  01008                % 08958 RGTR--
+500000137 Prüm, Bahnhof         01009  01009                % 08958 RGTR--
+500000126 Prüm, Gerberweg       01011                       % 08958 RGTR--
+*Z 08959 RGTR--                                             % 08959 RGTR--
+*L 407      140701016 500000126  01548  01711               % 08959 RGTR--
+*A ei 140701016 500000126 000001  01548  01711              % 08959 RGTR--
+*A JQ 140701016 500000126 000001  01548  01711              % 08959 RGTR--
+*R 1 500000126 140701016 500000126  01548  01711            % 08959 RGTR--
+*G RGB 140701016 500000126  01548  01711                    % 08959 RGTR--
+*A VE 140701016 500000126 000001  01548  01711              % 08959 RGTR--
+*I FD 140701016 500000126        0002401  01548  01711      % 08959 RGTR--
+140701016 Ettelbruck, Gare             01548                % 08959 RGTR--
+140602007 Erpeldange/Sûre, Bei -01551  01551                % 08959 RGTR--
+140902001 Hoscheid-Dickt, Um P -01606  01606                % 08959 RGTR--
+140902002 Hoscheid-Dickt, Um W -01607  01607                % 08959 RGTR--
+110403003 Hosingen, Z.A.E.R.    01611  01611                % 08959 RGTR--
+110403001 Hosingen, Eesberwee   01612  01612                % 08959 RGTR--
+110403002 Hosingen, Ewescht Du  01613  01613                % 08959 RGTR--
+110502005 Marnach, Geschäftsze  01619  01619                % 08959 RGTR--
+110502008 Marnach, Op der Bréc  01620  01620                % 08959 RGTR--
+110402001 Dosberbréck           01629  01629                % 08959 RGTR--
+500000119 Dasburg, Ort          01631  01631                % 08959 RGTR--
+500000120 Dasburg, Lehmkaul     01631  01631                % 08959 RGTR--
+500000121 Dasburg, Abzw. Preis  01633  01633                % 08959 RGTR--
+500000122 Daleiden, Zingent     01636  01636                % 08959 RGTR--
+500000123 Daleiden, Kirche      01637  01637                % 08959 RGTR--
+500000124 Daleiden, Laarberg    01640  01640                % 08959 RGTR--
+500000099 Irrhausen, Im Pfenn   01641  01641                % 08959 RGTR--
+500000125 Irrhausen, Wartehall  01641  01641                % 08959 RGTR--
+500000127 Irrhausen, Eigelsfen  01643  01643                % 08959 RGTR--
+500000128 Arzfeld, Wartehalle   01646  01646                % 08959 RGTR--
+500000101 Arzfeld, Kapelle      01647  01647                % 08959 RGTR--
+500000129 Arzfeld, Abzw. Faule  01649  01649                % 08959 RGTR--
+500000102 Lichtenborn, Dorfpla  01650  01650                % 08959 RGTR--
+500000130 Lichtenborn, Fuchswi  01652  01652                % 08959 RGTR--
+500000103 Lünebach, Brücke      01656  01656                % 08959 RGTR--
+500000131 Pronsfeld, Lünebache  01659  01659                % 08959 RGTR--
+500000104 Pronsfeld, Kirche     01700  01700                % 08959 RGTR--
+500000132 Pittenbach, Abzw. Pi  01702  01702                % 08959 RGTR--
+500000133 Watzenrath, Gasthaus  01703  01703                % 08959 RGTR--
+500000134 Watzenrath, Nord      01704  01704                % 08959 RGTR--
+500000135 Prüm, Niederprüm Sie  01707  01707                % 08959 RGTR--
+500000136 Prüm, Niederprüm Feu  01708  01708                % 08959 RGTR--
+500000137 Prüm, Bahnhof         01709  01709                % 08959 RGTR--
+500000126 Prüm, Gerberweg       01711                       % 08959 RGTR--
+*Z 08960 RGTR--                                             % 08960 RGTR--
+*L 407      140701016 500000126  01718  01841               % 08960 RGTR--
+*A ak 140701016 500000126 000001  01718  01841              % 08960 RGTR--
+*A JQ 140701016 500000126 000001  01718  01841              % 08960 RGTR--
+*R 1 500000126 140701016 500000126  01718  01841            % 08960 RGTR--
+*G RGB 140701016 500000126  01718  01841                    % 08960 RGTR--
+*A VE 140701016 500000126 000001  01718  01841              % 08960 RGTR--
+*I FD 140701016 500000126        0002404  01718  01841      % 08960 RGTR--
+140701016 Ettelbruck, Gare             01718                % 08960 RGTR--
+140602007 Erpeldange/Sûre, Bei -01721  01721                % 08960 RGTR--
+140902001 Hoscheid-Dickt, Um P -01736  01736                % 08960 RGTR--
+140902002 Hoscheid-Dickt, Um W -01737  01737                % 08960 RGTR--
+110403003 Hosingen, Z.A.E.R.    01741  01741                % 08960 RGTR--
+110403001 Hosingen, Eesberwee   01742  01742                % 08960 RGTR--
+110403002 Hosingen, Ewescht Du  01743  01743                % 08960 RGTR--
+110502005 Marnach, Geschäftsze  01749  01749                % 08960 RGTR--
+110502008 Marnach, Op der Bréc  01750  01750                % 08960 RGTR--
+110402001 Dosberbréck           01759  01759                % 08960 RGTR--
+500000119 Dasburg, Ort          01801  01801                % 08960 RGTR--
+500000120 Dasburg, Lehmkaul     01801  01801                % 08960 RGTR--
+500000121 Dasburg, Abzw. Preis  01803  01803                % 08960 RGTR--
+500000122 Daleiden, Zingent     01806  01806                % 08960 RGTR--
+500000123 Daleiden, Kirche      01807  01807                % 08960 RGTR--
+500000124 Daleiden, Laarberg    01810  01810                % 08960 RGTR--
+500000099 Irrhausen, Im Pfenn   01811  01811                % 08960 RGTR--
+500000125 Irrhausen, Wartehall  01811  01811                % 08960 RGTR--
+500000127 Irrhausen, Eigelsfen  01813  01813                % 08960 RGTR--
+500000128 Arzfeld, Wartehalle   01816  01816                % 08960 RGTR--
+500000101 Arzfeld, Kapelle      01817  01817                % 08960 RGTR--
+500000129 Arzfeld, Abzw. Faule  01819  01819                % 08960 RGTR--
+500000102 Lichtenborn, Dorfpla  01820  01820                % 08960 RGTR--
+500000130 Lichtenborn, Fuchswi  01822  01822                % 08960 RGTR--
+500000103 Lünebach, Brücke      01826  01826                % 08960 RGTR--
+500000131 Pronsfeld, Lünebache  01829  01829                % 08960 RGTR--
+500000104 Pronsfeld, Kirche     01830  01830                % 08960 RGTR--
+500000132 Pittenbach, Abzw. Pi  01832  01832                % 08960 RGTR--
+500000133 Watzenrath, Gasthaus  01833  01833                % 08960 RGTR--
+500000134 Watzenrath, Nord      01834  01834                % 08960 RGTR--
+500000135 Prüm, Niederprüm Sie  01837  01837                % 08960 RGTR--
+500000136 Prüm, Niederprüm Feu  01838  01838                % 08960 RGTR--
+500000137 Prüm, Bahnhof         01839  01839                % 08960 RGTR--
+500000126 Prüm, Gerberweg       01841                       % 08960 RGTR--
+*Z 08961 RGTR--                                             % 08961 RGTR--
+*L 407      140701016 500000126  01748  01911               % 08961 RGTR--
+*A ei 140701016 500000126 000001  01748  01911              % 08961 RGTR--
+*A JQ 140701016 500000126 000001  01748  01911              % 08961 RGTR--
+*R 1 500000126 140701016 500000126  01748  01911            % 08961 RGTR--
+*G RGB 140701016 500000126  01748  01911                    % 08961 RGTR--
+*A VE 140701016 500000126 000001  01748  01911              % 08961 RGTR--
+*I FD 140701016 500000126        0002432  01748  01911      % 08961 RGTR--
+140701016 Ettelbruck, Gare             01748                % 08961 RGTR--
+140602007 Erpeldange/Sûre, Bei -01751  01751                % 08961 RGTR--
+140902001 Hoscheid-Dickt, Um P -01806  01806                % 08961 RGTR--
+140902002 Hoscheid-Dickt, Um W -01807  01807                % 08961 RGTR--
+110403003 Hosingen, Z.A.E.R.    01811  01811                % 08961 RGTR--
+110403001 Hosingen, Eesberwee   01812  01812                % 08961 RGTR--
+110403002 Hosingen, Ewescht Du  01813  01813                % 08961 RGTR--
+110502005 Marnach, Geschäftsze  01819  01819                % 08961 RGTR--
+110502008 Marnach, Op der Bréc  01820  01820                % 08961 RGTR--
+110402001 Dosberbréck           01829  01829                % 08961 RGTR--
+500000119 Dasburg, Ort          01831  01831                % 08961 RGTR--
+500000120 Dasburg, Lehmkaul     01831  01831                % 08961 RGTR--
+500000121 Dasburg, Abzw. Preis  01833  01833                % 08961 RGTR--
+500000122 Daleiden, Zingent     01836  01836                % 08961 RGTR--
+500000123 Daleiden, Kirche      01837  01837                % 08961 RGTR--
+500000124 Daleiden, Laarberg    01840  01840                % 08961 RGTR--
+500000099 Irrhausen, Im Pfenn   01841  01841                % 08961 RGTR--
+500000125 Irrhausen, Wartehall  01841  01841                % 08961 RGTR--
+500000127 Irrhausen, Eigelsfen  01843  01843                % 08961 RGTR--
+500000128 Arzfeld, Wartehalle   01846  01846                % 08961 RGTR--
+500000101 Arzfeld, Kapelle      01847  01847                % 08961 RGTR--
+500000129 Arzfeld, Abzw. Faule  01849  01849                % 08961 RGTR--
+500000102 Lichtenborn, Dorfpla  01850  01850                % 08961 RGTR--
+500000130 Lichtenborn, Fuchswi  01852  01852                % 08961 RGTR--
+500000103 Lünebach, Brücke      01856  01856                % 08961 RGTR--
+500000131 Pronsfeld, Lünebache  01859  01859                % 08961 RGTR--
+500000104 Pronsfeld, Kirche     01900  01900                % 08961 RGTR--
+500000132 Pittenbach, Abzw. Pi  01902  01902                % 08961 RGTR--
+500000133 Watzenrath, Gasthaus  01903  01903                % 08961 RGTR--
+500000134 Watzenrath, Nord      01904  01904                % 08961 RGTR--
+500000135 Prüm, Niederprüm Sie  01907  01907                % 08961 RGTR--
+500000136 Prüm, Niederprüm Feu  01908  01908                % 08961 RGTR--
+500000137 Prüm, Bahnhof         01909  01909                % 08961 RGTR--
+500000126 Prüm, Gerberweg       01911                       % 08961 RGTR--
+*Z 08962 RGTR--                                             % 08962 RGTR--
+*L 407      500000126 140701016  00548  00708               % 08962 RGTR--
+*A ei 500000126 140701016 000001  00548  00708              % 08962 RGTR--
+*A du 500000126 140701016 000001  00548  00708              % 08962 RGTR--
+*R 2 140701016 500000126 140701016  00548  00708            % 08962 RGTR--
+*G RGB 500000126 140701016  00548  00708                    % 08962 RGTR--
+*A VE 500000126 140701016 000001  00548  00708              % 08962 RGTR--
+*I FD 500000126 140701016        0002811  00548  00708      % 08962 RGTR--
+500000126 Prüm, Gerberweg              00548                % 08962 RGTR--
+500000137 Prüm, Bahnhof         00549  00549                % 08962 RGTR--
+500000136 Prüm, Niederprüm Feu  00551  00551                % 08962 RGTR--
+500000135 Prüm, Niederprüm Sie  00552  00552                % 08962 RGTR--
+500000134 Watzenrath, Nord      00555  00555                % 08962 RGTR--
+500000133 Watzenrath, Gasthaus  00555  00555                % 08962 RGTR--
+500000132 Pittenbach, Abzw. Pi  00557  00557                % 08962 RGTR--
+500000104 Pronsfeld, Kirche     00559  00559                % 08962 RGTR--
+500000131 Pronsfeld, Lünebache  00600  00600                % 08962 RGTR--
+500000103 Lünebach, Brücke      00603  00603                % 08962 RGTR--
+500000130 Lichtenborn, Fuchswi  00607  00607                % 08962 RGTR--
+500000102 Lichtenborn, Dorfpla  00609  00609                % 08962 RGTR--
+500000129 Arzfeld, Abzw. Faule  00610  00610                % 08962 RGTR--
+500000101 Arzfeld, Kapelle      00612  00612                % 08962 RGTR--
+500000128 Arzfeld, Wartehalle   00613  00613                % 08962 RGTR--
+500000127 Irrhausen, Eigelsfen  00616  00616                % 08962 RGTR--
+500000125 Irrhausen, Wartehall  00618  00618                % 08962 RGTR--
+500000100 Irrhausen, Gemeindeh  00618  00618                % 08962 RGTR--
+500000124 Daleiden, Laarberg    00620  00620                % 08962 RGTR--
+500000123 Daleiden, Kirche      00622  00622                % 08962 RGTR--
+500000122 Daleiden, Zingent     00624  00624                % 08962 RGTR--
+500000121 Dasburg, Abzw. Preis  00626  00626                % 08962 RGTR--
+500000120 Dasburg, Lehmkaul     00628  00628                % 08962 RGTR--
+500000119 Dasburg, Ort          00628  00628                % 08962 RGTR--
+110402001 Dosberbréck           00630  00630                % 08962 RGTR--
+110502005 Marnach, Geschäftsze  00636  00636                % 08962 RGTR--
+110502008 Marnach, Op der Bréc  00637  00637                % 08962 RGTR--
+110403005 Hosingen, Bei der Ki  00644  00644                % 08962 RGTR--
+110403001 Hosingen, Eesberwee   00645  00645                % 08962 RGTR--
+110403003 Hosingen, Z.A.E.R.    00646  00646                % 08962 RGTR--
+140902002 Hoscheid-Dickt, Um W  00650 -00650                % 08962 RGTR--
+140902001 Hoscheid-Dickt, Um P  00651 -00651                % 08962 RGTR--
+140602007 Erpeldange/Sûre, Bei  00705 -00705                % 08962 RGTR--
+140701016 Ettelbruck, Gare      00708                       % 08962 RGTR--
+*Z 08963 RGTR--                                             % 08963 RGTR--
+*L 407      500000126 140701016  00817  00937               % 08963 RGTR--
+*A ak 500000126 140701016 000001  00817  00937              % 08963 RGTR--
+*A du 500000126 140701016 000001  00817  00937              % 08963 RGTR--
+*R 2 140701016 500000126 140701016  00817  00937            % 08963 RGTR--
+*G RGB 500000126 140701016  00817  00937                    % 08963 RGTR--
+*A VE 500000126 140701016 000001  00817  00937              % 08963 RGTR--
+*I FD 500000126 140701016        0002327  00817  00937      % 08963 RGTR--
+500000126 Prüm, Gerberweg              00817                % 08963 RGTR--
+500000137 Prüm, Bahnhof         00818  00818                % 08963 RGTR--
+500000136 Prüm, Niederprüm Feu  00820  00820                % 08963 RGTR--
+500000135 Prüm, Niederprüm Sie  00821  00821                % 08963 RGTR--
+500000134 Watzenrath, Nord      00824  00824                % 08963 RGTR--
+500000133 Watzenrath, Gasthaus  00824  00824                % 08963 RGTR--
+500000132 Pittenbach, Abzw. Pi  00826  00826                % 08963 RGTR--
+500000104 Pronsfeld, Kirche     00828  00828                % 08963 RGTR--
+500000131 Pronsfeld, Lünebache  00829  00829                % 08963 RGTR--
+500000103 Lünebach, Brücke      00832  00832                % 08963 RGTR--
+500000130 Lichtenborn, Fuchswi  00836  00836                % 08963 RGTR--
+500000102 Lichtenborn, Dorfpla  00838  00838                % 08963 RGTR--
+500000129 Arzfeld, Abzw. Faule  00839  00839                % 08963 RGTR--
+500000101 Arzfeld, Kapelle      00841  00841                % 08963 RGTR--
+500000128 Arzfeld, Wartehalle   00842  00842                % 08963 RGTR--
+500000127 Irrhausen, Eigelsfen  00845  00845                % 08963 RGTR--
+500000125 Irrhausen, Wartehall  00847  00847                % 08963 RGTR--
+500000100 Irrhausen, Gemeindeh  00847  00847                % 08963 RGTR--
+500000124 Daleiden, Laarberg    00849  00849                % 08963 RGTR--
+500000123 Daleiden, Kirche      00851  00851                % 08963 RGTR--
+500000122 Daleiden, Zingent     00853  00853                % 08963 RGTR--
+500000121 Dasburg, Abzw. Preis  00855  00855                % 08963 RGTR--
+500000120 Dasburg, Lehmkaul     00857  00857                % 08963 RGTR--
+500000119 Dasburg, Ort          00857  00857                % 08963 RGTR--
+110402001 Dosberbréck           00859  00859                % 08963 RGTR--
+110502005 Marnach, Geschäftsze  00905  00905                % 08963 RGTR--
+110502008 Marnach, Op der Bréc  00906  00906                % 08963 RGTR--
+110403005 Hosingen, Bei der Ki  00913  00913                % 08963 RGTR--
+110403001 Hosingen, Eesberwee   00914  00914                % 08963 RGTR--
+110403003 Hosingen, Z.A.E.R.    00915  00915                % 08963 RGTR--
+140902002 Hoscheid-Dickt, Um W  00919 -00919                % 08963 RGTR--
+140902001 Hoscheid-Dickt, Um P  00920 -00920                % 08963 RGTR--
+140602007 Erpeldange/Sûre, Bei  00934 -00934                % 08963 RGTR--
+140701016 Ettelbruck, Gare      00937                       % 08963 RGTR--
+*Z 08964 RGTR--                                             % 08964 RGTR--
+*L 407      500000126 140701016  01517  01637               % 08964 RGTR--
+*A ei 500000126 140701016 000001  01517  01637              % 08964 RGTR--
+*A du 500000126 140701016 000001  01517  01637              % 08964 RGTR--
+*R 2 140701016 500000126 140701016  01517  01637            % 08964 RGTR--
+*G RGB 500000126 140701016  01517  01637                    % 08964 RGTR--
+*A VE 500000126 140701016 000001  01517  01637              % 08964 RGTR--
+*I FD 500000126 140701016        0002344  01517  01637      % 08964 RGTR--
+500000126 Prüm, Gerberweg              01517                % 08964 RGTR--
+500000137 Prüm, Bahnhof         01518  01518                % 08964 RGTR--
+500000136 Prüm, Niederprüm Feu  01520  01520                % 08964 RGTR--
+500000135 Prüm, Niederprüm Sie  01521  01521                % 08964 RGTR--
+500000134 Watzenrath, Nord      01524  01524                % 08964 RGTR--
+500000133 Watzenrath, Gasthaus  01524  01524                % 08964 RGTR--
+500000132 Pittenbach, Abzw. Pi  01526  01526                % 08964 RGTR--
+500000104 Pronsfeld, Kirche     01528  01528                % 08964 RGTR--
+500000131 Pronsfeld, Lünebache  01529  01529                % 08964 RGTR--
+500000103 Lünebach, Brücke      01532  01532                % 08964 RGTR--
+500000130 Lichtenborn, Fuchswi  01536  01536                % 08964 RGTR--
+500000102 Lichtenborn, Dorfpla  01538  01538                % 08964 RGTR--
+500000129 Arzfeld, Abzw. Faule  01539  01539                % 08964 RGTR--
+500000101 Arzfeld, Kapelle      01541  01541                % 08964 RGTR--
+500000128 Arzfeld, Wartehalle   01542  01542                % 08964 RGTR--
+500000127 Irrhausen, Eigelsfen  01545  01545                % 08964 RGTR--
+500000125 Irrhausen, Wartehall  01547  01547                % 08964 RGTR--
+500000100 Irrhausen, Gemeindeh  01547  01547                % 08964 RGTR--
+500000124 Daleiden, Laarberg    01549  01549                % 08964 RGTR--
+500000123 Daleiden, Kirche      01551  01551                % 08964 RGTR--
+500000122 Daleiden, Zingent     01553  01553                % 08964 RGTR--
+500000121 Dasburg, Abzw. Preis  01555  01555                % 08964 RGTR--
+500000120 Dasburg, Lehmkaul     01557  01557                % 08964 RGTR--
+500000119 Dasburg, Ort          01557  01557                % 08964 RGTR--
+110402001 Dosberbréck           01559  01559                % 08964 RGTR--
+110502005 Marnach, Geschäftsze  01605  01605                % 08964 RGTR--
+110502008 Marnach, Op der Bréc  01606  01606                % 08964 RGTR--
+110403005 Hosingen, Bei der Ki  01613  01613                % 08964 RGTR--
+110403001 Hosingen, Eesberwee   01614  01614                % 08964 RGTR--
+110403003 Hosingen, Z.A.E.R.    01615  01615                % 08964 RGTR--
+140902002 Hoscheid-Dickt, Um W  01619 -01619                % 08964 RGTR--
+140902001 Hoscheid-Dickt, Um P  01620 -01620                % 08964 RGTR--
+140602007 Erpeldange/Sûre, Bei  01634 -01634                % 08964 RGTR--
+140701016 Ettelbruck, Gare      01637                       % 08964 RGTR--
+*Z 08965 RGTR--                                             % 08965 RGTR--
+*L 407      500000126 140701016  01717  01837               % 08965 RGTR--
+*A ei 500000126 140701016 000001  01717  01837              % 08965 RGTR--
+*A du 500000126 140701016 000001  01717  01837              % 08965 RGTR--
+*R 2 140701016 500000126 140701016  01717  01837            % 08965 RGTR--
+*G RGB 500000126 140701016  01717  01837                    % 08965 RGTR--
+*A VE 500000126 140701016 000001  01717  01837              % 08965 RGTR--
+*I FD 500000126 140701016        0002331  01717  01837      % 08965 RGTR--
+500000126 Prüm, Gerberweg              01717                % 08965 RGTR--
+500000137 Prüm, Bahnhof         01718  01718                % 08965 RGTR--
+500000136 Prüm, Niederprüm Feu  01720  01720                % 08965 RGTR--
+500000135 Prüm, Niederprüm Sie  01721  01721                % 08965 RGTR--
+500000134 Watzenrath, Nord      01724  01724                % 08965 RGTR--
+500000133 Watzenrath, Gasthaus  01724  01724                % 08965 RGTR--
+500000132 Pittenbach, Abzw. Pi  01726  01726                % 08965 RGTR--
+500000104 Pronsfeld, Kirche     01728  01728                % 08965 RGTR--
+500000131 Pronsfeld, Lünebache  01729  01729                % 08965 RGTR--
+500000103 Lünebach, Brücke      01732  01732                % 08965 RGTR--
+500000130 Lichtenborn, Fuchswi  01736  01736                % 08965 RGTR--
+500000102 Lichtenborn, Dorfpla  01738  01738                % 08965 RGTR--
+500000129 Arzfeld, Abzw. Faule  01739  01739                % 08965 RGTR--
+500000101 Arzfeld, Kapelle      01741  01741                % 08965 RGTR--
+500000128 Arzfeld, Wartehalle   01742  01742                % 08965 RGTR--
+500000127 Irrhausen, Eigelsfen  01745  01745                % 08965 RGTR--
+500000125 Irrhausen, Wartehall  01747  01747                % 08965 RGTR--
+500000100 Irrhausen, Gemeindeh  01747  01747                % 08965 RGTR--
+500000124 Daleiden, Laarberg    01749  01749                % 08965 RGTR--
+500000123 Daleiden, Kirche      01751  01751                % 08965 RGTR--
+500000122 Daleiden, Zingent     01753  01753                % 08965 RGTR--
+500000121 Dasburg, Abzw. Preis  01755  01755                % 08965 RGTR--
+500000120 Dasburg, Lehmkaul     01757  01757                % 08965 RGTR--
+500000119 Dasburg, Ort          01757  01757                % 08965 RGTR--
+110402001 Dosberbréck           01759  01759                % 08965 RGTR--
+110502005 Marnach, Geschäftsze  01805  01805                % 08965 RGTR--
+110502008 Marnach, Op der Bréc  01806  01806                % 08965 RGTR--
+110403005 Hosingen, Bei der Ki  01813  01813                % 08965 RGTR--
+110403001 Hosingen, Eesberwee   01814  01814                % 08965 RGTR--
+110403003 Hosingen, Z.A.E.R.    01815  01815                % 08965 RGTR--
+140902002 Hoscheid-Dickt, Um W  01819 -01819                % 08965 RGTR--
+140902001 Hoscheid-Dickt, Um P  01820 -01820                % 08965 RGTR--
+140602007 Erpeldange/Sûre, Bei  01834 -01834                % 08965 RGTR--
+140701016 Ettelbruck, Gare      01837                       % 08965 RGTR--
+*Z 08966 RGTR--                                             % 08966 RGTR--
+*L 407      500000126 140701016  00448  00605               % 08966 RGTR--
+*A ei 500000126 140701016 000001  00448  00605              % 08966 RGTR--
+*A du 500000126 140701016 000001  00448  00605              % 08966 RGTR--
+*R 2 140701016 500000126 140701016  00448  00605            % 08966 RGTR--
+*G RGB 500000126 140701016  00448  00605                    % 08966 RGTR--
+*A VE 500000126 140701016 000001  00448  00605              % 08966 RGTR--
+*I FD 500000126 140701016        0003618  00448  00605      % 08966 RGTR--
+500000126 Prüm, Gerberweg              00448                % 08966 RGTR--
+500000137 Prüm, Bahnhof         00449  00449                % 08966 RGTR--
+500000136 Prüm, Niederprüm Feu  00451  00451                % 08966 RGTR--
+500000135 Prüm, Niederprüm Sie  00452  00452                % 08966 RGTR--
+500000134 Watzenrath, Nord      00455  00455                % 08966 RGTR--
+500000133 Watzenrath, Gasthaus  00455  00455                % 08966 RGTR--
+500000132 Pittenbach, Abzw. Pi  00457  00457                % 08966 RGTR--
+500000104 Pronsfeld, Kirche     00459  00459                % 08966 RGTR--
+500000131 Pronsfeld, Lünebache  00500  00500                % 08966 RGTR--
+500000103 Lünebach, Brücke      00503  00503                % 08966 RGTR--
+500000130 Lichtenborn, Fuchswi  00507  00507                % 08966 RGTR--
+500000102 Lichtenborn, Dorfpla  00509  00509                % 08966 RGTR--
+500000129 Arzfeld, Abzw. Faule  00510  00510                % 08966 RGTR--
+500000101 Arzfeld, Kapelle      00512  00512                % 08966 RGTR--
+500000128 Arzfeld, Wartehalle   00512  00512                % 08966 RGTR--
+500000127 Irrhausen, Eigelsfen  00515  00515                % 08966 RGTR--
+500000125 Irrhausen, Wartehall  00517  00517                % 08966 RGTR--
+500000100 Irrhausen, Gemeindeh  00518  00518                % 08966 RGTR--
+500000124 Daleiden, Laarberg    00519  00519                % 08966 RGTR--
+500000123 Daleiden, Kirche      00521  00521                % 08966 RGTR--
+500000122 Daleiden, Zingent     00523  00523                % 08966 RGTR--
+500000121 Dasburg, Abzw. Preis  00525  00525                % 08966 RGTR--
+500000120 Dasburg, Lehmkaul     00526  00526                % 08966 RGTR--
+500000119 Dasburg, Ort          00527  00527                % 08966 RGTR--
+110402001 Dosberbréck           00529  00529                % 08966 RGTR--
+110502005 Marnach, Geschäftsze  00535  00535                % 08966 RGTR--
+110502008 Marnach, Op der Bréc  00536  00536                % 08966 RGTR--
+110403005 Hosingen, Bei der Ki  00542  00542                % 08966 RGTR--
+110403001 Hosingen, Eesberwee   00543  00543                % 08966 RGTR--
+110403003 Hosingen, Z.A.E.R.    00544  00544                % 08966 RGTR--
+140902002 Hoscheid-Dickt, Um W  00548 -00548                % 08966 RGTR--
+140902001 Hoscheid-Dickt, Um P  00549 -00549                % 08966 RGTR--
+140602007 Erpeldange/Sûre, Bei  00602 -00602                % 08966 RGTR--
+140701016 Ettelbruck, Gare      00605                       % 08966 RGTR--
+*Z 08967 RGTR--                                             % 08967 RGTR--
+*L 407      500000126 140701016  01017  01134               % 08967 RGTR--
+*A ei 500000126 140701016 000001  01017  01134              % 08967 RGTR--
+*A du 500000126 140701016 000001  01017  01134              % 08967 RGTR--
+*R 2 140701016 500000126 140701016  01017  01134            % 08967 RGTR--
+*G RGB 500000126 140701016  01017  01134                    % 08967 RGTR--
+*A VE 500000126 140701016 000001  01017  01134              % 08967 RGTR--
+*I FD 500000126 140701016        0002337  01017  01134      % 08967 RGTR--
+500000126 Prüm, Gerberweg              01017                % 08967 RGTR--
+500000137 Prüm, Bahnhof         01018  01018                % 08967 RGTR--
+500000136 Prüm, Niederprüm Feu  01020  01020                % 08967 RGTR--
+500000135 Prüm, Niederprüm Sie  01021  01021                % 08967 RGTR--
+500000134 Watzenrath, Nord      01024  01024                % 08967 RGTR--
+500000133 Watzenrath, Gasthaus  01024  01024                % 08967 RGTR--
+500000132 Pittenbach, Abzw. Pi  01026  01026                % 08967 RGTR--
+500000104 Pronsfeld, Kirche     01028  01028                % 08967 RGTR--
+500000131 Pronsfeld, Lünebache  01029  01029                % 08967 RGTR--
+500000103 Lünebach, Brücke      01032  01032                % 08967 RGTR--
+500000130 Lichtenborn, Fuchswi  01036  01036                % 08967 RGTR--
+500000102 Lichtenborn, Dorfpla  01038  01038                % 08967 RGTR--
+500000129 Arzfeld, Abzw. Faule  01039  01039                % 08967 RGTR--
+500000101 Arzfeld, Kapelle      01041  01041                % 08967 RGTR--
+500000128 Arzfeld, Wartehalle   01041  01041                % 08967 RGTR--
+500000127 Irrhausen, Eigelsfen  01044  01044                % 08967 RGTR--
+500000125 Irrhausen, Wartehall  01046  01046                % 08967 RGTR--
+500000100 Irrhausen, Gemeindeh  01047  01047                % 08967 RGTR--
+500000124 Daleiden, Laarberg    01048  01048                % 08967 RGTR--
+500000123 Daleiden, Kirche      01050  01050                % 08967 RGTR--
+500000122 Daleiden, Zingent     01052  01052                % 08967 RGTR--
+500000121 Dasburg, Abzw. Preis  01054  01054                % 08967 RGTR--
+500000120 Dasburg, Lehmkaul     01055  01055                % 08967 RGTR--
+500000119 Dasburg, Ort          01056  01056                % 08967 RGTR--
+110402001 Dosberbréck           01058  01058                % 08967 RGTR--
+110502005 Marnach, Geschäftsze  01104  01104                % 08967 RGTR--
+110502008 Marnach, Op der Bréc  01105  01105                % 08967 RGTR--
+110403005 Hosingen, Bei der Ki  01111  01111                % 08967 RGTR--
+110403001 Hosingen, Eesberwee   01112  01112                % 08967 RGTR--
+110403003 Hosingen, Z.A.E.R.    01113  01113                % 08967 RGTR--
+140902002 Hoscheid-Dickt, Um W  01117 -01117                % 08967 RGTR--
+140902001 Hoscheid-Dickt, Um P  01118 -01118                % 08967 RGTR--
+140602007 Erpeldange/Sûre, Bei  01131 -01131                % 08967 RGTR--
+140701016 Ettelbruck, Gare      01134                       % 08967 RGTR--
+*Z 08968 RGTR--                                             % 08968 RGTR--
+*L 407      500000126 140701016  01217  01334               % 08968 RGTR--
+*A ei 500000126 140701016 000001  01217  01334              % 08968 RGTR--
+*A du 500000126 140701016 000001  01217  01334              % 08968 RGTR--
+*R 2 140701016 500000126 140701016  01217  01334            % 08968 RGTR--
+*G RGB 500000126 140701016  01217  01334                    % 08968 RGTR--
+*A VE 500000126 140701016 000001  01217  01334              % 08968 RGTR--
+*I FD 500000126 140701016        0002340  01217  01334      % 08968 RGTR--
+500000126 Prüm, Gerberweg              01217                % 08968 RGTR--
+500000137 Prüm, Bahnhof         01218  01218                % 08968 RGTR--
+500000136 Prüm, Niederprüm Feu  01220  01220                % 08968 RGTR--
+500000135 Prüm, Niederprüm Sie  01221  01221                % 08968 RGTR--
+500000134 Watzenrath, Nord      01224  01224                % 08968 RGTR--
+500000133 Watzenrath, Gasthaus  01224  01224                % 08968 RGTR--
+500000132 Pittenbach, Abzw. Pi  01226  01226                % 08968 RGTR--
+500000104 Pronsfeld, Kirche     01228  01228                % 08968 RGTR--
+500000131 Pronsfeld, Lünebache  01229  01229                % 08968 RGTR--
+500000103 Lünebach, Brücke      01232  01232                % 08968 RGTR--
+500000130 Lichtenborn, Fuchswi  01236  01236                % 08968 RGTR--
+500000102 Lichtenborn, Dorfpla  01238  01238                % 08968 RGTR--
+500000129 Arzfeld, Abzw. Faule  01239  01239                % 08968 RGTR--
+500000101 Arzfeld, Kapelle      01241  01241                % 08968 RGTR--
+500000128 Arzfeld, Wartehalle   01241  01241                % 08968 RGTR--
+500000127 Irrhausen, Eigelsfen  01244  01244                % 08968 RGTR--
+500000125 Irrhausen, Wartehall  01246  01246                % 08968 RGTR--
+500000100 Irrhausen, Gemeindeh  01247  01247                % 08968 RGTR--
+500000124 Daleiden, Laarberg    01248  01248                % 08968 RGTR--
+500000123 Daleiden, Kirche      01250  01250                % 08968 RGTR--
+500000122 Daleiden, Zingent     01252  01252                % 08968 RGTR--
+500000121 Dasburg, Abzw. Preis  01254  01254                % 08968 RGTR--
+500000120 Dasburg, Lehmkaul     01255  01255                % 08968 RGTR--
+500000119 Dasburg, Ort          01256  01256                % 08968 RGTR--
+110402001 Dosberbréck           01258  01258                % 08968 RGTR--
+110502005 Marnach, Geschäftsze  01304  01304                % 08968 RGTR--
+110502008 Marnach, Op der Bréc  01305  01305                % 08968 RGTR--
+110403005 Hosingen, Bei der Ki  01311  01311                % 08968 RGTR--
+110403001 Hosingen, Eesberwee   01312  01312                % 08968 RGTR--
+110403003 Hosingen, Z.A.E.R.    01313  01313                % 08968 RGTR--
+140902002 Hoscheid-Dickt, Um W  01317 -01317                % 08968 RGTR--
+140902001 Hoscheid-Dickt, Um P  01318 -01318                % 08968 RGTR--
+140602007 Erpeldange/Sûre, Bei  01331 -01331                % 08968 RGTR--
+140701016 Ettelbruck, Gare      01334                       % 08968 RGTR--
+*Z 08969 RGTR--                                             % 08969 RGTR--
+*L 407      500000126 140701016  01417  01534               % 08969 RGTR--
+*A ak 500000126 140701016 000001  01417  01534              % 08969 RGTR--
+*A du 500000126 140701016 000001  01417  01534              % 08969 RGTR--
+*R 2 140701016 500000126 140701016  01417  01534            % 08969 RGTR--
+*G RGB 500000126 140701016  01417  01534                    % 08969 RGTR--
+*A VE 500000126 140701016 000001  01417  01534              % 08969 RGTR--
+*I FD 500000126 140701016        0002342  01417  01534      % 08969 RGTR--
+500000126 Prüm, Gerberweg              01417                % 08969 RGTR--
+500000137 Prüm, Bahnhof         01418  01418                % 08969 RGTR--
+500000136 Prüm, Niederprüm Feu  01420  01420                % 08969 RGTR--
+500000135 Prüm, Niederprüm Sie  01421  01421                % 08969 RGTR--
+500000134 Watzenrath, Nord      01424  01424                % 08969 RGTR--
+500000133 Watzenrath, Gasthaus  01424  01424                % 08969 RGTR--
+500000132 Pittenbach, Abzw. Pi  01426  01426                % 08969 RGTR--
+500000104 Pronsfeld, Kirche     01428  01428                % 08969 RGTR--
+500000131 Pronsfeld, Lünebache  01429  01429                % 08969 RGTR--
+500000103 Lünebach, Brücke      01432  01432                % 08969 RGTR--
+500000130 Lichtenborn, Fuchswi  01436  01436                % 08969 RGTR--
+500000102 Lichtenborn, Dorfpla  01438  01438                % 08969 RGTR--
+500000129 Arzfeld, Abzw. Faule  01439  01439                % 08969 RGTR--
+500000101 Arzfeld, Kapelle      01441  01441                % 08969 RGTR--
+500000128 Arzfeld, Wartehalle   01441  01441                % 08969 RGTR--
+500000127 Irrhausen, Eigelsfen  01444  01444                % 08969 RGTR--
+500000125 Irrhausen, Wartehall  01446  01446                % 08969 RGTR--
+500000100 Irrhausen, Gemeindeh  01447  01447                % 08969 RGTR--
+500000124 Daleiden, Laarberg    01448  01448                % 08969 RGTR--
+500000123 Daleiden, Kirche      01450  01450                % 08969 RGTR--
+500000122 Daleiden, Zingent     01452  01452                % 08969 RGTR--
+500000121 Dasburg, Abzw. Preis  01454  01454                % 08969 RGTR--
+500000120 Dasburg, Lehmkaul     01455  01455                % 08969 RGTR--
+500000119 Dasburg, Ort          01456  01456                % 08969 RGTR--
+110402001 Dosberbréck           01458  01458                % 08969 RGTR--
+110502005 Marnach, Geschäftsze  01504  01504                % 08969 RGTR--
+110502008 Marnach, Op der Bréc  01505  01505                % 08969 RGTR--
+110403005 Hosingen, Bei der Ki  01511  01511                % 08969 RGTR--
+110403001 Hosingen, Eesberwee   01512  01512                % 08969 RGTR--
+110403003 Hosingen, Z.A.E.R.    01513  01513                % 08969 RGTR--
+140902002 Hoscheid-Dickt, Um W  01517 -01517                % 08969 RGTR--
+140902001 Hoscheid-Dickt, Um P  01518 -01518                % 08969 RGTR--
+140602007 Erpeldange/Sûre, Bei  01531 -01531                % 08969 RGTR--
+140701016 Ettelbruck, Gare      01534                       % 08969 RGTR--

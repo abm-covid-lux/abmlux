@@ -1,0 +1,1863 @@
+*F 03 2
+*Z 01165 AVL---       007 090                               % 01165 AVL---
+*L 5        200404007 200101008  00745  00818               % 01165 AVL---
+*A BE 200404007 200101008 000005  00745  00818              % 01165 AVL---
+*R 1 200101008 200404007 200101008  00745  00818            % 01165 AVL---
+*G AVG 200404007 200101008  00745  00818                    % 01165 AVL---
+*A VE 200404007 200101008 000005  00745  00818              % 01165 AVL---
+200404007 Bonnevoie, Demy Schl         00745                % 01165 AVL---
+200404037 Bonnevoie, Willibror  00746  00746                % 01165 AVL---
+200404021 Bonnevoie, Jules Fis  00748  00748                % 01165 AVL---
+200404029 Bonnevoie, Nic Marth  00748  00748                % 01165 AVL---
+200404022 Bonnevoie, Kaltreis   00749  00749                % 01165 AVL---
+200404018 Bonnevoie, Izegerknu  00750  00750                % 01165 AVL---
+200404003 Bonnevoie, Anatole F  00751  00751                % 01165 AVL---
+200404019 Bonnevoie, Jean Jaco  00752  00752                % 01165 AVL---
+200404038 Bonnevoie, Wisestroo  00752  00752                % 01165 AVL---
+200404026 Bonnevoie, Léon XIII  00754  00754                % 01165 AVL---
+200404034 Bonnevoie, Rotonde    00755  00755                % 01165 AVL---
+200405046 Luxembourg, Gare Roc  00756  00756                % 01165 AVL---
+200405039 Luxembourg, Wallis    00758  00758                % 01165 AVL---
+200405013 Centre, F.D. Rooseve  00801  00801                % 01165 AVL---
+200405025 Luxembourg/Centre, M  00804  00804                % 01165 AVL---
+200403020 Belair, Wampach       00805  00805                % 01165 AVL---
+200403006 Belair, Crécy         00806  00806                % 01165 AVL---
+200403007 Belair, Franciscaine  00807  00807                % 01165 AVL---
+200420012 Merl, Parc            00807  00807                % 01165 AVL---
+200403013 Belair, Place de Fra  00808  00808                % 01165 AVL---
+200420011 Merl, Orval           00809  00809                % 01165 AVL---
+200420008 Merl, Laang Heck      00810  00810                % 01165 AVL---
+200420014 Merl, St.Hubert       00811  00811                % 01165 AVL---
+200420013 Merl, Plaak           00811  00811                % 01165 AVL---
+200420010 Merl, Op der Millen   00812  00812                % 01165 AVL---
+200101006 Bertrange, Fleuri     00813  00813                % 01165 AVL---
+200101014 Bertrange, Richterwe  00814  00814                % 01165 AVL---
+200101012 Bertrange, Montereal  00815  00815                % 01165 AVL---
+200101010 Bertrange, Kierfecht  00816  00816                % 01165 AVL---
+200101008 Bertrange, Gemeng     00818                       % 01165 AVL---
+*Z 01166 AVL---                                             % 01166 AVL---
+*L 5        200404007 200101008  01947  02017               % 01166 AVL---
+*A BE 200404007 200101008 000005  01947  02017              % 01166 AVL---
+*R 1 200101008 200404007 200101008  01947  02017            % 01166 AVL---
+*G AVG 200404007 200101008  01947  02017                    % 01166 AVL---
+*A VE 200404007 200101008 000005  01947  02017              % 01166 AVL---
+200404007 Bonnevoie, Demy Schl         01947                % 01166 AVL---
+200404037 Bonnevoie, Willibror  01948  01948                % 01166 AVL---
+200404021 Bonnevoie, Jules Fis  01949  01949                % 01166 AVL---
+200404029 Bonnevoie, Nic Marth  01950  01950                % 01166 AVL---
+200404022 Bonnevoie, Kaltreis   01951  01951                % 01166 AVL---
+200404018 Bonnevoie, Izegerknu  01951  01951                % 01166 AVL---
+200404003 Bonnevoie, Anatole F  01952  01952                % 01166 AVL---
+200404019 Bonnevoie, Jean Jaco  01953  01953                % 01166 AVL---
+200404038 Bonnevoie, Wisestroo  01953  01953                % 01166 AVL---
+200404026 Bonnevoie, Léon XIII  01955  01955                % 01166 AVL---
+200404034 Bonnevoie, Rotonde    01956  01956                % 01166 AVL---
+200405046 Luxembourg, Gare Roc  01957  01957                % 01166 AVL---
+200405039 Luxembourg, Wallis    01958  01958                % 01166 AVL---
+200405013 Centre, F.D. Rooseve  02001  02001                % 01166 AVL---
+200405025 Luxembourg/Centre, M  02004  02004                % 01166 AVL---
+200403020 Belair, Wampach       02005  02005                % 01166 AVL---
+200403006 Belair, Crécy         02006  02006                % 01166 AVL---
+200403007 Belair, Franciscaine  02006  02006                % 01166 AVL---
+200420012 Merl, Parc            02007  02007                % 01166 AVL---
+200403013 Belair, Place de Fra  02008  02008                % 01166 AVL---
+200420011 Merl, Orval           02009  02009                % 01166 AVL---
+200420008 Merl, Laang Heck      02010  02010                % 01166 AVL---
+200420014 Merl, St.Hubert       02010  02010                % 01166 AVL---
+200420013 Merl, Plaak           02011  02011                % 01166 AVL---
+200420010 Merl, Op der Millen   02011  02011                % 01166 AVL---
+200101006 Bertrange, Fleuri     02013  02013                % 01166 AVL---
+200101014 Bertrange, Richterwe  02014  02014                % 01166 AVL---
+200101012 Bertrange, Montereal  02014  02014                % 01166 AVL---
+200101010 Bertrange, Kierfecht  02015  02015                % 01166 AVL---
+200101008 Bertrange, Gemeng     02017                       % 01166 AVL---
+*Z 01167 AVL---                                             % 01167 AVL---
+*L 5        200404007 200101008  00619  00649               % 01167 AVL---
+*A BE 200404007 200101008 000002  00619  00649              % 01167 AVL---
+*R 1 200101008 200404007 200101008  00619  00649            % 01167 AVL---
+*G AVG 200404007 200101008  00619  00649                    % 01167 AVL---
+*A VE 200404007 200101008 000002  00619  00649              % 01167 AVL---
+200404007 Bonnevoie, Demy Schl         00619                % 01167 AVL---
+200404037 Bonnevoie, Willibror  00620  00620                % 01167 AVL---
+200404021 Bonnevoie, Jules Fis  00621  00621                % 01167 AVL---
+200404029 Bonnevoie, Nic Marth  00622  00622                % 01167 AVL---
+200404022 Bonnevoie, Kaltreis   00623  00623                % 01167 AVL---
+200404018 Bonnevoie, Izegerknu  00623  00623                % 01167 AVL---
+200404003 Bonnevoie, Anatole F  00624  00624                % 01167 AVL---
+200404019 Bonnevoie, Jean Jaco  00625  00625                % 01167 AVL---
+200404038 Bonnevoie, Wisestroo  00625  00625                % 01167 AVL---
+200404026 Bonnevoie, Léon XIII  00627  00627                % 01167 AVL---
+200404034 Bonnevoie, Rotonde    00628  00628                % 01167 AVL---
+200405046 Luxembourg, Gare Roc  00629  00629                % 01167 AVL---
+200405039 Luxembourg, Wallis    00630  00630                % 01167 AVL---
+200405013 Centre, F.D. Rooseve  00633  00633                % 01167 AVL---
+200405025 Luxembourg/Centre, M  00636  00636                % 01167 AVL---
+200403020 Belair, Wampach       00637  00637                % 01167 AVL---
+200403006 Belair, Crécy         00638  00638                % 01167 AVL---
+200403007 Belair, Franciscaine  00638  00638                % 01167 AVL---
+200420012 Merl, Parc            00639  00639                % 01167 AVL---
+200403013 Belair, Place de Fra  00640  00640                % 01167 AVL---
+200420011 Merl, Orval           00641  00641                % 01167 AVL---
+200420008 Merl, Laang Heck      00642  00642                % 01167 AVL---
+200420014 Merl, St.Hubert       00642  00642                % 01167 AVL---
+200420013 Merl, Plaak           00643  00643                % 01167 AVL---
+200420010 Merl, Op der Millen   00643  00643                % 01167 AVL---
+200101006 Bertrange, Fleuri     00645  00645                % 01167 AVL---
+200101014 Bertrange, Richterwe  00646  00646                % 01167 AVL---
+200101012 Bertrange, Montereal  00646  00646                % 01167 AVL---
+200101010 Bertrange, Kierfecht  00647  00647                % 01167 AVL---
+200101008 Bertrange, Gemeng     00649                       % 01167 AVL---
+*Z 01168 AVL---                                             % 01168 AVL---
+*L 5        200404007 200101008  02213  02248               % 01168 AVL---
+*A BE 200404007 200101008 000003  02213  02248              % 01168 AVL---
+*R 1 200101008 200404007 200101008  02213  02248            % 01168 AVL---
+*G AVS 200404007 200101008  02213  02248                    % 01168 AVL---
+*A VE 200404007 200101008 000003  02213  02248              % 01168 AVL---
+200404007 Bonnevoie, Demy Schl         02213                % 01168 AVL---
+200404037 Bonnevoie, Willibror  02214  02214                % 01168 AVL---
+200404021 Bonnevoie, Jules Fis  02215  02215                % 01168 AVL---
+200404029 Bonnevoie, Nic Marth  02216  02216                % 01168 AVL---
+200404022 Bonnevoie, Kaltreis   02217  02217                % 01168 AVL---
+200404018 Bonnevoie, Izegerknu  02217  02217                % 01168 AVL---
+200404003 Bonnevoie, Anatole F  02218  02218                % 01168 AVL---
+200404019 Bonnevoie, Jean Jaco  02219  02219                % 01168 AVL---
+200404038 Bonnevoie, Wisestroo  02219  02219                % 01168 AVL---
+200404026 Bonnevoie, Léon XIII  02221  02221                % 01168 AVL---
+200404034 Bonnevoie, Rotonde    02222  02222                % 01168 AVL---
+200405046 Luxembourg, Gare Roc  02223  02223                % 01168 AVL---
+200405039 Luxembourg, Wallis    02224  02224                % 01168 AVL---
+200405013 Centre, F.D. Rooseve  02227  02227                % 01168 AVL---
+200405025 Luxembourg/Centre, M  02230  02235                % 01168 AVL---
+200403020 Belair, Wampach       02236  02236                % 01168 AVL---
+200403006 Belair, Crécy         02237  02237                % 01168 AVL---
+200403007 Belair, Franciscaine  02237  02237                % 01168 AVL---
+200420012 Merl, Parc            02238  02238                % 01168 AVL---
+200403013 Belair, Place de Fra  02239  02239                % 01168 AVL---
+200420011 Merl, Orval           02240  02240                % 01168 AVL---
+200420008 Merl, Laang Heck      02241  02241                % 01168 AVL---
+200420014 Merl, St.Hubert       02241  02241                % 01168 AVL---
+200420013 Merl, Plaak           02242  02242                % 01168 AVL---
+200420010 Merl, Op der Millen   02242  02242                % 01168 AVL---
+200101006 Bertrange, Fleuri     02244  02244                % 01168 AVL---
+200101014 Bertrange, Richterwe  02245  02245                % 01168 AVL---
+200101012 Bertrange, Montereal  02245  02245                % 01168 AVL---
+200101010 Bertrange, Kierfecht  02246  02246                % 01168 AVL---
+200101008 Bertrange, Gemeng     02248                       % 01168 AVL---
+*Z 01169 AVL---                                             % 01169 AVL---
+*L 5        200404007 200101008  02343  02418               % 01169 AVL---
+*A BE 200404007 200101008 000001  02343  02418              % 01169 AVL---
+*R 1 200101008 200404007 200101008  02343  02418            % 01169 AVL---
+*G AVS 200404007 200101008  02343  02418                    % 01169 AVL---
+*A VE 200404007 200101008 000001  02343  02418              % 01169 AVL---
+200404007 Bonnevoie, Demy Schl         02343                % 01169 AVL---
+200404037 Bonnevoie, Willibror  02344  02344                % 01169 AVL---
+200404021 Bonnevoie, Jules Fis  02345  02345                % 01169 AVL---
+200404029 Bonnevoie, Nic Marth  02346  02346                % 01169 AVL---
+200404022 Bonnevoie, Kaltreis   02347  02347                % 01169 AVL---
+200404018 Bonnevoie, Izegerknu  02347  02347                % 01169 AVL---
+200404003 Bonnevoie, Anatole F  02348  02348                % 01169 AVL---
+200404019 Bonnevoie, Jean Jaco  02349  02349                % 01169 AVL---
+200404038 Bonnevoie, Wisestroo  02349  02349                % 01169 AVL---
+200404026 Bonnevoie, Léon XIII  02351  02351                % 01169 AVL---
+200404034 Bonnevoie, Rotonde    02352  02352                % 01169 AVL---
+200405046 Luxembourg, Gare Roc  02353  02353                % 01169 AVL---
+200405039 Luxembourg, Wallis    02354  02354                % 01169 AVL---
+200405013 Centre, F.D. Rooseve  02357  02357                % 01169 AVL---
+200405025 Luxembourg/Centre, M  02400  02405                % 01169 AVL---
+200403020 Belair, Wampach       02406  02406                % 01169 AVL---
+200403006 Belair, Crécy         02407  02407                % 01169 AVL---
+200403007 Belair, Franciscaine  02407  02407                % 01169 AVL---
+200420012 Merl, Parc            02408  02408                % 01169 AVL---
+200403013 Belair, Place de Fra  02409  02409                % 01169 AVL---
+200420011 Merl, Orval           02410  02410                % 01169 AVL---
+200420008 Merl, Laang Heck      02411  02411                % 01169 AVL---
+200420014 Merl, St.Hubert       02411  02411                % 01169 AVL---
+200420013 Merl, Plaak           02412  02412                % 01169 AVL---
+200420010 Merl, Op der Millen   02412  02412                % 01169 AVL---
+200101006 Bertrange, Fleuri     02414  02414                % 01169 AVL---
+200101014 Bertrange, Richterwe  02415  02415                % 01169 AVL---
+200101012 Bertrange, Montereal  02415  02415                % 01169 AVL---
+200101010 Bertrange, Kierfecht  02416  02416                % 01169 AVL---
+200101008 Bertrange, Gemeng     02418                       % 01169 AVL---
+*Z 01170 AVL---                                             % 01170 AVL---
+*L 5        200404007 200101008  02313  02348               % 01170 AVL---
+*A BE 200404007 200101008 000004  02313  02348              % 01170 AVL---
+*R 1 200101008 200404007 200101008  02313  02348            % 01170 AVL---
+*G AVS 200404007 200101008  02313  02348                    % 01170 AVL---
+*A VE 200404007 200101008 000004  02313  02348              % 01170 AVL---
+200404007 Bonnevoie, Demy Schl         02313                % 01170 AVL---
+200404037 Bonnevoie, Willibror  02314  02314                % 01170 AVL---
+200404021 Bonnevoie, Jules Fis  02315  02315                % 01170 AVL---
+200404029 Bonnevoie, Nic Marth  02316  02316                % 01170 AVL---
+200404022 Bonnevoie, Kaltreis   02317  02317                % 01170 AVL---
+200404018 Bonnevoie, Izegerknu  02317  02317                % 01170 AVL---
+200404003 Bonnevoie, Anatole F  02318  02318                % 01170 AVL---
+200404019 Bonnevoie, Jean Jaco  02319  02319                % 01170 AVL---
+200404038 Bonnevoie, Wisestroo  02319  02319                % 01170 AVL---
+200404026 Bonnevoie, Léon XIII  02321  02321                % 01170 AVL---
+200404034 Bonnevoie, Rotonde    02322  02322                % 01170 AVL---
+200405046 Luxembourg, Gare Roc  02323  02323                % 01170 AVL---
+200405039 Luxembourg, Wallis    02324  02324                % 01170 AVL---
+200405013 Centre, F.D. Rooseve  02327  02327                % 01170 AVL---
+200405025 Luxembourg/Centre, M  02330  02335                % 01170 AVL---
+200403020 Belair, Wampach       02336  02336                % 01170 AVL---
+200403006 Belair, Crécy         02337  02337                % 01170 AVL---
+200403007 Belair, Franciscaine  02337  02337                % 01170 AVL---
+200420012 Merl, Parc            02338  02338                % 01170 AVL---
+200403013 Belair, Place de Fra  02339  02339                % 01170 AVL---
+200420011 Merl, Orval           02340  02340                % 01170 AVL---
+200420008 Merl, Laang Heck      02341  02341                % 01170 AVL---
+200420014 Merl, St.Hubert       02341  02341                % 01170 AVL---
+200420013 Merl, Plaak           02342  02342                % 01170 AVL---
+200420010 Merl, Op der Millen   02342  02342                % 01170 AVL---
+200101006 Bertrange, Fleuri     02344  02344                % 01170 AVL---
+200101014 Bertrange, Richterwe  02345  02345                % 01170 AVL---
+200101012 Bertrange, Montereal  02345  02345                % 01170 AVL---
+200101010 Bertrange, Kierfecht  02346  02346                % 01170 AVL---
+200101008 Bertrange, Gemeng     02348                       % 01170 AVL---
+*Z 01171 AVL---       001 040                               % 01171 AVL---
+*L 5        200404007 200101008  00714  00753               % 01171 AVL---
+*A BE 200404007 200101008 000002  00714  00753              % 01171 AVL---
+*R 1 200101008 200404007 200101008  00714  00753            % 01171 AVL---
+*G AVG 200404007 200101008  00714  00753                    % 01171 AVL---
+*A VE 200404007 200101008 000002  00714  00753              % 01171 AVL---
+200404007 Bonnevoie, Demy Schl         00714                % 01171 AVL---
+200404037 Bonnevoie, Willibror  00716  00716                % 01171 AVL---
+200404021 Bonnevoie, Jules Fis  00717  00717                % 01171 AVL---
+200404029 Bonnevoie, Nic Marth  00718  00718                % 01171 AVL---
+200404022 Bonnevoie, Kaltreis   00719  00719                % 01171 AVL---
+200404018 Bonnevoie, Izegerknu  00719  00719                % 01171 AVL---
+200404003 Bonnevoie, Anatole F  00721  00721                % 01171 AVL---
+200404019 Bonnevoie, Jean Jaco  00721  00721                % 01171 AVL---
+200404038 Bonnevoie, Wisestroo  00722  00722                % 01171 AVL---
+200404026 Bonnevoie, Léon XIII  00724  00724                % 01171 AVL---
+200404034 Bonnevoie, Rotonde    00725  00725                % 01171 AVL---
+200405046 Luxembourg, Gare Roc  00727  00727                % 01171 AVL---
+200405039 Luxembourg, Wallis    00728  00728                % 01171 AVL---
+200405013 Centre, F.D. Rooseve  00732  00732                % 01171 AVL---
+200405025 Luxembourg/Centre, M  00736  00736                % 01171 AVL---
+200403020 Belair, Wampach       00737  00737                % 01171 AVL---
+200403006 Belair, Crécy         00739  00739                % 01171 AVL---
+200403007 Belair, Franciscaine  00740  00740                % 01171 AVL---
+200420012 Merl, Parc            00740  00740                % 01171 AVL---
+200403013 Belair, Place de Fra  00741  00741                % 01171 AVL---
+200420011 Merl, Orval           00742  00742                % 01171 AVL---
+200420008 Merl, Laang Heck      00743  00743                % 01171 AVL---
+200420014 Merl, St.Hubert       00744  00744                % 01171 AVL---
+200420013 Merl, Plaak           00745  00745                % 01171 AVL---
+200420010 Merl, Op der Millen   00746  00746                % 01171 AVL---
+200101006 Bertrange, Fleuri     00748  00748                % 01171 AVL---
+200101014 Bertrange, Richterwe  00749  00749                % 01171 AVL---
+200101012 Bertrange, Montereal  00750  00750                % 01171 AVL---
+200101010 Bertrange, Kierfecht  00751  00751                % 01171 AVL---
+200101008 Bertrange, Gemeng     00753                       % 01171 AVL---
+*Z 01172 AVL---       001 040                               % 01172 AVL---
+*L 5        200404007 200101008  00854  00933               % 01172 AVL---
+*A BE 200404007 200101008 000002  00854  00933              % 01172 AVL---
+*R 1 200101008 200404007 200101008  00854  00933            % 01172 AVL---
+*G AVG 200404007 200101008  00854  00933                    % 01172 AVL---
+*A VE 200404007 200101008 000002  00854  00933              % 01172 AVL---
+200404007 Bonnevoie, Demy Schl         00854                % 01172 AVL---
+200404037 Bonnevoie, Willibror  00856  00856                % 01172 AVL---
+200404021 Bonnevoie, Jules Fis  00857  00857                % 01172 AVL---
+200404029 Bonnevoie, Nic Marth  00858  00858                % 01172 AVL---
+200404022 Bonnevoie, Kaltreis   00859  00859                % 01172 AVL---
+200404018 Bonnevoie, Izegerknu  00859  00859                % 01172 AVL---
+200404003 Bonnevoie, Anatole F  00901  00901                % 01172 AVL---
+200404019 Bonnevoie, Jean Jaco  00901  00901                % 01172 AVL---
+200404038 Bonnevoie, Wisestroo  00902  00902                % 01172 AVL---
+200404026 Bonnevoie, Léon XIII  00904  00904                % 01172 AVL---
+200404034 Bonnevoie, Rotonde    00905  00905                % 01172 AVL---
+200405046 Luxembourg, Gare Roc  00907  00907                % 01172 AVL---
+200405039 Luxembourg, Wallis    00908  00908                % 01172 AVL---
+200405013 Centre, F.D. Rooseve  00912  00912                % 01172 AVL---
+200405025 Luxembourg/Centre, M  00916  00916                % 01172 AVL---
+200403020 Belair, Wampach       00917  00917                % 01172 AVL---
+200403006 Belair, Crécy         00919  00919                % 01172 AVL---
+200403007 Belair, Franciscaine  00920  00920                % 01172 AVL---
+200420012 Merl, Parc            00920  00920                % 01172 AVL---
+200403013 Belair, Place de Fra  00921  00921                % 01172 AVL---
+200420011 Merl, Orval           00922  00922                % 01172 AVL---
+200420008 Merl, Laang Heck      00923  00923                % 01172 AVL---
+200420014 Merl, St.Hubert       00924  00924                % 01172 AVL---
+200420013 Merl, Plaak           00925  00925                % 01172 AVL---
+200420010 Merl, Op der Millen   00926  00926                % 01172 AVL---
+200101006 Bertrange, Fleuri     00928  00928                % 01172 AVL---
+200101014 Bertrange, Richterwe  00929  00929                % 01172 AVL---
+200101012 Bertrange, Montereal  00930  00930                % 01172 AVL---
+200101010 Bertrange, Kierfecht  00931  00931                % 01172 AVL---
+200101008 Bertrange, Gemeng     00933                       % 01172 AVL---
+*Z 01173 AVL---       001 040                               % 01173 AVL---
+*L 5        200404007 200101008  01034  01113               % 01173 AVL---
+*A BE 200404007 200101008 000002  01034  01113              % 01173 AVL---
+*R 1 200101008 200404007 200101008  01034  01113            % 01173 AVL---
+*G AVG 200404007 200101008  01034  01113                    % 01173 AVL---
+*A VE 200404007 200101008 000002  01034  01113              % 01173 AVL---
+200404007 Bonnevoie, Demy Schl         01034                % 01173 AVL---
+200404037 Bonnevoie, Willibror  01036  01036                % 01173 AVL---
+200404021 Bonnevoie, Jules Fis  01037  01037                % 01173 AVL---
+200404029 Bonnevoie, Nic Marth  01038  01038                % 01173 AVL---
+200404022 Bonnevoie, Kaltreis   01039  01039                % 01173 AVL---
+200404018 Bonnevoie, Izegerknu  01039  01039                % 01173 AVL---
+200404003 Bonnevoie, Anatole F  01041  01041                % 01173 AVL---
+200404019 Bonnevoie, Jean Jaco  01041  01041                % 01173 AVL---
+200404038 Bonnevoie, Wisestroo  01042  01042                % 01173 AVL---
+200404026 Bonnevoie, Léon XIII  01044  01044                % 01173 AVL---
+200404034 Bonnevoie, Rotonde    01045  01045                % 01173 AVL---
+200405046 Luxembourg, Gare Roc  01047  01047                % 01173 AVL---
+200405039 Luxembourg, Wallis    01048  01048                % 01173 AVL---
+200405013 Centre, F.D. Rooseve  01052  01052                % 01173 AVL---
+200405025 Luxembourg/Centre, M  01056  01056                % 01173 AVL---
+200403020 Belair, Wampach       01057  01057                % 01173 AVL---
+200403006 Belair, Crécy         01059  01059                % 01173 AVL---
+200403007 Belair, Franciscaine  01100  01100                % 01173 AVL---
+200420012 Merl, Parc            01100  01100                % 01173 AVL---
+200403013 Belair, Place de Fra  01101  01101                % 01173 AVL---
+200420011 Merl, Orval           01102  01102                % 01173 AVL---
+200420008 Merl, Laang Heck      01103  01103                % 01173 AVL---
+200420014 Merl, St.Hubert       01104  01104                % 01173 AVL---
+200420013 Merl, Plaak           01105  01105                % 01173 AVL---
+200420010 Merl, Op der Millen   01106  01106                % 01173 AVL---
+200101006 Bertrange, Fleuri     01108  01108                % 01173 AVL---
+200101014 Bertrange, Richterwe  01109  01109                % 01173 AVL---
+200101012 Bertrange, Montereal  01110  01110                % 01173 AVL---
+200101010 Bertrange, Kierfecht  01111  01111                % 01173 AVL---
+200101008 Bertrange, Gemeng     01113                       % 01173 AVL---
+*Z 01174 AVL---       001 040                               % 01174 AVL---
+*L 5        200404007 200101008  01214  01253               % 01174 AVL---
+*A BE 200404007 200101008 000002  01214  01253              % 01174 AVL---
+*R 1 200101008 200404007 200101008  01214  01253            % 01174 AVL---
+*G AVG 200404007 200101008  01214  01253                    % 01174 AVL---
+*A VE 200404007 200101008 000002  01214  01253              % 01174 AVL---
+200404007 Bonnevoie, Demy Schl         01214                % 01174 AVL---
+200404037 Bonnevoie, Willibror  01216  01216                % 01174 AVL---
+200404021 Bonnevoie, Jules Fis  01217  01217                % 01174 AVL---
+200404029 Bonnevoie, Nic Marth  01218  01218                % 01174 AVL---
+200404022 Bonnevoie, Kaltreis   01219  01219                % 01174 AVL---
+200404018 Bonnevoie, Izegerknu  01219  01219                % 01174 AVL---
+200404003 Bonnevoie, Anatole F  01221  01221                % 01174 AVL---
+200404019 Bonnevoie, Jean Jaco  01221  01221                % 01174 AVL---
+200404038 Bonnevoie, Wisestroo  01222  01222                % 01174 AVL---
+200404026 Bonnevoie, Léon XIII  01224  01224                % 01174 AVL---
+200404034 Bonnevoie, Rotonde    01225  01225                % 01174 AVL---
+200405046 Luxembourg, Gare Roc  01227  01227                % 01174 AVL---
+200405039 Luxembourg, Wallis    01228  01228                % 01174 AVL---
+200405013 Centre, F.D. Rooseve  01232  01232                % 01174 AVL---
+200405025 Luxembourg/Centre, M  01236  01236                % 01174 AVL---
+200403020 Belair, Wampach       01237  01237                % 01174 AVL---
+200403006 Belair, Crécy         01239  01239                % 01174 AVL---
+200403007 Belair, Franciscaine  01240  01240                % 01174 AVL---
+200420012 Merl, Parc            01240  01240                % 01174 AVL---
+200403013 Belair, Place de Fra  01241  01241                % 01174 AVL---
+200420011 Merl, Orval           01242  01242                % 01174 AVL---
+200420008 Merl, Laang Heck      01243  01243                % 01174 AVL---
+200420014 Merl, St.Hubert       01244  01244                % 01174 AVL---
+200420013 Merl, Plaak           01245  01245                % 01174 AVL---
+200420010 Merl, Op der Millen   01246  01246                % 01174 AVL---
+200101006 Bertrange, Fleuri     01248  01248                % 01174 AVL---
+200101014 Bertrange, Richterwe  01249  01249                % 01174 AVL---
+200101012 Bertrange, Montereal  01250  01250                % 01174 AVL---
+200101010 Bertrange, Kierfecht  01251  01251                % 01174 AVL---
+200101008 Bertrange, Gemeng     01253                       % 01174 AVL---
+*Z 01175 AVL---       001 040                               % 01175 AVL---
+*L 5        200404007 200101008  01354  01433               % 01175 AVL---
+*A BE 200404007 200101008 000002  01354  01433              % 01175 AVL---
+*R 1 200101008 200404007 200101008  01354  01433            % 01175 AVL---
+*G AVG 200404007 200101008  01354  01433                    % 01175 AVL---
+*A VE 200404007 200101008 000002  01354  01433              % 01175 AVL---
+200404007 Bonnevoie, Demy Schl         01354                % 01175 AVL---
+200404037 Bonnevoie, Willibror  01356  01356                % 01175 AVL---
+200404021 Bonnevoie, Jules Fis  01357  01357                % 01175 AVL---
+200404029 Bonnevoie, Nic Marth  01358  01358                % 01175 AVL---
+200404022 Bonnevoie, Kaltreis   01359  01359                % 01175 AVL---
+200404018 Bonnevoie, Izegerknu  01359  01359                % 01175 AVL---
+200404003 Bonnevoie, Anatole F  01401  01401                % 01175 AVL---
+200404019 Bonnevoie, Jean Jaco  01401  01401                % 01175 AVL---
+200404038 Bonnevoie, Wisestroo  01402  01402                % 01175 AVL---
+200404026 Bonnevoie, Léon XIII  01404  01404                % 01175 AVL---
+200404034 Bonnevoie, Rotonde    01405  01405                % 01175 AVL---
+200405046 Luxembourg, Gare Roc  01407  01407                % 01175 AVL---
+200405039 Luxembourg, Wallis    01408  01408                % 01175 AVL---
+200405013 Centre, F.D. Rooseve  01412  01412                % 01175 AVL---
+200405025 Luxembourg/Centre, M  01416  01416                % 01175 AVL---
+200403020 Belair, Wampach       01417  01417                % 01175 AVL---
+200403006 Belair, Crécy         01419  01419                % 01175 AVL---
+200403007 Belair, Franciscaine  01420  01420                % 01175 AVL---
+200420012 Merl, Parc            01420  01420                % 01175 AVL---
+200403013 Belair, Place de Fra  01421  01421                % 01175 AVL---
+200420011 Merl, Orval           01422  01422                % 01175 AVL---
+200420008 Merl, Laang Heck      01423  01423                % 01175 AVL---
+200420014 Merl, St.Hubert       01424  01424                % 01175 AVL---
+200420013 Merl, Plaak           01425  01425                % 01175 AVL---
+200420010 Merl, Op der Millen   01426  01426                % 01175 AVL---
+200101006 Bertrange, Fleuri     01428  01428                % 01175 AVL---
+200101014 Bertrange, Richterwe  01429  01429                % 01175 AVL---
+200101012 Bertrange, Montereal  01430  01430                % 01175 AVL---
+200101010 Bertrange, Kierfecht  01431  01431                % 01175 AVL---
+200101008 Bertrange, Gemeng     01433                       % 01175 AVL---
+*Z 01176 AVL---       001 040                               % 01176 AVL---
+*L 5        200404007 200101008  01534  01613               % 01176 AVL---
+*A BE 200404007 200101008 000002  01534  01613              % 01176 AVL---
+*R 1 200101008 200404007 200101008  01534  01613            % 01176 AVL---
+*G AVG 200404007 200101008  01534  01613                    % 01176 AVL---
+*A VE 200404007 200101008 000002  01534  01613              % 01176 AVL---
+200404007 Bonnevoie, Demy Schl         01534                % 01176 AVL---
+200404037 Bonnevoie, Willibror  01536  01536                % 01176 AVL---
+200404021 Bonnevoie, Jules Fis  01537  01537                % 01176 AVL---
+200404029 Bonnevoie, Nic Marth  01538  01538                % 01176 AVL---
+200404022 Bonnevoie, Kaltreis   01539  01539                % 01176 AVL---
+200404018 Bonnevoie, Izegerknu  01539  01539                % 01176 AVL---
+200404003 Bonnevoie, Anatole F  01541  01541                % 01176 AVL---
+200404019 Bonnevoie, Jean Jaco  01541  01541                % 01176 AVL---
+200404038 Bonnevoie, Wisestroo  01542  01542                % 01176 AVL---
+200404026 Bonnevoie, Léon XIII  01544  01544                % 01176 AVL---
+200404034 Bonnevoie, Rotonde    01545  01545                % 01176 AVL---
+200405046 Luxembourg, Gare Roc  01547  01547                % 01176 AVL---
+200405039 Luxembourg, Wallis    01548  01548                % 01176 AVL---
+200405013 Centre, F.D. Rooseve  01552  01552                % 01176 AVL---
+200405025 Luxembourg/Centre, M  01556  01556                % 01176 AVL---
+200403020 Belair, Wampach       01557  01557                % 01176 AVL---
+200403006 Belair, Crécy         01559  01559                % 01176 AVL---
+200403007 Belair, Franciscaine  01600  01600                % 01176 AVL---
+200420012 Merl, Parc            01600  01600                % 01176 AVL---
+200403013 Belair, Place de Fra  01601  01601                % 01176 AVL---
+200420011 Merl, Orval           01602  01602                % 01176 AVL---
+200420008 Merl, Laang Heck      01603  01603                % 01176 AVL---
+200420014 Merl, St.Hubert       01604  01604                % 01176 AVL---
+200420013 Merl, Plaak           01605  01605                % 01176 AVL---
+200420010 Merl, Op der Millen   01606  01606                % 01176 AVL---
+200101006 Bertrange, Fleuri     01608  01608                % 01176 AVL---
+200101014 Bertrange, Richterwe  01609  01609                % 01176 AVL---
+200101012 Bertrange, Montereal  01610  01610                % 01176 AVL---
+200101010 Bertrange, Kierfecht  01611  01611                % 01176 AVL---
+200101008 Bertrange, Gemeng     01613                       % 01176 AVL---
+*Z 01177 AVL---       001 040                               % 01177 AVL---
+*L 5        200404007 200101008  01714  01753               % 01177 AVL---
+*A BE 200404007 200101008 000002  01714  01753              % 01177 AVL---
+*R 1 200101008 200404007 200101008  01714  01753            % 01177 AVL---
+*G AVG 200404007 200101008  01714  01753                    % 01177 AVL---
+*A VE 200404007 200101008 000002  01714  01753              % 01177 AVL---
+200404007 Bonnevoie, Demy Schl         01714                % 01177 AVL---
+200404037 Bonnevoie, Willibror  01716  01716                % 01177 AVL---
+200404021 Bonnevoie, Jules Fis  01717  01717                % 01177 AVL---
+200404029 Bonnevoie, Nic Marth  01718  01718                % 01177 AVL---
+200404022 Bonnevoie, Kaltreis   01719  01719                % 01177 AVL---
+200404018 Bonnevoie, Izegerknu  01719  01719                % 01177 AVL---
+200404003 Bonnevoie, Anatole F  01721  01721                % 01177 AVL---
+200404019 Bonnevoie, Jean Jaco  01721  01721                % 01177 AVL---
+200404038 Bonnevoie, Wisestroo  01722  01722                % 01177 AVL---
+200404026 Bonnevoie, Léon XIII  01724  01724                % 01177 AVL---
+200404034 Bonnevoie, Rotonde    01725  01725                % 01177 AVL---
+200405046 Luxembourg, Gare Roc  01727  01727                % 01177 AVL---
+200405039 Luxembourg, Wallis    01728  01728                % 01177 AVL---
+200405013 Centre, F.D. Rooseve  01732  01732                % 01177 AVL---
+200405025 Luxembourg/Centre, M  01736  01736                % 01177 AVL---
+200403020 Belair, Wampach       01737  01737                % 01177 AVL---
+200403006 Belair, Crécy         01739  01739                % 01177 AVL---
+200403007 Belair, Franciscaine  01740  01740                % 01177 AVL---
+200420012 Merl, Parc            01740  01740                % 01177 AVL---
+200403013 Belair, Place de Fra  01741  01741                % 01177 AVL---
+200420011 Merl, Orval           01742  01742                % 01177 AVL---
+200420008 Merl, Laang Heck      01743  01743                % 01177 AVL---
+200420014 Merl, St.Hubert       01744  01744                % 01177 AVL---
+200420013 Merl, Plaak           01745  01745                % 01177 AVL---
+200420010 Merl, Op der Millen   01746  01746                % 01177 AVL---
+200101006 Bertrange, Fleuri     01748  01748                % 01177 AVL---
+200101014 Bertrange, Richterwe  01749  01749                % 01177 AVL---
+200101012 Bertrange, Montereal  01750  01750                % 01177 AVL---
+200101010 Bertrange, Kierfecht  01751  01751                % 01177 AVL---
+200101008 Bertrange, Gemeng     01753                       % 01177 AVL---
+*Z 01178 AVL---       001 040                               % 01178 AVL---
+*L 5        200404007 200101008  01854  01933               % 01178 AVL---
+*A BE 200404007 200101008 000002  01854  01933              % 01178 AVL---
+*R 1 200101008 200404007 200101008  01854  01933            % 01178 AVL---
+*G AVG 200404007 200101008  01854  01933                    % 01178 AVL---
+*A VE 200404007 200101008 000002  01854  01933              % 01178 AVL---
+200404007 Bonnevoie, Demy Schl         01854                % 01178 AVL---
+200404037 Bonnevoie, Willibror  01856  01856                % 01178 AVL---
+200404021 Bonnevoie, Jules Fis  01857  01857                % 01178 AVL---
+200404029 Bonnevoie, Nic Marth  01858  01858                % 01178 AVL---
+200404022 Bonnevoie, Kaltreis   01859  01859                % 01178 AVL---
+200404018 Bonnevoie, Izegerknu  01859  01859                % 01178 AVL---
+200404003 Bonnevoie, Anatole F  01901  01901                % 01178 AVL---
+200404019 Bonnevoie, Jean Jaco  01901  01901                % 01178 AVL---
+200404038 Bonnevoie, Wisestroo  01902  01902                % 01178 AVL---
+200404026 Bonnevoie, Léon XIII  01904  01904                % 01178 AVL---
+200404034 Bonnevoie, Rotonde    01905  01905                % 01178 AVL---
+200405046 Luxembourg, Gare Roc  01907  01907                % 01178 AVL---
+200405039 Luxembourg, Wallis    01908  01908                % 01178 AVL---
+200405013 Centre, F.D. Rooseve  01912  01912                % 01178 AVL---
+200405025 Luxembourg/Centre, M  01916  01916                % 01178 AVL---
+200403020 Belair, Wampach       01917  01917                % 01178 AVL---
+200403006 Belair, Crécy         01919  01919                % 01178 AVL---
+200403007 Belair, Franciscaine  01920  01920                % 01178 AVL---
+200420012 Merl, Parc            01920  01920                % 01178 AVL---
+200403013 Belair, Place de Fra  01921  01921                % 01178 AVL---
+200420011 Merl, Orval           01922  01922                % 01178 AVL---
+200420008 Merl, Laang Heck      01923  01923                % 01178 AVL---
+200420014 Merl, St.Hubert       01924  01924                % 01178 AVL---
+200420013 Merl, Plaak           01925  01925                % 01178 AVL---
+200420010 Merl, Op der Millen   01926  01926                % 01178 AVL---
+200101006 Bertrange, Fleuri     01928  01928                % 01178 AVL---
+200101014 Bertrange, Richterwe  01929  01929                % 01178 AVL---
+200101012 Bertrange, Montereal  01930  01930                % 01178 AVL---
+200101010 Bertrange, Kierfecht  01931  01931                % 01178 AVL---
+200101008 Bertrange, Gemeng     01933                       % 01178 AVL---
+*Z 01179 AVL---       002 060                               % 01179 AVL---
+*L 5        200404007 200101008  01141  01219               % 01179 AVL---
+*A BE 200404007 200101008 000003  01141  01219              % 01179 AVL---
+*R 1 200101008 200404007 200101008  01141  01219            % 01179 AVL---
+*G AVS 200404007 200101008  01141  01219                    % 01179 AVL---
+*A VE 200404007 200101008 000003  01141  01219              % 01179 AVL---
+200404007 Bonnevoie, Demy Schl         01141                % 01179 AVL---
+200404037 Bonnevoie, Willibror  01142  01142                % 01179 AVL---
+200404021 Bonnevoie, Jules Fis  01144  01144                % 01179 AVL---
+200404029 Bonnevoie, Nic Marth  01144  01144                % 01179 AVL---
+200404022 Bonnevoie, Kaltreis   01145  01145                % 01179 AVL---
+200404018 Bonnevoie, Izegerknu  01146  01146                % 01179 AVL---
+200404003 Bonnevoie, Anatole F  01147  01147                % 01179 AVL---
+200404019 Bonnevoie, Jean Jaco  01148  01148                % 01179 AVL---
+200404038 Bonnevoie, Wisestroo  01148  01148                % 01179 AVL---
+200404026 Bonnevoie, Léon XIII  01150  01150                % 01179 AVL---
+200404034 Bonnevoie, Rotonde    01151  01151                % 01179 AVL---
+200405046 Luxembourg, Gare Roc  01152  01152                % 01179 AVL---
+200405039 Luxembourg, Wallis    01154  01154                % 01179 AVL---
+200405013 Centre, F.D. Rooseve  01157  01157                % 01179 AVL---
+200405025 Luxembourg/Centre, M  01200  01205                % 01179 AVL---
+200403020 Belair, Wampach       01206  01206                % 01179 AVL---
+200403006 Belair, Crécy         01207  01207                % 01179 AVL---
+200403007 Belair, Franciscaine  01208  01208                % 01179 AVL---
+200420012 Merl, Parc            01208  01208                % 01179 AVL---
+200403013 Belair, Place de Fra  01209  01209                % 01179 AVL---
+200420011 Merl, Orval           01210  01210                % 01179 AVL---
+200420008 Merl, Laang Heck      01211  01211                % 01179 AVL---
+200420014 Merl, St.Hubert       01212  01212                % 01179 AVL---
+200420013 Merl, Plaak           01212  01212                % 01179 AVL---
+200420010 Merl, Op der Millen   01213  01213                % 01179 AVL---
+200101006 Bertrange, Fleuri     01214  01214                % 01179 AVL---
+200101014 Bertrange, Richterwe  01215  01215                % 01179 AVL---
+200101012 Bertrange, Montereal  01216  01216                % 01179 AVL---
+200101010 Bertrange, Kierfecht  01217  01217                % 01179 AVL---
+200101008 Bertrange, Gemeng     01219                       % 01179 AVL---
+*Z 01180 AVL---       003 060                               % 01180 AVL---
+*L 5        200404007 200101008  01411  01449               % 01180 AVL---
+*A BE 200404007 200101008 000003  01411  01449              % 01180 AVL---
+*R 1 200101008 200404007 200101008  01411  01449            % 01180 AVL---
+*G AVS 200404007 200101008  01411  01449                    % 01180 AVL---
+*A VE 200404007 200101008 000003  01411  01449              % 01180 AVL---
+200404007 Bonnevoie, Demy Schl         01411                % 01180 AVL---
+200404037 Bonnevoie, Willibror  01412  01412                % 01180 AVL---
+200404021 Bonnevoie, Jules Fis  01414  01414                % 01180 AVL---
+200404029 Bonnevoie, Nic Marth  01414  01414                % 01180 AVL---
+200404022 Bonnevoie, Kaltreis   01415  01415                % 01180 AVL---
+200404018 Bonnevoie, Izegerknu  01416  01416                % 01180 AVL---
+200404003 Bonnevoie, Anatole F  01417  01417                % 01180 AVL---
+200404019 Bonnevoie, Jean Jaco  01418  01418                % 01180 AVL---
+200404038 Bonnevoie, Wisestroo  01418  01418                % 01180 AVL---
+200404026 Bonnevoie, Léon XIII  01420  01420                % 01180 AVL---
+200404034 Bonnevoie, Rotonde    01421  01421                % 01180 AVL---
+200405046 Luxembourg, Gare Roc  01422  01422                % 01180 AVL---
+200405039 Luxembourg, Wallis    01424  01424                % 01180 AVL---
+200405013 Centre, F.D. Rooseve  01427  01427                % 01180 AVL---
+200405025 Luxembourg/Centre, M  01430  01435                % 01180 AVL---
+200403020 Belair, Wampach       01436  01436                % 01180 AVL---
+200403006 Belair, Crécy         01437  01437                % 01180 AVL---
+200403007 Belair, Franciscaine  01438  01438                % 01180 AVL---
+200420012 Merl, Parc            01438  01438                % 01180 AVL---
+200403013 Belair, Place de Fra  01439  01439                % 01180 AVL---
+200420011 Merl, Orval           01440  01440                % 01180 AVL---
+200420008 Merl, Laang Heck      01441  01441                % 01180 AVL---
+200420014 Merl, St.Hubert       01442  01442                % 01180 AVL---
+200420013 Merl, Plaak           01442  01442                % 01180 AVL---
+200420010 Merl, Op der Millen   01443  01443                % 01180 AVL---
+200101006 Bertrange, Fleuri     01444  01444                % 01180 AVL---
+200101014 Bertrange, Richterwe  01445  01445                % 01180 AVL---
+200101012 Bertrange, Montereal  01446  01446                % 01180 AVL---
+200101010 Bertrange, Kierfecht  01447  01447                % 01180 AVL---
+200101008 Bertrange, Gemeng     01449                       % 01180 AVL---
+*Z 01181 AVL---       001 060                               % 01181 AVL---
+*L 5        200404007 200101008  01741  01819               % 01181 AVL---
+*A BE 200404007 200101008 000003  01741  01819              % 01181 AVL---
+*R 1 200101008 200404007 200101008  01741  01819            % 01181 AVL---
+*G AVS 200404007 200101008  01741  01819                    % 01181 AVL---
+*A VE 200404007 200101008 000003  01741  01819              % 01181 AVL---
+200404007 Bonnevoie, Demy Schl         01741                % 01181 AVL---
+200404037 Bonnevoie, Willibror  01742  01742                % 01181 AVL---
+200404021 Bonnevoie, Jules Fis  01744  01744                % 01181 AVL---
+200404029 Bonnevoie, Nic Marth  01744  01744                % 01181 AVL---
+200404022 Bonnevoie, Kaltreis   01745  01745                % 01181 AVL---
+200404018 Bonnevoie, Izegerknu  01746  01746                % 01181 AVL---
+200404003 Bonnevoie, Anatole F  01747  01747                % 01181 AVL---
+200404019 Bonnevoie, Jean Jaco  01748  01748                % 01181 AVL---
+200404038 Bonnevoie, Wisestroo  01748  01748                % 01181 AVL---
+200404026 Bonnevoie, Léon XIII  01750  01750                % 01181 AVL---
+200404034 Bonnevoie, Rotonde    01751  01751                % 01181 AVL---
+200405046 Luxembourg, Gare Roc  01752  01752                % 01181 AVL---
+200405039 Luxembourg, Wallis    01754  01754                % 01181 AVL---
+200405013 Centre, F.D. Rooseve  01757  01757                % 01181 AVL---
+200405025 Luxembourg/Centre, M  01800  01805                % 01181 AVL---
+200403020 Belair, Wampach       01806  01806                % 01181 AVL---
+200403006 Belair, Crécy         01807  01807                % 01181 AVL---
+200403007 Belair, Franciscaine  01808  01808                % 01181 AVL---
+200420012 Merl, Parc            01808  01808                % 01181 AVL---
+200403013 Belair, Place de Fra  01809  01809                % 01181 AVL---
+200420011 Merl, Orval           01810  01810                % 01181 AVL---
+200420008 Merl, Laang Heck      01811  01811                % 01181 AVL---
+200420014 Merl, St.Hubert       01812  01812                % 01181 AVL---
+200420013 Merl, Plaak           01812  01812                % 01181 AVL---
+200420010 Merl, Op der Millen   01813  01813                % 01181 AVL---
+200101006 Bertrange, Fleuri     01814  01814                % 01181 AVL---
+200101014 Bertrange, Richterwe  01815  01815                % 01181 AVL---
+200101012 Bertrange, Montereal  01816  01816                % 01181 AVL---
+200101010 Bertrange, Kierfecht  01817  01817                % 01181 AVL---
+200101008 Bertrange, Gemeng     01819                       % 01181 AVL---
+*Z 01182 AVL---       001 030                               % 01182 AVL---
+*L 5        200404007 200101008  02043  02118               % 01182 AVL---
+*A BE 200404007 200101008 000000  02043  02118              % 01182 AVL---
+*R 1 200101008 200404007 200101008  02043  02118            % 01182 AVL---
+*G AVS 200404007 200101008  02043  02118                    % 01182 AVL---
+*A VE 200404007 200101008 000000  02043  02118              % 01182 AVL---
+200404007 Bonnevoie, Demy Schl         02043                % 01182 AVL---
+200404037 Bonnevoie, Willibror  02044  02044                % 01182 AVL---
+200404021 Bonnevoie, Jules Fis  02045  02045                % 01182 AVL---
+200404029 Bonnevoie, Nic Marth  02046  02046                % 01182 AVL---
+200404022 Bonnevoie, Kaltreis   02047  02047                % 01182 AVL---
+200404018 Bonnevoie, Izegerknu  02047  02047                % 01182 AVL---
+200404003 Bonnevoie, Anatole F  02048  02048                % 01182 AVL---
+200404019 Bonnevoie, Jean Jaco  02049  02049                % 01182 AVL---
+200404038 Bonnevoie, Wisestroo  02049  02049                % 01182 AVL---
+200404026 Bonnevoie, Léon XIII  02051  02051                % 01182 AVL---
+200404034 Bonnevoie, Rotonde    02052  02052                % 01182 AVL---
+200405046 Luxembourg, Gare Roc  02053  02053                % 01182 AVL---
+200405039 Luxembourg, Wallis    02054  02054                % 01182 AVL---
+200405013 Centre, F.D. Rooseve  02057  02057                % 01182 AVL---
+200405025 Luxembourg/Centre, M  02100  02105                % 01182 AVL---
+200403020 Belair, Wampach       02106  02106                % 01182 AVL---
+200403006 Belair, Crécy         02107  02107                % 01182 AVL---
+200403007 Belair, Franciscaine  02107  02107                % 01182 AVL---
+200420012 Merl, Parc            02108  02108                % 01182 AVL---
+200403013 Belair, Place de Fra  02109  02109                % 01182 AVL---
+200420011 Merl, Orval           02110  02110                % 01182 AVL---
+200420008 Merl, Laang Heck      02111  02111                % 01182 AVL---
+200420014 Merl, St.Hubert       02111  02111                % 01182 AVL---
+200420013 Merl, Plaak           02112  02112                % 01182 AVL---
+200420010 Merl, Op der Millen   02112  02112                % 01182 AVL---
+200101006 Bertrange, Fleuri     02114  02114                % 01182 AVL---
+200101014 Bertrange, Richterwe  02115  02115                % 01182 AVL---
+200101012 Bertrange, Montereal  02115  02115                % 01182 AVL---
+200101010 Bertrange, Kierfecht  02116  02116                % 01182 AVL---
+200101008 Bertrange, Gemeng     02118                       % 01182 AVL---
+*Z 01183 AVL---       001 030                               % 01183 AVL---
+*L 5        200404007 200101008  00643  00718               % 01183 AVL---
+*A BE 200404007 200101008 000003  00643  00718              % 01183 AVL---
+*R 1 200101008 200404007 200101008  00643  00718            % 01183 AVL---
+*G AVS 200404007 200101008  00643  00718                    % 01183 AVL---
+*A VE 200404007 200101008 000003  00643  00718              % 01183 AVL---
+200404007 Bonnevoie, Demy Schl         00643                % 01183 AVL---
+200404037 Bonnevoie, Willibror  00644  00644                % 01183 AVL---
+200404021 Bonnevoie, Jules Fis  00645  00645                % 01183 AVL---
+200404029 Bonnevoie, Nic Marth  00646  00646                % 01183 AVL---
+200404022 Bonnevoie, Kaltreis   00647  00647                % 01183 AVL---
+200404018 Bonnevoie, Izegerknu  00647  00647                % 01183 AVL---
+200404003 Bonnevoie, Anatole F  00648  00648                % 01183 AVL---
+200404019 Bonnevoie, Jean Jaco  00649  00649                % 01183 AVL---
+200404038 Bonnevoie, Wisestroo  00649  00649                % 01183 AVL---
+200404026 Bonnevoie, Léon XIII  00651  00651                % 01183 AVL---
+200404034 Bonnevoie, Rotonde    00652  00652                % 01183 AVL---
+200405046 Luxembourg, Gare Roc  00653  00653                % 01183 AVL---
+200405039 Luxembourg, Wallis    00654  00654                % 01183 AVL---
+200405013 Centre, F.D. Rooseve  00657  00657                % 01183 AVL---
+200405025 Luxembourg/Centre, M  00700  00705                % 01183 AVL---
+200403020 Belair, Wampach       00706  00706                % 01183 AVL---
+200403006 Belair, Crécy         00707  00707                % 01183 AVL---
+200403007 Belair, Franciscaine  00707  00707                % 01183 AVL---
+200420012 Merl, Parc            00708  00708                % 01183 AVL---
+200403013 Belair, Place de Fra  00709  00709                % 01183 AVL---
+200420011 Merl, Orval           00710  00710                % 01183 AVL---
+200420008 Merl, Laang Heck      00711  00711                % 01183 AVL---
+200420014 Merl, St.Hubert       00711  00711                % 01183 AVL---
+200420013 Merl, Plaak           00712  00712                % 01183 AVL---
+200420010 Merl, Op der Millen   00712  00712                % 01183 AVL---
+200101006 Bertrange, Fleuri     00714  00714                % 01183 AVL---
+200101014 Bertrange, Richterwe  00715  00715                % 01183 AVL---
+200101012 Bertrange, Montereal  00715  00715                % 01183 AVL---
+200101010 Bertrange, Kierfecht  00716  00716                % 01183 AVL---
+200101008 Bertrange, Gemeng     00718                       % 01183 AVL---
+*Z 01184 AVL---       002 060                               % 01184 AVL---
+*L 5        200404007 200101008  00813  00848               % 01184 AVL---
+*A BE 200404007 200101008 000003  00813  00848              % 01184 AVL---
+*R 1 200101008 200404007 200101008  00813  00848            % 01184 AVL---
+*G AVS 200404007 200101008  00813  00848                    % 01184 AVL---
+*A VE 200404007 200101008 000003  00813  00848              % 01184 AVL---
+200404007 Bonnevoie, Demy Schl         00813                % 01184 AVL---
+200404037 Bonnevoie, Willibror  00814  00814                % 01184 AVL---
+200404021 Bonnevoie, Jules Fis  00815  00815                % 01184 AVL---
+200404029 Bonnevoie, Nic Marth  00816  00816                % 01184 AVL---
+200404022 Bonnevoie, Kaltreis   00817  00817                % 01184 AVL---
+200404018 Bonnevoie, Izegerknu  00817  00817                % 01184 AVL---
+200404003 Bonnevoie, Anatole F  00818  00818                % 01184 AVL---
+200404019 Bonnevoie, Jean Jaco  00819  00819                % 01184 AVL---
+200404038 Bonnevoie, Wisestroo  00819  00819                % 01184 AVL---
+200404026 Bonnevoie, Léon XIII  00821  00821                % 01184 AVL---
+200404034 Bonnevoie, Rotonde    00822  00822                % 01184 AVL---
+200405046 Luxembourg, Gare Roc  00823  00823                % 01184 AVL---
+200405039 Luxembourg, Wallis    00824  00824                % 01184 AVL---
+200405013 Centre, F.D. Rooseve  00827  00827                % 01184 AVL---
+200405025 Luxembourg/Centre, M  00830  00835                % 01184 AVL---
+200403020 Belair, Wampach       00836  00836                % 01184 AVL---
+200403006 Belair, Crécy         00837  00837                % 01184 AVL---
+200403007 Belair, Franciscaine  00837  00837                % 01184 AVL---
+200420012 Merl, Parc            00838  00838                % 01184 AVL---
+200403013 Belair, Place de Fra  00839  00839                % 01184 AVL---
+200420011 Merl, Orval           00840  00840                % 01184 AVL---
+200420008 Merl, Laang Heck      00841  00841                % 01184 AVL---
+200420014 Merl, St.Hubert       00841  00841                % 01184 AVL---
+200420013 Merl, Plaak           00842  00842                % 01184 AVL---
+200420010 Merl, Op der Millen   00842  00842                % 01184 AVL---
+200101006 Bertrange, Fleuri     00844  00844                % 01184 AVL---
+200101014 Bertrange, Richterwe  00845  00845                % 01184 AVL---
+200101012 Bertrange, Montereal  00845  00845                % 01184 AVL---
+200101010 Bertrange, Kierfecht  00846  00846                % 01184 AVL---
+200101008 Bertrange, Gemeng     00848                       % 01184 AVL---
+*Z 01185 AVL---       001 540                               % 01185 AVL---
+*L 5        200404007 200101008  01043  01118               % 01185 AVL---
+*A BE 200404007 200101008 000003  01043  01118              % 01185 AVL---
+*R 1 200101008 200404007 200101008  01043  01118            % 01185 AVL---
+*G AVS 200404007 200101008  01043  01118                    % 01185 AVL---
+*A VE 200404007 200101008 000003  01043  01118              % 01185 AVL---
+200404007 Bonnevoie, Demy Schl         01043                % 01185 AVL---
+200404037 Bonnevoie, Willibror  01044  01044                % 01185 AVL---
+200404021 Bonnevoie, Jules Fis  01045  01045                % 01185 AVL---
+200404029 Bonnevoie, Nic Marth  01046  01046                % 01185 AVL---
+200404022 Bonnevoie, Kaltreis   01047  01047                % 01185 AVL---
+200404018 Bonnevoie, Izegerknu  01047  01047                % 01185 AVL---
+200404003 Bonnevoie, Anatole F  01048  01048                % 01185 AVL---
+200404019 Bonnevoie, Jean Jaco  01049  01049                % 01185 AVL---
+200404038 Bonnevoie, Wisestroo  01049  01049                % 01185 AVL---
+200404026 Bonnevoie, Léon XIII  01051  01051                % 01185 AVL---
+200404034 Bonnevoie, Rotonde    01052  01052                % 01185 AVL---
+200405046 Luxembourg, Gare Roc  01053  01053                % 01185 AVL---
+200405039 Luxembourg, Wallis    01054  01054                % 01185 AVL---
+200405013 Centre, F.D. Rooseve  01057  01057                % 01185 AVL---
+200405025 Luxembourg/Centre, M  01100  01105                % 01185 AVL---
+200403020 Belair, Wampach       01106  01106                % 01185 AVL---
+200403006 Belair, Crécy         01107  01107                % 01185 AVL---
+200403007 Belair, Franciscaine  01107  01107                % 01185 AVL---
+200420012 Merl, Parc            01108  01108                % 01185 AVL---
+200403013 Belair, Place de Fra  01109  01109                % 01185 AVL---
+200420011 Merl, Orval           01110  01110                % 01185 AVL---
+200420008 Merl, Laang Heck      01111  01111                % 01185 AVL---
+200420014 Merl, St.Hubert       01111  01111                % 01185 AVL---
+200420013 Merl, Plaak           01112  01112                % 01185 AVL---
+200420010 Merl, Op der Millen   01112  01112                % 01185 AVL---
+200101006 Bertrange, Fleuri     01114  01114                % 01185 AVL---
+200101014 Bertrange, Richterwe  01115  01115                % 01185 AVL---
+200101012 Bertrange, Montereal  01115  01115                % 01185 AVL---
+200101010 Bertrange, Kierfecht  01116  01116                % 01185 AVL---
+200101008 Bertrange, Gemeng     01118                       % 01185 AVL---
+*Z 01186 AVL---                                             % 01186 AVL---
+*L 5        200404007 200101008  00513  00548               % 01186 AVL---
+*A BE 200404007 200101008 000005  00513  00548              % 01186 AVL---
+*R 1 200101008 200404007 200101008  00513  00548            % 01186 AVL---
+*G AVS 200404007 200101008  00513  00548                    % 01186 AVL---
+*A VE 200404007 200101008 000005  00513  00548              % 01186 AVL---
+200404007 Bonnevoie, Demy Schl         00513                % 01186 AVL---
+200404037 Bonnevoie, Willibror  00514  00514                % 01186 AVL---
+200404021 Bonnevoie, Jules Fis  00515  00515                % 01186 AVL---
+200404029 Bonnevoie, Nic Marth  00516  00516                % 01186 AVL---
+200404022 Bonnevoie, Kaltreis   00517  00517                % 01186 AVL---
+200404018 Bonnevoie, Izegerknu  00517  00517                % 01186 AVL---
+200404003 Bonnevoie, Anatole F  00518  00518                % 01186 AVL---
+200404019 Bonnevoie, Jean Jaco  00519  00519                % 01186 AVL---
+200404038 Bonnevoie, Wisestroo  00519  00519                % 01186 AVL---
+200404026 Bonnevoie, Léon XIII  00521  00521                % 01186 AVL---
+200404034 Bonnevoie, Rotonde    00522  00522                % 01186 AVL---
+200405046 Luxembourg, Gare Roc  00523  00523                % 01186 AVL---
+200405039 Luxembourg, Wallis    00524  00524                % 01186 AVL---
+200405013 Centre, F.D. Rooseve  00527  00527                % 01186 AVL---
+200405025 Luxembourg/Centre, M  00530  00535                % 01186 AVL---
+200403020 Belair, Wampach       00536  00536                % 01186 AVL---
+200403006 Belair, Crécy         00537  00537                % 01186 AVL---
+200403007 Belair, Franciscaine  00537  00537                % 01186 AVL---
+200420012 Merl, Parc            00538  00538                % 01186 AVL---
+200403013 Belair, Place de Fra  00539  00539                % 01186 AVL---
+200420011 Merl, Orval           00540  00540                % 01186 AVL---
+200420008 Merl, Laang Heck      00541  00541                % 01186 AVL---
+200420014 Merl, St.Hubert       00541  00541                % 01186 AVL---
+200420013 Merl, Plaak           00542  00542                % 01186 AVL---
+200420010 Merl, Op der Millen   00542  00542                % 01186 AVL---
+200101006 Bertrange, Fleuri     00544  00544                % 01186 AVL---
+200101014 Bertrange, Richterwe  00545  00545                % 01186 AVL---
+200101012 Bertrange, Montereal  00545  00545                % 01186 AVL---
+200101010 Bertrange, Kierfecht  00546  00546                % 01186 AVL---
+200101008 Bertrange, Gemeng     00548                       % 01186 AVL---
+*Z 01187 AVL---                                             % 01187 AVL---
+*L 5        200404007 200101008  02013  02048               % 01187 AVL---
+*A BE 200404007 200101008 000001  02013  02048              % 01187 AVL---
+*R 1 200101008 200404007 200101008  02013  02048            % 01187 AVL---
+*G AVS 200404007 200101008  02013  02048                    % 01187 AVL---
+*A VE 200404007 200101008 000001  02013  02048              % 01187 AVL---
+200404007 Bonnevoie, Demy Schl         02013                % 01187 AVL---
+200404037 Bonnevoie, Willibror  02014  02014                % 01187 AVL---
+200404021 Bonnevoie, Jules Fis  02015  02015                % 01187 AVL---
+200404029 Bonnevoie, Nic Marth  02016  02016                % 01187 AVL---
+200404022 Bonnevoie, Kaltreis   02017  02017                % 01187 AVL---
+200404018 Bonnevoie, Izegerknu  02017  02017                % 01187 AVL---
+200404003 Bonnevoie, Anatole F  02018  02018                % 01187 AVL---
+200404019 Bonnevoie, Jean Jaco  02019  02019                % 01187 AVL---
+200404038 Bonnevoie, Wisestroo  02019  02019                % 01187 AVL---
+200404026 Bonnevoie, Léon XIII  02021  02021                % 01187 AVL---
+200404034 Bonnevoie, Rotonde    02022  02022                % 01187 AVL---
+200405046 Luxembourg, Gare Roc  02023  02023                % 01187 AVL---
+200405039 Luxembourg, Wallis    02024  02024                % 01187 AVL---
+200405013 Centre, F.D. Rooseve  02027  02027                % 01187 AVL---
+200405025 Luxembourg/Centre, M  02030  02035                % 01187 AVL---
+200403020 Belair, Wampach       02036  02036                % 01187 AVL---
+200403006 Belair, Crécy         02037  02037                % 01187 AVL---
+200403007 Belair, Franciscaine  02037  02037                % 01187 AVL---
+200420012 Merl, Parc            02038  02038                % 01187 AVL---
+200403013 Belair, Place de Fra  02039  02039                % 01187 AVL---
+200420011 Merl, Orval           02040  02040                % 01187 AVL---
+200420008 Merl, Laang Heck      02041  02041                % 01187 AVL---
+200420014 Merl, St.Hubert       02041  02041                % 01187 AVL---
+200420013 Merl, Plaak           02042  02042                % 01187 AVL---
+200420010 Merl, Op der Millen   02042  02042                % 01187 AVL---
+200101006 Bertrange, Fleuri     02044  02044                % 01187 AVL---
+200101014 Bertrange, Richterwe  02045  02045                % 01187 AVL---
+200101012 Bertrange, Montereal  02045  02045                % 01187 AVL---
+200101010 Bertrange, Kierfecht  02046  02046                % 01187 AVL---
+200101008 Bertrange, Gemeng     02048                       % 01187 AVL---
+*Z 01188 AVL---                                             % 01188 AVL---
+*L 5        200404007 200101008  02143  02218               % 01188 AVL---
+*A BE 200404007 200101008 000002  02143  02218              % 01188 AVL---
+*R 1 200101008 200404007 200101008  02143  02218            % 01188 AVL---
+*G AVS 200404007 200101008  02143  02218                    % 01188 AVL---
+*A VE 200404007 200101008 000002  02143  02218              % 01188 AVL---
+200404007 Bonnevoie, Demy Schl         02143                % 01188 AVL---
+200404037 Bonnevoie, Willibror  02144  02144                % 01188 AVL---
+200404021 Bonnevoie, Jules Fis  02145  02145                % 01188 AVL---
+200404029 Bonnevoie, Nic Marth  02146  02146                % 01188 AVL---
+200404022 Bonnevoie, Kaltreis   02147  02147                % 01188 AVL---
+200404018 Bonnevoie, Izegerknu  02147  02147                % 01188 AVL---
+200404003 Bonnevoie, Anatole F  02148  02148                % 01188 AVL---
+200404019 Bonnevoie, Jean Jaco  02149  02149                % 01188 AVL---
+200404038 Bonnevoie, Wisestroo  02149  02149                % 01188 AVL---
+200404026 Bonnevoie, Léon XIII  02151  02151                % 01188 AVL---
+200404034 Bonnevoie, Rotonde    02152  02152                % 01188 AVL---
+200405046 Luxembourg, Gare Roc  02153  02153                % 01188 AVL---
+200405039 Luxembourg, Wallis    02154  02154                % 01188 AVL---
+200405013 Centre, F.D. Rooseve  02157  02157                % 01188 AVL---
+200405025 Luxembourg/Centre, M  02200  02205                % 01188 AVL---
+200403020 Belair, Wampach       02206  02206                % 01188 AVL---
+200403006 Belair, Crécy         02207  02207                % 01188 AVL---
+200403007 Belair, Franciscaine  02207  02207                % 01188 AVL---
+200420012 Merl, Parc            02208  02208                % 01188 AVL---
+200403013 Belair, Place de Fra  02209  02209                % 01188 AVL---
+200420011 Merl, Orval           02210  02210                % 01188 AVL---
+200420008 Merl, Laang Heck      02211  02211                % 01188 AVL---
+200420014 Merl, St.Hubert       02211  02211                % 01188 AVL---
+200420013 Merl, Plaak           02212  02212                % 01188 AVL---
+200420010 Merl, Op der Millen   02212  02212                % 01188 AVL---
+200101006 Bertrange, Fleuri     02214  02214                % 01188 AVL---
+200101014 Bertrange, Richterwe  02215  02215                % 01188 AVL---
+200101012 Bertrange, Montereal  02215  02215                % 01188 AVL---
+200101010 Bertrange, Kierfecht  02216  02216                % 01188 AVL---
+200101008 Bertrange, Gemeng     02218                       % 01188 AVL---
+*Z 01189 AVL---                                             % 01189 AVL---
+*L 5        200404007 200101008  00543  00618               % 01189 AVL---
+*A BE 200404007 200101008 000004  00543  00618              % 01189 AVL---
+*R 1 200101008 200404007 200101008  00543  00618            % 01189 AVL---
+*G AVS 200404007 200101008  00543  00618                    % 01189 AVL---
+*A VE 200404007 200101008 000004  00543  00618              % 01189 AVL---
+200404007 Bonnevoie, Demy Schl         00543                % 01189 AVL---
+200404037 Bonnevoie, Willibror  00544  00544                % 01189 AVL---
+200404021 Bonnevoie, Jules Fis  00545  00545                % 01189 AVL---
+200404029 Bonnevoie, Nic Marth  00546  00546                % 01189 AVL---
+200404022 Bonnevoie, Kaltreis   00547  00547                % 01189 AVL---
+200404018 Bonnevoie, Izegerknu  00547  00547                % 01189 AVL---
+200404003 Bonnevoie, Anatole F  00548  00548                % 01189 AVL---
+200404019 Bonnevoie, Jean Jaco  00549  00549                % 01189 AVL---
+200404038 Bonnevoie, Wisestroo  00549  00549                % 01189 AVL---
+200404026 Bonnevoie, Léon XIII  00551  00551                % 01189 AVL---
+200404034 Bonnevoie, Rotonde    00552  00552                % 01189 AVL---
+200405046 Luxembourg, Gare Roc  00553  00553                % 01189 AVL---
+200405039 Luxembourg, Wallis    00554  00554                % 01189 AVL---
+200405013 Centre, F.D. Rooseve  00557  00557                % 01189 AVL---
+200405025 Luxembourg/Centre, M  00600  00605                % 01189 AVL---
+200403020 Belair, Wampach       00606  00606                % 01189 AVL---
+200403006 Belair, Crécy         00607  00607                % 01189 AVL---
+200403007 Belair, Franciscaine  00607  00607                % 01189 AVL---
+200420012 Merl, Parc            00608  00608                % 01189 AVL---
+200403013 Belair, Place de Fra  00609  00609                % 01189 AVL---
+200420011 Merl, Orval           00610  00610                % 01189 AVL---
+200420008 Merl, Laang Heck      00611  00611                % 01189 AVL---
+200420014 Merl, St.Hubert       00611  00611                % 01189 AVL---
+200420013 Merl, Plaak           00612  00612                % 01189 AVL---
+200420010 Merl, Op der Millen   00612  00612                % 01189 AVL---
+200101006 Bertrange, Fleuri     00614  00614                % 01189 AVL---
+200101014 Bertrange, Richterwe  00615  00615                % 01189 AVL---
+200101012 Bertrange, Montereal  00615  00615                % 01189 AVL---
+200101010 Bertrange, Kierfecht  00616  00616                % 01189 AVL---
+200101008 Bertrange, Gemeng     00618                       % 01189 AVL---
+*Z 01190 AVL---       001 180                               % 01190 AVL---
+*L 5        200101008 200404007  02015  02051               % 01190 AVL---
+*A BE 200101008 200404007 000000  02015  02051              % 01190 AVL---
+*R 2 200404007 200101008 200404007  02015  02051            % 01190 AVL---
+*G AVS 200101008 200404007  02015  02051                    % 01190 AVL---
+*A VE 200101008 200404007 000000  02015  02051              % 01190 AVL---
+200101008 Bertrange, Gemeng            02015                % 01190 AVL---
+200101010 Bertrange, Kierfecht  02017  02017                % 01190 AVL---
+200101012 Bertrange, Montereal  02018  02018                % 01190 AVL---
+200101014 Bertrange, Richterwe  02019  02019                % 01190 AVL---
+200101006 Bertrange, Fleuri     02020  02020                % 01190 AVL---
+200420010 Merl, Op der Millen   02022  02022                % 01190 AVL---
+200420013 Merl, Plaak           02022  02022                % 01190 AVL---
+200420014 Merl, St.Hubert       02023  02023                % 01190 AVL---
+200420008 Merl, Laang Heck      02024  02024                % 01190 AVL---
+200420011 Merl, Orval           02025  02025                % 01190 AVL---
+200403013 Belair, Place de Fra  02026  02026                % 01190 AVL---
+200420012 Merl, Parc            02027  02027                % 01190 AVL---
+200403007 Belair, Franciscaine  02027  02027                % 01190 AVL---
+200403006 Belair, Crécy         02028  02028                % 01190 AVL---
+200403020 Belair, Wampach       02029  02029                % 01190 AVL---
+200405025 Luxembourg/Centre, M  02031  02035                % 01190 AVL---
+200405054 Centre, F.D. Rooseve  02037  02037                % 01190 AVL---
+200405039 Luxembourg, Wallis    02040  02040                % 01190 AVL---
+200405046 Luxembourg, Gare Roc  02042  02042                % 01190 AVL---
+200404034 Bonnevoie, Rotonde    02043  02043                % 01190 AVL---
+200404026 Bonnevoie, Léon XIII  02043  02043                % 01190 AVL---
+200404035 Bonnevoie, Vannérus   02045  02045                % 01190 AVL---
+200404038 Bonnevoie, Wisestroo  02045  02045                % 01190 AVL---
+200404019 Bonnevoie, Jean Jaco  02046  02046                % 01190 AVL---
+200404003 Bonnevoie, Anatole F  02047  02047                % 01190 AVL---
+200404018 Bonnevoie, Izegerknu  02047  02047                % 01190 AVL---
+200404022 Bonnevoie, Kaltreis   02048  02048                % 01190 AVL---
+200404029 Bonnevoie, Nic Marth  02049  02049                % 01190 AVL---
+200404021 Bonnevoie, Jules Fis  02049  02049                % 01190 AVL---
+200404033 Bonnevoie, Pont-Remy  02050  02050                % 01190 AVL---
+200404007 Bonnevoie, Demy Schl  02051                       % 01190 AVL---
+*Z 01191 AVL---                                             % 01191 AVL---
+*L 5        200101008 200404007  02345  02421               % 01191 AVL---
+*A BE 200101008 200404007 000000  02345  02421              % 01191 AVL---
+*R 2 200404007 200101008 200404007  02345  02421            % 01191 AVL---
+*G AVS 200101008 200404007  02345  02421                    % 01191 AVL---
+*A VE 200101008 200404007 000000  02345  02421              % 01191 AVL---
+200101008 Bertrange, Gemeng            02345                % 01191 AVL---
+200101010 Bertrange, Kierfecht  02347  02347                % 01191 AVL---
+200101012 Bertrange, Montereal  02348  02348                % 01191 AVL---
+200101014 Bertrange, Richterwe  02349  02349                % 01191 AVL---
+200101006 Bertrange, Fleuri     02350  02350                % 01191 AVL---
+200420010 Merl, Op der Millen   02352  02352                % 01191 AVL---
+200420013 Merl, Plaak           02352  02352                % 01191 AVL---
+200420014 Merl, St.Hubert       02353  02353                % 01191 AVL---
+200420008 Merl, Laang Heck      02354  02354                % 01191 AVL---
+200420011 Merl, Orval           02355  02355                % 01191 AVL---
+200403013 Belair, Place de Fra  02356  02356                % 01191 AVL---
+200420012 Merl, Parc            02357  02357                % 01191 AVL---
+200403007 Belair, Franciscaine  02357  02357                % 01191 AVL---
+200403006 Belair, Crécy         02358  02358                % 01191 AVL---
+200403020 Belair, Wampach       02359  02359                % 01191 AVL---
+200405025 Luxembourg/Centre, M  02401  02405                % 01191 AVL---
+200405054 Centre, F.D. Rooseve  02407  02407                % 01191 AVL---
+200405039 Luxembourg, Wallis    02410  02410                % 01191 AVL---
+200405046 Luxembourg, Gare Roc  02412  02412                % 01191 AVL---
+200404034 Bonnevoie, Rotonde    02413  02413                % 01191 AVL---
+200404026 Bonnevoie, Léon XIII  02413  02413                % 01191 AVL---
+200404035 Bonnevoie, Vannérus   02415  02415                % 01191 AVL---
+200404038 Bonnevoie, Wisestroo  02415  02415                % 01191 AVL---
+200404019 Bonnevoie, Jean Jaco  02416  02416                % 01191 AVL---
+200404003 Bonnevoie, Anatole F  02417  02417                % 01191 AVL---
+200404018 Bonnevoie, Izegerknu  02417  02417                % 01191 AVL---
+200404022 Bonnevoie, Kaltreis   02418  02418                % 01191 AVL---
+200404029 Bonnevoie, Nic Marth  02419  02419                % 01191 AVL---
+200404021 Bonnevoie, Jules Fis  02419  02419                % 01191 AVL---
+200404033 Bonnevoie, Pont-Remy  02420  02420                % 01191 AVL---
+200404007 Bonnevoie, Demy Schl  02421                       % 01191 AVL---
+*Z 01192 AVL---       001 120                               % 01192 AVL---
+*L 5        200101008 200404007  00615  00651               % 01192 AVL---
+*A BE 200101008 200404007 000003  00615  00651              % 01192 AVL---
+*R 2 200404007 200101008 200404007  00615  00651            % 01192 AVL---
+*G AVS 200101008 200404007  00615  00651                    % 01192 AVL---
+*A VE 200101008 200404007 000003  00615  00651              % 01192 AVL---
+200101008 Bertrange, Gemeng            00615                % 01192 AVL---
+200101010 Bertrange, Kierfecht  00617  00617                % 01192 AVL---
+200101012 Bertrange, Montereal  00618  00618                % 01192 AVL---
+200101014 Bertrange, Richterwe  00619  00619                % 01192 AVL---
+200101006 Bertrange, Fleuri     00620  00620                % 01192 AVL---
+200420010 Merl, Op der Millen   00622  00622                % 01192 AVL---
+200420013 Merl, Plaak           00622  00622                % 01192 AVL---
+200420014 Merl, St.Hubert       00623  00623                % 01192 AVL---
+200420008 Merl, Laang Heck      00624  00624                % 01192 AVL---
+200420011 Merl, Orval           00625  00625                % 01192 AVL---
+200403013 Belair, Place de Fra  00626  00626                % 01192 AVL---
+200420012 Merl, Parc            00627  00627                % 01192 AVL---
+200403007 Belair, Franciscaine  00627  00627                % 01192 AVL---
+200403006 Belair, Crécy         00628  00628                % 01192 AVL---
+200403020 Belair, Wampach       00629  00629                % 01192 AVL---
+200405025 Luxembourg/Centre, M  00631  00635                % 01192 AVL---
+200405054 Centre, F.D. Rooseve  00637  00637                % 01192 AVL---
+200405039 Luxembourg, Wallis    00640  00640                % 01192 AVL---
+200405046 Luxembourg, Gare Roc  00642  00642                % 01192 AVL---
+200404034 Bonnevoie, Rotonde    00643  00643                % 01192 AVL---
+200404026 Bonnevoie, Léon XIII  00643  00643                % 01192 AVL---
+200404035 Bonnevoie, Vannérus   00645  00645                % 01192 AVL---
+200404038 Bonnevoie, Wisestroo  00645  00645                % 01192 AVL---
+200404019 Bonnevoie, Jean Jaco  00646  00646                % 01192 AVL---
+200404003 Bonnevoie, Anatole F  00647  00647                % 01192 AVL---
+200404018 Bonnevoie, Izegerknu  00647  00647                % 01192 AVL---
+200404022 Bonnevoie, Kaltreis   00648  00648                % 01192 AVL---
+200404029 Bonnevoie, Nic Marth  00649  00649                % 01192 AVL---
+200404021 Bonnevoie, Jules Fis  00649  00649                % 01192 AVL---
+200404033 Bonnevoie, Pont-Remy  00650  00650                % 01192 AVL---
+200404007 Bonnevoie, Demy Schl  00651                       % 01192 AVL---
+*Z 01193 AVL---       001 030                               % 01193 AVL---
+*L 5        200101008 200404007  00915  00951               % 01193 AVL---
+*A BE 200101008 200404007 000003  00915  00951              % 01193 AVL---
+*R 2 200404007 200101008 200404007  00915  00951            % 01193 AVL---
+*G AVS 200101008 200404007  00915  00951                    % 01193 AVL---
+*A VE 200101008 200404007 000003  00915  00951              % 01193 AVL---
+200101008 Bertrange, Gemeng            00915                % 01193 AVL---
+200101010 Bertrange, Kierfecht  00917  00917                % 01193 AVL---
+200101012 Bertrange, Montereal  00918  00918                % 01193 AVL---
+200101014 Bertrange, Richterwe  00919  00919                % 01193 AVL---
+200101006 Bertrange, Fleuri     00920  00920                % 01193 AVL---
+200420010 Merl, Op der Millen   00922  00922                % 01193 AVL---
+200420013 Merl, Plaak           00922  00922                % 01193 AVL---
+200420014 Merl, St.Hubert       00923  00923                % 01193 AVL---
+200420008 Merl, Laang Heck      00924  00924                % 01193 AVL---
+200420011 Merl, Orval           00925  00925                % 01193 AVL---
+200403013 Belair, Place de Fra  00926  00926                % 01193 AVL---
+200420012 Merl, Parc            00927  00927                % 01193 AVL---
+200403007 Belair, Franciscaine  00927  00927                % 01193 AVL---
+200403006 Belair, Crécy         00928  00928                % 01193 AVL---
+200403020 Belair, Wampach       00929  00929                % 01193 AVL---
+200405025 Luxembourg/Centre, M  00931  00935                % 01193 AVL---
+200405054 Centre, F.D. Rooseve  00937  00937                % 01193 AVL---
+200405039 Luxembourg, Wallis    00940  00940                % 01193 AVL---
+200405046 Luxembourg, Gare Roc  00942  00942                % 01193 AVL---
+200404034 Bonnevoie, Rotonde    00943  00943                % 01193 AVL---
+200404026 Bonnevoie, Léon XIII  00943  00943                % 01193 AVL---
+200404035 Bonnevoie, Vannérus   00945  00945                % 01193 AVL---
+200404038 Bonnevoie, Wisestroo  00945  00945                % 01193 AVL---
+200404019 Bonnevoie, Jean Jaco  00946  00946                % 01193 AVL---
+200404003 Bonnevoie, Anatole F  00947  00947                % 01193 AVL---
+200404018 Bonnevoie, Izegerknu  00947  00947                % 01193 AVL---
+200404022 Bonnevoie, Kaltreis   00948  00948                % 01193 AVL---
+200404029 Bonnevoie, Nic Marth  00949  00949                % 01193 AVL---
+200404021 Bonnevoie, Jules Fis  00949  00949                % 01193 AVL---
+200404033 Bonnevoie, Pont-Remy  00950  00950                % 01193 AVL---
+200404007 Bonnevoie, Demy Schl  00951                       % 01193 AVL---
+*Z 01194 AVL---       001 540                               % 01194 AVL---
+*L 5        200101008 200404007  01045  01121               % 01194 AVL---
+*A BE 200101008 200404007 000003  01045  01121              % 01194 AVL---
+*R 2 200404007 200101008 200404007  01045  01121            % 01194 AVL---
+*G AVS 200101008 200404007  01045  01121                    % 01194 AVL---
+*A VE 200101008 200404007 000003  01045  01121              % 01194 AVL---
+200101008 Bertrange, Gemeng            01045                % 01194 AVL---
+200101010 Bertrange, Kierfecht  01047  01047                % 01194 AVL---
+200101012 Bertrange, Montereal  01048  01048                % 01194 AVL---
+200101014 Bertrange, Richterwe  01049  01049                % 01194 AVL---
+200101006 Bertrange, Fleuri     01050  01050                % 01194 AVL---
+200420010 Merl, Op der Millen   01052  01052                % 01194 AVL---
+200420013 Merl, Plaak           01052  01052                % 01194 AVL---
+200420014 Merl, St.Hubert       01053  01053                % 01194 AVL---
+200420008 Merl, Laang Heck      01054  01054                % 01194 AVL---
+200420011 Merl, Orval           01055  01055                % 01194 AVL---
+200403013 Belair, Place de Fra  01056  01056                % 01194 AVL---
+200420012 Merl, Parc            01057  01057                % 01194 AVL---
+200403007 Belair, Franciscaine  01057  01057                % 01194 AVL---
+200403006 Belair, Crécy         01058  01058                % 01194 AVL---
+200403020 Belair, Wampach       01059  01059                % 01194 AVL---
+200405025 Luxembourg/Centre, M  01101  01105                % 01194 AVL---
+200405054 Centre, F.D. Rooseve  01107  01107                % 01194 AVL---
+200405039 Luxembourg, Wallis    01110  01110                % 01194 AVL---
+200405046 Luxembourg, Gare Roc  01112  01112                % 01194 AVL---
+200404034 Bonnevoie, Rotonde    01113  01113                % 01194 AVL---
+200404026 Bonnevoie, Léon XIII  01113  01113                % 01194 AVL---
+200404035 Bonnevoie, Vannérus   01115  01115                % 01194 AVL---
+200404038 Bonnevoie, Wisestroo  01115  01115                % 01194 AVL---
+200404019 Bonnevoie, Jean Jaco  01116  01116                % 01194 AVL---
+200404003 Bonnevoie, Anatole F  01117  01117                % 01194 AVL---
+200404018 Bonnevoie, Izegerknu  01117  01117                % 01194 AVL---
+200404022 Bonnevoie, Kaltreis   01118  01118                % 01194 AVL---
+200404029 Bonnevoie, Nic Marth  01119  01119                % 01194 AVL---
+200404021 Bonnevoie, Jules Fis  01119  01119                % 01194 AVL---
+200404033 Bonnevoie, Pont-Remy  01120  01120                % 01194 AVL---
+200404007 Bonnevoie, Demy Schl  01121                       % 01194 AVL---
+*Z 01195 AVL---                                             % 01195 AVL---
+*L 5        200101008 200404007  02115  02151               % 01195 AVL---
+*A BE 200101008 200404007 000003  02115  02151              % 01195 AVL---
+*R 2 200404007 200101008 200404007  02115  02151            % 01195 AVL---
+*G AVS 200101008 200404007  02115  02151                    % 01195 AVL---
+*A VE 200101008 200404007 000003  02115  02151              % 01195 AVL---
+200101008 Bertrange, Gemeng            02115                % 01195 AVL---
+200101010 Bertrange, Kierfecht  02117  02117                % 01195 AVL---
+200101012 Bertrange, Montereal  02118  02118                % 01195 AVL---
+200101014 Bertrange, Richterwe  02119  02119                % 01195 AVL---
+200101006 Bertrange, Fleuri     02120  02120                % 01195 AVL---
+200420010 Merl, Op der Millen   02122  02122                % 01195 AVL---
+200420013 Merl, Plaak           02122  02122                % 01195 AVL---
+200420014 Merl, St.Hubert       02123  02123                % 01195 AVL---
+200420008 Merl, Laang Heck      02124  02124                % 01195 AVL---
+200420011 Merl, Orval           02125  02125                % 01195 AVL---
+200403013 Belair, Place de Fra  02126  02126                % 01195 AVL---
+200420012 Merl, Parc            02127  02127                % 01195 AVL---
+200403007 Belair, Franciscaine  02127  02127                % 01195 AVL---
+200403006 Belair, Crécy         02128  02128                % 01195 AVL---
+200403020 Belair, Wampach       02129  02129                % 01195 AVL---
+200405025 Luxembourg/Centre, M  02131  02135                % 01195 AVL---
+200405054 Centre, F.D. Rooseve  02137  02137                % 01195 AVL---
+200405039 Luxembourg, Wallis    02140  02140                % 01195 AVL---
+200405046 Luxembourg, Gare Roc  02142  02142                % 01195 AVL---
+200404034 Bonnevoie, Rotonde    02143  02143                % 01195 AVL---
+200404026 Bonnevoie, Léon XIII  02143  02143                % 01195 AVL---
+200404035 Bonnevoie, Vannérus   02145  02145                % 01195 AVL---
+200404038 Bonnevoie, Wisestroo  02145  02145                % 01195 AVL---
+200404019 Bonnevoie, Jean Jaco  02146  02146                % 01195 AVL---
+200404003 Bonnevoie, Anatole F  02147  02147                % 01195 AVL---
+200404018 Bonnevoie, Izegerknu  02147  02147                % 01195 AVL---
+200404022 Bonnevoie, Kaltreis   02148  02148                % 01195 AVL---
+200404029 Bonnevoie, Nic Marth  02149  02149                % 01195 AVL---
+200404021 Bonnevoie, Jules Fis  02149  02149                % 01195 AVL---
+200404033 Bonnevoie, Pont-Remy  02150  02150                % 01195 AVL---
+200404007 Bonnevoie, Demy Schl  02151                       % 01195 AVL---
+*Z 01196 AVL---                                             % 01196 AVL---
+*L 5        200101008 200404007  00645  00721               % 01196 AVL---
+*A BE 200101008 200404007 000005  00645  00721              % 01196 AVL---
+*R 2 200404007 200101008 200404007  00645  00721            % 01196 AVL---
+*G AVS 200101008 200404007  00645  00721                    % 01196 AVL---
+*A VE 200101008 200404007 000005  00645  00721              % 01196 AVL---
+200101008 Bertrange, Gemeng            00645                % 01196 AVL---
+200101010 Bertrange, Kierfecht  00647  00647                % 01196 AVL---
+200101012 Bertrange, Montereal  00648  00648                % 01196 AVL---
+200101014 Bertrange, Richterwe  00649  00649                % 01196 AVL---
+200101006 Bertrange, Fleuri     00650  00650                % 01196 AVL---
+200420010 Merl, Op der Millen   00652  00652                % 01196 AVL---
+200420013 Merl, Plaak           00652  00652                % 01196 AVL---
+200420014 Merl, St.Hubert       00653  00653                % 01196 AVL---
+200420008 Merl, Laang Heck      00654  00654                % 01196 AVL---
+200420011 Merl, Orval           00655  00655                % 01196 AVL---
+200403013 Belair, Place de Fra  00656  00656                % 01196 AVL---
+200420012 Merl, Parc            00657  00657                % 01196 AVL---
+200403007 Belair, Franciscaine  00657  00657                % 01196 AVL---
+200403006 Belair, Crécy         00658  00658                % 01196 AVL---
+200403020 Belair, Wampach       00659  00659                % 01196 AVL---
+200405025 Luxembourg/Centre, M  00701  00705                % 01196 AVL---
+200405054 Centre, F.D. Rooseve  00707  00707                % 01196 AVL---
+200405039 Luxembourg, Wallis    00710  00710                % 01196 AVL---
+200405046 Luxembourg, Gare Roc  00712  00712                % 01196 AVL---
+200404034 Bonnevoie, Rotonde    00713  00713                % 01196 AVL---
+200404026 Bonnevoie, Léon XIII  00713  00713                % 01196 AVL---
+200404035 Bonnevoie, Vannérus   00715  00715                % 01196 AVL---
+200404038 Bonnevoie, Wisestroo  00715  00715                % 01196 AVL---
+200404019 Bonnevoie, Jean Jaco  00716  00716                % 01196 AVL---
+200404003 Bonnevoie, Anatole F  00717  00717                % 01196 AVL---
+200404018 Bonnevoie, Izegerknu  00717  00717                % 01196 AVL---
+200404022 Bonnevoie, Kaltreis   00718  00718                % 01196 AVL---
+200404029 Bonnevoie, Nic Marth  00719  00719                % 01196 AVL---
+200404021 Bonnevoie, Jules Fis  00719  00719                % 01196 AVL---
+200404033 Bonnevoie, Pont-Remy  00720  00720                % 01196 AVL---
+200404007 Bonnevoie, Demy Schl  00721                       % 01196 AVL---
+*Z 01197 AVL---                                             % 01197 AVL---
+*L 5        200101008 200404007  02245  02321               % 01197 AVL---
+*A BE 200101008 200404007 000001  02245  02321              % 01197 AVL---
+*R 2 200404007 200101008 200404007  02245  02321            % 01197 AVL---
+*G AVS 200101008 200404007  02245  02321                    % 01197 AVL---
+*A VE 200101008 200404007 000001  02245  02321              % 01197 AVL---
+200101008 Bertrange, Gemeng            02245                % 01197 AVL---
+200101010 Bertrange, Kierfecht  02247  02247                % 01197 AVL---
+200101012 Bertrange, Montereal  02248  02248                % 01197 AVL---
+200101014 Bertrange, Richterwe  02249  02249                % 01197 AVL---
+200101006 Bertrange, Fleuri     02250  02250                % 01197 AVL---
+200420010 Merl, Op der Millen   02252  02252                % 01197 AVL---
+200420013 Merl, Plaak           02252  02252                % 01197 AVL---
+200420014 Merl, St.Hubert       02253  02253                % 01197 AVL---
+200420008 Merl, Laang Heck      02254  02254                % 01197 AVL---
+200420011 Merl, Orval           02255  02255                % 01197 AVL---
+200403013 Belair, Place de Fra  02256  02256                % 01197 AVL---
+200420012 Merl, Parc            02257  02257                % 01197 AVL---
+200403007 Belair, Franciscaine  02257  02257                % 01197 AVL---
+200403006 Belair, Crécy         02258  02258                % 01197 AVL---
+200403020 Belair, Wampach       02259  02259                % 01197 AVL---
+200405025 Luxembourg/Centre, M  02301  02305                % 01197 AVL---
+200405054 Centre, F.D. Rooseve  02307  02307                % 01197 AVL---
+200405039 Luxembourg, Wallis    02310  02310                % 01197 AVL---
+200405046 Luxembourg, Gare Roc  02312  02312                % 01197 AVL---
+200404034 Bonnevoie, Rotonde    02313  02313                % 01197 AVL---
+200404026 Bonnevoie, Léon XIII  02313  02313                % 01197 AVL---
+200404035 Bonnevoie, Vannérus   02315  02315                % 01197 AVL---
+200404038 Bonnevoie, Wisestroo  02315  02315                % 01197 AVL---
+200404019 Bonnevoie, Jean Jaco  02316  02316                % 01197 AVL---
+200404003 Bonnevoie, Anatole F  02317  02317                % 01197 AVL---
+200404018 Bonnevoie, Izegerknu  02317  02317                % 01197 AVL---
+200404022 Bonnevoie, Kaltreis   02318  02318                % 01197 AVL---
+200404029 Bonnevoie, Nic Marth  02319  02319                % 01197 AVL---
+200404021 Bonnevoie, Jules Fis  02319  02319                % 01197 AVL---
+200404033 Bonnevoie, Pont-Remy  02320  02320                % 01197 AVL---
+200404007 Bonnevoie, Demy Schl  02321                       % 01197 AVL---
+*Z 01198 AVL---       001 930                               % 01198 AVL---
+*L 5        200101008 200404007  00515  00551               % 01198 AVL---
+*A BE 200101008 200404007 000002  00515  00551              % 01198 AVL---
+*R 2 200404007 200101008 200404007  00515  00551            % 01198 AVL---
+*G AVS 200101008 200404007  00515  00551                    % 01198 AVL---
+*A VE 200101008 200404007 000002  00515  00551              % 01198 AVL---
+200101008 Bertrange, Gemeng            00515                % 01198 AVL---
+200101010 Bertrange, Kierfecht  00517  00517                % 01198 AVL---
+200101012 Bertrange, Montereal  00518  00518                % 01198 AVL---
+200101014 Bertrange, Richterwe  00519  00519                % 01198 AVL---
+200101006 Bertrange, Fleuri     00520  00520                % 01198 AVL---
+200420010 Merl, Op der Millen   00522  00522                % 01198 AVL---
+200420013 Merl, Plaak           00522  00522                % 01198 AVL---
+200420014 Merl, St.Hubert       00523  00523                % 01198 AVL---
+200420008 Merl, Laang Heck      00524  00524                % 01198 AVL---
+200420011 Merl, Orval           00525  00525                % 01198 AVL---
+200403013 Belair, Place de Fra  00526  00526                % 01198 AVL---
+200420012 Merl, Parc            00527  00527                % 01198 AVL---
+200403007 Belair, Franciscaine  00527  00527                % 01198 AVL---
+200403006 Belair, Crécy         00528  00528                % 01198 AVL---
+200403020 Belair, Wampach       00529  00529                % 01198 AVL---
+200405025 Luxembourg/Centre, M  00531  00535                % 01198 AVL---
+200405054 Centre, F.D. Rooseve  00537  00537                % 01198 AVL---
+200405039 Luxembourg, Wallis    00540  00540                % 01198 AVL---
+200405046 Luxembourg, Gare Roc  00542  00542                % 01198 AVL---
+200404034 Bonnevoie, Rotonde    00543  00543                % 01198 AVL---
+200404026 Bonnevoie, Léon XIII  00543  00543                % 01198 AVL---
+200404035 Bonnevoie, Vannérus   00545  00545                % 01198 AVL---
+200404038 Bonnevoie, Wisestroo  00545  00545                % 01198 AVL---
+200404019 Bonnevoie, Jean Jaco  00546  00546                % 01198 AVL---
+200404003 Bonnevoie, Anatole F  00547  00547                % 01198 AVL---
+200404018 Bonnevoie, Izegerknu  00547  00547                % 01198 AVL---
+200404022 Bonnevoie, Kaltreis   00548  00548                % 01198 AVL---
+200404029 Bonnevoie, Nic Marth  00549  00549                % 01198 AVL---
+200404021 Bonnevoie, Jules Fis  00549  00549                % 01198 AVL---
+200404033 Bonnevoie, Pont-Remy  00550  00550                % 01198 AVL---
+200404007 Bonnevoie, Demy Schl  00551                       % 01198 AVL---
+*Z 01199 AVL---       001 900                               % 01199 AVL---
+*L 5        200101008 200404007  00715  00751               % 01199 AVL---
+*A BE 200101008 200404007 000004  00715  00751              % 01199 AVL---
+*R 2 200404007 200101008 200404007  00715  00751            % 01199 AVL---
+*G AVS 200101008 200404007  00715  00751                    % 01199 AVL---
+*A VE 200101008 200404007 000004  00715  00751              % 01199 AVL---
+200101008 Bertrange, Gemeng            00715                % 01199 AVL---
+200101010 Bertrange, Kierfecht  00717  00717                % 01199 AVL---
+200101012 Bertrange, Montereal  00718  00718                % 01199 AVL---
+200101014 Bertrange, Richterwe  00719  00719                % 01199 AVL---
+200101006 Bertrange, Fleuri     00720  00720                % 01199 AVL---
+200420010 Merl, Op der Millen   00722  00722                % 01199 AVL---
+200420013 Merl, Plaak           00722  00722                % 01199 AVL---
+200420014 Merl, St.Hubert       00723  00723                % 01199 AVL---
+200420008 Merl, Laang Heck      00724  00724                % 01199 AVL---
+200420011 Merl, Orval           00725  00725                % 01199 AVL---
+200403013 Belair, Place de Fra  00726  00726                % 01199 AVL---
+200420012 Merl, Parc            00727  00727                % 01199 AVL---
+200403007 Belair, Franciscaine  00727  00727                % 01199 AVL---
+200403006 Belair, Crécy         00728  00728                % 01199 AVL---
+200403020 Belair, Wampach       00729  00729                % 01199 AVL---
+200405025 Luxembourg/Centre, M  00731  00735                % 01199 AVL---
+200405054 Centre, F.D. Rooseve  00737  00737                % 01199 AVL---
+200405039 Luxembourg, Wallis    00740  00740                % 01199 AVL---
+200405046 Luxembourg, Gare Roc  00742  00742                % 01199 AVL---
+200404034 Bonnevoie, Rotonde    00743  00743                % 01199 AVL---
+200404026 Bonnevoie, Léon XIII  00743  00743                % 01199 AVL---
+200404035 Bonnevoie, Vannérus   00745  00745                % 01199 AVL---
+200404038 Bonnevoie, Wisestroo  00745  00745                % 01199 AVL---
+200404019 Bonnevoie, Jean Jaco  00746  00746                % 01199 AVL---
+200404003 Bonnevoie, Anatole F  00747  00747                % 01199 AVL---
+200404018 Bonnevoie, Izegerknu  00747  00747                % 01199 AVL---
+200404022 Bonnevoie, Kaltreis   00748  00748                % 01199 AVL---
+200404029 Bonnevoie, Nic Marth  00749  00749                % 01199 AVL---
+200404021 Bonnevoie, Jules Fis  00749  00749                % 01199 AVL---
+200404033 Bonnevoie, Pont-Remy  00750  00750                % 01199 AVL---
+200404007 Bonnevoie, Demy Schl  00751                       % 01199 AVL---
+*Z 01200 AVL---                                             % 01200 AVL---
+*L 5        200101008 200404007  00545  00621               % 01200 AVL---
+*A BE 200101008 200404007 000013  00545  00621              % 01200 AVL---
+*R 2 200404007 200101008 200404007  00545  00621            % 01200 AVL---
+*G AVS 200101008 200404007  00545  00621                    % 01200 AVL---
+*A VE 200101008 200404007 000013  00545  00621              % 01200 AVL---
+200101008 Bertrange, Gemeng            00545                % 01200 AVL---
+200101010 Bertrange, Kierfecht  00547  00547                % 01200 AVL---
+200101012 Bertrange, Montereal  00548  00548                % 01200 AVL---
+200101014 Bertrange, Richterwe  00549  00549                % 01200 AVL---
+200101006 Bertrange, Fleuri     00550  00550                % 01200 AVL---
+200420010 Merl, Op der Millen   00552  00552                % 01200 AVL---
+200420013 Merl, Plaak           00552  00552                % 01200 AVL---
+200420014 Merl, St.Hubert       00553  00553                % 01200 AVL---
+200420008 Merl, Laang Heck      00554  00554                % 01200 AVL---
+200420011 Merl, Orval           00555  00555                % 01200 AVL---
+200403013 Belair, Place de Fra  00556  00556                % 01200 AVL---
+200420012 Merl, Parc            00557  00557                % 01200 AVL---
+200403007 Belair, Franciscaine  00557  00557                % 01200 AVL---
+200403006 Belair, Crécy         00558  00558                % 01200 AVL---
+200403020 Belair, Wampach       00559  00559                % 01200 AVL---
+200405025 Luxembourg/Centre, M  00601  00605                % 01200 AVL---
+200405054 Centre, F.D. Rooseve  00607  00607                % 01200 AVL---
+200405039 Luxembourg, Wallis    00610  00610                % 01200 AVL---
+200405046 Luxembourg, Gare Roc  00612  00612                % 01200 AVL---
+200404034 Bonnevoie, Rotonde    00613  00613                % 01200 AVL---
+200404026 Bonnevoie, Léon XIII  00613  00613                % 01200 AVL---
+200404035 Bonnevoie, Vannérus   00615  00615                % 01200 AVL---
+200404038 Bonnevoie, Wisestroo  00615  00615                % 01200 AVL---
+200404019 Bonnevoie, Jean Jaco  00616  00616                % 01200 AVL---
+200404003 Bonnevoie, Anatole F  00617  00617                % 01200 AVL---
+200404018 Bonnevoie, Izegerknu  00617  00617                % 01200 AVL---
+200404022 Bonnevoie, Kaltreis   00618  00618                % 01200 AVL---
+200404029 Bonnevoie, Nic Marth  00619  00619                % 01200 AVL---
+200404021 Bonnevoie, Jules Fis  00619  00619                % 01200 AVL---
+200404033 Bonnevoie, Pont-Remy  00620  00620                % 01200 AVL---
+200404007 Bonnevoie, Demy Schl  00621                       % 01200 AVL---
+*Z 01201 AVL---                                             % 01201 AVL---
+*L 5        200101008 200404007  01945  02017               % 01201 AVL---
+*A BE 200101008 200404007 000005  01945  02017              % 01201 AVL---
+*R 2 200404007 200101008 200404007  01945  02017            % 01201 AVL---
+*G AVG 200101008 200404007  01945  02017                    % 01201 AVL---
+*A VE 200101008 200404007 000005  01945  02017              % 01201 AVL---
+200101008 Bertrange, Gemeng            01945                % 01201 AVL---
+200101010 Bertrange, Kierfecht  01947  01947                % 01201 AVL---
+200101012 Bertrange, Montereal  01948  01948                % 01201 AVL---
+200101014 Bertrange, Richterwe  01949  01949                % 01201 AVL---
+200101006 Bertrange, Fleuri     01950  01950                % 01201 AVL---
+200420010 Merl, Op der Millen   01952  01952                % 01201 AVL---
+200420013 Merl, Plaak           01952  01952                % 01201 AVL---
+200420014 Merl, St.Hubert       01953  01953                % 01201 AVL---
+200420008 Merl, Laang Heck      01954  01954                % 01201 AVL---
+200420011 Merl, Orval           01955  01955                % 01201 AVL---
+200403013 Belair, Place de Fra  01956  01956                % 01201 AVL---
+200420012 Merl, Parc            01957  01957                % 01201 AVL---
+200403007 Belair, Franciscaine  01957  01957                % 01201 AVL---
+200403006 Belair, Crécy         01958  01958                % 01201 AVL---
+200403020 Belair, Wampach       01959  01959                % 01201 AVL---
+200405025 Luxembourg/Centre, M  02001  02001                % 01201 AVL---
+200405054 Centre, F.D. Rooseve  02003  02003                % 01201 AVL---
+200405039 Luxembourg, Wallis    02006  02006                % 01201 AVL---
+200405046 Luxembourg, Gare Roc  02008  02008                % 01201 AVL---
+200404034 Bonnevoie, Rotonde    02009  02009                % 01201 AVL---
+200404026 Bonnevoie, Léon XIII  02009  02009                % 01201 AVL---
+200404035 Bonnevoie, Vannérus   02011  02011                % 01201 AVL---
+200404038 Bonnevoie, Wisestroo  02011  02011                % 01201 AVL---
+200404019 Bonnevoie, Jean Jaco  02012  02012                % 01201 AVL---
+200404003 Bonnevoie, Anatole F  02013  02013                % 01201 AVL---
+200404018 Bonnevoie, Izegerknu  02013  02013                % 01201 AVL---
+200404022 Bonnevoie, Kaltreis   02014  02014                % 01201 AVL---
+200404029 Bonnevoie, Nic Marth  02015  02015                % 01201 AVL---
+200404021 Bonnevoie, Jules Fis  02015  02015                % 01201 AVL---
+200404033 Bonnevoie, Pont-Remy  02016  02016                % 01201 AVL---
+200404007 Bonnevoie, Demy Schl  02017                       % 01201 AVL---
+*Z 01202 AVL---                                             % 01202 AVL---
+*L 5        200101008 200404007  00620  00652               % 01202 AVL---
+*A BE 200101008 200404007 000002  00620  00652              % 01202 AVL---
+*R 2 200404007 200101008 200404007  00620  00652            % 01202 AVL---
+*G AVG 200101008 200404007  00620  00652                    % 01202 AVL---
+*A VE 200101008 200404007 000002  00620  00652              % 01202 AVL---
+200101008 Bertrange, Gemeng            00620                % 01202 AVL---
+200101010 Bertrange, Kierfecht  00622  00622                % 01202 AVL---
+200101012 Bertrange, Montereal  00623  00623                % 01202 AVL---
+200101014 Bertrange, Richterwe  00624  00624                % 01202 AVL---
+200101006 Bertrange, Fleuri     00625  00625                % 01202 AVL---
+200420010 Merl, Op der Millen   00627  00627                % 01202 AVL---
+200420013 Merl, Plaak           00627  00627                % 01202 AVL---
+200420014 Merl, St.Hubert       00628  00628                % 01202 AVL---
+200420008 Merl, Laang Heck      00629  00629                % 01202 AVL---
+200420011 Merl, Orval           00630  00630                % 01202 AVL---
+200403013 Belair, Place de Fra  00631  00631                % 01202 AVL---
+200420012 Merl, Parc            00632  00632                % 01202 AVL---
+200403007 Belair, Franciscaine  00632  00632                % 01202 AVL---
+200403006 Belair, Crécy         00633  00633                % 01202 AVL---
+200403020 Belair, Wampach       00634  00634                % 01202 AVL---
+200405025 Luxembourg/Centre, M  00636  00636                % 01202 AVL---
+200405054 Centre, F.D. Rooseve  00638  00638                % 01202 AVL---
+200405039 Luxembourg, Wallis    00641  00641                % 01202 AVL---
+200405046 Luxembourg, Gare Roc  00643  00643                % 01202 AVL---
+200404034 Bonnevoie, Rotonde    00644  00644                % 01202 AVL---
+200404026 Bonnevoie, Léon XIII  00644  00644                % 01202 AVL---
+200404035 Bonnevoie, Vannérus   00646  00646                % 01202 AVL---
+200404038 Bonnevoie, Wisestroo  00646  00646                % 01202 AVL---
+200404019 Bonnevoie, Jean Jaco  00647  00647                % 01202 AVL---
+200404003 Bonnevoie, Anatole F  00648  00648                % 01202 AVL---
+200404018 Bonnevoie, Izegerknu  00648  00648                % 01202 AVL---
+200404022 Bonnevoie, Kaltreis   00649  00649                % 01202 AVL---
+200404029 Bonnevoie, Nic Marth  00650  00650                % 01202 AVL---
+200404021 Bonnevoie, Jules Fis  00650  00650                % 01202 AVL---
+200404033 Bonnevoie, Pont-Remy  00651  00651                % 01202 AVL---
+200404007 Bonnevoie, Demy Schl  00652                       % 01202 AVL---
+*Z 01203 AVL---       001 060                               % 01203 AVL---
+*L 5        200101008 200404007  00656  00735               % 01203 AVL---
+*A BE 200101008 200404007 000002  00656  00735              % 01203 AVL---
+*R 2 200404007 200101008 200404007  00656  00735            % 01203 AVL---
+*G AVG 200101008 200404007  00656  00735                    % 01203 AVL---
+*A VE 200101008 200404007 000002  00656  00735              % 01203 AVL---
+200101008 Bertrange, Gemeng            00656                % 01203 AVL---
+200101010 Bertrange, Kierfecht  00658  00658                % 01203 AVL---
+200101012 Bertrange, Montereal  00700  00700                % 01203 AVL---
+200101014 Bertrange, Richterwe  00701  00701                % 01203 AVL---
+200101006 Bertrange, Fleuri     00702  00702                % 01203 AVL---
+200420010 Merl, Op der Millen   00704  00704                % 01203 AVL---
+200420013 Merl, Plaak           00705  00705                % 01203 AVL---
+200420014 Merl, St.Hubert       00706  00706                % 01203 AVL---
+200420008 Merl, Laang Heck      00707  00707                % 01203 AVL---
+200420011 Merl, Orval           00708  00708                % 01203 AVL---
+200403013 Belair, Place de Fra  00709  00709                % 01203 AVL---
+200420012 Merl, Parc            00710  00710                % 01203 AVL---
+200403007 Belair, Franciscaine  00711  00711                % 01203 AVL---
+200403006 Belair, Crécy         00712  00712                % 01203 AVL---
+200403020 Belair, Wampach       00714  00714                % 01203 AVL---
+200405025 Luxembourg/Centre, M  00716  00716                % 01203 AVL---
+200405054 Centre, F.D. Rooseve  00719  00719                % 01203 AVL---
+200405039 Luxembourg, Wallis    00723  00723                % 01203 AVL---
+200405046 Luxembourg, Gare Roc  00725  00725                % 01203 AVL---
+200404034 Bonnevoie, Rotonde    00726  00726                % 01203 AVL---
+200404026 Bonnevoie, Léon XIII  00727  00727                % 01203 AVL---
+200404035 Bonnevoie, Vannérus   00728  00728                % 01203 AVL---
+200404038 Bonnevoie, Wisestroo  00729  00729                % 01203 AVL---
+200404019 Bonnevoie, Jean Jaco  00730  00730                % 01203 AVL---
+200404003 Bonnevoie, Anatole F  00731  00731                % 01203 AVL---
+200404018 Bonnevoie, Izegerknu  00732  00732                % 01203 AVL---
+200404022 Bonnevoie, Kaltreis   00732  00732                % 01203 AVL---
+200404029 Bonnevoie, Nic Marth  00733  00733                % 01203 AVL---
+200404021 Bonnevoie, Jules Fis  00734  00734                % 01203 AVL---
+200404033 Bonnevoie, Pont-Remy  00735  00735                % 01203 AVL---
+200404007 Bonnevoie, Demy Schl  00735                       % 01203 AVL---
+*Z 01204 AVL---       001 060                               % 01204 AVL---
+*L 5        200101008 200404007  00836  00915               % 01204 AVL---
+*A BE 200101008 200404007 000002  00836  00915              % 01204 AVL---
+*R 2 200404007 200101008 200404007  00836  00915            % 01204 AVL---
+*G AVG 200101008 200404007  00836  00915                    % 01204 AVL---
+*A VE 200101008 200404007 000002  00836  00915              % 01204 AVL---
+200101008 Bertrange, Gemeng            00836                % 01204 AVL---
+200101010 Bertrange, Kierfecht  00838  00838                % 01204 AVL---
+200101012 Bertrange, Montereal  00840  00840                % 01204 AVL---
+200101014 Bertrange, Richterwe  00841  00841                % 01204 AVL---
+200101006 Bertrange, Fleuri     00842  00842                % 01204 AVL---
+200420010 Merl, Op der Millen   00844  00844                % 01204 AVL---
+200420013 Merl, Plaak           00845  00845                % 01204 AVL---
+200420014 Merl, St.Hubert       00846  00846                % 01204 AVL---
+200420008 Merl, Laang Heck      00847  00847                % 01204 AVL---
+200420011 Merl, Orval           00848  00848                % 01204 AVL---
+200403013 Belair, Place de Fra  00849  00849                % 01204 AVL---
+200420012 Merl, Parc            00850  00850                % 01204 AVL---
+200403007 Belair, Franciscaine  00851  00851                % 01204 AVL---
+200403006 Belair, Crécy         00852  00852                % 01204 AVL---
+200403020 Belair, Wampach       00854  00854                % 01204 AVL---
+200405025 Luxembourg/Centre, M  00856  00856                % 01204 AVL---
+200405054 Centre, F.D. Rooseve  00859  00859                % 01204 AVL---
+200405039 Luxembourg, Wallis    00903  00903                % 01204 AVL---
+200405046 Luxembourg, Gare Roc  00905  00905                % 01204 AVL---
+200404034 Bonnevoie, Rotonde    00906  00906                % 01204 AVL---
+200404026 Bonnevoie, Léon XIII  00907  00907                % 01204 AVL---
+200404035 Bonnevoie, Vannérus   00908  00908                % 01204 AVL---
+200404038 Bonnevoie, Wisestroo  00909  00909                % 01204 AVL---
+200404019 Bonnevoie, Jean Jaco  00910  00910                % 01204 AVL---
+200404003 Bonnevoie, Anatole F  00911  00911                % 01204 AVL---
+200404018 Bonnevoie, Izegerknu  00912  00912                % 01204 AVL---
+200404022 Bonnevoie, Kaltreis   00912  00912                % 01204 AVL---
+200404029 Bonnevoie, Nic Marth  00913  00913                % 01204 AVL---
+200404021 Bonnevoie, Jules Fis  00914  00914                % 01204 AVL---
+200404033 Bonnevoie, Pont-Remy  00915  00915                % 01204 AVL---
+200404007 Bonnevoie, Demy Schl  00915                       % 01204 AVL---
+*Z 01205 AVL---       001 060                               % 01205 AVL---
+*L 5        200101008 200404007  01016  01055               % 01205 AVL---
+*A BE 200101008 200404007 000002  01016  01055              % 01205 AVL---
+*R 2 200404007 200101008 200404007  01016  01055            % 01205 AVL---
+*G AVG 200101008 200404007  01016  01055                    % 01205 AVL---
+*A VE 200101008 200404007 000002  01016  01055              % 01205 AVL---
+200101008 Bertrange, Gemeng            01016                % 01205 AVL---
+200101010 Bertrange, Kierfecht  01018  01018                % 01205 AVL---
+200101012 Bertrange, Montereal  01020  01020                % 01205 AVL---
+200101014 Bertrange, Richterwe  01021  01021                % 01205 AVL---
+200101006 Bertrange, Fleuri     01022  01022                % 01205 AVL---
+200420010 Merl, Op der Millen   01024  01024                % 01205 AVL---
+200420013 Merl, Plaak           01025  01025                % 01205 AVL---
+200420014 Merl, St.Hubert       01026  01026                % 01205 AVL---
+200420008 Merl, Laang Heck      01027  01027                % 01205 AVL---
+200420011 Merl, Orval           01028  01028                % 01205 AVL---
+200403013 Belair, Place de Fra  01029  01029                % 01205 AVL---
+200420012 Merl, Parc            01030  01030                % 01205 AVL---
+200403007 Belair, Franciscaine  01031  01031                % 01205 AVL---
+200403006 Belair, Crécy         01032  01032                % 01205 AVL---
+200403020 Belair, Wampach       01034  01034                % 01205 AVL---
+200405025 Luxembourg/Centre, M  01036  01036                % 01205 AVL---
+200405054 Centre, F.D. Rooseve  01039  01039                % 01205 AVL---
+200405039 Luxembourg, Wallis    01043  01043                % 01205 AVL---
+200405046 Luxembourg, Gare Roc  01045  01045                % 01205 AVL---
+200404034 Bonnevoie, Rotonde    01046  01046                % 01205 AVL---
+200404026 Bonnevoie, Léon XIII  01047  01047                % 01205 AVL---
+200404035 Bonnevoie, Vannérus   01048  01048                % 01205 AVL---
+200404038 Bonnevoie, Wisestroo  01049  01049                % 01205 AVL---
+200404019 Bonnevoie, Jean Jaco  01050  01050                % 01205 AVL---
+200404003 Bonnevoie, Anatole F  01051  01051                % 01205 AVL---
+200404018 Bonnevoie, Izegerknu  01052  01052                % 01205 AVL---
+200404022 Bonnevoie, Kaltreis   01052  01052                % 01205 AVL---
+200404029 Bonnevoie, Nic Marth  01053  01053                % 01205 AVL---
+200404021 Bonnevoie, Jules Fis  01054  01054                % 01205 AVL---
+200404033 Bonnevoie, Pont-Remy  01055  01055                % 01205 AVL---
+200404007 Bonnevoie, Demy Schl  01055                       % 01205 AVL---
+*Z 01206 AVL---       001 060                               % 01206 AVL---
+*L 5        200101008 200404007  01156  01235               % 01206 AVL---
+*A BE 200101008 200404007 000002  01156  01235              % 01206 AVL---
+*R 2 200404007 200101008 200404007  01156  01235            % 01206 AVL---
+*G AVG 200101008 200404007  01156  01235                    % 01206 AVL---
+*A VE 200101008 200404007 000002  01156  01235              % 01206 AVL---
+200101008 Bertrange, Gemeng            01156                % 01206 AVL---
+200101010 Bertrange, Kierfecht  01158  01158                % 01206 AVL---
+200101012 Bertrange, Montereal  01200  01200                % 01206 AVL---
+200101014 Bertrange, Richterwe  01201  01201                % 01206 AVL---
+200101006 Bertrange, Fleuri     01202  01202                % 01206 AVL---
+200420010 Merl, Op der Millen   01204  01204                % 01206 AVL---
+200420013 Merl, Plaak           01205  01205                % 01206 AVL---
+200420014 Merl, St.Hubert       01206  01206                % 01206 AVL---
+200420008 Merl, Laang Heck      01207  01207                % 01206 AVL---
+200420011 Merl, Orval           01208  01208                % 01206 AVL---
+200403013 Belair, Place de Fra  01209  01209                % 01206 AVL---
+200420012 Merl, Parc            01210  01210                % 01206 AVL---
+200403007 Belair, Franciscaine  01211  01211                % 01206 AVL---
+200403006 Belair, Crécy         01212  01212                % 01206 AVL---
+200403020 Belair, Wampach       01214  01214                % 01206 AVL---
+200405025 Luxembourg/Centre, M  01216  01216                % 01206 AVL---
+200405054 Centre, F.D. Rooseve  01219  01219                % 01206 AVL---
+200405039 Luxembourg, Wallis    01223  01223                % 01206 AVL---
+200405046 Luxembourg, Gare Roc  01225  01225                % 01206 AVL---
+200404034 Bonnevoie, Rotonde    01226  01226                % 01206 AVL---
+200404026 Bonnevoie, Léon XIII  01227  01227                % 01206 AVL---
+200404035 Bonnevoie, Vannérus   01228  01228                % 01206 AVL---
+200404038 Bonnevoie, Wisestroo  01229  01229                % 01206 AVL---
+200404019 Bonnevoie, Jean Jaco  01230  01230                % 01206 AVL---
+200404003 Bonnevoie, Anatole F  01231  01231                % 01206 AVL---
+200404018 Bonnevoie, Izegerknu  01232  01232                % 01206 AVL---
+200404022 Bonnevoie, Kaltreis   01232  01232                % 01206 AVL---
+200404029 Bonnevoie, Nic Marth  01233  01233                % 01206 AVL---
+200404021 Bonnevoie, Jules Fis  01234  01234                % 01206 AVL---
+200404033 Bonnevoie, Pont-Remy  01235  01235                % 01206 AVL---
+200404007 Bonnevoie, Demy Schl  01235                       % 01206 AVL---
+*Z 01207 AVL---       001 060                               % 01207 AVL---
+*L 5        200101008 200404007  01336  01415               % 01207 AVL---
+*A BE 200101008 200404007 000002  01336  01415              % 01207 AVL---
+*R 2 200404007 200101008 200404007  01336  01415            % 01207 AVL---
+*G AVG 200101008 200404007  01336  01415                    % 01207 AVL---
+*A VE 200101008 200404007 000002  01336  01415              % 01207 AVL---
+200101008 Bertrange, Gemeng            01336                % 01207 AVL---
+200101010 Bertrange, Kierfecht  01338  01338                % 01207 AVL---
+200101012 Bertrange, Montereal  01340  01340                % 01207 AVL---
+200101014 Bertrange, Richterwe  01341  01341                % 01207 AVL---
+200101006 Bertrange, Fleuri     01342  01342                % 01207 AVL---
+200420010 Merl, Op der Millen   01344  01344                % 01207 AVL---
+200420013 Merl, Plaak           01345  01345                % 01207 AVL---
+200420014 Merl, St.Hubert       01346  01346                % 01207 AVL---
+200420008 Merl, Laang Heck      01347  01347                % 01207 AVL---
+200420011 Merl, Orval           01348  01348                % 01207 AVL---
+200403013 Belair, Place de Fra  01349  01349                % 01207 AVL---
+200420012 Merl, Parc            01350  01350                % 01207 AVL---
+200403007 Belair, Franciscaine  01351  01351                % 01207 AVL---
+200403006 Belair, Crécy         01352  01352                % 01207 AVL---
+200403020 Belair, Wampach       01354  01354                % 01207 AVL---
+200405025 Luxembourg/Centre, M  01356  01356                % 01207 AVL---
+200405054 Centre, F.D. Rooseve  01359  01359                % 01207 AVL---
+200405039 Luxembourg, Wallis    01403  01403                % 01207 AVL---
+200405046 Luxembourg, Gare Roc  01405  01405                % 01207 AVL---
+200404034 Bonnevoie, Rotonde    01406  01406                % 01207 AVL---
+200404026 Bonnevoie, Léon XIII  01407  01407                % 01207 AVL---
+200404035 Bonnevoie, Vannérus   01408  01408                % 01207 AVL---
+200404038 Bonnevoie, Wisestroo  01409  01409                % 01207 AVL---
+200404019 Bonnevoie, Jean Jaco  01410  01410                % 01207 AVL---
+200404003 Bonnevoie, Anatole F  01411  01411                % 01207 AVL---
+200404018 Bonnevoie, Izegerknu  01412  01412                % 01207 AVL---
+200404022 Bonnevoie, Kaltreis   01412  01412                % 01207 AVL---
+200404029 Bonnevoie, Nic Marth  01413  01413                % 01207 AVL---
+200404021 Bonnevoie, Jules Fis  01414  01414                % 01207 AVL---
+200404033 Bonnevoie, Pont-Remy  01415  01415                % 01207 AVL---
+200404007 Bonnevoie, Demy Schl  01415                       % 01207 AVL---
+*Z 01208 AVL---       001 060                               % 01208 AVL---
+*L 5        200101008 200404007  01516  01555               % 01208 AVL---
+*A BE 200101008 200404007 000002  01516  01555              % 01208 AVL---
+*R 2 200404007 200101008 200404007  01516  01555            % 01208 AVL---
+*G AVG 200101008 200404007  01516  01555                    % 01208 AVL---
+*A VE 200101008 200404007 000002  01516  01555              % 01208 AVL---
+200101008 Bertrange, Gemeng            01516                % 01208 AVL---
+200101010 Bertrange, Kierfecht  01518  01518                % 01208 AVL---
+200101012 Bertrange, Montereal  01520  01520                % 01208 AVL---
+200101014 Bertrange, Richterwe  01521  01521                % 01208 AVL---
+200101006 Bertrange, Fleuri     01522  01522                % 01208 AVL---
+200420010 Merl, Op der Millen   01524  01524                % 01208 AVL---
+200420013 Merl, Plaak           01525  01525                % 01208 AVL---
+200420014 Merl, St.Hubert       01526  01526                % 01208 AVL---
+200420008 Merl, Laang Heck      01527  01527                % 01208 AVL---
+200420011 Merl, Orval           01528  01528                % 01208 AVL---
+200403013 Belair, Place de Fra  01529  01529                % 01208 AVL---
+200420012 Merl, Parc            01530  01530                % 01208 AVL---
+200403007 Belair, Franciscaine  01531  01531                % 01208 AVL---
+200403006 Belair, Crécy         01532  01532                % 01208 AVL---
+200403020 Belair, Wampach       01534  01534                % 01208 AVL---
+200405025 Luxembourg/Centre, M  01536  01536                % 01208 AVL---
+200405054 Centre, F.D. Rooseve  01539  01539                % 01208 AVL---
+200405039 Luxembourg, Wallis    01543  01543                % 01208 AVL---
+200405046 Luxembourg, Gare Roc  01545  01545                % 01208 AVL---
+200404034 Bonnevoie, Rotonde    01546  01546                % 01208 AVL---
+200404026 Bonnevoie, Léon XIII  01547  01547                % 01208 AVL---
+200404035 Bonnevoie, Vannérus   01548  01548                % 01208 AVL---
+200404038 Bonnevoie, Wisestroo  01549  01549                % 01208 AVL---
+200404019 Bonnevoie, Jean Jaco  01550  01550                % 01208 AVL---
+200404003 Bonnevoie, Anatole F  01551  01551                % 01208 AVL---
+200404018 Bonnevoie, Izegerknu  01552  01552                % 01208 AVL---
+200404022 Bonnevoie, Kaltreis   01552  01552                % 01208 AVL---
+200404029 Bonnevoie, Nic Marth  01553  01553                % 01208 AVL---
+200404021 Bonnevoie, Jules Fis  01554  01554                % 01208 AVL---
+200404033 Bonnevoie, Pont-Remy  01555  01555                % 01208 AVL---
+200404007 Bonnevoie, Demy Schl  01555                       % 01208 AVL---
+*Z 01209 AVL---       001 060                               % 01209 AVL---
+*L 5        200101008 200404007  01656  01735               % 01209 AVL---
+*A BE 200101008 200404007 000002  01656  01735              % 01209 AVL---
+*R 2 200404007 200101008 200404007  01656  01735            % 01209 AVL---
+*G AVG 200101008 200404007  01656  01735                    % 01209 AVL---
+*A VE 200101008 200404007 000002  01656  01735              % 01209 AVL---
+200101008 Bertrange, Gemeng            01656                % 01209 AVL---
+200101010 Bertrange, Kierfecht  01658  01658                % 01209 AVL---
+200101012 Bertrange, Montereal  01700  01700                % 01209 AVL---
+200101014 Bertrange, Richterwe  01701  01701                % 01209 AVL---
+200101006 Bertrange, Fleuri     01702  01702                % 01209 AVL---
+200420010 Merl, Op der Millen   01704  01704                % 01209 AVL---
+200420013 Merl, Plaak           01705  01705                % 01209 AVL---
+200420014 Merl, St.Hubert       01706  01706                % 01209 AVL---
+200420008 Merl, Laang Heck      01707  01707                % 01209 AVL---
+200420011 Merl, Orval           01708  01708                % 01209 AVL---
+200403013 Belair, Place de Fra  01709  01709                % 01209 AVL---
+200420012 Merl, Parc            01710  01710                % 01209 AVL---
+200403007 Belair, Franciscaine  01711  01711                % 01209 AVL---
+200403006 Belair, Crécy         01712  01712                % 01209 AVL---
+200403020 Belair, Wampach       01714  01714                % 01209 AVL---
+200405025 Luxembourg/Centre, M  01716  01716                % 01209 AVL---
+200405054 Centre, F.D. Rooseve  01719  01719                % 01209 AVL---
+200405039 Luxembourg, Wallis    01723  01723                % 01209 AVL---
+200405046 Luxembourg, Gare Roc  01725  01725                % 01209 AVL---
+200404034 Bonnevoie, Rotonde    01726  01726                % 01209 AVL---
+200404026 Bonnevoie, Léon XIII  01727  01727                % 01209 AVL---
+200404035 Bonnevoie, Vannérus   01728  01728                % 01209 AVL---
+200404038 Bonnevoie, Wisestroo  01729  01729                % 01209 AVL---
+200404019 Bonnevoie, Jean Jaco  01730  01730                % 01209 AVL---
+200404003 Bonnevoie, Anatole F  01731  01731                % 01209 AVL---
+200404018 Bonnevoie, Izegerknu  01732  01732                % 01209 AVL---
+200404022 Bonnevoie, Kaltreis   01732  01732                % 01209 AVL---
+200404029 Bonnevoie, Nic Marth  01733  01733                % 01209 AVL---
+200404021 Bonnevoie, Jules Fis  01734  01734                % 01209 AVL---
+200404033 Bonnevoie, Pont-Remy  01735  01735                % 01209 AVL---
+200404007 Bonnevoie, Demy Schl  01735                       % 01209 AVL---
+*Z 01210 AVL---       001 060                               % 01210 AVL---
+*L 5        200101008 200404007  01836  01915               % 01210 AVL---
+*A BE 200101008 200404007 000002  01836  01915              % 01210 AVL---
+*R 2 200404007 200101008 200404007  01836  01915            % 01210 AVL---
+*G AVG 200101008 200404007  01836  01915                    % 01210 AVL---
+*A VE 200101008 200404007 000002  01836  01915              % 01210 AVL---
+200101008 Bertrange, Gemeng            01836                % 01210 AVL---
+200101010 Bertrange, Kierfecht  01838  01838                % 01210 AVL---
+200101012 Bertrange, Montereal  01840  01840                % 01210 AVL---
+200101014 Bertrange, Richterwe  01841  01841                % 01210 AVL---
+200101006 Bertrange, Fleuri     01842  01842                % 01210 AVL---
+200420010 Merl, Op der Millen   01844  01844                % 01210 AVL---
+200420013 Merl, Plaak           01845  01845                % 01210 AVL---
+200420014 Merl, St.Hubert       01846  01846                % 01210 AVL---
+200420008 Merl, Laang Heck      01847  01847                % 01210 AVL---
+200420011 Merl, Orval           01848  01848                % 01210 AVL---
+200403013 Belair, Place de Fra  01849  01849                % 01210 AVL---
+200420012 Merl, Parc            01850  01850                % 01210 AVL---
+200403007 Belair, Franciscaine  01851  01851                % 01210 AVL---
+200403006 Belair, Crécy         01852  01852                % 01210 AVL---
+200403020 Belair, Wampach       01854  01854                % 01210 AVL---
+200405025 Luxembourg/Centre, M  01856  01856                % 01210 AVL---
+200405054 Centre, F.D. Rooseve  01859  01859                % 01210 AVL---
+200405039 Luxembourg, Wallis    01903  01903                % 01210 AVL---
+200405046 Luxembourg, Gare Roc  01905  01905                % 01210 AVL---
+200404034 Bonnevoie, Rotonde    01906  01906                % 01210 AVL---
+200404026 Bonnevoie, Léon XIII  01907  01907                % 01210 AVL---
+200404035 Bonnevoie, Vannérus   01908  01908                % 01210 AVL---
+200404038 Bonnevoie, Wisestroo  01909  01909                % 01210 AVL---
+200404019 Bonnevoie, Jean Jaco  01910  01910                % 01210 AVL---
+200404003 Bonnevoie, Anatole F  01911  01911                % 01210 AVL---
+200404018 Bonnevoie, Izegerknu  01912  01912                % 01210 AVL---
+200404022 Bonnevoie, Kaltreis   01912  01912                % 01210 AVL---
+200404029 Bonnevoie, Nic Marth  01913  01913                % 01210 AVL---
+200404021 Bonnevoie, Jules Fis  01914  01914                % 01210 AVL---
+200404033 Bonnevoie, Pont-Remy  01915  01915                % 01210 AVL---
+200404007 Bonnevoie, Demy Schl  01915                       % 01210 AVL---
+*Z 01211 AVL---       006 090                               % 01211 AVL---
+*L 5        200101008 200404007  00914  00948               % 01211 AVL---
+*A BE 200101008 200404007 000005  00914  00948              % 01211 AVL---
+*R 2 200404007 200101008 200404007  00914  00948            % 01211 AVL---
+*G AVG 200101008 200404007  00914  00948                    % 01211 AVL---
+*A VE 200101008 200404007 000005  00914  00948              % 01211 AVL---
+200101008 Bertrange, Gemeng            00914                % 01211 AVL---
+200101010 Bertrange, Kierfecht  00916  00916                % 01211 AVL---
+200101012 Bertrange, Montereal  00917  00917                % 01211 AVL---
+200101014 Bertrange, Richterwe  00918  00918                % 01211 AVL---
+200101006 Bertrange, Fleuri     00919  00919                % 01211 AVL---
+200420010 Merl, Op der Millen   00921  00921                % 01211 AVL---
+200420013 Merl, Plaak           00921  00921                % 01211 AVL---
+200420014 Merl, St.Hubert       00922  00922                % 01211 AVL---
+200420008 Merl, Laang Heck      00923  00923                % 01211 AVL---
+200420011 Merl, Orval           00924  00924                % 01211 AVL---
+200403013 Belair, Place de Fra  00925  00925                % 01211 AVL---
+200420012 Merl, Parc            00926  00926                % 01211 AVL---
+200403007 Belair, Franciscaine  00927  00927                % 01211 AVL---
+200403006 Belair, Crécy         00928  00928                % 01211 AVL---
+200403020 Belair, Wampach       00929  00929                % 01211 AVL---
+200405025 Luxembourg/Centre, M  00931  00931                % 01211 AVL---
+200405054 Centre, F.D. Rooseve  00934  00934                % 01211 AVL---
+200405039 Luxembourg, Wallis    00937  00937                % 01211 AVL---
+200405046 Luxembourg, Gare Roc  00938  00938                % 01211 AVL---
+200404034 Bonnevoie, Rotonde    00939  00939                % 01211 AVL---
+200404026 Bonnevoie, Léon XIII  00940  00940                % 01211 AVL---
+200404035 Bonnevoie, Vannérus   00941  00941                % 01211 AVL---
+200404038 Bonnevoie, Wisestroo  00942  00942                % 01211 AVL---
+200404019 Bonnevoie, Jean Jaco  00943  00943                % 01211 AVL---
+200404003 Bonnevoie, Anatole F  00944  00944                % 01211 AVL---
+200404018 Bonnevoie, Izegerknu  00944  00944                % 01211 AVL---
+200404022 Bonnevoie, Kaltreis   00945  00945                % 01211 AVL---
+200404029 Bonnevoie, Nic Marth  00946  00946                % 01211 AVL---
+200404021 Bonnevoie, Jules Fis  00946  00946                % 01211 AVL---
+200404033 Bonnevoie, Pont-Remy  00947  00947                % 01211 AVL---
+200404007 Bonnevoie, Demy Schl  00948                       % 01211 AVL---
+*Z 01212 AVL---                                             % 01212 AVL---
+*L 5        200101008 200404007  00744  00818               % 01212 AVL---
+*A BE 200101008 200404007 000005  00744  00818              % 01212 AVL---
+*R 2 200404007 200101008 200404007  00744  00818            % 01212 AVL---
+*G AVS 200101008 200404007  00744  00818                    % 01212 AVL---
+*A VE 200101008 200404007 000005  00744  00818              % 01212 AVL---
+200101008 Bertrange, Gemeng            00744                % 01212 AVL---
+200101010 Bertrange, Kierfecht  00746  00746                % 01212 AVL---
+200101012 Bertrange, Montereal  00747  00747                % 01212 AVL---
+200101014 Bertrange, Richterwe  00748  00748                % 01212 AVL---
+200101006 Bertrange, Fleuri     00749  00749                % 01212 AVL---
+200420010 Merl, Op der Millen   00751  00751                % 01212 AVL---
+200420013 Merl, Plaak           00751  00751                % 01212 AVL---
+200420014 Merl, St.Hubert       00752  00752                % 01212 AVL---
+200420008 Merl, Laang Heck      00753  00753                % 01212 AVL---
+200420011 Merl, Orval           00754  00754                % 01212 AVL---
+200403013 Belair, Place de Fra  00755  00755                % 01212 AVL---
+200420012 Merl, Parc            00756  00756                % 01212 AVL---
+200403007 Belair, Franciscaine  00757  00757                % 01212 AVL---
+200403006 Belair, Crécy         00758  00758                % 01212 AVL---
+200403020 Belair, Wampach       00759  00759                % 01212 AVL---
+200405025 Luxembourg/Centre, M  00801  00801                % 01212 AVL---
+200405054 Centre, F.D. Rooseve  00804  00804                % 01212 AVL---
+200405039 Luxembourg, Wallis    00807  00807                % 01212 AVL---
+200405046 Luxembourg, Gare Roc  00808  00808                % 01212 AVL---
+200404034 Bonnevoie, Rotonde    00809  00809                % 01212 AVL---
+200404026 Bonnevoie, Léon XIII  00810  00810                % 01212 AVL---
+200404035 Bonnevoie, Vannérus   00811  00811                % 01212 AVL---
+200404038 Bonnevoie, Wisestroo  00812  00812                % 01212 AVL---
+200404019 Bonnevoie, Jean Jaco  00813  00813                % 01212 AVL---
+200404003 Bonnevoie, Anatole F  00814  00814                % 01212 AVL---
+200404018 Bonnevoie, Izegerknu  00814  00814                % 01212 AVL---
+200404022 Bonnevoie, Kaltreis   00815  00815                % 01212 AVL---
+200404029 Bonnevoie, Nic Marth  00816  00816                % 01212 AVL---
+200404021 Bonnevoie, Jules Fis  00816  00816                % 01212 AVL---
+200404033 Bonnevoie, Pont-Remy  00817  00817                % 01212 AVL---
+200404007 Bonnevoie, Demy Schl  00818                       % 01212 AVL---
+*Z 01213 AVL---       001 060                               % 01213 AVL---
+*L 5        200101008 200404007  01144  01222               % 01213 AVL---
+*A BE 200101008 200404007 000003  01144  01222              % 01213 AVL---
+*R 2 200404007 200101008 200404007  01144  01222            % 01213 AVL---
+*G AVS 200101008 200404007  01144  01222                    % 01213 AVL---
+*A VE 200101008 200404007 000003  01144  01222              % 01213 AVL---
+200101008 Bertrange, Gemeng            01144                % 01213 AVL---
+200101010 Bertrange, Kierfecht  01146  01146                % 01213 AVL---
+200101012 Bertrange, Montereal  01147  01147                % 01213 AVL---
+200101014 Bertrange, Richterwe  01148  01148                % 01213 AVL---
+200101006 Bertrange, Fleuri     01149  01149                % 01213 AVL---
+200420010 Merl, Op der Millen   01151  01151                % 01213 AVL---
+200420013 Merl, Plaak           01151  01151                % 01213 AVL---
+200420014 Merl, St.Hubert       01152  01152                % 01213 AVL---
+200420008 Merl, Laang Heck      01153  01153                % 01213 AVL---
+200420011 Merl, Orval           01154  01154                % 01213 AVL---
+200403013 Belair, Place de Fra  01155  01155                % 01213 AVL---
+200420012 Merl, Parc            01156  01156                % 01213 AVL---
+200403007 Belair, Franciscaine  01157  01157                % 01213 AVL---
+200403006 Belair, Crécy         01158  01158                % 01213 AVL---
+200403020 Belair, Wampach       01159  01159                % 01213 AVL---
+200405025 Luxembourg/Centre, M  01201  01205                % 01213 AVL---
+200405054 Centre, F.D. Rooseve  01208  01208                % 01213 AVL---
+200405039 Luxembourg, Wallis    01211  01211                % 01213 AVL---
+200405046 Luxembourg, Gare Roc  01212  01212                % 01213 AVL---
+200404034 Bonnevoie, Rotonde    01213  01213                % 01213 AVL---
+200404026 Bonnevoie, Léon XIII  01214  01214                % 01213 AVL---
+200404035 Bonnevoie, Vannérus   01215  01215                % 01213 AVL---
+200404038 Bonnevoie, Wisestroo  01216  01216                % 01213 AVL---
+200404019 Bonnevoie, Jean Jaco  01217  01217                % 01213 AVL---
+200404003 Bonnevoie, Anatole F  01218  01218                % 01213 AVL---
+200404018 Bonnevoie, Izegerknu  01218  01218                % 01213 AVL---
+200404022 Bonnevoie, Kaltreis   01219  01219                % 01213 AVL---
+200404029 Bonnevoie, Nic Marth  01220  01220                % 01213 AVL---
+200404021 Bonnevoie, Jules Fis  01220  01220                % 01213 AVL---
+200404033 Bonnevoie, Pont-Remy  01221  01221                % 01213 AVL---
+200404007 Bonnevoie, Demy Schl  01222                       % 01213 AVL---
+*Z 01214 AVL---       003 060                               % 01214 AVL---
+*L 5        200101008 200404007  01314  01352               % 01214 AVL---
+*A BE 200101008 200404007 000003  01314  01352              % 01214 AVL---
+*R 2 200404007 200101008 200404007  01314  01352            % 01214 AVL---
+*G AVS 200101008 200404007  01314  01352                    % 01214 AVL---
+*A VE 200101008 200404007 000003  01314  01352              % 01214 AVL---
+200101008 Bertrange, Gemeng            01314                % 01214 AVL---
+200101010 Bertrange, Kierfecht  01316  01316                % 01214 AVL---
+200101012 Bertrange, Montereal  01317  01317                % 01214 AVL---
+200101014 Bertrange, Richterwe  01318  01318                % 01214 AVL---
+200101006 Bertrange, Fleuri     01319  01319                % 01214 AVL---
+200420010 Merl, Op der Millen   01321  01321                % 01214 AVL---
+200420013 Merl, Plaak           01321  01321                % 01214 AVL---
+200420014 Merl, St.Hubert       01322  01322                % 01214 AVL---
+200420008 Merl, Laang Heck      01323  01323                % 01214 AVL---
+200420011 Merl, Orval           01324  01324                % 01214 AVL---
+200403013 Belair, Place de Fra  01325  01325                % 01214 AVL---
+200420012 Merl, Parc            01326  01326                % 01214 AVL---
+200403007 Belair, Franciscaine  01327  01327                % 01214 AVL---
+200403006 Belair, Crécy         01328  01328                % 01214 AVL---
+200403020 Belair, Wampach       01329  01329                % 01214 AVL---
+200405025 Luxembourg/Centre, M  01331  01335                % 01214 AVL---
+200405054 Centre, F.D. Rooseve  01338  01338                % 01214 AVL---
+200405039 Luxembourg, Wallis    01341  01341                % 01214 AVL---
+200405046 Luxembourg, Gare Roc  01342  01342                % 01214 AVL---
+200404034 Bonnevoie, Rotonde    01343  01343                % 01214 AVL---
+200404026 Bonnevoie, Léon XIII  01344  01344                % 01214 AVL---
+200404035 Bonnevoie, Vannérus   01345  01345                % 01214 AVL---
+200404038 Bonnevoie, Wisestroo  01346  01346                % 01214 AVL---
+200404019 Bonnevoie, Jean Jaco  01347  01347                % 01214 AVL---
+200404003 Bonnevoie, Anatole F  01348  01348                % 01214 AVL---
+200404018 Bonnevoie, Izegerknu  01348  01348                % 01214 AVL---
+200404022 Bonnevoie, Kaltreis   01349  01349                % 01214 AVL---
+200404029 Bonnevoie, Nic Marth  01350  01350                % 01214 AVL---
+200404021 Bonnevoie, Jules Fis  01350  01350                % 01214 AVL---
+200404033 Bonnevoie, Pont-Remy  01351  01351                % 01214 AVL---
+200404007 Bonnevoie, Demy Schl  01352                       % 01214 AVL---
+*Z 01215 AVL---       002 060                               % 01215 AVL---
+*L 5        200101008 200404007  01644  01722               % 01215 AVL---
+*A BE 200101008 200404007 000003  01644  01722              % 01215 AVL---
+*R 2 200404007 200101008 200404007  01644  01722            % 01215 AVL---
+*G AVS 200101008 200404007  01644  01722                    % 01215 AVL---
+*A VE 200101008 200404007 000003  01644  01722              % 01215 AVL---
+200101008 Bertrange, Gemeng            01644                % 01215 AVL---
+200101010 Bertrange, Kierfecht  01646  01646                % 01215 AVL---
+200101012 Bertrange, Montereal  01647  01647                % 01215 AVL---
+200101014 Bertrange, Richterwe  01648  01648                % 01215 AVL---
+200101006 Bertrange, Fleuri     01649  01649                % 01215 AVL---
+200420010 Merl, Op der Millen   01651  01651                % 01215 AVL---
+200420013 Merl, Plaak           01651  01651                % 01215 AVL---
+200420014 Merl, St.Hubert       01652  01652                % 01215 AVL---
+200420008 Merl, Laang Heck      01653  01653                % 01215 AVL---
+200420011 Merl, Orval           01654  01654                % 01215 AVL---
+200403013 Belair, Place de Fra  01655  01655                % 01215 AVL---
+200420012 Merl, Parc            01656  01656                % 01215 AVL---
+200403007 Belair, Franciscaine  01657  01657                % 01215 AVL---
+200403006 Belair, Crécy         01658  01658                % 01215 AVL---
+200403020 Belair, Wampach       01659  01659                % 01215 AVL---
+200405025 Luxembourg/Centre, M  01701  01705                % 01215 AVL---
+200405054 Centre, F.D. Rooseve  01708  01708                % 01215 AVL---
+200405039 Luxembourg, Wallis    01711  01711                % 01215 AVL---
+200405046 Luxembourg, Gare Roc  01712  01712                % 01215 AVL---
+200404034 Bonnevoie, Rotonde    01713  01713                % 01215 AVL---
+200404026 Bonnevoie, Léon XIII  01714  01714                % 01215 AVL---
+200404035 Bonnevoie, Vannérus   01715  01715                % 01215 AVL---
+200404038 Bonnevoie, Wisestroo  01716  01716                % 01215 AVL---
+200404019 Bonnevoie, Jean Jaco  01717  01717                % 01215 AVL---
+200404003 Bonnevoie, Anatole F  01718  01718                % 01215 AVL---
+200404018 Bonnevoie, Izegerknu  01718  01718                % 01215 AVL---
+200404022 Bonnevoie, Kaltreis   01719  01719                % 01215 AVL---
+200404029 Bonnevoie, Nic Marth  01720  01720                % 01215 AVL---
+200404021 Bonnevoie, Jules Fis  01720  01720                % 01215 AVL---
+200404033 Bonnevoie, Pont-Remy  01721  01721                % 01215 AVL---
+200404007 Bonnevoie, Demy Schl  01722                       % 01215 AVL---

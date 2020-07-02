@@ -1,0 +1,241 @@
+*F 03 2
+*Z 09590 RGTR--                                             % 09590 RGTR--
+*L 834      110802001 160301008  00416  00534               % 09590 RGTR--
+*A bv 110802001 160301008 000001  00416  00534              % 09590 RGTR--
+*A by 110802001 160301008 000001  00416  00534              % 09590 RGTR--
+*A HB 110802001 160301008 000001  00416  00534              % 09590 RGTR--
+*R 1 160301008 110802001 160301008  00416  00534            % 09590 RGTR--
+*G RGB 110802001 160301008  00416  00534                    % 09590 RGTR--
+*A VE 110802001 160301008 000001  00416  00534              % 09590 RGTR--
+*I FD 110802001 160301008        0003639  00416  00534      % 09590 RGTR--
+110802001 Asselborn, Burregaas         00416                % 09590 RGTR--
+110802002 Asselborn, Uäwwelaan  00416  00416                % 09590 RGTR--
+110606005 Troisvierges, Police  00419  00419                % 09590 RGTR--
+110606003 Troisvierges, Milleb  00420  00420                % 09590 RGTR--
+110606002 Troisvierges, Mairie  00422  00422                % 09590 RGTR--
+110606006 Troisvierges, Tomm    00422  00422                % 09590 RGTR--
+110606004 Troisvierges, Paster  00423  00423                % 09590 RGTR--
+110602001 Drinklange            00424  00424                % 09590 RGTR--
+110607002 Wilwerdange, Schoul   00425  00425                % 09590 RGTR--
+110702002 Binsfeld, Beim alen   00428  00428                % 09590 RGTR--
+110702001 Binsfeld, Om Béchel   00428  00428                % 09590 RGTR--
+110704001 Holler                00429  00429                % 09590 RGTR--
+110706012 Weiswampach, Grait    00433  00433                % 09590 RGTR--
+110706007 Weiswampach, Post     00434  00434                % 09590 RGTR--
+110706008 Weiswampach, Iäwwisc  00435  00435                % 09590 RGTR--
+110307001 Lausdorn              00438  00438                % 09590 RGTR--
+110303002 Heinerscheid, Bei Mi  00440  00440                % 09590 RGTR--
+110303003 Heinerscheid, Geméin  00441  00441                % 09590 RGTR--
+110303001 Heinerscheid, Bei Di  00442  00442                % 09590 RGTR--
+110301001 Fischbach/Heinersche  00444  00444                % 09590 RGTR--
+110502004 Marnach, Fëschberstr  00445  00445                % 09590 RGTR--
+110502009 Marnach, Pënnik       00446  00446                % 09590 RGTR--
+140401006 Diekirch, Kluuster    00509  00509                % 09590 RGTR--
+140401004 Diekirch, Gare        00511  00511                % 09590 RGTR--
+140401008 Diekirch, Lorentzwue  00512  00512                % 09590 RGTR--
+140603002 Ingeldorf, Café de l  00514  00514                % 09590 RGTR--
+140602008 Erpeldange/Sûre, Um   00515  00515                % 09590 RGTR--
+140701001 Ettelbruck, Anc. Cli  00518  00518                % 09590 RGTR--
+140701026 Ettelbruck, Rond Poi  00520  00520                % 09590 RGTR--
+140701018 Ettelbruck, H.v.Land  00521  00521                % 09590 RGTR--
+160301002 Colmar, Centre        00525  00525                % 09590 RGTR--
+160301007 Colmar, Usines        00527  00530                % 09590 RGTR--
+160301006 Colmar, Raedelsboesc  00531  00531                % 09590 RGTR--
+160301009 Colmar, Z.I. Jean Pi  00533  00533                % 09590 RGTR--
+160301008 Colmar, Usine Hyosun  00534                       % 09590 RGTR--
+*Z 09591 RGTR--                                             % 09591 RGTR--
+*L 834      110802001 160301008  01216  01334               % 09591 RGTR--
+*A bv 110802001 160301008 000001  01216  01334              % 09591 RGTR--
+*A by 110802001 160301008 000001  01216  01334              % 09591 RGTR--
+*A HB 110802001 160301008 000001  01216  01334              % 09591 RGTR--
+*R 1 160301008 110802001 160301008  01216  01334            % 09591 RGTR--
+*G RGB 110802001 160301008  01216  01334                    % 09591 RGTR--
+*A VE 110802001 160301008 000001  01216  01334              % 09591 RGTR--
+*I FD 110802001 160301008        0003084  01216  01334      % 09591 RGTR--
+110802001 Asselborn, Burregaas         01216                % 09591 RGTR--
+110802002 Asselborn, Uäwwelaan  01216  01216                % 09591 RGTR--
+110606005 Troisvierges, Police  01219  01219                % 09591 RGTR--
+110606003 Troisvierges, Milleb  01220  01220                % 09591 RGTR--
+110606002 Troisvierges, Mairie  01222  01222                % 09591 RGTR--
+110606006 Troisvierges, Tomm    01222  01222                % 09591 RGTR--
+110606004 Troisvierges, Paster  01223  01223                % 09591 RGTR--
+110602001 Drinklange            01224  01224                % 09591 RGTR--
+110607002 Wilwerdange, Schoul   01225  01225                % 09591 RGTR--
+110702002 Binsfeld, Beim alen   01228  01228                % 09591 RGTR--
+110702001 Binsfeld, Om Béchel   01228  01228                % 09591 RGTR--
+110704001 Holler                01229  01229                % 09591 RGTR--
+110706012 Weiswampach, Grait    01233  01233                % 09591 RGTR--
+110706007 Weiswampach, Post     01234  01234                % 09591 RGTR--
+110706008 Weiswampach, Iäwwisc  01235  01235                % 09591 RGTR--
+110307001 Lausdorn              01238  01238                % 09591 RGTR--
+110303002 Heinerscheid, Bei Mi  01240  01240                % 09591 RGTR--
+110303003 Heinerscheid, Geméin  01241  01241                % 09591 RGTR--
+110303001 Heinerscheid, Bei Di  01242  01242                % 09591 RGTR--
+110301001 Fischbach/Heinersche  01244  01244                % 09591 RGTR--
+110502004 Marnach, Fëschberstr  01245  01245                % 09591 RGTR--
+110502009 Marnach, Pënnik       01246  01246                % 09591 RGTR--
+140401006 Diekirch, Kluuster    01309  01309                % 09591 RGTR--
+140401004 Diekirch, Gare        01311  01311                % 09591 RGTR--
+140401008 Diekirch, Lorentzwue  01312  01312                % 09591 RGTR--
+140603002 Ingeldorf, Café de l  01314  01314                % 09591 RGTR--
+140602008 Erpeldange/Sûre, Um   01315  01315                % 09591 RGTR--
+140701001 Ettelbruck, Anc. Cli  01318  01318                % 09591 RGTR--
+140701026 Ettelbruck, Rond Poi  01320  01320                % 09591 RGTR--
+140701018 Ettelbruck, H.v.Land  01321  01321                % 09591 RGTR--
+160301002 Colmar, Centre        01325  01325                % 09591 RGTR--
+160301007 Colmar, Usines        01327  01330                % 09591 RGTR--
+160301006 Colmar, Raedelsboesc  01331  01331                % 09591 RGTR--
+160301009 Colmar, Z.I. Jean Pi  01333  01333                % 09591 RGTR--
+160301008 Colmar, Usine Hyosun  01334                       % 09591 RGTR--
+*Z 09592 RGTR--                                             % 09592 RGTR--
+*L 834      110802001 160301008  02016  02134               % 09592 RGTR--
+*A bv 110802001 160301008 000001  02016  02134              % 09592 RGTR--
+*A by 110802001 160301008 000001  02016  02134              % 09592 RGTR--
+*A HB 110802001 160301008 000001  02016  02134              % 09592 RGTR--
+*R 1 160301008 110802001 160301008  02016  02134            % 09592 RGTR--
+*G RGB 110802001 160301008  02016  02134                    % 09592 RGTR--
+*A VE 110802001 160301008 000001  02016  02134              % 09592 RGTR--
+*I FD 110802001 160301008        0002690  02016  02134      % 09592 RGTR--
+110802001 Asselborn, Burregaas         02016                % 09592 RGTR--
+110802002 Asselborn, Uäwwelaan  02016  02016                % 09592 RGTR--
+110606005 Troisvierges, Police  02019  02019                % 09592 RGTR--
+110606003 Troisvierges, Milleb  02020  02020                % 09592 RGTR--
+110606002 Troisvierges, Mairie  02022  02022                % 09592 RGTR--
+110606006 Troisvierges, Tomm    02022  02022                % 09592 RGTR--
+110606004 Troisvierges, Paster  02023  02023                % 09592 RGTR--
+110602001 Drinklange            02024  02024                % 09592 RGTR--
+110607002 Wilwerdange, Schoul   02025  02025                % 09592 RGTR--
+110702002 Binsfeld, Beim alen   02028  02028                % 09592 RGTR--
+110702001 Binsfeld, Om Béchel   02028  02028                % 09592 RGTR--
+110704001 Holler                02029  02029                % 09592 RGTR--
+110706012 Weiswampach, Grait    02033  02033                % 09592 RGTR--
+110706007 Weiswampach, Post     02034  02034                % 09592 RGTR--
+110706008 Weiswampach, Iäwwisc  02035  02035                % 09592 RGTR--
+110307001 Lausdorn              02038  02038                % 09592 RGTR--
+110303002 Heinerscheid, Bei Mi  02040  02040                % 09592 RGTR--
+110303003 Heinerscheid, Geméin  02041  02041                % 09592 RGTR--
+110303001 Heinerscheid, Bei Di  02042  02042                % 09592 RGTR--
+110301001 Fischbach/Heinersche  02044  02044                % 09592 RGTR--
+110502004 Marnach, Fëschberstr  02045  02045                % 09592 RGTR--
+110502009 Marnach, Pënnik       02046  02046                % 09592 RGTR--
+140401006 Diekirch, Kluuster    02109  02109                % 09592 RGTR--
+140401004 Diekirch, Gare        02111  02111                % 09592 RGTR--
+140401008 Diekirch, Lorentzwue  02112  02112                % 09592 RGTR--
+140603002 Ingeldorf, Café de l  02114  02114                % 09592 RGTR--
+140602008 Erpeldange/Sûre, Um   02115  02115                % 09592 RGTR--
+140701001 Ettelbruck, Anc. Cli  02118  02118                % 09592 RGTR--
+140701026 Ettelbruck, Rond Poi  02120  02120                % 09592 RGTR--
+140701018 Ettelbruck, H.v.Land  02121  02121                % 09592 RGTR--
+160301002 Colmar, Centre        02125  02125                % 09592 RGTR--
+160301007 Colmar, Usines        02127  02130                % 09592 RGTR--
+160301006 Colmar, Raedelsboesc  02131  02131                % 09592 RGTR--
+160301009 Colmar, Z.I. Jean Pi  02133  02133                % 09592 RGTR--
+160301008 Colmar, Usine Hyosun  02134                       % 09592 RGTR--
+*Z 09593 RGTR--                                             % 09593 RGTR--
+*L 834      160301008 110802001  00605  00720               % 09593 RGTR--
+*A bv 160301008 110802001 000048  00605  00720              % 09593 RGTR--
+*A by 160301008 110802001 000048  00605  00720              % 09593 RGTR--
+*A bz 160301008 110802001 000048  00605  00720              % 09593 RGTR--
+*R 2 110802001 160301008 110802001  00605  00720            % 09593 RGTR--
+*G RGB 160301008 110802001  00605  00720                    % 09593 RGTR--
+*A VE 160301008 110802001 000048  00605  00720              % 09593 RGTR--
+*I FD 160301008 110802001        0001969  00605  00720      % 09593 RGTR--
+160301008 Colmar, Usine Hyosun         00605                % 09593 RGTR--
+160301009 Colmar, Z.I. Jean Pi  00606  00606                % 09593 RGTR--
+160301006 Colmar, Raedelsboesc  00607  00607                % 09593 RGTR--
+160301007 Colmar, Usines        00608  00617                % 09593 RGTR--
+160301002 Colmar, Centre        00618  00618                % 09593 RGTR--
+110502009 Marnach, Pënnik       00649  00649                % 09593 RGTR--
+110502004 Marnach, Fëschberstr  00649  00649                % 09593 RGTR--
+110301001 Fischbach/Heinersche  00650  00650                % 09593 RGTR--
+110303001 Heinerscheid, Bei Di  00653  00653                % 09593 RGTR--
+110303003 Heinerscheid, Geméin  00653  00653                % 09593 RGTR--
+110303002 Heinerscheid, Bei Mi  00654  00654                % 09593 RGTR--
+110307001 Lausdorn              00656  00656                % 09593 RGTR--
+110706008 Weiswampach, Iäwwisc  00659  00659                % 09593 RGTR--
+110706007 Weiswampach, Post     00700  00700                % 09593 RGTR--
+110706005 Weiswampach, Ennisch  00700  00700                % 09593 RGTR--
+110704001 Holler                00705  00705                % 09593 RGTR--
+110702001 Binsfeld, Om Béchel   00706  00706                % 09593 RGTR--
+110702002 Binsfeld, Beim alen   00707  00707                % 09593 RGTR--
+110607002 Wilwerdange, Schoul   00710  00710                % 09593 RGTR--
+110602001 Drinklange            00711  00711                % 09593 RGTR--
+110606004 Troisvierges, Paster  00712  00712                % 09593 RGTR--
+110606006 Troisvierges, Tomm    00713  00713                % 09593 RGTR--
+110606002 Troisvierges, Mairie  00714  00714                % 09593 RGTR--
+110606003 Troisvierges, Milleb  00715  00715                % 09593 RGTR--
+110606005 Troisvierges, Police  00716  00716                % 09593 RGTR--
+110802002 Asselborn, Uäwwelaan  00719  00719                % 09593 RGTR--
+110802001 Asselborn, Burregaas  00720                       % 09593 RGTR--
+*Z 09594 RGTR--                                             % 09594 RGTR--
+*L 834      160301008 110802001  01405  01517               % 09594 RGTR--
+*A bv 160301008 110802001 000001  01405  01517              % 09594 RGTR--
+*A by 160301008 110802001 000001  01405  01517              % 09594 RGTR--
+*A bz 160301008 110802001 000001  01405  01517              % 09594 RGTR--
+*R 2 110802001 160301008 110802001  01405  01517            % 09594 RGTR--
+*G RGB 160301008 110802001  01405  01517                    % 09594 RGTR--
+*A VE 160301008 110802001 000001  01405  01517              % 09594 RGTR--
+*I FD 160301008 110802001        0002538  01405  01517      % 09594 RGTR--
+160301008 Colmar, Usine Hyosun         01405                % 09594 RGTR--
+160301009 Colmar, Z.I. Jean Pi  01406  01406                % 09594 RGTR--
+160301006 Colmar, Raedelsboesc  01407  01407                % 09594 RGTR--
+160301007 Colmar, Usines        01408  01417                % 09594 RGTR--
+160301002 Colmar, Centre        01418  01418                % 09594 RGTR--
+110502009 Marnach, Pënnik       01447  01447                % 09594 RGTR--
+110502004 Marnach, Fëschberstr  01447  01447                % 09594 RGTR--
+110301001 Fischbach/Heinersche  01448  01448                % 09594 RGTR--
+110303001 Heinerscheid, Bei Di  01450  01450                % 09594 RGTR--
+110303003 Heinerscheid, Geméin  01451  01451                % 09594 RGTR--
+110303002 Heinerscheid, Bei Mi  01452  01452                % 09594 RGTR--
+110307001 Lausdorn              01454  01454                % 09594 RGTR--
+110706008 Weiswampach, Iäwwisc  01457  01457                % 09594 RGTR--
+110706007 Weiswampach, Post     01458  01458                % 09594 RGTR--
+110706005 Weiswampach, Ennisch  01458  01458                % 09594 RGTR--
+110704001 Holler                01503  01503                % 09594 RGTR--
+110702001 Binsfeld, Om Béchel   01504  01504                % 09594 RGTR--
+110702002 Binsfeld, Beim alen   01504  01504                % 09594 RGTR--
+110607002 Wilwerdange, Schoul   01508  01508                % 09594 RGTR--
+110602001 Drinklange            01509  01509                % 09594 RGTR--
+110606004 Troisvierges, Paster  01510  01510                % 09594 RGTR--
+110606006 Troisvierges, Tomm    01511  01511                % 09594 RGTR--
+110606002 Troisvierges, Mairie  01511  01511                % 09594 RGTR--
+110606003 Troisvierges, Milleb  01512  01512                % 09594 RGTR--
+110606005 Troisvierges, Police  01513  01513                % 09594 RGTR--
+110802002 Asselborn, Uäwwelaan  01516  01516                % 09594 RGTR--
+110802001 Asselborn, Burregaas  01517                       % 09594 RGTR--
+*Z 09595 RGTR--                                             % 09595 RGTR--
+*L 834      160301008 110802001  02205  02317               % 09595 RGTR--
+*A bv 160301008 110802001 000001  02205  02317              % 09595 RGTR--
+*A by 160301008 110802001 000001  02205  02317              % 09595 RGTR--
+*A bz 160301008 110802001 000001  02205  02317              % 09595 RGTR--
+*R 2 110802001 160301008 110802001  02205  02317            % 09595 RGTR--
+*G RGB 160301008 110802001  02205  02317                    % 09595 RGTR--
+*A VE 160301008 110802001 000001  02205  02317              % 09595 RGTR--
+*I FD 160301008 110802001        0002883  02205  02317      % 09595 RGTR--
+160301008 Colmar, Usine Hyosun         02205                % 09595 RGTR--
+160301009 Colmar, Z.I. Jean Pi  02206  02206                % 09595 RGTR--
+160301006 Colmar, Raedelsboesc  02207  02207                % 09595 RGTR--
+160301007 Colmar, Usines        02208  02217                % 09595 RGTR--
+160301002 Colmar, Centre        02218  02218                % 09595 RGTR--
+110502009 Marnach, Pënnik       02247  02247                % 09595 RGTR--
+110502004 Marnach, Fëschberstr  02247  02247                % 09595 RGTR--
+110301001 Fischbach/Heinersche  02248  02248                % 09595 RGTR--
+110303001 Heinerscheid, Bei Di  02250  02250                % 09595 RGTR--
+110303003 Heinerscheid, Geméin  02251  02251                % 09595 RGTR--
+110303002 Heinerscheid, Bei Mi  02252  02252                % 09595 RGTR--
+110307001 Lausdorn              02254  02254                % 09595 RGTR--
+110706008 Weiswampach, Iäwwisc  02257  02257                % 09595 RGTR--
+110706007 Weiswampach, Post     02258  02258                % 09595 RGTR--
+110706005 Weiswampach, Ennisch  02258  02258                % 09595 RGTR--
+110704001 Holler                02303  02303                % 09595 RGTR--
+110702001 Binsfeld, Om Béchel   02304  02304                % 09595 RGTR--
+110702002 Binsfeld, Beim alen   02304  02304                % 09595 RGTR--
+110607002 Wilwerdange, Schoul   02308  02308                % 09595 RGTR--
+110602001 Drinklange            02309  02309                % 09595 RGTR--
+110606004 Troisvierges, Paster  02310  02310                % 09595 RGTR--
+110606006 Troisvierges, Tomm    02311  02311                % 09595 RGTR--
+110606002 Troisvierges, Mairie  02311  02311                % 09595 RGTR--
+110606003 Troisvierges, Milleb  02312  02312                % 09595 RGTR--
+110606005 Troisvierges, Police  02313  02313                % 09595 RGTR--
+110802002 Asselborn, Uäwwelaan  02316  02316                % 09595 RGTR--
+110802001 Asselborn, Burregaas  02317                       % 09595 RGTR--

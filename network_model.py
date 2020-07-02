@@ -3,6 +3,7 @@
 #Network Model
 #This file procedurally generates an environment, following Luxembourgish statistics.
 
+import os.path as osp
 import sys
 import math
 import random
@@ -20,21 +21,20 @@ from scipy.spatial import KDTree
 from random_tools import multinoulli, multinoulli_2d, multinoulli_dict
 from agent import Agent, AgentType, POPULATION_SLICES
 from location import Location
-from config import load_config
 from activity import ActivityManager
+from config import Config
+
 
 # Config
 random.seed(652)        # FIXME: read from config
 PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
-DENSITY_MAP_FILENAME   = 'Density_Map/Density_Map.csv'
-PARAMETERS_FILENAME    = 'Data/simulation_parameters.yaml'
-
-NETWORK_OUTPUT_FILENAME    = "Network/Network.pickle"
+DENSITY_MAP_FILENAME   = 'Density_Map.csv'
+NETWORK_FILENAME       = "Network.pickle"
 
 # ------------------------------------------------[ Config ]------------------------------------
-print(f"Loading config from {PARAMETERS_FILENAME}...")
-config = load_config(PARAMETERS_FILENAME)
+config = Config(sys.argv[1])
 activity_manager = ActivityManager(config['activities'])
+
 
 # ------------------------------------------------[ Agents ]------------------------------------
 print('Initializing agents...')
@@ -93,8 +93,9 @@ for ltype, lcount in tqdm(location_counts.items()):
     locations += new_locations
 
 # The density matrix contructed by the file DensityModel is now loaded:
-print(f"Loading density matrix from {DENSITY_MAP_FILENAME}...")
-density = np.genfromtxt(DENSITY_MAP_FILENAME, delimiter=',', dtype = 'int')
+density_map_filename = osp.join(config.filepath('working_dir'), DENSITY_MAP_FILENAME)
+print(f"Loading density matrix from {density_map_filename}...")
+density = np.genfromtxt(density_map_filename, delimiter=',', dtype = 'int')
 print(f"Density map is of size {density.shape}")
 
 
@@ -291,10 +292,11 @@ for car, house in zip(locations_by_type["Car"], locations_by_type["House"]):
 
 #--------Save data--------
 sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
-print(f"Writing agents list to {NETWORK_OUTPUT_FILENAME}...")
+network_filename = osp.join(config.filepath('working_dir', True), NETWORK_FILENAME)
+print(f"Writing agents list to {network_filename}...")
 payload = {"agents_by_type": agents_by_type,
            "locations_by_type": locations_by_type}
-with open(NETWORK_OUTPUT_FILENAME, 'wb') as fout:
+with open(network_filename, 'wb') as fout:
     pickle.dump(payload, fout)
 
 print('Done.')

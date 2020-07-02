@@ -1,0 +1,202 @@
+*F 03 2
+*Z 06353 RGTR--                                             % 06353 RGTR--
+*L 270      200405045 161105001  01615  01659               % 06353 RGTR--
+*A ag 200405045 161105001 000001  01615  01659              % 06353 RGTR--
+*R 1 161105001 200405045 161105001  01615  01659            % 06353 RGTR--
+*G RGB 200405045 161105001  01615  01659                    % 06353 RGTR--
+*A VE 200405045 161105001 000001  01615  01659              % 06353 RGTR--
+*I FD 200405045 161105001        0001729  01615  01659      % 06353 RGTR--
+200405045 Centre, Stäreplaz /          01615                % 06353 RGTR--
+200425006 Rollingergrund, Roud  01621  01621                % 06353 RGTR--
+190801003 Bridel, Schanz        01625  01625                % 06353 RGTR--
+190801004 Bridel, Stuff         01626  01626                % 06353 RGTR--
+190801005 Bridel, Taverne       01627  01627                % 06353 RGTR--
+190801002 Bridel, Flamo         01627  01627                % 06353 RGTR--
+190801001 Bridel, Berk          01628  01628                % 06353 RGTR--
+190802002 Kopstal, Kapell       01629  01629                % 06353 RGTR--
+190802001 Kopstal, Bréck        01631  01631                % 06353 RGTR--
+190601001 Dondelange/Dondel     01637  01637                % 06353 RGTR--
+190601002 Dondelange, Pompstat  01638  01638                % 06353 RGTR--
+161102001 Bour                  01639  01639                % 06353 RGTR--
+191003001 Roodt/Bour, Bréck     01641  01641                % 06353 RGTR--
+191002002 Septfontaines, Simme  01642  01642                % 06353 RGTR--
+191004001 Leesbach              01643  01643                % 06353 RGTR--
+191001001 Greisch, Op der Quae  01646  01646                % 06353 RGTR--
+161106002 Tuntange, Kiirch      01649  01649                % 06353 RGTR--
+161106003 Tuntange, Knupp       01650  01650                % 06353 RGTR--
+161103001 Hollenfels, Schoul    01653  01653                % 06353 RGTR--
+161103002 Hollenfels, Vereinsb  01654  01654                % 06353 RGTR--
+161104001 Kuelbecherhaff        01657  01657                % 06353 RGTR--
+161105001 Marienthal            01659                       % 06353 RGTR--
+*Z 06354 RGTR--                                             % 06354 RGTR--
+*L 270      200405045 161103002  01215  01245               % 06354 RGTR--
+*A ag 200405045 161103002 000001  01215  01245              % 06354 RGTR--
+*R 1 161103002 200405045 161103002  01215  01245            % 06354 RGTR--
+*G RGB 200405045 161103002  01215  01245                    % 06354 RGTR--
+*A VE 200405045 161103002 000001  01215  01245              % 06354 RGTR--
+*I FD 200405045 161103002        0001734  01215  01245      % 06354 RGTR--
+200405045 Centre, Stäreplaz /          01215                % 06354 RGTR--
+200425006 Rollingergrund, Roud  01219  01219                % 06354 RGTR--
+190801003 Bridel, Schanz        01223  01223                % 06354 RGTR--
+190801004 Bridel, Stuff         01224  01224                % 06354 RGTR--
+190801005 Bridel, Taverne       01225  01225                % 06354 RGTR--
+190801002 Bridel, Flamo         01226  01226                % 06354 RGTR--
+190801001 Bridel, Berk          01226  01226                % 06354 RGTR--
+190802002 Kopstal, Kapell       01228  01228                % 06354 RGTR--
+190802001 Kopstal, Bréck        01229  01229                % 06354 RGTR--
+190601001 Dondelange/Dondel     01234  01234                % 06354 RGTR--
+190601002 Dondelange, Pompstat  01236  01236                % 06354 RGTR--
+161102001 Bour                  01236  01236                % 06354 RGTR--
+161106005 Tuntange, Weisserche  01239  01239                % 06354 RGTR--
+161106002 Tuntange, Kiirch      01240  01240                % 06354 RGTR--
+161106003 Tuntange, Knupp       01241  01241                % 06354 RGTR--
+161103001 Hollenfels, Schoul    01244  01244                % 06354 RGTR--
+161103002 Hollenfels, Vereinsb  01245                       % 06354 RGTR--
+*Z 06355 RGTR--                                             % 06355 RGTR--
+*L 270      200419021 161105001  01357  01459               % 06355 RGTR--
+*A ag 200419021 161105001 000002  01357  01459              % 06355 RGTR--
+*A do 200419021 161105001 000002  01357  01459              % 06355 RGTR--
+*R 1 161105001 200419021 161105001  01357  01459            % 06355 RGTR--
+*G RGB 200419021 161105001  01357  01459                    % 06355 RGTR--
+*A VE 200419021 161105001 000002  01357  01459              % 06355 RGTR--
+*I FD 200419021 161105001        0003326  01357  01459      % 06355 RGTR--
+200419021 Limpertsberg, L.T.C.         01357                % 06355 RGTR--
+200419025 Limpertsberg, Lycée   01401  01401                % 06355 RGTR--
+200419026 Limpertsberg, Theate  01404  01404                % 06355 RGTR--
+200405045 Centre, Stäreplaz /   01406  01406                % 06355 RGTR--
+200425006 Rollingergrund, Roud  01411  01411                % 06355 RGTR--
+190801003 Bridel, Schanz        01415  01415                % 06355 RGTR--
+190801004 Bridel, Stuff         01416  01416                % 06355 RGTR--
+190801005 Bridel, Taverne       01417  01417                % 06355 RGTR--
+190801002 Bridel, Flamo         01418  01418                % 06355 RGTR--
+190801001 Bridel, Berk          01418  01418                % 06355 RGTR--
+190802002 Kopstal, Kapell       01419  01419                % 06355 RGTR--
+190802001 Kopstal, Bréck        01421  01421                % 06355 RGTR--
+190601001 Dondelange/Dondel     01426  01426                % 06355 RGTR--
+190601002 Dondelange, Pompstat  01427  01427                % 06355 RGTR--
+161102001 Bour                  01428  01428                % 06355 RGTR--
+191003001 Roodt/Bour, Bréck     01430  01430                % 06355 RGTR--
+191002002 Septfontaines, Simme  01431  01431                % 06355 RGTR--
+191004001 Leesbach              01432  01432                % 06355 RGTR--
+191001001 Greisch, Op der Quae  01435  01435                % 06355 RGTR--
+161106002 Tuntange, Kiirch      01438  01450                % 06355 RGTR--
+161106003 Tuntange, Knupp       01451  01451                % 06355 RGTR--
+161103001 Hollenfels, Schoul    01454  01454                % 06355 RGTR--
+161103002 Hollenfels, Vereinsb  01455  01455                % 06355 RGTR--
+161104001 Kuelbecherhaff        01457  01457                % 06355 RGTR--
+161105001 Marienthal            01459                       % 06355 RGTR--
+*Z 06356 RGTR--                                             % 06356 RGTR--
+*L 270      191001001 200419021  00656  00743               % 06356 RGTR--
+*A ag 191001001 200419021 000002  00656  00743              % 06356 RGTR--
+*A FD 191001001 200419021 000002  00656  00743              % 06356 RGTR--
+*R 2 200419021 191001001 200419021  00656  00743            % 06356 RGTR--
+*G RGB 191001001 200419021  00656  00743                    % 06356 RGTR--
+*A VE 191001001 200419021 000002  00656  00743              % 06356 RGTR--
+*I FD 191001001 200419021        0002528  00656  00743      % 06356 RGTR--
+191001001 Greisch, Op der Quae         00656                % 06356 RGTR--
+191004001 Leesbach              00659  00659                % 06356 RGTR--
+191002002 Septfontaines, Simme  00700  00700                % 06356 RGTR--
+191003001 Roodt/Bour, Bréck     00702  00702                % 06356 RGTR--
+161102001 Bour                  00704  00704                % 06356 RGTR--
+190601002 Dondelange, Pompstat  00704  00704                % 06356 RGTR--
+190601001 Dondelange/Dondel     00705  00705                % 06356 RGTR--
+190802001 Kopstal, Bréck        00711  00711                % 06356 RGTR--
+190802004 KOPSTAL, Kléipesch    00712  00712                % 06356 RGTR--
+190801001 Bridel, Berk          00714  00714                % 06356 RGTR--
+190801002 Bridel, Flamo         00714  00714                % 06356 RGTR--
+190801005 Bridel, Taverne       00715  00715                % 06356 RGTR--
+190801004 Bridel, Stuff         00717  00717                % 06356 RGTR--
+190801003 Bridel, Schanz        00718  00718                % 06356 RGTR--
+200425006 Rollingergrund, Roud  00722  00722                % 06356 RGTR--
+200405045 Centre, Stäreplaz /   00730  00730                % 06356 RGTR--
+200419026 Limpertsberg, Theate  00737  00737                % 06356 RGTR--
+200419025 Limpertsberg, Lycée   00739  00739                % 06356 RGTR--
+200419021 Limpertsberg, L.T.C.  00743                       % 06356 RGTR--
+*Z 06357 RGTR--                                             % 06357 RGTR--
+*L 270      161105001 200419021  00643  00745               % 06357 RGTR--
+*A ag 161105001 200419021 000005  00643  00745              % 06357 RGTR--
+*R 2 200419021 161105001 200419021  00643  00745            % 06357 RGTR--
+*G RGB 161105001 200419021  00643  00745                    % 06357 RGTR--
+*A VE 161105001 200419021 000005  00643  00745              % 06357 RGTR--
+*I FD 161105001 200419021        0002306  00643  00745      % 06357 RGTR--
+161105001 Marienthal                   00643                % 06357 RGTR--
+161104001 Kuelbecherhaff        00645  00645                % 06357 RGTR--
+161103002 Hollenfels, Vereinsb  00648  00648                % 06357 RGTR--
+161103001 Hollenfels, Schoul    00649  00649                % 06357 RGTR--
+161106003 Tuntange, Knupp       00652  00652                % 06357 RGTR--
+161106002 Tuntange, Kiirch      00653  00653                % 06357 RGTR--
+191001001 Greisch, Op der Quae  00657  00657                % 06357 RGTR--
+191004001 Leesbach              00700  00700                % 06357 RGTR--
+191002002 Septfontaines, Simme  00701  00701                % 06357 RGTR--
+191003001 Roodt/Bour, Bréck     00703  00703                % 06357 RGTR--
+161102001 Bour                  00705  00705                % 06357 RGTR--
+190601002 Dondelange, Pompstat  00706  00706                % 06357 RGTR--
+190601001 Dondelange/Dondel     00707  00707                % 06357 RGTR--
+190802001 Kopstal, Bréck        00712  00712                % 06357 RGTR--
+190802004 KOPSTAL, Kléipesch    00713  00713                % 06357 RGTR--
+190801001 Bridel, Berk          00715  00715                % 06357 RGTR--
+190801002 Bridel, Flamo         00716  00716                % 06357 RGTR--
+190801005 Bridel, Taverne       00717  00717                % 06357 RGTR--
+190801004 Bridel, Stuff         00718  00718                % 06357 RGTR--
+190801003 Bridel, Schanz        00719  00719                % 06357 RGTR--
+200425006 Rollingergrund, Roud  00724  00724                % 06357 RGTR--
+200405045 Centre, Stäreplaz /   00731  00731                % 06357 RGTR--
+200419026 Limpertsberg, Theate  00738  00738                % 06357 RGTR--
+200419025 Limpertsberg, Lycée   00741  00741                % 06357 RGTR--
+200419021 Limpertsberg, L.T.C.  00745                       % 06357 RGTR--
+*Z 06358 RGTR--                                             % 06358 RGTR--
+*L 270      161105001 200419021  00643  00736               % 06358 RGTR--
+*A ag 161105001 200419021 000002  00643  00736              % 06358 RGTR--
+*R 2 200419021 161105001 200419021  00643  00736            % 06358 RGTR--
+*G RGB 161105001 200419021  00643  00736                    % 06358 RGTR--
+*A VE 161105001 200419021 000002  00643  00736              % 06358 RGTR--
+*I FD 161105001 200419021        0002306  00643  00736      % 06358 RGTR--
+161105001 Marienthal                   00643                % 06358 RGTR--
+161104001 Kuelbecherhaff        00645  00645                % 06358 RGTR--
+161103002 Hollenfels, Vereinsb  00648  00648                % 06358 RGTR--
+161103001 Hollenfels, Schoul    00649  00649                % 06358 RGTR--
+161106003 Tuntange, Knupp       00652  00652                % 06358 RGTR--
+161106001 Tuntange, Duerf       00653  00653                % 06358 RGTR--
+161106005 Tuntange, Weisserche  00654  00654                % 06358 RGTR--
+161102001 Bour                  00657  00657                % 06358 RGTR--
+190601002 Dondelange, Pompstat  00657  00657                % 06358 RGTR--
+190601001 Dondelange/Dondel     00658  00658                % 06358 RGTR--
+190802001 Kopstal, Bréck        00704  00704                % 06358 RGTR--
+190802004 KOPSTAL, Kléipesch    00705  00705                % 06358 RGTR--
+190801001 Bridel, Berk          00707  00707                % 06358 RGTR--
+190801002 Bridel, Flamo         00707  00707                % 06358 RGTR--
+190801005 Bridel, Taverne       00708  00708                % 06358 RGTR--
+190801004 Bridel, Stuff         00710  00710                % 06358 RGTR--
+190801003 Bridel, Schanz        00711  00711                % 06358 RGTR--
+200425006 Rollingergrund, Roud  00715  00715                % 06358 RGTR--
+200405045 Centre, Stäreplaz /   00723  00723                % 06358 RGTR--
+200419026 Limpertsberg, Theate  00730  00730                % 06358 RGTR--
+200419025 Limpertsberg, Lycée   00732  00732                % 06358 RGTR--
+200419021 Limpertsberg, L.T.C.  00736                       % 06358 RGTR--
+*Z 06359 RGTR--                                             % 06359 RGTR--
+*L 270      161103002 200419021  01305  01345               % 06359 RGTR--
+*A ag 161103002 200419021 000001  01305  01345              % 06359 RGTR--
+*R 2 200419021 161103002 200419021  01305  01345            % 06359 RGTR--
+*G RGB 161103002 200419021  01305  01345                    % 06359 RGTR--
+*A VE 161103002 200419021 000001  01305  01345              % 06359 RGTR--
+*I FD 161103002 200419021        0002625  01305  01345      % 06359 RGTR--
+161103002 Hollenfels, Vereinsb         01305                % 06359 RGTR--
+161103001 Hollenfels, Schoul    01306  01306                % 06359 RGTR--
+161106003 Tuntange, Knupp       01309  01309                % 06359 RGTR--
+161106001 Tuntange, Duerf       01310  01310                % 06359 RGTR--
+161106005 Tuntange, Weisserche  01311  01311                % 06359 RGTR--
+161102001 Bour                  01313  01313                % 06359 RGTR--
+190601002 Dondelange, Pompstat  01314  01314                % 06359 RGTR--
+190601001 Dondelange/Dondel     01315  01315                % 06359 RGTR--
+190802001 Kopstal, Bréck        01320  01320                % 06359 RGTR--
+190802004 KOPSTAL, Kléipesch    01321  01321                % 06359 RGTR--
+190801001 Bridel, Berk          01322  01322                % 06359 RGTR--
+190801002 Bridel, Flamo         01323  01323                % 06359 RGTR--
+190801005 Bridel, Taverne       01324  01324                % 06359 RGTR--
+190801004 Bridel, Stuff         01325  01325                % 06359 RGTR--
+190801003 Bridel, Schanz        01326  01326                % 06359 RGTR--
+200425006 Rollingergrund, Roud  01330  01330                % 06359 RGTR--
+200405045 Centre, Stäreplaz /   01335  01335                % 06359 RGTR--
+200419026 Limpertsberg, Theate  01339  01339                % 06359 RGTR--
+200419025 Limpertsberg, Lycée   01341  01341                % 06359 RGTR--
+200419021 Limpertsberg, L.T.C.  01345                       % 06359 RGTR--

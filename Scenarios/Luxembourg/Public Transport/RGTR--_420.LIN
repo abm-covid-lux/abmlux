@@ -1,0 +1,113 @@
+*F 03 2
+*Z 01502 RGTR--                                             % 01502 RGTR--
+*L 420      160401001 180511008  00711  00749               % 01502 RGTR--
+*A al 160401001 180511008 000002  00711  00749              % 01502 RGTR--
+*A an 160401001 180511008 000002  00711  00749              % 01502 RGTR--
+*A ad 160401001 180511008 000002  00711  00749              % 01502 RGTR--
+*R 1 180511008 160401001 180511008  00711  00749            % 01502 RGTR--
+*G RGB 160401001 180511008  00711  00749                    % 01502 RGTR--
+*A VE 160401001 180511008 000002  00711  00749              % 01502 RGTR--
+*I FD 160401001 180511008        0002537  00711  00749      % 01502 RGTR--
+160401001 Angelsberg, Paafenda         00711                % 01502 RGTR--
+160404001 Schoos, Hiervel       00714  00714                % 01502 RGTR--
+160402002 Fischbach/Mersch, Pa  00716  00716                % 01502 RGTR--
+160402001 Fischbach/Mersch, Kr  00717  00717                % 01502 RGTR--
+160403001 Schmët                00719  00719                % 01502 RGTR--
+160405002 Koedange              00721  00721                % 01502 RGTR--
+180505001 Eisenborn, Am Duerf   00727  00727                % 01502 RGTR--
+180510001 Imbringen, Am Duerf   00729  00729                % 01502 RGTR--
+180504003 Bourglinster, Buchho  00731  00731                % 01502 RGTR--
+180504002 Bourglinster, Am Due  00732  00732                % 01502 RGTR--
+180504001 Bourglinster, Am Bri  00734  00734                % 01502 RGTR--
+180501001 Altlinster            00736  00736                % 01502 RGTR--
+180508008 Godbrange, Op der Ha  00738  00738                % 01502 RGTR--
+180507001 Godbrange, Bei der K  00739  00739                % 01502 RGTR--
+180511001 Junglinster, Gemeng   00742  00742                % 01502 RGTR--
+180511005 Junglinster, Um Lei   00745  00745                % 01502 RGTR--
+180511009 Junglinster, Op der   00746  00746                % 01502 RGTR--
+180508003 Gonderange, Mierchen  00747  00747                % 01502 RGTR--
+180511008 Junglinster, Lycée    00749                       % 01502 RGTR--
+*Z 01503 RGTR--                                             % 01503 RGTR--
+*L 420      180511008 160401001  01605  01644               % 01503 RGTR--
+*A al 180511008 160401001 000026  01605  01644              % 01503 RGTR--
+*A an 180511008 160401001 000026  01605  01644              % 01503 RGTR--
+*A ad 180511008 160401001 000026  01605  01644              % 01503 RGTR--
+*R 2 160401001 180511008 160401001  01605  01644            % 01503 RGTR--
+*G RGB 180511008 160401001  01605  01644                    % 01503 RGTR--
+*A VE 180511008 160401001 000026  01605  01644              % 01503 RGTR--
+*I FD 180511008 160401001        0002219  01605  01644      % 01503 RGTR--
+180511008 Junglinster, Lycée           01605                % 01503 RGTR--
+180508003 Gonderange, Mierchen  01607  01607                % 01503 RGTR--
+180511009 Junglinster, Op der   01608  01608                % 01503 RGTR--
+180511005 Junglinster, Um Lei   01609  01609                % 01503 RGTR--
+180511001 Junglinster, Gemeng   01611  01611                % 01503 RGTR--
+180507001 Godbrange, Bei der K  01615  01615                % 01503 RGTR--
+180508008 Godbrange, Op der Ha  01615  01615                % 01503 RGTR--
+180501001 Altlinster            01617  01617                % 01503 RGTR--
+180504001 Bourglinster, Am Bri  01620  01620                % 01503 RGTR--
+180504002 Bourglinster, Am Due  01621  01621                % 01503 RGTR--
+180504003 Bourglinster, Buchho  01622  01622                % 01503 RGTR--
+180510001 Imbringen, Am Duerf   01624  01624                % 01503 RGTR--
+180505001 Eisenborn, Am Duerf   01626  01626                % 01503 RGTR--
+160405002 Koedange              01633  01633                % 01503 RGTR--
+160403001 Schmët                01635  01635                % 01503 RGTR--
+160402001 Fischbach/Mersch, Kr  01637  01637                % 01503 RGTR--
+160402002 Fischbach/Mersch, Pa  01637  01637                % 01503 RGTR--
+160404001 Schoos, Hiervel       01640  01640                % 01503 RGTR--
+160401001 Angelsberg, Paafenda  01644                       % 01503 RGTR--
+*Z 01504 RGTR--                                             % 01504 RGTR--
+*L 420      180511008 160401001  01405  01441               % 01504 RGTR--
+*A al 180511008 160401001 000007  01405  01441              % 01504 RGTR--
+*A an 180511008 160401001 000007  01405  01441              % 01504 RGTR--
+*A ad 180511008 160401001 000007  01405  01441              % 01504 RGTR--
+*R 2 160401001 180511008 160401001  01405  01441            % 01504 RGTR--
+*G RGB 180511008 160401001  01405  01441                    % 01504 RGTR--
+*A VE 180511008 160401001 000007  01405  01441              % 01504 RGTR--
+*I FD 180511008 160401001        0002538  01405  01441      % 01504 RGTR--
+180511008 Junglinster, Lycée           01405                % 01504 RGTR--
+180508003 Gonderange, Mierchen  01407  01407                % 01504 RGTR--
+180511009 Junglinster, Op der   01408  01408                % 01504 RGTR--
+180511005 Junglinster, Um Lei   01408  01408                % 01504 RGTR--
+180511001 Junglinster, Gemeng   01410  01410                % 01504 RGTR--
+180507001 Godbrange, Bei der K  01414  01414                % 01504 RGTR--
+180508008 Godbrange, Op der Ha  01414  01414                % 01504 RGTR--
+180501001 Altlinster            01416  01416                % 01504 RGTR--
+180504001 Bourglinster, Am Bri  01419  01419                % 01504 RGTR--
+180504002 Bourglinster, Am Due  01420  01420                % 01504 RGTR--
+180504003 Bourglinster, Buchho  01421  01421                % 01504 RGTR--
+180510001 Imbringen, Am Duerf   01423  01423                % 01504 RGTR--
+180505001 Eisenborn, Am Duerf   01425  01425                % 01504 RGTR--
+160405002 Koedange              01431  01431                % 01504 RGTR--
+160403001 Schmët                01433  01433                % 01504 RGTR--
+160402001 Fischbach/Mersch, Kr  01435  01435                % 01504 RGTR--
+160402002 Fischbach/Mersch, Pa  01435  01435                % 01504 RGTR--
+160404001 Schoos, Hiervel       01438  01438                % 01504 RGTR--
+160401001 Angelsberg, Paafenda  01441                       % 01504 RGTR--
+*Z 01505 RGTR--                                             % 01505 RGTR--
+*L 420      180511008 160401001  01140  01216               % 01505 RGTR--
+*A al 180511008 160401001 000021  01140  01216              % 01505 RGTR--
+*A an 180511008 160401001 000021  01140  01216              % 01505 RGTR--
+*A ad 180511008 160401001 000021  01140  01216              % 01505 RGTR--
+*R 2 160401001 180511008 160401001  01140  01216            % 01505 RGTR--
+*G RGB 180511008 160401001  01140  01216                    % 01505 RGTR--
+*A VE 180511008 160401001 000021  01140  01216              % 01505 RGTR--
+*I FD 180511008 160401001        0001899  01140  01216      % 01505 RGTR--
+180511008 Junglinster, Lycée           01140                % 01505 RGTR--
+180508003 Gonderange, Mierchen  01142  01142                % 01505 RGTR--
+180511009 Junglinster, Op der   01143  01143                % 01505 RGTR--
+180511005 Junglinster, Um Lei   01143  01143                % 01505 RGTR--
+180511001 Junglinster, Gemeng   01145  01145                % 01505 RGTR--
+180507001 Godbrange, Bei der K  01149  01149                % 01505 RGTR--
+180508008 Godbrange, Op der Ha  01149  01149                % 01505 RGTR--
+180501001 Altlinster            01151  01151                % 01505 RGTR--
+180504001 Bourglinster, Am Bri  01154  01154                % 01505 RGTR--
+180504002 Bourglinster, Am Due  01155  01155                % 01505 RGTR--
+180504003 Bourglinster, Buchho  01156  01156                % 01505 RGTR--
+180510001 Imbringen, Am Duerf   01158  01158                % 01505 RGTR--
+180505001 Eisenborn, Am Duerf   01200  01200                % 01505 RGTR--
+160405002 Koedange              01206  01206                % 01505 RGTR--
+160403001 Schmët                01208  01208                % 01505 RGTR--
+160402001 Fischbach/Mersch, Kr  01210  01210                % 01505 RGTR--
+160402002 Fischbach/Mersch, Pa  01210  01210                % 01505 RGTR--
+160404001 Schoos, Hiervel       01213  01213                % 01505 RGTR--
+160401001 Angelsberg, Paafenda  01216                       % 01505 RGTR--
