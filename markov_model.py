@@ -14,199 +14,249 @@
 #In particular, for each age group a transition matrix is constructed for each 10 minute interval of 
 #the week, of which there are 7*144 in total.
 
-import numpy as np
 import math
+import pickle
+
+import numpy as np
+import pandas as pd
 from tqdm import tqdm
-from openpyxl import load_workbook
 
-INPUT_FILENAME = 'Data/TUS_Processed_2.xlsx'
+from diary import DiaryDay, DiaryWeek, DayOfWeek
+from config import load_config
+# TODO: move to config
+from agent import AgentType, POPULATION_RANGES
+from activity import ActivityManager
+import utils
+import random_tools
 
-print(f"Loading input data from {INPUT_FILENAME}...")
-actworkbook = load_workbook(filename=INPUT_FILENAME)
-actsheet = actworkbook.active
+DAY_LENGTH_10MIN = 144
+WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
-#First we count the number of dairies in the data:
+INPUT_FILENAME                 = 'Data/TUS_Processed_2.xlsx'
+INITIAL_DISTRIBUTIONS_FILENAME = "Initial_Distributions/initial.pickle"
+TRANSITION_MATRIX_FILENAME     = "Transition_Matrices/transition_matrix.pickle"
+PARAMETERS_FILENAME            = 'Data/simulation_parameters.yaml'
 
-samplesize = 0
-print("Calculating sample size...")
-for i in tqdm(range(2,97853)):
-    if(actsheet.cell(row=i, column=4).value != actsheet.cell(row=i+1, column=4).value):
-        samplesize = samplesize + 1
+# ------------------------------------------------[ Config ]------------------------------------
+print(f"Loading config from {PARAMETERS_FILENAME}...")
+config = load_config(PARAMETERS_FILENAME)
+activity_manager = ActivityManager(config['activities'])
 
+# ---------------------------------------------------------------------------------------------------
+print(f"Loading time use data from {INPUT_FILENAME}...")
+# TODO: force pandas to read the numeric ID columns as factors or ints
+#       same for weights
+tus = pd.read_excel(INPUT_FILENAME)
+tus = tus.dropna()
+
+
+# ---------------------------------------------------------------------------------------------------
 print('Generating daily routines...')
 
-class Diary_Day:
-  def __init__(self, identity, age, day, weight, daily_routine):
-    self.identity = identity
-    self.age = age
-    self.day = day
-    self.weight = weight
-    self.daily_routine = daily_routine
+# As mentioned above, activities are numerically coded. The file FormatsTUS displays the codification
+# of primary and secondary activities used by the TUS. The primary activities will be grouped together
+# according to datamap_primary while the secondary activities will be grouped together according to
+# datamap_secondary.
+#
+# The latter is used if and only if a respondent recorded 'Other specified location' as the primary
+# activity, in which case referal to the secondary activity is necessary. Activities are consquently
+# recoded as numbers in the set {0,...,13}, as described in the file FormatActivities.
 
-D = [[0, 0, 0, 0, 0, []] for s in range(samplesize)]
-for s in tqdm(range(samplesize)):
-    D[s] = Diary_Day(0,0,0,0,[])
 
-#As mentioned above, activities are numerically coded. The file FormatsTUS displays the codification 
-#of primary and secondary activities used by the TUS. The primary activities will be grouped together
-#according to datamap_primary while the secondary activities will be grouped together according to da
-#tamap_secondary. The latter is used if and only if a respondent recorded 'Other specified location' 
-#as the primary activity, in which case referal to the secondary activity is necessary. Activities ar
-#e consquently recoded as numbers in the set {0,...,13}, as described in the file FormatActivities.
+def get_tus_code_mapping(map_config, ActivityType):
+    """Return a function mapping TUS activity codes onto those used
+    in this model.
 
-# FIXME: all the magic numbers in here!
-def datamap_primary(x):
-    if (x == 1):
-        return 0
-    if (x == 2):
-        return 1
-    if (x == 3):
-        return 2
-    if (x == 4):
-        return 13
-    if (x == 5):
-        return 3
-    if (x in {6,9,10,11,12,14}):
-        return 4
-    if (x == 13):
-        return 5
-    if (x in {15,16,17,18,19}):
-        return 6
+    TUS codes are defined in two fields, primary and secondary.  If
+    primary == 7, we switch to secondary.
 
-# FIXME: all the magic numbers in here!
-def datamap_secondary(x):
-    if (x in {11,12,13,14,21,22,23,31,34,35,39,115,121,213,214,221,222,231,239,311,314,315,324,325,326,327,328,329,333,346,347,349,351,353,354,356,363,364,371,381,382,383,384,386,391,393,419,421,422,431,432,433,434,511,512,522,551,711,713,714,719,733,734,737,739,744,745,746,747,749,811,812,813,819,821,829,839}):
-        return 0
-    if (x == 111):
-        return 1
-    if (x in {232,233}):
-        return 2
-    if (x in {395,426,429,515,521,523,524}):
-        return 13
-    if (x in {546,547}):
-        return 3
-    if (x in {343,345,411,412,413,415,424,439,525,539,541,542,543,545,548,549,612,613,614,617,618,619,629}):
-        return 4
-    if (x in {361,362,366,367,368,369,425}):
-        return 7
-    if (x == 365):
-        return 8
-    if (x == 435):
-        return 9
-    if (x in {544,615,616}):
-        return 10
-    if (x in {531,532,533}):
-        return 11
-    if (x == 534):
-        return 12
+    Primary and secondary mappings are defined in map_config as a dict
+    of abm labels and primary/secondary keys containing a list of TUS
+    codes, e.g.:
 
-#The following piece of code constructs the daily routines. This takes into account the fact that dia
-#ries appearing in the TUS do not all start at the same time and do not all run for 24 hours. This is
-#achieved by first extending the duration of the last activity, to create a 24 hour routine, after wh
-#ich the piece of the routine extending beyong the end of the day is repositioned to the start of the
-#day. This way, all routines cover a 24 hour period running from midnight to midnight.
+    {'Home': {'primary': [1], 'secondary': [11,12,13,14]},
+     'Other Work': {'primary': [2]}}
 
-s = 0
-starttime = int(actsheet.cell(row=2, column=10).value)
-for i in tqdm(range(2,97853)):     # FIXME: magic numbers
-    time_now = actsheet.cell(row=i, column=10).value
-    time_next = actsheet.cell(row=i+1, column=10).value
-    if(actsheet.cell(row=i, column=4).value != actsheet.cell(row=i+1, column=4).value):
-        D[s].identity = actsheet.cell(row=i, column=1).value
-        D[s].age = actsheet.cell(row=i, column=3).value
-        D[s].day = actsheet.cell(row=i, column=6).value
-        D[s].weight = actsheet.cell(row=i, column=2).value
-        time_next = 144 + starttime
-        for j in range(time_next - time_now):
-            if (actsheet.cell(row=i, column=9).value != 7):
-                D[s].daily_routine.append(datamap_primary(actsheet.cell(row=i, column=9).value))
-            if (actsheet.cell(row=i, column=9).value == 7):
-                D[s].daily_routine.append(datamap_secondary(actsheet.cell(row=i, column=8).value))
-        D[s].daily_routine = D[s].daily_routine[144-starttime:144] + D[s].daily_routine[0:144-starttime]
-        s = s + 1
-        starttime = int(actsheet.cell(row=i+1, column=10).value)
-    else:
-        for j in range(time_next - time_now):
-            if (actsheet.cell(row=i, column=9).value != 7):
-                D[s].daily_routine.append(datamap_primary(actsheet.cell(row=i, column=9).value))
-            if (actsheet.cell(row=i, column=9).value == 7):
-                D[s].daily_routine.append(datamap_secondary(actsheet.cell(row=i, column=8).value))
+    The resulting function takes two arguments, namely the TUS primary
+    and secondary codes, as ints.  It returns one of the keys
+    from the mapping given to _this_ function.
+    """
 
+
+    # Compute primary and secondary together.
+    mapping_pri = {}
+    mapping_sec = {}
+    for abm_code, v in map_config.items():
+        primary   = v['primary']   or [] if 'primary'   in v else []
+        secondary = v['secondary'] or [] if 'secondary' in v else []
+
+        for p in primary:
+            mapping_pri[p] = ActivityType[abm_code].value
+        for s in secondary:
+            mapping_sec[s] = ActivityType[abm_code].value
+
+    # Define mapping function, enclosing the above mapping
+    def tus_activity_to_abm_activity(tus_pri, tus_sec):
+        if tus_pri != 7:
+            return mapping_pri[tus_pri]
+        return mapping_sec[tus_sec]
+
+    return tus_activity_to_abm_activity
+
+
+
+def parse_days(tus, map_func):
+    """
+    Returns a list of DiaryDay functions built from the TUS data provided.
+
+    The following piece of code constructs the daily routines. This takes into account the fact that diaries
+    appearing in the TUS do not all start at the same time and do not all run for 24 hours. This is
+    achieved by first extending the duration of the last activity, to create a 24 hour routine, after which
+    the piece of the routine extending beyong the end of the day is repositioned to the start of the
+    day. This way, all routines cover a 24 hour period running from midnight to midnight.
+
+    Parameters:
+        tus (pandas dataframe):The TUS dataset loaded from excel
+        map_func (function):A function taking two ints and returning
+                            the activity code for this row.
+
+    Returns:
+        days(list):A list of DiaryDay objects.
+    """
+
+    days = []
+    for date in tqdm(tus['id_jour'].unique()):
+        tus_date  = tus.loc[tus['id_jour'] == date]
+        durations = [y-x for x, y in list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
+
+        end_activity = map_func(tus_date.iloc[-1]['loc1_num_f'], tus_date.iloc[-1]['act1b_f'])
+        start_time = tus_date.iloc[0]['heuredebmin']
+
+        # Build variables for object
+        identity, age, day, weight = [tus_date.iloc[0][x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
+        daily_routine = [end_activity] * start_time \
+                      + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
+                                  for i, d in enumerate(durations)]) \
+                      + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
+
+        # Create the list entry
+        day = DiaryDay(identity, age, day, weight, daily_routine)
+        days.append(day)
+
+    return days
+
+
+map_func = get_tus_code_mapping(config['activities'], activity_manager.map_class)
+days     = parse_days(tus, map_func)
+print(f"Created {len(days)} days")
+
+# print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
 #For each respondent there are now two daily routines; one for a week day and one for a weekend day. 
 #Copies of these routines are now concatenated so as to produce weekly routines, starting on Sunday.
 
+# ---------------------------------------------------------------------------------------------------
 print('Generating weekly routines...')
-class Diary_Week:
-  def __init__(self, identity, age, weight, weekly_routine):
-    self.identity = identity
-    self.age = age
-    self.weight = weight
-    self.weekly_routine = weekly_routine
- 
-numberofindividuals = int(samplesize/2)
 
-W = [[0, 0, 0, 0, []]  for s in range(numberofindividuals)]
+def create_weekly_routines(days):
+    """Create weekly routines for individuals, reading their daily routines
+    as example days
 
-#The format of the TUS data is such that each pair of daily diaries are listed consecutively:
+    The format of the TUS data is such that each pair of daily diaries are listed consecutively,
+    so for each person there are two rows, e.g:
+     - personA: weekend
+     - personA: weekday
+     - personB: weekend
+     - personB: weekday
+    We don't know which way around these are, though.  This routine builds a week out of the
+    weekday, repeated, plus the weekend.
+    """
 
-for s in tqdm(range(numberofindividuals)):
-    if (D[2*s].day in {1,7}):
-        weekend = D[2*s].daily_routine
-        weekday = D[(2*s)+1].daily_routine
-    else:
-        weekend = D[(2*s)+1].daily_routine
-        weekday = D[2*s].daily_routine
-    W[s] = Diary_Week(D[2*s].identity,D[2*s].age,D[2*s].weight,weekend + weekday + weekday +  weekday + weekday + weekday + weekend)
+    weeks = []
+    for i in range(0, len(days)-1, 2):
 
+        # Make a bold assumption
+        weekend, weekday = days[i], days[i+1]
+
+        # Swap if we were wrong
+        if weekday.day in [DayOfWeek.SUNDAY, DayOfWeek.SATURDAY]:
+            weekday, weekend = weekend, weekday
+
+        # Check the identity is the same
+        assert(weekday.identity == weekend.identity)
+
+        # Create a week with most things the same, but with a whole week's worth of activities
+        week = DiaryWeek(weekday.identity, weekday.age, weekday.weight,
+                         weekend.daily_routine + weekday.daily_routine * 5 + weekend.daily_routine)
+        weeks.append(week)
+
+    return weeks
+
+
+weeks = create_weekly_routines(days)
+print(f"Created {len(weeks)} weeks")
+
+# ---------------------------------------------------------------------------------------------------
 #Now the statistical weights are used to construct the intial distributions and transition matrices:
 print('Generating weighted initial distributions...')
 
-Init_child = [0 for i in range(14)]
-Init_adult = [0 for i in range(14)]
-Init_retired = [0 for i in range(14)]
+# Weights for how many of each type of agent is performing each type of action
+# AgentType.CHILD: {Home: 23,
+#                   Other Work: 12},
+# AgentType.ADULT: {action: weight,
+#                   action2: weight2},
+#
+init_distribution_by_type = {typ: {activity: 0 for activity in activity_manager.types_as_int}
+                   for typ in POPULATION_RANGES.keys()}
+for week in weeks:
+    for typ, rng in POPULATION_RANGES.items():
+        if week.age in rng:
+            init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
 
-for s in tqdm(range(numberofindividuals)):
-    if (W[s].age in range(10,18)):
-        Init_child[W[s].weekly_routine[0]] = Init_child[W[s].weekly_routine[0]] + W[s].weight
-    if (W[s].age in range(19,65)):
-        Init_adult[W[s].weekly_routine[0]] = Init_adult[W[s].weekly_routine[0]] + W[s].weight
-    if (W[s].age in range(65,76)):
-        Init_retired[W[s].weekly_routine[0]] = Init_retired[W[s].weekly_routine[0]] + W[s].weight
 
-np.savetxt('Initial_Distributions/Init_child.csv', Init_child, fmt='%i', delimiter=',')
-np.savetxt('Initial_Distributions/Init_adult.csv', Init_adult, fmt='%i', delimiter=',')
-np.savetxt('Initial_Distributions/Init_retired.csv', Init_retired, fmt='%i', delimiter=',')
+print(f"Writing initial distributions to {INITIAL_DISTRIBUTIONS_FILENAME}...")
+with open(INITIAL_DISTRIBUTIONS_FILENAME, 'wb') as fout:
+    pickle.dump(init_distribution_by_type, fout)
+del(init_distribution_by_type)
+
 
 print('Generating weighted transition matrices...')
-Trans_child = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
-Trans_adult = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
-Trans_retired = [[[0 for i in range(14)] for j in range(14)] for t in range(7*144)]
+# Activity -> activity transition matrix
+#
+# AgentType.CHILD: [[[activity, activity], [activity, activity]]]
+#
+#  - Each activity has a W[next activity]
+#  - Each 10 minute slice has a transition matrix between activities
+#  - Each agent type has one of those ^
+#
 
-#The transition matrices are now constructed, for all but the final ten minute interval:
 
-for t in tqdm(range((7*144)-1)):
-    for s in range(numberofindividuals):
-        if (W[s].age in range(10,18)):
-            Trans_child[t][W[s].weekly_routine[t]][W[s].weekly_routine[t+1]] = Trans_child[t][W[s].weekly_routine[t]][W[s].weekly_routine[t+1]] + W[s].weight
-        if (W[s].age in range(19,65)):
-            Trans_adult[t][W[s].weekly_routine[t]][W[s].weekly_routine[t+1]] = Trans_adult[t][W[s].weekly_routine[t]][W[s].weekly_routine[t+1]] + W[s].weight
-        if (W[s].age in range(65,76)):
-            Trans_retired[t][W[s].weekly_routine[t]][W[s].weekly_routine[t+1]] = Trans_retired[t][W[s].weekly_routine[t]][W[s].weekly_routine[t+1]] + W[s].weight
-    np.savetxt('Transition_Matrices/Trans_child_' + str(t) + '.csv', Trans_child[t], fmt='%i', delimiter=',')
-    np.savetxt('Transition_Matrices/Trans_adult_' + str(t) + '.csv', Trans_adult[t], fmt='%i', delimiter=',')
-    np.savetxt('Transition_Matrices/Trans_retired_' + str(t) + '.csv', Trans_retired[t], fmt='%i', delimiter=',')
+# TODO: simplify this structure.  It's far too hard to follow
+transition_matrix = {typ:
+                     [
+                      {x: {y: 0 for y in activity_manager.types_as_int}
+                       for x in activity_manager.types_as_int}
+                      for _ in range(WEEK_LENGTH_10MIN)]
+                     for typ in POPULATION_RANGES.keys()}
 
-#The final transition matrix is constructed by looping the weekly routine back onto itself:
-    
-for s in tqdm(range(numberofindividuals)):
-    if (W[s].age in range(10,18)):
-        Trans_child[(7*144)-1][W[s].weekly_routine[(7*144)-1]][W[s].weekly_routine[0]] = Trans_child[(7*144)-1][W[s].weekly_routine[(7*144)-1]][W[s].weekly_routine[0]] + W[s].weight
-    if (W[s].age in range(19,65)):
-        Trans_adult[(7*144)-1][W[s].weekly_routine[(7*144)-1]][W[s].weekly_routine[0]] = Trans_adult[(7*144)-1][W[s].weekly_routine[(7*144)-1]][W[s].weekly_routine[0]] + W[s].weight
-    if (W[s].age in range(65,76)):
-        Trans_retired[(7*144)-1][W[s].weekly_routine[(7*144)-1]][W[s].weekly_routine[0]] = Trans_retired[(7*144)-1][W[s].weekly_routine[(7*144)-1]][W[s].weekly_routine[0]] + W[s].weight
-np.savetxt('Transition_Matrices/Trans_child_' + str((7*144)-1) + '.csv', Trans_child[t], fmt='%i', delimiter=',')
-np.savetxt('Transition_Matrices/Trans_adult_' + str((7*144)-1) + '.csv', Trans_adult[t], fmt='%i', delimiter=',')
-np.savetxt('Transition_Matrices/Trans_retired_' + str((7*144)-1) + '.csv', Trans_retired[t], fmt='%i', delimiter=',')
+# Do all but the last item, which should loop around
+for t in tqdm(range(WEEK_LENGTH_10MIN)):
+    for week in weeks:
+        for typ, rng in POPULATION_RANGES.items():
+            if week.age in rng:
+
+                # Wrap around to zero to make the week
+                # one big loop
+                next_t = (t+1) % WEEK_LENGTH_10MIN
+
+                # Retrieve the activity transition
+                activity_from = week.weekly_routine[t]
+                activity_to   = week.weekly_routine[next_t]
+
+                transition_matrix[typ][t][activity_from][activity_to] += week.weight
+
+
+print(f"Writing transition matrices to {TRANSITION_MATRIX_FILENAME}...")
+with open(TRANSITION_MATRIX_FILENAME, 'wb') as fout:
+    pickle.dump(transition_matrix, fout)
 
 print('Done.')
