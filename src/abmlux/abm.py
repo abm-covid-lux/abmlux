@@ -25,10 +25,6 @@ import abmlux.utils as utils
 import abmlux.random_tools as random_tools
 
 
-NETWORK_FILENAME               = "Network.pickle"
-INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
-TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
-AGENT_COUNTS_FILENAME          = "agent_counts.csv"
 
 def run_model(config, network, initial_activity_distributions, activity_transition_matrix):
 

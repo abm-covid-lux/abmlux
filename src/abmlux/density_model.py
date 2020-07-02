@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-
-#DensityModel
-#This file generates a population density matrix using data collected by the GEOSTAT initiative. Note
-#that Luxembourg measures 57 km x 82 km.
 
 import sys
 import os.path as osp
@@ -14,21 +9,34 @@ from tqdm import tqdm
 from .config import Config
 
 
-def build_density_model(config):
+
+def read_density_model_jrc(filepath, country_code):
+    """Parse JRC-format country data and return a two-dimensional array
+    containing population density weights per-kilometer.
+
+    The format used comes from the GEOSTAT initiative.
+
+    Parameters:
+        filepath (str):Filepath of the data file to load (CSV)
+        country_code (str):The country code to filter results for
+
+    Returns:
+        density:km-by-km weights showing population density, indexed as [y][x]
+    """
 
     # Load workbook
-    print(f"Loading input data from {config.filepath('population_distribution_fp')}...")
-    jrc = pd.read_csv(config.filepath('population_distribution_fp'))
+    print(f"Loading input data from {filepath}...")
+    jrc = pd.read_csv(filepath)
 
     # Filter this-country-only rows and augment with integer grid coords
-    print(f"Filtering for country with code {config['country_code']}...")
-    jrc = jrc[jrc["CNTR_CODE"] == config['country_code']]
+    print(f"Filtering for country with code {country_code}...")
+    jrc = jrc[jrc["CNTR_CODE"] == country_code]
     jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
     jrc['grid_y'] = pd.Series([int(x[4:8]) for x in jrc['GRD_ID']], index=jrc.index)
 
     country_width  = jrc['grid_x'].max() - jrc['grid_x'].min() + 1
     country_height = jrc['grid_y'].max() - jrc['grid_y'].min() + 1
-    print(f"Country with code {config['country_code']} has {country_width}x{country_height}km of data")
+    print(f"Country with code {country_code} has {country_width}x{country_height}km of data")
 
     # Map the grid coordinates given onto a cartesian grid, each cell
     # of which represents the population density at that point
@@ -45,4 +53,5 @@ def build_density_model(config):
 
     # Return the density
     return density
+
 

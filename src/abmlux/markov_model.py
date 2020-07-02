@@ -32,8 +32,6 @@ import abmlux.random_tools as random_tools
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
-INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
-TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
 
 def build_markov_model(config):
     activity_manager = ActivityManager(config['activities'])

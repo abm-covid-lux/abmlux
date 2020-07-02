@@ -25,7 +25,6 @@ from .activity import ActivityManager
 # Config
 random.seed(652)        # FIXME: read from config
 DENSITY_MAP_FILENAME   = 'Density_Map.csv'
-NETWORK_FILENAME       = "Network.pickle"
 
 
 def build_network_model(config, density):

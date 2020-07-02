@@ -11,7 +11,7 @@ import pandas as pd
 from .config import Config
 
 # Main functions
-from .density_model import build_density_model
+from .density_model import read_density_model_jrc
 from .network_model import build_network_model
 from .markov_model import build_markov_model
 from .abm import run_model
@@ -50,7 +50,7 @@ def main():
     config = Config(sys.argv[1])
 
     # ############## Run Stage ##############
-    density = build_density_model(config)
+    density = read_density_model_jrc(config.filepath('population_distribution_fp'), config['country_code'])
 
     # ############## Output Data ##############
     # Handle output to write to disk if required
