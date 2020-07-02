@@ -2,6 +2,7 @@
 
 
 import os, sys
+import random
 
 # Needed for save/load code (TODO: move this out of this module)
 import os.path as osp
@@ -23,11 +24,11 @@ PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
 
 
 # Config
-MAP_FILENAME                   = 'Density_Map.csv'
+MAP_FILENAME                   = 'Density_Map.pickle'
 NETWORK_FILENAME               = "Network.pickle"
 INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
 TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
-AGENT_COUNTS_FILENAME          = "agent_counts.csv"
+AGENT_COUNTS_FILENAME          = "Agent_Counts.csv"
 
 
 def main():
@@ -41,13 +42,14 @@ def main():
     # System config/setup
     #
     # TODO: can we do exponential backoff on this?
+    config = Config(sys.argv[1])
     sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
+    random.seed(config['random_seed'])        # FIXME: read from config
 
 
     # ------------------------------------------------[ 1 ]------------------------------------
     # Step one: process density information
     # ############## Input Data ##############
-    config = Config(sys.argv[1])
 
     # ############## Run Stage ##############
     density = read_density_model_jrc(config.filepath('population_distribution_fp'), config['country_code'])

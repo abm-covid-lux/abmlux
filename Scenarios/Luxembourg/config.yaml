@@ -1,4 +1,10 @@
 ---
+# ################################# Simulation Params ########################
+
+# Seed for python's PRNG
+random_seed: 652
+
+
 # ################################# Filepaths ########################
 # Relative to this config file location
 

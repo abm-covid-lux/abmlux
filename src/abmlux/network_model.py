@@ -22,10 +22,6 @@ from .location import Location
 from .activity import ActivityManager
 
 
-# Config
-random.seed(652)        # FIXME: read from config
-DENSITY_MAP_FILENAME   = 'Density_Map.csv'
-
 
 def build_network_model(config, density):
 
@@ -60,10 +56,6 @@ def build_network_model(config, density):
     #        to infer their type.  They should use agents_by_type instead to prevent this fragile lookup.
     #
     #        Unique agent assignments should be indexed by the UUIDs in the agent class
-
-
-
-
 
     # ------------------------------------------------[ Locations ]------------------------------------
 
