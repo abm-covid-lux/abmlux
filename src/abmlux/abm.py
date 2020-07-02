@@ -30,7 +30,7 @@ INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
 TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
 AGENT_COUNTS_FILENAME          = "agent_counts.csv"
 
-def run_model(config):
+def run_model(config, network, initial_activity_distributions, activity_transition_matrix):
 
     # ------------------------------------------------[ Config ]------------------------------------
     activity_manager = ActivityManager(config['activities'])
@@ -38,11 +38,6 @@ def run_model(config):
 
 
     # ------------------------------------------------[ Agents ]------------------------------------
-    network_filename = osp.join(config.filepath('working_dir'), NETWORK_FILENAME)
-    print(f'Loading network data from {network_filename}...')
-    with open(network_filename, 'rb') as fin:
-        network = pickle.load(fin)
-
     locations_by_type = network['locations_by_type']
     locations         = utils.flatten(locations_by_type.values())
     agents_by_type    = network['agents_by_type']
@@ -50,13 +45,6 @@ def run_model(config):
 
     utils.print_memory_usage()
 
-
-    # --------------------------------------[ Transition Matrices ]------------------------------------
-    transition_matrix_filename = osp.join(config.filepath('working_dir'), TRANSITION_MATRIX_FILENAME)
-    print(f"Loading transition matrix from {transition_matrix_filename}...")
-    with open(transition_matrix_filename, 'rb') as fin:
-        activity_transition_matrix = pickle.load(fin)
-    utils.print_memory_usage()
 
 
     # ------------------------------------------------[ Locations ]------------------------------------
@@ -106,12 +94,6 @@ def run_model(config):
     # Infect a few people
     for agent in random.sample(agents, k=config['initial_infections']):
         agent.health = HealthStatus.INFECTED
-
-    # Using the initial distribution individuals are now assigned starting locations:
-    initial_distributions_filename = osp.join(config.filepath('working_dir'), INITIAL_DISTRIBUTIONS_FILENAME)
-    print(f"Loading initial activity distributions from {initial_distributions_filename}...")
-    with open(initial_distributions_filename, 'rb') as fin:
-        initial_activity_distributions = pickle.load(fin)
 
     print(f"Seeding initial activity states and locations...")
     for agent in agents:
@@ -244,14 +226,10 @@ def run_model(config):
             health_status_by_time[h.name].append( len([a for a in agents if a.health == h]) )
 
 
-    # ------------------------------------------------[ Write output ]------------------------------------
-    agent_counts_filename = osp.join(config.filepath('results_dir', True), AGENT_COUNTS_FILENAME)
-    print(f"Writing agent counts to {agent_counts_filename}...")
-    health_status_by_time = pd.DataFrame(health_status_by_time)
-    health_status_by_time.to_csv(agent_counts_filename)
+
+    # ------------------------------------------------[ Return output ]------------------------------------
+    return health_status_by_time
 
 
     # FIXME: - House and Other House don't function correctly
     #        - No logging of stats as the sim runs
-
-    print('Done.')

@@ -13,9 +13,6 @@ from tqdm import tqdm
 
 from .config import Config
 
-# Config
-MAP_FILENAME = 'Density_Map.csv'
-
 
 def build_density_model(config):
 
@@ -46,9 +43,6 @@ def build_density_model(config):
 
         density[y][x] = location_density
 
+    # Return the density
+    return density
 
-    # ------------------------------------------------[ Output ]------------------------------------
-    map_filename = osp.join(config.filepath('working_dir', True), MAP_FILENAME)
-    print(f"Saving output to {map_filename}...")
-    np.savetxt(map_filename, density, fmt='%i', delimiter=',')
-    print('Done.')

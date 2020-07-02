@@ -24,12 +24,11 @@ from .activity import ActivityManager
 
 # Config
 random.seed(652)        # FIXME: read from config
-PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
 DENSITY_MAP_FILENAME   = 'Density_Map.csv'
 NETWORK_FILENAME       = "Network.pickle"
 
 
-def build_network_model(config):
+def build_network_model(config, density):
 
     activity_manager = ActivityManager(config['activities'])
 
@@ -90,11 +89,6 @@ def build_network_model(config):
         locations_by_type[ltype] = new_locations
         locations += new_locations
 
-    # The density matrix contructed by the file DensityModel is now loaded:
-    density_map_filename = osp.join(config.filepath('working_dir'), DENSITY_MAP_FILENAME)
-    print(f"Loading density matrix from {density_map_filename}...")
-    density = np.genfromtxt(density_map_filename, delimiter=',', dtype = 'int')
-    print(f"Density map is of size {density.shape}")
 
 
     # Spatial coordinates are assigned according to the density matrix D. In particular, the 1 km x 1 km
@@ -287,14 +281,6 @@ def build_network_model(config):
         for occupant in house.occupancy:
             occupant.add_allowed_location(car)
 
+    return {"agents_by_type": agents_by_type,
+            "locations_by_type": locations_by_type}
 
-    #--------Save data--------
-    sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
-    network_filename = osp.join(config.filepath('working_dir', True), NETWORK_FILENAME)
-    print(f"Writing agents list to {network_filename}...")
-    payload = {"agents_by_type": agents_by_type,
-               "locations_by_type": locations_by_type}
-    with open(network_filename, 'wb') as fout:
-        pickle.dump(payload, fout)
-
-    print('Done.')

@@ -208,12 +208,6 @@ def build_markov_model(config):
             if week.age in rng:
                 init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
 
-    initial_distributions_filename = osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME)
-    print(f"Writing initial distributions to {initial_distributions_filename}...")
-    with open(initial_distributions_filename, 'wb') as fout:
-        pickle.dump(init_distribution_by_type, fout)
-    del(init_distribution_by_type)
-
 
     print('Generating weighted activity transition matrices...')
     # Activity -> activity transition matrix
@@ -249,9 +243,10 @@ def build_markov_model(config):
 
                     transition_matrix[typ][t][activity_from][activity_to] += week.weight
 
-    transition_matrix_filename = osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME)
-    print(f"Writing transition matrices to {transition_matrix_filename}...")
-    with open(transition_matrix_filename, 'wb') as fout:
-        pickle.dump(transition_matrix, fout)
+
+
+
+    return init_distribution_by_type, transition_matrix
+
 
     print('Done.')
