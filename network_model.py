@@ -21,19 +21,20 @@ from random_tools import multinoulli, multinoulli_2d, multinoulli_dict
 from agent import Agent, AgentType, POPULATION_SLICES
 from location import Location
 from config import load_config
+from activity import ActivityManager
 
 # Config
 random.seed(652)        # FIXME: read from config
 PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
 DENSITY_MAP_FILENAME   = 'Density_Map/Density_Map.csv'
-PARAMETERS_FILENAME    = 'Data/network_parameters.yaml'
+PARAMETERS_FILENAME    = 'Data/simulation_parameters.yaml'
 
-AGENT_OUTPUT_FILENAME    = "Agents/Agents.pickle"
-LOCATION_OUTPUT_FILENAME = 'Locations/Locations.pickle'
+NETWORK_OUTPUT_FILENAME    = "Network/Network.pickle"
 
 # ------------------------------------------------[ Config ]------------------------------------
 print(f"Loading config from {PARAMETERS_FILENAME}...")
 config = load_config(PARAMETERS_FILENAME)
+activity_manager = ActivityManager(config['activities'])
 
 # ------------------------------------------------[ Agents ]------------------------------------
 print('Initializing agents...')
@@ -54,7 +55,7 @@ agents_by_type = {atype: [] for atype, _ in POPULATION_SLICES.items()}
 for atype, slce in POPULATION_SLICES.items():
     print(f" - {atype.name}...")
     for i in tqdm(range(pop_by_agent_type[atype])):
-        new_agent = Agent(atype, multinoulli(pop_by_age[slce]))
+        new_agent = Agent(atype, (slce.start or 0) + multinoulli(pop_by_age[slce]))
         agents.append(new_agent)
         agents_by_type[atype].append(new_agent)
         # print(f"-> {new_agent.inspect()}")
@@ -71,11 +72,10 @@ for atype, slce in POPULATION_SLICES.items():
 # ------------------------------------------------[ Locations ]------------------------------------
 
 print('Initializing locations...')
-#A total of 13 locations are considered, as described in the file FormatLocations. The list is simila
-#r to the list of activities, except the activity 'other house' does not require a separate listing a
-#nd the location 'other work' refers to places of work not already listed as locations.
+# A total of 13 locations are considered, as described in the file FormatLocations. The list is
+# similar to the list of activities, except the activity 'other house' does not require a separate
+# listing and the location 'other work' refers to places of work not already listed as locations.
 location_counts = config['location_counts']
-#location_count = sum(location_counts.values()) #Total number of locations
 location_counts_normalised = {typ: x / sum(location_counts.values()) for typ, x in location_counts.items()}
 
 # Adjust location counts by the ratio of the simulation size and real population size
@@ -112,20 +112,8 @@ for location in tqdm(locations):
                              (1000 * grid_y) + random.randrange(1000))
 del(marginals_cache)
 
-# Each house has one car in this model, and the coordinates of the cars are now reset to coincide
-# with those of the houses:
-#
-# TODO: this breaks if n(cars) != n(houses).  More robust allocation strategy needed
-# TODO: this bit of code is very scenario-specific, it'd be good to separate it off
-print(f"Assigning cars to houses...")
-for car_location, house_location in zip(locations_by_type["Car"], locations_by_type["House"]):
-    car_location.set_coordinates(house_location.coord)
 
 print("Assigning locations to agents...")
-# Each individual, for each activity, will now be assigned a list of possible locations at which the
-# individual can perform that activity:
-#  allowed_locations_by_agent = [[[] for j in range(14)] for i in range(config['n'])]
-
 
 # ------- Assign Children ---------------
 # Sample without replacement from both houses and
@@ -135,6 +123,8 @@ print("Assigning locations to agents...")
 # been assigned at random.  A possible extension is to shuffle
 # these arrays to ensure random sampling even if the previous
 # routines are not random.
+#
+# FIXME: this is a dumb way of doing it.
 print(f"Assigning children to houses...")
 unclaimed_children = copy.copy(agents_by_type[AgentType.CHILD])
 unassigned_houses  = copy.copy(locations_by_type['House'])
@@ -157,7 +147,6 @@ while len(unclaimed_children) > 0 and len(unassigned_houses) > 0:
         child.set_home(house)
         house.add_occupant(child)
     houses_with_children.add(house)
-
 
 
 # ------- Assign Adults ---------------
@@ -189,7 +178,7 @@ for house in tqdm(houses_with_children):
 # and some houses remaining empty.
 print(f"Assigning remaining adults/retired people...")
 unassigned_agents = unassigned_adults + agents_by_type[AgentType.RETIRED]
-for adult in tqdm(unassigned_adults):
+for adult in tqdm(unassigned_agents):
     house = random.choice(locations_by_type["House"])
 
     adult.set_home(house)
@@ -203,7 +192,7 @@ for adult in tqdm(unassigned_adults):
 
 print(f"Assigning workplaces...")
 for agent in tqdm(agents):
-    location_type = multinoulli_dict(config['work_location_weights'])
+    location_type = random.choice(activity_manager.get_location_types("Work"))
     workplace = random.choice(locations_by_type[location_type])
 
     # This automatically allows the location
@@ -215,27 +204,20 @@ for agent in tqdm(agents):
 #
 # TODO: assign exactly 10 houses
 for agent in agents:
-    num_new_houses = random.randrange(config['max_homes_allowed_to_visit'] - 1)
-
-    # XXX: You will note this is random sampling with replacement.
-    #      There's no issue with duplicates as we store them in a set, this simply means
-    #      that we will select <= n items.
-    new_houses = [random.choice(locations_by_type['House'])]
+    # This may select n-1 if the agent's current home is in the samole
+    new_houses = random.sample(locations_by_type['House'], k=config['homes_allowed_to_visit'])
 
     agent.add_allowed_location(new_houses)
 
-# For each individual, a number of distinct restaurants, shops, units of public, cinemas or theatres
-# and museums or zoos are randomly selected for the individual to visit or use:
+# For each agent, a number of distinct entertainment venues are randomly selected.
+# First we ensure there is one of each
 for agent in agents:
-    num_entertainment = random.randrange(config['max_entertainment_allowed_to_visit'])
-    location_types = [multinoulli_dict(config['entertainment_location_weights'])
-                      for _ in range(num_entertainment)]
-    new_entertainments = [random.choice(locations_by_type[t]) for t in location_types]
+    for location_type in config['entertainment_locations']:
+        num_locations      = max(1, random.randrange(config['max_entertainment_allowed_to_visit']))
+        new_entertainments = random.sample(locations_by_type[location_type],\
+                                           k=min(len(locations_by_type[location_type]), num_locations))
 
-    agent.add_allowed_location(new_entertainments)
-
-
-
+        agent.add_allowed_location(new_entertainments)
 
 
 # --------------- Assign 'home assigned' locations ------------
@@ -302,17 +284,17 @@ for agent in agents:
 #
 # FIXME: if num_houses != num_cars, this will fail.
 for car, house in zip(locations_by_type["Car"], locations_by_type["House"]):
+    car.set_coordinates(house.coord)
     for occupant in house.occupancy:
         occupant.add_allowed_location(car)
 
 
 #--------Save data--------
 sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
-print(f"Writing agents list to {AGENT_OUTPUT_FILENAME}...")
-with open(AGENT_OUTPUT_FILENAME, 'wb') as fout:
-    pickle.dump(agents_by_type, fout)
-print(f"Writing locations list to {LOCATION_OUTPUT_FILENAME}...")
-with open(LOCATION_OUTPUT_FILENAME, 'wb') as fout:
-    pickle.dump(locations_by_type, fout)
+print(f"Writing agents list to {NETWORK_OUTPUT_FILENAME}...")
+payload = {"agents_by_type": agents_by_type,
+           "locations_by_type": locations_by_type}
+with open(NETWORK_OUTPUT_FILENAME, 'wb') as fout:
+    pickle.dump(payload, fout)
 
 print('Done.')
