@@ -3,6 +3,8 @@
 
 import os, sys
 import random
+import logging
+import logging.config
 
 # Needed for save/load code (TODO: move this out of this module)
 import os.path as osp
@@ -31,12 +33,11 @@ TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
 AGENT_COUNTS_FILENAME          = "Agent_Counts.csv"
 
 
-
-
+# Global module log
+log = logging.getLogger()
 
 
 def load_pop_density(config):
-
 
     # ------------------------------------------------[ 1 ]------------------------------------
     # Step one: process density information
@@ -128,23 +129,30 @@ def main():
     config = Config(sys.argv[1])
     sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
     random.seed(config['random_seed'])
+    logging.config.dictConfig(config['logging'])
+
+    # Log level output
+    log.debug("DEBUG")
+    log.info("INFO")
+    log.warn("WARN")
+    log.error("ERROR")
+    log.fatal("FATAL")
 
 
     # Figure out what we're doing
     if len(sys.argv) > 2:
-        print(f"Running only some stages.  Will fail if you haven't got prerequisite data from earlier runs.")
+        log.warn(f"Running only some stages.  Will fail if you haven't got prerequisite data from earlier runs.")
         stages = [STAGES[int(x) - 1] for x in sys.argv[2].split(",")]
     else:
         stages = STAGES
-    print(f"Running modelling stages:")
+    log.info(f"Running modelling stages:")
     for i, stage in enumerate(stages):
-        print(f" ({i+1}) -- {stage.__name__}")
+        log.info(f" ({i+1}) -- {stage.__name__}")
 
 
     # Do it
     for i, stage in enumerate(stages):
-        print(f"\n[{i+1}/{len(stages)}] {stage.__name__}")
-        print(f"")
+        log.info(f"[{i+1}/{len(stages)}] {stage.__name__}")
 
         stage(config)
 
@@ -155,13 +163,13 @@ def main():
 # TODO: move these elsewhere.
 
 def write_to_disk(obj, output_filename):
-    print(f"Writing to {output_filename}...")
+    log.info(f"Writing to {output_filename}...")
     with open(output_filename, 'wb') as fout:
         pickle.dump(obj, fout)
 
 
 def read_from_disk(input_filename):
-    print(f'Reading data from {input_filename}...')
+    log.info(f'Reading data from {input_filename}...')
     with open(input_filename, 'rb') as fin:
         payload = pickle.load(fin)
 

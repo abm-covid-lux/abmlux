@@ -10,6 +10,7 @@ import random
 import copy
 from collections import defaultdict
 import pickle
+import logging
 
 import numpy as np
 from tqdm import tqdm
@@ -23,13 +24,17 @@ from .activity import ActivityManager
 
 
 
+
+log = logging.getLogger('network_model')
+
+
 def build_network_model(config, density):
 
     activity_manager = ActivityManager(config['activities'])
 
 
     # ------------------------------------------------[ Agents ]------------------------------------
-    print('Initializing agents...')
+    log.debug('Initializing agents...')
     # Extract useful series from input data
     pop_by_age       = config['age_distribution']
     pop_normalised   = [x / sum(pop_by_age) for x in pop_by_age]
@@ -37,15 +42,15 @@ def build_network_model(config, density):
     # How many agents per agent type
     pop_by_agent_type = {atype: math.ceil(config['n'] * sum(pop_normalised[slce]))
                          for atype, slce in POPULATION_SLICES.items()}
-    print(f"Agent count by type: {pop_by_agent_type}")
+    log.info(f"Agent count by type: {pop_by_agent_type}")
 
     # The total numbers of children, adults and retired individuals are fixed deterministically, while the
     # exact age of individuals within each group is determined randomly.
-    print(f"Constructing agents...")
+    log.debug(f"Constructing agents...")
     agents = []
     agents_by_type = {atype: [] for atype, _ in POPULATION_SLICES.items()}
     for atype, slce in POPULATION_SLICES.items():
-        print(f" - {atype.name}...")
+        log.debug(f" - {atype.name}...")
         for i in tqdm(range(pop_by_agent_type[atype])):
             new_agent = Agent(atype, (slce.start or 0) + multinoulli(pop_by_age[slce]))
             agents.append(new_agent)
@@ -59,7 +64,7 @@ def build_network_model(config, density):
 
     # ------------------------------------------------[ Locations ]------------------------------------
 
-    print('Initializing locations...')
+    log.debug('Initializing locations...')
     # A total of 13 locations are considered, as described in the file FormatLocations. The list is
     # similar to the list of activities, except the activity 'other house' does not require a separate
     # listing and the location 'other work' refers to places of work not already listed as locations.
@@ -72,7 +77,7 @@ def build_network_model(config, density):
     location_counts['Outdoor'] = 1
 
     # Create locations for each type, of the amounts requested.
-    print(f"Creating location objects...")
+    log.debug(f"Creating location objects...")
     locations = []
     locations_by_type = {k: [] for k in location_counts.keys()}
     for ltype, lcount in tqdm(location_counts.items()):
@@ -88,7 +93,7 @@ def build_network_model(config, density):
     #
     # TODO: this should be done above, and there should be a clearer separate sampling function
     #       to set the location as they are instantiated
-    print(f"Assigning coordinates to locations...")
+    log.debug(f"Assigning coordinates to locations...")
     marginals_cache = [sum(x) for x in density]
     for location in tqdm(locations):
         grid_x, grid_y = multinoulli_2d(density, marginals_cache)
@@ -97,7 +102,7 @@ def build_network_model(config, density):
     del(marginals_cache)
 
 
-    print("Assigning locations to agents...")
+    log.info("Assigning locations to agents...")
 
     # ------- Assign Children ---------------
     # Sample without replacement from both houses and
@@ -109,7 +114,7 @@ def build_network_model(config, density):
     # routines are not random.
     #
     # FIXME: this is a dumb way of doing it.
-    print(f"Assigning children to houses...")
+    log.debug(f"Assigning children to houses...")
     unclaimed_children = copy.copy(agents_by_type[AgentType.CHILD])
     unassigned_houses  = copy.copy(locations_by_type['House'])
 
@@ -136,7 +141,7 @@ def build_network_model(config, density):
     # ------- Assign Adults ---------------
     # 1. Houses with children get one or two adults
     #
-    print(f"Assigning adults to care for children...")
+    log.debug(f"Assigning adults to care for children...")
     unassigned_adults = copy.copy(agents_by_type[AgentType.ADULT])
     for house in tqdm(houses_with_children):
         if len(unassigned_adults) == 0:
@@ -160,7 +165,7 @@ def build_network_model(config, density):
     #
     # This brings with it the possibility of some households being large,
     # and some houses remaining empty.
-    print(f"Assigning remaining adults/retired people...")
+    log.debug(f"Assigning remaining adults/retired people...")
     unassigned_agents = unassigned_adults + agents_by_type[AgentType.RETIRED]
     for adult in tqdm(unassigned_agents):
         house = random.choice(locations_by_type["House"])
@@ -174,7 +179,7 @@ def build_network_model(config, density):
     #environments consists of the 'other work' locations plus all the other locations, except for house
     #s, cars and the outdoors:
 
-    print(f"Assigning workplaces...")
+    log.debug(f"Assigning workplaces...")
     for agent in tqdm(agents):
         location_type = random.choice(activity_manager.get_location_types("Work"))
         workplace = random.choice(locations_by_type[location_type])
@@ -187,7 +192,7 @@ def build_network_model(config, density):
     # randomly selected so that the individual is able to visit them:
     #
     # TODO: assign exactly 10 houses
-    for agent in agents:
+    for agent in tqdm(agents):
         # This may select n-1 if the agent's current home is in the samole
         new_houses = random.sample(locations_by_type['House'], k=config['homes_allowed_to_visit'])
 
@@ -195,7 +200,7 @@ def build_network_model(config, density):
 
     # For each agent, a number of distinct entertainment venues are randomly selected.
     # First we ensure there is one of each
-    for agent in agents:
+    for agent in tqdm(agents):
         for location_type in config['entertainment_locations']:
             num_locations      = max(1, random.randrange(config['max_entertainment_allowed_to_visit']))
             new_entertainments = random.sample(locations_by_type[location_type],\
@@ -220,7 +225,7 @@ def build_network_model(config, density):
     # Keep track of number of houses assigned to each location
     for location_type in config['home_assignment_types']:
 
-        print(f"Finding people to attend: {location_type}")
+        log.debug(f"Finding people to attend: {location_type}")
         kdtree = KDTree([loc.coord for loc in locations_by_type[location_type]])
         num_houses = defaultdict(int)
 

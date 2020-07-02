@@ -12,6 +12,7 @@ import sys
 import math
 import random
 import pickle
+import logging
 
 import numpy as np
 import pandas as pd
@@ -24,7 +25,7 @@ from .activity import ActivityManager
 import abmlux.utils as utils
 import abmlux.random_tools as random_tools
 
-
+log = logging.getLogger('sim')
 
 def run_model(config, network, initial_activity_distributions, activity_transition_matrix):
 
@@ -42,9 +43,8 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
     utils.print_memory_usage()
 
 
-
     # ------------------------------------------------[ Locations ]------------------------------------
-    print('Loading pathogenic data...')
+    log.debug('Preparing pathogenic data...')
 
     incubation_ticks = clock.days_to_ticks(config['incubation_period_days'])
     infectious_ticks = clock.days_to_ticks(config['infectious_period_days'])
@@ -86,12 +86,12 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
 
     # ------------------------------------------[ Initial state ]------------------------------------
-    print(f"Loading initial state for simulation...")
+    log.debug(f"Loading initial state for simulation...")
     # Infect a few people
     for agent in random.sample(agents, k=config['initial_infections']):
         agent.health = HealthStatus.INFECTED
 
-    print(f"Seeding initial activity states and locations...")
+    log.debug(f"Seeding initial activity states and locations...")
     for agent in agents:
         # allowed_locations = []
         # while len(allowed_locations) == 0:
@@ -100,9 +100,9 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
         allowed_locations      = agent.find_allowed_locations_by_type(allowed_location_types)
 
         if len(allowed_locations) == 0:
-            print(f"Warning: No allowed locations found for agent {agent.inspect()} for activity {new_activity}"\
-                  f" (allowed location types={allowed_location_types})."\
-                  f"  Will resample from the starting distribution, but this is not ideal.")
+            log.warn(f"Warning: No allowed locations found for agent {agent.inspect()} for activity {new_activity}"\
+                     f" (allowed location types={allowed_location_types})."\
+                     f"  Will resample from the starting distribution, but this is not ideal.")
 
         # Do this activity in this location
         agent.set_activity(new_activity, random.choice(list(allowed_locations)))
@@ -110,7 +110,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
 
     # ------------------------------------------------[ Simulate! ]------------------------------------
-    print(f"Simulating outbreak...")
+    log.info(f"Simulating outbreak...")
     # Finally the epidemic can be simulated. In each ten minute interval, the code first loops through all
     # locations, in which the health status of individuals is updated, after which it loops through all 
     # individuals, in which the locations of individuals are updated. Note that individuals only change 
@@ -190,9 +190,8 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
     # 3-tuples, indexed by agent.
     agent_health_state_change_time = {a: 0 for a in agents}
     health_status_by_time = {h.name: [] for h in list(HealthStatus)}
-    for t in tqdm(clock):
+    for t in clock:
 
-        # print(f"[{t} ticks] {clock.time_elapsed()} elapsed, {clock.time_remaining()} remaining")
 
         # Move people around the network
         time_in_week = int(t % clock.ticks_in_week) # How far through the week are we, in ticks?
@@ -206,7 +205,6 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
                 next_agent_state[agent] = transition
 
         # Update states according to markov chain
-        # print(f"=> {len(next_agent_state)} state changes")
         for agent, transition in next_agent_state.items():
 
             next_health, next_activity, next_location = transition
@@ -222,6 +220,8 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
             health_status_by_time[h.name].append( len([a for a in agents if a.health == h]) )
 
 
+        status = {h.name: health_status_by_time[h.name][t-1] for h in list(HealthStatus)}
+        log.debug(f"[{t}] {clock.time_elapsed()} elapsed.   {status}.  {len(next_agent_state)} state changes.")
 
     # ------------------------------------------------[ Return output ]------------------------------------
     return health_status_by_time

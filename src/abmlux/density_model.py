@@ -1,12 +1,17 @@
 
 import sys
 import os.path as osp
+import logging
 
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
 from .config import Config
+
+
+# Module log
+log = logging.getLogger('density_model')
 
 
 
@@ -25,22 +30,22 @@ def read_density_model_jrc(filepath, country_code):
     """
 
     # Load workbook
-    print(f"Loading input data from {filepath}...")
+    log.debug(f"Loading input data from {filepath}...")
     jrc = pd.read_csv(filepath)
 
     # Filter this-country-only rows and augment with integer grid coords
-    print(f"Filtering for country with code {country_code}...")
+    log.debug(f"Filtering for country with code {country_code}...")
     jrc = jrc[jrc["CNTR_CODE"] == country_code]
     jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
     jrc['grid_y'] = pd.Series([int(x[4:8]) for x in jrc['GRD_ID']], index=jrc.index)
 
     country_width  = jrc['grid_x'].max() - jrc['grid_x'].min() + 1
     country_height = jrc['grid_y'].max() - jrc['grid_y'].min() + 1
-    print(f"Country with code {country_code} has {country_width}x{country_height}km of data")
+    log.info(f"Country with code {country_code} has {country_width}x{country_height}km of data")
 
     # Map the grid coordinates given onto a cartesian grid, each cell
     # of which represents the population density at that point
-    print(f"Building density matrix...")
+    log.debug(f"Building density matrix...")
     density = [[0 for x in range(country_width)] for y in range(country_height)]
     for i, row in tqdm(jrc.iterrows(), total=jrc.shape[0]):
 

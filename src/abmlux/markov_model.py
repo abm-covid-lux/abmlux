@@ -18,6 +18,7 @@ import sys
 import os.path as osp
 import math
 import pickle
+import logging
 
 import numpy as np
 import pandas as pd
@@ -33,11 +34,13 @@ DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
 
+log = logging.getLogger('markov_model')
+
 def build_markov_model(config):
     activity_manager = ActivityManager(config['activities'])
 
     # ---------------------------------------------------------------------------------------------------
-    print(f"Loading time use data from {config.filepath('time_use_fp')}...")
+    log.info(f"Loading time use data from {config.filepath('time_use_fp')}...")
     # TODO: force pandas to read the numeric ID columns as factors or ints
     #       same for weights
     tus = pd.read_csv(config.filepath('time_use_fp'))
@@ -45,7 +48,7 @@ def build_markov_model(config):
 
 
     # ---------------------------------------------------------------------------------------------------
-    print('Generating daily routines...')
+    log.info('Generating daily routines...')
 
     # As mentioned above, activities are numerically coded. The file FormatsTUS displays the codification
     # of primary and secondary activities used by the TUS. The primary activities will be grouped together
@@ -142,14 +145,14 @@ def build_markov_model(config):
 
     map_func = get_tus_code_mapping(config['activities'], activity_manager.map_class)
     days     = parse_days(tus, map_func)
-    print(f"Created {len(days)} days")
+    log.info(f"Created {len(days)} days")
 
     # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
     #For each respondent there are now two daily routines; one for a week day and one for a weekend day. 
     #Copies of these routines are now concatenated so as to produce weekly routines, starting on Sunday.
 
     # ---------------------------------------------------------------------------------------------------
-    print('Generating weekly routines...')
+    log.info('Generating weekly routines...')
 
     def create_weekly_routines(days):
         """Create weekly routines for individuals, reading their daily routines
@@ -187,11 +190,11 @@ def build_markov_model(config):
 
 
     weeks = create_weekly_routines(days)
-    print(f"Created {len(weeks)} weeks")
+    log.debug(f"Created {len(weeks)} weeks")
 
     # ---------------------------------------------------------------------------------------------------
     #Now the statistical weights are used to construct the intial distributions and transition matrices:
-    print('Generating weighted initial distributions...')
+    log.info('Generating weighted initial distributions...')
 
     # Weights for how many of each type of agent is performing each type of action
     # AgentType.CHILD: {Home: 23,
@@ -207,7 +210,7 @@ def build_markov_model(config):
                 init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
 
 
-    print('Generating weighted activity transition matrices...')
+    log.info('Generating weighted activity transition matrices...')
     # Activity -> activity transition matrix
     #
     # AgentType.CHILD: [[[activity, activity], [activity, activity]]]
@@ -245,6 +248,3 @@ def build_markov_model(config):
 
 
     return init_distribution_by_type, transition_matrix
-
-
-    print('Done.')
