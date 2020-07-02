@@ -31,20 +31,11 @@ TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
 AGENT_COUNTS_FILENAME          = "Agent_Counts.csv"
 
 
-def main():
-    print(f"ABMLUX {VERSION}")
 
-    # Check the path to the config
-    if len(sys.argv) < 2:
-        print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml")
-        sys.exit(1)
 
-    # System config/setup
-    #
-    # TODO: can we do exponential backoff on this?
-    config = Config(sys.argv[1])
-    sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
-    random.seed(config['random_seed'])        # FIXME: read from config
+
+
+def load_pop_density(config):
 
 
     # ------------------------------------------------[ 1 ]------------------------------------
@@ -59,7 +50,7 @@ def main():
     write_to_disk(density, osp.join(config.filepath('working_dir', True), MAP_FILENAME))
 
 
-
+def build_network(config):
 
 
     # ------------------------------------------------[ 2 ]------------------------------------
@@ -76,7 +67,7 @@ def main():
     write_to_disk(network, osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
 
 
-
+def build_markov(config):
 
     # ------------------------------------------------[ 3 ]------------------------------------
     # Step three: build markov model
@@ -91,7 +82,7 @@ def main():
     write_to_disk(activity_transition_matrix, osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
 
 
-
+def run_sim(config):
 
 
     # ------------------------------------------------[ 4 ]------------------------------------
@@ -112,7 +103,51 @@ def main():
 
 
 
-    print(f"Done.")
+
+
+
+
+
+
+
+
+STAGES = [load_pop_density, build_network, build_markov, run_sim]
+def main():
+    print(f"ABMLUX {VERSION}")
+
+    # Check the path to the config
+    if len(sys.argv) < 2:
+        print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml [STAGE,STAGE,STAGE]")
+        print(f"")
+        print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml 1,2")
+        sys.exit(1)
+
+
+    # System config/setup
+    # TODO: can we do exponential backoff on this?
+    config = Config(sys.argv[1])
+    sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
+    random.seed(config['random_seed'])
+
+
+    # Figure out what we're doing
+    if len(sys.argv) > 2:
+        print(f"Running only some stages.  Will fail if you haven't got prerequisite data from earlier runs.")
+        stages = [STAGES[int(x) - 1] for x in sys.argv[2].split(",")]
+    else:
+        stages = STAGES
+    print(f"Running modelling stages:")
+    for i, stage in enumerate(stages):
+        print(f" ({i+1}) -- {stage.__name__}")
+
+
+    # Do it
+    for i, stage in enumerate(stages):
+        print(f"\n[{i+1}/{len(stages)}] {stage.__name__}")
+        print(f"")
+
+        stage(config)
+
 
 # ===============================================================================================
 # Data Access utils
