@@ -1,0 +1,109 @@
+*F 03 2
+*Z 09707 RGTR--                                             % 09707 RGTR--
+*L 424      170101003 180511008  00715  00751               % 09707 RGTR--
+*A al 170101003 180511008 000002  00715  00751              % 09707 RGTR--
+*A FR 170101003 180511008 000002  00715  00751              % 09707 RGTR--
+*A ad 170101003 180511008 000002  00715  00751              % 09707 RGTR--
+*R 1 180511008 170101003 180511008  00715  00751            % 09707 RGTR--
+*G RGB 170101003 180511008  00715  00751                    % 09707 RGTR--
+*A VE 170101003 180511008 000002  00715  00751              % 09707 RGTR--
+*I FD 170101003 180511008        0001761  00715  00751      % 09707 RGTR--
+170101003 Beaufort, Härewiss           00715                % 09707 RGTR--
+170101006 Beaufort, Op der Gar  00716  00716                % 09707 RGTR--
+170101001 Beaufort, Aispist     00717  00717                % 09707 RGTR--
+170101009 Beaufort, Um Bierg    00717  00717                % 09707 RGTR--
+170101002 Beaufort, Ennescht H  00719  00719                % 09707 RGTR--
+170101008 Beaufort, Halerstroo  00720  00720                % 09707 RGTR--
+170802002 Haller, Schoul        00727  00727                % 09707 RGTR--
+170802001 Haller, Beim Basseng  00728  00728                % 09707 RGTR--
+170804002 Waldbillig, Gemeng    00731  00731                % 09707 RGTR--
+170804001 Waldbillig, Bëlleger  00732  00732                % 09707 RGTR--
+170801002 Christnach, Schoulst  00733  00733                % 09707 RGTR--
+170801001 Christnach, Hierheck  00734  00734                % 09707 RGTR--
+160501003 Heffingen, Rue de Ch  00737  00737                % 09707 RGTR--
+160501006 Heffingen, Abri (Cen  00738  00738                % 09707 RGTR--
+160501004 Heffingen, Thommes    00740  00740                % 09707 RGTR--
+160502001 Reuland               00742  00742                % 09707 RGTR--
+180503001 Blumenthal/Blummenda  00744  00744                % 09707 RGTR--
+180511008 Junglinster, Lycée    00751                       % 09707 RGTR--
+*Z 09708 RGTR--                                             % 09708 RGTR--
+*L 424      180511008 170101003  01405  01439               % 09708 RGTR--
+*A al 180511008 170101003 000007  01405  01439              % 09708 RGTR--
+*A FR 180511008 170101003 000007  01405  01439              % 09708 RGTR--
+*A ad 180511008 170101003 000007  01405  01439              % 09708 RGTR--
+*R 2 170101003 180511008 170101003  01405  01439            % 09708 RGTR--
+*G RGB 180511008 170101003  01405  01439                    % 09708 RGTR--
+*A VE 180511008 170101003 000007  01405  01439              % 09708 RGTR--
+*I FD 180511008 170101003        0002538  01405  01439      % 09708 RGTR--
+180511008 Junglinster, Lycée           01405                % 09708 RGTR--
+180503001 Blumenthal/Blummenda  01411  01411                % 09708 RGTR--
+160502001 Reuland               01413  01413                % 09708 RGTR--
+160501004 Heffingen, Thommes    01416  01416                % 09708 RGTR--
+160501001 Heffingen, Al Gemeng  01417  01417                % 09708 RGTR--
+160501003 Heffingen, Rue de Ch  01418  01418                % 09708 RGTR--
+170801001 Christnach, Hierheck  01421  01421                % 09708 RGTR--
+170801002 Christnach, Schoulst  01421  01421                % 09708 RGTR--
+170804001 Waldbillig, Bëlleger  01422  01422                % 09708 RGTR--
+170804002 Waldbillig, Gemeng    01423  01423                % 09708 RGTR--
+170802001 Haller, Beim Basseng  01427  01427                % 09708 RGTR--
+170802002 Haller, Schoul        01428  01428                % 09708 RGTR--
+170101008 Beaufort, Halerstroo  01435  01435                % 09708 RGTR--
+170101002 Beaufort, Ennescht H  01436  01436                % 09708 RGTR--
+170101009 Beaufort, Um Bierg    01437  01437                % 09708 RGTR--
+170101001 Beaufort, Aispist     01437  01437                % 09708 RGTR--
+170101006 Beaufort, Op der Gar  01438  01438                % 09708 RGTR--
+170101003 Beaufort, Härewiss    01439                       % 09708 RGTR--
+*Z 09709 RGTR--                                             % 09709 RGTR--
+*L 424      180511008 170101003  01140  01214               % 09709 RGTR--
+*A al 180511008 170101003 000021  01140  01214              % 09709 RGTR--
+*A FR 180511008 170101003 000021  01140  01214              % 09709 RGTR--
+*A ad 180511008 170101003 000021  01140  01214              % 09709 RGTR--
+*R 2 170101003 180511008 170101003  01140  01214            % 09709 RGTR--
+*G RGB 180511008 170101003  01140  01214                    % 09709 RGTR--
+*A VE 180511008 170101003 000021  01140  01214              % 09709 RGTR--
+*I FD 180511008 170101003        0001899  01140  01214      % 09709 RGTR--
+180511008 Junglinster, Lycée           01140                % 09709 RGTR--
+180503001 Blumenthal/Blummenda  01146  01146                % 09709 RGTR--
+160502001 Reuland               01148  01148                % 09709 RGTR--
+160501004 Heffingen, Thommes    01151  01151                % 09709 RGTR--
+160501001 Heffingen, Al Gemeng  01152  01152                % 09709 RGTR--
+160501003 Heffingen, Rue de Ch  01153  01153                % 09709 RGTR--
+170801001 Christnach, Hierheck  01156  01156                % 09709 RGTR--
+170801002 Christnach, Schoulst  01156  01156                % 09709 RGTR--
+170804001 Waldbillig, Bëlleger  01157  01157                % 09709 RGTR--
+170804002 Waldbillig, Gemeng    01158  01158                % 09709 RGTR--
+170802001 Haller, Beim Basseng  01202  01202                % 09709 RGTR--
+170802002 Haller, Schoul        01203  01203                % 09709 RGTR--
+170101008 Beaufort, Halerstroo  01210  01210                % 09709 RGTR--
+170101002 Beaufort, Ennescht H  01211  01211                % 09709 RGTR--
+170101009 Beaufort, Um Bierg    01212  01212                % 09709 RGTR--
+170101001 Beaufort, Aispist     01212  01212                % 09709 RGTR--
+170101006 Beaufort, Op der Gar  01213  01213                % 09709 RGTR--
+170101003 Beaufort, Härewiss    01214                       % 09709 RGTR--
+*Z 09710 RGTR--                                             % 09710 RGTR--
+*L 424      180511008 170101003  01605  01639               % 09710 RGTR--
+*A al 180511008 170101003 000026  01605  01639              % 09710 RGTR--
+*A FR 180511008 170101003 000026  01605  01639              % 09710 RGTR--
+*A ad 180511008 170101003 000026  01605  01639              % 09710 RGTR--
+*R 2 170101003 180511008 170101003  01605  01639            % 09710 RGTR--
+*G RGB 180511008 170101003  01605  01639                    % 09710 RGTR--
+*A VE 180511008 170101003 000026  01605  01639              % 09710 RGTR--
+*I FD 180511008 170101003        0002219  01605  01639      % 09710 RGTR--
+180511008 Junglinster, Lycée           01605                % 09710 RGTR--
+180503001 Blumenthal/Blummenda  01611  01611                % 09710 RGTR--
+160502001 Reuland               01613  01613                % 09710 RGTR--
+160501004 Heffingen, Thommes    01616  01616                % 09710 RGTR--
+160501001 Heffingen, Al Gemeng  01617  01617                % 09710 RGTR--
+160501003 Heffingen, Rue de Ch  01618  01618                % 09710 RGTR--
+170801001 Christnach, Hierheck  01621  01621                % 09710 RGTR--
+170801002 Christnach, Schoulst  01621  01621                % 09710 RGTR--
+170804001 Waldbillig, Bëlleger  01622  01622                % 09710 RGTR--
+170804002 Waldbillig, Gemeng    01623  01623                % 09710 RGTR--
+170802001 Haller, Beim Basseng  01627  01627                % 09710 RGTR--
+170802002 Haller, Schoul        01628  01628                % 09710 RGTR--
+170101008 Beaufort, Halerstroo  01635  01635                % 09710 RGTR--
+170101002 Beaufort, Ennescht H  01636  01636                % 09710 RGTR--
+170101009 Beaufort, Um Bierg    01637  01637                % 09710 RGTR--
+170101001 Beaufort, Aispist     01637  01637                % 09710 RGTR--
+170101006 Beaufort, Op der Gar  01638  01638                % 09710 RGTR--
+170101003 Beaufort, Härewiss    01639                       % 09710 RGTR--

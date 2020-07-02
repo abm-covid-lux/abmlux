@@ -1,0 +1,157 @@
+*F 03 2
+*Z 10494 RGTR--                                             % 10494 RGTR--
+*L 186      210402001 210503012  00700  00747               % 10494 RGTR--
+*A al 210402001 210503012 000002  00700  00747              % 10494 RGTR--
+*A ao 210402001 210503012 000002  00700  00747              % 10494 RGTR--
+*A ae 210402001 210503012 000002  00700  00747              % 10494 RGTR--
+*A ad 210402001 210503012 000002  00700  00747              % 10494 RGTR--
+*R 1 210503012 210402001 210503012  00700  00747            % 10494 RGTR--
+*G RGB 210402001 210503012  00700  00747                    % 10494 RGTR--
+*A VE 210402001 210503012 000002  00700  00747              % 10494 RGTR--
+*I FD 210402001 210503012        0002858  00700  00747      % 10494 RGTR--
+210402001 Lenningen, Am Aker           00700                % 10494 RGTR--
+210801002 Greiveldange, Gemeng  00702  00702                % 10494 RGTR--
+210803003 Stadtbredimus, Schle  00706  00706                % 10494 RGTR--
+210803005 Stadtbredimus, Vinsm  00707  00707                % 10494 RGTR--
+210803006 Stadtbredimus, Wandm  00707  00707                % 10494 RGTR--
+210701003 Remich, Caves St. Ma  00708  00708                % 10494 RGTR--
+210701008 Remich, Maatebierg    00710  00710                % 10494 RGTR--
+210701006 Remich, Gare routièr  00711  00711                % 10494 RGTR--
+210701011 Remich, Piscine       00713  00713                % 10494 RGTR--
+211001002 Bech-Kleinmacher, Ce  00715  00715                % 10494 RGTR--
+211003001 Wellenstein, Centre   00717  00717                % 10494 RGTR--
+211003003 Wellenstein, Caves c  00718  00718                % 10494 RGTR--
+211001003 Bech-Kleinmacher, Fu  00719  00719                % 10494 RGTR--
+211002001 Schwebsingen, Centre  00721  00721                % 10494 RGTR--
+211002002 Schwebsingen, Op der  00722  00722                % 10494 RGTR--
+210603001 Wintrange, Dorefplaz  00723  00723                % 10494 RGTR--
+210601001 Remerschen, Al Schou  00725  00725                % 10494 RGTR--
+210601003 Remerschen, Kiosk     00726  00726                % 10494 RGTR--
+210601002 Remerschen, Ennen am  00726  00726                % 10494 RGTR--
+210602004 Schengen, Séckerbaac  00728  00728                % 10494 RGTR--
+210602001 Schengen, Ennen am D  00729  00729                % 10494 RGTR--
+210201001 Burmerange, Bei der   00736  00736                % 10494 RGTR--
+210201003 Burmerange, Um Schot  00736  00736                % 10494 RGTR--
+210202002 Elvange/Mondorf, Kal  00739  00739                % 10494 RGTR--
+210202001 Elvange/Mondorf, Bei  00740  00740                % 10494 RGTR--
+210202003 Elvange/Mondorf, Vil  00741  00741                % 10494 RGTR--
+210502001 Ellenger Gare         00743  00743                % 10494 RGTR--
+210503006 Mondorf, Réimecherst  00745  00745                % 10494 RGTR--
+210503012 Mondorf, Ecole Inter  00747                       % 10494 RGTR--
+*Z 10495 RGTR--                                             % 10495 RGTR--
+*L 186      210503012 210402001  01225  01310               % 10495 RGTR--
+*A al 210503012 210402001 000007  01225  01310              % 10495 RGTR--
+*A ao 210503012 210402001 000007  01225  01310              % 10495 RGTR--
+*A ae 210503012 210402001 000007  01225  01310              % 10495 RGTR--
+*A ad 210503012 210402001 000007  01225  01310              % 10495 RGTR--
+*R 2 210402001 210503012 210402001  01225  01310            % 10495 RGTR--
+*G RGB 210503012 210402001  01225  01310                    % 10495 RGTR--
+*A VE 210503012 210402001 000007  01225  01310              % 10495 RGTR--
+*I FD 210503012 210402001        0002849  01225  01310      % 10495 RGTR--
+210503012 Mondorf, Ecole Inter         01225                % 10495 RGTR--
+210503007 Mondorf, Stade John   01226  01226                % 10495 RGTR--
+210502001 Ellenger Gare         01228  01228                % 10495 RGTR--
+210202003 Elvange/Mondorf, Vil  01229  01229                % 10495 RGTR--
+210202001 Elvange/Mondorf, Bei  01230  01230                % 10495 RGTR--
+210202002 Elvange/Mondorf, Kal  01231  01231                % 10495 RGTR--
+210201003 Burmerange, Um Schot  01233  01233                % 10495 RGTR--
+210201001 Burmerange, Bei der   01234  01234                % 10495 RGTR--
+210602004 Schengen, Séckerbaac  01241  01241                % 10495 RGTR--
+210602001 Schengen, Ennen am D  01241  01241                % 10495 RGTR--
+210601002 Remerschen, Ennen am  01244  01244                % 10495 RGTR--
+210601003 Remerschen, Kiosk     01245  01245                % 10495 RGTR--
+210601001 Remerschen, Al Schou  01246  01246                % 10495 RGTR--
+210603001 Wintrange, Dorefplaz  01247  01247                % 10495 RGTR--
+211002002 Schwebsingen, Op der  01249  01249                % 10495 RGTR--
+211002001 Schwebsingen, Centre  01249  01249                % 10495 RGTR--
+211001003 Bech-Kleinmacher, Fu  01252  01252                % 10495 RGTR--
+211003003 Wellenstein, Caves c  01253  01253                % 10495 RGTR--
+211003001 Wellenstein, Centre   01254  01254                % 10495 RGTR--
+211001002 Bech-Kleinmacher, Ce  01256  01256                % 10495 RGTR--
+210701011 Remich, Piscine       01258  01258                % 10495 RGTR--
+210701006 Remich, Gare routièr  01259  01259                % 10495 RGTR--
+210701008 Remich, Maatebierg    01300  01300                % 10495 RGTR--
+210701003 Remich, Caves St. Ma  01301  01301                % 10495 RGTR--
+210803006 Stadtbredimus, Wandm  01302  01302                % 10495 RGTR--
+210803005 Stadtbredimus, Vinsm  01303  01303                % 10495 RGTR--
+210803003 Stadtbredimus, Schle  01304  01304                % 10495 RGTR--
+210801002 Greiveldange, Gemeng  01308  01308                % 10495 RGTR--
+210402001 Lenningen, Am Aker    01310                       % 10495 RGTR--
+*Z 10496 RGTR--                                             % 10496 RGTR--
+*L 186      210503012 210402001  01310  01355               % 10496 RGTR--
+*A al 210503012 210402001 000093  01310  01355              % 10496 RGTR--
+*A ao 210503012 210402001 000093  01310  01355              % 10496 RGTR--
+*A ae 210503012 210402001 000093  01310  01355              % 10496 RGTR--
+*A ad 210503012 210402001 000093  01310  01355              % 10496 RGTR--
+*R 2 210402001 210503012 210402001  01310  01355            % 10496 RGTR--
+*G RGB 210503012 210402001  01310  01355                    % 10496 RGTR--
+*A VE 210503012 210402001 000093  01310  01355              % 10496 RGTR--
+*I FD 210503012 210402001        0001971  01310  01355      % 10496 RGTR--
+210503012 Mondorf, Ecole Inter         01310                % 10496 RGTR--
+210503007 Mondorf, Stade John   01311  01311                % 10496 RGTR--
+210502001 Ellenger Gare         01313  01313                % 10496 RGTR--
+210202003 Elvange/Mondorf, Vil  01314  01314                % 10496 RGTR--
+210202001 Elvange/Mondorf, Bei  01315  01315                % 10496 RGTR--
+210202002 Elvange/Mondorf, Kal  01316  01316                % 10496 RGTR--
+210201003 Burmerange, Um Schot  01318  01318                % 10496 RGTR--
+210201001 Burmerange, Bei der   01319  01319                % 10496 RGTR--
+210602004 Schengen, Séckerbaac  01326  01326                % 10496 RGTR--
+210602001 Schengen, Ennen am D  01326  01326                % 10496 RGTR--
+210601002 Remerschen, Ennen am  01329  01329                % 10496 RGTR--
+210601003 Remerschen, Kiosk     01330  01330                % 10496 RGTR--
+210601001 Remerschen, Al Schou  01331  01331                % 10496 RGTR--
+210603001 Wintrange, Dorefplaz  01332  01332                % 10496 RGTR--
+211002002 Schwebsingen, Op der  01334  01334                % 10496 RGTR--
+211002001 Schwebsingen, Centre  01334  01334                % 10496 RGTR--
+211001003 Bech-Kleinmacher, Fu  01337  01337                % 10496 RGTR--
+211003003 Wellenstein, Caves c  01338  01338                % 10496 RGTR--
+211003001 Wellenstein, Centre   01339  01339                % 10496 RGTR--
+211001002 Bech-Kleinmacher, Ce  01341  01341                % 10496 RGTR--
+210701011 Remich, Piscine       01343  01343                % 10496 RGTR--
+210701006 Remich, Gare routièr  01344  01344                % 10496 RGTR--
+210701008 Remich, Maatebierg    01345  01345                % 10496 RGTR--
+210701003 Remich, Caves St. Ma  01346  01346                % 10496 RGTR--
+210803006 Stadtbredimus, Wandm  01347  01347                % 10496 RGTR--
+210803005 Stadtbredimus, Vinsm  01348  01348                % 10496 RGTR--
+210803003 Stadtbredimus, Schle  01349  01349                % 10496 RGTR--
+210801002 Greiveldange, Gemeng  01353  01353                % 10496 RGTR--
+210402001 Lenningen, Am Aker    01355                       % 10496 RGTR--
+*Z 10497 RGTR--                                             % 10497 RGTR--
+*L 186      210503012 210402001  01610  01657               % 10497 RGTR--
+*A al 210503012 210402001 000101  01610  01657              % 10497 RGTR--
+*A ao 210503012 210402001 000101  01610  01657              % 10497 RGTR--
+*A ae 210503012 210402001 000101  01610  01657              % 10497 RGTR--
+*A ad 210503012 210402001 000101  01610  01657              % 10497 RGTR--
+*R 2 210402001 210503012 210402001  01610  01657            % 10497 RGTR--
+*G RGB 210503012 210402001  01610  01657                    % 10497 RGTR--
+*A VE 210503012 210402001 000101  01610  01657              % 10497 RGTR--
+*I FD 210503012 210402001        0001977  01610  01657      % 10497 RGTR--
+210503012 Mondorf, Ecole Inter         01610                % 10497 RGTR--
+210503007 Mondorf, Stade John   01612  01612                % 10497 RGTR--
+210502001 Ellenger Gare         01613  01613                % 10497 RGTR--
+210202003 Elvange/Mondorf, Vil  01615  01615                % 10497 RGTR--
+210202001 Elvange/Mondorf, Bei  01616  01616                % 10497 RGTR--
+210202002 Elvange/Mondorf, Kal  01617  01617                % 10497 RGTR--
+210201003 Burmerange, Um Schot  01620  01620                % 10497 RGTR--
+210201001 Burmerange, Bei der   01620  01620                % 10497 RGTR--
+210602004 Schengen, Séckerbaac  01627  01627                % 10497 RGTR--
+210602001 Schengen, Ennen am D  01628  01628                % 10497 RGTR--
+210601002 Remerschen, Ennen am  01631  01631                % 10497 RGTR--
+210601003 Remerschen, Kiosk     01631  01631                % 10497 RGTR--
+210601001 Remerschen, Al Schou  01632  01632                % 10497 RGTR--
+210603001 Wintrange, Dorefplaz  01634  01634                % 10497 RGTR--
+211002002 Schwebsingen, Op der  01635  01635                % 10497 RGTR--
+211002001 Schwebsingen, Centre  01636  01636                % 10497 RGTR--
+211001003 Bech-Kleinmacher, Fu  01638  01638                % 10497 RGTR--
+211003003 Wellenstein, Caves c  01639  01639                % 10497 RGTR--
+211003001 Wellenstein, Centre   01641  01641                % 10497 RGTR--
+211001002 Bech-Kleinmacher, Ce  01642  01642                % 10497 RGTR--
+210701011 Remich, Piscine       01644  01644                % 10497 RGTR--
+210701006 Remich, Gare routièr  01645  01645                % 10497 RGTR--
+210701008 Remich, Maatebierg    01647  01647                % 10497 RGTR--
+210701003 Remich, Caves St. Ma  01648  01648                % 10497 RGTR--
+210803006 Stadtbredimus, Wandm  01650  01650                % 10497 RGTR--
+210803005 Stadtbredimus, Vinsm  01650  01650                % 10497 RGTR--
+210803003 Stadtbredimus, Schle  01651  01651                % 10497 RGTR--
+210801002 Greiveldange, Gemeng  01655  01655                % 10497 RGTR--
+210402001 Lenningen, Am Aker    01657                       % 10497 RGTR--

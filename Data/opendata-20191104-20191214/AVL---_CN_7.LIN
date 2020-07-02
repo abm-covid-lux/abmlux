@@ -1,0 +1,100 @@
+*F 03 2
+*Z 01634 AVL---       002 090                               % 01634 AVL---
+*L CN 7     200405020 200405020  02435  02457               % 01634 AVL---
+*A BE 200405020 200405020 000020  02435  02457              % 01634 AVL---
+*R 1 200405020 200405020 200405020  02435  02457            % 01634 AVL---
+*G AVM 200405020 200405020  02435  02457                    % 01634 AVL---
+*A VE 200405020 200405020 000020  02435  02457              % 01634 AVL---
+200405020 Hamilius                     02435                % 01634 AVL---
+200405014 Centre, Fondation Pe  02437  02437                % 01634 AVL---
+200419026 Limpertsberg, Theate  02437  02437                % 01634 AVL---
+200419025 Limpertsberg, Lycée   02438  02438                % 01634 AVL---
+200419002 Limpertsberg, Alen T  02439  02439                % 01634 AVL---
+200419034 Limpertsberg, Square  02440  02440                % 01634 AVL---
+200419008 Limpertsberg, Batty   02440  02440                % 01634 AVL---
+200419020 Luxembourg, Uni Camp  02441  02441                % 01634 AVL---
+200419014 Limpertsberg, Ermesi  02442  02442                % 01634 AVL---
+200419019 Limpertsberg, Henri   02443  02443                % 01634 AVL---
+200419036 Limpertsberg, Faïenc  02443  02443                % 01634 AVL---
+200405045 Centre, Stäreplaz /   02445  02445                % 01634 AVL---
+200403022 Luxembourg, Square N  02445  02445                % 01634 AVL---
+200403002 Belair, Archiducs     02446  02446                % 01634 AVL---
+200403001 Belair, Amsterdam     02447  02447                % 01634 AVL---
+200403010 Belair, Kierch        02447  02447                % 01634 AVL---
+200403012 Belair, Oradour       02448  02448                % 01634 AVL---
+200420007 Merl, Kiirfecht       02449  02449                % 01634 AVL---
+200420016 Merl, Charlemagne     02450  02450                % 01634 AVL---
+200420008 Merl, Laang Heck      02451  02451                % 01634 AVL---
+200420011 Merl, Orval           02451  02451                % 01634 AVL---
+200403013 Belair, Place de Fra  02452  02452                % 01634 AVL---
+200420012 Merl, Parc            02452  02452                % 01634 AVL---
+200403004 Belair, Bragance      02453  02453                % 01634 AVL---
+200403008 Belair, Guillaume     02454  02454                % 01634 AVL---
+200403015 Belair, Rheinsheim    02455  02455                % 01634 AVL---
+200405020 Hamilius              02457                       % 01634 AVL---
+*Z 01635 AVL---       001 030                               % 01635 AVL---
+*L CN 7     200405020 200405020  02505  02527               % 01635 AVL---
+*A BE 200405020 200405020 000020  02505  02527              % 01635 AVL---
+*R 1 200405020 200405020 200405020  02505  02527            % 01635 AVL---
+*G AVS 200405020 200405020  02505  02527                    % 01635 AVL---
+*A VE 200405020 200405020 000020  02505  02527              % 01635 AVL---
+200405020 Hamilius                     02505                % 01635 AVL---
+200405014 Centre, Fondation Pe  02507  02507                % 01635 AVL---
+200419026 Limpertsberg, Theate  02507  02507                % 01635 AVL---
+200419025 Limpertsberg, Lycée   02508  02508                % 01635 AVL---
+200419002 Limpertsberg, Alen T  02509  02509                % 01635 AVL---
+200419034 Limpertsberg, Square  02510  02510                % 01635 AVL---
+200419008 Limpertsberg, Batty   02510  02510                % 01635 AVL---
+200419020 Luxembourg, Uni Camp  02511  02511                % 01635 AVL---
+200419014 Limpertsberg, Ermesi  02512  02512                % 01635 AVL---
+200419019 Limpertsberg, Henri   02513  02513                % 01635 AVL---
+200419036 Limpertsberg, Faïenc  02513  02513                % 01635 AVL---
+200405045 Centre, Stäreplaz /   02515  02515                % 01635 AVL---
+200403022 Luxembourg, Square N  02515  02515                % 01635 AVL---
+200403002 Belair, Archiducs     02516  02516                % 01635 AVL---
+200403001 Belair, Amsterdam     02517  02517                % 01635 AVL---
+200403010 Belair, Kierch        02517  02517                % 01635 AVL---
+200403012 Belair, Oradour       02518  02518                % 01635 AVL---
+200420007 Merl, Kiirfecht       02519  02519                % 01635 AVL---
+200420016 Merl, Charlemagne     02520  02520                % 01635 AVL---
+200420008 Merl, Laang Heck      02521  02521                % 01635 AVL---
+200420011 Merl, Orval           02521  02521                % 01635 AVL---
+200403013 Belair, Place de Fra  02522  02522                % 01635 AVL---
+200420012 Merl, Parc            02522  02522                % 01635 AVL---
+200403004 Belair, Bragance      02523  02523                % 01635 AVL---
+200403008 Belair, Guillaume     02524  02524                % 01635 AVL---
+200403015 Belair, Rheinsheim    02525  02525                % 01635 AVL---
+200405020 Hamilius              02527                       % 01635 AVL---
+*Z 01636 AVL---       001 030                               % 01636 AVL---
+*L CN 7     200405020 200405020  02635  02657               % 01636 AVL---
+*A BE 200405020 200405020 000020  02635  02657              % 01636 AVL---
+*R 1 200405020 200405020 200405020  02635  02657            % 01636 AVL---
+*G AVS 200405020 200405020  02635  02657                    % 01636 AVL---
+*A VE 200405020 200405020 000020  02635  02657              % 01636 AVL---
+200405020 Hamilius                     02635                % 01636 AVL---
+200405014 Centre, Fondation Pe  02637  02637                % 01636 AVL---
+200419026 Limpertsberg, Theate  02637  02637                % 01636 AVL---
+200419025 Limpertsberg, Lycée   02638  02638                % 01636 AVL---
+200419002 Limpertsberg, Alen T  02639  02639                % 01636 AVL---
+200419034 Limpertsberg, Square  02640  02640                % 01636 AVL---
+200419008 Limpertsberg, Batty   02640  02640                % 01636 AVL---
+200419020 Luxembourg, Uni Camp  02641  02641                % 01636 AVL---
+200419014 Limpertsberg, Ermesi  02642  02642                % 01636 AVL---
+200419019 Limpertsberg, Henri   02643  02643                % 01636 AVL---
+200419036 Limpertsberg, Faïenc  02643  02643                % 01636 AVL---
+200405045 Centre, Stäreplaz /   02645  02645                % 01636 AVL---
+200403022 Luxembourg, Square N  02645  02645                % 01636 AVL---
+200403002 Belair, Archiducs     02646  02646                % 01636 AVL---
+200403001 Belair, Amsterdam     02647  02647                % 01636 AVL---
+200403010 Belair, Kierch        02647  02647                % 01636 AVL---
+200403012 Belair, Oradour       02648  02648                % 01636 AVL---
+200420007 Merl, Kiirfecht       02649  02649                % 01636 AVL---
+200420016 Merl, Charlemagne     02650  02650                % 01636 AVL---
+200420008 Merl, Laang Heck      02651  02651                % 01636 AVL---
+200420011 Merl, Orval           02651  02651                % 01636 AVL---
+200403013 Belair, Place de Fra  02652  02652                % 01636 AVL---
+200420012 Merl, Parc            02652  02652                % 01636 AVL---
+200403004 Belair, Bragance      02653  02653                % 01636 AVL---
+200403008 Belair, Guillaume     02654  02654                % 01636 AVL---
+200403015 Belair, Rheinsheim    02655  02655                % 01636 AVL---
+200405020 Hamilius              02657                       % 01636 AVL---

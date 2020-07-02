@@ -1,0 +1,375 @@
+*F 03 2
+*Z 06871 RGTR--                                             % 06871 RGTR--
+*L 157      200417050 500000072  01732  01818               % 06871 RGTR--
+*A ea 200417050 500000072 000001  01732  01818              % 06871 RGTR--
+*R 1 500000072 200417050 500000072  01732  01818            % 06871 RGTR--
+*G RGB 200417050 500000072  01732  01818                    % 06871 RGTR--
+*A VE 200417050 500000072 000001  01732  01818              % 06871 RGTR--
+*I FD 200417050 500000072        0001731  01732  01818      % 06871 RGTR--
+200417050 Kirchberg, Gare rout         01732                % 06871 RGTR--
+180804002 Wormeldange, Geméen   01753  01753                % 06871 RGTR--
+500000089 Wincheringen, Moselb  01756  01756                % 06871 RGTR--
+500000090 Wincheringen, Winche  01759  01759                % 06871 RGTR--
+500000005 Bilzingen Ort, Winch  01802  01802                % 06871 RGTR--
+500000035 Merzkirchen, Abzw.    01806  01806                % 06871 RGTR--
+500000021 Saarburg, Kahren      01809  01809                % 06871 RGTR--
+500000118 Saarburg, Im Fichten  01812  01812                % 06871 RGTR--
+500000018 Saarburg, Heckingpla  01815  01815                % 06871 RGTR--
+500000072 Saarburg, Bahnhof-Br  01818                       % 06871 RGTR--
+*Z 06872 RGTR--                                             % 06872 RGTR--
+*L 157      200417050 500000072  01632  01718               % 06872 RGTR--
+*A ea 200417050 500000072 000002  01632  01718              % 06872 RGTR--
+*R 1 500000072 200417050 500000072  01632  01718            % 06872 RGTR--
+*G RGB 200417050 500000072  01632  01718                    % 06872 RGTR--
+*A VE 200417050 500000072 000002  01632  01718              % 06872 RGTR--
+*I FD 200417050 500000072        0001729  01632  01718      % 06872 RGTR--
+200417050 Kirchberg, Gare rout         01632                % 06872 RGTR--
+180804002 Wormeldange, Geméen   01653  01653                % 06872 RGTR--
+500000089 Wincheringen, Moselb  01656  01656                % 06872 RGTR--
+500000090 Wincheringen, Winche  01659  01659                % 06872 RGTR--
+500000005 Bilzingen Ort, Winch  01702  01702                % 06872 RGTR--
+500000035 Merzkirchen, Abzw.    01706  01706                % 06872 RGTR--
+500000021 Saarburg, Kahren      01709  01709                % 06872 RGTR--
+500000118 Saarburg, Im Fichten  01712  01712                % 06872 RGTR--
+500000018 Saarburg, Heckingpla  01715  01715                % 06872 RGTR--
+500000072 Saarburg, Bahnhof-Br  01718                       % 06872 RGTR--
+*Z 06873 RGTR--                                             % 06873 RGTR--
+*L 157      200417050 500000072  01702  01748               % 06873 RGTR--
+*A ea 200417050 500000072 000002  01702  01748              % 06873 RGTR--
+*R 1 500000072 200417050 500000072  01702  01748            % 06873 RGTR--
+*G RGB 200417050 500000072  01702  01748                    % 06873 RGTR--
+*A VE 200417050 500000072 000002  01702  01748              % 06873 RGTR--
+*I FD 200417050 500000072        0003378  01702  01748      % 06873 RGTR--
+200417050 Kirchberg, Gare rout         01702                % 06873 RGTR--
+180804002 Wormeldange, Geméen   01723  01723                % 06873 RGTR--
+500000089 Wincheringen, Moselb  01726  01726                % 06873 RGTR--
+500000090 Wincheringen, Winche  01729  01729                % 06873 RGTR--
+500000005 Bilzingen Ort, Winch  01732  01732                % 06873 RGTR--
+500000035 Merzkirchen, Abzw.    01736  01736                % 06873 RGTR--
+500000021 Saarburg, Kahren      01739  01739                % 06873 RGTR--
+500000118 Saarburg, Im Fichten  01742  01742                % 06873 RGTR--
+500000018 Saarburg, Heckingpla  01745  01745                % 06873 RGTR--
+500000072 Saarburg, Bahnhof-Br  01748                       % 06873 RGTR--
+*Z 06874 RGTR--                                             % 06874 RGTR--
+*L 157      200417050 500000072  01802  01848               % 06874 RGTR--
+*A ea 200417050 500000072 000002  01802  01848              % 06874 RGTR--
+*R 1 500000072 200417050 500000072  01802  01848            % 06874 RGTR--
+*G RGB 200417050 500000072  01802  01848                    % 06874 RGTR--
+*A VE 200417050 500000072 000002  01802  01848              % 06874 RGTR--
+*I FD 200417050 500000072        0002754  01802  01848      % 06874 RGTR--
+200417050 Kirchberg, Gare rout         01802                % 06874 RGTR--
+180804002 Wormeldange, Geméen   01823  01823                % 06874 RGTR--
+500000089 Wincheringen, Moselb  01826  01826                % 06874 RGTR--
+500000090 Wincheringen, Winche  01829  01829                % 06874 RGTR--
+500000005 Bilzingen Ort, Winch  01832  01832                % 06874 RGTR--
+500000035 Merzkirchen, Abzw.    01836  01836                % 06874 RGTR--
+500000021 Saarburg, Kahren      01839  01839                % 06874 RGTR--
+500000118 Saarburg, Im Fichten  01842  01842                % 06874 RGTR--
+500000018 Saarburg, Heckingpla  01845  01845                % 06874 RGTR--
+500000072 Saarburg, Bahnhof-Br  01848                       % 06874 RGTR--
+*Z 06875 RGTR--                                             % 06875 RGTR--
+*L 157      200417050 500000072  00930  01014               % 06875 RGTR--
+*A ea 200417050 500000072 000001  00930  01014              % 06875 RGTR--
+*R 1 500000072 200417050 500000072  00930  01014            % 06875 RGTR--
+*G RGB 200417050 500000072  00930  01014                    % 06875 RGTR--
+*A VE 200417050 500000072 000001  00930  01014              % 06875 RGTR--
+*I FD 200417050 500000072        0001732  00930  01014      % 06875 RGTR--
+200417050 Kirchberg, Gare rout         00930                % 06875 RGTR--
+180804002 Wormeldange, Geméen   00950  00950                % 06875 RGTR--
+500000089 Wincheringen, Moselb  00952  00952                % 06875 RGTR--
+500000090 Wincheringen, Winche  00955  00955                % 06875 RGTR--
+500000005 Bilzingen Ort, Winch  00959  00959                % 06875 RGTR--
+500000035 Merzkirchen, Abzw.    01002  01002                % 06875 RGTR--
+500000021 Saarburg, Kahren      01005  01005                % 06875 RGTR--
+500000118 Saarburg, Im Fichten  01008  01008                % 06875 RGTR--
+500000018 Saarburg, Heckingpla  01011  01011                % 06875 RGTR--
+500000072 Saarburg, Bahnhof-Br  01014                       % 06875 RGTR--
+*Z 06876 RGTR--                                             % 06876 RGTR--
+*L 157      200417050 500000072  01430  01514               % 06876 RGTR--
+*A ea 200417050 500000072 000001  01430  01514              % 06876 RGTR--
+*R 1 500000072 200417050 500000072  01430  01514            % 06876 RGTR--
+*G RGB 200417050 500000072  01430  01514                    % 06876 RGTR--
+*A VE 200417050 500000072 000001  01430  01514              % 06876 RGTR--
+*I FD 200417050 500000072        0001735  01430  01514      % 06876 RGTR--
+200417050 Kirchberg, Gare rout         01430                % 06876 RGTR--
+180804002 Wormeldange, Geméen   01450  01450                % 06876 RGTR--
+500000089 Wincheringen, Moselb  01452  01452                % 06876 RGTR--
+500000090 Wincheringen, Winche  01455  01455                % 06876 RGTR--
+500000005 Bilzingen Ort, Winch  01459  01459                % 06876 RGTR--
+500000035 Merzkirchen, Abzw.    01502  01502                % 06876 RGTR--
+500000021 Saarburg, Kahren      01505  01505                % 06876 RGTR--
+500000118 Saarburg, Im Fichten  01508  01508                % 06876 RGTR--
+500000018 Saarburg, Heckingpla  01511  01511                % 06876 RGTR--
+500000072 Saarburg, Bahnhof-Br  01514                       % 06876 RGTR--
+*Z 06877 RGTR--                                             % 06877 RGTR--
+*L 157      200417050 500000072  01130  01214               % 06877 RGTR--
+*A ea 200417050 500000072 000002  01130  01214              % 06877 RGTR--
+*R 1 500000072 200417050 500000072  01130  01214            % 06877 RGTR--
+*G RGB 200417050 500000072  01130  01214                    % 06877 RGTR--
+*A VE 200417050 500000072 000002  01130  01214              % 06877 RGTR--
+*I FD 200417050 500000072        0001054  01130  01214      % 06877 RGTR--
+200417050 Kirchberg, Gare rout         01130                % 06877 RGTR--
+180804002 Wormeldange, Geméen   01150  01150                % 06877 RGTR--
+500000089 Wincheringen, Moselb  01152  01152                % 06877 RGTR--
+500000090 Wincheringen, Winche  01155  01155                % 06877 RGTR--
+500000005 Bilzingen Ort, Winch  01159  01159                % 06877 RGTR--
+500000035 Merzkirchen, Abzw.    01202  01202                % 06877 RGTR--
+500000021 Saarburg, Kahren      01205  01205                % 06877 RGTR--
+500000118 Saarburg, Im Fichten  01208  01208                % 06877 RGTR--
+500000018 Saarburg, Heckingpla  01211  01211                % 06877 RGTR--
+500000072 Saarburg, Bahnhof-Br  01214                       % 06877 RGTR--
+*Z 06878 RGTR--                                             % 06878 RGTR--
+*L 157      200417050 500000072  01230  01314               % 06878 RGTR--
+*A ea 200417050 500000072 000002  01230  01314              % 06878 RGTR--
+*R 1 500000072 200417050 500000072  01230  01314            % 06878 RGTR--
+*G RGB 200417050 500000072  01230  01314                    % 06878 RGTR--
+*A VE 200417050 500000072 000002  01230  01314              % 06878 RGTR--
+*I FD 200417050 500000072        0001734  01230  01314      % 06878 RGTR--
+200417050 Kirchberg, Gare rout         01230                % 06878 RGTR--
+180804002 Wormeldange, Geméen   01250  01250                % 06878 RGTR--
+500000089 Wincheringen, Moselb  01252  01252                % 06878 RGTR--
+500000090 Wincheringen, Winche  01255  01255                % 06878 RGTR--
+500000005 Bilzingen Ort, Winch  01259  01259                % 06878 RGTR--
+500000035 Merzkirchen, Abzw.    01302  01302                % 06878 RGTR--
+500000021 Saarburg, Kahren      01305  01305                % 06878 RGTR--
+500000118 Saarburg, Im Fichten  01308  01308                % 06878 RGTR--
+500000018 Saarburg, Heckingpla  01311  01311                % 06878 RGTR--
+500000072 Saarburg, Bahnhof-Br  01314                       % 06878 RGTR--
+*Z 06879 RGTR--                                             % 06879 RGTR--
+*L 157      200417050 500000072  01330  01414               % 06879 RGTR--
+*A ea 200417050 500000072 000002  01330  01414              % 06879 RGTR--
+*R 1 500000072 200417050 500000072  01330  01414            % 06879 RGTR--
+*G RGB 200417050 500000072  01330  01414                    % 06879 RGTR--
+*A VE 200417050 500000072 000002  01330  01414              % 06879 RGTR--
+*I FD 200417050 500000072        0001737  01330  01414      % 06879 RGTR--
+200417050 Kirchberg, Gare rout         01330                % 06879 RGTR--
+180804002 Wormeldange, Geméen   01350  01350                % 06879 RGTR--
+500000089 Wincheringen, Moselb  01352  01352                % 06879 RGTR--
+500000090 Wincheringen, Winche  01355  01355                % 06879 RGTR--
+500000005 Bilzingen Ort, Winch  01359  01359                % 06879 RGTR--
+500000035 Merzkirchen, Abzw.    01402  01402                % 06879 RGTR--
+500000021 Saarburg, Kahren      01405  01405                % 06879 RGTR--
+500000118 Saarburg, Im Fichten  01408  01408                % 06879 RGTR--
+500000018 Saarburg, Heckingpla  01411  01411                % 06879 RGTR--
+500000072 Saarburg, Bahnhof-Br  01414                       % 06879 RGTR--
+*Z 06880 RGTR--                                             % 06880 RGTR--
+*L 157      200417050 500000072  01832  01916               % 06880 RGTR--
+*A ea 200417050 500000072 000002  01832  01916              % 06880 RGTR--
+*R 1 500000072 200417050 500000072  01832  01916            % 06880 RGTR--
+*G RGB 200417050 500000072  01832  01916                    % 06880 RGTR--
+*A VE 200417050 500000072 000002  01832  01916              % 06880 RGTR--
+*I FD 200417050 500000072        0002839  01832  01916      % 06880 RGTR--
+200417050 Kirchberg, Gare rout         01832                % 06880 RGTR--
+180804002 Wormeldange, Geméen   01852  01852                % 06880 RGTR--
+500000089 Wincheringen, Moselb  01854  01854                % 06880 RGTR--
+500000090 Wincheringen, Winche  01857  01857                % 06880 RGTR--
+500000005 Bilzingen Ort, Winch  01901  01901                % 06880 RGTR--
+500000035 Merzkirchen, Abzw.    01904  01904                % 06880 RGTR--
+500000021 Saarburg, Kahren      01907  01907                % 06880 RGTR--
+500000118 Saarburg, Im Fichten  01910  01910                % 06880 RGTR--
+500000018 Saarburg, Heckingpla  01913  01913                % 06880 RGTR--
+500000072 Saarburg, Bahnhof-Br  01916                       % 06880 RGTR--
+*Z 06881 RGTR--                                             % 06881 RGTR--
+*L 157      200417050 500000072  01902  01946               % 06881 RGTR--
+*A ea 200417050 500000072 000002  01902  01946              % 06881 RGTR--
+*R 1 500000072 200417050 500000072  01902  01946            % 06881 RGTR--
+*G RGB 200417050 500000072  01902  01946                    % 06881 RGTR--
+*A VE 200417050 500000072 000002  01902  01946              % 06881 RGTR--
+*I FD 200417050 500000072        0002414  01902  01946      % 06881 RGTR--
+200417050 Kirchberg, Gare rout         01902                % 06881 RGTR--
+180804002 Wormeldange, Geméen   01922  01922                % 06881 RGTR--
+500000089 Wincheringen, Moselb  01924  01924                % 06881 RGTR--
+500000090 Wincheringen, Winche  01927  01927                % 06881 RGTR--
+500000005 Bilzingen Ort, Winch  01931  01931                % 06881 RGTR--
+500000035 Merzkirchen, Abzw.    01934  01934                % 06881 RGTR--
+500000021 Saarburg, Kahren      01937  01937                % 06881 RGTR--
+500000118 Saarburg, Im Fichten  01940  01940                % 06881 RGTR--
+500000018 Saarburg, Heckingpla  01943  01943                % 06881 RGTR--
+500000072 Saarburg, Bahnhof-Br  01946                       % 06881 RGTR--
+*Z 06882 RGTR--                                             % 06882 RGTR--
+*L 157      500000072 200417050  00750  00841               % 06882 RGTR--
+*A ea 500000072 200417050 000001  00750  00841              % 06882 RGTR--
+*R 2 200417050 500000072 200417050  00750  00841            % 06882 RGTR--
+*G RGB 500000072 200417050  00750  00841                    % 06882 RGTR--
+*A VE 500000072 200417050 000001  00750  00841              % 06882 RGTR--
+*I FD 500000072 200417050        0002214  00750  00841      % 06882 RGTR--
+500000072 Saarburg, Bahnhof-Br         00750                % 06882 RGTR--
+500000018 Saarburg, Heckingpla  00753  00753                % 06882 RGTR--
+500000118 Saarburg, Im Fichten  00756  00756                % 06882 RGTR--
+500000021 Saarburg, Kahren      00759  00759                % 06882 RGTR--
+500000035 Merzkirchen, Abzw.    00802  00802                % 06882 RGTR--
+500000005 Bilzingen Ort, Winch  00806  00806                % 06882 RGTR--
+500000090 Wincheringen, Winche  00809  00809                % 06882 RGTR--
+500000089 Wincheringen, Moselb  00813  00813                % 06882 RGTR--
+180804002 Wormeldange, Geméen   00814  00814                % 06882 RGTR--
+200417050 Kirchberg, Gare rout  00841                       % 06882 RGTR--
+*Z 06883 RGTR--                                             % 06883 RGTR--
+*L 157      500000072 200417050  00620  00711               % 06883 RGTR--
+*A ea 500000072 200417050 000002  00620  00711              % 06883 RGTR--
+*R 2 200417050 500000072 200417050  00620  00711            % 06883 RGTR--
+*G RGB 500000072 200417050  00620  00711                    % 06883 RGTR--
+*A VE 500000072 200417050 000002  00620  00711              % 06883 RGTR--
+*I FD 500000072 200417050        0001970  00620  00711      % 06883 RGTR--
+500000072 Saarburg, Bahnhof-Br         00620                % 06883 RGTR--
+500000018 Saarburg, Heckingpla  00623  00623                % 06883 RGTR--
+500000118 Saarburg, Im Fichten  00626  00626                % 06883 RGTR--
+500000021 Saarburg, Kahren      00629  00629                % 06883 RGTR--
+500000035 Merzkirchen, Abzw.    00632  00632                % 06883 RGTR--
+500000005 Bilzingen Ort, Winch  00636  00636                % 06883 RGTR--
+500000090 Wincheringen, Winche  00639  00639                % 06883 RGTR--
+500000089 Wincheringen, Moselb  00643  00643                % 06883 RGTR--
+180804002 Wormeldange, Geméen   00644  00644                % 06883 RGTR--
+200417050 Kirchberg, Gare rout  00711                       % 06883 RGTR--
+*Z 06884 RGTR--                                             % 06884 RGTR--
+*L 157      500000072 200417050  00650  00741               % 06884 RGTR--
+*A ea 500000072 200417050 000002  00650  00741              % 06884 RGTR--
+*R 2 200417050 500000072 200417050  00650  00741            % 06884 RGTR--
+*G RGB 500000072 200417050  00650  00741                    % 06884 RGTR--
+*A VE 500000072 200417050 000002  00650  00741              % 06884 RGTR--
+*I FD 500000072 200417050        0002389  00650  00741      % 06884 RGTR--
+500000072 Saarburg, Bahnhof-Br         00650                % 06884 RGTR--
+500000018 Saarburg, Heckingpla  00653  00653                % 06884 RGTR--
+500000118 Saarburg, Im Fichten  00656  00656                % 06884 RGTR--
+500000021 Saarburg, Kahren      00659  00659                % 06884 RGTR--
+500000035 Merzkirchen, Abzw.    00702  00702                % 06884 RGTR--
+500000005 Bilzingen Ort, Winch  00706  00706                % 06884 RGTR--
+500000090 Wincheringen, Winche  00709  00709                % 06884 RGTR--
+500000089 Wincheringen, Moselb  00713  00713                % 06884 RGTR--
+180804002 Wormeldange, Geméen   00714  00714                % 06884 RGTR--
+200417050 Kirchberg, Gare rout  00741                       % 06884 RGTR--
+*Z 06885 RGTR--                                             % 06885 RGTR--
+*L 157      500000072 200417050  00720  00811               % 06885 RGTR--
+*A ea 500000072 200417050 000002  00720  00811              % 06885 RGTR--
+*R 2 200417050 500000072 200417050  00720  00811            % 06885 RGTR--
+*G RGB 500000072 200417050  00720  00811                    % 06885 RGTR--
+*A VE 500000072 200417050 000002  00720  00811              % 06885 RGTR--
+*I FD 500000072 200417050        0002390  00720  00811      % 06885 RGTR--
+500000072 Saarburg, Bahnhof-Br         00720                % 06885 RGTR--
+500000018 Saarburg, Heckingpla  00723  00723                % 06885 RGTR--
+500000118 Saarburg, Im Fichten  00726  00726                % 06885 RGTR--
+500000021 Saarburg, Kahren      00729  00729                % 06885 RGTR--
+500000035 Merzkirchen, Abzw.    00732  00732                % 06885 RGTR--
+500000005 Bilzingen Ort, Winch  00736  00736                % 06885 RGTR--
+500000090 Wincheringen, Winche  00739  00739                % 06885 RGTR--
+500000089 Wincheringen, Moselb  00743  00743                % 06885 RGTR--
+180804002 Wormeldange, Geméen   00744  00744                % 06885 RGTR--
+200417050 Kirchberg, Gare rout  00811                       % 06885 RGTR--
+*Z 06886 RGTR--                                             % 06886 RGTR--
+*L 157      500000072 200417050  00850  00941               % 06886 RGTR--
+*A ea 500000072 200417050 000002  00850  00941              % 06886 RGTR--
+*R 2 200417050 500000072 200417050  00850  00941            % 06886 RGTR--
+*G RGB 500000072 200417050  00850  00941                    % 06886 RGTR--
+*A VE 500000072 200417050 000002  00850  00941              % 06886 RGTR--
+*I FD 500000072 200417050        0002391  00850  00941      % 06886 RGTR--
+500000072 Saarburg, Bahnhof-Br         00850                % 06886 RGTR--
+500000018 Saarburg, Heckingpla  00853  00853                % 06886 RGTR--
+500000118 Saarburg, Im Fichten  00856  00856                % 06886 RGTR--
+500000021 Saarburg, Kahren      00859  00859                % 06886 RGTR--
+500000035 Merzkirchen, Abzw.    00902  00902                % 06886 RGTR--
+500000005 Bilzingen Ort, Winch  00906  00906                % 06886 RGTR--
+500000090 Wincheringen, Winche  00909  00909                % 06886 RGTR--
+500000089 Wincheringen, Moselb  00913  00913                % 06886 RGTR--
+180804002 Wormeldange, Geméen   00914  00914                % 06886 RGTR--
+200417050 Kirchberg, Gare rout  00941                       % 06886 RGTR--
+*Z 06887 RGTR--                                             % 06887 RGTR--
+*L 157      500000072 200417050  01250  01336               % 06887 RGTR--
+*A ea 500000072 200417050 000001  01250  01336              % 06887 RGTR--
+*R 2 200417050 500000072 200417050  01250  01336            % 06887 RGTR--
+*G RGB 500000072 200417050  01250  01336                    % 06887 RGTR--
+*A VE 500000072 200417050 000001  01250  01336              % 06887 RGTR--
+*I FD 500000072 200417050        0001104  01250  01336      % 06887 RGTR--
+500000072 Saarburg, Bahnhof-Br         01250                % 06887 RGTR--
+500000018 Saarburg, Heckingpla  01253  01253                % 06887 RGTR--
+500000118 Saarburg, Im Fichten  01255  01255                % 06887 RGTR--
+500000021 Saarburg, Kahren      01258  01258                % 06887 RGTR--
+500000035 Merzkirchen, Abzw.    01302  01302                % 06887 RGTR--
+500000005 Bilzingen Ort, Winch  01305  01305                % 06887 RGTR--
+500000090 Wincheringen, Winche  01309  01309                % 06887 RGTR--
+500000089 Wincheringen, Moselb  01312  01312                % 06887 RGTR--
+180804002 Wormeldange, Geméen   01313  01313                % 06887 RGTR--
+200417050 Kirchberg, Gare rout  01336                       % 06887 RGTR--
+*Z 06888 RGTR--                                             % 06888 RGTR--
+*L 157      500000072 200417050  01550  01636               % 06888 RGTR--
+*A ea 500000072 200417050 000001  01550  01636              % 06888 RGTR--
+*R 2 200417050 500000072 200417050  01550  01636            % 06888 RGTR--
+*G RGB 500000072 200417050  01550  01636                    % 06888 RGTR--
+*A VE 500000072 200417050 000001  01550  01636              % 06888 RGTR--
+*I FD 500000072 200417050        0001190  01550  01636      % 06888 RGTR--
+500000072 Saarburg, Bahnhof-Br         01550                % 06888 RGTR--
+500000018 Saarburg, Heckingpla  01553  01553                % 06888 RGTR--
+500000118 Saarburg, Im Fichten  01555  01555                % 06888 RGTR--
+500000021 Saarburg, Kahren      01558  01558                % 06888 RGTR--
+500000035 Merzkirchen, Abzw.    01602  01602                % 06888 RGTR--
+500000005 Bilzingen Ort, Winch  01605  01605                % 06888 RGTR--
+500000090 Wincheringen, Winche  01609  01609                % 06888 RGTR--
+500000089 Wincheringen, Moselb  01612  01612                % 06888 RGTR--
+180804002 Wormeldange, Geméen   01613  01613                % 06888 RGTR--
+200417050 Kirchberg, Gare rout  01636                       % 06888 RGTR--
+*Z 06889 RGTR--                                             % 06889 RGTR--
+*L 157      500000072 200417050  00545  00631               % 06889 RGTR--
+*A ea 500000072 200417050 000002  00545  00631              % 06889 RGTR--
+*R 2 200417050 500000072 200417050  00545  00631            % 06889 RGTR--
+*G RGB 500000072 200417050  00545  00631                    % 06889 RGTR--
+*A VE 500000072 200417050 000002  00545  00631              % 06889 RGTR--
+*I FD 500000072 200417050        0002491  00545  00631      % 06889 RGTR--
+500000072 Saarburg, Bahnhof-Br         00545                % 06889 RGTR--
+500000018 Saarburg, Heckingpla  00548  00548                % 06889 RGTR--
+500000118 Saarburg, Im Fichten  00550  00550                % 06889 RGTR--
+500000021 Saarburg, Kahren      00553  00553                % 06889 RGTR--
+500000035 Merzkirchen, Abzw.    00557  00557                % 06889 RGTR--
+500000005 Bilzingen Ort, Winch  00600  00600                % 06889 RGTR--
+500000090 Wincheringen, Winche  00604  00604                % 06889 RGTR--
+500000089 Wincheringen, Moselb  00607  00607                % 06889 RGTR--
+180804002 Wormeldange, Geméen   00608  00608                % 06889 RGTR--
+200417050 Kirchberg, Gare rout  00631                       % 06889 RGTR--
+*Z 06890 RGTR--                                             % 06890 RGTR--
+*L 157      500000072 200417050  01050  01136               % 06890 RGTR--
+*A ea 500000072 200417050 000002  01050  01136              % 06890 RGTR--
+*R 2 200417050 500000072 200417050  01050  01136            % 06890 RGTR--
+*G RGB 500000072 200417050  01050  01136                    % 06890 RGTR--
+*A VE 500000072 200417050 000002  01050  01136              % 06890 RGTR--
+*I FD 500000072 200417050        0002385  01050  01136      % 06890 RGTR--
+500000072 Saarburg, Bahnhof-Br         01050                % 06890 RGTR--
+500000018 Saarburg, Heckingpla  01053  01053                % 06890 RGTR--
+500000118 Saarburg, Im Fichten  01055  01055                % 06890 RGTR--
+500000021 Saarburg, Kahren      01058  01058                % 06890 RGTR--
+500000035 Merzkirchen, Abzw.    01102  01102                % 06890 RGTR--
+500000005 Bilzingen Ort, Winch  01105  01105                % 06890 RGTR--
+500000090 Wincheringen, Winche  01109  01109                % 06890 RGTR--
+500000089 Wincheringen, Moselb  01112  01112                % 06890 RGTR--
+180804002 Wormeldange, Geméen   01113  01113                % 06890 RGTR--
+200417050 Kirchberg, Gare rout  01136                       % 06890 RGTR--
+*Z 06891 RGTR--                                             % 06891 RGTR--
+*L 157      500000072 200417050  01350  01436               % 06891 RGTR--
+*A ea 500000072 200417050 000002  01350  01436              % 06891 RGTR--
+*R 2 200417050 500000072 200417050  01350  01436            % 06891 RGTR--
+*G RGB 500000072 200417050  01350  01436                    % 06891 RGTR--
+*A VE 500000072 200417050 000002  01350  01436              % 06891 RGTR--
+*I FD 500000072 200417050        0002387  01350  01436      % 06891 RGTR--
+500000072 Saarburg, Bahnhof-Br         01350                % 06891 RGTR--
+500000018 Saarburg, Heckingpla  01353  01353                % 06891 RGTR--
+500000118 Saarburg, Im Fichten  01355  01355                % 06891 RGTR--
+500000021 Saarburg, Kahren      01358  01358                % 06891 RGTR--
+500000035 Merzkirchen, Abzw.    01402  01402                % 06891 RGTR--
+500000005 Bilzingen Ort, Winch  01405  01405                % 06891 RGTR--
+500000090 Wincheringen, Winche  01409  01409                % 06891 RGTR--
+500000089 Wincheringen, Moselb  01412  01412                % 06891 RGTR--
+180804002 Wormeldange, Geméen   01413  01413                % 06891 RGTR--
+200417050 Kirchberg, Gare rout  01436                       % 06891 RGTR--
+*Z 06892 RGTR--                                             % 06892 RGTR--
+*L 157      500000072 200417050  01450  01536               % 06892 RGTR--
+*A ea 500000072 200417050 000002  01450  01536              % 06892 RGTR--
+*R 2 200417050 500000072 200417050  01450  01536            % 06892 RGTR--
+*G RGB 500000072 200417050  01450  01536                    % 06892 RGTR--
+*A VE 500000072 200417050 000002  01450  01536              % 06892 RGTR--
+*I FD 500000072 200417050        0002388  01450  01536      % 06892 RGTR--
+500000072 Saarburg, Bahnhof-Br         01450                % 06892 RGTR--
+500000018 Saarburg, Heckingpla  01453  01453                % 06892 RGTR--
+500000118 Saarburg, Im Fichten  01455  01455                % 06892 RGTR--
+500000021 Saarburg, Kahren      01458  01458                % 06892 RGTR--
+500000035 Merzkirchen, Abzw.    01502  01502                % 06892 RGTR--
+500000005 Bilzingen Ort, Winch  01505  01505                % 06892 RGTR--
+500000090 Wincheringen, Winche  01509  01509                % 06892 RGTR--
+500000089 Wincheringen, Moselb  01512  01512                % 06892 RGTR--
+180804002 Wormeldange, Geméen   01513  01513                % 06892 RGTR--
+200417050 Kirchberg, Gare rout  01536                       % 06892 RGTR--

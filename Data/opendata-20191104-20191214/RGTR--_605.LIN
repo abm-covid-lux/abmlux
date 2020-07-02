@@ -1,0 +1,331 @@
+*F 03 2
+*Z 08213 RGTR--                                             % 08213 RGTR--
+*L 605      120603002 110203002  00735  00750               % 08213 RGTR--
+*A cf 120603002 110203002 000002  00735  00750              % 08213 RGTR--
+*A UF 120603002 110203002 000002  00735  00750              % 08213 RGTR--
+*R 1 110203002 120603002 110203002  00735  00750            % 08213 RGTR--
+*G RGB 120603002 110203002  00735  00750                    % 08213 RGTR--
+*A VE 120603002 110203002 000002  00735  00750              % 08213 RGTR--
+*I FD 120603002 110203002        0001762  00735  00750      % 08213 RGTR--
+120603002 Kautenbach, Op der G         00735                % 08213 RGTR--
+120603001 Kautenbach, Am Duerf  00736  00736                % 08213 RGTR--
+110201001 Consthum, Ennescht D  00743  00743                % 08213 RGTR--
+110201003 Consthum, Knupp       00744  00744                % 08213 RGTR--
+110201002 Consthum, Kémel       00745  00745                % 08213 RGTR--
+110202001 Holzthum, Op der Hoe  00747  00747                % 08213 RGTR--
+110202002 Holzthum, Bei der Ki  00748  00748                % 08213 RGTR--
+110202003 Holzthum, Kiirfecht   00748  00748                % 08213 RGTR--
+110202004 Holzthum, Ferme Thev  00749  00749                % 08213 RGTR--
+110203002 Schinker, Um Rank     00750                       % 08213 RGTR--
+*Z 08214 RGTR--                                             % 08214 RGTR--
+*L 605      120603002 110203002  01532  01547               % 08214 RGTR--
+*A cf 120603002 110203002 000002  01532  01547              % 08214 RGTR--
+*R 1 110203002 120603002 110203002  01532  01547            % 08214 RGTR--
+*G RGB 120603002 110203002  01532  01547                    % 08214 RGTR--
+*A VE 120603002 110203002 000002  01532  01547              % 08214 RGTR--
+*I FD 120603002 110203002        0002427  01532  01547      % 08214 RGTR--
+120603002 Kautenbach, Op der G         01532                % 08214 RGTR--
+120603001 Kautenbach, Am Duerf  01533  01533                % 08214 RGTR--
+110201001 Consthum, Ennescht D  01540  01540                % 08214 RGTR--
+110201003 Consthum, Knupp       01541  01541                % 08214 RGTR--
+110201002 Consthum, Kémel       01542  01542                % 08214 RGTR--
+110202001 Holzthum, Op der Hoe  01544  01544                % 08214 RGTR--
+110202002 Holzthum, Bei der Ki  01545  01545                % 08214 RGTR--
+110202003 Holzthum, Kiirfecht   01545  01545                % 08214 RGTR--
+110202004 Holzthum, Ferme Thev  01546  01546                % 08214 RGTR--
+110203002 Schinker, Um Rank     01547                       % 08214 RGTR--
+*Z 08215 RGTR--                                             % 08215 RGTR--
+*L 605      120603002 110203002  00633  00648               % 08215 RGTR--
+*A cf 120603002 110203002 000002  00633  00648              % 08215 RGTR--
+*R 1 110203002 120603002 110203002  00633  00648            % 08215 RGTR--
+*G RGB 120603002 110203002  00633  00648                    % 08215 RGTR--
+*A VE 120603002 110203002 000002  00633  00648              % 08215 RGTR--
+*I FD 120603002 110203002        0002572  00633  00648      % 08215 RGTR--
+120603002 Kautenbach, Op der G         00633                % 08215 RGTR--
+120603001 Kautenbach, Am Duerf  00634  00634                % 08215 RGTR--
+110201001 Consthum, Ennescht D  00641  00641                % 08215 RGTR--
+110201003 Consthum, Knupp       00642  00642                % 08215 RGTR--
+110201002 Consthum, Kémel       00643  00643                % 08215 RGTR--
+110202001 Holzthum, Op der Hoe  00645  00645                % 08215 RGTR--
+110202002 Holzthum, Bei der Ki  00646  00646                % 08215 RGTR--
+110202003 Holzthum, Kiirfecht   00646  00646                % 08215 RGTR--
+110202004 Holzthum, Ferme Thev  00647  00647                % 08215 RGTR--
+110203002 Schinker, Um Rank     00648                       % 08215 RGTR--
+*Z 08216 RGTR--                                             % 08216 RGTR--
+*L 605      120603002 110203002  01732  01747               % 08216 RGTR--
+*A cf 120603002 110203002 000002  01732  01747              % 08216 RGTR--
+*R 1 110203002 120603002 110203002  01732  01747            % 08216 RGTR--
+*G RGB 120603002 110203002  01732  01747                    % 08216 RGTR--
+*A VE 120603002 110203002 000002  01732  01747              % 08216 RGTR--
+*I FD 120603002 110203002        0002838  01732  01747      % 08216 RGTR--
+120603002 Kautenbach, Op der G         01732                % 08216 RGTR--
+120603001 Kautenbach, Am Duerf  01733  01733                % 08216 RGTR--
+110201001 Consthum, Ennescht D  01740  01740                % 08216 RGTR--
+110201003 Consthum, Knupp       01741  01741                % 08216 RGTR--
+110201002 Consthum, Kémel       01742  01742                % 08216 RGTR--
+110202001 Holzthum, Op der Hoe  01744  01744                % 08216 RGTR--
+110202002 Holzthum, Bei der Ki  01745  01745                % 08216 RGTR--
+110202003 Holzthum, Kiirfecht   01745  01745                % 08216 RGTR--
+110202004 Holzthum, Ferme Thev  01746  01746                % 08216 RGTR--
+110203002 Schinker, Um Rank     01747                       % 08216 RGTR--
+*Z 08217 RGTR--                                             % 08217 RGTR--
+*L 605      120603002 110203002  01832  01847               % 08217 RGTR--
+*A cf 120603002 110203002 000002  01832  01847              % 08217 RGTR--
+*R 1 110203002 120603002 110203002  01832  01847            % 08217 RGTR--
+*G RGB 120603002 110203002  01832  01847                    % 08217 RGTR--
+*A VE 120603002 110203002 000002  01832  01847              % 08217 RGTR--
+*I FD 120603002 110203002        0002839  01832  01847      % 08217 RGTR--
+120603002 Kautenbach, Op der G         01832                % 08217 RGTR--
+120603001 Kautenbach, Am Duerf  01833  01833                % 08217 RGTR--
+110201001 Consthum, Ennescht D  01840  01840                % 08217 RGTR--
+110201003 Consthum, Knupp       01841  01841                % 08217 RGTR--
+110201002 Consthum, Kémel       01842  01842                % 08217 RGTR--
+110202001 Holzthum, Op der Hoe  01844  01844                % 08217 RGTR--
+110202002 Holzthum, Bei der Ki  01845  01845                % 08217 RGTR--
+110202003 Holzthum, Kiirfecht   01845  01845                % 08217 RGTR--
+110202004 Holzthum, Ferme Thev  01846  01846                % 08217 RGTR--
+110203002 Schinker, Um Rank     01847                       % 08217 RGTR--
+*Z 08218 RGTR--                                             % 08218 RGTR--
+*L 605      120603002 110203002  01932  01947               % 08218 RGTR--
+*A cf 120603002 110203002 000002  01932  01947              % 08218 RGTR--
+*R 1 110203002 120603002 110203002  01932  01947            % 08218 RGTR--
+*G RGB 120603002 110203002  01932  01947                    % 08218 RGTR--
+*A VE 120603002 110203002 000002  01932  01947              % 08218 RGTR--
+*I FD 120603002 110203002        0001395  01932  01947      % 08218 RGTR--
+120603002 Kautenbach, Op der G         01932                % 08218 RGTR--
+120603001 Kautenbach, Am Duerf  01933  01933                % 08218 RGTR--
+110201001 Consthum, Ennescht D  01940  01940                % 08218 RGTR--
+110201003 Consthum, Knupp       01941  01941                % 08218 RGTR--
+110201002 Consthum, Kémel       01942  01942                % 08218 RGTR--
+110202001 Holzthum, Op der Hoe  01944  01944                % 08218 RGTR--
+110202002 Holzthum, Bei der Ki  01945  01945                % 08218 RGTR--
+110202003 Holzthum, Kiirfecht   01945  01945                % 08218 RGTR--
+110202004 Holzthum, Ferme Thev  01946  01946                % 08218 RGTR--
+110203002 Schinker, Um Rank     01947                       % 08218 RGTR--
+*Z 08219 RGTR--                                             % 08219 RGTR--
+*L 605      120903023 140901003  01208  01244               % 08219 RGTR--
+*A cf 120903023 140901003 000007  01208  01244              % 08219 RGTR--
+*R 1 140901003 120903023 140901003  01208  01244            % 08219 RGTR--
+*G RGB 120903023 140901003  01208  01244                    % 08219 RGTR--
+*A VE 120903023 140901003 000007  01208  01244              % 08219 RGTR--
+*I FD 120903023 140901003        0002188  01208  01244      % 08219 RGTR--
+120903023 Wiltz, Lycée du Nord         01208                % 08219 RGTR--
+120903030 Wiltz, Kautebaachers  01210  01210                % 08219 RGTR--
+120603002 Kautenbach, Op der G  01222  01222                % 08219 RGTR--
+120603001 Kautenbach, Am Duerf  01223  01223                % 08219 RGTR--
+110201001 Consthum, Ennescht D  01231  01231                % 08219 RGTR--
+110201003 Consthum, Knupp       01231  01231                % 08219 RGTR--
+110201002 Consthum, Kémel       01232  01232                % 08219 RGTR--
+110202001 Holzthum, Op der Hoe  01235  01235                % 08219 RGTR--
+110202002 Holzthum, Bei der Ki  01235  01235                % 08219 RGTR--
+110202003 Holzthum, Kiirfecht   01236  01236                % 08219 RGTR--
+110202004 Holzthum, Ferme Thev  01237  01237                % 08219 RGTR--
+110203002 Schinker, Um Rank     01237  01237                % 08219 RGTR--
+110203001 Ennert Schinker       01238  01238                % 08219 RGTR--
+140902002 Hoscheid-Dickt, Um W  01240  01240                % 08219 RGTR--
+140902001 Hoscheid-Dickt, Um P  01241  01241                % 08219 RGTR--
+140901001 Hoscheid, Braaken     01242  01242                % 08219 RGTR--
+140901002 Hoscheid, Kräizgaass  01243  01243                % 08219 RGTR--
+140901003 Hoscheid, Markenbach  01244                       % 08219 RGTR--
+*Z 08220 RGTR--                                             % 08220 RGTR--
+*L 605      120903023 140901003  01145  01221               % 08220 RGTR--
+*A cf 120903023 140901003 000008  01145  01221              % 08220 RGTR--
+*R 1 140901003 120903023 140901003  01145  01221            % 08220 RGTR--
+*G RGB 120903023 140901003  01145  01221                    % 08220 RGTR--
+*A VE 120903023 140901003 000008  01145  01221              % 08220 RGTR--
+*I FD 120903023 140901003        0002367  01145  01221      % 08220 RGTR--
+120903023 Wiltz, Lycée du Nord         01145                % 08220 RGTR--
+120903030 Wiltz, Kautebaachers  01147  01147                % 08220 RGTR--
+120603002 Kautenbach, Op der G  01159  01159                % 08220 RGTR--
+120603001 Kautenbach, Am Duerf  01200  01200                % 08220 RGTR--
+110201001 Consthum, Ennescht D  01208  01208                % 08220 RGTR--
+110201003 Consthum, Knupp       01208  01208                % 08220 RGTR--
+110201002 Consthum, Kémel       01209  01209                % 08220 RGTR--
+110202001 Holzthum, Op der Hoe  01212  01212                % 08220 RGTR--
+110202002 Holzthum, Bei der Ki  01212  01212                % 08220 RGTR--
+110202003 Holzthum, Kiirfecht   01213  01213                % 08220 RGTR--
+110202004 Holzthum, Ferme Thev  01214  01214                % 08220 RGTR--
+110203002 Schinker, Um Rank     01214  01214                % 08220 RGTR--
+110203001 Ennert Schinker       01215  01215                % 08220 RGTR--
+140902002 Hoscheid-Dickt, Um W  01217  01217                % 08220 RGTR--
+140902001 Hoscheid-Dickt, Um P  01218  01218                % 08220 RGTR--
+140901001 Hoscheid, Braaken     01219  01219                % 08220 RGTR--
+140901002 Hoscheid, Kräizgaass  01220  01220                % 08220 RGTR--
+140901003 Hoscheid, Markenbach  01221                       % 08220 RGTR--
+*Z 08221 RGTR--                                             % 08221 RGTR--
+*L 605      120903023 140901003  01615  01651               % 08221 RGTR--
+*A cf 120903023 140901003 000008  01615  01651              % 08221 RGTR--
+*R 1 140901003 120903023 140901003  01615  01651            % 08221 RGTR--
+*G RGB 120903023 140901003  01615  01651                    % 08221 RGTR--
+*A VE 120903023 140901003 000008  01615  01651              % 08221 RGTR--
+*I FD 120903023 140901003        0001729  01615  01651      % 08221 RGTR--
+120903023 Wiltz, Lycée du Nord         01615                % 08221 RGTR--
+120903030 Wiltz, Kautebaachers  01617  01617                % 08221 RGTR--
+120603002 Kautenbach, Op der G  01629  01629                % 08221 RGTR--
+120603001 Kautenbach, Am Duerf  01630  01630                % 08221 RGTR--
+110201001 Consthum, Ennescht D  01638  01638                % 08221 RGTR--
+110201003 Consthum, Knupp       01638  01638                % 08221 RGTR--
+110201002 Consthum, Kémel       01639  01639                % 08221 RGTR--
+110202001 Holzthum, Op der Hoe  01642  01642                % 08221 RGTR--
+110202002 Holzthum, Bei der Ki  01642  01642                % 08221 RGTR--
+110202003 Holzthum, Kiirfecht   01643  01643                % 08221 RGTR--
+110202004 Holzthum, Ferme Thev  01644  01644                % 08221 RGTR--
+110203002 Schinker, Um Rank     01644  01644                % 08221 RGTR--
+110203001 Ennert Schinker       01645  01645                % 08221 RGTR--
+140902002 Hoscheid-Dickt, Um W  01647  01647                % 08221 RGTR--
+140902001 Hoscheid-Dickt, Um P  01648  01648                % 08221 RGTR--
+140901001 Hoscheid, Braaken     01649  01649                % 08221 RGTR--
+140901002 Hoscheid, Kräizgaass  01650  01650                % 08221 RGTR--
+140901003 Hoscheid, Markenbach  01651                       % 08221 RGTR--
+*Z 08222 RGTR--                                             % 08222 RGTR--
+*L 605      110203002 120603002  01552  01607               % 08222 RGTR--
+*A cf 110203002 120603002 000002  01552  01607              % 08222 RGTR--
+*R 2 120603002 110203002 120603002  01552  01607            % 08222 RGTR--
+*G RGB 110203002 120603002  01552  01607                    % 08222 RGTR--
+*A VE 110203002 120603002 000002  01552  01607              % 08222 RGTR--
+*I FD 110203002 120603002        0002902  01552  01607      % 08222 RGTR--
+110203002 Schinker, Um Rank            01552                % 08222 RGTR--
+110202004 Holzthum, Ferme Thev  01552  01552                % 08222 RGTR--
+110202003 Holzthum, Kiirfecht   01553  01553                % 08222 RGTR--
+110202002 Holzthum, Bei der Ki  01554  01554                % 08222 RGTR--
+110202001 Holzthum, Op der Hoe  01554  01554                % 08222 RGTR--
+110201002 Consthum, Kémel       01556  01556                % 08222 RGTR--
+110201003 Consthum, Knupp       01557  01557                % 08222 RGTR--
+110201001 Consthum, Ennescht D  01558  01558                % 08222 RGTR--
+120603001 Kautenbach, Am Duerf  01605  01605                % 08222 RGTR--
+120603002 Kautenbach, Op der G  01607                       % 08222 RGTR--
+*Z 08223 RGTR--                                             % 08223 RGTR--
+*L 605      110203002 120603002  00539  00554               % 08223 RGTR--
+*A cf 110203002 120603002 000002  00539  00554              % 08223 RGTR--
+*R 2 120603002 110203002 120603002  00539  00554            % 08223 RGTR--
+*G RGB 110203002 120603002  00539  00554                    % 08223 RGTR--
+*A VE 110203002 120603002 000002  00539  00554              % 08223 RGTR--
+*I FD 110203002 120603002        0000797  00539  00554      % 08223 RGTR--
+110203002 Schinker, Um Rank            00539                % 08223 RGTR--
+110202004 Holzthum, Ferme Thev  00539  00539                % 08223 RGTR--
+110202003 Holzthum, Kiirfecht   00540  00540                % 08223 RGTR--
+110202002 Holzthum, Bei der Ki  00541  00541                % 08223 RGTR--
+110202001 Holzthum, Op der Hoe  00541  00541                % 08223 RGTR--
+110201002 Consthum, Kémel       00543  00543                % 08223 RGTR--
+110201003 Consthum, Knupp       00544  00544                % 08223 RGTR--
+110201001 Consthum, Ennescht D  00545  00545                % 08223 RGTR--
+120603001 Kautenbach, Am Duerf  00552  00552                % 08223 RGTR--
+120603002 Kautenbach, Op der G  00554                       % 08223 RGTR--
+*Z 08224 RGTR--                                             % 08224 RGTR--
+*L 605      110203002 120603002  00609  00624               % 08224 RGTR--
+*A cf 110203002 120603002 000002  00609  00624              % 08224 RGTR--
+*R 2 120603002 110203002 120603002  00609  00624            % 08224 RGTR--
+*G RGB 110203002 120603002  00609  00624                    % 08224 RGTR--
+*A VE 110203002 120603002 000002  00609  00624              % 08224 RGTR--
+*I FD 110203002 120603002        0002311  00609  00624      % 08224 RGTR--
+110203002 Schinker, Um Rank            00609                % 08224 RGTR--
+110202004 Holzthum, Ferme Thev  00609  00609                % 08224 RGTR--
+110202003 Holzthum, Kiirfecht   00610  00610                % 08224 RGTR--
+110202002 Holzthum, Bei der Ki  00611  00611                % 08224 RGTR--
+110202001 Holzthum, Op der Hoe  00611  00611                % 08224 RGTR--
+110201002 Consthum, Kémel       00613  00613                % 08224 RGTR--
+110201003 Consthum, Knupp       00614  00614                % 08224 RGTR--
+110201001 Consthum, Ennescht D  00615  00615                % 08224 RGTR--
+120603001 Kautenbach, Am Duerf  00622  00622                % 08224 RGTR--
+120603002 Kautenbach, Op der G  00624                       % 08224 RGTR--
+*Z 08225 RGTR--                                             % 08225 RGTR--
+*L 605      110203002 120603002  01709  01724               % 08225 RGTR--
+*A cf 110203002 120603002 000002  01709  01724              % 08225 RGTR--
+*R 2 120603002 110203002 120603002  01709  01724            % 08225 RGTR--
+*G RGB 110203002 120603002  01709  01724                    % 08225 RGTR--
+*A VE 110203002 120603002 000002  01709  01724              % 08225 RGTR--
+*I FD 110203002 120603002        0002711  01709  01724      % 08225 RGTR--
+110203002 Schinker, Um Rank            01709                % 08225 RGTR--
+110202004 Holzthum, Ferme Thev  01709  01709                % 08225 RGTR--
+110202003 Holzthum, Kiirfecht   01710  01710                % 08225 RGTR--
+110202002 Holzthum, Bei der Ki  01711  01711                % 08225 RGTR--
+110202001 Holzthum, Op der Hoe  01711  01711                % 08225 RGTR--
+110201002 Consthum, Kémel       01713  01713                % 08225 RGTR--
+110201003 Consthum, Knupp       01714  01714                % 08225 RGTR--
+110201001 Consthum, Ennescht D  01715  01715                % 08225 RGTR--
+120603001 Kautenbach, Am Duerf  01722  01722                % 08225 RGTR--
+120603002 Kautenbach, Op der G  01724                       % 08225 RGTR--
+*Z 08226 RGTR--                                             % 08226 RGTR--
+*L 605      110203002 120603002  01809  01824               % 08226 RGTR--
+*A cf 110203002 120603002 000002  01809  01824              % 08226 RGTR--
+*R 2 120603002 110203002 120603002  01809  01824            % 08226 RGTR--
+*G RGB 110203002 120603002  01809  01824                    % 08226 RGTR--
+*A VE 110203002 120603002 000002  01809  01824              % 08226 RGTR--
+*I FD 110203002 120603002        0002712  01809  01824      % 08226 RGTR--
+110203002 Schinker, Um Rank            01809                % 08226 RGTR--
+110202004 Holzthum, Ferme Thev  01809  01809                % 08226 RGTR--
+110202003 Holzthum, Kiirfecht   01810  01810                % 08226 RGTR--
+110202002 Holzthum, Bei der Ki  01811  01811                % 08226 RGTR--
+110202001 Holzthum, Op der Hoe  01811  01811                % 08226 RGTR--
+110201002 Consthum, Kémel       01813  01813                % 08226 RGTR--
+110201003 Consthum, Knupp       01814  01814                % 08226 RGTR--
+110201001 Consthum, Ennescht D  01815  01815                % 08226 RGTR--
+120603001 Kautenbach, Am Duerf  01822  01822                % 08226 RGTR--
+120603002 Kautenbach, Op der G  01824                       % 08226 RGTR--
+*Z 08227 RGTR--                                             % 08227 RGTR--
+*L 605      110203002 120603002  01909  01924               % 08227 RGTR--
+*A cf 110203002 120603002 000002  01909  01924              % 08227 RGTR--
+*R 2 120603002 110203002 120603002  01909  01924            % 08227 RGTR--
+*G RGB 110203002 120603002  01909  01924                    % 08227 RGTR--
+*A VE 110203002 120603002 000002  01909  01924              % 08227 RGTR--
+*I FD 110203002 120603002        0003348  01909  01924      % 08227 RGTR--
+110203002 Schinker, Um Rank            01909                % 08227 RGTR--
+110202004 Holzthum, Ferme Thev  01909  01909                % 08227 RGTR--
+110202003 Holzthum, Kiirfecht   01910  01910                % 08227 RGTR--
+110202002 Holzthum, Bei der Ki  01911  01911                % 08227 RGTR--
+110202001 Holzthum, Op der Hoe  01911  01911                % 08227 RGTR--
+110201002 Consthum, Kémel       01913  01913                % 08227 RGTR--
+110201003 Consthum, Knupp       01914  01914                % 08227 RGTR--
+110201001 Consthum, Ennescht D  01915  01915                % 08227 RGTR--
+120603001 Kautenbach, Am Duerf  01922  01922                % 08227 RGTR--
+120603002 Kautenbach, Op der G  01924                       % 08227 RGTR--
+*Z 08228 RGTR--                                             % 08228 RGTR--
+*L 605      140901003 120903023  00706  00745               % 08228 RGTR--
+*A cf 140901003 120903023 000002  00706  00745              % 08228 RGTR--
+*R 2 120903023 140901003 120903023  00706  00745            % 08228 RGTR--
+*G RGB 140901003 120903023  00706  00745                    % 08228 RGTR--
+*A VE 140901003 120903023 000002  00706  00745              % 08228 RGTR--
+*I FD 140901003 120903023        0002243  00706  00745      % 08228 RGTR--
+140901003 Hoscheid, Markenbach         00706                % 08228 RGTR--
+140901002 Hoscheid, Kräizgaass  00707  00707                % 08228 RGTR--
+140901001 Hoscheid, Braaken     00708  00708                % 08228 RGTR--
+140902001 Hoscheid-Dickt, Um P  00711  00711                % 08228 RGTR--
+140902002 Hoscheid-Dickt, Um W  00712  00712                % 08228 RGTR--
+110203001 Ennert Schinker       00714  00714                % 08228 RGTR--
+110203002 Schinker, Um Rank     00715  00715                % 08228 RGTR--
+110202004 Holzthum, Ferme Thev  00715  00715                % 08228 RGTR--
+110202003 Holzthum, Kiirfecht   00716  00716                % 08228 RGTR--
+110202002 Holzthum, Bei der Ki  00717  00717                % 08228 RGTR--
+110202001 Holzthum, Op der Hoe  00717  00717                % 08228 RGTR--
+110201002 Consthum, Kémel       00719  00719                % 08228 RGTR--
+110201003 Consthum, Knupp       00720  00720                % 08228 RGTR--
+110201001 Consthum, Ennescht D  00721  00721                % 08228 RGTR--
+120603001 Kautenbach, Am Duerf  00728  00728                % 08228 RGTR--
+120603002 Kautenbach, Op der G  00730  00730                % 08228 RGTR--
+120903033 Wiltz, Post           00743  00743                % 08228 RGTR--
+120903023 Wiltz, Lycée du Nord  00745                       % 08228 RGTR--
+*Z 08229 RGTR--                                             % 08229 RGTR--
+*L 605      140901003 120903023  01236  01315               % 08229 RGTR--
+*A cf 140901003 120903023 000008  01236  01315              % 08229 RGTR--
+*R 2 120903023 140901003 120903023  01236  01315            % 08229 RGTR--
+*G RGB 140901003 120903023  01236  01315                    % 08229 RGTR--
+*A VE 140901003 120903023 000008  01236  01315              % 08229 RGTR--
+*I FD 140901003 120903023        0001112  01236  01315      % 08229 RGTR--
+140901003 Hoscheid, Markenbach         01236                % 08229 RGTR--
+140901002 Hoscheid, Kräizgaass  01237  01237                % 08229 RGTR--
+140901001 Hoscheid, Braaken     01238  01238                % 08229 RGTR--
+140902001 Hoscheid-Dickt, Um P  01241  01241                % 08229 RGTR--
+140902002 Hoscheid-Dickt, Um W  01242  01242                % 08229 RGTR--
+110203001 Ennert Schinker       01244  01244                % 08229 RGTR--
+110203002 Schinker, Um Rank     01245  01245                % 08229 RGTR--
+110202004 Holzthum, Ferme Thev  01245  01245                % 08229 RGTR--
+110202003 Holzthum, Kiirfecht   01246  01246                % 08229 RGTR--
+110202002 Holzthum, Bei der Ki  01247  01247                % 08229 RGTR--
+110202001 Holzthum, Op der Hoe  01247  01247                % 08229 RGTR--
+110201002 Consthum, Kémel       01249  01249                % 08229 RGTR--
+110201003 Consthum, Knupp       01250  01250                % 08229 RGTR--
+110201001 Consthum, Ennescht D  01251  01251                % 08229 RGTR--
+120603001 Kautenbach, Am Duerf  01258  01258                % 08229 RGTR--
+120603002 Kautenbach, Op der G  01300  01300                % 08229 RGTR--
+120903033 Wiltz, Post           01313  01313                % 08229 RGTR--
+120903023 Wiltz, Lycée du Nord  01315                       % 08229 RGTR--

@@ -1,38 +1,45 @@
-#!/use/bin/env python3
+#!/usr/bin/env python3
 
 #DensityModel
-
 #This file generates a population density matrix using data collected by the GEOSTAT initiative. Note
 #that Luxembourg measures 57 km x 82 km.
 
 import numpy as np
-from openpyxl import load_workbook
+import pandas as pd
 from tqdm import tqdm
-import math
 
 # Config
-INPUT_FILENAME = 'Data/JRC.xlsx'
+INPUT_FILENAME  = 'Data/JRC.xlsx'
 OUTPUT_FILENAME = 'Density_Map/Density_Map.csv'
-LUXEMBOURG_SIZE_KM = (57, 82)   # width, height
+COUNTRY_CODE    = "LU"
 
 # Load workbook
 print(f"Loading input data from {INPUT_FILENAME}...")
-wgtworkbook = load_workbook(filename=INPUT_FILENAME)
-wgtsheet = wgtworkbook.active
+jrc = pd.read_excel(INPUT_FILENAME)
 
-# What are these parameters?
-#xmin = 4014, xmax = 4070, xdifference = 56, ymin = 2934, ymax = 3015, ydifference = 81
+# Filter this-country-only rows and augment with integer grid coords
+print(f"Filtering for country with code {COUNTRY_CODE}...")
+jrc = jrc[jrc["CNTR_CODE"] == COUNTRY_CODE]
+jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
+jrc['grid_y'] = pd.Series([int(x[4:8]) for x in jrc['GRD_ID']], index=jrc.index)
 
-D = [[0 for x in range(LUXEMBOURG_SIZE_KM[0])] for y in range(LUXEMBOURG_SIZE_KM[1])]
+country_width  = jrc['grid_x'].max() - jrc['grid_x'].min() + 1
+country_height = jrc['grid_y'].max() - jrc['grid_y'].min() + 1
+print(f"Country with code {COUNTRY_CODE} has {country_width}x{country_height}km of data")
 
-# TODO: Where are the numbers 2, 81809 coming from?
-print(f"Calculating Density")
-for s in tqdm(range(2,81809)):
-    if (wgtsheet.cell(row=s, column=3).value == "LU"):
-        x = int(wgtsheet.cell(row=s, column=2).value[9:13]) - 4014  # TODO: Why 4014?
-        y = int(wgtsheet.cell(row=s, column=2).value[4:8]) - 2934   # TODO: Why 2934?
-        D[y][x] = int(wgtsheet.cell(row=s, column=1).value)
+# Map the grid coordinates given onto a cartesian grid, each cell
+# of which represents the population density at that point
+print(f"Building density matrix...")
+density = [[0 for x in range(country_width)] for y in range(country_height)]
+for i, row in tqdm(jrc.iterrows(), total=jrc.shape[0]):
+
+    # Read total population for this 1km chunk, \propto density
+    location_density = row["TOT_P"]
+    x                = row['grid_x'] - jrc['grid_x'].min()
+    y                = row['grid_y'] - jrc['grid_y'].min()
+
+    density[y][x] = location_density
 
 print(f"Saving output to {OUTPUT_FILENAME}...")
-np.savetxt(OUTPUT_FILENAME, D, fmt='%i', delimiter=',')
-print('Done.') 
+np.savetxt(OUTPUT_FILENAME, density, fmt='%i', delimiter=',')
+print('Done.')

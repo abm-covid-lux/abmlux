@@ -1,0 +1,137 @@
+*F 03 2
+*Z 10486 RGTR--                                             % 10486 RGTR--
+*L 146      200305006 210503012  00705  00744               % 10486 RGTR--
+*A al 200305006 210503012 000002  00705  00744              % 10486 RGTR--
+*A ao 200305006 210503012 000002  00705  00744              % 10486 RGTR--
+*A au 200305006 210503012 000002  00705  00744              % 10486 RGTR--
+*A ad 200305006 210503012 000002  00705  00744              % 10486 RGTR--
+*R 1 210503012 200305006 210503012  00705  00744            % 10486 RGTR--
+*G RGB 200305006 210503012  00705  00744                    % 10486 RGTR--
+*A VE 200305006 210503012 000002  00705  00744              % 10486 RGTR--
+*I FD 200305006 210503012        0002006  00705  00744      % 10486 RGTR--
+200305006 Itzig, Kapell                00705                % 10486 RGTR--
+200305007 Itzig, Kierch         00705  00705                % 10486 RGTR--
+200601001 Sandweiler, Am Eck    00710  00710                % 10486 RGTR--
+200601012 Sandweiler, rue d'It  00711  00711                % 10486 RGTR--
+200601002 Sandweiler, Apdikt    00712  00712                % 10486 RGTR--
+200601007 Sandweiler, Koschter  00713  00713                % 10486 RGTR--
+200204004 Oetrange, Prisong     00716  00716                % 10486 RGTR--
+200204006 Oetrange, Trengen Kn  00717  00717                % 10486 RGTR--
+200204002 Oetrange, Kurzebierg  00719  00719                % 10486 RGTR--
+200203003 Moutfort, Kapell      00721  00721                % 10486 RGTR--
+200203004 Moutfort, Kiem        00721  00721                % 10486 RGTR--
+210901001 Ersange/Ierséng       00723  00723                % 10486 RGTR--
+210903001 Trintange, Trenteng   00724  00724                % 10486 RGTR--
+210902001 Roedt                 00724  00724                % 10486 RGTR--
+210101001 Assel                 00727  00727                % 10486 RGTR--
+210104001 Rolling/Bous          00728  00728                % 10486 RGTR--
+210103002 Erpeldange/Bous, Rol  00730  00730                % 10486 RGTR--
+210103003 Erpeldange/Bous, Sch  00731  00731                % 10486 RGTR--
+210105001 Emeringerhaff         00732  00732                % 10486 RGTR--
+210502002 Ellange, Martialis    00736  00736                % 10486 RGTR--
+210503011 Mondorf, Rue J. Doli  00739  00739                % 10486 RGTR--
+210503010 Mondorf, Av. Gr.D. C  00740  00740                % 10486 RGTR--
+210503009 Mondorf, Vor Howent   00741  00741                % 10486 RGTR--
+210503012 Mondorf, Ecole Inter  00744                       % 10486 RGTR--
+*Z 10487 RGTR--                                             % 10487 RGTR--
+*L 146      210503012 200305006  01610  01650               % 10487 RGTR--
+*A al 210503012 200305006 000101  01610  01650              % 10487 RGTR--
+*A ao 210503012 200305006 000101  01610  01650              % 10487 RGTR--
+*A au 210503012 200305006 000101  01610  01650              % 10487 RGTR--
+*A ad 210503012 200305006 000101  01610  01650              % 10487 RGTR--
+*R 2 200305006 210503012 200305006  01610  01650            % 10487 RGTR--
+*G RGB 210503012 200305006  01610  01650                    % 10487 RGTR--
+*A VE 210503012 200305006 000101  01610  01650              % 10487 RGTR--
+*I FD 210503012 200305006        0001977  01610  01650      % 10487 RGTR--
+210503012 Mondorf, Ecole Inter         01610                % 10487 RGTR--
+210503009 Mondorf, Vor Howent   01612  01612                % 10487 RGTR--
+210503010 Mondorf, Av. Gr.D. C  01613  01613                % 10487 RGTR--
+210503011 Mondorf, Rue J. Doli  01614  01614                % 10487 RGTR--
+210502002 Ellange, Martialis    01617  01617                % 10487 RGTR--
+210105001 Emeringerhaff         01621  01621                % 10487 RGTR--
+210103003 Erpeldange/Bous, Sch  01622  01622                % 10487 RGTR--
+210103001 Erpeldange/Bous, Krä  01623  01623                % 10487 RGTR--
+210103002 Erpeldange/Bous, Rol  01623  01623                % 10487 RGTR--
+210104001 Rolling/Bous          01624  01624                % 10487 RGTR--
+210101001 Assel                 01625  01625                % 10487 RGTR--
+210902001 Roedt                 01628  01628                % 10487 RGTR--
+210903001 Trintange, Trenteng   01629  01629                % 10487 RGTR--
+210901001 Ersange/Ierséng       01630  01630                % 10487 RGTR--
+200203004 Moutfort, Kiem        01632  01632                % 10487 RGTR--
+200203003 Moutfort, Kapell      01633  01633                % 10487 RGTR--
+200204002 Oetrange, Kurzebierg  01634  01634                % 10487 RGTR--
+200204006 Oetrange, Trengen Kn  01636  01636                % 10487 RGTR--
+200204004 Oetrange, Prisong     01639  01639                % 10487 RGTR--
+200601007 Sandweiler, Koschter  01641  01641                % 10487 RGTR--
+200601012 Sandweiler, rue d'It  01644  01644                % 10487 RGTR--
+200601001 Sandweiler, Am Eck    01645  01645                % 10487 RGTR--
+200305007 Itzig, Kierch         01650  01650                % 10487 RGTR--
+200305006 Itzig, Kapell         01650                       % 10487 RGTR--
+*Z 10488 RGTR--                                             % 10488 RGTR--
+*L 146      210503012 200305006  01225  01301               % 10488 RGTR--
+*A al 210503012 200305006 000007  01225  01301              % 10488 RGTR--
+*A ao 210503012 200305006 000007  01225  01301              % 10488 RGTR--
+*A au 210503012 200305006 000007  01225  01301              % 10488 RGTR--
+*A ad 210503012 200305006 000007  01225  01301              % 10488 RGTR--
+*R 2 200305006 210503012 200305006  01225  01301            % 10488 RGTR--
+*G RGB 210503012 200305006  01225  01301                    % 10488 RGTR--
+*A VE 210503012 200305006 000007  01225  01301              % 10488 RGTR--
+*I FD 210503012 200305006        0002849  01225  01301      % 10488 RGTR--
+210503012 Mondorf, Ecole Inter         01225                % 10488 RGTR--
+210503009 Mondorf, Vor Howent   01227  01227                % 10488 RGTR--
+210503010 Mondorf, Av. Gr.D. C  01228  01228                % 10488 RGTR--
+210503011 Mondorf, Rue J. Doli  01229  01229                % 10488 RGTR--
+210502002 Ellange, Martialis    01232  01232                % 10488 RGTR--
+210105001 Emeringerhaff         01236  01236                % 10488 RGTR--
+210103003 Erpeldange/Bous, Sch  01236  01236                % 10488 RGTR--
+210103001 Erpeldange/Bous, Krä  01237  01237                % 10488 RGTR--
+210103002 Erpeldange/Bous, Rol  01238  01238                % 10488 RGTR--
+210104001 Rolling/Bous          01239  01239                % 10488 RGTR--
+210101001 Assel                 01240  01240                % 10488 RGTR--
+210902001 Roedt                 01242  01242                % 10488 RGTR--
+210903001 Trintange, Trenteng   01243  01243                % 10488 RGTR--
+210901001 Ersange/Ierséng       01244  01244                % 10488 RGTR--
+200203004 Moutfort, Kiem        01246  01246                % 10488 RGTR--
+200203003 Moutfort, Kapell      01246  01246                % 10488 RGTR--
+200204002 Oetrange, Kurzebierg  01248  01248                % 10488 RGTR--
+200204006 Oetrange, Trengen Kn  01249  01249                % 10488 RGTR--
+200204004 Oetrange, Prisong     01251  01251                % 10488 RGTR--
+200601007 Sandweiler, Koschter  01253  01253                % 10488 RGTR--
+200601012 Sandweiler, rue d'It  01255  01255                % 10488 RGTR--
+200601001 Sandweiler, Am Eck    01256  01256                % 10488 RGTR--
+200305007 Itzig, Kierch         01301  01301                % 10488 RGTR--
+200305006 Itzig, Kapell         01301                       % 10488 RGTR--
+*Z 10489 RGTR--                                             % 10489 RGTR--
+*L 146      210503012 200305006  01310  01346               % 10489 RGTR--
+*A al 210503012 200305006 000093  01310  01346              % 10489 RGTR--
+*A ao 210503012 200305006 000093  01310  01346              % 10489 RGTR--
+*A au 210503012 200305006 000093  01310  01346              % 10489 RGTR--
+*A ad 210503012 200305006 000093  01310  01346              % 10489 RGTR--
+*R 2 200305006 210503012 200305006  01310  01346            % 10489 RGTR--
+*G RGB 210503012 200305006  01310  01346                    % 10489 RGTR--
+*A VE 210503012 200305006 000093  01310  01346              % 10489 RGTR--
+*I FD 210503012 200305006        0001971  01310  01346      % 10489 RGTR--
+210503012 Mondorf, Ecole Inter         01310                % 10489 RGTR--
+210503009 Mondorf, Vor Howent   01312  01312                % 10489 RGTR--
+210503010 Mondorf, Av. Gr.D. C  01313  01313                % 10489 RGTR--
+210503011 Mondorf, Rue J. Doli  01314  01314                % 10489 RGTR--
+210502002 Ellange, Martialis    01317  01317                % 10489 RGTR--
+210105001 Emeringerhaff         01321  01321                % 10489 RGTR--
+210103003 Erpeldange/Bous, Sch  01321  01321                % 10489 RGTR--
+210103001 Erpeldange/Bous, Krä  01322  01322                % 10489 RGTR--
+210103002 Erpeldange/Bous, Rol  01323  01323                % 10489 RGTR--
+210104001 Rolling/Bous          01324  01324                % 10489 RGTR--
+210101001 Assel                 01325  01325                % 10489 RGTR--
+210902001 Roedt                 01327  01327                % 10489 RGTR--
+210903001 Trintange, Trenteng   01328  01328                % 10489 RGTR--
+210901001 Ersange/Ierséng       01329  01329                % 10489 RGTR--
+200203004 Moutfort, Kiem        01331  01331                % 10489 RGTR--
+200203003 Moutfort, Kapell      01331  01331                % 10489 RGTR--
+200204002 Oetrange, Kurzebierg  01333  01333                % 10489 RGTR--
+200204006 Oetrange, Trengen Kn  01334  01334                % 10489 RGTR--
+200204004 Oetrange, Prisong     01336  01336                % 10489 RGTR--
+200601007 Sandweiler, Koschter  01338  01338                % 10489 RGTR--
+200601012 Sandweiler, rue d'It  01340  01340                % 10489 RGTR--
+200601001 Sandweiler, Am Eck    01341  01341                % 10489 RGTR--
+200305007 Itzig, Kierch         01346  01346                % 10489 RGTR--
+200305006 Itzig, Kapell         01346                       % 10489 RGTR--

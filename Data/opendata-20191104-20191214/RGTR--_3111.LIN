@@ -1,0 +1,2176 @@
+*F 03 2
+*Z 03070 RGTR--                                             % 03070 RGTR--
+*L 111      200405036 170501016  01023  01121               % 03070 RGTR--
+*A BE 200405036 170501016 000000  01023  01121              % 03070 RGTR--
+*A cj 200405036 170501016 000000  01023  01121              % 03070 RGTR--
+*A cl 200405036 170501016 000000  01023  01121              % 03070 RGTR--
+*A BX 200405036 170501016 000000  01023  01121              % 03070 RGTR--
+*R 1 170501016 200405036 170501016  01023  01121            % 03070 RGTR--
+*G RGB 200405036 170501016  01023  01121                    % 03070 RGTR--
+*A VE 200405036 170501016 000000  01023  01121              % 03070 RGTR--
+*I FD 200405036 170501016        0002204  01023  01121      % 03070 RGTR--
+200405036 Luxembourg, Gare rou         01023                % 03070 RGTR--
+200405046 Luxembourg, Gare Roc -01025  01025                % 03070 RGTR--
+200405005 Centre, Badanstalt   -01032  01032                % 03070 RGTR--
+200410003 Eich, Eecher Plaz    -01035  01035                % 03070 RGTR--
+200409005 Dommeldange, Contour  01037  01037                % 03070 RGTR--
+200409006 Dommeldange, Dauschb  01038  01038                % 03070 RGTR--
+200509001 Waldhaff              01041  01041                % 03070 RGTR--
+180508001 Gonderange, Am Duerf  01046  01046                % 03070 RGTR--
+180508003 Gonderange, Mierchen  01047  01047                % 03070 RGTR--
+180511009 Junglinster, Op der   01048  01048                % 03070 RGTR--
+180511005 Junglinster, Um Lei   01049  01049                % 03070 RGTR--
+180511002 Junglinster, Op der   01050  01050                % 03070 RGTR--
+180511007 Junglinster, Um Reil  01052  01052                % 03070 RGTR--
+180512003 Junglinster, P+R      01053  01053                % 03070 RGTR--
+180509002 Graulinster, Haaptst  01056  01056                % 03070 RGTR--
+170205001 Rippig, Rippigerkopp  01058  01058                % 03070 RGTR--
+170201005 Altrier, Kreizenhéic  01059  01059                % 03070 RGTR--
+170201002 Altrier, Heeschbrege  01100  01100                % 03070 RGTR--
+170204001 Hersberg/Heeschbreg   01100  01100                % 03070 RGTR--
+170402001 Consdorf, Gare        01103  01103                % 03070 RGTR--
+170402005 Consdorf, Post        01104  01104                % 03070 RGTR--
+170402002 Consdorf, Haenricht   01106  01106                % 03070 RGTR--
+170402003 Consdorf, Kraizstroo  01107  01107                % 03070 RGTR--
+170402004 Consdorf, Melickshec  01107  01107                % 03070 RGTR--
+170305001 Bif. Kalkesbach       01109  01109                % 03070 RGTR--
+170301001 Berdorf, Bif. Heisbi  01111  01111                % 03070 RGTR--
+170301004 Berdorf, Duerfplaz    01112  01112                % 03070 RGTR--
+170301002 Berdorf, Hotel Herbe  01113  01113                % 03070 RGTR--
+170301003 Berdorf, Hôtel Perek  01114  01114                % 03070 RGTR--
+170501002 Echternach, Bel Air   01117  01117                % 03070 RGTR--
+170501007 Echternach, Fielsmil  01118  01118                % 03070 RGTR--
+170501018 Echternach, Ermesind  01120  01120                % 03070 RGTR--
+170501016 Echternach, Gare Cen  01121                       % 03070 RGTR--
+*Z 03071 RGTR--                                             % 03071 RGTR--
+*L 111      200405036 170501016  01123  01221               % 03071 RGTR--
+*A BE 200405036 170501016 000000  01123  01221              % 03071 RGTR--
+*A cj 200405036 170501016 000000  01123  01221              % 03071 RGTR--
+*R 1 170501016 200405036 170501016  01123  01221            % 03071 RGTR--
+*G RGB 200405036 170501016  01123  01221                    % 03071 RGTR--
+*A VE 200405036 170501016 000000  01123  01221              % 03071 RGTR--
+*I FD 200405036 170501016        0002205  01123  01221      % 03071 RGTR--
+200405036 Luxembourg, Gare rou         01123                % 03071 RGTR--
+200405046 Luxembourg, Gare Roc -01125  01125                % 03071 RGTR--
+200405005 Centre, Badanstalt   -01132  01132                % 03071 RGTR--
+200410003 Eich, Eecher Plaz    -01135  01135                % 03071 RGTR--
+200409005 Dommeldange, Contour  01137  01137                % 03071 RGTR--
+200409006 Dommeldange, Dauschb  01138  01138                % 03071 RGTR--
+200509001 Waldhaff              01141  01141                % 03071 RGTR--
+180508001 Gonderange, Am Duerf  01146  01146                % 03071 RGTR--
+180508003 Gonderange, Mierchen  01147  01147                % 03071 RGTR--
+180511009 Junglinster, Op der   01148  01148                % 03071 RGTR--
+180511005 Junglinster, Um Lei   01149  01149                % 03071 RGTR--
+180511002 Junglinster, Op der   01150  01150                % 03071 RGTR--
+180511007 Junglinster, Um Reil  01152  01152                % 03071 RGTR--
+180512003 Junglinster, P+R      01153  01153                % 03071 RGTR--
+180509002 Graulinster, Haaptst  01156  01156                % 03071 RGTR--
+170205001 Rippig, Rippigerkopp  01158  01158                % 03071 RGTR--
+170201005 Altrier, Kreizenhéic  01159  01159                % 03071 RGTR--
+170201002 Altrier, Heeschbrege  01200  01200                % 03071 RGTR--
+170204001 Hersberg/Heeschbreg   01200  01200                % 03071 RGTR--
+170402001 Consdorf, Gare        01203  01203                % 03071 RGTR--
+170402005 Consdorf, Post        01204  01204                % 03071 RGTR--
+170402002 Consdorf, Haenricht   01206  01206                % 03071 RGTR--
+170402003 Consdorf, Kraizstroo  01207  01207                % 03071 RGTR--
+170402004 Consdorf, Melickshec  01207  01207                % 03071 RGTR--
+170305001 Bif. Kalkesbach       01209  01209                % 03071 RGTR--
+170301001 Berdorf, Bif. Heisbi  01211  01211                % 03071 RGTR--
+170301004 Berdorf, Duerfplaz    01212  01212                % 03071 RGTR--
+170301002 Berdorf, Hotel Herbe  01213  01213                % 03071 RGTR--
+170301003 Berdorf, Hôtel Perek  01214  01214                % 03071 RGTR--
+170501002 Echternach, Bel Air   01217  01217                % 03071 RGTR--
+170501007 Echternach, Fielsmil  01218  01218                % 03071 RGTR--
+170501018 Echternach, Ermesind  01220  01220                % 03071 RGTR--
+170501016 Echternach, Gare Cen  01221                       % 03071 RGTR--
+*Z 03072 RGTR--                                             % 03072 RGTR--
+*L 111      200405036 170501016  01208  01306               % 03072 RGTR--
+*A BE 200405036 170501016 000000  01208  01306              % 03072 RGTR--
+*A cj 200405036 170501016 000000  01208  01306              % 03072 RGTR--
+*A cl 200405036 170501016 000000  01208  01306              % 03072 RGTR--
+*R 1 170501016 200405036 170501016  01208  01306            % 03072 RGTR--
+*G RGB 200405036 170501016  01208  01306                    % 03072 RGTR--
+*A VE 200405036 170501016 000000  01208  01306              % 03072 RGTR--
+*I FD 200405036 170501016        0002188  01208  01306      % 03072 RGTR--
+200405036 Luxembourg, Gare rou         01208                % 03072 RGTR--
+200405046 Luxembourg, Gare Roc -01210  01210                % 03072 RGTR--
+200405005 Centre, Badanstalt   -01217  01217                % 03072 RGTR--
+200410003 Eich, Eecher Plaz    -01220  01220                % 03072 RGTR--
+200409005 Dommeldange, Contour  01222  01222                % 03072 RGTR--
+200409006 Dommeldange, Dauschb  01223  01223                % 03072 RGTR--
+200509001 Waldhaff              01226  01226                % 03072 RGTR--
+180508001 Gonderange, Am Duerf  01231  01231                % 03072 RGTR--
+180508003 Gonderange, Mierchen  01232  01232                % 03072 RGTR--
+180511009 Junglinster, Op der   01233  01233                % 03072 RGTR--
+180511005 Junglinster, Um Lei   01234  01234                % 03072 RGTR--
+180511002 Junglinster, Op der   01235  01235                % 03072 RGTR--
+180511007 Junglinster, Um Reil  01237  01237                % 03072 RGTR--
+180512003 Junglinster, P+R      01238  01238                % 03072 RGTR--
+180509002 Graulinster, Haaptst  01241  01241                % 03072 RGTR--
+170205001 Rippig, Rippigerkopp  01243  01243                % 03072 RGTR--
+170201005 Altrier, Kreizenhéic  01244  01244                % 03072 RGTR--
+170201002 Altrier, Heeschbrege  01245  01245                % 03072 RGTR--
+170204001 Hersberg/Heeschbreg   01245  01245                % 03072 RGTR--
+170402001 Consdorf, Gare        01248  01248                % 03072 RGTR--
+170402005 Consdorf, Post        01249  01249                % 03072 RGTR--
+170402002 Consdorf, Haenricht   01251  01251                % 03072 RGTR--
+170402003 Consdorf, Kraizstroo  01252  01252                % 03072 RGTR--
+170402004 Consdorf, Melickshec  01252  01252                % 03072 RGTR--
+170305001 Bif. Kalkesbach       01254  01254                % 03072 RGTR--
+170301001 Berdorf, Bif. Heisbi  01256  01256                % 03072 RGTR--
+170301004 Berdorf, Duerfplaz    01257  01257                % 03072 RGTR--
+170301002 Berdorf, Hotel Herbe  01258  01258                % 03072 RGTR--
+170301003 Berdorf, Hôtel Perek  01259  01259                % 03072 RGTR--
+170501002 Echternach, Bel Air   01302  01302                % 03072 RGTR--
+170501007 Echternach, Fielsmil  01303  01303                % 03072 RGTR--
+170501018 Echternach, Ermesind  01305  01305                % 03072 RGTR--
+170501016 Echternach, Gare Cen  01306                       % 03072 RGTR--
+*Z 03073 RGTR--                                             % 03073 RGTR--
+*L 111      200405036 170501016  01323  01421               % 03073 RGTR--
+*A BE 200405036 170501016 000000  01323  01421              % 03073 RGTR--
+*A cj 200405036 170501016 000000  01323  01421              % 03073 RGTR--
+*A BX 200405036 170501016 000000  01323  01421              % 03073 RGTR--
+*R 1 170501016 200405036 170501016  01323  01421            % 03073 RGTR--
+*G RGB 200405036 170501016  01323  01421                    % 03073 RGTR--
+*A VE 200405036 170501016 000000  01323  01421              % 03073 RGTR--
+*I FD 200405036 170501016        0002206  01323  01421      % 03073 RGTR--
+200405036 Luxembourg, Gare rou         01323                % 03073 RGTR--
+200405046 Luxembourg, Gare Roc -01325  01325                % 03073 RGTR--
+200405005 Centre, Badanstalt   -01332  01332                % 03073 RGTR--
+200410003 Eich, Eecher Plaz    -01335  01335                % 03073 RGTR--
+200409005 Dommeldange, Contour  01337  01337                % 03073 RGTR--
+200409006 Dommeldange, Dauschb  01338  01338                % 03073 RGTR--
+200509001 Waldhaff              01341  01341                % 03073 RGTR--
+180508001 Gonderange, Am Duerf  01346  01346                % 03073 RGTR--
+180508003 Gonderange, Mierchen  01347  01347                % 03073 RGTR--
+180511009 Junglinster, Op der   01348  01348                % 03073 RGTR--
+180511005 Junglinster, Um Lei   01349  01349                % 03073 RGTR--
+180511002 Junglinster, Op der   01350  01350                % 03073 RGTR--
+180511007 Junglinster, Um Reil  01352  01352                % 03073 RGTR--
+180512003 Junglinster, P+R      01353  01353                % 03073 RGTR--
+180509002 Graulinster, Haaptst  01356  01356                % 03073 RGTR--
+170205001 Rippig, Rippigerkopp  01358  01358                % 03073 RGTR--
+170201005 Altrier, Kreizenhéic  01359  01359                % 03073 RGTR--
+170201002 Altrier, Heeschbrege  01400  01400                % 03073 RGTR--
+170204001 Hersberg/Heeschbreg   01400  01400                % 03073 RGTR--
+170402001 Consdorf, Gare        01403  01403                % 03073 RGTR--
+170402005 Consdorf, Post        01404  01404                % 03073 RGTR--
+170402002 Consdorf, Haenricht   01406  01406                % 03073 RGTR--
+170402003 Consdorf, Kraizstroo  01407  01407                % 03073 RGTR--
+170402004 Consdorf, Melickshec  01407  01407                % 03073 RGTR--
+170305001 Bif. Kalkesbach       01409  01409                % 03073 RGTR--
+170301001 Berdorf, Bif. Heisbi  01411  01411                % 03073 RGTR--
+170301004 Berdorf, Duerfplaz    01412  01412                % 03073 RGTR--
+170301002 Berdorf, Hotel Herbe  01413  01413                % 03073 RGTR--
+170301003 Berdorf, Hôtel Perek  01414  01414                % 03073 RGTR--
+170501002 Echternach, Bel Air   01417  01417                % 03073 RGTR--
+170501007 Echternach, Fielsmil  01418  01418                % 03073 RGTR--
+170501018 Echternach, Ermesind  01420  01420                % 03073 RGTR--
+170501016 Echternach, Gare Cen  01421                       % 03073 RGTR--
+*Z 03074 RGTR--                                             % 03074 RGTR--
+*L 111      200405036 170501016  01423  01521               % 03074 RGTR--
+*A BE 200405036 170501016 000000  01423  01521              % 03074 RGTR--
+*A cj 200405036 170501016 000000  01423  01521              % 03074 RGTR--
+*A cl 200405036 170501016 000000  01423  01521              % 03074 RGTR--
+*A BX 200405036 170501016 000000  01423  01521              % 03074 RGTR--
+*R 1 170501016 200405036 170501016  01423  01521            % 03074 RGTR--
+*G RGB 200405036 170501016  01423  01521                    % 03074 RGTR--
+*A VE 200405036 170501016 000000  01423  01521              % 03074 RGTR--
+*I FD 200405036 170501016        0002207  01423  01521      % 03074 RGTR--
+200405036 Luxembourg, Gare rou         01423                % 03074 RGTR--
+200405046 Luxembourg, Gare Roc -01425  01425                % 03074 RGTR--
+200405005 Centre, Badanstalt   -01432  01432                % 03074 RGTR--
+200410003 Eich, Eecher Plaz    -01435  01435                % 03074 RGTR--
+200409005 Dommeldange, Contour  01437  01437                % 03074 RGTR--
+200409006 Dommeldange, Dauschb  01438  01438                % 03074 RGTR--
+200509001 Waldhaff              01441  01441                % 03074 RGTR--
+180508001 Gonderange, Am Duerf  01446  01446                % 03074 RGTR--
+180508003 Gonderange, Mierchen  01447  01447                % 03074 RGTR--
+180511009 Junglinster, Op der   01448  01448                % 03074 RGTR--
+180511005 Junglinster, Um Lei   01449  01449                % 03074 RGTR--
+180511002 Junglinster, Op der   01450  01450                % 03074 RGTR--
+180511007 Junglinster, Um Reil  01452  01452                % 03074 RGTR--
+180512003 Junglinster, P+R      01453  01453                % 03074 RGTR--
+180509002 Graulinster, Haaptst  01456  01456                % 03074 RGTR--
+170205001 Rippig, Rippigerkopp  01458  01458                % 03074 RGTR--
+170201005 Altrier, Kreizenhéic  01459  01459                % 03074 RGTR--
+170201002 Altrier, Heeschbrege  01500  01500                % 03074 RGTR--
+170204001 Hersberg/Heeschbreg   01500  01500                % 03074 RGTR--
+170402001 Consdorf, Gare        01503  01503                % 03074 RGTR--
+170402005 Consdorf, Post        01504  01504                % 03074 RGTR--
+170402002 Consdorf, Haenricht   01506  01506                % 03074 RGTR--
+170402003 Consdorf, Kraizstroo  01507  01507                % 03074 RGTR--
+170402004 Consdorf, Melickshec  01507  01507                % 03074 RGTR--
+170305001 Bif. Kalkesbach       01509  01509                % 03074 RGTR--
+170301001 Berdorf, Bif. Heisbi  01511  01511                % 03074 RGTR--
+170301004 Berdorf, Duerfplaz    01512  01512                % 03074 RGTR--
+170301002 Berdorf, Hotel Herbe  01513  01513                % 03074 RGTR--
+170301003 Berdorf, Hôtel Perek  01514  01514                % 03074 RGTR--
+170501002 Echternach, Bel Air   01517  01517                % 03074 RGTR--
+170501007 Echternach, Fielsmil  01518  01518                % 03074 RGTR--
+170501018 Echternach, Ermesind  01520  01520                % 03074 RGTR--
+170501016 Echternach, Gare Cen  01521                       % 03074 RGTR--
+*Z 03075 RGTR--                                             % 03075 RGTR--
+*L 111      200405036 170501016  01523  01621               % 03075 RGTR--
+*A BE 200405036 170501016 000000  01523  01621              % 03075 RGTR--
+*A cj 200405036 170501016 000000  01523  01621              % 03075 RGTR--
+*A BX 200405036 170501016 000000  01523  01621              % 03075 RGTR--
+*R 1 170501016 200405036 170501016  01523  01621            % 03075 RGTR--
+*G RGB 200405036 170501016  01523  01621                    % 03075 RGTR--
+*A VE 200405036 170501016 000000  01523  01621              % 03075 RGTR--
+*I FD 200405036 170501016        0002968  01523  01621      % 03075 RGTR--
+200405036 Luxembourg, Gare rou         01523                % 03075 RGTR--
+200405046 Luxembourg, Gare Roc -01525  01525                % 03075 RGTR--
+200405005 Centre, Badanstalt   -01532  01532                % 03075 RGTR--
+200410003 Eich, Eecher Plaz    -01535  01535                % 03075 RGTR--
+200409005 Dommeldange, Contour  01537  01537                % 03075 RGTR--
+200409006 Dommeldange, Dauschb  01538  01538                % 03075 RGTR--
+200509001 Waldhaff              01541  01541                % 03075 RGTR--
+180508001 Gonderange, Am Duerf  01546  01546                % 03075 RGTR--
+180508003 Gonderange, Mierchen  01547  01547                % 03075 RGTR--
+180511009 Junglinster, Op der   01548  01548                % 03075 RGTR--
+180511005 Junglinster, Um Lei   01549  01549                % 03075 RGTR--
+180511002 Junglinster, Op der   01550  01550                % 03075 RGTR--
+180511007 Junglinster, Um Reil  01552  01552                % 03075 RGTR--
+180512003 Junglinster, P+R      01553  01553                % 03075 RGTR--
+180509002 Graulinster, Haaptst  01556  01556                % 03075 RGTR--
+170205001 Rippig, Rippigerkopp  01558  01558                % 03075 RGTR--
+170201005 Altrier, Kreizenhéic  01559  01559                % 03075 RGTR--
+170201002 Altrier, Heeschbrege  01600  01600                % 03075 RGTR--
+170204001 Hersberg/Heeschbreg   01600  01600                % 03075 RGTR--
+170402001 Consdorf, Gare        01603  01603                % 03075 RGTR--
+170402005 Consdorf, Post        01604  01604                % 03075 RGTR--
+170402002 Consdorf, Haenricht   01606  01606                % 03075 RGTR--
+170402003 Consdorf, Kraizstroo  01607  01607                % 03075 RGTR--
+170402004 Consdorf, Melickshec  01607  01607                % 03075 RGTR--
+170305001 Bif. Kalkesbach       01609  01609                % 03075 RGTR--
+170301001 Berdorf, Bif. Heisbi  01611  01611                % 03075 RGTR--
+170301004 Berdorf, Duerfplaz    01612  01612                % 03075 RGTR--
+170301002 Berdorf, Hotel Herbe  01613  01613                % 03075 RGTR--
+170301003 Berdorf, Hôtel Perek  01614  01614                % 03075 RGTR--
+170501002 Echternach, Bel Air   01617  01617                % 03075 RGTR--
+170501007 Echternach, Fielsmil  01618  01618                % 03075 RGTR--
+170501018 Echternach, Ermesind  01620  01620                % 03075 RGTR--
+170501016 Echternach, Gare Cen  01621                       % 03075 RGTR--
+*Z 03076 RGTR--                                             % 03076 RGTR--
+*L 111      200405036 170501016  01923  02021               % 03076 RGTR--
+*A BE 200405036 170501016 000000  01923  02021              % 03076 RGTR--
+*A cj 200405036 170501016 000000  01923  02021              % 03076 RGTR--
+*A BX 200405036 170501016 000000  01923  02021              % 03076 RGTR--
+*R 1 170501016 200405036 170501016  01923  02021            % 03076 RGTR--
+*G RGB 200405036 170501016  01923  02021                    % 03076 RGTR--
+*A VE 200405036 170501016 000000  01923  02021              % 03076 RGTR--
+*I FD 200405036 170501016        0002209  01923  02021      % 03076 RGTR--
+200405036 Luxembourg, Gare rou         01923                % 03076 RGTR--
+200405046 Luxembourg, Gare Roc -01925  01925                % 03076 RGTR--
+200405005 Centre, Badanstalt   -01932  01932                % 03076 RGTR--
+200410003 Eich, Eecher Plaz    -01935  01935                % 03076 RGTR--
+200409005 Dommeldange, Contour  01937  01937                % 03076 RGTR--
+200409006 Dommeldange, Dauschb  01938  01938                % 03076 RGTR--
+200509001 Waldhaff              01941  01941                % 03076 RGTR--
+180508001 Gonderange, Am Duerf  01946  01946                % 03076 RGTR--
+180508003 Gonderange, Mierchen  01947  01947                % 03076 RGTR--
+180511009 Junglinster, Op der   01948  01948                % 03076 RGTR--
+180511005 Junglinster, Um Lei   01949  01949                % 03076 RGTR--
+180511002 Junglinster, Op der   01950  01950                % 03076 RGTR--
+180511007 Junglinster, Um Reil  01952  01952                % 03076 RGTR--
+180512003 Junglinster, P+R      01953  01953                % 03076 RGTR--
+180509002 Graulinster, Haaptst  01956  01956                % 03076 RGTR--
+170205001 Rippig, Rippigerkopp  01958  01958                % 03076 RGTR--
+170201005 Altrier, Kreizenhéic  01959  01959                % 03076 RGTR--
+170201002 Altrier, Heeschbrege  02000  02000                % 03076 RGTR--
+170204001 Hersberg/Heeschbreg   02000  02000                % 03076 RGTR--
+170402001 Consdorf, Gare        02003  02003                % 03076 RGTR--
+170402005 Consdorf, Post        02004  02004                % 03076 RGTR--
+170402002 Consdorf, Haenricht   02006  02006                % 03076 RGTR--
+170402003 Consdorf, Kraizstroo  02007  02007                % 03076 RGTR--
+170402004 Consdorf, Melickshec  02007  02007                % 03076 RGTR--
+170305001 Bif. Kalkesbach       02009  02009                % 03076 RGTR--
+170301001 Berdorf, Bif. Heisbi  02011  02011                % 03076 RGTR--
+170301004 Berdorf, Duerfplaz    02012  02012                % 03076 RGTR--
+170301002 Berdorf, Hotel Herbe  02013  02013                % 03076 RGTR--
+170301003 Berdorf, Hôtel Perek  02014  02014                % 03076 RGTR--
+170501002 Echternach, Bel Air   02017  02017                % 03076 RGTR--
+170501007 Echternach, Fielsmil  02018  02018                % 03076 RGTR--
+170501018 Echternach, Ermesind  02020  02020                % 03076 RGTR--
+170501016 Echternach, Gare Cen  02021                       % 03076 RGTR--
+*Z 03077 RGTR--                                             % 03077 RGTR--
+*L 111      200405036 170501016  02023  02121               % 03077 RGTR--
+*A BE 200405036 170501016 000000  02023  02121              % 03077 RGTR--
+*A cj 200405036 170501016 000000  02023  02121              % 03077 RGTR--
+*R 1 170501016 200405036 170501016  02023  02121            % 03077 RGTR--
+*G RGB 200405036 170501016  02023  02121                    % 03077 RGTR--
+*A VE 200405036 170501016 000000  02023  02121              % 03077 RGTR--
+*I FD 200405036 170501016        0002212  02023  02121      % 03077 RGTR--
+200405036 Luxembourg, Gare rou         02023                % 03077 RGTR--
+200405046 Luxembourg, Gare Roc -02025  02025                % 03077 RGTR--
+200405005 Centre, Badanstalt   -02032  02032                % 03077 RGTR--
+200410003 Eich, Eecher Plaz    -02035  02035                % 03077 RGTR--
+200409005 Dommeldange, Contour  02037  02037                % 03077 RGTR--
+200409006 Dommeldange, Dauschb  02038  02038                % 03077 RGTR--
+200509001 Waldhaff              02041  02041                % 03077 RGTR--
+180508001 Gonderange, Am Duerf  02046  02046                % 03077 RGTR--
+180508003 Gonderange, Mierchen  02047  02047                % 03077 RGTR--
+180511009 Junglinster, Op der   02048  02048                % 03077 RGTR--
+180511005 Junglinster, Um Lei   02049  02049                % 03077 RGTR--
+180511002 Junglinster, Op der   02050  02050                % 03077 RGTR--
+180511007 Junglinster, Um Reil  02052  02052                % 03077 RGTR--
+180512003 Junglinster, P+R      02053  02053                % 03077 RGTR--
+180509002 Graulinster, Haaptst  02056  02056                % 03077 RGTR--
+170205001 Rippig, Rippigerkopp  02058  02058                % 03077 RGTR--
+170201005 Altrier, Kreizenhéic  02059  02059                % 03077 RGTR--
+170201002 Altrier, Heeschbrege  02100  02100                % 03077 RGTR--
+170204001 Hersberg/Heeschbreg   02100  02100                % 03077 RGTR--
+170402001 Consdorf, Gare        02103  02103                % 03077 RGTR--
+170402005 Consdorf, Post        02104  02104                % 03077 RGTR--
+170402002 Consdorf, Haenricht   02106  02106                % 03077 RGTR--
+170402003 Consdorf, Kraizstroo  02107  02107                % 03077 RGTR--
+170402004 Consdorf, Melickshec  02107  02107                % 03077 RGTR--
+170305001 Bif. Kalkesbach       02109  02109                % 03077 RGTR--
+170301001 Berdorf, Bif. Heisbi  02111  02111                % 03077 RGTR--
+170301004 Berdorf, Duerfplaz    02112  02112                % 03077 RGTR--
+170301002 Berdorf, Hotel Herbe  02113  02113                % 03077 RGTR--
+170301003 Berdorf, Hôtel Perek  02114  02114                % 03077 RGTR--
+170501002 Echternach, Bel Air   02117  02117                % 03077 RGTR--
+170501007 Echternach, Fielsmil  02118  02118                % 03077 RGTR--
+170501018 Echternach, Ermesind  02120  02120                % 03077 RGTR--
+170501016 Echternach, Gare Cen  02121                       % 03077 RGTR--
+*Z 03078 RGTR--                                             % 03078 RGTR--
+*L 111      200405036 170501016  02123  02221               % 03078 RGTR--
+*A BE 200405036 170501016 000000  02123  02221              % 03078 RGTR--
+*A cj 200405036 170501016 000000  02123  02221              % 03078 RGTR--
+*R 1 170501016 200405036 170501016  02123  02221            % 03078 RGTR--
+*G RGB 200405036 170501016  02123  02221                    % 03078 RGTR--
+*A VE 200405036 170501016 000000  02123  02221              % 03078 RGTR--
+*I FD 200405036 170501016        0002969  02123  02221      % 03078 RGTR--
+200405036 Luxembourg, Gare rou         02123                % 03078 RGTR--
+200405046 Luxembourg, Gare Roc -02125  02125                % 03078 RGTR--
+200405005 Centre, Badanstalt   -02132  02132                % 03078 RGTR--
+200410003 Eich, Eecher Plaz    -02135  02135                % 03078 RGTR--
+200409005 Dommeldange, Contour  02137  02137                % 03078 RGTR--
+200409006 Dommeldange, Dauschb  02138  02138                % 03078 RGTR--
+200509001 Waldhaff              02141  02141                % 03078 RGTR--
+180508001 Gonderange, Am Duerf  02146  02146                % 03078 RGTR--
+180508003 Gonderange, Mierchen  02147  02147                % 03078 RGTR--
+180511009 Junglinster, Op der   02148  02148                % 03078 RGTR--
+180511005 Junglinster, Um Lei   02149  02149                % 03078 RGTR--
+180511002 Junglinster, Op der   02150  02150                % 03078 RGTR--
+180511007 Junglinster, Um Reil  02152  02152                % 03078 RGTR--
+180512003 Junglinster, P+R      02153  02153                % 03078 RGTR--
+180509002 Graulinster, Haaptst  02156  02156                % 03078 RGTR--
+170205001 Rippig, Rippigerkopp  02158  02158                % 03078 RGTR--
+170201005 Altrier, Kreizenhéic  02159  02159                % 03078 RGTR--
+170201002 Altrier, Heeschbrege  02200  02200                % 03078 RGTR--
+170204001 Hersberg/Heeschbreg   02200  02200                % 03078 RGTR--
+170402001 Consdorf, Gare        02203  02203                % 03078 RGTR--
+170402005 Consdorf, Post        02204  02204                % 03078 RGTR--
+170402002 Consdorf, Haenricht   02206  02206                % 03078 RGTR--
+170402003 Consdorf, Kraizstroo  02207  02207                % 03078 RGTR--
+170402004 Consdorf, Melickshec  02207  02207                % 03078 RGTR--
+170305001 Bif. Kalkesbach       02209  02209                % 03078 RGTR--
+170301001 Berdorf, Bif. Heisbi  02211  02211                % 03078 RGTR--
+170301004 Berdorf, Duerfplaz    02212  02212                % 03078 RGTR--
+170301002 Berdorf, Hotel Herbe  02213  02213                % 03078 RGTR--
+170301003 Berdorf, Hôtel Perek  02214  02214                % 03078 RGTR--
+170501002 Echternach, Bel Air   02217  02217                % 03078 RGTR--
+170501007 Echternach, Fielsmil  02218  02218                % 03078 RGTR--
+170501018 Echternach, Ermesind  02220  02220                % 03078 RGTR--
+170501016 Echternach, Gare Cen  02221                       % 03078 RGTR--
+*Z 03079 RGTR--                                             % 03079 RGTR--
+*L 111      200405036 170501016  01138  01236               % 03079 RGTR--
+*A BE 200405036 170501016 000001  01138  01236              % 03079 RGTR--
+*A cj 200405036 170501016 000001  01138  01236              % 03079 RGTR--
+*A BX 200405036 170501016 000001  01138  01236              % 03079 RGTR--
+*R 1 170501016 200405036 170501016  01138  01236            % 03079 RGTR--
+*G RGB 200405036 170501016  01138  01236                    % 03079 RGTR--
+*A VE 200405036 170501016 000001  01138  01236              % 03079 RGTR--
+*I FD 200405036 170501016        0002507  01138  01236      % 03079 RGTR--
+200405036 Luxembourg, Gare rou         01138                % 03079 RGTR--
+200405046 Luxembourg, Gare Roc -01140  01140                % 03079 RGTR--
+200405005 Centre, Badanstalt   -01147  01147                % 03079 RGTR--
+200410003 Eich, Eecher Plaz    -01150  01150                % 03079 RGTR--
+200409005 Dommeldange, Contour  01152  01152                % 03079 RGTR--
+200409006 Dommeldange, Dauschb  01153  01153                % 03079 RGTR--
+200509001 Waldhaff              01156  01156                % 03079 RGTR--
+180508001 Gonderange, Am Duerf  01201  01201                % 03079 RGTR--
+180508003 Gonderange, Mierchen  01202  01202                % 03079 RGTR--
+180511009 Junglinster, Op der   01203  01203                % 03079 RGTR--
+180511005 Junglinster, Um Lei   01204  01204                % 03079 RGTR--
+180511002 Junglinster, Op der   01205  01205                % 03079 RGTR--
+180511007 Junglinster, Um Reil  01207  01207                % 03079 RGTR--
+180512003 Junglinster, P+R      01208  01208                % 03079 RGTR--
+180509002 Graulinster, Haaptst  01211  01211                % 03079 RGTR--
+170205001 Rippig, Rippigerkopp  01213  01213                % 03079 RGTR--
+170201005 Altrier, Kreizenhéic  01214  01214                % 03079 RGTR--
+170201002 Altrier, Heeschbrege  01215  01215                % 03079 RGTR--
+170204001 Hersberg/Heeschbreg   01215  01215                % 03079 RGTR--
+170402001 Consdorf, Gare        01218  01218                % 03079 RGTR--
+170402005 Consdorf, Post        01219  01219                % 03079 RGTR--
+170402002 Consdorf, Haenricht   01221  01221                % 03079 RGTR--
+170402003 Consdorf, Kraizstroo  01222  01222                % 03079 RGTR--
+170402004 Consdorf, Melickshec  01222  01222                % 03079 RGTR--
+170305001 Bif. Kalkesbach       01224  01224                % 03079 RGTR--
+170301001 Berdorf, Bif. Heisbi  01226  01226                % 03079 RGTR--
+170301004 Berdorf, Duerfplaz    01227  01227                % 03079 RGTR--
+170301002 Berdorf, Hotel Herbe  01228  01228                % 03079 RGTR--
+170301003 Berdorf, Hôtel Perek  01229  01229                % 03079 RGTR--
+170501002 Echternach, Bel Air   01232  01232                % 03079 RGTR--
+170501007 Echternach, Fielsmil  01233  01233                % 03079 RGTR--
+170501018 Echternach, Ermesind  01235  01235                % 03079 RGTR--
+170501016 Echternach, Gare Cen  01236                       % 03079 RGTR--
+*Z 03080 RGTR--                                             % 03080 RGTR--
+*L 111      200405036 170501016  01223  01321               % 03080 RGTR--
+*A BE 200405036 170501016 000001  01223  01321              % 03080 RGTR--
+*A cj 200405036 170501016 000001  01223  01321              % 03080 RGTR--
+*A BX 200405036 170501016 000001  01223  01321              % 03080 RGTR--
+*R 1 170501016 200405036 170501016  01223  01321            % 03080 RGTR--
+*G RGB 200405036 170501016  01223  01321                    % 03080 RGTR--
+*A VE 200405036 170501016 000001  01223  01321              % 03080 RGTR--
+*I FD 200405036 170501016        0002495  01223  01321      % 03080 RGTR--
+200405036 Luxembourg, Gare rou         01223                % 03080 RGTR--
+200405046 Luxembourg, Gare Roc -01225  01225                % 03080 RGTR--
+200405005 Centre, Badanstalt   -01232  01232                % 03080 RGTR--
+200410003 Eich, Eecher Plaz    -01235  01235                % 03080 RGTR--
+200409005 Dommeldange, Contour  01237  01237                % 03080 RGTR--
+200409006 Dommeldange, Dauschb  01238  01238                % 03080 RGTR--
+200509001 Waldhaff              01241  01241                % 03080 RGTR--
+180508001 Gonderange, Am Duerf  01246  01246                % 03080 RGTR--
+180508003 Gonderange, Mierchen  01247  01247                % 03080 RGTR--
+180511009 Junglinster, Op der   01248  01248                % 03080 RGTR--
+180511005 Junglinster, Um Lei   01249  01249                % 03080 RGTR--
+180511002 Junglinster, Op der   01250  01250                % 03080 RGTR--
+180511007 Junglinster, Um Reil  01252  01252                % 03080 RGTR--
+180512003 Junglinster, P+R      01253  01253                % 03080 RGTR--
+180509002 Graulinster, Haaptst  01256  01256                % 03080 RGTR--
+170205001 Rippig, Rippigerkopp  01258  01258                % 03080 RGTR--
+170201005 Altrier, Kreizenhéic  01259  01259                % 03080 RGTR--
+170201002 Altrier, Heeschbrege  01300  01300                % 03080 RGTR--
+170204001 Hersberg/Heeschbreg   01300  01300                % 03080 RGTR--
+170402001 Consdorf, Gare        01303  01303                % 03080 RGTR--
+170402005 Consdorf, Post        01304  01304                % 03080 RGTR--
+170402002 Consdorf, Haenricht   01306  01306                % 03080 RGTR--
+170402003 Consdorf, Kraizstroo  01307  01307                % 03080 RGTR--
+170402004 Consdorf, Melickshec  01307  01307                % 03080 RGTR--
+170305001 Bif. Kalkesbach       01309  01309                % 03080 RGTR--
+170301001 Berdorf, Bif. Heisbi  01311  01311                % 03080 RGTR--
+170301004 Berdorf, Duerfplaz    01312  01312                % 03080 RGTR--
+170301002 Berdorf, Hotel Herbe  01313  01313                % 03080 RGTR--
+170301003 Berdorf, Hôtel Perek  01314  01314                % 03080 RGTR--
+170501002 Echternach, Bel Air   01317  01317                % 03080 RGTR--
+170501007 Echternach, Fielsmil  01318  01318                % 03080 RGTR--
+170501018 Echternach, Ermesind  01320  01320                % 03080 RGTR--
+170501016 Echternach, Gare Cen  01321                       % 03080 RGTR--
+*Z 03081 RGTR--                                             % 03081 RGTR--
+*L 111      200405036 170501016  01253  01351               % 03081 RGTR--
+*A BE 200405036 170501016 000001  01253  01351              % 03081 RGTR--
+*A cj 200405036 170501016 000001  01253  01351              % 03081 RGTR--
+*R 1 170501016 200405036 170501016  01253  01351            % 03081 RGTR--
+*G RGB 200405036 170501016  01253  01351                    % 03081 RGTR--
+*A VE 200405036 170501016 000001  01253  01351              % 03081 RGTR--
+*I FD 200405036 170501016        0002210  01253  01351      % 03081 RGTR--
+200405036 Luxembourg, Gare rou         01253                % 03081 RGTR--
+200405046 Luxembourg, Gare Roc -01255  01255                % 03081 RGTR--
+200405005 Centre, Badanstalt   -01302  01302                % 03081 RGTR--
+200410003 Eich, Eecher Plaz    -01305  01305                % 03081 RGTR--
+200409005 Dommeldange, Contour  01307  01307                % 03081 RGTR--
+200409006 Dommeldange, Dauschb  01308  01308                % 03081 RGTR--
+200509001 Waldhaff              01311  01311                % 03081 RGTR--
+180508001 Gonderange, Am Duerf  01316  01316                % 03081 RGTR--
+180508003 Gonderange, Mierchen  01317  01317                % 03081 RGTR--
+180511009 Junglinster, Op der   01318  01318                % 03081 RGTR--
+180511005 Junglinster, Um Lei   01319  01319                % 03081 RGTR--
+180511002 Junglinster, Op der   01320  01320                % 03081 RGTR--
+180511007 Junglinster, Um Reil  01322  01322                % 03081 RGTR--
+180512003 Junglinster, P+R      01323  01323                % 03081 RGTR--
+180509002 Graulinster, Haaptst  01326  01326                % 03081 RGTR--
+170205001 Rippig, Rippigerkopp  01328  01328                % 03081 RGTR--
+170201005 Altrier, Kreizenhéic  01329  01329                % 03081 RGTR--
+170201002 Altrier, Heeschbrege  01330  01330                % 03081 RGTR--
+170204001 Hersberg/Heeschbreg   01330  01330                % 03081 RGTR--
+170402001 Consdorf, Gare        01333  01333                % 03081 RGTR--
+170402005 Consdorf, Post        01334  01334                % 03081 RGTR--
+170402002 Consdorf, Haenricht   01336  01336                % 03081 RGTR--
+170402003 Consdorf, Kraizstroo  01337  01337                % 03081 RGTR--
+170402004 Consdorf, Melickshec  01337  01337                % 03081 RGTR--
+170305001 Bif. Kalkesbach       01339  01339                % 03081 RGTR--
+170301001 Berdorf, Bif. Heisbi  01341  01341                % 03081 RGTR--
+170301004 Berdorf, Duerfplaz    01342  01342                % 03081 RGTR--
+170301002 Berdorf, Hotel Herbe  01343  01343                % 03081 RGTR--
+170301003 Berdorf, Hôtel Perek  01344  01344                % 03081 RGTR--
+170501002 Echternach, Bel Air   01347  01347                % 03081 RGTR--
+170501007 Echternach, Fielsmil  01348  01348                % 03081 RGTR--
+170501018 Echternach, Ermesind  01350  01350                % 03081 RGTR--
+170501016 Echternach, Gare Cen  01351                       % 03081 RGTR--
+*Z 03082 RGTR--                                             % 03082 RGTR--
+*L 111      200405036 170501016  02223  02321               % 03082 RGTR--
+*A BE 200405036 170501016 000001  02223  02321              % 03082 RGTR--
+*A cj 200405036 170501016 000001  02223  02321              % 03082 RGTR--
+*R 1 170501016 200405036 170501016  02223  02321            % 03082 RGTR--
+*G RGB 200405036 170501016  02223  02321                    % 03082 RGTR--
+*A VE 200405036 170501016 000001  02223  02321              % 03082 RGTR--
+*I FD 200405036 170501016        0002970  02223  02321      % 03082 RGTR--
+200405036 Luxembourg, Gare rou         02223                % 03082 RGTR--
+200405046 Luxembourg, Gare Roc -02225  02225                % 03082 RGTR--
+200405005 Centre, Badanstalt   -02232  02232                % 03082 RGTR--
+200410003 Eich, Eecher Plaz    -02235  02235                % 03082 RGTR--
+200409005 Dommeldange, Contour  02237  02237                % 03082 RGTR--
+200409006 Dommeldange, Dauschb  02238  02238                % 03082 RGTR--
+200509001 Waldhaff              02241  02241                % 03082 RGTR--
+180508001 Gonderange, Am Duerf  02246  02246                % 03082 RGTR--
+180508003 Gonderange, Mierchen  02247  02247                % 03082 RGTR--
+180511009 Junglinster, Op der   02248  02248                % 03082 RGTR--
+180511005 Junglinster, Um Lei   02249  02249                % 03082 RGTR--
+180511002 Junglinster, Op der   02250  02250                % 03082 RGTR--
+180511007 Junglinster, Um Reil  02252  02252                % 03082 RGTR--
+180512003 Junglinster, P+R      02253  02253                % 03082 RGTR--
+180509002 Graulinster, Haaptst  02256  02256                % 03082 RGTR--
+170205001 Rippig, Rippigerkopp  02258  02258                % 03082 RGTR--
+170201005 Altrier, Kreizenhéic  02259  02259                % 03082 RGTR--
+170201002 Altrier, Heeschbrege  02300  02300                % 03082 RGTR--
+170204001 Hersberg/Heeschbreg   02300  02300                % 03082 RGTR--
+170402001 Consdorf, Gare        02303  02303                % 03082 RGTR--
+170402005 Consdorf, Post        02304  02304                % 03082 RGTR--
+170402002 Consdorf, Haenricht   02306  02306                % 03082 RGTR--
+170402003 Consdorf, Kraizstroo  02307  02307                % 03082 RGTR--
+170402004 Consdorf, Melickshec  02307  02307                % 03082 RGTR--
+170305001 Bif. Kalkesbach       02309  02309                % 03082 RGTR--
+170301001 Berdorf, Bif. Heisbi  02311  02311                % 03082 RGTR--
+170301004 Berdorf, Duerfplaz    02312  02312                % 03082 RGTR--
+170301002 Berdorf, Hotel Herbe  02313  02313                % 03082 RGTR--
+170301003 Berdorf, Hôtel Perek  02314  02314                % 03082 RGTR--
+170501002 Echternach, Bel Air   02317  02317                % 03082 RGTR--
+170501007 Echternach, Fielsmil  02318  02318                % 03082 RGTR--
+170501018 Echternach, Ermesind  02320  02320                % 03082 RGTR--
+170501016 Echternach, Gare Cen  02321                       % 03082 RGTR--
+*Z 03083 RGTR--                                             % 03083 RGTR--
+*L 111      200405036 170501016  00643  00741               % 03083 RGTR--
+*A BE 200405036 170501016 000003  00643  00741              % 03083 RGTR--
+*A cj 200405036 170501016 000003  00643  00741              % 03083 RGTR--
+*R 1 170501016 200405036 170501016  00643  00741            % 03083 RGTR--
+*G RGB 200405036 170501016  00643  00741                    % 03083 RGTR--
+*A VE 200405036 170501016 000003  00643  00741              % 03083 RGTR--
+*I FD 200405036 170501016        0002971  00643  00741      % 03083 RGTR--
+200405036 Luxembourg, Gare rou         00643                % 03083 RGTR--
+200405046 Luxembourg, Gare Roc -00645  00645                % 03083 RGTR--
+200405005 Centre, Badanstalt   -00652  00652                % 03083 RGTR--
+200410003 Eich, Eecher Plaz    -00655  00655                % 03083 RGTR--
+200409005 Dommeldange, Contour  00657  00657                % 03083 RGTR--
+200409006 Dommeldange, Dauschb  00658  00658                % 03083 RGTR--
+200509001 Waldhaff              00701  00701                % 03083 RGTR--
+180508001 Gonderange, Am Duerf  00706  00706                % 03083 RGTR--
+180508003 Gonderange, Mierchen  00707  00707                % 03083 RGTR--
+180511009 Junglinster, Op der   00708  00708                % 03083 RGTR--
+180511005 Junglinster, Um Lei   00709  00709                % 03083 RGTR--
+180511002 Junglinster, Op der   00710  00710                % 03083 RGTR--
+180511007 Junglinster, Um Reil  00712  00712                % 03083 RGTR--
+180512003 Junglinster, P+R      00713  00713                % 03083 RGTR--
+180509002 Graulinster, Haaptst  00716  00716                % 03083 RGTR--
+170205001 Rippig, Rippigerkopp  00718  00718                % 03083 RGTR--
+170201005 Altrier, Kreizenhéic  00719  00719                % 03083 RGTR--
+170201002 Altrier, Heeschbrege  00720  00720                % 03083 RGTR--
+170204001 Hersberg/Heeschbreg   00720  00720                % 03083 RGTR--
+170402001 Consdorf, Gare        00723  00723                % 03083 RGTR--
+170402005 Consdorf, Post        00724  00724                % 03083 RGTR--
+170402002 Consdorf, Haenricht   00726  00726                % 03083 RGTR--
+170402003 Consdorf, Kraizstroo  00727  00727                % 03083 RGTR--
+170402004 Consdorf, Melickshec  00727  00727                % 03083 RGTR--
+170305001 Bif. Kalkesbach       00729  00729                % 03083 RGTR--
+170301001 Berdorf, Bif. Heisbi  00731  00731                % 03083 RGTR--
+170301004 Berdorf, Duerfplaz    00732  00732                % 03083 RGTR--
+170301002 Berdorf, Hotel Herbe  00733  00733                % 03083 RGTR--
+170301003 Berdorf, Hôtel Perek  00734  00734                % 03083 RGTR--
+170501002 Echternach, Bel Air   00737  00737                % 03083 RGTR--
+170501007 Echternach, Fielsmil  00738  00738                % 03083 RGTR--
+170501018 Echternach, Ermesind  00740  00740                % 03083 RGTR--
+170501016 Echternach, Gare Cen  00741                       % 03083 RGTR--
+*Z 03084 RGTR--                                             % 03084 RGTR--
+*L 111      200405036 170501016  00823  00921               % 03084 RGTR--
+*A BE 200405036 170501016 000003  00823  00921              % 03084 RGTR--
+*A cj 200405036 170501016 000003  00823  00921              % 03084 RGTR--
+*R 1 170501016 200405036 170501016  00823  00921            % 03084 RGTR--
+*G RGB 200405036 170501016  00823  00921                    % 03084 RGTR--
+*A VE 200405036 170501016 000003  00823  00921              % 03084 RGTR--
+*I FD 200405036 170501016        0000892  00823  00921      % 03084 RGTR--
+200405036 Luxembourg, Gare rou         00823                % 03084 RGTR--
+200405046 Luxembourg, Gare Roc -00825  00825                % 03084 RGTR--
+200405005 Centre, Badanstalt   -00832  00832                % 03084 RGTR--
+200410003 Eich, Eecher Plaz    -00835  00835                % 03084 RGTR--
+200409005 Dommeldange, Contour  00837  00837                % 03084 RGTR--
+200409006 Dommeldange, Dauschb  00838  00838                % 03084 RGTR--
+200509001 Waldhaff              00841  00841                % 03084 RGTR--
+180508001 Gonderange, Am Duerf  00846  00846                % 03084 RGTR--
+180508003 Gonderange, Mierchen  00847  00847                % 03084 RGTR--
+180511009 Junglinster, Op der   00848  00848                % 03084 RGTR--
+180511005 Junglinster, Um Lei   00849  00849                % 03084 RGTR--
+180511002 Junglinster, Op der   00850  00850                % 03084 RGTR--
+180511007 Junglinster, Um Reil  00852  00852                % 03084 RGTR--
+180512003 Junglinster, P+R      00853  00853                % 03084 RGTR--
+180509002 Graulinster, Haaptst  00856  00856                % 03084 RGTR--
+170205001 Rippig, Rippigerkopp  00858  00858                % 03084 RGTR--
+170201005 Altrier, Kreizenhéic  00859  00859                % 03084 RGTR--
+170201002 Altrier, Heeschbrege  00900  00900                % 03084 RGTR--
+170204001 Hersberg/Heeschbreg   00900  00900                % 03084 RGTR--
+170402001 Consdorf, Gare        00903  00903                % 03084 RGTR--
+170402005 Consdorf, Post        00904  00904                % 03084 RGTR--
+170402002 Consdorf, Haenricht   00906  00906                % 03084 RGTR--
+170402003 Consdorf, Kraizstroo  00907  00907                % 03084 RGTR--
+170402004 Consdorf, Melickshec  00907  00907                % 03084 RGTR--
+170305001 Bif. Kalkesbach       00909  00909                % 03084 RGTR--
+170301001 Berdorf, Bif. Heisbi  00911  00911                % 03084 RGTR--
+170301004 Berdorf, Duerfplaz    00912  00912                % 03084 RGTR--
+170301002 Berdorf, Hotel Herbe  00913  00913                % 03084 RGTR--
+170301003 Berdorf, Hôtel Perek  00914  00914                % 03084 RGTR--
+170501002 Echternach, Bel Air   00917  00917                % 03084 RGTR--
+170501007 Echternach, Fielsmil  00918  00918                % 03084 RGTR--
+170501018 Echternach, Ermesind  00920  00920                % 03084 RGTR--
+170501016 Echternach, Gare Cen  00921                       % 03084 RGTR--
+*Z 03085 RGTR--                                             % 03085 RGTR--
+*L 111      200405036 170501016  01623  01721               % 03085 RGTR--
+*A BE 200405036 170501016 000003  01623  01721              % 03085 RGTR--
+*A cj 200405036 170501016 000003  01623  01721              % 03085 RGTR--
+*R 1 170501016 200405036 170501016  01623  01721            % 03085 RGTR--
+*G RGB 200405036 170501016  01623  01721                    % 03085 RGTR--
+*A VE 200405036 170501016 000003  01623  01721              % 03085 RGTR--
+*I FD 200405036 170501016        0002494  01623  01721      % 03085 RGTR--
+200405036 Luxembourg, Gare rou         01623                % 03085 RGTR--
+200405046 Luxembourg, Gare Roc -01625  01625                % 03085 RGTR--
+200405005 Centre, Badanstalt   -01632  01632                % 03085 RGTR--
+200410003 Eich, Eecher Plaz    -01635  01635                % 03085 RGTR--
+200409005 Dommeldange, Contour  01637  01637                % 03085 RGTR--
+200409006 Dommeldange, Dauschb  01638  01638                % 03085 RGTR--
+200509001 Waldhaff              01641  01641                % 03085 RGTR--
+180508001 Gonderange, Am Duerf  01646  01646                % 03085 RGTR--
+180508003 Gonderange, Mierchen  01647  01647                % 03085 RGTR--
+180511009 Junglinster, Op der   01648  01648                % 03085 RGTR--
+180511005 Junglinster, Um Lei   01649  01649                % 03085 RGTR--
+180511002 Junglinster, Op der   01650  01650                % 03085 RGTR--
+180511007 Junglinster, Um Reil  01652  01652                % 03085 RGTR--
+180512003 Junglinster, P+R      01653  01653                % 03085 RGTR--
+180509002 Graulinster, Haaptst  01656  01656                % 03085 RGTR--
+170205001 Rippig, Rippigerkopp  01658  01658                % 03085 RGTR--
+170201005 Altrier, Kreizenhéic  01659  01659                % 03085 RGTR--
+170201002 Altrier, Heeschbrege  01700  01700                % 03085 RGTR--
+170204001 Hersberg/Heeschbreg   01700  01700                % 03085 RGTR--
+170402001 Consdorf, Gare        01703  01703                % 03085 RGTR--
+170402005 Consdorf, Post        01704  01704                % 03085 RGTR--
+170402002 Consdorf, Haenricht   01706  01706                % 03085 RGTR--
+170402003 Consdorf, Kraizstroo  01707  01707                % 03085 RGTR--
+170402004 Consdorf, Melickshec  01707  01707                % 03085 RGTR--
+170305001 Bif. Kalkesbach       01709  01709                % 03085 RGTR--
+170301001 Berdorf, Bif. Heisbi  01711  01711                % 03085 RGTR--
+170301004 Berdorf, Duerfplaz    01712  01712                % 03085 RGTR--
+170301002 Berdorf, Hotel Herbe  01713  01713                % 03085 RGTR--
+170301003 Berdorf, Hôtel Perek  01714  01714                % 03085 RGTR--
+170501002 Echternach, Bel Air   01717  01717                % 03085 RGTR--
+170501007 Echternach, Fielsmil  01718  01718                % 03085 RGTR--
+170501018 Echternach, Ermesind  01720  01720                % 03085 RGTR--
+170501016 Echternach, Gare Cen  01721                       % 03085 RGTR--
+*Z 03086 RGTR--                                             % 03086 RGTR--
+*L 111      200405036 170501016  01723  01821               % 03086 RGTR--
+*A BE 200405036 170501016 000003  01723  01821              % 03086 RGTR--
+*A cj 200405036 170501016 000003  01723  01821              % 03086 RGTR--
+*A BX 200405036 170501016 000003  01723  01821              % 03086 RGTR--
+*R 1 170501016 200405036 170501016  01723  01821            % 03086 RGTR--
+*G RGB 200405036 170501016  01723  01821                    % 03086 RGTR--
+*A VE 200405036 170501016 000003  01723  01821              % 03086 RGTR--
+*I FD 200405036 170501016        0002199  01723  01821      % 03086 RGTR--
+200405036 Luxembourg, Gare rou         01723                % 03086 RGTR--
+200405046 Luxembourg, Gare Roc -01725  01725                % 03086 RGTR--
+200405005 Centre, Badanstalt   -01732  01732                % 03086 RGTR--
+200410003 Eich, Eecher Plaz    -01735  01735                % 03086 RGTR--
+200409005 Dommeldange, Contour  01737  01737                % 03086 RGTR--
+200409006 Dommeldange, Dauschb  01738  01738                % 03086 RGTR--
+200509001 Waldhaff              01741  01741                % 03086 RGTR--
+180508001 Gonderange, Am Duerf  01746  01746                % 03086 RGTR--
+180508003 Gonderange, Mierchen  01747  01747                % 03086 RGTR--
+180511009 Junglinster, Op der   01748  01748                % 03086 RGTR--
+180511005 Junglinster, Um Lei   01749  01749                % 03086 RGTR--
+180511002 Junglinster, Op der   01750  01750                % 03086 RGTR--
+180511007 Junglinster, Um Reil  01752  01752                % 03086 RGTR--
+180512003 Junglinster, P+R      01753  01753                % 03086 RGTR--
+180509002 Graulinster, Haaptst  01756  01756                % 03086 RGTR--
+170205001 Rippig, Rippigerkopp  01758  01758                % 03086 RGTR--
+170201005 Altrier, Kreizenhéic  01759  01759                % 03086 RGTR--
+170201002 Altrier, Heeschbrege  01800  01800                % 03086 RGTR--
+170204001 Hersberg/Heeschbreg   01800  01800                % 03086 RGTR--
+170402001 Consdorf, Gare        01803  01803                % 03086 RGTR--
+170402005 Consdorf, Post        01804  01804                % 03086 RGTR--
+170402002 Consdorf, Haenricht   01806  01806                % 03086 RGTR--
+170402003 Consdorf, Kraizstroo  01807  01807                % 03086 RGTR--
+170402004 Consdorf, Melickshec  01807  01807                % 03086 RGTR--
+170305001 Bif. Kalkesbach       01809  01809                % 03086 RGTR--
+170301001 Berdorf, Bif. Heisbi  01811  01811                % 03086 RGTR--
+170301004 Berdorf, Duerfplaz    01812  01812                % 03086 RGTR--
+170301002 Berdorf, Hotel Herbe  01813  01813                % 03086 RGTR--
+170301003 Berdorf, Hôtel Perek  01814  01814                % 03086 RGTR--
+170501002 Echternach, Bel Air   01817  01817                % 03086 RGTR--
+170501007 Echternach, Fielsmil  01818  01818                % 03086 RGTR--
+170501018 Echternach, Ermesind  01820  01820                % 03086 RGTR--
+170501016 Echternach, Gare Cen  01821                       % 03086 RGTR--
+*Z 03087 RGTR--                                             % 03087 RGTR--
+*L 111      200405036 170501016  01810  01908               % 03087 RGTR--
+*A BE 200405036 170501016 000003  01810  01908              % 03087 RGTR--
+*A cj 200405036 170501016 000003  01810  01908              % 03087 RGTR--
+*R 1 170501016 200405036 170501016  01810  01908            % 03087 RGTR--
+*G RGB 200405036 170501016  01810  01908                    % 03087 RGTR--
+*A VE 200405036 170501016 000003  01810  01908              % 03087 RGTR--
+*I FD 200405036 170501016        0002085  01810  01908      % 03087 RGTR--
+200405036 Luxembourg, Gare rou         01810                % 03087 RGTR--
+200405046 Luxembourg, Gare Roc -01812  01812                % 03087 RGTR--
+200405005 Centre, Badanstalt   -01819  01819                % 03087 RGTR--
+200410003 Eich, Eecher Plaz    -01822  01822                % 03087 RGTR--
+200409005 Dommeldange, Contour  01824  01824                % 03087 RGTR--
+200409006 Dommeldange, Dauschb  01825  01825                % 03087 RGTR--
+200509001 Waldhaff              01828  01828                % 03087 RGTR--
+180508001 Gonderange, Am Duerf  01833  01833                % 03087 RGTR--
+180508003 Gonderange, Mierchen  01834  01834                % 03087 RGTR--
+180511009 Junglinster, Op der   01835  01835                % 03087 RGTR--
+180511005 Junglinster, Um Lei   01836  01836                % 03087 RGTR--
+180511002 Junglinster, Op der   01837  01837                % 03087 RGTR--
+180511007 Junglinster, Um Reil  01839  01839                % 03087 RGTR--
+180512003 Junglinster, P+R      01840  01840                % 03087 RGTR--
+180509002 Graulinster, Haaptst  01843  01843                % 03087 RGTR--
+170205001 Rippig, Rippigerkopp  01845  01845                % 03087 RGTR--
+170201005 Altrier, Kreizenhéic  01846  01846                % 03087 RGTR--
+170201002 Altrier, Heeschbrege  01847  01847                % 03087 RGTR--
+170204001 Hersberg/Heeschbreg   01847  01847                % 03087 RGTR--
+170402001 Consdorf, Gare        01850  01850                % 03087 RGTR--
+170402005 Consdorf, Post        01851  01851                % 03087 RGTR--
+170402002 Consdorf, Haenricht   01853  01853                % 03087 RGTR--
+170402003 Consdorf, Kraizstroo  01854  01854                % 03087 RGTR--
+170402004 Consdorf, Melickshec  01854  01854                % 03087 RGTR--
+170305001 Bif. Kalkesbach       01856  01856                % 03087 RGTR--
+170301001 Berdorf, Bif. Heisbi  01858  01858                % 03087 RGTR--
+170301004 Berdorf, Duerfplaz    01859  01859                % 03087 RGTR--
+170301002 Berdorf, Hotel Herbe  01900  01900                % 03087 RGTR--
+170301003 Berdorf, Hôtel Perek  01901  01901                % 03087 RGTR--
+170501002 Echternach, Bel Air   01904  01904                % 03087 RGTR--
+170501007 Echternach, Fielsmil  01905  01905                % 03087 RGTR--
+170501018 Echternach, Ermesind  01907  01907                % 03087 RGTR--
+170501016 Echternach, Gare Cen  01908                       % 03087 RGTR--
+*Z 03088 RGTR--                                             % 03088 RGTR--
+*L 111      200405036 170501016  02240  02338               % 03088 RGTR--
+*A BE 200405036 170501016 000003  02240  02338              % 03088 RGTR--
+*A cj 200405036 170501016 000003  02240  02338              % 03088 RGTR--
+*R 1 170501016 200405036 170501016  02240  02338            % 03088 RGTR--
+*G RGB 200405036 170501016  02240  02338                    % 03088 RGTR--
+*A VE 200405036 170501016 000003  02240  02338              % 03088 RGTR--
+*I FD 200405036 170501016        0002972  02240  02338      % 03088 RGTR--
+200405036 Luxembourg, Gare rou         02240                % 03088 RGTR--
+200405046 Luxembourg, Gare Roc -02242  02242                % 03088 RGTR--
+200405005 Centre, Badanstalt   -02249  02249                % 03088 RGTR--
+200410003 Eich, Eecher Plaz    -02252  02252                % 03088 RGTR--
+200409005 Dommeldange, Contour  02254  02254                % 03088 RGTR--
+200409006 Dommeldange, Dauschb  02255  02255                % 03088 RGTR--
+200509001 Waldhaff              02258  02258                % 03088 RGTR--
+180508001 Gonderange, Am Duerf  02303  02303                % 03088 RGTR--
+180508003 Gonderange, Mierchen  02304  02304                % 03088 RGTR--
+180511009 Junglinster, Op der   02305  02305                % 03088 RGTR--
+180511005 Junglinster, Um Lei   02306  02306                % 03088 RGTR--
+180511002 Junglinster, Op der   02307  02307                % 03088 RGTR--
+180511007 Junglinster, Um Reil  02309  02309                % 03088 RGTR--
+180512003 Junglinster, P+R      02310  02310                % 03088 RGTR--
+180509002 Graulinster, Haaptst  02313  02313                % 03088 RGTR--
+170205001 Rippig, Rippigerkopp  02315  02315                % 03088 RGTR--
+170201005 Altrier, Kreizenhéic  02316  02316                % 03088 RGTR--
+170201002 Altrier, Heeschbrege  02317  02317                % 03088 RGTR--
+170204001 Hersberg/Heeschbreg   02317  02317                % 03088 RGTR--
+170402001 Consdorf, Gare        02320  02320                % 03088 RGTR--
+170402005 Consdorf, Post        02321  02321                % 03088 RGTR--
+170402002 Consdorf, Haenricht   02323  02323                % 03088 RGTR--
+170402003 Consdorf, Kraizstroo  02324  02324                % 03088 RGTR--
+170402004 Consdorf, Melickshec  02324  02324                % 03088 RGTR--
+170305001 Bif. Kalkesbach       02326  02326                % 03088 RGTR--
+170301001 Berdorf, Bif. Heisbi  02328  02328                % 03088 RGTR--
+170301004 Berdorf, Duerfplaz    02329  02329                % 03088 RGTR--
+170301002 Berdorf, Hotel Herbe  02330  02330                % 03088 RGTR--
+170301003 Berdorf, Hôtel Perek  02331  02331                % 03088 RGTR--
+170501002 Echternach, Bel Air   02334  02334                % 03088 RGTR--
+170501007 Echternach, Fielsmil  02335  02335                % 03088 RGTR--
+170501018 Echternach, Ermesind  02337  02337                % 03088 RGTR--
+170501016 Echternach, Gare Cen  02338                       % 03088 RGTR--
+*Z 03089 RGTR--                                             % 03089 RGTR--
+*L 111      200405036 170501016  00923  01029               % 03089 RGTR--
+*A BE 200405036 170501016 000000  00923  01029              % 03089 RGTR--
+*A cj 200405036 170501016 000000  00923  01029              % 03089 RGTR--
+*A BX 200405036 170501016 000000  00923  01029              % 03089 RGTR--
+*R 1 170501016 200405036 170501016  00923  01029            % 03089 RGTR--
+*G RGB 200405036 170501016  00923  01029                    % 03089 RGTR--
+*A VE 200405036 170501016 000000  00923  01029              % 03089 RGTR--
+*I FD 200405036 170501016        0002198  00923  01029      % 03089 RGTR--
+200405036 Luxembourg, Gare rou         00923                % 03089 RGTR--
+200405046 Luxembourg, Gare Roc -00927  00927                % 03089 RGTR--
+200405005 Centre, Badanstalt   -00935  00935                % 03089 RGTR--
+200410003 Eich, Eecher Plaz    -00939  00939                % 03089 RGTR--
+200409005 Dommeldange, Contour  00941  00941                % 03089 RGTR--
+200409006 Dommeldange, Dauschb  00943  00943                % 03089 RGTR--
+200509001 Waldhaff              00946  00946                % 03089 RGTR--
+180508001 Gonderange, Am Duerf  00952  00952                % 03089 RGTR--
+180508003 Gonderange, Mierchen  00953  00953                % 03089 RGTR--
+180511009 Junglinster, Op der   00954  00954                % 03089 RGTR--
+180511005 Junglinster, Um Lei   00954  00954                % 03089 RGTR--
+180511002 Junglinster, Op der   00955  00955                % 03089 RGTR--
+180511007 Junglinster, Um Reil  00958  00958                % 03089 RGTR--
+180512003 Junglinster, P+R      00959  00959                % 03089 RGTR--
+180509002 Graulinster, Haaptst  01003  01003                % 03089 RGTR--
+170205001 Rippig, Rippigerkopp  01004  01004                % 03089 RGTR--
+170201005 Altrier, Kreizenhéic  01005  01005                % 03089 RGTR--
+170201002 Altrier, Heeschbrege  01006  01006                % 03089 RGTR--
+170204001 Hersberg/Heeschbreg   01007  01007                % 03089 RGTR--
+170402001 Consdorf, Gare        01010  01010                % 03089 RGTR--
+170402005 Consdorf, Post        01011  01011                % 03089 RGTR--
+170402002 Consdorf, Haenricht   01013  01013                % 03089 RGTR--
+170402003 Consdorf, Kraizstroo  01014  01014                % 03089 RGTR--
+170402004 Consdorf, Melickshec  01015  01015                % 03089 RGTR--
+170305001 Bif. Kalkesbach       01017  01017                % 03089 RGTR--
+170301001 Berdorf, Bif. Heisbi  01019  01019                % 03089 RGTR--
+170301004 Berdorf, Duerfplaz    01020  01020                % 03089 RGTR--
+170301002 Berdorf, Hotel Herbe  01020  01020                % 03089 RGTR--
+170301003 Berdorf, Hôtel Perek  01021  01021                % 03089 RGTR--
+170501002 Echternach, Bel Air   01024  01024                % 03089 RGTR--
+170501007 Echternach, Fielsmil  01026  01026                % 03089 RGTR--
+170501018 Echternach, Ermesind  01028  01028                % 03089 RGTR--
+170501016 Echternach, Gare Cen  01029                       % 03089 RGTR--
+*Z 03090 RGTR--                                             % 03090 RGTR--
+*L 111      200405036 170501016  00643  00749               % 03090 RGTR--
+*A BE 200405036 170501016 000001  00643  00749              % 03090 RGTR--
+*A cj 200405036 170501016 000001  00643  00749              % 03090 RGTR--
+*R 1 170501016 200405036 170501016  00643  00749            % 03090 RGTR--
+*G RGB 200405036 170501016  00643  00749                    % 03090 RGTR--
+*A VE 200405036 170501016 000001  00643  00749              % 03090 RGTR--
+*I FD 200405036 170501016        0002971  00643  00749      % 03090 RGTR--
+200405036 Luxembourg, Gare rou         00643                % 03090 RGTR--
+200405046 Luxembourg, Gare Roc -00647  00647                % 03090 RGTR--
+200405005 Centre, Badanstalt   -00655  00655                % 03090 RGTR--
+200410003 Eich, Eecher Plaz    -00659  00659                % 03090 RGTR--
+200409005 Dommeldange, Contour  00701  00701                % 03090 RGTR--
+200409006 Dommeldange, Dauschb  00703  00703                % 03090 RGTR--
+200509001 Waldhaff              00706  00706                % 03090 RGTR--
+180508001 Gonderange, Am Duerf  00712  00712                % 03090 RGTR--
+180508003 Gonderange, Mierchen  00713  00713                % 03090 RGTR--
+180511009 Junglinster, Op der   00714  00714                % 03090 RGTR--
+180511005 Junglinster, Um Lei   00714  00714                % 03090 RGTR--
+180511002 Junglinster, Op der   00715  00715                % 03090 RGTR--
+180511007 Junglinster, Um Reil  00718  00718                % 03090 RGTR--
+180512003 Junglinster, P+R      00719  00719                % 03090 RGTR--
+180509002 Graulinster, Haaptst  00723  00723                % 03090 RGTR--
+170205001 Rippig, Rippigerkopp  00724  00724                % 03090 RGTR--
+170201005 Altrier, Kreizenhéic  00725  00725                % 03090 RGTR--
+170201002 Altrier, Heeschbrege  00726  00726                % 03090 RGTR--
+170204001 Hersberg/Heeschbreg   00727  00727                % 03090 RGTR--
+170402001 Consdorf, Gare        00730  00730                % 03090 RGTR--
+170402005 Consdorf, Post        00731  00731                % 03090 RGTR--
+170402002 Consdorf, Haenricht   00733  00733                % 03090 RGTR--
+170402003 Consdorf, Kraizstroo  00734  00734                % 03090 RGTR--
+170402004 Consdorf, Melickshec  00735  00735                % 03090 RGTR--
+170305001 Bif. Kalkesbach       00737  00737                % 03090 RGTR--
+170301001 Berdorf, Bif. Heisbi  00739  00739                % 03090 RGTR--
+170301004 Berdorf, Duerfplaz    00740  00740                % 03090 RGTR--
+170301002 Berdorf, Hotel Herbe  00740  00740                % 03090 RGTR--
+170301003 Berdorf, Hôtel Perek  00741  00741                % 03090 RGTR--
+170501002 Echternach, Bel Air   00744  00744                % 03090 RGTR--
+170501007 Echternach, Fielsmil  00746  00746                % 03090 RGTR--
+170501018 Echternach, Ermesind  00748  00748                % 03090 RGTR--
+170501016 Echternach, Gare Cen  00749                       % 03090 RGTR--
+*Z 03091 RGTR--                                             % 03091 RGTR--
+*L 111      200405036 170501016  00723  00829               % 03091 RGTR--
+*A BE 200405036 170501016 000001  00723  00829              % 03091 RGTR--
+*A cj 200405036 170501016 000001  00723  00829              % 03091 RGTR--
+*R 1 170501016 200405036 170501016  00723  00829            % 03091 RGTR--
+*G RGB 200405036 170501016  00723  00829                    % 03091 RGTR--
+*A VE 200405036 170501016 000001  00723  00829              % 03091 RGTR--
+*I FD 200405036 170501016        0002541  00723  00829      % 03091 RGTR--
+200405036 Luxembourg, Gare rou         00723                % 03091 RGTR--
+200405046 Luxembourg, Gare Roc -00727  00727                % 03091 RGTR--
+200405005 Centre, Badanstalt   -00735  00735                % 03091 RGTR--
+200410003 Eich, Eecher Plaz    -00739  00739                % 03091 RGTR--
+200409005 Dommeldange, Contour  00741  00741                % 03091 RGTR--
+200409006 Dommeldange, Dauschb  00743  00743                % 03091 RGTR--
+200509001 Waldhaff              00746  00746                % 03091 RGTR--
+180508001 Gonderange, Am Duerf  00752  00752                % 03091 RGTR--
+180508003 Gonderange, Mierchen  00753  00753                % 03091 RGTR--
+180511009 Junglinster, Op der   00754  00754                % 03091 RGTR--
+180511005 Junglinster, Um Lei   00754  00754                % 03091 RGTR--
+180511002 Junglinster, Op der   00755  00755                % 03091 RGTR--
+180511007 Junglinster, Um Reil  00758  00758                % 03091 RGTR--
+180512003 Junglinster, P+R      00759  00759                % 03091 RGTR--
+180509002 Graulinster, Haaptst  00803  00803                % 03091 RGTR--
+170205001 Rippig, Rippigerkopp  00804  00804                % 03091 RGTR--
+170201005 Altrier, Kreizenhéic  00805  00805                % 03091 RGTR--
+170201002 Altrier, Heeschbrege  00806  00806                % 03091 RGTR--
+170204001 Hersberg/Heeschbreg   00807  00807                % 03091 RGTR--
+170402001 Consdorf, Gare        00810  00810                % 03091 RGTR--
+170402005 Consdorf, Post        00811  00811                % 03091 RGTR--
+170402002 Consdorf, Haenricht   00813  00813                % 03091 RGTR--
+170402003 Consdorf, Kraizstroo  00814  00814                % 03091 RGTR--
+170402004 Consdorf, Melickshec  00815  00815                % 03091 RGTR--
+170305001 Bif. Kalkesbach       00817  00817                % 03091 RGTR--
+170301001 Berdorf, Bif. Heisbi  00819  00819                % 03091 RGTR--
+170301004 Berdorf, Duerfplaz    00820  00820                % 03091 RGTR--
+170301002 Berdorf, Hotel Herbe  00820  00820                % 03091 RGTR--
+170301003 Berdorf, Hôtel Perek  00821  00821                % 03091 RGTR--
+170501002 Echternach, Bel Air   00824  00824                % 03091 RGTR--
+170501007 Echternach, Fielsmil  00826  00826                % 03091 RGTR--
+170501018 Echternach, Ermesind  00828  00828                % 03091 RGTR--
+170501016 Echternach, Gare Cen  00829                       % 03091 RGTR--
+*Z 03092 RGTR--                                             % 03092 RGTR--
+*L 111      200405036 170501016  00823  00929               % 03092 RGTR--
+*A BE 200405036 170501016 000001  00823  00929              % 03092 RGTR--
+*A cj 200405036 170501016 000001  00823  00929              % 03092 RGTR--
+*A cl 200405036 170501016 000001  00823  00929              % 03092 RGTR--
+*R 1 170501016 200405036 170501016  00823  00929            % 03092 RGTR--
+*G RGB 200405036 170501016  00823  00929                    % 03092 RGTR--
+*A VE 200405036 170501016 000001  00823  00929              % 03092 RGTR--
+*I FD 200405036 170501016        0000892  00823  00929      % 03092 RGTR--
+200405036 Luxembourg, Gare rou         00823                % 03092 RGTR--
+200405046 Luxembourg, Gare Roc -00827  00827                % 03092 RGTR--
+200405005 Centre, Badanstalt   -00835  00835                % 03092 RGTR--
+200410003 Eich, Eecher Plaz    -00839  00839                % 03092 RGTR--
+200409005 Dommeldange, Contour  00841  00841                % 03092 RGTR--
+200409006 Dommeldange, Dauschb  00843  00843                % 03092 RGTR--
+200509001 Waldhaff              00846  00846                % 03092 RGTR--
+180508001 Gonderange, Am Duerf  00852  00852                % 03092 RGTR--
+180508003 Gonderange, Mierchen  00853  00853                % 03092 RGTR--
+180511009 Junglinster, Op der   00854  00854                % 03092 RGTR--
+180511005 Junglinster, Um Lei   00854  00854                % 03092 RGTR--
+180511002 Junglinster, Op der   00855  00855                % 03092 RGTR--
+180511007 Junglinster, Um Reil  00858  00858                % 03092 RGTR--
+180512003 Junglinster, P+R      00859  00859                % 03092 RGTR--
+180509002 Graulinster, Haaptst  00903  00903                % 03092 RGTR--
+170205001 Rippig, Rippigerkopp  00904  00904                % 03092 RGTR--
+170201005 Altrier, Kreizenhéic  00905  00905                % 03092 RGTR--
+170201002 Altrier, Heeschbrege  00906  00906                % 03092 RGTR--
+170204001 Hersberg/Heeschbreg   00907  00907                % 03092 RGTR--
+170402001 Consdorf, Gare        00910  00910                % 03092 RGTR--
+170402005 Consdorf, Post        00911  00911                % 03092 RGTR--
+170402002 Consdorf, Haenricht   00913  00913                % 03092 RGTR--
+170402003 Consdorf, Kraizstroo  00914  00914                % 03092 RGTR--
+170402004 Consdorf, Melickshec  00915  00915                % 03092 RGTR--
+170305001 Bif. Kalkesbach       00917  00917                % 03092 RGTR--
+170301001 Berdorf, Bif. Heisbi  00919  00919                % 03092 RGTR--
+170301004 Berdorf, Duerfplaz    00920  00920                % 03092 RGTR--
+170301002 Berdorf, Hotel Herbe  00920  00920                % 03092 RGTR--
+170301003 Berdorf, Hôtel Perek  00921  00921                % 03092 RGTR--
+170501002 Echternach, Bel Air   00924  00924                % 03092 RGTR--
+170501007 Echternach, Fielsmil  00926  00926                % 03092 RGTR--
+170501018 Echternach, Ermesind  00928  00928                % 03092 RGTR--
+170501016 Echternach, Gare Cen  00929                       % 03092 RGTR--
+*Z 03093 RGTR--                                             % 03093 RGTR--
+*L 111      200405036 170501016  01605  01711               % 03093 RGTR--
+*A BE 200405036 170501016 000001  01605  01711              % 03093 RGTR--
+*A cj 200405036 170501016 000001  01605  01711              % 03093 RGTR--
+*A cl 200405036 170501016 000001  01605  01711              % 03093 RGTR--
+*A BX 200405036 170501016 000001  01605  01711              % 03093 RGTR--
+*A cm 200405036 170501016 000001  01605  01711              % 03093 RGTR--
+*R 1 170501016 200405036 170501016  01605  01711            % 03093 RGTR--
+*G RGB 200405036 170501016  01605  01711                    % 03093 RGTR--
+*A VE 200405036 170501016 000001  01605  01711              % 03093 RGTR--
+*I FD 200405036 170501016        0002009  01605  01711      % 03093 RGTR--
+200405036 Luxembourg, Gare rou         01605                % 03093 RGTR--
+200405046 Luxembourg, Gare Roc -01609  01609                % 03093 RGTR--
+200405005 Centre, Badanstalt   -01617  01617                % 03093 RGTR--
+200410003 Eich, Eecher Plaz    -01621  01621                % 03093 RGTR--
+200409005 Dommeldange, Contour  01623  01623                % 03093 RGTR--
+200409006 Dommeldange, Dauschb  01625  01625                % 03093 RGTR--
+200509001 Waldhaff              01628  01628                % 03093 RGTR--
+180508001 Gonderange, Am Duerf  01634  01634                % 03093 RGTR--
+180508003 Gonderange, Mierchen  01635  01635                % 03093 RGTR--
+180511009 Junglinster, Op der   01636  01636                % 03093 RGTR--
+180511005 Junglinster, Um Lei   01636  01636                % 03093 RGTR--
+180511002 Junglinster, Op der   01637  01637                % 03093 RGTR--
+180511007 Junglinster, Um Reil  01640  01640                % 03093 RGTR--
+180512003 Junglinster, P+R      01641  01641                % 03093 RGTR--
+180509002 Graulinster, Haaptst  01645  01645                % 03093 RGTR--
+170205001 Rippig, Rippigerkopp  01646  01646                % 03093 RGTR--
+170201005 Altrier, Kreizenhéic  01647  01647                % 03093 RGTR--
+170201002 Altrier, Heeschbrege  01648  01648                % 03093 RGTR--
+170204001 Hersberg/Heeschbreg   01649  01649                % 03093 RGTR--
+170402001 Consdorf, Gare        01652  01652                % 03093 RGTR--
+170402005 Consdorf, Post        01653  01653                % 03093 RGTR--
+170402002 Consdorf, Haenricht   01655  01655                % 03093 RGTR--
+170402003 Consdorf, Kraizstroo  01656  01656                % 03093 RGTR--
+170402004 Consdorf, Melickshec  01657  01657                % 03093 RGTR--
+170305001 Bif. Kalkesbach       01659  01659                % 03093 RGTR--
+170301001 Berdorf, Bif. Heisbi  01701  01701                % 03093 RGTR--
+170301004 Berdorf, Duerfplaz    01702  01702                % 03093 RGTR--
+170301002 Berdorf, Hotel Herbe  01702  01702                % 03093 RGTR--
+170301003 Berdorf, Hôtel Perek  01703  01703                % 03093 RGTR--
+170501002 Echternach, Bel Air   01706  01706                % 03093 RGTR--
+170501007 Echternach, Fielsmil  01708  01708                % 03093 RGTR--
+170501018 Echternach, Ermesind  01710  01710                % 03093 RGTR--
+170501016 Echternach, Gare Cen  01711                       % 03093 RGTR--
+*Z 03094 RGTR--                                             % 03094 RGTR--
+*L 111      200405036 170501016  01623  01729               % 03094 RGTR--
+*A BE 200405036 170501016 000001  01623  01729              % 03094 RGTR--
+*A cj 200405036 170501016 000001  01623  01729              % 03094 RGTR--
+*R 1 170501016 200405036 170501016  01623  01729            % 03094 RGTR--
+*G RGB 200405036 170501016  01623  01729                    % 03094 RGTR--
+*A VE 200405036 170501016 000001  01623  01729              % 03094 RGTR--
+*I FD 200405036 170501016        0002494  01623  01729      % 03094 RGTR--
+200405036 Luxembourg, Gare rou         01623                % 03094 RGTR--
+200405046 Luxembourg, Gare Roc -01627  01627                % 03094 RGTR--
+200405005 Centre, Badanstalt   -01635  01635                % 03094 RGTR--
+200410003 Eich, Eecher Plaz    -01639  01639                % 03094 RGTR--
+200409005 Dommeldange, Contour  01641  01641                % 03094 RGTR--
+200409006 Dommeldange, Dauschb  01643  01643                % 03094 RGTR--
+200509001 Waldhaff              01646  01646                % 03094 RGTR--
+180508001 Gonderange, Am Duerf  01652  01652                % 03094 RGTR--
+180508003 Gonderange, Mierchen  01653  01653                % 03094 RGTR--
+180511009 Junglinster, Op der   01654  01654                % 03094 RGTR--
+180511005 Junglinster, Um Lei   01654  01654                % 03094 RGTR--
+180511002 Junglinster, Op der   01655  01655                % 03094 RGTR--
+180511007 Junglinster, Um Reil  01658  01658                % 03094 RGTR--
+180512003 Junglinster, P+R      01659  01659                % 03094 RGTR--
+180509002 Graulinster, Haaptst  01703  01703                % 03094 RGTR--
+170205001 Rippig, Rippigerkopp  01704  01704                % 03094 RGTR--
+170201005 Altrier, Kreizenhéic  01705  01705                % 03094 RGTR--
+170201002 Altrier, Heeschbrege  01706  01706                % 03094 RGTR--
+170204001 Hersberg/Heeschbreg   01707  01707                % 03094 RGTR--
+170402001 Consdorf, Gare        01710  01710                % 03094 RGTR--
+170402005 Consdorf, Post        01711  01711                % 03094 RGTR--
+170402002 Consdorf, Haenricht   01713  01713                % 03094 RGTR--
+170402003 Consdorf, Kraizstroo  01714  01714                % 03094 RGTR--
+170402004 Consdorf, Melickshec  01715  01715                % 03094 RGTR--
+170305001 Bif. Kalkesbach       01717  01717                % 03094 RGTR--
+170301001 Berdorf, Bif. Heisbi  01719  01719                % 03094 RGTR--
+170301004 Berdorf, Duerfplaz    01720  01720                % 03094 RGTR--
+170301002 Berdorf, Hotel Herbe  01720  01720                % 03094 RGTR--
+170301003 Berdorf, Hôtel Perek  01721  01721                % 03094 RGTR--
+170501002 Echternach, Bel Air   01724  01724                % 03094 RGTR--
+170501007 Echternach, Fielsmil  01726  01726                % 03094 RGTR--
+170501018 Echternach, Ermesind  01728  01728                % 03094 RGTR--
+170501016 Echternach, Gare Cen  01729                       % 03094 RGTR--
+*Z 03095 RGTR--                                             % 03095 RGTR--
+*L 111      200405036 170501016  01723  01829               % 03095 RGTR--
+*A BE 200405036 170501016 000001  01723  01829              % 03095 RGTR--
+*A cj 200405036 170501016 000001  01723  01829              % 03095 RGTR--
+*A cl 200405036 170501016 000001  01723  01829              % 03095 RGTR--
+*A BX 200405036 170501016 000001  01723  01829              % 03095 RGTR--
+*R 1 170501016 200405036 170501016  01723  01829            % 03095 RGTR--
+*G RGB 200405036 170501016  01723  01829                    % 03095 RGTR--
+*A VE 200405036 170501016 000001  01723  01829              % 03095 RGTR--
+*I FD 200405036 170501016        0002199  01723  01829      % 03095 RGTR--
+200405036 Luxembourg, Gare rou         01723                % 03095 RGTR--
+200405046 Luxembourg, Gare Roc -01727  01727                % 03095 RGTR--
+200405005 Centre, Badanstalt   -01735  01735                % 03095 RGTR--
+200410003 Eich, Eecher Plaz    -01739  01739                % 03095 RGTR--
+200409005 Dommeldange, Contour  01741  01741                % 03095 RGTR--
+200409006 Dommeldange, Dauschb  01743  01743                % 03095 RGTR--
+200509001 Waldhaff              01746  01746                % 03095 RGTR--
+180508001 Gonderange, Am Duerf  01752  01752                % 03095 RGTR--
+180508003 Gonderange, Mierchen  01753  01753                % 03095 RGTR--
+180511009 Junglinster, Op der   01754  01754                % 03095 RGTR--
+180511005 Junglinster, Um Lei   01754  01754                % 03095 RGTR--
+180511002 Junglinster, Op der   01755  01755                % 03095 RGTR--
+180511007 Junglinster, Um Reil  01758  01758                % 03095 RGTR--
+180512003 Junglinster, P+R      01759  01759                % 03095 RGTR--
+180509002 Graulinster, Haaptst  01803  01803                % 03095 RGTR--
+170205001 Rippig, Rippigerkopp  01804  01804                % 03095 RGTR--
+170201005 Altrier, Kreizenhéic  01805  01805                % 03095 RGTR--
+170201002 Altrier, Heeschbrege  01806  01806                % 03095 RGTR--
+170204001 Hersberg/Heeschbreg   01807  01807                % 03095 RGTR--
+170402001 Consdorf, Gare        01810  01810                % 03095 RGTR--
+170402005 Consdorf, Post        01811  01811                % 03095 RGTR--
+170402002 Consdorf, Haenricht   01813  01813                % 03095 RGTR--
+170402003 Consdorf, Kraizstroo  01814  01814                % 03095 RGTR--
+170402004 Consdorf, Melickshec  01815  01815                % 03095 RGTR--
+170305001 Bif. Kalkesbach       01817  01817                % 03095 RGTR--
+170301001 Berdorf, Bif. Heisbi  01819  01819                % 03095 RGTR--
+170301004 Berdorf, Duerfplaz    01820  01820                % 03095 RGTR--
+170301002 Berdorf, Hotel Herbe  01820  01820                % 03095 RGTR--
+170301003 Berdorf, Hôtel Perek  01821  01821                % 03095 RGTR--
+170501002 Echternach, Bel Air   01824  01824                % 03095 RGTR--
+170501007 Echternach, Fielsmil  01826  01826                % 03095 RGTR--
+170501018 Echternach, Ermesind  01828  01828                % 03095 RGTR--
+170501016 Echternach, Gare Cen  01829                       % 03095 RGTR--
+*Z 03096 RGTR--                                             % 03096 RGTR--
+*L 111      200405036 170501016  01810  01916               % 03096 RGTR--
+*A BE 200405036 170501016 000001  01810  01916              % 03096 RGTR--
+*A cj 200405036 170501016 000001  01810  01916              % 03096 RGTR--
+*A cl 200405036 170501016 000001  01810  01916              % 03096 RGTR--
+*A OL 200405036 170501016 000001  01810  01916              % 03096 RGTR--
+*R 1 170501016 200405036 170501016  01810  01916            % 03096 RGTR--
+*G RGB 200405036 170501016  01810  01916                    % 03096 RGTR--
+*A VE 200405036 170501016 000001  01810  01916              % 03096 RGTR--
+*I FD 200405036 170501016        0002085  01810  01916      % 03096 RGTR--
+200405036 Luxembourg, Gare rou         01810                % 03096 RGTR--
+200405046 Luxembourg, Gare Roc -01814  01814                % 03096 RGTR--
+200405005 Centre, Badanstalt   -01822  01822                % 03096 RGTR--
+200410003 Eich, Eecher Plaz    -01826  01826                % 03096 RGTR--
+200409005 Dommeldange, Contour  01828  01828                % 03096 RGTR--
+200409006 Dommeldange, Dauschb  01830  01830                % 03096 RGTR--
+200509001 Waldhaff              01833  01833                % 03096 RGTR--
+180508001 Gonderange, Am Duerf  01839  01839                % 03096 RGTR--
+180508003 Gonderange, Mierchen  01840  01840                % 03096 RGTR--
+180511009 Junglinster, Op der   01841  01841                % 03096 RGTR--
+180511005 Junglinster, Um Lei   01841  01841                % 03096 RGTR--
+180511002 Junglinster, Op der   01842  01842                % 03096 RGTR--
+180511007 Junglinster, Um Reil  01845  01845                % 03096 RGTR--
+180512003 Junglinster, P+R      01846  01846                % 03096 RGTR--
+180509002 Graulinster, Haaptst  01850  01850                % 03096 RGTR--
+170205001 Rippig, Rippigerkopp  01851  01851                % 03096 RGTR--
+170201005 Altrier, Kreizenhéic  01852  01852                % 03096 RGTR--
+170201002 Altrier, Heeschbrege  01853  01853                % 03096 RGTR--
+170204001 Hersberg/Heeschbreg   01854  01854                % 03096 RGTR--
+170402001 Consdorf, Gare        01857  01857                % 03096 RGTR--
+170402005 Consdorf, Post        01858  01858                % 03096 RGTR--
+170402002 Consdorf, Haenricht   01900  01900                % 03096 RGTR--
+170402003 Consdorf, Kraizstroo  01901  01901                % 03096 RGTR--
+170402004 Consdorf, Melickshec  01902  01902                % 03096 RGTR--
+170305001 Bif. Kalkesbach       01904  01904                % 03096 RGTR--
+170301001 Berdorf, Bif. Heisbi  01906  01906                % 03096 RGTR--
+170301004 Berdorf, Duerfplaz    01907  01907                % 03096 RGTR--
+170301002 Berdorf, Hotel Herbe  01907  01907                % 03096 RGTR--
+170301003 Berdorf, Hôtel Perek  01908  01908                % 03096 RGTR--
+170501002 Echternach, Bel Air   01911  01911                % 03096 RGTR--
+170501007 Echternach, Fielsmil  01913  01913                % 03096 RGTR--
+170501018 Echternach, Ermesind  01915  01915                % 03096 RGTR--
+170501016 Echternach, Gare Cen  01916                       % 03096 RGTR--
+*Z 03097 RGTR--                                             % 03097 RGTR--
+*L 111      170402001 200405036  00504  00544               % 03097 RGTR--
+*A BE 170402001 200405036 000001  00504  00544              % 03097 RGTR--
+*A cj 170402001 200405036 000001  00504  00544              % 03097 RGTR--
+*R 2 200405036 170402001 200405036  00504  00544            % 03097 RGTR--
+*G RGB 170402001 200405036  00504  00544                    % 03097 RGTR--
+*A VE 170402001 200405036 000001  00504  00544              % 03097 RGTR--
+*I FD 170402001 200405036        0002973  00504  00544      % 03097 RGTR--
+170402001 Consdorf, Gare               00504                % 03097 RGTR--
+170204001 Hersberg/Heeschbreg   00507  00507                % 03097 RGTR--
+170201001 Altrier, Bildchen     00507  00507                % 03097 RGTR--
+170201005 Altrier, Kreizenhéic  00508  00508                % 03097 RGTR--
+170205001 Rippig, Rippigerkopp  00509  00509                % 03097 RGTR--
+180509002 Graulinster, Haaptst  00510  00510                % 03097 RGTR--
+180512003 Junglinster, P+R      00513  00513                % 03097 RGTR--
+180511007 Junglinster, Um Reil  00514  00514                % 03097 RGTR--
+180511002 Junglinster, Op der   00515  00515                % 03097 RGTR--
+180511005 Junglinster, Um Lei   00517  00517                % 03097 RGTR--
+180511009 Junglinster, Op der   00518  00518                % 03097 RGTR--
+180508003 Gonderange, Mierchen  00518  00518                % 03097 RGTR--
+180508004 Gonderange, Op der B  00519  00519                % 03097 RGTR--
+180508006 Gonderange, Stohlbou  00520  00520                % 03097 RGTR--
+200509001 Waldhaff              00524  00524                % 03097 RGTR--
+200409006 Dommeldange, Dauschb  00528  00528                % 03097 RGTR--
+200409005 Dommeldange, Contour  00529  00529                % 03097 RGTR--
+200410003 Eich, Eecher Plaz     00532 -00532                % 03097 RGTR--
+200405005 Centre, Badanstalt    00535 -00535                % 03097 RGTR--
+200405036 Luxembourg, Gare rou  00544                       % 03097 RGTR--
+*Z 03098 RGTR--                                             % 03098 RGTR--
+*L 111      170402001 200405036  00634  00714               % 03098 RGTR--
+*A BE 170402001 200405036 000001  00634  00714              % 03098 RGTR--
+*A cj 170402001 200405036 000001  00634  00714              % 03098 RGTR--
+*A ck 170402001 200405036 000001  00634  00714              % 03098 RGTR--
+*R 2 200405036 170402001 200405036  00634  00714            % 03098 RGTR--
+*G RGB 170402001 200405036  00634  00714                    % 03098 RGTR--
+*A VE 170402001 200405036 000001  00634  00714              % 03098 RGTR--
+*I FD 170402001 200405036        0002763  00634  00714      % 03098 RGTR--
+170402001 Consdorf, Gare               00634                % 03098 RGTR--
+170204001 Hersberg/Heeschbreg   00637  00637                % 03098 RGTR--
+170201001 Altrier, Bildchen     00637  00637                % 03098 RGTR--
+170201005 Altrier, Kreizenhéic  00638  00638                % 03098 RGTR--
+170205001 Rippig, Rippigerkopp  00639  00639                % 03098 RGTR--
+180509002 Graulinster, Haaptst  00640  00640                % 03098 RGTR--
+180512003 Junglinster, P+R      00643  00643                % 03098 RGTR--
+180511007 Junglinster, Um Reil  00644  00644                % 03098 RGTR--
+180511002 Junglinster, Op der   00645  00645                % 03098 RGTR--
+180511005 Junglinster, Um Lei   00647  00647                % 03098 RGTR--
+180511009 Junglinster, Op der   00648  00648                % 03098 RGTR--
+180508003 Gonderange, Mierchen  00648  00648                % 03098 RGTR--
+180508004 Gonderange, Op der B  00649  00649                % 03098 RGTR--
+180508006 Gonderange, Stohlbou  00650  00650                % 03098 RGTR--
+200509001 Waldhaff              00654  00654                % 03098 RGTR--
+200409006 Dommeldange, Dauschb  00658  00658                % 03098 RGTR--
+200409005 Dommeldange, Contour  00659  00659                % 03098 RGTR--
+200410003 Eich, Eecher Plaz     00702 -00702                % 03098 RGTR--
+200405005 Centre, Badanstalt    00705 -00705                % 03098 RGTR--
+200405036 Luxembourg, Gare rou  00714                       % 03098 RGTR--
+*Z 03099 RGTR--                                             % 03099 RGTR--
+*L 111      170501016 200405036  00945  01042               % 03099 RGTR--
+*A BE 170501016 200405036 000000  00945  01042              % 03099 RGTR--
+*A cj 170501016 200405036 000000  00945  01042              % 03099 RGTR--
+*A cn 170501016 200405036 000000  00945  01042              % 03099 RGTR--
+*R 2 200405036 170501016 200405036  00945  01042            % 03099 RGTR--
+*G RGB 170501016 200405036  00945  01042                    % 03099 RGTR--
+*A VE 170501016 200405036 000000  00945  01042              % 03099 RGTR--
+*I FD 170501016 200405036        0002808  00945  01042      % 03099 RGTR--
+170501016 Echternach, Gare Cen         00945                % 03099 RGTR--
+170501018 Echternach, Ermesind  00945  00945                % 03099 RGTR--
+170501007 Echternach, Fielsmil  00947  00947                % 03099 RGTR--
+170501002 Echternach, Bel Air   00948  00948                % 03099 RGTR--
+170301003 Berdorf, Hôtel Perek  00951  00951                % 03099 RGTR--
+170301002 Berdorf, Hotel Herbe  00952  00952                % 03099 RGTR--
+170301004 Berdorf, Duerfplaz    00953  00953                % 03099 RGTR--
+170301001 Berdorf, Bif. Heisbi  00954  00954                % 03099 RGTR--
+170305001 Bif. Kalkesbach       00956  00956                % 03099 RGTR--
+170402004 Consdorf, Melickshec  00957  00957                % 03099 RGTR--
+170402003 Consdorf, Kraizstroo  00958  00958                % 03099 RGTR--
+170402002 Consdorf, Haenricht   00959  00959                % 03099 RGTR--
+170402005 Consdorf, Post        01000  01000                % 03099 RGTR--
+170402001 Consdorf, Gare        01001  01001                % 03099 RGTR--
+170204001 Hersberg/Heeschbreg   01004  01004                % 03099 RGTR--
+170201001 Altrier, Bildchen     01005  01005                % 03099 RGTR--
+170201005 Altrier, Kreizenhéic  01006  01006                % 03099 RGTR--
+170205001 Rippig, Rippigerkopp  01007  01007                % 03099 RGTR--
+180509002 Graulinster, Haaptst  01008  01008                % 03099 RGTR--
+180512003 Junglinster, P+R      01011  01011                % 03099 RGTR--
+180511007 Junglinster, Um Reil  01012  01012                % 03099 RGTR--
+180511002 Junglinster, Op der   01013  01013                % 03099 RGTR--
+180511005 Junglinster, Um Lei   01015  01015                % 03099 RGTR--
+180511009 Junglinster, Op der   01015  01015                % 03099 RGTR--
+180508003 Gonderange, Mierchen  01016  01016                % 03099 RGTR--
+180508004 Gonderange, Op der B  01017  01017                % 03099 RGTR--
+180508006 Gonderange, Stohlbou  01018  01018                % 03099 RGTR--
+200509001 Waldhaff              01022  01022                % 03099 RGTR--
+200409006 Dommeldange, Dauschb  01026  01026                % 03099 RGTR--
+200409005 Dommeldange, Contour  01027  01027                % 03099 RGTR--
+200410003 Eich, Eecher Plaz     01030 -01030                % 03099 RGTR--
+200405005 Centre, Badanstalt    01033 -01033                % 03099 RGTR--
+200405036 Luxembourg, Gare rou  01042                       % 03099 RGTR--
+*Z 03100 RGTR--                                             % 03100 RGTR--
+*L 111      170501016 200405036  01045  01142               % 03100 RGTR--
+*A BE 170501016 200405036 000000  01045  01142              % 03100 RGTR--
+*A cj 170501016 200405036 000000  01045  01142              % 03100 RGTR--
+*A ck 170501016 200405036 000000  01045  01142              % 03100 RGTR--
+*A cn 170501016 200405036 000000  01045  01142              % 03100 RGTR--
+*R 2 200405036 170501016 200405036  01045  01142            % 03100 RGTR--
+*G RGB 170501016 200405036  01045  01142                    % 03100 RGTR--
+*A VE 170501016 200405036 000000  01045  01142              % 03100 RGTR--
+*I FD 170501016 200405036        0002812  01045  01142      % 03100 RGTR--
+170501016 Echternach, Gare Cen         01045                % 03100 RGTR--
+170501018 Echternach, Ermesind  01045  01045                % 03100 RGTR--
+170501007 Echternach, Fielsmil  01047  01047                % 03100 RGTR--
+170501002 Echternach, Bel Air   01048  01048                % 03100 RGTR--
+170301003 Berdorf, Hôtel Perek  01051  01051                % 03100 RGTR--
+170301002 Berdorf, Hotel Herbe  01052  01052                % 03100 RGTR--
+170301004 Berdorf, Duerfplaz    01053  01053                % 03100 RGTR--
+170301001 Berdorf, Bif. Heisbi  01054  01054                % 03100 RGTR--
+170305001 Bif. Kalkesbach       01056  01056                % 03100 RGTR--
+170402004 Consdorf, Melickshec  01057  01057                % 03100 RGTR--
+170402003 Consdorf, Kraizstroo  01058  01058                % 03100 RGTR--
+170402002 Consdorf, Haenricht   01059  01059                % 03100 RGTR--
+170402005 Consdorf, Post        01100  01100                % 03100 RGTR--
+170402001 Consdorf, Gare        01101  01101                % 03100 RGTR--
+170204001 Hersberg/Heeschbreg   01104  01104                % 03100 RGTR--
+170201001 Altrier, Bildchen     01105  01105                % 03100 RGTR--
+170201005 Altrier, Kreizenhéic  01106  01106                % 03100 RGTR--
+170205001 Rippig, Rippigerkopp  01107  01107                % 03100 RGTR--
+180509002 Graulinster, Haaptst  01108  01108                % 03100 RGTR--
+180512003 Junglinster, P+R      01111  01111                % 03100 RGTR--
+180511007 Junglinster, Um Reil  01112  01112                % 03100 RGTR--
+180511002 Junglinster, Op der   01113  01113                % 03100 RGTR--
+180511005 Junglinster, Um Lei   01115  01115                % 03100 RGTR--
+180511009 Junglinster, Op der   01115  01115                % 03100 RGTR--
+180508003 Gonderange, Mierchen  01116  01116                % 03100 RGTR--
+180508004 Gonderange, Op der B  01117  01117                % 03100 RGTR--
+180508006 Gonderange, Stohlbou  01118  01118                % 03100 RGTR--
+200509001 Waldhaff              01122  01122                % 03100 RGTR--
+200409006 Dommeldange, Dauschb  01126  01126                % 03100 RGTR--
+200409005 Dommeldange, Contour  01127  01127                % 03100 RGTR--
+200410003 Eich, Eecher Plaz     01130 -01130                % 03100 RGTR--
+200405005 Centre, Badanstalt    01133 -01133                % 03100 RGTR--
+200405036 Luxembourg, Gare rou  01142                       % 03100 RGTR--
+*Z 03101 RGTR--                                             % 03101 RGTR--
+*L 111      170501016 200405036  01145  01242               % 03101 RGTR--
+*A BE 170501016 200405036 000000  01145  01242              % 03101 RGTR--
+*A cj 170501016 200405036 000000  01145  01242              % 03101 RGTR--
+*R 2 200405036 170501016 200405036  01145  01242            % 03101 RGTR--
+*G RGB 170501016 200405036  01145  01242                    % 03101 RGTR--
+*A VE 170501016 200405036 000000  01145  01242              % 03101 RGTR--
+*I FD 170501016 200405036        0002785  01145  01242      % 03101 RGTR--
+170501016 Echternach, Gare Cen         01145                % 03101 RGTR--
+170501018 Echternach, Ermesind  01145  01145                % 03101 RGTR--
+170501007 Echternach, Fielsmil  01147  01147                % 03101 RGTR--
+170501002 Echternach, Bel Air   01148  01148                % 03101 RGTR--
+170301003 Berdorf, Hôtel Perek  01151  01151                % 03101 RGTR--
+170301002 Berdorf, Hotel Herbe  01152  01152                % 03101 RGTR--
+170301004 Berdorf, Duerfplaz    01153  01153                % 03101 RGTR--
+170301001 Berdorf, Bif. Heisbi  01154  01154                % 03101 RGTR--
+170305001 Bif. Kalkesbach       01156  01156                % 03101 RGTR--
+170402004 Consdorf, Melickshec  01157  01157                % 03101 RGTR--
+170402003 Consdorf, Kraizstroo  01158  01158                % 03101 RGTR--
+170402002 Consdorf, Haenricht   01159  01159                % 03101 RGTR--
+170402005 Consdorf, Post        01200  01200                % 03101 RGTR--
+170402001 Consdorf, Gare        01201  01201                % 03101 RGTR--
+170204001 Hersberg/Heeschbreg   01204  01204                % 03101 RGTR--
+170201001 Altrier, Bildchen     01205  01205                % 03101 RGTR--
+170201005 Altrier, Kreizenhéic  01206  01206                % 03101 RGTR--
+170205001 Rippig, Rippigerkopp  01207  01207                % 03101 RGTR--
+180509002 Graulinster, Haaptst  01208  01208                % 03101 RGTR--
+180512003 Junglinster, P+R      01211  01211                % 03101 RGTR--
+180511007 Junglinster, Um Reil  01212  01212                % 03101 RGTR--
+180511002 Junglinster, Op der   01213  01213                % 03101 RGTR--
+180511005 Junglinster, Um Lei   01215  01215                % 03101 RGTR--
+180511009 Junglinster, Op der   01215  01215                % 03101 RGTR--
+180508003 Gonderange, Mierchen  01216  01216                % 03101 RGTR--
+180508004 Gonderange, Op der B  01217  01217                % 03101 RGTR--
+180508006 Gonderange, Stohlbou  01218  01218                % 03101 RGTR--
+200509001 Waldhaff              01222  01222                % 03101 RGTR--
+200409006 Dommeldange, Dauschb  01226  01226                % 03101 RGTR--
+200409005 Dommeldange, Contour  01227  01227                % 03101 RGTR--
+200410003 Eich, Eecher Plaz     01230 -01230                % 03101 RGTR--
+200405005 Centre, Badanstalt    01233 -01233                % 03101 RGTR--
+200405036 Luxembourg, Gare rou  01242                       % 03101 RGTR--
+*Z 03102 RGTR--                                             % 03102 RGTR--
+*L 111      170501016 200405036  01245  01342               % 03102 RGTR--
+*A BE 170501016 200405036 000000  01245  01342              % 03102 RGTR--
+*A cj 170501016 200405036 000000  01245  01342              % 03102 RGTR--
+*R 2 200405036 170501016 200405036  01245  01342            % 03102 RGTR--
+*G RGB 170501016 200405036  01245  01342                    % 03102 RGTR--
+*A VE 170501016 200405036 000000  01245  01342              % 03102 RGTR--
+*I FD 170501016 200405036        0002714  01245  01342      % 03102 RGTR--
+170501016 Echternach, Gare Cen         01245                % 03102 RGTR--
+170501018 Echternach, Ermesind  01245  01245                % 03102 RGTR--
+170501007 Echternach, Fielsmil  01247  01247                % 03102 RGTR--
+170501002 Echternach, Bel Air   01248  01248                % 03102 RGTR--
+170301003 Berdorf, Hôtel Perek  01251  01251                % 03102 RGTR--
+170301002 Berdorf, Hotel Herbe  01252  01252                % 03102 RGTR--
+170301004 Berdorf, Duerfplaz    01253  01253                % 03102 RGTR--
+170301001 Berdorf, Bif. Heisbi  01254  01254                % 03102 RGTR--
+170305001 Bif. Kalkesbach       01256  01256                % 03102 RGTR--
+170402004 Consdorf, Melickshec  01257  01257                % 03102 RGTR--
+170402003 Consdorf, Kraizstroo  01258  01258                % 03102 RGTR--
+170402002 Consdorf, Haenricht   01259  01259                % 03102 RGTR--
+170402005 Consdorf, Post        01300  01300                % 03102 RGTR--
+170402001 Consdorf, Gare        01301  01301                % 03102 RGTR--
+170204001 Hersberg/Heeschbreg   01304  01304                % 03102 RGTR--
+170201001 Altrier, Bildchen     01305  01305                % 03102 RGTR--
+170201005 Altrier, Kreizenhéic  01306  01306                % 03102 RGTR--
+170205001 Rippig, Rippigerkopp  01307  01307                % 03102 RGTR--
+180509002 Graulinster, Haaptst  01308  01308                % 03102 RGTR--
+180512003 Junglinster, P+R      01311  01311                % 03102 RGTR--
+180511007 Junglinster, Um Reil  01312  01312                % 03102 RGTR--
+180511002 Junglinster, Op der   01313  01313                % 03102 RGTR--
+180511005 Junglinster, Um Lei   01315  01315                % 03102 RGTR--
+180511009 Junglinster, Op der   01315  01315                % 03102 RGTR--
+180508003 Gonderange, Mierchen  01316  01316                % 03102 RGTR--
+180508004 Gonderange, Op der B  01317  01317                % 03102 RGTR--
+180508006 Gonderange, Stohlbou  01318  01318                % 03102 RGTR--
+200509001 Waldhaff              01322  01322                % 03102 RGTR--
+200409006 Dommeldange, Dauschb  01326  01326                % 03102 RGTR--
+200409005 Dommeldange, Contour  01327  01327                % 03102 RGTR--
+200410003 Eich, Eecher Plaz     01330 -01330                % 03102 RGTR--
+200405005 Centre, Badanstalt    01333 -01333                % 03102 RGTR--
+200405036 Luxembourg, Gare rou  01342                       % 03102 RGTR--
+*Z 03103 RGTR--                                             % 03103 RGTR--
+*L 111      170501016 200405036  01345  01442               % 03103 RGTR--
+*A BE 170501016 200405036 000000  01345  01442              % 03103 RGTR--
+*A cj 170501016 200405036 000000  01345  01442              % 03103 RGTR--
+*A cn 170501016 200405036 000000  01345  01442              % 03103 RGTR--
+*R 2 200405036 170501016 200405036  01345  01442            % 03103 RGTR--
+*G RGB 170501016 200405036  01345  01442                    % 03103 RGTR--
+*A VE 170501016 200405036 000000  01345  01442              % 03103 RGTR--
+*I FD 170501016 200405036        0002809  01345  01442      % 03103 RGTR--
+170501016 Echternach, Gare Cen         01345                % 03103 RGTR--
+170501018 Echternach, Ermesind  01345  01345                % 03103 RGTR--
+170501007 Echternach, Fielsmil  01347  01347                % 03103 RGTR--
+170501002 Echternach, Bel Air   01348  01348                % 03103 RGTR--
+170301003 Berdorf, Hôtel Perek  01351  01351                % 03103 RGTR--
+170301002 Berdorf, Hotel Herbe  01352  01352                % 03103 RGTR--
+170301004 Berdorf, Duerfplaz    01353  01353                % 03103 RGTR--
+170301001 Berdorf, Bif. Heisbi  01354  01354                % 03103 RGTR--
+170305001 Bif. Kalkesbach       01356  01356                % 03103 RGTR--
+170402004 Consdorf, Melickshec  01357  01357                % 03103 RGTR--
+170402003 Consdorf, Kraizstroo  01358  01358                % 03103 RGTR--
+170402002 Consdorf, Haenricht   01359  01359                % 03103 RGTR--
+170402005 Consdorf, Post        01400  01400                % 03103 RGTR--
+170402001 Consdorf, Gare        01401  01401                % 03103 RGTR--
+170204001 Hersberg/Heeschbreg   01404  01404                % 03103 RGTR--
+170201001 Altrier, Bildchen     01405  01405                % 03103 RGTR--
+170201005 Altrier, Kreizenhéic  01406  01406                % 03103 RGTR--
+170205001 Rippig, Rippigerkopp  01407  01407                % 03103 RGTR--
+180509002 Graulinster, Haaptst  01408  01408                % 03103 RGTR--
+180512003 Junglinster, P+R      01411  01411                % 03103 RGTR--
+180511007 Junglinster, Um Reil  01412  01412                % 03103 RGTR--
+180511002 Junglinster, Op der   01413  01413                % 03103 RGTR--
+180511005 Junglinster, Um Lei   01415  01415                % 03103 RGTR--
+180511009 Junglinster, Op der   01415  01415                % 03103 RGTR--
+180508003 Gonderange, Mierchen  01416  01416                % 03103 RGTR--
+180508004 Gonderange, Op der B  01417  01417                % 03103 RGTR--
+180508006 Gonderange, Stohlbou  01418  01418                % 03103 RGTR--
+200509001 Waldhaff              01422  01422                % 03103 RGTR--
+200409006 Dommeldange, Dauschb  01426  01426                % 03103 RGTR--
+200409005 Dommeldange, Contour  01427  01427                % 03103 RGTR--
+200410003 Eich, Eecher Plaz     01430 -01430                % 03103 RGTR--
+200405005 Centre, Badanstalt    01433 -01433                % 03103 RGTR--
+200405036 Luxembourg, Gare rou  01442                       % 03103 RGTR--
+*Z 03104 RGTR--                                             % 03104 RGTR--
+*L 111      170501016 200405036  01445  01542               % 03104 RGTR--
+*A BE 170501016 200405036 000000  01445  01542              % 03104 RGTR--
+*A cj 170501016 200405036 000000  01445  01542              % 03104 RGTR--
+*A ck 170501016 200405036 000000  01445  01542              % 03104 RGTR--
+*A cn 170501016 200405036 000000  01445  01542              % 03104 RGTR--
+*R 2 200405036 170501016 200405036  01445  01542            % 03104 RGTR--
+*G RGB 170501016 200405036  01445  01542                    % 03104 RGTR--
+*A VE 170501016 200405036 000000  01445  01542              % 03104 RGTR--
+*I FD 170501016 200405036        0002375  01445  01542      % 03104 RGTR--
+170501016 Echternach, Gare Cen         01445                % 03104 RGTR--
+170501018 Echternach, Ermesind  01445  01445                % 03104 RGTR--
+170501007 Echternach, Fielsmil  01447  01447                % 03104 RGTR--
+170501002 Echternach, Bel Air   01448  01448                % 03104 RGTR--
+170301003 Berdorf, Hôtel Perek  01451  01451                % 03104 RGTR--
+170301002 Berdorf, Hotel Herbe  01452  01452                % 03104 RGTR--
+170301004 Berdorf, Duerfplaz    01453  01453                % 03104 RGTR--
+170301001 Berdorf, Bif. Heisbi  01454  01454                % 03104 RGTR--
+170305001 Bif. Kalkesbach       01456  01456                % 03104 RGTR--
+170402004 Consdorf, Melickshec  01457  01457                % 03104 RGTR--
+170402003 Consdorf, Kraizstroo  01458  01458                % 03104 RGTR--
+170402002 Consdorf, Haenricht   01459  01459                % 03104 RGTR--
+170402005 Consdorf, Post        01500  01500                % 03104 RGTR--
+170402001 Consdorf, Gare        01501  01501                % 03104 RGTR--
+170204001 Hersberg/Heeschbreg   01504  01504                % 03104 RGTR--
+170201001 Altrier, Bildchen     01505  01505                % 03104 RGTR--
+170201005 Altrier, Kreizenhéic  01506  01506                % 03104 RGTR--
+170205001 Rippig, Rippigerkopp  01507  01507                % 03104 RGTR--
+180509002 Graulinster, Haaptst  01508  01508                % 03104 RGTR--
+180512003 Junglinster, P+R      01511  01511                % 03104 RGTR--
+180511007 Junglinster, Um Reil  01512  01512                % 03104 RGTR--
+180511002 Junglinster, Op der   01513  01513                % 03104 RGTR--
+180511005 Junglinster, Um Lei   01515  01515                % 03104 RGTR--
+180511009 Junglinster, Op der   01515  01515                % 03104 RGTR--
+180508003 Gonderange, Mierchen  01516  01516                % 03104 RGTR--
+180508004 Gonderange, Op der B  01517  01517                % 03104 RGTR--
+180508006 Gonderange, Stohlbou  01518  01518                % 03104 RGTR--
+200509001 Waldhaff              01522  01522                % 03104 RGTR--
+200409006 Dommeldange, Dauschb  01526  01526                % 03104 RGTR--
+200409005 Dommeldange, Contour  01527  01527                % 03104 RGTR--
+200410003 Eich, Eecher Plaz     01530 -01530                % 03104 RGTR--
+200405005 Centre, Badanstalt    01533 -01533                % 03104 RGTR--
+200405036 Luxembourg, Gare rou  01542                       % 03104 RGTR--
+*Z 03105 RGTR--                                             % 03105 RGTR--
+*L 111      170501016 200405036  01556  01653               % 03105 RGTR--
+*A BE 170501016 200405036 000000  01556  01653              % 03105 RGTR--
+*A cj 170501016 200405036 000000  01556  01653              % 03105 RGTR--
+*A PI 170501016 200405036 000000  01556  01653              % 03105 RGTR--
+*R 2 200405036 170501016 200405036  01556  01653            % 03105 RGTR--
+*G RGB 170501016 200405036  01556  01653                    % 03105 RGTR--
+*A VE 170501016 200405036 000000  01556  01653              % 03105 RGTR--
+*I FD 170501016 200405036        0002974  01556  01653      % 03105 RGTR--
+170501016 Echternach, Gare Cen         01556                % 03105 RGTR--
+170501018 Echternach, Ermesind  01556  01556                % 03105 RGTR--
+170501007 Echternach, Fielsmil  01558  01558                % 03105 RGTR--
+170501002 Echternach, Bel Air   01559  01559                % 03105 RGTR--
+170301003 Berdorf, Hôtel Perek  01602  01602                % 03105 RGTR--
+170301002 Berdorf, Hotel Herbe  01603  01603                % 03105 RGTR--
+170301004 Berdorf, Duerfplaz    01604  01604                % 03105 RGTR--
+170301001 Berdorf, Bif. Heisbi  01605  01605                % 03105 RGTR--
+170305001 Bif. Kalkesbach       01607  01607                % 03105 RGTR--
+170402004 Consdorf, Melickshec  01608  01608                % 03105 RGTR--
+170402003 Consdorf, Kraizstroo  01609  01609                % 03105 RGTR--
+170402002 Consdorf, Haenricht   01610  01610                % 03105 RGTR--
+170402005 Consdorf, Post        01611  01611                % 03105 RGTR--
+170402001 Consdorf, Gare        01612  01612                % 03105 RGTR--
+170204001 Hersberg/Heeschbreg   01615  01615                % 03105 RGTR--
+170201001 Altrier, Bildchen     01616  01616                % 03105 RGTR--
+170201005 Altrier, Kreizenhéic  01617  01617                % 03105 RGTR--
+170205001 Rippig, Rippigerkopp  01618  01618                % 03105 RGTR--
+180509002 Graulinster, Haaptst  01619  01619                % 03105 RGTR--
+180512003 Junglinster, P+R      01622  01622                % 03105 RGTR--
+180511007 Junglinster, Um Reil  01623  01623                % 03105 RGTR--
+180511002 Junglinster, Op der   01624  01624                % 03105 RGTR--
+180511005 Junglinster, Um Lei   01626  01626                % 03105 RGTR--
+180511009 Junglinster, Op der   01626  01626                % 03105 RGTR--
+180508003 Gonderange, Mierchen  01627  01627                % 03105 RGTR--
+180508004 Gonderange, Op der B  01628  01628                % 03105 RGTR--
+180508006 Gonderange, Stohlbou  01629  01629                % 03105 RGTR--
+200509001 Waldhaff              01633  01633                % 03105 RGTR--
+200409006 Dommeldange, Dauschb  01637  01637                % 03105 RGTR--
+200409005 Dommeldange, Contour  01638  01638                % 03105 RGTR--
+200410003 Eich, Eecher Plaz     01641 -01641                % 03105 RGTR--
+200405005 Centre, Badanstalt    01644 -01644                % 03105 RGTR--
+200405036 Luxembourg, Gare rou  01653                       % 03105 RGTR--
+*Z 03106 RGTR--                                             % 03106 RGTR--
+*L 111      170501016 200405036  01845  01942               % 03106 RGTR--
+*A BE 170501016 200405036 000000  01845  01942              % 03106 RGTR--
+*A cj 170501016 200405036 000000  01845  01942              % 03106 RGTR--
+*R 2 200405036 170501016 200405036  01845  01942            % 03106 RGTR--
+*G RGB 170501016 200405036  01845  01942                    % 03106 RGTR--
+*A VE 170501016 200405036 000000  01845  01942              % 03106 RGTR--
+*I FD 170501016 200405036        0001337  01845  01942      % 03106 RGTR--
+170501016 Echternach, Gare Cen         01845                % 03106 RGTR--
+170501018 Echternach, Ermesind  01845  01845                % 03106 RGTR--
+170501007 Echternach, Fielsmil  01847  01847                % 03106 RGTR--
+170501002 Echternach, Bel Air   01848  01848                % 03106 RGTR--
+170301003 Berdorf, Hôtel Perek  01851  01851                % 03106 RGTR--
+170301002 Berdorf, Hotel Herbe  01852  01852                % 03106 RGTR--
+170301004 Berdorf, Duerfplaz    01853  01853                % 03106 RGTR--
+170301001 Berdorf, Bif. Heisbi  01854  01854                % 03106 RGTR--
+170305001 Bif. Kalkesbach       01856  01856                % 03106 RGTR--
+170402004 Consdorf, Melickshec  01857  01857                % 03106 RGTR--
+170402003 Consdorf, Kraizstroo  01858  01858                % 03106 RGTR--
+170402002 Consdorf, Haenricht   01859  01859                % 03106 RGTR--
+170402005 Consdorf, Post        01900  01900                % 03106 RGTR--
+170402001 Consdorf, Gare        01901  01901                % 03106 RGTR--
+170204001 Hersberg/Heeschbreg   01904  01904                % 03106 RGTR--
+170201001 Altrier, Bildchen     01905  01905                % 03106 RGTR--
+170201005 Altrier, Kreizenhéic  01906  01906                % 03106 RGTR--
+170205001 Rippig, Rippigerkopp  01907  01907                % 03106 RGTR--
+180509002 Graulinster, Haaptst  01908  01908                % 03106 RGTR--
+180512003 Junglinster, P+R      01911  01911                % 03106 RGTR--
+180511007 Junglinster, Um Reil  01912  01912                % 03106 RGTR--
+180511002 Junglinster, Op der   01913  01913                % 03106 RGTR--
+180511005 Junglinster, Um Lei   01915  01915                % 03106 RGTR--
+180511009 Junglinster, Op der   01915  01915                % 03106 RGTR--
+180508003 Gonderange, Mierchen  01916  01916                % 03106 RGTR--
+180508004 Gonderange, Op der B  01917  01917                % 03106 RGTR--
+180508006 Gonderange, Stohlbou  01918  01918                % 03106 RGTR--
+200509001 Waldhaff              01922  01922                % 03106 RGTR--
+200409006 Dommeldange, Dauschb  01926  01926                % 03106 RGTR--
+200409005 Dommeldange, Contour  01927  01927                % 03106 RGTR--
+200410003 Eich, Eecher Plaz     01930 -01930                % 03106 RGTR--
+200405005 Centre, Badanstalt    01933 -01933                % 03106 RGTR--
+200405036 Luxembourg, Gare rou  01942                       % 03106 RGTR--
+*Z 03107 RGTR--                                             % 03107 RGTR--
+*L 111      170501016 200405036  01945  02042               % 03107 RGTR--
+*A BE 170501016 200405036 000000  01945  02042              % 03107 RGTR--
+*A cj 170501016 200405036 000000  01945  02042              % 03107 RGTR--
+*R 2 200405036 170501016 200405036  01945  02042            % 03107 RGTR--
+*G RGB 170501016 200405036  01945  02042                    % 03107 RGTR--
+*A VE 170501016 200405036 000000  01945  02042              % 03107 RGTR--
+*I FD 170501016 200405036        0002975  01945  02042      % 03107 RGTR--
+170501016 Echternach, Gare Cen         01945                % 03107 RGTR--
+170501018 Echternach, Ermesind  01945  01945                % 03107 RGTR--
+170501007 Echternach, Fielsmil  01947  01947                % 03107 RGTR--
+170501002 Echternach, Bel Air   01948  01948                % 03107 RGTR--
+170301003 Berdorf, Hôtel Perek  01951  01951                % 03107 RGTR--
+170301002 Berdorf, Hotel Herbe  01952  01952                % 03107 RGTR--
+170301004 Berdorf, Duerfplaz    01953  01953                % 03107 RGTR--
+170301001 Berdorf, Bif. Heisbi  01954  01954                % 03107 RGTR--
+170305001 Bif. Kalkesbach       01956  01956                % 03107 RGTR--
+170402004 Consdorf, Melickshec  01957  01957                % 03107 RGTR--
+170402003 Consdorf, Kraizstroo  01958  01958                % 03107 RGTR--
+170402002 Consdorf, Haenricht   01959  01959                % 03107 RGTR--
+170402005 Consdorf, Post        02000  02000                % 03107 RGTR--
+170402001 Consdorf, Gare        02001  02001                % 03107 RGTR--
+170204001 Hersberg/Heeschbreg   02004  02004                % 03107 RGTR--
+170201001 Altrier, Bildchen     02005  02005                % 03107 RGTR--
+170201005 Altrier, Kreizenhéic  02006  02006                % 03107 RGTR--
+170205001 Rippig, Rippigerkopp  02007  02007                % 03107 RGTR--
+180509002 Graulinster, Haaptst  02008  02008                % 03107 RGTR--
+180512003 Junglinster, P+R      02011  02011                % 03107 RGTR--
+180511007 Junglinster, Um Reil  02012  02012                % 03107 RGTR--
+180511002 Junglinster, Op der   02013  02013                % 03107 RGTR--
+180511005 Junglinster, Um Lei   02015  02015                % 03107 RGTR--
+180511009 Junglinster, Op der   02015  02015                % 03107 RGTR--
+180508003 Gonderange, Mierchen  02016  02016                % 03107 RGTR--
+180508004 Gonderange, Op der B  02017  02017                % 03107 RGTR--
+180508006 Gonderange, Stohlbou  02018  02018                % 03107 RGTR--
+200509001 Waldhaff              02022  02022                % 03107 RGTR--
+200409006 Dommeldange, Dauschb  02026  02026                % 03107 RGTR--
+200409005 Dommeldange, Contour  02027  02027                % 03107 RGTR--
+200410003 Eich, Eecher Plaz     02030 -02030                % 03107 RGTR--
+200405005 Centre, Badanstalt    02033 -02033                % 03107 RGTR--
+200405036 Luxembourg, Gare rou  02042                       % 03107 RGTR--
+*Z 03108 RGTR--                                             % 03108 RGTR--
+*L 111      170501016 200405036  02045  02142               % 03108 RGTR--
+*A BE 170501016 200405036 000000  02045  02142              % 03108 RGTR--
+*A cj 170501016 200405036 000000  02045  02142              % 03108 RGTR--
+*R 2 200405036 170501016 200405036  02045  02142            % 03108 RGTR--
+*G RGB 170501016 200405036  02045  02142                    % 03108 RGTR--
+*A VE 170501016 200405036 000000  02045  02142              % 03108 RGTR--
+*I FD 170501016 200405036        0002778  02045  02142      % 03108 RGTR--
+170501016 Echternach, Gare Cen         02045                % 03108 RGTR--
+170501018 Echternach, Ermesind  02045  02045                % 03108 RGTR--
+170501007 Echternach, Fielsmil  02047  02047                % 03108 RGTR--
+170501002 Echternach, Bel Air   02048  02048                % 03108 RGTR--
+170301003 Berdorf, Hôtel Perek  02051  02051                % 03108 RGTR--
+170301002 Berdorf, Hotel Herbe  02052  02052                % 03108 RGTR--
+170301004 Berdorf, Duerfplaz    02053  02053                % 03108 RGTR--
+170301001 Berdorf, Bif. Heisbi  02054  02054                % 03108 RGTR--
+170305001 Bif. Kalkesbach       02056  02056                % 03108 RGTR--
+170402004 Consdorf, Melickshec  02057  02057                % 03108 RGTR--
+170402003 Consdorf, Kraizstroo  02058  02058                % 03108 RGTR--
+170402002 Consdorf, Haenricht   02059  02059                % 03108 RGTR--
+170402005 Consdorf, Post        02100  02100                % 03108 RGTR--
+170402001 Consdorf, Gare        02101  02101                % 03108 RGTR--
+170204001 Hersberg/Heeschbreg   02104  02104                % 03108 RGTR--
+170201001 Altrier, Bildchen     02105  02105                % 03108 RGTR--
+170201005 Altrier, Kreizenhéic  02106  02106                % 03108 RGTR--
+170205001 Rippig, Rippigerkopp  02107  02107                % 03108 RGTR--
+180509002 Graulinster, Haaptst  02108  02108                % 03108 RGTR--
+180512003 Junglinster, P+R      02111  02111                % 03108 RGTR--
+180511007 Junglinster, Um Reil  02112  02112                % 03108 RGTR--
+180511002 Junglinster, Op der   02113  02113                % 03108 RGTR--
+180511005 Junglinster, Um Lei   02115  02115                % 03108 RGTR--
+180511009 Junglinster, Op der   02115  02115                % 03108 RGTR--
+180508003 Gonderange, Mierchen  02116  02116                % 03108 RGTR--
+180508004 Gonderange, Op der B  02117  02117                % 03108 RGTR--
+180508006 Gonderange, Stohlbou  02118  02118                % 03108 RGTR--
+200509001 Waldhaff              02122  02122                % 03108 RGTR--
+200409006 Dommeldange, Dauschb  02126  02126                % 03108 RGTR--
+200409005 Dommeldange, Contour  02127  02127                % 03108 RGTR--
+200410003 Eich, Eecher Plaz     02130 -02130                % 03108 RGTR--
+200405005 Centre, Badanstalt    02133 -02133                % 03108 RGTR--
+200405036 Luxembourg, Gare rou  02142                       % 03108 RGTR--
+*Z 03109 RGTR--                                             % 03109 RGTR--
+*L 111      170501016 200405036  02145  02242               % 03109 RGTR--
+*A BE 170501016 200405036 000000  02145  02242              % 03109 RGTR--
+*A cj 170501016 200405036 000000  02145  02242              % 03109 RGTR--
+*R 2 200405036 170501016 200405036  02145  02242            % 03109 RGTR--
+*G RGB 170501016 200405036  02145  02242                    % 03109 RGTR--
+*A VE 170501016 200405036 000000  02145  02242              % 03109 RGTR--
+*I FD 170501016 200405036        0001427  02145  02242      % 03109 RGTR--
+170501016 Echternach, Gare Cen         02145                % 03109 RGTR--
+170501018 Echternach, Ermesind  02145  02145                % 03109 RGTR--
+170501007 Echternach, Fielsmil  02147  02147                % 03109 RGTR--
+170501002 Echternach, Bel Air   02148  02148                % 03109 RGTR--
+170301003 Berdorf, Hôtel Perek  02151  02151                % 03109 RGTR--
+170301002 Berdorf, Hotel Herbe  02152  02152                % 03109 RGTR--
+170301004 Berdorf, Duerfplaz    02153  02153                % 03109 RGTR--
+170301001 Berdorf, Bif. Heisbi  02154  02154                % 03109 RGTR--
+170305001 Bif. Kalkesbach       02156  02156                % 03109 RGTR--
+170402004 Consdorf, Melickshec  02157  02157                % 03109 RGTR--
+170402003 Consdorf, Kraizstroo  02158  02158                % 03109 RGTR--
+170402002 Consdorf, Haenricht   02159  02159                % 03109 RGTR--
+170402005 Consdorf, Post        02200  02200                % 03109 RGTR--
+170402001 Consdorf, Gare        02201  02201                % 03109 RGTR--
+170204001 Hersberg/Heeschbreg   02204  02204                % 03109 RGTR--
+170201001 Altrier, Bildchen     02205  02205                % 03109 RGTR--
+170201005 Altrier, Kreizenhéic  02206  02206                % 03109 RGTR--
+170205001 Rippig, Rippigerkopp  02207  02207                % 03109 RGTR--
+180509002 Graulinster, Haaptst  02208  02208                % 03109 RGTR--
+180512003 Junglinster, P+R      02211  02211                % 03109 RGTR--
+180511007 Junglinster, Um Reil  02212  02212                % 03109 RGTR--
+180511002 Junglinster, Op der   02213  02213                % 03109 RGTR--
+180511005 Junglinster, Um Lei   02215  02215                % 03109 RGTR--
+180511009 Junglinster, Op der   02215  02215                % 03109 RGTR--
+180508003 Gonderange, Mierchen  02216  02216                % 03109 RGTR--
+180508004 Gonderange, Op der B  02217  02217                % 03109 RGTR--
+180508006 Gonderange, Stohlbou  02218  02218                % 03109 RGTR--
+200509001 Waldhaff              02222  02222                % 03109 RGTR--
+200409006 Dommeldange, Dauschb  02226  02226                % 03109 RGTR--
+200409005 Dommeldange, Contour  02227  02227                % 03109 RGTR--
+200410003 Eich, Eecher Plaz     02230 -02230                % 03109 RGTR--
+200405005 Centre, Badanstalt    02233 -02233                % 03109 RGTR--
+200405036 Luxembourg, Gare rou  02242                       % 03109 RGTR--
+*Z 03110 RGTR--                                             % 03110 RGTR--
+*L 111      170501016 200405036  02245  02342               % 03110 RGTR--
+*A BE 170501016 200405036 000000  02245  02342              % 03110 RGTR--
+*A cj 170501016 200405036 000000  02245  02342              % 03110 RGTR--
+*R 2 200405036 170501016 200405036  02245  02342            % 03110 RGTR--
+*G RGB 170501016 200405036  02245  02342                    % 03110 RGTR--
+*A VE 170501016 200405036 000000  02245  02342              % 03110 RGTR--
+*I FD 170501016 200405036        0002851  02245  02342      % 03110 RGTR--
+170501016 Echternach, Gare Cen         02245                % 03110 RGTR--
+170501018 Echternach, Ermesind  02245  02245                % 03110 RGTR--
+170501007 Echternach, Fielsmil  02247  02247                % 03110 RGTR--
+170501002 Echternach, Bel Air   02248  02248                % 03110 RGTR--
+170301003 Berdorf, Hôtel Perek  02251  02251                % 03110 RGTR--
+170301002 Berdorf, Hotel Herbe  02252  02252                % 03110 RGTR--
+170301004 Berdorf, Duerfplaz    02253  02253                % 03110 RGTR--
+170301001 Berdorf, Bif. Heisbi  02254  02254                % 03110 RGTR--
+170305001 Bif. Kalkesbach       02256  02256                % 03110 RGTR--
+170402004 Consdorf, Melickshec  02257  02257                % 03110 RGTR--
+170402003 Consdorf, Kraizstroo  02258  02258                % 03110 RGTR--
+170402002 Consdorf, Haenricht   02259  02259                % 03110 RGTR--
+170402005 Consdorf, Post        02300  02300                % 03110 RGTR--
+170402001 Consdorf, Gare        02301  02301                % 03110 RGTR--
+170204001 Hersberg/Heeschbreg   02304  02304                % 03110 RGTR--
+170201001 Altrier, Bildchen     02305  02305                % 03110 RGTR--
+170201005 Altrier, Kreizenhéic  02306  02306                % 03110 RGTR--
+170205001 Rippig, Rippigerkopp  02307  02307                % 03110 RGTR--
+180509002 Graulinster, Haaptst  02308  02308                % 03110 RGTR--
+180512003 Junglinster, P+R      02311  02311                % 03110 RGTR--
+180511007 Junglinster, Um Reil  02312  02312                % 03110 RGTR--
+180511002 Junglinster, Op der   02313  02313                % 03110 RGTR--
+180511005 Junglinster, Um Lei   02315  02315                % 03110 RGTR--
+180511009 Junglinster, Op der   02315  02315                % 03110 RGTR--
+180508003 Gonderange, Mierchen  02316  02316                % 03110 RGTR--
+180508004 Gonderange, Op der B  02317  02317                % 03110 RGTR--
+180508006 Gonderange, Stohlbou  02318  02318                % 03110 RGTR--
+200509001 Waldhaff              02322  02322                % 03110 RGTR--
+200409006 Dommeldange, Dauschb  02326  02326                % 03110 RGTR--
+200409005 Dommeldange, Contour  02327  02327                % 03110 RGTR--
+200410003 Eich, Eecher Plaz     02330 -02330                % 03110 RGTR--
+200405005 Centre, Badanstalt    02333 -02333                % 03110 RGTR--
+200405036 Luxembourg, Gare rou  02342                       % 03110 RGTR--
+*Z 03111 RGTR--                                             % 03111 RGTR--
+*L 111      170501016 200405036  00620  00717               % 03111 RGTR--
+*A BE 170501016 200405036 000001  00620  00717              % 03111 RGTR--
+*A cj 170501016 200405036 000001  00620  00717              % 03111 RGTR--
+*R 2 200405036 170501016 200405036  00620  00717            % 03111 RGTR--
+*G RGB 170501016 200405036  00620  00717                    % 03111 RGTR--
+*A VE 170501016 200405036 000001  00620  00717              % 03111 RGTR--
+*I FD 170501016 200405036        0001970  00620  00717      % 03111 RGTR--
+170501016 Echternach, Gare Cen         00620                % 03111 RGTR--
+170501018 Echternach, Ermesind  00620  00620                % 03111 RGTR--
+170501007 Echternach, Fielsmil  00622  00622                % 03111 RGTR--
+170501002 Echternach, Bel Air   00623  00623                % 03111 RGTR--
+170301003 Berdorf, Hôtel Perek  00626  00626                % 03111 RGTR--
+170301002 Berdorf, Hotel Herbe  00627  00627                % 03111 RGTR--
+170301004 Berdorf, Duerfplaz    00628  00628                % 03111 RGTR--
+170301001 Berdorf, Bif. Heisbi  00629  00629                % 03111 RGTR--
+170305001 Bif. Kalkesbach       00631  00631                % 03111 RGTR--
+170402004 Consdorf, Melickshec  00632  00632                % 03111 RGTR--
+170402003 Consdorf, Kraizstroo  00633  00633                % 03111 RGTR--
+170402002 Consdorf, Haenricht   00634  00634                % 03111 RGTR--
+170402005 Consdorf, Post        00635  00635                % 03111 RGTR--
+170402001 Consdorf, Gare        00636  00636                % 03111 RGTR--
+170204001 Hersberg/Heeschbreg   00639  00639                % 03111 RGTR--
+170201001 Altrier, Bildchen     00640  00640                % 03111 RGTR--
+170201005 Altrier, Kreizenhéic  00641  00641                % 03111 RGTR--
+170205001 Rippig, Rippigerkopp  00642  00642                % 03111 RGTR--
+180509002 Graulinster, Haaptst  00643  00643                % 03111 RGTR--
+180512003 Junglinster, P+R      00646  00646                % 03111 RGTR--
+180511007 Junglinster, Um Reil  00647  00647                % 03111 RGTR--
+180511002 Junglinster, Op der   00648  00648                % 03111 RGTR--
+180511005 Junglinster, Um Lei   00650  00650                % 03111 RGTR--
+180511009 Junglinster, Op der   00650  00650                % 03111 RGTR--
+180508003 Gonderange, Mierchen  00651  00651                % 03111 RGTR--
+180508004 Gonderange, Op der B  00652  00652                % 03111 RGTR--
+180508006 Gonderange, Stohlbou  00653  00653                % 03111 RGTR--
+200509001 Waldhaff              00657  00657                % 03111 RGTR--
+200409006 Dommeldange, Dauschb  00701  00701                % 03111 RGTR--
+200409005 Dommeldange, Contour  00702  00702                % 03111 RGTR--
+200410003 Eich, Eecher Plaz     00705 -00705                % 03111 RGTR--
+200405005 Centre, Badanstalt    00708 -00708                % 03111 RGTR--
+200405036 Luxembourg, Gare rou  00717                       % 03111 RGTR--
+*Z 03112 RGTR--                                             % 03112 RGTR--
+*L 111      170501016 200405036  00650  00747               % 03112 RGTR--
+*A BE 170501016 200405036 000003  00650  00747              % 03112 RGTR--
+*A cj 170501016 200405036 000003  00650  00747              % 03112 RGTR--
+*R 2 200405036 170501016 200405036  00650  00747            % 03112 RGTR--
+*G RGB 170501016 200405036  00650  00747                    % 03112 RGTR--
+*A VE 170501016 200405036 000003  00650  00747              % 03112 RGTR--
+*I FD 170501016 200405036        0002389  00650  00747      % 03112 RGTR--
+170501016 Echternach, Gare Cen         00650                % 03112 RGTR--
+170501018 Echternach, Ermesind  00650  00650                % 03112 RGTR--
+170501007 Echternach, Fielsmil  00652  00652                % 03112 RGTR--
+170501002 Echternach, Bel Air   00653  00653                % 03112 RGTR--
+170301003 Berdorf, Hôtel Perek  00656  00656                % 03112 RGTR--
+170301002 Berdorf, Hotel Herbe  00657  00657                % 03112 RGTR--
+170301004 Berdorf, Duerfplaz    00658  00658                % 03112 RGTR--
+170301001 Berdorf, Bif. Heisbi  00659  00659                % 03112 RGTR--
+170305001 Bif. Kalkesbach       00701  00701                % 03112 RGTR--
+170402004 Consdorf, Melickshec  00702  00702                % 03112 RGTR--
+170402003 Consdorf, Kraizstroo  00703  00703                % 03112 RGTR--
+170402002 Consdorf, Haenricht   00704  00704                % 03112 RGTR--
+170402005 Consdorf, Post        00705  00705                % 03112 RGTR--
+170402001 Consdorf, Gare        00706  00706                % 03112 RGTR--
+170204001 Hersberg/Heeschbreg   00709  00709                % 03112 RGTR--
+170201001 Altrier, Bildchen     00710  00710                % 03112 RGTR--
+170201005 Altrier, Kreizenhéic  00711  00711                % 03112 RGTR--
+170205001 Rippig, Rippigerkopp  00712  00712                % 03112 RGTR--
+180509002 Graulinster, Haaptst  00713  00713                % 03112 RGTR--
+180512003 Junglinster, P+R      00716  00716                % 03112 RGTR--
+180511007 Junglinster, Um Reil  00717  00717                % 03112 RGTR--
+180511002 Junglinster, Op der   00718  00718                % 03112 RGTR--
+180511005 Junglinster, Um Lei   00720  00720                % 03112 RGTR--
+180511009 Junglinster, Op der   00720  00720                % 03112 RGTR--
+180508003 Gonderange, Mierchen  00721  00721                % 03112 RGTR--
+180508004 Gonderange, Op der B  00722  00722                % 03112 RGTR--
+180508006 Gonderange, Stohlbou  00723  00723                % 03112 RGTR--
+200509001 Waldhaff              00727  00727                % 03112 RGTR--
+200409006 Dommeldange, Dauschb  00731  00731                % 03112 RGTR--
+200409005 Dommeldange, Contour  00732  00732                % 03112 RGTR--
+200410003 Eich, Eecher Plaz     00735 -00735                % 03112 RGTR--
+200405005 Centre, Badanstalt    00738 -00738                % 03112 RGTR--
+200405036 Luxembourg, Gare rou  00747                       % 03112 RGTR--
+*Z 03113 RGTR--                                             % 03113 RGTR--
+*L 111      170501016 200405036  00845  00942               % 03113 RGTR--
+*A BE 170501016 200405036 000003  00845  00942              % 03113 RGTR--
+*A cj 170501016 200405036 000003  00845  00942              % 03113 RGTR--
+*R 2 200405036 170501016 200405036  00845  00942            % 03113 RGTR--
+*G RGB 170501016 200405036  00845  00942                    % 03113 RGTR--
+*A VE 170501016 200405036 000003  00845  00942              % 03113 RGTR--
+*I FD 170501016 200405036        0002807  00845  00942      % 03113 RGTR--
+170501016 Echternach, Gare Cen         00845                % 03113 RGTR--
+170501018 Echternach, Ermesind  00845  00845                % 03113 RGTR--
+170501007 Echternach, Fielsmil  00847  00847                % 03113 RGTR--
+170501002 Echternach, Bel Air   00848  00848                % 03113 RGTR--
+170301003 Berdorf, Hôtel Perek  00851  00851                % 03113 RGTR--
+170301002 Berdorf, Hotel Herbe  00852  00852                % 03113 RGTR--
+170301004 Berdorf, Duerfplaz    00853  00853                % 03113 RGTR--
+170301001 Berdorf, Bif. Heisbi  00854  00854                % 03113 RGTR--
+170305001 Bif. Kalkesbach       00856  00856                % 03113 RGTR--
+170402004 Consdorf, Melickshec  00857  00857                % 03113 RGTR--
+170402003 Consdorf, Kraizstroo  00858  00858                % 03113 RGTR--
+170402002 Consdorf, Haenricht   00859  00859                % 03113 RGTR--
+170402005 Consdorf, Post        00900  00900                % 03113 RGTR--
+170402001 Consdorf, Gare        00901  00901                % 03113 RGTR--
+170204001 Hersberg/Heeschbreg   00904  00904                % 03113 RGTR--
+170201001 Altrier, Bildchen     00905  00905                % 03113 RGTR--
+170201005 Altrier, Kreizenhéic  00906  00906                % 03113 RGTR--
+170205001 Rippig, Rippigerkopp  00907  00907                % 03113 RGTR--
+180509002 Graulinster, Haaptst  00908  00908                % 03113 RGTR--
+180512003 Junglinster, P+R      00911  00911                % 03113 RGTR--
+180511007 Junglinster, Um Reil  00912  00912                % 03113 RGTR--
+180511002 Junglinster, Op der   00913  00913                % 03113 RGTR--
+180511005 Junglinster, Um Lei   00915  00915                % 03113 RGTR--
+180511009 Junglinster, Op der   00915  00915                % 03113 RGTR--
+180508003 Gonderange, Mierchen  00916  00916                % 03113 RGTR--
+180508004 Gonderange, Op der B  00917  00917                % 03113 RGTR--
+180508006 Gonderange, Stohlbou  00918  00918                % 03113 RGTR--
+200509001 Waldhaff              00922  00922                % 03113 RGTR--
+200409006 Dommeldange, Dauschb  00926  00926                % 03113 RGTR--
+200409005 Dommeldange, Contour  00927  00927                % 03113 RGTR--
+200410003 Eich, Eecher Plaz     00930 -00930                % 03113 RGTR--
+200405005 Centre, Badanstalt    00933 -00933                % 03113 RGTR--
+200405036 Luxembourg, Gare rou  00942                       % 03113 RGTR--
+*Z 03114 RGTR--                                             % 03114 RGTR--
+*L 111      170501016 200405036  01645  01742               % 03114 RGTR--
+*A BE 170501016 200405036 000003  01645  01742              % 03114 RGTR--
+*A cj 170501016 200405036 000003  01645  01742              % 03114 RGTR--
+*A cn 170501016 200405036 000003  01645  01742              % 03114 RGTR--
+*R 2 200405036 170501016 200405036  01645  01742            % 03114 RGTR--
+*G RGB 170501016 200405036  01645  01742                    % 03114 RGTR--
+*A VE 170501016 200405036 000003  01645  01742              % 03114 RGTR--
+*I FD 170501016 200405036        0001268  01645  01742      % 03114 RGTR--
+170501016 Echternach, Gare Cen         01645                % 03114 RGTR--
+170501018 Echternach, Ermesind  01645  01645                % 03114 RGTR--
+170501007 Echternach, Fielsmil  01647  01647                % 03114 RGTR--
+170501002 Echternach, Bel Air   01648  01648                % 03114 RGTR--
+170301003 Berdorf, Hôtel Perek  01651  01651                % 03114 RGTR--
+170301002 Berdorf, Hotel Herbe  01652  01652                % 03114 RGTR--
+170301004 Berdorf, Duerfplaz    01653  01653                % 03114 RGTR--
+170301001 Berdorf, Bif. Heisbi  01654  01654                % 03114 RGTR--
+170305001 Bif. Kalkesbach       01656  01656                % 03114 RGTR--
+170402004 Consdorf, Melickshec  01657  01657                % 03114 RGTR--
+170402003 Consdorf, Kraizstroo  01658  01658                % 03114 RGTR--
+170402002 Consdorf, Haenricht   01659  01659                % 03114 RGTR--
+170402005 Consdorf, Post        01700  01700                % 03114 RGTR--
+170402001 Consdorf, Gare        01701  01701                % 03114 RGTR--
+170204001 Hersberg/Heeschbreg   01704  01704                % 03114 RGTR--
+170201001 Altrier, Bildchen     01705  01705                % 03114 RGTR--
+170201005 Altrier, Kreizenhéic  01706  01706                % 03114 RGTR--
+170205001 Rippig, Rippigerkopp  01707  01707                % 03114 RGTR--
+180509002 Graulinster, Haaptst  01708  01708                % 03114 RGTR--
+180512003 Junglinster, P+R      01711  01711                % 03114 RGTR--
+180511007 Junglinster, Um Reil  01712  01712                % 03114 RGTR--
+180511002 Junglinster, Op der   01713  01713                % 03114 RGTR--
+180511005 Junglinster, Um Lei   01715  01715                % 03114 RGTR--
+180511009 Junglinster, Op der   01715  01715                % 03114 RGTR--
+180508003 Gonderange, Mierchen  01716  01716                % 03114 RGTR--
+180508004 Gonderange, Op der B  01717  01717                % 03114 RGTR--
+180508006 Gonderange, Stohlbou  01718  01718                % 03114 RGTR--
+200509001 Waldhaff              01722  01722                % 03114 RGTR--
+200409006 Dommeldange, Dauschb  01726  01726                % 03114 RGTR--
+200409005 Dommeldange, Contour  01727  01727                % 03114 RGTR--
+200410003 Eich, Eecher Plaz     01730 -01730                % 03114 RGTR--
+200405005 Centre, Badanstalt    01733 -01733                % 03114 RGTR--
+200405036 Luxembourg, Gare rou  01742                       % 03114 RGTR--
+*Z 03115 RGTR--                                             % 03115 RGTR--
+*L 111      170501016 200405036  01745  01842               % 03115 RGTR--
+*A BE 170501016 200405036 000003  01745  01842              % 03115 RGTR--
+*A cj 170501016 200405036 000003  01745  01842              % 03115 RGTR--
+*R 2 200405036 170501016 200405036  01745  01842            % 03115 RGTR--
+*G RGB 170501016 200405036  01745  01842                    % 03115 RGTR--
+*A VE 170501016 200405036 000003  01745  01842              % 03115 RGTR--
+*I FD 170501016 200405036        0002976  01745  01842      % 03115 RGTR--
+170501016 Echternach, Gare Cen         01745                % 03115 RGTR--
+170501018 Echternach, Ermesind  01745  01745                % 03115 RGTR--
+170501007 Echternach, Fielsmil  01747  01747                % 03115 RGTR--
+170501002 Echternach, Bel Air   01748  01748                % 03115 RGTR--
+170301003 Berdorf, Hôtel Perek  01751  01751                % 03115 RGTR--
+170301002 Berdorf, Hotel Herbe  01752  01752                % 03115 RGTR--
+170301004 Berdorf, Duerfplaz    01753  01753                % 03115 RGTR--
+170301001 Berdorf, Bif. Heisbi  01754  01754                % 03115 RGTR--
+170305001 Bif. Kalkesbach       01756  01756                % 03115 RGTR--
+170402004 Consdorf, Melickshec  01757  01757                % 03115 RGTR--
+170402003 Consdorf, Kraizstroo  01758  01758                % 03115 RGTR--
+170402002 Consdorf, Haenricht   01759  01759                % 03115 RGTR--
+170402005 Consdorf, Post        01800  01800                % 03115 RGTR--
+170402001 Consdorf, Gare        01801  01801                % 03115 RGTR--
+170204001 Hersberg/Heeschbreg   01804  01804                % 03115 RGTR--
+170201001 Altrier, Bildchen     01805  01805                % 03115 RGTR--
+170201005 Altrier, Kreizenhéic  01806  01806                % 03115 RGTR--
+170205001 Rippig, Rippigerkopp  01807  01807                % 03115 RGTR--
+180509002 Graulinster, Haaptst  01808  01808                % 03115 RGTR--
+180512003 Junglinster, P+R      01811  01811                % 03115 RGTR--
+180511007 Junglinster, Um Reil  01812  01812                % 03115 RGTR--
+180511002 Junglinster, Op der   01813  01813                % 03115 RGTR--
+180511005 Junglinster, Um Lei   01815  01815                % 03115 RGTR--
+180511009 Junglinster, Op der   01815  01815                % 03115 RGTR--
+180508003 Gonderange, Mierchen  01816  01816                % 03115 RGTR--
+180508004 Gonderange, Op der B  01817  01817                % 03115 RGTR--
+180508006 Gonderange, Stohlbou  01818  01818                % 03115 RGTR--
+200509001 Waldhaff              01822  01822                % 03115 RGTR--
+200409006 Dommeldange, Dauschb  01826  01826                % 03115 RGTR--
+200409005 Dommeldange, Contour  01827  01827                % 03115 RGTR--
+200410003 Eich, Eecher Plaz     01830 -01830                % 03115 RGTR--
+200405005 Centre, Badanstalt    01833 -01833                % 03115 RGTR--
+200405036 Luxembourg, Gare rou  01842                       % 03115 RGTR--
+*Z 03116 RGTR--                                             % 03116 RGTR--
+*L 111      170501016 200405036  01810  01907               % 03116 RGTR--
+*A BE 170501016 200405036 000003  01810  01907              % 03116 RGTR--
+*A cj 170501016 200405036 000003  01810  01907              % 03116 RGTR--
+*R 2 200405036 170501016 200405036  01810  01907            % 03116 RGTR--
+*G RGB 170501016 200405036  01810  01907                    % 03116 RGTR--
+*A VE 170501016 200405036 000003  01810  01907              % 03116 RGTR--
+*I FD 170501016 200405036        0001978  01810  01907      % 03116 RGTR--
+170501016 Echternach, Gare Cen         01810                % 03116 RGTR--
+170501018 Echternach, Ermesind  01810  01810                % 03116 RGTR--
+170501007 Echternach, Fielsmil  01812  01812                % 03116 RGTR--
+170501002 Echternach, Bel Air   01813  01813                % 03116 RGTR--
+170301003 Berdorf, Hôtel Perek  01816  01816                % 03116 RGTR--
+170301002 Berdorf, Hotel Herbe  01817  01817                % 03116 RGTR--
+170301004 Berdorf, Duerfplaz    01818  01818                % 03116 RGTR--
+170301001 Berdorf, Bif. Heisbi  01819  01819                % 03116 RGTR--
+170305001 Bif. Kalkesbach       01821  01821                % 03116 RGTR--
+170402004 Consdorf, Melickshec  01822  01822                % 03116 RGTR--
+170402003 Consdorf, Kraizstroo  01823  01823                % 03116 RGTR--
+170402002 Consdorf, Haenricht   01824  01824                % 03116 RGTR--
+170402005 Consdorf, Post        01825  01825                % 03116 RGTR--
+170402001 Consdorf, Gare        01826  01826                % 03116 RGTR--
+170204001 Hersberg/Heeschbreg   01829  01829                % 03116 RGTR--
+170201001 Altrier, Bildchen     01830  01830                % 03116 RGTR--
+170201005 Altrier, Kreizenhéic  01831  01831                % 03116 RGTR--
+170205001 Rippig, Rippigerkopp  01832  01832                % 03116 RGTR--
+180509002 Graulinster, Haaptst  01833  01833                % 03116 RGTR--
+180512003 Junglinster, P+R      01836  01836                % 03116 RGTR--
+180511007 Junglinster, Um Reil  01837  01837                % 03116 RGTR--
+180511002 Junglinster, Op der   01838  01838                % 03116 RGTR--
+180511005 Junglinster, Um Lei   01840  01840                % 03116 RGTR--
+180511009 Junglinster, Op der   01840  01840                % 03116 RGTR--
+180508003 Gonderange, Mierchen  01841  01841                % 03116 RGTR--
+180508004 Gonderange, Op der B  01842  01842                % 03116 RGTR--
+180508006 Gonderange, Stohlbou  01843  01843                % 03116 RGTR--
+200509001 Waldhaff              01847  01847                % 03116 RGTR--
+200409006 Dommeldange, Dauschb  01851  01851                % 03116 RGTR--
+200409005 Dommeldange, Contour  01852  01852                % 03116 RGTR--
+200410003 Eich, Eecher Plaz     01855 -01855                % 03116 RGTR--
+200405005 Centre, Badanstalt    01858 -01858                % 03116 RGTR--
+200405036 Luxembourg, Gare rou  01907                       % 03116 RGTR--
+*Z 03117 RGTR--                                             % 03117 RGTR--
+*L 111      170501016 200405036  00845  00948               % 03117 RGTR--
+*A BE 170501016 200405036 000001  00845  00948              % 03117 RGTR--
+*A cj 170501016 200405036 000001  00845  00948              % 03117 RGTR--
+*A ck 170501016 200405036 000001  00845  00948              % 03117 RGTR--
+*A cn 170501016 200405036 000001  00845  00948              % 03117 RGTR--
+*R 2 200405036 170501016 200405036  00845  00948            % 03117 RGTR--
+*G RGB 170501016 200405036  00845  00948                    % 03117 RGTR--
+*A VE 170501016 200405036 000001  00845  00948              % 03117 RGTR--
+*I FD 170501016 200405036        0002807  00845  00948      % 03117 RGTR--
+170501016 Echternach, Gare Cen         00845                % 03117 RGTR--
+170501018 Echternach, Ermesind  00846  00846                % 03117 RGTR--
+170501007 Echternach, Fielsmil  00848  00848                % 03117 RGTR--
+170501002 Echternach, Bel Air   00849  00849                % 03117 RGTR--
+170301003 Berdorf, Hôtel Perek  00852  00852                % 03117 RGTR--
+170301002 Berdorf, Hotel Herbe  00853  00853                % 03117 RGTR--
+170301004 Berdorf, Duerfplaz    00853  00853                % 03117 RGTR--
+170301001 Berdorf, Bif. Heisbi  00854  00854                % 03117 RGTR--
+170305001 Bif. Kalkesbach       00856  00856                % 03117 RGTR--
+170402004 Consdorf, Melickshec  00858  00858                % 03117 RGTR--
+170402003 Consdorf, Kraizstroo  00859  00859                % 03117 RGTR--
+170402002 Consdorf, Haenricht   00900  00900                % 03117 RGTR--
+170402005 Consdorf, Post        00901  00901                % 03117 RGTR--
+170402001 Consdorf, Gare        00902  00902                % 03117 RGTR--
+170204001 Hersberg/Heeschbreg   00905  00905                % 03117 RGTR--
+170201001 Altrier, Bildchen     00906  00906                % 03117 RGTR--
+170201005 Altrier, Kreizenhéic  00907  00907                % 03117 RGTR--
+170205001 Rippig, Rippigerkopp  00908  00908                % 03117 RGTR--
+180509002 Graulinster, Haaptst  00910  00910                % 03117 RGTR--
+180512003 Junglinster, P+R      00913  00913                % 03117 RGTR--
+180511007 Junglinster, Um Reil  00914  00914                % 03117 RGTR--
+180511002 Junglinster, Op der   00916  00916                % 03117 RGTR--
+180511005 Junglinster, Um Lei   00917  00917                % 03117 RGTR--
+180511009 Junglinster, Op der   00918  00918                % 03117 RGTR--
+180508003 Gonderange, Mierchen  00919  00919                % 03117 RGTR--
+180508004 Gonderange, Op der B  00920  00920                % 03117 RGTR--
+180508006 Gonderange, Stohlbou  00921  00921                % 03117 RGTR--
+200509001 Waldhaff              00926  00926                % 03117 RGTR--
+200409006 Dommeldange, Dauschb  00929  00929                % 03117 RGTR--
+200409005 Dommeldange, Contour  00931  00931                % 03117 RGTR--
+200410003 Eich, Eecher Plaz     00934 -00934                % 03117 RGTR--
+200405005 Centre, Badanstalt    00938 -00938                % 03117 RGTR--
+200405036 Luxembourg, Gare rou  00948                       % 03117 RGTR--
+*Z 03118 RGTR--                                             % 03118 RGTR--
+*L 111      170501016 200405036  01645  01748               % 03118 RGTR--
+*A BE 170501016 200405036 000001  01645  01748              % 03118 RGTR--
+*A cj 170501016 200405036 000001  01645  01748              % 03118 RGTR--
+*A cn 170501016 200405036 000001  01645  01748              % 03118 RGTR--
+*R 2 200405036 170501016 200405036  01645  01748            % 03118 RGTR--
+*G RGB 170501016 200405036  01645  01748                    % 03118 RGTR--
+*A VE 170501016 200405036 000001  01645  01748              % 03118 RGTR--
+*I FD 170501016 200405036        0001268  01645  01748      % 03118 RGTR--
+170501016 Echternach, Gare Cen         01645                % 03118 RGTR--
+170501018 Echternach, Ermesind  01646  01646                % 03118 RGTR--
+170501007 Echternach, Fielsmil  01648  01648                % 03118 RGTR--
+170501002 Echternach, Bel Air   01649  01649                % 03118 RGTR--
+170301003 Berdorf, Hôtel Perek  01652  01652                % 03118 RGTR--
+170301002 Berdorf, Hotel Herbe  01653  01653                % 03118 RGTR--
+170301004 Berdorf, Duerfplaz    01653  01653                % 03118 RGTR--
+170301001 Berdorf, Bif. Heisbi  01654  01654                % 03118 RGTR--
+170305001 Bif. Kalkesbach       01656  01656                % 03118 RGTR--
+170402004 Consdorf, Melickshec  01658  01658                % 03118 RGTR--
+170402003 Consdorf, Kraizstroo  01659  01659                % 03118 RGTR--
+170402002 Consdorf, Haenricht   01700  01700                % 03118 RGTR--
+170402005 Consdorf, Post        01701  01701                % 03118 RGTR--
+170402001 Consdorf, Gare        01702  01702                % 03118 RGTR--
+170204001 Hersberg/Heeschbreg   01705  01705                % 03118 RGTR--
+170201001 Altrier, Bildchen     01706  01706                % 03118 RGTR--
+170201005 Altrier, Kreizenhéic  01707  01707                % 03118 RGTR--
+170205001 Rippig, Rippigerkopp  01708  01708                % 03118 RGTR--
+180509002 Graulinster, Haaptst  01710  01710                % 03118 RGTR--
+180512003 Junglinster, P+R      01713  01713                % 03118 RGTR--
+180511007 Junglinster, Um Reil  01714  01714                % 03118 RGTR--
+180511002 Junglinster, Op der   01716  01716                % 03118 RGTR--
+180511005 Junglinster, Um Lei   01717  01717                % 03118 RGTR--
+180511009 Junglinster, Op der   01718  01718                % 03118 RGTR--
+180508003 Gonderange, Mierchen  01719  01719                % 03118 RGTR--
+180508004 Gonderange, Op der B  01720  01720                % 03118 RGTR--
+180508006 Gonderange, Stohlbou  01721  01721                % 03118 RGTR--
+200509001 Waldhaff              01726  01726                % 03118 RGTR--
+200409006 Dommeldange, Dauschb  01729  01729                % 03118 RGTR--
+200409005 Dommeldange, Contour  01731  01731                % 03118 RGTR--
+200410003 Eich, Eecher Plaz     01734 -01734                % 03118 RGTR--
+200405005 Centre, Badanstalt    01738 -01738                % 03118 RGTR--
+200405036 Luxembourg, Gare rou  01748                       % 03118 RGTR--
+*Z 03119 RGTR--                                             % 03119 RGTR--
+*L 111      170501016 200405036  01745  01848               % 03119 RGTR--
+*A BE 170501016 200405036 000001  01745  01848              % 03119 RGTR--
+*A cj 170501016 200405036 000001  01745  01848              % 03119 RGTR--
+*R 2 200405036 170501016 200405036  01745  01848            % 03119 RGTR--
+*G RGB 170501016 200405036  01745  01848                    % 03119 RGTR--
+*A VE 170501016 200405036 000001  01745  01848              % 03119 RGTR--
+*I FD 170501016 200405036        0002976  01745  01848      % 03119 RGTR--
+170501016 Echternach, Gare Cen         01745                % 03119 RGTR--
+170501018 Echternach, Ermesind  01746  01746                % 03119 RGTR--
+170501007 Echternach, Fielsmil  01748  01748                % 03119 RGTR--
+170501002 Echternach, Bel Air   01749  01749                % 03119 RGTR--
+170301003 Berdorf, Hôtel Perek  01752  01752                % 03119 RGTR--
+170301002 Berdorf, Hotel Herbe  01753  01753                % 03119 RGTR--
+170301004 Berdorf, Duerfplaz    01753  01753                % 03119 RGTR--
+170301001 Berdorf, Bif. Heisbi  01754  01754                % 03119 RGTR--
+170305001 Bif. Kalkesbach       01756  01756                % 03119 RGTR--
+170402004 Consdorf, Melickshec  01758  01758                % 03119 RGTR--
+170402003 Consdorf, Kraizstroo  01759  01759                % 03119 RGTR--
+170402002 Consdorf, Haenricht   01800  01800                % 03119 RGTR--
+170402005 Consdorf, Post        01801  01801                % 03119 RGTR--
+170402001 Consdorf, Gare        01802  01802                % 03119 RGTR--
+170204001 Hersberg/Heeschbreg   01805  01805                % 03119 RGTR--
+170201001 Altrier, Bildchen     01806  01806                % 03119 RGTR--
+170201005 Altrier, Kreizenhéic  01807  01807                % 03119 RGTR--
+170205001 Rippig, Rippigerkopp  01808  01808                % 03119 RGTR--
+180509002 Graulinster, Haaptst  01810  01810                % 03119 RGTR--
+180512003 Junglinster, P+R      01813  01813                % 03119 RGTR--
+180511007 Junglinster, Um Reil  01814  01814                % 03119 RGTR--
+180511002 Junglinster, Op der   01816  01816                % 03119 RGTR--
+180511005 Junglinster, Um Lei   01817  01817                % 03119 RGTR--
+180511009 Junglinster, Op der   01818  01818                % 03119 RGTR--
+180508003 Gonderange, Mierchen  01819  01819                % 03119 RGTR--
+180508004 Gonderange, Op der B  01820  01820                % 03119 RGTR--
+180508006 Gonderange, Stohlbou  01821  01821                % 03119 RGTR--
+200509001 Waldhaff              01826  01826                % 03119 RGTR--
+200409006 Dommeldange, Dauschb  01829  01829                % 03119 RGTR--
+200409005 Dommeldange, Contour  01831  01831                % 03119 RGTR--
+200410003 Eich, Eecher Plaz     01834 -01834                % 03119 RGTR--
+200405005 Centre, Badanstalt    01838 -01838                % 03119 RGTR--
+200405036 Luxembourg, Gare rou  01848                       % 03119 RGTR--
+*Z 03120 RGTR--                                             % 03120 RGTR--
+*L 111      170501016 200405036  01810  01913               % 03120 RGTR--
+*A BE 170501016 200405036 000001  01810  01913              % 03120 RGTR--
+*A cj 170501016 200405036 000001  01810  01913              % 03120 RGTR--
+*R 2 200405036 170501016 200405036  01810  01913            % 03120 RGTR--
+*G RGB 170501016 200405036  01810  01913                    % 03120 RGTR--
+*A VE 170501016 200405036 000001  01810  01913              % 03120 RGTR--
+*I FD 170501016 200405036        0001978  01810  01913      % 03120 RGTR--
+170501016 Echternach, Gare Cen         01810                % 03120 RGTR--
+170501018 Echternach, Ermesind  01811  01811                % 03120 RGTR--
+170501007 Echternach, Fielsmil  01813  01813                % 03120 RGTR--
+170501002 Echternach, Bel Air   01814  01814                % 03120 RGTR--
+170301003 Berdorf, Hôtel Perek  01817  01817                % 03120 RGTR--
+170301002 Berdorf, Hotel Herbe  01818  01818                % 03120 RGTR--
+170301004 Berdorf, Duerfplaz    01818  01818                % 03120 RGTR--
+170301001 Berdorf, Bif. Heisbi  01819  01819                % 03120 RGTR--
+170305001 Bif. Kalkesbach       01821  01821                % 03120 RGTR--
+170402004 Consdorf, Melickshec  01823  01823                % 03120 RGTR--
+170402003 Consdorf, Kraizstroo  01824  01824                % 03120 RGTR--
+170402002 Consdorf, Haenricht   01825  01825                % 03120 RGTR--
+170402005 Consdorf, Post        01826  01826                % 03120 RGTR--
+170402001 Consdorf, Gare        01827  01827                % 03120 RGTR--
+170204001 Hersberg/Heeschbreg   01830  01830                % 03120 RGTR--
+170201001 Altrier, Bildchen     01831  01831                % 03120 RGTR--
+170201005 Altrier, Kreizenhéic  01832  01832                % 03120 RGTR--
+170205001 Rippig, Rippigerkopp  01833  01833                % 03120 RGTR--
+180509002 Graulinster, Haaptst  01835  01835                % 03120 RGTR--
+180512003 Junglinster, P+R      01838  01838                % 03120 RGTR--
+180511007 Junglinster, Um Reil  01839  01839                % 03120 RGTR--
+180511002 Junglinster, Op der   01841  01841                % 03120 RGTR--
+180511005 Junglinster, Um Lei   01842  01842                % 03120 RGTR--
+180511009 Junglinster, Op der   01843  01843                % 03120 RGTR--
+180508003 Gonderange, Mierchen  01844  01844                % 03120 RGTR--
+180508004 Gonderange, Op der B  01845  01845                % 03120 RGTR--
+180508006 Gonderange, Stohlbou  01846  01846                % 03120 RGTR--
+200509001 Waldhaff              01851  01851                % 03120 RGTR--
+200409006 Dommeldange, Dauschb  01854  01854                % 03120 RGTR--
+200409005 Dommeldange, Contour  01856  01856                % 03120 RGTR--
+200410003 Eich, Eecher Plaz     01859 -01859                % 03120 RGTR--
+200405005 Centre, Badanstalt    01903 -01903                % 03120 RGTR--
+200405036 Luxembourg, Gare rou  01913                       % 03120 RGTR--
+*Z 03121 RGTR--                                             % 03121 RGTR--
+*L 111      170501016 200405036  00750  00853               % 03121 RGTR--
+*A BE 170501016 200405036 000002  00750  00853              % 03121 RGTR--
+*A cj 170501016 200405036 000002  00750  00853              % 03121 RGTR--
+*A cn 170501016 200405036 000002  00750  00853              % 03121 RGTR--
+*R 2 200405036 170501016 200405036  00750  00853            % 03121 RGTR--
+*G RGB 170501016 200405036  00750  00853                    % 03121 RGTR--
+*A VE 170501016 200405036 000002  00750  00853              % 03121 RGTR--
+*I FD 170501016 200405036        0002214  00750  00853      % 03121 RGTR--
+170501016 Echternach, Gare Cen         00750                % 03121 RGTR--
+170501018 Echternach, Ermesind  00751  00751                % 03121 RGTR--
+170501007 Echternach, Fielsmil  00753  00753                % 03121 RGTR--
+170501002 Echternach, Bel Air   00754  00754                % 03121 RGTR--
+170301003 Berdorf, Hôtel Perek  00757  00757                % 03121 RGTR--
+170301002 Berdorf, Hotel Herbe  00758  00758                % 03121 RGTR--
+170301004 Berdorf, Duerfplaz    00758  00758                % 03121 RGTR--
+170301001 Berdorf, Bif. Heisbi  00759  00759                % 03121 RGTR--
+170305001 Bif. Kalkesbach       00801  00801                % 03121 RGTR--
+170402004 Consdorf, Melickshec  00803  00803                % 03121 RGTR--
+170402003 Consdorf, Kraizstroo  00804  00804                % 03121 RGTR--
+170402002 Consdorf, Haenricht   00805  00805                % 03121 RGTR--
+170402005 Consdorf, Post        00806  00806                % 03121 RGTR--
+170402001 Consdorf, Gare        00807  00807                % 03121 RGTR--
+170204001 Hersberg/Heeschbreg   00810  00810                % 03121 RGTR--
+170201001 Altrier, Bildchen     00811  00811                % 03121 RGTR--
+170201005 Altrier, Kreizenhéic  00812  00812                % 03121 RGTR--
+170205001 Rippig, Rippigerkopp  00813  00813                % 03121 RGTR--
+180509002 Graulinster, Haaptst  00815  00815                % 03121 RGTR--
+180512003 Junglinster, P+R      00818  00818                % 03121 RGTR--
+180511007 Junglinster, Um Reil  00819  00819                % 03121 RGTR--
+180511002 Junglinster, Op der   00821  00821                % 03121 RGTR--
+180511005 Junglinster, Um Lei   00822  00822                % 03121 RGTR--
+180511009 Junglinster, Op der   00823  00823                % 03121 RGTR--
+180508003 Gonderange, Mierchen  00824  00824                % 03121 RGTR--
+180508004 Gonderange, Op der B  00825  00825                % 03121 RGTR--
+180508006 Gonderange, Stohlbou  00826  00826                % 03121 RGTR--
+200509001 Waldhaff              00831  00831                % 03121 RGTR--
+200409006 Dommeldange, Dauschb  00834  00834                % 03121 RGTR--
+200409005 Dommeldange, Contour  00836  00836                % 03121 RGTR--
+200410003 Eich, Eecher Plaz     00839 -00839                % 03121 RGTR--
+200405005 Centre, Badanstalt    00843 -00843                % 03121 RGTR--
+200405036 Luxembourg, Gare rou  00853                       % 03121 RGTR--
+*Z 03122 RGTR--                                             % 03122 RGTR--
+*L 111      170301004 200405036  00556  00645               % 03122 RGTR--
+*A BE 170301004 200405036 000001  00556  00645              % 03122 RGTR--
+*A cj 170301004 200405036 000001  00556  00645              % 03122 RGTR--
+*A ck 170301004 200405036 000001  00556  00645              % 03122 RGTR--
+*R 2 200405036 170301004 200405036  00556  00645            % 03122 RGTR--
+*G RGB 170301004 200405036  00556  00645                    % 03122 RGTR--
+*A VE 170301004 200405036 000001  00556  00645              % 03122 RGTR--
+*I FD 170301004 200405036        0002977  00556  00645      % 03122 RGTR--
+170301004 Berdorf, Duerfplaz           00556                % 03122 RGTR--
+170301001 Berdorf, Bif. Heisbi  00557  00557                % 03122 RGTR--
+170305001 Bif. Kalkesbach       00559  00559                % 03122 RGTR--
+170402004 Consdorf, Melickshec  00600  00600                % 03122 RGTR--
+170402003 Consdorf, Kraizstroo  00601  00601                % 03122 RGTR--
+170402002 Consdorf, Haenricht   00602  00602                % 03122 RGTR--
+170402005 Consdorf, Post        00603  00603                % 03122 RGTR--
+170402001 Consdorf, Gare        00604  00604                % 03122 RGTR--
+170204001 Hersberg/Heeschbreg   00607  00607                % 03122 RGTR--
+170201001 Altrier, Bildchen     00608  00608                % 03122 RGTR--
+170201005 Altrier, Kreizenhéic  00609  00609                % 03122 RGTR--
+170205001 Rippig, Rippigerkopp  00609  00609                % 03122 RGTR--
+180509002 Graulinster, Haaptst  00611  00611                % 03122 RGTR--
+180512003 Junglinster, P+R      00613  00613                % 03122 RGTR--
+180511007 Junglinster, Um Reil  00615  00615                % 03122 RGTR--
+180511002 Junglinster, Op der   00616  00616                % 03122 RGTR--
+180511005 Junglinster, Um Lei   00617  00617                % 03122 RGTR--
+180511009 Junglinster, Op der   00618  00618                % 03122 RGTR--
+180508003 Gonderange, Mierchen  00619  00619                % 03122 RGTR--
+180508004 Gonderange, Op der B  00620  00620                % 03122 RGTR--
+180508006 Gonderange, Stohlbou  00620  00620                % 03122 RGTR--
+200509001 Waldhaff              00625  00625                % 03122 RGTR--
+200409006 Dommeldange, Dauschb  00629  00629                % 03122 RGTR--
+200409005 Dommeldange, Contour  00630  00630                % 03122 RGTR--
+200410003 Eich, Eecher Plaz     00633 -00633                % 03122 RGTR--
+200405005 Centre, Badanstalt    00636 -00636                % 03122 RGTR--
+200405036 Luxembourg, Gare rou  00645                       % 03122 RGTR--

@@ -1,0 +1,800 @@
+*F 03 2
+*Z 10271 RGTR--                                             % 10271 RGTR--
+*L 209      220401001 200304020  00515  00548               % 10271 RGTR--
+*A ag 220401001 200304020 000002  00515  00548              % 10271 RGTR--
+*R 1 200304020 220401001 200304020  00515  00548            % 10271 RGTR--
+*G RGB 220401001 200304020  00515  00548                    % 10271 RGTR--
+*A VE 220401001 200304020 000002  00515  00548              % 10271 RGTR--
+*I FD 220401001 200304020        0003664  00515  00548      % 10271 RGTR--
+220401001 Belval-Université, G         00515                % 10271 RGTR--
+221301027 Belval, Um Bedding    00518  00518                % 10271 RGTR--
+220402077 Belval, Porte de Fra  00519  00519                % 10271 RGTR--
+220402129 Esch/Alzette, Porte   00520  00520                % 10271 RGTR--
+220402079 Esch/Alzette, Raemer  00521  00521                % 10271 RGTR--
+220701011 Leudelange, Op der S  00537  00537                % 10271 RGTR--
+220701003 Leudelange, Edeleck   00538  00538                % 10271 RGTR--
+200412018 Gasperich, Scharfen   00543  00543                % 10271 RGTR--
+200412006 Gasperich, Cloche d'  00544  00544                % 10271 RGTR--
+200412021 Gasperich, Gerhard M  00546  00546                % 10271 RGTR--
+200304017 Howald, P&R Howald Q  00546  00546                % 10271 RGTR--
+200304020 Howald, P&R Howald Q  00548                       % 10271 RGTR--
+*Z 10272 RGTR--                                             % 10272 RGTR--
+*L 209      220401001 200304020  00615  00648               % 10272 RGTR--
+*A ag 220401001 200304020 000002  00615  00648              % 10272 RGTR--
+*R 1 200304020 220401001 200304020  00615  00648            % 10272 RGTR--
+*G RGB 220401001 200304020  00615  00648                    % 10272 RGTR--
+*A VE 220401001 200304020 000002  00615  00648              % 10272 RGTR--
+*I FD 220401001 200304020        0003044  00615  00648      % 10272 RGTR--
+220401001 Belval-Université, G         00615                % 10272 RGTR--
+221301027 Belval, Um Bedding    00618  00618                % 10272 RGTR--
+220402077 Belval, Porte de Fra  00619  00619                % 10272 RGTR--
+220402129 Esch/Alzette, Porte   00620  00620                % 10272 RGTR--
+220402079 Esch/Alzette, Raemer  00621  00621                % 10272 RGTR--
+220701011 Leudelange, Op der S  00637  00637                % 10272 RGTR--
+220701003 Leudelange, Edeleck   00638  00638                % 10272 RGTR--
+200412018 Gasperich, Scharfen   00643  00643                % 10272 RGTR--
+200412006 Gasperich, Cloche d'  00644  00644                % 10272 RGTR--
+200412021 Gasperich, Gerhard M  00646  00646                % 10272 RGTR--
+200304017 Howald, P&R Howald Q  00646  00646                % 10272 RGTR--
+200304020 Howald, P&R Howald Q  00648                       % 10272 RGTR--
+*Z 10273 RGTR--                                             % 10273 RGTR--
+*L 209      220401001 200304020  01015  01048               % 10273 RGTR--
+*A ag 220401001 200304020 000002  01015  01048              % 10273 RGTR--
+*R 1 200304020 220401001 200304020  01015  01048            % 10273 RGTR--
+*G RGB 220401001 200304020  01015  01048                    % 10273 RGTR--
+*A VE 220401001 200304020 000002  01015  01048              % 10273 RGTR--
+*I FD 220401001 200304020        0001733  01015  01048      % 10273 RGTR--
+220401001 Belval-Université, G         01015                % 10273 RGTR--
+221301027 Belval, Um Bedding    01018  01018                % 10273 RGTR--
+220402077 Belval, Porte de Fra  01019  01019                % 10273 RGTR--
+220402129 Esch/Alzette, Porte   01020  01020                % 10273 RGTR--
+220402079 Esch/Alzette, Raemer  01021  01021                % 10273 RGTR--
+220701011 Leudelange, Op der S  01037  01037                % 10273 RGTR--
+220701003 Leudelange, Edeleck   01038  01038                % 10273 RGTR--
+200412018 Gasperich, Scharfen   01043  01043                % 10273 RGTR--
+200412006 Gasperich, Cloche d'  01044  01044                % 10273 RGTR--
+200412021 Gasperich, Gerhard M  01046  01046                % 10273 RGTR--
+200304017 Howald, P&R Howald Q  01046  01046                % 10273 RGTR--
+200304020 Howald, P&R Howald Q  01048                       % 10273 RGTR--
+*Z 10274 RGTR--                                             % 10274 RGTR--
+*L 209      220401001 200304020  01115  01148               % 10274 RGTR--
+*A ag 220401001 200304020 000002  01115  01148              % 10274 RGTR--
+*R 1 200304020 220401001 200304020  01115  01148            % 10274 RGTR--
+*G RGB 220401001 200304020  01115  01148                    % 10274 RGTR--
+*A VE 220401001 200304020 000002  01115  01148              % 10274 RGTR--
+*I FD 220401001 200304020        0001054  01115  01148      % 10274 RGTR--
+220401001 Belval-Université, G         01115                % 10274 RGTR--
+221301027 Belval, Um Bedding    01118  01118                % 10274 RGTR--
+220402077 Belval, Porte de Fra  01119  01119                % 10274 RGTR--
+220402129 Esch/Alzette, Porte   01120  01120                % 10274 RGTR--
+220402079 Esch/Alzette, Raemer  01121  01121                % 10274 RGTR--
+220701011 Leudelange, Op der S  01137  01137                % 10274 RGTR--
+220701003 Leudelange, Edeleck   01138  01138                % 10274 RGTR--
+200412018 Gasperich, Scharfen   01143  01143                % 10274 RGTR--
+200412006 Gasperich, Cloche d'  01144  01144                % 10274 RGTR--
+200412021 Gasperich, Gerhard M  01146  01146                % 10274 RGTR--
+200304017 Howald, P&R Howald Q  01146  01146                % 10274 RGTR--
+200304020 Howald, P&R Howald Q  01148                       % 10274 RGTR--
+*Z 10275 RGTR--                                             % 10275 RGTR--
+*L 209      220401001 200304020  01215  01248               % 10275 RGTR--
+*A ag 220401001 200304020 000002  01215  01248              % 10275 RGTR--
+*R 1 200304020 220401001 200304020  01215  01248            % 10275 RGTR--
+*G RGB 220401001 200304020  01215  01248                    % 10275 RGTR--
+*A VE 220401001 200304020 000002  01215  01248              % 10275 RGTR--
+*I FD 220401001 200304020        0001734  01215  01248      % 10275 RGTR--
+220401001 Belval-Université, G         01215                % 10275 RGTR--
+221301027 Belval, Um Bedding    01218  01218                % 10275 RGTR--
+220402077 Belval, Porte de Fra  01219  01219                % 10275 RGTR--
+220402129 Esch/Alzette, Porte   01220  01220                % 10275 RGTR--
+220402079 Esch/Alzette, Raemer  01221  01221                % 10275 RGTR--
+220701011 Leudelange, Op der S  01237  01237                % 10275 RGTR--
+220701003 Leudelange, Edeleck   01238  01238                % 10275 RGTR--
+200412018 Gasperich, Scharfen   01243  01243                % 10275 RGTR--
+200412006 Gasperich, Cloche d'  01244  01244                % 10275 RGTR--
+200412021 Gasperich, Gerhard M  01246  01246                % 10275 RGTR--
+200304017 Howald, P&R Howald Q  01246  01246                % 10275 RGTR--
+200304020 Howald, P&R Howald Q  01248                       % 10275 RGTR--
+*Z 10276 RGTR--                                             % 10276 RGTR--
+*L 209      220401001 200304020  01315  01348               % 10276 RGTR--
+*A ag 220401001 200304020 000002  01315  01348              % 10276 RGTR--
+*R 1 200304020 220401001 200304020  01315  01348            % 10276 RGTR--
+*G RGB 220401001 200304020  01315  01348                    % 10276 RGTR--
+*A VE 220401001 200304020 000002  01315  01348              % 10276 RGTR--
+*I FD 220401001 200304020        0001737  01315  01348      % 10276 RGTR--
+220401001 Belval-Université, G         01315                % 10276 RGTR--
+221301027 Belval, Um Bedding    01318  01318                % 10276 RGTR--
+220402077 Belval, Porte de Fra  01319  01319                % 10276 RGTR--
+220402129 Esch/Alzette, Porte   01320  01320                % 10276 RGTR--
+220402079 Esch/Alzette, Raemer  01321  01321                % 10276 RGTR--
+220701011 Leudelange, Op der S  01337  01337                % 10276 RGTR--
+220701003 Leudelange, Edeleck   01338  01338                % 10276 RGTR--
+200412018 Gasperich, Scharfen   01343  01343                % 10276 RGTR--
+200412006 Gasperich, Cloche d'  01344  01344                % 10276 RGTR--
+200412021 Gasperich, Gerhard M  01346  01346                % 10276 RGTR--
+200304017 Howald, P&R Howald Q  01346  01346                % 10276 RGTR--
+200304020 Howald, P&R Howald Q  01348                       % 10276 RGTR--
+*Z 10277 RGTR--                                             % 10277 RGTR--
+*L 209      220401001 200304020  01415  01448               % 10277 RGTR--
+*A ag 220401001 200304020 000002  01415  01448              % 10277 RGTR--
+*R 1 200304020 220401001 200304020  01415  01448            % 10277 RGTR--
+*G RGB 220401001 200304020  01415  01448                    % 10277 RGTR--
+*A VE 220401001 200304020 000002  01415  01448              % 10277 RGTR--
+*I FD 220401001 200304020        0001735  01415  01448      % 10277 RGTR--
+220401001 Belval-Université, G         01415                % 10277 RGTR--
+221301027 Belval, Um Bedding    01418  01418                % 10277 RGTR--
+220402077 Belval, Porte de Fra  01419  01419                % 10277 RGTR--
+220402129 Esch/Alzette, Porte   01420  01420                % 10277 RGTR--
+220402079 Esch/Alzette, Raemer  01421  01421                % 10277 RGTR--
+220701011 Leudelange, Op der S  01437  01437                % 10277 RGTR--
+220701003 Leudelange, Edeleck   01438  01438                % 10277 RGTR--
+200412018 Gasperich, Scharfen   01443  01443                % 10277 RGTR--
+200412006 Gasperich, Cloche d'  01444  01444                % 10277 RGTR--
+200412021 Gasperich, Gerhard M  01446  01446                % 10277 RGTR--
+200304017 Howald, P&R Howald Q  01446  01446                % 10277 RGTR--
+200304020 Howald, P&R Howald Q  01448                       % 10277 RGTR--
+*Z 10278 RGTR--                                             % 10278 RGTR--
+*L 209      220401001 200304020  01515  01548               % 10278 RGTR--
+*A ag 220401001 200304020 000002  01515  01548              % 10278 RGTR--
+*R 1 200304020 220401001 200304020  01515  01548            % 10278 RGTR--
+*G RGB 220401001 200304020  01515  01548                    % 10278 RGTR--
+*A VE 220401001 200304020 000002  01515  01548              % 10278 RGTR--
+*I FD 220401001 200304020        0001738  01515  01548      % 10278 RGTR--
+220401001 Belval-Université, G         01515                % 10278 RGTR--
+221301027 Belval, Um Bedding    01518  01518                % 10278 RGTR--
+220402077 Belval, Porte de Fra  01519  01519                % 10278 RGTR--
+220402129 Esch/Alzette, Porte   01520  01520                % 10278 RGTR--
+220402079 Esch/Alzette, Raemer  01521  01521                % 10278 RGTR--
+220701011 Leudelange, Op der S  01537  01537                % 10278 RGTR--
+220701003 Leudelange, Edeleck   01538  01538                % 10278 RGTR--
+200412018 Gasperich, Scharfen   01543  01543                % 10278 RGTR--
+200412006 Gasperich, Cloche d'  01544  01544                % 10278 RGTR--
+200412021 Gasperich, Gerhard M  01546  01546                % 10278 RGTR--
+200304017 Howald, P&R Howald Q  01546  01546                % 10278 RGTR--
+200304020 Howald, P&R Howald Q  01548                       % 10278 RGTR--
+*Z 10279 RGTR--                                             % 10279 RGTR--
+*L 209      220401001 200304020  01615  01648               % 10279 RGTR--
+*A ag 220401001 200304020 000002  01615  01648              % 10279 RGTR--
+*R 1 200304020 220401001 200304020  01615  01648            % 10279 RGTR--
+*G RGB 220401001 200304020  01615  01648                    % 10279 RGTR--
+*A VE 220401001 200304020 000002  01615  01648              % 10279 RGTR--
+*I FD 220401001 200304020        0001729  01615  01648      % 10279 RGTR--
+220401001 Belval-Université, G         01615                % 10279 RGTR--
+221301027 Belval, Um Bedding    01618  01618                % 10279 RGTR--
+220402077 Belval, Porte de Fra  01619  01619                % 10279 RGTR--
+220402129 Esch/Alzette, Porte   01620  01620                % 10279 RGTR--
+220402079 Esch/Alzette, Raemer  01621  01621                % 10279 RGTR--
+220701011 Leudelange, Op der S  01637  01637                % 10279 RGTR--
+220701003 Leudelange, Edeleck   01638  01638                % 10279 RGTR--
+200412018 Gasperich, Scharfen   01643  01643                % 10279 RGTR--
+200412006 Gasperich, Cloche d'  01644  01644                % 10279 RGTR--
+200412021 Gasperich, Gerhard M  01646  01646                % 10279 RGTR--
+200304017 Howald, P&R Howald Q  01646  01646                % 10279 RGTR--
+200304020 Howald, P&R Howald Q  01648                       % 10279 RGTR--
+*Z 10280 RGTR--                                             % 10280 RGTR--
+*L 209      220401001 200304020  01715  01748               % 10280 RGTR--
+*A ag 220401001 200304020 000002  01715  01748              % 10280 RGTR--
+*R 1 200304020 220401001 200304020  01715  01748            % 10280 RGTR--
+*G RGB 220401001 200304020  01715  01748                    % 10280 RGTR--
+*A VE 220401001 200304020 000002  01715  01748              % 10280 RGTR--
+*I FD 220401001 200304020        0001731  01715  01748      % 10280 RGTR--
+220401001 Belval-Université, G         01715                % 10280 RGTR--
+221301027 Belval, Um Bedding    01718  01718                % 10280 RGTR--
+220402077 Belval, Porte de Fra  01719  01719                % 10280 RGTR--
+220402129 Esch/Alzette, Porte   01720  01720                % 10280 RGTR--
+220402079 Esch/Alzette, Raemer  01721  01721                % 10280 RGTR--
+220701011 Leudelange, Op der S  01737  01737                % 10280 RGTR--
+220701003 Leudelange, Edeleck   01738  01738                % 10280 RGTR--
+200412018 Gasperich, Scharfen   01743  01743                % 10280 RGTR--
+200412006 Gasperich, Cloche d'  01744  01744                % 10280 RGTR--
+200412021 Gasperich, Gerhard M  01746  01746                % 10280 RGTR--
+200304017 Howald, P&R Howald Q  01746  01746                % 10280 RGTR--
+200304020 Howald, P&R Howald Q  01748                       % 10280 RGTR--
+*Z 10281 RGTR--                                             % 10281 RGTR--
+*L 209      220401001 200304020  01815  01848               % 10281 RGTR--
+*A ag 220401001 200304020 000002  01815  01848              % 10281 RGTR--
+*R 1 200304020 220401001 200304020  01815  01848            % 10281 RGTR--
+*G RGB 220401001 200304020  01815  01848                    % 10281 RGTR--
+*A VE 220401001 200304020 000002  01815  01848              % 10281 RGTR--
+*I FD 220401001 200304020        0001780  01815  01848      % 10281 RGTR--
+220401001 Belval-Université, G         01815                % 10281 RGTR--
+221301027 Belval, Um Bedding    01818  01818                % 10281 RGTR--
+220402077 Belval, Porte de Fra  01819  01819                % 10281 RGTR--
+220402129 Esch/Alzette, Porte   01820  01820                % 10281 RGTR--
+220402079 Esch/Alzette, Raemer  01821  01821                % 10281 RGTR--
+220701011 Leudelange, Op der S  01837  01837                % 10281 RGTR--
+220701003 Leudelange, Edeleck   01838  01838                % 10281 RGTR--
+200412018 Gasperich, Scharfen   01843  01843                % 10281 RGTR--
+200412006 Gasperich, Cloche d'  01844  01844                % 10281 RGTR--
+200412021 Gasperich, Gerhard M  01846  01846                % 10281 RGTR--
+200304017 Howald, P&R Howald Q  01846  01846                % 10281 RGTR--
+200304020 Howald, P&R Howald Q  01848                       % 10281 RGTR--
+*Z 10282 RGTR--                                             % 10282 RGTR--
+*L 209      220401001 200304020  01915  01948               % 10282 RGTR--
+*A ag 220401001 200304020 000002  01915  01948              % 10282 RGTR--
+*R 1 200304020 220401001 200304020  01915  01948            % 10282 RGTR--
+*G RGB 220401001 200304020  01915  01948                    % 10282 RGTR--
+*A VE 220401001 200304020 000002  01915  01948              % 10282 RGTR--
+*I FD 220401001 200304020        0001739  01915  01948      % 10282 RGTR--
+220401001 Belval-Université, G         01915                % 10282 RGTR--
+221301027 Belval, Um Bedding    01918  01918                % 10282 RGTR--
+220402077 Belval, Porte de Fra  01919  01919                % 10282 RGTR--
+220402129 Esch/Alzette, Porte   01920  01920                % 10282 RGTR--
+220402079 Esch/Alzette, Raemer  01921  01921                % 10282 RGTR--
+220701011 Leudelange, Op der S  01937  01937                % 10282 RGTR--
+220701003 Leudelange, Edeleck   01938  01938                % 10282 RGTR--
+200412018 Gasperich, Scharfen   01943  01943                % 10282 RGTR--
+200412006 Gasperich, Cloche d'  01944  01944                % 10282 RGTR--
+200412021 Gasperich, Gerhard M  01946  01946                % 10282 RGTR--
+200304017 Howald, P&R Howald Q  01946  01946                % 10282 RGTR--
+200304020 Howald, P&R Howald Q  01948                       % 10282 RGTR--
+*Z 10283 RGTR--                                             % 10283 RGTR--
+*L 209      220401001 200304020  02015  02048               % 10283 RGTR--
+*A ag 220401001 200304020 000002  02015  02048              % 10283 RGTR--
+*R 1 200304020 220401001 200304020  02015  02048            % 10283 RGTR--
+*G RGB 220401001 200304020  02015  02048                    % 10283 RGTR--
+*A VE 220401001 200304020 000002  02015  02048              % 10283 RGTR--
+*I FD 220401001 200304020        0001736  02015  02048      % 10283 RGTR--
+220401001 Belval-Université, G         02015                % 10283 RGTR--
+221301027 Belval, Um Bedding    02018  02018                % 10283 RGTR--
+220402077 Belval, Porte de Fra  02019  02019                % 10283 RGTR--
+220402129 Esch/Alzette, Porte   02020  02020                % 10283 RGTR--
+220402079 Esch/Alzette, Raemer  02021  02021                % 10283 RGTR--
+220701011 Leudelange, Op der S  02037  02037                % 10283 RGTR--
+220701003 Leudelange, Edeleck   02038  02038                % 10283 RGTR--
+200412018 Gasperich, Scharfen   02043  02043                % 10283 RGTR--
+200412006 Gasperich, Cloche d'  02044  02044                % 10283 RGTR--
+200412021 Gasperich, Gerhard M  02046  02046                % 10283 RGTR--
+200304017 Howald, P&R Howald Q  02046  02046                % 10283 RGTR--
+200304020 Howald, P&R Howald Q  02048                       % 10283 RGTR--
+*Z 10284 RGTR--                                             % 10284 RGTR--
+*L 209      220401001 200304020  02115  02148               % 10284 RGTR--
+*A ag 220401001 200304020 000002  02115  02148              % 10284 RGTR--
+*R 1 200304020 220401001 200304020  02115  02148            % 10284 RGTR--
+*G RGB 220401001 200304020  02115  02148                    % 10284 RGTR--
+*A VE 220401001 200304020 000002  02115  02148              % 10284 RGTR--
+*I FD 220401001 200304020        0002396  02115  02148      % 10284 RGTR--
+220401001 Belval-Université, G         02115                % 10284 RGTR--
+221301027 Belval, Um Bedding    02118  02118                % 10284 RGTR--
+220402077 Belval, Porte de Fra  02119  02119                % 10284 RGTR--
+220402129 Esch/Alzette, Porte   02120  02120                % 10284 RGTR--
+220402079 Esch/Alzette, Raemer  02121  02121                % 10284 RGTR--
+220701011 Leudelange, Op der S  02137  02137                % 10284 RGTR--
+220701003 Leudelange, Edeleck   02138  02138                % 10284 RGTR--
+200412018 Gasperich, Scharfen   02143  02143                % 10284 RGTR--
+200412006 Gasperich, Cloche d'  02144  02144                % 10284 RGTR--
+200412021 Gasperich, Gerhard M  02146  02146                % 10284 RGTR--
+200304017 Howald, P&R Howald Q  02146  02146                % 10284 RGTR--
+200304020 Howald, P&R Howald Q  02148                       % 10284 RGTR--
+*Z 10285 RGTR--                                             % 10285 RGTR--
+*L 209      220401001 200304020  02215  02248               % 10285 RGTR--
+*A ag 220401001 200304020 000002  02215  02248              % 10285 RGTR--
+*R 1 200304020 220401001 200304020  02215  02248            % 10285 RGTR--
+*G RGB 220401001 200304020  02215  02248                    % 10285 RGTR--
+*A VE 220401001 200304020 000002  02215  02248              % 10285 RGTR--
+*I FD 220401001 200304020        0001473  02215  02248      % 10285 RGTR--
+220401001 Belval-Université, G         02215                % 10285 RGTR--
+221301027 Belval, Um Bedding    02218  02218                % 10285 RGTR--
+220402077 Belval, Porte de Fra  02219  02219                % 10285 RGTR--
+220402129 Esch/Alzette, Porte   02220  02220                % 10285 RGTR--
+220402079 Esch/Alzette, Raemer  02221  02221                % 10285 RGTR--
+220701011 Leudelange, Op der S  02237  02237                % 10285 RGTR--
+220701003 Leudelange, Edeleck   02238  02238                % 10285 RGTR--
+200412018 Gasperich, Scharfen   02243  02243                % 10285 RGTR--
+200412006 Gasperich, Cloche d'  02244  02244                % 10285 RGTR--
+200412021 Gasperich, Gerhard M  02246  02246                % 10285 RGTR--
+200304017 Howald, P&R Howald Q  02246  02246                % 10285 RGTR--
+200304020 Howald, P&R Howald Q  02248                       % 10285 RGTR--
+*Z 10286 RGTR--                                             % 10286 RGTR--
+*L 209      220401001 200304020  00645  00733               % 10286 RGTR--
+*A ag 220401001 200304020 000002  00645  00733              % 10286 RGTR--
+*R 1 200304020 220401001 200304020  00645  00733            % 10286 RGTR--
+*G RGB 220401001 200304020  00645  00733                    % 10286 RGTR--
+*A VE 220401001 200304020 000002  00645  00733              % 10286 RGTR--
+*I FD 220401001 200304020        0002762  00645  00733      % 10286 RGTR--
+220401001 Belval-Université, G         00645                % 10286 RGTR--
+221301027 Belval, Um Bedding    00648  00648                % 10286 RGTR--
+220402077 Belval, Porte de Fra  00649  00649                % 10286 RGTR--
+220402129 Esch/Alzette, Porte   00650  00650                % 10286 RGTR--
+220402079 Esch/Alzette, Raemer  00651  00651                % 10286 RGTR--
+220701011 Leudelange, Op der S  00715  00715                % 10286 RGTR--
+220701003 Leudelange, Edeleck   00716  00716                % 10286 RGTR--
+200412018 Gasperich, Scharfen   00726  00726                % 10286 RGTR--
+200412006 Gasperich, Cloche d'  00728  00728                % 10286 RGTR--
+200412021 Gasperich, Gerhard M  00730  00730                % 10286 RGTR--
+200304017 Howald, P&R Howald Q  00731  00731                % 10286 RGTR--
+200304020 Howald, P&R Howald Q  00733                       % 10286 RGTR--
+*Z 10287 RGTR--                                             % 10287 RGTR--
+*L 209      220401001 200304020  00715  00803               % 10287 RGTR--
+*A ag 220401001 200304020 000002  00715  00803              % 10287 RGTR--
+*R 1 200304020 220401001 200304020  00715  00803            % 10287 RGTR--
+*G RGB 220401001 200304020  00715  00803                    % 10287 RGTR--
+*A VE 220401001 200304020 000002  00715  00803              % 10287 RGTR--
+*I FD 220401001 200304020        0001761  00715  00803      % 10287 RGTR--
+220401001 Belval-Université, G         00715                % 10287 RGTR--
+221301027 Belval, Um Bedding    00718  00718                % 10287 RGTR--
+220402077 Belval, Porte de Fra  00719  00719                % 10287 RGTR--
+220402129 Esch/Alzette, Porte   00720  00720                % 10287 RGTR--
+220402079 Esch/Alzette, Raemer  00721  00721                % 10287 RGTR--
+220701011 Leudelange, Op der S  00745  00745                % 10287 RGTR--
+220701003 Leudelange, Edeleck   00746  00746                % 10287 RGTR--
+200412018 Gasperich, Scharfen   00756  00756                % 10287 RGTR--
+200412006 Gasperich, Cloche d'  00758  00758                % 10287 RGTR--
+200412021 Gasperich, Gerhard M  00800  00800                % 10287 RGTR--
+200304017 Howald, P&R Howald Q  00801  00801                % 10287 RGTR--
+200304020 Howald, P&R Howald Q  00803                       % 10287 RGTR--
+*Z 10288 RGTR--                                             % 10288 RGTR--
+*L 209      220401001 200304020  00745  00833               % 10288 RGTR--
+*A ag 220401001 200304020 000002  00745  00833              % 10288 RGTR--
+*R 1 200304020 220401001 200304020  00745  00833            % 10288 RGTR--
+*G RGB 220401001 200304020  00745  00833                    % 10288 RGTR--
+*A VE 220401001 200304020 000002  00745  00833              % 10288 RGTR--
+*I FD 220401001 200304020        0002783  00745  00833      % 10288 RGTR--
+220401001 Belval-Université, G         00745                % 10288 RGTR--
+221301027 Belval, Um Bedding    00748  00748                % 10288 RGTR--
+220402077 Belval, Porte de Fra  00749  00749                % 10288 RGTR--
+220402129 Esch/Alzette, Porte   00750  00750                % 10288 RGTR--
+220402079 Esch/Alzette, Raemer  00751  00751                % 10288 RGTR--
+220701011 Leudelange, Op der S  00815  00815                % 10288 RGTR--
+220701003 Leudelange, Edeleck   00816  00816                % 10288 RGTR--
+200412018 Gasperich, Scharfen   00826  00826                % 10288 RGTR--
+200412006 Gasperich, Cloche d'  00828  00828                % 10288 RGTR--
+200412021 Gasperich, Gerhard M  00830  00830                % 10288 RGTR--
+200304017 Howald, P&R Howald Q  00831  00831                % 10288 RGTR--
+200304020 Howald, P&R Howald Q  00833                       % 10288 RGTR--
+*Z 10289 RGTR--                                             % 10289 RGTR--
+*L 209      220401001 200304020  00815  00903               % 10289 RGTR--
+*A ag 220401001 200304020 000002  00815  00903              % 10289 RGTR--
+*R 1 200304020 220401001 200304020  00815  00903            % 10289 RGTR--
+*G RGB 220401001 200304020  00815  00903                    % 10289 RGTR--
+*A VE 220401001 200304020 000002  00815  00903              % 10289 RGTR--
+*I FD 220401001 200304020        0001728  00815  00903      % 10289 RGTR--
+220401001 Belval-Université, G         00815                % 10289 RGTR--
+221301027 Belval, Um Bedding    00818  00818                % 10289 RGTR--
+220402077 Belval, Porte de Fra  00819  00819                % 10289 RGTR--
+220402129 Esch/Alzette, Porte   00820  00820                % 10289 RGTR--
+220402079 Esch/Alzette, Raemer  00821  00821                % 10289 RGTR--
+220701011 Leudelange, Op der S  00845  00845                % 10289 RGTR--
+220701003 Leudelange, Edeleck   00846  00846                % 10289 RGTR--
+200412018 Gasperich, Scharfen   00856  00856                % 10289 RGTR--
+200412006 Gasperich, Cloche d'  00858  00858                % 10289 RGTR--
+200412021 Gasperich, Gerhard M  00900  00900                % 10289 RGTR--
+200304017 Howald, P&R Howald Q  00901  00901                % 10289 RGTR--
+200304020 Howald, P&R Howald Q  00903                       % 10289 RGTR--
+*Z 10290 RGTR--                                             % 10290 RGTR--
+*L 209      220401001 200304020  00845  00933               % 10290 RGTR--
+*A ag 220401001 200304020 000002  00845  00933              % 10290 RGTR--
+*R 1 200304020 220401001 200304020  00845  00933            % 10290 RGTR--
+*G RGB 220401001 200304020  00845  00933                    % 10290 RGTR--
+*A VE 220401001 200304020 000002  00845  00933              % 10290 RGTR--
+*I FD 220401001 200304020        0003292  00845  00933      % 10290 RGTR--
+220401001 Belval-Université, G         00845                % 10290 RGTR--
+221301027 Belval, Um Bedding    00848  00848                % 10290 RGTR--
+220402077 Belval, Porte de Fra  00849  00849                % 10290 RGTR--
+220402129 Esch/Alzette, Porte   00850  00850                % 10290 RGTR--
+220402079 Esch/Alzette, Raemer  00851  00851                % 10290 RGTR--
+220701011 Leudelange, Op der S  00915  00915                % 10290 RGTR--
+220701003 Leudelange, Edeleck   00916  00916                % 10290 RGTR--
+200412018 Gasperich, Scharfen   00926  00926                % 10290 RGTR--
+200412006 Gasperich, Cloche d'  00928  00928                % 10290 RGTR--
+200412021 Gasperich, Gerhard M  00930  00930                % 10290 RGTR--
+200304017 Howald, P&R Howald Q  00931  00931                % 10290 RGTR--
+200304020 Howald, P&R Howald Q  00933                       % 10290 RGTR--
+*Z 10291 RGTR--                                             % 10291 RGTR--
+*L 209      220401001 200304020  00915  01003               % 10291 RGTR--
+*A ag 220401001 200304020 000002  00915  01003              % 10291 RGTR--
+*R 1 200304020 220401001 200304020  00915  01003            % 10291 RGTR--
+*G RGB 220401001 200304020  00915  01003                    % 10291 RGTR--
+*A VE 220401001 200304020 000002  00915  01003              % 10291 RGTR--
+*I FD 220401001 200304020        0001732  00915  01003      % 10291 RGTR--
+220401001 Belval-Université, G         00915                % 10291 RGTR--
+221301027 Belval, Um Bedding    00918  00918                % 10291 RGTR--
+220402077 Belval, Porte de Fra  00919  00919                % 10291 RGTR--
+220402129 Esch/Alzette, Porte   00920  00920                % 10291 RGTR--
+220402079 Esch/Alzette, Raemer  00921  00921                % 10291 RGTR--
+220701011 Leudelange, Op der S  00945  00945                % 10291 RGTR--
+220701003 Leudelange, Edeleck   00946  00946                % 10291 RGTR--
+200412018 Gasperich, Scharfen   00956  00956                % 10291 RGTR--
+200412006 Gasperich, Cloche d'  00958  00958                % 10291 RGTR--
+200412021 Gasperich, Gerhard M  01000  01000                % 10291 RGTR--
+200304017 Howald, P&R Howald Q  01001  01001                % 10291 RGTR--
+200304020 Howald, P&R Howald Q  01003                       % 10291 RGTR--
+*Z 10292 RGTR--                                             % 10292 RGTR--
+*L 209      200304020 220401001  01620  01709               % 10292 RGTR--
+*A ag 200304020 220401001 000002  01620  01709              % 10292 RGTR--
+*R 2 220401001 200304020 220401001  01620  01709            % 10292 RGTR--
+*G RGB 200304020 220401001  01620  01709                    % 10292 RGTR--
+*A VE 200304020 220401001 000002  01620  01709              % 10292 RGTR--
+*I FD 200304020 220401001        0001912  01620  01709      % 10292 RGTR--
+200304020 Howald, P&R Howald Q         01620                % 10292 RGTR--
+200304008 Howald, P&R Howald Q  01621  01621                % 10292 RGTR--
+200304012 Howald, P&R Howald Q  01624  01624                % 10292 RGTR--
+200412021 Gasperich, Gerhard M  01624  01624                % 10292 RGTR--
+200412006 Gasperich, Cloche d'  01628  01628                % 10292 RGTR--
+200412018 Gasperich, Scharfen   01630  01630                % 10292 RGTR--
+220701003 Leudelange, Edeleck   01634  01634                % 10292 RGTR--
+220701011 Leudelange, Op der S  01636  01636                % 10292 RGTR--
+220402079 Esch/Alzette, Raemer  01703  01703                % 10292 RGTR--
+220402129 Esch/Alzette, Porte   01704  01704                % 10292 RGTR--
+220402077 Belval, Porte de Fra  01705  01705                % 10292 RGTR--
+221301027 Belval, Um Bedding    01706  01706                % 10292 RGTR--
+220401001 Belval-Université, G  01709                       % 10292 RGTR--
+*Z 10293 RGTR--                                             % 10293 RGTR--
+*L 209      200304020 220401001  01650  01739               % 10293 RGTR--
+*A ag 200304020 220401001 000002  01650  01739              % 10293 RGTR--
+*R 2 220401001 200304020 220401001  01650  01739            % 10293 RGTR--
+*G RGB 200304020 220401001  01650  01739                    % 10293 RGTR--
+*A VE 200304020 220401001 000002  01650  01739              % 10293 RGTR--
+*I FD 200304020 220401001        0001292  01650  01739      % 10293 RGTR--
+200304020 Howald, P&R Howald Q         01650                % 10293 RGTR--
+200304008 Howald, P&R Howald Q  01651  01651                % 10293 RGTR--
+200304012 Howald, P&R Howald Q  01654  01654                % 10293 RGTR--
+200412021 Gasperich, Gerhard M  01654  01654                % 10293 RGTR--
+200412006 Gasperich, Cloche d'  01658  01658                % 10293 RGTR--
+200412018 Gasperich, Scharfen   01700  01700                % 10293 RGTR--
+220701003 Leudelange, Edeleck   01704  01704                % 10293 RGTR--
+220701011 Leudelange, Op der S  01706  01706                % 10293 RGTR--
+220402079 Esch/Alzette, Raemer  01733  01733                % 10293 RGTR--
+220402129 Esch/Alzette, Porte   01734  01734                % 10293 RGTR--
+220402077 Belval, Porte de Fra  01735  01735                % 10293 RGTR--
+221301027 Belval, Um Bedding    01736  01736                % 10293 RGTR--
+220401001 Belval-Université, G  01739                       % 10293 RGTR--
+*Z 10294 RGTR--                                             % 10294 RGTR--
+*L 209      200304020 220401001  01720  01809               % 10294 RGTR--
+*A ag 200304020 220401001 000002  01720  01809              % 10294 RGTR--
+*R 2 220401001 200304020 220401001  01720  01809            % 10294 RGTR--
+*G RGB 200304020 220401001  01720  01809                    % 10294 RGTR--
+*A VE 200304020 220401001 000002  01720  01809              % 10294 RGTR--
+*I FD 200304020 220401001        0001914  01720  01809      % 10294 RGTR--
+200304020 Howald, P&R Howald Q         01720                % 10294 RGTR--
+200304008 Howald, P&R Howald Q  01721  01721                % 10294 RGTR--
+200304012 Howald, P&R Howald Q  01724  01724                % 10294 RGTR--
+200412021 Gasperich, Gerhard M  01724  01724                % 10294 RGTR--
+200412006 Gasperich, Cloche d'  01728  01728                % 10294 RGTR--
+200412018 Gasperich, Scharfen   01730  01730                % 10294 RGTR--
+220701003 Leudelange, Edeleck   01734  01734                % 10294 RGTR--
+220701011 Leudelange, Op der S  01736  01736                % 10294 RGTR--
+220402079 Esch/Alzette, Raemer  01803  01803                % 10294 RGTR--
+220402129 Esch/Alzette, Porte   01804  01804                % 10294 RGTR--
+220402077 Belval, Porte de Fra  01805  01805                % 10294 RGTR--
+221301027 Belval, Um Bedding    01806  01806                % 10294 RGTR--
+220401001 Belval-Université, G  01809                       % 10294 RGTR--
+*Z 10295 RGTR--                                             % 10295 RGTR--
+*L 209      200304020 220401001  01750  01839               % 10295 RGTR--
+*A ag 200304020 220401001 000002  01750  01839              % 10295 RGTR--
+*R 2 220401001 200304020 220401001  01750  01839            % 10295 RGTR--
+*G RGB 200304020 220401001  01750  01839                    % 10295 RGTR--
+*A VE 200304020 220401001 000002  01750  01839              % 10295 RGTR--
+*I FD 200304020 220401001        0002392  01750  01839      % 10295 RGTR--
+200304020 Howald, P&R Howald Q         01750                % 10295 RGTR--
+200304008 Howald, P&R Howald Q  01751  01751                % 10295 RGTR--
+200304012 Howald, P&R Howald Q  01754  01754                % 10295 RGTR--
+200412021 Gasperich, Gerhard M  01754  01754                % 10295 RGTR--
+200412006 Gasperich, Cloche d'  01758  01758                % 10295 RGTR--
+200412018 Gasperich, Scharfen   01800  01800                % 10295 RGTR--
+220701003 Leudelange, Edeleck   01804  01804                % 10295 RGTR--
+220701011 Leudelange, Op der S  01806  01806                % 10295 RGTR--
+220402079 Esch/Alzette, Raemer  01833  01833                % 10295 RGTR--
+220402129 Esch/Alzette, Porte   01834  01834                % 10295 RGTR--
+220402077 Belval, Porte de Fra  01835  01835                % 10295 RGTR--
+221301027 Belval, Um Bedding    01836  01836                % 10295 RGTR--
+220401001 Belval-Université, G  01839                       % 10295 RGTR--
+*Z 10296 RGTR--                                             % 10296 RGTR--
+*L 209      200304020 220401001  01820  01909               % 10296 RGTR--
+*A ag 200304020 220401001 000002  01820  01909              % 10296 RGTR--
+*R 2 220401001 200304020 220401001  01820  01909            % 10296 RGTR--
+*G RGB 200304020 220401001  01820  01909                    % 10296 RGTR--
+*A VE 200304020 220401001 000002  01820  01909              % 10296 RGTR--
+*I FD 200304020 220401001        0001917  01820  01909      % 10296 RGTR--
+200304020 Howald, P&R Howald Q         01820                % 10296 RGTR--
+200304008 Howald, P&R Howald Q  01821  01821                % 10296 RGTR--
+200304012 Howald, P&R Howald Q  01824  01824                % 10296 RGTR--
+200412021 Gasperich, Gerhard M  01824  01824                % 10296 RGTR--
+200412006 Gasperich, Cloche d'  01828  01828                % 10296 RGTR--
+200412018 Gasperich, Scharfen   01830  01830                % 10296 RGTR--
+220701003 Leudelange, Edeleck   01834  01834                % 10296 RGTR--
+220701011 Leudelange, Op der S  01836  01836                % 10296 RGTR--
+220402079 Esch/Alzette, Raemer  01903  01903                % 10296 RGTR--
+220402129 Esch/Alzette, Porte   01904  01904                % 10296 RGTR--
+220402077 Belval, Porte de Fra  01905  01905                % 10296 RGTR--
+221301027 Belval, Um Bedding    01906  01906                % 10296 RGTR--
+220401001 Belval-Université, G  01909                       % 10296 RGTR--
+*Z 10297 RGTR--                                             % 10297 RGTR--
+*L 209      200304020 220401001  01850  01939               % 10297 RGTR--
+*A ag 200304020 220401001 000002  01850  01939              % 10297 RGTR--
+*R 2 220401001 200304020 220401001  01850  01939            % 10297 RGTR--
+*G RGB 200304020 220401001  01850  01939                    % 10297 RGTR--
+*A VE 200304020 220401001 000002  01850  01939              % 10297 RGTR--
+*I FD 200304020 220401001        0002393  01850  01939      % 10297 RGTR--
+200304020 Howald, P&R Howald Q         01850                % 10297 RGTR--
+200304008 Howald, P&R Howald Q  01851  01851                % 10297 RGTR--
+200304012 Howald, P&R Howald Q  01854  01854                % 10297 RGTR--
+200412021 Gasperich, Gerhard M  01854  01854                % 10297 RGTR--
+200412006 Gasperich, Cloche d'  01858  01858                % 10297 RGTR--
+200412018 Gasperich, Scharfen   01900  01900                % 10297 RGTR--
+220701003 Leudelange, Edeleck   01904  01904                % 10297 RGTR--
+220701011 Leudelange, Op der S  01906  01906                % 10297 RGTR--
+220402079 Esch/Alzette, Raemer  01933  01933                % 10297 RGTR--
+220402129 Esch/Alzette, Porte   01934  01934                % 10297 RGTR--
+220402077 Belval, Porte de Fra  01935  01935                % 10297 RGTR--
+221301027 Belval, Um Bedding    01936  01936                % 10297 RGTR--
+220401001 Belval-Université, G  01939                       % 10297 RGTR--
+*Z 10298 RGTR--                                             % 10298 RGTR--
+*L 209      200304020 220401001  01920  02009               % 10298 RGTR--
+*A ag 200304020 220401001 000002  01920  02009              % 10298 RGTR--
+*R 2 220401001 200304020 220401001  01920  02009            % 10298 RGTR--
+*G RGB 200304020 220401001  01920  02009                    % 10298 RGTR--
+*A VE 200304020 220401001 000002  01920  02009              % 10298 RGTR--
+*I FD 200304020 220401001        0002755  01920  02009      % 10298 RGTR--
+200304020 Howald, P&R Howald Q         01920                % 10298 RGTR--
+200304008 Howald, P&R Howald Q  01921  01921                % 10298 RGTR--
+200304012 Howald, P&R Howald Q  01924  01924                % 10298 RGTR--
+200412021 Gasperich, Gerhard M  01924  01924                % 10298 RGTR--
+200412006 Gasperich, Cloche d'  01928  01928                % 10298 RGTR--
+200412018 Gasperich, Scharfen   01930  01930                % 10298 RGTR--
+220701003 Leudelange, Edeleck   01934  01934                % 10298 RGTR--
+220701011 Leudelange, Op der S  01936  01936                % 10298 RGTR--
+220402079 Esch/Alzette, Raemer  02003  02003                % 10298 RGTR--
+220402129 Esch/Alzette, Porte   02004  02004                % 10298 RGTR--
+220402077 Belval, Porte de Fra  02005  02005                % 10298 RGTR--
+221301027 Belval, Um Bedding    02006  02006                % 10298 RGTR--
+220401001 Belval-Université, G  02009                       % 10298 RGTR--
+*Z 10299 RGTR--                                             % 10299 RGTR--
+*L 209      200304020 220401001  00720  00753               % 10299 RGTR--
+*A ag 200304020 220401001 000002  00720  00753              % 10299 RGTR--
+*R 2 220401001 200304020 220401001  00720  00753            % 10299 RGTR--
+*G RGB 200304020 220401001  00720  00753                    % 10299 RGTR--
+*A VE 200304020 220401001 000002  00720  00753              % 10299 RGTR--
+*I FD 200304020 220401001        0002390  00720  00753      % 10299 RGTR--
+200304020 Howald, P&R Howald Q         00720                % 10299 RGTR--
+200304008 Howald, P&R Howald Q  00721  00721                % 10299 RGTR--
+200304012 Howald, P&R Howald Q  00723  00723                % 10299 RGTR--
+200412021 Gasperich, Gerhard M  00723  00723                % 10299 RGTR--
+200412006 Gasperich, Cloche d'  00725  00725                % 10299 RGTR--
+200412018 Gasperich, Scharfen   00726  00726                % 10299 RGTR--
+220701003 Leudelange, Edeleck   00730  00730                % 10299 RGTR--
+220701011 Leudelange, Op der S  00731  00731                % 10299 RGTR--
+220402079 Esch/Alzette, Raemer  00747  00747                % 10299 RGTR--
+220402129 Esch/Alzette, Porte   00748  00748                % 10299 RGTR--
+220402077 Belval, Porte de Fra  00749  00749                % 10299 RGTR--
+221301027 Belval, Um Bedding    00750  00750                % 10299 RGTR--
+220401001 Belval-Université, G  00753                       % 10299 RGTR--
+*Z 10300 RGTR--                                             % 10300 RGTR--
+*L 209      200304020 220401001  00820  00853               % 10300 RGTR--
+*A ag 200304020 220401001 000002  00820  00853              % 10300 RGTR--
+*R 2 220401001 200304020 220401001  00820  00853            % 10300 RGTR--
+*G RGB 200304020 220401001  00820  00853                    % 10300 RGTR--
+*A VE 200304020 220401001 000002  00820  00853              % 10300 RGTR--
+*I FD 200304020 220401001        0000856  00820  00853      % 10300 RGTR--
+200304020 Howald, P&R Howald Q         00820                % 10300 RGTR--
+200304008 Howald, P&R Howald Q  00821  00821                % 10300 RGTR--
+200304012 Howald, P&R Howald Q  00823  00823                % 10300 RGTR--
+200412021 Gasperich, Gerhard M  00823  00823                % 10300 RGTR--
+200412006 Gasperich, Cloche d'  00825  00825                % 10300 RGTR--
+200412018 Gasperich, Scharfen   00826  00826                % 10300 RGTR--
+220701003 Leudelange, Edeleck   00830  00830                % 10300 RGTR--
+220701011 Leudelange, Op der S  00831  00831                % 10300 RGTR--
+220402079 Esch/Alzette, Raemer  00847  00847                % 10300 RGTR--
+220402129 Esch/Alzette, Porte   00848  00848                % 10300 RGTR--
+220402077 Belval, Porte de Fra  00849  00849                % 10300 RGTR--
+221301027 Belval, Um Bedding    00850  00850                % 10300 RGTR--
+220401001 Belval-Université, G  00853                       % 10300 RGTR--
+*Z 10301 RGTR--                                             % 10301 RGTR--
+*L 209      200304020 220401001  00920  00953               % 10301 RGTR--
+*A ag 200304020 220401001 000002  00920  00953              % 10301 RGTR--
+*R 2 220401001 200304020 220401001  00920  00953            % 10301 RGTR--
+*G RGB 200304020 220401001  00920  00953                    % 10301 RGTR--
+*A VE 200304020 220401001 000002  00920  00953              % 10301 RGTR--
+*I FD 200304020 220401001        0001892  00920  00953      % 10301 RGTR--
+200304020 Howald, P&R Howald Q         00920                % 10301 RGTR--
+200304008 Howald, P&R Howald Q  00921  00921                % 10301 RGTR--
+200304012 Howald, P&R Howald Q  00923  00923                % 10301 RGTR--
+200412021 Gasperich, Gerhard M  00923  00923                % 10301 RGTR--
+200412006 Gasperich, Cloche d'  00925  00925                % 10301 RGTR--
+200412018 Gasperich, Scharfen   00926  00926                % 10301 RGTR--
+220701003 Leudelange, Edeleck   00930  00930                % 10301 RGTR--
+220701011 Leudelange, Op der S  00931  00931                % 10301 RGTR--
+220402079 Esch/Alzette, Raemer  00947  00947                % 10301 RGTR--
+220402129 Esch/Alzette, Porte   00948  00948                % 10301 RGTR--
+220402077 Belval, Porte de Fra  00949  00949                % 10301 RGTR--
+221301027 Belval, Um Bedding    00950  00950                % 10301 RGTR--
+220401001 Belval-Université, G  00953                       % 10301 RGTR--
+*Z 10302 RGTR--                                             % 10302 RGTR--
+*L 209      200304020 220401001  01020  01053               % 10302 RGTR--
+*A ag 200304020 220401001 000002  01020  01053              % 10302 RGTR--
+*R 2 220401001 200304020 220401001  01020  01053            % 10302 RGTR--
+*G RGB 200304020 220401001  01020  01053                    % 10302 RGTR--
+*A VE 200304020 220401001 000002  01020  01053              % 10302 RGTR--
+*I FD 200304020 220401001        0001895  01020  01053      % 10302 RGTR--
+200304020 Howald, P&R Howald Q         01020                % 10302 RGTR--
+200304008 Howald, P&R Howald Q  01021  01021                % 10302 RGTR--
+200304012 Howald, P&R Howald Q  01023  01023                % 10302 RGTR--
+200412021 Gasperich, Gerhard M  01023  01023                % 10302 RGTR--
+200412006 Gasperich, Cloche d'  01025  01025                % 10302 RGTR--
+200412018 Gasperich, Scharfen   01026  01026                % 10302 RGTR--
+220701003 Leudelange, Edeleck   01030  01030                % 10302 RGTR--
+220701011 Leudelange, Op der S  01031  01031                % 10302 RGTR--
+220402079 Esch/Alzette, Raemer  01047  01047                % 10302 RGTR--
+220402129 Esch/Alzette, Porte   01048  01048                % 10302 RGTR--
+220402077 Belval, Porte de Fra  01049  01049                % 10302 RGTR--
+221301027 Belval, Um Bedding    01050  01050                % 10302 RGTR--
+220401001 Belval-Université, G  01053                       % 10302 RGTR--
+*Z 10303 RGTR--                                             % 10303 RGTR--
+*L 209      200304020 220401001  01120  01153               % 10303 RGTR--
+*A ag 200304020 220401001 000002  01120  01153              % 10303 RGTR--
+*R 2 220401001 200304020 220401001  01120  01153            % 10303 RGTR--
+*G RGB 200304020 220401001  01120  01153                    % 10303 RGTR--
+*A VE 200304020 220401001 000002  01120  01153              % 10303 RGTR--
+*I FD 200304020 220401001        0001898  01120  01153      % 10303 RGTR--
+200304020 Howald, P&R Howald Q         01120                % 10303 RGTR--
+200304008 Howald, P&R Howald Q  01121  01121                % 10303 RGTR--
+200304012 Howald, P&R Howald Q  01123  01123                % 10303 RGTR--
+200412021 Gasperich, Gerhard M  01123  01123                % 10303 RGTR--
+200412006 Gasperich, Cloche d'  01125  01125                % 10303 RGTR--
+200412018 Gasperich, Scharfen   01126  01126                % 10303 RGTR--
+220701003 Leudelange, Edeleck   01130  01130                % 10303 RGTR--
+220701011 Leudelange, Op der S  01131  01131                % 10303 RGTR--
+220402079 Esch/Alzette, Raemer  01147  01147                % 10303 RGTR--
+220402129 Esch/Alzette, Porte   01148  01148                % 10303 RGTR--
+220402077 Belval, Porte de Fra  01149  01149                % 10303 RGTR--
+221301027 Belval, Um Bedding    01150  01150                % 10303 RGTR--
+220401001 Belval-Université, G  01153                       % 10303 RGTR--
+*Z 10304 RGTR--                                             % 10304 RGTR--
+*L 209      200304020 220401001  01220  01253               % 10304 RGTR--
+*A ag 200304020 220401001 000002  01220  01253              % 10304 RGTR--
+*R 2 220401001 200304020 220401001  01220  01253            % 10304 RGTR--
+*G RGB 200304020 220401001  01220  01253                    % 10304 RGTR--
+*A VE 200304020 220401001 000002  01220  01253              % 10304 RGTR--
+*I FD 200304020 220401001        0001901  01220  01253      % 10304 RGTR--
+200304020 Howald, P&R Howald Q         01220                % 10304 RGTR--
+200304008 Howald, P&R Howald Q  01221  01221                % 10304 RGTR--
+200304012 Howald, P&R Howald Q  01223  01223                % 10304 RGTR--
+200412021 Gasperich, Gerhard M  01223  01223                % 10304 RGTR--
+200412006 Gasperich, Cloche d'  01225  01225                % 10304 RGTR--
+200412018 Gasperich, Scharfen   01226  01226                % 10304 RGTR--
+220701003 Leudelange, Edeleck   01230  01230                % 10304 RGTR--
+220701011 Leudelange, Op der S  01231  01231                % 10304 RGTR--
+220402079 Esch/Alzette, Raemer  01247  01247                % 10304 RGTR--
+220402129 Esch/Alzette, Porte   01248  01248                % 10304 RGTR--
+220402077 Belval, Porte de Fra  01249  01249                % 10304 RGTR--
+221301027 Belval, Um Bedding    01250  01250                % 10304 RGTR--
+220401001 Belval-Université, G  01253                       % 10304 RGTR--
+*Z 10305 RGTR--                                             % 10305 RGTR--
+*L 209      200304020 220401001  01320  01353               % 10305 RGTR--
+*A ag 200304020 220401001 000002  01320  01353              % 10305 RGTR--
+*R 2 220401001 200304020 220401001  01320  01353            % 10305 RGTR--
+*G RGB 200304020 220401001  01320  01353                    % 10305 RGTR--
+*A VE 200304020 220401001 000002  01320  01353              % 10305 RGTR--
+*I FD 200304020 220401001        0001903  01320  01353      % 10305 RGTR--
+200304020 Howald, P&R Howald Q         01320                % 10305 RGTR--
+200304008 Howald, P&R Howald Q  01321  01321                % 10305 RGTR--
+200304012 Howald, P&R Howald Q  01323  01323                % 10305 RGTR--
+200412021 Gasperich, Gerhard M  01323  01323                % 10305 RGTR--
+200412006 Gasperich, Cloche d'  01325  01325                % 10305 RGTR--
+200412018 Gasperich, Scharfen   01326  01326                % 10305 RGTR--
+220701003 Leudelange, Edeleck   01330  01330                % 10305 RGTR--
+220701011 Leudelange, Op der S  01331  01331                % 10305 RGTR--
+220402079 Esch/Alzette, Raemer  01347  01347                % 10305 RGTR--
+220402129 Esch/Alzette, Porte   01348  01348                % 10305 RGTR--
+220402077 Belval, Porte de Fra  01349  01349                % 10305 RGTR--
+221301027 Belval, Um Bedding    01350  01350                % 10305 RGTR--
+220401001 Belval-Université, G  01353                       % 10305 RGTR--
+*Z 10306 RGTR--                                             % 10306 RGTR--
+*L 209      200304020 220401001  01420  01453               % 10306 RGTR--
+*A ag 200304020 220401001 000002  01420  01453              % 10306 RGTR--
+*R 2 220401001 200304020 220401001  01420  01453            % 10306 RGTR--
+*G RGB 200304020 220401001  01420  01453                    % 10306 RGTR--
+*A VE 200304020 220401001 000002  01420  01453              % 10306 RGTR--
+*I FD 200304020 220401001        0001906  01420  01453      % 10306 RGTR--
+200304020 Howald, P&R Howald Q         01420                % 10306 RGTR--
+200304008 Howald, P&R Howald Q  01421  01421                % 10306 RGTR--
+200304012 Howald, P&R Howald Q  01423  01423                % 10306 RGTR--
+200412021 Gasperich, Gerhard M  01423  01423                % 10306 RGTR--
+200412006 Gasperich, Cloche d'  01425  01425                % 10306 RGTR--
+200412018 Gasperich, Scharfen   01426  01426                % 10306 RGTR--
+220701003 Leudelange, Edeleck   01430  01430                % 10306 RGTR--
+220701011 Leudelange, Op der S  01431  01431                % 10306 RGTR--
+220402079 Esch/Alzette, Raemer  01447  01447                % 10306 RGTR--
+220402129 Esch/Alzette, Porte   01448  01448                % 10306 RGTR--
+220402077 Belval, Porte de Fra  01449  01449                % 10306 RGTR--
+221301027 Belval, Um Bedding    01450  01450                % 10306 RGTR--
+220401001 Belval-Université, G  01453                       % 10306 RGTR--
+*Z 10307 RGTR--                                             % 10307 RGTR--
+*L 209      200304020 220401001  01520  01553               % 10307 RGTR--
+*A ag 200304020 220401001 000002  01520  01553              % 10307 RGTR--
+*R 2 220401001 200304020 220401001  01520  01553            % 10307 RGTR--
+*G RGB 200304020 220401001  01520  01553                    % 10307 RGTR--
+*A VE 200304020 220401001 000002  01520  01553              % 10307 RGTR--
+*I FD 200304020 220401001        0001909  01520  01553      % 10307 RGTR--
+200304020 Howald, P&R Howald Q         01520                % 10307 RGTR--
+200304008 Howald, P&R Howald Q  01521  01521                % 10307 RGTR--
+200304012 Howald, P&R Howald Q  01523  01523                % 10307 RGTR--
+200412021 Gasperich, Gerhard M  01523  01523                % 10307 RGTR--
+200412006 Gasperich, Cloche d'  01525  01525                % 10307 RGTR--
+200412018 Gasperich, Scharfen   01526  01526                % 10307 RGTR--
+220701003 Leudelange, Edeleck   01530  01530                % 10307 RGTR--
+220701011 Leudelange, Op der S  01531  01531                % 10307 RGTR--
+220402079 Esch/Alzette, Raemer  01547  01547                % 10307 RGTR--
+220402129 Esch/Alzette, Porte   01548  01548                % 10307 RGTR--
+220402077 Belval, Porte de Fra  01549  01549                % 10307 RGTR--
+221301027 Belval, Um Bedding    01550  01550                % 10307 RGTR--
+220401001 Belval-Université, G  01553                       % 10307 RGTR--
+*Z 10308 RGTR--                                             % 10308 RGTR--
+*L 209      200304020 220401001  02020  02053               % 10308 RGTR--
+*A ag 200304020 220401001 000002  02020  02053              % 10308 RGTR--
+*R 2 220401001 200304020 220401001  02020  02053            % 10308 RGTR--
+*G RGB 200304020 220401001  02020  02053                    % 10308 RGTR--
+*A VE 200304020 220401001 000002  02020  02053              % 10308 RGTR--
+*I FD 200304020 220401001        0003658  02020  02053      % 10308 RGTR--
+200304020 Howald, P&R Howald Q         02020                % 10308 RGTR--
+200304008 Howald, P&R Howald Q  02021  02021                % 10308 RGTR--
+200304012 Howald, P&R Howald Q  02023  02023                % 10308 RGTR--
+200412021 Gasperich, Gerhard M  02023  02023                % 10308 RGTR--
+200412006 Gasperich, Cloche d'  02025  02025                % 10308 RGTR--
+200412018 Gasperich, Scharfen   02026  02026                % 10308 RGTR--
+220701003 Leudelange, Edeleck   02030  02030                % 10308 RGTR--
+220701011 Leudelange, Op der S  02031  02031                % 10308 RGTR--
+220402079 Esch/Alzette, Raemer  02047  02047                % 10308 RGTR--
+220402129 Esch/Alzette, Porte   02048  02048                % 10308 RGTR--
+220402077 Belval, Porte de Fra  02049  02049                % 10308 RGTR--
+221301027 Belval, Um Bedding    02050  02050                % 10308 RGTR--
+220401001 Belval-Université, G  02053                       % 10308 RGTR--
+*Z 10309 RGTR--                                             % 10309 RGTR--
+*L 209      200304020 220401001  02120  02153               % 10309 RGTR--
+*A ag 200304020 220401001 000002  02120  02153              % 10309 RGTR--
+*R 2 220401001 200304020 220401001  02120  02153            % 10309 RGTR--
+*G RGB 200304020 220401001  02120  02153                    % 10309 RGTR--
+*A VE 200304020 220401001 000002  02120  02153              % 10309 RGTR--
+*I FD 200304020 220401001        0003665  02120  02153      % 10309 RGTR--
+200304020 Howald, P&R Howald Q         02120                % 10309 RGTR--
+200304008 Howald, P&R Howald Q  02121  02121                % 10309 RGTR--
+200304012 Howald, P&R Howald Q  02123  02123                % 10309 RGTR--
+200412021 Gasperich, Gerhard M  02123  02123                % 10309 RGTR--
+200412006 Gasperich, Cloche d'  02125  02125                % 10309 RGTR--
+200412018 Gasperich, Scharfen   02126  02126                % 10309 RGTR--
+220701003 Leudelange, Edeleck   02130  02130                % 10309 RGTR--
+220701011 Leudelange, Op der S  02131  02131                % 10309 RGTR--
+220402079 Esch/Alzette, Raemer  02147  02147                % 10309 RGTR--
+220402129 Esch/Alzette, Porte   02148  02148                % 10309 RGTR--
+220402077 Belval, Porte de Fra  02149  02149                % 10309 RGTR--
+221301027 Belval, Um Bedding    02150  02150                % 10309 RGTR--
+220401001 Belval-Université, G  02153                       % 10309 RGTR--
+*Z 10310 RGTR--                                             % 10310 RGTR--
+*L 209      200304020 220401001  02220  02253               % 10310 RGTR--
+*A ag 200304020 220401001 000002  02220  02253              % 10310 RGTR--
+*R 2 220401001 200304020 220401001  02220  02253            % 10310 RGTR--
+*G RGB 200304020 220401001  02220  02253                    % 10310 RGTR--
+*A VE 200304020 220401001 000002  02220  02253              % 10310 RGTR--
+*I FD 200304020 220401001        0003666  02220  02253      % 10310 RGTR--
+200304020 Howald, P&R Howald Q         02220                % 10310 RGTR--
+200304008 Howald, P&R Howald Q  02221  02221                % 10310 RGTR--
+200304012 Howald, P&R Howald Q  02223  02223                % 10310 RGTR--
+200412021 Gasperich, Gerhard M  02223  02223                % 10310 RGTR--
+200412006 Gasperich, Cloche d'  02225  02225                % 10310 RGTR--
+200412018 Gasperich, Scharfen   02226  02226                % 10310 RGTR--
+220701003 Leudelange, Edeleck   02230  02230                % 10310 RGTR--
+220701011 Leudelange, Op der S  02231  02231                % 10310 RGTR--
+220402079 Esch/Alzette, Raemer  02247  02247                % 10310 RGTR--
+220402129 Esch/Alzette, Porte   02248  02248                % 10310 RGTR--
+220402077 Belval, Porte de Fra  02249  02249                % 10310 RGTR--
+221301027 Belval, Um Bedding    02250  02250                % 10310 RGTR--
+220401001 Belval-Université, G  02253                       % 10310 RGTR--
+*Z 10311 RGTR--                                             % 10311 RGTR--
+*L 209      200304020 220401001  02320  02353               % 10311 RGTR--
+*A ag 200304020 220401001 000002  02320  02353              % 10311 RGTR--
+*R 2 220401001 200304020 220401001  02320  02353            % 10311 RGTR--
+*G RGB 200304020 220401001  02320  02353                    % 10311 RGTR--
+*A VE 200304020 220401001 000002  02320  02353              % 10311 RGTR--
+*I FD 200304020 220401001        0003667  02320  02353      % 10311 RGTR--
+200304020 Howald, P&R Howald Q         02320                % 10311 RGTR--
+200304008 Howald, P&R Howald Q  02321  02321                % 10311 RGTR--
+200304012 Howald, P&R Howald Q  02323  02323                % 10311 RGTR--
+200412021 Gasperich, Gerhard M  02323  02323                % 10311 RGTR--
+200412006 Gasperich, Cloche d'  02325  02325                % 10311 RGTR--
+200412018 Gasperich, Scharfen   02326  02326                % 10311 RGTR--
+220701003 Leudelange, Edeleck   02330  02330                % 10311 RGTR--
+220701011 Leudelange, Op der S  02331  02331                % 10311 RGTR--
+220402079 Esch/Alzette, Raemer  02347  02347                % 10311 RGTR--
+220402129 Esch/Alzette, Porte   02348  02348                % 10311 RGTR--
+220402077 Belval, Porte de Fra  02349  02349                % 10311 RGTR--
+221301027 Belval, Um Bedding    02350  02350                % 10311 RGTR--
+220401001 Belval-Université, G  02353                       % 10311 RGTR--
