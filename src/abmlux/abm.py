@@ -17,6 +17,7 @@ import logging
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+import dateparser
 
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
@@ -31,7 +32,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
     # ------------------------------------------------[ Config ]------------------------------------
     activity_manager = ActivityManager(config['activities'])
-    clock            = SimClock(config['tick_length_s'], config['simulation_length_days'])
+    clock            = SimClock(config['tick_length_s'], config['simulation_length_days'], dateparser.parse(config['epoch']))
 
 
     # ------------------------------------------------[ Agents ]------------------------------------
@@ -124,7 +125,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
         infectious_count = {l: len([a for a in l.attendees if a.health == HealthStatus.INFECTED]) for l in locations}
         return infectious_count
 
-    def get_agent_transition(agent, time_in_week, infected_count_by_location=None):
+    def get_agent_transition(agent, weekday, infected_count_by_location=None):
 
         # The dead don't participate
         if agent.health == HealthStatus.DEAD:
@@ -168,7 +169,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
                     next_health = HealthStatus.RECOVERED
 
         # --- Update activity status ---
-        weighted_next_activity_options = activity_transition_matrix[agent.agetyp][time_in_week][agent.current_activity]
+        weighted_next_activity_options = activity_transition_matrix[agent.agetyp][weekday][agent.current_activity]
         possible_next_activity         = random_tools.multinoulli_dict(weighted_next_activity_options)
 
         if possible_next_activity != agent.current_activity:
@@ -192,13 +193,13 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
 
         # Move people around the network
-        time_in_week = int(t % clock.ticks_in_week) # How far through the week are we, in ticks?
+        weekday = clock.now().weekday()
 
         # Compute next state for each agent
         infectious_agents_cache = infectious_agents_by_location(locations)
         next_agent_state = {}
         for agent in agents:
-            transition = get_agent_transition(agent, time_in_week, infectious_agents_cache)
+            transition = get_agent_transition(agent, weekday, infectious_agents_cache)
             if transition is not None:
                 next_agent_state[agent] = transition
 
@@ -219,7 +220,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
 
         status = {h.name: health_status_by_time[h.name][t-1] for h in list(HealthStatus)}
-        log.debug(f"[{t}] {clock.time_elapsed()} elapsed.   {status}.  {len(next_agent_state)} state changes.")
+        log.debug(f"[{t}/{clock.max_ticks} ({100*t/clock.max_ticks :0.2f}%)] {clock.now()}.   {status}.  {len(next_agent_state)} state changes.")
 
     # ------------------------------------------------[ Return output ]------------------------------------
     return health_status_by_time

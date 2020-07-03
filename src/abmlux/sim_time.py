@@ -1,10 +1,10 @@
 
-from datetime import timedelta
+from datetime import datetime,timedelta
 
 class SimClock:
     """Tracks time ticking forward one 'tick' at a time."""
 
-    def __init__(self, tick_length_s, simulation_length_days=100):
+    def __init__(self, tick_length_s, simulation_length_days=100, epoch=datetime.now()):
 
         self.tick_length_s = tick_length_s
         self.ticks_in_minute = 60       / self.tick_length_s
@@ -12,6 +12,7 @@ class SimClock:
         self.ticks_in_day    = 86400    / self.tick_length_s
         self.ticks_in_week   = 604800   / self.tick_length_s
 
+        self.epoch         = epoch
         self.t             = 0
         self.max_ticks     = int(self.days_to_ticks(simulation_length_days))
 
@@ -28,6 +29,9 @@ class SimClock:
     def __len__(self):
         return self.max_ticks
 
+    def now(self):
+        return self.epoch + self.time_elapsed()
+
     def ticks_elapsed(self):
         return self.t
 
@@ -38,7 +42,7 @@ class SimClock:
         return self.ticks_to_timedelta(self.t)
 
     def time_remaining(self):
-        return self.ticks_to_timedelta(self.max_ticks) - self.time_elapsed()
+        return self.ticks_to_timedelta(self.max_ticks - self.t)
 
     def seconds_elapsed(self):
         return self.t * self.tick_length_s
