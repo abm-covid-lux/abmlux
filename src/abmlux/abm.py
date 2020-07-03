@@ -28,6 +28,104 @@ import abmlux.random_tools as random_tools
 
 log = logging.getLogger('sim')
 
+
+
+
+
+
+def get_p_death_func(p_death_config):
+    """Return a function that takes an age and returns
+    the absolute probability of death at the end of the
+    infectious period"""
+
+    # Make a slow lookup by checking the range.
+    #
+    # Assumes no overlapping ranges.
+    def p_death_slow(age):
+        for rng, p in p_death_config:
+            if age >= rng[0] and age < rng[1]:
+                return p
+        return 0.0
+
+    # Make a fast lookup. and use this for integers.
+    # Fall through to the slow one if not in the list
+    oldest_item = max([x[0][1] for x in p_death_config])
+    fast_lookup = [p_death_slow(x) for x in range(0, oldest_item)]
+    def p_death_fast(age):
+        if age in fast_lookup:
+            return fast_lookup[age]
+        return p_death_slow(age)
+
+    return p_death_fast
+
+
+
+
+
+
+def get_agent_transition(agent, weekday, time_since_state_change, infectious_agents_by_location, infection_probabilities_per_tick,
+                         activity_transition_matrix, infectious_ticks, incubation_ticks):
+
+    # The dead don't participate
+    if agent.health == HealthStatus.DEAD:
+        return
+
+    next_health   = None
+    next_activity = None
+    next_location = None
+
+    # --- If susceptible, risk of infection from all infected people
+    #     at the current location ---
+    if agent.health == HealthStatus.SUSCEPTIBLE:
+        location = agent.current_location
+
+        # If we have been handed a cache object then use this, else
+        # we have to recompute for every agent, which takes a while.
+        num_infectious_agents = infectious_agents_by_location[location]
+        p_infection           = infection_probabilities_per_tick[location.typ]
+
+        # We'll be exposed n times, so compute a new overall probability of catching
+        # the virus from at least one person:
+        p_infection = 1 - (1-p_infection)**num_infectious_agents
+        if random_tools.boolean(p_infection):
+            next_health = HealthStatus.EXPOSED
+
+    # --- Update health status ---
+    if agent.health == HealthStatus.EXPOSED:
+        # If we have incubated for long enough, become infected
+        if time_since_state_change > incubation_ticks:
+            next_health = HealthStatus.INFECTED
+    elif agent.health == HealthStatus.INFECTED:
+        # If we have been infected for long enough, become uninfected (i.e.
+        # dead or recovered)
+        if time_since_state_change > infectious_ticks:
+            # die or recover?
+            if random_tools.boolean(p_death(agent.age)):
+                next_health = HealthStatus.DEAD
+            else:
+                next_health = HealthStatus.RECOVERED
+
+    # --- Update activity status ---
+    weighted_next_activity_options = activity_transition_matrix[agent.agetyp][weekday][agent.current_activity]
+    possible_next_activity         = random_tools.multinoulli_dict(weighted_next_activity_options)
+
+    if possible_next_activity != agent.current_activity:
+        allowable_locations = agent.locations_for_activity(possible_next_activity)
+
+        next_activity = possible_next_activity
+        next_location = random.choice(list(allowable_locations))
+
+    # Return a 3-tuple if we have done anything, else None
+    if next_health is not None or next_activity is not None or next_location is not None:
+        return next_health, next_activity, next_location
+
+    return None
+
+
+
+
+
+
 def run_model(config, network, initial_activity_distributions, activity_transition_matrix):
 
     # ------------------------------------------------[ Config ]------------------------------------
@@ -47,31 +145,6 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
     incubation_ticks = clock.days_to_ticks(config['incubation_period_days'])
     infectious_ticks = clock.days_to_ticks(config['infectious_period_days'])
-
-    def get_p_death_func(p_death_config):
-        """Return a function that takes an age and returns
-        the absolute probability of death at the end of the
-        infectious period"""
-
-        # Make a slow lookup by checking the range.
-        #
-        # Assumes no overlapping ranges.
-        def p_death_slow(age):
-            for rng, p in p_death_config:
-                if age >= rng[0] and age < rng[1]:
-                    return p
-            return 0.0
-
-        # Make a fast lookup. and use this for integers.
-        # Fall through to the slow one if not in the list
-        oldest_item = max([x[0][1] for x in p_death_config])
-        fast_lookup = [p_death_slow(x) for x in range(0, oldest_item)]
-        def p_death_fast(age):
-            if age in fast_lookup:
-                return fast_lookup[age]
-            return p_death_slow(age)
-
-        return p_death_fast
 
     p_death = get_p_death_func(config['probability_of_death'])
 
@@ -116,65 +189,6 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
     # they cannot move directly to another shop.
 
 
-    def get_agent_transition(agent, weekday, infectious_agents_by_location):
-
-        # The dead don't participate
-        if agent.health == HealthStatus.DEAD:
-            return
-
-        next_health   = None
-        next_activity = None
-        next_location = None
-
-        # --- If susceptible, risk of infection from all infected people 
-        #     at the current location ---
-        if agent.health == HealthStatus.SUSCEPTIBLE:
-            location = agent.current_location
-
-            # If we have been handed a cache object then use this, else
-            # we have to recompute for every agent, which takes a while.
-            num_infectious_agents = infectious_agents_by_location[location]
-            p_infection           = config['infection_probabilities_per_tick'][location.typ]
-
-            # We'll be exposed n times, so compute a new overall probability of catching
-            # the virus from at least one person:
-            p_infection = 1 - (1-p_infection)**num_infectious_agents
-            if random_tools.boolean(p_infection):
-                next_health = HealthStatus.EXPOSED
-
-        # --- Update health status ---
-        if agent.health == HealthStatus.EXPOSED:
-            # If we have incubated for long enough, become infected
-            ticks_since_exposure = t - agent_health_state_change_time[agent]
-            if ticks_since_exposure > incubation_ticks:
-                next_health = HealthStatus.INFECTED
-        elif agent.health == HealthStatus.INFECTED:
-            # If we have been infected for long enough, become uninfected (i.e.
-            # dead or recovered)
-            ticks_since_infection = t - agent_health_state_change_time[agent]
-            if ticks_since_infection > infectious_ticks:
-                # die or recover?
-                if random_tools.boolean(p_death(agent.age)):
-                    next_health = HealthStatus.DEAD
-                else:
-                    next_health = HealthStatus.RECOVERED
-
-        # --- Update activity status ---
-        weighted_next_activity_options = activity_transition_matrix[agent.agetyp][weekday][agent.current_activity]
-        possible_next_activity         = random_tools.multinoulli_dict(weighted_next_activity_options)
-
-        if possible_next_activity != agent.current_activity:
-            allowable_locations = agent.locations_for_activity(possible_next_activity)
-
-            next_activity = possible_next_activity
-            next_location = random.choice(list(allowable_locations))
-
-        # Return a 3-tuple if we have done anything, else None
-        if next_health is not None or next_activity is not None or next_location is not None:
-            return next_health, next_activity, next_location
-        return None
-
-
     # For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
     # 3-tuples, indexed by agent.
     agent_health_state_change_time = {a: 0 for a in agents}
@@ -188,9 +202,11 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
         # Compute next state for each agent
         next_agent_state = {}
         for agent in agents:
-            transition = get_agent_transition(agent, weekday, infectious_agents_by_location)
+            transition = get_agent_transition(agent, weekday, t - agent_health_state_change_time[agent], infectious_agents_by_location,
+                                              config['infection_probabilities_per_tick'], activity_transition_matrix, infectious_ticks,
+                                              incubation_ticks)
             if transition is not None:
-                next_agent_state[agent] = transition
+               next_agent_state[agent] = transition
 
         # Update states according to markov chain
         for agent, transition in next_agent_state.items():
