@@ -40,7 +40,7 @@ class Location:
             y = x[1]
             x = x[0]
 
-        self.coord = [x, y]
+        self.coord = (x, y)
 
     def inspect(self):
         return (f"<Location {self.uuid}; type={self.typ}, "

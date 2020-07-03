@@ -81,8 +81,10 @@ class Agent:
     def set_home(self, location):
         if self.home is not None:
             self.remove_allowed_location(self.home)
+            location.remove_occupant(self)
 
         self.home = location
+        location.add_occupant(self)
 
         if not location in self.allowed_locations:
             self.add_allowed_location(location)

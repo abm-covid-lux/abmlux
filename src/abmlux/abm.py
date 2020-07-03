@@ -35,12 +35,10 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
 
     # ------------------------------------------------[ Agents ]------------------------------------
-    locations_by_type = network['locations_by_type']
-    locations         = utils.flatten(locations_by_type.values())
-    agents_by_type    = network['agents_by_type']
-    agents            = utils.flatten(agents_by_type.values())
-
-    utils.print_memory_usage()
+    locations_by_type = network.locations_by_type
+    locations         = network.locations
+    agents_by_type    = network.agents_by_type
+    agents            = network.agents
 
 
     # ------------------------------------------------[ Locations ]------------------------------------
