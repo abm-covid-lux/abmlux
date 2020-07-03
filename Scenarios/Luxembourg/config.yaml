@@ -14,7 +14,7 @@ logging:
       format: '[%(levelname)s] %(name)s: %(message)s'
   handlers:
     default:
-      level: DEBUG
+      level: INFO
       formatter: standard
       class: logging.StreamHandler
       stream: 'ext://sys.stdout'  # Default is stderr
@@ -111,30 +111,6 @@ location_counts:
   Museum or Zoo: 77
 
 
-# For the following location types, all people from a household
-# are assigned to this location.
-#
-# Agents are assigned their closest item, except where this is
-# full, after which the assignment will overflow onto the next
-# closest, etc.
-home_assignment_types:
-  - School
-  - Medical
-  - Place of Worship
-  - Indoor Sport
-
-# Which of the above location are classed as
-# somewhere agents go to entertain themselves?
-#
-# Entries in this list must match keys form location_counts
-entertainment_locations:
-  - Restaurant
-  - Public Transport
-  - Shop
-  - Cinema or Theatre
-  - Museum or Zoo
-
-
 # ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
 # and secondary activities.  Here we map them onto our own list
@@ -200,6 +176,43 @@ activities:
     primary: [4]
     secondary: [395,426,429,515,521,523,524]
     allowed_locations: [House]
+
+
+
+# For the following location types, all people from a household
+# are assigned to the same locations for these activities.
+#
+# Agents are assigned their closest item, except where this is
+# full, after which the assignment will overflow onto the next
+# closest, etc.
+whole_household_activities:
+  - School
+  - Medical
+  - Place of Worship
+  - Indoor Sport
+
+# Which of the above location are classed as
+# somewhere agents go to entertain themselves?
+#
+# Entries in this list must match keys form location_counts
+entertainment_activities:
+  - Restaurant
+  - Public Transport
+  - Shop
+  - Cinema or Theatre
+  - Museum or Zoo
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # ##################### Pathogen Properties ########################

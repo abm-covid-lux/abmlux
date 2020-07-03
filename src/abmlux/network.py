@@ -1,6 +1,6 @@
 
 
-
+import abmlux.utils as utils
 
 class Network:
 
@@ -35,5 +35,21 @@ class Network:
         if location_type not in self.locations_by_type:
             return 0
         return len(self.locations_by_type[location_type])
+
+
+
+
+    def locations_for_types(self, location_types):
+        """Return a list of allowable locations for all of the types
+        given.
+
+        location_types may be a string, or a list of strings."""
+
+        if isinstance(location_types, str):
+            location_types = [location_types]
+
+        stuff = [self.locations_by_type[lt] for lt in location_types]
+        return utils.flatten(stuff)
+
 
 

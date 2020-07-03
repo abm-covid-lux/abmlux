@@ -92,19 +92,18 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
     log.debug(f"Seeding initial activity states and locations...")
     for agent in agents:
-        # allowed_locations = []
-        # while len(allowed_locations) == 0:
         new_activity           = random_tools.multinoulli_dict(initial_activity_distributions[agent.agetyp])
-        allowed_location_types = activity_manager.get_location_types(new_activity)
-        allowed_locations      = agent.find_allowed_locations_by_type(allowed_location_types)
+        allowed_locations      = agent.locations_for_activity(new_activity)
 
         if len(allowed_locations) == 0:
             log.warn(f"Warning: No allowed locations found for agent {agent.inspect()} for activity {new_activity}"\
-                     f" (allowed location types={allowed_location_types})."\
                      f"  Will resample from the starting distribution, but this is not ideal.")
 
-        # Do this activity in this location
-        agent.set_activity(new_activity, random.choice(list(allowed_locations)))
+        new_location = random.choice(list(allowed_locations))
+
+        # Do this activity in a random location
+        agent.set_activity(new_activity, new_location)
+
 
 
 
@@ -117,15 +116,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
     # they cannot move directly to another shop.
 
 
-    def infectious_agents_by_location(locations):
-        """Returns a key-value mapping of locations to the number of
-        infectious agents at that location.  Used to compute the probability that an agent
-        will catch the pathogen when at that location."""
-
-        infectious_count = {l: len([a for a in l.attendees if a.health == HealthStatus.INFECTED]) for l in locations}
-        return infectious_count
-
-    def get_agent_transition(agent, weekday, infected_count_by_location=None):
+    def get_agent_transition(agent, weekday, infectious_agents_by_location):
 
         # The dead don't participate
         if agent.health == HealthStatus.DEAD:
@@ -142,7 +133,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
             # If we have been handed a cache object then use this, else
             # we have to recompute for every agent, which takes a while.
-            num_infectious_agents = infected_count_by_location[location]
+            num_infectious_agents = infectious_agents_by_location[location]
             p_infection           = config['infection_probabilities_per_tick'][location.typ]
 
             # We'll be exposed n times, so compute a new overall probability of catching
@@ -173,8 +164,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
         possible_next_activity         = random_tools.multinoulli_dict(weighted_next_activity_options)
 
         if possible_next_activity != agent.current_activity:
-            allowable_location_types = activity_manager.get_location_types(possible_next_activity)
-            allowable_locations      = agent.find_allowed_locations_by_type(allowable_location_types)
+            allowable_locations = agent.locations_for_activity(possible_next_activity)
 
             next_activity = possible_next_activity
             next_location = random.choice(list(allowable_locations))
@@ -188,18 +178,17 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
     # For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
     # 3-tuples, indexed by agent.
     agent_health_state_change_time = {a: 0 for a in agents}
-    health_status_by_time = {h.name: [] for h in list(HealthStatus)}
-    for t in clock:
-
+    health_status_by_time          = {h.name: [] for h in list(HealthStatus)}
+    infectious_agents_by_location  = {l: len([a for a in l.attendees if a.health == HealthStatus.INFECTED]) for l in locations}
+    for t in tqdm(clock):
 
         # Move people around the network
         weekday = clock.now().weekday()
 
         # Compute next state for each agent
-        infectious_agents_cache = infectious_agents_by_location(locations)
         next_agent_state = {}
         for agent in agents:
-            transition = get_agent_transition(agent, weekday, infectious_agents_cache)
+            transition = get_agent_transition(agent, weekday, infectious_agents_by_location)
             if transition is not None:
                 next_agent_state[agent] = transition
 
@@ -208,23 +197,37 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
             next_health, next_activity, next_location = transition
 
-            if next_health is not None:
-                agent.health = next_health
             if next_activity is not None:
+                # When an infected agent leaves a location, deduct from the running total
+                if agent.health == HealthStatus.INFECTED:
+                    infectious_agents_by_location[agent.current_location] -= 1
+
                 agent.set_activity(next_activity, next_location)
+
+                # When an infected agent moves to a location, increment the running total
+                if agent.health == HealthStatus.INFECTED:
+                    infectious_agents_by_location[agent.current_location] += 1
+
+            if next_health is not None:
+
+                # When an infected agent becomes uninfected, decrement counter
+                if agent.health == HealthStatus.INFECTED and next_health != HealthStatus.INFECTED:
+                    infectious_agents_by_location[agent.current_location] -= 1
+
+                agent.health = next_health
+
+                # When an uninfected agent becomes infected, increment counter
+                if agent.health != HealthStatus.INFECTED and next_health == HealthStatus.INFECTED:
+                    infectious_agents_by_location[agent.current_location] += 1
 
 
         # Count statuses, adding a row to the counts
         for h in list(HealthStatus):
             health_status_by_time[h.name].append( len([a for a in agents if a.health == h]) )
 
-
-        status = {h.name: health_status_by_time[h.name][t-1] for h in list(HealthStatus)}
-        log.debug(f"[{t}/{clock.max_ticks} ({100*t/clock.max_ticks :0.2f}%)] {clock.now()}.   {status}.  {len(next_agent_state)} state changes.")
+        log.debug(f"[{t}/{clock.max_ticks} ({100*t/clock.max_ticks :0.2f}%)] {clock.now()}.   "
+                  f"{{h.name: health_status_by_time[h.name][t-1] for h in list(HealthStatus)}}.  {len(next_agent_state)} state changes.")
 
     # ------------------------------------------------[ Return output ]------------------------------------
     return health_status_by_time
 
-
-    # FIXME: - House and Other House don't function correctly
-    #        - No logging of stats as the sim runs

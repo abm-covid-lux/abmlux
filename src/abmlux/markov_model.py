@@ -60,7 +60,7 @@ def build_markov_model(config):
     # recoded as numbers in the set {0,...,13}, as described in the file FormatActivities.
 
 
-    def get_tus_code_mapping(map_config, ActivityType):
+    def get_tus_code_mapping(map_config, activity_manager):
         """Return a function mapping TUS activity codes onto those used
         in this model.
 
@@ -88,9 +88,9 @@ def build_markov_model(config):
             secondary = v['secondary'] or [] if 'secondary' in v else []
 
             for p in primary:
-                mapping_pri[p] = ActivityType[abm_code].value
+                mapping_pri[p] = activity_manager.as_int(abm_code)
             for s in secondary:
-                mapping_sec[s] = ActivityType[abm_code].value
+                mapping_sec[s] = activity_manager.as_int(abm_code)
 
         # Define mapping function, enclosing the above mapping
         def tus_activity_to_abm_activity(tus_pri, tus_sec):
@@ -143,7 +143,7 @@ def build_markov_model(config):
         return days
 
 
-    map_func = get_tus_code_mapping(config['activities'], activity_manager.map_class)
+    map_func = get_tus_code_mapping(config['activities'], activity_manager)
     days     = parse_days(tus, map_func)
     log.info(f"Created {len(days)} days")
 
@@ -202,7 +202,7 @@ def build_markov_model(config):
     # AgentType.ADULT: {action: weight,
     #                   action2: weight2},
     #
-    init_distribution_by_type = {typ: {activity: 0 for activity in activity_manager.types_as_int}
+    init_distribution_by_type = {typ: {activity: 0 for activity in activity_manager.types_as_int()}
                        for typ in POPULATION_RANGES.keys()}
     for week in weeks:
         for typ, rng in POPULATION_RANGES.items():
@@ -223,8 +223,8 @@ def build_markov_model(config):
     # TODO: simplify this structure.  It's far too hard to follow
     transition_matrix = {typ:
                          [
-                          {x: {y: 0 for y in activity_manager.types_as_int}
-                           for x in activity_manager.types_as_int}
+                          {x: {y: 0 for y in activity_manager.types_as_int()}
+                          for x in activity_manager.types_as_int()}
                           for _ in range(WEEK_LENGTH_10MIN)]
                          for typ in POPULATION_RANGES.keys()}
 
