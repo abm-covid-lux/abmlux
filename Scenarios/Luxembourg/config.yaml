@@ -1,4 +1,37 @@
 ---
+# ################################# Simulation Params ########################
+
+# Seed for python's PRNG
+random_seed: 652
+
+# Format is https://docs.python.org/3/library/logging.config.html#logging-config-dictschema
+logging:
+  version: 1
+  disable_existing_loggers: False
+  formatters:
+    standard:
+      # format: '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+      format: '[%(levelname)s] %(name)s: %(message)s'
+  handlers:
+    default:
+      level: INFO
+      formatter: standard
+      class: logging.StreamHandler
+      stream: 'ext://sys.stdout'  # Default is stderr
+  loggers:
+    '':   # root logger
+      handlers: ['default']
+      level: DEBUG
+      propagate: False
+#    'my.packg':
+#      handlers: ['default']
+#      level: INFO
+#      propagate: False
+#    '__main__':
+#        handlers': ['default']
+#        level: DEBUG
+#        propagate: False
+
 # ################################# Filepaths ########################
 # Relative to this config file location
 
@@ -23,7 +56,7 @@ results_dir: Results/
 
 # ################################# Population ########################
 # Total number of agents on the network
-n: 10_000
+n: 626_108
 
 # Total population in reality.  If this
 # equals n above then the scale factor will be 1,
@@ -44,8 +77,12 @@ tick_length_s: 600
 #
 # Note the number of iterations will be computed from the tick length
 # above.
-simulation_length_days: 1  # 10 weeks
+simulation_length_days: 70  # 10 weeks
 
+# When the simulation starts
+# syntax is anything accepted by Dateparser: 
+# https://dateparser.readthedocs.io/en/latest/
+epoch: 10th March 2020
 
 # ################################# Locations ########################
 # How many of these locations should exist on the network.
@@ -72,30 +109,6 @@ location_counts:
   Indoor Sport: 199
   Cinema or Theatre: 34
   Museum or Zoo: 77
-
-
-# For the following location types, all people from a household
-# are assigned to this location.
-#
-# Agents are assigned their closest item, except where this is
-# full, after which the assignment will overflow onto the next
-# closest, etc.
-home_assignment_types:
-  - School
-  - Medical
-  - Place of Worship
-  - Indoor Sport
-
-# Which of the above location are classed as
-# somewhere agents go to entertain themselves?
-#
-# Entries in this list must match keys form location_counts
-entertainment_locations:
-  - Restaurant
-  - Public Transport
-  - Shop
-  - Cinema or Theatre
-  - Museum or Zoo
 
 
 # ################################# Activities ########################
@@ -163,6 +176,43 @@ activities:
     primary: [4]
     secondary: [395,426,429,515,521,523,524]
     allowed_locations: [House]
+
+
+
+# For the following location types, all people from a household
+# are assigned to the same locations for these activities.
+#
+# Agents are assigned their closest item, except where this is
+# full, after which the assignment will overflow onto the next
+# closest, etc.
+whole_household_activities:
+  - School
+  - Medical
+  - Place of Worship
+  - Indoor Sport
+
+# Which of the above location are classed as
+# somewhere agents go to entertain themselves?
+#
+# Entries in this list must match keys form location_counts
+entertainment_activities:
+  - Restaurant
+  - Public Transport
+  - Shop
+  - Cinema or Theatre
+  - Museum or Zoo
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # ##################### Pathogen Properties ########################

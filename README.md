@@ -5,30 +5,16 @@ This is an agent-based model of COVID-19 in Luxembourg.
 ## Overview
 
 ### Input Data
-
-Simulation parameters:
- * Total Population (N) --- in `NetworkModel`
- * Total Duration in weeks (T) --- in `ABM`
-
-### Output Data
-
-TBD
+Defined per-scenario in Scenarios/Name.  See the yaml config file for descriptions of each of the parameters.
 
 ## Requirements
 
- * A recent python (TODO: what is this tested on?)
- * `pip install -r requirements.txt`
-
+ * python 3.8
 
 ## Usage
 
- 1. python3 density\_model.py
- 2. python3 network\_model.py
- 3. python3 markov\_model.py
- 4. python3 density\_simulation.py
- 5. python3 markov\_simulation.py    # FIXME: broken?
- 6. python3 network\_simulation.py
- 7. python3 abm.py
+ * `pip install .`
+ * `abmlux Scenarios/Luxembourg/config.yaml`
 
 
 
