@@ -132,11 +132,11 @@ def main():
     logging.config.dictConfig(config['logging'])
 
     # Log level output
-    log.debug("DEBUG")
-    log.info("INFO")
-    log.warn("WARN")
-    log.error("ERROR")
-    log.fatal("FATAL")
+    # log.debug("DEBUG")
+    # log.info("INFO")
+    # log.warn("WARN")
+    # log.error("ERROR")
+    # log.fatal("FATAL")
 
 
     # Figure out what we're doing

@@ -108,6 +108,7 @@ def assign_homes(network, config, activity_manager, home_activity_type):
     log.debug(f"{len(unassigned_houses)} unassigned houses, {len(unclaimed_children)} unassigned children")
 
     houses_with_children = set()
+    occupancy = {l: [] for l in unassigned_houses}
     while len(unclaimed_children) > 0 and len(unassigned_houses) > 0:
 
         # Sample weighted by the aux data
@@ -123,6 +124,7 @@ def assign_homes(network, config, activity_manager, home_activity_type):
         # and associate the children with the house
         for child in children:
             child.add_activity_location(activity_manager.as_int(home_activity_type), house)
+            occupancy[house].append(child)
         houses_with_children.add(house)
     log.debug(f"{len(houses_with_children)} houses have >=1 children.  {len(unassigned_houses)} houses have no occupants yet")
 
@@ -145,6 +147,7 @@ def assign_homes(network, config, activity_manager, home_activity_type):
         # Assign to house
         for adult in adults:
             adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
+            occupancy[house].append(adult)
 
     #
     # 2. Remaining adults, and retired people,
@@ -159,6 +162,9 @@ def assign_homes(network, config, activity_manager, home_activity_type):
     for adult in tqdm(unassigned_agents):
         house = random.choice(houses)
         adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
+        occupancy[house].append(adult)
+
+    return occupancy
 
 
 def assign_workplaces(network, config, activity_manager, work_activity_type):
@@ -206,9 +212,11 @@ def assign_entertainment_venues(network, config, activity_manager, entertainment
         agent.add_activity_location(activity_manager.as_int(entertainment_activity_type), new_entertainments)
 
 
-def assign_householders_by_proximity(network, config, activity_manager, home_activity_type, activity_type):
+def assign_householders_by_proximity(network, config, activity_manager, occupancy, activity_type):
     """For the location type given, select nearby houses and assign all occupants to
     attend this location.  If the location is full, move to the next nearby location, etc."""
+
+    log.info(f"Assigning proximate locations for activity {activity_type}...")
 
     # The following code assigns homes to locations in such a way that equal numbers of homes are
     # assigned to each location of a given type. For example, from the list of homes, a home is
@@ -254,8 +262,8 @@ def assign_householders_by_proximity(network, config, activity_manager, home_act
 
         # Add all occupants of this house to the location
         num_houses[closest_location] += 1
-        occupants = [a for a in network.agents if house in a.activity_locations[activity_manager.as_int(home_activity_type)]]   # FIXME: inefficient
-        for occupant in occupants:
+
+        for occupant in occupancy[house]:
             occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
 
 
@@ -272,7 +280,7 @@ def assign_outdoors(network, config, activity_manager, outdoor_activity_type):
         agent.add_activity_location(activity_manager.as_int(outdoor_activity_type), outdoor_locations[0])
 
 
-def assign_cars(network, config, activity_manager, home_activity_type, car_activity_type):
+def assign_cars(network, config, activity_manager, occupancy, car_activity_type):
     """Assign cars to houses.  This means updating the location to match
     the house, and ensuring all occupants at the house see the "car" activity
     as using that particular car"""
@@ -287,8 +295,7 @@ def assign_cars(network, config, activity_manager, home_activity_type, car_activ
     for car, house in tqdm(zip(cars, houses)):
         car.set_coordinates(house.coord)
 
-        occupants = [a for a in network.agents if house in a.activity_locations[activity_manager.as_int(home_activity_type)]]   # FIXME: inefficient
-        for occupant in occupants:
+        for occupant in occupancy[house]:
             occupant.add_activity_location(activity_manager.as_int(car_activity_type), car)
 
 
@@ -304,7 +311,7 @@ def build_network_model(config, density):
 
     log.info("Assigning locations to agents...")
 
-    assign_homes(network, config, activity_manager, "House")
+    occupancy = assign_homes(network, config, activity_manager, "House")
     assign_workplaces(network, config, activity_manager, "Work")
     assign_other_houses(network, config, activity_manager, "House", "Other House")
 
@@ -312,10 +319,10 @@ def build_network_model(config, density):
         assign_entertainment_venues(network, config, activity_manager, entertainment_activity_type)
 
     for activity_type in config['whole_household_activities']:
-        assign_householders_by_proximity(network, config, activity_manager, "House", activity_type)
+        assign_householders_by_proximity(network, config, activity_manager, occupancy, activity_type)
 
     assign_outdoors(network, config, activity_manager, "Outdoor")
-    assign_cars(network, config, activity_manager, "House", "Car")
+    assign_cars(network, config, activity_manager, occupancy, "Car")
 
     return network
 

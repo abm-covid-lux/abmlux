@@ -64,7 +64,7 @@ def get_p_death_func(p_death_config):
 
 
 def get_agent_transition(agent, weekday, time_since_state_change, infectious_agents_by_location, infection_probabilities_per_tick,
-                         activity_transition_matrix, infectious_ticks, incubation_ticks):
+                         activity_transition_matrix, infectious_ticks, incubation_ticks, p_death):
 
     # The dead don't participate
     if agent.health == HealthStatus.DEAD:
@@ -204,7 +204,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
         for agent in agents:
             transition = get_agent_transition(agent, weekday, t - agent_health_state_change_time[agent], infectious_agents_by_location,
                                               config['infection_probabilities_per_tick'], activity_transition_matrix, infectious_ticks,
-                                              incubation_ticks)
+                                              incubation_ticks, p_death)
             if transition is not None:
                next_agent_state[agent] = transition
 
