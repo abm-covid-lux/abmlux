@@ -28,8 +28,8 @@ PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
 # Config
 MAP_FILENAME                   = 'Density_Map.pickle'
 NETWORK_FILENAME               = "Network.pickle"
-INITIAL_DISTRIBUTIONS_FILENAME = 'Initial_Activities.pickle'
-TRANSITION_MATRIX_FILENAME     = 'Activity_Transition_Matrix.pickle'
+INITIAL_DISTRIBUTIONS_FILENAME = 'Activity Distributions.pickle'
+TRANSITION_MATRIX_FILENAME     = 'Activity Transitions.pickle'
 AGENT_COUNTS_FILENAME          = "Agent_Counts.csv"
 
 
@@ -75,12 +75,12 @@ def build_markov(config):
     # ############## Input Data #############
 
     # ############## Run Stage ##############
-    initial_activity_distributions, activity_transition_matrix = build_markov_model(config)
+    activity_distributions, activity_transitions = build_markov_model(config)
 
 
     # ############## Output Data ##############
-    write_to_disk(initial_activity_distributions, osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
-    write_to_disk(activity_transition_matrix, osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
+    write_to_disk(activity_distributions, osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
+    write_to_disk(activity_transitions, osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
 
 
 def run_sim(config):
@@ -89,12 +89,12 @@ def run_sim(config):
     # ------------------------------------------------[ 4 ]------------------------------------
     # Step four: simulate
     # ############## Input Data ##############
-    network                        = read_from_disk(osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
-    initial_activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
-    activity_transition_matrix     = read_from_disk(osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
+    network                = read_from_disk(osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
+    activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
+    activity_transitions   = read_from_disk(osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
 
     # ############## Run Stage ##############
-    health_status_by_time = run_model(config, network, initial_activity_distributions, activity_transition_matrix)
+    health_status_by_time = run_model(config, network, activity_distributions, activity_transitions)
 
     # ############## Output Data ##############
     agent_counts_filename = osp.join(config.filepath('results_dir', True), AGENT_COUNTS_FILENAME)

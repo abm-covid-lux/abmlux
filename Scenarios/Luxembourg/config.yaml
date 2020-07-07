@@ -56,7 +56,7 @@ results_dir: Results/
 
 # ################################# Population ########################
 # Total number of agents on the network
-n: 626_108
+n: 10_108
 
 # Total population in reality.  If this
 # equals n above then the scale factor will be 1,
@@ -82,7 +82,7 @@ simulation_length_days: 70  # 10 weeks
 # When the simulation starts
 # syntax is anything accepted by Dateparser: 
 # https://dateparser.readthedocs.io/en/latest/
-epoch: 10th March 2020
+epoch: 22nd March 2020 11pm
 
 # ################################# Locations ########################
 # How many of these locations should exist on the network.

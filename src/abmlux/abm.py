@@ -31,8 +31,6 @@ log = logging.getLogger('sim')
 
 
 
-
-
 def get_p_death_func(p_death_config):
     """Return a function that takes an age and returns
     the absolute probability of death at the end of the
@@ -63,8 +61,8 @@ def get_p_death_func(p_death_config):
 
 
 
-def get_agent_transition(agent, weekday, time_since_state_change, infectious_agents_by_location, infection_probabilities_per_tick,
-                         activity_transition_matrix, infectious_ticks, incubation_ticks, p_death):
+def get_agent_transition(agent, ticks_through_week, time_since_state_change, infectious_agents_by_location, infection_probabilities_per_tick,
+                         activity_transitions, infectious_ticks, incubation_ticks, p_death):
 
     # The dead don't participate
     if agent.health == HealthStatus.DEAD:
@@ -106,9 +104,9 @@ def get_agent_transition(agent, weekday, time_since_state_change, infectious_age
                 next_health = HealthStatus.RECOVERED
 
     # --- Update activity status ---
-    weighted_next_activity_options = activity_transition_matrix[agent.agetyp][weekday][agent.current_activity]
-    possible_next_activity         = random_tools.multinoulli_dict(weighted_next_activity_options)
-
+    # if agent.agetyp == AgentType.RETIRED:
+    #     print(f"-> {agent.inspect()}, {ticks_through_week}")
+    possible_next_activity = activity_transitions[agent.agetyp][ticks_through_week].get_transition(agent.current_activity)
     if possible_next_activity != agent.current_activity:
         allowable_locations = agent.locations_for_activity(possible_next_activity)
 
@@ -126,7 +124,7 @@ def get_agent_transition(agent, weekday, time_since_state_change, infectious_age
 
 
 
-def run_model(config, network, initial_activity_distributions, activity_transition_matrix):
+def run_model(config, network, activity_distributions, activity_transitions):
 
     # ------------------------------------------------[ Config ]------------------------------------
     activity_manager = ActivityManager(config['activities'])
@@ -134,9 +132,7 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
 
     # ------------------------------------------------[ Agents ]------------------------------------
-    locations_by_type = network.locations_by_type
     locations         = network.locations
-    agents_by_type    = network.agents_by_type
     agents            = network.agents
 
 
@@ -165,8 +161,12 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
 
     log.debug(f"Seeding initial activity states and locations...")
     for agent in agents:
-        new_activity           = random_tools.multinoulli_dict(initial_activity_distributions[agent.agetyp])
-        allowed_locations      = agent.locations_for_activity(new_activity)
+
+        # Get distribution for this type at the starting time step
+        distribution = activity_distributions[agent.agetyp][clock.epoch_week_offset]
+        assert sum(distribution.values()) > 0
+        new_activity      = random_tools.multinoulli_dict(distribution)
+        allowed_locations = agent.locations_for_activity(new_activity)
 
         if len(allowed_locations) == 0:
             log.warn(f"Warning: No allowed locations found for agent {agent.inspect()} for activity {new_activity}"\
@@ -197,13 +197,13 @@ def run_model(config, network, initial_activity_distributions, activity_transiti
     for t in tqdm(clock):
 
         # Move people around the network
-        weekday = clock.now().weekday()
+        ticks_through_week = clock.ticks_through_week()
 
         # Compute next state for each agent
         next_agent_state = {}
         for agent in agents:
-            transition = get_agent_transition(agent, weekday, t - agent_health_state_change_time[agent], infectious_agents_by_location,
-                                              config['infection_probabilities_per_tick'], activity_transition_matrix, infectious_ticks,
+            transition = get_agent_transition(agent, ticks_through_week, t - agent_health_state_change_time[agent], infectious_agents_by_location,
+                                              config['infection_probabilities_per_tick'], activity_transitions, infectious_ticks,
                                               incubation_ticks, p_death)
             if transition is not None:
                next_agent_state[agent] = transition
