@@ -29,7 +29,7 @@ from .agent import AgentType, POPULATION_RANGES
 from .activity import ActivityManager
 import abmlux.utils as utils
 import abmlux.random_tools as random_tools
-from .transition_matrix import TransitionMatrix
+from .transition_matrix import SplitTransitionMatrix
 
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
@@ -148,10 +148,11 @@ def build_markov_model(config):
     log.info(f"Created {len(days)} days")
 
     # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
-    #For each respondent there are now two daily routines; one for a week day and one for a weekend day. 
-    #Copies of these routines are now concatenated so as to produce weekly routines, starting on Sunday.
+    # For each respondent there are now two daily routines; one for a week day and one for a
+    # weekend day.  Copies of these routines are now concatenated so as to produce weekly routines,
+    # starting on Sunday.
 
-    # ---------------------------------------------------------------------------------------------------
+    # ---------------------------------------------------------------------------------------------
     log.info('Generating weekly routines...')
 
     def create_weekly_routines(days):
@@ -224,7 +225,7 @@ def build_markov_model(config):
     #  - Each activity has a W[next activity]
     #  - Each 10 minute slice has a transition matrix between activities
     #
-    activity_transitions = {typ: [TransitionMatrix(activity_manager.types_as_int()) for _ in range(WEEK_LENGTH_10MIN)]
+    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int()) for _ in range(WEEK_LENGTH_10MIN)]
                          for typ in POPULATION_RANGES.keys()}
 
     # Do all but the last item, which should loop around
@@ -245,20 +246,20 @@ def build_markov_model(config):
 
 
     # DEBUG
-    for t in tqdm(range(WEEK_LENGTH_10MIN)):
-        distribution = activity_distributions[AgentType.RETIRED][t]
-        transitions  = activity_transitions[AgentType.RETIRED][t]
+    # for t in tqdm(range(WEEK_LENGTH_10MIN)):
+    #     distribution = activity_distributions[AgentType.RETIRED][t]
+    #     transitions  = activity_transitions[AgentType.RETIRED][t]
 
-        for activity in activity_manager.types_as_int():
-            if distribution[activity] > 0 and transitions.x_marginal(activity) == 0:
+    #     for activity in activity_manager.types_as_int():
+    #         if distribution[activity] > 0 and transitions.x_marginal(activity) == 0:
 
-                print(f"-> {t=}")
-                print(f"-> {activity=}")
-                print(f"-> {distribution=}")
-                print(f"-> {distribution[activity]=}")
-                print(f"-> {transitions.transitions[activity]=}")
-                print(f"-> {transitions.x_marginals=}")
+    #             print(f"-> {t=}")
+    #             print(f"-> {activity=}")
+    #             print(f"-> {distribution=}")
+    #             print(f"-> {distribution[activity]=}")
+    #             print(f"-> {transitions.transitions[activity]=}")
+    #             print(f"-> {transitions.x_marginals=}")
 
-                import code; code.interact(local=locals())
+    #             import code; code.interact(local=locals())
 
     return activity_distributions, activity_transitions

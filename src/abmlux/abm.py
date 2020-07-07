@@ -67,11 +67,13 @@ def get_activity_transitions(agents, ticks_through_week, activity_transitions):
 
     for agent in agents:
 
-        possible_next_activity = activity_transitions[agent.agetyp][ticks_through_week].get_transition(agent.current_activity)
-        if possible_next_activity != agent.current_activity:
-            allowable_locations = agent.locations_for_activity(possible_next_activity)
+        if activity_transitions[agent.agetyp][ticks_through_week].get_no_trans(agent.current_activity):
+            continue
 
-            next_activities.append( (agent, possible_next_activity, random.choice(list(allowable_locations))) )
+        next_activity       = activity_transitions[agent.agetyp][ticks_through_week].get_transition(agent.current_activity)
+        allowable_locations = agent.locations_for_activity(next_activity)
+
+        next_activities.append( (agent, next_activity, random.choice(list(allowable_locations))) )
 
     return next_activities
 
@@ -84,6 +86,8 @@ def get_health_transitions(t, agents_by_health_state, infectious_agents_by_locat
 
     next_health   = []
  
+    # We'll be exposed n times, so compute a new overall probability of catching
+    # the virus from at least one person:
     infection_probability_by_location = {l: 1 - (1-infection_probabilities_per_tick[l.typ])**c
                                          for l, c in infectious_agents_by_location.items()
                                          if c > 0}
@@ -93,11 +97,7 @@ def get_health_transitions(t, agents_by_health_state, infectious_agents_by_locat
         location = agent.current_location
         if infectious_agents_by_location[location] == 0:
             continue
-        # p_infection           = infection_probabilities_per_tick[location.typ]
 
-        # We'll be exposed n times, so compute a new overall probability of catching
-        # the virus from at least one person:
-        # p_infection = 1 - (1-p_infection)**infectious_agents_by_location[location]
         if random_tools.boolean(infection_probability_by_location[location]):
             next_health.append((agent, HealthStatus.EXPOSED))
 
