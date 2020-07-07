@@ -61,64 +61,105 @@ def get_p_death_func(p_death_config):
 
 
 
-def get_agent_transition(agent, ticks_through_week, time_since_state_change, infectious_agents_by_location, infection_probabilities_per_tick,
-                         activity_transitions, infectious_ticks, incubation_ticks, p_death):
+def get_activity_transitions(agents, ticks_through_week, activity_transitions):
 
-    # The dead don't participate
-    if agent.health == HealthStatus.DEAD:
-        return
+    next_activities = []
 
-    next_health   = None
-    next_activity = None
-    next_location = None
+    for agent in agents:
 
-    # --- If susceptible, risk of infection from all infected people
-    #     at the current location ---
-    if agent.health == HealthStatus.SUSCEPTIBLE:
+        possible_next_activity = activity_transitions[agent.agetyp][ticks_through_week].get_transition(agent.current_activity)
+        if possible_next_activity != agent.current_activity:
+            allowable_locations = agent.locations_for_activity(possible_next_activity)
+
+            next_activities.append( (agent, possible_next_activity, random.choice(list(allowable_locations))) )
+
+    return next_activities
+
+
+
+
+def get_health_transitions(t, agents_by_health_state, infectious_agents_by_location, infection_probabilities_per_tick,
+                          agent_health_state_change_time, incubation_ticks, infectious_ticks, p_death):
+    """Return a list of health transitions agents should enact this tick"""
+
+    next_health   = []
+ 
+    infection_probability_by_location = {l: 1 - (1-infection_probabilities_per_tick[l.typ])**c
+                                         for l, c in infectious_agents_by_location.items()
+                                         if c > 0}
+    for agent in agents_by_health_state[HealthStatus.SUSCEPTIBLE]:
+
+        # Read useful things
         location = agent.current_location
-
-        # If we have been handed a cache object then use this, else
-        # we have to recompute for every agent, which takes a while.
-        num_infectious_agents = infectious_agents_by_location[location]
-        p_infection           = infection_probabilities_per_tick[location.typ]
+        if infectious_agents_by_location[location] == 0:
+            continue
+        # p_infection           = infection_probabilities_per_tick[location.typ]
 
         # We'll be exposed n times, so compute a new overall probability of catching
         # the virus from at least one person:
-        p_infection = 1 - (1-p_infection)**num_infectious_agents
-        if random_tools.boolean(p_infection):
-            next_health = HealthStatus.EXPOSED
+        # p_infection = 1 - (1-p_infection)**infectious_agents_by_location[location]
+        if random_tools.boolean(infection_probability_by_location[location]):
+            next_health.append((agent, HealthStatus.EXPOSED))
 
-    # --- Update health status ---
-    if agent.health == HealthStatus.EXPOSED:
+
+    for agent in agents_by_health_state[HealthStatus.EXPOSED]:
+        time_since_state_change = t - agent_health_state_change_time[agent]
+
         # If we have incubated for long enough, become infected
         if time_since_state_change > incubation_ticks:
-            next_health = HealthStatus.INFECTED
-    elif agent.health == HealthStatus.INFECTED:
+            next_health.append((agent, HealthStatus.INFECTED))
+
+
+
+    for agent in agents_by_health_state[HealthStatus.INFECTED]:
+        time_since_state_change = t - agent_health_state_change_time[agent]
         # If we have been infected for long enough, become uninfected (i.e.
         # dead or recovered)
         if time_since_state_change > infectious_ticks:
             # die or recover?
             if random_tools.boolean(p_death(agent.age)):
-                next_health = HealthStatus.DEAD
+                next_health.append((agent, HealthStatus.DEAD))
             else:
-                next_health = HealthStatus.RECOVERED
+                next_health.append((agent, HealthStatus.RECOVERED))
+ 
+    return next_health
 
-    # --- Update activity status ---
-    # if agent.agetyp == AgentType.RETIRED:
-    #     print(f"-> {agent.inspect()}, {ticks_through_week}")
-    possible_next_activity = activity_transitions[agent.agetyp][ticks_through_week].get_transition(agent.current_activity)
-    if possible_next_activity != agent.current_activity:
-        allowable_locations = agent.locations_for_activity(possible_next_activity)
 
-        next_activity = possible_next_activity
-        next_location = random.choice(list(allowable_locations))
 
-    # Return a 3-tuple if we have done anything, else None
-    if next_health is not None or next_activity is not None or next_location is not None:
-        return next_health, next_activity, next_location
 
-    return None
 
+
+
+def update_agents(t, agents_by_health_state, infectious_agents_by_location, health_state_change_time, health_changes, activity_changes):
+
+        # 2.1 - Update health status
+        for agent, new_health in health_changes:
+
+            # Remove from index
+            agents_by_health_state[agent.health].remove(agent)
+            if agent.health == HealthStatus.INFECTED:
+                infectious_agents_by_location[agent.current_location] -= 1
+
+            # Update
+            agent.health                    = new_health
+            health_state_change_time[agent] = t
+
+            # Add to index
+            agents_by_health_state[agent.health].add(agent)
+            if agent.health == HealthStatus.INFECTED:
+                infectious_agents_by_location[agent.current_location] += 1
+
+
+        # 2.2 - Update activity
+        for agent, new_activity, new_location in activity_changes:
+
+            # Update index
+            if agent.health == HealthStatus.INFECTED:
+                infectious_agents_by_location[agent.current_location] -= 1
+                infectious_agents_by_location[new_location] += 1
+
+            # Update
+            agent.set_activity(new_activity, new_location)
 
 
 
@@ -143,15 +184,6 @@ def run_model(config, network, activity_distributions, activity_transitions):
     infectious_ticks = clock.days_to_ticks(config['infectious_period_days'])
 
     p_death = get_p_death_func(config['probability_of_death'])
-
-
-
-    # If two individuals, one susceptible and one infectious, spend ten minutes together in location j,
-    # then prob[j] is the average number of times, out of 10000 trials, that the susceptible will become
-    # infected:
-    p_transmit_by_location_type = {x: y for x, y in config['infection_probabilities_per_tick'].items()}
-
-
 
     # ------------------------------------------[ Initial state ]------------------------------------
     log.debug(f"Loading initial state for simulation...")
@@ -189,61 +221,30 @@ def run_model(config, network, activity_distributions, activity_transitions):
     # they cannot move directly to another shop.
 
 
-    # For each agent, record where it is going next.  Entries are (HealthStatus, activity, location)
-    # 3-tuples, indexed by agent.
-    agent_health_state_change_time = {a: 0 for a in agents}
-    health_status_by_time          = {h.name: [] for h in list(HealthStatus)}
-    infectious_agents_by_location  = {l: len([a for a in l.attendees if a.health == HealthStatus.INFECTED]) for l in locations}
+    # These lists keep track of the simulation.  This is an optimisation to prevent us from
+    # having to loop over every agent at every tick
+    health_state_change_time      = {a: 0 for a in agents}
+    infectious_agents_by_location = {l: len([a for a in l.attendees if a.health == HealthStatus.INFECTED]) for l in locations}
+    agents_by_health_state        = {h: set([a for a in agents if a.health == h]) for h in list(HealthStatus)}
+
     for t in tqdm(clock):
 
-        # Move people around the network
-        ticks_through_week = clock.ticks_through_week()
+        # - 1 - Compute changes and pop them on the list
+        health_changes =  get_health_transitions(t, agents_by_health_state, infectious_agents_by_location,
+                                                 config['infection_probabilities_per_tick'],
+                                                 health_state_change_time, incubation_ticks,
+                                                 infectious_ticks, p_death)
 
-        # Compute next state for each agent
-        next_agent_state = {}
-        for agent in agents:
-            transition = get_agent_transition(agent, ticks_through_week, t - agent_health_state_change_time[agent], infectious_agents_by_location,
-                                              config['infection_probabilities_per_tick'], activity_transitions, infectious_ticks,
-                                              incubation_ticks, p_death)
-            if transition is not None:
-               next_agent_state[agent] = transition
+        activity_changes = get_activity_transitions(agents, clock.ticks_through_week(), activity_transitions)
 
-        # Update states according to markov chain
-        for agent, transition in next_agent_state.items():
+        # print(f"-> { {k.name[0]: len(v) for k, v in agents_by_health_state.items()} }, {len(health_changes)} dhealth, {len(activity_changes)} dactivity")
 
-            next_health, next_activity, next_location = transition
-
-            if next_activity is not None:
-                # When an infected agent leaves a location, deduct from the running total
-                if agent.health == HealthStatus.INFECTED:
-                    infectious_agents_by_location[agent.current_location] -= 1
-
-                agent.set_activity(next_activity, next_location)
-
-                # When an infected agent moves to a location, increment the running total
-                if agent.health == HealthStatus.INFECTED:
-                    infectious_agents_by_location[agent.current_location] += 1
-
-            if next_health is not None:
-
-                # When an infected agent becomes uninfected, decrement counter
-                if agent.health == HealthStatus.INFECTED and next_health != HealthStatus.INFECTED:
-                    infectious_agents_by_location[agent.current_location] -= 1
-
-                agent.health = next_health
-
-                # When an uninfected agent becomes infected, increment counter
-                if agent.health != HealthStatus.INFECTED and next_health == HealthStatus.INFECTED:
-                    infectious_agents_by_location[agent.current_location] += 1
+        # - 2 - Actually enact changes in an atomic manner
+        update_agents(t, agents_by_health_state, infectious_agents_by_location,
+                      health_state_change_time, health_changes, activity_changes)
 
 
-        # Count statuses, adding a row to the counts
-        for h in list(HealthStatus):
-            health_status_by_time[h.name].append( len([a for a in agents if a.health == h]) )
-
-        log.debug(f"[{t}/{clock.max_ticks} ({100*t/clock.max_ticks :0.2f}%)] {clock.now()}.   "
-                  f"{{h.name: health_status_by_time[h.name][t-1] for h in list(HealthStatus)}}.  {len(next_agent_state)} state changes.")
 
     # ------------------------------------------------[ Return output ]------------------------------------
-    return health_status_by_time
+    return None
 
