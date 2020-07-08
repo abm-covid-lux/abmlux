@@ -14,7 +14,7 @@ import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 from abmlux.simulator import Simulator
-from abmlux.reporter import BasicCLIReporter
+from abmlux.reporter import BasicCLIReporter, CSVReporter
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
 
@@ -111,7 +111,7 @@ def run_sim(config):
 
     # Reporters
     # TODO: make configurable
-    reporters = [BasicCLIReporter()]
+    reporters = [BasicCLIReporter(), CSVReporter("/tmp/out.csv")]
 
     # ############## Run Stage ##############
     sim = Simulator(config, network, activity_transitions, reporters)
