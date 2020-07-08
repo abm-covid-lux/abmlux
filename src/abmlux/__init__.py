@@ -17,7 +17,7 @@ from .density_model import read_density_model_jrc
 from .network_model import build_network_model
 from .markov_model import build_markov_model
 from .abm import run_model
-from .activity import ActivityManager
+from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
 
 # Support modules

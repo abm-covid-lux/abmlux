@@ -2,7 +2,7 @@
 import logging
 import uuid
 from enum import IntEnum
-from collections import Iterable
+from collections.abc import Iterable
 
 
 log = logging.getLogger("agent")

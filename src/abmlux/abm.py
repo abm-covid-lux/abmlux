@@ -21,7 +21,7 @@ from tqdm import tqdm
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
 from .sim_time import SimClock
-from .activity import ActivityManager
+from .activity_manager import ActivityManager
 import abmlux.utils as utils
 import abmlux.random_tools as random_tools
 

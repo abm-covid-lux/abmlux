@@ -20,7 +20,7 @@ from scipy.spatial import KDTree
 from .random_tools import multinoulli, multinoulli_2d, multinoulli_dict
 from .agent import Agent, AgentType, POPULATION_SLICES
 from .location import Location
-from .activity import ActivityManager
+from .activity_manager import ActivityManager
 from .network import Network
 
 
