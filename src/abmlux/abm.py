@@ -17,7 +17,6 @@ import logging
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-import dateparser
 
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
@@ -169,7 +168,7 @@ def run_model(config, network, activity_distributions, activity_transitions):
 
     # ------------------------------------------------[ Config ]------------------------------------
     activity_manager = ActivityManager(config['activities'])
-    clock            = SimClock(config['tick_length_s'], config['simulation_length_days'], dateparser.parse(config['epoch']))
+    clock            = SimClock(config['tick_length_s'], config['simulation_length_days'], config['epoch'])
 
 
     # ------------------------------------------------[ Agents ]------------------------------------
@@ -237,7 +236,7 @@ def run_model(config, network, activity_distributions, activity_transitions):
 
         activity_changes = get_activity_transitions(agents, clock.ticks_through_week(), activity_transitions)
 
-        # print(f"-> { {k.name[0]: len(v) for k, v in agents_by_health_state.items()} }, {len(health_changes)} dhealth, {len(activity_changes)} dactivity")
+        print(f"[{t}: {clock.now()}] { {k.name[0]: len(v) for k, v in agents_by_health_state.items()} }, {len(health_changes)} dhealth, {len(activity_changes)} dactivity")
 
         # - 2 - Actually enact changes in an atomic manner
         update_agents(t, agents_by_health_state, infectious_agents_by_location,

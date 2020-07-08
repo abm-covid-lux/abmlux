@@ -1,5 +1,6 @@
 
 from datetime import datetime,timedelta
+import dateparser
 
 import logging
 log = logging.getLogger("sim_time")
@@ -8,6 +9,9 @@ class SimClock:
     """Tracks time ticking forward one 'tick' at a time."""
 
     def __init__(self, tick_length_s, simulation_length_days=100, epoch=datetime.now()):
+
+        if isinstance(epoch, str):
+            epoch = dateparser.parse(epoch)
 
         self.tick_length_s = tick_length_s
         self.ticks_in_second = 1        / self.tick_length_s
@@ -21,17 +25,22 @@ class SimClock:
                                  + self.epoch.hour          * self.ticks_in_hour \
                                  + self.epoch.minute        * self.ticks_in_minute \
                                  + self.epoch.second        * self.tick_length_s)
-        self.t                 = -1
         self.max_ticks         = int(self.days_to_ticks(simulation_length_days))
 
+        self.reset()
+
         log.info(f"New clock created at {epoch}, {tick_length_s=}, {simulation_length_days=}, {self.epoch_week_offset=}")
+
+    def reset(self):
+        log.debug("Resetting clock")
+        self.t = -1
 
     def __iter__(self):
         return self
 
     def __next__(self):
         self.t += 1
-        if self.t > self.max_ticks:
+        if self.t >= self.max_ticks:
             raise StopIteration()
         return self.t
 
