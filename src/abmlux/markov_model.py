@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
-#Markov Model
-
 #This file constructs initial distributions and transition matrices using data from the Luxembourgish
 #Time Use Survey (TUS). Each respondent to the TUS provided two diaries of activities, one for a week
 #day and one for a weekend day, together with their age and the times at which these activities began
@@ -14,31 +10,155 @@
 #In particular, for each age group a transition matrix is constructed for each 10 minute interval of 
 #the week, of which there are 7*144 in total.
 
-import sys
-import os.path as osp
-import math
-import pickle
 import logging
+import math
 
-import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
+import abmlux.utils as utils
+import abmlux.random_tools as random_tools
+from .sim_time import SimClock
 from .diary import DiaryDay, DiaryWeek, DayOfWeek
 from .agent import AgentType, POPULATION_RANGES
 from .activity import ActivityManager
-import abmlux.utils as utils
-import abmlux.random_tools as random_tools
 from .transition_matrix import SplitTransitionMatrix
 
+# Number of 10min chunks in a day
 DAY_LENGTH_10MIN = 144
-WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
 
 
 log = logging.getLogger('markov_model')
 
-def build_markov_model(config):
-    activity_manager = ActivityManager(config['activities'])
+
+def get_tus_code_mapping(map_config, activity_manager):
+    """Return a function mapping TUS activity codes onto those used
+    in this model.
+
+    TUS codes are defined in two fields, primary and secondary.  If
+    primary == 7, we switch to secondary.
+
+    Primary and secondary mappings are defined in map_config as a dict
+    of abm labels and primary/secondary keys containing a list of TUS
+    codes, e.g.:
+
+    {'Home': {'primary': [1], 'secondary': [11,12,13,14]},
+     'Other Work': {'primary': [2]}}
+
+    The resulting function takes two arguments, namely the TUS primary
+    and secondary codes, as ints.  It returns one of the keys
+    from the mapping given to _this_ function.
+    """
+
+
+    # Compute primary and secondary together.
+    mapping_pri = {}
+    mapping_sec = {}
+    for abm_code, v in map_config.items():
+        primary   = v['primary']   or [] if 'primary'   in v else []
+        secondary = v['secondary'] or [] if 'secondary' in v else []
+
+        for p in primary:
+            mapping_pri[p] = activity_manager.as_int(abm_code)
+        for s in secondary:
+            mapping_sec[s] = activity_manager.as_int(abm_code)
+
+    # Define mapping function, enclosing the above mapping
+    def tus_activity_to_abm_activity(tus_pri, tus_sec):
+        if tus_pri != 7:
+            return mapping_pri[tus_pri]
+        return mapping_sec[tus_sec]
+
+    return tus_activity_to_abm_activity
+
+
+def create_weekly_routines(days):
+    """Create weekly routines for individuals, reading their daily routines
+    as example days
+
+    The format of the TUS data is such that each pair of daily diaries are listed consecutively,
+    so for each person there are two rows, e.g:
+     - personA: weekend
+     - personA: weekday
+     - personB: weekend
+     - personB: weekday
+    We don't know which way around these are, though.  This routine builds a week out of the
+    weekday, repeated, plus the weekend.
+    """
+
+    weeks = []
+    for i in range(0, len(days)-1, 2):
+
+        # Make a bold assumption
+        weekend, weekday = days[i], days[i+1]
+
+        # Swap if we were wrong
+        if weekday.day in [DayOfWeek.SUNDAY, DayOfWeek.SATURDAY]:
+            weekday, weekend = weekend, weekday
+
+        # Check the identity is the same
+        assert weekday.identity == weekend.identity
+
+        # Create a week with most things the same, but with a whole week's worth of activities
+        week = DiaryWeek(weekday.identity, weekday.age, weekday.weight,
+                         weekend.daily_routine + weekday.daily_routine * 5 + weekend.daily_routine)
+        weeks.append(week)
+
+    return weeks
+
+
+def parse_days(tus, map_func, tick_length_s):
+    """Returns a list of DiaryDay functions built from the TUS data provided.
+
+    The following piece of code constructs the daily routines. This takes into account the fact that diaries
+    appearing in the TUS do not all start at the same time and do not all run for 24 hours. This is
+    achieved by first extending the duration of the last activity, to create a 24 hour routine, after which
+    the piece of the routine extending beyong the end of the day is repositioned to the start of the
+    day. This way, all routines cover a 24 hour period running from midnight to midnight.
+
+    Parameters:
+        tus (pandas dataframe):The TUS dataset loaded from excel
+        map_func (function):A function taking two ints and returning
+                            the activity code for this row.
+        tick_length_s:The length of ticks in the simulation, in seconds
+
+    Returns:
+        days(list):A list of DiaryDay objects.
+    """
+
+    days  = []
+    clock = SimClock(tick_length_s, 1)
+    for date in tqdm(tus['id_jour'].unique()):
+        tus_date  = tus.loc[tus['id_jour'] == date]
+        durations = [y-x for x, y in list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
+
+        end_activity = map_func(tus_date.iloc[-1]['loc1_num_f'], tus_date.iloc[-1]['act1b_f'])
+        start_time = tus_date.iloc[0]['heuredebmin']
+
+        # Build variables for object at 10min resolution
+        identity, age, day, weight = [tus_date.iloc[0][x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
+        daily_routine_tenmin = [end_activity] * start_time \
+                      + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
+                                  for i, d in enumerate(durations)]) \
+                      + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
+
+        # Resample into the clock resolution
+        log.debug(f"Resampling 10 minute chunks into clock resolution ({clock.tick_length_s}s)...")
+        daily_routine = []
+        clock.reset()
+        for t in clock:
+            seconds_through_day = clock.seconds_elapsed()
+            tenmin_bin = int(seconds_through_day / (10 * 60))
+            daily_routine.append(daily_routine_tenmin[tenmin_bin])
+
+        # Create the list entry
+        day = DiaryDay(identity, age, day, weight, daily_routine)
+        days.append(day)
+
+    return days
+
+
+def build_markov_model(config, activity_manager):
 
     # ---------------------------------------------------------------------------------------------------
     log.info(f"Loading time use data from {config.filepath('time_use_fp')}...")
@@ -59,92 +179,8 @@ def build_markov_model(config):
     # activity, in which case referal to the secondary activity is necessary. Activities are consquently
     # recoded as numbers in the set {0,...,13}, as described in the file FormatActivities.
 
-
-    def get_tus_code_mapping(map_config, activity_manager):
-        """Return a function mapping TUS activity codes onto those used
-        in this model.
-
-        TUS codes are defined in two fields, primary and secondary.  If
-        primary == 7, we switch to secondary.
-
-        Primary and secondary mappings are defined in map_config as a dict
-        of abm labels and primary/secondary keys containing a list of TUS
-        codes, e.g.:
-
-        {'Home': {'primary': [1], 'secondary': [11,12,13,14]},
-         'Other Work': {'primary': [2]}}
-
-        The resulting function takes two arguments, namely the TUS primary
-        and secondary codes, as ints.  It returns one of the keys
-        from the mapping given to _this_ function.
-        """
-
-
-        # Compute primary and secondary together.
-        mapping_pri = {}
-        mapping_sec = {}
-        for abm_code, v in map_config.items():
-            primary   = v['primary']   or [] if 'primary'   in v else []
-            secondary = v['secondary'] or [] if 'secondary' in v else []
-
-            for p in primary:
-                mapping_pri[p] = activity_manager.as_int(abm_code)
-            for s in secondary:
-                mapping_sec[s] = activity_manager.as_int(abm_code)
-
-        # Define mapping function, enclosing the above mapping
-        def tus_activity_to_abm_activity(tus_pri, tus_sec):
-            if tus_pri != 7:
-                return mapping_pri[tus_pri]
-            return mapping_sec[tus_sec]
-
-        return tus_activity_to_abm_activity
-
-
-
-    def parse_days(tus, map_func):
-        """
-        Returns a list of DiaryDay functions built from the TUS data provided.
-
-        The following piece of code constructs the daily routines. This takes into account the fact that diaries
-        appearing in the TUS do not all start at the same time and do not all run for 24 hours. This is
-        achieved by first extending the duration of the last activity, to create a 24 hour routine, after which
-        the piece of the routine extending beyong the end of the day is repositioned to the start of the
-        day. This way, all routines cover a 24 hour period running from midnight to midnight.
-
-        Parameters:
-            tus (pandas dataframe):The TUS dataset loaded from excel
-            map_func (function):A function taking two ints and returning
-                                the activity code for this row.
-
-        Returns:
-            days(list):A list of DiaryDay objects.
-        """
-
-        days = []
-        for date in tqdm(tus['id_jour'].unique()):
-            tus_date  = tus.loc[tus['id_jour'] == date]
-            durations = [y-x for x, y in list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
-
-            end_activity = map_func(tus_date.iloc[-1]['loc1_num_f'], tus_date.iloc[-1]['act1b_f'])
-            start_time = tus_date.iloc[0]['heuredebmin']
-
-            # Build variables for object
-            identity, age, day, weight = [tus_date.iloc[0][x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
-            daily_routine = [end_activity] * start_time \
-                          + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
-                                      for i, d in enumerate(durations)]) \
-                          + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
-
-            # Create the list entry
-            day = DiaryDay(identity, age, day, weight, daily_routine)
-            days.append(day)
-
-        return days
-
-
     map_func = get_tus_code_mapping(config['activities'], activity_manager)
-    days     = parse_days(tus, map_func)
+    days     = parse_days(tus, map_func, config['tick_length_s'])
     log.info(f"Created {len(days)} days")
 
     # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
@@ -154,43 +190,8 @@ def build_markov_model(config):
 
     # ---------------------------------------------------------------------------------------------
     log.info('Generating weekly routines...')
-
-    def create_weekly_routines(days):
-        """Create weekly routines for individuals, reading their daily routines
-        as example days
-
-        The format of the TUS data is such that each pair of daily diaries are listed consecutively,
-        so for each person there are two rows, e.g:
-         - personA: weekend
-         - personA: weekday
-         - personB: weekend
-         - personB: weekday
-        We don't know which way around these are, though.  This routine builds a week out of the
-        weekday, repeated, plus the weekend.
-        """
-
-        weeks = []
-        for i in range(0, len(days)-1, 2):
-
-            # Make a bold assumption
-            weekend, weekday = days[i], days[i+1]
-
-            # Swap if we were wrong
-            if weekday.day in [DayOfWeek.SUNDAY, DayOfWeek.SATURDAY]:
-                weekday, weekend = weekend, weekday
-
-            # Check the identity is the same
-            assert weekday.identity == weekend.identity
-
-            # Create a week with most things the same, but with a whole week's worth of activities
-            week = DiaryWeek(weekday.identity, weekday.age, weekday.weight,
-                             weekend.daily_routine + weekday.daily_routine * 5 + weekend.daily_routine)
-            weeks.append(week)
-
-        return weeks
-
-
     weeks = create_weekly_routines(days)
+    week_length = len(weeks[0].weekly_routine)  # Assume the first week is representative
     log.debug(f"Created {len(weeks)} weeks")
 
     # ----------------------------------------------------------------------------------------------
@@ -204,7 +205,7 @@ def build_markov_model(config):
     #
     log.info("Generating activity distributions...")
     activity_distributions = {typ: [{activity: 0 for activity in activity_manager.types_as_int()}
-                                 for i in range(WEEK_LENGTH_10MIN)]
+                                 for i in range(week_length)]
                                  for typ in POPULATION_RANGES.keys()}
     for typ, rng in POPULATION_RANGES.items():
         log.debug(f" - {typ} ({rng})")
@@ -225,18 +226,18 @@ def build_markov_model(config):
     #  - Each activity has a W[next activity]
     #  - Each 10 minute slice has a transition matrix between activities
     #
-    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int()) for _ in range(WEEK_LENGTH_10MIN)]
+    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int()) for _ in range(week_length)]
                          for typ in POPULATION_RANGES.keys()}
 
     # Do all but the last item, which should loop around
-    for t in tqdm(range(WEEK_LENGTH_10MIN)):
+    for t in tqdm(range(week_length)):
         for week in weeks:
             for typ, rng in POPULATION_RANGES.items():
                 if week.age in rng:
 
                     # Wrap around to zero to make the week
                     # one big loop
-                    next_t = (t+1) % WEEK_LENGTH_10MIN
+                    next_t = (t+1) % week_length
 
                     # Retrieve the activity transition
                     activity_from = week.weekly_routine[t]
@@ -246,7 +247,7 @@ def build_markov_model(config):
 
 
     # DEBUG
-    # for t in tqdm(range(WEEK_LENGTH_10MIN)):
+    # for t in tqdm(range(week_length)):
     #     distribution = activity_distributions[AgentType.RETIRED][t]
     #     transitions  = activity_transitions[AgentType.RETIRED][t]
 

@@ -18,6 +18,7 @@ from .density_model import read_density_model_jrc
 from .network_model import build_network_model
 from .markov_model import build_markov_model
 from .abm import run_model
+from .activity import ActivityManager
 
 # Support modules
 
@@ -73,9 +74,10 @@ def build_markov(config):
     # ------------------------------------------------[ 3 ]------------------------------------
     # Step three: build markov model
     # ############## Input Data #############
+    activity_manager = ActivityManager(config['activities'])
 
     # ############## Run Stage ##############
-    activity_distributions, activity_transitions = build_markov_model(config)
+    activity_distributions, activity_transitions = build_markov_model(config, activity_manager)
 
 
     # ############## Output Data ##############

@@ -69,8 +69,6 @@ country_code: LU
 
 # ################################# Time ########################
 # Time length of each tick in the simulation.
-#
-# FIXME: this is a WIP, used in abm.py but not elsewhere yet.
 tick_length_s: 600
 
 # How long the simulation should run for, in days.
