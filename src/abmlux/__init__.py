@@ -18,7 +18,7 @@ from .density_model import read_density_model_jrc
 from .network_model import build_network_model
 from .markov_model import build_markov_model
 from .abm import run_model
-from .activity import ActivityManager
+from .activity_manager import ActivityManager
 
 # Support modules
 
@@ -132,6 +132,8 @@ def main():
     sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
     random.seed(config['random_seed'])
     logging.config.dictConfig(config['logging'])
+
+    import code; code.interact(local=locals())
 
     # Log level output
     # log.debug("DEBUG")

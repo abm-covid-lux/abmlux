@@ -21,7 +21,7 @@ import abmlux.random_tools as random_tools
 from .sim_time import SimClock
 from .diary import DiaryDay, DiaryWeek, DayOfWeek
 from .agent import AgentType, POPULATION_RANGES
-from .activity import ActivityManager
+from .activity_manager import ActivityManager
 from .transition_matrix import SplitTransitionMatrix
 
 # Number of 10min chunks in a day
