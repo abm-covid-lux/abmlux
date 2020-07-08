@@ -1,12 +1,16 @@
+"""Module supporting configuration of the simulation.
+
+Configuration is set in a single YAML file, and used by many components throughout
+the simulation process."""
 
 import os
 import os.path as osp
 import yaml
 
-
-
-
 class Config:
+    """Represents the simulation configuration.
+
+    This class behaves like a dict, but is read-only"""
 
     def __init__(self, filename):
         print(f"Loading config from {filename}...")
@@ -43,8 +47,7 @@ class Config:
 
     @staticmethod
     def load_config(filename):
+        """Load a YAML config file and return the dict."""
+
         with open(filename) as fin:
             return yaml.load(fin, Loader=yaml.FullLoader)
-
-
-

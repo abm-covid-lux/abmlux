@@ -56,7 +56,7 @@ results_dir: Results/
 
 # ################################# Population ########################
 # Total number of agents on the network
-n: 626_108
+n: 16_108
 
 # Total population in reality.  If this
 # equals n above then the scale factor will be 1,
