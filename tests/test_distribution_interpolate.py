@@ -1,9 +1,11 @@
 from pytest import approx
+import numpy as np
+from abmlux.density_model import distribution_interpolate
 
 class TestDistributionInterpolate:
     """Tests the DistributionInterpolate function in abmlux.density_model"""
 
-    def test_distribution_interpolate():
+    def test_distribution_interpolate(self):
         """Ensure the total popultion sum is invariant for a test distribution"""
     
         height = np.random.randint(1,11)
