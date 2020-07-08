@@ -3,9 +3,9 @@ import numpy as np
 from abmlux.density_model import distribution_interpolate
 
 class TestDistributionInterpolate:
-    """Tests the DistributionInterpolate function in abmlux.density_model"""
+    """Tests the distribution_interpolate function in abmlux.density_model"""
 
-    def test_distribution_interpolate(self):
+    def test_distribution_interpolation_random_input(self):
         """Ensure the total popultion sum is invariant for a test distribution"""
     
         height = np.random.randint(1,11)
