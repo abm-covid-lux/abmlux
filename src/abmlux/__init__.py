@@ -13,10 +13,10 @@ import pandas as pd
 from .config import Config
 
 # Main functions
-from .density_model import read_density_model_jrc
-from .network_model import build_network_model
-from .markov_model import build_markov_model
-from .abm import run_model
+import abmlux.density_model as density_model
+import abmlux.network_model as network_model
+import abmlux.markov_model as markov_model
+import abmlux.abm as abm
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
 
@@ -36,13 +36,14 @@ log = logging.getLogger()
 
 
 def load_pop_density(config):
+    """Load population density and build a density model based on the description."""
 
     # ------------------------------------------------[ 1 ]------------------------------------
     # Step one: process density information
     # ############## Input Data ##############
 
     # ############## Run Stage ##############
-    density = read_density_model_jrc(config.filepath('population_distribution_fp'), config['country_code'])
+    density = density_model.read_density_model_jrc(config.filepath('population_distribution_fp'), config['country_code'])
 
     # ############## Output Data ##############
     # Handle output to write to disk if required
@@ -50,7 +51,7 @@ def load_pop_density(config):
 
 
 def build_network(config):
-
+    """Build a network of locations and agents based on the population density"""
 
     # ------------------------------------------------[ 2 ]------------------------------------
     # Step two: build network model
@@ -60,13 +61,14 @@ def build_network(config):
     density = read_from_disk(osp.join(config.filepath('working_dir'), MAP_FILENAME))
 
     # ############## Run Stage ##############
-    network = build_network_model(config, density)
+    network = network_model.build_network_model(config, density)
 
     # ############## Output Data ##############
     write_to_disk(network, osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
 
 
 def build_markov(config):
+    """Build a markov model of activities to transition through"""
 
     # ------------------------------------------------[ 3 ]------------------------------------
     # Step three: build markov model
@@ -74,7 +76,7 @@ def build_markov(config):
     activity_manager = ActivityManager(config['activities'])
 
     # ############## Run Stage ##############
-    activity_distributions, activity_transitions = build_markov_model(config, activity_manager)
+    activity_distributions, activity_transitions = markov_model.build_markov_model(config, activity_manager)
 
 
     # ############## Output Data ##############
@@ -82,8 +84,26 @@ def build_markov(config):
     write_to_disk(activity_transitions, osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
 
 
-def run_sim(config):
 
+def assign_activities(config):
+    """Assign activities to the agents on the network, creating an initial condition for the
+    sim"""
+
+    # ------------------------------------------------[ 3 ]------------------------------------
+    # ############## Input Data #############
+    network                = read_from_disk(osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
+    activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
+
+    # ############## Run Stage ##############
+    network = network_model.assign_activities(config, network, activity_distributions)
+
+
+    # ############## Output Data ##############
+    write_to_disk(network, osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
+
+
+def run_sim(config):
+    """Run the agent-based model itself"""
 
     # ------------------------------------------------[ 4 ]------------------------------------
     # Step four: simulate
@@ -93,7 +113,7 @@ def run_sim(config):
     activity_transitions   = read_from_disk(osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
 
     # ############## Run Stage ##############
-    health_status_by_time = run_model(config, network, activity_distributions, activity_transitions)
+    health_status_by_time = abm.run_model(config, network, activity_distributions, activity_transitions)
 
     # ############## Output Data ##############
     agent_counts_filename = osp.join(config.filepath('results_dir', True), AGENT_COUNTS_FILENAME)
@@ -111,7 +131,7 @@ def run_sim(config):
 
 
 
-STAGES = [load_pop_density, build_network, build_markov, run_sim]
+STAGES = [load_pop_density, build_network, build_markov, assign_activities, run_sim]
 def main():
     print(f"ABMLUX {VERSION}")
 

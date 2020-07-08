@@ -1,15 +1,10 @@
-#!/usr/bin/env python3
+"""This file procedurally generates an environment, following Luxembourgish 
+statistics."""
 
-#Network Model
-#This file procedurally generates an environment, following Luxembourgish statistics.
-
-import os.path as osp
-import sys
 import math
 import random
 import copy
 from collections import defaultdict
-import pickle
 import logging
 
 import numpy as np
@@ -18,14 +13,14 @@ import pandas as pd
 from scipy.spatial import KDTree
 
 from .random_tools import multinoulli, multinoulli_2d, multinoulli_dict
-from .agent import Agent, AgentType, POPULATION_SLICES
+from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
 from .activity_manager import ActivityManager
 from .network import Network
+from .sim_time import SimClock
 
 
 log = logging.getLogger('network_model')
-
 
 def create_locations(network, density, config):
 
@@ -300,6 +295,7 @@ def assign_cars(network, config, activity_manager, occupancy, car_activity_type)
 
 
 def build_network_model(config, density):
+    """Create agents and locations according to the population density map given"""
 
     activity_manager = ActivityManager(config['activities'])
 
@@ -310,7 +306,6 @@ def build_network_model(config, density):
     create_locations(network, density, config)
 
     log.info("Assigning locations to agents...")
-
     occupancy = assign_homes(network, config, activity_manager, "House")
     assign_workplaces(network, config, activity_manager, "Work")
     assign_other_houses(network, config, activity_manager, "House", "Other House")
@@ -326,3 +321,35 @@ def build_network_model(config, density):
 
     return network
 
+
+
+
+def assign_activities(config, network, activity_distributions):
+    """Assign activities and locations to agents according to the distributions provided."""
+
+    clock = SimClock(config['tick_length_s'], config['simulation_length_days'], config['epoch'])
+
+    # ------------------------------------------[ Initial state ]-----------------------------------
+    log.debug("Loading initial state for simulation...")
+    # Infect a few people
+    for agent in random.sample(network.agents, k=config['initial_infections']):
+        agent.health = HealthStatus.INFECTED
+
+    log.debug("Seeding initial activity states and locations...")
+    for agent in network.agents:
+
+        # Get distribution for this type at the starting time step
+        distribution = activity_distributions[agent.agetyp][clock.epoch_week_offset]
+        assert sum(distribution.values()) > 0
+        new_activity      = multinoulli_dict(distribution)
+        allowed_locations = agent.locations_for_activity(new_activity)
+
+        # Warning: No allowed locations found for agent {agent.inspect()} for activity new_activity
+        assert len(allowed_locations) >= 0
+
+        new_location = random.choice(list(allowed_locations))
+
+        # Do this activity in a random location
+        agent.set_activity(new_activity, new_location)
+
+    return network
