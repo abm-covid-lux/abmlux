@@ -5,10 +5,7 @@ import sys
 import random
 import logging
 import logging.config
-
-# Needed for save/load code (TODO: move this out of this module)
 import os.path as osp
-import pandas as pd
 
 from .config import Config
 
@@ -16,7 +13,7 @@ from .config import Config
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
-import abmlux.abm as abm
+from abmlux.simulator import Simulator
 from abmlux.reporter import BasicCLIReporter
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
@@ -117,18 +114,8 @@ def run_sim(config):
     reporters = [BasicCLIReporter()]
 
     # ############## Run Stage ##############
-    health_status_by_time = abm.run_model(config, network, activity_transitions, reporters)
-
-    # ############## Output Data ##############
-    agent_counts_filename = osp.join(config.filepath('results_dir', True), AGENT_COUNTS_FILENAME)
-    print(f"Writing agent counts to {agent_counts_filename}...")
-    health_status_by_time = pd.DataFrame(health_status_by_time)
-    health_status_by_time.to_csv(agent_counts_filename)
-
-
-
-
-
+    sim = Simulator(config, network, activity_transitions, reporters)
+    sim.run()
 
 
 

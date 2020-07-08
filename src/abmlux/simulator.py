@@ -84,7 +84,10 @@ class Simulator:
         """Run the simulation"""
         
         log.info("Simulating outbreak...")
-        for t in tqdm(self.clock):
+        for reporter in self.reporters:
+            reporter.start(self)
+
+        for t in self.clock:
 
             # - 1 - Compute changes and pop them on the list
             health_changes =  self._get_health_transitions(t)
@@ -92,6 +95,12 @@ class Simulator:
 
             # - 2 - Actually enact changes in an atomic manner
             self._update_agents(t, health_changes, activity_changes)
+
+            for reporter in self.reporters:
+                reporter.iterate(self)
+
+        for reporter in self.reporters:
+            reporter.stop(self)
 
     def _get_activity_transitions(self):
         """Return a list of activity transitions agents should enact this tick.
@@ -192,9 +201,3 @@ class Simulator:
 
             # Update
             agent.set_activity(new_activity, new_location)
-
-
-
-def run_model(config, network, activity_transitions, reporters):
-    sim = Simulator(config, network, activity_transitions, reporters)
-    sim.run()
