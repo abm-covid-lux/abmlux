@@ -29,6 +29,7 @@ from .agent import AgentType, POPULATION_RANGES
 from .activity import ActivityManager
 import abmlux.utils as utils
 import abmlux.random_tools as random_tools
+from .transition_matrix import SplitTransitionMatrix
 
 DAY_LENGTH_10MIN = 144
 WEEK_LENGTH_10MIN = 7 * DAY_LENGTH_10MIN
@@ -45,7 +46,6 @@ def build_markov_model(config):
     #       same for weights
     tus = pd.read_csv(config.filepath('time_use_fp'))
     tus = tus.dropna()
-
 
     # ---------------------------------------------------------------------------------------------------
     log.info('Generating daily routines...')
@@ -148,10 +148,11 @@ def build_markov_model(config):
     log.info(f"Created {len(days)} days")
 
     # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
-    #For each respondent there are now two daily routines; one for a week day and one for a weekend day. 
-    #Copies of these routines are now concatenated so as to produce weekly routines, starting on Sunday.
+    # For each respondent there are now two daily routines; one for a week day and one for a
+    # weekend day.  Copies of these routines are now concatenated so as to produce weekly routines,
+    # starting on Sunday.
 
-    # ---------------------------------------------------------------------------------------------------
+    # ---------------------------------------------------------------------------------------------
     log.info('Generating weekly routines...')
 
     def create_weekly_routines(days):
@@ -179,7 +180,7 @@ def build_markov_model(config):
                 weekday, weekend = weekend, weekday
 
             # Check the identity is the same
-            assert(weekday.identity == weekend.identity)
+            assert weekday.identity == weekend.identity
 
             # Create a week with most things the same, but with a whole week's worth of activities
             week = DiaryWeek(weekday.identity, weekday.age, weekday.weight,
@@ -192,22 +193,28 @@ def build_markov_model(config):
     weeks = create_weekly_routines(days)
     log.debug(f"Created {len(weeks)} weeks")
 
-    # ---------------------------------------------------------------------------------------------------
+    # ----------------------------------------------------------------------------------------------
     #Now the statistical weights are used to construct the intial distributions and transition matrices:
-    log.info('Generating weighted initial distributions...')
 
     # Weights for how many of each type of agent is performing each type of action
-    # AgentType.CHILD: {Home: 23,
-    #                   Other Work: 12},
-    # AgentType.ADULT: {action: weight,
-    #                   action2: weight2},
+    # AgentType.CHILD: [{Home: 23,
+    #                   Other Work: 12}],
+    # AgentType.ADULT: [{action: weight, action2: weight2},
+    #                   {action: weight, action2: weight2}],
     #
-    init_distribution_by_type = {typ: {activity: 0 for activity in activity_manager.types_as_int()}
-                       for typ in POPULATION_RANGES.keys()}
-    for week in weeks:
-        for typ, rng in POPULATION_RANGES.items():
+    log.info("Generating activity distributions...")
+    activity_distributions = {typ: [{activity: 0 for activity in activity_manager.types_as_int()}
+                                 for i in range(WEEK_LENGTH_10MIN)]
+                                 for typ in POPULATION_RANGES.keys()}
+    for typ, rng in POPULATION_RANGES.items():
+        log.debug(f" - {typ} ({rng})")
+        for week in tqdm(weeks):
             if week.age in rng:
-                init_distribution_by_type[typ][week.weekly_routine[0]] += week.weight
+                for i, activity in enumerate(week.weekly_routine):
+                    activity_distributions[typ][i][week.weekly_routine[i]] += week.weight
+
+
+    # FIXME: ensure there are >0 of each type, at every time tick
 
 
     log.info('Generating weighted activity transition matrices...')
@@ -217,15 +224,8 @@ def build_markov_model(config):
     #
     #  - Each activity has a W[next activity]
     #  - Each 10 minute slice has a transition matrix between activities
-    #  - Each agent type has one of those ^
     #
-
-    # TODO: simplify this structure.  It's far too hard to follow
-    transition_matrix = {typ:
-                         [
-                          {x: {y: 0 for y in activity_manager.types_as_int()}
-                          for x in activity_manager.types_as_int()}
-                          for _ in range(WEEK_LENGTH_10MIN)]
+    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int()) for _ in range(WEEK_LENGTH_10MIN)]
                          for typ in POPULATION_RANGES.keys()}
 
     # Do all but the last item, which should loop around
@@ -242,9 +242,24 @@ def build_markov_model(config):
                     activity_from = week.weekly_routine[t]
                     activity_to   = week.weekly_routine[next_t]
 
-                    transition_matrix[typ][t][activity_from][activity_to] += week.weight
+                    activity_transitions[typ][t].add_weight(activity_from, activity_to, week.weight)
 
 
+    # DEBUG
+    # for t in tqdm(range(WEEK_LENGTH_10MIN)):
+    #     distribution = activity_distributions[AgentType.RETIRED][t]
+    #     transitions  = activity_transitions[AgentType.RETIRED][t]
 
+    #     for activity in activity_manager.types_as_int():
+    #         if distribution[activity] > 0 and transitions.x_marginal(activity) == 0:
 
-    return init_distribution_by_type, transition_matrix
+    #             print(f"-> {t=}")
+    #             print(f"-> {activity=}")
+    #             print(f"-> {distribution=}")
+    #             print(f"-> {distribution[activity]=}")
+    #             print(f"-> {transitions.transitions[activity]=}")
+    #             print(f"-> {transitions.x_marginals=}")
+
+    #             import code; code.interact(local=locals())
+
+    return activity_distributions, activity_transitions
