@@ -1,20 +1,18 @@
 """ABMLUX is an agent-based epidemiology model for Luxembourg based on a markov chain."""
 
 import os
+import os.path as osp
 import sys
 import random
 import logging
 import logging.config
-import os.path as osp
 
-from .config import Config
-
-# Main functions
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 from abmlux.simulator import Simulator
 from abmlux.reporter import BasicCLIReporter, CSVReporter
+from .config import Config
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
 
@@ -41,7 +39,8 @@ def load_pop_density(config):
     # ############## Input Data ##############
 
     # ############## Run Stage ##############
-    density = density_model.read_density_model_jrc(config.filepath('population_distribution_fp'), config['country_code'])
+    density = density_model.read_density_model_jrc(config.filepath('population_distribution_fp'),
+                                                   config['country_code'])
 
     # ############## Output Data ##############
     # Handle output to write to disk if required
@@ -74,12 +73,15 @@ def build_markov(config):
     activity_manager = ActivityManager(config['activities'])
 
     # ############## Run Stage ##############
-    activity_distributions, activity_transitions = markov_model.build_markov_model(config, activity_manager)
+    activity_distributions, activity_transitions = \
+            markov_model.build_markov_model(config, activity_manager)
 
 
     # ############## Output Data ##############
-    write_to_disk(activity_distributions, osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
-    write_to_disk(activity_transitions, osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
+    write_to_disk(activity_distributions, osp.join(config.filepath('working_dir', True),\
+                  INITIAL_DISTRIBUTIONS_FILENAME))
+    write_to_disk(activity_transitions, osp.join(config.filepath('working_dir', True),\
+                  TRANSITION_MATRIX_FILENAME))
 
 
 
@@ -89,8 +91,10 @@ def assign_activities(config):
 
     # ------------------------------------------------[ 3 ]------------------------------------
     # ############## Input Data #############
-    network                = read_from_disk(osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
-    activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
+    network                = read_from_disk(osp.join(config.filepath('working_dir', True),\
+                                            NETWORK_FILENAME))
+    activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True),\
+                                            INITIAL_DISTRIBUTIONS_FILENAME))
 
     # ############## Run Stage ##############
     network = network_model.assign_activities(config, network, activity_distributions)
@@ -106,8 +110,10 @@ def run_sim(config):
     # ------------------------------------------------[ 4 ]------------------------------------
     # Step four: simulate
     # ############## Input Data ##############
-    network                = read_from_disk(osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
-    activity_transitions   = read_from_disk(osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
+    network                = read_from_disk(osp.join(config.filepath('working_dir', True),\
+                                            NETWORK_FILENAME))
+    activity_transitions   = read_from_disk(osp.join(config.filepath('working_dir', True),\
+                                            TRANSITION_MATRIX_FILENAME))
 
     # Reporters
     # TODO: make configurable
@@ -124,12 +130,13 @@ def run_sim(config):
 
 STAGES = [load_pop_density, build_network, build_markov, assign_activities, run_sim]
 def main():
+    """Main ABMLUX entry point"""
     print(f"ABMLUX {VERSION}")
 
     # Check the path to the config
     if len(sys.argv) < 2:
         print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml [STAGE,STAGE,STAGE]")
-        print(f"")
+        print("")
         print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml 1,2")
         sys.exit(1)
 
@@ -141,16 +148,17 @@ def main():
 
     # Figure out what we're doing
     if len(sys.argv) > 2:
-        log.warn(f"Running only some stages.  Will fail if you haven't got prerequisite data from earlier runs.")
+        log.warning("Running only some stages.  Will fail if you haven't got prerequisite data"
+                    "from earlier runs.")
         stages = [STAGES[int(x) - 1] for x in sys.argv[2].split(",")]
     else:
         stages = STAGES
-    log.info(f"Running modelling stages:")
+    log.info("Running modelling stages:")
     for i, stage in enumerate(stages):
-        log.info(f" ({i+1}) -- {stage.__name__}")
+        log.info(" (%i) -- %s", i+1, stage.__name__)
 
     # Do it
     for i, stage in enumerate(stages):
-        log.info(f"[{i+1}/{len(stages)}] {stage.__name__}")
+        log.info("[%i/%i] %s", i+1, len(stages), stage.__name__)
 
         stage(config)
