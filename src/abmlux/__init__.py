@@ -17,6 +17,7 @@ import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 import abmlux.abm as abm
+from abmlux.reporter import BasicCLIReporter
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
 
@@ -109,11 +110,14 @@ def run_sim(config):
     # Step four: simulate
     # ############## Input Data ##############
     network                = read_from_disk(osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))
-    activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True), INITIAL_DISTRIBUTIONS_FILENAME))
     activity_transitions   = read_from_disk(osp.join(config.filepath('working_dir', True), TRANSITION_MATRIX_FILENAME))
 
+    # Reporters
+    # TODO: make configurable
+    reporters = [BasicCLIReporter()]
+
     # ############## Run Stage ##############
-    health_status_by_time = abm.run_model(config, network, activity_distributions, activity_transitions)
+    health_status_by_time = abm.run_model(config, network, activity_transitions, reporters)
 
     # ############## Output Data ##############
     agent_counts_filename = osp.join(config.filepath('results_dir', True), AGENT_COUNTS_FILENAME)

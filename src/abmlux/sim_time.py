@@ -32,6 +32,7 @@ class SimClock:
         log.info(f"New clock created at {epoch}, {tick_length_s=}, {simulation_length_days=}, {self.epoch_week_offset=}")
 
     def reset(self):
+        """Reset the clock to the start once more"""
         log.debug("Resetting clock")
         self.t = -1
 
@@ -47,7 +48,12 @@ class SimClock:
     def __len__(self):
         return self.max_ticks
 
+    def tick(self):
+        """Iterate the clock by a single tick"""
+        return next(self)
+
     def now(self):
+        """Return a datetime.datetime showing the clock time"""
         # FIXME: speed this up by doing dead reckonining
         #        instead of using the date libs
         return self.epoch + self.time_elapsed()
@@ -57,6 +63,9 @@ class SimClock:
         return int((self.epoch_week_offset + self.t) % self.ticks_in_week)
 
     def ticks_elapsed(self):
+        """Return the number of ticks elapsed since the start of the simulation.
+
+        Equivalent to self.t"""
         return self.t
 
     def ticks_remaining(self):
