@@ -6,6 +6,7 @@ import logging
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
+from scipy import interpolate
 
 from .config import Config
 
@@ -60,42 +61,48 @@ def read_density_model_jrc(filepath, country_code):
     return density
 
 def distribution_interpolate(distribution,res_fact):
-
-    #TODO: ref_fact MUST BE AN EVEN INTEGER
-
-    height = distribution.shape[0]
-    width = distribution.shape[1]
+    """Returns an expanded distribution matrix, corresponding to a finer grid resolution, using
+    linear interpolation.
     
-    #pad with a border of zeros
+    Parameters:
+        distribution (numpy array):The distribution array returned from read_density_model_jrc
+        res_fact (int):The factor by which the resolution is increased in a given dimension
+                
+    Returns:
+        distribution_new(numpy array):An expanded distribution array of floats
+    """
+
+    #TODO: res_fact MUST BE A POSITIVE EVEN INTEGER
+
+    height, width = distribution.shape
     
+    # Pad with a border of zeros    
     padded_height = height + 2
     padded_width = width + 2
     
     padded_distribution = np.zeros((padded_height,padded_width))
     padded_distribution[1:height+1,1:width+1] = distribution
 
-    #map padded_density onto a grid within the unit square
-
+    # Map padded_density onto a grid within the unit square
     x = np.linspace(0, 1, num=padded_width, endpoint=True)
     y = np.linspace(0, 1, num=padded_height, endpoint=True)
     z = padded_distribution
 
-    #linearly interpolate
+    # Linearly interpolate
+    f = interpolate.interp2d(x, y, z)
 
-    f = interp2d(x, y, z)
+    # The resolution of the grid is increased and interpolated vaules are assigned to each new square
+    x_indent = 1/((padded_width - 1)*res_fact*2)
+    y_indent = 1/((padded_height - 1)*res_fact*2)
 
-    #the resolution of the grid is increased by a factor res_fact, and interpolated vaules are assigned to each new square
-
-    x_indent = 1/((padded_width-1)*res_fact*2)
-    y_indent = 1/((padded_height-1)*res_fact*2)
-
-    x_new = np.linspace(x_indent, 1-x_indent, num=(padded_width-1)*res_fact, endpoint=True)
-    y_new = np.linspace(y_indent, 1-y_indent, num=(padded_height-1)*res_fact, endpoint=True)
+    x_new = np.linspace(x_indent, 1 - x_indent, num=(padded_width - 1)*res_fact, endpoint=True)
+    y_new = np.linspace(y_indent, 1 - y_indent, num=(padded_height - 1)*res_fact, endpoint=True)
         
-    distribution_new = f(x_new,y_new)[int(res_fact/2):len(y_new)-int(res_fact/2),int(res_fact/2):len(x_new)-int(res_fact/2)]
+    half_res = int(res_fact/2)
+        
+    distribution_new = f(x_new,y_new)[half_res:len(y_new) - half_res,half_res:len(x_new) - half_res]
     
-    #blocks of new squares are normalized to contain equal populations as the original squares
-    
+    # Blocks of new squares are normalized to contain equal populations as the original squares    
     for i in range(width):
         for j in range(height):
         
@@ -107,18 +114,3 @@ def distribution_interpolate(distribution,res_fact):
             square *= oldsum/newsum
             
     return distribution_new
-
-def interpolation_test():
-    
-    height = np.random.randint(10)
-    width = np.random.randint(10)
-    
-    test_distribution = np.random.randint(0, 100, (5,6))
-
-    print(test_distribution)
-
-    distribution_new = distribution_interpolate(test_distribution,2)
-
-    print(distribution_new)
-
-    print(np.sum(test_distribution),np.sum(distribution_new))
