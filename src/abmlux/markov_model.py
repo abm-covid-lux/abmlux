@@ -1,27 +1,26 @@
-#This file constructs initial distributions and transition matrices using data from the Luxembourgish
-#Time Use Survey (TUS). Each respondent to the TUS provided two diaries of activities, one for a week
-#day and one for a weekend day, together with their age and the times at which these activities began
-#. Associated to each respondent there is also a statistical weight and an identification number. Act
-#ivities are denoted by a numeric code and therefore a daily routine consists of a sequence of such n
-#umbers. Activities are grouped together according to the location in which the activity occurs. Dail
-#y routines are then concatenated to produce, for each respondent, a typical weekly routine. The week
-#begins on Sunday and ends on Saturday. Three sets of transition matrices and initial distributions a
-#re then constructed from these routines, for children, adults and retired individuals, respectively.
-#In particular, for each age group a transition matrix is constructed for each 10 minute interval of 
-#the week, of which there are 7*144 in total.
+"""This file constructs initial distributions and transition matrices using data from the
+Luxembourgish Time Use Survey (TUS). Each respondent to the TUS provided two diaries of
+activities, one for a week day and one for a weekend day, together with their age and the times
+at which these activities began. Associated to each respondent there is also a statistical weight
+and an identification number. Activities are denoted by a numeric code and therefore a daily
+routine consists of a sequence of such numbers.
+
+Activities are grouped together according to the location in which the activity occurs.
+Daily routines are then concatenated to produce, for each respondent, a typical weekly
+routine. The week begins on Sunday and ends on Saturday. Three sets of transition matrices
+and initial distributions are then constructed from these routines, for children, adults
+and retired individuals, respectively.  In particular, for each age group a transition matrix
+is constructed for each 10 minute interval of the week, of which there are 7*144 in total."""
 
 import logging
-import math
 
 import pandas as pd
 from tqdm import tqdm
 
 import abmlux.utils as utils
-import abmlux.random_tools as random_tools
 from .sim_time import SimClock
 from .diary import DiaryDay, DiaryWeek, DayOfWeek
 from .agent import AgentType, POPULATION_RANGES
-from .activity_manager import ActivityManager
 from .transition_matrix import SplitTransitionMatrix
 
 # Number of 10min chunks in a day
@@ -110,11 +109,12 @@ def create_weekly_routines(days):
 def parse_days(tus, map_func, tick_length_s):
     """Returns a list of DiaryDay functions built from the TUS data provided.
 
-    The following piece of code constructs the daily routines. This takes into account the fact that diaries
-    appearing in the TUS do not all start at the same time and do not all run for 24 hours. This is
-    achieved by first extending the duration of the last activity, to create a 24 hour routine, after which
-    the piece of the routine extending beyong the end of the day is repositioned to the start of the
-    day. This way, all routines cover a 24 hour period running from midnight to midnight.
+    The following piece of code constructs the daily routines. This takes into account the fact that
+    diaries appearing in the TUS do not all start at the same time and do not all run for 24 hours.
+    This is achieved by first extending the duration of the last activity, to create a 24 hour
+    routine, after which the piece of the routine extending beyong the end of the day is
+    repositioned to the start of the day. This way, all routines cover a 24 hour period running
+    from midnight to midnight.
 
     Parameters:
         tus (pandas dataframe):The TUS dataset loaded from excel
@@ -130,23 +130,25 @@ def parse_days(tus, map_func, tick_length_s):
     clock = SimClock(tick_length_s, 1)
     for date in tqdm(tus['id_jour'].unique()):
         tus_date  = tus.loc[tus['id_jour'] == date]
-        durations = [y-x for x, y in list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
+        durations = [y-x for x, y in
+                     list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
 
         end_activity = map_func(tus_date.iloc[-1]['loc1_num_f'], tus_date.iloc[-1]['act1b_f'])
         start_time = tus_date.iloc[0]['heuredebmin']
 
         # Build variables for object at 10min resolution
-        identity, age, day, weight = [tus_date.iloc[0][x] for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
+        identity, age, day, weight = [tus_date.iloc[0][x]
+                                      for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
         daily_routine_tenmin = [end_activity] * start_time \
                       + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
                                   for i, d in enumerate(durations)]) \
                       + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
 
         # Resample into the clock resolution
-        log.debug(f"Resampling 10 minute chunks into clock resolution ({clock.tick_length_s}s)...")
+        log.debug("Resampling 10 minute chunks into clock resolution (%is)...", clock.tick_length_s)
         daily_routine = []
         clock.reset()
-        for t in clock:
+        for _ in clock:
             seconds_through_day = clock.seconds_elapsed()
             tenmin_bin = int(seconds_through_day / (10 * 60))
             daily_routine.append(daily_routine_tenmin[tenmin_bin])
@@ -159,29 +161,40 @@ def parse_days(tus, map_func, tick_length_s):
 
 
 def build_markov_model(config, activity_manager):
+    """Constructs activity transition matrices for the network given.
 
-    # ---------------------------------------------------------------------------------------------------
-    log.info(f"Loading time use data from {config.filepath('time_use_fp')}...")
+     Parameters:
+        config (dict):The global config file dict
+        activity_manager (ActivityManager):An ActivityManager containing information
+                                           about activity -> location type mappings.
+    Returns:
+        activity_distributions(dict):A list of initial distributions indexed by AgentType
+        activity_transitions(dict):A list of activity transitions indexed by AgentType
+    """
+
+    # ---------------------------------------------------------------------------------------------
+    log.info("Loading time use data from %s...", config.filepath('time_use_fp'))
     # TODO: force pandas to read the numeric ID columns as factors or ints
     #       same for weights
     tus = pd.read_csv(config.filepath('time_use_fp'))
     tus = tus.dropna()
 
-    # ---------------------------------------------------------------------------------------------------
+    # ---------------------------------------------------------------------------------------------
     log.info('Generating daily routines...')
 
-    # As mentioned above, activities are numerically coded. The file FormatsTUS displays the codification
-    # of primary and secondary activities used by the TUS. The primary activities will be grouped together
-    # according to datamap_primary while the secondary activities will be grouped together according to
-    # datamap_secondary.
+    # As mentioned above, activities are numerically coded. The file FormatsTUS displays the
+    # codification of primary and secondary activities used by the TUS. The primary activities will
+    # be grouped together according to datamap_primary while the secondary activities will be
+    # grouped together according to datamap_secondary.
     #
-    # The latter is used if and only if a respondent recorded 'Other specified location' as the primary
-    # activity, in which case referal to the secondary activity is necessary. Activities are consquently
-    # recoded as numbers in the set {0,...,13}, as described in the file FormatActivities.
+    # The latter is used if and only if a respondent recorded 'Other specified location' as the
+    # primary activity, in which case referal to the secondary activity is necessary. Activities
+    # are consquently recoded as numbers in the set {0,...,13}, as described in the file
+    # FormatActivities.
 
     map_func = get_tus_code_mapping(config['activities'], activity_manager)
     days     = parse_days(tus, map_func, config['tick_length_s'])
-    log.info(f"Created {len(days)} days")
+    log.info("Created %i days", len(days))
 
     # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
     # For each respondent there are now two daily routines; one for a week day and one for a
@@ -189,13 +202,14 @@ def build_markov_model(config, activity_manager):
     # starting on Sunday.
 
     # ---------------------------------------------------------------------------------------------
-    log.info('Generating weekly routines...')
+    log.info("Generating weekly routines...")
     weeks = create_weekly_routines(days)
     week_length = len(weeks[0].weekly_routine)  # Assume the first week is representative
-    log.debug(f"Created {len(weeks)} weeks")
+    log.debug("Created %i weeks", len(weeks))
 
     # ----------------------------------------------------------------------------------------------
-    #Now the statistical weights are used to construct the intial distributions and transition matrices:
+    # Now the statistical weights are used to construct the intial distributions and transition
+    # matrices:
 
     # Weights for how many of each type of agent is performing each type of action
     # AgentType.CHILD: [{Home: 23,
@@ -205,18 +219,16 @@ def build_markov_model(config, activity_manager):
     #
     log.info("Generating activity distributions...")
     activity_distributions = {typ: [{activity: 0 for activity in activity_manager.types_as_int()}
-                                 for i in range(week_length)]
-                                 for typ in POPULATION_RANGES.keys()}
+                                    for i in range(week_length)]
+                              for typ in POPULATION_RANGES}
     for typ, rng in POPULATION_RANGES.items():
-        log.debug(f" - {typ} ({rng})")
+        log.debug(" - %s %s", typ, rng)
         for week in tqdm(weeks):
             if week.age in rng:
-                for i, activity in enumerate(week.weekly_routine):
+                for i, _ in enumerate(week.weekly_routine):
                     activity_distributions[typ][i][week.weekly_routine[i]] += week.weight
 
-
     # FIXME: ensure there are >0 of each type, at every time tick
-
 
     log.info('Generating weighted activity transition matrices...')
     # Activity -> activity transition matrix
@@ -226,8 +238,9 @@ def build_markov_model(config, activity_manager):
     #  - Each activity has a W[next activity]
     #  - Each 10 minute slice has a transition matrix between activities
     #
-    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int()) for _ in range(week_length)]
-                         for typ in POPULATION_RANGES.keys()}
+    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int())
+                                  for _ in range(week_length)]
+                            for typ in POPULATION_RANGES}
 
     # Do all but the last item, which should loop around
     for t in tqdm(range(week_length)):
