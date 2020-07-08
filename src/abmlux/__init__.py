@@ -1,14 +1,13 @@
+"""ABMLUX is an agent-based epidemiology model for Luxembourg based on a markov chain."""
 
-
-
-import os, sys
+import os
+import sys
 import random
 import logging
 import logging.config
 
 # Needed for save/load code (TODO: move this out of this module)
 import os.path as osp
-import pickle
 import pandas as pd
 
 from .config import Config
@@ -19,12 +18,10 @@ from .network_model import build_network_model
 from .markov_model import build_markov_model
 from .abm import run_model
 from .activity import ActivityManager
+from .serialisation import read_from_disk, write_to_disk
 
 # Support modules
-
 VERSION = "0.1.0"
-PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
-
 
 # Config
 MAP_FILENAME                   = 'Density_Map.pickle'
@@ -127,19 +124,9 @@ def main():
 
 
     # System config/setup
-    # TODO: can we do exponential backoff on this?
     config = Config(sys.argv[1])
-    sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
     random.seed(config['random_seed'])
     logging.config.dictConfig(config['logging'])
-
-    # Log level output
-    # log.debug("DEBUG")
-    # log.info("INFO")
-    # log.warn("WARN")
-    # log.error("ERROR")
-    # log.fatal("FATAL")
-
 
     # Figure out what we're doing
     if len(sys.argv) > 2:
@@ -151,30 +138,8 @@ def main():
     for i, stage in enumerate(stages):
         log.info(f" ({i+1}) -- {stage.__name__}")
 
-
     # Do it
     for i, stage in enumerate(stages):
         log.info(f"[{i+1}/{len(stages)}] {stage.__name__}")
 
         stage(config)
-
-
-# ===============================================================================================
-# Data Access utils
-#
-# TODO: move these elsewhere.
-
-def write_to_disk(obj, output_filename):
-    log.info(f"Writing to {output_filename}...")
-    with open(output_filename, 'wb') as fout:
-        pickle.dump(obj, fout)
-
-
-def read_from_disk(input_filename):
-    log.info(f'Reading data from {input_filename}...')
-    with open(input_filename, 'rb') as fin:
-        payload = pickle.load(fin)
-
-    return payload
-
-
