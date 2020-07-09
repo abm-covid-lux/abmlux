@@ -32,6 +32,12 @@ logging:
 #        level: DEBUG
 #        propagate: False
 
+# Output that should be rendered from the simulation
+reporters:
+  - csv.HealthStateCounts:
+      filename: health_state_counts.csv
+  - cli.BasicProgress: {}
+
 # ################################# Filepaths ########################
 # Relative to this config file location
 

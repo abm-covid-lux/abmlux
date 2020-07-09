@@ -6,12 +6,13 @@ import sys
 import random
 import logging
 import logging.config
+import importlib
 
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 from abmlux.simulator import Simulator
-from abmlux.reporter import BasicCLIReporter, CSVReporter
+
 from .config import Config
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
@@ -21,7 +22,7 @@ VERSION = "0.1.0"
 
 # Config
 MAP_FILENAME                   = 'Density_Map.pickle'
-NETWORK_FILENAME               = "Network.pickle"
+NETWORK_FILENAME               = 'Network.pickle'
 INITIAL_DISTRIBUTIONS_FILENAME = 'Activity Distributions.pickle'
 TRANSITION_MATRIX_FILENAME     = 'Activity Transitions.pickle'
 AGENT_COUNTS_FILENAME          = "Agent_Counts.csv"
@@ -116,8 +117,21 @@ def run_sim(config):
                                             TRANSITION_MATRIX_FILENAME))
 
     # Reporters
-    # TODO: make configurable
-    reporters = [BasicCLIReporter(), CSVReporter("/tmp/out.csv")]
+    reporters = []
+    for spec in config['reporters']:
+        fqclass_name = list(spec.keys())[0]
+        params = spec[fqclass_name]
+
+        module_name = "abmlux.reporters." + ".".join(fqclass_name.split(".")[:-1])
+        class_name  = fqclass_name.split(".")[-1]
+
+        log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
+        mod = importlib.import_module(module_name)
+        cls = getattr(mod, class_name)
+
+        log.debug("Instantiating class %s with parameters %s", cls, params)
+        reporter = cls(**params)
+        reporters.append(reporter)
 
     # ############## Run Stage ##############
     sim = Simulator(config, network, activity_transitions, reporters)
