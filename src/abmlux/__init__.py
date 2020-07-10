@@ -41,7 +41,8 @@ def load_pop_density(config):
 
     # ############## Run Stage ##############
     density = density_model.read_density_model_jrc(config.filepath('population_distribution_fp'),
-                                                   config['country_code'])
+                                                   config['country_code'], config['res_fact'],
+                                                   config['normalize_interpolation'])
 
     # ############## Output Data ##############
     # Handle output to write to disk if required
@@ -55,7 +56,7 @@ def build_network(config):
     # Step two: build network model
 
     # ############## Input Data ##############
-    # The density matrix contructed by the file DensityModel is now loaded:
+    # The density matrix contructed by the file density_model is now loaded:
     density = read_from_disk(osp.join(config.filepath('working_dir'), MAP_FILENAME))
 
     # ############## Run Stage ##############
