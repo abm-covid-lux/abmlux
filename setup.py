@@ -94,7 +94,8 @@ setup(
                       'pyYAML',
                       'psutil',
                       'scipy',
-                      'dateparser'],  # Optional
+                      'dateparser',
+                      'matplotlib'],  # Optional
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
@@ -133,6 +134,7 @@ setup(
     entry_points={  # Optional
         'console_scripts': [
             'abmlux=abmlux:main',
+            'abmlux-tools=abmlux:main_tools'
         ],
     },
 

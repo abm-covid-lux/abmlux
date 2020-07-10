@@ -13,6 +13,8 @@ import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 from abmlux.simulator import Simulator
 
+import abmlux.tools as tools
+
 from .config import Config
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
@@ -177,3 +179,41 @@ def main():
         log.info("[%i/%i] %s", i+1, len(stages), stage.__name__)
 
         stage(config)
+
+
+TOOLS = ["plot_locations"]
+def main_tools():
+    """Encry point for AMBLUX reporting/analysis tools"""
+    print(f"ABMLUX {VERSION}")
+
+    # Check the path to the config
+    if len(sys.argv) < 3:
+        print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml tool_name [options]")
+        print("")
+        print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml plot_locations")
+        print("")
+        print("List of tools:")
+        for tool in TOOLS:
+            mod = tools.get_tool_module(tool)
+            print(f" - {tool}: {mod.DESCRIPTION}")
+        print("")
+        sys.exit(1)
+
+
+    # System config/setup
+    config = Config(sys.argv[1])
+    random.seed(config['random_seed'])
+    logging.config.dictConfig(config['logging'])
+
+    # Command
+    command = sys.argv[2]
+    if command not in TOOLS:
+        log.error(f"Tool not found: {command}")
+        sys.exit(1)
+    command = getattr(tools.get_tool_module(command), "main")
+
+    parameters = sys.argv[3:]
+    log.info(f"Parameters for tool: {parameters}")
+
+    # Run the thing.
+    command(config, *parameters)
