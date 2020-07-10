@@ -133,6 +133,7 @@ setup(
     entry_points={  # Optional
         'console_scripts': [
             'abmlux=abmlux:main',
+            'abmlux-tools=abmlux:main_tools'
         ],
     },
 

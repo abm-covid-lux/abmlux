@@ -21,6 +21,10 @@ Defined per-scenario in Scenarios/Name/config.yaml.  See the yaml config file fo
  * `pip install .`
  * `abmlux Scenarios/Luxembourg/config.yaml`
 
+To inspect the data post-hoc, and to run various other miscellaneous tools on the simulation state, there is a separate tool.  This must know which simulation you're running it on, as well as the subcommand you wish to run, e.g.:
+
+    abmlux-tools Scenarios/Luxembourg/config.yml plot_locations
+
 ## Testing
 To test:
 
