@@ -94,6 +94,7 @@ setup(
                       'pyYAML',
                       'psutil',
                       'scipy',
+                      'pyproj',
                       'dateparser'],  # Optional
 
     # List additional groups of dependencies here (e.g. development
