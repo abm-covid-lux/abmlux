@@ -31,22 +31,17 @@ class Location:
     def __str__(self):
         return (f"{self.typ}[{self.uuid}]")
 
+#4326 is the EPSG identifier of WGS84
+#3035 is the EPSG identifier of ETRS89
+
 def ETRS89_to_WGS84(coord):
 
-    scale = 1000/config['res_fact']
-    
     transformation = Transformer.from_crs('epsg:3035','epsg:4326')
     
-    return transformation.transform(coord[0]*scale,coord[1]*scale)
+    return transformation.transform(coord[0],coord[1])
     
 def WGS84_to_ETRS89(lat,long):
-
-    scale = 1000/config['res_fact']
-    
-    #4326 is the EPSG identifier of WGS84
-    #3035 is the EPSG identifier of ETRS89
     
     transformation = Transformer.from_crs('epsg:4326','epsg:3035')
     
-    return (transformation.transform(lat,long)[0]/scale,
-            transformation.transform(lat,long)[1]/scale)
+    return transformation.transform(lat,long)

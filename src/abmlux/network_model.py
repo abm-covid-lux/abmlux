@@ -20,7 +20,7 @@ from .sim_time import SimClock
 log = logging.getLogger('network_model')
 
 # Size of each grid square is this x this
-GRID_SQUARE_SIZE_METRES = 1000
+GRID_SQUARE_SIZE_METRES = 1000/config['res_fact']
 
 def create_locations(network, density, config):
     """Create a number of Location objects within the network, according to the density map

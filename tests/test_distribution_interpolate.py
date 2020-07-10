@@ -14,7 +14,7 @@ class TestDistributionInterpolate:
         res_fact = 2*np.random.randint(1,11)
     
         test_distribution = np.random.randint(0, 100, (height,width))
-        distribution_new = distribution_interpolate(test_distribution,res_fact)
+        distribution_new = distribution_interpolate(test_distribution,res_fact,True)
 
         # Assert that the two popultion sums are equal, upto floating point error
         assert(np.sum(test_distribution)-np.sum(distribution_new)==approx(0))
