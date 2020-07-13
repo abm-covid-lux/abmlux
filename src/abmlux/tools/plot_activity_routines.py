@@ -1,14 +1,13 @@
+"""Tool to produce an area plot showing activity probabilities through the week"""
 
 import os.path as osp
-
-import matplotlib.pyplot as plt
-from tqdm import tqdm
 import logging
 
+import matplotlib.pyplot as plt
 
 import abmlux
 from abmlux.agent import AgentType
-from abmlux.serialisation import read_from_disk, write_to_disk
+from abmlux.serialisation import read_from_disk
 from abmlux.activity_manager import ActivityManager
 
 
@@ -19,6 +18,10 @@ HELP        = """[AGENT_TYPE]"""
 
 
 def main(config, agent_type=None):
+    """Plots initial distributions for activities through the weekly routine.
+
+    Shows roughly what agents will be doing at a given time step.
+    """
 
     activity_manager = ActivityManager(config['activities'])
 
@@ -49,4 +52,3 @@ def main(config, agent_type=None):
     plt.legend(loc="lower left")
     plt.title(f"Initial activity weights for agent types {agent_types_filter}")
     plt.show()
-
