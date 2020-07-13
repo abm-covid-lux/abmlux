@@ -5,11 +5,11 @@ the file NetworkModel. In this file, one can set the length of the simulation in
 number of initial seeds. Note that the simulation starts on a Sunday and follows the SEIRD
 framework."""
 
-import random
 import logging
 
 import abmlux.utils as utils
 import abmlux.random_tools as random_tools
+
 from .agent import Agent, AgentType, HealthStatus
 from .sim_time import SimClock
 from .activity_manager import ActivityManager
@@ -124,7 +124,7 @@ class Simulator:
 
             next_activities.append( (agent,
                                      next_activity,
-                                     random.choice(list(allowable_locations))) )
+                                     random_tools.random_choice(list(allowable_locations))) )
 
         return next_activities
 
