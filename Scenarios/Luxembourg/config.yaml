@@ -106,20 +106,38 @@ epoch: 22nd March 2020 11pm
 # These labels will also be mapped onto activities in the time of
 # use survey, so 'house' or 'car' can be an activity, etc.
 location_counts:
-  House: 252_600
-  Other Work: 20_000       # Approx
-  School: 565
-  Restaurant: 2247
-  Outdoor: 1
-  Car: 252_600            # Currently one-per-house, may change.
-  Public Transport: 1000  # Approx
-  Shop: 3136
-  Medical: 136
-  Place of Worship: 677
-  Indoor Sport: 199
-  Cinema or Theatre: 34
-  Museum or Zoo: 77
-
+  House:                            252_600
+  Care Home:                        44
+  OW Agriculture:                   86
+  OW Extraction:                    11
+  OW Manufacturing:                 785
+  OW Energy:                        98
+  OW Water:                         71
+  OW Construction:                  4366
+  OW Trade:                         4684
+  OW Transport:                     1349
+  OW Catering and Accommodation:    251
+  OW ICT:                           2752
+  OW Finance:                       1241
+  OW Real Estate:                   1458
+  OW Technical:                     8349
+  OW Administration:                2433
+  OW Education:                     838
+  OW Entertainment:                 87
+  OW Other Services:                1523
+  School:                           215
+  Restaurant:                       2247
+  Outdoor:                          1
+  Car:                              252_600            # Currently one-per-house, may change.
+  Public Transport:                 1000  # Approx
+  Shop:                             3136
+  Medical:                          125
+  Hospital:                         11
+  Place of Worship:                 677
+  Indoor Sport:                     199
+  Cinema or Theatre:                34
+  Museum or Zoo:                    77
+  
 
 # ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
@@ -145,7 +163,7 @@ activities:
   Work:
     primary: [2]
     secondary: [111]
-    allowed_locations: [Other Work, School, Restaurant, Public Transport, Shop, Medical, Place of Worship, Indoor Sport, Cinema or Theatre, Museum or Zoo]
+    allowed_locations: [Care Home, OW Agriculture, OW Extraction, OW Manufacturing, OW Energy, OW Water, OW Construction, OW Trade, OW Transport, OW Catering and Accommodation, OW ICT, OW Finance, OW Real Estate, OW Technical, OW Administration, OW Education, OW Entertainment, OW Other Services, School, Restaurant, Public Transport, Shop, Medical, Hospital, Hotel, Place of Worship, Indoor Sport, Cinema or Theatre, Museum or Zoo]
   School:
     primary: [3]
     secondary: [232,233]
@@ -257,19 +275,37 @@ probability_of_death:
 # The probability of other agents sharing a given location catching the
 # pathogen each time tick.
 infection_probabilities_per_tick:
-  House:             0.0007
-  Other Work:        0.0007
-  School:            0.0007
-  Restaurant:        0.0007
-  Outdoor:           0.0
-  Car:               0.0007
-  Public Transport:  0.0007
-  Shop:              0.0007
-  Medical:           0.0007
-  Place of Worship:  0.0007
-  Indoor Sport:      0.0007
-  Cinema or Theatre: 0.0007
-  Museum or Zoo:     0.0007
+  House:                            0.0007
+  Care Home:                        0.0007
+  OW Agriculture:                   0.0007
+  OW Extraction:                    0.0007
+  OW Manufacturing:                 0.0007
+  OW Energy:                        0.0007
+  OW Water:                         0.0007
+  OW Construction:                  0.0007
+  OW Trade:                         0.0007
+  OW Transport:                     0.0007
+  OW Catering and Accommodation:    0.0007
+  OW ICT:                           0.0007
+  OW Finance:                       0.0007
+  OW Real Estate:                   0.0007
+  OW Technical:                     0.0007
+  OW Administration:                0.0007
+  OW Education:                     0.0007
+  OW Entertainment:                 0.0007
+  OW Other Services:                0.0007
+  School:                           0.0007
+  Restaurant:                       0.0007
+  Outdoor:                          0.0
+  Car:                              0.0007
+  Public Transport:                 0.0007
+  Shop:                             0.0007
+  Medical:                          0.0007
+  Hospital:                         0.0007
+  Place of Worship:                 0.0007
+  Indoor Sport:                     0.0007
+  Cinema or Theatre:                0.0007
+  Museum or Zoo:                    0.0007
 
 
 # ##################### Distribution on the Network ########################

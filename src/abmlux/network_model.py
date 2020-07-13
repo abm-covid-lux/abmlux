@@ -27,10 +27,7 @@ def create_locations(network, density, config):
     given and the distributions defined in the config."""
 
     log.debug('Initializing locations...')
-    # A total of 13 locations are considered, as described in the file FormatLocations. The list is
-    # similar to the list of activities, except the activity 'other house' does not require a
-    # separate listing and the location 'other work' refers to places of work not already listed as
-    # locations.
+
     location_counts = config['location_counts']
 
     # Adjust location counts by the ratio of the simulation size and real population size
@@ -171,9 +168,8 @@ def assign_homes(network, config, activity_manager, home_activity_type):
 def assign_workplaces(network, activity_manager, work_activity_type):
     """Assign a place of work for each agent."""
 
-    # The assignment of individuals to workplaces is currently random.
-    # Note that the total list of work environments consists of the 'other work' locations plus all the
-    # other locations, except for houses, cars and the outdoors:
+    # The assignment of individuals to workplaces
+
     log.debug("Assigning workplaces...")
     for agent in tqdm(network.agents):
         location_type = random.choice(activity_manager.get_location_types(work_activity_type))
