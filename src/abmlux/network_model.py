@@ -1,7 +1,6 @@
 """This file procedurally generates an environment, following Luxembourgish statistics."""
 
 import math
-import random
 import copy
 from collections import defaultdict
 import logging
@@ -9,7 +8,8 @@ import logging
 from tqdm import tqdm
 from scipy.spatial import KDTree
 
-from .random_tools import multinoulli, multinoulli_2d, multinoulli_dict
+from .random_tools import (multinoulli, multinoulli_2d, multinoulli_dict, random_randrange,
+    random_sample, random_choice, random_shuffle)
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
 from .activity_manager import ActivityManager
@@ -41,8 +41,8 @@ def create_locations(network, density, config):
 
             # Sample a point from the density map
             grid_x, grid_y = multinoulli_2d(density, marginals_cache)
-            x = (grid_size_sq_m*grid_x) + random.randrange(grid_size_sq_m)
-            y = (grid_size_sq_m*grid_y) + random.randrange(grid_size_sq_m)
+            x = (grid_size_sq_m*grid_x) + random_randrange(grid_size_sq_m)
+            y = (grid_size_sq_m*grid_y) + random_randrange(grid_size_sq_m)
 
             # Add location to the network
             new_location = Location(ltype, (x, y))
@@ -156,7 +156,7 @@ def assign_homes(network, config, activity_manager, home_activity_type):
     unassigned_agents = unassigned_adults + network.agents_by_type[AgentType.RETIRED]
     houses  = network.locations_for_types(activity_manager.get_location_types(home_activity_type))
     for adult in tqdm(unassigned_agents):
-        house = random.choice(houses)
+        house = random_choice(houses)
         adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
         occupancy[house].append(adult)
 
@@ -170,8 +170,8 @@ def assign_workplaces(network, activity_manager, work_activity_type):
 
     log.debug("Assigning workplaces...")
     for agent in tqdm(network.agents):
-        location_type = random.choice(activity_manager.get_location_types(work_activity_type))
-        workplace = random.choice(network.locations_by_type[location_type])
+        location_type = random_choice(activity_manager.get_location_types(work_activity_type))
+        workplace = random_choice(network.locations_by_type[location_type])
 
         # This automatically allows the location
         agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
@@ -185,7 +185,7 @@ def assign_other_houses(network, config, activity_manager, home_activity_type, o
     houses = network.locations_for_types(activity_manager.get_location_types(other_house_activity_type))
     for agent in tqdm(network.agents):
         # This may select n-1 if the agent's current home is in the samole
-        houses_to_visit = random.sample(houses, k=config['homes_allowed_to_visit'])
+        houses_to_visit = random_sample(houses, k=config['homes_allowed_to_visit'])
 
         # Blacklist the agent's own home
         houses_to_visit = [h for h in houses_to_visit
@@ -202,8 +202,8 @@ def assign_entertainment_venues(network, config, activity_manager, entertainment
     log.info("Assigning entertainment venues: %s...", entertainment_activity_type)
     venues = network.locations_for_types(activity_manager.get_location_types(entertainment_activity_type))
     for agent in tqdm(network.agents):
-        num_locations      = max(1, random.randrange(config['max_entertainment_allowed_to_visit']))
-        new_entertainments = random.sample(venues, k=min(len(venues), num_locations))
+        num_locations      = max(1, random_randrange(config['max_entertainment_allowed_to_visit']))
+        new_entertainments = random_sample(venues, k=min(len(venues), num_locations))
 
         agent.add_activity_location(activity_manager.as_int(entertainment_activity_type),
                                     new_entertainments)
@@ -236,7 +236,7 @@ def assign_householders_by_proximity(network, activity_manager, occupancy, activ
 
     # Traverse houses in random order
     shuffled_houses = copy.copy(network.locations_by_type['House'])
-    random.shuffle(shuffled_houses)
+    random_shuffle(shuffled_houses)
     for house in tqdm(shuffled_houses):
         # Find the closest location and, if it's not full, assign every occupant to the location
 
@@ -335,7 +335,7 @@ def assign_activities(config, network, activity_distributions):
     # ------------------------------------------[ Initial state ]-----------------------------------
     log.debug("Loading initial state for simulation...")
     # Infect a few people
-    for agent in random.sample(network.agents, k=config['initial_infections']):
+    for agent in random_sample(network.agents, k=config['initial_infections']):
         agent.health = HealthStatus.INFECTED
 
     log.debug("Seeding initial activity states and locations...")
@@ -350,7 +350,7 @@ def assign_activities(config, network, activity_distributions):
         # Warning: No allowed locations found for agent {agent.inspect()} for activity new_activity
         assert len(allowed_locations) >= 0
 
-        new_location = random.choice(list(allowed_locations))
+        new_location = random_choice(list(allowed_locations))
 
         # Do this activity in a random location
         agent.set_activity(new_activity, new_location)

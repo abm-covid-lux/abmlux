@@ -3,11 +3,11 @@
 import os
 import os.path as osp
 import sys
-import random
 import logging
 import logging.config
 import importlib
 
+import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
@@ -160,7 +160,7 @@ def main():
 
     # System config/setup
     config = Config(sys.argv[1])
-    random.seed(config['random_seed'])
+    random_tools.random_seed(config['random_seed'])
     logging.config.dictConfig(config['logging'])
 
     # Figure out what we're doing
@@ -202,7 +202,7 @@ def main_tools():
 
     # System config/setup
     config = Config(sys.argv[1])
-    random.seed(config['random_seed'])
+    random_tools.random_seed(config['random_seed'])
     logging.config.dictConfig(config['logging'])
 
     # Command
