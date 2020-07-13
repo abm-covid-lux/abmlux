@@ -19,9 +19,6 @@ from .sim_time import SimClock
 
 log = logging.getLogger('network_model')
 
-# Size of each grid square is this x this
-GRID_SQUARE_SIZE_METRES = 1000
-
 def create_locations(network, density, config):
     """Create a number of Location objects within the network, according to the density map
     given and the distributions defined in the config."""
@@ -41,13 +38,14 @@ def create_locations(network, density, config):
     # Create locations for each type, of the amounts requested.
     log.debug("Creating location objects...")
     marginals_cache = [sum(x) for x in density]
+    grid_size_sq_m = 1000 / config['res_fact']
     for ltype, lcount in tqdm(location_counts.items()):
         for _ in range(lcount):
 
             # Sample a point from the density map
             grid_x, grid_y = multinoulli_2d(density, marginals_cache)
-            x = (GRID_SQUARE_SIZE_METRES*grid_x) + random.randrange(GRID_SQUARE_SIZE_METRES)
-            y = (GRID_SQUARE_SIZE_METRES*grid_y) + random.randrange(GRID_SQUARE_SIZE_METRES)
+            x = (grid_size_sq_m*grid_x) + random.randrange(grid_size_sq_m)
+            y = (grid_size_sq_m*grid_y) + random.randrange(grid_size_sq_m)
 
             # Add location to the network
             new_location = Location(ltype, (x, y))
@@ -155,7 +153,7 @@ def assign_homes(network, config, activity_manager, home_activity_type):
     #
     # This brings with it the possibility of some households being large,
     # and some houses remaining empty.
-    log.debug("Assigning %i adults and %i retired people to %i houses...", 
+    log.debug("Assigning %i adults and %i retired people to %i houses...",
               len(unassigned_adults), len(network.agents_by_type[AgentType.RETIRED]),
               len(unassigned_houses))
     unassigned_agents = unassigned_adults + network.agents_by_type[AgentType.RETIRED]
@@ -215,7 +213,7 @@ def assign_entertainment_venues(network, config, activity_manager, entertainment
                                     new_entertainments)
 
 
-def assign_householders_by_proximity(network, config, activity_manager, occupancy, activity_type):
+def assign_householders_by_proximity(network, activity_manager, occupancy, activity_type):
     """For the location type given, select nearby houses and assign all occupants to
     attend this location.  If the location is full, move to the next nearby location, etc."""
 
@@ -323,7 +321,7 @@ def build_network_model(config, density):
         assign_entertainment_venues(network, config, activity_manager, entertainment_activity_type)
 
     for activity_type in config['whole_household_activities']:
-        assign_householders_by_proximity(network, config, activity_manager, occupancy, activity_type)
+        assign_householders_by_proximity(network, activity_manager, occupancy, activity_type)
 
     assign_outdoors(network, activity_manager, "Outdoor")
     assign_cars(network, activity_manager, occupancy, "Car")
