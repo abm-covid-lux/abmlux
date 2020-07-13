@@ -5,7 +5,7 @@ This is an agent-based model of COVID-19 in Luxembourg.
 [![CodeFactor](https://www.codefactor.io/repository/github/abm-covid-lux/abmlux/badge?s=006dc8f386c6ea6d2a7a90377ff30fcf15328919)](https://www.codefactor.io/repository/github/abm-covid-lux/abmlux)
 
 
-![ABMLUX Logo](abmlux_logo.jpg | width=300)
+![ABMLUX Logo](abmlux_logo.jpg){:class="img-responsive"}
 
 ## Overview
 
