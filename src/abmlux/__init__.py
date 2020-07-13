@@ -93,7 +93,7 @@ def assign_activities(config):
     """Assign activities to the agents on the network, creating an initial condition for the
     sim"""
 
-    # ------------------------------------------------[ 3 ]------------------------------------
+    # ------------------------------------------------[ 4 ]------------------------------------
     # ############## Input Data #############
     network                = read_from_disk(osp.join(config.filepath('working_dir', True),\
                                             NETWORK_FILENAME))
@@ -111,7 +111,7 @@ def assign_activities(config):
 def run_sim(config):
     """Run the agent-based model itself"""
 
-    # ------------------------------------------------[ 4 ]------------------------------------
+    # ------------------------------------------------[ 5 ]------------------------------------
     # Step four: simulate
     # ############## Input Data ##############
     network                = read_from_disk(osp.join(config.filepath('working_dir', True),\

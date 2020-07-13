@@ -68,16 +68,22 @@ class Simulator:
 
         # Simulation state.  These indices represent an optimisation to prevent having to loop
         # over every single agent.
-        self.infectious_agents_by_location = {l: len([a for a in l.attendees 
-                                                      if a.health == HealthStatus.INFECTED])
-                                              for l in self.locations}
+        log.info("Creating simulation state indices...")
         self.health_state_change_time      = {a: 0 for a in self.agents}
-        self.agents_by_health_state        = {h: set([a for a in self.agents if a.health == h])
+        log.info(" - Agents in each location...")
+        self.attendees                     = {l: {a for a in self.agents if a.current_location == l}
+                                              for l in self.locations}
+        log.info(" - Agents by health state...")
+        self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
                                               for h in list(HealthStatus)}
+        log.info(" - Infectious agents counts...")
+        self.infectious_agents_by_location = {l: len([a for a in self.agents_by_health_state[HealthStatus.INFECTED]
+                                                      if a.current_location == l])
+                                              for l in self.locations}
 
     def run(self):
         """Run the simulation"""
- 
+
         log.info("Simulating outbreak...")
         for reporter in self.reporters:
             reporter.start(self)
@@ -195,4 +201,6 @@ class Simulator:
                 self.infectious_agents_by_location[new_location] += 1
 
             # Update
+            self.attendees[agent.current_location].remove(agent)
             agent.set_activity(new_activity, new_location)
+            self.attendees[agent.current_location].add(agent)
