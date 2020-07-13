@@ -1,7 +1,9 @@
 """Reporters that output to the terminal"""
 
-from tqdm import tqdm
+
 from datetime import datetime
+
+from tqdm import tqdm
 
 from abmlux.reporter import Reporter
 
@@ -18,7 +20,7 @@ class TQDM(Reporter):
     def iterate(self, sim):
         self.pbar.update()
         desc = ", ".join([f"{k.name[0]}:{len(v)}" for k, v in sim.agents_by_health_state.items()])
-        self.pbar.set_description(desc)
+        self.pbar.set_description(f"{desc} {sim.clock.now()}")
 
     def stop(self, sim):
         self.pbar.close()

@@ -2,6 +2,7 @@
 
 import os
 import os.path as osp
+from zlib import adler32
 
 from abmlux.reporter import Reporter
 from abmlux.agent import HealthStatus
@@ -9,6 +10,8 @@ from abmlux.agent import HealthStatus
 import matplotlib.pyplot as plt
 import logging
 
+# FIXME: remove this in favour of parameters
+LOCATION_TYPE_BLACKLIST = ["Outdoor", "Public Transport"]
 
 class LocationPlots(Reporter):
     """Output multiple plots showing agent locations at each time step"""
@@ -25,6 +28,7 @@ class LocationPlots(Reporter):
         self.health_filter = list(HealthStatus)
         if health_to_show is not None and len(health_to_show) > 0:
             self.health_filter = [HealthStatus[h] for h in health_to_show]
+        self.health_state_label = ", ".join([h.name for h in self.health_filter])
 
         # Choose which locations to show
         self.type_filter = None
@@ -34,7 +38,8 @@ class LocationPlots(Reporter):
 
     def start(self, sim):
         if self.type_filter is None:
-            self.type_filter = sim.network.locations_by_type.keys()
+            self.type_filter = [x for x in list(sim.network.locations_by_type.keys())
+                                if x not in LOCATION_TYPE_BLACKLIST]
         self.colours = {lt: LocationPlots.location_type_as_color(lt) for lt in self.type_filter}
 
     def iterate(self, sim):
@@ -45,6 +50,17 @@ class LocationPlots(Reporter):
         network = sim.network
 
         plt.figure()
+
+        # FIXME: make these discoverable by inspecting the current map
+        MAP_DIMENSIONS_COORD = 57000, 82000 # width, height
+        plt.xlim(0, MAP_DIMENSIONS_COORD[0])
+        plt.ylim(0, MAP_DIMENSIONS_COORD[1])
+        plt.axis('off')
+
+        # FIXME: remove this or make it configurable
+        ax = plt.gca()
+        ax.imshow(plt.imread("luxembourg-bg.png"), extent=[0, MAP_DIMENSIONS_COORD[0], 0, MAP_DIMENSIONS_COORD[1]])
+
         fig = plt.gcf()
         fig.set_size_inches(self.figure_size[0], self.figure_size[1])
 
@@ -56,19 +72,24 @@ class LocationPlots(Reporter):
                     if sim.agent_counts_by_health[health][location] > 0:
                         # print(f"-> {health} // {sim.agent_counts_by_health[health][location]}")
                         x, y = location.coord
+
+                        x /= 2
+                        y /= 2
+                        # print(f"-> {x}, {y}")
                         plt.plot([x], [y], marker='o',
                                  markersize=sim.agent_counts_by_health[health][location],
                                  color=self.colours[location_type])
 
         # Render a legend
-        plt.legend(self.type_filter, scatterpoints=1, loc="upper right")
+        # plt.legend(self.type_filter, scatterpoints=1, loc="upper right")
         ax = plt.gca()
         leg = ax.get_legend()
         #for i, location_type in enumerate(self.type_filter):
         #    leg.legendHandles[i].set_color(self.colours[location_type])
-        plt.title(f"Attendance; health_states={self.health_filter}, t={sim.clock.t}, {sim.clock.now()}")
+        plt.title(f"Attendance; health_states={self.health_state_label}; t={sim.clock.t}; {sim.clock.now()}")
 
         fig.savefig(osp.join(self.dirname, f"{sim.clock.t:05}.png"))
+        plt.close()
 
     def stop(self, sim):
         pass
@@ -78,7 +99,7 @@ class LocationPlots(Reporter):
         """Return a matplotlib colour"""
 
         colour_map    = plt.get_cmap('gist_rainbow')
-        location_hash = abs(hash(location_type)) % 10000
+        location_hash = adler32(location_type.encode("utf-8")) % 10000
         colour        = colour_map(location_hash / 10000)
 
         return colour
