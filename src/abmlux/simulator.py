@@ -55,6 +55,7 @@ class Simulator:
         self.clock            = SimClock(config['tick_length_s'], config['simulation_length_days'],
                                          config['epoch'])
 
+        self.network   = network
         self.locations = network.locations
         self.agents    = network.agents
 
