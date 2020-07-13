@@ -41,8 +41,8 @@ def get_tus_code_mapping(map_config, activity_manager):
     of abm labels and primary/secondary keys containing a list of TUS
     codes, e.g.:
 
-    {'Home': {'primary': [1], 'secondary': [11,12,13,14]},
-     'Other Work': {'primary': [2]}}
+    {'House': {'primary': [1], 'secondary': [11,12,13,14]},
+     'Work': {'primary': [2]}}
 
     The resulting function takes two arguments, namely the TUS primary
     and secondary codes, as ints.  It returns one of the keys
@@ -212,8 +212,6 @@ def build_markov_model(config, activity_manager):
     # matrices:
 
     # Weights for how many of each type of agent is performing each type of action
-    # AgentType.CHILD: [{Home: 23,
-    #                   Other Work: 12}],
     # AgentType.ADULT: [{action: weight, action2: weight2},
     #                   {action: weight, action2: weight2}],
     #

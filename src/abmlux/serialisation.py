@@ -6,9 +6,6 @@ import sys
 import pickle
 import logging
 
-PICKLE_RECURSION_LIMIT = 100000  # Allows export of highly nested data
-sys.setrecursionlimit(PICKLE_RECURSION_LIMIT)
-
 log = logging.getLogger("serialisation")
 
 def write_to_disk(obj, output_filename):
@@ -25,7 +22,7 @@ def write_to_disk(obj, output_filename):
 
     log.info("Writing to %s...", output_filename)
     with open(output_filename, 'wb') as fout:
-        pickle.dump(obj, fout)
+        pickle.dump(obj, fout, protocol=pickle.HIGHEST_PROTOCOL)
 
 
 def read_from_disk(input_filename):

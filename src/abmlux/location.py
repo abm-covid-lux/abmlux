@@ -18,9 +18,6 @@ class Location:
         self.typ       = typ
         self.coord     = coord
 
-        # Who is currently at the location
-        self.attendees = set() if attendees is None else attendees
-
     def set_coordinates(self, x, y=None):
         """Set coordinates for this location.
 

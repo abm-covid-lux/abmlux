@@ -52,6 +52,7 @@ class Agent:
         self.age                = age
         self.activity_locations = {}
 
+        # Current state
         self.current_activity  = None
         self.current_location  = current_location
         self.health            = HealthStatus.SUSCEPTIBLE
@@ -87,21 +88,10 @@ class Agent:
         any attendee list at the current location, and add itself
         to the attendee list at the new location"""
 
-        log.debug(f"Agent {self.uuid}: Activity {self.current_activity} -> {activity}, Location {self.current_location} -> {location}")
+        log.debug("Agent %s: Activity %s -> %s, Location %s -> %s",
+                  self.uuid, self.current_activity, activity, self.current_location, location)
         self.current_activity = activity
-
-        # If a location is given, update this too.
-        #
-        # Be aware that this updates the location itself.
-        if location:
-            # Remove self from current location
-            if self.current_location is not None \
-               and self in self.current_location.attendees:
-                self.current_location.attendees.remove(self)
-
-            # add self to new location
-            self.current_location = location
-            location.attendees.add(self)
+        self.current_location = location
 
     def inspect(self):
         return (f"<Agent {self.uuid}; age={self.age}, "
