@@ -133,6 +133,7 @@ location_counts:
   Shop:                             3136
   Medical:                          125
   Hospital:                         11
+  Hotel:                            213
   Place of Worship:                 677
   Indoor Sport:                     199
   Cinema or Theatre:                34
@@ -302,6 +303,7 @@ infection_probabilities_per_tick:
   Shop:                             0.0007
   Medical:                          0.0007
   Hospital:                         0.0007
+  Hotel:                            0.0007
   Place of Worship:                 0.0007
   Indoor Sport:                     0.0007
   Cinema or Theatre:                0.0007
