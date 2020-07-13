@@ -138,7 +138,6 @@ location_counts:
   Indoor Sport:                     199
   Cinema or Theatre:                34
   Museum or Zoo:                    77
-  
 
 # ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
@@ -206,8 +205,6 @@ activities:
     secondary: [395,426,429,515,521,523,524]
     allowed_locations: [House]
 
-
-
 # For the following location types, all people from a household
 # are assigned to the same locations for these activities.
 #
@@ -267,7 +264,7 @@ probability_of_death:
   - [[20, 29],  0.0 ]
   - [[30, 39],  0.0 ]
   - [[40, 49],  0.0 ]
-  - [[50, 59],  0.1 ]
+  - [[50, 59],  0.01 ]
   - [[60, 69],  0.04]
   - [[70, 79],  0.08]
   - [[80, 89],  0.15]
@@ -308,7 +305,6 @@ infection_probabilities_per_tick:
   Indoor Sport:                     0.0007
   Cinema or Theatre:                0.0007
   Museum or Zoo:                    0.0007
-
 
 # ##################### Distribution on the Network ########################
 # Weighting of houses with each number of children in them.
