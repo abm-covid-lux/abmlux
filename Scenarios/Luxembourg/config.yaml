@@ -40,14 +40,17 @@ logging:
 
 # Output that should be rendered from the simulation
 reporters:
-  - csv.HealthStateCounts:
-      filename: health_state_counts.csv
-  - cli.BasicProgress: {}
-  - location_population_plots.LocationPlots:
-      dirname: /tmp/plots
-      types_to_show: []
-      figure_size: [20, 20]  # width, height
-      every_n: 40
+  # - csv.HealthStateCounts:
+  #     filename: health_state_counts.csv
+  # - cli.BasicProgress: {}
+  - cli.TQDM: {}
+  #- location_population_plots.LocationPlots:
+    #  dirname: /tmp/plots
+    #  types_to_show: []
+    #  health_to_show: [INFECTED]
+    #  figure_size: [20, 20]  # width, height
+    #  every_n: 40
+
 
 # ################################# Filepaths ########################
 # Relative to this config file location
@@ -95,9 +98,9 @@ tick_length_s: 600
 simulation_length_days: 70  # 10 weeks
 
 # When the simulation starts
-# syntax is anything accepted by Dateparser: 
+# syntax is anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
-epoch: 22nd March 2020 11pm
+epoch: 22nd March 2020
 
 # ################################# Locations ########################
 # How many of these locations should exist on the network.

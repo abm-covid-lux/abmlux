@@ -4,6 +4,8 @@ import os
 import os.path as osp
 
 from abmlux.reporter import Reporter
+from abmlux.agent import HealthStatus
+
 import matplotlib.pyplot as plt
 import logging
 
@@ -11,13 +13,18 @@ import logging
 class LocationPlots(Reporter):
     """Output multiple plots showing agent locations at each time step"""
 
-    def __init__(self, dirname, types_to_show=None, figure_size=(10, 10), every_n=1):
+    def __init__(self, dirname, types_to_show=None, health_to_show=None, figure_size=(10, 10), every_n=1):
 
         self.dirname     = dirname
         self.figure_size = figure_size
         self.every_n     = every_n
 
         os.makedirs(self.dirname, exist_ok=True)
+
+        # Choose which health states to show
+        self.health_filter = list(HealthStatus)
+        if health_to_show is not None and len(health_to_show) > 0:
+            self.health_filter = [HealthStatus[h] for h in health_to_show]
 
         # Choose which locations to show
         self.type_filter = None
@@ -37,6 +44,7 @@ class LocationPlots(Reporter):
 
         network = sim.network
 
+        plt.figure()
         fig = plt.gcf()
         fig.set_size_inches(self.figure_size[0], self.figure_size[1])
 
@@ -44,17 +52,21 @@ class LocationPlots(Reporter):
         for location_type in self.type_filter:
             #log.info("Rendering locations of type '%s'...", location_type)
             for location in network.locations_by_type[location_type]:
-                x, y = location.coord
-                plt.plot([x], [y], marker='o', markersize=len(sim.attendees[location]),
-                         color=self.colours[location_type])
+                for health in self.health_filter:
+                    if sim.agent_counts_by_health[health][location] > 0:
+                        # print(f"-> {health} // {sim.agent_counts_by_health[health][location]}")
+                        x, y = location.coord
+                        plt.plot([x], [y], marker='o',
+                                 markersize=sim.agent_counts_by_health[health][location],
+                                 color=self.colours[location_type])
 
         # Render a legend
         plt.legend(self.type_filter, scatterpoints=1, loc="upper right")
         ax = plt.gca()
         leg = ax.get_legend()
-        for i, location_type in enumerate(self.type_filter):
-            leg.legendHandles[i].set_color(self.colours[location_type])
-        plt.title(f"t={sim.clock.t}, {sim.clock.now()}")
+        #for i, location_type in enumerate(self.type_filter):
+        #    leg.legendHandles[i].set_color(self.colours[location_type])
+        plt.title(f"Attendance; health_states={self.health_filter}, t={sim.clock.t}, {sim.clock.now()}")
 
         fig.savefig(osp.join(self.dirname, f"{sim.clock.t:05}.png"))
 

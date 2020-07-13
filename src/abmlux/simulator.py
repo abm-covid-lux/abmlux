@@ -78,9 +78,9 @@ class Simulator:
         self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
                                               for h in list(HealthStatus)}
         log.info(" - Infectious agents counts...")
-        self.infectious_agents_by_location = {l: len([a for a in self.agents_by_health_state[HealthStatus.INFECTED]
-                                                      if a.current_location == l])
-                                              for l in self.locations}
+        self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
+                                           for l in self.locations}
+                                       for h in list(HealthStatus)}
 
     def run(self):
         """Run the simulation"""
@@ -137,17 +137,16 @@ class Simulator:
         # We'll be exposed n times, so compute a new overall probability of catching
         # the virus from at least one person:
         infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ])**c
-                                             for l, c in self.infectious_agents_by_location.items()
+                                             for l, c in self.agent_counts_by_health[HealthStatus.INFECTED].items()
                                              if c > 0}
-        for agent in self.agents_by_health_state[HealthStatus.SUSCEPTIBLE]:
+        for location, p_infection in infection_probability_by_location.items():
+            # All susceptible agents at this location have the given p[infection]
 
-            # Read useful things
-            location = agent.current_location
-            if self.infectious_agents_by_location[location] == 0:
-                continue
+            susceptible_agents = [a for a in self.attendees[location] if a.health == HealthStatus.SUSCEPTIBLE]
 
-            if random_tools.boolean(infection_probability_by_location[location]):
-                next_health.append((agent, HealthStatus.EXPOSED))
+            for agent in susceptible_agents:
+                if random_tools.boolean(p_infection):
+                    next_health.append((agent, HealthStatus.EXPOSED))
 
 
         for agent in self.agents_by_health_state[HealthStatus.EXPOSED]:
@@ -180,8 +179,7 @@ class Simulator:
 
             # Remove from index
             self.agents_by_health_state[agent.health].remove(agent)
-            if agent.health == HealthStatus.INFECTED:
-                self.infectious_agents_by_location[agent.current_location] -= 1
+            self.agent_counts_by_health[agent.health][agent.current_location] -= 1
 
             # Update
             agent.health                         = new_health
@@ -189,19 +187,15 @@ class Simulator:
 
             # Add to index
             self.agents_by_health_state[agent.health].add(agent)
-            if agent.health == HealthStatus.INFECTED:
-                self.infectious_agents_by_location[agent.current_location] += 1
+            self.agent_counts_by_health[agent.health][agent.current_location] += 1
 
 
         # 2.2 - Update activity
         for agent, new_activity, new_location in activity_changes:
 
-            # Update index
-            if agent.health == HealthStatus.INFECTED:
-                self.infectious_agents_by_location[agent.current_location] -= 1
-                self.infectious_agents_by_location[new_location] += 1
-
-            # Update
+            # Update indices and set activity
+            self.agent_counts_by_health[agent.health][agent.current_location] -= 1
             self.attendees[agent.current_location].remove(agent)
             agent.set_activity(new_activity, new_location)
             self.attendees[agent.current_location].add(agent)
+            self.agent_counts_by_health[agent.health][agent.current_location] += 1
