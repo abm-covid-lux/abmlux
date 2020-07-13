@@ -1,13 +1,19 @@
+"""Tools for representing locations on the network"""
 
-from pyproj import Transformer
 import uuid
+from pyproj import Transformer
 
 class Location:
     """Represents a location to the system"""
 
     def __init__(self, typ, coord, attendees=None):
-        # FIXME: document this.
-        #
+        """Represents a location on the network.
+
+        Parameters:
+          typ (str): The type of location, as a string
+          coord (tuple):2-tuple with x, y grid coordinates in ETRS89 format
+          attendees (set):Set of Agent objects showing who is here
+        """
         self.uuid      = uuid.uuid4().hex
         self.typ       = typ
         self.coord     = coord
@@ -29,19 +35,21 @@ class Location:
         self.coord = (x, y)
 
     def __str__(self):
-        return (f"{self.typ}[{self.uuid}]")
+        return f"{self.typ}[{self.uuid}]"
 
-#4326 is the EPSG identifier of WGS84
-#3035 is the EPSG identifier of ETRS89
 
 def ETRS89_to_WGS84(coord):
+    """Convert from ABMLUX grid format (actually ETRS89) to lat, lon in WGS84 format"""
 
-    transformation = Transformer.from_crs('epsg:3035','epsg:4326')
-    
-    return transformation.transform(coord[0],coord[1])
-    
-def WGS84_to_ETRS89(lat,long):
-    
-    transformation = Transformer.from_crs('epsg:4326','epsg:3035')
-    
-    return transformation.transform(lat,long)
+    #4326 is the EPSG identifier of WGS84
+    #3035 is the EPSG identifier of ETRS89
+    transformation = Transformer.from_crs('epsg:3035', 'epsg:4326')
+
+    return transformation.transform(coord[0], coord[1])
+
+def WGS84_to_ETRS89(lat, lon):
+    """Convert from lat, lon in WGS84 format to ABMLUX' grid format (ETRS89)"""
+
+    transformation = Transformer.from_crs('epsg:4326', 'epsg:3035')
+
+    return transformation.transform(lat, lon)
