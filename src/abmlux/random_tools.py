@@ -6,31 +6,31 @@ from functools import reduce
 
 def random_seed(config):
     """Random seed function"""
-    
+
     return random.seed(config)
 
 
 def random_randrange(stop):
     """Random randrange function"""
-    
+
     return random.randrange(stop)
 
 
 def random_choice(sequence):
     """Random choice function"""
-    
+
     return random.choice(sequence)
 
 
 def random_sample(population, k):
     """Random sample function"""
-    
+
     return random.sample(population, k)
 
 
 def random_shuffle(x):
     """Random shuffle function"""
-    
+
     return random.shuffle(x)
 
 
