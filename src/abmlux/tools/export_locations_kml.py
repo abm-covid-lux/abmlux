@@ -40,6 +40,7 @@ def main(config, filename, types_to_show=None):
 
             # lon, lat optional height
             pnt = folder.newpoint(name=location.uuid, description=location_type, coords=[(lon,lat)])
+            pnt.style.labelstyle.color = "00000000"
             pnt.style.iconstyle.color = colour
 
     # Output to file
