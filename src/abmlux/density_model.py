@@ -10,15 +10,17 @@ import pandas as pd
 from tqdm import tqdm
 from scipy import interpolate
 
+from abmlux.map import DensityMap
+
 # Module log
 log = logging.getLogger('density_model')
 
-def distribution_interpolate(distribution, res_fact, normalize):
+def change_resolution(density_map, res_fact, normalize):
     """Returns an expanded distribution matrix, corresponding to a finer grid resolution, using
     linear interpolation.
 
     Parameters:
-        distribution (numpy array):The distribution array returned from read_density_model_jrc
+        density_map (DensityMap):The density map returned from read_density_model_jrc
         res_fact (int):The factor by which the resolution is increased in a given dimension. This
                        should be an even integer, except if res_fact == 1 in which case the
                        original density is returned.
@@ -33,11 +35,12 @@ def distribution_interpolate(distribution, res_fact, normalize):
                                         not isinstance(res_fact, int):
         raise ValueError("res_fact in distribution_interpolate must be a +ve even integer or 1")
 
+    distribution  = np.array(density_map.density)
     height, width = distribution.shape
 
     # Pad with a border of zeros
     padded_height = height + 2
-    padded_width = width + 2
+    padded_width  = width + 2
 
     padded_distribution = np.zeros((padded_height,padded_width))
     padded_distribution[1:height+1,1:width+1] = distribution
@@ -61,11 +64,16 @@ def distribution_interpolate(distribution, res_fact, normalize):
     half_res = int(res_fact/2)
     distribution_new = interpolated_density(x_new, y_new)[half_res:len(y_new) - half_res,
                                                           half_res:len(x_new) - half_res]
-    
-    if normalize == True:
 
-        # Blocks of new squares are normalized to contain equal populations as the original
-        # squares
+    # Create a new map and copy metadata in there
+    new_map = DensityMap(density_map.coord, density_map.width_km, density_map.height_km,
+                         density_map.resolution_km * res_fact)
+    assert len(new_map.density) == len(distribution_new)
+    assert len(new_map.density[0]) == len(distribution_new[0])
+    new_map.density = distribution_new
+
+    # Blocks of new squares are normalized to contain equal populations as the original squares
+    if normalize:
         for i in range(width):
             for j in range(height):
 
@@ -77,9 +85,10 @@ def distribution_interpolate(distribution, res_fact, normalize):
                 if newsum > 0:
                     square *= oldsum/newsum
 
-    return distribution_new
+    new_map._recompute_marginals()
+    return new_map
     
-def read_density_model_jrc(filepath, country_code, res_fact, normalize):
+def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefilename):
     """Parse JRC-format country data and return a two-dimensional array
     containing population density weights per-kilometer.
 
@@ -111,7 +120,8 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize):
     # Map the grid coordinates given onto a cartesian grid, each cell
     # of which represents the population density at that point
     log.debug("Building density matrix...")
-    density = [[0 for x in range(country_width)] for y in range(country_height)]
+    country = DensityMap((jrc['grid_x'].min(), jrc['grid_y'].min()),
+                         country_width, country_height, 1, shapefilename)
     for _, row in tqdm(jrc.iterrows(), total=jrc.shape[0]):
 
         # Read total population for this 1km chunk, \propto density
@@ -119,13 +129,13 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize):
         x                = row['grid_x'] - jrc['grid_x'].min()
         y                = row['grid_y'] - jrc['grid_y'].min()
 
-        density[y][x] = location_density
+        country.density[y][x] = location_density
+    country._recompute_marginals()
     
     # Return the density, with linear interpolation or not
-    if res_fact > 0 and res_fact <= 1000 and res_fact % 2 == 0:
-        
-        return distribution_interpolate(np.array(density), res_fact, normalize)
-        
+    if res_fact > 1:
+        if res_fact % 2 != 0:
+            raise ValueError(f"Resolution scale factor ({res_fact}) must be multiple of 2")
+        return change_resolution(country, res_fact, normalize)
     else:
-    
-        return density
+        return country

@@ -4,11 +4,7 @@
 # Seed for python's PRNG
 random_seed: 652
 
-# Density map scale factor
-res_fact: 2
 
-# Density map normalization
-normalize_interpolation: True
 
 # Format is https://docs.python.org/3/library/logging.config.html#logging-config-dictschema
 logging:
@@ -57,9 +53,22 @@ reporters:
 
 
 # ---------- Input data ------------
-# File containing initial distribution of population.  See Docs for
-# full format
-population_distribution_fp: Population Distribution.csv
+map:
+  # Density map scale factor
+  res_fact: 2
+
+  # Density map normalization
+  normalize_interpolation: True
+
+  # Country code to extract from the distribution data
+  country_code: LU
+
+  # File containing initial distribution of population.  See Docs for
+  # full format
+  population_distribution_fp: Population Distribution.csv
+
+  # Shapefile describing the borders of the country
+  shapefilename: Map/LIMADM_CANTONS.shp
 
 # File containing time use survey data.  See Docs for full format.
 time_use_fp: Time Use.csv
@@ -84,8 +93,6 @@ n: 16_108
 # to the ratio of this number and n above.
 real_n: 626_108
 
-# Country code to extract from the distribution data
-country_code: LU
 
 # ################################# Time ########################
 # Time length of each tick in the simulation.

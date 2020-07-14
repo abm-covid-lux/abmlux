@@ -33,6 +33,10 @@ def random_shuffle(x):
 
     return random.shuffle(x)
 
+def random_float(x):
+    """Return random number between 0 and x"""
+
+    return random.random() * x
 
 def multinoulli(problist):
     """Sample at random from a list of n options with given probabilities.

@@ -97,7 +97,8 @@ setup(
                       'pyproj',
                       'dateparser',
                       'matplotlib',
-                      'simplekml'],
+                      'simplekml',
+                      'pyshp'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
