@@ -49,7 +49,7 @@ reporters:
       types_to_show: []
       health_to_show: [INFECTED]
       figure_size: [10.43, 15]  # width, height
-      every_n: 3
+      every_n: 1
 
 
 # ################################# Filepaths ########################
