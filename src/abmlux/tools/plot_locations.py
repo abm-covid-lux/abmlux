@@ -5,6 +5,7 @@ import os.path as osp
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import logging
+from zlib import adler32
 
 import abmlux
 from abmlux.serialisation import read_from_disk, write_to_disk
@@ -20,7 +21,7 @@ def location_type_as_color(location_type):
     """Return a matplotlib colour"""
 
     colour_map    = plt.get_cmap('gist_rainbow')
-    location_hash = abs(hash(location_type)) % 10000
+    location_hash = adler32(location_type.encode("utf-8")) % 10000
     colour        = colour_map(location_hash / 10000)
 
     return colour
