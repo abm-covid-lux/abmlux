@@ -3,13 +3,14 @@
 import os
 import os.path as osp
 from zlib import adler32
+# import logging
+
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 
 from abmlux.reporter import Reporter
 from abmlux.agent import HealthStatus
 
-import matplotlib.pyplot as plt
-from matplotlib.lines import Line2D
-import logging
 
 # FIXME: remove this in favour of parameters
 LOCATION_TYPE_BLACKLIST = ["Outdoor", "Public Transport"]
@@ -35,7 +36,10 @@ class LocationPlots(Reporter):
         self.type_filter = None
         if types_to_show is not None and len(types_to_show) > 0:
             self.type_filter = types_to_show.split(",")
+
+        # To be populated the first time we see the sim
         self.colours = None
+        self.legend_items = []
 
     def start(self, sim):
         if self.type_filter is None:
@@ -44,7 +48,6 @@ class LocationPlots(Reporter):
         self.colours = {lt: LocationPlots.location_type_as_color(lt) for lt in self.type_filter}
 
         # Build a legend
-        self.legend_items = []
         for location_type, colour in self.colours.items():
             self.legend_items.append(Line2D([0], [0], marker='o', color='w',
                                             label=location_type, markerfacecolor=colour, markersize=15))
@@ -67,7 +70,8 @@ class LocationPlots(Reporter):
 
         # FIXME: remove this or make it configurable
         # ax = plt.gca()
-        # ax.imshow(plt.imread("luxembourg-bg.png"), extent=[0, MAP_DIMENSIONS_COORD[0], 0, MAP_DIMENSIONS_COORD[1]])
+        # ax.imshow(plt.imread("luxembourg-bg.png"), extent=[0, MAP_DIMENSIONS_COORD[0], 0,
+        #           MAP_DIMENSIONS_COORD[1]])
 
         fig = plt.gcf()
         fig.set_size_inches(self.figure_size[0], self.figure_size[1])
@@ -88,10 +92,6 @@ class LocationPlots(Reporter):
 
         # Render a legend
         plt.legend(handles=self.legend_items, loc="upper right")
-        ax = plt.gca()
-
-        #for i, location_type in enumerate(self.type_filter):
-        #    leg.legendHandles[i].set_color(self.colours[location_type])
         plt.title(f"Attendance; health_states={self.health_state_label}; t={sim.clock.t}; {sim.clock.now()}")
 
         fig.savefig(osp.join(self.dirname, f"{sim.clock.t:05}.png"))
