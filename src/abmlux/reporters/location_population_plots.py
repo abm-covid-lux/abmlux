@@ -2,12 +2,12 @@
 
 import os
 import os.path as osp
-from zlib import adler32
 # import logging
 
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
+from abmlux.utils import string_as_mpl_colour
 from abmlux.reporter import Reporter
 from abmlux.agent import HealthStatus
 
@@ -45,7 +45,7 @@ class LocationPlots(Reporter):
         if self.type_filter is None:
             self.type_filter = [x for x in list(sim.network.locations_by_type.keys())
                                 if x not in LOCATION_TYPE_BLACKLIST]
-        self.colours = {lt: LocationPlots.location_type_as_color(lt) for lt in self.type_filter}
+        self.colours = {lt: string_as_mpl_colour(lt) for lt in self.type_filter}
 
         # Build a legend
         for location_type, colour in self.colours.items():
@@ -99,13 +99,3 @@ class LocationPlots(Reporter):
 
     def stop(self, sim):
         pass
-
-    @staticmethod
-    def location_type_as_color(location_type):
-        """Return a matplotlib colour"""
-
-        colour_map    = plt.get_cmap('nipy_spectral')
-        location_hash = adler32(location_type.encode("utf-8")) % 10000
-        colour        = colour_map(location_hash / 10000)
-
-        return colour
