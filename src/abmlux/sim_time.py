@@ -10,23 +10,31 @@ class SimClock:
 
     def __init__(self, tick_length_s, simulation_length_days=100, epoch=datetime.now()):
 
+        # Check we have the same number of ticks in every week.
+        #
+        # This is necessary to enforce weekly routines in the system, and should
+        # be changed if we ever move away from a weekly routine
+        if 604800 % tick_length_s != 0:
+            raise ValueError("Tick length must be divisible by week length")
+
         if isinstance(epoch, str):
             epoch = dateparser.parse(epoch)
 
         self.tick_length_s = tick_length_s
-        self.ticks_in_second = 1        / self.tick_length_s
-        self.ticks_in_minute = 60       / self.tick_length_s
-        self.ticks_in_hour   = 3600     / self.tick_length_s
-        self.ticks_in_day    = 86400    / self.tick_length_s
-        self.ticks_in_week   = 604800   / self.tick_length_s
+        self.ticks_in_second = 1            / self.tick_length_s
+        self.ticks_in_minute = 60           / self.tick_length_s
+        self.ticks_in_hour   = 3600         / self.tick_length_s
+        self.ticks_in_day    = 86400        / self.tick_length_s
+        self.ticks_in_week   = int(604800   / self.tick_length_s)
 
         self.epoch             = epoch
         self.epoch_week_offset = int(self.epoch.weekday()   * self.ticks_in_day \
                                  + self.epoch.hour          * self.ticks_in_hour \
                                  + self.epoch.minute        * self.ticks_in_minute \
-                                 + self.epoch.second        * self.tick_length_s)
+                                 + self.epoch.second        * self.ticks_in_second)
         self.max_ticks         = int(self.days_to_ticks(simulation_length_days))
 
+        self.started = False
         self.reset()
 
         log.info(f"New clock created at {epoch}, {tick_length_s=}, {simulation_length_days=}, {self.epoch_week_offset=}")
@@ -34,15 +42,23 @@ class SimClock:
     def reset(self):
         """Reset the clock to the start once more"""
         log.debug("Resetting clock")
-        self.t = -1
+        self.t       = 0
+        self.started = False
 
     def __iter__(self):
+        self.reset()
         return self
 
     def __next__(self):
-        self.t += 1
+
+        if self.started:
+            self.t += 1
+        else:
+            self.started = True
+
         if self.t >= self.max_ticks:
             raise StopIteration()
+
         return self.t
 
     def __len__(self):
