@@ -20,15 +20,13 @@ from tqdm import tqdm
 import abmlux.utils as utils
 from .sim_time import SimClock
 from .diary import DiaryDay, DiaryWeek, DayOfWeek
-from .agent import AgentType, POPULATION_RANGES
+from .agent import POPULATION_RANGES
 from .transition_matrix import SplitTransitionMatrix
 
-# Number of 10min chunks in a day
+# Number of 10min chunks in a day.  Used when parsing the input data at a 10min resolution
 DAY_LENGTH_10MIN = 144
 
-
 log = logging.getLogger('markov_model')
-
 
 def get_tus_code_mapping(map_config, activity_manager):
     """Return a function mapping TUS activity codes onto those used
@@ -48,7 +46,8 @@ def get_tus_code_mapping(map_config, activity_manager):
     and secondary codes, as ints.  It returns one of the keys
     from the mapping given to _this_ function.
     """
-
+    # pylint doesn't like our primary, secondary shorthand below.
+    # pylint: disable=invalid-name
 
     # Compute primary and secondary together.
     mapping_pri = {}
@@ -83,6 +82,13 @@ def create_weekly_routines(days):
      - personB: weekday
     We don't know which way around these are, though.  This routine builds a week out of the
     weekday, repeated, plus the weekend.
+
+    Parameters:
+        days (list):List of abmlux.DiaryDay objects representing individuals' routines from the
+                    time-of-use survey daya
+
+    Returns:
+        weeks: A list of weekly routines built out of the daily routines.
     """
 
     weeks = []
@@ -125,6 +131,8 @@ def parse_days(tus, map_func, tick_length_s):
     Returns:
         days(list):A list of DiaryDay objects.
     """
+    # We use so many variables to be clearer.  This parsing logic is complex but pylint can shut up.
+    # pylint: disable=too-many-locals
 
     days  = []
     clock = SimClock(tick_length_s, 1)
@@ -160,61 +168,34 @@ def parse_days(tus, map_func, tick_length_s):
     return days
 
 
-def build_markov_model(config, activity_manager):
-    """Constructs activity transition matrices for the network given.
+def get_transitions(weeks, activity_manager, ):
+    """Converts weekly routines into a set of transition matrices and initial distributions
+    for each type of agent.
 
-     Parameters:
-        config (dict):The global config file dict
-        activity_manager (ActivityManager):An ActivityManager containing information
-                                           about activity -> location type mappings.
+    We start by building weights for each action at each time step, indexed by the agent
+    type.  This describes the initial distribution of actions for every time tick through
+    the week, allowing us to start a simulation at any time.
+
+        AgentType.ADULT: [{action: weight, action2: weight2},
+                          {action: weight, action2: weight2}...],
+
+    Transitions are then read from the weekly diaries and a transition matrix is built showing
+    the probability of transitioning from one activity to the next at each time tick.  This is
+    also indexed by agent type.
+
+    Parameters:
+        weeks (list):List of DiaryWeek objects containing weekly routines.
+        activity_manager (abmlux.ActivityManager):Activity manager describing what activities
+                                                  are in this simulation
+
     Returns:
-        activity_distributions(dict):A list of initial distributions indexed by AgentType
-        activity_transitions(dict):A list of activity transitions indexed by AgentType
+        activity_distributions:The initial distribution structure above
+        activity_transitions:Tick-to-tick transition weights between activities
     """
 
-    # ---------------------------------------------------------------------------------------------
-    log.info("Loading time use data from %s...", config.filepath('time_use_fp'))
-    # TODO: force pandas to read the numeric ID columns as factors or ints
-    #       same for weights
-    tus = pd.read_csv(config.filepath('time_use_fp'))
-    tus = tus.dropna()
-
-    # ---------------------------------------------------------------------------------------------
-    log.info('Generating daily routines...')
-
-    # As mentioned above, activities are numerically coded. The file FormatsTUS displays the
-    # codification of primary and secondary activities used by the TUS. The primary activities will
-    # be grouped together according to datamap_primary while the secondary activities will be
-    # grouped together according to datamap_secondary.
-    #
-    # The latter is used if and only if a respondent recorded 'Other specified location' as the
-    # primary activity, in which case referal to the secondary activity is necessary. Activities
-    # are consquently recoded as numbers in the set {0,...,13}, as described in the file
-    # FormatActivities.
-
-    map_func = get_tus_code_mapping(config['activities'], activity_manager)
-    days     = parse_days(tus, map_func, config['tick_length_s'])
-    log.info("Created %i days", len(days))
-
-    # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
-    # For each respondent there are now two daily routines; one for a week day and one for a
-    # weekend day.  Copies of these routines are now concatenated so as to produce weekly routines,
-    # starting on Sunday.
-
-    # ---------------------------------------------------------------------------------------------
-    log.info("Generating weekly routines...")
-    weeks = create_weekly_routines(days)
+    # We keep reusing this throughout
     week_length = len(weeks[0].weekly_routine)  # Assume the first week is representative
-    log.debug("Created %i weeks", len(weeks))
 
-    # ----------------------------------------------------------------------------------------------
-    # Now the statistical weights are used to construct the intial distributions and transition
-    # matrices:
-
-    # Weights for how many of each type of agent is performing each type of action
-    # AgentType.ADULT: [{action: weight, action2: weight2},
-    #                   {action: weight, action2: weight2}],
-    #
     log.info("Generating activity distributions...")
     activity_distributions = {typ: [{activity: 0 for activity in activity_manager.types_as_int()}
                                     for i in range(week_length)]
@@ -225,8 +206,6 @@ def build_markov_model(config, activity_manager):
             if week.age in rng:
                 for i, _ in enumerate(week.weekly_routine):
                     activity_distributions[typ][i][week.weekly_routine[i]] += week.weight
-
-    # FIXME: ensure there are >0 of each type, at every time tick
 
     log.info('Generating weighted activity transition matrices...')
     # Activity -> activity transition matrix
@@ -273,5 +252,61 @@ def build_markov_model(config, activity_manager):
     #             print(f"-> {transitions.x_marginals=}")
 
     #             import code; code.interact(local=locals())
+
+    return activity_distributions, activity_transitions
+
+
+
+def build_markov_model(config, activity_manager):
+    """Constructs activity transition matrices for the network given.
+
+     Parameters:
+        config (dict):The global config file dict
+        activity_manager (ActivityManager):An ActivityManager containing information
+                                           about activity -> location type mappings.
+    Returns:
+        activity_distributions(dict):A list of initial distributions indexed by AgentType
+        activity_transitions(dict):A list of activity transitions indexed by AgentType
+    """
+
+    # ---------------------------------------------------------------------------------------------
+    log.info("Loading time use data from %s...", config.filepath('time_use_fp'))
+    # TODO: force pandas to read the numeric ID columns as factors or ints
+    #       same for weights
+    tus = pd.read_csv(config.filepath('time_use_fp'))
+    tus = tus.dropna()
+
+    # ---------------------------------------------------------------------------------------------
+    log.info('Generating daily routines...')
+
+    # As mentioned above, activities are numerically coded. The file FormatsTUS displays the
+    # codification of primary and secondary activities used by the TUS. The primary activities will
+    # be grouped together according to datamap_primary while the secondary activities will be
+    # grouped together according to datamap_secondary.
+    #
+    # The latter is used if and only if a respondent recorded 'Other specified location' as the
+    # primary activity, in which case referal to the secondary activity is necessary. Activities
+    # are consquently recoded as numbers in the set {0,...,13}, as described in the file
+    # FormatActivities.
+
+    map_func = get_tus_code_mapping(config['activities'], activity_manager)
+    days     = parse_days(tus, map_func, config['tick_length_s'])
+    log.info("Created %i days", len(days))
+
+    # print('\n'.join([''.join([d[0] for d in days[x].daily_routine]) for x in range(len(days))]))
+    # For each respondent there are now two daily routines; one for a week day and one for a
+    # weekend day.  Copies of these routines are now concatenated so as to produce weekly routines,
+    # starting on Sunday.
+
+    # ---------------------------------------------------------------------------------------------
+    log.info("Generating weekly routines...")
+    weeks = create_weekly_routines(days)
+    log.debug("Created %i weeks", len(weeks))
+
+    # ----------------------------------------------------------------------------------------------
+    # Now the statistical weights are used to construct the intial distributions and transition
+    # matrices:
+    activity_distributions, activity_transitions = get_transitions(weeks, activity_manager)
+
 
     return activity_distributions, activity_transitions

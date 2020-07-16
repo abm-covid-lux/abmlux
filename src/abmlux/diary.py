@@ -4,14 +4,15 @@ import uuid
 from enum import IntEnum
 
 class DayOfWeek(IntEnum):
+    """Indexes the day of the week as read from time of use data"""
 
-    SUNDAY    = 1
-    MONDAY    = 2
-    TUESDAY   = 3
-    WEDNESDAY = 4
-    THURSDAY  = 5
-    FRIDAY    = 6
-    SATURDAY  = 7
+    SUNDAY    = 0
+    MONDAY    = 1
+    TUESDAY   = 2
+    WEDNESDAY = 3
+    THURSDAY  = 4
+    FRIDAY    = 5
+    SATURDAY  = 6
 
 
 class DiaryDay:
@@ -47,4 +48,3 @@ class DiaryWeek:
     def inspect(self):
         return (f"<DiaryWeek {self.uuid}; identity={self.identity}, "
                 f"age={self.age}, weight={self.weight}>")
-
