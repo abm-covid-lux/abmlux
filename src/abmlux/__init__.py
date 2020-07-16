@@ -42,13 +42,15 @@ def load_pop_density(config):
     # ############## Input Data ##############
 
     # ############## Run Stage ##############
-    density = density_model.read_density_model_jrc(config.filepath('population_distribution_fp'),
-                                                   config['country_code'], config['res_fact'],
-                                                   config['normalize_interpolation'])
+    density_map = density_model.read_density_model_jrc(config.filepath('map.population_distribution_fp'),
+                                                       config['map.country_code'], config['map.res_fact'],
+                                                       config['map.normalize_interpolation'],
+                                                       config.filepath('map.shapefilename'),
+                                                       config['map.shapefile_coordinate_system'])
 
     # ############## Output Data ##############
     # Handle output to write to disk if required
-    write_to_disk(density, osp.join(config.filepath('working_dir', True), MAP_FILENAME))
+    write_to_disk(density_map, osp.join(config.filepath('working_dir', True), MAP_FILENAME))
 
 
 def build_network(config):
@@ -59,10 +61,10 @@ def build_network(config):
 
     # ############## Input Data ##############
     # The density matrix contructed by the file density_model is now loaded:
-    density = read_from_disk(osp.join(config.filepath('working_dir'), MAP_FILENAME))
+    density_map = read_from_disk(osp.join(config.filepath('working_dir'), MAP_FILENAME))
 
     # ############## Run Stage ##############
-    network = network_model.build_network_model(config, density)
+    network = network_model.build_network_model(config, density_map)
 
     # ############## Output Data ##############
     write_to_disk(network, osp.join(config.filepath('working_dir', True), NETWORK_FILENAME))

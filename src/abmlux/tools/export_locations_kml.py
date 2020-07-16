@@ -8,7 +8,6 @@ import simplekml
 
 import abmlux
 from abmlux.serialisation import read_from_disk
-from abmlux.location import ETRS89_to_WGS84
 from abmlux.utils import string_as_hex_colour
 
 log = logging.getLogger("export_locations_kml")
@@ -36,10 +35,9 @@ def main(config, filename, types_to_show=None):
         folder = kml.newfolder(name=location_type)
         colour = f"ff{string_as_hex_colour(location_type)[1:]}"
         for location in tqdm(network.locations_by_type[location_type]):
-            lon, lat = ETRS89_to_WGS84(location.coord)
-
             # lon, lat optional height
-            pnt = folder.newpoint(name=location.uuid, description=location_type, coords=[(lon,lat)])
+            pnt = folder.newpoint(name=location.uuid, description=location_type,
+                                  coords=[(location.wgs84[1], location.wgs84[0])])
             pnt.style.labelstyle.color = "00000000"
             pnt.style.iconstyle.color = colour
 

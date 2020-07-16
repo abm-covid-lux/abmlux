@@ -29,6 +29,9 @@ def main(config, types_to_show=None):
     log.info("Showing location types: %s", type_filter)
     colours = {lt: string_as_mpl_colour(lt) for lt in type_filter}
 
+
+    network.map.plot_border(plt)
+
     # Plot all the points
     for location_type in type_filter:
         log.info("Rendering locations of type '%s'...", location_type)

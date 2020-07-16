@@ -32,7 +32,7 @@ def string_as_mpl_colour(string, salt=0, scheme="nipy_spectral"):
     Uses the adler32 hash to ensure the colour is always the same."""
 
     colour_map    = cm.get_cmap(scheme)
-    location_hash = adler32(string.encode("utf-8")) % 10000
+    location_hash = (adler32(string.encode("utf-8")) + salt) % 10000
     colour        = colour_map(location_hash / 10000)
 
     return colour
