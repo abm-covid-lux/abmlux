@@ -24,9 +24,8 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefil
         country_code (str):The country code to filter results for
 
     Returns:
-        density:m-by-m weights showing population density, indexed as [y][x]
+        DensityMap object showing population density
     """
-    # FIXME: docs
 
     # Load workbook
     log.debug("Loading input data from %s...", filepath)
@@ -56,7 +55,7 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefil
         y                = row['grid_y'] - jrc['grid_y'].min()
 
         country.density[y][x] = location_density
-    country.force_recompute_marginals()   # FIXME:
+    country.force_recompute_marginals()
 
     # Return the density, with linear interpolation or not
     if res_fact is not None:
