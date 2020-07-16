@@ -2,6 +2,7 @@
 
 import logging
 import math
+import copy
 
 import shapefile
 import numpy as np
@@ -139,9 +140,15 @@ class DensityMap(Map):
             distribution_new(numpy array):An expanded distribution array of floats
         """
 
-        if res_fact <= 0 or res_fact > 1000 or (res_fact % 2 != 0 and res_fact != 1) or \
-                                            not isinstance(res_fact, int):
-            raise ValueError("res_fact in distribution_interpolate must be a +ve even integer or 1")
+        if res_fact == 1:
+            new_map = DensityMap(self.coord, self.width_m, self.height_m, self.cell_size_m,
+                                 self.border)
+            new_map.density = copy.copy(self.density)
+            new_map.force_recompute_marginals()
+            return new_map
+
+        if res_fact <= 0 or res_fact > 1000 or res_fact % 2 != 0 or not isinstance(res_fact, int):
+            raise ValueError("res_fact in distribution_interpolate must be a +ve even integer")
 
         distribution  = np.array(self.density)
         height, width = distribution.shape
