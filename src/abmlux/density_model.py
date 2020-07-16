@@ -5,89 +5,14 @@ to one another, which in turn defines where people are located in space."""
 
 import logging
 
-import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from scipy import interpolate
 
 from abmlux.map import DensityMap
 
 # Module log
 log = logging.getLogger('density_model')
 
-def change_resolution(density_map, res_fact, normalize):
-    """Returns an expanded distribution matrix, corresponding to a finer grid resolution, using
-    linear interpolation.
-
-    Parameters:
-        density_map (DensityMap):The density map returned from read_density_model_jrc
-        res_fact (int):The factor by which the resolution is increased in a given dimension. This
-                       should be an even integer, except if res_fact == 1 in which case the
-                       original density is returned.
-        normalize (boolean):If True then blocks of new squares are normalized to contain equal
-                            populations as the original squares
-
-    Returns:
-        distribution_new(numpy array):An expanded distribution array of floats
-    """
-
-    if res_fact <= 0 or res_fact > 1000 or (res_fact % 2 != 0 and res_fact != 1) or \
-                                        not isinstance(res_fact, int):
-        raise ValueError("res_fact in distribution_interpolate must be a +ve even integer or 1")
-
-    distribution  = np.array(density_map.density)
-    height, width = distribution.shape
-
-    # Pad with a border of zeros
-    padded_height = height + 2
-    padded_width  = width + 2
-
-    padded_distribution = np.zeros((padded_height,padded_width))
-    padded_distribution[1:height+1,1:width+1] = distribution
-
-    # Map padded_density onto a grid within the unit square
-    x = np.linspace(0, 1, num=padded_width, endpoint=True)
-    y = np.linspace(0, 1, num=padded_height, endpoint=True)
-    z = padded_distribution
-
-    # Linearly interpolate
-    interpolated_density = interpolate.interp2d(x, y, z)
-
-    # The resolution of the grid is increased and interpolated vaules are assigned to each
-    # new square
-    x_indent = 1/((padded_width - 1)*res_fact*2)
-    y_indent = 1/((padded_height - 1)*res_fact*2)
-
-    x_new = np.linspace(x_indent, 1 - x_indent, num=(padded_width - 1)*res_fact, endpoint=True)
-    y_new = np.linspace(y_indent, 1 - y_indent, num=(padded_height - 1)*res_fact, endpoint=True)
-
-    half_res = int(res_fact/2)
-    distribution_new = interpolated_density(x_new, y_new)[half_res:len(y_new) - half_res,
-                                                          half_res:len(x_new) - half_res]
-
-    # Create a new map and copy metadata in there
-    new_map = DensityMap(density_map.coord, density_map.width_km, density_map.height_km,
-                         density_map.resolution_km * res_fact)
-    assert len(new_map.density) == len(distribution_new)
-    assert len(new_map.density[0]) == len(distribution_new[0])
-    new_map.density = distribution_new
-
-    # Blocks of new squares are normalized to contain equal populations as the original squares
-    if normalize:
-        for i in range(width):
-            for j in range(height):
-
-                square = distribution_new[j*res_fact:(j+1)*res_fact, i*res_fact:(i+1)*res_fact]
-
-                newsum = np.sum(square)
-                oldsum = distribution[j][i]
-                
-                if newsum > 0:
-                    square *= oldsum/newsum
-
-    new_map._recompute_marginals()
-    return new_map
-    
 def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefilename):
     """Parse JRC-format country data and return a two-dimensional array
     containing population density weights per-kilometer.
@@ -99,8 +24,9 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefil
         country_code (str):The country code to filter results for
 
     Returns:
-        density:km-by-km weights showing population density, indexed as [y][x]
+        density:m-by-m weights showing population density, indexed as [y][x]
     """
+    # FIXME: docs
 
     # Load workbook
     log.debug("Loading input data from %s...", filepath)
@@ -112,16 +38,16 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefil
     jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
     jrc['grid_y'] = pd.Series([int(x[4:8]) for x in jrc['GRD_ID']], index=jrc.index)
 
-    country_width  = jrc['grid_x'].max() - jrc['grid_x'].min() + 1
-    country_height = jrc['grid_y'].max() - jrc['grid_y'].min() + 1
-    log.info("Country with code %s has %ix%ikm of data",
-             country_code, country_width, country_height)
+    # These need converting to metres
+    country_width  = 1000 * (jrc['grid_x'].max() - jrc['grid_x'].min() + 1)
+    country_height = 1000 * (jrc['grid_y'].max() - jrc['grid_y'].min() + 1)
+    log.info("Country with code %s has %ix%im of data", country_code, country_width, country_height)
 
     # Map the grid coordinates given onto a cartesian grid, each cell
     # of which represents the population density at that point
     log.debug("Building density matrix...")
-    country = DensityMap((jrc['grid_x'].min(), jrc['grid_y'].min()),
-                         country_width, country_height, 1, shapefilename)
+    country = DensityMap((1000*jrc['grid_x'].min(), 1000*jrc['grid_y'].min()),
+                         country_width, country_height, 1000, shapefilename)
     for _, row in tqdm(jrc.iterrows(), total=jrc.shape[0]):
 
         # Read total population for this 1km chunk, \propto density
@@ -130,12 +56,9 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefil
         y                = row['grid_y'] - jrc['grid_y'].min()
 
         country.density[y][x] = location_density
-    country._recompute_marginals()
-    
+    country.force_recompute_marginals()   # FIXME:
+
     # Return the density, with linear interpolation or not
-    if res_fact > 1:
-        if res_fact % 2 != 0:
-            raise ValueError(f"Resolution scale factor ({res_fact}) must be multiple of 2")
-        return change_resolution(country, res_fact, normalize)
-    else:
-        return country
+    if res_fact is not None:
+        return country.resample(res_fact, normalize)
+    return country

@@ -43,7 +43,7 @@ class Location:
 def ETRS89_to_WGS84(coord):
     """Convert from ABMLUX grid format (actually ETRS89) to lat, lon in WGS84 format"""
 
-    return _transform_ETRS89_to_WGS84.transform(coord[0] + 3210000, coord[1] + 4321000)
+    return _transform_ETRS89_to_WGS84.transform(coord[1], coord[0])
 
 def WGS84_to_ETRS89(lat, lon):
     """Convert from lat, lon in WGS84 format to ABMLUX' grid format (ETRS89)"""

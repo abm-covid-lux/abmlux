@@ -37,7 +37,7 @@ def main(config, filename, types_to_show=None):
         colour = f"ff{string_as_hex_colour(location_type)[1:]}"
         for location in tqdm(network.locations_by_type[location_type]):
             # lon, lat optional height
-            pnt = folder.newpoint(name=location.uuid, description=location_type, coords=[location.wgs84])
+            pnt = folder.newpoint(name=location.uuid, description=location_type, coords=[(location.wgs84[1], location.wgs84[0])])
             pnt.style.labelstyle.color = "00000000"
             pnt.style.iconstyle.color = colour
 
