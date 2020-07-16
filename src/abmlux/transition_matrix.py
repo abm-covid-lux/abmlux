@@ -14,12 +14,16 @@ class TransitionMatrix:
         return self.transitions[c_from][c_to]
 
     def set_weight(self, c_from, c_to, weight):
+        if weight < 0:
+            raise ValueError("Weights must be above zero")
         self.transitions[c_from][c_to] = weight
         self._recompute_x_marginals(c_from)
 
     def p(self, c_from, c_to):
         """Returns the probability of transitioning from class
         c_from to class c_to."""
+        if self.x_marginal(c_from) == 0:
+            return 0
         return self.transitions[c_from][c_to] / self.x_marginal(c_from)
 
     def x_marginal(self, c_to):
@@ -73,6 +77,8 @@ class SplitTransitionMatrix(TransitionMatrix):
         return self.transitions_nodiag[c_from][c_to]
 
     def set_weight(self, c_from, c_to, weight):
+        if weight < 0:
+            raise ValueError("Weights must be above zero")
         if c_from == c_to:
             self.diag[c_from] = weight
         else:
@@ -82,6 +88,9 @@ class SplitTransitionMatrix(TransitionMatrix):
     def p(self, c_from, c_to):
         """Returns the probability of transitioning from class
         c_from to class c_to."""
+        if self.x_marginal(c_from) == 0:
+            return 0
+
         if c_from == c_to:
             w_trans = self.diag[c_from]
         else:

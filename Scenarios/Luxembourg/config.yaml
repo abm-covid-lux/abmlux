@@ -106,6 +106,10 @@ real_n: 626_108
 
 # ################################# Time ########################
 # Time length of each tick in the simulation.
+#
+# Weeks must contain the same number of ticks, because we use weekly
+# routines.  This means the week length (604800) tick length should be
+# divisible by the tick length below.
 tick_length_s: 600
 
 # How long the simulation should run for, in days.
