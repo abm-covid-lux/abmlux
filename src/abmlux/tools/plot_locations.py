@@ -1,29 +1,20 @@
 """Plot locations using matplotlib"""
 
 import os.path as osp
+import logging
 
 import matplotlib.pyplot as plt
 from tqdm import tqdm
-import logging
 
 import abmlux
-from abmlux.serialisation import read_from_disk, write_to_disk
+from abmlux.utils import string_as_mpl_colour
+from abmlux.serialisation import read_from_disk
 
 
 log = logging.getLogger("plot_locations")
 
 DESCRIPTION = "Plots all locations in a network"""
 HELP        = """[Location Type,LocationType,LocationType]"""
-
-
-def location_type_as_color(location_type):
-    """Return a matplotlib colour"""
-
-    colour_map    = plt.get_cmap('gist_rainbow')
-    location_hash = abs(hash(location_type)) % 10000
-    colour        = colour_map(location_hash / 10000)
-
-    return colour
 
 
 def main(config, types_to_show=None):
@@ -36,7 +27,10 @@ def main(config, types_to_show=None):
     if types_to_show is not None:
         type_filter = types_to_show.split(",")
     log.info("Showing location types: %s", type_filter)
-    colours = {lt: location_type_as_color(lt) for lt in type_filter}
+    colours = {lt: string_as_mpl_colour(lt) for lt in type_filter}
+
+
+    network.map.plot_border(plt)
 
     # Plot all the points
     for location_type in type_filter:

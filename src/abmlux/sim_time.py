@@ -42,6 +42,7 @@ class SimClock:
     def reset(self):
         """Reset the clock to the start once more"""
         log.debug("Resetting clock")
+        log.debug("Resetting clock at t=%i", self.t)    
         self.t       = 0
         self.started = False
 

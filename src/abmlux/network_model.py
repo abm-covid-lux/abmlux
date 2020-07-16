@@ -19,7 +19,7 @@ from .sim_time import SimClock
 
 log = logging.getLogger('network_model')
 
-def create_locations(network, density, config):
+def create_locations(network, density_map, config):
     """Create a number of Location objects within the network, according to the density map
     given and the distributions defined in the config."""
 
@@ -34,18 +34,13 @@ def create_locations(network, density, config):
 
     # Create locations for each type, of the amounts requested.
     log.debug("Creating location objects...")
-    marginals_cache = [sum(x) for x in density]
-    grid_size_sq_m = 1000 / config['res_fact']
     for ltype, lcount in tqdm(location_counts.items()):
         for _ in range(lcount):
 
-            # Sample a point from the density map
-            grid_x, grid_y = multinoulli_2d(density, marginals_cache)
-            x = (grid_size_sq_m*grid_x) + random_randrange(grid_size_sq_m)
-            y = (grid_size_sq_m*grid_y) + random_randrange(grid_size_sq_m)
+            new_coord = density_map.sample_coord()
 
             # Add location to the network
-            new_location = Location(ltype, (x, y))
+            new_location = Location(ltype, new_coord)
             network.add_location(new_location)
 
 
@@ -297,16 +292,16 @@ def assign_cars(network, activity_manager, occupancy, car_activity_type):
             occupant.add_activity_location(activity_manager.as_int(car_activity_type), car)
 
 
-def build_network_model(config, density):
+def build_network_model(config, density_map):
     """Create agents and locations according to the population density map given"""
 
     activity_manager = ActivityManager(config['activities'])
 
     # Create and populate the network
     log.info("Creating network")
-    network = Network()
+    network = Network(density_map)
     create_agents(network, config)
-    create_locations(network, density, config)
+    create_locations(network, density_map, config)
 
     log.info("Assigning locations to agents...")
     occupancy = assign_homes(network, config, activity_manager, "House")

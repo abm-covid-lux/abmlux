@@ -3,10 +3,16 @@
 import uuid
 from pyproj import Transformer
 
+# Keep these between runs.  This brings a significant performance improvement
+# 4326 is the EPSG identifier of WGS84
+# 3035 is the EPSG identifier of ETRS89
+_transform_ETRS89_to_WGS84 = Transformer.from_crs('epsg:3035', 'epsg:4326')
+_transform_WGS84_to_ETRS89 = Transformer.from_crs('epsg:4326', 'epsg:3035')
+
 class Location:
     """Represents a location to the system"""
 
-    def __init__(self, typ, coord, attendees=None):
+    def __init__(self, typ, coord):
         """Represents a location on the network.
 
         Parameters:
@@ -16,7 +22,7 @@ class Location:
         """
         self.uuid      = uuid.uuid4().hex
         self.typ       = typ
-        self.coord     = coord
+        self.set_coordinates(coord)
 
     def set_coordinates(self, x, y=None):
         """Set coordinates for this location.
@@ -26,27 +32,20 @@ class Location:
         arg."""
 
         if isinstance(x, (list, tuple)) and y is None:
-            y = x[1]
-            x = x[0]
+            x, y = x
 
         self.coord = (x, y)
+        self.wgs84 = ETRS89_to_WGS84(self.coord)
 
     def __str__(self):
         return f"{self.typ}[{self.uuid}]"
 
-
 def ETRS89_to_WGS84(coord):
     """Convert from ABMLUX grid format (actually ETRS89) to lat, lon in WGS84 format"""
 
-    #4326 is the EPSG identifier of WGS84
-    #3035 is the EPSG identifier of ETRS89
-    transformation = Transformer.from_crs('epsg:3035', 'epsg:4326')
-
-    return transformation.transform(coord[0], coord[1])
+    return _transform_ETRS89_to_WGS84.transform(coord[1], coord[0])
 
 def WGS84_to_ETRS89(lat, lon):
     """Convert from lat, lon in WGS84 format to ABMLUX' grid format (ETRS89)"""
 
-    transformation = Transformer.from_crs('epsg:4326', 'epsg:3035')
-
-    return transformation.transform(lat, lon)
+    return _transform_WGS84_to_ETRS89.transform(lat, lon)

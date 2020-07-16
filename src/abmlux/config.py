@@ -22,6 +22,8 @@ class Config:
         return len(self.conf)
 
     def __getitem__(self, key):
+        if "." in key:
+            return self._get(key)
         return self.conf[key]
 
     def __missing__(self, key):
@@ -44,6 +46,25 @@ class Config:
             os.makedirs(osp.dirname(full_path), exist_ok=True)
 
         return full_path
+
+    def _get(self, dot_notation, obj=None):
+        """Retrieve a key.key.key.1 string from nested dicts and lists"""
+
+        if obj is None:
+            obj = self
+
+        # FIXME: handle 'spaces in keys'.more.more
+        chunks = dot_notation.split(".")
+
+        # Find the key
+        key = chunks[0]
+        if chunks[0] in "1234567890":
+            key = int(key)
+
+        value = obj[chunks[0]]
+        if len(chunks) > 1:
+            return self._get(".".join(chunks[1:]), value)
+        return value
 
     @staticmethod
     def load_config(filename):

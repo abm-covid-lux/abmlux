@@ -134,9 +134,6 @@ class SplitTransitionMatrix(TransitionMatrix):
             return c_from
         return random_tools.multinoulli_dict(self.transitions_nodiag[c_from])
 
-
     def get_no_trans(self, c_from):
         """Probability of not transitioning"""
-        return random_tools.boolean(self.diag[c_from])
-
-
+        return random_tools.boolean(self.p(c_from, c_from))
