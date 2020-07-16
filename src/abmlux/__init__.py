@@ -183,7 +183,7 @@ def main():
         stage(config)
 
 
-TOOLS = ["plot_locations", "plot_activity_routines", "export_locations_kml"]
+TOOLS = ["plot_locations", "plot_activity_routines", "export_locations_kml", "join_images"]
 def main_tools():
     """Encry point for AMBLUX reporting/analysis tools"""
     print(f"ABMLUX {VERSION}")

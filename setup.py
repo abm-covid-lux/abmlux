@@ -97,6 +97,7 @@ setup(
                       'pyproj',
                       'dateparser',
                       'matplotlib',
+                      'opencv-python',
                       'simplekml',
                       'pyshp'],
 
