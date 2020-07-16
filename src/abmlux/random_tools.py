@@ -33,6 +33,10 @@ def random_shuffle(x):
 
     return random.shuffle(x)
 
+def random_float(x):
+    """Return random number between 0 and x"""
+
+    return random.random() * x
 
 def multinoulli(problist):
     """Sample at random from a list of n options with given probabilities.
@@ -76,6 +80,9 @@ def multinoulli_2d(problist_arr, marginals=None):
 
 def boolean(p):
     """Return true with the probability given."""
+
+    assert p >= 0
+    assert p <= 1
 
     return random.random() < p
 

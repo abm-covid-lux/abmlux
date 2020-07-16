@@ -13,7 +13,8 @@ class SimClock:
         if isinstance(epoch, str):
             epoch = dateparser.parse(epoch)
 
-        self.tick_length_s = tick_length_s
+        self.t               = -1
+        self.tick_length_s   = tick_length_s
         self.ticks_in_second = 1        / self.tick_length_s
         self.ticks_in_minute = 60       / self.tick_length_s
         self.ticks_in_hour   = 3600     / self.tick_length_s
@@ -27,13 +28,11 @@ class SimClock:
                                  + self.epoch.second        * self.tick_length_s)
         self.max_ticks         = int(self.days_to_ticks(simulation_length_days))
 
-        self.reset()
-
         log.info(f"New clock created at {epoch}, {tick_length_s=}, {simulation_length_days=}, {self.epoch_week_offset=}")
 
     def reset(self):
         """Reset the clock to the start once more"""
-        log.debug("Resetting clock")
+        log.debug("Resetting clock at t=%i", self.t)
         self.t = -1
 
     def __iter__(self):

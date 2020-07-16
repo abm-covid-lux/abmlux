@@ -4,8 +4,9 @@ import abmlux.utils as utils
 
 class Network:
 
-    def __init__(self):
+    def __init__(self, map_):
 
+        self.map       = map_
         self.agents    = []
         self.locations = []
 
@@ -21,7 +22,6 @@ class Network:
 
         self.agents_by_type[agent.agetyp].append(agent)
 
-
     def add_location(self, location):
         self.locations.append(location)
 
@@ -30,14 +30,10 @@ class Network:
 
         self.locations_by_type[location.typ].append(location)
 
-
     def count(self, location_type):
         if location_type not in self.locations_by_type:
             return 0
         return len(self.locations_by_type[location_type])
-
-
-
 
     def locations_for_types(self, location_types):
         """Return a list of allowable locations for all of the types
@@ -50,6 +46,3 @@ class Network:
 
         stuff = [self.locations_by_type[lt] for lt in location_types]
         return utils.flatten(stuff)
-
-
-
