@@ -15,6 +15,7 @@ log = logging.getLogger("join_images")
 DESCRIPTION = "Joins directories of images together"
 HELP        = """DIRECTORY [VIDEO_FILENAME] [FPS]"""
 
+#pylint: disable=unused-argument
 def main(config, directory, video_filename="video.avi", fps=20):
     """Entry point for the image joining tool.
 
