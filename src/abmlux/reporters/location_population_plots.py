@@ -60,21 +60,12 @@ class LocationPlots(Reporter):
 
         network = sim.network
 
-        plt.figure()
-
-        # FIXME: make these discoverable by inspecting the current map
-        # MAP_DIMENSIONS_COORD = 57000, 82000 # width, height
-        # plt.xlim(0, MAP_DIMENSIONS_COORD[0])
-        # plt.ylim(0, MAP_DIMENSIONS_COORD[1])
-        # plt.axis('off')
-
-        # FIXME: remove this or make it configurable
-        # ax = plt.gca()
-        # ax.imshow(plt.imread("luxembourg-bg.png"), extent=[0, MAP_DIMENSIONS_COORD[0], 0,
-        #           MAP_DIMENSIONS_COORD[1]])
-
-        fig = plt.gcf()
+        # Set figure sizes
+        fig = plt.figure()
         fig.set_size_inches(self.figure_size[0], self.figure_size[1])
+
+        # Plot the border, if one exists
+        network.map.plot_border(plt)
 
         # Plot all the points
         for location_type in self.type_filter:
@@ -94,7 +85,7 @@ class LocationPlots(Reporter):
         plt.legend(handles=self.legend_items, loc="upper right")
         plt.title(f"Attendance; health_states={self.health_state_label}; t={sim.clock.t}; {sim.clock.now()}")
 
-        fig.savefig(osp.join(self.dirname, f"{sim.clock.t:05}.png"))
+        fig.savefig(osp.join(self.dirname, f"{sim.clock.t:08}.png"))
         plt.close()
 
     def stop(self, sim):

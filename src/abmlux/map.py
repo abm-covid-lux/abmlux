@@ -6,6 +6,7 @@ import math
 import shapefile
 import numpy as np
 from scipy import interpolate
+from pyproj import Transformer
 
 from abmlux.location import ETRS89_to_WGS84
 import abmlux.random_tools as random_tools
@@ -18,17 +19,34 @@ class Map:
     This is a square area addressed in ETRS89 format by default.
     """
 
-    def __init__(self, coord, width_m, height_m, border=None, shapefilename=None):
+    def __init__(self, coord, width_m, height_m, border=None, shapefilename=None,
+                 shapefile_coordsystem=None):
 
         self.coord    = coord
         self.wgs84    = ETRS89_to_WGS84(coord)
         self.width_m  = width_m
         self.height_m = height_m
 
+        # Catch a common error where the two shape params are used as locational args
+        if border is not None and isinstance(border, str):
+            raise ValueError("border parameter must be a list of Shapes, not a string")
+
         self.border = border
         if shapefilename is not None:
             log.info("Loading shapefile from %s...", shapefilename)
             self.border = shapefile.Reader(shapefilename).shapes()
+
+            # Adjust shape to be at this location
+            if shapefile_coordsystem:
+                log.info("Adjusting shapefile to ETRS89 coordinate system")
+                trans = Transformer.from_crs(shapefile_coordsystem, 'epsg:3035')
+                for shape in self.border:
+                    shape.points = [trans.transform(p[1], p[0]) for p in shape.points]
+                    shape.points = [(p[1], p[0]) for p in shape.points]
+        if self.border is None:
+            self.border = []
+        log.info("new Map (%ix%im) at %i, %im with %i border shapes", self.width_m, self.height_m,
+                 self.coord[0], self.coord[1], len(self.border))
 
     def width(self):
         """Return the width in m"""
@@ -38,6 +56,18 @@ class Map:
         """Return the height in m"""
         return self.height_m
 
+    def plot_border(self, plt):
+        """Plot the border onto a matplotlib figure using ETRS89 coordinates.
+
+        Parameters:
+            plt (matplotlib figure):The Matplotlib object to plot to
+        """
+        for shape in self.border:
+            x = [i[0] for i in shape.points[:]]
+            y = [i[1] for i in shape.points[:]]
+            plt.plot(x,y)
+
+
     def __str__(self):
         return f"<{self.__class__.__name__} {self.coord=} {self.width()}x{self.height()}m>"
 
@@ -46,9 +76,10 @@ class Map:
 class DensityMap(Map):
     """A Map that contains population density information"""
 
-    def __init__(self, coord, width_m, height_m, cell_size_m, border=None, shapefilename=None):
+    def __init__(self, coord, width_m, height_m, cell_size_m, border=None, shapefilename=None,
+                 shapefile_coordsystem=None):
 
-        super().__init__(coord, width_m, height_m, border, shapefilename)
+        super().__init__(coord, width_m, height_m, border, shapefilename, shapefile_coordsystem)
 
         self.cell_size_m  = cell_size_m
         self.density      = [[0 for x in range(math.ceil(width_m / cell_size_m))]
@@ -79,7 +110,6 @@ class DensityMap(Map):
 
         # Randomly select a cell
         grid_x, grid_y = random_tools.multinoulli_2d(self.density, self.marginals_cache)
-
 
         # Uniform random within the cell (fractional component)
         x = self.coord[0] + self.cell_size_m*grid_x + random_tools.random_float(self.cell_size_m)

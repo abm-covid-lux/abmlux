@@ -43,9 +43,10 @@ def load_pop_density(config):
 
     # ############## Run Stage ##############
     density_map = density_model.read_density_model_jrc(config.filepath('map.population_distribution_fp'),
-                                                   config['map.country_code'], config['map.res_fact'],
-                                                   config['map.normalize_interpolation'],
-                                                   config.filepath('map.shapefilename'))
+                                                       config['map.country_code'], config['map.res_fact'],
+                                                       config['map.normalize_interpolation'],
+                                                       config.filepath('map.shapefilename'),
+                                                       config['map.shapefile_coordinate_system'])
 
     # ############## Output Data ##############
     # Handle output to write to disk if required

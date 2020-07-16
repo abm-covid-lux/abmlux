@@ -75,6 +75,11 @@ map:
   # Shapefile describing the borders of the country
   shapefilename: Map/LIMADM_CANTONS.shp
 
+  # The coordinate system used in the shapefile.
+  #
+  # If this is ETRS89 (EPSG: 3035) then leave it blank
+  shapefile_coordinate_system: epsg:2169
+
 # File containing time use survey data.  See Docs for full format.
 time_use_fp: Time Use.csv
 
