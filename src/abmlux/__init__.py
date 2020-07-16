@@ -181,7 +181,7 @@ def main():
         stage(config)
 
 
-TOOLS = ["plot_locations", "plot_activity_routines"]
+TOOLS = ["plot_locations", "plot_activity_routines", "join_images"]
 def main_tools():
     """Encry point for AMBLUX reporting/analysis tools"""
     print(f"ABMLUX {VERSION}")
