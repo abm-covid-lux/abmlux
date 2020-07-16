@@ -34,6 +34,7 @@ class SimClock:
                                  + self.epoch.second        * self.ticks_in_second)
         self.max_ticks         = int(self.days_to_ticks(simulation_length_days))
 
+        self.t       = 0
         self.started = False
         self.reset()
 
@@ -41,8 +42,7 @@ class SimClock:
 
     def reset(self):
         """Reset the clock to the start once more"""
-        log.debug("Resetting clock")
-        log.debug("Resetting clock at t=%i", self.t)    
+        log.debug("Resetting clock at t=%i", self.t)
         self.t       = 0
         self.started = False
 
