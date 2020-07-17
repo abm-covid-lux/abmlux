@@ -4,6 +4,7 @@ import os
 import os.path as osp
 # import logging
 
+import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
@@ -18,7 +19,8 @@ LOCATION_TYPE_BLACKLIST = ["Outdoor", "Public Transport"]
 class LocationPlots(Reporter):
     """Output multiple plots showing agent locations at each time step"""
 
-    def __init__(self, dirname, types_to_show=None, health_to_show=None, figure_size=(10, 10), every_n=1):
+    def __init__(self, dirname, types_to_show=None, health_to_show=None, figure_size=(10, 10),
+                 every_n=1):
 
         self.dirname     = dirname
         self.figure_size = figure_size
@@ -41,6 +43,9 @@ class LocationPlots(Reporter):
         self.colours = None
         self.legend_items = []
 
+        # Matplotlib backend without tk
+        matplotlib.use('Agg')
+
     def start(self, sim):
         if self.type_filter is None:
             self.type_filter = [x for x in list(sim.network.locations_by_type.keys())
@@ -50,7 +55,8 @@ class LocationPlots(Reporter):
         # Build a legend
         for location_type, colour in self.colours.items():
             self.legend_items.append(Line2D([0], [0], marker='o', color='w',
-                                            label=location_type, markerfacecolor=colour, markersize=15))
+                                            label=location_type, markerfacecolor=colour,
+                                            markersize=15))
 
 
     def iterate(self, sim):

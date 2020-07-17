@@ -16,11 +16,11 @@ log = logging.getLogger("plot_locations")
 DESCRIPTION = "Plots all locations in a network"""
 HELP        = """[Location Type,LocationType,LocationType]"""
 
-
 def main(config, types_to_show=None):
     """Plots locations using matplotlib"""
 
-    network = read_from_disk(osp.join(config.filepath('working_dir', True), abmlux.NETWORK_FILENAME))
+    network = read_from_disk(osp.join(config.filepath('working_dir', True),
+                                      abmlux.NETWORK_FILENAME))
 
     # Choose which locations to show
     type_filter = list(config["location_counts"].keys())
@@ -28,7 +28,6 @@ def main(config, types_to_show=None):
         type_filter = types_to_show.split(",")
     log.info("Showing location types: %s", type_filter)
     colours = {lt: string_as_mpl_colour(lt) for lt in type_filter}
-
 
     network.map.plot_border(plt)
 
@@ -42,8 +41,7 @@ def main(config, types_to_show=None):
 
     # Render a legend
     plt.legend(type_filter, scatterpoints=1)
-    ax = plt.gca()
-    leg = ax.get_legend()
+    leg = plt.gca().get_legend()
     for i, location_type in enumerate(type_filter):
         leg.legendHandles[i].set_color(colours[location_type])
 
