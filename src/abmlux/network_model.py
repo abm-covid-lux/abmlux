@@ -8,8 +8,8 @@ import logging
 from tqdm import tqdm
 from scipy.spatial import KDTree
 
-from .random_tools import (multinoulli, multinoulli_2d, multinoulli_dict, random_randrange,
-    random_sample, random_choice, random_shuffle)
+from .random_tools import (multinoulli, multinoulli_dict, random_randrange,
+                           random_sample, random_choice, random_shuffle)
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
 from .activity_manager import ActivityManager
@@ -79,6 +79,7 @@ def create_agents(network, config):
 
 def assign_homes(network, config, activity_manager, home_activity_type):
     """Define home locations for each agent"""
+    # pylint: disable=too-many-locals
 
     # ------- Assign Children ---------------
     # Sample without replacement from both houses and
@@ -172,7 +173,8 @@ def assign_workplaces(network, activity_manager, work_activity_type):
         agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
 
 
-def assign_other_houses(network, config, activity_manager, home_activity_type, other_house_activity_type):
+def assign_other_houses(network, config, activity_manager, home_activity_type,
+                        other_house_activity_type):
     """Assign other houses agents may visit"""
     # For each individual, a number of distinct homes, not including the individual's own home, are
     # randomly selected so that the individual is able to visit them:
