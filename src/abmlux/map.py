@@ -22,6 +22,23 @@ class Map:
 
     def __init__(self, coord, width_m, height_m, border=None, shapefilename=None,
                  shapefile_coordsystem=None):
+        """Create a new Map, describing a part of the world.
+
+        Borders are loaded from shapefiles using pyshp, and converted into the ETRS89 coordinate
+        system used internally.  The 'shapefile_coordsystem' parameter should be a string
+        identifying a coordinate system to use, compatible with the pyproj package.  In practice
+        this means using an EPSG number, e.g. 'epsg:3035'.
+
+        Parameters:
+            coord (tuple):ETRS89-format 2-tuple of x,y coordinates representing the southwest
+                          corner of the map.  Used as an offset for internal points.
+            width_m (int):Width of the map in metres
+            height_m (int):Height of the map in metres
+            border (list):List of Shapes, as read from a shapefile, representing the border.
+            shapefilename (str):Filename of a shapefile to load the border from
+            shapefile_coordsystem (str):Coordinate system to use when loading the shapefile.
+                                        Default is ETRS89.
+        """
 
         self.coord    = coord
         self.wgs84    = ETRS89_to_WGS84(coord)
@@ -79,6 +96,24 @@ class DensityMap(Map):
 
     def __init__(self, coord, width_m, height_m, cell_size_m, border=None, shapefilename=None,
                  shapefile_coordsystem=None):
+        """Create a new DensityMap, describing a part of the world along with its population
+        density.
+
+        Population density is stored in a grid of square cells.  This allows weighted sampling
+        from the grid in order to sample points, or visualisation/examination of the weights
+        across the space.
+
+        Parameters:
+            coord (tuple):ETRS89-format 2-tuple of x,y coordinates representing the southwest
+                          corner of the map.  Used as an offset for internal points.
+            width_m (int):Width of the map in metres
+            height_m (int):Height of the map in metres
+            cell_size_m (int):Width (and height) of each cell in metres.  Cells are square.
+            border (list):List of Shapes, as read from a shapefile, representing the border.
+            shapefilename (str):Filename of a shapefile to load the border from
+            shapefile_coordsystem (str):Coordinate system to use when loading the shapefile.
+                                        Default is ETRS89.
+        """
 
         super().__init__(coord, width_m, height_m, border, shapefilename, shapefile_coordsystem)
 
@@ -122,7 +157,7 @@ class DensityMap(Map):
         self.marginals_cache = [sum(x) for x in self.density]
 
     def force_recompute_marginals(self):
-        """Force the method to recompute marginal sums.  This must be called if the internal 
+        """Force the method to recompute marginal sums.  This must be called if the internal
         density map is edited directly (i.e. without calling get_density/set_density)."""
         self._recompute_marginals()
 

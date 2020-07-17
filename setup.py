@@ -1,6 +1,5 @@
-# Always prefer setuptools over distutils
-from setuptools import setup, find_packages
 import pathlib
+from setuptools import setup, find_packages
 
 here = pathlib.Path(__file__).parent.resolve()
 
@@ -158,4 +157,3 @@ setup(
         # 'Source': 'https://github.com/pypa/sampleproject/',
     },
 )
-
