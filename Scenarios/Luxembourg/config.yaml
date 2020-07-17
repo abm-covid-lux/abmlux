@@ -23,7 +23,7 @@ logging:
   loggers:
     '':   # root logger
       handlers: ['default']
-      level: DEBUG
+      level: INFO
       propagate: False
 #    'my.packg':
 #      handlers: ['default']
@@ -44,7 +44,7 @@ reporters:
       dirname: /tmp/plots
       types_to_show: []
       health_to_show: [INFECTED]
-      figure_size: [10.43, 15]  # width, height
+      figure_size: [15, 20]  # width, height
       every_n: 1
 
 
