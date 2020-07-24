@@ -57,8 +57,11 @@ def create_agents(network, config):
     # How many agents per agent type
     pop_by_agent_type = {atype: math.ceil(config['n'] * sum(pop_normalised[slce]))
                          for atype, slce in POPULATION_SLICES.items()}
+    # Add cross border workers (frontaliers) as adults
+    frontaliers = config['border_countries']
+    total_frontaliers = sum(frontaliers.values())
+    pop_by_agent_type[AgentType.ADULT] += math.ceil(config['n'] * total_frontaliers / sum(pop_by_age))
     log.info("Agent count by type: %s", pop_by_agent_type)
-
     # The total numbers of children, adults and retired individuals are fixed deterministically,
     # while the exact age of individuals within each group is determined randomly.
     log.debug("Constructing agents...")
@@ -74,38 +77,43 @@ def create_agents(network, config):
 
 
 
-
-
-
 def assign_homes(network, config, activity_manager, home_activity_type):
-    """Define home locations for each agent"""
-    # pylint: disable=too-many-locals
+    
+    unassigned_children = copy.copy(network.agents_by_type[AgentType.CHILD])
+    unassigned_adults = copy.copy(network.agents_by_type[AgentType.ADULT])
+    unassigned_retired = copy.copy(network.agents_by_type[AgentType.RETIRED])
+    
+    carehomes = copy.copy(network.locations_for_types('Care Home'))
+    unassigned_houses = copy.copy(network.locations_for_types('House'))
+    
+    # ---- Populate Carehomes ----
 
-    # ------- Assign Children ---------------
-    # Sample without replacement from both houses and
-    # child lists according to the weights above
-    #
-    # Note that these are taken IN ORDER because they have previously been assigned at random.
-    # A possible extension is to shuffle these arrays to ensure random sampling even if the
-    # previous routines are not random.
-    log.debug("Assigning children to houses...")
+    # Number of residents per carehome
+    num_retired = config['retired_per_carehome']
+        
+    for carehome in carehomes:
 
-    # Look up all locations where agents can perform the activity representing being in a home
-    unassigned_houses  = network.locations_for_types(activity_manager.get_location_types(home_activity_type))
-    unclaimed_children = copy.copy(network.agents_by_type[AgentType.CHILD])
-    log.debug("%i unassigned houses, %i unassigned children",
-              len(unassigned_houses), len(unclaimed_children))
+        # Take from front of lists
+        carehome_residents = unassigned_retired[0:num_retired]
+        del unassigned_retired[0:num_retired]
+
+        # Allow carehome residents into the carehome
+        for carehome_resident in carehome_residents:
+            carehome_resident.add_activity_location(activity_manager.as_int(home_activity_type), carehome)
+
+    # ---- Assign Children ----
 
     houses_with_children = set()
     occupancy            = {l: [] for l in unassigned_houses}
-    while len(unclaimed_children) > 0 and len(unassigned_houses) > 0:
+    
+    while len(unassigned_children) > 0 and len(unassigned_houses) > 0:
 
         # Sample weighted by the aux data
         num_children = multinoulli_dict(config['children_per_house'])
 
         # Take from front of lists
-        children = unclaimed_children[0:num_children]
-        del unclaimed_children[0:len(children)]
+        children = unassigned_children[0:num_children]
+        del unassigned_children[0:len(children)]
         house = unassigned_houses[0]
         del unassigned_houses[0]
 
@@ -114,14 +122,31 @@ def assign_homes(network, config, activity_manager, home_activity_type):
         for child in children:
             child.add_activity_location(activity_manager.as_int(home_activity_type), house)
             occupancy[house].append(child)
+
         houses_with_children.add(house)
+
     log.debug("%i houses have >=1 children.  %i houses have no occupants yet",
               len(houses_with_children), len(unassigned_houses))
 
-    # ------- Assign Adults ---------------
+    # ---- Assign Adults ----
+    #
+    # 0. Cross border workers (frontaliers) get assigned a country
+    #
+    frontaliers = config['border_countries']
+    total_frontaliers = sum(frontaliers.values())
+    pop_by_age = config['age_distribution']
+    total_pop_by_age = sum(pop_by_age)
+    
+    for border_country in frontaliers:
+        border_country_n = math.ceil(config['n'] * frontaliers[border_country] / total_pop_by_age)
+        border_country_workers = unassigned_adults[0:border_country_n]
+        del unassigned_adults[0:border_country_n]
+        country = network.locations_for_types(border_country)[0]
+        for worker in border_country_workers:
+            worker.add_activity_location(activity_manager.as_int(home_activity_type), country)
+    #
     # 1. Houses with children get one or two adults
     #
-    unassigned_adults = copy.copy(network.agents_by_type[AgentType.ADULT])
     log.debug("Assigning adults to care for children (%i adults available)...",
               len(unassigned_adults))
     for house in tqdm(houses_with_children):
@@ -139,25 +164,22 @@ def assign_homes(network, config, activity_manager, home_activity_type):
         for adult in adults:
             adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
             occupancy[house].append(adult)
-
     #
-    # 2. Remaining adults, and retired people,
-    #    get assigned to a random house.
+    # 2. Remaining adults and retired people get assigned to a random house.
     #
     # This brings with it the possibility of some households being large,
     # and some houses remaining empty.
     log.debug("Assigning %i adults and %i retired people to %i houses...",
-              len(unassigned_adults), len(network.agents_by_type[AgentType.RETIRED]),
+              len(unassigned_adults), len(unassigned_retired),
               len(unassigned_houses))
-    unassigned_agents = unassigned_adults + network.agents_by_type[AgentType.RETIRED]
-    houses  = network.locations_for_types(activity_manager.get_location_types(home_activity_type))
-    for adult in tqdm(unassigned_agents):
+    unassigned_agents = unassigned_adults + unassigned_retired
+    houses = network.locations_for_types('House')
+    for unassigned_agent in tqdm(unassigned_agents):
         house = random_choice(houses)
-        adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
-        occupancy[house].append(adult)
-
+        unassigned_agent.add_activity_location(activity_manager.as_int(home_activity_type), house)
+        occupancy[house].append(unassigned_agent)
+            
     return occupancy
-
 
 def assign_workplaces(network, activity_manager, work_activity_type):
     """Assign a place of work for each agent."""
@@ -166,12 +188,15 @@ def assign_workplaces(network, activity_manager, work_activity_type):
 
     log.debug("Assigning workplaces...")
     for agent in tqdm(network.agents):
-        location_type = random_choice(activity_manager.get_location_types(work_activity_type))
-        workplace = random_choice(network.locations_by_type[location_type])
+        house = agent.locations_for_activity(activity_manager.as_int('House'))[0]
+        if house.typ == 'Care Home':
+            agent.add_activity_location(activity_manager.as_int(work_activity_type), house)
+        else:
+            location_type = random_choice(activity_manager.get_location_types(work_activity_type))
+            workplace = random_choice(network.locations_by_type[location_type])
 
-        # This automatically allows the location
-        agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
-
+            # This automatically allows the location
+            agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
 
 def assign_other_houses(network, config, activity_manager, home_activity_type,
                         other_house_activity_type):
@@ -181,15 +206,19 @@ def assign_other_houses(network, config, activity_manager, home_activity_type,
     log.info("Assigning other houses agents may visit...")
     houses = network.locations_for_types(activity_manager.get_location_types(other_house_activity_type))
     for agent in tqdm(network.agents):
-        # This may select n-1 if the agent's current home is in the samole
-        houses_to_visit = random_sample(houses, k=config['homes_allowed_to_visit'])
+        house = agent.locations_for_activity(activity_manager.as_int(home_activity_type))[0]
+        if house.typ in set(['Care Home', 'Belgium', 'France', 'Germany']):
+            agent.add_activity_location(activity_manager.as_int(other_house_activity_type), house)
+        else:    
+            # This may select n-1 if the agent's current home is in the samole
+            houses_to_visit = random_sample(houses, k=config['homes_allowed_to_visit'])
 
-        # Blacklist the agent's own home
-        houses_to_visit = [h for h in houses_to_visit
-                           if h not in agent.activity_locations[activity_manager.as_int(home_activity_type)]]
+            # Blacklist the agent's own home
+            houses_to_visit = [h for h in houses_to_visit
+                               if h not in agent.activity_locations[activity_manager.as_int(home_activity_type)]]
 
-        agent.add_activity_location(activity_manager.as_int(other_house_activity_type),
-                                    houses_to_visit)
+            agent.add_activity_location(activity_manager.as_int(other_house_activity_type),
+                                        houses_to_visit)
 
 
 def assign_entertainment_venues(network, config, activity_manager, entertainment_activity_type):
@@ -199,11 +228,15 @@ def assign_entertainment_venues(network, config, activity_manager, entertainment
     log.info("Assigning entertainment venues: %s...", entertainment_activity_type)
     venues = network.locations_for_types(activity_manager.get_location_types(entertainment_activity_type))
     for agent in tqdm(network.agents):
-        num_locations      = max(1, random_randrange(config['max_entertainment_allowed_to_visit']))
-        new_entertainments = random_sample(venues, k=min(len(venues), num_locations))
+        house = agent.locations_for_activity(activity_manager.as_int('House'))[0]
+        if house.typ in set(['Care Home', 'Belgium', 'France', 'Germany']):
+            agent.add_activity_location(activity_manager.as_int(entertainment_activity_type), house)
+        else:
+            num_locations      = max(1, random_randrange(config['max_entertainment_allowed_to_visit']))
+            new_entertainments = random_sample(venues, k=min(len(venues), num_locations))
 
-        agent.add_activity_location(activity_manager.as_int(entertainment_activity_type),
-                                    new_entertainments)
+            agent.add_activity_location(activity_manager.as_int(entertainment_activity_type),
+                                        new_entertainments)
 
 
 def assign_householders_by_proximity(network, activity_manager, occupancy, activity_type):
@@ -260,6 +293,10 @@ def assign_householders_by_proximity(network, activity_manager, occupancy, activ
         for occupant in occupancy[house]:
             occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
 
+    for agent in tqdm(network.agents):
+        house = agent.locations_for_activity(activity_manager.as_int('House'))[0]
+        if house.typ in set(['Care Home', 'Belgium', 'France', 'Germany']):
+            agent.add_activity_location(activity_manager.as_int(activity_type), house)
 
 def assign_outdoors(network, activity_manager, outdoor_activity_type):
     """Ensure everyone is allowed to access the outdoors"""
@@ -293,6 +330,10 @@ def assign_cars(network, activity_manager, occupancy, car_activity_type):
         for occupant in occupancy[house]:
             occupant.add_activity_location(activity_manager.as_int(car_activity_type), car)
 
+    for agent in tqdm(network.agents):
+        house = agent.locations_for_activity(activity_manager.as_int('House'))[0]
+        if house.typ in set(['Care Home', 'Belgium', 'France', 'Germany']):
+            agent.add_activity_location(activity_manager.as_int(car_activity_type), house)
 
 def build_network_model(config, density_map):
     """Create agents and locations according to the population density map given"""

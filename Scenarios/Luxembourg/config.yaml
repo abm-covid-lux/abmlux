@@ -16,7 +16,7 @@ logging:
       format: '[%(levelname)s] %(name)s: %(message)s'
   handlers:
     default:
-      level: DEBUG
+      level: INFO
       formatter: standard
       class: logging.StreamHandler
       stream: 'ext://sys.stdout'  # Default is stderr
@@ -36,16 +36,16 @@ logging:
 
 # Output that should be rendered from the simulation
 reporters:
-  - csv.HealthStateCounts:
-      filename: /tmp/plots/health_state_counts.csv
+  # - csv.HealthStateCounts:
+      # filename: /tmp/plots/health_state_counts.csv
   # - cli.BasicProgress: {}
   - cli.TQDM: {}
-  - location_population_plots.LocationPlots:
-      dirname: /tmp/plots
-      types_to_show: []
-      health_to_show: [INFECTED]
-      figure_size: [15, 20]  # width, height
-      every_n: 1
+  # - location_population_plots.LocationPlots:
+      # dirname: /tmp/plots
+      # types_to_show: []
+      # health_to_show: [INFECTED]
+      # figure_size: [15, 20]  # width, height
+      # every_n: 1
 
 
 # ################################# Filepaths ########################
@@ -94,7 +94,7 @@ working_dir: Intermediate Data/
 results_dir: Results/
 
 # ################################# Population ########################
-# Total number of agents on the network
+# Total number of resident agents on the network
 n: 16_108
 
 # Total population in reality.  If this
@@ -103,6 +103,11 @@ n: 16_108
 # to the ratio of this number and n above.
 real_n: 626_108
 
+# Population of workers from each border country.
+border_countries:
+  Belgium:  44_900
+  France:   94_600
+  Germany:  45_100
 
 # ################################# Time ########################
 # Time length of each tick in the simulation.
@@ -167,6 +172,9 @@ location_counts:
   Indoor Sport:                     199
   Cinema or Theatre:                34
   Museum or Zoo:                    77
+  Belgium:                          1
+  France:                           1
+  Germany:                          1
 
 # ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
@@ -188,7 +196,7 @@ activities:
   House:
     primary: [1]
     secondary: [11,12,13,14,21,22,23,31,34,35,39,115,121,213,214,221,222,231,239,311,314,315,324,325,326,327,328,329,333,346,347,349,351,353,354,356,363,364,371,381,382,383,384,386,391,393,419,421,422,431,432,433,434,511,512,522,551,711,713,714,719,733,734,737,739,744,745,746,747,749,811,812,813,819,821,829,839]
-    allowed_locations: [House]
+    allowed_locations: [House, Care Home, Belgium, France, Germany]
   Work:
     primary: [2]
     secondary: [111]
@@ -232,7 +240,7 @@ activities:
   Other House:
     primary: [4]
     secondary: [395,426,429,515,521,523,524]
-    allowed_locations: [House]
+    allowed_locations: [House, Care Home]
 
 # For the following location types, all people from a household
 # are assigned to the same locations for these activities.
@@ -324,6 +332,9 @@ infection_probabilities_per_tick:
   Indoor Sport:                     0.0007
   Cinema or Theatre:                0.0007
   Museum or Zoo:                    0.0007
+  Belgium:                          0.0
+  France:                           0.0
+  Germany:                          0.0
 
 # ##################### Distribution on the Network ########################
 # Weighting of houses with each number of children in them.
@@ -343,6 +354,9 @@ children_per_house:
 adults_per_house_containing_children:
   1: 4
   2: 30
+
+# Each carehome will be assigned a certain number of retired people.
+retired_per_carehome: 143
 
 # Agents are permitted to visit multiple households,
 # up to this limit.
