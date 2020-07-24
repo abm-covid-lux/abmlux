@@ -60,7 +60,7 @@ def create_agents(network, config):
     # Add cross border workers (frontaliers) as adults
     frontaliers = config['border_countries']
     total_frontaliers = sum(frontaliers.values())
-    pop_by_agent_type[AgentType.ADULT] += math.ceil(config['n'] * total_frontaliers / sum(pop_by_age))
+    pop_by_agent_type[AgentType.ADULT] += math.ceil(config['n']*total_frontaliers/sum(pop_by_age))
     log.info("Agent count by type: %s", pop_by_agent_type)
     # The total numbers of children, adults and retired individuals are fixed deterministically,
     # while the exact age of individuals within each group is determined randomly.
@@ -78,19 +78,22 @@ def create_agents(network, config):
 
 
 def assign_homes(network, config, activity_manager, home_activity_type):
-    
+    """Creaye a number of Agent objects within the network, according to the distributions
+    specified in the configuration object provided."""
+
+    log.debug("Assigning homes...")    
     unassigned_children = copy.copy(network.agents_by_type[AgentType.CHILD])
     unassigned_adults = copy.copy(network.agents_by_type[AgentType.ADULT])
     unassigned_retired = copy.copy(network.agents_by_type[AgentType.RETIRED])
-    
+
     carehomes = copy.copy(network.locations_for_types('Care Home'))
     unassigned_houses = copy.copy(network.locations_for_types('House'))
-    
-    # ---- Populate Carehomes ----
 
+    # ---- Populate Carehomes ----
+    log.debug("Populating care homes...")
     # Number of residents per carehome
     num_retired = config['retired_per_carehome']
-        
+
     for carehome in carehomes:
 
         # Take from front of lists
@@ -98,14 +101,14 @@ def assign_homes(network, config, activity_manager, home_activity_type):
         del unassigned_retired[0:num_retired]
 
         # Allow carehome residents into the carehome
-        for carehome_resident in carehome_residents:
-            carehome_resident.add_activity_location(activity_manager.as_int(home_activity_type), carehome)
+        for resident in carehome_residents:
+            resident.add_activity_location(activity_manager.as_int(home_activity_type), carehome)
 
     # ---- Assign Children ----
-
+    log.debug("Assigned homes to children...")
     houses_with_children = set()
     occupancy            = {l: [] for l in unassigned_houses}
-    
+
     while len(unassigned_children) > 0 and len(unassigned_houses) > 0:
 
         # Sample weighted by the aux data
@@ -133,10 +136,9 @@ def assign_homes(network, config, activity_manager, home_activity_type):
     # 0. Cross border workers (frontaliers) get assigned a country
     #
     frontaliers = config['border_countries']
-    total_frontaliers = sum(frontaliers.values())
     pop_by_age = config['age_distribution']
     total_pop_by_age = sum(pop_by_age)
-    
+
     for border_country in frontaliers:
         border_country_n = math.ceil(config['n'] * frontaliers[border_country] / total_pop_by_age)
         border_country_workers = unassigned_adults[0:border_country_n]
@@ -178,7 +180,7 @@ def assign_homes(network, config, activity_manager, home_activity_type):
         house = random_choice(houses)
         unassigned_agent.add_activity_location(activity_manager.as_int(home_activity_type), house)
         occupancy[house].append(unassigned_agent)
-            
+
     return occupancy
 
 def assign_workplaces(network, activity_manager, work_activity_type):
@@ -209,13 +211,13 @@ def assign_other_houses(network, config, activity_manager, home_activity_type,
         house = agent.locations_for_activity(activity_manager.as_int(home_activity_type))[0]
         if house.typ in set(['Care Home', 'Belgium', 'France', 'Germany']):
             agent.add_activity_location(activity_manager.as_int(other_house_activity_type), house)
-        else:    
+        else:
             # This may select n-1 if the agent's current home is in the samole
             houses_to_visit = random_sample(houses, k=config['homes_allowed_to_visit'])
 
             # Blacklist the agent's own home
-            houses_to_visit = [h for h in houses_to_visit
-                               if h not in agent.activity_locations[activity_manager.as_int(home_activity_type)]]
+            agent_own_home = agent.activity_locations[activity_manager.as_int(home_activity_type)]
+            houses_to_visit = [h for h in houses_to_visit if h not in agent_own_home]
 
             agent.add_activity_location(activity_manager.as_int(other_house_activity_type),
                                         houses_to_visit)
@@ -232,7 +234,7 @@ def assign_entertainment_venues(network, config, activity_manager, entertainment
         if house.typ in set(['Care Home', 'Belgium', 'France', 'Germany']):
             agent.add_activity_location(activity_manager.as_int(entertainment_activity_type), house)
         else:
-            num_locations      = max(1, random_randrange(config['max_entertainment_allowed_to_visit']))
+            num_locations = max(1, random_randrange(config['max_entertainment_allowed_to_visit']))
             new_entertainments = random_sample(venues, k=min(len(venues), num_locations))
 
             agent.add_activity_location(activity_manager.as_int(entertainment_activity_type),
