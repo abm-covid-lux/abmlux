@@ -103,7 +103,11 @@ n: 16_108
 # to the ratio of this number and n above.
 real_n: 626_108
 
-# Population of workers from each border country.
+# Population of workers from each border country. These numbers
+# do not affect the location counts. The scale factor is based only
+# on the ratio of n to real_n. The number of resident agents is given
+# by n, the number of agents in total will be n plus an appropriate
+# number of border workers.
 border_countries:
   Belgium:  44_900
   France:   94_600
@@ -140,7 +144,7 @@ epoch: 22nd March 2020
 # These labels will also be mapped onto activities in the time of
 # use survey, so 'house' or 'car' can be an activity, etc.
 location_counts:
-  House:                            252_600
+  House:                            0       # House numbers are random
   Care Home:                        44
   OW Agriculture:                   86
   OW Extraction:                    11
@@ -162,7 +166,7 @@ location_counts:
   School:                           215
   Restaurant:                       2247
   Outdoor:                          1
-  Car:                              252_600 # Currently one-per-house, may change.
+  Car:                              0       # Car numbers equals house numbers
   Public Transport:                 1000    # Approx
   Shop:                             3136
   Medical:                          125
@@ -175,6 +179,10 @@ location_counts:
   Belgium:                          1
   France:                           1
   Germany:                          1
+  
+random_location_counts:
+  - House
+  - Car
 
 # ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
@@ -337,6 +345,47 @@ infection_probabilities_per_tick:
   Germany:                          0.0
 
 # ##################### Distribution on the Network ########################
+#
+# Distribution of numbers of children and numbers of retired, given house size.
+#
+# The numbers below are derived from 2001 Census data:
+#
+# https://statistiques.public.lu/en/population-employment/index.html
+#
+# Note that categories '5' and '7' were '5+' and '7+' in the 2001 Census data.
+# Note also that 'children' in the 2001 Census data referred to ages 0-14, as opposed to 0-17.
+#
+#                                 Househould size
+#                   0      1      2      3      4     5     6    7
+#            0 [    x,     x,     x,     x,     x,    x,    x,   x]
+#  Number    1 [    x,     x,     x,     x,     x,    x,    x,   x]
+#    of      2 [    x,     x,     x,     x,     x,    x,    x,   x]
+#   Type     3 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            4 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            5 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            6 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            7 [    x,     x,     x,     x,     x,    x,    x,   x]
+
+household_distribution_children:
+  - [    0, 50384, 46191, 15885,  9035, 2514,  784, 276]
+  - [    0,     0,  2382, 12257,  4972, 2041,  514, 149]
+  - [    0,     0,     0,  1108, 14021, 2180,  720, 205]
+  - [    0,     0,     0,     0,   253, 4165,  622, 219]
+  - [    0,     0,     0,     0,     0,   38,  737, 150]
+  - [    0,     0,     0,     0,     0,    0,    5, 146]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+household_distribution_retired:
+  - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
+  - [    0, 16798,  6893,  2388,  1240,  971,  445, 191]
+  - [    0,     0, 11003,  1656,   483,  207,  214, 112]  
+  - [    0,     0,     0,   206,    36,   11,   12,  19]
+  - [    0,     0,     0,     0,    12,    4,    3,   0]
+  - [    0,     0,     0,     0,     0,    1,    2,   2]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+
 # Weighting of houses with each number of children in them.
 #
 # The model will allocate all children to houses, but these
