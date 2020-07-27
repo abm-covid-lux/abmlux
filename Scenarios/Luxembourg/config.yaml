@@ -184,6 +184,47 @@ random_location_counts:
   - House
   - Car
 
+
+
+# ######################## Employment profiles ########################
+
+workforce_profile_uniform:
+  Care Home:                        70
+  School:                           51
+  Public Transport:                 1
+  Place of Worship:                 1
+
+# The data format was [0-4, 5-19, 20-49, 50-249, 250+]. The maximum weight is now given:
+
+workforce_profile_histogram_format: [[1,5], [5,20], [20,50], [50,250], [250,500]]
+
+workforce_profile_histogram:
+  OW Agriculture:                   [76,   8,    1,   1,    0]
+  OW Extraction:                    [3,    4,    2,   2,    0]
+  OW Manufacturing:                 [369,  201,  101, 88,  26]
+  OW Energy:                        [78,   11,   3,   5,    1]
+  OW Water:                         [29,   21,   13,  7,    1]
+  OW Construction:                  [2786, 1040, 360, 155, 25]
+  OW Trade:                         [3570, 621,  159, 83,   7]
+  OW Transport:                     [818,  299,  120, 99,  13]
+  OW Catering and Accommodation:    [1728, 829,  118, 30,   6]
+  OW ICT:                           [2313, 302,  98,  64,   9]
+  OW Finance:                       [862,  222,  57,  68,  32]
+  OW Real Estate:                   [1353, 92,   11,  2,    0]
+  OW Technical:                     [7315, 795,  153, 69,  17]
+  OW Administration:                [1958, 298,  85,  67,  25]
+  OW Education:                     [789,  41,   6,   2,    0]
+  OW Entertainment:                 [295,  47,   16,  5,    0]
+  OW Other Services:                [1290, 211,  15,  7,    0]
+  Restaurant:                       [1728, 829,  118, 30,   6]
+  Shop:                             [2519, 691,  107, 53,  10]
+  Medical:                          [13,   2,    1,   11,   0]
+  Hospital:                         [0,    0,    0,   0,    8]
+  Hotel:                            [1728, 829,  118, 30,   6]
+  Indoor Sport:                     [295,  47,   16,  5,    0]
+  Cinema or Theatre:                [2313, 302,  98,  64,   9]
+  Museum or Zoo:                    [295,  47,   16,  5,    0]
+
 # ################################# Activities ########################
 # The Time-of-use survey data has a list of primary activities
 # and secondary activities.  Here we map them onto our own list

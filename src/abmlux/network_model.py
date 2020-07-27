@@ -9,7 +9,7 @@ from tqdm import tqdm
 from scipy.spatial import KDTree
 
 from .random_tools import (multinoulli, multinoulli_dict, random_randrange,
-                           random_sample, random_choice, random_shuffle)
+                           random_sample, random_choice, random_shuffle, random_randrange_interval)
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
 from .location import Location
 from .activity_manager import ActivityManager
@@ -74,7 +74,7 @@ def create_agents(network, config):
             new_agent = Agent(atype, age)
             network.add_agent(new_agent)
 
-def make_housing_dictionary(config):
+def make_house_profile_dictionary(config):
     """Creates a probability distribution across household profiles."""
 
     log.debug("Making housing dictionary...")
@@ -173,7 +173,7 @@ def assign_homes(network, density_map, config, activity_manager, home_activity_t
     log.debug("Populating houses...")
 
     # Type distribution from which to sample
-    house_types = make_housing_dictionary(config)
+    house_types = make_house_profile_dictionary(config)
 
     occupancy_houses = {}
 
@@ -209,12 +209,26 @@ def assign_homes(network, density_map, config, activity_manager, home_activity_t
 
 def do_activity_from_home(activity_manager, occupancy, activity_type):
     """Assigns an activity location as the home"""
-
     for location in occupancy:
         for agent in occupancy[location]:
             agent.add_activity_location(activity_manager.as_int(activity_type), location)
 
-def assign_workplaces(network, activity_manager, work_activity_type, occupancy_houses,
+def make_work_profile_dictionary(network, config):
+    """Generates weights for working locations"""
+    workforce_profile_histogram = config['workforce_profile_histogram']
+    profile_format = config['workforce_profile_histogram_format']
+    # Weights reflect typical size of workforce in locations across different sectors
+    workplace_weights = {}
+    for location_type in workforce_profile_histogram:
+        profile = workforce_profile_histogram[location_type]
+        for location in network.locations_by_type[location_type]:
+            interval = profile_format[multinoulli(profile)]
+            weight = random_randrange_interval(interval[0],interval[1])
+            workplace_weights[location] = weight
+
+    return workplace_weights
+
+def assign_workplaces(network, config, activity_manager, work_activity_type, occupancy_houses,
                       occupancy_carehomes, occupancy_border_countries):
     """Assign a place of work for each agent."""
 
@@ -222,18 +236,18 @@ def assign_workplaces(network, activity_manager, work_activity_type, occupancy_h
 
     log.debug("Assigning workplace to house occupants...")
 
+    workplace_weights = make_work_profile_dictionary(network, config)
+
     for house in tqdm(occupancy_houses):
         for agent in occupancy_houses[house]:
-            location_type = random_choice(activity_manager.get_location_types(work_activity_type))
-            workplace = random_choice(network.locations_by_type[location_type])
+            workplace = multinoulli_dict(workplace_weights)
             agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
 
     log.debug("Assigning workplace to border country occupants...")
 
     for border_country in occupancy_border_countries:
         for agent in occupancy_border_countries[border_country]:
-            location_type = random_choice(activity_manager.get_location_types(work_activity_type))
-            workplace = random_choice(network.locations_by_type[location_type])
+            workplace = multinoulli_dict(workplace_weights)
             agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
 
     log.debug("Assigning workplace to carehome occupants...")
@@ -432,7 +446,7 @@ def build_network_model(config, density_map):
     log.info("Assigning locations to agents...")
     occupancy_houses, occupancy_carehomes, occupancy_border_countries \
     = assign_homes(network, density_map, config, activity_manager, "House", "Care Home")
-    assign_workplaces(network, activity_manager, "Work", occupancy_houses, occupancy_carehomes,
+    assign_workplaces(network, config, activity_manager, "Work", occupancy_houses, occupancy_carehomes,
                       occupancy_border_countries)
     assign_other_houses(network, config, activity_manager, "House", "Other House", occupancy_houses,
                         occupancy_carehomes, occupancy_border_countries)
