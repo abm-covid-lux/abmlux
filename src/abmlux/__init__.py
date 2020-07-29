@@ -230,6 +230,7 @@ def main_tools():
         command(config, *parameters)
     except: # pylint: disable=C0103,W0702
         e = sys.exc_info()[0]
-        log.fatal("Fatal error in tool execution '%s' with params '%s': %s", command.__name__, parameters, e)
+        log.fatal("Fatal error in tool execution '%s' with params '%s': %s",
+                  command.__name__, parameters, e)
         log.error(traceback.format_exc())
         sys.exit(1)
