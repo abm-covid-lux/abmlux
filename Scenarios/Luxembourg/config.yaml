@@ -1,10 +1,14 @@
 ---
-# ################################# Simulation Params ########################
+# ################################# Simulation Params #################################
 
 # Seed for python's PRNG
 random_seed: 652
 
-
+# Total number of resident agents on the network. If this equals the sum of
+# age_distribution (that is, the real total resident population) then the
+# scale factor will be 1, else all the counts will be scaled according to
+# the ratio of this number and the sum.
+n: 16_108
 
 # Format is https://docs.python.org/3/library/logging.config.html#logging-config-dictschema
 logging:
@@ -47,10 +51,8 @@ reporters:
       # figure_size: [15, 20]  # width, height
       # every_n: 1
 
-
-# ################################# Filepaths ########################
+# ################################# Filepaths #################################
 # Relative to this config file location
-
 
 # ---------- Input data ------------
 map:
@@ -60,7 +62,7 @@ map:
   # to produce a smoother population distribution without hard edges.
   #
   # Leave blank to do no resampling.
-  res_fact:
+  res_fact: 2
 
   # Density map normalization
   normalize_interpolation: True
@@ -83,6 +85,9 @@ map:
 # File containing time use survey data.  See Docs for full format.
 time_use_fp: Time Use.csv
 
+# File containing trip length data.
+trip_data_fp: Luxmobil_2017_open_data_DRAFT.xlsx
+
 # ---------- Intermediate data ------------
 # Working Directory
 #
@@ -93,27 +98,7 @@ working_dir: Intermediate Data/
 # Results dir
 results_dir: Results/
 
-# ################################# Population ########################
-# Total number of resident agents on the network
-n: 16_108
-
-# Total population in reality.  If this
-# equals n above then the scale factor will be 1,
-# else all the counts will be scaled according
-# to the ratio of this number and n above.
-real_n: 626_108
-
-# Population of workers from each border country. These numbers
-# do not affect the location counts. The scale factor is based only
-# on the ratio of n to real_n. The number of resident agents is given
-# by n, the number of agents in total will be n plus an appropriate
-# number of border workers.
-border_countries:
-  Belgium:  44_900
-  France:   94_600
-  Germany:  45_100
-
-# ################################# Time ########################
+# ################################# Time #################################
 # Time length of each tick in the simulation.
 #
 # Weeks must contain the same number of ticks, because we use weekly
@@ -121,30 +106,57 @@ border_countries:
 # divisible by the tick length below.
 tick_length_s: 600
 
-# How long the simulation should run for, in days.
-#
-# Note the number of iterations will be computed from the tick length
-# above.
-simulation_length_days: 70  # 10 weeks
+# How long the simulation should run for, in days. Note the number of iterations
+# will be computed from the tick length above.
+simulation_length_days: 70
 
 # When the simulation starts
 # syntax is anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
 epoch: 22nd March 2020
 
-# ################################# Locations ########################
-# How many of these locations should exist on the network.
-#
-# Some of these labels are special, e.g. 'House'
-# defines how children are assigned (see below).
-#
-# Note that these counts will be scaled by the scale factor,
-# as defined above.
-#
-# These labels will also be mapped onto activities in the time of
-# use survey, so 'house' or 'car' can be an activity, etc.
-location_counts:
-  House:                            0       # House numbers are random
+# ################################# Locations #################################
+
+# A list of all location types
+locations:
+  - House
+  - Care Home
+  - OW Agriculture
+  - OW Extraction
+  - OW Manufacturing
+  - OW Energy
+  - OW Water
+  - OW Construction
+  - OW Trade
+  - OW Transport
+  - OW Catering and Accommodation
+  - OW ICT
+  - OW Finance
+  - OW Real Estate
+  - OW Technical
+  - OW Administration
+  - OW Education
+  - OW Entertainment
+  - OW Other Services
+  - School
+  - Restaurant
+  - Outdoor
+  - Car
+  - Public Transport
+  - Shop
+  - Medical
+  - Hospital
+  - Hotel
+  - Place of Worship
+  - Indoor Sport
+  - Cinema or Theatre
+  - Museum or Zoo
+  - Belgium
+  - France
+  - Germany
+
+# These locations have a fixed (upto rescaling) count
+deterministic_location_counts:
   Care Home:                        44
   OW Agriculture:                   86
   OW Extraction:                    11
@@ -166,7 +178,6 @@ location_counts:
   School:                           215
   Restaurant:                       2247
   Outdoor:                          1
-  Car:                              0       # Car numbers equals house numbers
   Public Transport:                 1000    # Approx
   Shop:                             3136
   Medical:                          125
@@ -176,70 +187,30 @@ location_counts:
   Indoor Sport:                     199
   Cinema or Theatre:                34
   Museum or Zoo:                    77
-  Belgium:                          1
-  France:                           1
-  Germany:                          1
-  
+
+# These locations have a random count
 random_location_counts:
   - House
   - Car
 
+# The border countries, as individual locations, are assigned these coordinates
+border_country_coord:
+  Belgium: [49.683729, 5.814469]
+  France: [49.357664, 6.166023]
+  Germany: [49.756279, 6.643219]
 
-
-# ######################## Employment profiles ########################
-
-workforce_profile_uniform:
-  Care Home:                        70
-  School:                           51
-  Public Transport:                 1
-  Place of Worship:                 1
-
-# The data format was [0-4, 5-19, 20-49, 50-249, 250+]. The maximum weight is now given:
-
-workforce_profile_histogram_format: [[1,5], [5,20], [20,50], [50,250], [250,500]]
-
-workforce_profile_histogram:
-  OW Agriculture:                   [76,   8,    1,   1,    0]
-  OW Extraction:                    [3,    4,    2,   2,    0]
-  OW Manufacturing:                 [369,  201,  101, 88,  26]
-  OW Energy:                        [78,   11,   3,   5,    1]
-  OW Water:                         [29,   21,   13,  7,    1]
-  OW Construction:                  [2786, 1040, 360, 155, 25]
-  OW Trade:                         [3570, 621,  159, 83,   7]
-  OW Transport:                     [818,  299,  120, 99,  13]
-  OW Catering and Accommodation:    [1728, 829,  118, 30,   6]
-  OW ICT:                           [2313, 302,  98,  64,   9]
-  OW Finance:                       [862,  222,  57,  68,  32]
-  OW Real Estate:                   [1353, 92,   11,  2,    0]
-  OW Technical:                     [7315, 795,  153, 69,  17]
-  OW Administration:                [1958, 298,  85,  67,  25]
-  OW Education:                     [789,  41,   6,   2,    0]
-  OW Entertainment:                 [295,  47,   16,  5,    0]
-  OW Other Services:                [1290, 211,  15,  7,    0]
-  Restaurant:                       [1728, 829,  118, 30,   6]
-  Shop:                             [2519, 691,  107, 53,  10]
-  Medical:                          [13,   2,    1,   11,   0]
-  Hospital:                         [0,    0,    0,   0,    8]
-  Hotel:                            [1728, 829,  118, 30,   6]
-  Indoor Sport:                     [295,  47,   16,  5,    0]
-  Cinema or Theatre:                [2313, 302,  98,  64,   9]
-  Museum or Zoo:                    [295,  47,   16,  5,    0]
-
-# ################################# Activities ########################
+# ################################# Activities #################################
 # The Time-of-use survey data has a list of primary activities
-# and secondary activities.  Here we map them onto our own list
-# of activities
+# and secondary activities. Here we map them onto our own list
+# of activities.
 #
-# NOTE: the keys in this list are NOT locations and do not have to match
-#       the list in location_counts above
-#
-# Each key points at a list of activity codes from the TUS.  We map
+# Each key points at a list of activity codes from the TUS. We map
 # these in reverse back onto the key when loading TUS data, e.g.
 # House: [1,5] would map codes 1 and 5 from the TUS data onto the 'House'
 # activity in this simulation.
 #
 # The 'allowed_locations' list maps the activity onto the locations in the
-# locations list above --- if an agent is participating in this activity
+# locations list above. That is,  if an agent is participating in this activity
 # then it may be in any of the locations in the list.
 activities:
   House:
@@ -286,38 +257,60 @@ activities:
   Museum or Zoo:
     secondary: [534]
     allowed_locations: [Museum or Zoo]
-  Other House:
+  Visit:
     primary: [4]
     secondary: [395,426,429,515,521,523,524]
     allowed_locations: [House, Care Home]
 
-# For the following location types, all people from a household
-# are assigned to the same locations for these activities.
-#
-# Agents are assigned their closest item, except where this is
-# full, after which the assignment will overflow onto the next
-# closest, etc.
-whole_household_activities:
+# Which activies are assigned locations using a distance histogram, and how many such locations can
+# be visited by each agent
+activity_locations_by_distance:
+  Visit: 10
+  Restaurant: 10
+  Shop: 10
+
+# When using a distance histogram, how many locations are included in the sample to which the
+# histogram is applied. Note that a large number will result in performance issues.
+location_sample_size: 100
+
+# Which activies are assigned locations using a simple random sample, and how many such locations
+# can be visited by each agent
+activity_locations_by_random:
+  Public Transport: 10
+  Cinema or Theatre: 10
+  Museum or Zoo: 10
+
+# Which activies are assigned locations using a KDTree. Only one such location is assigned per agent
+activity_locations_by_proximity:
   - School
   - Medical
   - Place of Worship
   - Indoor Sport
 
-# Which of the above location are classed as
-# somewhere agents go to entertain themselves?
-#
-# Entries in this list must match keys form location_counts
-entertainment_activities:
-  - Restaurant
-  - Public Transport
-  - Shop
-  - Cinema or Theatre
-  - Museum or Zoo
+# Parameters used in the construction of the distance histograms
+number_of_bins:
+  Luxembourg: 10
+  Belgium:    20
+  France:     20
+  Germany:    20
+bin_width:
+  Luxembourg: 10
+  Belgium:    10
+  France:     10
+  Germany:    10
+activity_dict:
+  Visit: Visite
+  Shop: Achats
+  Restaurant: Repas
 
+# Euclidean to road distance conversion parameters. See:
+# Hai Yanga, Jintao Kea and Jieping Ye, 'A universal distribution law of network detour ratios',
+# Transportation Research Part C, 2018.
+alpha: 1.2988
+beta:  0.3838 
 
+# ################################# Virus #################################
 
-
-# ##################### Pathogen Properties ########################
 # Incubation period in days
 incubation_period_days: 5  # 7200 minutes
 
@@ -328,12 +321,10 @@ infectious_period_days: 14 # 20160 minutes
 initial_infections: 10
 
 # Probabilities of death occurring at the end of the infectious period,
-# rather than recovery.
-#
-# These are NOT weights, they are probabilities 0-1 for the age ranges given,
-# e.g. [[0, 9], 0.17] == 17% chance of death for those in the range (0,9].
-#
-# Missing age ranges will be interpreted as 0 probability.
+# rather than recovery. These are NOT weights, they are probabilities
+# 0-1 for the age ranges given, e.g. [[0, 9], 0.17] == 17% chance of
+# death for those in the range (0,9]. Missing age ranges will be
+# interpreted as 0 probability.
 probability_of_death:
   - [[0, 9],    0.0 ]
   - [[10, 19],  0.0 ]
@@ -385,77 +376,15 @@ infection_probabilities_per_tick:
   France:                           0.0
   Germany:                          0.0
 
-# ##################### Distribution on the Network ########################
-#
-# Distribution of numbers of children and numbers of retired, given house size.
-#
-# The numbers below are derived from 2001 Census data:
-#
-# https://statistiques.public.lu/en/population-employment/index.html
-#
-# Note that categories '5' and '7' were '5+' and '7+' in the 2001 Census data.
-# Note also that 'children' in the 2001 Census data referred to ages 0-14, as opposed to 0-17.
-#
-#                                 Househould size
-#                   0      1      2      3      4     5     6    7
-#            0 [    x,     x,     x,     x,     x,    x,    x,   x]
-#  Number    1 [    x,     x,     x,     x,     x,    x,    x,   x]
-#    of      2 [    x,     x,     x,     x,     x,    x,    x,   x]
-#   Type     3 [    x,     x,     x,     x,     x,    x,    x,   x]
-#            4 [    x,     x,     x,     x,     x,    x,    x,   x]
-#            5 [    x,     x,     x,     x,     x,    x,    x,   x]
-#            6 [    x,     x,     x,     x,     x,    x,    x,   x]
-#            7 [    x,     x,     x,     x,     x,    x,    x,   x]
+# ################################# Population and Age #################################
 
-household_distribution_children:
-  - [    0, 50384, 46191, 15885,  9035, 2514,  784, 276]
-  - [    0,     0,  2382, 12257,  4972, 2041,  514, 149]
-  - [    0,     0,     0,  1108, 14021, 2180,  720, 205]
-  - [    0,     0,     0,     0,   253, 4165,  622, 219]
-  - [    0,     0,     0,     0,     0,   38,  737, 150]
-  - [    0,     0,     0,     0,     0,    0,    5, 146]
-  - [    0,     0,     0,     0,     0,    0,    0,   0]
-  - [    0,     0,     0,     0,     0,    0,    0,   0]
+# Distribution of non-resident agents by border country.
+border_countries_pop:
+  Belgium:  44_900
+  France:   94_600
+  Germany:  45_100
 
-household_distribution_retired:
-  - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
-  - [    0, 16798,  6893,  2388,  1240,  971,  445, 191]
-  - [    0,     0, 11003,  1656,   483,  207,  214, 112]  
-  - [    0,     0,     0,   206,    36,   11,   12,  19]
-  - [    0,     0,     0,     0,    12,    4,    3,   0]
-  - [    0,     0,     0,     0,     0,    1,    2,   2]
-  - [    0,     0,     0,     0,     0,    0,    0,   0]
-  - [    0,     0,     0,     0,     0,    0,    0,   0]
-
-# Weighting of houses with each number of children in them.
-#
-# The model will allocate all children to houses, but these
-# weights will be used to decide the distribution.
-children_per_house:
-  1: 4408
-  2: 4209
-  3: 1383  # this is interpreted as >=3 by the model
-
-# Each house with children will be assigned adults according
-# to this weighting.
-#
-# Further adults and retired people will be added on top of
-# this.
-adults_per_house_containing_children:
-  1: 4
-  2: 30
-
-# Each carehome will be assigned a certain number of retired people.
-retired_per_carehome: 143
-
-# Agents are permitted to visit multiple households,
-# up to this limit.
-homes_allowed_to_visit: 10
-
-# Agents are permitted to visit this many entertainment places.
-max_entertainment_allowed_to_visit: 10
-
-# Distribution of agents by age.
+# Distribution of resident agents by age.
 age_distribution:
  - 6356  # 0 Years old
  - 6604  # 1 Year old
@@ -554,3 +483,89 @@ age_distribution:
  - 375
  - 842 # 95+ Years old
 
+# ################################# Household Distribution #################################
+
+# Distribution of numbers of children and numbers of retired, given house size. The numbers below
+# are derived from 2001 Census data:
+#
+# https://statistiques.public.lu/en/population-employment/index.html
+#
+# Note that categories '5' and '7' were '5+' and '7+' in the 2001 Census data. Note also that
+# 'children' in the 2001 Census data referred to ages 0-14, as opposed to 0-17. The format is:
+#
+#                                 Househould size
+#                   0      1      2      3      4     5     6    7
+#            0 [    x,     x,     x,     x,     x,    x,    x,   x]
+#  Number    1 [    x,     x,     x,     x,     x,    x,    x,   x]
+#    of      2 [    x,     x,     x,     x,     x,    x,    x,   x]
+#   Type     3 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            4 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            5 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            6 [    x,     x,     x,     x,     x,    x,    x,   x]
+#            7 [    x,     x,     x,     x,     x,    x,    x,   x]
+
+# Household distribution of children
+household_distribution_children:
+  - [    0, 50384, 46191, 15885,  9035, 2514,  784, 276]
+  - [    0,     0,  2382, 12257,  4972, 2041,  514, 149]
+  - [    0,     0,     0,  1108, 14021, 2180,  720, 205]
+  - [    0,     0,     0,     0,   253, 4165,  622, 219]
+  - [    0,     0,     0,     0,     0,   38,  737, 150]
+  - [    0,     0,     0,     0,     0,    0,    5, 146]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+# Household distribution of retired
+household_distribution_retired:
+  - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
+  - [    0, 16798,  6893,  2388,  1240,  971,  445, 191]
+  - [    0,     0, 11003,  1656,   483,  207,  214, 112]  
+  - [    0,     0,     0,   206,    36,   11,   12,  19]
+  - [    0,     0,     0,     0,    12,    4,    3,   0]
+  - [    0,     0,     0,     0,     0,    1,    2,   2]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+  - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+# Each carehome will be assigned a number of retired people as residents.
+retired_per_carehome: 143
+
+# ################################# Workforce Profiles #################################
+
+# For these locations, workforce weights are uniform
+workforce_profile_uniform:
+  Care Home:                        70
+  School:                           51
+  Public Transport:                 1
+  Place of Worship:                 1
+
+# For these locations, workforce weights are sampled from a histogram determined by the
+# corresponding list. The format is given below.
+workforce_profile_histogram:
+  OW Agriculture:                   [76,   8,    1,   1,    0]
+  OW Extraction:                    [3,    4,    2,   2,    0]
+  OW Manufacturing:                 [369,  201,  101, 88,  26]
+  OW Energy:                        [78,   11,   3,   5,    1]
+  OW Water:                         [29,   21,   13,  7,    1]
+  OW Construction:                  [2786, 1040, 360, 155, 25]
+  OW Trade:                         [3570, 621,  159, 83,   7]
+  OW Transport:                     [818,  299,  120, 99,  13]
+  OW Catering and Accommodation:    [1728, 829,  118, 30,   6]
+  OW ICT:                           [2313, 302,  98,  64,   9]
+  OW Finance:                       [862,  222,  57,  68,  32]
+  OW Real Estate:                   [1353, 92,   11,  2,    0]
+  OW Technical:                     [7315, 795,  153, 69,  17]
+  OW Administration:                [1958, 298,  85,  67,  25]
+  OW Education:                     [789,  41,   6,   2,    0]
+  OW Entertainment:                 [295,  47,   16,  5,    0]
+  OW Other Services:                [1290, 211,  15,  7,    0]
+  Restaurant:                       [1728, 829,  118, 30,   6]
+  Shop:                             [2519, 691,  107, 53,  10]
+  Medical:                          [13,   2,    1,   11,   0]
+  Hospital:                         [0,    0,    0,   0,    8]
+  Hotel:                            [1728, 829,  118, 30,   6]
+  Indoor Sport:                     [295,  47,   16,  5,    0]
+  Cinema or Theatre:                [2313, 302,  98,  64,   9]
+  Museum or Zoo:                    [295,  47,   16,  5,    0]
+
+# The data format was originally [0-4, 5-19, 20-49, 50-249, 250+]. The maximum weight is now given.
+workforce_profile_histogram_format: [[1,5], [5,20], [20,50], [50,250], [250,500]]
