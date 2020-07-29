@@ -6,6 +6,7 @@ import sys
 import logging
 import logging.config
 import importlib
+import traceback
 
 import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
@@ -180,7 +181,14 @@ def main():
     for i, stage in enumerate(stages):
         log.info("[%i/%i] %s", i+1, len(stages), stage.__name__)
 
-        stage(config)
+        try:
+            stage(config)
+        except:
+            e = sys.exc_info()[0]
+            log.fatal("Fatal error in stage %i (%s): %s", i, stage.__name__, e)
+            log.error(traceback.format_exc())
+            log.fatal("Shutting down to prevent further errors.")
+            sys.exit(1)
 
 
 TOOLS = ["plot_locations", "plot_activity_routines", "export_locations_kml", "join_images"]
@@ -218,4 +226,10 @@ def main_tools():
     log.info(f"Parameters for tool: {parameters}")
 
     # Run the thing.
-    command(config, *parameters)
+    try:
+        command(config, *parameters)
+    except:
+        e = sys.exc_info()[0]
+        log.fatal("Fatal error in tool execution '%s' with params '%s': %s", command.__name__, parameters, e)
+        log.error(traceback.format_exc())
+        sys.exit(1)
