@@ -1,4 +1,4 @@
-"""This file procedurally generates an environment, following Luxembourgish statistics."""
+"""This file procedurally generates the agents and locations."""
 
 import math
 import copy
@@ -7,210 +7,395 @@ import logging
 
 from tqdm import tqdm
 from scipy.spatial import KDTree
+from openpyxl import load_workbook
 
-from .random_tools import (multinoulli, multinoulli_dict, random_randrange,
-                           random_sample, random_choice, random_shuffle)
+from .random_tools import (multinoulli, multinoulli_dict, random_choices, random_sample,
+                           random_choice, random_shuffle, random_randrange_interval)
 from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
-from .location import Location
+from .location import Location, WGS84_to_ETRS89
 from .activity_manager import ActivityManager
 from .network import Network
 from .sim_time import SimClock
-
 
 log = logging.getLogger('network_model')
 
 def create_locations(network, density_map, config):
     """Create a number of Location objects within the network, according to the density map
-    given and the distributions defined in the config."""
+    given and the distributions defined in the config. Locations with a non-deterministic count are
+    created later."""
 
     log.debug('Initializing locations...')
 
-    location_counts = config['location_counts']
+    location_counts         = config['deterministic_location_counts']
+    pop_by_border_countries = config['border_countries_pop']
+    border_country_coord    = config['border_country_coord']
+    pop_by_age              = config['age_distribution']
 
     # Adjust location counts by the ratio of the simulation size and real population size
-    location_counts = {typ: math.ceil((config['n'] / config['real_n']) * location_counts[typ])
+    location_counts = {typ: math.ceil((config['n'] / sum(pop_by_age)) * location_counts[typ])
                        for typ, x in location_counts.items()}
     location_counts['Outdoor'] = 1
-
-    # Create locations for each type, of the amounts requested.
-    log.debug("Creating location objects...")
-    for ltype, lcount in tqdm(location_counts.items()):
+    log.debug("Location count by type: %s", location_counts)
+    # Create locations for each type, of the amounts requested
+    log.info("Constructing locations...")
+    for ltype, lcount in location_counts.items():
         for _ in range(lcount):
-
             new_coord = density_map.sample_coord()
-
-            # Add location to the network
             new_location = Location(ltype, new_coord)
             network.add_location(new_location)
-
-
+    # Create locations of each border country
+    for country in pop_by_border_countries:
+        coord = WGS84_to_ETRS89(border_country_coord[country][1],border_country_coord[country][0])
+        new_country = Location(country, coord)
+        network.add_location(new_country)
 
 def create_agents(network, config):
-    """Creaye a number of Agent objects within the network, according to the distributions
+    """Create a number of Agent objects within the network, according to the distributions
     specified in the configuration object provided."""
 
     log.debug('Initializing agents...')
-    # Extract useful series from input data
-    pop_by_age       = config['age_distribution']
-    pop_normalised   = [x / sum(pop_by_age) for x in pop_by_age]
+
+    pop_by_age = config['age_distribution']
 
     # How many agents per agent type
+    pop_normalised    = [x / sum(pop_by_age) for x in pop_by_age]
     pop_by_agent_type = {atype: math.ceil(config['n'] * sum(pop_normalised[slce]))
                          for atype, slce in POPULATION_SLICES.items()}
-    log.info("Agent count by type: %s", pop_by_agent_type)
-
+    # Add an appropriate number of cross border workers as adults
+    pop_by_border_country = config['border_countries_pop']
+    total = sum(pop_by_border_country.values())
+    pop_by_agent_type[AgentType.ADULT] += math.ceil(total * config['n']/sum(pop_by_age))
+    log.debug("Agent count by type: %s", pop_by_agent_type)
     # The total numbers of children, adults and retired individuals are fixed deterministically,
-    # while the exact age of individuals within each group is determined randomly.
-    log.debug("Constructing agents...")
+    # while the exact age of individuals within each group is determined randomly
+    log.info("Constructing agents...")
     for atype, slce in POPULATION_SLICES.items():
-        log.debug(" - %s...", atype.name)
+        log.info(" - %s...", atype.name)
         for _ in tqdm(range(pop_by_agent_type[atype])):
-
             # Sample a point from the age distribution within this slice
             age = (slce.start or 0) + multinoulli(pop_by_age[slce])
-
             new_agent = Agent(atype, age)
             network.add_agent(new_agent)
 
+def make_house_profile_dictionary(config):
+    """Creates a probability distribution across household profiles."""
 
+    log.debug("Making housing dictionary...")
 
+    hshld_dst_c = config['household_distribution_children']
+    hshld_dst_r = config['household_distribution_retired']
 
-
-
-def assign_homes(network, config, activity_manager, home_activity_type):
-    """Define home locations for each agent"""
-    # pylint: disable=too-many-locals
-
-    # ------- Assign Children ---------------
-    # Sample without replacement from both houses and
-    # child lists according to the weights above
+    max_house_size = len(hshld_dst_r[0]) - 1
+    assert max_house_size == len(hshld_dst_c[0]) - 1
+    total_houses = sum([sum(x) for x in zip(*hshld_dst_r)])
+    assert total_houses == sum([sum(x) for x in zip(*hshld_dst_c)])
+    # Each key in the following dictionary, house_profiles, will be a triple. The entries in each
+    # triple will correspond to numbers of children, adults and retired, respectively. The
+    # corresponding value indicates the probility of that triple occuring as household profile.
+    # The sum of the entries in a given triple is bounded by the maximum house size. All possible
+    # keys are generated that satisfy this bound.
     #
-    # Note that these are taken IN ORDER because they have previously been assigned at random.
-    # A possible extension is to shuffle these arrays to ensure random sampling even if the
-    # previous routines are not random.
-    log.debug("Assigning children to houses...")
+    # To generate the probabilties, it is assumed that, conditional on the house size being n and
+    # the number of retired residents in a house being r, the number of children c follows the
+    # distribution given by normalizing the first n-r entries in the n-th column of the matrix
+    # hshld_dst_c.
+    house_profiles = {}
+    for house_size in range(1, max_house_size + 1):
+        for num_children in range(house_size + 1):
+            for num_retired in range(house_size + 1 - num_children):
+                num_adult = house_size - num_children - num_retired
+                weight = sum(tuple(zip(*hshld_dst_c))[house_size][0:house_size + 1 - num_retired])
+                prob = hshld_dst_c[num_children][house_size]\
+                       *hshld_dst_r[num_retired][house_size]/(total_houses*weight)
+                house_profiles[(num_children, num_adult, num_retired)] = prob
 
-    # Look up all locations where agents can perform the activity representing being in a home
-    unassigned_houses  = network.locations_for_types(activity_manager.get_location_types(home_activity_type))
-    unclaimed_children = copy.copy(network.agents_by_type[AgentType.CHILD])
-    log.debug("%i unassigned houses, %i unassigned children",
-              len(unassigned_houses), len(unclaimed_children))
+    return house_profiles
 
-    houses_with_children = set()
-    occupancy            = {l: [] for l in unassigned_houses}
-    while len(unclaimed_children) > 0 and len(unassigned_houses) > 0:
+def assign_homes(network, density_map, config, activity_manager, home_activity_type, carehome_type):
+    """Assigns homes to agents."""
 
-        # Sample weighted by the aux data
-        num_children = multinoulli_dict(config['children_per_house'])
+    log.info("Creating and populating homes...")
 
+    unassigned_children = copy.copy(network.agents_by_type[AgentType.CHILD])
+    unassigned_adults   = copy.copy(network.agents_by_type[AgentType.ADULT])
+    unassigned_retired  = copy.copy(network.agents_by_type[AgentType.RETIRED])
+
+    # ---- Populate Carehomes ----
+    log.debug("Populating care homes...")
+    # Number of residents per carehome
+    num_retired = config['retired_per_carehome']
+    carehomes = copy.copy(network.locations_for_types(carehome_type))
+    occupancy_carehomes = {}
+    for carehome in carehomes:
         # Take from front of lists
-        children = unclaimed_children[0:num_children]
-        del unclaimed_children[0:len(children)]
-        house = unassigned_houses[0]
-        del unassigned_houses[0]
+        carehome_residents = unassigned_retired[0:num_retired]
+        del unassigned_retired[0:num_retired]
+        # Assign agents to carehome
+        occupancy_carehomes[carehome] = carehome_residents
+        for resident in carehome_residents:
+            resident.add_activity_location(activity_manager.as_int(home_activity_type), carehome)
 
-        # Allow children into the house,
-        # and associate the children with the house
-        for child in children:
-            child.add_activity_location(activity_manager.as_int(home_activity_type), house)
-            occupancy[house].append(child)
-        houses_with_children.add(house)
-    log.debug("%i houses have >=1 children.  %i houses have no occupants yet",
-              len(houses_with_children), len(unassigned_houses))
+    # ---- Populate Border Countries ----
+    log.debug("Populating border countries...")
+    # Cross border worker populations
+    pop_by_border_country = config['border_countries_pop']
+    total_pop_by_age = sum(config['age_distribution'])
+    occupancy_border_countries = {}
+    for border_country in pop_by_border_country:
+        # Normalize cross border worker populations
+        bc_n = math.ceil(config['n']*pop_by_border_country[border_country]/total_pop_by_age)
+        # Take from front of lists
+        border_country_workers = unassigned_adults[0:bc_n]
+        del unassigned_adults[0:bc_n]
+        country = network.locations_for_types(border_country)[0]
+        occupancy_border_countries[country] = border_country_workers
+        for worker in border_country_workers:
+            worker.add_activity_location(activity_manager.as_int(home_activity_type), country)
 
-    # ------- Assign Adults ---------------
-    # 1. Houses with children get one or two adults
-    #
-    unassigned_adults = copy.copy(network.agents_by_type[AgentType.ADULT])
-    log.debug("Assigning adults to care for children (%i adults available)...",
-              len(unassigned_adults))
-    for house in tqdm(houses_with_children):
-        if len(unassigned_adults) == 0:
-            raise ValueError("Run out of adults to assign to child-containing households.  "
-                             "There are too few adults to take care of children.")
-        # Sample weighted by aux data
-        num_adults = multinoulli_dict(config['adults_per_house_containing_children'])
-
-        # Take from unassigned list
+    # ---- Populate Houses ----
+    log.debug("Populating houses...")
+    # Type distribution from which to sample
+    house_types = make_house_profile_dictionary(config)
+    occupancy_houses = {}
+    while len(unassigned_children + unassigned_adults + unassigned_retired) > 0:
+        # Create new house and add it to the network
+        house_coord = density_map.sample_coord()
+        new_house = Location('House', house_coord)
+        network.add_location(new_house)
+        # Generate household profile
+        household_profile = multinoulli_dict(house_types)
+        num_children = min(household_profile[0], len(unassigned_children))
+        num_adults   = min(household_profile[1], len(unassigned_adults))
+        num_retired  = min(household_profile[2], len(unassigned_retired))
+        # Take agents from front of lists
+        children = unassigned_children[0:num_children]
+        del unassigned_children[0:num_children]
         adults = unassigned_adults[0:num_adults]
         del unassigned_adults[0:num_adults]
+        retired = unassigned_retired[0:num_retired]
+        del unassigned_retired[0:num_retired]
+        # Assign agents to new house
+        occupancy_houses[new_house] = children + adults + retired
+        for occupant in occupancy_houses[new_house]:
+            occupant.add_activity_location(activity_manager.as_int(home_activity_type), new_house)
 
-        # Assign to house
-        for adult in adults:
-            adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
-            occupancy[house].append(adult)
+    return occupancy_houses, occupancy_carehomes, occupancy_border_countries
 
-    #
-    # 2. Remaining adults, and retired people,
-    #    get assigned to a random house.
-    #
-    # This brings with it the possibility of some households being large,
-    # and some houses remaining empty.
-    log.debug("Assigning %i adults and %i retired people to %i houses...",
-              len(unassigned_adults), len(network.agents_by_type[AgentType.RETIRED]),
-              len(unassigned_houses))
-    unassigned_agents = unassigned_adults + network.agents_by_type[AgentType.RETIRED]
-    houses  = network.locations_for_types(activity_manager.get_location_types(home_activity_type))
-    for adult in tqdm(unassigned_agents):
-        house = random_choice(houses)
-        adult.add_activity_location(activity_manager.as_int(home_activity_type), house)
-        occupancy[house].append(adult)
+def do_activity_from_home(activity_manager, occupancy, activity_type):
+    """Sets the activity location as the occupancy location, for all agents listed in an
+    occupancy dictionary."""
 
-    return occupancy
+    for location in occupancy:
+        for agent in occupancy[location]:
+            agent.add_activity_location(activity_manager.as_int(activity_type), location)
 
+def make_histogram(config, motive, country_origin, country_destination,
+                            number_of_bins, bin_width):
+    """For given country  of origin, country of destination and motive, this creates a probability
+    distribution over ranges of distances."""
 
-def assign_workplaces(network, activity_manager, work_activity_type):
+    log.info("Generating distance histogram...")
+
+    actworkbook = load_workbook(filename = config.filepath('trip_data_fp'))
+    actsheet    = actworkbook.active
+
+    # In the following histogram, the probability assigned to a given range reflects the
+    # probability that the length of a trip, between the input countries and with the given
+    # motivation, falls within that range. Note that the units of bid_width are kilometers, and that
+    # the distances recorded in the data refer to distance travelled by the respondent, not as the
+    # crow flies.
+    distance_histogram = {}
+    for bin_num in range(number_of_bins):
+        distance_histogram[range(bin_width*bin_num,bin_width*(bin_num+1))] = 0
+    for sheet_row in tqdm(range(2,actsheet.max_row)):
+        motive_sample = actsheet.cell(row=sheet_row, column=7).value
+        country_origin_sample = actsheet.cell(row=sheet_row, column=9).value
+        country_destination_sample = actsheet.cell(row=sheet_row, column=11).value
+        # For each sample of the desired trip type, record the distance and add to the histogram
+        if ([motive_sample,country_origin_sample,country_destination_sample]
+            == [motive, country_origin, country_destination]):
+            distance = actsheet.cell(row=sheet_row, column=12).value
+            if (isinstance(distance,(int,float)) == True) and (distance < number_of_bins*bin_width):
+                weight = actsheet.cell(row=sheet_row, column=15).value
+                distance_histogram[range(int((distance//bin_width)*bin_width),
+                          int(((distance//bin_width)+1)*bin_width))] += round(weight)
+    # Normalize to obtain a probability distribution
+    total_weight = sum(distance_histogram.values())
+    for histogram_bin in distance_histogram:
+        distance_histogram[histogram_bin] /= total_weight
+
+    return distance_histogram
+
+def road_distance(config, euclidean_distance_km):
+    """Converts a Euclidean distance into a network distance."""
+
+    alpha = config['alpha']
+    beta  = config['beta']
+
+    return (euclidean_distance_km * alpha) + beta
+
+def euclidean_distance(coords1, coords2):
+    """Calculates the Euclidean distance between two points."""
+
+    return math.sqrt(((coords1[0]-coords2[0])**2) + ((coords1[1]-coords2[1])**2))
+
+def get_weight(config, dist_km, distance_histogram):
+    """Given a distance, in kilometers, and a distance_histogram, returns the probability weight
+    associated to that distance by the histogram."""
+
+    hist_length = sum([len(histogram_bin) for histogram_bin in list(distance_histogram.keys())])
+    if int(road_distance(config, dist_km)) >= hist_length:
+        return 0.0
+    else:
+        for histogram_bin in distance_histogram:
+            if int(road_distance(config, dist_km)) in histogram_bin:
+                return distance_histogram[histogram_bin]
+                break
+
+def make_work_profile_dictionary(network, config):
+    """Generates weights for working locations"""
+
+    workforce_profile_histogram = config['workforce_profile_histogram']
+    workforce_profile_uniform   = config['workforce_profile_uniform']
+    profile_format              = config['workforce_profile_histogram_format']
+
+    # Weights reflect typical size of workforce in locations across different sectors
+    workplace_weights = {}
+    for location_type in workforce_profile_histogram:
+        profile = workforce_profile_histogram[location_type]
+        for location in network.locations_by_type[location_type]:
+            interval = profile_format[multinoulli(profile)]
+            weight = random_randrange_interval(interval[0],interval[1])
+            workplace_weights[location] = weight
+    for location_type in workforce_profile_uniform:
+        weight = workforce_profile_uniform[location_type]
+        for location in network.locations_by_type[location_type]:
+            workplace_weights[location] = weight
+
+    return workplace_weights
+
+def assign_workplaces(network, config, activity_manager, work_activity_type, occupancy_houses,
+                      occupancy_carehomes, occupancy_border_countries):
     """Assign a place of work for each agent."""
 
-    # The assignment of individuals to workplaces
+    log.info("Assigning places of work...")
 
-    log.debug("Assigning workplaces...")
-    for agent in tqdm(network.agents):
-        location_type = random_choice(activity_manager.get_location_types(work_activity_type))
-        workplace = random_choice(network.locations_by_type[location_type])
+    bin_width      = config['bin_width']
+    number_of_bins = config['number_of_bins']
+    sample_size    = config['location_sample_size']
 
-        # This automatically allows the location
-        agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
+    # These determine the probability of an agent travelling a distance to work
+    work_hist_dict = {}
+    work_hist_dict['Belgium']    = make_histogram(config, 'Travail', 'Belgique', 'Luxembourg',
+                                              number_of_bins['Belgium'], bin_width['Belgium'])
+    work_hist_dict['France']     = make_histogram(config, 'Travail','France', 'Luxembourg',
+                                              number_of_bins['France'], bin_width['France'])
+    work_hist_dict['Germany']    = make_histogram(config, 'Travail', 'Allemagne', 'Luxembourg',
+                                              number_of_bins['Germany'], bin_width['Germany'])
+    work_hist_dict['Luxembourg'] = make_histogram(config, 'Travail', 'Luxembourg', 'Luxembourg',
+                                              number_of_bins['Luxembourg'], bin_width['Luxembourg'])
+    log.info("Generating workforce weights...")
+    # These weights corrspond to the size of the workforce at each workplace
+    workplace_weights = make_work_profile_dictionary(network, config)
+    log.info("Assigning workplaces to house occupants...")
+    wrkplaces = network.locations_for_types(activity_manager.get_location_types(work_activity_type))
+    for house in tqdm(occupancy_houses):
+        # Here each house gets a sample from which occupants choose
+        work_locations_sample = random_sample(wrkplaces, k = min(sample_size, len(wrkplaces)))
+        weights_for_house = {}
+        for location in work_locations_sample:
+            dist_m = euclidean_distance(house.coord, location.coord)
+            dist_km = dist_m/1000
+            weight = get_weight(config, dist_km, work_hist_dict['Luxembourg'])
+            # For each location, the workforce weights and distance weights are multiplied
+            weights_for_house[location] = workplace_weights[location] * weight
+        for agent in occupancy_houses[house]:
+            # A workplace is then chosen randomly from the sample, according to the weights
+            workplace = multinoulli_dict(weights_for_house)
+            agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
+        weights_for_house.clear()
+    log.info("Assigning workplaces to border country occupants...")
+    for border_country in occupancy_border_countries:
+        for agent in tqdm(occupancy_border_countries[border_country]):
+            # Here each agent gets a sample from which to choose
+            work_locations_sample = random_sample(wrkplaces, k = min(sample_size, len(wrkplaces)))
+            weights_for_agent = {}
+            for location in work_locations_sample:
+                dist_m = euclidean_distance(border_country.coord, location.coord)
+                dist_km = dist_m/1000
+                weight = get_weight(config, dist_km, work_hist_dict[border_country.typ])
+                weights_for_agent[location] = workplace_weights[location] * weight
+            workplace = multinoulli_dict(weights_for_agent)
+            agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
+            weights_for_agent.clear()
+    log.debug("Assigning workplaces to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, work_activity_type)
 
+def assign_locations_by_distance(network, config, activity_manager, activity_type,
+                                 occupancy_houses, occupancy_carehomes, occupancy_border_countries):
+    """Assign activities to agents by distance"""
+    # For each individual, a number of distinct locations, not including the individual's own home,
+    # are randomly selected so that the individual is able to visit them:
+    log.info("Assigning locations by distance for activity: %s...", activity_type)
 
-def assign_other_houses(network, config, activity_manager, home_activity_type,
-                        other_house_activity_type):
-    """Assign other houses agents may visit"""
-    # For each individual, a number of distinct homes, not including the individual's own home, are
-    # randomly selected so that the individual is able to visit them:
-    log.info("Assigning other houses agents may visit...")
-    houses = network.locations_for_types(activity_manager.get_location_types(other_house_activity_type))
-    for agent in tqdm(network.agents):
-        # This may select n-1 if the agent's current home is in the samole
-        houses_to_visit = random_sample(houses, k=config['homes_allowed_to_visit'])
+    bin_width      = config['bin_width']
+    number_of_bins = config['number_of_bins']
+    num_can_visit  = config['activity_locations_by_distance']
+    sample_size    = config['location_sample_size']
+    activity_dict  = config['activity_dict']
 
-        # Blacklist the agent's own home
-        houses_to_visit = [h for h in houses_to_visit
-                           if h not in agent.activity_locations[activity_manager.as_int(home_activity_type)]]
+    vst_locs = network.locations_for_types(activity_manager.get_location_types(activity_type))
+    # This determines the probability of an agent travelling a distance for a house visit
+    hist_dict = make_histogram(config, activity_dict[activity_type], 'Luxembourg', 'Luxembourg',
+                                     number_of_bins['Luxembourg'], bin_width['Luxembourg'])
+    log.debug("Assigning locations to house occupants...")
+    for house in tqdm(occupancy_houses):
+        visit_locations_sample = random_sample(vst_locs, k = min(sample_size, len(vst_locs)))
+        weights_for_house = {}
+        for location in visit_locations_sample:
+            dist_m = euclidean_distance(house.coord, location.coord)
+            dist_km = dist_m/1000
+            weights_for_house[location] = get_weight(config, dist_km, hist_dict)
+        for agent in occupancy_houses[house]:
+            # Several houses are then chosen randomly from the sample, according to the weights
+            locs = random_choices(list(weights_for_house.keys()),
+                                  list(weights_for_house.values()), num_can_visit[activity_type])
+            # If the activity is visit and the agent's own home is chosen, then it is removed from
+            # the list and the sample can therefore be of size num_can_visit['Visit']-1
+            if (activity_type == 'Visit') and (house in locs):
+                locs.remove(house)
+            agent.add_activity_location(activity_manager.as_int(activity_type), locs)
+        weights_for_house.clear()
+    log.debug("Assigning locations to border country occupants...")
+    do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
+    log.debug("Assigning locations to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
-        agent.add_activity_location(activity_manager.as_int(other_house_activity_type),
-                                    houses_to_visit)
+def assign_locations_by_random(network, config, activity_manager, activity_type,
+                                occupancy_houses, occupancy_carehomes, occupancy_border_countries):
+    """For each agent, a number of distinct locations are randomly selected"""
 
+    log.info("Assigning locations by random for activity: %s...", activity_type)
 
-def assign_entertainment_venues(network, config, activity_manager, entertainment_activity_type):
-    """Assign some entertainment venues for agents to visit"""
-    # For each agent, a number of distinct entertainment venues are randomly selected.
-    # First we ensure there is one of each
-    log.info("Assigning entertainment venues: %s...", entertainment_activity_type)
-    venues = network.locations_for_types(activity_manager.get_location_types(entertainment_activity_type))
-    for agent in tqdm(network.agents):
-        num_locations      = max(1, random_randrange(config['max_entertainment_allowed_to_visit']))
-        new_entertainments = random_sample(venues, k=min(len(venues), num_locations))
+    num_can_visit = config['activity_locations_by_random']
 
-        agent.add_activity_location(activity_manager.as_int(entertainment_activity_type),
-                                    new_entertainments)
+    venues = network.locations_for_types(activity_manager.get_location_types(activity_type))
+    log.debug("Assigning locations by random to house occupants...")
+    for house in tqdm(occupancy_houses):
+        for agent in occupancy_houses[house]:
+            venues_sample = random_sample(venues, k=min(len(venues), num_can_visit[activity_type]))
+            agent.add_activity_location(activity_manager.as_int(activity_type), venues_sample)
+    log.debug("Assigning locations by random to border country occupants...")
+    do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
+    log.debug("Assigning locations by random to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
-
-def assign_householders_by_proximity(network, activity_manager, occupancy, activity_type):
+def assign_locations_by_proximity(network, activity_manager, activity_type, occupancy_houses,
+                                     occupancy_carehomes, occupancy_border_countries):
     """For the location type given, select nearby houses and assign all occupants to
     attend this location.  If the location is full, move to the next nearby location, etc."""
 
-    log.info("Assigning proximate locations for activity %s...", activity_type)
+    log.info("Assigning proximate locations for activity: %s...", activity_type)
 
     # The following code assigns homes to locations in such a way that equal numbers of homes are
     # assigned to each location of a given type. For example, from the list of homes, a home is
@@ -219,6 +404,7 @@ def assign_householders_by_proximity(network, activity_manager, occupancy, activ
     # This creates local spatial structure while ensuring that no school, for example, is
     # assigned more homes than the other schools. This same procedure is also applied to medical
     # locations, places of worship and indoor sport:
+    log.debug("Assigning proximate locations to house occupants...")
     log.debug("Finding people to perform activity: %s", activity_type)
     log.debug("Location types: %s", activity_manager.get_location_types(activity_type))
 
@@ -236,7 +422,6 @@ def assign_householders_by_proximity(network, activity_manager, occupancy, activ
     random_shuffle(shuffled_houses)
     for house in tqdm(shuffled_houses):
         # Find the closest location and, if it's not full, assign every occupant to the location
-
         knn = 2
         closest_locations = []
         while len(closest_locations) == 0:
@@ -244,111 +429,120 @@ def assign_householders_by_proximity(network, activity_manager, occupancy, activ
                 raise ValueError(f"Searching for more locations than exist for "
                                  f"types {activity_manager.get_location_types(activity_type)}.  "
                                  f"This normally indicates that all locations are full.")
-
             # Returns knn items, in order of nearness
             _, nearest_indices = kdtree.query(house.coord, knn)
             closest_locations = [locations[i] for i in nearest_indices if i < len(locations)]
-
             # Remove locations that have too many houses already
             closest_locations = [x for x in closest_locations if num_houses[x] < max_homes]
             knn *= 2
         closest_location = closest_locations[0]
-
         # Add all occupants of this house to the location
         num_houses[closest_location] += 1
-
-        for occupant in occupancy[house]:
+        for occupant in occupancy_houses[house]:
             occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
+    log.debug("Assigning proximate locations to border country occupants...")
+    do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
+    log.debug("Assigning proximate locations to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
+def assign_outdoors(network, activity_manager, outdoor_activity_type, occupancy_houses,
+                    occupancy_carehomes, occupancy_border_countries):
+    """Ensure all residents except carehome residents are allowed to access the outdoors"""
 
-def assign_outdoors(network, activity_manager, outdoor_activity_type):
-    """Ensure everyone is allowed to access the outdoors"""
+    log.info("Assigning outdoor location...")
 
-    outdoor_locations = network.locations_for_types(activity_manager.get_location_types(outdoor_activity_type))
+    outdrs = network.locations_for_types(activity_manager.get_location_types(outdoor_activity_type))
+    #The outdoors is treated as a single environment, in which zero disease transmission will occur
+    if len(outdrs) != 1:
+        raise ValueError("More than one outdoor location found.")
+    log.debug("Assigning outdoor location to house occupants...")
+    for house in tqdm(occupancy_houses):
+        for agent in occupancy_houses[house]:
+            agent.add_activity_location(activity_manager.as_int(outdoor_activity_type), outdrs[0])
+    log.debug("Assigning outdoor location to border country occupants...")
+    do_activity_from_home(activity_manager, occupancy_border_countries, outdoor_activity_type)
+    log.debug("Assigning outdoor location to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, outdoor_activity_type)
 
-    #The outdoors is treated as a single environment in which zero disease transmission will occur:
-    if len(outdoor_locations) != 1:
-        raise ValueError("More than one outdoor location found.  This shouldn't be.")
+def assign_cars(network, activity_manager, home_activity_type, car_activity_type, car_location_type,
+                occupancy_houses, occupancy_carehomes, occupancy_border_countries):
+    """Assign a car to each house. All occupants of a house use the same car."""
 
-    for agent in network.agents:
-        agent.add_activity_location(activity_manager.as_int(outdoor_activity_type),
-                                    outdoor_locations[0])
+    log.info("Assigning car location for activity %s...", car_activity_type)
 
-
-def assign_cars(network, activity_manager, occupancy, car_activity_type):
-    """Assign cars to houses.  This means updating the location to match
-    the house, and ensuring all occupants at the house see the "car" activity
-    as using that particular car"""
-
-    houses = network.locations_by_type["House"]
-    cars = network.locations_by_type["Car"]
-    log.debug("Assigning %i cars to %i houses...", len(cars), len(houses))
-
-    assert len(houses) == len(cars)
-
-    # Each house is assigned a car:
-    for car, house in tqdm(list(zip(cars, houses))):
-        car.set_coordinates(house.coord)
-
-        for occupant in occupancy[house]:
-            occupant.add_activity_location(activity_manager.as_int(car_activity_type), car)
-
+    log.debug("Assigning car to house occupants...")
+    for house in tqdm(occupancy_houses):
+        new_car = Location(car_location_type, house.coord)
+        network.add_location(new_car)
+        for agent in occupancy_houses[house]:
+            agent.add_activity_location(activity_manager.as_int(car_activity_type), new_car)
+    log.debug("Assigning car to border country occupants...")
+    do_activity_from_home(activity_manager, occupancy_border_countries, car_activity_type)
+    log.debug("Assigning car to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, car_activity_type)
 
 def build_network_model(config, density_map):
     """Create agents and locations according to the population density map given"""
 
     activity_manager = ActivityManager(config['activities'])
 
-    # Create and populate the network
-    log.info("Creating network")
+    log.info("Creating network...")
+
     network = Network(density_map)
     create_agents(network, config)
     create_locations(network, density_map, config)
 
     log.info("Assigning locations to agents...")
-    occupancy = assign_homes(network, config, activity_manager, "House")
-    assign_workplaces(network, activity_manager, "Work")
-    assign_other_houses(network, config, activity_manager, "House", "Other House")
 
-    for entertainment_activity_type in config['entertainment_activities']:
-        assign_entertainment_venues(network, config, activity_manager, entertainment_activity_type)
-
-    for activity_type in config['whole_household_activities']:
-        assign_householders_by_proximity(network, activity_manager, occupancy, activity_type)
-
-    assign_outdoors(network, activity_manager, "Outdoor")
-    assign_cars(network, activity_manager, occupancy, "Car")
+    # Assign homes
+    occupancy_houses, occupancy_carehomes, occupancy_border_countries\
+    = assign_homes(network, density_map, config, activity_manager, "House", "Care Home")
+    # Assign workplaces
+    assign_workplaces(network, config, activity_manager, "Work", occupancy_houses,
+                      occupancy_carehomes, occupancy_border_countries)
+    # Assignments of locations by distance
+    for activity_type in config['activity_locations_by_distance']:
+        assign_locations_by_distance(network, config, activity_manager, activity_type,
+                                     occupancy_houses, occupancy_carehomes,
+                                     occupancy_border_countries)
+    # Assignments of locations by random
+    for activity_type in config['activity_locations_by_random']:
+        assign_locations_by_random(network, config, activity_manager, activity_type,
+                                   occupancy_houses, occupancy_carehomes,
+                                   occupancy_border_countries)
+    # Assignments of locations by proximity
+    for activity_type in config['activity_locations_by_proximity']:
+        assign_locations_by_proximity(network, activity_manager, activity_type,
+                                      occupancy_houses, occupancy_carehomes,
+                                      occupancy_border_countries)
+    # Assignments of outdoors
+    assign_outdoors(network, activity_manager, "Outdoor", occupancy_houses, occupancy_carehomes,
+                    occupancy_border_countries)
+    # Assignments of cars
+    assign_cars(network, activity_manager, "House", "Car", "Car", occupancy_houses,
+                occupancy_carehomes, occupancy_border_countries)
 
     return network
 
-
-
-
 def assign_activities(config, network, activity_distributions):
-    """Assign activities and locations to agents according to the distributions provided."""
+    """Assign activities and locations to agents according to the distributions provided. This
+    moreover generates the initial state."""
 
     clock = SimClock(config['tick_length_s'], config['simulation_length_days'], config['epoch'])
-
-    # ------------------------------------------[ Initial state ]-----------------------------------
     log.debug("Loading initial state for simulation...")
     # Infect a few people
     for agent in random_sample(network.agents, k=config['initial_infections']):
         agent.health = HealthStatus.INFECTED
-
     log.debug("Seeding initial activity states and locations...")
     for agent in network.agents:
-
         # Get distribution for this type at the starting time step
         distribution = activity_distributions[agent.agetyp][clock.epoch_week_offset]
         assert sum(distribution.values()) > 0
         new_activity      = multinoulli_dict(distribution)
         allowed_locations = agent.locations_for_activity(new_activity)
-
         # Warning: No allowed locations found for agent {agent.inspect()} for activity new_activity
         assert len(allowed_locations) >= 0
-
         new_location = random_choice(list(allowed_locations))
-
         # Do this activity in a random location
         agent.set_activity(new_activity, new_location)
 
