@@ -4,6 +4,8 @@ import datetime
 from tqdm import tqdm
 from collections import Counter
 
+#Numbers need rescaling according to population, remember...
+
 INPUT_DIRECTORY  = 'Data/opendata-20191104-20191214'
 
 route_type = {
