@@ -2,7 +2,6 @@
 
 This is used primarily to store/load intermediate results within the system."""
 
-import sys
 import pickle
 import logging
 

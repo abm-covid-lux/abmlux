@@ -93,7 +93,7 @@ class Agent:
         self.current_activity = activity
         self.current_location = location
 
-    def inspect(self):
+    def __str__(self):
         return (f"<Agent {self.uuid}; age={self.age}, "
                 f"activities={len(self.activity_locations)}, "
                 f"current_loc={self.current_location}>")

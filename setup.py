@@ -6,6 +6,11 @@ here = pathlib.Path(__file__).parent.resolve()
 # Get the long description from the README file
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 
+# Read the version out of the package, to prevent two points of truth
+version = {}
+with open(here / "src/abmlux/version.py") as fp:
+    exec(fp.read(), version)
+
 setup(
     # This is the name of your project. The first time you publish this
     # $ pip install sampleproject
@@ -13,7 +18,7 @@ setup(
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
-    version='0.1.0',
+    version=version['VERSION'],
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:

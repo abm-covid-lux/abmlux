@@ -15,12 +15,10 @@ from abmlux.simulator import Simulator
 
 import abmlux.tools as tools
 
+from .version import VERSION
 from .config import Config
 from .activity_manager import ActivityManager
 from .serialisation import read_from_disk, write_to_disk
-
-# Support modules
-VERSION = "0.1.0"
 
 # Config
 MAP_FILENAME                   = 'Density_Map.pickle'
