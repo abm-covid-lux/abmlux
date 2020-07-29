@@ -183,7 +183,7 @@ def main():
 
         try:
             stage(config)
-        except:
+        except: # pylint: disable=C0103,W0702
             e = sys.exc_info()[0]
             log.fatal("Fatal error in stage %i (%s): %s", i, stage.__name__, e)
             log.error(traceback.format_exc())
@@ -218,17 +218,17 @@ def main_tools():
     # Command
     command = sys.argv[2]
     if command not in TOOLS:
-        log.error(f"Tool not found: {command}")
+        log.error("Tool not found: %s", command)
         sys.exit(1)
     command = getattr(tools.get_tool_module(command), "main")
 
     parameters = sys.argv[3:]
-    log.info(f"Parameters for tool: {parameters}")
+    log.info("Parameters for tool: %s", parameters)
 
     # Run the thing.
     try:
         command(config, *parameters)
-    except:
+    except: # pylint: disable=C0103,W0702
         e = sys.exc_info()[0]
         log.fatal("Fatal error in tool execution '%s' with params '%s': %s", command.__name__, parameters, e)
         log.error(traceback.format_exc())
