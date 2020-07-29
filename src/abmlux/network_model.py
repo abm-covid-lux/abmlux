@@ -215,7 +215,7 @@ def make_histogram(config, motive, country_origin, country_destination,
         if ([motive_sample,country_origin_sample,country_destination_sample]
             == [motive, country_origin, country_destination]):
             distance = actsheet.cell(row=sheet_row, column=12).value
-            if (isinstance(distance,(int,float)) == True) and (distance < number_of_bins*bin_width):
+            if isinstance(distance,(int,float)) and (distance < number_of_bins*bin_width):
                 weight = actsheet.cell(row=sheet_row, column=15).value
                 distance_histogram[range(int((distance//bin_width)*bin_width),
                           int(((distance//bin_width)+1)*bin_width))] += round(weight)
@@ -464,8 +464,8 @@ def assign_outdoors(network, activity_manager, outdoor_activity_type, occupancy_
     log.debug("Assigning outdoor location to carehome occupants...")
     do_activity_from_home(activity_manager, occupancy_carehomes, outdoor_activity_type)
 
-def assign_cars(network, activity_manager, home_activity_type, car_activity_type, car_location_type,
-                occupancy_houses, occupancy_carehomes, occupancy_border_countries):
+def assign_cars(network, activity_manager, car_activity_type, car_location_type, occupancy_houses,
+                occupancy_carehomes, occupancy_border_countries):
     """Assign a car to each house. All occupants of a house use the same car."""
 
     log.info("Assigning car location for activity %s...", car_activity_type)

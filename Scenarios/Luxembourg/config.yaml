@@ -307,7 +307,7 @@ activity_dict:
 # Hai Yanga, Jintao Kea and Jieping Ye, 'A universal distribution law of network detour ratios',
 # Transportation Research Part C, 2018.
 alpha: 1.2988
-beta:  0.3838 
+beta:  0.3838
 
 # ################################# Virus #################################
 
@@ -519,7 +519,7 @@ household_distribution_children:
 household_distribution_retired:
   - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
   - [    0, 16798,  6893,  2388,  1240,  971,  445, 191]
-  - [    0,     0, 11003,  1656,   483,  207,  214, 112]  
+  - [    0,     0, 11003,  1656,   483,  207,  214, 112]
   - [    0,     0,     0,   206,    36,   11,   12,  19]
   - [    0,     0,     0,     0,    12,    4,    3,   0]
   - [    0,     0,     0,     0,     0,    1,    2,   2]
