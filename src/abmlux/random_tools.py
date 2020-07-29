@@ -14,6 +14,11 @@ def random_randrange(stop):
     """Random randrange function"""
 
     return random.randrange(stop)
+    
+def random_randrange_interval(start,stop):
+    """Random randrange function"""
+
+    return random.randrange(start,stop)
 
 
 def random_choice(sequence):
