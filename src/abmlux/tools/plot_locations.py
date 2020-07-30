@@ -19,8 +19,8 @@ HELP        = """[Location Type,LocationType,LocationType]"""
 def main(config, types_to_show=None):
     """Plots locations using matplotlib"""
 
-    network = read_from_disk(osp.join(config.filepath('working_dir', True),
-                                      abmlux.NETWORK_FILENAME))
+    network = read_from_disk(config.filepath('working_dir', abmlux.NETWORK_FILENAME,
+                                             ensure_exists=True))
 
     # Choose which locations to show
     type_filter = list(config["location_counts"].keys())

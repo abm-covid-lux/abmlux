@@ -1,6 +1,5 @@
 """Tool to produce an area plot showing activity probabilities through the week"""
 
-import os.path as osp
 import logging
 
 import matplotlib.pyplot as plt
@@ -26,8 +25,9 @@ def main(config, agent_type=None):
     activity_manager = ActivityManager(config['activities'])
 
     # Load distributions
-    activity_distributions = read_from_disk(osp.join(config.filepath('working_dir', True),\
-                                            abmlux.INITIAL_DISTRIBUTIONS_FILENAME))
+    activity_distributions = read_from_disk(config.filepath('working_dir',
+                                                            abmlux.INITIAL_DISTRIBUTIONS_FILENAME,
+                                                            ensure_exists=True))
     routine_length = len(activity_distributions[AgentType.ADULT])
 
     # Compute different colours for each activity

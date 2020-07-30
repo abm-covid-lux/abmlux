@@ -4,11 +4,6 @@ import scipy.stats as sps
 import math
 from functools import reduce
 
-def random_seed(config):
-    """Random seed function"""
-
-    return random.seed(config)
-
 
 def random_randrange(stop):
     """Random randrange function"""
