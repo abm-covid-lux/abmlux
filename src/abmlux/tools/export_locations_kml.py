@@ -22,7 +22,7 @@ def main(config, filename, types_to_show=None):
                                              ensure_exists=True))
 
     # Choose which locations to show
-    type_filter = list(config["location_counts"].keys())
+    type_filter = config["locations"]
     if types_to_show is not None:
         type_filter = types_to_show.split(",")
     log.info("Showing location types: %s", type_filter)

@@ -11,10 +11,22 @@ def random_randrange(stop):
     return random.randrange(stop)
 
 
+def random_randrange_interval(start,stop):
+    """Random randrange function"""
+
+    return random.randrange(start,stop)
+
+
 def random_choice(sequence):
     """Random choice function"""
 
     return random.choice(sequence)
+
+
+def random_choices(population, wghts, sample_size):
+    """Random choices function"""
+
+    return random.choices(population, weights = wghts, cum_weights = None, k = sample_size)
 
 
 def random_sample(population, k):
