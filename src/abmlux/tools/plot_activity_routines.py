@@ -4,35 +4,25 @@ import logging
 
 import matplotlib.pyplot as plt
 
-import abmlux
 from abmlux.agent import AgentType
-from abmlux.serialisation import read_from_disk
-from abmlux.activity_manager import ActivityManager
-
 
 log = logging.getLogger("plot_activity_routines")
 
 DESCRIPTION = "Plots initial distributions of agent activity throughout the week"
 HELP        = """[AGENT_TYPE]"""
 
-
-def main(config, agent_type=None):
+def main(state, agent_type=None):
     """Plots initial distributions for activities through the weekly routine.
 
     Shows roughly what agents will be doing at a given time step.
     """
 
-    activity_manager = ActivityManager(config['activities'])
-
-    # Load distributions
-    activity_distributions = read_from_disk(config.filepath('working_dir',
-                                                            abmlux.INITIAL_DISTRIBUTIONS_FILENAME,
-                                                            ensure_exists=True))
+    activity_manager = state.activity_manager
+    activity_distributions = state.activity_distributions
     routine_length = len(activity_distributions[AgentType.ADULT])
 
     # Compute different colours for each activity
     counts_by_routine_time = {a: [0] * routine_length for a in activity_manager.types_as_str()}
-
 
     # Agent types to plot
     agent_types_filter = list(AgentType)

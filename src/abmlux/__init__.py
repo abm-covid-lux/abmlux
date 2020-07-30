@@ -6,6 +6,7 @@ import sys
 import logging
 import logging.config
 import importlib
+import traceback
 
 import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
@@ -112,6 +113,7 @@ def main():
     # Check the path to the config
     if len(sys.argv) < 2:
         print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml [STAGE,STAGE,STAGE]")
+        print(f"   OR: {sys.argv[0]} state.abm [STAGE,STAGE,STAGE]")
         print("")
         print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml 1,2")
         sys.exit(1)
@@ -185,9 +187,17 @@ def main():
         i += 1
         log.info("Running phase %i (%i/%i) %s", int(name), i, len(phases), name.name)
 
-        # Check we've not already run this phase
         state.set_phase(name)
-        phase_func(state)
+
+        try:
+            phase_func(state)
+        except: # pylint: disable=C0103,W0702
+            e = sys.exc_info()[0]
+            log.fatal("Fatal error in phase %i (%s): %s", i, name.name, e)
+            log.error(traceback.format_exc())
+            log.fatal("Shutting down to prevent further errors.")
+            sys.exit(1)
+
         state.set_phase_complete(name)
         write_to_disk(state, state_filename)
 
@@ -200,9 +210,9 @@ def main_tools():
 
     # Check the path to the config
     if len(sys.argv) < 3:
-        print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml tool_name [options]")
+        print(f"USAGE: {sys.argv[0]} simulation_state.abm tool_name [options]")
         print("")
-        print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml plot_locations")
+        print(f"EG: {sys.argv[0]} simulation_state.abm plot_locations")
         print("")
         print("List of tools:")
         for tool in TOOLS:
@@ -212,18 +222,25 @@ def main_tools():
         sys.exit(1)
 
     # System config/setup
-    config = Config(sys.argv[1])
-    logging.config.dictConfig(config['logging'])
+    state = read_from_disk(sys.argv[1])
+    logging.config.dictConfig(state.config['logging'])
 
     # Command
     command = sys.argv[2]
     if command not in TOOLS:
-        log.error(f"Tool not found: {command}")
+        log.error("Tool not found: %s", command)
         sys.exit(1)
     command = getattr(tools.get_tool_module(command), "main")
 
     parameters = sys.argv[3:]
-    log.info(f"Parameters for tool: {parameters}")
+    log.info("Parameters for tool: %s", parameters)
 
     # Run the thing.
-    command(config, *parameters)
+    try:
+        command(state, *parameters)
+    except: # pylint: disable=C0103,W0702
+        e = sys.exc_info()[0]
+        log.fatal("Fatal error in tool execution '%s' with params '%s': %s",
+                  command.__name__, parameters, e)
+        log.error(traceback.format_exc())
+        sys.exit(1)

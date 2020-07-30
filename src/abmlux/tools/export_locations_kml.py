@@ -1,13 +1,10 @@
 """Renders the location network to KML"""
 
-import os.path as osp
 import logging
 
 from tqdm import tqdm
 import simplekml
 
-import abmlux
-from abmlux.serialisation import read_from_disk
 from abmlux.utils import string_as_hex_colour
 
 log = logging.getLogger("export_locations_kml")
@@ -15,11 +12,11 @@ log = logging.getLogger("export_locations_kml")
 DESCRIPTION = "Exports locations to a KML file"
 HELP        = """FILENAME [Location Type,LocationType,LocationType]"""
 
-def main(config, filename, types_to_show=None):
+def main(state, filename, types_to_show=None):
     """Exports locations to a KML file."""
 
-    network = read_from_disk(config.filepath('working_dir', abmlux.NETWORK_FILENAME,
-                                             ensure_exists=True))
+    config = state.config
+    network = state.network
 
     # Choose which locations to show
     type_filter = config["locations"]
