@@ -177,8 +177,8 @@ class DensityMap(Map):
         """
 
         if res_fact == 1:
-            new_map = DensityMap(self.coord, self.width_m, self.height_m, self.cell_size_m,
-                                 self.border)
+            new_map = DensityMap(self.prng, self.coord, self.width_m, self.height_m,
+                                 self.cell_size_m, self.border)
             new_map.density = copy.copy(self.density)
             new_map.force_recompute_marginals()
             return new_map
