@@ -273,7 +273,7 @@ def build_markov_model(config, activity_manager):
     log.info("Loading time use data from %s...", config.filepath('time_use_filepath'))
     # TODO: force pandas to read the numeric ID columns as factors or ints
     #       same for weights
-    tus = pd.read_csv(config.filepath('time_use_fp'))
+    tus = pd.read_csv(config.filepath('time_use_filepath'))
     tus = tus.dropna()
 
     # ---------------------------------------------------------------------------------------------

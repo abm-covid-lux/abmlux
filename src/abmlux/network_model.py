@@ -525,8 +525,8 @@ def build_network_model(config, density_map):
     assign_outdoors(network, activity_manager, "Outdoor", occupancy_houses, occupancy_carehomes,
                     occupancy_border_countries)
     # Assignments of cars
-    assign_cars(network, activity_manager, "House", "Car", "Car", occupancy_houses,
-                occupancy_carehomes, occupancy_border_countries)
+    assign_cars(network, activity_manager, "Car", "Car", occupancy_houses, occupancy_carehomes,
+                occupancy_border_countries)
 
     return network
 
