@@ -32,8 +32,10 @@ def load_map(state):
 
     # Step one: process density information
     config = state.config
-    density_map = density_model.read_density_model_jrc(config.filepath('map.population_distribution_fp'),
-                                                       config['map.country_code'], config['map.res_fact'],
+    density_map = density_model.read_density_model_jrc(state.prng,
+                                                       config.filepath('map.population_distribution_fp'),
+                                                       config['map.country_code'],
+                                                       config['map.res_fact'],
                                                        config['map.normalize_interpolation'],
                                                        config.filepath('map.shapefilename'),
                                                        config['map.shapefile_coordinate_system'])
@@ -44,7 +46,7 @@ def build_network(state):
     """Build a network of locations and agents based on the population density"""
 
     # Step two: build network model
-    state.network = network_model.build_network_model(state.config, state.map)
+    state.network = network_model.build_network_model(state.prng, state.config, state.map)
 
 
 def build_markov(state):
@@ -53,7 +55,7 @@ def build_markov(state):
     # ------------------------------------------------[ 3 ]------------------------------------
     # Step three: build markov model
     activity_distributions, activity_transitions = \
-            markov_model.build_markov_model(state.config, state.activity_manager)
+            markov_model.build_markov_model(state.prng, state.config, state.activity_manager)
 
     state.activity_distributions = activity_distributions
     state.activity_transitions = activity_transitions
@@ -64,7 +66,7 @@ def assign_activities(state):
     sim"""
 
     # ------------------------------------------------[ 4 ]------------------------------------
-    state.network = network_model.assign_activities(state.config, state.network,
+    state.network = network_model.assign_activities(state.prng, state.config, state.network,
                                                     state.activity_distributions)
 
 
@@ -92,7 +94,7 @@ def run_sim(state):
         reporters.append(reporter)
 
     # ############## Run Stage ##############
-    sim = Simulator(state.config, state.network, state.activity_transitions, reporters)
+    sim = Simulator(state, reporters)
 
     sim.run()
 

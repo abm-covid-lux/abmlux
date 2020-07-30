@@ -7,12 +7,10 @@ framework."""
 
 import logging
 
-import abmlux.utils as utils
 import abmlux.random_tools as random_tools
 
-from .agent import Agent, AgentType, HealthStatus
+from .agent import HealthStatus
 from .sim_time import SimClock
-from .activity_manager import ActivityManager
 
 log = logging.getLogger('sim')
 
@@ -48,23 +46,26 @@ def get_p_death_func(p_death_config):
 class Simulator:
     """Class that simulates an outbreak."""
 
-    def __init__(self, config, network, activity_transitions, reporters):
+    def __init__(self, state, reporters):
 
         # -------------------------------------------[ Config ]------------------------------------
-        self.activity_manager = ActivityManager(config['activities'])
+        config                = state.config
+        self.state            = state
+        self.activity_manager = state.activity_manager
         self.clock            = SimClock(config['tick_length_s'], config['simulation_length_days'],
                                          config['epoch'])
 
-        self.network   = network
-        self.locations = network.locations
-        self.agents    = network.agents
+        self.prng      = state.prng
+        self.network   = state.network
+        self.locations = state.network.locations
+        self.agents    = state.network.agents
 
         # Read-only config
         self.incubation_ticks        = self.clock.days_to_ticks(config['incubation_period_days'])
         self.infectious_ticks        = self.clock.days_to_ticks(config['infectious_period_days'])
         self.p_death                 = get_p_death_func(config['probability_of_death'])
         self.reporters               = reporters
-        self.activity_transitions    = activity_transitions
+        self.activity_transitions    = state.activity_transitions
         self.infection_probabilities = config['infection_probabilities_per_tick']
 
         # Simulation state.  These indices represent an optimisation to prevent having to loop
@@ -125,7 +126,7 @@ class Simulator:
 
             next_activities.append( (agent,
                                      next_activity,
-                                     random_tools.random_choice(list(allowable_locations))) )
+                                     random_tools.random_choice(self.prng, list(allowable_locations))) )
 
         return next_activities
 
@@ -142,10 +143,11 @@ class Simulator:
         for location, p_infection in infection_probability_by_location.items():
             # All susceptible agents at this location have the given p[infection]
 
-            susceptible_agents = [a for a in self.attendees[location] if a.health == HealthStatus.SUSCEPTIBLE]
+            susceptible_agents = [a for a in self.attendees[location]
+                                  if a.health == HealthStatus.SUSCEPTIBLE]
 
             for agent in susceptible_agents:
-                if random_tools.boolean(p_infection):
+                if random_tools.boolean(self.prng, p_infection):
                     next_health.append((agent, HealthStatus.EXPOSED))
 
 
@@ -164,7 +166,7 @@ class Simulator:
             # dead or recovered)
             if time_since_state_change > self.infectious_ticks:
                 # die or recover?
-                if random_tools.boolean(self.p_death(agent.age)):
+                if random_tools.boolean(self.prng, self.p_death(agent.age)):
                     next_health.append((agent, HealthStatus.DEAD))
                 else:
                     next_health.append((agent, HealthStatus.RECOVERED))

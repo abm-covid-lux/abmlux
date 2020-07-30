@@ -168,7 +168,7 @@ def parse_days(tus, map_func, tick_length_s):
     return days
 
 
-def get_transitions(weeks, activity_manager, ):
+def get_transitions(prng, weeks, activity_manager, ):
     """Converts weekly routines into a set of transition matrices and initial distributions
     for each type of agent.
 
@@ -215,7 +215,7 @@ def get_transitions(weeks, activity_manager, ):
     #  - Each activity has a W[next activity]
     #  - Each 10 minute slice has a transition matrix between activities
     #
-    activity_transitions = {typ: [SplitTransitionMatrix(activity_manager.types_as_int())
+    activity_transitions = {typ: [SplitTransitionMatrix(prng, activity_manager.types_as_int())
                                   for _ in range(week_length)]
                             for typ in POPULATION_RANGES}
 
@@ -257,7 +257,7 @@ def get_transitions(weeks, activity_manager, ):
 
 
 
-def build_markov_model(config, activity_manager):
+def build_markov_model(prng, config, activity_manager):
     """Constructs activity transition matrices for the network given.
 
      Parameters:
@@ -306,7 +306,7 @@ def build_markov_model(config, activity_manager):
     # ----------------------------------------------------------------------------------------------
     # Now the statistical weights are used to construct the intial distributions and transition
     # matrices:
-    activity_distributions, activity_transitions = get_transitions(weeks, activity_manager)
+    activity_distributions, activity_transitions = get_transitions(prng, weeks, activity_manager)
 
 
     return activity_distributions, activity_transitions

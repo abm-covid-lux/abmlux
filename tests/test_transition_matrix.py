@@ -1,15 +1,17 @@
 
+import random
 import pytest
 
 import abmlux.transition_matrix as tm
 
 CLASSES = [1,2,3,4]
+PRNG = random.Random()
 
 class TestTransitionMatrix:
 
     def test_initial_probabilty(self):
 
-        matrix = tm.TransitionMatrix(CLASSES)
+        matrix = tm.TransitionMatrix(PRNG, CLASSES)
 
         # Everything should be zero
         for c1 in CLASSES:
@@ -19,7 +21,7 @@ class TestTransitionMatrix:
                 assert matrix.p(c2, c1) == 0
 
     def test_invalid_weights(self):
-        matrix = tm.TransitionMatrix(CLASSES)
+        matrix = tm.TransitionMatrix(PRNG, CLASSES)
 
         with pytest.raises(ValueError):
             matrix.set_weight(1, 1, -50)
@@ -30,7 +32,7 @@ class TestTransitionMatrix:
             matrix.set_weight(1, 1, matrix)
 
     def test_invalid_classes(self):
-        matrix = tm.TransitionMatrix(CLASSES)
+        matrix = tm.TransitionMatrix(PRNG, CLASSES)
 
         with pytest.raises(KeyError):
             matrix.p("x", 1)
@@ -40,7 +42,7 @@ class TestTransitionMatrix:
 
     def test_simple_probabilty(self):
 
-        matrix = tm.TransitionMatrix(CLASSES)
+        matrix = tm.TransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -55,7 +57,7 @@ class TestTransitionMatrix:
         assert matrix.p(2, 1) == 0.5
 
     def test_one_path(self):
-        matrix = tm.TransitionMatrix(CLASSES)
+        matrix = tm.TransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -74,7 +76,7 @@ class TestTransitionMatrix:
 
     def test_resampling_one_item(self):
         """Ensure the sampling always returns the one item it can"""
-        matrix = tm.TransitionMatrix(CLASSES)
+        matrix = tm.TransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -96,7 +98,7 @@ class TestSplitTransitionMatrix:
 
     def test_initial_probabilty(self):
 
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         # Everything should be zero
         for c1 in CLASSES:
@@ -106,7 +108,7 @@ class TestSplitTransitionMatrix:
                 assert matrix.p(c2, c1) == 0
 
     def test_invalid_weights(self):
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         with pytest.raises(ValueError):
             matrix.set_weight(1, 1, -50)
@@ -117,7 +119,7 @@ class TestSplitTransitionMatrix:
             matrix.set_weight(1, 1, matrix)
 
     def test_invalid_classes(self):
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         with pytest.raises(KeyError):
             matrix.p("x", 1)
@@ -125,14 +127,14 @@ class TestSplitTransitionMatrix:
             matrix.p(34, 1)
 
     def test_invalid_transitions(self):
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         with pytest.raises(ValueError):
             matrix.get_transition(1)
 
     def test_simple_probabilty(self):
 
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -147,7 +149,7 @@ class TestSplitTransitionMatrix:
         assert matrix.p(2, 1) == 0.5
 
     def test_one_path(self):
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -165,7 +167,7 @@ class TestSplitTransitionMatrix:
         assert matrix.p(1, 2) == 0
 
     def test_no_transition_prob(self):
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -180,7 +182,7 @@ class TestSplitTransitionMatrix:
 
     def test_resampling_one_item(self):
         """Ensure the sampling always returns the one item it can"""
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
@@ -195,7 +197,7 @@ class TestSplitTransitionMatrix:
             assert matrix.get_transition(4, False) == 1
 
     def test_split_probabilities(self):
-        matrix = tm.SplitTransitionMatrix(CLASSES)
+        matrix = tm.SplitTransitionMatrix(PRNG, CLASSES)
 
         # Add some weights to certain transitions
         matrix.set_weight(1, 1, 1)
