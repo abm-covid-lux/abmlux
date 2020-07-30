@@ -45,7 +45,7 @@ def create_locations(network, density_map, config):
             network.add_location(new_location)
     # Create locations of each border country
     for country in pop_by_border_countries:
-        coord = WGS84_to_ETRS89(border_country_coord[country][1],border_country_coord[country][0])
+        coord = WGS84_to_ETRS89(border_country_coord[country][1], border_country_coord[country][0])
         new_country = Location(country, coord)
         network.add_location(new_country)
 
@@ -86,9 +86,11 @@ def make_house_profile_dictionary(config):
     hshld_dst_r = config['household_distribution_retired']
 
     max_house_size = len(hshld_dst_r[0]) - 1
-    assert max_house_size == len(hshld_dst_c[0]) - 1
+    if max_house_size != len(hshld_dst_c[0]) - 1:
+        raise Exception("Distributions of children and retired are in conflict: max house size")
     total_houses = sum([sum(x) for x in zip(*hshld_dst_r)])
-    assert total_houses == sum([sum(x) for x in zip(*hshld_dst_c)])
+    if total_houses != sum([sum(x) for x in zip(*hshld_dst_c)]):
+        raise Exception("Distributions of children and retired are in conflict: total houses")
     # Each key in the following dictionary, house_profiles, will be a triple. The entries in each
     # triple will correspond to numbers of children, adults and retired, respectively. The
     # corresponding value indicates the probility of that triple occuring as household profile.
@@ -106,12 +108,13 @@ def make_house_profile_dictionary(config):
                 num_adult = house_size - num_children - num_retired
                 weight = sum(tuple(zip(*hshld_dst_c))[house_size][0:house_size + 1 - num_retired])
                 prob = hshld_dst_c[num_children][house_size]\
-                       *hshld_dst_r[num_retired][house_size]/(total_houses*weight)
+                       * hshld_dst_r[num_retired][house_size] / (total_houses*weight)
                 house_profiles[(num_children, num_adult, num_retired)] = prob
 
     return house_profiles
 
-def assign_homes(network, density_map, config, activity_manager, home_activity_type, carehome_type):
+def assign_homes(network, density_map, config, activity_manager, house_location_type,
+                 home_activity_type, carehome_type):
     """Assigns homes to agents."""
 
     log.info("Creating and populating homes...")
@@ -160,7 +163,7 @@ def assign_homes(network, density_map, config, activity_manager, home_activity_t
     while len(unassigned_children + unassigned_adults + unassigned_retired) > 0:
         # Create new house and add it to the network
         house_coord = density_map.sample_coord()
-        new_house = Location('House', house_coord)
+        new_house = Location(house_location_type, house_coord)
         network.add_location(new_house)
         # Generate household profile
         household_profile = multinoulli_dict(house_types)
@@ -189,42 +192,42 @@ def do_activity_from_home(activity_manager, occupancy, activity_type):
         for agent in occupancy[location]:
             agent.add_activity_location(activity_manager.as_int(activity_type), location)
 
-def make_histogram(config, motive, country_origin, country_destination,
+def make_distribution(config, motive, country_origin, country_destination,
                             number_of_bins, bin_width):
     """For given country  of origin, country of destination and motive, this creates a probability
     distribution over ranges of distances."""
 
-    log.info("Generating distance histogram...")
+    log.info("Generating distance distribution...")
 
-    actworkbook = load_workbook(filename = config.filepath('trip_data_fp'))
+    actworkbook = load_workbook(filename = config.filepath('trip_data_filepath'))
     actsheet    = actworkbook.active
 
-    # In the following histogram, the probability assigned to a given range reflects the
+    # In the following distribution, the probability assigned to a given range reflects the
     # probability that the length of a trip, between the input countries and with the given
     # motivation, falls within that range. Note that the units of bid_width are kilometers, and that
     # the distances recorded in the data refer to distance travelled by the respondent, not as the
     # crow flies.
-    distance_histogram = {}
+    distance_distribution = {}
     for bin_num in range(number_of_bins):
-        distance_histogram[range(bin_width*bin_num,bin_width*(bin_num+1))] = 0
+        distance_distribution[range(bin_width*bin_num,bin_width*(bin_num+1))] = 0
     for sheet_row in tqdm(range(2,actsheet.max_row)):
         motive_sample = actsheet.cell(row=sheet_row, column=7).value
         country_origin_sample = actsheet.cell(row=sheet_row, column=9).value
         country_destination_sample = actsheet.cell(row=sheet_row, column=11).value
-        # For each sample of the desired trip type, record the distance and add to the histogram
+        # For each sample of the desired trip type, record the distance and add to the distribution
         if ([motive_sample,country_origin_sample,country_destination_sample]
             == [motive, country_origin, country_destination]):
             distance = actsheet.cell(row=sheet_row, column=12).value
             if isinstance(distance,(int,float)) and (distance < number_of_bins*bin_width):
                 weight = actsheet.cell(row=sheet_row, column=15).value
-                distance_histogram[range(int((distance//bin_width)*bin_width),
+                distance_distribution[range(int((distance//bin_width)*bin_width),
                           int(((distance//bin_width)+1)*bin_width))] += round(weight)
     # Normalize to obtain a probability distribution
-    total_weight = sum(distance_histogram.values())
-    for histogram_bin in distance_histogram:
-        distance_histogram[histogram_bin] /= total_weight
+    total_weight = sum(distance_distribution.values())
+    for distribution_bin in distance_distribution:
+        distance_distribution[distribution_bin] /= total_weight
 
-    return distance_histogram
+    return distance_distribution
 
 def road_distance(config, euclidean_distance_km):
     """Converts a Euclidean distance into a network distance."""
@@ -239,30 +242,30 @@ def euclidean_distance(coords1, coords2):
 
     return math.sqrt(((coords1[0]-coords2[0])**2) + ((coords1[1]-coords2[1])**2))
 
-def get_weight(config, dist_km, distance_histogram):
-    """Given a distance, in kilometers, and a distance_histogram, returns the probability weight
-    associated to that distance by the histogram."""
+def get_weight(config, dist_km, distance_distribution):
+    """Given a distance, in kilometers, and a distance_distribution, returns the probability weight
+    associated to that distance by the distribution."""
 
-    hist_length = sum([len(histogram_bin) for histogram_bin in list(distance_histogram.keys())])
-    if int(road_distance(config, dist_km)) >= hist_length:
+    dist_length = sum([len(dist_bin) for dist_bin in list(distance_distribution.keys())])
+    if int(road_distance(config, dist_km)) >= dist_length:
         return 0.0
     else:
-        for histogram_bin in distance_histogram:
-            if int(road_distance(config, dist_km)) in histogram_bin:
-                return distance_histogram[histogram_bin]
+        for distribution_bin in distance_distribution:
+            if int(road_distance(config, dist_km)) in distribution_bin:
+                return distance_distribution[distribution_bin]
                 break
 
 def make_work_profile_dictionary(network, config):
     """Generates weights for working locations"""
 
-    workforce_profile_histogram = config['workforce_profile_histogram']
-    workforce_profile_uniform   = config['workforce_profile_uniform']
-    profile_format              = config['workforce_profile_histogram_format']
+    workforce_profile_distribution = config['workforce_profile_distribution']
+    workforce_profile_uniform      = config['workforce_profile_uniform']
+    profile_format                 = config['workforce_profile_distribution_format']
 
     # Weights reflect typical size of workforce in locations across different sectors
     workplace_weights = {}
-    for location_type in workforce_profile_histogram:
-        profile = workforce_profile_histogram[location_type]
+    for location_type in workforce_profile_distribution:
+        profile = workforce_profile_distribution[location_type]
         for location in network.locations_by_type[location_type]:
             interval = profile_format[multinoulli(profile)]
             weight = random_randrange_interval(interval[0],interval[1])
@@ -280,20 +283,20 @@ def assign_workplaces(network, config, activity_manager, work_activity_type, occ
 
     log.info("Assigning places of work...")
 
-    bin_width      = config['bin_width']
-    number_of_bins = config['number_of_bins']
-    sample_size    = config['location_sample_size']
+    bin_width           = config['bin_width']
+    number_of_bins      = config['number_of_bins']
+    sample_size         = config['location_sample_size']
+    destination_country = config['destination_country']
+    origin_country_dict = config['origin_country_dict']
+    activity_dict       = config['activity_dict']
 
     # These determine the probability of an agent travelling a distance to work
-    work_hist_dict = {}
-    work_hist_dict['Belgium']    = make_histogram(config, 'Travail', 'Belgique', 'Luxembourg',
-                                              number_of_bins['Belgium'], bin_width['Belgium'])
-    work_hist_dict['France']     = make_histogram(config, 'Travail','France', 'Luxembourg',
-                                              number_of_bins['France'], bin_width['France'])
-    work_hist_dict['Germany']    = make_histogram(config, 'Travail', 'Allemagne', 'Luxembourg',
-                                              number_of_bins['Germany'], bin_width['Germany'])
-    work_hist_dict['Luxembourg'] = make_histogram(config, 'Travail', 'Luxembourg', 'Luxembourg',
-                                              number_of_bins['Luxembourg'], bin_width['Luxembourg'])
+    work_dist_dict = {}
+    for country in origin_country_dict:
+        work_dist_dict[country] = make_distribution(config, activity_dict[work_activity_type],
+                                            origin_country_dict[country], destination_country,
+                                            number_of_bins[country], bin_width[country])
+
     log.info("Generating workforce weights...")
     # These weights corrspond to the size of the workforce at each workplace
     workplace_weights = make_work_profile_dictionary(network, config)
@@ -306,7 +309,7 @@ def assign_workplaces(network, config, activity_manager, work_activity_type, occ
         for location in work_locations_sample:
             dist_m = euclidean_distance(house.coord, location.coord)
             dist_km = dist_m/1000
-            weight = get_weight(config, dist_km, work_hist_dict['Luxembourg'])
+            weight = get_weight(config, dist_km, work_dist_dict['Luxembourg'])
             # For each location, the workforce weights and distance weights are multiplied
             weights_for_house[location] = workplace_weights[location] * weight
         for agent in occupancy_houses[house]:
@@ -314,6 +317,7 @@ def assign_workplaces(network, config, activity_manager, work_activity_type, occ
             workplace = multinoulli_dict(weights_for_house)
             agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
         weights_for_house.clear()
+
     log.info("Assigning workplaces to border country occupants...")
     for border_country in occupancy_border_countries:
         for agent in tqdm(occupancy_border_countries[border_country]):
@@ -323,11 +327,12 @@ def assign_workplaces(network, config, activity_manager, work_activity_type, occ
             for location in work_locations_sample:
                 dist_m = euclidean_distance(border_country.coord, location.coord)
                 dist_km = dist_m/1000
-                weight = get_weight(config, dist_km, work_hist_dict[border_country.typ])
+                weight = get_weight(config, dist_km, work_dist_dict[border_country.typ])
                 weights_for_agent[location] = workplace_weights[location] * weight
             workplace = multinoulli_dict(weights_for_agent)
             agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
             weights_for_agent.clear()
+
     log.debug("Assigning workplaces to carehome occupants...")
     do_activity_from_home(activity_manager, occupancy_carehomes, work_activity_type)
 
@@ -346,8 +351,8 @@ def assign_locations_by_distance(network, config, activity_manager, activity_typ
 
     vst_locs = network.locations_for_types(activity_manager.get_location_types(activity_type))
     # This determines the probability of an agent travelling a distance for a house visit
-    hist_dict = make_histogram(config, activity_dict[activity_type], 'Luxembourg', 'Luxembourg',
-                                     number_of_bins['Luxembourg'], bin_width['Luxembourg'])
+    dist_dict = make_distribution(config, activity_dict[activity_type], 'Luxembourg', 'Luxembourg',
+                                  number_of_bins['Luxembourg'], bin_width['Luxembourg'])
     log.debug("Assigning locations to house occupants...")
     for house in tqdm(occupancy_houses):
         visit_locations_sample = random_sample(vst_locs, k = min(sample_size, len(vst_locs)))
@@ -355,7 +360,7 @@ def assign_locations_by_distance(network, config, activity_manager, activity_typ
         for location in visit_locations_sample:
             dist_m = euclidean_distance(house.coord, location.coord)
             dist_km = dist_m/1000
-            weights_for_house[location] = get_weight(config, dist_km, hist_dict)
+            weights_for_house[location] = get_weight(config, dist_km, dist_dict)
         for agent in occupancy_houses[house]:
             # Several houses are then chosen randomly from the sample, according to the weights
             locs = random_choices(list(weights_for_house.keys()),
@@ -454,11 +459,12 @@ def assign_outdoors(network, activity_manager, outdoor_activity_type, occupancy_
     outdrs = network.locations_for_types(activity_manager.get_location_types(outdoor_activity_type))
     #The outdoors is treated as a single environment, in which zero disease transmission will occur
     if len(outdrs) != 1:
-        raise ValueError("More than one outdoor location found.")
+        raise ValueError("More than one outdoor location found. Set outdoor count to 1.")
+    outdrs_loc = outdrs[0]
     log.debug("Assigning outdoor location to house occupants...")
     for house in tqdm(occupancy_houses):
         for agent in occupancy_houses[house]:
-            agent.add_activity_location(activity_manager.as_int(outdoor_activity_type), outdrs[0])
+            agent.add_activity_location(activity_manager.as_int(outdoor_activity_type), outdrs_loc)
     log.debug("Assigning outdoor location to border country occupants...")
     do_activity_from_home(activity_manager, occupancy_border_countries, outdoor_activity_type)
     log.debug("Assigning outdoor location to carehome occupants...")
@@ -496,7 +502,7 @@ def build_network_model(config, density_map):
 
     # Assign homes
     occupancy_houses, occupancy_carehomes, occupancy_border_countries\
-    = assign_homes(network, density_map, config, activity_manager, "House", "Care Home")
+    = assign_homes(network, density_map, config, activity_manager, "House", "House", "Care Home")
     # Assign workplaces
     assign_workplaces(network, config, activity_manager, "Work", occupancy_houses,
                       occupancy_carehomes, occupancy_border_countries)

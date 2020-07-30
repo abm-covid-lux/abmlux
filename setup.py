@@ -94,6 +94,7 @@ setup(
                       'psutil',
                       'scipy',
                       'pyproj',
+                      'openpyxl',
                       'dateparser',
                       'matplotlib',
                       'opencv-python',

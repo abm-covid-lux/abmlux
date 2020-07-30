@@ -83,10 +83,10 @@ map:
   shapefile_coordinate_system: epsg:2169
 
 # File containing time use survey data.  See Docs for full format.
-time_use_fp: Time Use.csv
+time_use_filepath: Time Use.csv
 
 # File containing trip length data.
-trip_data_fp: Luxmobil_2017_open_data_DRAFT.xlsx
+trip_data_filepath: Luxmobil_2017_open_data_DRAFT.xlsx
 
 # ---------- Intermediate data ------------
 # Working Directory
@@ -155,7 +155,9 @@ locations:
   - France
   - Germany
 
-# These locations have a fixed (upto rescaling) count
+# For each location type, a number of such locations will be generated. This number will be either
+# fixed or random. The locations with a fixed count are generated according to the following real
+# world distribution:
 deterministic_location_counts:
   Care Home:                        44
   OW Agriculture:                   86
@@ -193,7 +195,7 @@ random_location_counts:
   - House
   - Car
 
-# The border countries, as individual locations, are assigned these coordinates
+# The border countries, as individual locations, are assigned these [lat, lon] (WGS84) coordinates
 border_country_coord:
   Belgium: [49.683729, 5.814469]
   France: [49.357664, 6.166023]
@@ -262,15 +264,15 @@ activities:
     secondary: [395,426,429,515,521,523,524]
     allowed_locations: [House, Care Home]
 
-# Which activies are assigned locations using a distance histogram, and how many such locations can
+# Which activies are assigned locations using a distance distribution, and how many such locations can
 # be visited by each agent
 activity_locations_by_distance:
   Visit: 10
   Restaurant: 10
   Shop: 10
 
-# When using a distance histogram, how many locations are included in the sample to which the
-# histogram is applied. Note that a large number will result in performance issues.
+# When using a distance distribution, how many locations are included in the sample to which the
+# distribution is applied. Note that a large number will result in performance issues.
 location_sample_size: 100
 
 # Which activies are assigned locations using a simple random sample, and how many such locations
@@ -287,7 +289,12 @@ activity_locations_by_proximity:
   - Place of Worship
   - Indoor Sport
 
-# Parameters used in the construction of the distance histograms
+# For each of the countries listed below, a probability distribution is built on the length of trips
+# between that country and the country being simulated. This discrete probability distribution takes
+# the form of a distribution and is derived from data. The parameters below determine, for country
+# of origin, the width of bins used in the corresponding distributions and the total number of bins.
+# Distances greater than the total range of a distribution will be assigned probability zero. The
+# units here are kilometers.
 number_of_bins:
   Luxembourg: 10
   Belgium:    20
@@ -298,14 +305,33 @@ bin_width:
   Belgium:    10
   France:     10
   Germany:    10
+# This converts the relevant activities and countries to their labels in the trip data
 activity_dict:
   Visit: Visite
   Shop: Achats
   Restaurant: Repas
+  Work: Travail
+origin_country_dict:
+  Luxembourg: Luxembourg
+  Belgium: Belgique
+  France: France
+  Germany: Allemagne
+destination_country: Luxembourg
 
-# Euclidean to road distance conversion parameters. See:
+# The distances referred to above are distances along a real world transportation network. This
+# typically differs from the spherical distance. Over short distances, the spherical distance is
+# approximately equal to the Euclidean distance. The ratio of the network distance and the Euclidean
+# distance is called the 'network detour ratio'. The network distance is often around 1.25–1.41
+# times the Euclidean distance. The article
+#
 # Hai Yanga, Jintao Kea and Jieping Ye, 'A universal distribution law of network detour ratios',
 # Transportation Research Part C, 2018.
+#
+# suggests that network distance follows a distribution of the form
+#
+# network_distance = euclidean_distance*alpha + beta
+#
+# for two parameters alpha and beta, which the authors determine as follows:
 alpha: 1.2988
 beta:  0.3838
 
@@ -538,9 +564,9 @@ workforce_profile_uniform:
   Public Transport:                 1
   Place of Worship:                 1
 
-# For these locations, workforce weights are sampled from a histogram determined by the
+# For these locations, workforce weights are sampled from a distribution determined by the
 # corresponding list. The format is given below.
-workforce_profile_histogram:
+workforce_profile_distribution:
   OW Agriculture:                   [76,   8,    1,   1,    0]
   OW Extraction:                    [3,    4,    2,   2,    0]
   OW Manufacturing:                 [369,  201,  101, 88,  26]
@@ -568,4 +594,4 @@ workforce_profile_histogram:
   Museum or Zoo:                    [295,  47,   16,  5,    0]
 
 # The data format was originally [0-4, 5-19, 20-49, 50-249, 250+]. The maximum weight is now given.
-workforce_profile_histogram_format: [[1,5], [5,20], [20,50], [50,250], [250,500]]
+workforce_profile_distribution_format: [[1,5], [5,20], [20,50], [50,250], [250,500]]
