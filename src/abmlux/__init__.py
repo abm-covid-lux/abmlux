@@ -6,6 +6,7 @@ import sys
 import logging
 import logging.config
 import importlib
+import traceback
 
 import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
@@ -32,8 +33,10 @@ def load_map(state):
 
     # Step one: process density information
     config = state.config
-    density_map = density_model.read_density_model_jrc(config.filepath('map.population_distribution_fp'),
-                                                       config['map.country_code'], config['map.res_fact'],
+    density_map = density_model.read_density_model_jrc(state.prng,
+                                                       config.filepath('map.population_distribution_fp'),
+                                                       config['map.country_code'],
+                                                       config['map.res_fact'],
                                                        config['map.normalize_interpolation'],
                                                        config.filepath('map.shapefilename'),
                                                        config['map.shapefile_coordinate_system'])
@@ -44,7 +47,7 @@ def build_network(state):
     """Build a network of locations and agents based on the population density"""
 
     # Step two: build network model
-    state.network = network_model.build_network_model(state.config, state.map)
+    state.network = network_model.build_network_model(state.prng, state.config, state.map)
 
 
 def build_markov(state):
@@ -53,7 +56,7 @@ def build_markov(state):
     # ------------------------------------------------[ 3 ]------------------------------------
     # Step three: build markov model
     activity_distributions, activity_transitions = \
-            markov_model.build_markov_model(state.config, state.activity_manager)
+            markov_model.build_markov_model(state.prng, state.config, state.activity_manager)
 
     state.activity_distributions = activity_distributions
     state.activity_transitions = activity_transitions
@@ -64,7 +67,7 @@ def assign_activities(state):
     sim"""
 
     # ------------------------------------------------[ 4 ]------------------------------------
-    state.network = network_model.assign_activities(state.config, state.network,
+    state.network = network_model.assign_activities(state.prng, state.config, state.network,
                                                     state.activity_distributions)
 
 
@@ -92,7 +95,7 @@ def run_sim(state):
         reporters.append(reporter)
 
     # ############## Run Stage ##############
-    sim = Simulator(state.config, state.network, state.activity_transitions, reporters)
+    sim = Simulator(state, reporters)
 
     sim.run()
 
@@ -110,6 +113,7 @@ def main():
     # Check the path to the config
     if len(sys.argv) < 2:
         print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml [STAGE,STAGE,STAGE]")
+        print(f"   OR: {sys.argv[0]} state.abm [STAGE,STAGE,STAGE]")
         print("")
         print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml 1,2")
         sys.exit(1)
@@ -183,9 +187,17 @@ def main():
         i += 1
         log.info("Running phase %i (%i/%i) %s", int(name), i, len(phases), name.name)
 
-        # Check we've not already run this phase
         state.set_phase(name)
-        phase_func(state)
+
+        try:
+            phase_func(state)
+        except: # pylint: disable=C0103,W0702
+            e = sys.exc_info()[0]
+            log.fatal("Fatal error in phase %i (%s): %s", i, name.name, e)
+            log.error(traceback.format_exc())
+            log.fatal("Shutting down to prevent further errors.")
+            sys.exit(1)
+
         state.set_phase_complete(name)
         write_to_disk(state, state_filename)
 
@@ -198,9 +210,9 @@ def main_tools():
 
     # Check the path to the config
     if len(sys.argv) < 3:
-        print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml tool_name [options]")
+        print(f"USAGE: {sys.argv[0]} simulation_state.abm tool_name [options]")
         print("")
-        print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml plot_locations")
+        print(f"EG: {sys.argv[0]} simulation_state.abm plot_locations")
         print("")
         print("List of tools:")
         for tool in TOOLS:
@@ -210,18 +222,25 @@ def main_tools():
         sys.exit(1)
 
     # System config/setup
-    config = Config(sys.argv[1])
-    logging.config.dictConfig(config['logging'])
+    state = read_from_disk(sys.argv[1])
+    logging.config.dictConfig(state.config['logging'])
 
     # Command
     command = sys.argv[2]
     if command not in TOOLS:
-        log.error(f"Tool not found: {command}")
+        log.error("Tool not found: %s", command)
         sys.exit(1)
     command = getattr(tools.get_tool_module(command), "main")
 
     parameters = sys.argv[3:]
-    log.info(f"Parameters for tool: {parameters}")
+    log.info("Parameters for tool: %s", parameters)
 
     # Run the thing.
-    command(config, *parameters)
+    try:
+        command(state, *parameters)
+    except: # pylint: disable=C0103,W0702
+        e = sys.exc_info()[0]
+        log.fatal("Fatal error in tool execution '%s' with params '%s': %s",
+                  command.__name__, parameters, e)
+        log.error(traceback.format_exc())
+        sys.exit(1)

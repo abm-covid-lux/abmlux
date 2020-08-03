@@ -5,47 +5,47 @@ import math
 from functools import reduce
 
 
-def random_randrange(stop):
+def random_randrange(prng, stop):
     """Random randrange function"""
 
-    return random.randrange(stop)
+    return prng.randrange(stop)
 
 
-def random_randrange_interval(start,stop):
+def random_randrange_interval(prng, start, stop):
     """Random randrange function"""
 
-    return random.randrange(start,stop)
+    return prng.randrange(start,stop)
 
 
-def random_choice(sequence):
+def random_choice(prng, sequence):
     """Random choice function"""
 
-    return random.choice(sequence)
+    return prng.choice(sequence)
 
 
-def random_choices(population, wghts, sample_size):
+def random_choices(prng, population, wghts, sample_size):
     """Random choices function"""
 
-    return random.choices(population, weights = wghts, cum_weights = None, k = sample_size)
+    return prng.choices(population, weights=wghts, cum_weights=None, k=sample_size)
 
 
-def random_sample(population, k):
+def random_sample(prng, population, k):
     """Random sample function"""
 
-    return random.sample(population, k)
+    return prng.sample(population, k)
 
 
-def random_shuffle(x):
+def random_shuffle(prng, x):
     """Random shuffle function"""
 
-    return random.shuffle(x)
+    return prng.shuffle(x)
 
-def random_float(x):
+def random_float(prng, x):
     """Return random number between 0 and x"""
 
-    return random.random() * x
+    return prng.random() * x
 
-def multinoulli(problist):
+def multinoulli(prng, problist):
     """Sample at random from a list of n options with given probabilities.
 
     Identical to 'roulette wheel' random selection.
@@ -57,20 +57,20 @@ def multinoulli(problist):
     # if not isinstance(problist, list):
     #     problist = list(problist)
 
-    return random.choices(range(len(problist)), problist)[0]
+    return prng.choices(range(len(problist)), problist)[0]
 
 
-def multinoulli_dict(problist_dict):
+def multinoulli_dict(prng, problist_dict):
     """Sample from a key:value dict and return a key
     according to the weights in the values, i.e.:
 
      {'a': 4, 'b': 6} has a 60% chance of returning
      'b' and a 40% chance of returning 'a'."""
 
-    return random.choices(list(problist_dict.keys()), problist_dict.values())[0]
+    return prng.choices(list(problist_dict.keys()), problist_dict.values())[0]
 
 
-def multinoulli_2d(problist_arr, marginals=None):
+def multinoulli_2d(prng, problist_arr, marginals=None):
     """Sample from a 2D array of weights, returning
     an (x, y) tuple within the array.
 
@@ -79,81 +79,16 @@ def multinoulli_2d(problist_arr, marginals=None):
 
     y_marginals = marginals if marginals is not None else \
                   [sum(x) for x in problist_arr]
-    y = multinoulli(y_marginals)
-    x = multinoulli(problist_arr[y])
+    y = multinoulli(prng, y_marginals)
+    x = multinoulli(prng, problist_arr[y])
 
     return x, y
 
 
-def boolean(p):
+def boolean(prng, p):
     """Return true with the probability given."""
 
     assert p >= 0
     assert p <= 1
 
-    return random.random() < p
-
-
-#test = [[0,0,0], [2,2,2]]
-#for i in range(10):
-#    print(f"->{multinoulli_2d(test)}")
-
-
-# ----------------------------------------------------------------------------------
-# Weighted random sampling is one of the most-called things in the whole sim,
-# and performance is very important.
-#
-# This source of weighted random classes is about four times faster than the stock
-# random.choices()
-# class FastWeightedRandomSource:
-
-#     def __init__(self, classes, weights, max_bins=1_000_000, num_bins=None):
-#         self.classes = classes
-#         self.weights = weights
-
-#         # Generate internal lookup table
-#         self.lookup = []
-
-#         # If all the weights are integers we can represent the weights
-#         # with at most sum(weights) items (or fewer if there is a common
-#         # divisor).
-#         self.num_bins = max_bins if num_bins is None else num_bins
-#         if sum([int(w) == w for w in weights]) == len(weights):
-#             ideal_num_bins = sum(weights) / reduce(math.gcd, weights)
-#             if ideal_num_bins <= max_bins:
-#                 # print(f"Using precise binning (integer weights).  You're lucky!")
-#                 self.num_bins = ideal_num_bins
-
-#         self.divisor = sum(weights) / self.num_bins
-#         # print(f"-> {self.divisor=}")
-#         # print(f"Using {self.num_bins} bins with {self.divisor=}")
-
-#         # Generate lookup table
-#         for clas, weight in zip(classes, weights):
-#             self.lookup += [clas] * int(weight / self.divisor)
-
-#     def __next__(self):
-#         return self.lookup[int(self.num_bins * random.random())]
-
-
-
-
-# import code; code.interact(local=locals())
-
-
-# classes = ["one", "two", "three", "four"]
-# weights = [28, 400, 40, 40]
-
-# fwrs = FastWeightedRandomSource(classes, weights)
-# import time
-# t1 = time.perf_counter()
-# for i in range(10_000_000):
-#     x = next(fwrs)
-# t2 = time.perf_counter()
-# print(f"Custom method: {t2 - t1}s")
-
-# t3 = time.perf_counter()
-# for i in range(10_000_000):
-#     x = random.choices(classes, weights)
-# t4 = time.perf_counter()
-# print(f"random.choices: {t4 - t3}s")
+    return prng.random() < p

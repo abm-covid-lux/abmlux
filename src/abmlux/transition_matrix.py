@@ -8,7 +8,7 @@ class TransitionMatrix:
     """A basic transition matrix that stores a matrix and provides sampling
     capabilities"""
 
-    def __init__(self, classes):
+    def __init__(self, prng, classes):
         """Creates a new TransitionMatrix with the set of classes given.
 
         Parameters:
@@ -16,6 +16,7 @@ class TransitionMatrix:
                            using this list.
         """
 
+        self.prng        = prng
         self.classes     = list(classes)
         self.transitions = {c: {c: 0 for c in classes} for c in classes}
 
@@ -135,7 +136,7 @@ class TransitionMatrix:
             raise ValueError(f"No available transitions from current state "
                              f"({c_from} -> {self.transitions[c_from]})")
 
-        return random_tools.multinoulli_dict(self.transitions[c_from])
+        return random_tools.multinoulli_dict(self.prng, self.transitions[c_from])
 
 
 
@@ -145,7 +146,7 @@ class SplitTransitionMatrix(TransitionMatrix):
     and a fast check to see if transition will occur at all."""
 
     # pylint disable=super-init-not-called
-    def __init__(self, classes):
+    def __init__(self, prng, classes):
         """Create a split transition matrix.
 
         Parameters:
@@ -153,7 +154,8 @@ class SplitTransitionMatrix(TransitionMatrix):
                            using this list.
         """
 
-        self.classes     = list(classes)
+        self.prng    = prng
+        self.classes = list(classes)
 
         self.diag               = {c: 0 for c in classes}
         self.transitions_nodiag = {c: {d: 0 for d in classes if d != c} for c in classes}
@@ -294,12 +296,12 @@ class SplitTransitionMatrix(TransitionMatrix):
 
         # Select from the diagonal-less transition matrix
         if force_transition:
-            return random_tools.multinoulli_dict(self.transitions_nodiag[c_from])
+            return random_tools.multinoulli_dict(self.prng, self.transitions_nodiag[c_from])
 
         # Select from everything
         if self.get_no_trans(c_from):
             return c_from
-        return random_tools.multinoulli_dict(self.transitions_nodiag[c_from])
+        return random_tools.multinoulli_dict(self.prng, self.transitions_nodiag[c_from])
 
     def get_no_trans(self, c_from):
         """Probability of not transitioning.
@@ -311,4 +313,4 @@ class SplitTransitionMatrix(TransitionMatrix):
         Parameters:
             c_from (obj):The class to transition from.
         """
-        return random_tools.boolean(self.p(c_from, c_from))
+        return random_tools.boolean(self.prng, self.p(c_from, c_from))

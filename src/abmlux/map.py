@@ -10,7 +10,7 @@ from scipy import interpolate
 from pyproj import Transformer
 
 from abmlux.location import ETRS89_to_WGS84
-import abmlux.random_tools as random_tools
+from abmlux.random_tools import multinoulli_2d, random_float
 
 log = logging.getLogger("map")
 
@@ -94,7 +94,7 @@ class Map:
 class DensityMap(Map):
     """A Map that contains population density information"""
 
-    def __init__(self, coord, width_m, height_m, cell_size_m, border=None, shapefilename=None,
+    def __init__(self, prng, coord, width_m, height_m, cell_size_m, border=None, shapefilename=None,
                  shapefile_coordsystem=None):
         """Create a new DensityMap, describing a part of the world along with its population
         density.
@@ -117,9 +117,10 @@ class DensityMap(Map):
 
         super().__init__(coord, width_m, height_m, border, shapefilename, shapefile_coordsystem)
 
-        self.cell_size_m  = cell_size_m
-        self.density      = [[0 for x in range(math.ceil(width_m / cell_size_m))]
-                             for y in range(math.ceil(height_m / cell_size_m))]
+        self.prng        = prng
+        self.cell_size_m = cell_size_m
+        self.density     = [[0 for x in range(math.ceil(width_m / cell_size_m))]
+                            for y in range(math.ceil(height_m / cell_size_m))]
 
         log.debug("Created DensityMap with %ix%i cells", len(self.density), len(self.density[0]))
         self._recompute_marginals()
@@ -145,11 +146,11 @@ class DensityMap(Map):
         """Return a random sample weighted by density"""
 
         # Randomly select a cell
-        grid_x, grid_y = random_tools.multinoulli_2d(self.density, self.marginals_cache)
+        grid_x, grid_y = multinoulli_2d(self.prng, self.density, self.marginals_cache)
 
         # Uniform random within the cell (fractional component)
-        x = self.coord[0] + self.cell_size_m*grid_x + random_tools.random_float(self.cell_size_m)
-        y = self.coord[1] + self.cell_size_m*grid_y + random_tools.random_float(self.cell_size_m)
+        x = self.coord[0] + self.cell_size_m*grid_x + random_float(self.prng, self.cell_size_m)
+        y = self.coord[1] + self.cell_size_m*grid_y + random_float(self.prng, self.cell_size_m)
 
         return x, y
 
@@ -176,8 +177,8 @@ class DensityMap(Map):
         """
 
         if res_fact == 1:
-            new_map = DensityMap(self.coord, self.width_m, self.height_m, self.cell_size_m,
-                                 self.border)
+            new_map = DensityMap(self.prng, self.coord, self.width_m, self.height_m,
+                                 self.cell_size_m, self.border)
             new_map.density = copy.copy(self.density)
             new_map.force_recompute_marginals()
             return new_map
@@ -208,16 +209,16 @@ class DensityMap(Map):
         x_indent = 1/((padded_width - 1)*res_fact*2)
         y_indent = 1/((padded_height - 1)*res_fact*2)
 
-        x_new = np.linspace(x_indent, 1 - x_indent, num=(padded_width - 1)*res_fact, endpoint=True)
-        y_new = np.linspace(y_indent, 1 - y_indent, num=(padded_height - 1)*res_fact, endpoint=True)
+        x_new = np.linspace(x_indent, 1-x_indent, num=(padded_width-1)*res_fact, endpoint=True)
+        y_new = np.linspace(y_indent, 1-y_indent, num=(padded_height-1)*res_fact, endpoint=True)
 
         half_res = int(res_fact/2)
         distribution_new = interpolated_density(x_new, y_new)[half_res:len(y_new) - half_res,
                                                               half_res:len(x_new) - half_res]
 
         # Create a new map and copy metadata in there
-        new_map = DensityMap(self.coord, self.width_m, self.height_m, self.cell_size_m / res_fact,
-                             self.border)
+        new_map = DensityMap(self.prng, self.coord, self.width_m, self.height_m,
+                             self.cell_size_m / res_fact, self.border)
         assert len(new_map.density) == len(distribution_new)
         assert len(new_map.density[0]) == len(distribution_new[0])
         new_map.density = distribution_new

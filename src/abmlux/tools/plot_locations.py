@@ -1,26 +1,22 @@
 """Plot locations using matplotlib"""
 
-import os.path as osp
 import logging
 
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
-import abmlux
 from abmlux.utils import string_as_mpl_colour
-from abmlux.serialisation import read_from_disk
-
 
 log = logging.getLogger("plot_locations")
 
 DESCRIPTION = "Plots all locations in a network"""
 HELP        = """[Location Type,LocationType,LocationType]"""
 
-def main(config, types_to_show=None):
+def main(state, types_to_show=None):
     """Plots locations using matplotlib"""
 
-    network = read_from_disk(config.filepath('working_dir', abmlux.NETWORK_FILENAME,
-                                             ensure_exists=True))
+    config = state.config
+    network = state.network
 
     # Choose which locations to show
     type_filter = config["locations"]

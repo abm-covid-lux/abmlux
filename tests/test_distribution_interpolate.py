@@ -1,3 +1,5 @@
+
+import random
 from pytest import approx
 import numpy as np
 from abmlux.map import DensityMap
@@ -14,7 +16,7 @@ class TestDistributionInterpolate:
 
         # Build a density map with random inputs
         test_distribution = np.random.randint(0, 100, (height,width))
-        dmap_a = DensityMap((0, 0), 10, 10, 1)
+        dmap_a = DensityMap(random.Random(), (0, 0), 10, 10, 1)
         for i, row in enumerate(test_distribution):
             for j, cell in enumerate(row):
                 # print(f" => {i}, {j}, {cell}")

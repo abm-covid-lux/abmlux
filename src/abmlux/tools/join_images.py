@@ -1,7 +1,6 @@
 """Tool to join PNG images into a video.  Used to stitch together the output from many reporters
 that produce map pictures per time tick"""
 
-
 import os
 import os.path as osp
 import logging
@@ -9,18 +8,17 @@ import logging
 from tqdm import tqdm
 import cv2
 
-
 log = logging.getLogger("join_images")
 
 DESCRIPTION = "Joins directories of images together"
 HELP        = """DIRECTORY [VIDEO_FILENAME] [FPS]"""
 
 #pylint: disable=unused-argument
-def main(config, directory, video_filename="video.avi", fps=20):
+def main(state, directory, video_filename="video.avi", fps=20):
     """Entry point for the image joining tool.
 
     Parameters:
-      config (abmlux.Config):The config object describing the current simulation
+      state (abmlux.SimulationState):The sim state object describing the current simulation
       directory (str):The directory where files to join reside
       video_filename (str):The video filename to output to.  Defaults to 'video.avi'
       fps (float):The FPS to use when generating a video.  Defaults to 20

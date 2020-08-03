@@ -13,7 +13,7 @@ from abmlux.map import DensityMap
 # Module log
 log = logging.getLogger('density_model')
 
-def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefilename,
+def read_density_model_jrc(prng, filepath, country_code, res_fact, normalize, shapefilename,
                            shapefile_coordsystem):
     """Parse JRC-format country data and return a two-dimensional array
     containing population density weights per-kilometer.
@@ -46,7 +46,7 @@ def read_density_model_jrc(filepath, country_code, res_fact, normalize, shapefil
     # Map the grid coordinates given onto a cartesian grid, each cell
     # of which represents the population density at that point
     log.debug("Building density matrix...")
-    country = DensityMap((1000*jrc['grid_x'].min(), 1000*jrc['grid_y'].min()),
+    country = DensityMap(prng, (1000*jrc['grid_x'].min(), 1000*jrc['grid_y'].min()),
                          country_width, country_height, 1000, shapefilename=shapefilename,
                          shapefile_coordsystem=shapefile_coordsystem)
     for _, row in tqdm(jrc.iterrows(), total=jrc.shape[0]):
