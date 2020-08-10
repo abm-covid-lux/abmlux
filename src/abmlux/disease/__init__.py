@@ -9,7 +9,15 @@ class DiseaseModel:
 
     def __init__(self, states):
 
-        self.states = states
+        self.states             = states
+        self.states_letter_dict = {DiseaseModel.letter_for_state(s): s for s in states}
+
+    def state_for_letter(self, letter):
+        return self.states_letter_dict[letter]
+
+    @staticmethod
+    def letter_for_state(state):
+        return str(state)[0].upper()
 
     def initialise_agents(self, network):
         """Create initial health states for agents on a network.

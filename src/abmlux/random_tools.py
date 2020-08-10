@@ -23,10 +23,10 @@ def random_choice(prng, sequence):
     return prng.choice(sequence)
 
 
-def random_choices(prng, population, wghts, sample_size):
+def random_choices(prng, population, weights, sample_size):
     """Random choices function"""
 
-    return prng.choices(population, weights=wghts, cum_weights=None, k=sample_size)
+    return prng.choices(population, weights=weights, cum_weights=None, k=sample_size)
 
 
 def random_sample(prng, population, k):
