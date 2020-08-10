@@ -10,7 +10,7 @@ from matplotlib.lines import Line2D
 
 from abmlux.utils import string_as_mpl_colour
 from abmlux.reporter import Reporter
-from abmlux.agent import HealthStatus
+from abmlux.agent import HealthStatus    # FIXME: HealthStatus obsolete --- read from DiseaseModel
 
 
 # FIXME: remove this in favour of parameters
@@ -29,10 +29,10 @@ class LocationPlots(Reporter):
         os.makedirs(self.dirname, exist_ok=True)
 
         # Choose which health states to show
-        self.health_filter = list(HealthStatus)
+        self.health_filter = list(HealthStatus)# FIXME: HealthStatus obsolete --- read from DiseaseModel
         if health_to_show is not None and len(health_to_show) > 0:
-            self.health_filter = [HealthStatus[h] for h in health_to_show]
-        self.health_state_label = ", ".join([h.name for h in self.health_filter])
+            self.health_filter = [HealthStatus[h] for h in health_to_show]# FIXME: HealthStatus obsolete --- read from DiseaseModel
+        self.health_state_label = ", ".join([h for h in self.health_filter])
 
         # Choose which locations to show
         self.type_filter = None

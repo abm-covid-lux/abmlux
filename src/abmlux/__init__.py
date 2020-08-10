@@ -14,6 +14,7 @@ import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
+from abmlux.disease.seird import BasicSEIRDModel
 
 import abmlux.tools as tools
 
@@ -70,6 +71,15 @@ def assign_activities(state):
     state.network = network_model.assign_activities(state.prng, state.config, state.network,
                                                     state.activity_distributions)
 
+def disease_model(state):
+    """Set up disease model."""
+
+    state.disease = BasicSEIRDModel(state.prng, state.config)
+    # TODO: make this dynamic from the config file (like reporters)
+
+    # Initialise state
+    state.disease.initialise_agents(state.network)
+
 
 def run_sim(state):
     """Run the agent-based model itself"""
@@ -105,6 +115,7 @@ PHASES = {SimulationPhase.BUILD_MAP:         load_map,
           SimulationPhase.BUILD_NETWORK:     build_network,
           SimulationPhase.BUILD_ACTIVITIES:  build_markov,
           SimulationPhase.ASSIGN_ACTIVITIES: assign_activities,
+          SimulationPhase.ASSIGN_DISEASE:    disease_model,
           SimulationPhase.RUN_SIM:           run_sim}
 def main():
     """Main ABMLUX entry point"""

@@ -19,7 +19,8 @@ class SimulationPhase(IntEnum):
     BUILD_NETWORK     = 1
     BUILD_ACTIVITIES  = 2
     ASSIGN_ACTIVITIES = 3
-    RUN_SIM           = 4
+    ASSIGN_DISEASE    = 4
+    RUN_SIM           = 5
 
 
 class SimulationState:
@@ -48,6 +49,7 @@ class SimulationState:
         self.network                = None
         self.activity_distributions = None
         self.activity_transitions   = None
+        self.disease                = None
 
     def set_phase_complete(self, phase):
         """Reports that a phase has been completed"""

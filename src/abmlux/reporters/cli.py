@@ -19,7 +19,7 @@ class TQDM(Reporter):
 
     def iterate(self, sim):
         self.pbar.update()
-        desc = ", ".join([f"{k.name[0]}:{len(v)}" for k, v in sim.agents_by_health_state.items()])
+        desc = ", ".join([f"{str(k)[0]}:{len(v)}" for k, v in sim.agents_by_health_state.items()])
         self.pbar.set_description(f"{desc} {sim.clock.now()}")
 
     def stop(self, sim):
@@ -38,7 +38,7 @@ class BasicProgress(Reporter):
 
     def iterate(self, sim):
         print(f"[t={sim.clock.t}, {(100 * sim.clock.t / sim.clock.max_ticks):.2f}%: "
-              f"{sim.clock.now()}] { {k.name[0]: len(v) for k, v in sim.agents_by_health_state.items()} }")
+              f"{sim.clock.now()}] { {str(k)[0]: len(v) for k, v in sim.agents_by_health_state.items()} }")
 
     def stop(self, sim):
         self.stop_time = datetime.now()
