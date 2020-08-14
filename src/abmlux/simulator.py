@@ -48,7 +48,10 @@ class Simulator:
         self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
                                            for l in self.locations}
                                        for h in self.disease.states}
-
+        self.cemeteries      = state.network.locations_by_type['Cemetery']
+        self.hospitals       = state.network.locations_by_type['Hospital']
+        self.dead_states     = config['dead_states']
+        self.hospital_states = config['hospital_states']
 
     def run(self):
         """Run the simulation"""
@@ -86,17 +89,82 @@ class Simulator:
                .get_no_trans(agent.current_activity):
                 continue
 
-            next_activity       = self.activity_transitions[agent.agetyp]\
-                                  [self.clock.ticks_through_week()]\
-                                  .get_transition(agent.current_activity)
-            allowable_locations = agent.locations_for_activity(next_activity)
+            next_activity = self.activity_transitions[agent.agetyp]\
+                            [self.clock.ticks_through_week()]\
+                            .get_transition(agent.current_activity)
 
-            next_activities.append( (agent,
-                                     next_activity,
-                                     random_tools.random_choice(self.prng,
-                                                                list(allowable_locations))) )
+            # If at time t the function get_health_transitions outputs 'HOSPITALIZING' for an agent,
+            # then the function _get_activity_transitions will move that agent to hospital at the
+            # first time, greater than or equal to t+1, at which the agent chooses to perform a new
+            # activity. In other words, agents will finish the current activity before moving to
+            # hospital, and similarly as regards leaving hospital. This simple implementation could
+            # be modified by allowing activity_changes at time t to depend on health_changes at time
+            # t and moreover by allowing agents to enter and exit hospital independently of their
+            # Markov chain.
+            if agent.health in self.hospital_states:
+                if agent.current_location in self.hospitals:
+                    next_location = agent.current_location
+                else:
+                    next_location = random_tools.random_choice(self.prng, self.hospitals)
+            elif agent.health in self.dead_states:
+                if agent.current_location in self.cemeteries:
+                    next_location = agent.current_location
+                else:
+                    next_location = random_tools.random_choice(self.prng, self.cemeteries)
+            else:
+                allowable_locations = agent.locations_for_activity(next_activity)
+                next_location = random_tools.random_choice(self.prng, list(allowable_locations))
+
+            next_activities.append( (agent, next_activity, next_location) )
 
         return next_activities
+
+# #################################### INTERVENTIONS ####################################
+#
+# Non-pharmaceutical interventions fall into three catagories: behavioural, quantitative
+# and testing. Behavioural interventions involve restricting the movement of agents. For
+# example, certain location types may be blocked between certain dates or certain agents
+# may be required to quarantine. A simple, although not particularly efficient,
+# implementation of behavioural interventions is as follows, where the time periods
+# during which locations types are blocked would be determined in a config:
+#
+#    allowable_locations = agent.locations_for_activity(next_activity)
+#    proposed_location = random_tools.random_choice(self.prng, list(allowable_locations))
+#
+#    def _behavioural_interventions(self, t, agent, location):
+#        """Simple model for interventions based on location choice"""
+#        # If the location is blocked then redirect the agent home
+#        if location.typ in blocked:
+#            location = list(agent.locations_for_activity("House"))[0]
+#        # If the agent is quarantining then redirect the agent home
+#        if agent.quarantining:
+#            location = list(agent.locations_for_activity("House"))[0]
+#        # If the agent needs to go to hospital then send the agent to hospital
+#        if agent.health in self.hospital_states:
+#            if agent.current_location in self.hospitals:
+#                location = agent.current_location
+#            else:
+#                location = random_tools.random_choice(self.prng, self.hospitals)
+#        # If the agent has died then send the agent to the cemetery
+#        if agent.health in self.dead_states:
+#            if agent.current_location in self.cemeteries:
+#                location = agent.current_location
+#            else:
+#                location = random_tools.random_choice(self.prng, self.cemeteries)
+#        return location
+#
+#   next_location = _behavioural_interventions(t, agent, proposed_location)
+#
+# A simple implementation of the quantitative interventions, which includes for example
+# the use of face masks or surface cleaning which reduce the probability of transmission,
+# could be to simply multiply the list of probabilities self.infection_probabilities,
+# appearing in compartmental.py, by a coefficient in the range [0,1], between specified
+# dates.
+#
+# Implementations of testing, both large scale and via contact tracing, will be somewhat
+# more complicated.
+#
+# #######################################################################################
 
     def _update_agents(self, t, health_changes, activity_changes):
         """Update the state of agents according to the lists provided."""
@@ -109,7 +177,7 @@ class Simulator:
             self.agent_counts_by_health[agent.health][agent.current_location] -= 1
 
             # Update
-            agent.health                         = new_health
+            agent.health = new_health
 
             # Add to index
             self.agents_by_health_state[agent.health].add(agent)

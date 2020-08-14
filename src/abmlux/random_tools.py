@@ -1,8 +1,19 @@
 
 import random
-import scipy.stats as sps
 import math
 from functools import reduce
+
+
+def gammavariate(prng, alpha, beta):
+    """Sample gamma distributed random variable with pdf given by
+
+                      x ** (alpha - 1) * math.exp(-x / beta)
+        pdf(x) =      --------------------------------------.
+                      math.gamma(alpha) * beta ** alpha
+
+    That is, a gamma random variable with shape parameter alpha and scale parameter beta."""
+
+    return prng.gammavariate(alpha, beta)
 
 
 def random_randrange(prng, stop):

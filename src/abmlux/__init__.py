@@ -14,8 +14,7 @@ import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
-from abmlux.disease.basic_seird import BasicSEIRDModel
-from abmlux.disease.advanced_seird import AdvancedSEIRDModel
+from abmlux.disease.compartmental import CompartmentalModel
 
 import abmlux.tools as tools
 
@@ -75,8 +74,7 @@ def assign_activities(state):
 def disease_model(state):
     """Set up disease model."""
 
-    # state.disease = BasicSEIRDModel(state.prng, state.config)
-    state.disease = AdvancedSEIRDModel(state.prng, state.config)
+    state.disease = CompartmentalModel(state.prng, state.config)
     # TODO: make this dynamic from the config file (like reporters)
 
     # Initialise state

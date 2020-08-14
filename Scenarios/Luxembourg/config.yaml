@@ -40,16 +40,16 @@ logging:
 
 # Output that should be rendered from the simulation
 reporters:
-  # - csv.HealthStateCounts:
-      # filename: /tmp/plots/health_state_counts.csv
+  - csv.HealthStateCounts:
+      filename: /tmp/plots/health_state_counts.csv
   # - cli.BasicProgress: {}
   - cli.TQDM: {}
   # - location_population_plots.LocationPlots:
-      # dirname: /tmp/plots
-      # types_to_show: []
-      # health_to_show: [INFECTED]
-      # figure_size: [15, 20]  # width, height
-      # every_n: 1
+  #     dirname: /tmp/plots
+  #     types_to_show: []
+  #     health_to_show: [INFECTED]
+  #     figure_size: [15, 20]  # width, height
+  #     every_n: 1
 
 # ################################# Filepaths #################################
 # Relative to this config file location
@@ -154,6 +154,7 @@ locations:
   - Belgium
   - France
   - Germany
+  - Cemetery
 
 # For each location type, a number of such locations will be generated. This number will be either
 # fixed or random. The locations with a fixed count are generated according to the following real
@@ -189,6 +190,7 @@ deterministic_location_counts:
   Indoor Sport:                     199
   Cinema or Theatre:                34
   Museum or Zoo:                    77
+  Cemetery:                         1
 
 # These locations have a random count
 random_location_counts:
@@ -337,37 +339,161 @@ beta:  0.3838
 
 # ################################# Disease #################################
 #
-# TODO: move these parameters into a separate config file for the disease
-#       model
+# TODO: move these parameters into separate config files
 
+# # -------------------- Basic SEIRD Model -------------------------------------
 
-# -------------------- Basic SEIRD Model -------------------------------------
-# Incubation period in days
-incubation_period_days: 5  # 7200 minutes
+# # The health states appearing in this model are as follows:
+# health_states:
+  # - SUSCEPTIBLE
+  # - EXPOSED
+  # - INFECTED
+  # - RECOVERED
+  # - DEAD
+# # Agents in the following states can transmit the virus:
+# contagious_states:
+  # - INFECTED
+# # Agents in the following states will be moved to a hospital:
+# hospital_states: []
+# # Agents in the following states will be moved to a cemetery:
+# dead_states:
+  # - DEAD
+# # A list of possibile trajectories through the health states is encoded as follows:
+# disease_profile_list:
+  # - SEIR
+  # - SEID
+# # For a given age x and step size
+# disease_profile_distribution_by_age_step_size: 10
+# # the following dictionary provides a probability distribution over the list of disease profiles
+# # for agents belonging to the age range range(x,x+d), where d equals the step size:
+# disease_profile_distribution_by_age:
+  # 0:    [1.0, 0.0]
+  # 10:   [1.0, 0.0]
+  # 20:   [1.0, 0.0]
+  # 30:   [1.0, 0.0]
+  # 40:   [1.0, 0.0]
+  # 50:   [0.99, 0.01]
+  # 60:   [0.96, 0.04]
+  # 70:   [0.92, 0.08]
+  # 80:   [0.85, 0.15]
+  # 90:   [0.85, 0.15]
+# # Disease durations in days (C: constant, G: gamma, U: uniform)
+# durations_by_profile:
+  # SEIR:    [None, [C, [5]], [C, [14]], None]
+  # SEID:    [None, [C, [5]], [C, [14]], None]
+# # How many people start off infected at t=0
+# initial_infections: 10
+# # The probability of other agents sharing a given location catching the
+# # pathogen each time tick.
+# infection_probabilities_per_tick:
+  # House:                            0.0007
+  # Care Home:                        0.0007
+  # OW Agriculture:                   0.0007
+  # OW Extraction:                    0.0007
+  # OW Manufacturing:                 0.0007
+  # OW Energy:                        0.0007
+  # OW Water:                         0.0007
+  # OW Construction:                  0.0007
+  # OW Trade:                         0.0007
+  # OW Transport:                     0.0007
+  # OW Catering and Accommodation:    0.0007
+  # OW ICT:                           0.0007
+  # OW Finance:                       0.0007
+  # OW Real Estate:                   0.0007
+  # OW Technical:                     0.0007
+  # OW Administration:                0.0007
+  # OW Education:                     0.0007
+  # OW Entertainment:                 0.0007
+  # OW Other Services:                0.0007
+  # School:                           0.0007
+  # Restaurant:                       0.0007
+  # Outdoor:                          0.0
+  # Car:                              0.0007
+  # Public Transport:                 0.0007
+  # Shop:                             0.0007
+  # Medical:                          0.0007
+  # Hospital:                         0.0007
+  # Hotel:                            0.0007
+  # Place of Worship:                 0.0007
+  # Indoor Sport:                     0.0007
+  # Cinema or Theatre:                0.0007
+  # Museum or Zoo:                    0.0007
+  # Belgium:                          0.0
+  # France:                           0.0
+  # Germany:                          0.0
+  # Cemetery:                         0.0
 
-# Infectious period in days
-infectious_period_days: 14 # 20160 minutes
+# -------------------- Advanced SEIRD Model -------------------------------------
 
+# The health states appearing in this model are as follows:
+health_states:
+  - SUSCEPTIBLE
+  - EXPOSED
+  - ASYMPTOMATIC
+  - PREINFECTED
+  - INFECTED
+  - HOSPITALIZING
+  - VENTILATING
+  - RECOVERED
+  - DEAD
+# Agents in the following states can transmit the virus:
+contagious_states:
+  - ASYMPTOMATIC
+  - PREINFECTED
+  - INFECTED
+  - HOSPITALIZING
+  - VENTILATING
+# Agents in the following states will be moved to a hospital:
+hospital_states:
+  - HOSPITALIZING
+  - VENTILATING
+# Agents in the following states will be moved to a cemetery:
+dead_states:
+  - DEAD
+# A list of possibile trajectories through the health states is encoded as follows:
+disease_profile_list:
+  - SEAR
+  - SEPIR
+  - SEPID
+  - SEPIHR
+  - SEPIHD
+  - SEPIHVHR
+  - SEPIHVD
+# For a given age x and step size
+disease_profile_distribution_by_age_step_size: 5
+# the following dictionary provides a probability distribution over the list of disease profiles
+# for agents belonging to the age range range(x,x+d), where d equals the step size:
+disease_profile_distribution_by_age:
+  0:    [0.71, 0.278163265, 0          , 0.005918367, 0          , 0.005918367, 0          ]
+  5:    [0.71, 0.283555556, 0          , 0.006444444, 0          , 0          , 0          ]
+  10:   [0.79, 0.210000000, 0          , 0          , 0          , 0          , 0          ]
+  15:   [0.79, 0.207543860, 0          , 0.001228070, 0          , 0.001228070, 0          ]
+  20:   [0.73, 0.261734694, 0          , 0.008265306, 0          , 0          , 0          ]
+  25:   [0.73, 0.265990099, 0          , 0.004009901, 0          , 0          , 0          ]
+  30:   [0.67, 0.318704156, 0          , 0.010488998, 0          , 0.000806846, 0          ]
+  35:   [0.67, 0.317983193, 0          , 0.011092437, 0          , 0.000924370, 0          ]
+  40:   [0.60, 0.373753281, 0          , 0.019947507, 0          , 0.006299213, 0          ]
+  45:   [0.60, 0.368109339, 0          , 0.026423690, 0          , 0.005466970, 0          ]
+  50:   [0.51, 0.452307692, 0          , 0.033257919, 0          , 0.004434389, 0          ]
+  55:   [0.51, 0.420583333, 0          , 0.063972222, 0          , 0.005444444, 0          ]
+  60:   [0.37, 0.525000000, 0          , 0.084000000, 0          , 0.017500000, 0.003500000]
+  65:   [0.37, 0.481528662, 0.008025478, 0.108343949, 0          , 0.018343949, 0.013757962]
+  70:   [0.31, 0.394285714, 0          , 0.213622291, 0.018310482, 0.031890756, 0.031890756]
+  75:   [0.31, 0.357469880, 0.024939759, 0.227974977, 0.029735867, 0.049879518, 0          ]
+  80:   [0.31, 0.291333333, 0.069000000, 0.207638889, 0.091361111, 0.010222222, 0.020444444]
+  85:   [0.31, 0.334329897, 0.085360825, 0.168152921, 0.095042955, 0          , 0.007113402]
+  90:   [0.31, 0.322500000, 0.127500000, 0.135000000, 0.105000000, 0          , 0          ]
+# Disease durations in days (C: constant, G: gamma, U: uniform)
+durations_by_profile:
+  SEAR:     [None, [G, [4, 0.75]], [G, [4, 1.25]]  , None]
+  SEPIR:    [None, [G, [4, 0.75]], [G, [4, 0.525]], [G, [4, 0.725]], None]
+  SEPID:    [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [10,15]]   , None]
+  SEPIHR:   [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [8,21]], None]
+  SEPIHD:   [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [5,16]], None]
+  SEPIHVHR: [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [3,5]] , [U, [2,12]], [U, [2,4]], None]
+  SEPIHVD:  [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [3,5]] , [U, [7,10]], None]
 # How many people start off infected at t=0
 initial_infections: 10
-
-# Probabilities of death occurring at the end of the infectious period,
-# rather than recovery. These are NOT weights, they are probabilities
-# 0-1 for the age ranges given, e.g. [[0, 9], 0.17] == 17% chance of
-# death for those in the range (0,9]. Missing age ranges will be
-# interpreted as 0 probability.
-probability_of_death:
-  - [[0, 9],    0.0 ]
-  - [[10, 19],  0.0 ]
-  - [[20, 29],  0.0 ]
-  - [[30, 39],  0.0 ]
-  - [[40, 49],  0.0 ]
-  - [[50, 59],  0.01]
-  - [[60, 69],  0.04]
-  - [[70, 79],  0.08]
-  - [[80, 89],  0.15]
-  - [[90, 130], 0.15]
-
 # The probability of other agents sharing a given location catching the
 # pathogen each time tick.
 infection_probabilities_per_tick:
@@ -406,40 +532,7 @@ infection_probabilities_per_tick:
   Belgium:                          0.0
   France:                           0.0
   Germany:                          0.0
-
-# -------------------- END Basic SEIRD Model -------------------------------------
-
-
-
-# -------------------- Advanced SEIRD Model -------------------------------------
-
-# FIXME: make these editable by humans
-infection_profiles_by_age: |
-  age , EAR  , EPIR        , EPID        , EPIHR       , EPIHD       , EPIHVHR     , EPIHVD
-  0   , 0.71 , 0.278163265 , 0           , 0.005918367 , 0           , 0.005918367 , 0
-  5   , 0.71 , 0.283555556 , 0           , 0.006444444 , 0           , 0           , 0
-  10  , 0.79 , 0.21        , 0           , 0           , 0           , 0           , 0
-  15  , 0.79 , 0.20754386  , 0           , 0.00122807  , 0           , 0.00122807  , 0
-  20  , 0.73 , 0.261734694 , 0           , 0.008265306 , 0           , 0           , 0
-  25  , 0.73 , 0.265990099 , 0           , 0.004009901 , 0           , 0           , 0
-  30  , 0.67 , 0.318704156 , 0           , 0.010488998 , 0           , 0.000806846 , 0
-  35  , 0.67 , 0.317983193 , 0           , 0.011092437 , 0           , 0.00092437  , 0
-  40  , 0.6  , 0.373753281 , 0           , 0.019947507 , 0           , 0.006299213 , 0
-  45  , 0.6  , 0.368109339 , 0           , 0.02642369  , 0           , 0.00546697  , 0
-  50  , 0.51 , 0.452307692 , 0           , 0.033257919 , 0           , 0.004434389 , 0
-  55  , 0.51 , 0.420583333 , 0           , 0.063972222 , 0           , 0.005444444 , 0
-  60  , 0.37 , 0.525       , 0           , 0.084       , 0           , 0.0175      , 0.0035
-  65  , 0.37 , 0.481528662 , 0.008025478 , 0.108343949 , 0           , 0.018343949 , 0.013757962
-  70  , 0.31 , 0.394285714 , 0           , 0.213622291 , 0.018310482 , 0.031890756 , 0.031890756
-  75  , 0.31 , 0.35746988  , 0.024939759 , 0.227974977 , 0.029735867 , 0.049879518 , 0
-  80  , 0.31 , 0.291333333 , 0.069       , 0.207638889 , 0.091361111 , 0.010222222 , 0.020444444
-  85  , 0.31 , 0.334329897 , 0.085360825 , 0.168152921 , 0.095042955 , 0           , 0.007113402
-  90  , 0.31 , 0.3225      , 0.1275      , 0.135       , 0.105       , 0           , 0
-
-
-
-# -------------------- END Advanced SEIRD Model -------------------------------------
-
+  Cemetery:                         0.0
 
 
 # ################################# Population and Age #################################
