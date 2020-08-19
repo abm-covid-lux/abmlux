@@ -423,7 +423,7 @@ beta:  0.3838
   # Germany:                          0.0
   # Cemetery:                         0.0
 
-# -------------------- Advanced SEIRD Model -------------------------------------
+# -------------------- Compartment Model -------------------------------------
 
 # The health states appearing in this model are as follows:
 health_states:
@@ -436,6 +436,7 @@ health_states:
   - VENTILATING
   - RECOVERED
   - DEAD
+
 # Agents in the following states can transmit the virus:
 contagious_states:
   - ASYMPTOMATIC
@@ -443,13 +444,16 @@ contagious_states:
   - INFECTED
   - HOSPITALIZING
   - VENTILATING
+
 # Agents in the following states will be moved to a hospital:
 hospital_states:
   - HOSPITALIZING
   - VENTILATING
+
 # Agents in the following states will be moved to a cemetery:
 dead_states:
   - DEAD
+
 # A list of possibile trajectories through the health states is encoded as follows:
 disease_profile_list:
   - SEAR
@@ -459,6 +463,7 @@ disease_profile_list:
   - SEPIHD
   - SEPIHVHR
   - SEPIHVD
+
 # For a given age x and step size
 disease_profile_distribution_by_age_step_size: 5
 # the following dictionary provides a probability distribution over the list of disease profiles
@@ -483,6 +488,7 @@ disease_profile_distribution_by_age:
   80:   [0.31, 0.291333333, 0.069000000, 0.207638889, 0.091361111, 0.010222222, 0.020444444]
   85:   [0.31, 0.334329897, 0.085360825, 0.168152921, 0.095042955, 0          , 0.007113402]
   90:   [0.31, 0.322500000, 0.127500000, 0.135000000, 0.105000000, 0          , 0          ]
+
 # Disease durations in days (C: constant, G: gamma, U: uniform)
 durations_by_profile:
   SEAR:     [None, [G, [4, 0.75]], [G, [4, 1.25]]  , None]
@@ -492,8 +498,10 @@ durations_by_profile:
   SEPIHD:   [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [5,16]], None]
   SEPIHVHR: [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [3,5]] , [U, [2,12]], [U, [2,4]], None]
   SEPIHVD:  [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [3,5]] , [U, [7,10]], None]
+
 # How many people start off infected at t=0
 initial_infections: 10
+
 # The probability of other agents sharing a given location catching the
 # pathogen each time tick.
 infection_probabilities_per_tick:
