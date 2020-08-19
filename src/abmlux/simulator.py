@@ -166,7 +166,7 @@ class Simulator:
 #
 # #######################################################################################
 
-    def _update_agents(self, t, health_changes, activity_changes):
+    def _update_agents(self, health_changes, activity_changes):
         """Update the state of agents according to the lists provided."""
 
         # 2.1 - Update health status

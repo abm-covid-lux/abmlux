@@ -1,4 +1,4 @@
-"""SEIRD-based disease models"""
+"""Disease models based on discrete compartments with transition probabilities"""
 
 import logging
 from tqdm import tqdm
@@ -9,6 +9,8 @@ from abmlux.random_tools import random_choice, random_choices, random_sample, bo
 log = logging.getLogger("adv_seird_model")
 
 class CompartmentalModel(DiseaseModel):
+    """Represents a disease as a set of states with transition probabilities and a pre-determined,
+    static set of potential routes through the states."""
 
     def __init__(self, prng, config):
 
@@ -32,6 +34,8 @@ class CompartmentalModel(DiseaseModel):
         self.max_age = max(age for age in profiles)
         self.step_size = step_size
         self.dict_by_age = {}
+        # Pylint doesn't like the comprehension below but I _think_ it's fine.
+        #pylint: disable=unnecessary-comprehension
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
 
@@ -107,10 +111,12 @@ class CompartmentalModel(DiseaseModel):
                              [self.disease_profile_index_dict[agent]]
 
             # duration_ticks is None if agent.health is susceptible, recovered or dead
+            # pylint: disable=line-too-long
             if duration_ticks is not None:
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
                     next_health.append((agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1]))
+            # pylint: enable=line-too-long
 
         # Update the counter for when agents last changed health state
         for agent, _ in next_health:
