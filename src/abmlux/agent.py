@@ -14,17 +14,6 @@ class AgentType(IntEnum):
     ADULT   = 1
     RETIRED = 2
 
-
-class HealthStatus(IntEnum):
-    """Agent health status"""
-
-    SUSCEPTIBLE = 0
-    INFECTED    = 1
-    EXPOSED     = 2
-    RECOVERED   = 3
-    DEAD        = 4
-
-
 # TODO: move to config
 POPULATION_SLICES = {
         AgentType.CHILD: slice(None, 18),   # Children <18
@@ -37,9 +26,6 @@ POPULATION_RANGES = {
         AgentType.ADULT: range(18, 65),     # Adults 18-65
         AgentType.RETIRED: range(65, 120)  # Retired >65
     }
-
-
-
 
 class Agent:
     """Represents a single agent within the simulation"""
@@ -55,7 +41,7 @@ class Agent:
         # Current state
         self.current_activity  = None
         self.current_location  = current_location
-        self.health            = HealthStatus.SUSCEPTIBLE
+        self.health            = None
 
     def locations_for_activity(self, activity):
         """Return a list of locations this agent can go to for

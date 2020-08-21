@@ -19,7 +19,7 @@ class HealthStateCounts(Reporter):
         # Write header
         header = []
         header.append("time")
-        header += [k.name for k, v in sim.agents_by_health_state.items()]
+        header += [str(k) for k, v in sim.agents_by_health_state.items()]
 
         self.writer.writerow(header)
 

@@ -10,7 +10,6 @@ from matplotlib.lines import Line2D
 
 from abmlux.utils import string_as_mpl_colour
 from abmlux.reporter import Reporter
-from abmlux.agent import HealthStatus
 
 
 # FIXME: remove this in favour of parameters
@@ -19,20 +18,20 @@ LOCATION_TYPE_BLACKLIST = ["Outdoor", "Public Transport"]
 class LocationPlots(Reporter):
     """Output multiple plots showing agent locations at each time step"""
 
-    def __init__(self, dirname, types_to_show=None, health_to_show=None, figure_size=(10, 10),
-                 every_n=1):
+    # pylint: disable=too-many-arguments
+    def __init__(self, dirname, types_to_show=None, health_to_show=None,
+                 figure_size=(10, 10), every_n=1):
 
-        self.dirname     = dirname
-        self.figure_size = figure_size
-        self.every_n     = every_n
+        self.dirname        = dirname
+        self.figure_size    = figure_size
+        self.every_n        = every_n
+        self.health_to_show = health_to_show
+
+        # These get populated on simulator start
+        self.health_state_label = ""
+        self.health_filter      = []
 
         os.makedirs(self.dirname, exist_ok=True)
-
-        # Choose which health states to show
-        self.health_filter = list(HealthStatus)
-        if health_to_show is not None and len(health_to_show) > 0:
-            self.health_filter = [HealthStatus[h] for h in health_to_show]
-        self.health_state_label = ", ".join([h.name for h in self.health_filter])
 
         # Choose which locations to show
         self.type_filter = None
@@ -47,6 +46,13 @@ class LocationPlots(Reporter):
         matplotlib.use('Agg')
 
     def start(self, sim):
+
+        # Choose which health states to show
+        self.health_filter = sim.disease.states
+        if self.health_to_show is not None and len(self.health_to_show) > 0:
+            self.health_filter = self.health_to_show
+        self.health_state_label = ", ".join(self.health_filter)
+
         if self.type_filter is None:
             self.type_filter = [x for x in list(sim.network.locations_by_type.keys())
                                 if x not in LOCATION_TYPE_BLACKLIST]

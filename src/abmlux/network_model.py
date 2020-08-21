@@ -11,7 +11,7 @@ from openpyxl import load_workbook
 
 from .random_tools import (multinoulli, multinoulli_dict, random_choices, random_sample,
                            random_choice, random_shuffle, random_randrange_interval)
-from .agent import Agent, AgentType, POPULATION_SLICES, HealthStatus
+from .agent import Agent, AgentType, POPULATION_SLICES
 from .location import Location, WGS84_to_ETRS89
 from .activity_manager import ActivityManager
 from .network import Network
@@ -537,9 +537,7 @@ def assign_activities(prng, config, network, activity_distributions):
 
     clock = SimClock(config['tick_length_s'], config['simulation_length_days'], config['epoch'])
     log.debug("Loading initial state for simulation...")
-    # Infect a few people
-    for agent in random_sample(prng, network.agents, k=config['initial_infections']):
-        agent.health = HealthStatus.INFECTED
+
     log.debug("Seeding initial activity states and locations...")
     for agent in network.agents:
         # Get distribution for this type at the starting time step
