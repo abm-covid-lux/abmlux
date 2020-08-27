@@ -67,7 +67,7 @@ class Simulator:
             activity_changes = self._get_activity_transitions()
 
             # - 2 - Actually enact changes in an atomic manner
-            self._update_agents(t, health_changes, activity_changes)
+            self._update_agents(health_changes, activity_changes)
 
             for reporter in self.reporters:
                 reporter.iterate(self)
