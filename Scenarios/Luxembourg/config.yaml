@@ -8,7 +8,7 @@ random_seed: 652
 # age_distribution (that is, the real total resident population) then the
 # scale factor will be 1, else all the counts will be scaled according to
 # the ratio of this number and the sum.
-n: 16_108
+n: 1108
 
 # Format is https://docs.python.org/3/library/logging.config.html#logging-config-dictschema
 logging:
@@ -40,16 +40,16 @@ logging:
 
 # Output that should be rendered from the simulation
 reporters:
-  - csv.HealthStateCounts:
-      filename: /tmp/plots/health_state_counts.csv
+  #- csv.HealthStateCounts:
+  #    filename: /tmp/plots/health_state_counts.csv
   # - cli.BasicProgress: {}
   - cli.TQDM: {}
-  - location_population_plots.LocationPlots:
-      dirname: /tmp/plots
-      types_to_show: []
-      health_to_show: [INFECTED]
-      figure_size: [15, 20]  # width, height
-      every_n: 1
+  #- location_population_plots.LocationPlots:
+  #    dirname: /tmp/plots
+  #    types_to_show: []
+  #    health_to_show: [INFECTED]
+  #    figure_size: [15, 20]  # width, height
+  #    every_n: 1
 
 # ################################# Filepaths #################################
 # Relative to this config file location
@@ -90,10 +90,6 @@ trip_data_filepath: Luxmobil_2017_open_data_DRAFT.xlsx
 
 # ---------- Intermediate data ------------
 # Working Directory
-#
-# Ensure there's a trailing slash, please, else mkdirs won't
-# create this directory for you in the case it doesn't exist.
-working_dir: Intermediate Data/
 
 # Results dir
 results_dir: Results/
@@ -541,6 +537,28 @@ infection_probabilities_per_tick:
   France:                           0.0
   Germany:                          0.0
   Cemetery:                         0.0
+
+# ################################# Intervention #################################
+# NOTE: current model supports a single intervention only
+
+
+contact_tracing:
+
+  # Proportion of people who have the app (0-1)
+  app_prevalence: 0.2
+
+  # Number of days to consider contacts across
+  tracing_time_window: 2
+
+  # Generally we consider sharing a location to be equal to contact.
+  # Locations on this list are large enough that this is not the case, e.g.
+  # the 'outdoor' location.
+  location_blacklist: 
+    - Outdoor
+    - Belgium
+    - France
+    - Germany
+    - Cemetery
 
 
 # ################################# Population and Age #################################

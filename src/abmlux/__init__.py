@@ -15,6 +15,7 @@ import abmlux.markov_model as markov_model
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
+from abmlux.intervention import ContactTracingApp
 
 import abmlux.tools as tools
 
@@ -80,6 +81,16 @@ def disease_model(state):
     # Initialise state
     state.disease.initialise_agents(state.network)
 
+def intervention_setup(state):
+    """Set up interventions"""
+
+    state.intervention = ContactTracingApp(state.prng, state.config)
+    # TODO: make this dynamic from the config file
+    # TODO: support >1 interventions
+
+    # Initialise internal state of the intervention object, and allow it to
+    # modify the network if needed
+    state.intervention.initialise_agents(state.network)
 
 def run_sim(state):
     """Run the agent-based model itself"""
@@ -116,6 +127,7 @@ PHASES = {SimulationPhase.BUILD_MAP:         load_map,
           SimulationPhase.BUILD_ACTIVITIES:  build_markov,
           SimulationPhase.ASSIGN_ACTIVITIES: assign_activities,
           SimulationPhase.ASSIGN_DISEASE:    disease_model,
+          SimulationPhase.INIT_INTERVENTION: intervention_setup,
           SimulationPhase.RUN_SIM:           run_sim}
 def main():
     """Main ABMLUX entry point"""
@@ -123,8 +135,7 @@ def main():
 
     # Check the path to the config
     if len(sys.argv) < 2:
-        print(f"USAGE: {sys.argv[0]} path/to/scenario/config.yml [STAGE,STAGE,STAGE]")
-        print(f"   OR: {sys.argv[0]} state.abm [STAGE,STAGE,STAGE]")
+        print(f"USAGE: {sys.argv[0]} state.abm [STAGE,STAGE,STAGE [path/to/config.yml]]")
         print("")
         print(f"EG: {sys.argv[0]} Scenarios/Luxembourg/config.yaml 1,2")
         sys.exit(1)
@@ -134,17 +145,27 @@ def main():
     #
     # TODO: make this more explicit to the user, perhaps by changing the way the command line
     #       'phases' work
+
+    state_filename = sys.argv[1]
     try:
-        print(f"Attempting to read config from {sys.argv[1]}...")
-        config = Config(sys.argv[1])
-        state = SimulationState(config)
-        state_filename = config.filepath('working_dir', STATE_FILENAME, ensure_exists=True)
-    except: # pylint disable=bare-except
-        print(f"Failed to read config from {sys.argv[1]}.  Assuming it's a statefile instead")
-        print(f"Resuming previous state.  Reading {sys.argv[1]}...")
-        state = read_from_disk(sys.argv[1])
-        state_filename = sys.argv[1]
+        print(f"Attempting to read state from {state_filename}...")
+        state = read_from_disk(state_filename)
         write_to_disk(state, state_filename)
+        config = state.config
+
+        # If a config path is given, force the config to change
+        if len(sys.argv) > 3:
+            print(f"WARNING: Overriding config using file at {sys.argv[3]}.")
+            state.config = Config(sys.argv[3])
+
+    except: # pylint disable=bare-except
+        if len(sys.argv) <= 3:
+            print(f"Error: Statefile doesn't exist yet, but no config has been given to create one")
+            sys.exit(1)
+
+        print(f"Creating new statefile at {state_filename} using config at {sys.argv[3]}...")
+        config = Config(sys.argv[3])
+        state = SimulationState(config)
 
     # System config/setup
     logging.config.dictConfig(state.config['logging'])

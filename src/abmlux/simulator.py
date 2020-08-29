@@ -25,11 +25,12 @@ class Simulator:
         self.clock            = SimClock(config['tick_length_s'], config['simulation_length_days'],
                                          config['epoch'])
 
-        self.prng      = state.prng
-        self.network   = state.network
-        self.locations = state.network.locations
-        self.agents    = state.network.agents
-        self.disease   = state.disease
+        self.prng         = state.prng
+        self.network      = state.network
+        self.locations    = state.network.locations
+        self.agents       = state.network.agents
+        self.disease      = state.disease
+        self.intervention = state.intervention
 
         # Read-only config
         self.activity_transitions    = state.activity_transitions
@@ -66,9 +67,15 @@ class Simulator:
             health_changes   = self.disease.get_health_transitions(t, self)
             activity_changes = self._get_activity_transitions()
 
-            # - 2 - Actually enact changes in an atomic manner
+            # - 2 - Intervention for activity changes
+            activity_changes += self.intervention.get_activity_transitions(t, self,
+                                                                           activity_changes,
+                                                                           health_changes)
+
+            # - 3 - Actually enact changes in an atomic manner
             self._update_agents(health_changes, activity_changes)
 
+            # 4. Inform reporters of state
             for reporter in self.reporters:
                 reporter.iterate(self)
 

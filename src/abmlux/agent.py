@@ -68,11 +68,7 @@ class Agent:
 
     def set_activity(self, activity, location=None):
         """Sets the agent as performing the activity given at the location
-        specified.
-
-        If a location is given, the agent will remove itself from
-        any attendee list at the current location, and add itself
-        to the attendee list at the new location"""
+        specified."""
 
         log.debug("Agent %s: Activity %s -> %s, Location %s -> %s",
                   self.uuid, self.current_activity, activity, self.current_location, location)
