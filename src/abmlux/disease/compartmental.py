@@ -75,7 +75,7 @@ class CompartmentalModel(DiseaseModel):
         for agent in agents:
             self.health_state_change_time[agent] = 0
 
-    def get_health_transitions(self, t, sim):
+    def get_health_transitions(self, t, sim, agent_updates):
         """Updates the health state of agents"""
 
         # Start by using the simulation clock to convert durations from days to ticks
@@ -87,8 +87,8 @@ class CompartmentalModel(DiseaseModel):
                         duration_ticks = sim.clock.days_to_ticks(duration_days)
                         self.disease_durations_dict[agent][index] = duration_ticks
 
-        # Set of changes to return to the simulator
-        next_health   = []
+        # Agents that have been updated this tick
+        agents_affected = set()
 
         # Compute for each location the probability of catching the virus during this tick
         contagious_count_dict = {l: len([a for a in sim.attendees[l]
@@ -103,7 +103,8 @@ class CompartmentalModel(DiseaseModel):
                                   if self.disease_profile_index_dict[agent] == 0]
             for agent in susceptible_agents:
                 if boolean(self.prng, p_infection):
-                    next_health.append((agent, self.disease_profile_dict[agent][1]))
+                    agent_updates[agent]['health'] = self.disease_profile_dict[agent][1]
+                    agents_affected.add(agent)
 
         # Determine which other agents need moving to their next health state
         for agent in sim.agents:
@@ -115,15 +116,14 @@ class CompartmentalModel(DiseaseModel):
             if duration_ticks is not None:
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
-                    next_health.append((agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1]))
+                    agent_updates[agent]['health'] = self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1]
+                    agents_affected.add(agent)
             # pylint: enable=line-too-long
 
         # Update the counter for when agents last changed health state
-        for agent, _ in next_health:
+        for agent in agents_affected:
             self.disease_profile_index_dict[agent] += 1
             self.health_state_change_time[agent] = t
-
-        return next_health
 
     def _durations_for_profile(self, profile):
         """Assigns durations for each phase in a given profile"""
@@ -136,10 +136,10 @@ class CompartmentalModel(DiseaseModel):
                 durations.append(None)
             if isinstance(dist,list):
                 if dist[0] == 'G':
-                    durations.append(gammavariate(self.prng,float(dist[1][0]),float(dist[1][1])))
+                    durations.append(gammavariate(self.prng, float(dist[1][0]), float(dist[1][1])))
                 if dist[0] == 'U':
                     durations.append(random_choice(self.prng,
-                                                   list(range(int(dist[1][0]),int(dist[1][1])))))
+                                                   list(range(int(dist[1][0]), int(dist[1][1])))))
                 if dist[0] == 'C':
                     durations.append(float(dist[1][0]))
 

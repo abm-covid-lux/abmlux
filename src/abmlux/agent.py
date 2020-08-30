@@ -66,13 +66,16 @@ class Agent:
 
         self.activity_locations[activity] += location
 
-    def set_activity(self, activity, location=None):
-        """Sets the agent as performing the activity given at the location
-        specified."""
+    def set_activity(self, activity):
+        """Sets the agent as performing the activity given"""
 
-        log.debug("Agent %s: Activity %s -> %s, Location %s -> %s",
-                  self.uuid, self.current_activity, activity, self.current_location, location)
+        log.debug("Agent %s: Activity %s -> %s", self.uuid, self.current_activity, activity)
         self.current_activity = activity
+
+    def set_location(self, location):
+        """Sets the agent as being in the location specified"""
+
+        log.debug("Agent %s: Location %s -> %s", self.uuid, self.current_location, location)
         self.current_location = location
 
     def __str__(self):

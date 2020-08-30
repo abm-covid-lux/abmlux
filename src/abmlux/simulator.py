@@ -6,6 +6,7 @@ number of initial seeds. Note that the simulation starts on a Sunday and follows
 framework."""
 
 import logging
+from collections import defaultdict
 
 import abmlux.random_tools as random_tools
 
@@ -63,15 +64,23 @@ class Simulator:
 
         for t in self.clock:
 
+            # What should change this tick
+            agent_updates = defaultdict(dict)
+
             # - 1 - Compute changes and pop them on the list
-            health_changes   = self.disease.get_health_transitions(t, self)
-            activity_changes = self._get_activity_transitions()
+            self.disease.get_health_transitions(t, self, agent_updates)
+            self._get_activity_transitions(agent_updates)
+            self._get_location_transitions(agent_updates)
 
             # - 2 - Intervention for activity changes
-            activity_changes += self.intervention.get_activity_transitions(t, self)
+            self.intervention.get_agent_updates(t, self, agent_updates)
+
+            # DEBUG
+            for agent, updates in agent_updates.items():
+                print(f"-> {agent} -> {updates}")
 
             # - 3 - Actually enact changes in an atomic manner
-            self._update_agents(health_changes, activity_changes)
+            self._update_agents(agent_updates)
 
             # 4. Inform reporters of state
             for reporter in self.reporters:
@@ -80,13 +89,11 @@ class Simulator:
         for reporter in self.reporters:
             reporter.stop(self)
 
-    def _get_activity_transitions(self):
+    def _get_activity_transitions(self, agent_updates):
         """Return a list of activity transitions agents should enact this tick.
 
         The list is given as a list of three-tuples, each containing the agent,
         activity, and location to perform that activity: (agent, activity, location)."""
-
-        next_activities = []
 
         for agent in self.agents:
 
@@ -97,6 +104,16 @@ class Simulator:
             next_activity = self.activity_transitions[agent.agetyp]\
                             [self.clock.ticks_through_week()]\
                             .get_transition(agent.current_activity)
+            agent_updates[agent]['activity'] = next_activity
+
+
+    def _get_location_transitions(self, agent_updates):
+
+        for agent in agent_updates.keys():
+
+            # Don't move unless the activity changes
+            if 'activity' not in agent_updates[agent]:
+                continue
 
             # If at time t the function get_health_transitions outputs 'HOSPITALIZING' for an agent,
             # then the function _get_activity_transitions will move that agent to hospital at the
@@ -117,12 +134,10 @@ class Simulator:
                 else:
                     next_location = random_tools.random_choice(self.prng, self.cemeteries)
             else:
-                allowable_locations = agent.locations_for_activity(next_activity)
+                allowable_locations = agent.locations_for_activity(agent_updates[agent]['activity'])
                 next_location = random_tools.random_choice(self.prng, list(allowable_locations))
 
-            next_activities.append( (agent, next_activity, next_location) )
-
-        return next_activities
+            agent_updates[agent]['location'] = next_location
 
 # #################################### INTERVENTIONS ####################################
 #
@@ -171,30 +186,39 @@ class Simulator:
 #
 # #######################################################################################
 
-    def _update_agents(self, health_changes, activity_changes):
+    def _update_agents(self, agent_updates):
         """Update the state of agents according to the lists provided."""
 
-        # 2.1 - Update health status
-        for agent, new_health in health_changes:
+        for agent, updates in agent_updates.items():
 
-            # Remove from index
-            self.agents_by_health_state[agent.health].remove(agent)
-            self.agent_counts_by_health[agent.health][agent.current_location] -= 1
+            # -------------------------------------------------------------------------------------
+            if 'health' in updates:
+                new_health = updates['health']
 
-            # Update
-            agent.health = new_health
+                # Remove from index
+                self.agents_by_health_state[agent.health].remove(agent)
+                self.agent_counts_by_health[agent.health][agent.current_location] -= 1
 
-            # Add to index
-            self.agents_by_health_state[agent.health].add(agent)
-            self.agent_counts_by_health[agent.health][agent.current_location] += 1
+                # Update
+                agent.health = new_health
 
+                # Add to index
+                self.agents_by_health_state[agent.health].add(agent)
+                self.agent_counts_by_health[agent.health][agent.current_location] += 1
 
-        # 2.2 - Update activity
-        for agent, new_activity, new_location in activity_changes:
+            # -------------------------------------------------------------------------------------
+            if 'activity' in updates:
+                new_activity = updates['activity']
 
-            # Update indices and set activity
-            self.agent_counts_by_health[agent.health][agent.current_location] -= 1
-            self.attendees[agent.current_location].remove(agent)
-            agent.set_activity(new_activity, new_location)
-            self.attendees[agent.current_location].add(agent)
-            self.agent_counts_by_health[agent.health][agent.current_location] += 1
+                agent.set_activity(new_activity)
+
+            # -------------------------------------------------------------------------------------
+            if 'location' in updates:
+                new_location = updates['location']
+
+                # Update indices and set activity
+                self.agent_counts_by_health[agent.health][agent.current_location] -= 1
+                self.attendees[agent.current_location].remove(agent)
+                agent.set_location(new_location)
+                self.attendees[agent.current_location].add(agent)
+                self.agent_counts_by_health[agent.health][agent.current_location] += 1

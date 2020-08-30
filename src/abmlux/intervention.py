@@ -26,13 +26,11 @@ class Intervention:
 
         log.warning("STUB: initialise_agents in intervention.py")
 
-    def get_activity_transitions(self, t, sim):
+    def get_agent_updates(self, t, sim, agent_updates):
         """Return a list of (agent, activity) tuples representing changes in activity this
         intervention applies"""
 
         log.warning("STUB: get_activity_transitions in intervention.py")
-
-        return []
 
 
 class ContactTracingApp(Intervention):
@@ -63,7 +61,7 @@ class ContactTracingApp(Intervention):
         log.info("Selected %i agents with app", len(self.agents_with_app))
 
 
-    def get_activity_transitions(self, t, sim):
+    def get_agent_updates(self, t, sim, agent_updates):
 
         day = sim.clock.now().day
 
@@ -93,19 +91,14 @@ class ContactTracingApp(Intervention):
                 risk = self._get_personal_risk(agent)
                 
                 if risk >= 15:    # FIXME: magic number
-                    pass # TODO
-                    # print(f"[{agent}] -> AAAH! {risk=}")
-                    #activity_changes += [(agent,
-                    #                      agent.current_activity, # FIXME: read out of pre-existing activity changes
-                    #                      a.locations_for_activity(sim.activity_manager.as_int("House")))]
+                    agent_updates[agent]['location'] = \
+                        agent.locations_for_activity(sim.activity_manager.as_int("House"))[0]
                     # FIXME: this sends people home _once_, i.e. they won't remain quarantined
 
             # Move day on and reset day state
             self.current_day                = day
             self.current_day_contacts       = {}
             self.current_day_notifications  = set()
-
-        return [] #activity_changes
 
 
     def _update_contact_list(self, attendees):
