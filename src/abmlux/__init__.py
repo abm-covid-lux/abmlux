@@ -15,7 +15,7 @@ import abmlux.markov_model as markov_model
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
-from abmlux.intervention import ContactTracingApp
+from abmlux.intervention import ContactTracingApp, Quarantine
 
 import abmlux.tools as tools
 
@@ -84,13 +84,15 @@ def disease_model(state):
 def intervention_setup(state):
     """Set up interventions"""
 
-    state.intervention = ContactTracingApp(state.prng, state.config)
+    state.interventions = [ContactTracingApp(state.prng, state.config),
+                           Quarantine(state.prng, state.config)]
     # TODO: make this dynamic from the config file
     # TODO: support >1 interventions
 
     # Initialise internal state of the intervention object, and allow it to
     # modify the network if needed
-    state.intervention.initialise_agents(state.network)
+    for intervention in state.interventions:
+        intervention.initialise_agents(state.network)
 
 def run_sim(state):
     """Run the agent-based model itself"""

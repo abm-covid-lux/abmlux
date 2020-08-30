@@ -560,6 +560,19 @@ contact_tracing:
     - Germany
     - Cemetery
 
+quarantine:
+  # How long agents should quarantine, in days
+  duration_days: 14
+
+  # What counts as a hospital, and as a cemetery?
+  # We assume no quarantine is necessary for people
+  # in these locations, as they're already being taken care of
+  hospital_location_type: Hospital
+  cemetery_location_type: Cemetery
+
+  # Where to go when quarantines
+  home_activity_type: House
+
 
 # ################################# Population and Age #################################
 

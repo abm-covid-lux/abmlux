@@ -51,7 +51,7 @@ class SimulationState:
         self.activity_distributions = None
         self.activity_transitions   = None
         self.disease                = None
-        self.intervention           = None
+        self.interventions          = None
 
     def set_phase_complete(self, phase):
         """Reports that a phase has been completed"""

@@ -26,12 +26,12 @@ class Simulator:
         self.clock            = SimClock(config['tick_length_s'], config['simulation_length_days'],
                                          config['epoch'])
 
-        self.prng         = state.prng
-        self.network      = state.network
-        self.locations    = state.network.locations
-        self.agents       = state.network.agents
-        self.disease      = state.disease
-        self.intervention = state.intervention
+        self.prng          = state.prng
+        self.network       = state.network
+        self.locations     = state.network.locations
+        self.agents        = state.network.agents
+        self.disease       = state.disease
+        self.interventions = state.interventions
 
         # Read-only config
         self.activity_transitions    = state.activity_transitions
@@ -73,11 +73,8 @@ class Simulator:
             self._get_location_transitions(agent_updates)
 
             # - 2 - Intervention for activity changes
-            self.intervention.get_agent_updates(t, self, agent_updates)
-
-            # DEBUG
-            for agent, updates in agent_updates.items():
-                print(f"-> {agent} -> {updates}")
+            for intervention in self.interventions:
+                intervention.get_agent_updates(t, self, agent_updates)
 
             # - 3 - Actually enact changes in an atomic manner
             self._update_agents(agent_updates)

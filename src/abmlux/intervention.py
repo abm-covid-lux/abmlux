@@ -33,6 +33,44 @@ class Intervention:
         log.warning("STUB: get_activity_transitions in intervention.py")
 
 
+
+class Quarantine(Intervention):
+
+    def __init__(self, prng, config):
+        super().__init__(prng, config)
+
+        self.quarantine_duration    = config['quarantine']['duration_days']
+        self.hospital_location_type = config['quarantine']['hospital_location_type']
+        self.cemetery_location_type = config['quarantine']['cemetery_location_type']
+        self.home_activity_type     = config['quarantine']['home_activity_type']
+        self.time_in_quarantine     = {}
+
+    def initialise_agents(self, network):
+        pass
+
+    def get_agent_updates(self, t, sim, agent_updates):
+
+        # Check for any new quarantine victims
+        for agent, updates in agent_updates.items():
+            if 'quarantine' in updates and updates['quarantine']:
+                self.time_in_quarantine[agent] = t + sim.clock.days_to_ticks(self.quarantine_duration)
+
+        # Update quarantine list
+        self.time_in_quarantine = {a: qt for a, qt in self.time_in_quarantine.items() if t < qt}
+
+        print(f"-> {len(self.time_in_quarantine)} people in quarantine")
+
+        # All people in quarantine list should go home, unless they are
+        # in hospital or dead
+        for agent, deadline in self.time_in_quarantine.items():
+            if agent.current_location.typ == self.hospital_location_type:
+                continue
+            if agent.current_location.typ == self.cemetery_location_type:
+                continue
+
+            agent_updates[agent]['location'] = agent.locations_for_activity(sim.activity_manager.as_int(self.home_activity_type))[0]
+
+
 class ContactTracingApp(Intervention):
 
     def __init__(self, prng, config):
@@ -91,9 +129,7 @@ class ContactTracingApp(Intervention):
                 risk = self._get_personal_risk(agent)
                 
                 if risk >= 15:    # FIXME: magic number
-                    agent_updates[agent]['location'] = \
-                        agent.locations_for_activity(sim.activity_manager.as_int("House"))[0]
-                    # FIXME: this sends people home _once_, i.e. they won't remain quarantined
+                    agent_updates[agent]['quarantine'] = True
 
             # Move day on and reset day state
             self.current_day                = day
