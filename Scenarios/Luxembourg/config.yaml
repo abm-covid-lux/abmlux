@@ -548,7 +548,7 @@ contact_tracing:
   app_prevalence: 0.2
 
   # Number of days to consider contacts across
-  tracing_time_window: 2
+  tracing_time_window: 14
 
   # Generally we consider sharing a location to be equal to contact.
   # Locations on this list are large enough that this is not the case, e.g.

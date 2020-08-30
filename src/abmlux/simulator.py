@@ -68,9 +68,7 @@ class Simulator:
             activity_changes = self._get_activity_transitions()
 
             # - 2 - Intervention for activity changes
-            activity_changes += self.intervention.get_activity_transitions(t, self,
-                                                                           activity_changes,
-                                                                           health_changes)
+            activity_changes += self.intervention.get_activity_transitions(t, self)
 
             # - 3 - Actually enact changes in an atomic manner
             self._update_agents(health_changes, activity_changes)
