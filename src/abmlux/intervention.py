@@ -4,7 +4,7 @@ import math
 import logging
 from collections import deque, defaultdict
 
-import abmlux.random_tools as rt
+import abmlux.random_tools as random_tools
 
 log = logging.getLogger("intervention")
 
@@ -33,17 +33,16 @@ class Intervention:
         log.warning("STUB: get_activity_transitions in intervention.py")
 
 
-
 class Quarantine(Intervention):
 
     def __init__(self, prng, config):
         super().__init__(prng, config)
 
-        self.quarantine_duration    = config['quarantine']['duration_days']
-        self.hospital_location_type = config['quarantine']['hospital_location_type']
-        self.cemetery_location_type = config['quarantine']['cemetery_location_type']
-        self.home_activity_type     = config['quarantine']['home_activity_type']
-        self.time_in_quarantine     = {}
+        self.quarantine_duration         = config['quarantine']['duration_days']
+        self.hospital_location_type      = config['quarantine']['hospital_location_type']
+        self.cemetery_location_type      = config['quarantine']['cemetery_location_type']
+        self.home_activity_type          = config['quarantine']['home_activity_type']
+        self.time_in_quarantine          = {}
 
     def initialise_agents(self, network):
         pass
@@ -81,23 +80,30 @@ class ContactTracingApp(Intervention):
         self.agents_who_have_notified_app   = set()
 
         # State kept on who has seen whom during the day
-        self.current_day          = None
-        self.current_day_contacts = {}
-        self.current_day_notifications = set()
-        self.exposure_by_day      = deque([], config['contact_tracing']['tracing_time_window'])
+        self.current_day                 = None
+        self.current_day_contacts        = {}
+        self.current_day_notifications   = set()
+        self.symptomatic_states          = set(config['symptomatic_states'])
+        self.exposure_by_day      = deque([], config['contact_tracing']['tracing_time_window_days'])
+        self.time_at_risk_threshold_mins = config['contact_tracing']['time_at_risk_threshold_mins']
+        self.av_risk_mins                = config['contact_tracing']['av_risk_mins']
+        self.trans_risk_threshold        = config['contact_tracing']['trans_risk_threshold']
+        self.prob_do_quarantine          = config['contact_tracing']['prob_do_quarantine']
+        self.duration_wgt                = config['contact_tracing']['duration_wgt']
+        self.attenuation_wgt             = config['contact_tracing']['attenuation_wgt']
+        self.days_since_last_expsr_wgt   = config['contact_tracing']['days_since_last_expsr_wgt']
 
     def initialise_agents(self, network):
         """Select a number of agents that will have the app installed."""
 
         num_app_installs = min(len(network.agents), math.ceil(len(network.agents) * \
                                  self.config['contact_tracing']['app_prevalence']))
-        self.agents_with_app = rt.random_sample(self.prng, network.agents, num_app_installs)
+        self.agents_with_app = random_tools.random_sample(self.prng, network.agents, num_app_installs)
 
         # Blacklist "outdoor" locations and other 'group'/holding locations
         self.location_type_blacklist = self.config['contact_tracing']['location_blacklist']
 
         log.info("Selected %i agents with app", len(self.agents_with_app))
-
 
     def get_agent_updates(self, t, sim, agent_updates):
 
@@ -127,9 +133,9 @@ class ContactTracingApp(Intervention):
             # Apps download diagnosis keys and calculate whether to notify their users
             for agent in self.agents_with_app:
                 risk = self._get_personal_risk(agent)
-                
-                if risk >= 15:    # FIXME: magic number
-                    agent_updates[agent]['quarantine'] = True
+                if risk >= sim.clock.mins_to_ticks(self.time_at_risk_threshold_mins):
+                    if random_tools.boolean(self.prng, self.prob_do_quarantine):
+                        agent_updates[agent]['quarantine'] = True
 
             # Move day on and reset day state
             self.current_day                = day
@@ -171,8 +177,8 @@ class ContactTracingApp(Intervention):
         This list is later used by other app users to figure out if they met any of the infected
         agents."""
 
-        agents_notifying = {a for a in self.agents_with_app 
-                            if a.health == "INFECTED" and a not in self.agents_who_have_notified_app}
+        agents_notifying = {a for a in self.agents_with_app if a.health in self.symptomatic_states
+                            and a not in self.agents_who_have_notified_app}
         self.current_day_notifications.update(agents_notifying)
 
         # Blacklist from notifying again
@@ -200,21 +206,19 @@ class ContactTracingApp(Intervention):
                 self.current_day_notifications.intersection(daily_exposure.keys())
 
             for other_agent in agents_who_have_notified_app:
-                # NOTE: 1, 1, 5 here all determined by the sim's
-                #       time and space resolution assumptions
-                risk = \
-                    1 * 1 * 5 * ContactTracingApp.transmission_risk_level_base_case(days_since_contact)
+                risk = self.duration_wgt * self.attenuation_wgt * self.days_since_last_expsr_wgt \
+                       * ContactTracingApp.transmission_risk_level_base_case(days_since_contact)
 
                 # Keep track of global maximum risk
                 if risk > max_risk:
                     max_risk = risk
 
                 # If over the threshold, note that this agent is in the 'at risk' list
-                if risk >= 11:
+                if risk > self.trans_risk_threshold:
                     # print(f"[{i}] --> {risk} ({other_agent})")
                     time_at_risk += daily_exposure[other_agent]
 
-        return time_at_risk * max_risk / 25
+        return time_at_risk * max_risk / self.av_risk_mins
 
     @staticmethod
     def transmission_risk_level_base_case(delay):

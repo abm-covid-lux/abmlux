@@ -21,6 +21,7 @@ class CompartmentalModel(DiseaseModel):
         self.infection_probabilities    = config['infection_probabilities_per_tick']
         self.num_initial_infections     = config['initial_infections']
         self.contagious_states          = set(config['contagious_states'])
+        self.incubating_states          = set(config['incubating_states'])
         self.durations_by_profile       = config['durations_by_profile']
         self.health_state_change_time   = {}
         self.disease_profile_index_dict = {}
@@ -47,6 +48,8 @@ class CompartmentalModel(DiseaseModel):
         # passes through and in which order.
         log.info("Assigning disease profiles and durations...")
         agents = network.agents
+        total_contagious_time = 0
+        total_incubation_time = 0
         for agent in tqdm(agents):
             age_rounded = min((agent.age//self.step_size)*self.step_size, self.max_age)
             profile = random_choices(self.prng, list(self.dict_by_age[age_rounded].keys()),
@@ -56,6 +59,16 @@ class CompartmentalModel(DiseaseModel):
             assert len(durations) == len(profile)
             self.disease_profile_dict[agent] = profile
             self.disease_durations_dict[agent] = durations
+            # For information purposes, we calculate the mean incubation and contagious periods
+            for i in range(len(profile)):
+                if profile[i] in self.incubating_states:
+                    total_incubation_time += durations[i]
+                if profile[i] in self.contagious_states:
+                    total_contagious_time += durations[i]
+        average_contagious_time = total_contagious_time / len(agents)
+        average_incubation_time = total_incubation_time / len(agents)
+        log.info("Average contagious period (days): %s", average_contagious_time)
+        log.info("Average incubation period (days): %s", average_incubation_time)
 
         # The disease profile index dictionary keeps track of the progress each agent has made
         # through their disease profile. We start by setting the index of all agents to 0.

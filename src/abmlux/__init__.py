@@ -84,8 +84,8 @@ def disease_model(state):
 def intervention_setup(state):
     """Set up interventions"""
 
-    state.interventions = [ContactTracingApp(state.prng, state.config),
-                           Quarantine(state.prng, state.config)]
+#    state.interventions = []
+    state.interventions = [ContactTracingApp(state.prng, state.config), Quarantine(state.prng, state.config)]
     # TODO: make this dynamic from the config file
     # TODO: support >1 interventions
 

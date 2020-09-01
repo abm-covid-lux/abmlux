@@ -137,6 +137,10 @@ class SimClock:
         """Return the number of weeks elapsed since the start of the simulation"""
         return self.t / self.ticks_in_week
 
+    def mins_to_ticks(self, mins):
+        """Convert a number of minutes to a number of simulation ticks"""
+        return mins * self.ticks_in_minute
+
     def days_to_ticks(self, days):
         """Convert a number of days to a number of simulation ticks"""
         return days * self.ticks_in_day

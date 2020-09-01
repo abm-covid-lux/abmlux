@@ -8,7 +8,8 @@ random_seed: 652
 # age_distribution (that is, the real total resident population) then the
 # scale factor will be 1, else all the counts will be scaled according to
 # the ratio of this number and the sum.
-n: 1108
+#n: 16_108
+n: 1000
 
 # Format is https://docs.python.org/3/library/logging.config.html#logging-config-dictschema
 logging:
@@ -40,8 +41,8 @@ logging:
 
 # Output that should be rendered from the simulation
 reporters:
-  #- csv.HealthStateCounts:
-  #    filename: /tmp/plots/health_state_counts.csv
+  - csv.HealthStateCounts:
+      filename: /tmp/plots/health_state_counts.csv
   # - cli.BasicProgress: {}
   - cli.TQDM: {}
   #- location_population_plots.LocationPlots:
@@ -346,8 +347,13 @@ beta:  0.3838
   # - INFECTED
   # - RECOVERED
   # - DEAD
+# # Agents in the following states are categorized as exposed:
+# incubating_states:
+  # - EXPOSED
 # # Agents in the following states can transmit the virus:
 # contagious_states:
+  # - INFECTED
+# symptomatic_states:
   # - INFECTED
 # # Agents in the following states will be moved to a hospital:
 # hospital_states: []
@@ -419,7 +425,7 @@ beta:  0.3838
   # Germany:                          0.0
   # Cemetery:                         0.0
 
-# -------------------- Compartment Model -------------------------------------
+# -------------------- Advanced SEIRD Model -------------------------------------
 
 # The health states appearing in this model are as follows:
 health_states:
@@ -433,10 +439,20 @@ health_states:
   - RECOVERED
   - DEAD
 
+# Agents in the following states are categorized as exposed:
+incubating_states:
+  - EXPOSED
+
 # Agents in the following states can transmit the virus:
 contagious_states:
   - ASYMPTOMATIC
   - PREINFECTED
+  - INFECTED
+  - HOSPITALIZING
+  - VENTILATING
+
+# Agents in the following states are symptomatic:
+symptomatic_states:
   - INFECTED
   - HOSPITALIZING
   - VENTILATING
@@ -487,7 +503,7 @@ disease_profile_distribution_by_age:
 
 # Disease durations in days (C: constant, G: gamma, U: uniform)
 durations_by_profile:
-  SEAR:     [None, [G, [4, 0.75]], [G, [4, 1.25]]  , None]
+  SEAR:     [None, [G, [4, 0.75]], [G, [4, 1.25]] , None]
   SEPIR:    [None, [G, [4, 0.75]], [G, [4, 0.525]], [G, [4, 0.725]], None]
   SEPID:    [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [10,15]]   , None]
   SEPIHR:   [None, [G, [4, 0.75]], [G, [4, 0.525]], [U, [5,9]]     , [U, [8,21]], None]
@@ -538,17 +554,35 @@ infection_probabilities_per_tick:
   Germany:                          0.0
   Cemetery:                         0.0
 
-# ################################# Intervention #################################
-# NOTE: current model supports a single intervention only
-
+# ################################# Interventions #################################
 
 contact_tracing:
 
   # Proportion of people who have the app (0-1)
   app_prevalence: 0.2
 
+  #Agents follow the advice of the app to quarantine with the following probability:
+  prob_do_quarantine: 0.8
+
+  # If the total risk score of an agent exceeds the following lower bound, that agent will recieve
+  # a notification to quarantine:
+  time_at_risk_threshold_mins: 15
+
+  # Transmission risk threshold beyond which a contact on a given day is counted:
+  trans_risk_threshold: 11
+
+  # Additional parameters required by the app. Note that the first of these, namely duration_wgt,
+  # assumes that the tick length is at least 600 seconds. Refer to app documentation for additional
+  # details.
+  duration_wgt: 1
+  attenuation_wgt: 1
+  days_since_last_expsr_wgt: 5
+
+  # Average risk used in calculating total time at risk:
+  av_risk_mins: 25
+
   # Number of days to consider contacts across
-  tracing_time_window: 14
+  tracing_time_window_days: 14
 
   # Generally we consider sharing a location to be equal to contact.
   # Locations on this list are large enough that this is not the case, e.g.
@@ -561,7 +595,7 @@ contact_tracing:
     - Cemetery
 
 quarantine:
-  # How long agents should quarantine, in days
+  # Quarantining immediately directs an agent home for a predetermined duration
   duration_days: 14
 
   # What counts as a hospital, and as a cemetery?
