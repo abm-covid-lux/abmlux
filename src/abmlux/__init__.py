@@ -85,7 +85,8 @@ def intervention_setup(state):
     """Set up interventions"""
 
 #    state.interventions = []
-    state.interventions = [ContactTracingApp(state.prng, state.config), Quarantine(state.prng, state.config)]
+    state.interventions = [Laboratory(state.prng, state.config), LargeScaleTesting(state.prng, state.config), ContactTracing(state.prng, state.config), ContactTracingApp(state.prng, state.config), Quarantine(state.prng, state.config)]
+    # Laboratory must come first!!!
     # TODO: make this dynamic from the config file
     # TODO: support >1 interventions
 

@@ -556,7 +556,41 @@ infection_probabilities_per_tick:
 
 # ################################# Interventions #################################
 
+testing:
+
+  # The probability of a false positive:
+  prob_false_positive: 0.01
+  # The probability of a false negative:
+  prob_false_negative: 0.01
+
+large_scale_testing:
+
+  # Parameters...
+
 contact_tracing:
+
+  max_per_day: 100
+
+  # Number of days to consider contacts across
+  tracing_time_window_days: 14
+
+  #Agents follow the advice of the app to quarantine with the following probability:
+  prob_do_quarantine: 0.8
+
+  relevant_activities:
+    - House
+    - Work
+    - School
+
+  # Generally we consider sharing a location to be equal to contact.
+  # Locations on this list are large enough that this is not the case, e.g.
+  # the 'outdoor' location.
+  location_type_blacklist: 
+    - Belgium
+    - France
+    - Germany
+
+contact_tracing_app:
 
   # Proportion of people who have the app (0-1)
   app_prevalence: 0.2
@@ -570,6 +604,14 @@ contact_tracing:
 
   # Transmission risk threshold beyond which a contact on a given day is counted:
   trans_risk_threshold: 11
+
+  # The time between agents developing symptoms and uploading to the app is assumed to follow the
+  # following probability distribution, the units of the indices being days:
+  upload_delay: [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001]
+
+  # The risk profile used in calculating the risk level in the base case, the units of the indices
+  # being days:
+  trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
 
   # Additional parameters required by the app. Note that the first of these, namely duration_wgt,
   # assumes that the tick length is at least 600 seconds. Refer to app documentation for additional
@@ -587,7 +629,7 @@ contact_tracing:
   # Generally we consider sharing a location to be equal to contact.
   # Locations on this list are large enough that this is not the case, e.g.
   # the 'outdoor' location.
-  location_blacklist: 
+  location_type_blacklist: 
     - Outdoor
     - Belgium
     - France
