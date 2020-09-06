@@ -5,6 +5,7 @@ import logging
 from tqdm import tqdm
 from collections import deque, defaultdict
 
+from abmlux.sim_time import DeferredEventPool
 import abmlux.random_tools as random_tools
 
 log = logging.getLogger("intervention")
@@ -16,10 +17,11 @@ class Intervention:
     Interventions are notified of simulation state on every tick, allowing them to
     build internal state and return a list of activity changes in order to affect the simulation"""
 
-    def __init__(self, prng, config):
+    def __init__(self, prng, config, clock):
 
         self.prng   = prng
         self.config = config
+        self.clock  = clock
 
     def initialise_agents(self, network):
         """Initialise internal state for this intervention, potentially
@@ -55,6 +57,14 @@ class Laboratory(Intervention):
 
     def get_agent_updates(self, t, sim, agent_updates, schedule, information):
 
+        stuff_to_do = self.pending_events
+
+        for stuff in stuff_to_do:
+            stuff.do()
+
+
+
+
         # Each agent previously selected for testing during the current tick is tested:
         for agent in schedule['testing'][t]:
             if agent.health in self.infected_states:
@@ -63,27 +73,31 @@ class Laboratory(Intervention):
                 else:
                     information['test results'][agent] = True
                     information['quarantine'][agent] = True
-                    information['stop quarantine'][agent] = t + 2weeks                              # ...
+                    information['stop quarantine'][agent] = t + 2#weeks                              # ...
             else:
                 if random_tools.boolean(self.prob_false_positive):
                     information['test results'][agent] = True
                     information['quarantine'][agent] = True
-                    information['stop quarantine'][agent] = t + 2weeks                              # ...
+                    information['stop quarantine'][agent] = t + 2#weeks                              # ...
                 else:
                     information['test results'][agent] = False
-               information['awaiting test'][agent] = False
+                information['awaiting test'][agent] = False
 
 class LargeScaleTesting(Intervention):
 
-    def __init__(self, prng, config):
-        super().__init__(prng, config)
+    def __init__(self, prng, config, clock):
+        super().__init__(prng, config, clock)
 
         # Parameters
         self.symptomatic_states  = set(config['symptomatic_states'])
 
-    def initialise_agents(self, network):
+        self.awaiting_test       = DeferredEventPool(clock)
+        self.agents_awaiting_test = set()
 
-        information['requesting test'] = {a: False for a in network.agents}
+        self.current_day = None
+
+    def initialise_agents(self, network):
+        pass
 
     def get_agent_updates(self, t, sim, agent_updates, schedule, information):
 
@@ -99,18 +113,22 @@ class LargeScaleTesting(Intervention):
                     # information['awaiting test'][agent] = True
 
         # Invited for testing by random selection:
-        day = sim.clock.now().day
+        day = self.clock.now().day
         if self.current_day is None:
             self.current_day = day
 
         if day != self.current_day:
-            test_agents_random = random_tools.random_sample(self.prng, sim.agents, 1000)            # How many to test per day. Numbers such as these need rescaling by population size!
+            test_agents_random = random_tools.random_sample(self.prng, sim.agents, 10)            # How many to test per day. Numbers such as these need rescaling by population size!
             for agent in test_agents_random:
-                if information['awaiting test'][agent] = False:
-                    delay_mins = 2880                                                               # Time between request and test. Select a day then randomize time between 8am and 6pm or something?
-                    delay_ticks = max(int(sim.clock.mins_to_ticks(delay_mins)), 1)
-                    schedule['testing'][t + delay_ticks].add(agent)
-                    information['awaiting test'][agent] = True
+                if agent not in self.agents_awaiting_test:
+
+                    # TODO: schedule people for testing in working hours only
+                    self.awaiting_test.add(agent, lifespan=int(self.clock.days_to_ticks(2)))
+                    self.agents_awaiting_test.add(agent)
+
+        # Check over people waiting to be tested
+        for agent in self.awaiting_test:
+            self.agents_awaiting_test.remove(agent) # Update index
 
 class ContactTracing(Intervention):
 
@@ -178,7 +196,7 @@ class ContactTracing(Intervention):
                             schedule['testing'][t + delay_ticks].add(agent)
                             information['awaiting test'][agent] = True
                     information['quarantine'][agent] = True
-                    information['stop quarantine'][agent] = t + 2weeks                              # ...
+                    information['stop quarantine'][agent] = t + 2#weeks                              # ...
 
             # Move day on and reset day state
             self.current_day           = day
@@ -249,7 +267,7 @@ class ContactTracingApp(Intervention):
                             schedule['testing'][t + delay_ticks].add(agent)
                             information['awaiting test'][agent] = True
                         information['quarantine'][agent] = True
-                        information['stop quarantine'][agent] = t + 2weeks                          # ...
+                        information['stop quarantine'][agent] = t + 2#weeks                          # ...
             # Move day on and reset day state
             self.current_day                = day
             self.current_day_contacts       = {}

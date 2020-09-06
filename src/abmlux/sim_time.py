@@ -3,6 +3,7 @@
 Used to represent time in the model."""
 
 import logging
+from collections import defaultdict
 from datetime import datetime,timedelta
 
 import dateparser
@@ -152,3 +153,58 @@ class SimClock:
     def ticks_to_timedelta(self, ticks):
         """Convert a number of simulation ticks to a timedelta object"""
         return timedelta(seconds=ticks * self.tick_length_s)
+
+
+
+class DeferredEventPool:
+
+    def __init__(self, clock):
+        self.events = defaultdict(list)
+        self.clock = clock
+
+    def add(self, payload, deadline=None, lifespan=None):
+
+        self.payload = payload
+
+        if lifespan is None and deadline is None:
+            raise ValueError("Timer must have a deadline or a lifespan set")
+
+        if lifespan is not None:
+            self.deadline = self.clock.t + self._duration_to_ticks(lifespan)
+        else:
+            if isinstance(deadline, datetime):
+                self.deadline = self._duration_to_ticks(deadline - self.clock.epoch)
+            else:
+                self.deadline = self._duration_to_ticks(deadline)
+
+        self.events[self.deadline].append(payload)
+
+    def _duration_to_ticks(self, time_ref):
+        """Converts a duration in raw ticks or timedelta into a number of ticks
+        in the current clock"""
+
+        # Already a tick count
+        if isinstance(time_ref, int):
+            return time_ref
+
+        # A duration object
+        if isinstance(time_ref, timedelta):
+            return int(self.clock.timedelta_to_ticks(time_ref))
+
+        raise ValueError(f"Timer parameter given as a {type(time_ref)}, but expecting int or "\
+                          "timedelta")
+
+    def poll_all(self):
+        payloads =  self.events[self.clock.t]
+        del(self.events[self.clock.t])
+        return payloads
+
+    def poll(self):
+        if len(self.events[self.clock.t]) == 0:
+            return StopIteration()
+        payload = self.events[self.clock.t][0]
+        del(self.events[self.clock.t][0])
+        return payload
+
+    def __iter__(self):
+        return self.poll_all().__iter__()

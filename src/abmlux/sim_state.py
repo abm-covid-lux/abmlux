@@ -7,6 +7,7 @@ import random
 from datetime import datetime
 from enum import IntEnum
 
+from .sim_time import SimClock
 from .version import VERSION
 from .activity_manager import ActivityManager
 
@@ -46,6 +47,8 @@ class SimulationState:
 
         self.config                 = config
         self.activity_manager       = ActivityManager(config['activities'])
+        self.clock                  = SimClock(config['tick_length_s'],
+                                               config['simulation_length_days'], config['epoch'])
         self.map                    = None
         self.network                = None
         self.activity_distributions = None

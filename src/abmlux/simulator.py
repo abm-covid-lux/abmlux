@@ -23,8 +23,7 @@ class Simulator:
         config                = state.config
         self.state            = state
         self.activity_manager = state.activity_manager
-        self.clock            = SimClock(config['tick_length_s'], config['simulation_length_days'],
-                                         config['epoch'])
+        self.clock            = state.clock
 
         self.prng          = state.prng
         self.network       = state.network
@@ -66,7 +65,7 @@ class Simulator:
         information = {}
 
         # Initialize interventions here?
-
+        self.clock.reset()
         for t in self.clock:
 
             # What should change this tick
