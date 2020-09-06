@@ -49,6 +49,7 @@ class SimulationState:
         self.activity_manager       = ActivityManager(config['activities'])
         self.clock                  = SimClock(config['tick_length_s'],
                                                config['simulation_length_days'], config['epoch'])
+        self.bus                    = None
         self.map                    = None
         self.network                = None
         self.activity_distributions = None

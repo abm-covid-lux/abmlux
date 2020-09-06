@@ -12,6 +12,7 @@ import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
+from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
@@ -93,7 +94,8 @@ def intervention_setup(state):
                      Quarantine
                     ]
 
-    state.interventions = [cls(state.prng, state.config, state.clock) for cls in interventions]
+    state.bus = MessageBus()
+    state.interventions = [cls(state.prng, state.config, state.clock, state.bus) for cls in interventions]
     # Laboratory must come first!!!
     # TODO: make this dynamic from the config file
     # TODO: support >1 interventions

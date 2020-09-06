@@ -596,7 +596,7 @@ contact_tracing_app:
   app_prevalence: 0.2
 
   #Agents follow the advice of the app to quarantine with the following probability:
-  prob_do_quarantine: 0.8
+  prob_do_recommendation: 0.8
 
   # If the total risk score of an agent exceeds the following lower bound, that agent will recieve
   # a notification to quarantine:
@@ -629,7 +629,7 @@ contact_tracing_app:
   # Generally we consider sharing a location to be equal to contact.
   # Locations on this list are large enough that this is not the case, e.g.
   # the 'outdoor' location.
-  location_type_blacklist: 
+  location_blacklist: 
     - Outdoor
     - Belgium
     - France

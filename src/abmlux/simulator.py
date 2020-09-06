@@ -9,7 +9,6 @@ import logging
 from collections import defaultdict
 
 import abmlux.random_tools as random_tools
-
 from .sim_time import SimClock
 
 log = logging.getLogger('sim')
@@ -24,6 +23,7 @@ class Simulator:
         self.state            = state
         self.activity_manager = state.activity_manager
         self.clock            = state.clock
+        self.bus              = state.bus
 
         self.prng          = state.prng
         self.network       = state.network
