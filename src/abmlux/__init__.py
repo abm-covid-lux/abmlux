@@ -16,7 +16,7 @@ from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
-from abmlux.intervention import ContactTracingApp, Quarantine, LargeScaleTesting, BookTest, Laboratory
+from abmlux.intervention import ContactTracingApp, ContactTracing, Quarantine, LargeScaleTesting, BookTest, Laboratory
 
 import abmlux.tools as tools
 
@@ -76,7 +76,8 @@ def assign_activities(state):
 def disease_model(state):
     """Set up disease model."""
 
-    state.disease = CompartmentalModel(state.prng, state.config)
+    state.bus = MessageBus()
+    state.disease = CompartmentalModel(state.prng, state.config, state.bus, state)
     # TODO: make this dynamic from the config file (like reporters)
 
     # Initialise state
@@ -90,12 +91,11 @@ def intervention_setup(state):
                      BookTest,
                      Laboratory,
                      ContactTracingApp,
-                     #ContactTracing
+                     ContactTracing,
                      Quarantine
                     ]
 
-    state.bus = MessageBus()
-    state.interventions = [cls(state.prng, state.config, state.clock, state.bus) for cls in interventions]
+    state.interventions = [cls(state.prng, state.config, state.clock, state.bus, state) for cls in interventions]
     # Laboratory must come first!!!
     # TODO: make this dynamic from the config file
     # TODO: support >1 interventions

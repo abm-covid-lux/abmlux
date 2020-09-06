@@ -581,6 +581,7 @@ contact_tracing:
     - House
     - Work
     - School
+    - Visit
 
   # Generally we consider sharing a location to be equal to contact.
   # Locations on this list are large enough that this is not the case, e.g.

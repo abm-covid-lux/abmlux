@@ -158,26 +158,27 @@ class SimClock:
 
 class DeferredEventPool:
 
-    def __init__(self, clock):
+    def __init__(self, bus, clock):
         self.events = defaultdict(list)
+        self.bus = bus
         self.clock = clock
 
-    def add(self, payload, deadline=None, lifespan=None):
+        self.bus.subscribe("sim.time", self.tick)
 
-        self.payload = payload
+    def add(self, topic, lifespan, *args, **kwargs):
 
         if lifespan is None and deadline is None:
             raise ValueError("Timer must have a deadline or a lifespan set")
 
-        if lifespan is not None:
-            self.deadline = self.clock.t + self._duration_to_ticks(lifespan)
-        else:
-            if isinstance(deadline, datetime):
-                self.deadline = self._duration_to_ticks(deadline - self.clock.epoch)
-            else:
-                self.deadline = self._duration_to_ticks(deadline)
+        self.deadline = self.clock.t + self._duration_to_ticks(lifespan)
+        self.events[self.deadline].append((topic, args, kwargs))
 
-        self.events[self.deadline].append(payload)
+    def tick(self, clock, t):
+        for event in self.events[t]:
+            topic, args, kwargs = event
+            self.bus.publish(topic, *args, **kwargs)
+
+        del(self.events[t])
 
     def _duration_to_ticks(self, time_ref):
         """Converts a duration in raw ticks or timedelta into a number of ticks
@@ -193,18 +194,3 @@ class DeferredEventPool:
 
         raise ValueError(f"Timer parameter given as a {type(time_ref)}, but expecting int or "\
                           "timedelta")
-
-    def poll_all(self):
-        payloads =  self.events[self.clock.t]
-        del(self.events[self.clock.t])
-        return payloads
-
-    def poll(self):
-        if len(self.events[self.clock.t]) == 0:
-            return StopIteration()
-        payload = self.events[self.clock.t][0]
-        del(self.events[self.clock.t][0])
-        return payload
-
-    def __iter__(self):
-        return self.poll_all().__iter__()
