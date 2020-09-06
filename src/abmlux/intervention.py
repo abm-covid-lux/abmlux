@@ -26,10 +26,10 @@ class Intervention:
     def initialise_agents(self, network):
         """Initialise internal state for this intervention, potentially
         modifying the network if necessary.  Run prior to simulation start."""
+        pass
+        #log.warning("STUB: initialise_agents in intervention.py")
 
-        log.warning("STUB: initialise_agents in intervention.py")
-
-    def get_agent_updates(self, t, sim, agent_updates, schedule, information):
+    def get_agent_updates(self, t, sim, agent_updates):
         """Return a list of (agent, activity) tuples representing changes in activity this
         intervention applies"""
 
@@ -37,8 +37,10 @@ class Intervention:
 
 class Laboratory(Intervention):
 
-    def __init__(self, prng, config):
-        super().__init__(prng, config)
+    def __init__(self, prng, config, clock):
+        super().__init__(prng, config, clock)
+
+        self.test_duration = int(clock.days_to_ticks(3))
 
         # The sets of incubating and contagious health states:
         self.incubating_states     = set(config['incubating_states'])
@@ -49,68 +51,79 @@ class Laboratory(Intervention):
         self.prob_false_positive   = config['testing']['prob_false_positive']
         self.prob_false_negative   = config['testing']['prob_false_negative']
 
-    def initialise_agents(self, network):
+        self.test_results            = DeferredEventPool(clock)
+        self.agents_awaiting_results = set()
 
-        schedule['testing']          = {t: set() for t in self.clock}                               # DON'T HAVE ACCESS TO SIM reset clock?!
-        information['test results']  = {a: None for a in network.agents}
-        information['awaiting test'] = {a: False for a in network.agents}
+    def get_agent_updates(self, t, sim, agent_updates):
 
-    def get_agent_updates(self, t, sim, agent_updates, schedule, information):
+        # Check bookings and perform tests
+        for agent, payload in agent_updates.items():
+            if 'test booked' not in payload:
+                continue
 
-        stuff_to_do = self.pending_events
+            if agent in self.agents_awaiting_results:
+                continue
 
-        for stuff in stuff_to_do:
-            stuff.do()
-
-
-
-
-        # Each agent previously selected for testing during the current tick is tested:
-        for agent in schedule['testing'][t]:
+            # Each agent previously selected for testing during the current tick is tested:
+            test_result = False
             if agent.health in self.infected_states:
-                if random_tools.boolean(self.prob_false_negative):
-                    information['test results'][agent] = False
-                else:
-                    information['test results'][agent] = True
-                    information['quarantine'][agent] = True
-                    information['stop quarantine'][agent] = t + 2#weeks                              # ...
+                if random_tools.boolean(self.prng, 1 - self.prob_false_negative):
+                    test_result = True
             else:
-                if random_tools.boolean(self.prob_false_positive):
-                    information['test results'][agent] = True
-                    information['quarantine'][agent] = True
-                    information['stop quarantine'][agent] = t + 2#weeks                              # ...
-                else:
-                    information['test results'][agent] = False
-                information['awaiting test'][agent] = False
+                if random_tools.boolean(self.prng, self.prob_false_positive):
+                    test_result = True
+
+            self.agents_awaiting_results.add(agent) # Update index
+            self.test_results.add((agent, test_result), lifespan=self.test_duration)
+
+        # Notify people
+        for agent, result in self.test_results:
+            agent_updates[agent]['test result'] = result
+
+
+
+class BookTest(Intervention):
+    """Consume a 'selected for testing' signal and wait a bit whilst getting around to it"""
+
+    def __init__(self, prng, config, clock):
+        super().__init__(prng, config, clock)
+
+        # Time between selection for test and the time at which the test will take place
+        self.time_to_arrange_test = int(clock.days_to_ticks(2))
+
+        self.awaiting_test       = DeferredEventPool(clock)
+        self.agents_awaiting_test = set()
+
+    def get_agent_updates(self, t, sim, agent_updates):
+
+        for agent, payload in agent_updates.items():
+            if 'selected for testing' not in payload:
+                continue
+
+            if agent not in self.agents_awaiting_test:
+                # TODO: schedule people for testing in working hours only
+                self.awaiting_test.add(agent, lifespan=self.time_to_arrange_test)
+                self.agents_awaiting_test.add(agent)
+
+        # Check over people waiting to be tested
+        for agent in self.awaiting_test:
+            self.agents_awaiting_test.remove(agent) # Update index
+            agent_updates[agent]['test booked'] = True
+
 
 class LargeScaleTesting(Intervention):
+    """Select n people per day for testing at random"""
 
     def __init__(self, prng, config, clock):
         super().__init__(prng, config, clock)
 
         # Parameters
-        self.symptomatic_states  = set(config['symptomatic_states'])
+        # self.symptomatic_states  = set(config['symptomatic_states'])
 
-        self.awaiting_test       = DeferredEventPool(clock)
-        self.agents_awaiting_test = set()
-
+        self.agents_tested_per_day = 10
         self.current_day = None
 
-    def initialise_agents(self, network):
-        pass
-
-    def get_agent_updates(self, t, sim, agent_updates, schedule, information):
-
-        # # Volunteering to be tested due to onset of symptoms this tick (do on a daily cycle?)
-        # new_agents_with_symptoms = [a for a in sim.agents if a.health in self.symptomatic_states]
-                                    # and a not in self.agents_who_have_notified_app}]
-        # for agent in new_agents_with_symptoms:
-            # if information['awaiting test'][agent] = False:
-                # if random_tools.boolean(self.prng, 0.9): # Probability they request a test
-                    # delay_mins = 2880                    # Time between request and test
-                    # delay_ticks = max(int(sim.clock.mins_to_ticks(delay_mins)), 1)
-                    # schedule['testing'][t + delay_ticks].add(agent)
-                    # information['awaiting test'][agent] = True
+    def get_agent_updates(self, t, sim, agent_updates):
 
         # Invited for testing by random selection:
         day = self.clock.now().day
@@ -118,17 +131,11 @@ class LargeScaleTesting(Intervention):
             self.current_day = day
 
         if day != self.current_day:
-            test_agents_random = random_tools.random_sample(self.prng, sim.agents, 10)            # How many to test per day. Numbers such as these need rescaling by population size!
+            test_agents_random = random_tools.random_sample(self.prng, sim.agents,
+                                                            self.agents_tested_per_day)            # How many to test per day. Numbers such as these need rescaling by population size!
             for agent in test_agents_random:
-                if agent not in self.agents_awaiting_test:
+                agent_updates[agent]['selected for testing'] = True
 
-                    # TODO: schedule people for testing in working hours only
-                    self.awaiting_test.add(agent, lifespan=int(self.clock.days_to_ticks(2)))
-                    self.agents_awaiting_test.add(agent)
-
-        # Check over people waiting to be tested
-        for agent in self.awaiting_test:
-            self.agents_awaiting_test.remove(agent) # Update index
 
 class ContactTracing(Intervention):
 
@@ -155,7 +162,7 @@ class ContactTracing(Intervention):
                     regular_locations.remove(location)
             self.regular_locations_dict[agent] = regular_locations
 
-    def get_agent_updates(self, t, sim, agent_updates, schedule, information):
+    def get_agent_updates(self, t, sim, agent_updates):
 
         day = sim.clock.now().day
 
@@ -213,7 +220,7 @@ class ContactTracingApp(Intervention):
         self.current_day                 = None
         self.current_day_contacts        = {}
         self.current_day_notifications   = set()
-        self.exposure_by_day      = deque([], config['contact_tracing_app']['tracing_time_window_days'])
+        self.exposure_by_day             = deque([], config['contact_tracing_app']['tracing_time_window_days'])
         self.time_at_risk_threshold_mins = config['contact_tracing_app']['time_at_risk_threshold_mins']
         self.av_risk_mins                = config['contact_tracing_app']['av_risk_mins']
         self.trans_risk_threshold        = config['contact_tracing_app']['trans_risk_threshold']
@@ -234,14 +241,13 @@ class ContactTracingApp(Intervention):
 
         log.info("Selected %i agents with app", len(self.agents_with_app))
 
-    def get_agent_updates(self, t, sim, agent_updates, schedule, information):
-
-        day = sim.clock.now().day
+    def get_agent_updates(self, t, sim, agent_updates):
 
         # FIXME: This would ideally be done during initialisation, but at that point
         #        the simulation has not started the clock, so it's impossible to read
         #        the day out of it.  This FIXME is a call to move the initialisation code
         #        so that the dependency makes sense
+        day = self.clock.now().day
         if self.current_day is None:
             self.current_day = day
 
@@ -251,7 +257,7 @@ class ContactTracingApp(Intervention):
         # Gather together everyone who is infected at this tick and add them to the list of anyone
         # with the app who has been infected during the current day.This list is later used by other
         # agent app users to figure out if they met any of the infected agents.
-        agents_notifying = {a for a in schedule['testing'][t] if information['test results'][a]}
+        agents_notifying = {a for a, u in agent_updates if u['test result']}
         self.current_day_notifications.update(agents_notifying)
 
         if day != self.current_day:
@@ -261,13 +267,15 @@ class ContactTracingApp(Intervention):
                 risk = self._get_personal_risk(agent)
                 if risk >= sim.clock.mins_to_ticks(self.time_at_risk_threshold_mins):
                     if random_tools.boolean(self.prng, self.prob_do_recommendation):
-                        if not information['awaiting test'][agent]:
-                            delay_days = random_tools.multinoulli(self.prng, [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001])
-                            delay_ticks = max(int(sim.clock.days_to_ticks(delay_days)), 1)
-                            schedule['testing'][t + delay_ticks].add(agent)
-                            information['awaiting test'][agent] = True
-                        information['quarantine'][agent] = True
-                        information['stop quarantine'][agent] = t + 2#weeks                          # ...
+
+                        agent_updates[agent]['selected for testing'] = True
+                        agent_updates[agent]['quarantine']           = True
+
+                        #if not information['awaiting test'][agent]:
+                        #    delay_days = random_tools.multinoulli(self.prng, [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001])
+                        #    delay_ticks = max(int(sim.clock.days_to_ticks(delay_days)), 1)
+                        #    schedule['testing'][t + delay_ticks].add(agent)
+
             # Move day on and reset day state
             self.current_day                = day
             self.current_day_contacts       = {}
@@ -323,56 +331,40 @@ class ContactTracingApp(Intervention):
 
 class Quarantine(Intervention):
 
-    def __init__(self, prng, config):
-        super().__init__(prng, config)
+    def __init__(self, prng, config, clock):
+        super().__init__(prng, config, clock)
 
-        self.quarantine_duration    = config['quarantine']['duration_days']
+        self.quarantine_duration    = int(self.clock.days_to_ticks(config['quarantine']['duration_days']))
         self.hospital_location_type = config['quarantine']['hospital_location_type']
         self.cemetery_location_type = config['quarantine']['cemetery_location_type']
         self.home_activity_type     = config['quarantine']['home_activity_type']
 
-    def initialise_agents(self, network):
+        self.end_quarantine_events = DeferredEventPool(self.clock)
+        self.agents_in_quarantine  = set()
 
-        information['stop quarantine'] = {a: None for a in network.agents} # Values will be ticks or dates
-        information['quarantine']  = {a: False for a in network.agents}
-        self.time_in_quarantine    = {a: 0 for a in network.agents}
+    def get_agent_updates(self, t, sim, agent_updates):
 
-    def get_agent_updates(self, t, sim, agent_updates, schedule, information):
+        # Update index for agents that are ending quarantine now
+        for agent in self.end_quarantine_events:
+            self.agents_in_quarantine.remove(agent)
 
-
-
-        # End the quarantine of these agents
-        for agent in sim.agents:
-            if information['stop quarantine'][agent] == t:
-                information['quarantine'][agent] = False
-
-        # Check for any new quarantine victims
+        # Check for any new quarantine requests, of various types
         home_activity = sim.activity_manager.as_int(self.home_activity_type)
-        for agent in sim.agents:
-            if information['quarantine'][agent]:
-                agent_updates[agent]['location'] = agent.locations_for_activity(home_activity)[0]
-                self.time_in_quarantine[agent]  += 1
+        for agent, payload in agent_updates.items():
 
-        #t + sim.clock.days_to_ticks(self.quarantine_duration)
+            # Case 1: testing positive
+            if 'test result' in payload and payload['test result']:
+                self.agents_in_quarantine.add(agent)
+                self.end_quarantine_events.add(agent, lifespan=self.quarantine_duration)
 
-        # for agent in agent_updates.keys():
-            # if information['quarantine'][agent]:
-                # home_activity = sim.activity_manager.as_int(self.home_activity_type)
-                # agent_updates[agent]['location'] = agent.locations_for_activity(home_activity)[0]
-                # self.time_in_quarantine[agent]  += 1
+            # Case 2: app instructs quarantine
+            if 'quarantine' in payload:
+                self.agents_in_quarantine.add(agent)
+                self.end_quarantine_events.add(agent, lifespan=self.quarantine_duration)
 
-
-        # Update quarantine list
-        # self.time_in_quarantine = {a: qt for a, qt in self.time_in_quarantine.items() if t < qt}
-
-        # print(f"-> {len(self.time_in_quarantine)} people in quarantine")
-
-        # # All people in quarantine list should go home, unless they are
-        # # in hospital or dead
-        # for agent, deadline in self.time_in_quarantine.items():
-            # if agent.current_location.typ == self.hospital_location_type:
-                # continue
-            # if agent.current_location.typ == self.cemetery_location_type:
-                # continue
-
-            # agent_updates[agent]['location'] = agent.locations_for_activity(sim.activity_manager.as_int(self.home_activity_type))[0]
+        # If an agent is in quarantine, override any location changes
+        for agent, payload in agent_updates.items():
+            if 'location' in payload and agent in self.agents_in_quarantine:
+                print(f"_ Overriding {payload['location']} to home")
+                agent_updates[agent]['location'] = \
+                    agent.locations_for_activity(sim.activity_manager.as_int(self.home_activity_type))[0]

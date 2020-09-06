@@ -61,9 +61,6 @@ class Simulator:
         for reporter in self.reporters:
             reporter.start(self)
 
-        schedule = {} # Would like to schedule events for certain times of day, but what about tick length?
-        information = {}
-
         # Initialize interventions here?
         self.clock.reset()
         for t in self.clock:
@@ -78,7 +75,11 @@ class Simulator:
 
             # - 2 - Intervention for activity changes
             for intervention in self.interventions:
-                intervention.get_agent_updates(t, self, agent_updates, schedule, information)
+                intervention.get_agent_updates(t, self, agent_updates)
+
+            # DEBUG
+            # for agent, payload in agent_updates.items():
+            #     print(f"-> {agent} / {list(payload.keys())}")
 
             # - 3 - Actually enact changes in an atomic manner
             self._update_agents(agent_updates)

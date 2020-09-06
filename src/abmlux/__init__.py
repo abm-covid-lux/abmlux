@@ -15,7 +15,7 @@ import abmlux.markov_model as markov_model
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
-from abmlux.intervention import ContactTracingApp, Quarantine, LargeScaleTesting
+from abmlux.intervention import ContactTracingApp, Quarantine, LargeScaleTesting, BookTest, Laboratory
 
 import abmlux.tools as tools
 
@@ -84,13 +84,16 @@ def disease_model(state):
 def intervention_setup(state):
     """Set up interventions"""
 
-#    state.interventions = []
-    state.interventions = [#Laboratory(state.prng, state.config),
-                           LargeScaleTesting(state.prng, state.config, state.clock),
-                           #ContactTracing(state.prng, state.config),
-                           #ContactTracingApp(state.prng, state.config),
-                           #Quarantine(state.prng, state.config)
-                          ]
+    interventions = [
+                     LargeScaleTesting,
+                     BookTest,
+                     Laboratory,
+                     ContactTracingApp,
+                     #ContactTracing
+                     Quarantine
+                    ]
+
+    state.interventions = [cls(state.prng, state.config, state.clock) for cls in interventions]
     # Laboratory must come first!!!
     # TODO: make this dynamic from the config file
     # TODO: support >1 interventions
