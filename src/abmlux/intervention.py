@@ -35,8 +35,8 @@ class Laboratory(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.test_duration = int(clock.days_to_ticks(3))
-
+        # The time between a test and the publishing of the result of that test:
+        self.test_duration         = int(clock.days_to_ticks(config['testing']['test_results_waiting_time_days']))
         # The sets of incubating and contagious health states:
         self.incubating_states     = set(config['incubating_states'])
         self.contagious_states     = set(config['contagious_states'])
@@ -81,7 +81,7 @@ class BookTest(Intervention):
         super().__init__(prng, config, clock, bus)
 
         # Time between selection for test and the time at which the test will take place
-        self.time_to_arrange_test = int(clock.days_to_ticks(2))
+        self.time_to_arrange_test = int(clock.days_to_ticks(config['testing']['test_booking_waiting_time_days']))
 
         self.test_events       = DeferredEventPool(bus, clock)
         self.agents_awaiting_test = set()
@@ -126,6 +126,11 @@ class LargeScaleTesting(Intervention):
             self.bus.publish('testing.selected', agent)
 
 
+                    #if not information['awaiting test'][agent]:
+                    #    delay_days = random_tools.multinoulli(self.prng, [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001])
+                    #    delay_ticks = max(int(sim.clock.days_to_ticks(delay_days)), 1)
+                    #    schedule['testing'][t + delay_ticks].add(agent)
+
 
 class ContactTracing(Intervention):
 
@@ -133,10 +138,10 @@ class ContactTracing(Intervention):
         super().__init__(prng, config, clock, bus)
 
         # Parameters
-        self.max_per_day             = config['contact_tracing']['max_per_day']
+        self.max_per_day             = config['contact_tracing_manual']['max_per_day']
         self.relevant_activities     = {state.activity_manager.as_int(x) \
-                                        for x in config['contact_tracing']['relevant_activities']}
-        self.location_type_blacklist = config['contact_tracing']['location_type_blacklist']
+                                        for x in config['contact_tracing_manual']['relevant_activities']}
+        self.location_type_blacklist = config['contact_tracing_manual']['location_type_blacklist']
         self.regular_locations_dict  = {}
         self.current_day_subjects    = set()
 
@@ -263,6 +268,8 @@ class ContactTracingApp(Intervention):
         self.bus.subscribe("sim.time.midnight", self.midnight)
         self.bus.subscribe("sim.time.start_simulation", self.start_sim)
 
+        # Check that window is equal to transmission_risk list length...
+
     def start_sim(self, sim):
         self.sim = sim
 
@@ -290,11 +297,6 @@ class ContactTracingApp(Intervention):
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
                     self.bus.publish("testing.selected", agent)
                     self.bus.publish("quarantine", agent)
-
-                    #if not information['awaiting test'][agent]:
-                    #    delay_days = random_tools.multinoulli(self.prng, [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001])
-                    #    delay_ticks = max(int(sim.clock.days_to_ticks(delay_days)), 1)
-                    #    schedule['testing'][t + delay_ticks].add(agent)
 
         # Move day on and reset day state
         self.current_day_contacts       = {}
@@ -358,7 +360,7 @@ class Quarantine(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.quarantine_duration    = int(self.clock.days_to_ticks(config['quarantine']['duration_days']))
+        self.quarantine_duration    = int(self.clock.days_to_ticks(config['quarantine']['default_duration_days']))
         self.hospital_location_type = config['quarantine']['hospital_location_type']
         self.cemetery_location_type = config['quarantine']['cemetery_location_type']
         self.home_activity_type = state.activity_manager.as_int(config['quarantine']['home_activity_type'])

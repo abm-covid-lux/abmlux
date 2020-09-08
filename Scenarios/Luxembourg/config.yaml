@@ -110,7 +110,7 @@ simulation_length_days: 70
 # When the simulation starts
 # syntax is anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
-epoch: 22nd March 2020
+epoch: 1st March 2020
 
 # ################################# Locations #################################
 
@@ -554,102 +554,137 @@ infection_probabilities_per_tick:
   Germany:                          0.0
   Cemetery:                         0.0
 
-# ################################# Interventions #################################
+# ######################################### Interventions ##########################################
 
+# The intervention 'testing' refers to laboratory testing. If an agent is tested and if the agent is
+# is either incubating or contagious with the virus, then the test returns a positive result, except
+# in the case of a false postive, while if the agent is not either incubating or contagious with the
+# virus, then the test returns a negative results, except in the case of a false negative.
 testing:
-
   # The probability of a false positive:
   prob_false_positive: 0.01
   # The probability of a false negative:
   prob_false_negative: 0.01
+  # The time taken between a test and publishing of the result of that test:
+  test_results_waiting_time_days: 3
+  # The time taken between the booking of a test and the time at which the test takes place:
+  test_booking_waiting_time_days: 5
 
+# The intervention 'large_scale_testing' refers to a system that distributes invitations to test
+# across the population, according to a certain algorithm. 
 large_scale_testing:
+  # Parameters...
+    # The time between agents developing symptoms and uploading to the app is assumed to follow the
+  # following probability distribution, the units of the indices being days:
+  # upload_delay: [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001]
 
+recommended_testing:
   # Parameters...
 
-contact_tracing:
-
+# The intervention 'contact_tracing' refers to the manual tracing of contacts of agents with postive
+# test results. The maximum number of positive agents whose contacts can be traced is specified, as
+# is the window of time over which such contacts are registered. Contacts are considered to be
+# agents who performed one of the specified regular activities in the same location as the agent, so
+# long as the agent was also performing one such activity. For example, if the agent was working in
+# a given location and another agent was also working there, at the same time, then the agent would
+# remember the contact with the other agent. Conversely, if the location was, for example, a shop
+# with the other agent only shopping there, then the first agent would not remember this. Other
+# agents traced though this proceedure are instructed to get tested and quarantine in the meantime.
+# With a certain probability, agents do not follow this advice and continue as normal.
+contact_tracing_manual:
+  # The maximum number of positive agents whose contacts can be tested each day:
   max_per_day: 100
-
-  # Number of days to consider contacts across
-  tracing_time_window_days: 14
-
-  #Agents follow the advice of the app to quarantine with the following probability:
-  prob_do_quarantine: 0.8
-
+  # The window of time over which contacts are considered:
+  tracing_time_window_days: 2
+  # The activities considered relevant for the purposes of contact tracing:
   relevant_activities:
     - House
     - Work
     - School
     - Visit
-
-  # Generally we consider sharing a location to be equal to contact.
-  # Locations on this list are large enough that this is not the case, e.g.
-  # the 'outdoor' location.
-  location_type_blacklist: 
+  # Agents follow the advice to quarantine and get tested with the following probability:
+  prob_do_recommendation: 1.0
+  # Locations except from the contact tracing proceedure are as follows:
+  location_type_blacklist:
+    - Cemetery
     - Belgium
     - France
     - Germany
 
+# The intervention 'contact_tracing_app' refers to contact tracing perform not manually, but via an
+# application installed on the phones of agents. A certain proportion of the population is assumed
+# to possess the app from the very beginning. The app works according to the Corona-Warn-App, which
+# is the official COVID-19 exposure notification app developed for Germany. The window of time over
+# which contacts are considered is specified. 
 contact_tracing_app:
-
-  # Proportion of people who have the app (0-1)
+  # Proportion of population who have the app:
   app_prevalence: 0.2
-
-  #Agents follow the advice of the app to quarantine with the following probability:
-  prob_do_recommendation: 0.8
-
-  # If the total risk score of an agent exceeds the following lower bound, that agent will recieve
-  # a notification to quarantine:
-  time_at_risk_threshold_mins: 15
-
-  # Transmission risk threshold beyond which a contact on a given day is counted:
-  trans_risk_threshold: 11
-
-  # The time between agents developing symptoms and uploading to the app is assumed to follow the
-  # following probability distribution, the units of the indices being days:
-  upload_delay: [0.007, 0.0935, 0.355, 0.3105, 0.1675, 0.055, 0.0105, 0.001]
-
-  # The risk profile used in calculating the risk level in the base case, the units of the indices
-  # being days:
-  trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
-
-  # Additional parameters required by the app. Note that the first of these, namely duration_wgt,
-  # assumes that the tick length is at least 600 seconds. Refer to app documentation for additional
-  # details.
+  # The window of time over which contacts are considered:
+  tracing_time_window_days: 14
+  # Contacts are assumed to occur when two agents are in the same location at the same time. So long
+  # as the tick length is at least 600 seconds, this assumption implies the following vaules for the
+  # app parameters, full details of which are described in the documentation of the Corona-Warn-App:
   duration_wgt: 1
   attenuation_wgt: 1
   days_since_last_expsr_wgt: 5
-
-  # Average risk used in calculating total time at risk:
+  # The risk level is calculated according to the base case specified by the Corona-Warn-App, the
+  # units of the indices being days and the length of which should be equal to the window length:
+  trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
+  # Threshold parameters as specified by the Corona-Warn-App:
+  trans_risk_threshold: 11
+  time_at_risk_threshold_mins: 15
+  # Average risk used in calculating total time at risk, as specified by the Corona-Warn-App:
   av_risk_mins: 25
-
-  # Number of days to consider contacts across
-  tracing_time_window_days: 14
-
-  # Generally we consider sharing a location to be equal to contact.
-  # Locations on this list are large enough that this is not the case, e.g.
-  # the 'outdoor' location.
+  # Agents follow the advice to quarantine and get tested with the following probability:
+  prob_do_recommendation: 0.5
+  # Locations except from the contact tracing proceedure are as follows:
   location_blacklist: 
     - Outdoor
+    - Cemetery
     - Belgium
     - France
     - Germany
-    - Cemetery
+  # If contacted agents follow recommendations, then they immediately book a test to
+  end_quarantine_after_negative_test_delay: 3
+  test_delay_days: 5
 
+location_closures:
+  # Parameters...
+  # 4/03/2020 - Schools are asked to close for 14 days should any student or member of staff be tested positive
+  # 14/03/2020 - Places of Worship close
+  # 15/03/2020 - Restaurants, Cinema or Theatre, Museum or Zoo, Indoor sports close. Stores are closed. Exceptions are supermarkets, butchers, bakeries, stores that sell food can stay open. Same for shops that sell hygiene products. Pharmacies, fuel stations, telecommunications services, newsagent's shops will not shut down. 
+  # 
+
+# The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
+# possible conditions includes that the agent has tested positive, the agent has been recommended to
+# quarantine after contact tracing (either manually or via the app) and that the agent is trying to
+# access a prohibited location (for example, a border worker during a period of border closure). The
+# intervention 'quarantine' is the tool that enforces and lifts such quarantines. Requests for
+# quarantines are made by other interventions.
 quarantine:
-  # Quarantining immediately directs an agent home for a predetermined duration
-  duration_days: 14
-
-  # What counts as a hospital, and as a cemetery?
-  # We assume no quarantine is necessary for people
-  # in these locations, as they're already being taken care of
-  hospital_location_type: Hospital
-  cemetery_location_type: Cemetery
-
-  # Where to go when quarantines
+  # Quarantining directs an agent home for a default duration:
+  default_duration_days: 14
+  # In the case that the quarantine has been imposed after contact tracing, a test should be
+  # scheduled on day 5 of the quarantine. If that test is negative, then the agent should be able to
+  # end the quarantine after a further 3 days, on day 8.
+  end_quarantine_after_negative_test_delay: 3
+  test_delay_days: 5
+  # If an agent is present in one of the following locations, then they are exempt from quarantining
+  # under all circumstances:
+  location_blacklist:
+    - Hospital
+    - Cemetery
+  # Unless an agent is in an exempt location, they are directed to the location at which they
+  # perform the activity 'House':
   home_activity_type: House
 
+# The intervention 'personal_protective_measures' refers to the effect of such measures as hand
+# hygiene, face masks, surface and object cleaning and other environmental measures. The combined
+# effect of such measures is represented as a coefficient in the range (0,1] that multiplies the
+# transmission probabilty.
+personal_protective_measures:
+  # The personal_protective_measures coefficient:
+  ppm_coeff: 0.9
 
 # ################################# Population and Age #################################
 
