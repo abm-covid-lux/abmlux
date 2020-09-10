@@ -705,32 +705,36 @@ location_closures:
   # Whether or not a location is closed may depend on the activity in question (for example, visits
   # to care homes may be prohibited while residents and workers continue to be able to access the
   # care home.
-  - House
-  - Care Home
-  - OW Agriculture
-  - OW Extraction
-  - OW Manufacturing
-  - OW Energy
-  - OW Water
-  - OW Construction
-  - OW Trade
-  - OW Transport
-  - OW Catering and Accommodation
-  - OW ICT
-  - OW Finance
-  - OW Real Estate
-  - OW Technical
-  - OW Administration
-  - OW Education
-  - OW Entertainment
-  - OW Other Services
-  - School
-  - Restaurant
-  - Hotel
-  - Place of Worship
-  - Indoor Sport
-  - Cinema or Theatre
-  - Museum or Zoo
+  locations:
+    - House
+    - Care Home
+    - OW Agriculture
+    - OW Extraction
+    - OW Manufacturing
+    - OW Energy
+    - OW Water
+    - OW Construction
+    - OW Trade
+    - OW Transport
+    - OW Catering and Accommodation
+    - OW ICT
+    - OW Finance
+    - OW Real Estate
+    - OW Technical
+    - OW Administration
+    - OW Education
+    - OW Entertainment
+    - OW Other Services
+    - School
+    - Restaurant
+    - Hotel
+    - Place of Worship
+    - Indoor Sport
+    - Cinema or Theatre
+    - Museum or Zoo
+  # Unless an agent is in an exempt location, they are directed to the location at which they
+  # perform the activity 'House':
+  home_activity_type: House
 
 # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
 # possible conditions includes that the agent has tested positive, the agent has been recommended to

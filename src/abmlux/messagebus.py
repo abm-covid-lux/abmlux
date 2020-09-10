@@ -22,7 +22,7 @@ class MessageBus:
         print(f"UNIMPLEMENTED: unsubscribe in messagebus.py")
 
     def publish(self, topic, *args, **kwargs):
-        #print(f"publish [{topic}] -> {len(self.handlers[topic])}: {args}, {kwargs}")
+        # print(f"publish [{topic}] -> {len(self.handlers[topic])}: {args}, {kwargs}")
         # a = perf_counter()
         for callback in self.handlers[topic]:
             # print(f"-> {callback.__name__}")
