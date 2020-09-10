@@ -16,7 +16,7 @@ from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
-from abmlux.intervention import ContactTracingApp, ContactTracing, Quarantine, LargeScaleTesting, BookTest, Laboratory
+from abmlux.intervention import ContactTracingApp, ContactTracingManual, Quarantine, LargeScaleTesting, TestBooking, Laboratory
 
 import abmlux.tools as tools
 
@@ -88,10 +88,10 @@ def intervention_setup(state):
 
     interventions = [
                      LargeScaleTesting,
-                     BookTest,
+                     TestBooking,
                      Laboratory,
                      ContactTracingApp,
-                     ContactTracing,
+                     ContactTracingManual,
                      Quarantine
                     ]
 

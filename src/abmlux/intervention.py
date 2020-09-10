@@ -30,21 +30,21 @@ class Intervention:
         pass
         #log.warning("STUB: initialise_agents in intervention.py")
 
+
 class Laboratory(Intervention):
 
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        # The time between a test and the publishing of the result of that test:
-        self.test_duration         = int(clock.days_to_ticks(config['testing']['test_results_waiting_time_days']))
-        # The sets of incubating and contagious health states:
+        self.prob_false_positive              = config['test_sampling']['prob_false_positive']
+        self.prob_false_negative              = config['test_sampling']['prob_false_negative']
+        self.test_sample_to_test_results_days = config['test_sampling']['test_sample_to_test_results_days']
+
         self.incubating_states     = set(config['incubating_states'])
         self.contagious_states     = set(config['contagious_states'])
-        # The set of health states in which agents will test positive with positive probability:
+
+        self.test_sample_to_test_results_ticks = int(clock.days_to_ticks(config['test_sampling']['test_sample_to_test_results_days']))
         self.infected_states       = self.incubating_states.union(self.contagious_states)
-        # The probabilities of false positives and negatives:
-        self.prob_false_positive   = config['testing']['prob_false_positive']
-        self.prob_false_negative   = config['testing']['prob_false_negative']
 
         self.test_result_events    = DeferredEventPool(bus, clock)
         self.agents_awaiting_results = set()
@@ -65,7 +65,7 @@ class Laboratory(Intervention):
                 test_result = True
 
         self.agents_awaiting_results.add(agent) # Update index
-        self.test_result_events.add("laboratory.send_result", self.test_duration, agent, test_result)
+        self.test_result_events.add("laboratory.send_result", self.test_sample_to_test_results_ticks, agent, test_result)
             
     def send_result(self, agent, result):
 
@@ -74,7 +74,7 @@ class Laboratory(Intervention):
         self.bus.publish("testing.result", agent, result)
 
 
-class BookTest(Intervention):
+class TestBooking(Intervention):
     """Consume a 'selected for testing' signal and wait a bit whilst getting around to it"""
 
     def __init__(self, prng, config, clock, bus, state):
@@ -112,7 +112,7 @@ class LargeScaleTesting(Intervention):
         # self.symptomatic_states  = set(config['symptomatic_states'])
         self.network = state.network
 
-        self.agents_tested_per_day = 10
+        self.agents_tested_per_day = config['large_scale_testing']['tests_per_day']
         self.current_day = None
         
         self.bus.subscribe("sim.time.midnight", self.midnight)
@@ -132,7 +132,16 @@ class LargeScaleTesting(Intervention):
                     #    schedule['testing'][t + delay_ticks].add(agent)
 
 
-class ContactTracing(Intervention):
+class OtherTesting(Intervention):
+    """Other testing"""
+
+    def __init__(self, prng, config, clock, bus, state):
+        super().__init__(prng, config, clock, bus)
+
+        pass
+
+
+class ContactTracingManual(Intervention):
 
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
@@ -170,7 +179,7 @@ class ContactTracing(Intervention):
         # agent.current_location 
 
 
-# class ContactTracing(Intervention):
+# class ContactTracingManual(Intervention):
 
 #     def __init__(self, prng, config, clock, bus, state):
 #         super().__init__(prng, config, clock, bus)
@@ -240,6 +249,7 @@ class ContactTracing(Intervention):
 #             # Move day on and reset day state
 #             self.current_day           = day
 #             self.current_day_subjects  = set()
+
 
 class ContactTracingApp(Intervention):
 
@@ -355,6 +365,14 @@ class ContactTracingApp(Intervention):
                     time_at_risk += daily_exposure[other_agent]
         return time_at_risk * max_risk / self.av_risk_mins
 
+
+class LocationClosures(Intervention):
+
+    def __init__(self, prng, config, clock, bus, state):
+        super().__init__(prng, config, clock, bus)
+
+        pass
+
 class Quarantine(Intervention):
 
     def __init__(self, prng, config, clock, bus, state):
@@ -399,3 +417,10 @@ class Quarantine(Intervention):
 
     def handle_end_quarantine(self, agent):
         self.agents_in_quarantine.remove(agent)
+
+class PersonalProtectiveMeasures(Intervention):
+
+    def __init__(self, prng, config, clock, bus, state):
+        super().__init__(prng, config, clock, bus)
+
+        pass

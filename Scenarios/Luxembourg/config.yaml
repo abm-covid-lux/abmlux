@@ -603,11 +603,11 @@ infection_probabilities_per_tick:
 
 # ######################################### Interventions ##########################################
 
-# The intervention 'testing' refers to laboratory testing. If an agent is tested and if the agent is
+# The intervention 'test_sampling' refers to lab testing. If an agent is tested and if the agent is
 # is either incubating or contagious with the virus, then the test returns a positive result, except
 # in the case of a false postive, while if the agent is not either incubating or contagious with the
 # virus, then the test returns a negative results, except in the case of a false negative.
-testing:
+test_sampling:
   # The probability of a false positive:
   prob_false_positive: 0.01
   # The probability of a false negative:
@@ -620,7 +620,7 @@ testing:
 test_booking:
   # The time taken between the booking of a test and the time at which the test takes place, in the
   # case where the agent is not showing symptoms at the time of booking:
-  test_booking_to_test_sample_days_no_symptoms: 5
+  test_booking_to_test_sample_days_no_symptoms: 4
   # The time taken between the booking of a test and the time at which the test takes place, in the
   # case where the agent is showing symptoms at the time of booking:
   test_booking_to_test_sample_days_symptoms: 2
@@ -628,12 +628,15 @@ test_booking:
 # The intervention 'large_scale_testing' refers to a system that distributes invitations to test
 # across the population, according to a certain algorithm. 
 large_scale_testing:
+  # The number of agents selected uniformly at random for testing each day:
+  tests_per_day: 500
   # The time between an invitation to test being received and the agent booking a test:
-  invitation_sent_to_test_booking_days: 5
+  invitation_sent_to_test_booking_days: 6
 
-# The intervention 'recommended_testing' refers to situations where an agent books a test without
-# having been directed to do so by any of the other interventions.
-recommended_testing:
+# The intervention 'other_testing' refers to situations where an agent books a test without having
+# been directed to do so by any of the other interventions. Chief among these are the situations in
+# which an agent voluntarily books a test having developed symptoms.
+other_testing:
   # The probability that an agent books a test at the moment they develop symptoms. This corresponds
   # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
   # recommends the agent to get tested.
@@ -698,7 +701,12 @@ contact_tracing_app:
 # event that an agent would otherwise move to such a location, that move will be cancelled or
 # overridden with the agent being sent home, via the 'quarantine' intervention.
 location_closures:
-  # A list of location type subject to possible closures, one of the notable exceptions being shops:
+  # A list of location type subject to possible closures, one of the notable exceptions being shops.
+  # Whether or not a location is closed may depend on the activity in question (for example, visits
+  # to care homes may be prohibited while residents and workers continue to be able to access the
+  # care home.
+  - House
+  - Care Home
   - OW Agriculture
   - OW Extraction
   - OW Manufacturing
@@ -723,9 +731,6 @@ location_closures:
   - Indoor Sport
   - Cinema or Theatre
   - Museum or Zoo
-  - Belgium
-  - France
-  - Germany
 
 # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
 # possible conditions includes that the agent has tested positive, the agent has been recommended to
@@ -739,7 +744,7 @@ quarantine:
   # In the case that a quarantine has been imposed on an agent on an individual basis, and if that
   # agent tests negative during such a quarantine, then the quarantine of that agent will end after
   # the following number of days:
-  negative_test_result_to_end_quarantine_days: 3
+  negative_test_result_to_end_quarantine_days: 2
   # If an agent is present in one of the following locations, then they are exempt from quarantining
   # under all circumstances:
   location_blacklist: [Hospital, Cemetery]
