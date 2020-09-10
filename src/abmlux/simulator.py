@@ -58,8 +58,8 @@ class Simulator:
         self.bus.subscribe("agent.location.change", self.handle_location_change)
         self.bus.subscribe("agent.activity.change", self.handle_activity_change)
         self.bus.subscribe("agent.health.change", self.handle_health_change)
-        self.bus.subscribe("sim.time", self._get_activity_transitions)
-        self.bus.subscribe("sim.time", self.disease.get_health_transitions)
+        self.bus.subscribe("sim.time.tick", self._get_activity_transitions)
+        self.bus.subscribe("sim.time.tick", self.disease.get_health_transitions)
 
     def handle_location_change(self, agent, new_location):
         self.agent_updates[agent]['location'] = new_location
@@ -110,8 +110,7 @@ class Simulator:
         self.bus.publish("sim.time.start_simulation", self)
         for t in self.clock:
 
-            # TODO: change "sim.time" event to "sim.time.tick"
-            self.bus.publish("sim.time", self.clock, t)
+            self.bus.publish("sim.time.tick", self.clock, t)
             if current_day != self.clock.now().day:
                 current_day = self.clock.now().day
                 self.bus.publish("sim.time.midnight", self.clock, t)
@@ -130,6 +129,8 @@ class Simulator:
             # 4. Inform reporters of state
             for reporter in self.reporters:
                 reporter.iterate(self)
+        
+        self.bus.publish("sim.time.end_simulation", self)
 
         for reporter in self.reporters:
             reporter.stop(self)

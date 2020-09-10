@@ -16,7 +16,6 @@ from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
-from abmlux.intervention import ContactTracingApp, ContactTracingManual, Quarantine, LargeScaleTesting, TestBooking, Laboratory
 
 import abmlux.tools as tools
 
@@ -86,19 +85,32 @@ def disease_model(state):
 def intervention_setup(state):
     """Set up interventions"""
 
-    interventions = [
-                     LargeScaleTesting,
-                     TestBooking,
-                     Laboratory,
-                     ContactTracingApp,
-                     ContactTracingManual,
-                     Quarantine
+    # TODO: put this is config
+    interventions_config = [
+                     "testing.LargeScaleTesting",
+                     "laboratory.TestBooking",
+                     "laboratory.Laboratory",
+                     "contact_tracing.ContactTracingApp",
+                     "contact_tracing.ContactTracingManual",
+                     "quarantine.Quarantine"
                     ]
 
-    state.interventions = [cls(state.prng, state.config, state.clock, state.bus, state) for cls in interventions]
-    # Laboratory must come first!!!
-    # TODO: make this dynamic from the config file
-    # TODO: support >1 interventions
+    # Reporters
+    interventions = []
+    for intervention in interventions_config:
+        module_name = "abmlux.interventions." + ".".join(intervention.split(".")[:-1])
+        class_name  = intervention.split(".")[-1]
+
+        log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
+        mod = importlib.import_module(module_name)
+        cls = getattr(mod, class_name)
+
+        params = [state.prng, state.config, state.clock, state.bus, state]
+        log.debug("Instantiating class %s with parameters %s", cls, params)
+        new_intervention = cls(*params)
+        interventions.append(new_intervention)
+
+    state.interventions = interventions
 
     # Initialise internal state of the intervention object, and allow it to
     # modify the network if needed
