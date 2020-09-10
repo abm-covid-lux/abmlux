@@ -18,22 +18,63 @@ class ContactTracingManual(Intervention):
 
         self.max_per_day              = config['contact_tracing_manual']['max_per_day']
         self.tracing_time_window_days = config['contact_tracing_manual']['tracing_time_window_days']
-        self.relevant_activities      = config['contact_tracing_manual']['relevant_activities']
+        self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
+                                         config['contact_tracing_manual']['relevant_activities']}
         self.prob_do_recommendation   = config['contact_tracing_manual']['prob_do_recommendation']
         self.location_type_blacklist  = config['contact_tracing_manual']['location_type_blacklist']
 
+        self.daily_notification_count = 0
+        self.max_per_day_rescaled     = max(int(self.max_per_day * config['n'] / sum(config['age_distribution'])),1)
+
         self.regular_locations_dict  = {}
-        self.current_day_subjects    = set()
-        self.relevant_activities_int = {state.activity_manager.as_int(x) for x in self.relevant_activities}
         self.activity_manager        = state.activity_manager
 
+        # Keep state on who has been colocated with whom
+        self.contacts_archive       = deque(maxlen=self.tracing_time_window_days)
+        self.contacts_archive.appendleft(defaultdict(set))
+
+        # Listen for interesting things
         self.bus.subscribe("sim.time.start_simulation", self.start_sim)
         self.bus.subscribe("sim.agent.location", self.handle_location_change)
+        self.bus.subscribe("sim.time.midnight", self.update_contact_lists)
+        self.bus.subscribe("testing.result", self.notify_if_testing_positive)
 
     def start_sim(self, sim):
         self.sim = sim
 
+    def notify_if_testing_positive(self, agent, result):
+
+        # We can only respond to this many positive tests per day
+        if self.daily_notification_count > self.max_per_day_rescaled:
+            return
+        
+        # Don't respond if the person has tested false
+        if result == False:
+            return
+
+        # Look up people from past n days (and today) who this agent has been with
+        # and send them a message to get tested
+        # First up, today
+        for day in self.contacts_archive:
+            for other_agent in day[agent]:
+                if random_tools.boolean(self.prng, self.prob_do_recommendation):
+                    self.bus.publish("testing.selected", other_agent)
+
+        self.daily_notification_count += 1
+
+    def update_contact_lists(self, clock, t):
+        """Archive today's contacts and make a new structure to store the coming day's"""
+
+        # Update contact lists
+        # print(f"End of day.  {len(self.contacts_archive[0])} people contacted others today")
+        self.contacts_archive.appendleft(defaultdict(set))
+        self.daily_notification_count = 0
+
     def handle_location_change(self, agent, old_location, new_location):
+
+        # Don't record colocation in any blacklisted locations
+        if new_location.typ in self.location_type_blacklist:
+            return
 
         # This agent has to be doing the relevant activity
         if agent.current_activity not in self.relevant_activities:
@@ -41,85 +82,11 @@ class ContactTracingManual(Intervention):
 
         agents_of_interest = [a for a in self.sim.attendees[new_location]\
                               if a.current_activity in self.relevant_activities]
-        if len(agents_of_interest) == 1:    # The person counts as an attendee him/her self
+        if len(agents_of_interest) <= 1:    # The person counts as an attendee him/her self
             return
 
-        #print(f"Meeting {len(agents_of_interest)} new people!  How exciting.")
-
-        
-        # agent.current_location 
-
-
-# class ContactTracingManual(Intervention):
-
-#     def __init__(self, prng, config, clock, bus, state):
-#         super().__init__(prng, config, clock, bus)
-
-#         # Parameters
-#         self.max_per_day             = config['contact_tracing']['max_per_day']
-#         self.relevant_activities     = config['contact_tracing']['relevant_activities']
-#         self.location_type_blacklist = config['contact_tracing']['location_type_blacklist']
-#         self.regular_locations_dict  = {}
-#         self.current_day_subjects    = set()
-
-#     def initialise_agents(self, network):
-
-#         for agent in tdqm(network.agents):
-#             regular_locations = set()
-#             for activity in self.relevant_activities:
-#                 activity_int = XXX.activity_manager.as_int(activity)                                # DON'T HAVE ACCESS TO SIM
-#                 activity_locations = set(agent.locations_for_activity(activity_int))                # this no good: retired are assigned schools but don't attend etc.
-#                 regular_locations.update(activity_locations)
-#             for location in regular_locations:
-#                 if location.typ in self.location_type_blacklist:
-#                     regular_locations.remove(location)
-#             self.regular_locations_dict[agent] = regular_locations
-
-#     def get_agent_updates(self, t, sim):
-
-#         day = self.clock.now().day
-#         if self.current_day is None:
-#             self.current_day = day
-
-#         # The agents whose contacts will later be traced are those who test positive during the day
-#         agents_testing_positive = {a for a in schedule['testing'][t] if information['test results'][a]}
-#         self.current_day_subjects.update(agents_testing_positive)
-
-#         if day != self.current_day:
-
-#             # The extact list of agents consists of a sample of those who tested positive. The size
-#             # of the sample corresponds to the maximum number of contacts that can be manually
-#             # traced each day.
-#             number_to_sample = min(self.max_per_day, len(self.current_day_subjects))
-#             sample = random_tools.random_sample(self.prng, self.current_day_subjects, number_to_sample)
-
-#             # The set of regular locations among those agents in the sample
-#             sample_regular_locations = set()
-#             for agent in sample:
-#                 sample_regular_locations.update(self.contacts_dict[agent])
-
-#             # Now determine which agents frequent the same regular locations as the agents in the
-#             # sample
-#             agents_to_quarantine_and_test = []
-#             for agent in sim.agents:
-#                 if self.regular_locations_dict[agent] & sample_regular_locations:    # this no good, due to age ranges not matching etc...
-#                     agents_to_quarantine_and_test.add(agent)
-
-#             # Instruct these agents to quaratine and get tested
-#             for agent in agents_to_quarantine_and_test:
-#                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
-#                     if agent not in sample:
-#                         if not information['awaiting test'][agent]:
-#                             delay_days = random_tools.random_choice(self.prng, [4,5])
-#                             delay_ticks = int(sim.clock.days_to_ticks(delay_days))
-#                             schedule['testing'][t + delay_ticks].add(agent)
-#                             information['awaiting test'][agent] = True
-#                     information['quarantine'][agent] = True
-#                     information['stop quarantine'][agent] = t + 2#weeks                              # ...
-
-#             # Move day on and reset day state
-#             self.current_day           = day
-#             self.current_day_subjects  = set()
+        # print(f"Meeting {len(agents_of_interest)} new people!  How exciting.")
+        self.contacts_archive[0][agent].update(agents_of_interest)
 
 
 class ContactTracingApp(Intervention):

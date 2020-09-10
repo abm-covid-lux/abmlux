@@ -8,6 +8,8 @@ from collections import deque, defaultdict
 from abmlux.sim_time import DeferredEventPool
 import abmlux.random_tools as random_tools
 
+log = logging.getLogger("location_closure")
+
 class LocationClosures(Intervention):
 
     def __init__(self, prng, config, clock, bus, state):
