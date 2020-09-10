@@ -59,7 +59,6 @@ class Simulator:
         self.bus.subscribe("agent.activity.change", self.handle_activity_change)
         self.bus.subscribe("agent.health.change", self.handle_health_change)
         self.bus.subscribe("sim.time.tick", self._get_activity_transitions)
-        self.bus.subscribe("sim.time.tick", self.disease.get_health_transitions)
 
     def handle_location_change(self, agent, new_location):
         self.agent_updates[agent]['location'] = new_location

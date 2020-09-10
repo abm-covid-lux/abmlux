@@ -93,7 +93,8 @@ def intervention_setup(state):
                      "contact_tracing.ContactTracingApp",
                      "contact_tracing.ContactTracingManual",
                      "quarantine.Quarantine",
-                     "location_closure.LocationClosures"
+                     "location_closure.LocationClosures",
+                     "ppm.PersonalProtectiveMeasures"
                     ]
 
     # Reporters
