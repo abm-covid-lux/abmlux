@@ -40,13 +40,13 @@ class Laboratory(Intervention):
         self.prob_false_negative              = config['test_sampling']['prob_false_negative']
         self.test_sample_to_test_results_days = config['test_sampling']['test_sample_to_test_results_days']
 
-        self.incubating_states     = set(config['incubating_states'])
-        self.contagious_states     = set(config['contagious_states'])
+        self.incubating_states = set(config['incubating_states'])
+        self.contagious_states = set(config['contagious_states'])
 
-        self.test_sample_to_test_results_ticks = int(clock.days_to_ticks(config['test_sampling']['test_sample_to_test_results_days']))
-        self.infected_states       = self.incubating_states.union(self.contagious_states)
+        self.test_sample_to_test_results_ticks = int(clock.days_to_ticks(test_sample_to_test_results_days))
+        self.infected_states = self.incubating_states.union(self.contagious_states)
 
-        self.test_result_events    = DeferredEventPool(bus, clock)
+        self.test_result_events = DeferredEventPool(bus, clock)
         self.agents_awaiting_results = set()
 
         self.bus.subscribe("testing.booked", self.handle_testing_booked)
