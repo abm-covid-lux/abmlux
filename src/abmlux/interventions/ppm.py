@@ -13,7 +13,7 @@ class PersonalProtectiveMeasures(Intervention):
         super().__init__(prng, config, clock, bus)
 
         self.incubating_states = set(config['incubating_states'])
-        self.ppm_coeff = config['personal_protective_measures']['ppm_coeff']
+        self.ppm_coeff         = config['personal_protective_measures']['ppm_coeff']
 
         self.bus.subscribe("agent.health.change", self.handle_health_change)
 
