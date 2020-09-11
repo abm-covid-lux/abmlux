@@ -12,10 +12,10 @@ import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 import abmlux.markov_model as markov_model
+from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
-from abmlux.intervention import ContactTracingApp, Quarantine
 
 import abmlux.tools as tools
 
@@ -75,7 +75,8 @@ def assign_activities(state):
 def disease_model(state):
     """Set up disease model."""
 
-    state.disease = CompartmentalModel(state.prng, state.config)
+    state.bus = MessageBus()
+    state.disease = CompartmentalModel(state.prng, state.config, state.bus, state)
     # TODO: make this dynamic from the config file (like reporters)
 
     # Initialise state
@@ -84,10 +85,35 @@ def disease_model(state):
 def intervention_setup(state):
     """Set up interventions"""
 
-#    state.interventions = []
-    state.interventions = [ContactTracingApp(state.prng, state.config), Quarantine(state.prng, state.config)]
-    # TODO: make this dynamic from the config file
-    # TODO: support >1 interventions
+    # TODO: put this is config
+    interventions_config = [
+                     "testing.LargeScaleTesting",
+                     "laboratory.TestBooking",
+                     "laboratory.Laboratory",
+                     "contact_tracing.ContactTracingApp",
+                     "contact_tracing.ContactTracingManual",
+                     "quarantine.Quarantine",
+                     "location_closure.LocationClosures",
+                     "ppm.PersonalProtectiveMeasures",
+                     "testing.OtherTesting"
+                    ]
+
+    # Reporters
+    interventions = []
+    for intervention in interventions_config:
+        module_name = "abmlux.interventions." + ".".join(intervention.split(".")[:-1])
+        class_name  = intervention.split(".")[-1]
+
+        log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
+        mod = importlib.import_module(module_name)
+        cls = getattr(mod, class_name)
+
+        params = [state.prng, state.config, state.clock, state.bus, state]
+        log.debug("Instantiating class %s with parameters %s", cls, params)
+        new_intervention = cls(*params)
+        interventions.append(new_intervention)
+
+    state.interventions = interventions
 
     # Initialise internal state of the intervention object, and allow it to
     # modify the network if needed
