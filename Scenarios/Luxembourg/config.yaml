@@ -613,7 +613,7 @@ test_sampling:
   # The probability of a false negative:
   prob_false_negative: 0.01
   # The time taken between a test and publishing of the result of that test:
-  test_sample_to_test_results_days: 2
+  do_test_to_test_results_days: 2
 
 # The intervention 'test_booking' simply refer to the system that books tests for agents, should
 # they request a booking.

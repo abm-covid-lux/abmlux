@@ -71,7 +71,7 @@ class ContactTracingManual(Intervention):
         for day in self.contacts_archive:
             for other_agent in day[agent]:
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
-                    self.bus.publish("testing.selected", other_agent)
+                    self.bus.publish("testing.book_test", other_agent)
                     self.bus.publish("quarantine", other_agent)
 
         self.daily_notification_count += 1
@@ -130,7 +130,7 @@ class ContactTracingApp(Intervention):
         self.current_day_notifications   = set()
 
         self.bus.subscribe("testing.result", self.handle_test_result)
-        self.bus.subscribe("sim.time", self.tick)
+        self.bus.subscribe("sim.time.tick", self.tick)
         self.bus.subscribe("sim.time.midnight", self.midnight)
         self.bus.subscribe("sim.time.start_simulation", self.start_sim)
 
@@ -149,7 +149,8 @@ class ContactTracingApp(Intervention):
 
         num_app_installs = min(len(network.agents), math.ceil(len(network.agents) * \
                                self.app_prevalence ))
-        self.agents_with_app = random_tools.random_sample(self.prng, network.agents, num_app_installs)
+        self.agents_with_app = random_tools.random_sample(self.prng, network.agents, \
+                                                          num_app_installs)
 
         log.info("Selected %i agents with app", len(self.agents_with_app))
 
@@ -161,7 +162,7 @@ class ContactTracingApp(Intervention):
             risk = self._get_personal_risk(agent)
             if risk >= clock.mins_to_ticks(self.time_at_risk_threshold_mins):
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
-                    self.bus.publish("testing.selected", agent)
+                    self.bus.publish("testing.book_test", agent)
                     self.bus.publish("quarantine", agent)
 
         # Move day on and reset day state
@@ -207,11 +208,10 @@ class ContactTracingApp(Intervention):
             daily_exposure     = self.exposure_by_day[i][agent]
             # For this day, find agents who have notified the app and whom this agent has met
             contacted = self.current_day_notifications.intersection(daily_exposure.keys())
-            transmission_risk = [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1][days_since_contact]
-            # transmission_risk = config['contact_tracing_app']['trans_risk_level_base_case'][days_since_contact]
+            transmission_risk = self.trans_risk_level_base_case[days_since_contact]
             for other_agent in contacted:
-                risk = self.duration_wgt * self.attenuation_wgt * self.days_since_last_expsr_wgt \
-                       * transmission_risk
+                risk = self.duration_wgt * self.attenuation_wgt \
+                       * self.days_since_last_expsr_wgt * transmission_risk
                 # Keep track of global maximum risk
                 if risk > max_risk:
                     max_risk = risk

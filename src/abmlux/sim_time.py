@@ -167,8 +167,8 @@ class DeferredEventPool:
 
     def add(self, topic, lifespan, *args, **kwargs):
 
-        if lifespan is None and deadline is None:
-            raise ValueError("Timer must have a deadline or a lifespan set")
+        if lifespan is None:
+            raise ValueError("Timer must have a lifespan set")
 
         self.deadline = self.clock.t + self._duration_to_ticks(lifespan)
         self.events[self.deadline].append((topic, args, kwargs))
@@ -176,7 +176,10 @@ class DeferredEventPool:
     def tick(self, clock, t):
         for event in self.events[t]:
             topic, args, kwargs = event
-            self.bus.publish(topic, *args, **kwargs)
+            if isinstance(topic, str):
+                self.bus.publish(topic, *args, **kwargs)
+            else:
+                topic(*args, **kwargs)
 
         del(self.events[t])
 

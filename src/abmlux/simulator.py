@@ -104,8 +104,6 @@ class Simulator:
         self.clock.reset()
         current_day = self.clock.now().day
 
-        # FIXME: this should perhaps not exist, in favour of calls to __init__ in the various
-        #        objects.
         self.bus.publish("sim.time.start_simulation", self)
         update_notifications = []
         for t in self.clock:

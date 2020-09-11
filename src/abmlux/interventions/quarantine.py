@@ -25,20 +25,23 @@ class Quarantine(Intervention):
         self.agents_in_quarantine  = set()
 
         self.bus.subscribe("testing.result", self.handle_test_result)
-        self.bus.subscribe("quarantine", self.handle_quarantine_request)
+        self.bus.subscribe("quarantine.start", self.handle_start_quarantine)
         self.bus.subscribe("agent.location.change", self.handle_location_change)
         self.bus.subscribe("quarantine.end", self.handle_end_quarantine)
 
     def handle_test_result(self, agent, result):
+        """Respond to positive test results by starting quarantine.
+        Respond to negative test results by ending quarantine."""
 
-        if agent in self.agents_in_quarantine:
-            return
+        if agent in self.agents_in_quarantine and result == False:
+            self.bus.publish("quarantine.end", agent)
 
-        if result == True:
+        elif agent not in self.agents_in_quarantine and result == True:
             self.agents_in_quarantine.add(agent)
             self.end_quarantine_events.add("quarantine.end", self.default_duration_days, agent)
 
-    def handle_quarantine_request(self, agent):
+    def handle_start_quarantine(self, agent):
+        """Immediate start quarantine, unless the agent is already in quarantine"""
 
         if agent in self.agents_in_quarantine:
             return
@@ -47,6 +50,9 @@ class Quarantine(Intervention):
         self.end_quarantine_events.add(agent, lifespan=self.default_duration_days)
 
     def handle_location_change(self, agent, new_location):
+        """Catch any location changes that will move quarantined agents out of their home,
+        and rebroadcast an event to move them home again."""
+
         if agent in self.agents_in_quarantine:
 
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
@@ -54,4 +60,6 @@ class Quarantine(Intervention):
                 self.bus.publish("agent.location.change", agent, home_location)
 
     def handle_end_quarantine(self, agent):
+        """Ends quarantine."""
+
         self.agents_in_quarantine.remove(agent)

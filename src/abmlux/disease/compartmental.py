@@ -135,11 +135,13 @@ class CompartmentalModel(DiseaseModel):
             if duration_ticks is not None:
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
-                    self.bus.publish("agent.health.change", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
+                    self.bus.publish("agent.health.change", agent, \
+                        self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
             # pylint: enable=line-too-long
 
 
     def update_health_indices(self, agent, old_health):
+        """Update internal counts."""
 
         if old_health == agent.health:
             return

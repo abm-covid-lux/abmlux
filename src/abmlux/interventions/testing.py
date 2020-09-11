@@ -2,8 +2,6 @@
 
 import math
 import logging
-from tqdm import tqdm
-from collections import deque, defaultdict
 
 from abmlux.sim_time import DeferredEventPool
 import abmlux.random_tools as random_tools
@@ -35,7 +33,7 @@ class LargeScaleTesting(Intervention):
         test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
                                                         self.agents_tested_per_day)
         for agent in test_agents_random:
-            self.test_booking_events.add("testing.selected", self.invitation_to_test_booking_delay, \
+            self.test_booking_events.add("testing.book_test", self.invitation_to_test_booking_delay, \
                                          agent)
 
 class OtherTesting(Intervention):
@@ -64,5 +62,5 @@ class OtherTesting(Intervention):
         # If moving from an asymptomatic state to a symtomatic state
         if old_health not in self.symptomatic_states and agent.health in self.symptomatic_states:
             if random_tools.boolean(self.prng, self.prob_test_symptoms):
-                self.test_booking_events.add("testing.selected", \
+                self.test_booking_events.add("testing.book_test", \
                                              self.onset_of_symptoms_to_test_booking, agent)
