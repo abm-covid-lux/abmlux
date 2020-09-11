@@ -37,8 +37,6 @@ class LargeScaleTesting(Intervention):
             #delay_ticks = max(int(clock.days_to_ticks(self.invitation_to_test_booking_days)), 1)
             self.bus.publish('testing.selected', agent)
 
-            # invite_to_test -> book_test -> test -> test_results
-
 class OtherTesting(Intervention):
     """This refers to situations where an agent books a test without having been directed to do so
     by any of the other interventions. Chief among these are the situations in which an agent
@@ -47,9 +45,23 @@ class OtherTesting(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.prob_test_symptoms                     = config['other_testing']['prob_test_symptoms']
-        self.onset_of_symptoms_to_test_booking_days = config['other_testing']['onset_of_symptoms_to_test_booking_days']
+        self.prob_test_symptoms                = config['other_testing']['prob_test_symptoms']
+        self.onset_of_symptoms_to_test_booking = int(clock.days_to_ticks(config['other_testing']['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states = set(config['symptomatic_states'])
+        self.symptomatic_states  = set(config['symptomatic_states'])
+        self.test_booking_events = DeferredEventPool(bus, clock)
 
-        self.bus.subscribe("agent.health.change", self.handle_health_change)
+        self.bus.subscribe("sim.agent.health", self.handle_health_change)
+
+
+    def handle_health_change(self, agent, old_health):
+
+        # If no change, skip
+        if old_health == agent.health:
+            return
+
+        # If moving from an asymptomatic state to a symtomatic state
+        if old_health not in self.symptomatic_states and agent.health in self.symptomatic_states:
+            if random_tools.boolean(self.prng, self.prob_test_symptoms):
+                self.test_booking_events.add("testing.selected", \
+                                             self.onset_of_symptoms_to_test_booking, agent)

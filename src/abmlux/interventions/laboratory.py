@@ -46,13 +46,17 @@ class Laboratory(Intervention):
 
         self.agents_awaiting_results.add(agent) # Update index
         self.test_result_events.add("laboratory.send_result", self.test_sample_to_test_results_ticks, agent, test_result)
-            
+
     def send_result(self, agent, result):
 
         # Notify people if time is up
         self.agents_awaiting_results.remove(agent)
         self.bus.publish("testing.result", agent, result)
 
+# selected_for_testing --> book_a_test --> the_actual_test --> test_results_published
+#                       |               |                   |
+#                       |               |                   |
+#                       |               |                   \-----
 
 class TestBooking(Intervention):
     """Consume a 'selected for testing' signal and wait a bit whilst getting around to it"""
