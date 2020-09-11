@@ -17,12 +17,13 @@ class LargeScaleTesting(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.agents_tested_per_day_raw       = config['lst']['tests_per_day']
-        self.invitation_to_test_booking_days = config['lst']['invitation_to_test_booking_days']
+        self.agents_tested_per_day_raw        = config['lst']['tests_per_day']
+        self.invitation_to_test_booking_delay = int(clock.days_to_ticks(config['lst']['invitation_to_test_booking_days']))
 
         scale_factor = config['n'] / sum(config['age_distribution'])
         self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
 
+        self.test_booking_events = DeferredEventPool(bus, clock)
         self.network = state.network
         self.current_day = None
 
@@ -34,8 +35,8 @@ class LargeScaleTesting(Intervention):
         test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
                                                         self.agents_tested_per_day)
         for agent in test_agents_random:
-            #delay_ticks = max(int(clock.days_to_ticks(self.invitation_to_test_booking_days)), 1)
-            self.bus.publish('testing.selected', agent)
+            self.test_booking_events.add("testing.selected", self.invitation_to_test_booking_delay, \
+                                         agent)
 
 class OtherTesting(Intervention):
     """This refers to situations where an agent books a test without having been directed to do so
