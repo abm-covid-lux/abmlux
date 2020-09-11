@@ -139,9 +139,9 @@ class CompartmentalModel(DiseaseModel):
             # pylint: enable=line-too-long
 
 
-    def update_health_indices(self, agent, old_health, new_health):
+    def update_health_indices(self, agent, old_health):
 
-        if old_health == new_health:
+        if old_health == agent.health:
             return
 
         # TODO: what if the health state moves by some other number due to another intervention?

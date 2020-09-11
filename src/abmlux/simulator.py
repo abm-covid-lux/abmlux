@@ -107,23 +107,21 @@ class Simulator:
         # FIXME: this should perhaps not exist, in favour of calls to __init__ in the various
         #        objects.
         self.bus.publish("sim.time.start_simulation", self)
+        update_notifications = []
         for t in self.clock:
 
+            # Send out notifications of what has changed since last tick
+            for topic, *params in update_notifications:
+                self.bus.publish(topic, *params)
+
+            # Send tick event --- things respond to this with intents
             self.bus.publish("sim.time.tick", self.clock, t)
             if current_day != self.clock.now().day:
                 current_day = self.clock.now().day
                 self.bus.publish("sim.time.midnight", self.clock, t)
 
-            # - 1 - Compute changes and pop them on the list
-            # self._get_activity_transitions()
-            # self.disease.get_health_transitions(t, self)
-
-            # DEBUG
-            # for agent, payload in agent_updates.items():
-            #     print(f"-> {agent} / {list(payload.keys())}")
-
             # - 3 - Actually enact changes in an atomic manner
-            self._update_agents()
+            update_notifications = self._update_agents()
 
             # 4. Inform reporters of state
             for reporter in self.reporters:
@@ -155,11 +153,12 @@ class Simulator:
     def _update_agents(self):
         """Update the state of agents according to the lists provided."""
 
+        update_notifications = []
+
         for agent, updates in self.agent_updates.items():
 
             # -------------------------------------------------------------------------------------
             if 'health' in updates:
-                new_health = updates['health']
 
                 # Remove from index
                 self.agents_by_health_state[agent.health].remove(agent)
@@ -167,36 +166,37 @@ class Simulator:
 
                 # Update
                 old_health = agent.health
-                agent.health = new_health
+                agent.health = updates['health']
 
                 # Add to index
                 self.agents_by_health_state[agent.health].add(agent)
                 self.agent_counts_by_health[agent.health][agent.current_location] += 1
-                self.bus.publish("sim.agent.health", agent, old_health, new_health)
+                update_notifications.append(("sim.agent.health", agent, old_health))
 
             # -------------------------------------------------------------------------------------
             if 'activity' in updates:
-                new_activity = updates['activity']
 
                 old_activity = agent.current_activity
-                agent.set_activity(new_activity)
-                self.bus.publish("sim.agent.activity", agent, old_activity, new_activity)
+                agent.set_activity(updates['activity'])
+                update_notifications.append(("sim.agent.activity", agent, old_activity))
 
             # -------------------------------------------------------------------------------------
             if 'location' in updates:
-                new_location = updates['location']
 
                 # Update indices and set activity
                 self.agent_counts_by_health[agent.health][agent.current_location] -= 1
                 self.attendees[agent.current_location].remove(agent)
                 
                 old_location = agent.current_location
-                agent.set_location(new_location)
+                agent.set_location(updates['location'])
                 
                 self.attendees[agent.current_location].add(agent)
                 self.agent_counts_by_health[agent.health][agent.current_location] += 1
                 
                 
-                self.bus.publish("sim.agent.location", agent, old_location, new_location)
+                update_notifications.append(("sim.agent.location", agent, old_location))
 
         self.agent_updates = defaultdict(dict)
+        return update_notifications
+
+

@@ -51,3 +51,5 @@ class OtherTesting(Intervention):
         self.onset_of_symptoms_to_test_booking_days = config['other_testing']['onset_of_symptoms_to_test_booking_days']
 
         self.symptomatic_states = set(config['symptomatic_states'])
+
+        self.bus.subscribe("agent.health.change", self.handle_health_change)

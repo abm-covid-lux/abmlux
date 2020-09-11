@@ -84,17 +84,17 @@ class ContactTracingManual(Intervention):
         self.contacts_archive.appendleft(defaultdict(set))
         self.daily_notification_count = 0
 
-    def handle_location_change(self, agent, old_location, new_location):
+    def handle_location_change(self, agent, old_location):
 
         # Don't record colocation in any blacklisted locations
-        if new_location.typ in self.location_type_blacklist:
+        if agent.current_location.typ in self.location_type_blacklist:
             return
 
         # This agent has to be doing the relevant activity
         if agent.current_activity not in self.relevant_activities:
             return
 
-        agents_of_interest = [a for a in self.sim.attendees[new_location]\
+        agents_of_interest = [a for a in self.sim.attendees[agent.current_location]\
                               if a.current_activity in self.relevant_activities]
         if len(agents_of_interest) <= 1:    # The person counts as an attendee him/her self
             return
