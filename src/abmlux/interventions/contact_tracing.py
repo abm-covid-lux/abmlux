@@ -12,11 +12,22 @@ import abmlux.random_tools as random_tools
 log = logging.getLogger("contact_tracing")
 
 class ContactTracingManual(Intervention):
+    """The intervention ContactTracingManual refers to the manual tracing of contacts of agents with
+    postive test results. The maximum number of positive agents whose contacts can be traced is
+    specified, as is the window of time over which such contacts are registered. Contacts are
+    considered to be agents who performed one of the specified regular activities in the same
+    location as the agent, so long as the agent was also performing one such activity. For example,
+    if the agent was working in a given location and another agent was also working there, at the
+    same time, then the agent would remember the contact with the other agent. Conversely, if the
+    location was, for example, a shop with the other agent only shopping there, then the first agent
+    would not remember this. Other agents traced though this proceedure are instructed to get tested
+    and quarantine in the meantime. With a certain probability, agents do not follow this advice and
+    continue as normal."""
 
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.max_per_day              = config['contact_tracing_manual']['max_per_day']
+        self.max_per_day_raw          = config['contact_tracing_manual']['max_per_day']
         self.tracing_time_window_days = config['contact_tracing_manual']['tracing_time_window_days']
         self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
                                          config['contact_tracing_manual']['relevant_activities']}
@@ -24,7 +35,8 @@ class ContactTracingManual(Intervention):
         self.location_type_blacklist  = config['contact_tracing_manual']['location_type_blacklist']
 
         self.daily_notification_count = 0
-        self.max_per_day_rescaled     = max(int(self.max_per_day * config['n'] / sum(config['age_distribution'])),1)
+        scale_factor = config['n'] / sum(config['age_distribution'])
+        self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
 
         self.regular_locations_dict  = {}
         self.activity_manager        = state.activity_manager
@@ -43,22 +55,24 @@ class ContactTracingManual(Intervention):
         self.sim = sim
 
     def notify_if_testing_positive(self, agent, result):
+        """If the contact tracing system is not overcapacity, then agents newly testing positive
+        will have their contacts selected for testing and quarantine."""
 
         # We can only respond to this many positive tests per day
-        if self.daily_notification_count > self.max_per_day_rescaled:
-            return
-        
-        # Don't respond if the person has tested false
-        if result == False:
+        if self.daily_notification_count > self.max_per_day:
             return
 
-        # Look up people from past n days (and today) who this agent has been with
-        # and send them a message to get tested
-        # First up, today
+        # Don't respond if the person has tested false
+        if not result:
+            return
+
+        # Look up people from past several days (and today) who this agent has been with
+        # and send them a message to get tested and quarantine.
         for day in self.contacts_archive:
             for other_agent in day[agent]:
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
                     self.bus.publish("testing.selected", other_agent)
+                    self.bus.publish("quarantine", other_agent)
 
         self.daily_notification_count += 1
 
@@ -90,6 +104,11 @@ class ContactTracingManual(Intervention):
 
 
 class ContactTracingApp(Intervention):
+    """The intervention ContactTracingApp refers to contact tracing perform not manually, but via an
+    application installed on the phones of agents. A certain proportion of the population is assumed
+    to possess the app from the very beginning. The app works according to the Corona-Warn-App,
+    which is the official COVID-19 exposure notification app developed for Germany. The window of
+    time over which contacts are considered is specified."""
 
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)

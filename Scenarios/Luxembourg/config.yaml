@@ -625,13 +625,13 @@ test_booking:
   # case where the agent is showing symptoms at the time of booking:
   test_booking_to_test_sample_days_symptoms: 2
 
-# The intervention 'large_scale_testing' refers to a system that distributes invitations to test
-# across the population, according to a certain algorithm. 
-large_scale_testing:
+# The intervention 'lst' stands for 'large scale testing' and refers to a system that distributes
+# invitations to test, across the population, according to a certain algorithm. 
+lst:
   # The number of agents selected uniformly at random for testing each day:
   tests_per_day: 500
   # The time between an invitation to test being received and the agent booking a test:
-  invitation_sent_to_test_booking_days: 6
+  invitation_to_test_booking_days: 6
 
 # The intervention 'other_testing' refers to situations where an agent books a test without having
 # been directed to do so by any of the other interventions. Chief among these are the situations in

@@ -64,20 +64,22 @@ class TestBooking(Intervention):
         self.time_to_arrange_test_no_symptoms = int(clock.days_to_ticks(config['test_booking']['test_booking_to_test_sample_days_no_symptoms']))
         self.time_to_arrange_test_symptoms    = int(clock.days_to_ticks(config['test_booking']['test_booking_to_test_sample_days_symptoms']))
 
-        self.test_events       = DeferredEventPool(bus, clock)
+        self.symptomatic_states   = set(config['symptomatic_states'])
+        self.test_events          = DeferredEventPool(bus, clock)
         self.agents_awaiting_test = set()
 
         self.bus.subscribe("testing.selected", self.handle_selected_for_testing)
         self.bus.subscribe("test_booking.book_test", self.book_test)
 
     def handle_selected_for_testing(self, agent):
-        """Someone has been selected for testing.  Insert a delay
-        whilst they figure out where to go"""
-
-        # FIXME: distinguish between symptoms and no symptoms
+        """Someone has been selected for testing.  Insert a delay between the booking of the test
+        and the test"""
 
         if agent not in self.agents_awaiting_test:
-            self.test_events.add("test_booking.book_test", self.time_to_arrange_test_no_symptoms, agent)
+            if agent.health in self.symptomatic_states:
+                self.test_events.add("test_booking.book_test", self.time_to_arrange_test_symptoms, agent)
+            else:
+                self.test_events.add("test_booking.book_test", self.time_to_arrange_test_no_symptoms, agent)
             self.agents_awaiting_test.add(agent)
 
     def book_test(self, agent):
