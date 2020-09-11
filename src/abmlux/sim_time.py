@@ -3,6 +3,7 @@
 Used to represent time in the model."""
 
 import logging
+from collections import defaultdict
 from datetime import datetime,timedelta
 
 import dateparser
@@ -137,6 +138,10 @@ class SimClock:
         """Return the number of weeks elapsed since the start of the simulation"""
         return self.t / self.ticks_in_week
 
+    def mins_to_ticks(self, mins):
+        """Convert a number of minutes to a number of simulation ticks"""
+        return mins * self.ticks_in_minute
+
     def days_to_ticks(self, days):
         """Convert a number of days to a number of simulation ticks"""
         return days * self.ticks_in_day
@@ -148,3 +153,47 @@ class SimClock:
     def ticks_to_timedelta(self, ticks):
         """Convert a number of simulation ticks to a timedelta object"""
         return timedelta(seconds=ticks * self.tick_length_s)
+
+
+
+class DeferredEventPool:
+
+    def __init__(self, bus, clock):
+        self.events = defaultdict(list)
+        self.bus = bus
+        self.clock = clock
+
+        self.bus.subscribe("sim.time.tick", self.tick)
+
+    def add(self, topic, lifespan, *args, **kwargs):
+
+        if lifespan is None:
+            raise ValueError("Timer must have a lifespan set")
+
+        self.deadline = self.clock.t + self._duration_to_ticks(lifespan)
+        self.events[self.deadline].append((topic, args, kwargs))
+
+    def tick(self, clock, t):
+        for event in self.events[t]:
+            topic, args, kwargs = event
+            if isinstance(topic, str):
+                self.bus.publish(topic, *args, **kwargs)
+            else:
+                topic(*args, **kwargs)
+
+        del(self.events[t])
+
+    def _duration_to_ticks(self, time_ref):
+        """Converts a duration in raw ticks or timedelta into a number of ticks
+        in the current clock"""
+
+        # Already a tick count
+        if isinstance(time_ref, int):
+            return time_ref
+
+        # A duration object
+        if isinstance(time_ref, timedelta):
+            return int(self.clock.timedelta_to_ticks(time_ref))
+
+        raise ValueError(f"Timer parameter given as a {type(time_ref)}, but expecting int or "\
+                          "timedelta")

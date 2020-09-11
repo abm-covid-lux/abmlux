@@ -55,7 +55,7 @@ class DiseaseModel:
         log.warning("STUB: initialise_agents in disease.py")
 
     # pylint: disable=no-self-use
-    def get_health_transitions(self, t, sim):
+    def get_health_transitions(self, t, sim, agent_updates):
         """Return a list of health transitions agents should enact this tick.
 
         Each health transition should be a tuple containing an agent and the state to transition
@@ -67,4 +67,3 @@ class DiseaseModel:
         # pylint: disable=unused-argument
 
         log.warning("STUB: get_health_transitions in disease.py")
-        return []

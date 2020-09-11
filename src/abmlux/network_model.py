@@ -549,6 +549,7 @@ def assign_activities(prng, config, network, activity_distributions):
         assert len(allowed_locations) >= 0
         new_location = random_choice(prng, list(allowed_locations))
         # Do this activity in a random location
-        agent.set_activity(new_activity, new_location)
+        agent.set_activity(new_activity)
+        agent.set_location(new_location)
 
     return network

@@ -12,7 +12,7 @@ class CompartmentalModel(DiseaseModel):
     """Represents a disease as a set of states with transition probabilities and a pre-determined,
     static set of potential routes through the states."""
 
-    def __init__(self, prng, config):
+    def __init__(self, prng, config, bus, state):
 
         states = config['health_states']
         super().__init__(states)
@@ -21,11 +21,15 @@ class CompartmentalModel(DiseaseModel):
         self.infection_probabilities    = config['infection_probabilities_per_tick']
         self.num_initial_infections     = config['initial_infections']
         self.contagious_states          = set(config['contagious_states'])
+        self.incubating_states          = set(config['incubating_states'])
         self.durations_by_profile       = config['durations_by_profile']
         self.health_state_change_time   = {}
         self.disease_profile_index_dict = {}
         self.disease_profile_dict       = {}
         self.disease_durations_dict     = {}
+        self.bus = bus
+        self.state = state
+        self.network = state.network
 
         profiles  = config['disease_profile_distribution_by_age']
         labels    = config['disease_profile_list']
@@ -38,6 +42,13 @@ class CompartmentalModel(DiseaseModel):
         #pylint: disable=unnecessary-comprehension
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
+        
+        self.bus.subscribe("sim.time.start_simulation", self.start_sim)
+        self.bus.subscribe("sim.time.tick", self.get_health_transitions)
+        self.bus.subscribe("sim.agent.health", self.update_health_indices)
+
+    def start_sim(self, sim):
+        self.sim = sim
 
     def initialise_agents(self, network):
         """Assign a disease profile and durations to each agent and infect some people at random
@@ -47,6 +58,8 @@ class CompartmentalModel(DiseaseModel):
         # passes through and in which order.
         log.info("Assigning disease profiles and durations...")
         agents = network.agents
+        total_contagious_time = 0
+        total_incubation_time = 0
         for agent in tqdm(agents):
             age_rounded = min((agent.age//self.step_size)*self.step_size, self.max_age)
             profile = random_choices(self.prng, list(self.dict_by_age[age_rounded].keys()),
@@ -56,6 +69,16 @@ class CompartmentalModel(DiseaseModel):
             assert len(durations) == len(profile)
             self.disease_profile_dict[agent] = profile
             self.disease_durations_dict[agent] = durations
+            # For information purposes, we calculate the mean incubation and contagious periods
+            for i in range(len(profile)):
+                if profile[i] in self.incubating_states:
+                    total_incubation_time += durations[i]
+                if profile[i] in self.contagious_states:
+                    total_contagious_time += durations[i]
+        average_contagious_time = total_contagious_time / len(agents)
+        average_incubation_time = total_incubation_time / len(agents)
+        log.info("Average contagious period (days): %s", average_contagious_time)
+        log.info("Average incubation period (days): %s", average_incubation_time)
 
         # The disease profile index dictionary keeps track of the progress each agent has made
         # through their disease profile. We start by setting the index of all agents to 0.
@@ -75,38 +98,35 @@ class CompartmentalModel(DiseaseModel):
         for agent in agents:
             self.health_state_change_time[agent] = 0
 
-    def get_health_transitions(self, t, sim):
+    def get_health_transitions(self, clock, t):
         """Updates the health state of agents"""
 
         # Start by using the simulation clock to convert durations from days to ticks
         if t == 0:
-            for agent in sim.agents:
+            for agent in self.network.agents:
                 for index in range(len(self.disease_durations_dict[agent])):
                     duration_days = self.disease_durations_dict[agent][index]
                     if duration_days is not None:
-                        duration_ticks = sim.clock.days_to_ticks(duration_days)
+                        duration_ticks = self.state.clock.days_to_ticks(duration_days)
                         self.disease_durations_dict[agent][index] = duration_ticks
 
-        # Set of changes to return to the simulator
-        next_health   = []
-
         # Compute for each location the probability of catching the virus during this tick
-        contagious_count_dict = {l: len([a for a in sim.attendees[l]
+        contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
                                          if a.health in self.contagious_states])
-                                 for l in sim.locations}
+                                 for l in self.sim.locations}
         infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ])**c
                                              for l, c in contagious_count_dict.items() if c > 0}
 
         # Determine which suceptible agents are infected during this tick
         for location, p_infection in infection_probability_by_location.items():
-            susceptible_agents = [agent for agent in sim.attendees[location]
+            susceptible_agents = [agent for agent in self.sim.attendees[location]
                                   if self.disease_profile_index_dict[agent] == 0]
             for agent in susceptible_agents:
                 if boolean(self.prng, p_infection):
-                    next_health.append((agent, self.disease_profile_dict[agent][1]))
+                    self.bus.publish("agent.health.change", agent, self.disease_profile_dict[agent][1])
 
         # Determine which other agents need moving to their next health state
-        for agent in sim.agents:
+        for agent in self.network.agents:
             duration_ticks = self.disease_durations_dict[agent]\
                              [self.disease_profile_index_dict[agent]]
 
@@ -115,15 +135,22 @@ class CompartmentalModel(DiseaseModel):
             if duration_ticks is not None:
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
-                    next_health.append((agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1]))
+                    self.bus.publish("agent.health.change", agent, \
+                        self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
             # pylint: enable=line-too-long
 
-        # Update the counter for when agents last changed health state
-        for agent, _ in next_health:
-            self.disease_profile_index_dict[agent] += 1
-            self.health_state_change_time[agent] = t
 
-        return next_health
+    def update_health_indices(self, agent, old_health):
+        """Update internal counts."""
+
+        if old_health == agent.health:
+            return
+
+        # TODO: what if the health state moves by some other number due to another intervention?
+        self.disease_profile_index_dict[agent] += 1
+
+        # TODO: broadcast time with events?
+        self.health_state_change_time[agent] = self.sim.clock.t
 
     def _durations_for_profile(self, profile):
         """Assigns durations for each phase in a given profile"""
@@ -136,10 +163,10 @@ class CompartmentalModel(DiseaseModel):
                 durations.append(None)
             if isinstance(dist,list):
                 if dist[0] == 'G':
-                    durations.append(gammavariate(self.prng,float(dist[1][0]),float(dist[1][1])))
+                    durations.append(gammavariate(self.prng, float(dist[1][0]), float(dist[1][1])))
                 if dist[0] == 'U':
                     durations.append(random_choice(self.prng,
-                                                   list(range(int(dist[1][0]),int(dist[1][1])))))
+                                                   list(range(int(dist[1][0]), int(dist[1][1])))))
                 if dist[0] == 'C':
                     durations.append(float(dist[1][0]))
 

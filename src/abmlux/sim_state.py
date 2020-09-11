@@ -7,6 +7,7 @@ import random
 from datetime import datetime
 from enum import IntEnum
 
+from .sim_time import SimClock
 from .version import VERSION
 from .activity_manager import ActivityManager
 
@@ -20,7 +21,8 @@ class SimulationPhase(IntEnum):
     BUILD_ACTIVITIES  = 2
     ASSIGN_ACTIVITIES = 3
     ASSIGN_DISEASE    = 4
-    RUN_SIM           = 5
+    INIT_INTERVENTION = 5
+    RUN_SIM           = 6
 
 
 class SimulationState:
@@ -45,11 +47,15 @@ class SimulationState:
 
         self.config                 = config
         self.activity_manager       = ActivityManager(config['activities'])
+        self.clock                  = SimClock(config['tick_length_s'],
+                                               config['simulation_length_days'], config['epoch'])
+        self.bus                    = None
         self.map                    = None
         self.network                = None
         self.activity_distributions = None
         self.activity_transitions   = None
         self.disease                = None
+        self.interventions          = None
 
     def set_phase_complete(self, phase):
         """Reports that a phase has been completed"""
