@@ -629,7 +629,7 @@ test_booking:
 # invitations to test, across the population, according to a certain algorithm. 
 lst:
   # The number of agents selected uniformly at random for testing each day:
-  tests_per_day: 500
+  tests_per_day: 5000
   # The time between an invitation to test being received and the agent booking a test:
   invitation_to_test_booking_days: 6
 

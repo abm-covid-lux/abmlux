@@ -34,7 +34,7 @@ class Quarantine(Intervention):
         Respond to negative test results by ending quarantine."""
 
         if agent in self.agents_in_quarantine and result == False:
-            self.bus.publish("quarantine.end", agent)
+            self.end_quarantine_events.add("quarantine.end", self.early_end_days, agent)
 
         elif agent not in self.agents_in_quarantine and result == True:
             self.agents_in_quarantine.add(agent)
@@ -47,19 +47,20 @@ class Quarantine(Intervention):
             return
 
         self.agents_in_quarantine.add(agent)
-        self.end_quarantine_events.add(agent, lifespan=self.default_duration_days)
+        self.end_quarantine_events.add("quarantine.end", self.default_duration_days, agent)
 
     def handle_location_change(self, agent, new_location):
         """Catch any location changes that will move quarantined agents out of their home,
         and rebroadcast an event to move them home again."""
 
         if agent in self.agents_in_quarantine:
-
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
             if new_location.typ != home_location.typ:
-                self.bus.publish("agent.location.change", agent, home_location)
+                if new_location.typ not in self.location_blacklist:
+                    self.bus.publish("agent.location.change", agent, home_location)
 
     def handle_end_quarantine(self, agent):
         """Ends quarantine."""
 
-        self.agents_in_quarantine.remove(agent)
+        if agent in self.agents_in_quarantine:
+            self.agents_in_quarantine.remove(agent)
