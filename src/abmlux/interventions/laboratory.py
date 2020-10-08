@@ -36,7 +36,7 @@ class Laboratory(Intervention):
             if random_tools.boolean(self.prng, self.prob_false_positive):
                 test_result = True
 
-        self.test_result_events.add("testing.result", self.do_test_to_test_results_ticks, agent, test_result)
+        self.test_result_events.add("notify.testing.result", self.do_test_to_test_results_ticks, agent, test_result)
 
 
 class TestBooking(Intervention):

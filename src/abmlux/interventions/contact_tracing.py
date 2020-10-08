@@ -44,10 +44,10 @@ class ContactTracingManual(Intervention):
         self.contacts_archive.appendleft(defaultdict(set))
 
         # Listen for interesting things
-        self.bus.subscribe("sim.time.start_simulation", self.start_sim, self)
-        self.bus.subscribe("sim.agent.location", self.handle_location_change, self)
-        self.bus.subscribe("sim.time.midnight", self.update_contact_lists, self)
-        self.bus.subscribe("testing.result", self.notify_if_testing_positive, self)
+        self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
+        self.bus.subscribe("notify.agent.location", self.handle_location_change, self)
+        self.bus.subscribe("notify.time.midnight", self.update_contact_lists, self)
+        self.bus.subscribe("notify.testing.result", self.notify_if_testing_positive, self)
 
     def start_sim(self, sim):
         self.sim = sim
@@ -70,7 +70,7 @@ class ContactTracingManual(Intervention):
             for other_agent in day[agent]:
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
                     self.bus.publish("testing.book_test", other_agent)
-                    self.bus.publish("quarantine.start", other_agent)
+                    self.bus.publish("request.quarantine.start", other_agent)
 
         self.daily_notification_count += 1
 
@@ -127,10 +127,10 @@ class ContactTracingApp(Intervention):
         self.current_day_contacts        = {}
         self.current_day_notifications   = set()
 
-        self.bus.subscribe("testing.result", self.handle_test_result, self)
-        self.bus.subscribe("sim.time.tick", self.tick, self)
-        self.bus.subscribe("sim.time.midnight", self.midnight, self)
-        self.bus.subscribe("sim.time.start_simulation", self.start_sim, self)
+        self.bus.subscribe("notify.testing.result", self.handle_test_result, self)
+        self.bus.subscribe("notify.time.tick", self.tick, self)
+        self.bus.subscribe("notify.time.midnight", self.midnight, self)
+        self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
 
         # Check that window is equal to transmission_risk list length...
 
@@ -161,7 +161,7 @@ class ContactTracingApp(Intervention):
             if risk >= clock.mins_to_ticks(self.time_at_risk_threshold_mins):
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
                     self.bus.publish("testing.book_test", agent)
-                    self.bus.publish("quarantine.start", agent)
+                    self.bus.publish("request.quarantine.start", agent)
 
         # Move day on and reset day state
         self.current_day_contacts       = {}

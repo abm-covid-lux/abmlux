@@ -163,7 +163,7 @@ class DeferredEventPool:
         self.bus = bus
         self.clock = clock
 
-        self.bus.subscribe("sim.time.tick", self.tick, self)
+        self.bus.subscribe("notify.time.tick", self.tick, self)
 
     def add(self, topic, lifespan, *args, **kwargs):
 

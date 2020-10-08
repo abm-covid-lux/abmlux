@@ -56,10 +56,10 @@ class Simulator:
         self.hospital_states = config['hospital_states']
 
         self.agent_updates = defaultdict(dict)
-        self.bus.subscribe("agent.location.change", self.handle_location_change, self)
+        self.bus.subscribe("request.location.change", self.handle_location_change, self)
         self.bus.subscribe("agent.activity.change", self.handle_activity_change, self)
         self.bus.subscribe("agent.health.change", self.handle_health_change, self)
-        self.bus.subscribe("sim.time.tick", self._get_activity_transitions, self)
+        self.bus.subscribe("notify.time.tick", self._get_activity_transitions, self)
 
     def handle_location_change(self, agent, new_location):
         self.agent_updates[agent]['location'] = new_location
@@ -74,7 +74,7 @@ class Simulator:
 
         # Change location in response to new activity
         allowable_locations = agent.locations_for_activity(self.agent_updates[agent]['activity'])
-        self.bus.publish("agent.location.change", agent, \
+        self.bus.publish("request.location.change", agent, \
                          random_tools.random_choice(self.prng, list(allowable_locations)))
         return MessageBus.CONSUME
     
@@ -91,10 +91,10 @@ class Simulator:
         # Markov chain.
         if new_health in self.hospital_states:
             if agent.current_location not in self.hospitals:
-                self.bus.publish("agent.location.change", agent, random_tools.random_choice(self.prng, self.hospitals))
+                self.bus.publish("request.location.change", agent, random_tools.random_choice(self.prng, self.hospitals))
         elif agent.health in self.dead_states:
             if agent.current_location not in self.cemeteries:
-                self.bus.publish("agent.location.change", agent, random_tools.random_choice(self.prng, self.cemeteries))
+                self.bus.publish("request.location.change", agent, random_tools.random_choice(self.prng, self.cemeteries))
 
         return MessageBus.CONSUME
 
@@ -109,7 +109,7 @@ class Simulator:
         self.clock.reset()
         current_day = self.clock.now().day
 
-        self.bus.publish("sim.time.start_simulation", self)
+        self.bus.publish("notify.time.start_simulation", self)
         update_notifications = []
         for t in self.clock:
 
@@ -118,10 +118,10 @@ class Simulator:
                 self.bus.publish(topic, *params)
 
             # Send tick event --- things respond to this with intents
-            self.bus.publish("sim.time.tick", self.clock, t)
+            self.bus.publish("notify.time.tick", self.clock, t)
             if current_day != self.clock.now().day:
                 current_day = self.clock.now().day
-                self.bus.publish("sim.time.midnight", self.clock, t)
+                self.bus.publish("notify.time.midnight", self.clock, t)
 
             # - 3 - Actually enact changes in an atomic manner
             update_notifications = self._update_agents()
@@ -130,7 +130,7 @@ class Simulator:
             for reporter in self.reporters:
                 reporter.iterate(self)
         
-        self.bus.publish("sim.time.end_simulation", self)
+        self.bus.publish("notify.time.end_simulation", self)
 
         for reporter in self.reporters:
             reporter.stop(self)
@@ -174,14 +174,14 @@ class Simulator:
                 # Add to index
                 self.agents_by_health_state[agent.health].add(agent)
                 self.agent_counts_by_health[agent.health][agent.current_location] += 1
-                update_notifications.append(("sim.agent.health", agent, old_health))
+                update_notifications.append(("notify.agent.health", agent, old_health))
 
             # -------------------------------------------------------------------------------------
             if 'activity' in updates:
 
                 old_activity = agent.current_activity
                 agent.set_activity(updates['activity'])
-                update_notifications.append(("sim.agent.activity", agent, old_activity))
+                update_notifications.append(("notify.agent.activity", agent, old_activity))
 
             # -------------------------------------------------------------------------------------
             if 'location' in updates:
@@ -197,7 +197,7 @@ class Simulator:
                 self.agent_counts_by_health[agent.health][agent.current_location] += 1
                 
                 
-                update_notifications.append(("sim.agent.location", agent, old_location))
+                update_notifications.append(("notify.agent.location", agent, old_location))
 
         self.agent_updates = defaultdict(dict)
         return update_notifications
