@@ -1,9 +1,6 @@
 """Represents laboratory testing and test booking system."""
 
-import math
 import logging
-from tqdm import tqdm
-from collections import deque, defaultdict
 
 from abmlux.sim_time import DeferredEventPool
 import abmlux.random_tools as random_tools
@@ -24,10 +21,10 @@ class Laboratory(Intervention):
             int(clock.days_to_ticks(config['test_sampling']['do_test_to_test_results_days']))
         self.infected_states = \
             set(config['incubating_states']).union(set(config['contagious_states']))
-            
+
         self.test_result_events = DeferredEventPool(bus, clock)
 
-        self.bus.subscribe("testing.do_test", self.handle_do_test)
+        self.bus.subscribe("testing.do_test", self.handle_do_test, self)
 
     def handle_do_test(self, agent):
 
@@ -56,7 +53,7 @@ class TestBooking(Intervention):
         self.test_events          = DeferredEventPool(bus, clock)
         self.agents_awaiting_test = set()
 
-        self.bus.subscribe("testing.book_test", self.handle_book_test)
+        self.bus.subscribe("testing.book_test", self.handle_book_test, self)
 
     def handle_book_test(self, agent):
         """Someone has been selected for testing.  Insert a delay between the booking of the test

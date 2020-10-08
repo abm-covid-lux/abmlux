@@ -25,7 +25,7 @@ class LargeScaleTesting(Intervention):
         self.network = state.network
         self.current_day = None
 
-        self.bus.subscribe("sim.time.midnight", self.midnight)
+        self.bus.subscribe("sim.time.midnight", self.midnight, self)
 
     def midnight(self, clock, t):
 
@@ -50,7 +50,7 @@ class OtherTesting(Intervention):
         self.symptomatic_states  = set(config['symptomatic_states'])
         self.test_booking_events = DeferredEventPool(bus, clock)
 
-        self.bus.subscribe("sim.agent.health", self.handle_health_change)
+        self.bus.subscribe("sim.agent.health", self.handle_health_change, self)
 
 
     def handle_health_change(self, agent, old_health):

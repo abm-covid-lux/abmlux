@@ -3,6 +3,7 @@
 import logging
 
 from abmlux.interventions import Intervention
+from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("location_closures")
 
@@ -12,9 +13,10 @@ class LocationClosures(Intervention):
         super().__init__(prng, config, clock, bus)
 
         self.location_closures  = config['location_closures']['locations']
-        self.home_activity_type = state.activity_manager.as_int(config['location_closures']['home_activity_type'])
+        self.home_activity_type = state.activity_manager.as_int(\
+            config['location_closures']['home_activity_type'])
 
-        self.bus.subscribe("agent.location.change", self.handle_location_change)
+        self.bus.subscribe("agent.location.change", self.handle_location_change, self)
 
     def handle_location_change(self, agent, new_location):
 
@@ -23,3 +25,4 @@ class LocationClosures(Intervention):
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
             if new_location.typ != home_location.typ:
                 self.bus.publish("agent.location.change", agent, home_location)
+                return MessageBus.CONSUME

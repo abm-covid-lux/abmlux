@@ -10,6 +10,7 @@ from collections import defaultdict
 
 import abmlux.random_tools as random_tools
 from .sim_time import SimClock
+from abmlux.messagebus import MessageBus
 
 log = logging.getLogger('sim')
 
@@ -55,13 +56,14 @@ class Simulator:
         self.hospital_states = config['hospital_states']
 
         self.agent_updates = defaultdict(dict)
-        self.bus.subscribe("agent.location.change", self.handle_location_change)
-        self.bus.subscribe("agent.activity.change", self.handle_activity_change)
-        self.bus.subscribe("agent.health.change", self.handle_health_change)
-        self.bus.subscribe("sim.time.tick", self._get_activity_transitions)
+        self.bus.subscribe("agent.location.change", self.handle_location_change, self)
+        self.bus.subscribe("agent.activity.change", self.handle_activity_change, self)
+        self.bus.subscribe("agent.health.change", self.handle_health_change, self)
+        self.bus.subscribe("sim.time.tick", self._get_activity_transitions, self)
 
     def handle_location_change(self, agent, new_location):
         self.agent_updates[agent]['location'] = new_location
+        return MessageBus.CONSUME
 
     def handle_activity_change(self, agent, new_activity):
         self.agent_updates[agent]['activity'] = new_activity
@@ -74,6 +76,7 @@ class Simulator:
         allowable_locations = agent.locations_for_activity(self.agent_updates[agent]['activity'])
         self.bus.publish("agent.location.change", agent, \
                          random_tools.random_choice(self.prng, list(allowable_locations)))
+        return MessageBus.CONSUME
     
     def handle_health_change(self, agent, new_health):
         self.agent_updates[agent]['health'] = new_health
@@ -92,6 +95,8 @@ class Simulator:
         elif agent.health in self.dead_states:
             if agent.current_location not in self.cemeteries:
                 self.bus.publish("agent.location.change", agent, random_tools.random_choice(self.prng, self.cemeteries))
+
+        return MessageBus.CONSUME
 
     def run(self):
         """Run the simulation"""

@@ -43,9 +43,9 @@ class CompartmentalModel(DiseaseModel):
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
         
-        self.bus.subscribe("sim.time.start_simulation", self.start_sim)
-        self.bus.subscribe("sim.time.tick", self.get_health_transitions)
-        self.bus.subscribe("sim.agent.health", self.update_health_indices)
+        self.bus.subscribe("sim.time.start_simulation", self.start_sim, self)
+        self.bus.subscribe("sim.time.tick", self.get_health_transitions, self)
+        self.bus.subscribe("sim.agent.health", self.update_health_indices, self)
 
     def start_sim(self, sim):
         self.sim = sim
@@ -146,7 +146,7 @@ class CompartmentalModel(DiseaseModel):
         if old_health == agent.health:
             return
 
-        # TODO: what if the health state moves by some other number due to another intervention?
+        # FIXME: what if the health state moves by some other number due to another intervention?
         self.disease_profile_index_dict[agent] += 1
 
         # TODO: broadcast time with events?

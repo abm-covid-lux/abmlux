@@ -1,13 +1,10 @@
 """Represents the intervention of quarantining."""
 
-import math
 import logging
-from tqdm import tqdm
-from collections import deque, defaultdict
 
 from abmlux.sim_time import DeferredEventPool
-import abmlux.random_tools as random_tools
 from abmlux.interventions import Intervention
+from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("quarantine")
 
@@ -24,19 +21,19 @@ class Quarantine(Intervention):
         self.end_quarantine_events = DeferredEventPool(bus, self.clock)
         self.agents_in_quarantine  = set()
 
-        self.bus.subscribe("testing.result", self.handle_test_result)
-        self.bus.subscribe("quarantine.start", self.handle_start_quarantine)
-        self.bus.subscribe("agent.location.change", self.handle_location_change)
-        self.bus.subscribe("quarantine.end", self.handle_end_quarantine)
+        self.bus.subscribe("testing.result", self.handle_test_result, self)
+        self.bus.subscribe("quarantine.start", self.handle_start_quarantine, self)
+        self.bus.subscribe("agent.location.change", self.handle_location_change, self)
+        self.bus.subscribe("quarantine.end", self.handle_end_quarantine, self)
 
     def handle_test_result(self, agent, result):
         """Respond to positive test results by starting quarantine.
         Respond to negative test results by ending quarantine."""
 
-        if agent in self.agents_in_quarantine and result == False:
+        if agent in self.agents_in_quarantine and not result:
             self.end_quarantine_events.add("quarantine.end", self.early_end_days, agent)
 
-        elif agent not in self.agents_in_quarantine and result == True:
+        elif agent not in self.agents_in_quarantine and result:
             self.agents_in_quarantine.add(agent)
             self.end_quarantine_events.add("quarantine.end", self.default_duration_days, agent)
 
@@ -58,6 +55,7 @@ class Quarantine(Intervention):
             if new_location.typ != home_location.typ:
                 if new_location.typ not in self.location_blacklist:
                     self.bus.publish("agent.location.change", agent, home_location)
+                    return MessageBus.CONSUME
 
     def handle_end_quarantine(self, agent):
         """Ends quarantine."""

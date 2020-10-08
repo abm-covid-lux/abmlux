@@ -2,10 +2,8 @@
 
 import math
 import logging
-from tqdm import tqdm
 from collections import deque, defaultdict
 
-from abmlux.sim_time import DeferredEventPool
 from abmlux.interventions import Intervention
 import abmlux.random_tools as random_tools
 
@@ -46,10 +44,10 @@ class ContactTracingManual(Intervention):
         self.contacts_archive.appendleft(defaultdict(set))
 
         # Listen for interesting things
-        self.bus.subscribe("sim.time.start_simulation", self.start_sim)
-        self.bus.subscribe("sim.agent.location", self.handle_location_change)
-        self.bus.subscribe("sim.time.midnight", self.update_contact_lists)
-        self.bus.subscribe("testing.result", self.notify_if_testing_positive)
+        self.bus.subscribe("sim.time.start_simulation", self.start_sim, self)
+        self.bus.subscribe("sim.agent.location", self.handle_location_change, self)
+        self.bus.subscribe("sim.time.midnight", self.update_contact_lists, self)
+        self.bus.subscribe("testing.result", self.notify_if_testing_positive, self)
 
     def start_sim(self, sim):
         self.sim = sim
@@ -129,10 +127,10 @@ class ContactTracingApp(Intervention):
         self.current_day_contacts        = {}
         self.current_day_notifications   = set()
 
-        self.bus.subscribe("testing.result", self.handle_test_result)
-        self.bus.subscribe("sim.time.tick", self.tick)
-        self.bus.subscribe("sim.time.midnight", self.midnight)
-        self.bus.subscribe("sim.time.start_simulation", self.start_sim)
+        self.bus.subscribe("testing.result", self.handle_test_result, self)
+        self.bus.subscribe("sim.time.tick", self.tick, self)
+        self.bus.subscribe("sim.time.midnight", self.midnight, self)
+        self.bus.subscribe("sim.time.start_simulation", self.start_sim, self)
 
         # Check that window is equal to transmission_risk list length...
 
@@ -141,7 +139,7 @@ class ContactTracingApp(Intervention):
 
     def handle_test_result(self, agent, result):
         #print(f"CTA: {agent} tested {result}")
-        if result == True and agent in self.agents_with_app:
+        if result and agent in self.agents_with_app:
             self.current_day_notifications.add(agent)
 
     def initialise_agents(self, network):
