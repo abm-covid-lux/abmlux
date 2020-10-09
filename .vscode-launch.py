@@ -1,0 +1,2 @@
+import abmlux
+abmlux.main()
