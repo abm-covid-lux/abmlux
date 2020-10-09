@@ -32,7 +32,7 @@ class Quarantine(Intervention):
         self.bus.subscribe("request.quarantine.start", self.handle_start_quarantine, self)
         self.bus.subscribe("request.quarantine.stop", self.handle_end_quarantine, self)
         # Respond to requested location changes by moving people home
-        self.bus.subscribe("request.location.change", self.handle_location_change, self)
+        self.bus.subscribe("request.agent.location", self.handle_location_change, self)
 
     def update_quarantine_status(self, clock, t):
         """Take lists of things to do and apply them."""
@@ -84,5 +84,5 @@ class Quarantine(Intervention):
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
             if new_location != home_location:
                 if new_location.typ not in self.location_blacklist:
-                    self.bus.publish("request.location.change", agent, home_location)
+                    self.bus.publish("request.agent.location", agent, home_location)
                     return MessageBus.CONSUME

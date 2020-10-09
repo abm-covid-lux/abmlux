@@ -24,9 +24,15 @@ class Laboratory(Intervention):
 
         self.test_result_events = DeferredEventPool(bus, clock)
 
-        self.bus.subscribe("testing.do_test", self.handle_do_test, self)
+        self.bus.subscribe("request.testing.start", self.start_test, self)
 
-    def handle_do_test(self, agent):
+    def start_test(self, agent):
+        """Start the test.
+
+        Agents are tested by selecting a weighted random result according to the class' config,
+        and then queueing up a result to be sent out after a set amount of time.  This delay
+        represents the time taken to complete the test itself.
+        """
 
         test_result = False
         if agent.health in self.infected_states:
@@ -40,20 +46,27 @@ class Laboratory(Intervention):
 
 
 class TestBooking(Intervention):
-    """Consume a 'selected for testing' signal and wait a bit whilst getting around to it"""
+    """Consume a 'request to book test' signal and wait a bit whilst getting around to it.
+
+    Represents the process of booking a test, where testing may be limited and not available
+    immediately."""
 
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
         # Time between selection for test and the time at which the test will take place
-        self.time_to_arrange_test_no_symptoms = int(clock.days_to_ticks(config['test_booking']['test_booking_to_test_sample_days_no_symptoms']))
-        self.time_to_arrange_test_symptoms    = int(clock.days_to_ticks(config['test_booking']['test_booking_to_test_sample_days_symptoms']))
+        self.time_to_arrange_test_no_symptoms = \
+            int(clock.days_to_ticks(config['test_booking']\
+                                    ['test_booking_to_test_sample_days_no_symptoms']))
+        self.time_to_arrange_test_symptoms    = \
+            int(clock.days_to_ticks(config['test_booking']\
+                                    ['test_booking_to_test_sample_days_symptoms']))
 
         self.symptomatic_states   = set(config['symptomatic_states'])
         self.test_events          = DeferredEventPool(bus, clock)
         self.agents_awaiting_test = set()
 
-        self.bus.subscribe("testing.book_test", self.handle_book_test, self)
+        self.bus.subscribe("request.testing.book_test", self.handle_book_test, self)
 
     def handle_book_test(self, agent):
         """Someone has been selected for testing.  Insert a delay between the booking of the test
@@ -61,11 +74,13 @@ class TestBooking(Intervention):
 
         if agent not in self.agents_awaiting_test:
             if agent.health in self.symptomatic_states:
-                self.test_events.add(self.send_agent_for_test, self.time_to_arrange_test_symptoms, agent)
+                self.test_events.add(self.send_agent_for_test,
+                                     self.time_to_arrange_test_symptoms, agent)
             else:
-                self.test_events.add(self.send_agent_for_test, self.time_to_arrange_test_no_symptoms, agent)
+                self.test_events.add(self.send_agent_for_test,
+                                     self.time_to_arrange_test_no_symptoms, agent)
             self.agents_awaiting_test.add(agent)
 
     def send_agent_for_test(self, agent):
         self.agents_awaiting_test.remove(agent) # Update index
-        self.bus.publish("testing.do_test", agent)
+        self.bus.publish("request.testing.start", agent)

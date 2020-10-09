@@ -1,11 +1,21 @@
+"""Simple synchronous messagebus implementation."""
 
 import logging
-from time import perf_counter
 from collections import defaultdict
 
-log = logging.getLogger("message_bus")
+log = logging.getLogger("messagebus")
 
 class MessageBus:
+    """Message broker.
+
+    Objects subscribe to this bus by providing a callback function that is invoked whenever
+    a message is published.  Multiple callbacks may be registered for a single topic, in which case
+    they are invoked in-order.
+
+    Callbacks may return a value, MessageBus.CONSUME, which stops propagation of the event.
+
+    Topics do not need creating explicitly.
+    """
 
     # Return this value from the handler to consume an event
     CONSUME = True
@@ -17,24 +27,58 @@ class MessageBus:
         self.topics_by_owner = defaultdict(set)
         self.owners_by_topic = defaultdict(set)
 
-        # TODO: force users to define topics before publishing to them
+    def topics_for_owner(self, owner):
+        """Return a list of topics the given owner is subscribed to.
+
+        Parameters:
+            owner: The object that owns some callbacks
+
+        Returns: A set of topic strings
+        """
+
+        return self.topics_by_owner[owner]
 
     def subscribe(self, topic, callback, owner):
+        """Subscribe to a topic, providing a callback function that will be invoked when
+        an event is published on that topic.
 
+        Parameters:
+            topic (str): The topic to respond to
+            callback (callable): The function to invoke when an event is called
+            owner (object): The object 'owning' this subscription.  Used to unsubscribe.
+        """
+
+        log.debug("Subscribing %s to topic %s", owner, topic)
         self.handlers[topic].append( (callback, owner) )
 
         if owner is not None:
             self.topics_by_owner[owner].add(topic)
             self.owners_by_topic[topic].add(owner)
 
-        # print(f" All topics: {list(self.handlers.keys())}")
+    def unsubscribe_all(self, owner):
+        """Unsubscribe the given owner from all topics.
 
-    def unsubscribe(self, callback_id):
-        # FIXME: unregister function
-        print(f"UNIMPLEMENTED: unsubscribe in messagebus.py")
+        Parameters:
+            owner: The object registered as the owner of some callbacks
+        """
+
+        log.debug("Unsubscribing %s from %d topics", owner, len(self.topics_by_owner[owner]))
+        for topic in self.topics_by_owner[owner]:
+            self.handlers[topic] = [(cb, ownr) for cb, ownr in self.handlers[topic] \
+                                    if ownr != owner]
 
     def publish(self, topic, *args, **kwargs):
-        #print(f"[{inspect.stack()[1].function}] publish [{topic}] -> {len(self.handlers[topic])}: {args}, {kwargs}")
+        """Publish an event to the messagebus on the topic given.
+
+        All handlers will be called in the order they subscribed.
+
+        Parameters:
+            topic (str): The topic to publish on
+            *args: Positional arguments to the callback
+            **kwargs: Keyword arguments to the callback
+        """
+        #print(f"[{inspect.stack()[1].function}] publish [{topic}] -> {len(self.handlers[topic])}:
+        #  {args}, {kwargs}")
         # a = perf_counter()
 
         # print(f"Publish -> {topic}({args}, {kwargs})")

@@ -9,7 +9,6 @@ import logging
 from collections import defaultdict
 
 import abmlux.random_tools as random_tools
-from .sim_time import SimClock
 from abmlux.messagebus import MessageBus
 
 log = logging.getLogger('sim')
@@ -56,9 +55,9 @@ class Simulator:
         self.hospital_states = config['hospital_states']
 
         self.agent_updates = defaultdict(dict)
-        self.bus.subscribe("request.location.change", self.handle_location_change, self)
-        self.bus.subscribe("agent.activity.change", self.handle_activity_change, self)
-        self.bus.subscribe("agent.health.change", self.handle_health_change, self)
+        self.bus.subscribe("request.agent.location", self.handle_location_change, self)
+        self.bus.subscribe("request.agent.activity", self.handle_activity_change, self)
+        self.bus.subscribe("request.agent.health", self.handle_health_change, self)
         self.bus.subscribe("notify.time.tick", self._get_activity_transitions, self)
 
     def handle_location_change(self, agent, new_location):
@@ -74,10 +73,10 @@ class Simulator:
 
         # Change location in response to new activity
         allowable_locations = agent.locations_for_activity(self.agent_updates[agent]['activity'])
-        self.bus.publish("request.location.change", agent, \
+        self.bus.publish("request.agent.location", agent, \
                          random_tools.random_choice(self.prng, list(allowable_locations)))
         return MessageBus.CONSUME
-    
+
     def handle_health_change(self, agent, new_health):
         self.agent_updates[agent]['health'] = new_health
 
@@ -91,10 +90,12 @@ class Simulator:
         # Markov chain.
         if new_health in self.hospital_states:
             if agent.current_location not in self.hospitals:
-                self.bus.publish("request.location.change", agent, random_tools.random_choice(self.prng, self.hospitals))
+                self.bus.publish("request.agent.location", agent, \
+                                 random_tools.random_choice(self.prng, self.hospitals))
         elif agent.health in self.dead_states:
             if agent.current_location not in self.cemeteries:
-                self.bus.publish("request.location.change", agent, random_tools.random_choice(self.prng, self.cemeteries))
+                self.bus.publish("request.agent.location", agent, \
+                                 random_tools.random_choice(self.prng, self.cemeteries))
 
         return MessageBus.CONSUME
 
@@ -129,7 +130,7 @@ class Simulator:
             # 4. Inform reporters of state
             for reporter in self.reporters:
                 reporter.iterate(self)
-        
+
         self.bus.publish("notify.time.end_simulation", self)
 
         for reporter in self.reporters:
@@ -151,7 +152,7 @@ class Simulator:
                             [self.clock.ticks_through_week()]\
                             .get_transition(agent.current_activity)
 
-            self.bus.publish("agent.activity.change", agent, next_activity)
+            self.bus.publish("request.agent.activity", agent, next_activity)
 
     def _update_agents(self):
         """Update the state of agents according to the lists provided."""
@@ -189,17 +190,14 @@ class Simulator:
                 # Update indices and set activity
                 self.agent_counts_by_health[agent.health][agent.current_location] -= 1
                 self.attendees[agent.current_location].remove(agent)
-                
+
                 old_location = agent.current_location
                 agent.set_location(updates['location'])
-                
+
                 self.attendees[agent.current_location].add(agent)
                 self.agent_counts_by_health[agent.health][agent.current_location] += 1
-                
-                
+
                 update_notifications.append(("notify.agent.location", agent, old_location))
 
         self.agent_updates = defaultdict(dict)
         return update_notifications
-
-

@@ -69,7 +69,7 @@ class ContactTracingManual(Intervention):
         for day in self.contacts_archive:
             for other_agent in day[agent]:
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
-                    self.bus.publish("testing.book_test", other_agent)
+                    self.bus.publish("request.testing.book_test", other_agent)
                     self.bus.publish("request.quarantine.start", other_agent)
 
         self.daily_notification_count += 1
@@ -160,7 +160,7 @@ class ContactTracingApp(Intervention):
             risk = self._get_personal_risk(agent)
             if risk >= clock.mins_to_ticks(self.time_at_risk_threshold_mins):
                 if random_tools.boolean(self.prng, self.prob_do_recommendation):
-                    self.bus.publish("testing.book_test", agent)
+                    self.bus.publish("request.testing.book_test", agent)
                     self.bus.publish("request.quarantine.start", agent)
 
         # Move day on and reset day state
