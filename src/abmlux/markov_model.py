@@ -236,7 +236,8 @@ def get_transitions(prng, weeks, activity_manager, ):
                     activity_transitions[typ][t].add_weight(activity_from, activity_to, week.weight)
 
 
-    # DEBUG
+    # Debug output
+    #
     # for t in tqdm(range(week_length)):
     #     distribution = activity_distributions[AgentType.RETIRED][t]
     #     transitions  = activity_transitions[AgentType.RETIRED][t]
