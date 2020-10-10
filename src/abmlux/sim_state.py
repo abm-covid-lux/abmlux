@@ -26,6 +26,9 @@ class SimulationPhase(IntEnum):
 
 
 class SimulationState:
+    """Retains all state used to start a simulation.
+
+    This is used as an initial starting point to re-run simulations with various changes."""
 
     def __init__(self, config):
         """Create a new state object.
