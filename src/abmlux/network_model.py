@@ -248,10 +248,10 @@ def get_weight(config, dist_km, distance_distribution):
     dist_length = sum([len(dist_bin) for dist_bin in list(distance_distribution.keys())])
     if int(road_distance(config, dist_km)) >= dist_length:
         return 0.0
-    else:
-        for distribution_bin in distance_distribution:
-            if int(road_distance(config, dist_km)) in distribution_bin:
-                return distance_distribution[distribution_bin]
+
+    for distribution_bin in distance_distribution:
+        if int(road_distance(config, dist_km)) in distribution_bin:
+            return distance_distribution[distribution_bin]
 
 def make_work_profile_dictionary(prng, network, config):
     """Generates weights for working locations"""
@@ -292,8 +292,9 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
     work_dist_dict = {}
     for country in origin_country_dict:
         work_dist_dict[country] = make_distribution(config, activity_dict[work_activity_type],
-                                            origin_country_dict[country], destination_country,
-                                            number_of_bins[country], bin_width[country])
+                                                    origin_country_dict[country],
+                                                    destination_country,
+                                                    number_of_bins[country], bin_width[country])
 
     log.info("Generating workforce weights...")
     # These weights corrspond to the size of the workforce at each workplace

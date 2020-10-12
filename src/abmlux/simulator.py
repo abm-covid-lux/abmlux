@@ -8,7 +8,6 @@ framework."""
 import logging
 from collections import defaultdict
 
-import abmlux.random_tools as random_tools
 from abmlux.messagebus import MessageBus
 
 log = logging.getLogger('sim')
@@ -35,7 +34,6 @@ class Simulator:
         # Read-only config
         self.reporters               = reporters
 
-
         self.agent_updates = defaultdict(dict)
         self.bus.subscribe("request.agent.location", self.record_location_change, self)
         self.bus.subscribe("request.agent.activity", self.record_activity_change, self)
@@ -58,16 +56,6 @@ class Simulator:
         """
 
         self.agent_updates[agent]['activity'] = new_activity
-
-        # If agent is hospitalised or dead, don't change location in response to new activity
-        # TODO: re-enable and somehow move to an intervention
-        #if agent.health in self.hospital_states or agent.health in self.dead_states:
-        #    return MessageBus.CONSUME
-
-        # Change location in response to new activity
-        allowable_locations = agent.locations_for_activity(self.agent_updates[agent]['activity'])
-        self.bus.publish("request.agent.location", agent, \
-                         random_tools.random_choice(self.prng, list(allowable_locations)))
         return MessageBus.CONSUME
 
     def record_health_change(self, agent, new_health):

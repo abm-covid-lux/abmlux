@@ -8,6 +8,7 @@ import logging.config
 import importlib
 import traceback
 
+from abmlux.location_model.simple_random import SimpleRandomLocationModel
 import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
@@ -31,7 +32,6 @@ log = logging.getLogger()
 def load_map(state):
     """Load population density and build a density model based on the description."""
 
-    # Step one: process density information
     config = state.config
     density_map = density_model.read_density_model_jrc(state.prng,
                                                        config.filepath('map.population_distribution_fp'),
@@ -46,15 +46,11 @@ def load_map(state):
 def build_network(state):
     """Build a network of locations and agents based on the population density"""
 
-    # Step two: build network model
     state.network = network_model.build_network_model(state.prng, state.config, state.map)
 
 
 def build_markov(state):
     """Build a markov model of activities to transition through"""
-
-    # ------------------------------------------------[ 3 ]------------------------------------
-    # Step three: build markov model
 
     activity_model = TUSMarkovActivityModel(state.prng, state.config, state.bus, \
                                             state.activity_manager)
@@ -69,6 +65,12 @@ def disease_model(state):
 
     # Initialise state
     state.disease.initialise_agents(state.network)
+
+def location_model(state):
+    """set up location model"""
+
+    state.location_model = SimpleRandomLocationModel(state.prng, state.config, state.bus, \
+                                                     state.activity_manager)
 
 def intervention_setup(state):
     """Set up interventions"""
@@ -143,6 +145,7 @@ PHASES = {SimulationPhase.BUILD_MAP:         load_map,
           SimulationPhase.BUILD_NETWORK:     build_network,
           SimulationPhase.BUILD_ACTIVITIES:  build_markov,
           SimulationPhase.ASSIGN_DISEASE:    disease_model,
+          SimulationPhase.LOCATION_MODEL:    location_model,
           SimulationPhase.INIT_INTERVENTION: intervention_setup,
           SimulationPhase.RUN_SIM:           run_sim}
 def main():

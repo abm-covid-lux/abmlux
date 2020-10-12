@@ -2,15 +2,15 @@
 ingested by the simulator as it runs."""
 
 import logging
-import uuid
 import random
+import uuid
 from datetime import datetime
 from enum import IntEnum
 
-from .sim_time import SimClock
-from .version import VERSION
 from .activity_manager import ActivityManager
 from .messagebus import MessageBus
+from .sim_time import SimClock
+from .version import VERSION
 
 log = logging.getLogger("sim_state")
 
@@ -21,8 +21,9 @@ class SimulationPhase(IntEnum):
     BUILD_NETWORK     = 1
     BUILD_ACTIVITIES  = 2
     ASSIGN_DISEASE    = 3
-    INIT_INTERVENTION = 4
-    RUN_SIM           = 5
+    LOCATION_MODEL    = 4
+    INIT_INTERVENTION = 5
+    RUN_SIM           = 6
 
 
 class SimulationState:
@@ -56,6 +57,7 @@ class SimulationState:
         self.map                    = None
         self.network                = None
         self.activity_model         = None
+        self.location_model         = None
         self.disease                = None
         self.interventions          = None
 
