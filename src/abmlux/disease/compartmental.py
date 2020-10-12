@@ -27,9 +27,9 @@ class CompartmentalModel(DiseaseModel):
         self.disease_profile_index_dict = {}
         self.disease_profile_dict       = {}
         self.disease_durations_dict     = {}
-        self.bus = bus
-        self.state = state
-        self.network = state.network
+        self.bus                        = bus
+        self.state                      = state
+        self.network                    = state.network
 
         profiles  = config['disease_profile_distribution_by_age']
         labels    = config['disease_profile_list']
