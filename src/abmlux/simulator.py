@@ -36,11 +36,6 @@ class Simulator:
         self.reporters               = reporters
 
 
-        self.cemeteries      = state.network.locations_by_type['Cemetery']
-        self.hospitals       = state.network.locations_by_type['Hospital']
-        self.dead_states     = config['dead_states']
-        self.hospital_states = config['hospital_states']
-
         self.agent_updates = defaultdict(dict)
         self.bus.subscribe("request.agent.location", self.record_location_change, self)
         self.bus.subscribe("request.agent.activity", self.record_activity_change, self)
@@ -65,9 +60,9 @@ class Simulator:
         self.agent_updates[agent]['activity'] = new_activity
 
         # If agent is hospitalised or dead, don't change location in response to new activity
-        # TODO: move to an intervention
-        if agent.health in self.hospital_states or agent.health in self.dead_states:
-            return MessageBus.CONSUME
+        # TODO: re-enable and somehow move to an intervention
+        #if agent.health in self.hospital_states or agent.health in self.dead_states:
+        #    return MessageBus.CONSUME
 
         # Change location in response to new activity
         allowable_locations = agent.locations_for_activity(self.agent_updates[agent]['activity'])
@@ -76,32 +71,13 @@ class Simulator:
         return MessageBus.CONSUME
 
     def record_health_change(self, agent, new_health):
-        """Record request.aent.location events, placing them on a queue to be enacted
+        """Record request.agent.health events, placing them on a queue to be enacted
         at the end of the tick.
 
         Certain changes in health state will cause agents to request changes of location, e.g.
         to a hospital."""
 
         self.agent_updates[agent]['health'] = new_health
-
-        # If at time t the function get_health_transitions outputs 'HOSPITALIZING' for an agent,
-        # then the function _get_activity_transitions will move that agent to hospital at the
-        # first time, greater than or equal to t+1, at which the agent chooses to perform a new
-        # activity. In other words, agents will finish the current activity before moving to
-        # hospital, and similarly as regards leaving hospital. This simple implementation could
-        # be modified by allowing activity_changes at time t to depend on health_changes at time
-        # t and moreover by allowing agents to enter and exit hospital independently of their
-        # Markov chain.
-        # TODO: move into an intervention
-        if new_health in self.hospital_states:
-            if agent.current_location not in self.hospitals:
-                self.bus.publish("request.agent.location", agent, \
-                                 random_tools.random_choice(self.prng, self.hospitals))
-        elif agent.health in self.dead_states:
-            if agent.current_location not in self.cemeteries:
-                self.bus.publish("request.agent.location", agent, \
-                                 random_tools.random_choice(self.prng, self.cemeteries))
-
         return MessageBus.CONSUME
 
     def run(self):

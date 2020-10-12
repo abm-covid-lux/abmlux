@@ -47,8 +47,8 @@ logging:
 
 # Output that should be rendered from the simulation:
 reporters:
-  - csv.HealthStateCounts:
-      filename: /tmp/plots/health_state_counts.csv
+# - csv.HealthStateCounts:
+#     filename: /tmp/plots/health_state_counts.csv
 #  - cli.BasicProgress: {}
   - cli.TQDM: {}
 #  - location_population_plots.LocationPlots:

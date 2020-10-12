@@ -75,16 +75,17 @@ def intervention_setup(state):
 
     # TODO: put this is config
     interventions_config = [
-                     "testing.LargeScaleTesting",
-                     "laboratory.TestBooking",
-                     "laboratory.Laboratory",
-                     "contact_tracing.ContactTracingApp",
-                     "contact_tracing.ContactTracingManual",
-                     "quarantine.Quarantine",
-#                     "location_closure.LocationClosures",
-                     "ppm.PersonalProtectiveMeasures",
-                     "testing.OtherTesting"
-                    ]
+                            "hospitalisation.Hospitalisation",
+                            "testing.LargeScaleTesting",
+                            "laboratory.TestBooking",
+                            "laboratory.Laboratory",
+                            "contact_tracing.ContactTracingApp",
+                            "contact_tracing.ContactTracingManual",
+                            "quarantine.Quarantine",
+        #                     "location_closure.LocationClosures",
+                            "ppm.PersonalProtectiveMeasures",
+                            "testing.OtherTesting"
+                            ]
 
     # Reporters
     interventions = []
