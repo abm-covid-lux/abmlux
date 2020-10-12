@@ -14,8 +14,14 @@ class Hospitalisation(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.dead_states     = config['dead_states']
-        self.hospital_states = config['hospital_states']
+        self.dead_states            = config['hospitalisation']['dead_states']
+        self.hospital_states        = config['hospitalisation']['hospital_states']
+        self.cemetery_location_type = config['hospitalisation']['cemetery_location_type']
+        self.hospital_location_type = config['hospitalisation']['hospital_location_type']
+
+        # Overridden later when the simulation states
+        self.cemeteries = []
+        self.hospitals  = []
 
         # Respond to requested location changes by moving people home
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
@@ -25,9 +31,8 @@ class Hospitalisation(Intervention):
     def start_simulation(self, sim):
         """New simulation.  Record the hospitals and cemeteries in this network for later use."""
 
-        # FIXME: handle case if neither of these magic strings exist, or else put into config
-        self.cemeteries      = sim.network.locations_by_type['Cemetery']
-        self.hospitals       = sim.network.locations_by_type['Hospital']
+        self.cemeteries      = sim.network.locations_by_type[self.cemetery_location_type]
+        self.hospitals       = sim.network.locations_by_type[self.hospital_location_type]
 
 
     def handle_health_change(self, agent, new_health):

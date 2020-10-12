@@ -43,12 +43,16 @@ class TUSMarkovActivityModel(ActivityModel):
         super().__init__(prng, config, bus, activity_manager)
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
 
+        # Runtime config
+        self.stop_activity_health_states = config['activity_model']['stop_activity_health_states']
+
         # State kept during simulation execution
         self.network = None
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
         self.bus.subscribe("notify.time.start_simulation", self.start_simulation, self)
+        self.bus.subscribe("notify.agent.health", self.remove_agents_from_active_list, self)
 
     def start_simulation(self, sim):
         """Start a simulation.
@@ -58,6 +62,9 @@ class TUSMarkovActivityModel(ActivityModel):
         # What network are we running over?
         self.network = sim.network
 
+        # These agents are still having activity updates
+        self.active_agents = set(sim.network.agents)
+
         log.debug("Seeding initial activity states and locations...")
         clock = sim.clock
         for agent in self.network.agents:
@@ -66,17 +73,23 @@ class TUSMarkovActivityModel(ActivityModel):
             assert sum(distribution.values()) > 0
             new_activity      = rt.multinoulli_dict(self.prng, distribution)
             allowed_locations = agent.locations_for_activity(new_activity)
+            agent.set_activity(new_activity)
 
             # TODO: location selection code should be triggered by messaging via the bus,
             #       as it will be in the main sim.
             #
-            # Warning: No allowed locations found for agent {agent.inspect()} for activity new_activity
+            # Warn: No allowed locations found for agent {agent.inspect()} for activity new_activity
             assert len(allowed_locations) >= 0
             new_location = rt.random_choice(self.prng, list(allowed_locations))
             # Do this activity in a random location
-            agent.set_activity(new_activity)
             agent.set_location(new_location)
 
+    def remove_agents_from_active_list(self, agent, new_health):
+        """If the new health state is in the 'dead list', remove the agent from the list
+        of people who get told to change activity."""
+
+        if new_health in self.stop_activity_health_states:
+            self.active_agents.remove(agent)
 
     def send_activity_change_events(self, clock, t):
         """Return a list of activity transitions agents should enact this tick.
@@ -84,7 +97,7 @@ class TUSMarkovActivityModel(ActivityModel):
         The list is given as a list of three-tuples, each containing the agent,
         activity, and location to perform that activity: (agent, activity, location)."""
 
-        for agent in self.network.agents:
+        for agent in self.active_agents:
 
             if self.activity_transitions[agent.agetyp][clock.ticks_through_week()] \
                .get_no_trans(agent.current_activity):

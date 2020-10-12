@@ -106,6 +106,16 @@ epoch: 1st March 2020
 
 # ######################################### Locations ##############################################
 
+# Configures the movement model used during simulation
+location_model:
+
+  # When responding to activity changes, the location model will move agents.
+  # Add a location type to the list below if this shouldn't happen when the agent is
+  # in a certain health state
+  no_move_states:
+    - Hospital
+    - Cemetery
+
 # A list of all location types:
 locations:
   - House
@@ -191,6 +201,12 @@ border_country_coord:
   Germany: [49.756279, 6.643219]
 
 # ######################################### Activities #############################################
+
+# Configure the component that drives agents performing different activities in the simulation
+activity_model:
+  # If agents are in these states, stop the markov chain
+  stop_activity_health_states:
+    - DEAD
 
 # The Time Use Survey data has a list of primary activities and secondary activities. Here we map
 # them onto our own list of activities. Each key points at a list of activity codes from the TUS. We
@@ -603,6 +619,21 @@ infection_probabilities_per_tick:
 
 # ######################################### Interventions ##########################################
 
+# Interventions list.  Note ordering.
+# TODO: lots of config refactoring here, and plenty of good docs.
+interventions:
+  - hospitalisation.Hospitalisation
+  - testing.LargeScaleTesting
+  - laboratory.TestBooking
+  - laboratory.Laboratory
+  - contact_tracing.ContactTracingApp
+  - contact_tracing.ContactTracingManual
+  - quarantine.Quarantine
+  - #location_closure.LocationClosures
+  - ppm.PersonalProtectiveMeasures
+  - testing.OtherTesting
+
+
 # The intervention 'test_sampling' refers to lab testing. If an agent is tested and if the agent is
 # is either incubating or contagious with the virus, then the test returns a positive result, except
 # in the case of a false postive, while if the agent is not either incubating or contagious with the
@@ -767,3 +798,14 @@ personal_protective_measures:
   # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
   # and even nonmedical or homemade masks.
   ppm_coeff: 0.7
+
+# Moves agents to locations when they are in certain health states
+hospitalisation:
+  # Agents in the following states will be moved to a hospital:
+  hospital_states: [HOSPITALIZING, VENTILATING]
+  # Agents in the following states will be moved to a cemetery:
+  dead_states: [DEAD]
+  # How to find locations to move agents to
+  cemetery_location_type: Cemetery
+  hospital_location_type: Hospital
+

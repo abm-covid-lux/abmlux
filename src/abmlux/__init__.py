@@ -75,23 +75,9 @@ def location_model(state):
 def intervention_setup(state):
     """Set up interventions"""
 
-    # TODO: put this is config
-    interventions_config = [
-                            "hospitalisation.Hospitalisation",
-                            "testing.LargeScaleTesting",
-                            "laboratory.TestBooking",
-                            "laboratory.Laboratory",
-                            "contact_tracing.ContactTracingApp",
-                            "contact_tracing.ContactTracingManual",
-                            "quarantine.Quarantine",
-        #                     "location_closure.LocationClosures",
-                            "ppm.PersonalProtectiveMeasures",
-                            "testing.OtherTesting"
-                            ]
-
     # Reporters
     interventions = []
-    for intervention in interventions_config:
+    for intervention in config["interventions"]:
         module_name = "abmlux.interventions." + ".".join(intervention.split(".")[:-1])
         class_name  = intervention.split(".")[-1]
 

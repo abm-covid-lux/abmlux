@@ -4,6 +4,7 @@ import logging
 
 from abmlux.location_model import LocationModel
 import abmlux.random_tools as rt
+from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("simple_location_model")
 
@@ -15,16 +16,17 @@ class SimpleRandomLocationModel(LocationModel):
         # TODO: semantic constructor arguments rather than just passing in the whole config
         super().__init__(prng, config, bus, activity_manager)
 
+        self.no_move_states = config['location_model']['no_move_health_states']
+
         self.bus.subscribe("request.activity.change", self.handle_activity_change, self)
 
 
     def handle_activity_change(self, agent, new_activity):
         """Respond to an activity by sending location change requests."""
 
-        # TODO: re-enable and move into config
         # If agent is hospitalised or dead, don't change location in response to new activity
-        #if agent.health in self.hospital_states or agent.health in self.dead_states:
-        #    return MessageBus.CONSUME
+        if agent.health in self.no_move_states:
+            return MessageBus.CONSUME
 
         # Change location in response to new activity
         allowable_locations = agent.locations_for_activity(new_activity)
