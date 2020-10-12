@@ -112,7 +112,7 @@ location_model:
   # When responding to activity changes, the location model will move agents.
   # Add a location type to the list below if this shouldn't happen when the agent is
   # in a certain health state
-  no_move_states:
+  no_move_health_states:
     - Hospital
     - Cemetery
 
@@ -629,10 +629,9 @@ interventions:
   - contact_tracing.ContactTracingApp
   - contact_tracing.ContactTracingManual
   - quarantine.Quarantine
-  - #location_closure.LocationClosures
+#  - location_closure.LocationClosures
   - ppm.PersonalProtectiveMeasures
   - testing.OtherTesting
-
 
 # The intervention 'test_sampling' refers to lab testing. If an agent is tested and if the agent is
 # is either incubating or contagious with the virus, then the test returns a positive result, except

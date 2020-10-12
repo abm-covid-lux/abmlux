@@ -33,15 +33,13 @@ def load_map(state):
     """Load population density and build a density model based on the description."""
 
     config = state.config
-    density_map = density_model.read_density_model_jrc(state.prng,
-                                                       config.filepath('map.population_distribution_fp'),
-                                                       config['map.country_code'],
-                                                       config['map.res_fact'],
-                                                       config['map.normalize_interpolation'],
-                                                       config.filepath('map.shapefilename'),
-                                                       config['map.shapefile_coordinate_system'])
-
-    state.map = density_map
+    state.map = density_model.read_density_model_jrc(state.prng,
+                                                     config.filepath('map.population_distribution_fp'),
+                                                     config['map.country_code'],
+                                                     config['map.res_fact'],
+                                                     config['map.normalize_interpolation'],
+                                                     config.filepath('map.shapefilename'),
+                                                     config['map.shapefile_coordinate_system'])
 
 def build_network(state):
     """Build a network of locations and agents based on the population density"""
@@ -52,19 +50,14 @@ def build_network(state):
 def build_markov(state):
     """Build a markov model of activities to transition through"""
 
-    activity_model = TUSMarkovActivityModel(state.prng, state.config, state.bus, \
-                                            state.activity_manager)
-
-    state.activity_model = activity_model
+    state.activity_model = TUSMarkovActivityModel(state.prng, state.config, state.bus, \
+                                                  state.activity_manager)
 
 def disease_model(state):
     """Set up disease model."""
 
     # TODO: make this dynamic from the config file (like reporters)
     state.disease = CompartmentalModel(state.prng, state.config, state.bus, state)
-
-    # Initialise state
-    state.disease.initialise_agents(state.network)
 
 def location_model(state):
     """set up location model"""
@@ -77,7 +70,8 @@ def intervention_setup(state):
 
     # Reporters
     interventions = []
-    for intervention in config["interventions"]:
+    for intervention in state.config["interventions"]:
+        log.info("Instantiating intervention: %s...", intervention)
         module_name = "abmlux.interventions." + ".".join(intervention.split(".")[:-1])
         class_name  = intervention.split(".")[-1]
 
