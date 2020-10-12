@@ -111,6 +111,7 @@ class CompartmentalModel(DiseaseModel):
                         self.disease_durations_dict[agent][index] = duration_ticks
 
         # Compute for each location the probability of catching the virus during this tick
+        # TODO: count this as states change, like sim.agent_counts_by_health
         contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
                                          if a.health in self.contagious_states])
                                  for l in self.sim.locations}

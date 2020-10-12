@@ -93,9 +93,9 @@ class Simulator:
         log.info("Creating health state indices...")
         self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
                                               for h in self.disease.states}
-        self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
-                                           for l in self.locations}
-                                       for h in self.disease.states}
+        #self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
+        #                                   for l in self.locations}
+        #                               for h in self.disease.states}
         # /caches
 
 
@@ -137,7 +137,7 @@ class Simulator:
 
                 # Remove from index
                 self.agents_by_health_state[agent.health].remove(agent)
-                self.agent_counts_by_health[agent.health][agent.current_location] -= 1
+                #self.agent_counts_by_health[agent.health][agent.current_location] -= 1
 
                 # Update
                 old_health = agent.health
@@ -145,7 +145,7 @@ class Simulator:
 
                 # Add to index
                 self.agents_by_health_state[agent.health].add(agent)
-                self.agent_counts_by_health[agent.health][agent.current_location] += 1
+                #self.agent_counts_by_health[agent.health][agent.current_location] += 1
                 update_notifications.append(("notify.agent.health", agent, old_health))
 
             # -------------------------------------------------------------------------------------
@@ -159,14 +159,14 @@ class Simulator:
             if 'location' in updates:
 
                 # Update indices and set activity
-                self.agent_counts_by_health[agent.health][agent.current_location] -= 1
+                #self.agent_counts_by_health[agent.health][agent.current_location] -= 1
                 self.attendees[agent.current_location].remove(agent)
 
                 old_location = agent.current_location
                 agent.set_location(updates['location'])
 
                 self.attendees[agent.current_location].add(agent)
-                self.agent_counts_by_health[agent.health][agent.current_location] += 1
+                #self.agent_counts_by_health[agent.health][agent.current_location] += 1
 
                 update_notifications.append(("notify.agent.location", agent, old_location))
 
