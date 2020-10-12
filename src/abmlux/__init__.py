@@ -11,19 +11,17 @@ import traceback
 import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
-import abmlux.markov_model as markov_model
 from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
 from abmlux.disease.compartmental import CompartmentalModel
+from abmlux.activity.tus_survey import TUSMarkovActivityModel
 
 import abmlux.tools as tools
 
 from .version import VERSION
 from .config import Config
 from .serialisation import read_from_disk, write_to_disk
-
-STATE_FILENAME = 'Simulation State.abm'
 
 
 # Global module log
@@ -57,27 +55,17 @@ def build_markov(state):
 
     # ------------------------------------------------[ 3 ]------------------------------------
     # Step three: build markov model
-    activity_distributions, activity_transitions = \
-            markov_model.build_markov_model(state.prng, state.config, state.activity_manager)
 
-    state.activity_distributions = activity_distributions
-    state.activity_transitions = activity_transitions
+    activity_model = TUSMarkovActivityModel(state.prng, state.config, state.bus, \
+                                            state.activity_manager)
 
-
-def assign_activities(state):
-    """Assign activities to the agents on the network, creating an initial condition for the
-    sim"""
-
-    # ------------------------------------------------[ 4 ]------------------------------------
-    state.network = network_model.assign_activities(state.prng, state.config, state.network,
-                                                    state.activity_distributions)
+    state.activity_model = activity_model
 
 def disease_model(state):
     """Set up disease model."""
 
-    state.bus = MessageBus()
-    state.disease = CompartmentalModel(state.prng, state.config, state.bus, state)
     # TODO: make this dynamic from the config file (like reporters)
+    state.disease = CompartmentalModel(state.prng, state.config, state.bus, state)
 
     # Initialise state
     state.disease.initialise_agents(state.network)
@@ -153,7 +141,6 @@ def run_sim(state):
 PHASES = {SimulationPhase.BUILD_MAP:         load_map,
           SimulationPhase.BUILD_NETWORK:     build_network,
           SimulationPhase.BUILD_ACTIVITIES:  build_markov,
-          SimulationPhase.ASSIGN_ACTIVITIES: assign_activities,
           SimulationPhase.ASSIGN_DISEASE:    disease_model,
           SimulationPhase.INIT_INTERVENTION: intervention_setup,
           SimulationPhase.RUN_SIM:           run_sim}
@@ -186,9 +173,10 @@ def main():
             print(f"WARNING: Overriding config using file at {sys.argv[3]}.")
             state.config = Config(sys.argv[3])
 
-    except: # pylint disable=bare-except
+    # pylint disable=bare-except
+    except:
         if len(sys.argv) <= 3:
-            print(f"Error: Statefile doesn't exist yet, but no config has been given to create one")
+            print("Error: Statefile doesn't exist yet, but no config has been given to create one")
             sys.exit(1)
 
         print(f"Creating new statefile at {state_filename} using config at {sys.argv[3]}...")
@@ -204,10 +192,9 @@ def main():
     log.info("  ABMLUX version: %s", state.abmlux_version)
     log.info("  Created at: %s", state.created_at)
     log.info("  Simulation N: %i", state.config['n'])
+    log.info("  Activity Model: %s", state.activity_model)
     log.info("  Map: %s", state.map)
     log.info("  Network: %s", state.network)
-    # log.info("  Activity Distributions: %s", state.activity_distributions)
-    # log.info("  Activity Transitions: %s", state.activity_transitions)
     log.info("  PRNG seed: %i", state.config['random_seed'])
     log.info("  Dirty?: %s", state.dirty)
     # Show progress

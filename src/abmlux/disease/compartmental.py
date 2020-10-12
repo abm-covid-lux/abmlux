@@ -42,7 +42,7 @@ class CompartmentalModel(DiseaseModel):
         #pylint: disable=unnecessary-comprehension
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
-        
+
         self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)

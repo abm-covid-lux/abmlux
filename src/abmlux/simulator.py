@@ -33,43 +33,41 @@ class Simulator:
         self.interventions = state.interventions
 
         # Read-only config
-        self.activity_transitions    = state.activity_transitions
         self.reporters               = reporters
 
-        # Simulation state.  These indices represent an optimisation to prevent having to loop
-        # over every single agent.
-        log.info("Creating agent location indices...")
-        self.attendees                     = {l: {a for a in self.agents if a.current_location == l}
-                                              for l in self.locations}
 
-        # Disease model parameters
-        log.info("Creating health state indices...")
-        self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
-                                              for h in self.disease.states}
-        self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
-                                           for l in self.locations}
-                                       for h in self.disease.states}
         self.cemeteries      = state.network.locations_by_type['Cemetery']
         self.hospitals       = state.network.locations_by_type['Hospital']
         self.dead_states     = config['dead_states']
         self.hospital_states = config['hospital_states']
 
         self.agent_updates = defaultdict(dict)
-        self.bus.subscribe("request.agent.location", self.handle_location_change, self)
-        self.bus.subscribe("request.agent.activity", self.handle_activity_change, self)
-        self.bus.subscribe("request.agent.health", self.handle_health_change, self)
-        self.bus.subscribe("notify.time.tick", self._get_activity_transitions, self)
+        self.bus.subscribe("request.agent.location", self.record_location_change, self)
+        self.bus.subscribe("request.agent.activity", self.record_activity_change, self)
+        self.bus.subscribe("request.agent.health", self.record_health_change, self)
 
-    def handle_location_change(self, agent, new_location):
+
+    def record_location_change(self, agent, new_location):
+        """Record request.agent.location events, placing them on a queue to be enacted
+        at the end of the tick."""
+
         self.agent_updates[agent]['location'] = new_location
         return MessageBus.CONSUME
 
-    def handle_activity_change(self, agent, new_activity):
+    def record_activity_change(self, agent, new_activity):
+        """Record request.agent.activity events, placing them on a queue to be enacted
+        at the end of the tick.
+
+        If the activity is changing, this may trigger a change in location, e.g. a change to a
+        'home' activity will cause this function to emit a request to move the agent to its home.
+        """
+
         self.agent_updates[agent]['activity'] = new_activity
 
         # If agent is hospitalised or dead, don't change location in response to new activity
+        # TODO: move to an intervention
         if agent.health in self.hospital_states or agent.health in self.dead_states:
-            return
+            return MessageBus.CONSUME
 
         # Change location in response to new activity
         allowable_locations = agent.locations_for_activity(self.agent_updates[agent]['activity'])
@@ -77,7 +75,13 @@ class Simulator:
                          random_tools.random_choice(self.prng, list(allowable_locations)))
         return MessageBus.CONSUME
 
-    def handle_health_change(self, agent, new_health):
+    def record_health_change(self, agent, new_health):
+        """Record request.aent.location events, placing them on a queue to be enacted
+        at the end of the tick.
+
+        Certain changes in health state will cause agents to request changes of location, e.g.
+        to a hospital."""
+
         self.agent_updates[agent]['health'] = new_health
 
         # If at time t the function get_health_transitions outputs 'HOSPITALIZING' for an agent,
@@ -88,6 +92,7 @@ class Simulator:
         # be modified by allowing activity_changes at time t to depend on health_changes at time
         # t and moreover by allowing agents to enter and exit hospital independently of their
         # Markov chain.
+        # TODO: move into an intervention
         if new_health in self.hospital_states:
             if agent.current_location not in self.hospitals:
                 self.bus.publish("request.agent.location", agent, \
@@ -111,6 +116,25 @@ class Simulator:
         current_day = self.clock.now().day
 
         self.bus.publish("notify.time.start_simulation", self)
+
+
+        # Caches
+        # Simulation state.  These indices represent an optimisation to prevent having to loop
+        # over every single agent.
+        log.info("Creating agent location indices...")
+        self.attendees                     = {l: {a for a in self.agents if a.current_location == l}
+                                              for l in self.locations}
+
+        # Disease model parameters
+        log.info("Creating health state indices...")
+        self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
+                                              for h in self.disease.states}
+        self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
+                                           for l in self.locations}
+                                       for h in self.disease.states}
+        # /caches
+
+
         update_notifications = []
         for t in self.clock:
 
@@ -136,23 +160,6 @@ class Simulator:
         for reporter in self.reporters:
             reporter.stop(self)
 
-    def _get_activity_transitions(self, clock, t):
-        """Return a list of activity transitions agents should enact this tick.
-
-        The list is given as a list of three-tuples, each containing the agent,
-        activity, and location to perform that activity: (agent, activity, location)."""
-
-        for agent in self.agents:
-
-            if self.activity_transitions[agent.agetyp][self.clock.ticks_through_week()]\
-               .get_no_trans(agent.current_activity):
-                continue
-
-            next_activity = self.activity_transitions[agent.agetyp]\
-                            [self.clock.ticks_through_week()]\
-                            .get_transition(agent.current_activity)
-
-            self.bus.publish("request.agent.activity", agent, next_activity)
 
     def _update_agents(self):
         """Update the state of agents according to the lists provided."""
