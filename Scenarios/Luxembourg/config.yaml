@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 652
+random_seed: 345
 
 # The total number of resident agents on the network. If this equals the sum of age_distribution
 # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -10,8 +10,8 @@ random_seed: 652
 # this number and the sum. Note that the true population will be somewhat larger than this number
 # due to the inclusion of border workers (the numbers of which is again calculated using the scale
 # factor).
-#n: 16_108
-n: 1000
+n: 16_108
+#n: 1000
 
 # ######################################### Logging ################################################
 
@@ -47,8 +47,8 @@ logging:
 
 # Output that should be rendered from the simulation:
 reporters:
-# - csv.HealthStateCounts:
-#     filename: /tmp/plots/health_state_counts.csv
+  - csv.HealthStateCounts:
+      filename: /tmp/plots/health_state_counts.csv
 #  - cli.BasicProgress: {}
   - cli.TQDM: {}
 #  - location_population_plots.LocationPlots:
@@ -626,11 +626,10 @@ interventions:
   - testing.LargeScaleTesting
   - laboratory.TestBooking
   - laboratory.Laboratory
-  - contact_tracing.ContactTracingApp
+#  - contact_tracing.ContactTracingApp
   - contact_tracing.ContactTracingManual
   - quarantine.Quarantine
 #  - location_closure.LocationClosures
-  - ppm.PersonalProtectiveMeasures
   - testing.OtherTesting
 
 # The intervention 'test_sampling' refers to lab testing. If an agent is tested and if the agent is
@@ -785,6 +784,7 @@ quarantine:
   # Unless an agent is in an exempt location, they are directed to the location at which they
   # perform the activity 'House':
   home_activity_type: House
+  # home_activity_type: Outdoor
 
 # The intervention 'personal_protective_measures' refers to the effect of such measures as hand
 # hygiene, face masks, surface and object cleaning and other environmental measures. The combined
@@ -796,7 +796,8 @@ personal_protective_measures:
   # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
   # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
   # and even nonmedical or homemade masks.
-  ppm_coeff: 0.7
+  #ppm_coeff: 0.7
+  ppm_coeff: 1.0
 
 # Moves agents to locations when they are in certain health states
 hospitalisation:
