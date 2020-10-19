@@ -10,12 +10,11 @@ from scipy.spatial import KDTree
 from openpyxl import load_workbook
 
 from .random_tools import (multinoulli, multinoulli_dict, random_choices, random_sample,
-                           random_choice, random_shuffle, random_randrange_interval)
+                           random_shuffle, random_randrange_interval)
 from .agent import Agent, AgentType, POPULATION_SLICES
 from .location import Location, WGS84_to_ETRS89
 from .activity_manager import ActivityManager
 from .network import Network
-from .sim_time import SimClock
 
 log = logging.getLogger('network_model')
 
@@ -249,11 +248,10 @@ def get_weight(config, dist_km, distance_distribution):
     dist_length = sum([len(dist_bin) for dist_bin in list(distance_distribution.keys())])
     if int(road_distance(config, dist_km)) >= dist_length:
         return 0.0
-    else:
-        for distribution_bin in distance_distribution:
-            if int(road_distance(config, dist_km)) in distribution_bin:
-                return distance_distribution[distribution_bin]
-                break
+
+    for distribution_bin in distance_distribution:
+        if int(road_distance(config, dist_km)) in distribution_bin:
+            return distance_distribution[distribution_bin]
 
 def make_work_profile_dictionary(prng, network, config):
     """Generates weights for working locations"""
@@ -294,8 +292,9 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
     work_dist_dict = {}
     for country in origin_country_dict:
         work_dist_dict[country] = make_distribution(config, activity_dict[work_activity_type],
-                                            origin_country_dict[country], destination_country,
-                                            number_of_bins[country], bin_width[country])
+                                                    origin_country_dict[country],
+                                                    destination_country,
+                                                    number_of_bins[country], bin_width[country])
 
     log.info("Generating workforce weights...")
     # These weights corrspond to the size of the workforce at each workplace
@@ -528,28 +527,5 @@ def build_network_model(prng, config, density_map):
     # Assignments of cars
     assign_cars(network, activity_manager, "Car", "Car", occupancy_houses, occupancy_carehomes,
                 occupancy_border_countries)
-
-    return network
-
-def assign_activities(prng, config, network, activity_distributions):
-    """Assign activities and locations to agents according to the distributions provided. This
-    moreover generates the initial state."""
-
-    clock = SimClock(config['tick_length_s'], config['simulation_length_days'], config['epoch'])
-    log.debug("Loading initial state for simulation...")
-
-    log.debug("Seeding initial activity states and locations...")
-    for agent in network.agents:
-        # Get distribution for this type at the starting time step
-        distribution = activity_distributions[agent.agetyp][clock.epoch_week_offset]
-        assert sum(distribution.values()) > 0
-        new_activity      = multinoulli_dict(prng, distribution)
-        allowed_locations = agent.locations_for_activity(new_activity)
-        # Warning: No allowed locations found for agent {agent.inspect()} for activity new_activity
-        assert len(allowed_locations) >= 0
-        new_location = random_choice(prng, list(allowed_locations))
-        # Do this activity in a random location
-        agent.set_activity(new_activity)
-        agent.set_location(new_location)
 
     return network

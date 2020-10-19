@@ -27,9 +27,9 @@ class CompartmentalModel(DiseaseModel):
         self.disease_profile_index_dict = {}
         self.disease_profile_dict       = {}
         self.disease_durations_dict     = {}
-        self.bus = bus
-        self.state = state
-        self.network = state.network
+        self.bus                        = bus
+        self.state                      = state
+        self.network                    = state.network
 
         profiles  = config['disease_profile_distribution_by_age']
         labels    = config['disease_profile_list']
@@ -42,17 +42,17 @@ class CompartmentalModel(DiseaseModel):
         #pylint: disable=unnecessary-comprehension
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
-        
-        self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
+
+        self.bus.subscribe("notify.time.start_simulation", self.initialise_agents, self)
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
 
-    def start_sim(self, sim):
-        self.sim = sim
-
-    def initialise_agents(self, network):
+    def initialise_agents(self, sim):
         """Assign a disease profile and durations to each agent and infect some people at random
         to begin the epidemic"""
+
+        self.sim = sim
+        network = sim.network
 
         # Assign a disease profile to each agent. This determines which health states an agent
         # passes through and in which order.
@@ -111,6 +111,7 @@ class CompartmentalModel(DiseaseModel):
                         self.disease_durations_dict[agent][index] = duration_ticks
 
         # Compute for each location the probability of catching the virus during this tick
+        # TODO: count this as states change, like sim.agent_counts_by_health
         contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
                                          if a.health in self.contagious_states])
                                  for l in self.sim.locations}
