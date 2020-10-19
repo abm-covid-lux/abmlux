@@ -2,6 +2,7 @@
 
 import math
 import copy
+import numpy as np
 from collections import defaultdict
 import logging
 
@@ -198,8 +199,9 @@ def make_distribution(config, motive, country_origin, country_destination,
 
     log.info("Generating distance distribution...")
 
-    actworkbook = load_workbook(filename = config.filepath('trip_data_filepath'))
-    actsheet    = actworkbook.active
+    actsheet = np.genfromtxt("Scenarios/Luxembourg/Lux Mobil.csv", dtype=str, delimiter=",")
+
+    max_row = np.shape(actsheet)[0]
 
     # In the following distribution, the probability assigned to a given range reflects the
     # probability that the length of a trip, between the input countries and with the given
@@ -209,18 +211,20 @@ def make_distribution(config, motive, country_origin, country_destination,
     distance_distribution = {}
     for bin_num in range(number_of_bins):
         distance_distribution[range(bin_width*bin_num,bin_width*(bin_num+1))] = 0
-    for sheet_row in tqdm(range(2,actsheet.max_row)):
-        motive_sample = actsheet.cell(row=sheet_row, column=7).value
-        country_origin_sample = actsheet.cell(row=sheet_row, column=9).value
-        country_destination_sample = actsheet.cell(row=sheet_row, column=11).value
+    for sheet_row in tqdm(range(1,max_row)):
+        motive_sample = actsheet[sheet_row][0]
+        country_origin_sample = actsheet[sheet_row][1]
+        country_destination_sample = actsheet[sheet_row][2]
         # For each sample of the desired trip type, record the distance and add to the distribution
         if ([motive_sample,country_origin_sample,country_destination_sample]
             == [motive, country_origin, country_destination]):
-            distance = actsheet.cell(row=sheet_row, column=12).value
-            if isinstance(distance,(int,float)) and (distance < number_of_bins*bin_width):
-                weight = actsheet.cell(row=sheet_row, column=15).value
-                distance_distribution[range(int((distance//bin_width)*bin_width),
-                          int(((distance//bin_width)+1)*bin_width))] += round(weight)
+            distance_str = actsheet[sheet_row][3]
+            if distance_str != "Na":
+                distance = float(distance_str)
+                if (distance < number_of_bins*bin_width):
+                    weight = float(actsheet[sheet_row][4])
+                    distance_distribution[range(int((distance//bin_width)*bin_width),
+                            int(((distance//bin_width)+1)*bin_width))] += round(weight)
     # Normalize to obtain a probability distribution
     total_weight = sum(distance_distribution.values())
     for distribution_bin in distance_distribution:
