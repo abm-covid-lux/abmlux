@@ -117,6 +117,12 @@ class CompartmentalModel(DiseaseModel):
         contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
                                          if a.health in self.contagious_states])
                                  for l in self.sim.locations}
+        # If p is the baseline transmission probability, q is the probability of an individual
+        # wearing a mask and r is the proportion of virus particles passing through the mask,
+        # then the true transmission probability is:
+        #
+        # p_true = p(r^2q^2 + 2rq(1-q) + (1-q)^2) = p(1-(1-r)q)^2
+        #
         infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ]((1 - (1-self.ppm_coeff)*self.prob_wear_mask[l.typ])**2))**c
                                              for l, c in contagious_count_dict.items() if c > 0}
 
