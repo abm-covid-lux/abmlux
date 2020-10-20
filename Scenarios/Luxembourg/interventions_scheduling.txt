@@ -1,0 +1,72 @@
+### PersonalProtectiveMeasures ###
+
+	On/Off Scheduling:
+	
+		[-infty    , present   ]: ON
+	
+	Time-dependent parameters:
+	
+		Parameter: prob_do_recommendation
+
+		Timeline:
+		[-infty    , 19/04/2020]: 0.0
+		[20/04/2020, 10/05/2020]: 0.8
+		[11/05/2020, present   ]: 1.0
+
+### LargeScaleTesting ###
+
+	On/Off Scheduling:
+	
+		[-infty    , present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: tests_per_day
+		
+		Timeline:
+		5000
+
+### OtherTesting ###
+
+	On/Off Scheduling:
+	
+		[-infty    , present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: prob_test_symptoms
+	
+		Timeline:
+		[-infty    , present   ]: 1.0
+
+### ContactTracingManual ###
+
+	On/Off Scheduling:	
+	
+		[-infty    , present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: max_per_day
+	
+		Timeline:
+		[-infty    , present   ]: 100
+
+### ContactTracingApp ###
+
+	On/Off Scheduling:
+	
+		[-infty    , present   ]: OFF
+
+	Time-dependent parameters:
+
+		Parameter: app_prevalence
+		
+		Timeline:
+		[-infty    , present   ]: 0.2
+
+### LocationClosures ###
+
+	On/Off Scheduling:
+	
+		[-infty    , present   ]: OFF
