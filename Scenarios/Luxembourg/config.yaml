@@ -796,8 +796,44 @@ personal_protective_measures:
   # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
   # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
   # and even nonmedical or homemade masks.
-  #ppm_coeff: 0.7
-  ppm_coeff: 1.0
+  ppm_coeff: 0.7
+  prob_wear_mask:
+    House:                          0.0
+    Care Home:                      0.0
+    OW Agriculture:                 0.0
+    OW Extraction:                  0.0
+    OW Manufacturing:               0.0
+    OW Energy:                      0.0
+    OW Water:                       0.0 
+    OW Construction:                0.0
+    OW Trade:                       0.0
+    OW Transport:                   0.0
+    OW Catering and Accommodation:  0.0
+    OW ICT:                         0.0
+    OW Finance:                     0.0
+    OW Real Estate:                 0.0
+    OW Technical:                   0.0
+    OW Administration:              0.0
+    OW Education:                   0.0
+    OW Entertainment:               0.0
+    OW Other Services:              0.0
+    School:                         0.0
+    Restaurant:                     0.2
+    Outdoor:                        0.0
+    Car:                            0.0
+    Public Transport:               1.0
+    Shop:                           1.0
+    Medical:                        1.0
+    Hospital:                       1.0
+    Hotel:                          1.0
+    Place of Worship:               1.0
+    Indoor Sport:                   0.2
+    Cinema or Theatre:              0.2
+    Museum or Zoo:                  1.0
+    Belgium:                        0.0
+    France:                         0.0
+    Germany:                        0.0
+    Cemetery:                       0.0
 
 # Moves agents to locations when they are in certain health states
 hospitalisation:

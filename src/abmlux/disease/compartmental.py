@@ -19,6 +19,7 @@ class CompartmentalModel(DiseaseModel):
 
         self.prng                       = prng
         self.infection_probabilities    = config['infection_probabilities_per_tick']
+        self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
         self.ppm_coeff                  = config['personal_protective_measures']['ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
         self.contagious_states          = set(config['contagious_states'])
@@ -116,7 +117,7 @@ class CompartmentalModel(DiseaseModel):
         contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
                                          if a.health in self.contagious_states])
                                  for l in self.sim.locations}
-        infection_probability_by_location = {l: 1 - (1-self.ppm_coeff*self.infection_probabilities[l.typ])**c
+        infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ]((1 - (1-self.ppm_coeff)*self.prob_wear_mask[l.typ])**2))**c
                                              for l, c in contagious_count_dict.items() if c > 0}
 
         # Determine which suceptible agents are infected during this tick
