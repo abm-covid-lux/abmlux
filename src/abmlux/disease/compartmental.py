@@ -34,6 +34,8 @@ class CompartmentalModel(DiseaseModel):
         self.state                      = state
         self.network                    = state.network
 
+        self.ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[loc_type])**2) for loc_type in self.prob_wear_mask}
+
         profiles  = config['disease_profile_distribution_by_age']
         labels    = config['disease_profile_list']
         step_size = config['disease_profile_distribution_by_age_step_size']
@@ -127,7 +129,7 @@ class CompartmentalModel(DiseaseModel):
         #
         # Moreover q = (probabability an agent wears a mask, given that the agent follows the
         #               rules) * (probability that the agent follows the rules)
-        infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ]((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[l.typ])**2))**c
+        infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ]*self.ppm_modifier[l.typ])**c
                                              for l, c in contagious_count_dict.items() if c > 0}
 
         # Determine which suceptible agents are infected during this tick
