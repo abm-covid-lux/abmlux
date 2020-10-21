@@ -96,11 +96,7 @@ class Simulator:
         log.info("Creating health state indices...")
         self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
                                               for h in self.disease.states}
-        #self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
-        #                                   for l in self.locations}
-        #                               for h in self.disease.states}
         # /caches
-
 
         update_notifications = []
         for t in self.clock:

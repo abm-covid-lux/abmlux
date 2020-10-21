@@ -98,11 +98,6 @@ class CompartmentalModel(DiseaseModel):
             self.disease_profile_index_dict[agent] = 1
             agent.health = self.disease_profile_dict[agent][1]
 
-        # Initialize the health state change time dictionary
-        log.info("Updating health state index...")
-        for agent in agents:
-            self.health_state_change_time[agent] = 0
-
     def get_health_transitions(self, clock, t):
         """Updates the health state of agents"""
 
@@ -148,8 +143,7 @@ class CompartmentalModel(DiseaseModel):
             # duration_ticks is None if agent.health is susceptible, recovered or dead
             # pylint: disable=line-too-long
             if duration_ticks is not None:
-                # FIXME: default to 0 so we don't have to build the full index above
-                time_since_state_change = t - self.health_state_change_time[agent]
+                time_since_state_change = t - (self.health_state_change_time[agent] or 0)
                 if time_since_state_change > duration_ticks:
                     self.bus.publish("request.agent.health", agent, \
                         self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
@@ -159,6 +153,7 @@ class CompartmentalModel(DiseaseModel):
     def update_health_indices(self, agent, old_health):
         """Update internal counts."""
 
+        # This shouldn't really happen, but if it does then we're not interested
         if old_health == agent.health:
             return
 
