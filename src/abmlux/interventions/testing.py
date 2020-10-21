@@ -53,7 +53,7 @@ class OtherTesting(Intervention):
         self.onset_of_symptoms_to_test_booking = \
             int(clock.days_to_ticks(config['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states  = set(state.config['symptomatic_states'])
+        self.symptomatic_states  = set(config['symptomatic_states'])
         self.test_booking_events = DeferredEventPool(bus, clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)

@@ -5,13 +5,13 @@ import os.path as osp
 import sys
 import logging
 import logging.config
-import importlib
 import traceback
 
 from abmlux.location_model.simple_random import SimpleRandomLocationModel
 import abmlux.random_tools as random_tools
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
+from abmlux.utils import instantiate_class
 from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationState, SimulationPhase
 from abmlux.simulator import Simulator
@@ -57,7 +57,12 @@ def disease_model(state):
     """Set up disease model."""
 
     # TODO: make this dynamic from the config file (like reporters)
-    state.disease = CompartmentalModel(state.prng, state.config, state.bus, state)
+    disease_model_class  = state.config['disease_model.__type__']
+    disease_model_config = state.config['disease_model']
+    disease_model = instantiate_class("abmlux.disease", disease_model_class, state.prng,\
+                                      disease_model_config, state.bus, state)
+
+    state.disease = disease_model
 
 def location_model(state):
     """set up location model"""
@@ -80,25 +85,19 @@ def intervention_setup(state):
         intervention_class    = intervention_config['__type__']
         intervention_schedule = intervention_config['__schedule__']
 
-        # Instantiate the class itself
-        log.info("Instantiating intervention: %s (%s)...", intervention_id, intervention_class)
-        module_name = "abmlux.interventions." + ".".join(intervention_class.split(".")[:-1])
-        class_name  = intervention_class.split(".")[-1]
+        log.info("Creating intervention %s of type %s...", intervention_id, intervention_class)
+        new_intervention = instantiate_class("abmlux.interventions", intervention_class, \
+                                             state.prng, intervention_config, \
+                                             state.clock, state.bus, state)
 
-        log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
-        mod = importlib.import_module(module_name)
-        cls = getattr(mod, class_name)
-
-        params = [state.prng, intervention_config, state.clock, state.bus, state]
-        log.debug("Instantiating class %s with parameters %s", cls, params)
-        new_intervention = cls(*params)
         interventions[intervention_id] = new_intervention
 
     state.interventions = interventions
 
     # Initialise internal state of the intervention object, and allow it to
     # modify the network if needed
-    for intervention in state.interventions:
+    for intervention_id, intervention in state.interventions.items():
+        log.info("Initialising intervention %s...", intervention_id)
         intervention.initialise_agents(state.network)
 
 def run_sim(state):
@@ -113,15 +112,10 @@ def run_sim(state):
         fqclass_name = list(spec.keys())[0]
         params = spec[fqclass_name]
 
-        module_name = "abmlux.reporters." + ".".join(fqclass_name.split(".")[:-1])
-        class_name  = fqclass_name.split(".")[-1]
+        log.info("Creating reporter %s...", fqclass_name)
 
-        log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
-        mod = importlib.import_module(module_name)
-        cls = getattr(mod, class_name)
+        reporter = instantiate_class("abmlux.reporters", fqclass_name, **params)
 
-        log.debug("Instantiating class %s with parameters %s", cls, params)
-        reporter = cls(**params)
         reporters.append(reporter)
 
     # ############## Run Stage ##############

@@ -29,7 +29,7 @@ class Simulator:
         self.locations     = state.network.locations
         self.agents        = state.network.agents
         self.disease       = state.disease
-        self.interventions = state.interventions
+        self.interventions = state.interventions.keys()
 
         # Read-only config
         self.reporters               = reporters

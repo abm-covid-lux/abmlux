@@ -1,12 +1,34 @@
 import os
 from zlib import adler32
 import functools
+import importlib
+import logging
 
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 import psutil
 
 BYTES_IN_A_GIB = 1.074e+9
+
+log = logging.getLogger("utils")
+
+def instantiate_class(module_base, module_path, *args, **kwargs):
+    """Take a string and arguments and instantiate a class, returning it."""
+
+    # Instantiate the class itself
+    log.debug("Instantiating class %s...", module_path)
+    module_name = module_base + "." + ".".join(module_path.split(".")[:-1])
+    class_name  = module_path.split(".")[-1]
+
+    log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
+    mod = importlib.import_module(module_name)
+    cls = getattr(mod, class_name)
+
+    log.debug("Instantiating class %s with parameters %s and keyword parameters %s", \
+              cls, args, kwargs)
+    new_instance = cls(*args, **kwargs)
+
+    return new_instance
 
 def flatten(arr):
     """Flatten a list of lists, returning a single flat list."""

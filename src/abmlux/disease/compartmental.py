@@ -148,6 +148,7 @@ class CompartmentalModel(DiseaseModel):
             # duration_ticks is None if agent.health is susceptible, recovered or dead
             # pylint: disable=line-too-long
             if duration_ticks is not None:
+                # FIXME: default to 0 so we don't have to build the full index above
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
                     self.bus.publish("request.agent.health", agent, \

@@ -525,97 +525,147 @@ beta:  0.3838
 
 # ######################################### Virus and Disease ######################################
 
-# The health states appearing in this model are as follows:
-health_states: [SUSCEPTIBLE, EXPOSED, ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING, RECOVERED, DEAD]
-# Agents in the following states are categorized as exposed:
-incubating_states: [EXPOSED]
-# Agents in the following states can transmit the virus:
-contagious_states: [ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING]
-# Agents in the following states are symptomatic:
-symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
-# Agents in the following states will be moved to a hospital:
-hospital_states: [HOSPITALIZING, VENTILATING]
-# Agents in the following states will be moved to a cemetery:
-dead_states: [DEAD]
-# A list of possibile trajectories through the health states is encoded as follows:
-disease_profile_list: [SEAR, SEPIR, SEPID, SEPIHR, SEPIHD, SEPIHVHR, SEPIHVD]
+disease_model:
 
-# For a given age x and step size
-disease_profile_distribution_by_age_step_size: 5
-# the following dictionary provides a probability distribution over the list of disease profiles
-# for agents belonging to the age range range(x,x+d), where d equals the step size:
-disease_profile_distribution_by_age:
-  0:    [0.71,0.269716024,0,0.010141988,0,0.010141988,0]
-  5:    [0.71,0.278956502,0,0.011043498,0,0,0]
-  10:   [0.79,0.21,0,0,0,0,0]
-  15:   [0.79,0.205791044,0,0.002104478,0,0.002104478,0]
-  20:   [0.73,0.255836189,0,0.014163811,0,0,0]
-  25:   [0.73,0.263128448,0,0.006871552,0,0,0]
-  30:   [0.67,0.31064292,0,0.017974432,0,0.001382649,0]
-  35:   [0.67,0.309407444,0,0.019008513,0,0.001584043,0]
-  40:   [0.6,0.355022407,0,0.03418297,0,0.010794622,0]
-  45:   [0.6,0.345350688,0,0.045280858,0,0.009368453,0]
-  50:   [0.51,0.425408717,0,0.056992308,0,0.007598974,0]
-  55:   [0.51,0.371044387,0,0.109625761,0,0.009329852,0]
-  60:   [0.37,0.450067141,0,0.143946287,0,0.02998881,0.005997762]
-  65:   [0.37,0.375572645,0.01375283,0.185663205,0,0.03143504,0.02357628]
-  70:   [0.31,0.183250315,0,0.366073044,0.03137769,0.054649476,0.054649476]
-  75:   [0.31,0.120160996,0.042737925,0.390668471,0.050956757,0.085475851,0]
-  80:   [0.31,0.00682635,0.118241593,0.355819609,0.156560628,0.017517273,0.035034546]
-  85:   [0.31,0.080507251,0.14627826,0.288154627,0.162870007,0,0.012189855]
-  90:   [0.31,0.060234992,0.218489901,0.231342248,0.179932859,0,0]
+  __type__: compartmental.CompartmentalModel
 
-# Disease durations in days (C: constant, G: gamma, U: uniform):
-durations_by_profile:
-  SEAR:     [None,[G,[4,0.75]],[G,[4,1.25]] ,None]
-  SEPIR:    [None,[G,[4,0.75]],[G,[4,0.525]],[G,[4,0.725]],None]
-  SEPID:    [None,[G,[4,0.75]],[G,[4,0.525]],[U,[10,15]]  ,None]
-  SEPIHR:   [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[8,21]],None]
-  SEPIHD:   [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[5,16]],None]
-  SEPIHVHR: [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[3,5]] ,[U,[2,12]],[U,[2,4]],None]
-  SEPIHVD:  [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[3,5]] ,[U,[7,10]],None]
-# How many people are infected at the start of the simulation, with these agents being chosen
-# uniformly at random:
-initial_infections: 10
+  # If the PPM intervention is enabled, these must match for the model to be valid.
+  # Avoiding this dependency is a TODO list item!
+  personal_protective_measures:
+    ppm_coeff: 0.7
+    # The probability that an agent follows the recommendations in place:
+    prob_do_recommendation: 1.0
+    # The probability that an individual wears a mask in each location, given that the individual follows
+    # the recommendations in place:
+    prob_wear_mask:
+      House:                          0.0
+      Care Home:                      0.2
+      OW Agriculture:                 0.2
+      OW Extraction:                  0.2
+      OW Manufacturing:               0.2
+      OW Energy:                      0.2
+      OW Water:                       0.2 
+      OW Construction:                0.2
+      OW Trade:                       0.2
+      OW Transport:                   0.2
+      OW Catering and Accommodation:  0.2
+      OW ICT:                         0.2
+      OW Finance:                     0.2
+      OW Real Estate:                 0.2
+      OW Technical:                   0.2
+      OW Administration:              0.2
+      OW Education:                   0.2
+      OW Entertainment:               0.2
+      OW Other Services:              0.2
+      School:                         0.2
+      Restaurant:                     0.2
+      Outdoor:                        0.0
+      Car:                            0.0
+      Public Transport:               1.0
+      Shop:                           1.0
+      Medical:                        1.0
+      Hospital:                       1.0
+      Hotel:                          1.0
+      Place of Worship:               1.0
+      Indoor Sport:                   0.2
+      Cinema or Theatre:              0.2
+      Museum or Zoo:                  1.0
+      Belgium:                        0.0
+      France:                         0.0
+      Germany:                        0.0
+      Cemetery:                       0.0
 
-# The probability of other agents sharing a given location catching the pathogen each time tick:
-infection_probabilities_per_tick:
-  House:                            0.0007
-  Care Home:                        0.0007
-  OW Agriculture:                   0.0007
-  OW Extraction:                    0.0007
-  OW Manufacturing:                 0.0007
-  OW Energy:                        0.0007
-  OW Water:                         0.0007
-  OW Construction:                  0.0007
-  OW Trade:                         0.0007
-  OW Transport:                     0.0007
-  OW Catering and Accommodation:    0.0007
-  OW ICT:                           0.0007
-  OW Finance:                       0.0007
-  OW Real Estate:                   0.0007
-  OW Technical:                     0.0007
-  OW Administration:                0.0007
-  OW Education:                     0.0007
-  OW Entertainment:                 0.0007
-  OW Other Services:                0.0007
-  School:                           0.0007
-  Restaurant:                       0.0007
-  Outdoor:                          0.0
-  Car:                              0.0007
-  Public Transport:                 0.0007
-  Shop:                             0.0007
-  Medical:                          0.0007
-  Hospital:                         0.0007
-  Hotel:                            0.0007
-  Place of Worship:                 0.0007
-  Indoor Sport:                     0.0007
-  Cinema or Theatre:                0.0007
-  Museum or Zoo:                    0.0007
-  Belgium:                          0.0
-  France:                           0.0
-  Germany:                          0.0
-  Cemetery:                         0.0
+  # The health states appearing in this model are as follows:
+  health_states: [SUSCEPTIBLE, EXPOSED, ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING, RECOVERED, DEAD]
+  # Agents in the following states are categorized as exposed:
+  incubating_states: [EXPOSED]
+  # Agents in the following states can transmit the virus:
+  contagious_states: [ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING]
+  # Agents in the following states are symptomatic:
+  symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
+  # Agents in the following states will be moved to a hospital:
+  hospital_states: [HOSPITALIZING, VENTILATING]
+  # Agents in the following states will be moved to a cemetery:
+  dead_states: [DEAD]
+  # A list of possibile trajectories through the health states is encoded as follows:
+  disease_profile_list: [SEAR, SEPIR, SEPID, SEPIHR, SEPIHD, SEPIHVHR, SEPIHVD]
+
+  # For a given age x and step size
+  disease_profile_distribution_by_age_step_size: 5
+  # the following dictionary provides a probability distribution over the list of disease profiles
+  # for agents belonging to the age range range(x,x+d), where d equals the step size:
+  disease_profile_distribution_by_age:
+    0:    [0.71,0.269716024,0,0.010141988,0,0.010141988,0]
+    5:    [0.71,0.278956502,0,0.011043498,0,0,0]
+    10:   [0.79,0.21,0,0,0,0,0]
+    15:   [0.79,0.205791044,0,0.002104478,0,0.002104478,0]
+    20:   [0.73,0.255836189,0,0.014163811,0,0,0]
+    25:   [0.73,0.263128448,0,0.006871552,0,0,0]
+    30:   [0.67,0.31064292,0,0.017974432,0,0.001382649,0]
+    35:   [0.67,0.309407444,0,0.019008513,0,0.001584043,0]
+    40:   [0.6,0.355022407,0,0.03418297,0,0.010794622,0]
+    45:   [0.6,0.345350688,0,0.045280858,0,0.009368453,0]
+    50:   [0.51,0.425408717,0,0.056992308,0,0.007598974,0]
+    55:   [0.51,0.371044387,0,0.109625761,0,0.009329852,0]
+    60:   [0.37,0.450067141,0,0.143946287,0,0.02998881,0.005997762]
+    65:   [0.37,0.375572645,0.01375283,0.185663205,0,0.03143504,0.02357628]
+    70:   [0.31,0.183250315,0,0.366073044,0.03137769,0.054649476,0.054649476]
+    75:   [0.31,0.120160996,0.042737925,0.390668471,0.050956757,0.085475851,0]
+    80:   [0.31,0.00682635,0.118241593,0.355819609,0.156560628,0.017517273,0.035034546]
+    85:   [0.31,0.080507251,0.14627826,0.288154627,0.162870007,0,0.012189855]
+    90:   [0.31,0.060234992,0.218489901,0.231342248,0.179932859,0,0]
+
+  # Disease durations in days (C: constant, G: gamma, U: uniform):
+  durations_by_profile:
+    SEAR:     [None,[G,[4,0.75]],[G,[4,1.25]] ,None]
+    SEPIR:    [None,[G,[4,0.75]],[G,[4,0.525]],[G,[4,0.725]],None]
+    SEPID:    [None,[G,[4,0.75]],[G,[4,0.525]],[U,[10,15]]  ,None]
+    SEPIHR:   [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[8,21]],None]
+    SEPIHD:   [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[5,16]],None]
+    SEPIHVHR: [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[3,5]] ,[U,[2,12]],[U,[2,4]],None]
+    SEPIHVD:  [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[3,5]] ,[U,[7,10]],None]
+  # How many people are infected at the start of the simulation, with these agents being chosen
+  # uniformly at random:
+  initial_infections: 10
+
+  # The probability of other agents sharing a given location catching the pathogen each time tick:
+  infection_probabilities_per_tick:
+    House:                            0.0007
+    Care Home:                        0.0007
+    OW Agriculture:                   0.0007
+    OW Extraction:                    0.0007
+    OW Manufacturing:                 0.0007
+    OW Energy:                        0.0007
+    OW Water:                         0.0007
+    OW Construction:                  0.0007
+    OW Trade:                         0.0007
+    OW Transport:                     0.0007
+    OW Catering and Accommodation:    0.0007
+    OW ICT:                           0.0007
+    OW Finance:                       0.0007
+    OW Real Estate:                   0.0007
+    OW Technical:                     0.0007
+    OW Administration:                0.0007
+    OW Education:                     0.0007
+    OW Entertainment:                 0.0007
+    OW Other Services:                0.0007
+    School:                           0.0007
+    Restaurant:                       0.0007
+    Outdoor:                          0.0
+    Car:                              0.0007
+    Public Transport:                 0.0007
+    Shop:                             0.0007
+    Medical:                          0.0007
+    Hospital:                         0.0007
+    Hotel:                            0.0007
+    Place of Worship:                 0.0007
+    Indoor Sport:                     0.0007
+    Cinema or Theatre:                0.0007
+    Museum or Zoo:                    0.0007
+    Belgium:                          0.0
+    France:                           0.0
+    Germany:                          0.0
+    Cemetery:                         0.0
 
 # ######################################### Interventions ##########################################
 # Interventions list
@@ -672,6 +722,8 @@ interventions:
     # The time taken between the booking of a test and the time at which the test takes place, in the
     # case where the agent is showing symptoms at the time of booking:
     test_booking_to_test_sample_days_symptoms: 2
+    # Agents in the following states are symptomatic:
+    symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
 
 
   # The intervention 'test_sampling' refers to lab testing. If an agent is tested and if the agent is
@@ -688,6 +740,10 @@ interventions:
     prob_false_negative: 0.01
     # The time taken between a test and publishing of the result of that test:
     do_test_to_test_results_days: 2
+    # Agents in the following states are categorized as exposed:
+    incubating_states: [EXPOSED]
+    # Agents in the following states can transmit the virus:
+    contagious_states: [ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING]
 
 
   # The intervention 'contact_tracing_app' refers to contact tracing perform not manually, but via an
@@ -839,6 +895,8 @@ interventions:
     prob_test_symptoms: 1.0
     # Time between onset of symptoms and booking of a test:
     onset_of_symptoms_to_test_booking_days: 1
+    # Agents in the following states are symptomatic:
+    symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
 
 
   # The intervention 'personal_protective_measures' refers to the effect of such measures as hand
@@ -849,6 +907,9 @@ interventions:
     __enabled__: true
     __type__: ppm.PersonalProtectiveMeasures
     __schedule__:
+    # Agents attempting to transition to these states will occasionally have the transition
+    # blocked, representing PPM working
+    incubating_states: [EXPOSED]
     # According to https://arxiv.org/pdf/2004.13553.pdf the effect of face masks is modelled by the
     # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
     # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.

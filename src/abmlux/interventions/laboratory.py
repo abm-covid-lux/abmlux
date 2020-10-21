@@ -20,7 +20,7 @@ class Laboratory(Intervention):
         self.do_test_to_test_results_ticks = \
             int(clock.days_to_ticks(config['do_test_to_test_results_days']))
         self.infected_states = \
-            set(state.config['incubating_states']).union(set(state.config['contagious_states']))
+            set(config['incubating_states']).union(set(config['contagious_states']))
 
         self.test_result_events = DeferredEventPool(bus, clock)
 
@@ -60,7 +60,7 @@ class TestBooking(Intervention):
         self.time_to_arrange_test_symptoms    = \
             int(clock.days_to_ticks(config['test_booking_to_test_sample_days_symptoms']))
 
-        self.symptomatic_states   = set(state.config['symptomatic_states'])
+        self.symptomatic_states   = set(config['symptomatic_states'])
         self.test_events          = DeferredEventPool(bus, clock)
         self.agents_awaiting_test = set()
 
