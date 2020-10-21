@@ -18,7 +18,7 @@ class SimpleRandomLocationModel(LocationModel):
 
         self.no_move_states = config['location_model']['no_move_health_states']
 
-        self.bus.subscribe("request.activity.change", self.handle_activity_change, self)
+        self.bus.subscribe("request.agent.activity", self.handle_activity_change, self)
 
 
     def handle_activity_change(self, agent, new_activity):

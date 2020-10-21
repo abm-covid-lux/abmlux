@@ -39,6 +39,9 @@ class Simulator:
         self.bus.subscribe("request.agent.activity", self.record_activity_change, self)
         self.bus.subscribe("request.agent.health", self.record_health_change, self)
 
+        # For reporting
+        self.agents_by_health_state = {h: {a for a in self.agents if a.health == h}
+                                       for h in self.disease.states}
 
     def record_location_change(self, agent, new_location):
         """Record request.agent.location events, placing them on a queue to be enacted

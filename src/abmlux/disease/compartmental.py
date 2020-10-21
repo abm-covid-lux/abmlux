@@ -19,6 +19,9 @@ class CompartmentalModel(DiseaseModel):
 
         self.prng                       = prng
         self.infection_probabilities    = config['infection_probabilities_per_tick']
+        self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
+        self.prob_do_recommendation     = config['personal_protective_measures']['prob_do_recommendation']
+        self.ppm_coeff                  = config['personal_protective_measures']['ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
         self.contagious_states          = set(config['contagious_states'])
         self.incubating_states          = set(config['incubating_states'])
@@ -30,6 +33,8 @@ class CompartmentalModel(DiseaseModel):
         self.bus                        = bus
         self.state                      = state
         self.network                    = state.network
+
+        self.ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[loc_type])**2) for loc_type in self.prob_wear_mask}
 
         profiles  = config['disease_profile_distribution_by_age']
         labels    = config['disease_profile_list']
@@ -115,7 +120,16 @@ class CompartmentalModel(DiseaseModel):
         contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
                                          if a.health in self.contagious_states])
                                  for l in self.sim.locations}
-        infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ])**c
+        # If p is the baseline transmission probability, q is the probability of an individual
+        # wearing a mask and r is the proportion of virus particles passing through the mask,
+        # then the true transmission probability between two individuals, each of which may or
+        # may not be wearing a mask, is:
+        #
+        # p_true = p(r^2q^2 + 2rq(1-q) + (1-q)^2) = p(1-(1-r)q)^2
+        #
+        # Moreover q = (probabability an agent wears a mask, given that the agent follows the
+        #               rules) * (probability that the agent follows the rules)
+        infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ]*self.ppm_modifier[l.typ])**c
                                              for l, c in contagious_count_dict.items() if c > 0}
 
         # Determine which suceptible agents are infected during this tick

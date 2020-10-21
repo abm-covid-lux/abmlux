@@ -1,0 +1,218 @@
+### PersonalProtectiveMeasures ###
+
+	On/Off Scheduling:
+
+		[-infty    , present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: prob_do_recommendation
+
+		Timeline:
+		[-infty    , 19/04/2020]: 0.0
+		[20/04/2020, 10/05/2020]: 0.8
+		[11/05/2020, present   ]: 1.0
+
+### LargeScaleTesting ###
+
+	On/Off Scheduling:
+
+		[-infty    , 17/05/2020]: OFF
+		[17/05/2020, present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: tests_per_day
+
+		Timeline:
+		5000
+
+### OtherTesting ###
+
+	On/Off Scheduling:
+
+		[-infty    , present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: prob_test_symptoms
+
+		Timeline:
+		[-infty    , present   ]: 1.0
+
+### ContactTracingManual ###
+
+	On/Off Scheduling:	
+
+		[-infty    , present   ]: ON
+
+	Time-dependent parameters:
+
+		Parameter: max_per_day
+
+		Timeline:
+		[-infty    , present   ]: 100
+
+### ContactTracingApp ###
+
+	On/Off Scheduling:
+
+		[-infty    , present   ]: OFF
+
+	Time-dependent parameters:
+
+		Parameter: app_prevalence
+
+		Timeline:
+		[-infty    , present   ]: 0.2
+
+### LocationClosures ###
+
+	On/Off Scheduling:
+
+		*Locations unavailable unless an agent lives there (homes and carehomes)
+
+		House
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 10/05/2020]: OFF
+			[11/05/2020, 15/07/2020]: ON
+		Care Home
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 19/05/2020]: OFF
+			[20/05/2020, present   ]: ON
+		OW Agriculture
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Extraction
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Manufacturing
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Energy
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Water
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Construction
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 19/04/2020]: OFF
+			[20/04/2020, present   ]: ON
+		OW Trade
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Transport
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Catering and Accommodation
+			[-infty    , present   ]: ON
+		OW ICT
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Finance
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Real Estate
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Technical
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Administration
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Education
+			[-infty    , 18/03/2020]: ON
+			[19/03/2020, 23/06/2020]: OFF
+			[24/06/2020, present   ]: ON
+		OW Entertainment
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		OW Other Services
+			[-infty    , present   ]: ON
+		School
+			[-infty    , 15/03/2020]: ON
+			[16/03/2020, 10/05/2020]: OFF
+			[11/05/2020, 15/07/2020]: ON
+			[16/07/2020, 14/10/2020]: OFF
+			[15/10/2020, present   ]: ON
+		Restaurant
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Outdoor
+			[-infty    , present   ]: ON
+		Car
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Public Transport
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Shop
+			[-infty    , present   ]: ON
+		Medical
+			[-infty    , 25/03/2020]: ON
+			[26/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Hospital
+			[-infty    , present   ]: ON
+		Hotel
+			[-infty    , present   ]: ON
+		Place of Worship
+			[-infty    , 13/03/2020]: ON
+			[14/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Indoor Sport
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Cinema or Theatre
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Museum or Zoo
+			[-infty    , 14/03/2020]: ON
+			[15/03/2020, 28/05/2020]: OFF
+			[29/05/2020, present   ]: ON
+		Belgium
+			[-infty    , 16/03/2020]: ON
+			[21/03/2020, 14/06/2020]: OFF
+			[15/06/2020, present   ]: ON
+		France
+			[-infty    , 16/03/2020]: ON
+			[17/03/2020, 14/06/2020]: OFF
+			[15/06/2020, present   ]: ON
+		Germany
+			[-infty    , 15/03/2020]: ON
+			[16/03/2020, 16/05/2020]: OFF
+			[17/05/2020, present   ]: ON
+		Cemetery
+			[-infty    , present   ]: ON
+
+### RandomNewCases ###
+
+	On/Off Scheduling:
+
+		[-infty    , 21/03/2020]: ON
+		[22/03/2020, 28/05/2020]: OFF
+		[29/05/2020, present   ]: ON
+
+	Time-dependent parameters:
+
+		random_infections_per_day: 2
