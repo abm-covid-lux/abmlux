@@ -34,6 +34,10 @@ class Laboratory(Intervention):
         represents the time taken to complete the test itself.
         """
 
+        # If disabled, don't start new tests.  Tests underway will still complete
+        if not self.enabled:
+            return
+
         test_result = False
         if agent.health in self.infected_states:
             if random_tools.boolean(self.prng, 1 - self.prob_false_negative):
@@ -69,6 +73,10 @@ class TestBooking(Intervention):
     def handle_book_test(self, agent):
         """Someone has been selected for testing.  Insert a delay between the booking of the test
         and the test"""
+
+        # If disabled, prevent new bookings.  Old bookings will still complete
+        if not self.enabled:
+            return
 
         if agent not in self.agents_awaiting_test:
             if agent.health in self.symptomatic_states:

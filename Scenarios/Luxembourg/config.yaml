@@ -795,6 +795,10 @@ interventions:
     __enabled__: true
     __type__: contact_tracing.ContactTracingManual
     __schedule__:
+      0: disable
+      200: enable
+      1000: enable
+
     # The maximum number of positive agents whose contacts can be tested each day:
     max_per_day: 100
     # The window of time over which contacts are considered:
@@ -822,7 +826,14 @@ interventions:
     __enabled__: true
     __type__: quarantine.Quarantine
     __schedule__:
+      1st March 2020: disable
+      14th March 2020: enable
+      20th March 2020: disable
 
+    # If this is true, disabling quarantine immediately allows people to change
+    # else it simply disables putting new people into quarantine, and they still have to
+    # wait out their allotted time.
+    disable_releases_immediately: false
     # Quarantining directs an agent home for a default duration:
     default_duration_days: 14
     # In the case that a quarantine has been imposed on an agent on an individual basis, and if that

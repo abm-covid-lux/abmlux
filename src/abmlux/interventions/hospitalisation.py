@@ -41,6 +41,10 @@ class Hospitalisation(Intervention):
         Respond to a change in health status by moving the agent to a cemetery.
         """
 
+        # If we are disabled, don't tell people to go to hospital.
+        if not self.enabled:
+            return
+
         # If at time t the function get_health_transitions outputs 'HOSPITALIZING' for an agent,
         # then the function _get_activity_transitions will move that agent to hospital at the
         # first time, greater than or equal to t+1, at which the agent chooses to perform a new

@@ -55,6 +55,10 @@ class ContactTracingManual(Intervention):
         """If the contact tracing system is not overcapacity, then agents newly testing positive
         will have their contacts selected for testing and quarantine."""
 
+        # If disabled, stop this mechanism
+        if not self.enabled:
+            return
+
         # We can only respond to this many positive tests per day
         if self.daily_notification_count > self.max_per_day:
             return
@@ -82,6 +86,10 @@ class ContactTracingManual(Intervention):
         self.daily_notification_count = 0
 
     def handle_location_change(self, agent, old_location):
+
+        # If disabled, stop counting
+        if not self.enabled:
+            return
 
         # Don't record colocation in any blacklisted locations
         if agent.current_location.typ in self.location_type_blacklist:
@@ -138,6 +146,11 @@ class ContactTracingApp(Intervention):
 
     def handle_test_result(self, agent, result):
         #print(f"CTA: {agent} tested {result}")
+
+        # If disabled, stop this mechansim
+        if not self.enabled:
+            return
+
         if result and agent in self.agents_with_app:
             self.current_day_notifications.add(agent)
 
@@ -167,6 +180,10 @@ class ContactTracingApp(Intervention):
         self.current_day_notifications  = set()
 
     def tick(self, clock, t):
+
+        # If disabled, stop this mechansim
+        if not self.enabled:
+            return
 
         # Update today's records with the latest, and store diagnosis keys
         self._update_contact_list(self.sim.attendees)

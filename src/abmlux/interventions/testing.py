@@ -34,6 +34,9 @@ class LargeScaleTesting(Intervention):
         This is equivalent to agents being notified that they should book, but not doing so
         immediately."""
 
+        if not self.enabled:
+            return
+
         # Invite for testing by random selection:
         test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
                                                         self.agents_tested_per_day)
@@ -63,6 +66,9 @@ class OtherTesting(Intervention):
         """When an agent changes health state to a symptomatic state, there is a certain chance
         that they book a test.  Booking a test takes time, so this method queues up the test
         booking event."""
+
+        if not self.enabled:
+            return
 
         # If no change, skip
         if old_health == agent.health:

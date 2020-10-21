@@ -17,6 +17,7 @@ class Quarantine(Intervention):
         self.early_end_days         = int(self.clock.days_to_ticks(config['negative_test_result_to_end_quarantine_days']))
         self.location_blacklist     = config['location_blacklist']
         self.home_activity_type     = state.activity_manager.as_int(config['home_activity_type'])
+        self.disable_releases_immediately = config['disable_releases_immediately']
 
         self.end_quarantine_events = DeferredEventPool(bus, self.clock)
         self.agents_in_quarantine  = set()
@@ -63,6 +64,10 @@ class Quarantine(Intervention):
     def handle_start_quarantine(self, agent):
         """Queues up agents to start quarantine next time quarantine status is updated."""
 
+        # If intervention is disabled, don't ever put people in quarantine
+        if not self.enabled:
+            return
+
         if agent in self.agents_in_quarantine or agent in self.agents_to_add:
             return
 
@@ -78,7 +83,14 @@ class Quarantine(Intervention):
 
     def handle_location_change(self, agent, new_location):
         """Catch any location changes that will move quarantined agents out of their home,
-        and rebroadcast an event to move them home again."""
+        and rebroadcast an event to move them home again.
+        """
+
+        # If we've been told to curtail all quarantines, allow people out.
+        # They retain their quarantined status, so will be restricted again if quarantine
+        # re-enables, but for now they're good.
+        if self.disable_releases_immediately and not self.enabled:
+            return
 
         if agent in self.agents_in_quarantine:
             home_location = agent.locations_for_activity(self.home_activity_type)[0]

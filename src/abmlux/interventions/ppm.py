@@ -23,8 +23,10 @@ class PersonalProtectiveMeasures(Intervention):
     def handle_health_change(self, agent, new_health):
         """With a given probability: respond to a request to change health state by censoring it."""
 
-        if new_health in self.incubating_states:
-            if random_tools.boolean(self.prng, 1 - self.ppm_coeff):
+        # Respond to intervention enable/disable logic
+        if self.enabled:
+            if new_health in self.incubating_states:
+                if random_tools.boolean(self.prng, 1 - self.ppm_coeff):
 
-                # Consume the event to prevent anything else responding
-                return MessageBus.CONSUME
+                    # Consume the event to prevent anything else responding
+                    return MessageBus.CONSUME

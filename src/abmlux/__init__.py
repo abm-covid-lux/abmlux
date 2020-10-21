@@ -75,6 +75,7 @@ def intervention_setup(state):
 
     # Reporters
     interventions = {}
+    intervention_schedules = {}
     for intervention_id, intervention_config in state.config["interventions"].items():
 
         # Skip if disabled
@@ -83,16 +84,18 @@ def intervention_setup(state):
 
         # Extract keys from the intervention config
         intervention_class    = intervention_config['__type__']
-        intervention_schedule = intervention_config['__schedule__']
 
         log.info("Creating intervention %s of type %s...", intervention_id, intervention_class)
         new_intervention = instantiate_class("abmlux.interventions", intervention_class, \
                                              state.prng, intervention_config, \
                                              state.clock, state.bus, state)
 
-        interventions[intervention_id] = new_intervention
+        interventions[intervention_id]           = new_intervention
+        intervention_schedules[new_intervention] = intervention_config['__schedule__']
 
-    state.interventions = interventions
+    # Save for later use by the sims
+    state.interventions          = interventions
+    state.intervention_schedules = intervention_schedules
 
     # Initialise internal state of the intervention object, and allow it to
     # modify the network if needed

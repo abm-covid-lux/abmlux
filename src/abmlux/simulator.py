@@ -8,6 +8,7 @@ framework."""
 import logging
 from collections import defaultdict
 
+from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
 
 log = logging.getLogger('sim')
@@ -42,6 +43,9 @@ class Simulator:
         # For reporting
         self.agents_by_health_state = {h: {a for a in self.agents if a.health == h}
                                        for h in self.disease.states}
+
+        # For manipulating interventions
+        self.scheduler = Scheduler(self.clock, self.bus, state.intervention_schedules)
 
     def record_location_change(self, agent, new_location):
         """Record request.agent.location events, placing them on a queue to be enacted

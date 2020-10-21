@@ -23,6 +23,25 @@ class Intervention:
         self.clock  = clock
         self.bus    = bus
 
+        # Updated to say whether the intervention is enabled or not at the current time
+        self.enabled = True
+
     def initialise_agents(self, network):
         """Initialise internal state for this intervention, potentially
         modifying the network if necessary.  Run prior to simulation start."""
+
+    def enable(self):
+        """Called when the intervention should be enabled.
+
+        This may simply set internal state
+        Interventions may need some time to disable/enable, which is allowed."""
+
+        self.enabled = True
+
+    def disable(self):
+        """Called when the intervention should be disabled.
+
+        This may simply set internal state, or cause the intervention to clean up.
+        Interventions may need some time to disable/enable, which is allowed."""
+
+        self.disabled = True

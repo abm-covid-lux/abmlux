@@ -24,6 +24,10 @@ class LocationClosures(Intervention):
     def handle_location_change(self, agent, new_location):
         """If the new location is in the blacklist, send the agent home."""
 
+        # If disabled, don't intervene
+        if not self.enabled:
+            return
+
         if new_location.typ in self.location_closures:
 
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
