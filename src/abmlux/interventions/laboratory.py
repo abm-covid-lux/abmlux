@@ -14,13 +14,13 @@ class Laboratory(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.prob_false_positive = config['test_sampling']['prob_false_positive']
-        self.prob_false_negative = config['test_sampling']['prob_false_negative']
+        self.prob_false_positive = config['prob_false_positive']
+        self.prob_false_negative = config['prob_false_negative']
 
         self.do_test_to_test_results_ticks = \
-            int(clock.days_to_ticks(config['test_sampling']['do_test_to_test_results_days']))
+            int(clock.days_to_ticks(config['do_test_to_test_results_days']))
         self.infected_states = \
-            set(config['incubating_states']).union(set(config['contagious_states']))
+            set(state.config['incubating_states']).union(set(state.config['contagious_states']))
 
         self.test_result_events = DeferredEventPool(bus, clock)
 
@@ -56,13 +56,11 @@ class TestBooking(Intervention):
 
         # Time between selection for test and the time at which the test will take place
         self.time_to_arrange_test_no_symptoms = \
-            int(clock.days_to_ticks(config['test_booking']\
-                                    ['test_booking_to_test_sample_days_no_symptoms']))
+            int(clock.days_to_ticks(config['test_booking_to_test_sample_days_no_symptoms']))
         self.time_to_arrange_test_symptoms    = \
-            int(clock.days_to_ticks(config['test_booking']\
-                                    ['test_booking_to_test_sample_days_symptoms']))
+            int(clock.days_to_ticks(config['test_booking_to_test_sample_days_symptoms']))
 
-        self.symptomatic_states   = set(config['symptomatic_states'])
+        self.symptomatic_states   = set(state.config['symptomatic_states'])
         self.test_events          = DeferredEventPool(bus, clock)
         self.agents_awaiting_test = set()
 

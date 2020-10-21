@@ -69,20 +69,30 @@ def intervention_setup(state):
     """Set up interventions"""
 
     # Reporters
-    interventions = []
-    for intervention in state.config["interventions"]:
-        log.info("Instantiating intervention: %s...", intervention)
-        module_name = "abmlux.interventions." + ".".join(intervention.split(".")[:-1])
-        class_name  = intervention.split(".")[-1]
+    interventions = {}
+    for intervention_id, intervention_config in state.config["interventions"].items():
+
+        # Skip if disabled
+        if '__enabled__' in intervention_config and not intervention_config['__enabled__']:
+            continue
+
+        # Extract keys from the intervention config
+        intervention_class    = intervention_config['__type__']
+        intervention_schedule = intervention_config['__schedule__']
+
+        # Instantiate the class itself
+        log.info("Instantiating intervention: %s (%s)...", intervention_id, intervention_class)
+        module_name = "abmlux.interventions." + ".".join(intervention_class.split(".")[:-1])
+        class_name  = intervention_class.split(".")[-1]
 
         log.debug("Dynamically loading class '%s' from module name '%s'", module_name, class_name)
         mod = importlib.import_module(module_name)
         cls = getattr(mod, class_name)
 
-        params = [state.prng, state.config, state.clock, state.bus, state]
+        params = [state.prng, intervention_config, state.clock, state.bus, state]
         log.debug("Instantiating class %s with parameters %s", cls, params)
         new_intervention = cls(*params)
-        interventions.append(new_intervention)
+        interventions[intervention_id] = new_intervention
 
     state.interventions = interventions
 

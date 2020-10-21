@@ -13,10 +13,10 @@ class Quarantine(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.default_duration_days  = int(self.clock.days_to_ticks(config['quarantine']['default_duration_days']))
-        self.early_end_days         = int(self.clock.days_to_ticks(config['quarantine']['negative_test_result_to_end_quarantine_days']))
-        self.location_blacklist     = config['quarantine']['location_blacklist']
-        self.home_activity_type     = state.activity_manager.as_int(config['quarantine']['home_activity_type'])
+        self.default_duration_days  = int(self.clock.days_to_ticks(config['default_duration_days']))
+        self.early_end_days         = int(self.clock.days_to_ticks(config['negative_test_result_to_end_quarantine_days']))
+        self.location_blacklist     = config['location_blacklist']
+        self.home_activity_type     = state.activity_manager.as_int(config['home_activity_type'])
 
         self.end_quarantine_events = DeferredEventPool(bus, self.clock)
         self.agents_in_quarantine  = set()

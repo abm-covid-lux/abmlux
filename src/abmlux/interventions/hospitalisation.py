@@ -14,10 +14,10 @@ class Hospitalisation(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.dead_states            = config['hospitalisation']['dead_states']
-        self.hospital_states        = config['hospitalisation']['hospital_states']
-        self.cemetery_location_type = config['hospitalisation']['cemetery_location_type']
-        self.hospital_location_type = config['hospitalisation']['hospital_location_type']
+        self.dead_states            = config['dead_states']
+        self.hospital_states        = config['hospital_states']
+        self.cemetery_location_type = config['cemetery_location_type']
+        self.hospital_location_type = config['hospital_location_type']
 
         # Overridden later when the simulation states
         self.cemeteries = []

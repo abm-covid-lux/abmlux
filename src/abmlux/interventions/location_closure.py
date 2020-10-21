@@ -16,9 +16,8 @@ class LocationClosures(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.location_closures  = config['location_closures']['locations']
-        self.home_activity_type = state.activity_manager.as_int(\
-            config['location_closures']['home_activity_type'])
+        self.location_closures  = config['locations']
+        self.home_activity_type = state.activity_manager.as_int(config['home_activity_type'])
 
         self.bus.subscribe("request.agent.location", self.handle_location_change, self)
 

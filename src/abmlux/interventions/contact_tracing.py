@@ -25,15 +25,15 @@ class ContactTracingManual(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.max_per_day_raw          = config['contact_tracing_manual']['max_per_day']
-        self.tracing_time_window_days = config['contact_tracing_manual']['tracing_time_window_days']
+        self.max_per_day_raw          = config['max_per_day']
+        self.tracing_time_window_days = config['tracing_time_window_days']
         self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
-                                         config['contact_tracing_manual']['relevant_activities']}
-        self.prob_do_recommendation   = config['contact_tracing_manual']['prob_do_recommendation']
-        self.location_type_blacklist  = config['contact_tracing_manual']['location_type_blacklist']
+                                         config['relevant_activities']}
+        self.prob_do_recommendation   = config['prob_do_recommendation']
+        self.location_type_blacklist  = config['location_type_blacklist']
 
         self.daily_notification_count = 0
-        scale_factor = config['n'] / sum(config['age_distribution'])
+        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
         self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
 
         self.activity_manager         = state.activity_manager
@@ -110,17 +110,17 @@ class ContactTracingApp(Intervention):
     def __init__(self, prng, config, clock, bus, state):
         super().__init__(prng, config, clock, bus)
 
-        self.app_prevalence              = config['contact_tracing_app']['app_prevalence']
-        self.exposure_by_day             = deque([], config['contact_tracing_app']['tracing_time_window_days'])
-        self.duration_wgt                = config['contact_tracing_app']['duration_wgt']
-        self.attenuation_wgt             = config['contact_tracing_app']['attenuation_wgt']
-        self.days_since_last_expsr_wgt   = config['contact_tracing_app']['days_since_last_expsr_wgt']
-        self.trans_risk_level_base_case  = config['contact_tracing_app']['trans_risk_level_base_case']
-        self.trans_risk_threshold        = config['contact_tracing_app']['trans_risk_threshold']
-        self.time_at_risk_threshold_mins = config['contact_tracing_app']['time_at_risk_threshold_mins']
-        self.av_risk_mins                = config['contact_tracing_app']['av_risk_mins']
-        self.prob_do_recommendation      = config['contact_tracing_app']['prob_do_recommendation']
-        self.location_type_blacklist     = self.config['contact_tracing_app']['location_blacklist']
+        self.app_prevalence              = config['app_prevalence']
+        self.exposure_by_day             = deque([], config['tracing_time_window_days'])
+        self.duration_wgt                = config['duration_wgt']
+        self.attenuation_wgt             = config['attenuation_wgt']
+        self.days_since_last_expsr_wgt   = config['days_since_last_expsr_wgt']
+        self.trans_risk_level_base_case  = config['trans_risk_level_base_case']
+        self.trans_risk_threshold        = config['trans_risk_threshold']
+        self.time_at_risk_threshold_mins = config['time_at_risk_threshold_mins']
+        self.av_risk_mins                = config['av_risk_mins']
+        self.prob_do_recommendation      = config['prob_do_recommendation']
+        self.location_type_blacklist     = self.config['location_blacklist']
 
         self.agents_with_app             = []
         self.current_day_contacts        = {}
