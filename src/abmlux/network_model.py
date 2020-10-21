@@ -2,13 +2,12 @@
 
 import math
 import copy
-import numpy as np
-from collections import defaultdict
 import logging
+from collections import defaultdict
+import numpy as np
 
 from tqdm import tqdm
 from scipy.spatial import KDTree
-from openpyxl import load_workbook
 
 from .random_tools import (multinoulli, multinoulli_dict, random_choices, random_sample,
                            random_shuffle, random_randrange_interval)
@@ -192,12 +191,11 @@ def do_activity_from_home(activity_manager, occupancy, activity_type):
         for agent in occupancy[location]:
             agent.add_activity_location(activity_manager.as_int(activity_type), location)
 
-def make_distribution(config, motive, country_origin, country_destination,
-                            number_of_bins, bin_width):
+def make_distribution(motive, country_origin, country_destination, number_of_bins, bin_width):
     """For given country  of origin, country of destination and motive, this creates a probability
     distribution over ranges of distances."""
 
-    log.info("Generating distance distribution...")
+    log.debug("Generating distance distribution...")
 
     actsheet = np.genfromtxt("Scenarios/Luxembourg/Lux Mobil.csv", dtype=str, delimiter=",")
 
@@ -211,7 +209,7 @@ def make_distribution(config, motive, country_origin, country_destination,
     distance_distribution = {}
     for bin_num in range(number_of_bins):
         distance_distribution[range(bin_width*bin_num,bin_width*(bin_num+1))] = 0
-    for sheet_row in tqdm(range(1,max_row)):
+    for sheet_row in range(1,max_row):
         motive_sample = actsheet[sheet_row][0]
         country_origin_sample = actsheet[sheet_row][1]
         country_destination_sample = actsheet[sheet_row][2]
@@ -221,7 +219,7 @@ def make_distribution(config, motive, country_origin, country_destination,
             distance_str = actsheet[sheet_row][3]
             if distance_str != "Na":
                 distance = float(distance_str)
-                if (distance < number_of_bins*bin_width):
+                if distance < number_of_bins*bin_width:
                     weight = float(actsheet[sheet_row][4])
                     distance_distribution[range(int((distance//bin_width)*bin_width),
                             int(((distance//bin_width)+1)*bin_width))] += round(weight)
@@ -295,7 +293,7 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
     # These determine the probability of an agent travelling a distance to work
     work_dist_dict = {}
     for country in origin_country_dict:
-        work_dist_dict[country] = make_distribution(config, activity_dict[work_activity_type],
+        work_dist_dict[country] = make_distribution(activity_dict[work_activity_type],
                                                     origin_country_dict[country],
                                                     destination_country,
                                                     number_of_bins[country], bin_width[country])
@@ -325,7 +323,7 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
     for border_country in occupancy_border_countries:
         for agent in tqdm(occupancy_border_countries[border_country]):
             # Here each agent gets a sample from which to choose
-            work_locations_sample = random_sample(prng, wrkplaces, k = min(sample_size, len(wrkplaces)))
+            work_locations_sample = random_sample(prng,wrkplaces,k=min(sample_size, len(wrkplaces)))
             weights_for_agent = {}
             for location in work_locations_sample:
                 dist_m = euclidean_distance(border_country.coord, location.coord)
@@ -354,7 +352,7 @@ def assign_locations_by_distance(prng, network, config, activity_manager, activi
 
     vst_locs = network.locations_for_types(activity_manager.get_location_types(activity_type))
     # This determines the probability of an agent travelling a distance for a house visit
-    dist_dict = make_distribution(config, activity_dict[activity_type], 'Luxembourg', 'Luxembourg',
+    dist_dict = make_distribution(activity_dict[activity_type], 'Luxembourg', 'Luxembourg',
                                   number_of_bins['Luxembourg'], bin_width['Luxembourg'])
     log.debug("Assigning locations to house occupants...")
     for house in tqdm(occupancy_houses):
@@ -391,7 +389,8 @@ def assign_locations_by_random(prng, network, config, activity_manager, activity
     log.debug("Assigning locations by random to house occupants...")
     for house in tqdm(occupancy_houses):
         for agent in occupancy_houses[house]:
-            venues_sample = random_sample(prng, venues, k=min(len(venues), num_can_visit[activity_type]))
+            venues_sample = random_sample(prng, venues, k=min(len(venues),
+                                          num_can_visit[activity_type]))
             agent.add_activity_location(activity_manager.as_int(activity_type), venues_sample)
     log.debug("Assigning locations by random to border country occupants...")
     do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
@@ -477,7 +476,7 @@ def assign_cars(network, activity_manager, car_activity_type, car_location_type,
                 occupancy_carehomes, occupancy_border_countries):
     """Assign a car to each house. All occupants of a house use the same car."""
 
-    log.info("Assigning car location for activity %s...", car_activity_type)
+    log.info("Assigning car locations...")
 
     log.debug("Assigning car to house occupants...")
     for house in tqdm(occupancy_houses):

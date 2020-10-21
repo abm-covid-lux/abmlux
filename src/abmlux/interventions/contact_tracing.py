@@ -36,11 +36,10 @@ class ContactTracingManual(Intervention):
         scale_factor = config['n'] / sum(config['age_distribution'])
         self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
 
-        self.regular_locations_dict  = {}
-        self.activity_manager        = state.activity_manager
+        self.activity_manager         = state.activity_manager
 
         # Keep state on who has been colocated with whom
-        self.contacts_archive       = deque(maxlen=self.tracing_time_window_days)
+        self.contacts_archive         = deque(maxlen=self.tracing_time_window_days)
         self.contacts_archive.appendleft(defaultdict(set))
 
         # Listen for interesting things
