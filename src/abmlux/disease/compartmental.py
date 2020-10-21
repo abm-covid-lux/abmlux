@@ -20,7 +20,7 @@ class CompartmentalModel(DiseaseModel):
         self.prng                       = prng
         self.infection_probabilities    = config['infection_probabilities_per_tick']
         self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
-        self.prob_do_recommendation     = congif['personal_protective_measures']['prob_do_recommendation']
+        self.prob_do_recommendation     = config['personal_protective_measures']['prob_do_recommendation']
         self.ppm_coeff                  = config['personal_protective_measures']['ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
         self.contagious_states          = set(config['contagious_states'])
