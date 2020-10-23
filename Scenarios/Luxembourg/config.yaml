@@ -478,6 +478,8 @@ activity_locations_by_random:
 # Which activies are assigned locations using a KDTree, with only one such location is assigned to
 # each agent:
 activity_locations_by_proximity: [School, Medical, Place of Worship, Indoor Sport]
+# Locations assigned by proximity are set to the agent's home if their age is below min_age:
+min_age: 5
 # For each of the countries listed below, a probability distribution is built on the length of trips
 # between that country and the country being simulated. This discrete probability distribution takes
 # the form of a distribution and is derived from data. The parameters below determine, for country
