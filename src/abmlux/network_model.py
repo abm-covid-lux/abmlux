@@ -397,7 +397,7 @@ def assign_locations_by_random(prng, network, config, activity_manager, activity
     log.debug("Assigning locations by random to carehome occupants...")
     do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
-def assign_locations_by_proximity(prng, network, activity_manager, activity_type, occupancy_houses,
+def assign_locations_by_proximity(prng, network, config, activity_manager, activity_type, occupancy_houses,
                                   occupancy_carehomes, occupancy_border_countries):
     """For the location type given, select nearby houses and assign all occupants to
     attend this location.  If the location is full, move to the next nearby location, etc."""
@@ -414,6 +414,8 @@ def assign_locations_by_proximity(prng, network, activity_manager, activity_type
     log.debug("Assigning proximate locations to house occupants...")
     log.debug("Finding people to perform activity: %s", activity_type)
     log.debug("Location types: %s", activity_manager.get_location_types(activity_type))
+
+    min_age = config['min_age']
 
     # Ensure we have at least one location of this type
     locations = network.locations_for_types(activity_manager.get_location_types(activity_type))
@@ -443,10 +445,14 @@ def assign_locations_by_proximity(prng, network, activity_manager, activity_type
             closest_locations = [x for x in closest_locations if num_houses[x] < max_homes]
             knn *= 2
         closest_location = closest_locations[0]
-        # Add all occupants of this house to the location
+        # Add all occupants of this house to the location, unless they are under age
         num_houses[closest_location] += 1
         for occupant in occupancy_houses[house]:
-            occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
+            if occupant.age >= min_age:
+                occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
+            else:
+                occupant.add_activity_location(activity_manager.as_int(activity_type), house)
+
     log.debug("Assigning proximate locations to border country occupants...")
     do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
     log.debug("Assigning proximate locations to carehome occupants...")
@@ -521,7 +527,7 @@ def build_network_model(prng, config, density_map):
                                    occupancy_border_countries)
     # Assignments of locations by proximity
     for activity_type in config['activity_locations_by_proximity']:
-        assign_locations_by_proximity(prng, network, activity_manager, activity_type,
+        assign_locations_by_proximity(prng, network, config, activity_manager, activity_type,
                                       occupancy_houses, occupancy_carehomes,
                                       occupancy_border_countries)
     # Assignments of outdoors
