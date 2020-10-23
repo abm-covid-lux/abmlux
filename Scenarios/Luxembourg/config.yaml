@@ -10,8 +10,8 @@ random_seed: 345
 # this number and the sum. Note that the true population will be somewhat larger than this number
 # due to the inclusion of border workers (the numbers of which is again calculated using the scale
 # factor).
-n: 16_108
-#n: 1000
+#n: 16_108
+n: 1000
 
 # ######################################### Logging ################################################
 
@@ -585,13 +585,16 @@ disease_model:
   contagious_states: [ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING]
   # Agents in the following states are symptomatic:
   symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
+  # Agents in the following states are contagious but asymptomatic:
+  asymptomatic_states: [ASYMPTOMATIC, PREINFECTED]
   # Agents in the following states will be moved to a hospital:
   hospital_states: [HOSPITALIZING, VENTILATING]
   # Agents in the following states will be moved to a cemetery:
   dead_states: [DEAD]
   # A list of possibile trajectories through the health states is encoded as follows:
   disease_profile_list: [SEAR, SEPIR, SEPID, SEPIHR, SEPIHD, SEPIHVHR, SEPIHVD]
-
+  # The reduction in transmission probability among agents in asymptomatic states:
+  asympt_factor: 0.55
   # For a given age x and step size
   disease_profile_distribution_by_age_step_size: 5
   # the following dictionary provides a probability distribution over the list of disease profiles
@@ -629,7 +632,8 @@ disease_model:
   # How many people are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
   initial_infections: 10
-
+  # How many susceptible people are randomly selected for exposure on midnight each day:
+  random_exposures: 2
   # The probability of other agents sharing a given location catching the pathogen each time tick:
   infection_probabilities_per_tick:
     House:                            0.0007
@@ -855,7 +859,7 @@ interventions:
   # event that an agent would otherwise move to such a location, that move will be cancelled or
   # overridden with the agent being sent home, via the 'quarantine' intervention.
   location_closure:
-    __enabled__: true
+    __enabled__: false
     __type__: location_closure.LocationClosures
     __schedule__:
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -917,7 +921,7 @@ interventions:
   # effect of such measures is represented as a coefficient in the range (0,1] that multiplies the
   # transmission probabilty.
   ppm:
-    __enabled__: true
+    __enabled__: false
     __type__: ppm.PersonalProtectiveMeasures
     __schedule__:
     # Agents attempting to transition to these states will occasionally have the transition
