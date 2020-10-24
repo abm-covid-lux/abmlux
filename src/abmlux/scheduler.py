@@ -1,6 +1,7 @@
 """Responsible for enabling/disabling interventions according to the schedule given."""
 
 import logging
+from collections import defaultdict
 
 log = logging.getLogger("scheduler")
 
@@ -16,7 +17,7 @@ class Scheduler:
         # Hook onto the simulator's clock events.
         #
         # If there are no events, don't even bother registering the callback.  Optimisation!
-        if len(self.actions):
+        if len(self.actions) > 0:
             bus.subscribe("notify.time.tick", self.tick, self)
         else:
             log.info("No schedules given, interventions will be enabled throughout simulation")
@@ -67,7 +68,8 @@ class Scheduler:
         log.info("%i scheduled intervention change events planned", len(events))
 
         # This will keep things indexed by tick as a space-time tradeoff
-        actions = [None] * (events[-1][0] + 1)
+#        actions = [None] * (events[-1][0] + 1)
+        actions = defaultdict(list)
         for tick, intervention, event in events:
             list_of_actions = actions[tick] or []
             if event == 'disable':

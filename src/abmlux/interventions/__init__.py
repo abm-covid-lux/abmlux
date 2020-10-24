@@ -44,4 +44,4 @@ class Intervention:
         This may simply set internal state, or cause the intervention to clean up.
         Interventions may need some time to disable/enable, which is allowed."""
 
-        self.disabled = True
+        self.enabled = False
