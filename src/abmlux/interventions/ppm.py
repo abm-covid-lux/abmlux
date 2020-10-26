@@ -8,12 +8,14 @@ from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("ppm")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class PersonalProtectiveMeasures(Intervention):
     """Models the use of personal protective measures by preventing propagation
     of health change events with a given probability."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.incubating_states = set(config['incubating_states'])
         self.ppm_coeff         = config['ppm_coeff']

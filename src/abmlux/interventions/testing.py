@@ -8,11 +8,13 @@ from abmlux.interventions import Intervention
 
 log = logging.getLogger("testing")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class LargeScaleTesting(Intervention):
     """Randomly select a number of people per day for testing."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.agents_tested_per_day_raw        = config['tests_per_day']
         self.invitation_to_test_booking_delay = \
@@ -49,8 +51,8 @@ class OtherTesting(Intervention):
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.prob_test_symptoms                = config['prob_test_symptoms']
         self.onset_of_symptoms_to_test_booking = \

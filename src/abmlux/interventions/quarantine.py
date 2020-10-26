@@ -8,10 +8,15 @@ from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("quarantine")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class Quarantine(Intervention):
+    """Intervention that applies quarantine rules.
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    Agents are forced to return to certain locations when they request to move."""
+
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.default_duration_days  = int(self.clock.days_to_ticks(config['default_duration_days']))
         self.early_end_days         = int(self.clock.days_to_ticks(config['negative_test_result_to_end_quarantine_days']))
@@ -40,7 +45,8 @@ class Quarantine(Intervention):
         for agent in self.agents_to_add:
             if agent not in self.agents_in_quarantine:
                 self.agents_in_quarantine.add(agent)
-                self.end_quarantine_events.add("request.quarantine.stop", self.default_duration_days, agent)
+                self.end_quarantine_events.add("request.quarantine.stop", \
+                                               self.default_duration_days, agent)
                 self.bus.publish("notify.quarantine.start", agent)
         self.agents_to_add = set()
 

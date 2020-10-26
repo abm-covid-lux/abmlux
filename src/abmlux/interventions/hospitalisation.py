@@ -7,12 +7,14 @@ import abmlux.random_tools as rt
 
 log = logging.getLogger("hospitalisation")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class Hospitalisation(Intervention):
     """Hospitalise agents who are in certain health states, and move agents in certain health
     states into cemeteries."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.dead_states            = config['dead_states']
         self.hospital_states        = config['hospital_states']

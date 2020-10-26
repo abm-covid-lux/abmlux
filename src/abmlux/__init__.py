@@ -78,17 +78,16 @@ def intervention_setup(state):
     intervention_schedules = {}
     for intervention_id, intervention_config in state.config["interventions"].items():
 
-        # Skip if disabled
-        if '__enabled__' in intervention_config and not intervention_config['__enabled__']:
-            continue
-
         # Extract keys from the intervention config
         intervention_class    = intervention_config['__type__']
 
         log.info("Creating intervention %s of type %s...", intervention_id, intervention_class)
+        initial_enabled = False if '__enabled__' in intervention_config \
+                                                 and not intervention_config['__enabled__']\
+                                else True
         new_intervention = instantiate_class("abmlux.interventions", intervention_class, \
                                              state.prng, intervention_config, \
-                                             state.clock, state.bus, state)
+                                             state.clock, state.bus, state, initial_enabled)
 
         interventions[intervention_id]           = new_intervention
         intervention_schedules[new_intervention] = intervention_config['__schedule__']

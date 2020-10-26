@@ -8,11 +8,13 @@ from abmlux.interventions import Intervention
 
 log = logging.getLogger("laboratory")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class Laboratory(Intervention):
     """A testing laboratory."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.prob_false_positive = config['prob_false_positive']
         self.prob_false_negative = config['prob_false_negative']
@@ -55,8 +57,8 @@ class TestBooking(Intervention):
     Represents the process of booking a test, where testing may be limited and not available
     immediately."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         # Time between selection for test and the time at which the test will take place
         self.time_to_arrange_test_no_symptoms = \

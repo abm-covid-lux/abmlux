@@ -9,6 +9,8 @@ import abmlux.random_tools as random_tools
 
 log = logging.getLogger("contact_tracing")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class ContactTracingManual(Intervention):
     """The intervention ContactTracingManual refers to the manual tracing of contacts of agents with
     postive test results. The maximum number of positive agents whose contacts can be traced is
@@ -22,8 +24,8 @@ class ContactTracingManual(Intervention):
     and quarantine in the meantime. With a certain probability, agents do not follow this advice and
     continue as normal."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.max_per_day_raw          = config['max_per_day']
         self.tracing_time_window_days = config['tracing_time_window_days']
@@ -115,8 +117,8 @@ class ContactTracingApp(Intervention):
     which is the official COVID-19 exposure notification app developed for Germany. The window of
     time over which contacts are considered is specified."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         self.app_prevalence              = config['app_prevalence']
         self.exposure_by_day             = deque([], config['tracing_time_window_days'])

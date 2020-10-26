@@ -683,10 +683,10 @@ interventions:
 
   # Moves agents to locations when they are in certain health states
   basic_hospitalisation:
-    # Switch this to false to quickly disable the intervention
-    __enabled__: true
     # This special key defines the class to use.
     __type__: hospitalisation.Hospitalisation
+    # Starting state of the intervention
+    __enabled__: true
     # This special key defines when to disable/enable the intervention
     __schedule__: # TODO
     # Things below this line are passed to the intervention as config
@@ -704,10 +704,9 @@ interventions:
   # The intervention refers to a system that distributes
   # invitations to test, across the population, according to a certain algorithm. 
   large_scale_testing:
-    __enabled__: true
     __type__: testing.LargeScaleTesting
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       18th May 2020: enable
     # The number of agents selected uniformly at random for testing each day:
     tests_per_day: 5000
@@ -719,8 +718,8 @@ interventions:
   # The intervention 'test_booking' simply refer to the system that books tests for agents, should
   # they request a booking.
   test_booking:
-    __enabled__: true
     __type__: laboratory.TestBooking
+    __enabled__: true
     __schedule__:
 
     # The time taken between the booking of a test and the time at which the test takes place, in the
@@ -738,8 +737,8 @@ interventions:
   # in the case of a false postive, while if the agent is not either incubating or contagious with the
   # virus, then the test returns a negative results, except in the case of a false negative.
   test_lab:
-    __enabled__: true
     __type__: laboratory.Laboratory
+    __enabled__: true
     __schedule__:
     # The probability of a false positive:
     prob_false_positive: 0.01
@@ -759,8 +758,8 @@ interventions:
   # is the official COVID-19 exposure notification app developed for Germany. The window of time over
   # which contacts are considered is specified.
   contact_tracing_app:
-    __enabled__: false
     __type__: contact_tracing.ContactTracingApp
+    __enabled__: false
     __schedule__:
     # Proportion of population who have the app:
     app_prevalence: 0.2
@@ -799,10 +798,9 @@ interventions:
   # agents traced though this proceedure are instructed to get tested and quarantine in the meantime.
   # With a certain probability, agents do not follow this advice and continue as normal.
   contact_tracing_manual:
-    __enabled__: false
     __type__: contact_tracing.ContactTracingManual
+    __enabled__: false
     __schedule__:
-      0: disable
       200: enable
       1000: enable
 
@@ -830,8 +828,8 @@ interventions:
   # intervention 'quarantine' is the tool that enforces and lifts such quarantines. Requests for
   # quarantines are made by other interventions.
   quarantine_at_home:
-    __enabled__: true
     __type__: quarantine.Quarantine
+    __enabled__: true
     __schedule__:
 
     # If this is true, disabling quarantine immediately allows people to change
@@ -858,10 +856,9 @@ interventions:
   # overridden with the agent being sent home.
 
   location_closure_house:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: true
     __schedule__:
-      23rd February 2020: disable
       15th March 2020: enable
       11th May 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -875,10 +872,9 @@ interventions:
     home_activity_type: House
 
   location_closure_carehome:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       15th March 2020: enable
       20th May 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -892,10 +888,9 @@ interventions:
     home_activity_type: House
 
   location_closure_ow_1:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       19th March 2020: enable
       24th June 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -913,10 +908,9 @@ interventions:
     home_activity_type: House
 
   location_closure_ow_2:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       19th March 2020: enable
       15th September 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -937,10 +931,9 @@ interventions:
     home_activity_type: House
 
   location_closure_ow_construction:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       19th March 2020: enable
       20th April 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -954,10 +947,9 @@ interventions:
     home_activity_type: House
 
   location_closure_ow_entertainment:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       15th March 2020: enable
       29th May 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -971,10 +963,9 @@ interventions:
     home_activity_type: House
 
   location_closure_leisure:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       15th March 2020: enable
       29th May 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
@@ -991,12 +982,11 @@ interventions:
     home_activity_type: House
 
   location_closure_pow:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       14th March 2020: enable
-      29th May 2020: disable      
+      29th May 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
     # Whether or not a location is closed may depend on the activity in question (for example, visits
     # to care homes may be prohibited while residents and workers continue to be able to access the
@@ -1008,10 +998,9 @@ interventions:
     home_activity_type: House
 
   location_closure_school:
-    __enabled__: true
     __type__: location_closure.LocationClosures
+    __enabled__: false
     __schedule__:
-      23rd February 2020: disable
       16th March 2020: enable
       11th May 2020: disable
       16th July 2020: enable
@@ -1030,8 +1019,8 @@ interventions:
   # been directed to do so by any of the other interventions. Chief among these are the situations in
   # which an agent voluntarily books a test having developed symptoms.
   other_testing:
-    __enabled__: false
     __type__: testing.OtherTesting
+    __enabled__: false
     __schedule__:
     # The probability that an agent books a test at the moment they develop symptoms. This corresponds
     # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
@@ -1048,8 +1037,8 @@ interventions:
   # effect of such measures is represented as a coefficient in the range (0,1] that multiplies the
   # transmission probabilty.
   ppm:
-    __enabled__: false
     __type__: ppm.PersonalProtectiveMeasures
+    __enabled__: false
     __schedule__:
     # Agents attempting to transition to these states will occasionally have the transition
     # blocked, representing PPM working

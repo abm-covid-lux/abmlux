@@ -16,7 +16,7 @@ class Intervention:
     Interventions are notified of simulation state on every tick, allowing them to
     build internal state and return a list of activity changes in order to affect the simulation"""
 
-    def __init__(self, prng, config, clock, bus):
+    def __init__(self, prng, config, clock, bus, init_enabled):
 
         self.prng   = prng
         self.config = config
@@ -24,7 +24,7 @@ class Intervention:
         self.bus    = bus
 
         # Updated to say whether the intervention is enabled or not at the current time
-        self.enabled = True
+        self.enabled = init_enabled == True
 
     def initialise_agents(self, network):
         """Initialise internal state for this intervention, potentially
