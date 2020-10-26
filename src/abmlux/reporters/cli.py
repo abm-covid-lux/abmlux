@@ -39,18 +39,3 @@ class TQDM(Reporter):
 
     def stop(self, sim):
         self.pbar.close()
-
-
-class DailyChangeSummary(Reporter):
-    """Prints a summary of the changes in the model at midnight."""
-
-    def __init__(self, bus):
-
-        bus.subscribe("notify.time.midnight", self.summarise, self)
-
-
-    def summarise(self, clock, t):
-        """Print a summary and clear counters for the next day"""
-
-        # TODO
-        print("Midnight.  Printing report.")
