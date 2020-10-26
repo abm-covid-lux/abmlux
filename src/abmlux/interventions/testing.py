@@ -8,17 +8,19 @@ from abmlux.interventions import Intervention
 
 log = logging.getLogger("testing")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class LargeScaleTesting(Intervention):
     """Randomly select a number of people per day for testing."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.agents_tested_per_day_raw        = config['lst']['tests_per_day']
+        self.agents_tested_per_day_raw        = config['tests_per_day']
         self.invitation_to_test_booking_delay = \
-            int(clock.days_to_ticks(config['lst']['invitation_to_test_booking_days']))
+            int(clock.days_to_ticks(config['invitation_to_test_booking_days']))
 
-        scale_factor = config['n'] / sum(config['age_distribution'])
+        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
         self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
 
         self.test_booking_events = DeferredEventPool(bus, clock)
@@ -34,6 +36,9 @@ class LargeScaleTesting(Intervention):
         This is equivalent to agents being notified that they should book, but not doing so
         immediately."""
 
+        if not self.enabled:
+            return
+
         # Invite for testing by random selection:
         test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
                                                         self.agents_tested_per_day)
@@ -46,13 +51,12 @@ class OtherTesting(Intervention):
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.prob_test_symptoms                = config['other_testing']['prob_test_symptoms']
+        self.prob_test_symptoms                = config['prob_test_symptoms']
         self.onset_of_symptoms_to_test_booking = \
-            int(clock.days_to_ticks(config['other_testing']\
-                                    ['onset_of_symptoms_to_test_booking_days']))
+            int(clock.days_to_ticks(config['onset_of_symptoms_to_test_booking_days']))
 
         self.symptomatic_states  = set(config['symptomatic_states'])
         self.test_booking_events = DeferredEventPool(bus, clock)
@@ -64,6 +68,9 @@ class OtherTesting(Intervention):
         """When an agent changes health state to a symptomatic state, there is a certain chance
         that they book a test.  Booking a test takes time, so this method queues up the test
         booking event."""
+
+        if not self.enabled:
+            return
 
         # If no change, skip
         if old_health == agent.health:

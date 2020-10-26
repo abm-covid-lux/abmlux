@@ -7,23 +7,28 @@ from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("location_closures")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class LocationClosures(Intervention):
     """Close a given set of locations.
 
     In response to a request to change location, this will consume the event and re-publish
     a request to change location to move home instead."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.location_closures  = config['location_closures']['locations']
-        self.home_activity_type = state.activity_manager.as_int(\
-            config['location_closures']['home_activity_type'])
+        self.location_closures  = config['locations']
+        self.home_activity_type = state.activity_manager.as_int(config['home_activity_type'])
 
         self.bus.subscribe("request.agent.location", self.handle_location_change, self)
 
     def handle_location_change(self, agent, new_location):
         """If the new location is in the blacklist, send the agent home."""
+
+        # If disabled, don't intervene
+        if not self.enabled:
+            return
 
         if new_location.typ in self.location_closures:
 

@@ -8,6 +8,7 @@ framework."""
 import logging
 from collections import defaultdict
 
+from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
 
 log = logging.getLogger('sim')
@@ -29,7 +30,7 @@ class Simulator:
         self.locations     = state.network.locations
         self.agents        = state.network.agents
         self.disease       = state.disease
-        self.interventions = state.interventions
+        self.interventions = state.interventions.keys()
 
         # Read-only config
         self.reporters               = reporters
@@ -42,6 +43,9 @@ class Simulator:
         # For reporting
         self.agents_by_health_state = {h: {a for a in self.agents if a.health == h}
                                        for h in self.disease.states}
+
+        # For manipulating interventions
+        self.scheduler = Scheduler(self.clock, state.intervention_schedules)
 
     def record_location_change(self, agent, new_location):
         """Record request.agent.location events, placing them on a queue to be enacted
@@ -96,14 +100,13 @@ class Simulator:
         log.info("Creating health state indices...")
         self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
                                               for h in self.disease.states}
-        #self.agent_counts_by_health = {h: {l: len([a for a in self.attendees[l] if a.health == h])
-        #                                   for l in self.locations}
-        #                               for h in self.disease.states}
         # /caches
-
 
         update_notifications = []
         for t in self.clock:
+
+            # Enable/disable interventions
+            self.scheduler.tick(t)
 
             # Send out notifications of what has changed since last tick
             for topic, *params in update_notifications:

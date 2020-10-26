@@ -154,6 +154,17 @@ class SimClock:
         """Convert a number of simulation ticks to a timedelta object"""
         return timedelta(seconds=ticks * self.tick_length_s)
 
+    def datetime_to_ticks(self, time):
+        # TODO: write tests for this method
+        """Convert an actual datetime to ticks, based on the epoch of the clock.
+
+        time May be a datetime object or a string representing a datetime, parsed using
+        dateutils.parser
+        """
+        if not isinstance(time, datetime):
+            time = dateparser.parse(time)
+
+        return self.timedelta_to_ticks(time - self.epoch)
 
 
 class DeferredEventPool:

@@ -8,17 +8,19 @@ from abmlux.interventions import Intervention
 
 log = logging.getLogger("laboratory")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class Laboratory(Intervention):
     """A testing laboratory."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.prob_false_positive = config['test_sampling']['prob_false_positive']
-        self.prob_false_negative = config['test_sampling']['prob_false_negative']
+        self.prob_false_positive = config['prob_false_positive']
+        self.prob_false_negative = config['prob_false_negative']
 
         self.do_test_to_test_results_ticks = \
-            int(clock.days_to_ticks(config['test_sampling']['do_test_to_test_results_days']))
+            int(clock.days_to_ticks(config['do_test_to_test_results_days']))
         self.infected_states = \
             set(config['incubating_states']).union(set(config['contagious_states']))
 
@@ -33,6 +35,10 @@ class Laboratory(Intervention):
         and then queueing up a result to be sent out after a set amount of time.  This delay
         represents the time taken to complete the test itself.
         """
+
+        # If disabled, don't start new tests.  Tests underway will still complete
+        if not self.enabled:
+            return
 
         test_result = False
         if agent.health in self.infected_states:
@@ -51,16 +57,14 @@ class TestBooking(Intervention):
     Represents the process of booking a test, where testing may be limited and not available
     immediately."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
         # Time between selection for test and the time at which the test will take place
         self.time_to_arrange_test_no_symptoms = \
-            int(clock.days_to_ticks(config['test_booking']\
-                                    ['test_booking_to_test_sample_days_no_symptoms']))
+            int(clock.days_to_ticks(config['test_booking_to_test_sample_days_no_symptoms']))
         self.time_to_arrange_test_symptoms    = \
-            int(clock.days_to_ticks(config['test_booking']\
-                                    ['test_booking_to_test_sample_days_symptoms']))
+            int(clock.days_to_ticks(config['test_booking_to_test_sample_days_symptoms']))
 
         self.symptomatic_states   = set(config['symptomatic_states'])
         self.test_events          = DeferredEventPool(bus, clock)
@@ -71,6 +75,10 @@ class TestBooking(Intervention):
     def handle_book_test(self, agent):
         """Someone has been selected for testing.  Insert a delay between the booking of the test
         and the test"""
+
+        # If disabled, prevent new bookings.  Old bookings will still complete
+        if not self.enabled:
+            return
 
         if agent not in self.agents_awaiting_test:
             if agent.health in self.symptomatic_states:

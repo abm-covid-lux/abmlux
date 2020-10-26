@@ -9,6 +9,8 @@ import abmlux.random_tools as random_tools
 
 log = logging.getLogger("contact_tracing")
 
+# This file uses callbacks and interfaces which make this hit many false positives
+#pylint: disable=unused-argument
 class ContactTracingManual(Intervention):
     """The intervention ContactTracingManual refers to the manual tracing of contacts of agents with
     postive test results. The maximum number of positive agents whose contacts can be traced is
@@ -22,18 +24,18 @@ class ContactTracingManual(Intervention):
     and quarantine in the meantime. With a certain probability, agents do not follow this advice and
     continue as normal."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.max_per_day_raw          = config['contact_tracing_manual']['max_per_day']
-        self.tracing_time_window_days = config['contact_tracing_manual']['tracing_time_window_days']
+        self.max_per_day_raw          = config['max_per_day']
+        self.tracing_time_window_days = config['tracing_time_window_days']
         self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
-                                         config['contact_tracing_manual']['relevant_activities']}
-        self.prob_do_recommendation   = config['contact_tracing_manual']['prob_do_recommendation']
-        self.location_type_blacklist  = config['contact_tracing_manual']['location_type_blacklist']
+                                         config['relevant_activities']}
+        self.prob_do_recommendation   = config['prob_do_recommendation']
+        self.location_type_blacklist  = config['location_type_blacklist']
 
         self.daily_notification_count = 0
-        scale_factor = config['n'] / sum(config['age_distribution'])
+        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
         self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
 
         self.activity_manager         = state.activity_manager
@@ -54,6 +56,10 @@ class ContactTracingManual(Intervention):
     def notify_if_testing_positive(self, agent, result):
         """If the contact tracing system is not overcapacity, then agents newly testing positive
         will have their contacts selected for testing and quarantine."""
+
+        # If disabled, stop this mechanism
+        if not self.enabled:
+            return
 
         # We can only respond to this many positive tests per day
         if self.daily_notification_count > self.max_per_day:
@@ -83,6 +89,10 @@ class ContactTracingManual(Intervention):
 
     def handle_location_change(self, agent, old_location):
 
+        # If disabled, stop counting
+        if not self.enabled:
+            return
+
         # Don't record colocation in any blacklisted locations
         if agent.current_location.typ in self.location_type_blacklist:
             return
@@ -107,20 +117,20 @@ class ContactTracingApp(Intervention):
     which is the official COVID-19 exposure notification app developed for Germany. The window of
     time over which contacts are considered is specified."""
 
-    def __init__(self, prng, config, clock, bus, state):
-        super().__init__(prng, config, clock, bus)
+    def __init__(self, prng, config, clock, bus, state, init_enabled):
+        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.app_prevalence              = config['contact_tracing_app']['app_prevalence']
-        self.exposure_by_day             = deque([], config['contact_tracing_app']['tracing_time_window_days'])
-        self.duration_wgt                = config['contact_tracing_app']['duration_wgt']
-        self.attenuation_wgt             = config['contact_tracing_app']['attenuation_wgt']
-        self.days_since_last_expsr_wgt   = config['contact_tracing_app']['days_since_last_expsr_wgt']
-        self.trans_risk_level_base_case  = config['contact_tracing_app']['trans_risk_level_base_case']
-        self.trans_risk_threshold        = config['contact_tracing_app']['trans_risk_threshold']
-        self.time_at_risk_threshold_mins = config['contact_tracing_app']['time_at_risk_threshold_mins']
-        self.av_risk_mins                = config['contact_tracing_app']['av_risk_mins']
-        self.prob_do_recommendation      = config['contact_tracing_app']['prob_do_recommendation']
-        self.location_type_blacklist     = self.config['contact_tracing_app']['location_blacklist']
+        self.app_prevalence              = config['app_prevalence']
+        self.exposure_by_day             = deque([], config['tracing_time_window_days'])
+        self.duration_wgt                = config['duration_wgt']
+        self.attenuation_wgt             = config['attenuation_wgt']
+        self.days_since_last_expsr_wgt   = config['days_since_last_expsr_wgt']
+        self.trans_risk_level_base_case  = config['trans_risk_level_base_case']
+        self.trans_risk_threshold        = config['trans_risk_threshold']
+        self.time_at_risk_threshold_mins = config['time_at_risk_threshold_mins']
+        self.av_risk_mins                = config['av_risk_mins']
+        self.prob_do_recommendation      = config['prob_do_recommendation']
+        self.location_type_blacklist     = self.config['location_blacklist']
 
         self.agents_with_app             = []
         self.current_day_contacts        = {}
@@ -138,6 +148,11 @@ class ContactTracingApp(Intervention):
 
     def handle_test_result(self, agent, result):
         #print(f"CTA: {agent} tested {result}")
+
+        # If disabled, stop this mechansim
+        if not self.enabled:
+            return
+
         if result and agent in self.agents_with_app:
             self.current_day_notifications.add(agent)
 
@@ -167,6 +182,10 @@ class ContactTracingApp(Intervention):
         self.current_day_notifications  = set()
 
     def tick(self, clock, t):
+
+        # If disabled, stop this mechansim
+        if not self.enabled:
+            return
 
         # Update today's records with the latest, and store diagnosis keys
         self._update_contact_list(self.sim.attendees)

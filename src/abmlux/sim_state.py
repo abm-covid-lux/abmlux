@@ -60,6 +60,7 @@ class SimulationState:
         self.location_model         = None
         self.disease                = None
         self.interventions          = None
+        self.intervention_schedules = None
 
     def set_phase_complete(self, phase):
         """Reports that a phase has been completed"""

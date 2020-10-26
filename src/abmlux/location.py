@@ -18,7 +18,6 @@ class Location:
         Parameters:
           typ (str): The type of location, as a string
           coord (tuple):2-tuple with x, y grid coordinates in ETRS89 format
-          attendees (set):Set of Agent objects showing who is here
         """
         self.uuid      = uuid.uuid4().hex
         self.typ       = typ

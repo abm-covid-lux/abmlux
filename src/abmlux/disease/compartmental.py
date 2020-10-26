@@ -18,13 +18,17 @@ class CompartmentalModel(DiseaseModel):
         super().__init__(states)
 
         self.prng                       = prng
-        self.infection_probabilities    = config['infection_probabilities_per_tick']
+        self.inf_probs                  = config['infection_probabilities_per_tick']
         self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
         self.prob_do_recommendation     = config['personal_protective_measures']['prob_do_recommendation']
         self.ppm_coeff                  = config['personal_protective_measures']['ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
+        self.random_exposures           = config['random_exposures']
         self.contagious_states          = set(config['contagious_states'])
+        self.symptomatic_states         = set(config['symptomatic_states'])
+        self.asymptomatic_states        = set(config['asymptomatic_states'])
         self.incubating_states          = set(config['incubating_states'])
+        self.asympt_factor              = config['asympt_factor']
         self.durations_by_profile       = config['durations_by_profile']
         self.health_state_change_time   = {}
         self.disease_profile_index_dict = {}
@@ -51,6 +55,7 @@ class CompartmentalModel(DiseaseModel):
         self.bus.subscribe("notify.time.start_simulation", self.initialise_agents, self)
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
+        self.bus.subscribe("notify.time.midnight", self.random_midnight_exposures, self)
 
     def initialise_agents(self, sim):
         """Assign a disease profile and durations to each agent and infect some people at random
@@ -88,6 +93,7 @@ class CompartmentalModel(DiseaseModel):
         # The disease profile index dictionary keeps track of the progress each agent has made
         # through their disease profile. We start by setting the index of all agents to 0.
         for agent in agents:
+            self.health_state_change_time[agent] = 0
             self.disease_profile_index_dict[agent] = 0
             agent.health = self.disease_profile_dict[agent][0]
 
@@ -98,10 +104,13 @@ class CompartmentalModel(DiseaseModel):
             self.disease_profile_index_dict[agent] = 1
             agent.health = self.disease_profile_dict[agent][1]
 
-        # Initialize the health state change time dictionary
-        log.info("Updating health state index...")
-        for agent in agents:
-            self.health_state_change_time[agent] = 0
+    def random_midnight_exposures(self, clock, t):
+        """At midnight, some suceptible agents are randomly exposed"""
+
+        suceptible_agents    = self.sim.agents_by_health_state['SUSCEPTIBLE']
+        expose_agents_random = random_sample(self.prng, suceptible_agents, min(self.random_exposures,len(suceptible_agents)))
+        for agent in expose_agents_random:
+            self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
 
     def get_health_transitions(self, clock, t):
         """Updates the health state of agents"""
@@ -117,9 +126,8 @@ class CompartmentalModel(DiseaseModel):
 
         # Compute for each location the probability of catching the virus during this tick
         # TODO: count this as states change, like sim.agent_counts_by_health
-        contagious_count_dict = {l: len([a for a in self.sim.attendees[l]
-                                         if a.health in self.contagious_states])
-                                 for l in self.sim.locations}
+        contagious_count_dict = {l: (len([a for a in self.sim.attendees[l] if a.health in self.symptomatic_states]),
+                                     len([a for a in self.sim.attendees[l] if a.health in self.asymptomatic_states])) for l in self.sim.locations}
         # If p is the baseline transmission probability, q is the probability of an individual
         # wearing a mask and r is the proportion of virus particles passing through the mask,
         # then the true transmission probability between two individuals, each of which may or
@@ -129,16 +137,15 @@ class CompartmentalModel(DiseaseModel):
         #
         # Moreover q = (probabability an agent wears a mask, given that the agent follows the
         #               rules) * (probability that the agent follows the rules)
-        infection_probability_by_location = {l: 1 - (1-self.infection_probabilities[l.typ]*self.ppm_modifier[l.typ])**c
-                                             for l, c in contagious_count_dict.items() if c > 0}
+        infection_probability_by_location = {l: 1 - (((1-self.inf_probs[l.typ]*self.ppm_modifier[l.typ])**c[0])*((1-self.asympt_factor*self.inf_probs[l.typ]*self.ppm_modifier[l.typ])**c[1]))
+                                             for l, c in contagious_count_dict.items() if c[0]+c[1] > 0}
 
         # Determine which suceptible agents are infected during this tick
         for location, p_infection in infection_probability_by_location.items():
-            susceptible_agents = [agent for agent in self.sim.attendees[location]
-                                  if self.disease_profile_index_dict[agent] == 0]
+            susceptible_agents = [agent for agent in self.sim.attendees[location] if agent.health == 'SUSCEPTIBLE']
             for agent in susceptible_agents:
                 if boolean(self.prng, p_infection):
-                    self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][1])
+                    self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
 
         # Determine which other agents need moving to their next health state
         for agent in self.network.agents:
@@ -151,13 +158,14 @@ class CompartmentalModel(DiseaseModel):
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
                     self.bus.publish("request.agent.health", agent, \
-                        self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
+                         self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
             # pylint: enable=line-too-long
 
 
     def update_health_indices(self, agent, old_health):
         """Update internal counts."""
 
+        # This shouldn't really happen, but if it does then we're not interested
         if old_health == agent.health:
             return
 
