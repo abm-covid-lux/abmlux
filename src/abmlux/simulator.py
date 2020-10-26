@@ -19,7 +19,6 @@ class Simulator:
     def __init__(self, state, reporters):
 
         # -------------------------------------------[ Config ]------------------------------------
-        config                = state.config
         self.state            = state
         self.activity_manager = state.activity_manager
         self.clock            = state.clock
@@ -43,6 +42,9 @@ class Simulator:
         # For reporting
         self.agents_by_health_state = {h: {a for a in self.agents if a.health == h}
                                        for h in self.disease.states}
+
+        # FIXME: remove this centralised index
+        self.attendees = None
 
         # For manipulating interventions
         self.scheduler = Scheduler(self.clock, state.intervention_schedules)

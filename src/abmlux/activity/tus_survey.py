@@ -186,7 +186,8 @@ class TUSMarkovActivityModel(ActivityModel):
 
             # Create a week with most things the same, but with a whole week's worth of activities
             week = DiaryWeek(weekday.identity, weekday.age, weekday.weight,
-                            weekend.daily_routine + weekday.daily_routine * 5 + weekend.daily_routine)
+                             weekend.daily_routine + weekday.daily_routine \
+                             * 5 + weekend.daily_routine)
             weeks.append(week)
 
         return weeks
@@ -195,8 +196,9 @@ class TUSMarkovActivityModel(ActivityModel):
     def _parse_days(self, tus, map_func, tick_length_s):
         """Returns a list of DiaryDay functions built from the TUS data provided.
 
-        The following piece of code constructs the daily routines. This takes into account the fact that
-        diaries appearing in the TUS do not all start at the same time and do not all run for 24 hours.
+        The following piece of code constructs the daily routines. This takes into account the fact
+        that diaries appearing in the TUS do not all start at the same time and do not all run for
+        24 hours.
         This is achieved by first extending the duration of the last activity, to create a 24 hour
         routine, after which the piece of the routine extending beyong the end of the day is
         repositioned to the start of the day. This way, all routines cover a 24 hour period running
@@ -211,7 +213,7 @@ class TUSMarkovActivityModel(ActivityModel):
         Returns:
             days(list):A list of DiaryDay objects.
         """
-        # We use so many variables to be clearer.  This parsing logic is complex but pylint can shut up.
+        # We use so many variables to be clearer in the parsing logic
         # pylint: disable=too-many-locals
 
         days  = []
@@ -219,17 +221,17 @@ class TUSMarkovActivityModel(ActivityModel):
         for date in tqdm(tus['id_jour'].unique()):
             tus_date  = tus.loc[tus['id_jour'] == date]
             durations = [y-x for x, y in
-                        list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
+                         list(zip(tus_date['heuredebmin'], tus_date['heuredebmin'][1:]))]
 
             end_activity = map_func(tus_date.iloc[-1]['loc1_num_f'], tus_date.iloc[-1]['act1b_f'])
             start_time = tus_date.iloc[0]['heuredebmin']
 
             # Build variables for object at 10min resolution
             identity, age, day, weight = [tus_date.iloc[0][x]
-                                        for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
+                                          for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
             daily_routine_tenmin = [end_activity] * start_time \
                         + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
-                                    for i, d in enumerate(durations)]) \
+                                         for i, d in enumerate(durations)]) \
                         + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
 
             # Resample into the clock resolution
@@ -293,8 +295,9 @@ class TUSMarkovActivityModel(ActivityModel):
         #  - Each activity has a W[next activity]
         #  - Each 10 minute slice has a transition matrix between activities
         #
-        activity_transitions = {typ: [SplitTransitionMatrix(self.prng, self.activity_manager.types_as_int())
-                                    for _ in range(week_length)]
+        activity_transitions = {typ: [SplitTransitionMatrix(self.prng,\
+                                                            self.activity_manager.types_as_int())
+                                      for _ in range(week_length)]
                                 for typ in POPULATION_RANGES}
 
         # Do all but the last item, which should loop around
@@ -311,7 +314,8 @@ class TUSMarkovActivityModel(ActivityModel):
                         activity_from = week.weekly_routine[t]
                         activity_to   = week.weekly_routine[next_t]
 
-                        activity_transitions[typ][t].add_weight(activity_from, activity_to, week.weight)
+                        activity_transitions[typ][t].add_weight(activity_from, activity_to,\
+                                                                week.weight)
 
 
         # Debug output
