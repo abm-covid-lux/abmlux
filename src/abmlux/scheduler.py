@@ -9,24 +9,17 @@ log = logging.getLogger("scheduler")
 class Scheduler:
     """Listens to clock events and enables/disables interventions."""
 
-    def __init__(self, clock, bus, intervention_schedules):
+    def __init__(self, clock, intervention_schedules):
 
         # Pre-process intervention schedules into a list
         self.actions = self._pre_process(clock, intervention_schedules)
 
-        # Hook onto the simulator's clock events.
-        #
-        # If there are no events, don't even bother registering the callback.  Optimisation!
-        if len(self.actions) > 0:
-            bus.subscribe("notify.time.tick", self.tick, self)
-        else:
-            log.info("No schedules given, interventions will be enabled throughout simulation")
-
-    def tick(self, clock, t):
+    def tick(self, t):
         """Check to see if we should en/disable any interventions at this time"""
 
         if t in self.actions and self.actions[t] is not None:
             for action in self.actions[t]:
+                log.debug("Scheduled action at t=%i: %s", t, action)
                 action()
 
     def _pre_process(self, clock, intervention_schedules):

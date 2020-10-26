@@ -45,7 +45,7 @@ class Simulator:
                                        for h in self.disease.states}
 
         # For manipulating interventions
-        self.scheduler = Scheduler(self.clock, self.bus, state.intervention_schedules)
+        self.scheduler = Scheduler(self.clock, state.intervention_schedules)
 
     def record_location_change(self, agent, new_location):
         """Record request.agent.location events, placing them on a queue to be enacted
@@ -104,6 +104,9 @@ class Simulator:
 
         update_notifications = []
         for t in self.clock:
+
+            # Enable/disable interventions
+            self.scheduler.tick(t)
 
             # Send out notifications of what has changed since last tick
             for topic, *params in update_notifications:
