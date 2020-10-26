@@ -5,48 +5,52 @@ from datetime import datetime
 
 from tqdm import tqdm
 
-from abmlux.reporter import Reporter
+from abmlux.reporters import Reporter
 
 
 class TQDM(Reporter):
     """Uses TQDM to plot a progress bar"""
 
-    def __init__(self):
-        self.pbar = None
+    def __init__(self, bus):
+
+        self.pbar    = None
+        self.sim     = None
+        self.disease = None
+
+        bus.subscribe("notify.time.start_simulation", self.start, self)
+        bus.subscribe("notify.time.tick", self.iterate, self)
+        bus.subscribe("notify.time.end_simulation", self.stop, self)
 
     def start(self, sim):
-        self.pbar = tqdm(total=sim.clock.max_ticks)
+        self.sim     = sim
+        self.disease = sim.disease
+        self.pbar    = tqdm(total=sim.clock.max_ticks)
 
-    def iterate(self, sim):
+    def iterate(self, clock, t):
         self.pbar.update()
         # TODO: The below summarises the states using a simple str() call.
         #       This is okay, but the disease model provides tools to get a single-letter
         #       representation of the health state, and that should be used instead.
-        desc = ", ".join([f"{str(k)[0]}:{len(v)}" for k, v in sim.agents_by_health_state.items()])
-        self.pbar.set_description(f"{desc} {sim.clock.now()}")
+        # FIXME: the below uses what _should_ really be a private variable, it should be replaced
+        #        by a state-change counter listening to events within this class
+        desc = ", ".join([f"{str(k)[0]}:{len(v)}" \
+                          for k, v in self.disease.agents_by_health_state.items()])
+        self.pbar.set_description(f"{desc} {clock.now()}")
 
     def stop(self, sim):
         self.pbar.close()
 
-class BasicProgress(Reporter):
-    """Reports simple stats on the running simulation to the terminal."""
 
-    def __init__(self):
-        self.start_time = None
-        self.stop_time = None
+class DailyChangeSummary(Reporter):
+    """Prints a summary of the changes in the model at midnight."""
 
-    def start(self, sim):
-        self.start_time = datetime.now()
-        print(f"Starting simulation at {self.start_time}")
+    def __init__(self, bus):
 
-    def iterate(self, sim):
-        # TODO: The below summarises the states using a simple str() call.
-        #       This is okay, but the disease model provides tools to get a single-letter
-        #       representation of the health state, and that should be used instead.
-        print(f"[t={sim.clock.t}, {(100 * sim.clock.t / sim.clock.max_ticks):.2f}%: "
-              # pylint: disable=line-too-long
-              f"{sim.clock.now()}] { {str(k)[0]: len(v) for k, v in sim.agents_by_health_state.items()} }")
+        bus.subscribe("notify.time.midnight", self.summarise, self)
 
-    def stop(self, sim):
-        self.stop_time = datetime.now()
-        print(f"Ending simulation at {self.stop_time} ({self.stop_time - self.start_time})")
+
+    def summarise(self, clock, t):
+        """Print a summary and clear counters for the next day"""
+
+        # TODO
+        print("Midnight.  Printing report.")

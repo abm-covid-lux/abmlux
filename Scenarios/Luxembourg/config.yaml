@@ -49,7 +49,6 @@ logging:
 reporters:
   - csv.HealthStateCounts:
       filename: /tmp/plots/health_state_counts.csv
-#  - cli.BasicProgress: {}
   - cli.TQDM: {}
 #  - location_population_plots.LocationPlots:
 #      dirname: /tmp/plots
