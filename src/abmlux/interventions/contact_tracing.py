@@ -51,6 +51,9 @@ class ContactTracingManual(Intervention):
         self.bus.subscribe("notify.testing.result", self.notify_if_testing_positive, self)
 
     def start_sim(self, sim):
+        """Callback run when the simulator starts.  Used to store a reference to the current
+        simulation"""
+
         self.sim = sim
 
     def notify_if_testing_positive(self, agent, result):
@@ -88,6 +91,7 @@ class ContactTracingManual(Intervention):
         self.daily_notification_count = 0
 
     def handle_location_change(self, agent, old_location):
+        """Callback run when an agent is moved within the world."""
 
         # If disabled, stop counting
         if not self.enabled:
@@ -144,9 +148,12 @@ class ContactTracingApp(Intervention):
         # Check that window is equal to transmission_risk list length...
 
     def start_sim(self, sim):
+        """Callback run when the simulator starts.  Used to keep a reference to the current
+        simulator object."""
         self.sim = sim
 
     def handle_test_result(self, agent, result):
+        """Callback run when an agent receives a test result."""
         #print(f"CTA: {agent} tested {result}")
 
         # If disabled, stop this mechansim
@@ -167,6 +174,7 @@ class ContactTracingApp(Intervention):
         log.info("Selected %i agents with app", len(self.agents_with_app))
 
     def midnight(self, clock, t):
+        """Callback run at midnight every day."""
 
         self.exposure_by_day.append(self.current_day_contacts)
         # Apps download diagnosis keys and calculate whether to notify their users
@@ -182,6 +190,9 @@ class ContactTracingApp(Intervention):
         self.current_day_notifications  = set()
 
     def tick(self, clock, t):
+        """Callback run on every simulator tick.
+
+        Used to update contact lists of who has seen whom during this day."""
 
         # If disabled, stop this mechansim
         if not self.enabled:

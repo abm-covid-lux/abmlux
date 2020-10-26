@@ -19,7 +19,6 @@ class Simulator:
     def __init__(self, state):
 
         # -------------------------------------------[ Config ]------------------------------------
-        config                = state.config
         self.state            = state
         self.activity_manager = state.activity_manager
         self.clock            = state.clock

@@ -687,7 +687,7 @@ interventions:
     # Starting state of the intervention
     __enabled__: true
     # This special key defines when to disable/enable the intervention
-    __schedule__: # TODO
+    __schedule__:
     # Things below this line are passed to the intervention as config
 
     # Agents in the following states will be moved to a hospital:
