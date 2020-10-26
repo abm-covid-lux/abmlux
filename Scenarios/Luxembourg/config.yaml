@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 345
+random_seed: 112
 
 # The total number of resident agents on the network. If this equals the sum of age_distribution
 # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -10,8 +10,8 @@ random_seed: 345
 # this number and the sum. Note that the true population will be somewhat larger than this number
 # due to the inclusion of border workers (the numbers of which is again calculated using the scale
 # factor).
-#n: 16_108
-n: 1000
+n: 16_108
+#n: 1000
 
 # ######################################### Logging ################################################
 
@@ -97,12 +97,12 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 70
+simulation_length_days: 280
 
 # With syntax being anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
 # the date at which the simulation starts:
-epoch: 1st March 2020
+epoch: 23th February 2020
 
 # ######################################### Locations ##############################################
 
@@ -482,9 +482,9 @@ activity_locations_by_proximity: [School, Medical, Place of Worship, Indoor Spor
 min_age: 5
 # For each of the countries listed below, a probability distribution is built on the length of trips
 # between that country and the country being simulated. This discrete probability distribution takes
-# the form of a distribution and is derived from data. The parameters below determine, for country
-# of origin, the width of bins used in the corresponding distributions and the total number of bins.
-# Distances greater than the total range of a distribution will be assigned probability zero. The
+# the form of a histogram and is derived from data. The parameters below determine, for country
+# of origin, the width of bins used in the corresponding histograms and the total number of bins.
+# Distances greater than the total range of a histogram will be assigned probability zero. The
 # units here are kilometers.
 number_of_bins:
   Luxembourg: 10
@@ -636,38 +636,38 @@ disease_model:
   random_exposures: 2
   # The probability of other agents sharing a given location catching the pathogen each time tick:
   infection_probabilities_per_tick:
-    House:                            0.0007
-    Care Home:                        0.0007
-    OW Agriculture:                   0.0007
-    OW Extraction:                    0.0007
-    OW Manufacturing:                 0.0007
-    OW Energy:                        0.0007
-    OW Water:                         0.0007
-    OW Construction:                  0.0007
-    OW Trade:                         0.0007
-    OW Transport:                     0.0007
-    OW Catering and Accommodation:    0.0007
-    OW ICT:                           0.0007
-    OW Finance:                       0.0007
-    OW Real Estate:                   0.0007
-    OW Technical:                     0.0007
-    OW Administration:                0.0007
-    OW Education:                     0.0007
-    OW Entertainment:                 0.0007
-    OW Other Services:                0.0007
-    School:                           0.0007
-    Restaurant:                       0.0007
+    House:                            0.00035
+    Care Home:                        0.00035
+    OW Agriculture:                   0.00035
+    OW Extraction:                    0.00035
+    OW Manufacturing:                 0.00035
+    OW Energy:                        0.00035
+    OW Water:                         0.00035
+    OW Construction:                  0.00035
+    OW Trade:                         0.00035
+    OW Transport:                     0.00035
+    OW Catering and Accommodation:    0.00035
+    OW ICT:                           0.00035
+    OW Finance:                       0.00035
+    OW Real Estate:                   0.00035
+    OW Technical:                     0.00035
+    OW Administration:                0.00035
+    OW Education:                     0.00035
+    OW Entertainment:                 0.00035
+    OW Other Services:                0.00035
+    School:                           0.00035
+    Restaurant:                       0.00035
     Outdoor:                          0.0
-    Car:                              0.0007
-    Public Transport:                 0.0007
-    Shop:                             0.0007
-    Medical:                          0.0007
-    Hospital:                         0.0007
-    Hotel:                            0.0007
-    Place of Worship:                 0.0007
-    Indoor Sport:                     0.0007
-    Cinema or Theatre:                0.0007
-    Museum or Zoo:                    0.0007
+    Car:                              0.00035
+    Public Transport:                 0.00035
+    Shop:                             0.00035
+    Medical:                          0.00035
+    Hospital:                         0.00035
+    Hotel:                            0.00035
+    Place of Worship:                 0.00035
+    Indoor Sport:                     0.00035
+    Cinema or Theatre:                0.00035
+    Museum or Zoo:                    0.00035
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -707,7 +707,8 @@ interventions:
     __enabled__: true
     __type__: testing.LargeScaleTesting
     __schedule__:
-
+      23rd February 2020: disable
+      18th May 2020: enable
     # The number of agents selected uniformly at random for testing each day:
     tests_per_day: 5000
     # The time between an invitation to test being received and the agent booking a test:
@@ -758,7 +759,7 @@ interventions:
   # is the official COVID-19 exposure notification app developed for Germany. The window of time over
   # which contacts are considered is specified.
   contact_tracing_app:
-    __enabled__: true
+    __enabled__: false
     __type__: contact_tracing.ContactTracingApp
     __schedule__:
     # Proportion of population who have the app:
@@ -798,7 +799,7 @@ interventions:
   # agents traced though this proceedure are instructed to get tested and quarantine in the meantime.
   # With a certain probability, agents do not follow this advice and continue as normal.
   contact_tracing_manual:
-    __enabled__: true
+    __enabled__: false
     __type__: contact_tracing.ContactTracingManual
     __schedule__:
       0: disable
@@ -832,9 +833,6 @@ interventions:
     __enabled__: true
     __type__: quarantine.Quarantine
     __schedule__:
-      1st March 2020: disable
-      14th March 2020: enable
-      20th March 2020: disable
 
     # If this is true, disabling quarantine immediately allows people to change
     # else it simply disables putting new people into quarantine, and they still have to
@@ -855,55 +853,184 @@ interventions:
     # home_activity_type: Outdoor
 
 
-  # The intervention 'location_closures' refers to closure of all locations of a certain type. In the
+  # The interventions 'location_closure' refer to closure of all locations of a certain type. In the
   # event that an agent would otherwise move to such a location, that move will be cancelled or
-  # overridden with the agent being sent home, via the 'quarantine' intervention.
-  location_closure:
-    __enabled__: false
+  # overridden with the agent being sent home.
+
+  location_closure_house:
+    __enabled__: true
     __type__: location_closure.LocationClosures
     __schedule__:
+      23rd February 2020: disable
+      15th March 2020: enable
+      11th May 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
     # Whether or not a location is closed may depend on the activity in question (for example, visits
     # to care homes may be prohibited while residents and workers continue to be able to access the
     # care home.
     locations:
       - House
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_carehome:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      15th March 2020: enable
+      20th May 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
       - Care Home
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_ow_1:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      19th March 2020: enable
+      24th June 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
       - OW Agriculture
-      - OW Extraction
       - OW Manufacturing
       - OW Energy
       - OW Water
-      - OW Construction
-      - OW Trade
       - OW Transport
-      - OW Catering and Accommodation
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_ow_2:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      19th March 2020: enable
+      15th September 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - OW Extraction
+      - OW Trade
       - OW ICT
       - OW Finance
       - OW Real Estate
       - OW Technical
       - OW Administration
       - OW Education
-      - OW Entertainment
-      - OW Other Services
-      - School
-      - Restaurant
-      - Hotel
-      - Place of Worship
-      - Indoor Sport
-      - Cinema or Theatre
-      - Museum or Zoo
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
 
+  location_closure_ow_construction:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      19th March 2020: enable
+      20th April 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - OW Construction
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
 
+  location_closure_ow_entertainment:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      15th March 2020: enable
+      29th May 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - OW Entertainment
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_leisure:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      15th March 2020: enable
+      29th May 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - Indoor Sport
+      - Cinema or Theatre
+      - Museum or Zoo
+      - Restaurant
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_pow:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      14th March 2020: enable
+      29th May 2020: disable      
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - Place of Worship
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_school:
+    __enabled__: true
+    __type__: location_closure.LocationClosures
+    __schedule__:
+      23rd February 2020: disable
+      16th March 2020: enable
+      11th May 2020: disable
+      16th July 2020: enable
+      15th September 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - School
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
 
   # The intervention 'other_testing' refers to situations where an agent books a test without having
   # been directed to do so by any of the other interventions. Chief among these are the situations in
   # which an agent voluntarily books a test having developed symptoms.
   other_testing:
-    __enabled__: true
+    __enabled__: false
     __type__: testing.OtherTesting
     __schedule__:
     # The probability that an agent books a test at the moment they develop symptoms. This corresponds
