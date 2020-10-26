@@ -20,9 +20,9 @@ from abmlux.activity.tus_survey import TUSMarkovActivityModel
 
 import abmlux.tools as tools
 
-from .version import VERSION
-from .config import Config
-from .serialisation import read_from_disk, write_to_disk
+from abmlux.version import VERSION
+from abmlux.config import Config
+from abmlux.serialisation import read_from_disk, write_to_disk
 
 
 # Global module log

@@ -1,3 +1,4 @@
+"""Utility functions used during CLI output and data management"""
 import os
 from zlib import adler32
 import functools
@@ -43,6 +44,7 @@ def get_memory_usage():
     return process.memory_info().rss  # in bytes
 
 def print_memory_usage():
+    """Print memory usage to the terminal."""
     byts = get_memory_usage()
 
     print(f"Current memory usage: {byts / BYTES_IN_A_GIB:.2f}GiB")
@@ -64,4 +66,3 @@ def string_as_hex_colour(string, salt=0, scheme="nipy_spectral"):
     """Returns a hex string representing the string given.  Deterministic."""
 
     return colors.to_hex(string_as_mpl_colour(string, salt, scheme))
-
