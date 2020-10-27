@@ -137,7 +137,8 @@ locations:
   - OW Education
   - OW Entertainment
   - OW Other Services
-  - School
+  - Primary School
+  - Secondary School
   - Restaurant
   - Outdoor
   - Car
@@ -177,7 +178,8 @@ deterministic_location_counts:
   OW Education:                     838
   OW Entertainment:                 87
   OW Other Services:                1523
-  School:                           215
+  Primary School:                   181
+  Secondary School:                 58
   Restaurant:                       2247
   Outdoor:                          1
   Public Transport:                 1000
@@ -200,7 +202,19 @@ border_country_coord:
   France: [49.357664, 6.166023]
   Germany: [49.756279, 6.643219]
 
-# ######################################### Activities #############################################
+# ######################################### Schools ################################################
+  
+# Number of classes per school:
+num_classes_per_school:
+  Primary School:   17
+  Secondary School: 34
+
+# Age at which children start school:
+starting_age:
+  4:  Primary School
+  12: Secondary School
+
+  # ######################################### Activities #############################################
 
 # Configure the component that drives agents performing different activities in the simulation
 activity_model:
@@ -222,11 +236,11 @@ activities:
   Work:
     primary: [2]
     secondary: [111]
-    allowed_locations: [Care Home, OW Agriculture, OW Extraction, OW Manufacturing, OW Energy, OW Water, OW Construction, OW Trade, OW Transport, OW Catering and Accommodation, OW ICT, OW Finance, OW Real Estate, OW Technical, OW Administration, OW Education, OW Entertainment, OW Other Services, School, Restaurant, Public Transport, Shop, Medical, Hospital, Hotel, Place of Worship, Indoor Sport, Cinema or Theatre, Museum or Zoo]
+    allowed_locations: [Care Home, OW Agriculture, OW Extraction, OW Manufacturing, OW Energy, OW Water, OW Construction, OW Trade, OW Transport, OW Catering and Accommodation, OW ICT, OW Finance, OW Real Estate, OW Technical, OW Administration, OW Education, OW Entertainment, OW Other Services, Primary School, Secondary School, Restaurant, Public Transport, Shop, Medical, Hospital, Hotel, Place of Worship, Indoor Sport, Cinema or Theatre, Museum or Zoo]
   School:
     primary: [3]
     secondary: [232,233]
-    allowed_locations: [School]
+    allowed_locations: [Primary School, Secondary School]
   Restaurant:
     primary: [5]
     secondary: [546,547]
@@ -422,7 +436,8 @@ retired_per_carehome: 143
 # For these locations, workforce weights are uniform:
 workforce_profile_uniform:
   Care Home:                        70
-  School:                           51
+  Primary School:                   35
+  Secondary School:                 85
   Public Transport:                 1
   Place of Worship:                 1
 
@@ -477,9 +492,9 @@ activity_locations_by_random:
   Museum or Zoo: 10
 # Which activies are assigned locations using a KDTree, with only one such location is assigned to
 # each agent:
-activity_locations_by_proximity: [School, Medical, Place of Worship, Indoor Sport]
-# Locations assigned by proximity are set to the agent's home if their age is below min_age:
-min_age: 5
+activity_locations_by_proximity: [Medical, Place of Worship, Indoor Sport]
+# Which activities correspond to going to school, assigned using a KDTree:
+school_locations_by_proximity: [School]
 # For each of the countries listed below, a probability distribution is built on the length of trips
 # between that country and the country being simulated. This discrete probability distribution takes
 # the form of a histogram and is derived from data. The parameters below determine, for country
@@ -559,7 +574,8 @@ disease_model:
       OW Education:                   0.2
       OW Entertainment:               0.2
       OW Other Services:              0.2
-      School:                         0.2
+      Primary School:                 0.2
+      Secondary School:               0.2
       Restaurant:                     0.2
       Outdoor:                        0.0
       Car:                            0.0
@@ -655,7 +671,8 @@ disease_model:
     OW Education:                     0.00035
     OW Entertainment:                 0.00035
     OW Other Services:                0.00035
-    School:                           0.00035
+    Primary School:                   0.00035
+    Secondary School:                 0.00035
     Restaurant:                       0.00035
     Outdoor:                          0.0
     Car:                              0.00035
@@ -857,7 +874,7 @@ interventions:
 
   location_closure_house:
     __type__: location_closure.LocationClosures
-    __enabled__: true
+    __enabled__: false
     __schedule__:
       15th March 2020: enable
       11th May 2020: disable
@@ -1010,7 +1027,8 @@ interventions:
     # to care homes may be prohibited while residents and workers continue to be able to access the
     # care home.
     locations:
-      - School
+      - Primary School
+      - Seconary School
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
@@ -1073,7 +1091,8 @@ interventions:
       OW Education:                   0.2
       OW Entertainment:               0.2
       OW Other Services:              0.2
-      School:                         0.2
+      Primary School:                 0.2
+      Secondary School:               0.2
       Restaurant:                     0.2
       Outdoor:                        0.0
       Car:                            0.0
