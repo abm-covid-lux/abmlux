@@ -397,7 +397,7 @@ def assign_locations_by_random(prng, network, config, activity_manager, activity
     log.debug("Assigning locations by random to carehome occupants...")
     do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
-def kdtree_assignment(prng, network, activity_manager, locations):
+def kdtree_assignment(prng, network, locations):
     """For the locations given, select nearby houses and assign houses to these locations.
     If the location is full, move to the next nearby location, etc."""
 
@@ -427,9 +427,8 @@ def kdtree_assignment(prng, network, activity_manager, locations):
         closest_locations = []
         while len(closest_locations) == 0:
             if (knn/2) > len(locations):
-                raise ValueError(f"Searching for more locations than exist for "
-                                f"types {school_type}.  "
-                                f"This normally indicates that all locations are full.")
+                raise ValueError(f"Searching for more locations than exist."
+                                 f"This normally indicates that all locations are full.")
             # Returns knn items, in order of nearness
             _, nearest_indices = kdtree.query(house.coord, knn)
             closest_locations = [locations[i] for i in nearest_indices if i < len(locations)]
@@ -464,7 +463,7 @@ def assign_schools(prng, network, config, activity_manager, activity_type, occup
     for school_type in types_of_school:
         log.info("Assigning schools of type: %s...", school_type)
         locations = network.locations_for_types(school_type)
-        schools_dict[school_type] = kdtree_assignment(prng, network, activity_manager, locations)
+        schools_dict[school_type] = kdtree_assignment(prng, network, locations)
 
     # Generate additional instances of each school, the total number in a specified location
     # being the number of classes in the school:
@@ -508,7 +507,7 @@ def assign_locations_by_proximity(prng, network, config, activity_manager, activ
 
     # Assign a location to each house by proximity:
     locations = network.locations_for_types(activity_manager.get_location_types(activity_type))
-    locations_dict = kdtree_assignment(prng, network, activity_manager, locations)
+    locations_dict = kdtree_assignment(prng, network, locations)
 
     # Assign a location to each house occupant:
     for house in occupancy_houses:
