@@ -9,8 +9,8 @@ import numpy as np
 from tqdm import tqdm
 from scipy.spatial import KDTree
 
-from .random_tools import (multinoulli, multinoulli_dict, random_choices, random_sample,
-                           random_shuffle, random_randrange_interval)
+from .random_tools import (multinoulli, multinoulli_dict, random_choice, random_choices,
+                           random_sample, random_shuffle, random_randrange_interval)
 from .agent import Agent, AgentType, POPULATION_SLICES
 from .location import Location, WGS84_to_ETRS89
 from .activity_manager import ActivityManager
@@ -397,28 +397,18 @@ def assign_locations_by_random(prng, network, config, activity_manager, activity
     log.debug("Assigning locations by random to carehome occupants...")
     do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
-def assign_locations_by_proximity(prng, network, config, activity_manager, activity_type, occupancy_houses,
-                                  occupancy_carehomes, occupancy_border_countries):
-    """For the location type given, select nearby houses and assign all occupants to
-    attend this location.  If the location is full, move to the next nearby location, etc."""
-
-    log.info("Assigning proximate locations for activity: %s...", activity_type)
+def kdtree_assignment(prng, network, activity_manager, locations):
+    """For the locations given, select nearby houses and assign houses to these locations.
+    If the location is full, move to the next nearby location, etc."""
 
     # The following code assigns homes to locations in such a way that equal numbers of homes are
-    # assigned to each location of a given type. For example, from the list of homes, a home is
+    # assigned to each location in the given list. For example, from the list of homes, a home is
     # randomly selected and assigned to the nearest school, unless that school has already been
     # assigned its share of homes, in which case the next nearest available school is assigned.
     # This creates local spatial structure while ensuring that no school, for example, is
     # assigned more homes than the other schools. This same procedure is also applied to medical
     # locations, places of worship and indoor sport:
-    log.debug("Assigning proximate locations to house occupants...")
-    log.debug("Finding people to perform activity: %s", activity_type)
-    log.debug("Location types: %s", activity_manager.get_location_types(activity_type))
 
-    min_age = config['min_age']
-
-    # Ensure we have at least one location of this type
-    locations = network.locations_for_types(activity_manager.get_location_types(activity_type))
     log.debug("Found %i available locations", len(locations))
     assert len(locations) > 0
 
@@ -426,7 +416,9 @@ def assign_locations_by_proximity(prng, network, config, activity_manager, activ
     kdtree     = KDTree([l.coord for l in locations])
     num_houses = defaultdict(int)
 
-    # Traverse houses in random order
+    locations_dict = {}
+
+    # Traverse houses in random order, assigning a school of type school_type to each house
     shuffled_houses = copy.copy(network.locations_by_type['House'])
     random_shuffle(prng, shuffled_houses)
     for house in tqdm(shuffled_houses):
@@ -436,8 +428,8 @@ def assign_locations_by_proximity(prng, network, config, activity_manager, activ
         while len(closest_locations) == 0:
             if (knn/2) > len(locations):
                 raise ValueError(f"Searching for more locations than exist for "
-                                 f"types {activity_manager.get_location_types(activity_type)}.  "
-                                 f"This normally indicates that all locations are full.")
+                                f"types {school_type}.  "
+                                f"This normally indicates that all locations are full.")
             # Returns knn items, in order of nearness
             _, nearest_indices = kdtree.query(house.coord, knn)
             closest_locations = [locations[i] for i in nearest_indices if i < len(locations)]
@@ -447,11 +439,82 @@ def assign_locations_by_proximity(prng, network, config, activity_manager, activ
         closest_location = closest_locations[0]
         # Add all occupants of this house to the location, unless they are under age
         num_houses[closest_location] += 1
+        locations_dict[house] = closest_location
+
+    return locations_dict
+
+def assign_schools(prng, network, config, activity_manager, activity_type, occupancy_houses,
+                                  occupancy_carehomes, occupancy_border_countries):
+    """For the schools of each type given, select nearby houses and assign all occupants to
+    attend this school. If the school is full, move to the next nearby school, etc."""
+
+    log.debug("Assigning proximate locations for activity: %s...", activity_type)
+
+    log.debug("Assigning proximate locations to house occupants...")
+    log.debug("Finding people to perform activity: %s", activity_type)
+    log.debug("Location types: %s", activity_manager.get_location_types(activity_type))
+
+    # The different types of school, e.g. Primary School, Secondary School etc.
+    types_of_school        = activity_manager.get_location_types(activity_type)
+    num_classes_per_school = config['num_classes_per_school']
+    schools_dict = defaultdict(dict)
+    classes_dict = defaultdict(list)
+
+    # Assign a school of each type to each house by proximity:
+    for school_type in types_of_school:
+        log.info("Assigning schools of type: %s...", school_type)
+        locations = network.locations_for_types(school_type)
+        schools_dict[school_type] = kdtree_assignment(prng, network, activity_manager, locations)
+
+    # Generate additional instances of each school, the total number in a specified location
+    # being the number of classes in the school:
+    for school_type in types_of_school:
+        for school in network.locations_for_types(school_type):
+            classes_dict[school].append(school)
+            for _ in range(num_classes_per_school[school_type] - 1):
+                new_class = Location(school_type, school.coord)
+                network.add_location(new_class)
+                classes_dict[school].append(new_class)
+
+    # Assign a class to each house occupant based on age:
+    starting_age   = config['starting_age']
+    min_school_age = min(starting_age.keys())
+    for house in occupancy_houses:
         for occupant in occupancy_houses[house]:
-            if occupant.age >= min_age:
-                occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
-            else:
+            if occupant.age < min_school_age:
                 occupant.add_activity_location(activity_manager.as_int(activity_type), house)
+            else:
+                age_key = max([a for a in starting_age.keys() if a <= occupant.age])
+                type_of_school = starting_age[age_key]
+                closest_school = schools_dict[type_of_school][house]
+                school_class   = random_choice(prng, classes_dict[closest_school])
+                occupant.add_activity_location(activity_manager.as_int(activity_type), school_class)
+
+    log.debug("Assigning proximate locations to border country occupants...")
+    do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
+    log.debug("Assigning proximate locations to carehome occupants...")
+    do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
+
+def assign_locations_by_proximity(prng, network, config, activity_manager, activity_type,
+                                 occupancy_houses, occupancy_carehomes, occupancy_border_countries):
+    """For the location type given, select nearby houses and assign all occupants to
+    attend this location.  If the location is full, move to the next nearby location, etc."""
+
+    log.info("Assigning proximate locations for activity: %s...", activity_type)
+
+    log.debug("Assigning proximate locations to house occupants...")
+    log.debug("Finding people to perform activity: %s", activity_type)
+    log.debug("Location types: %s", activity_manager.get_location_types(activity_type))
+
+    # Assign a location to each house by proximity:
+    locations = network.locations_for_types(activity_manager.get_location_types(activity_type))
+    locations_dict = kdtree_assignment(prng, network, activity_manager, locations)
+
+    # Assign a location to each house occupant:
+    for house in occupancy_houses:
+        for occupant in occupancy_houses[house]:
+            closest_location = locations_dict[house]
+            occupant.add_activity_location(activity_manager.as_int(activity_type), closest_location)
 
     log.debug("Assigning proximate locations to border country occupants...")
     do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
@@ -525,6 +588,11 @@ def build_network_model(prng, config, density_map):
         assign_locations_by_random(prng, network, config, activity_manager, activity_type,
                                    occupancy_houses, occupancy_carehomes,
                                    occupancy_border_countries)
+    # Assign schools
+    for activity_type in config['school_locations_by_proximity']:
+        assign_schools(prng, network, config, activity_manager, activity_type,
+                                      occupancy_houses, occupancy_carehomes,
+                                      occupancy_border_countries)
     # Assignments of locations by proximity
     for activity_type in config['activity_locations_by_proximity']:
         assign_locations_by_proximity(prng, network, config, activity_manager, activity_type,
