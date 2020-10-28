@@ -929,7 +929,7 @@ interventions:
     __enabled__: false
     __schedule__:
       19th March 2020: enable
-      15th September 2020: disable
+      24th June 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
     # Whether or not a location is closed may depend on the activity in question (for example, visits
     # to care homes may be prohibited while residents and workers continue to be able to access the
@@ -1029,6 +1029,50 @@ interventions:
     locations:
       - Primary School
       - Seconary School
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  curfew:
+    __type__: curfew.Curfew
+    __enabled__: false
+    __schedule__:
+    # Hours of operation
+    start_time: 23
+    end_time: 6
+    # A list of location types subject to closures during given hours
+    locations:
+      - House
+      - Care Home
+      - OW Agriculture
+      - OW Extraction
+      - OW Manufacturing
+      - OW Energy
+      - OW Water
+      - OW Construction
+      - OW Trade
+      - OW Transport
+      - OW Catering and Accommodation
+      - OW ICT
+      - OW Finance
+      - OW Real Estate
+      - OW Technical
+      - OW Administration
+      - OW Education
+      - OW Entertainment
+      - OW Other Services
+      - School
+      - Restaurant
+      - Outdoor
+      - Car
+      - Public Transport
+      - Shop
+      - Medical
+      - Hotel
+      - Place of Worship
+      - Indoor Sport
+      - Cinema or Theatre
+      - Museum or Zoo
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
