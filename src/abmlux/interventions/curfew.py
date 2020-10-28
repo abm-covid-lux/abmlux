@@ -37,7 +37,8 @@ class Curfew(Intervention):
             if not self.enabled:
                 self.enable()
         else:
-            self.disable()
+            if self.enabled:
+                self.disable()
 
     def handle_location_change(self, agent, new_location):
         """If the new location is in the blacklist, send the agent home."""
