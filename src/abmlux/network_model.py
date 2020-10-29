@@ -442,8 +442,8 @@ def kdtree_assignment(prng, network, locations):
 
     return locations_dict
 
-def assign_schools(prng, network, config, activity_manager, activity_type, occupancy_houses,
-                                  occupancy_carehomes, occupancy_border_countries):
+def assign_schools(prng, network, config, activity_manager, work_activity, activity_type,
+                   occupancy_houses, occupancy_carehomes, occupancy_border_countries):
     """For the schools of each type given, select nearby houses and assign all occupants to
     attend this school. If the school is full, move to the next nearby school, etc."""
 
@@ -474,6 +474,15 @@ def assign_schools(prng, network, config, activity_manager, activity_type, occup
                 new_class = Location(school_type, school.coord)
                 network.add_location(new_class)
                 classes_dict[school].append(new_class)
+
+    # Redistribute teachers across classrooms
+    work_activity_int = activity_manager.as_int(work_activity)
+    for agent in network.agents:
+        workplace = agent.locations_for_activity(work_activity_int)[0]
+        if workplace.typ in types_of_school:
+            agent.locations_for_activity(work_activity_int).remove(workplace)
+            assigned_class = random_choice(prng, classes_dict[workplace])
+            agent.locations_for_activity(work_activity_int).append(assigned_class)
 
     # Assign a class to each house occupant based on age:
     starting_age   = config['starting_age']
@@ -589,7 +598,7 @@ def build_network_model(prng, config, density_map):
                                    occupancy_border_countries)
     # Assign schools
     for activity_type in config['school_locations_by_proximity']:
-        assign_schools(prng, network, config, activity_manager, activity_type,
+        assign_schools(prng, network, config, activity_manager, "Work", activity_type,
                                       occupancy_houses, occupancy_carehomes,
                                       occupancy_border_countries)
     # Assignments of locations by proximity
