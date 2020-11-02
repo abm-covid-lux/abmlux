@@ -18,7 +18,7 @@ log = logging.getLogger('sim')
 class Simulator:
     """Class that simulates an outbreak."""
 
-    def __init__(self, state, reporters):
+    def __init__(self, state):
 
         # -------------------------------------------[ Config ]------------------------------------
         self.state            = state
@@ -34,19 +34,10 @@ class Simulator:
         self.interventions = state.interventions.keys()
 
         # Read-only config
-        self.reporters               = reporters
-
         self.agent_updates = defaultdict(dict)
         self.bus.subscribe("request.agent.location", self.record_location_change, self)
         self.bus.subscribe("request.agent.activity", self.record_activity_change, self)
         self.bus.subscribe("request.agent.health", self.record_health_change, self)
-
-        # For reporting
-        self.agents_by_health_state = {h: {a for a in self.agents if a.health == h}
-                                       for h in self.disease.states}
-
-        # FIXME: remove this centralised index
-        self.attendees = None
 
         # For manipulating interventions
         self.scheduler = Scheduler(self.clock, state.intervention_schedules)
@@ -83,8 +74,6 @@ class Simulator:
         """Run the simulation"""
 
         log.info("Simulating outbreak...")
-        for reporter in self.reporters:
-            reporter.start(self)
 
         # Initialize interventions here?
         self.clock.reset()
@@ -125,15 +114,7 @@ class Simulator:
             # - 3 - Actually enact changes in an atomic manner
             update_notifications = self._update_agents()
 
-            # 4. Inform reporters of state
-            for reporter in self.reporters:
-                reporter.iterate(self)
-
         self.bus.publish("notify.time.end_simulation", self)
-
-        for reporter in self.reporters:
-            reporter.stop(self)
-
 
     def _update_agents(self):
         """Update the state of agents according to the lists provided."""
@@ -146,7 +127,6 @@ class Simulator:
             if 'health' in updates:
 
                 # Remove from index
-                self.agents_by_health_state[agent.health].remove(agent)
                 #self.agent_counts_by_health[agent.health][agent.current_location] -= 1
 
                 # Update
@@ -154,7 +134,6 @@ class Simulator:
                 agent.health = updates['health']
 
                 # Add to index
-                self.agents_by_health_state[agent.health].add(agent)
                 #self.agent_counts_by_health[agent.health][agent.current_location] += 1
                 update_notifications.append(("notify.agent.health", agent, old_health))
 

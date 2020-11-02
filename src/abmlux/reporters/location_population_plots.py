@@ -11,7 +11,7 @@ from matplotlib.lines import Line2D
 from abmlux.utils import string_as_mpl_colour
 from abmlux.reporter import Reporter
 
-
+# FIXME: this currently doesn't work.
 # FIXME: remove this in favour of parameters
 LOCATION_TYPE_BLACKLIST = ["Outdoor", "Public Transport"]
 

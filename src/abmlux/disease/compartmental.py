@@ -37,6 +37,7 @@ class CompartmentalModel(DiseaseModel):
         self.bus                        = bus
         self.state                      = state
         self.network                    = state.network
+        self.agents_by_health_state     = {s: set() for s in states}
 
         self.ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[loc_type])**2) for loc_type in self.prob_wear_mask}
 
@@ -96,18 +97,21 @@ class CompartmentalModel(DiseaseModel):
             self.health_state_change_time[agent] = 0
             self.disease_profile_index_dict[agent] = 0
             agent.health = self.disease_profile_dict[agent][0]
+            self.agents_by_health_state[agent.health].add(agent)
 
         # Now infect a number of agents to begin the epidemic. This moves those agents to the next
         # state listed in their disease profile.
         log.info("Infecting %i agents...", self.num_initial_infections)
         for agent in random_sample(self.prng, agents, self.num_initial_infections):
+            self.agents_by_health_state[agent.health].remove(agent)
             self.disease_profile_index_dict[agent] = 1
             agent.health = self.disease_profile_dict[agent][1]
+            self.agents_by_health_state[agent.health].add(agent)
 
     def random_midnight_exposures(self, clock, t):
         """At midnight, some suceptible agents are randomly exposed"""
 
-        suceptible_agents    = self.sim.agents_by_health_state['SUSCEPTIBLE']
+        suceptible_agents    = self.agents_by_health_state['SUSCEPTIBLE']
         expose_agents_random = random_sample(self.prng, suceptible_agents, min(self.random_exposures,len(suceptible_agents)))
         for agent in expose_agents_random:
             self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
@@ -171,6 +175,10 @@ class CompartmentalModel(DiseaseModel):
 
         self.disease_profile_index_dict[agent] += 1
         self.health_state_change_time[agent] = self.sim.clock.t
+
+        # Who is what state
+        self.agents_by_health_state[old_health].remove(agent)
+        self.agents_by_health_state[agent.health].add(agent)
 
     def _durations_for_profile(self, profile):
         """Assigns durations for each phase in a given profile"""

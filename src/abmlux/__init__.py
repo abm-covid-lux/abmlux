@@ -56,13 +56,10 @@ def build_markov(state):
 def disease_model(state):
     """Set up disease model."""
 
-    # TODO: make this dynamic from the config file (like reporters)
     disease_model_class  = state.config['disease_model.__type__']
     disease_model_config = state.config['disease_model']
-    disease_model = instantiate_class("abmlux.disease", disease_model_class, state.prng,\
+    state.disease = instantiate_class("abmlux.disease", disease_model_class, state.prng,\
                                       disease_model_config, state.bus, state)
-
-    state.disease = disease_model
 
 def location_model(state):
     """set up location model"""
@@ -116,12 +113,11 @@ def run_sim(state):
 
         log.info("Creating reporter %s...", fqclass_name)
 
-        reporter = instantiate_class("abmlux.reporters", fqclass_name, **params)
-
+        reporter = instantiate_class("abmlux.reporters", fqclass_name, state.bus, **params)
         reporters.append(reporter)
 
     # ############## Run Stage ##############
-    sim = Simulator(state, reporters)
+    sim = Simulator(state)
 
     sim.run()
 
