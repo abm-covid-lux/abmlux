@@ -8,6 +8,8 @@ framework."""
 import logging
 from collections import defaultdict
 
+from tqdm import tqdm
+
 from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
 
@@ -90,18 +92,18 @@ class Simulator:
 
         self.bus.publish("notify.time.start_simulation", self)
 
-
-        # Caches
         # Simulation state.  These indices represent an optimisation to prevent having to loop
         # over every single agent.
         log.info("Creating agent location indices...")
-        self.attendees                     = {l: {a for a in self.agents if a.current_location == l}
-                                              for l in self.locations}
+        self.attendees                     = {l: set() for l in self.locations}
+        for a in tqdm(self.agents):
+            self.attendees[a.current_location].add(a)
 
         # Disease model parameters
         log.info("Creating health state indices...")
-        self.agents_by_health_state        = {h: {a for a in self.agents if a.health == h}
-                                              for h in self.disease.states}
+        self.agents_by_health_state        = {h: set() for h in self.disease.states}
+        for a in tqdm(self.agents):
+            self.agents_by_health_state[a.health].add(a)
         # /caches
 
         update_notifications = []
