@@ -118,7 +118,8 @@ setup(
     extras_require={  # Optional
         # 'dev': ['check-manifest'],
         'test': ['pytest',
-                 'pdoc'],
+                 'pdoc',
+                 'coverage'],
     },
 
     # If there are data files included in your packages that need to be
