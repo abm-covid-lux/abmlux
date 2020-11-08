@@ -14,7 +14,15 @@ BYTES_IN_A_GIB = 1.074e+9
 log = logging.getLogger("utils")
 
 def instantiate_class(module_base, module_path, *args, **kwargs):
-    """Take a string and arguments and instantiate a class, returning it."""
+    """Take a string and arguments and instantiate a class, returning it.
+
+    Parameters:
+        module_base (str): String showing the base module to instantiate upon, e.g. abmlux.reporters
+        module_path (str): String containing module path, e.g. cli.TQDM
+        *args, **kwargs: Passed to the constructor
+
+    Returns: The class instantiated
+    """
 
     # Instantiate the class itself
     log.debug("Instantiating class %s...", module_path)
@@ -32,7 +40,11 @@ def instantiate_class(module_base, module_path, *args, **kwargs):
     return new_instance
 
 def flatten(arr):
-    """Flatten a list of lists, returning a single flat list."""
+    """Flatten a list of lists, returning a single flat list.
+
+    Parameters:
+        arr: List of lists, or list-likes.
+    """
 
     return [item for sublist in arr for item in sublist]
 
