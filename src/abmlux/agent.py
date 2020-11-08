@@ -14,12 +14,6 @@ class AgentType(IntEnum):
     ADULT   = 1
     RETIRED = 2
 
-# TODO: move to config
-POPULATION_SLICES = {
-        AgentType.CHILD: slice(None, 18),   # Children <18
-        AgentType.ADULT: slice(18, 65),     # Adults 18-65
-        AgentType.RETIRED: slice(65, None)  # Retired >65
-    }
 # TODO: de-duplicate
 POPULATION_RANGES = {
         AgentType.CHILD: range(0, 18),   # Children <18
@@ -30,11 +24,11 @@ POPULATION_RANGES = {
 class Agent:
     """Represents a single agent within the simulation"""
 
-    def __init__(self, agetyp, age, current_location=None):
+    def __init__(self, age, current_location=None):
         # TODO: documentation of argument meaning
 
         self.uuid               = uuid.uuid4().hex
-        self.agetyp             = agetyp  # Should be an AgentType
+        self.agetyp             = Agent.agent_type_by_age(age)
         self.age                = age
         self.activity_locations = {}
 
@@ -42,6 +36,16 @@ class Agent:
         self.current_activity  = None
         self.current_location  = current_location
         self.health            = None
+
+    @staticmethod
+    def agent_type_by_age(age):
+        """Given an age, return the type."""
+
+        for agetyp, rng in POPULATION_RANGES.items():
+            if age >= rng.start and age < (rng.stop + 1):
+                return agetyp
+
+        raise ValueError(f"No agent type mapping for age {age}")
 
     def locations_for_activity(self, activity):
         """Return a list of locations this agent can go to for

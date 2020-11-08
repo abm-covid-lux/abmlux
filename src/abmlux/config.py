@@ -34,7 +34,6 @@ class Config:
 
     def filepath(self, key, path=None, *, ensure_exists=False):
         """Return the value at 'key' but as a filepath.
-
         Filepaths in config are relative to the basedir,
         unless they are specified as absolute (e.g. they
         have a leading slash or drive letter"""
@@ -65,7 +64,7 @@ class Config:
         if chunks[0] in "1234567890":
             key = int(key)
 
-        value = obj[chunks[0]]
+        value = obj[key]
         if len(chunks) > 1:
             return self._get(".".join(chunks[1:]), value)
         return value
