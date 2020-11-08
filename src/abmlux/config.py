@@ -32,6 +32,24 @@ class Config:
     def __contains__(self, key):
         return self.conf.__contains__(key)
 
+    def filepath(self, key, path=None, *, ensure_exists=False):
+        """Return the value at 'key' but as a filepath.
+        Filepaths in config are relative to the basedir,
+        unless they are specified as absolute (e.g. they
+        have a leading slash or drive letter"""
+
+        full_path = osp.join(self.dirname, self[key])
+
+        # Add optional component
+        if path is not None:
+            full_path = osp.join(full_path, path)
+
+        # Ensure the file directory exists
+        if ensure_exists:
+            os.makedirs(osp.dirname(full_path), exist_ok=True)
+
+        return full_path
+
     def _get(self, dot_notation, obj=None):
         """Retrieve a key.key.key.1 string from nested dicts and lists"""
 

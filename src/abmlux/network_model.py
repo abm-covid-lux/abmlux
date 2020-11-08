@@ -11,7 +11,7 @@ from scipy.spatial import KDTree
 
 from .random_tools import (multinoulli, multinoulli_dict, random_choice, random_choices,
                            random_sample, random_shuffle, random_randrange_interval)
-from .agent import Agent, AgentType, POPULATION_SLICES
+from .agent import Agent, AgentType, POPULATION_RANGES
 from .location import Location, WGS84_to_ETRS89
 from .activity_manager import ActivityManager
 from .network import Network
@@ -57,24 +57,25 @@ def create_agents(prng, network, config):
     pop_by_age = config['age_distribution']
 
     # How many agents per agent type
-    pop_normalised    = [x / sum(pop_by_age) for x in pop_by_age]
-    pop_by_agent_type = {atype: math.ceil(config['n'] * sum(pop_normalised[slce]))
-                         for atype, slce in POPULATION_SLICES.items()}
+    pop_normalised    = [math.ceil((config['n'] * x) / sum(pop_by_age)) for x in pop_by_age]
+    log.info("Creating %i agents...", sum(pop_normalised))
+    for age, pop in tqdm(enumerate(pop_normalised)):
+        # print(f"AGE: {age} POP: {pop}")
+        new_agent = Agent(age)
+        network.add_agent(new_agent)
+
     # Add an appropriate number of cross border workers as adults
     pop_by_border_country = config['border_countries_pop']
+    adult_age_range = POPULATION_RANGES[AgentType.ADULT]
     total = sum(pop_by_border_country.values())
-    pop_by_agent_type[AgentType.ADULT] += math.ceil(total * config['n']/sum(pop_by_age))
-    log.debug("Agent count by type: %s", pop_by_agent_type)
-    # The total numbers of children, adults and retired individuals are fixed deterministically,
-    # while the exact age of individuals within each group is determined randomly
-    log.info("Constructing agents...")
-    for atype, slce in POPULATION_SLICES.items():
-        log.info(" - %s...", atype.name)
-        for _ in tqdm(range(pop_by_agent_type[atype])):
-            # Sample a point from the age distribution within this slice
-            age = (slce.start or 0) + multinoulli(prng, pop_by_age[slce])
-            new_agent = Agent(atype, age)
-            network.add_agent(new_agent)
+    adult_pop_dist = pop_by_age[adult_age_range.start:adult_age_range.stop]
+    log.info("Creating %i cross-border workers...", total)
+    for age, pop in tqdm(enumerate(adult_pop_dist)):
+        # Normalise pop age count
+        pop = math.ceil((total * pop) / sum(adult_pop_dist))
+        # print(f"AGE2: {age+adult_age_range.start} POP: {pop}")
+        new_agent = Agent(age+adult_age_range.start)
+        network.add_agent(new_agent)
 
 def make_house_profile_dictionary(config):
     """Creates a probability distribution across household profiles."""
@@ -478,7 +479,12 @@ def assign_schools(prng, network, config, activity_manager, work_activity, activ
     # Redistribute teachers across classrooms
     work_activity_int = activity_manager.as_int(work_activity)
     for agent in network.agents:
-        workplace = agent.locations_for_activity(work_activity_int)[0]
+        workplaces = agent.locations_for_activity(work_activity_int)
+        if len(workplaces) == 0:
+            log.warning("Found no workplaces for agent %s, activity type %s", agent, work_activity)
+            continue
+
+        workplace = workplaces[0]
         if workplace.typ in types_of_school:
             agent.locations_for_activity(work_activity_int).remove(workplace)
             assigned_class = random_choice(prng, classes_dict[workplace])
