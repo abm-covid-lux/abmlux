@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install .[test]
+        pip install -e .[test]
     - name: Run and report coverage
       run: |
         # stop the build if there are Python syntax errors or undefined names
