@@ -16,18 +16,37 @@ class LargeScaleTesting(Intervention):
     def __init__(self, prng, config, clock, bus, state, init_enabled):
         super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.agents_tested_per_day_raw        = config['tests_per_day']
-        self.invitation_to_test_booking_delay = \
-            int(clock.days_to_ticks(config['invitation_to_test_booking_days']))
-
-        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
-        self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
-
         self.test_booking_events = DeferredEventPool(bus, clock)
         self.network = state.network
         self.current_day = None
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
+
+        def rescale(param, scale_factor):
+            """Rescales parameters according to a specified scale factor"""
+            return max(int(param * scale_factor), 1)
+
+        def parse_param_updates(param_dict):
+            """Parses parameter update schedule from config, creating calendar of updates"""
+            param_updates = {}
+            for param_time, param in param_dict.items():
+                if isinstance(param_time, str):
+                    ticks = int(clock.datetime_to_ticks(param_time))
+                else:
+                    ticks = int(param_time)
+                param_updates[ticks] = int(rescale(param, scale_factor))
+            return param_updates
+
+        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
+        self.invitations_schedule = parse_param_updates(config['invitations_schedule'])
+
+        self.invitation_to_test_booking_delay = {}
+        delay_distribution = config['invitation_to_test_booking_days']
+        for agent in self.network.agents:
+            delay_days = random_tools.random_choices(self.prng, list(delay_distribution.keys()),
+                                                     list(delay_distribution.values()), 1)[0]
+            delay_ticks = int(clock.days_to_ticks(int(delay_days)))
+            self.invitation_to_test_booking_delay[agent] = delay_ticks
 
     def midnight(self, clock, t):
         """At midnight, book agents in for testing after a given delay by queuing up events
@@ -40,13 +59,15 @@ class LargeScaleTesting(Intervention):
             return
 
         # Invite for testing by random selection:
-        test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
-                                                        self.agents_tested_per_day)
-        for agent in test_agents_random:
-            self.test_booking_events.add("request.testing.book_test", \
-                                         self.invitation_to_test_booking_delay, agent)
+        if t in self.invitations_schedule.keys():
+            self.max_per_day = self.invitations_schedule[t]
+            test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
+                                                            self.invitations_schedule[t])
+            for agent in test_agents_random:
+                self.test_booking_events.add("request.testing.book_test", \
+                                             self.invitation_to_test_booking_delay[agent], agent)
 
-class OtherTesting(Intervention):
+class PrescriptionTesting(Intervention):
     """This refers to situations where an agent books a test without having been directed to do so
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""

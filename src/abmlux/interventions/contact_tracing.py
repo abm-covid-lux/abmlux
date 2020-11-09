@@ -27,18 +27,13 @@ class ContactTracingManual(Intervention):
     def __init__(self, prng, config, clock, bus, state, init_enabled):
         super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.max_per_day_raw          = config['max_per_day']
         self.tracing_time_window_days = config['tracing_time_window_days']
         self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
                                          config['relevant_activities']}
         self.prob_do_recommendation   = config['prob_do_recommendation']
         self.location_type_blacklist  = config['location_type_blacklist']
-
-        self.daily_notification_count = 0
-        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
-        self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
-
         self.activity_manager         = state.activity_manager
+        self.daily_notification_count = 0
 
         # Keep state on who has been colocated with whom
         self.contacts_archive         = deque(maxlen=self.tracing_time_window_days)
@@ -47,8 +42,28 @@ class ContactTracingManual(Intervention):
         # Listen for interesting things
         self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
         self.bus.subscribe("notify.agent.location", self.handle_location_change, self)
-        self.bus.subscribe("notify.time.midnight", self.update_contact_lists, self)
+        self.bus.subscribe("notify.time.midnight", self.midnight, self)
         self.bus.subscribe("notify.testing.result", self.notify_if_testing_positive, self)
+
+        def rescale(param, scale_factor):
+            """Rescales parameters according to a specified scale factor"""
+            return max(int(param * scale_factor), 1)
+
+        def parse_param_updates(param_dict):
+            """Parses parameter update schedule from config, creating calendar of updates"""
+            param_updates = {}
+            for param_time, param in param_dict.items():
+                if isinstance(param_time, str):
+                    ticks = int(clock.datetime_to_ticks(param_time))
+                else:
+                    ticks = int(param_time)
+                param_updates[ticks] = int(rescale(param, scale_factor))
+            return param_updates
+
+        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
+
+        self.max_per_day         = rescale(config['max_per_day_initial'], scale_factor)
+        self.max_per_day_updates = parse_param_updates(config['max_per_day_updates'])
 
     def start_sim(self, sim):
         """Callback run when the simulator starts.  Used to store a reference to the current
@@ -82,13 +97,17 @@ class ContactTracingManual(Intervention):
 
         self.daily_notification_count += 1
 
-    def update_contact_lists(self, clock, t):
-        """Archive today's contacts and make a new structure to store the coming day's"""
+    def midnight(self, clock, t):
+        """Archive today's contacts, make a new structure to store the coming day's and,
+        if necessary, update the maximum number of cases whose contacts can be traced"""
 
         # Update contact lists
         # print(f"End of day.  {len(self.contacts_archive[0])} people contacted others today")
         self.contacts_archive.appendleft(defaultdict(set))
         self.daily_notification_count = 0
+
+        if t in self.max_per_day_updates.keys():
+            self.max_per_day = self.max_per_day_updates[t]
 
     def handle_location_change(self, agent, old_location):
         """Callback run when an agent is moved within the world."""

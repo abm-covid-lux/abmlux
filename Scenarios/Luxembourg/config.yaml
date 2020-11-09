@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 112
+random_seed: 430
 
 # The total number of resident agents on the network. If this equals the sum of age_distribution
 # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -548,7 +548,8 @@ disease_model:
   # If the PPM intervention is enabled, these must match for the model to be valid.
   # Avoiding this dependency is a TODO list item!
   personal_protective_measures:
-    ppm_coeff: 0.7
+    ppm_coeff: 1.0
+    # ppm_coeff: 0.7
     # The probability that an agent follows the recommendations in place:
     prob_do_recommendation: 1.0
     # The probability that an individual wears a mask in each location, given that the individual follows
@@ -648,42 +649,42 @@ disease_model:
   # uniformly at random:
   initial_infections: 10
   # How many susceptible people are randomly selected for exposure on midnight each day:
-  random_exposures: 2
+  random_exposures: 0
   # The probability of other agents sharing a given location catching the pathogen each time tick:
   infection_probabilities_per_tick:
-    House:                            0.00035
-    Care Home:                        0.00035
-    OW Agriculture:                   0.00035
-    OW Extraction:                    0.00035
-    OW Manufacturing:                 0.00035
-    OW Energy:                        0.00035
-    OW Water:                         0.00035
-    OW Construction:                  0.00035
-    OW Trade:                         0.00035
-    OW Transport:                     0.00035
-    OW Catering and Accommodation:    0.00035
-    OW ICT:                           0.00035
-    OW Finance:                       0.00035
-    OW Real Estate:                   0.00035
-    OW Technical:                     0.00035
-    OW Administration:                0.00035
-    OW Education:                     0.00035
-    OW Entertainment:                 0.00035
-    OW Other Services:                0.00035
-    Primary School:                   0.00035
-    Secondary School:                 0.00035
-    Restaurant:                       0.00035
+    House:                            0.0007
+    Care Home:                        0.0007
+    OW Agriculture:                   0.0007
+    OW Extraction:                    0.0007
+    OW Manufacturing:                 0.0007
+    OW Energy:                        0.0007
+    OW Water:                         0.0007
+    OW Construction:                  0.0007
+    OW Trade:                         0.0007
+    OW Transport:                     0.0007
+    OW Catering and Accommodation:    0.0007
+    OW ICT:                           0.0007
+    OW Finance:                       0.0007
+    OW Real Estate:                   0.0007
+    OW Technical:                     0.0007
+    OW Administration:                0.0007
+    OW Education:                     0.0007
+    OW Entertainment:                 0.0007
+    OW Other Services:                0.0007
+    Primary School:                   0.0007
+    Secondary School:                 0.0007
+    Restaurant:                       0.0007
     Outdoor:                          0.0
-    Car:                              0.00035
-    Public Transport:                 0.00035
-    Shop:                             0.00035
-    Medical:                          0.00035
-    Hospital:                         0.00035
-    Hotel:                            0.00035
-    Place of Worship:                 0.00035
-    Indoor Sport:                     0.00035
-    Cinema or Theatre:                0.00035
-    Museum or Zoo:                    0.00035
+    Car:                              0.0007
+    Public Transport:                 0.0007
+    Shop:                             0.0007
+    Medical:                          0.0007
+    Hospital:                         0.0007
+    Hotel:                            0.0007
+    Place of Worship:                 0.0007
+    Indoor Sport:                     0.0007
+    Cinema or Theatre:                0.0007
+    Museum or Zoo:                    0.0007
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -705,8 +706,6 @@ interventions:
     __enabled__: true
     # This special key defines when to disable/enable the intervention
     __schedule__:
-    # Things below this line are passed to the intervention as config
-
     # Agents in the following states will be moved to a hospital:
     hospital_states: [HOSPITALIZING, VENTILATING]
     # Agents in the following states will be moved to a cemetery:
@@ -716,20 +715,110 @@ interventions:
     hospital_location_type: Hospital
 
 
-
   # The intervention refers to a system that distributes
   # invitations to test, across the population, according to a certain algorithm. 
   large_scale_testing:
     __type__: testing.LargeScaleTesting
-    __enabled__: false
+    __enabled__: true
     __schedule__:
-      18th May 2020: enable
-    # The number of agents selected uniformly at random for testing each day:
-    tests_per_day: 5000
-    # The time between an invitation to test being received and the agent booking a test:
-    invitation_to_test_booking_days: 6
-
-
+    # The number of agents invited uniformly at random for testing on given days:
+    invitations_schedule:
+      18th May 2020: 1937
+      25th May 2020: 58381
+      2nd JUne 2020: 47487
+      8th June 2020: 153909
+      15th June 2020: 158136
+      22nd June 2020: 138417
+      29th June 2020: 190932
+      6th July 2020: 187658
+      13th July 2020: 188499
+      17th July 2020: 41061
+      20th July 2020: 64479
+      27th July 2020: 71988
+      3rd August 2020: 35242
+      10th August 2020: 50342
+      17th August 2020: 8084
+      24th August 2020: 35242
+      31st August 2020: 26907
+      7th September 2020: 26908
+    # The distribution of time between an invitation to test being received
+    # and the agent booking a test:
+    invitation_to_test_booking_days:
+      1:  106
+      2:  122
+      3:  102
+      4:  81
+      5:  50
+      6:  37
+      7:  37
+      8:  26
+      9:  26
+      10: 23
+      11: 23
+      12: 19
+      13: 19
+      14: 9
+      15: 9
+      16: 12
+      17: 12
+      18: 11
+      19: 11
+      20: 7
+      21: 7
+      22: 6
+      23: 6
+      24: 9
+      25: 9
+      26: 7
+      27: 7
+      28: 6
+      29: 6
+      30: 8
+      31: 8
+      32: 7
+      33: 7
+      34: 6
+      35: 6
+      36: 4
+      37: 4
+      38: 5
+      39: 5
+      40: 4
+      41: 4
+      42: 3
+      43: 3
+      44: 3
+      45: 3
+      46: 3
+      47: 2
+      48: 2
+      49: 2
+      50: 2
+      51: 2
+      52: 2
+      53: 2
+      54: 2
+      55: 2
+      56: 2
+      57: 1
+      58: 1
+      59: 1
+      60: 1
+      61: 1
+      62: 1
+      63: 1
+      64: 1
+      65: 1
+      66: 1
+      67: 1
+      68: 1
+      69: 1
+      70: 1
+      71: 1
+      72: 1
+      73: 1
+      74: 1
+      75: 1
 
   # The intervention 'test_booking' simply refer to the system that books tests for agents, should
   # they request a booking.
@@ -737,7 +826,6 @@ interventions:
     __type__: laboratory.TestBooking
     __enabled__: true
     __schedule__:
-
     # The time taken between the booking of a test and the time at which the test takes place, in the
     # case where the agent is not showing symptoms at the time of booking:
     test_booking_to_test_sample_days_no_symptoms: 4
@@ -768,39 +856,54 @@ interventions:
     contagious_states: [ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING]
 
 
-  # The intervention 'contact_tracing_app' refers to contact tracing perform not manually, but via an
-  # application installed on the phones of agents. A certain proportion of the population is assumed
-  # to possess the app from the very beginning. The app works according to the Corona-Warn-App, which
-  # is the official COVID-19 exposure notification app developed for Germany. The window of time over
-  # which contacts are considered is specified.
-  contact_tracing_app:
-    __type__: contact_tracing.ContactTracingApp
-    __enabled__: false
+  # The intervention 'other_testing' refers to situations where an agent books a test without having
+  # been directed to do so by any of the other interventions. Chief among these are the situations in
+  # which an agent voluntarily books a test having developed symptoms.
+  prescription_testing:
+    __type__: testing.PrescriptionTesting
+    __enabled__: true
     __schedule__:
-    # Proportion of population who have the app:
-    app_prevalence: 0.2
-    # The window of time over which contacts are considered:
-    tracing_time_window_days: 14
-    # Contacts are assumed to occur when two agents are in the same location at the same time. So long
-    # as the tick length is at least 600 seconds, this assumption implies the following vaules for the
-    # app parameters, full details of which are described in the documentation of the Corona-Warn-App:
-    duration_wgt: 1
-    attenuation_wgt: 1
-    days_since_last_expsr_wgt: 5
-    # The risk level is calculated according to the base case specified by the Corona-Warn-App, the
-    # units of the indices being days and the length of which should be equal to the window length:
-    trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
-    # Threshold parameters as specified by the Corona-Warn-App:
-    trans_risk_threshold: 11
-    time_at_risk_threshold_mins: 15
-    # Average risk used in calculating total time at risk, as specified by the Corona-Warn-App:
-    av_risk_mins: 25
-    # Agents follow the advice to quarantine and immediately book a test with the following
-    # probability:
-    prob_do_recommendation: 1.0
-    # Locations except from the contact tracing proceedure are as follows:
-    location_blacklist: [Outdoor, Cemetery, Belgium, France, Germany]
+    # The probability that an agent books a test at the moment they develop symptoms. This corresponds
+    # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
+    # recommends the agent to get tested.
+    prob_test_symptoms: 1.0
+    # Time between onset of symptoms and booking of a test:
+    onset_of_symptoms_to_test_booking_days: 1
+    # Agents in the following states are symptomatic:
+    symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
 
+  # # The intervention 'contact_tracing_app' refers to contact tracing perform not manually, but via an
+  # # application installed on the phones of agents. A certain proportion of the population is assumed
+  # # to possess the app from the very beginning. The app works according to the Corona-Warn-App, which
+  # # is the official COVID-19 exposure notification app developed for Germany. The window of time over
+  # # which contacts are considered is specified.
+  # contact_tracing_app:
+  #   __type__: contact_tracing.ContactTracingApp
+  #   __enabled__: false
+  #   __schedule__:
+  #   # Proportion of population who have the app:
+  #   app_prevalence: 0.2
+  #   # The window of time over which contacts are considered:
+  #   tracing_time_window_days: 14
+  #   # Contacts are assumed to occur when two agents are in the same location at the same time. So long
+  #   # as the tick length is at least 600 seconds, this assumption implies the following vaules for the
+  #   # app parameters, full details of which are described in the documentation of the Corona-Warn-App:
+  #   duration_wgt: 1
+  #   attenuation_wgt: 1
+  #   days_since_last_expsr_wgt: 5
+  #   # The risk level is calculated according to the base case specified by the Corona-Warn-App, the
+  #   # units of the indices being days and the length of which should be equal to the window length:
+  #   trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
+  #   # Threshold parameters as specified by the Corona-Warn-App:
+  #   trans_risk_threshold: 11
+  #   time_at_risk_threshold_mins: 15
+  #   # Average risk used in calculating total time at risk, as specified by the Corona-Warn-App:
+  #   av_risk_mins: 25
+  #   # Agents follow the advice to quarantine and immediately book a test with the following
+  #   # probability:
+  #   prob_do_recommendation: 1.0
+  #   # Locations except from the contact tracing proceedure are as follows:
+  #   location_blacklist: [Outdoor, Cemetery, Belgium, France, Germany]
 
 
   # The intervention 'contact_tracing' refers to the manual tracing of contacts of agents with postive
@@ -817,11 +920,15 @@ interventions:
     __type__: contact_tracing.ContactTracingManual
     __enabled__: false
     __schedule__:
-      200: enable
-      1000: enable
-
+      20th April 2020: enable
     # The maximum number of positive agents whose contacts can be tested each day:
-    max_per_day: 100
+    max_per_day_initial: 100
+    # Dates on which the maximum number should be updated, and the corresponding new limits:
+    max_per_day_updates:
+      1st July 2020: 200
+      1st August 2020: 350
+      1st September 2020: 500
+      1st November 2020: 600
     # The window of time over which contacts are considered:
     tracing_time_window_days: 2
     # The activities considered relevant for the purposes of contact tracing:
@@ -831,10 +938,6 @@ interventions:
     prob_do_recommendation: 1.0
     # Locations except from the contact tracing proceedure are as follows:
     location_type_blacklist: [Cemetery, Belgium, France, Germany]
-
-
-
-
 
 
   # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
@@ -847,7 +950,6 @@ interventions:
     __type__: quarantine.Quarantine
     __enabled__: true
     __schedule__:
-
     # If this is true, disabling quarantine immediately allows people to change
     # else it simply disables putting new people into quarantine, and they still have to
     # wait out their allotted time.
@@ -865,6 +967,79 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
     # home_activity_type: Outdoor
+
+
+  # # The interventions 'work_from_home' causes people to work from home, with a certain probability.
+  # work_from_home:
+  #   __type__: work_from_home.WorkFromHome
+  #   __enabled__: false
+  #   __schedule__:
+  #   # Probability to work from home:
+  #   prob_work_from_home: 0.5
+  #   # Location types exempt from working at home restrictions:
+  #   locations_exempt:
+  #     - Care Home
+  #     - Primary School
+  #     - Secondary School
+  #     - Restaurant
+  #     - Medical
+  #     - Hospital
+  #     - Hotel
+  #     - Place of Worship
+  #     - Indoor Sport
+  #     - Cinema or Theatre
+  #     - Museum or Zoo
+  #   # If an agent requests to move to the location at which they perform the activity 'Work', they
+  #   # are directed to the location at which they perform the activity 'House':
+  #   home_activity_type: House
+  #   work_activity_type: Work
+
+    
+  # The interventions 'curfew' closes a given set of locations during given hours.
+  curfew:
+    __type__: curfew.Curfew
+    __enabled__: false
+    __schedule__:
+      26th October 2020: enable
+    # Hours of operation
+    start_time: 23
+    end_time: 6
+    # A list of location types subject to closures during given hours
+    locations:
+      - House
+      - Care Home
+      - OW Agriculture
+      - OW Extraction
+      - OW Manufacturing
+      - OW Energy
+      - OW Water
+      - OW Construction
+      - OW Trade
+      - OW Transport
+      - OW Catering and Accommodation
+      - OW ICT
+      - OW Finance
+      - OW Real Estate
+      - OW Technical
+      - OW Administration
+      - OW Education
+      - OW Entertainment
+      - OW Other Services
+      - School
+      - Restaurant
+      - Outdoor
+      - Car
+      - Public Transport
+      - Shop
+      - Medical
+      - Hotel
+      - Place of Worship
+      - Indoor Sport
+      - Cinema or Theatre
+      - Museum or Zoo
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
 
 
   # The interventions 'location_closure' refer to closure of all locations of a certain type. In the
@@ -903,7 +1078,7 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  location_closure_ow_1:
+  location_closure_other_work_general:
     __type__: location_closure.LocationClosures
     __enabled__: false
     __schedule__:
@@ -919,21 +1094,6 @@ interventions:
       - OW Energy
       - OW Water
       - OW Transport
-    # Unless an agent is in an exempt location, they are directed to the location at which they
-    # perform the activity 'House':
-    home_activity_type: House
-
-  location_closure_ow_2:
-    __type__: location_closure.LocationClosures
-    __enabled__: false
-    __schedule__:
-      19th March 2020: enable
-      24th June 2020: disable
-    # A list of location type subject to possible closures, one of the notable exceptions being shops.
-    # Whether or not a location is closed may depend on the activity in question (for example, visits
-    # to care homes may be prohibited while residents and workers continue to be able to access the
-    # care home.
-    locations:
       - OW Extraction
       - OW Trade
       - OW ICT
@@ -997,7 +1157,7 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  location_closure_pow:
+  location_closure_place_of_worship:
     __type__: location_closure.LocationClosures
     __enabled__: false
     __schedule__:
@@ -1032,125 +1192,48 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  curfew:
-    __type__: curfew.Curfew
-    __enabled__: false
-    __schedule__:
-    # Hours of operation
-    start_time: 23
-    end_time: 6
-    # A list of location types subject to closures during given hours
-    locations:
-      - House
-      - Care Home
-      - OW Agriculture
-      - OW Extraction
-      - OW Manufacturing
-      - OW Energy
-      - OW Water
-      - OW Construction
-      - OW Trade
-      - OW Transport
-      - OW Catering and Accommodation
-      - OW ICT
-      - OW Finance
-      - OW Real Estate
-      - OW Technical
-      - OW Administration
-      - OW Education
-      - OW Entertainment
-      - OW Other Services
-      - School
-      - Restaurant
-      - Outdoor
-      - Car
-      - Public Transport
-      - Shop
-      - Medical
-      - Hotel
-      - Place of Worship
-      - Indoor Sport
-      - Cinema or Theatre
-      - Museum or Zoo
-    # Unless an agent is in an exempt location, they are directed to the location at which they
-    # perform the activity 'House':
-    home_activity_type: House
-
-  # The intervention 'other_testing' refers to situations where an agent books a test without having
-  # been directed to do so by any of the other interventions. Chief among these are the situations in
-  # which an agent voluntarily books a test having developed symptoms.
-  other_testing:
-    __type__: testing.OtherTesting
-    __enabled__: false
-    __schedule__:
-    # The probability that an agent books a test at the moment they develop symptoms. This corresponds
-    # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
-    # recommends the agent to get tested.
-    prob_test_symptoms: 1.0
-    # Time between onset of symptoms and booking of a test:
-    onset_of_symptoms_to_test_booking_days: 1
-    # Agents in the following states are symptomatic:
-    symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
-
-
-  # The intervention 'personal_protective_measures' refers to the effect of such measures as hand
-  # hygiene, face masks, surface and object cleaning and other environmental measures. The combined
-  # effect of such measures is represented as a coefficient in the range (0,1] that multiplies the
-  # transmission probabilty.
-  ppm:
-    __type__: ppm.PersonalProtectiveMeasures
-    __enabled__: false
-    __schedule__:
-    # Agents attempting to transition to these states will occasionally have the transition
-    # blocked, representing PPM working
-    incubating_states: [EXPOSED]
-    # According to https://arxiv.org/pdf/2004.13553.pdf the effect of face masks is modelled by the
-    # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
-    # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
-    # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
-    # and even nonmedical or homemade masks.
-    ppm_coeff: 0.7
-    # The probability that an agent follows the recommendations in place:
-    prob_do_recommendation: 1.0
-    # The probability that an individual wears a mask in each location, given that the individual follows
-    # the recommendations in place:
-    prob_wear_mask:
-      House:                          0.0
-      Care Home:                      0.2
-      OW Agriculture:                 0.2
-      OW Extraction:                  0.2
-      OW Manufacturing:               0.2
-      OW Energy:                      0.2
-      OW Water:                       0.2 
-      OW Construction:                0.2
-      OW Trade:                       0.2
-      OW Transport:                   0.2
-      OW Catering and Accommodation:  0.2
-      OW ICT:                         0.2
-      OW Finance:                     0.2
-      OW Real Estate:                 0.2
-      OW Technical:                   0.2
-      OW Administration:              0.2
-      OW Education:                   0.2
-      OW Entertainment:               0.2
-      OW Other Services:              0.2
-      Primary School:                 0.2
-      Secondary School:               0.2
-      Restaurant:                     0.2
-      Outdoor:                        0.0
-      Car:                            0.0
-      Public Transport:               1.0
-      Shop:                           1.0
-      Medical:                        1.0
-      Hospital:                       1.0
-      Hotel:                          1.0
-      Place of Worship:               1.0
-      Indoor Sport:                   0.2
-      Cinema or Theatre:              0.2
-      Museum or Zoo:                  1.0
-      Belgium:                        0.0
-      France:                         0.0
-      Germany:                        0.0
-      Cemetery:                       0.0
-    # Note that the above probabilities refer to the default 600 second time interval, and must be
-    # recalculating otherwise.
+  # retired_lockdown:
+  #     __type__: retired_lockdown.RetiredLockdown
+  #     __enabled__: false
+  #     __schedule__:
+  #     # The age at which agents or agents living with such agents are subject to lockdown
+  #     # restrictions:
+  #     age_limit: 65
+  #     # A list of location type subject to possible closures, one of the notable exceptions being shops.
+  #     # Whether or not a location is closed may depend on the activity in question (for example, visits
+  #     # to care homes may be prohibited while residents and workers continue to be able to access the
+  #     # care home.
+  #     locations:
+  #       - House
+  #       - Care Home
+  #       - OW Agriculture
+  #       - OW Extraction
+  #       - OW Manufacturing
+  #       - OW Energy
+  #       - OW Water
+  #       - OW Construction
+  #       - OW Trade
+  #       - OW Transport
+  #       - OW Catering and Accommodation
+  #       - OW ICT
+  #       - OW Finance
+  #       - OW Real Estate
+  #       - OW Technical
+  #       - OW Administration
+  #       - OW Education
+  #       - OW Entertainment
+  #       - OW Other Services
+  #       - Primary School
+  #       - Secondary School
+  #       - Restaurant
+  #       - Car
+  #       - Public Transport
+  #       - Medical
+  #       - Hotel
+  #       - Place of Worship
+  #       - Indoor Sport
+  #       - Cinema or Theatre
+  #       - Museum or Zoo
+  #     # Unless an agent is in an exempt location, they are directed to the location at which they
+  #     # perform the activity 'House':
+  #     home_activity_type: House
