@@ -73,7 +73,7 @@ class SimClock:
         self.t       = 0
         self.started = False
 
-    def __iter__(self) -> SimClock:
+    def __iter__(self):
         self.reset()
         return self
 
