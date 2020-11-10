@@ -119,7 +119,8 @@ setup(
         # 'dev': ['check-manifest'],
         'test': ['pytest',
                  'pdoc',
-                 'coverage'],
+                 'coverage',
+                 'mypy'],
     },
 
     # If there are data files included in your packages that need to be

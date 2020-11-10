@@ -2,6 +2,7 @@
 
 import logging
 from collections import defaultdict
+from typing import List, Union, Callable, Any
 
 log = logging.getLogger("messagebus")
 
@@ -27,7 +28,7 @@ class MessageBus:
         self.topics_by_owner = defaultdict(set)
         self.owners_by_topic = defaultdict(set)
 
-    def topics_for_owner(self, owner):
+    def topics_for_owner(self, owner: Any) -> List[str]:
         """Return a list of topics the given owner is subscribed to.
 
         Parameters:
@@ -38,7 +39,7 @@ class MessageBus:
 
         return self.topics_by_owner[owner]
 
-    def subscribe(self, topic, callback, owner):
+    def subscribe(self, topic: str, callback: Callable, owner: Any) -> None:
         """Subscribe to a topic, providing a callback function that will be invoked when
         an event is published on that topic.
 
@@ -55,7 +56,7 @@ class MessageBus:
             self.topics_by_owner[owner].add(topic)
             self.owners_by_topic[topic].add(owner)
 
-    def unsubscribe_all(self, owner):
+    def unsubscribe_all(self, owner: Any) -> None:
         """Unsubscribe the given owner from all topics.
 
         Parameters:
@@ -67,7 +68,7 @@ class MessageBus:
             self.handlers[topic] = [(cb, ownr) for cb, ownr in self.handlers[topic] \
                                     if ownr != owner]
 
-    def publish(self, topic, *args, **kwargs):
+    def publish(self, topic: str, *args, **kwargs) -> None:
         """Publish an event to the messagebus on the topic given.
 
         All handlers will be called in the order they subscribed.

@@ -4,6 +4,7 @@ from zlib import adler32
 import functools
 import importlib
 import logging
+from typing import List, Any
 
 import matplotlib.cm as cm
 import matplotlib.colors as colors
@@ -13,7 +14,7 @@ BYTES_IN_A_GIB = 1.074e+9
 
 log = logging.getLogger("utils")
 
-def instantiate_class(module_base, module_path, *args, **kwargs):
+def instantiate_class(module_base: str, module_path: str, *args, **kwargs):
     """Take a string and arguments and instantiate a class, returning it."""
 
     # Instantiate the class itself
@@ -31,26 +32,26 @@ def instantiate_class(module_base, module_path, *args, **kwargs):
 
     return new_instance
 
-def flatten(arr):
+def flatten(arr: List[List[Any]]) -> List[Any]:
     """Flatten a list of lists, returning a single flat list."""
 
     return [item for sublist in arr for item in sublist]
 
 
-def get_memory_usage():
+def get_memory_usage() -> int:
     """Returns the current process' memory usage in bytes"""
 
     process = psutil.Process(os.getpid())
     return process.memory_info().rss  # in bytes
 
-def print_memory_usage():
+def print_memory_usage() -> None:
     """Print memory usage to the terminal."""
     byts = get_memory_usage()
 
     print(f"Current memory usage: {byts / BYTES_IN_A_GIB:.2f}GiB")
 
 @functools.lru_cache(maxsize=1024)
-def string_as_mpl_colour(string, salt=0, scheme="nipy_spectral"):
+def string_as_mpl_colour(string: str, salt: int=0, scheme: str="nipy_spectral"):
     """Returns a matplotlib colour for the given string.
 
     Uses the adler32 hash to ensure the colour is always the same."""
@@ -62,7 +63,7 @@ def string_as_mpl_colour(string, salt=0, scheme="nipy_spectral"):
     return colour
 
 @functools.lru_cache(maxsize=1024)
-def string_as_hex_colour(string, salt=0, scheme="nipy_spectral"):
+def string_as_hex_colour(string: str, salt: int=0, scheme: str="nipy_spectral"):
     """Returns a hex string representing the string given.  Deterministic."""
 
     return colors.to_hex(string_as_mpl_colour(string, salt, scheme))

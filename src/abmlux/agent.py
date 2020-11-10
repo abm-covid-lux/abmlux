@@ -3,7 +3,9 @@ import logging
 import uuid
 from enum import IntEnum
 from collections.abc import Iterable
+from typing import Union, List, Dict
 
+from abmlux.location import Location
 
 log = logging.getLogger("agent")
 
@@ -24,21 +26,21 @@ POPULATION_RANGES = {
 class Agent:
     """Represents a single agent within the simulation"""
 
-    def __init__(self, age, current_location=None):
+    def __init__(self, age: int, current_location: Union[Location, None]=None):
         # TODO: documentation of argument meaning
 
         self.uuid               = uuid.uuid4().hex
         self.agetyp             = Agent.agent_type_by_age(age)
         self.age                = age
-        self.activity_locations = {}
+        self.activity_locations: Dict[str, List[Location]] = {}
 
         # Current state
-        self.current_activity  = None
-        self.current_location  = current_location
-        self.health            = None
+        self.current_activity: Union[str, None]  = None
+        self.current_location                    = current_location
+        self.health: Union[str, None]            = None
 
     @staticmethod
-    def agent_type_by_age(age):
+    def agent_type_by_age(age: int) -> AgentType:
         """Given an age, return the type."""
 
         for agetyp, rng in POPULATION_RANGES.items():
@@ -47,7 +49,7 @@ class Agent:
 
         raise ValueError(f"No agent type mapping for age {age}")
 
-    def locations_for_activity(self, activity):
+    def locations_for_activity(self, activity: str) -> List[Location]:
         """Return a list of locations this agent can go to for
         the activity given"""
 
@@ -56,7 +58,7 @@ class Agent:
 
         return self.activity_locations[activity]
 
-    def add_activity_location(self, activity, location):
+    def add_activity_location(self, activity: str, location: Union[Location, List[Location]]) -> None:
         """Add a location to the list allowed for a given activity"""
 
         if activity not in self.activity_locations:
@@ -70,13 +72,13 @@ class Agent:
 
         self.activity_locations[activity] += location
 
-    def set_activity(self, activity):
+    def set_activity(self, activity: str) -> None:
         """Sets the agent as performing the activity given"""
 
         log.debug("Agent %s: Activity %s -> %s", self.uuid, self.current_activity, activity)
         self.current_activity = activity
 
-    def set_location(self, location):
+    def set_location(self, location: Location) -> None:
         """Sets the agent as being in the location specified"""
 
         log.debug("Agent %s: Location %s -> %s", self.uuid, self.current_location, location)

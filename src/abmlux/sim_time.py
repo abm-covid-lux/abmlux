@@ -5,8 +5,10 @@ Used to represent time in the model."""
 import logging
 from collections import defaultdict
 from datetime import datetime,timedelta
+from typing import Union, Dict, List
 
 import dateparser
+from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("sim_time")
 
@@ -15,7 +17,7 @@ class SimClock:
     # They're appropriate in this case.
     # pylint: disable=too-many-instance-attributes
 
-    def __init__(self, tick_length_s, simulation_length_days=100, epoch=datetime.now()):
+    def __init__(self, tick_length_s: int, simulation_length_days: int=100, epoch: Union[str, datetime]=datetime.now()):
         """Create a new clock.
 
         This clock counts forward in time by a set amount every tick, ignoring timezone
@@ -38,7 +40,12 @@ class SimClock:
             raise ValueError("Tick length must be divisible by week length")
 
         if isinstance(epoch, str):
-            epoch = dateparser.parse(epoch)
+            parsed = dateparser.parse(epoch)
+            if parsed is None:
+                raise ValueError(f"Unable to parse input epoch ('{epoch}')")
+            self.epoch = parsed
+        else:
+            self.epoch = epoch
 
         self.tick_length_s = tick_length_s
         self.ticks_in_second = 1          / self.tick_length_s
@@ -47,7 +54,6 @@ class SimClock:
         self.ticks_in_day    = 86400      / self.tick_length_s
         self.ticks_in_week   = int(604800 / self.tick_length_s)
 
-        self.epoch             = epoch
         self.epoch_week_offset = int(self.epoch.weekday() * self.ticks_in_day \
                                  + self.epoch.hour        * self.ticks_in_hour \
                                  + self.epoch.minute      * self.ticks_in_minute \
@@ -61,17 +67,17 @@ class SimClock:
         log.info("New clock created at %s, tick_length=%i, simulation_days=%i, week_offset=%i",
                  self.epoch, tick_length_s, simulation_length_days, self.epoch_week_offset)
 
-    def reset(self):
+    def reset(self) -> None:
         """Reset the clock to the start once more"""
         log.debug("Resetting clock at t=%i", self.t)
         self.t       = 0
         self.started = False
 
-    def __iter__(self):
+    def __iter__(self) -> SimClock:
         self.reset()
         return self
 
-    def __next__(self):
+    def __next__(self) -> int:
 
         if self.started:
             self.t += 1
@@ -83,78 +89,78 @@ class SimClock:
 
         return self.t
 
-    def __len__(self):
+    def __len__(self) -> int:
         return self.max_ticks
 
-    def tick(self):
+    def tick(self) -> int:
         """Iterate the clock by a single tick"""
         return next(self)
 
-    def now(self):
+    def now(self) -> datetime:
         """Return a datetime.datetime showing the clock time"""
         # TODO: speed this up by doing dead reckonining
         #        instead of using the date libs
         return self.epoch + self.time_elapsed()
 
-    def ticks_through_week(self):
+    def ticks_through_week(self) -> int:
         """Returns the number of ticks through the week this is"""
         return int((self.epoch_week_offset + self.t) % self.ticks_in_week)
 
-    def ticks_elapsed(self):
+    def ticks_elapsed(self) -> int:
         """Return the number of ticks elapsed since the start of the simulation.
 
         Equivalent to self.t"""
         return self.t
 
-    def ticks_remaining(self):
+    def ticks_remaining(self) -> int:
         """Return the number of ticks remaining before the end of the simulation"""
         return self.max_ticks - self.t
 
-    def time_elapsed(self):
+    def time_elapsed(self) -> timedelta:
         """Return the time elapsed, as a timedelta object"""
         return self.ticks_to_timedelta(self.t)
 
-    def time_remaining(self):
+    def time_remaining(self) -> timedelta:
         """Return the time remaining, as a timedelta object"""
         return self.ticks_to_timedelta(self.max_ticks - self.t)
 
-    def seconds_elapsed(self):
+    def seconds_elapsed(self) -> float:
         """Return the number of seconds elapsed since the start of the simulation"""
         return self.t * self.tick_length_s
 
-    def minutes_elapsed(self):
+    def minutes_elapsed(self) -> float:
         """Return the number of minutes elapsed since the start of the simulation"""
         return self.t / self.ticks_in_minute
 
-    def hours_elapsed(self):
+    def hours_elapsed(self) -> float:
         """Return the number of hours elapsed since the start of the simulation"""
         return self.t / self.ticks_in_hour
 
-    def days_elapsed(self):
+    def days_elapsed(self) -> float:
         """Return the number of days elapsed since the start of the simulation"""
         return self.t / self.ticks_in_day
 
-    def weeks_elapsed(self):
+    def weeks_elapsed(self) -> float:
         """Return the number of weeks elapsed since the start of the simulation"""
         return self.t / self.ticks_in_week
 
-    def mins_to_ticks(self, mins):
+    def mins_to_ticks(self, mins) -> float:
         """Convert a number of minutes to a number of simulation ticks"""
         return mins * self.ticks_in_minute
 
-    def days_to_ticks(self, days):
+    def days_to_ticks(self, days) -> float:
         """Convert a number of days to a number of simulation ticks"""
         return days * self.ticks_in_day
 
-    def timedelta_to_ticks(self, timed):
+    def timedelta_to_ticks(self, timed) -> float:
         """Convert a timedelta object to a number of simulation ticks"""
         return timed.total_seconds() / self.tick_length_s
 
-    def ticks_to_timedelta(self, ticks):
+    def ticks_to_timedelta(self, ticks) -> timedelta:
         """Convert a number of simulation ticks to a timedelta object"""
         return timedelta(seconds=ticks * self.tick_length_s)
 
-    def datetime_to_ticks(self, time):
+    def datetime_to_ticks(self, time) -> float:
         # TODO: write tests for this method
         """Convert an actual datetime to ticks, based on the epoch of the clock.
 
@@ -169,14 +175,14 @@ class SimClock:
 
 class DeferredEventPool:
 
-    def __init__(self, bus, clock):
-        self.events = defaultdict(list)
+    def __init__(self, bus: MessageBus, clock: SimClock):
+        self.events: Dict[int, List] = defaultdict(list)
         self.bus = bus
         self.clock = clock
 
         self.bus.subscribe("notify.time.tick", self.tick, self)
 
-    def add(self, topic, lifespan, *args, **kwargs):
+    def add(self, topic: str, lifespan: int, *args, **kwargs) -> None:
 
         if lifespan is None:
             raise ValueError("Timer must have a lifespan set")
@@ -184,7 +190,7 @@ class DeferredEventPool:
         self.deadline = self.clock.t + self._duration_to_ticks(lifespan)
         self.events[self.deadline].append((topic, args, kwargs))
 
-    def tick(self, clock, t):
+    def tick(self, clock: SimClock, t: int) -> None:
         for event in self.events[t]:
             topic, args, kwargs = event
             if isinstance(topic, str):
@@ -194,7 +200,7 @@ class DeferredEventPool:
 
         del(self.events[t])
 
-    def _duration_to_ticks(self, time_ref):
+    def _duration_to_ticks(self, time_ref: Union[int, timedelta]) -> int:
         """Converts a duration in raw ticks or timedelta into a number of ticks
         in the current clock"""
 
