@@ -7,31 +7,40 @@ framework."""
 
 import logging
 from collections import defaultdict
+from random import Random
 
 from tqdm import tqdm
 
 from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
+from abmlux.sim_state import SimulationState
+from abmlux.agent import Agent
+from abmlux.location import Location
+from abmlux.disease import DiseaseModel
+from abmlux.interventions import Intervention
+from abmlux.network import Network
+from abmlux.activity_manager import ActivityManager
+from abmlux.sim_time import SimClock
 
 log = logging.getLogger('sim')
 
 class Simulator:
     """Class that simulates an outbreak."""
 
-    def __init__(self, state):
+    def __init__(self, state: SimulationState):
 
         # -------------------------------------------[ Config ]------------------------------------
-        self.state            = state
-        self.activity_manager = state.activity_manager
-        self.clock            = state.clock
-        self.bus              = state.bus
+        self.state: SimulationState             = state
+        self.activity_manager: ActivityManager  = state.activity_manager
+        self.clock: SimClock                    = state.clock
+        self.bus: MessageBus                    = state.bus
 
-        self.prng          = state.prng
-        self.network       = state.network
-        self.locations     = state.network.locations
-        self.agents        = state.network.agents
-        self.disease       = state.disease
-        self.interventions = state.interventions.keys()
+        self.prng: Random                      = state.prng
+        self.network: Network                  = state.network
+        self.locations: list[Location]         = state.network.locations
+        self.agents: list[Agent]               = state.network.agents
+        self.disease: DiseaseModel             = state.disease
+        self.interventions: list[Intervention] = list(state.interventions.keys())
 
         # Read-only config
         self.agent_updates = defaultdict(dict)
