@@ -40,8 +40,9 @@ def ETRS89_to_WGS84(coord: LocationTuple) -> LocationTuple:
 
     return _transform_ETRS89_to_WGS84.transform(coord[1], coord[0])
 
-def WGS84_to_ETRS89(latitude: float, longitude: float) -> LocationTuple:
+def WGS84_to_ETRS89(coord: LocationTuple) -> LocationTuple:
     """Convert from lat, lon in WGS84 format to ABMLUX' grid format (ETRS89)"""
     # FIXME: this is inconsistent with ETRS89_to_WGS84, taking lat/lon instead of a tuple
 
+    latitude, longitude = coord
     return _transform_WGS84_to_ETRS89.transform(latitude, longitude)

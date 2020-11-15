@@ -60,7 +60,7 @@ class Agent:
         return self.activity_locations[activity]
 
     def add_activity_location(self, activity: str, location: Location) -> None:
-        """Add a location to the list allowed for a given activity"""
+        """Add a location to the list allowed for a given activity
 
         Parameters:
             activity: The activity that will be performed
