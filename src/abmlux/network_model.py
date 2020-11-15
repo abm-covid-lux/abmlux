@@ -250,7 +250,7 @@ def get_weight(config, dist_km, distance_distribution):
 
     dist_length = sum([len(dist_bin) for dist_bin in list(distance_distribution.keys())])
     if int(road_distance(config, dist_km)) >= dist_length:
-        return 0.0
+        return 0.0  # FIXME: this causes some calls to random weighted selection with 0 weights
 
     for distribution_bin in distance_distribution:
         if int(road_distance(config, dist_km)) in distribution_bin:

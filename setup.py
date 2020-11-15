@@ -118,7 +118,7 @@ setup(
     extras_require={  # Optional
         # 'dev': ['check-manifest'],
         'test': ['pytest',
-                 'pdoc',
+                 #'pdoc',
                  'coverage'],
     },
 
