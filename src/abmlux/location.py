@@ -1,4 +1,6 @@
-"""Tools for representing locations on the network"""
+"""Tools for representing locations on the network.
+
+Locations have a type and coordinates in space."""
 
 import uuid
 from pyproj import Transformer
@@ -12,18 +14,18 @@ _transform_WGS84_to_ETRS89 = Transformer.from_crs('epsg:4326', 'epsg:3035')
 class Location:
     """Represents a location to the system"""
 
-    def __init__(self, typ, coord):
+    def __init__(self, typ, etrs89_coord):
         """Represents a location on the network.
 
         Parameters:
           typ (str): The type of location, as a string
-          coord (tuple):2-tuple with x, y grid coordinates in ETRS89 format
+          etrs89_coord (tuple):2-tuple with x, y grid coordinates in ETRS89 format
         """
         self.uuid      = uuid.uuid4().hex
         self.typ       = typ
-        self.set_coordinates(coord)
+        self._set_coordinates(etrs89_coord)
 
-    def set_coordinates(self, x, y=None):
+    def _set_coordinates(self, x, y=None):
         """Set coordinates for this location.
 
         Accepts x, y as two arguments, or as a single
@@ -39,12 +41,14 @@ class Location:
     def __str__(self):
         return f"{self.typ}[{self.uuid}]"
 
+# pylint: disable=invalid-name
 def ETRS89_to_WGS84(coord):
     """Convert from ABMLUX grid format (actually ETRS89) to lat, lon in WGS84 format"""
 
     return _transform_ETRS89_to_WGS84.transform(coord[1], coord[0])
 
-def WGS84_to_ETRS89(lat, lon):
+def WGS84_to_ETRS89(coords):
     """Convert from lat, lon in WGS84 format to ABMLUX' grid format (ETRS89)"""
 
+    lat, lon = coords
     return _transform_WGS84_to_ETRS89.transform(lat, lon)

@@ -44,11 +44,12 @@ def create_locations(network, density_map, config):
             network.add_location(new_location)
     # Create locations of each border country
     for country in pop_by_border_countries:
-        coord = WGS84_to_ETRS89(border_country_coord[country][1], border_country_coord[country][0])
+        coord = WGS84_to_ETRS89((border_country_coord[country][1],
+                                 border_country_coord[country][0]))
         new_country = Location(country, coord)
         network.add_location(new_country)
 
-def create_agents(prng, network, config):
+def create_agents(network, config):
     """Create a number of Agent objects within the network, according to the distributions
     specified in the configuration object provided."""
 
@@ -580,7 +581,7 @@ def build_network_model(prng, config, density_map):
     log.info("Creating network...")
 
     network = Network(density_map)
-    create_agents(prng, network, config)
+    create_agents(network, config)
     create_locations(network, density_map, config)
 
     log.info("Assigning locations to agents...")
