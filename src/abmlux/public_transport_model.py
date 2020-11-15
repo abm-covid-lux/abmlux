@@ -73,7 +73,7 @@ start_date = datetime.datetime(int(lines[2][6:10]),int(lines[2][3:5]),int(lines[
 end_date = datetime.datetime(int(lines[3][6:10]),int(lines[3][3:5]),int(lines[3][0:2])) + datetime.timedelta(days=1)
 starting_day = int(start_date.strftime('%w'))
 
-day_numbers = Counter()
+day_numbers: dict = Counter()
 
 for day in range((end_date - start_date).days):
     day_numbers[(start_date + datetime.timedelta(day)).strftime('%a')] += 1

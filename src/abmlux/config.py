@@ -5,14 +5,20 @@ the simulation process."""
 
 import os
 import os.path as osp
+import re
+from typing import Optional, Any
 import yaml
+
+ConfigKey = str
 
 class Config:
     """Represents the simulation configuration.
 
     This class behaves like a dict, but is read-only"""
 
-    def __init__(self, filename):
+    INT_INDEX_FORMAT = re.compile(r'\d+')
+
+    def __init__(self, filename: str):
         print(f"Loading config from {filename}...")
 
         self.conf    = Config.load_config(filename)
@@ -50,7 +56,7 @@ class Config:
 
         return full_path
 
-    def _get(self, dot_notation, obj=None):
+    def _get(self, dot_notation: str, obj: Optional[Any]=None) -> Any:
         """Retrieve a key.key.key.1 string from nested dicts and lists"""
 
         if obj is None:
@@ -59,18 +65,18 @@ class Config:
         # FIXME: handle 'spaces in keys'.more.more
         chunks = dot_notation.split(".")
 
-        # Find the key
-        key = chunks[0]
-        if chunks[0] in "1234567890":
-            key = int(key)
+        # If the key starts with a number, consider it an array index
+        if Config.INT_INDEX_FORMAT.fullmatch(chunks[0]):
+            value = obj[int(chunks[0])]
+        else:
+            value = obj[chunks[0]]
 
-        value = obj[key]
         if len(chunks) > 1:
             return self._get(".".join(chunks[1:]), value)
         return value
 
     @staticmethod
-    def load_config(filename):
+    def load_config(filename: str) -> str:
         """Load a YAML config file and return the dict."""
 
         with open(filename) as fin:

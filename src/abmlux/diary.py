@@ -24,7 +24,7 @@ class DiaryDay:
     """A single day out of the time of use study."""
     # pylint: disable=too-few-public-methods
 
-    def __init__(self, identity, age, day, weight, daily_routine):
+    def __init__(self, identity: str, age: int, day: int, weight: float, daily_routine: list[str]):
         """Represents a daily routine as read from time-of-use survey data.
 
         Routine is assumed to start at midnight.
@@ -58,7 +58,7 @@ class DiaryWeek:
     """A week's routine out of the time of use study"""
     # pylint: disable=too-few-public-methods
 
-    def __init__(self, identity, age, weight, weekly_routine):
+    def __init__(self, identity: str, age: int, weight: float, weekly_routine: list[str]):
         """Represents a weekly routine as read from time-of-use survey data.
 
         Routine is assumed to start at the start of the week, i.e. Sunday at 00:00
