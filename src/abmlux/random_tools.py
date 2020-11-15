@@ -1,8 +1,11 @@
+"""Wrapper around python's PRNG to ease the process of performing deterministic re-runs"""
 
 import random
 import math
 from functools import reduce
+import logging
 
+log = logging.getLogger("random_tools")
 
 def gammavariate(prng, alpha, beta):
     """Sample gamma distributed random variable with pdf given by
@@ -78,7 +81,17 @@ def multinoulli_dict(prng, problist_dict):
      {'a': 4, 'b': 6} has a 60% chance of returning
      'b' and a 40% chance of returning 'a'."""
 
-    return prng.choices(list(problist_dict.keys()), problist_dict.values())[0]
+    if len(problist_dict) == 0:
+
+        raise ValueError("Weighted selection not possible from 0 items")
+
+    # Check all of our weights aren't 0
+    weights = problist_dict.values()
+    if sum(weights) == 0:
+        log.warning("All items have 0 weight, choosing flat weights instead")
+        weights = [1.0] * len(weights)
+
+    return prng.choices(list(problist_dict.keys()), weights)[0]
 
 
 def multinoulli_2d(prng, problist_arr, marginals=None):
