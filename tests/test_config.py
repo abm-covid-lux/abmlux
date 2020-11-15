@@ -18,7 +18,7 @@ list:
 dict:
   key: value
   key2: 2.3
-  key_list: [1,2,3]
+  key_list: [1,2,3,4,5,6,7,8,9,0,'x']
 """
 
 class TestConfig:
@@ -51,6 +51,7 @@ class TestConfig:
         assert config['list.0'] == 'item_one'
         assert config['dict.key2'] == 2.3
         assert config['dict.key_list.2'] == 3
+        assert config['dict.key_list.10'] == 'x'
 
 def config_from_string(config_string):
     """Write the string given to a file, then tell the config object to read from this file."""

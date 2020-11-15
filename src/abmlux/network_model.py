@@ -48,7 +48,7 @@ def create_locations(network, density_map, config):
         new_country = Location(country, coord)
         network.add_location(new_country)
 
-def create_agents(prng, network, config):
+def create_agents(network, config):
     """Create a number of Agent objects within the network, according to the distributions
     specified in the configuration object provided."""
 
@@ -580,7 +580,7 @@ def build_network_model(prng, config, density_map):
     log.info("Creating network...")
 
     network = Network(density_map)
-    create_agents(prng, network, config)
+    create_agents(network, config)
     create_locations(network, density_map, config)
 
     log.info("Assigning locations to agents...")

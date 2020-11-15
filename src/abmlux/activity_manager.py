@@ -11,11 +11,13 @@ from typing import Union
 
 log = logging.getLogger("activity")
 
+# Stop pylint from complaining about typehints
+# pylint: disable=unsubscriptable-object
 class ActivityManager:
     """Encapsulates activity configuration, and offers methods to map between different
     representations of those activities."""
 
-    def __init__(self, activity_map_config):
+    def __init__(self, activity_map_config: dict):
         self.map_config = activity_map_config
         log.debug("Raw mapping: %s", self.map_config)
 
@@ -71,7 +73,7 @@ class ActivityManager:
         return self.int_to_str[str_or_int]
 
     @functools.lru_cache(maxsize=256)
-    def get_location_types(self, activity_type: Union[str, int]) -> list(int):
+    def get_location_types(self, activity_type: Union[str, int]) -> list[int]:
         """For a given activity type int, return a list of
         location types that can be used by agents to perform this activity."""
 
