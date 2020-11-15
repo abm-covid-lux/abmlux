@@ -2,7 +2,7 @@
 ingested by the simulator as it runs."""
 
 import logging
-import random
+from random import Random
 import uuid
 from datetime import datetime
 from enum import IntEnum
@@ -11,8 +11,12 @@ from .activity_manager import ActivityManager
 from .messagebus import MessageBus
 from .sim_time import SimClock
 from .version import VERSION
+from abmlux.config import Config
 
 log = logging.getLogger("sim_state")
+
+# Semantic types
+PRNGState = tuple
 
 class SimulationPhase(IntEnum):
     """Represents the current stage of the simulation"""
@@ -25,26 +29,35 @@ class SimulationPhase(IntEnum):
     INIT_INTERVENTION = 5
     RUN_SIM           = 6
 
+# TODO
+#class SimStateFactory:
+#
+#    def __init__(self):
+#        pass
+#
+#    def get_state(self) -> SimulationState:
+#        
+
 
 class SimulationState:
     """Retains all state used to start a simulation.
 
     This is used as an initial starting point to re-run simulations with various changes."""
 
-    def __init__(self, config):
+    def __init__(self, config: Config):
         """Create a new state object.
 
         This object will get gradually built during the setup phase, then
         used during the simulation, after being 'sealed'"""
 
-        self.abmlux_version = VERSION
-        self.created_at     = datetime.now()
+        self.abmlux_version           = VERSION
+        self.created_at: datetime     = datetime.now()
         self.run_id         = uuid.uuid4().hex
         self.phase          = SimulationPhase(0)
         self.phases         = [False] * len(list(SimulationPhase))
         self.dirty          = False
         self.finished       = False
-        self.prng           = random.Random()
+        self.prng           = Random()
         self.reseed_prng(config['random_seed'])
 
         log.info("Simulation state created at %s with ID=%s", self.created_at, self.run_id)
@@ -54,7 +67,7 @@ class SimulationState:
         self.clock                  = SimClock(config['tick_length_s'],
                                                config['simulation_length_days'], config['epoch'])
         self.bus                    = MessageBus()
-        self.map                    = None
+        self.map                    = None   # TODO: these need a factory pattern to fix properly
         self.network                = None
         self.activity_model         = None
         self.location_model         = None
@@ -62,7 +75,7 @@ class SimulationState:
         self.interventions          = None
         self.intervention_schedules = None
 
-    def set_phase_complete(self, phase):
+    def set_phase_complete(self, phase: SimulationPhase) -> None:
         """Reports that a phase has been completed"""
         self.phases[phase] = True
 
@@ -72,19 +85,19 @@ class SimulationState:
                 return
         self.finished = True
 
-    def is_phase_complete(self, phase):
+    def is_phase_complete(self, phase: SimulationPhase) -> bool:
         """Returns whether or not a phase has been completed"""
         return self.phases[phase]
 
-    def set_dirty(self):
+    def set_dirty(self) -> None:
         """Set the dirty flag to indicate that the state has been run out-of-order somehow"""
         self.dirty = True
 
-    def _get_prng_state(self):
+    def _get_prng_state(self) -> PRNGState:
         """Return internal PRNG state for saving."""
         return self.prng.getstate()
 
-    def _set_prng_state(self, state):
+    def _set_prng_state(self, state: PRNGState):
         """Set the internal PRNG state, e.g. after unpickling"""
         self.prng.setstate(state)
 
@@ -92,11 +105,11 @@ class SimulationState:
         """Reseed the internal PRNG"""
         self.prng.seed(seed)
 
-    def get_phase(self):
+    def get_phase(self) -> SimulationPhase:
         """Return the current phase this simulation state is in"""
         return self.phase
 
-    def set_phase(self, phase, *, error_on_repeat=False):
+    def set_phase(self, phase: SimulationPhase, *, error_on_repeat: bool=False) -> None:
         """Update the state to show that it is in a given phase."""
 
         if not isinstance(phase, SimulationPhase):
