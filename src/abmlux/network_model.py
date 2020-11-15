@@ -9,12 +9,12 @@ import numpy as np
 from tqdm import tqdm
 from scipy.spatial import KDTree
 
-from .random_tools import (multinoulli, multinoulli_dict, random_choice, random_choices,
-                           random_sample, random_shuffle, random_randrange_interval)
-from .agent import Agent, AgentType, POPULATION_RANGES
-from .location import Location, WGS84_to_ETRS89
-from .activity_manager import ActivityManager
-from .network import Network
+from abmlux.random_tools import (multinoulli, multinoulli_dict, random_choice, random_choices,
+                                 random_sample, random_shuffle, random_randrange_interval)
+from abmlux.agent import Agent, AgentType, POPULATION_RANGES
+from abmlux.location import Location, WGS84_to_ETRS89
+from abmlux.activity_manager import ActivityManager
+from abmlux.network import Network
 
 log = logging.getLogger('network_model')
 
@@ -48,7 +48,7 @@ def create_locations(network, density_map, config):
         new_country = Location(country, coord)
         network.add_location(new_country)
 
-def create_agents(prng, network, config):
+def create_agents(network, config):
     """Create a number of Agent objects within the network, according to the distributions
     specified in the configuration object provided."""
 
@@ -428,8 +428,8 @@ def kdtree_assignment(prng, network, locations):
         closest_locations = []
         while len(closest_locations) == 0:
             if (knn/2) > len(locations):
-                raise ValueError(f"Searching for more locations than exist."
-                                 f"This normally indicates that all locations are full.")
+                raise ValueError("Searching for more locations than exist."
+                                 "This normally indicates that all locations are full.")
             # Returns knn items, in order of nearness
             _, nearest_indices = kdtree.query(house.coord, knn)
             closest_locations = [locations[i] for i in nearest_indices if i < len(locations)]
@@ -509,7 +509,7 @@ def assign_schools(prng, network, config, activity_manager, work_activity, activ
     log.debug("Assigning proximate locations to carehome occupants...")
     do_activity_from_home(activity_manager, occupancy_carehomes, activity_type)
 
-def assign_locations_by_proximity(prng, network, config, activity_manager, activity_type,
+def assign_locations_by_proximity(prng, network, activity_manager, activity_type,
                                  occupancy_houses, occupancy_carehomes, occupancy_border_countries):
     """For the location type given, select nearby houses and assign all occupants to
     attend this location.  If the location is full, move to the next nearby location, etc."""
@@ -580,7 +580,7 @@ def build_network_model(prng, config, density_map):
     log.info("Creating network...")
 
     network = Network(density_map)
-    create_agents(prng, network, config)
+    create_agents(network, config)
     create_locations(network, density_map, config)
 
     log.info("Assigning locations to agents...")
@@ -609,7 +609,7 @@ def build_network_model(prng, config, density_map):
                                       occupancy_border_countries)
     # Assignments of locations by proximity
     for activity_type in config['activity_locations_by_proximity']:
-        assign_locations_by_proximity(prng, network, config, activity_manager, activity_type,
+        assign_locations_by_proximity(prng, network, activity_manager, activity_type,
                                       occupancy_houses, occupancy_carehomes,
                                       occupancy_border_countries)
     # Assignments of outdoors
