@@ -1,4 +1,6 @@
-"""Tools for representing locations on the network"""
+"""Tools for representing locations on the network.
+
+Locations have a type and coordinates in space."""
 
 import uuid
 
@@ -20,11 +22,13 @@ class Location:
 
         Parameters:
           typ (str): The type of location, as a string
-          coord (tuple):2-tuple with x, y grid coordinates in ETRS89 format
+          etrs89_coord (tuple):2-tuple with x, y grid coordinates in ETRS89 format
         """
+
         self.uuid  = uuid.uuid4().hex
         self.typ   = typ
         self.coord = coord
+
         self.wgs84 = ETRS89_to_WGS84(self.coord)
 
     def __str__(self):

@@ -20,7 +20,7 @@ class AgentType(IntEnum):
 # TODO: de-duplicate
 POPULATION_RANGES = {
         AgentType.CHILD:    range(0, 18),   # Children <18
-        AgentType.ADULT:    range(18, 65),     # Adults 18-65
+        AgentType.ADULT:    range(18, 65),  # Adults 18-65
         AgentType.RETIRED:  range(65, 120)  # Retired >65
     }
 
@@ -45,7 +45,7 @@ class Agent:
         """Given an age, return the type."""
 
         for agetyp, rng in POPULATION_RANGES.items():
-            if age >= rng.start and age < (rng.stop + 1):
+            if rng.start <= age < rng.stop:
                 return agetyp
 
         raise ValueError(f"No agent type mapping for age {age}")
@@ -61,6 +61,11 @@ class Agent:
 
     def add_activity_location(self, activity: str, location: Location) -> None:
         """Add a location to the list allowed for a given activity"""
+
+        Parameters:
+            activity: The activity that will be performed
+            location: A single location, or a list of locations.
+        """
 
         if activity not in self.activity_locations:
             self.activity_locations[activity] = []  # TODO: maybe use a set?

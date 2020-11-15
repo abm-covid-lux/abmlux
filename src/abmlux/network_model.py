@@ -44,7 +44,8 @@ def create_locations(network, density_map, config):
             network.add_location(new_location)
     # Create locations of each border country
     for country in pop_by_border_countries:
-        coord = WGS84_to_ETRS89(border_country_coord[country][1], border_country_coord[country][0])
+        coord = WGS84_to_ETRS89((border_country_coord[country][1],
+                                 border_country_coord[country][0]))
         new_country = Location(country, coord)
         network.add_location(new_country)
 
