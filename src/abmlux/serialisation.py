@@ -4,12 +4,12 @@ This is used primarily to store/load intermediate results within the system."""
 
 import pickle
 import logging
+from typing import Any
 
 log = logging.getLogger("serialisation")
 
 # FIXME: delete this file entirely when components work
-
-def write_to_disk(obj, output_filename):
+def write_to_disk(obj: Any, output_filename: str) -> None:
     """Write an object to disk at the filename given.
 
     Parameters:
@@ -26,7 +26,7 @@ def write_to_disk(obj, output_filename):
         pickle.dump(obj, fout, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def read_from_disk(input_filename):
+def read_from_disk(input_filename: str) -> Any:
     """Read an object from disk from the filename given.
 
     Parameters:

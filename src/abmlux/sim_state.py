@@ -21,6 +21,7 @@ from abmlux.interventions import Intervention
 log = logging.getLogger("sim_state")
 
 
+
 class SimulationFactory:
     """Class that allows for gradual composition of a number of components, eventually outputting
     a simulator object that can be used to run simulations with the config given."""

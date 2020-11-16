@@ -2,6 +2,9 @@
 
 import logging
 from collections import defaultdict
+from typing import Callable
+
+from abmlux.sim_time import SimClock
 
 log = logging.getLogger("scheduler")
 
@@ -9,12 +12,12 @@ log = logging.getLogger("scheduler")
 class Scheduler:
     """Listens to clock events and enables/disables interventions."""
 
-    def __init__(self, clock, intervention_schedules):
+    def __init__(self, clock: SimClock, intervention_schedules: dict):
 
         # Pre-process intervention schedules into a list
         self.actions = self._pre_process(clock, intervention_schedules)
 
-    def tick(self, t):
+    def tick(self, t: int) -> None:
         """Check to see if we should en/disable any interventions at this time"""
 
         if t in self.actions and self.actions[t] is not None:
@@ -22,7 +25,8 @@ class Scheduler:
                 log.debug("Scheduled action at t=%i: %s", t, action)
                 action()
 
-    def _pre_process(self, clock, intervention_schedules):
+    def _pre_process(self, clock: SimClock,
+                     intervention_schedules: dict) -> defaultdict[int, list[Callable]]:
         """Pre-process schedules to identify the tick number at which an action should occur.
 
         Outputs an array indicating the tick at which actions will occur using the clock given in
@@ -54,7 +58,7 @@ class Scheduler:
 
         # If we don't have any, return an empty list
         if len(events) == 0:
-            return []
+            return defaultdict(list)
 
         # Sort events by the event_time.  Sorts in-place
         events.sort(key=lambda x: x[0])
@@ -62,7 +66,7 @@ class Scheduler:
 
         # This will keep things indexed by tick as a space-time tradeoff
 #        actions = [None] * (events[-1][0] + 1)
-        actions = defaultdict(list)
+        actions: defaultdict[int, list[Callable]] = defaultdict(list)
         for tick, intervention, event in events:
             list_of_actions = actions[tick] or []
             if event == 'disable':
