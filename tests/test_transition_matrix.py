@@ -1,11 +1,11 @@
 
-import random
 import pytest
 
+from abmlux.random_tools import Random
 import abmlux.transition_matrix as tm
 
 CLASSES = [1,2,3,4]
-PRNG = random.Random()
+PRNG = Random()
 
 class TestTransitionMatrix:
 

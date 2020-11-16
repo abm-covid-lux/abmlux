@@ -9,8 +9,6 @@ import numpy as np
 from tqdm import tqdm
 from scipy.spatial import KDTree
 
-from abmlux.random_tools import (multinoulli, multinoulli_dict, random_choice, random_choices,
-                                 random_sample, random_shuffle, random_randrange_interval)
 from abmlux.agent import Agent, AgentType, POPULATION_RANGES
 from abmlux.location import Location, WGS84_to_ETRS89
 from abmlux.activity_manager import ActivityManager
@@ -167,7 +165,7 @@ def assign_homes(prng, network, density_map, config, activity_manager, house_loc
         new_house = Location(house_location_type, house_coord)
         network.add_location(new_house)
         # Generate household profile
-        household_profile = multinoulli_dict(prng, house_types)
+        household_profile = prng.multinoulli_dict(house_types)
         num_children = min(household_profile[0], len(unassigned_children))
         num_adults   = min(household_profile[1], len(unassigned_adults))
         num_retired  = min(household_profile[2], len(unassigned_retired))
@@ -269,8 +267,8 @@ def make_work_profile_dictionary(prng, network, config):
     for location_type in workforce_profile_distribution:
         profile = workforce_profile_distribution[location_type]
         for location in network.locations_by_type[location_type]:
-            interval = profile_format[multinoulli(prng, profile)]
-            weight = random_randrange_interval(prng, interval[0],interval[1])
+            interval = profile_format[prng.multinoulli(profile)]
+            weight = prng.random_randrange_interval(interval[0],interval[1])
             workplace_weights[location] = weight
     for location_type in workforce_profile_uniform:
         weight = workforce_profile_uniform[location_type]
@@ -307,7 +305,7 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
     wrkplaces = network.locations_for_types(activity_manager.get_location_types(work_activity_type))
     for house in tqdm(occupancy_houses):
         # Here each house gets a sample from which occupants choose
-        work_locations_sample = random_sample(prng, wrkplaces, k = min(sample_size, len(wrkplaces)))
+        work_locations_sample = prng.random_sample(wrkplaces, k = min(sample_size, len(wrkplaces)))
         weights_for_house = {}
         for location in work_locations_sample:
             dist_m = euclidean_distance(house.coord, location.coord)
@@ -317,7 +315,7 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
             weights_for_house[location] = workplace_weights[location] * weight
         for agent in occupancy_houses[house]:
             # A workplace is then chosen randomly from the sample, according to the weights
-            workplace = multinoulli_dict(prng, weights_for_house)
+            workplace = prng.multinoulli_dict(weights_for_house)
             agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
         weights_for_house.clear()
 
@@ -325,14 +323,14 @@ def assign_workplaces(prng, network, config, activity_manager, work_activity_typ
     for border_country in occupancy_border_countries:
         for agent in tqdm(occupancy_border_countries[border_country]):
             # Here each agent gets a sample from which to choose
-            work_locations_sample = random_sample(prng,wrkplaces,k=min(sample_size, len(wrkplaces)))
+            work_locations_sample = prng.random_sample(wrkplaces,k=min(sample_size, len(wrkplaces)))
             weights_for_agent = {}
             for location in work_locations_sample:
                 dist_m = euclidean_distance(border_country.coord, location.coord)
                 dist_km = dist_m/1000
                 weight = get_weight(config, dist_km, work_dist_dict[border_country.typ])
                 weights_for_agent[location] = workplace_weights[location] * weight
-            workplace = multinoulli_dict(prng, weights_for_agent)
+            workplace = prng.multinoulli_dict(weights_for_agent)
             agent.add_activity_location(activity_manager.as_int(work_activity_type), workplace)
             weights_for_agent.clear()
 
@@ -358,7 +356,7 @@ def assign_locations_by_distance(prng, network, config, activity_manager, activi
                                   number_of_bins['Luxembourg'], bin_width['Luxembourg'])
     log.debug("Assigning locations to house occupants...")
     for house in tqdm(occupancy_houses):
-        visit_locations_sample = random_sample(prng, vst_locs, k = min(sample_size, len(vst_locs)))
+        visit_locations_sample = prng.random_sample(vst_locs, k = min(sample_size, len(vst_locs)))
         weights_for_house = {}
         for location in visit_locations_sample:
             dist_m = euclidean_distance(house.coord, location.coord)
@@ -366,8 +364,8 @@ def assign_locations_by_distance(prng, network, config, activity_manager, activi
             weights_for_house[location] = get_weight(config, dist_km, dist_dict)
         for agent in occupancy_houses[house]:
             # Several houses are then chosen randomly from the sample, according to the weights
-            locs = random_choices(prng, list(weights_for_house.keys()),
-                                  list(weights_for_house.values()), num_can_visit[activity_type])
+            locs = prng.random_choices(list(weights_for_house.keys()),
+                                       list(weights_for_house.values()), num_can_visit[activity_type])
             # If the activity is visit and the agent's own home is chosen, then it is removed from
             # the list and the sample can therefore be of size num_can_visit['Visit']-1
             if (activity_type == 'Visit') and (house in locs):
@@ -391,8 +389,8 @@ def assign_locations_by_random(prng, network, config, activity_manager, activity
     log.debug("Assigning locations by random to house occupants...")
     for house in tqdm(occupancy_houses):
         for agent in occupancy_houses[house]:
-            venues_sample = random_sample(prng, venues, k=min(len(venues),
-                                          num_can_visit[activity_type]))
+            venues_sample = prng.random_sample(venues, k=min(len(venues),
+                                               num_can_visit[activity_type]))
             agent.add_activity_location(activity_manager.as_int(activity_type), venues_sample)
     log.debug("Assigning locations by random to border country occupants...")
     do_activity_from_home(activity_manager, occupancy_border_countries, activity_type)
@@ -422,7 +420,7 @@ def kdtree_assignment(prng, network, locations):
 
     # Traverse houses in random order, assigning a school of type school_type to each house
     shuffled_houses = copy.copy(network.locations_by_type['House'])
-    random_shuffle(prng, shuffled_houses)
+    prng.random_shuffle(shuffled_houses)
     for house in tqdm(shuffled_houses):
         # Find the closest location and, if it's not full, assign every occupant to the location
         knn = 2
@@ -488,7 +486,7 @@ def assign_schools(prng, network, config, activity_manager, work_activity, activ
         workplace = workplaces[0]
         if workplace.typ in types_of_school:
             agent.locations_for_activity(work_activity_int).remove(workplace)
-            assigned_class = random_choice(prng, classes_dict[workplace])
+            assigned_class = prng.random_choice(classes_dict[workplace])
             agent.locations_for_activity(work_activity_int).append(assigned_class)
 
     # Assign a class to each house occupant based on age:
@@ -502,7 +500,7 @@ def assign_schools(prng, network, config, activity_manager, work_activity, activ
                 age_key = max([a for a in starting_age.keys() if a <= occupant.age])
                 type_of_school = starting_age[age_key]
                 closest_school = schools_dict[type_of_school][house]
-                school_class   = random_choice(prng, classes_dict[closest_school])
+                school_class   = prng.random_choice(classes_dict[closest_school])
                 occupant.add_activity_location(activity_manager.as_int(activity_type), school_class)
 
     log.debug("Assigning proximate locations to border country occupants...")

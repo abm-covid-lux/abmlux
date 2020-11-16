@@ -3,7 +3,6 @@
 import logging
 
 from abmlux.interventions import Intervention
-import abmlux.random_tools as rt
 
 log = logging.getLogger("hospitalisation")
 
@@ -58,9 +57,9 @@ class Hospitalisation(Intervention):
         if new_health in self.hospital_states:
             if agent.current_location not in self.hospitals:
                 self.bus.publish("request.agent.location", agent, \
-                                 rt.random_choice(self.prng, self.hospitals))
+                                 self.prng.random_choice(self.hospitals))
 
         elif agent.health in self.dead_states:
             if agent.current_location not in self.cemeteries:
                 self.bus.publish("request.agent.location", agent, \
-                                 rt.random_choice(self.prng, self.cemeteries))
+                                 self.prng.random_choice(self.cemeteries))

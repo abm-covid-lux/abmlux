@@ -24,7 +24,6 @@ from abmlux.sim_time import SimClock
 from abmlux.diary import DiaryDay, DiaryWeek, DayOfWeek
 from abmlux.agent import POPULATION_RANGES
 from abmlux.transition_matrix import SplitTransitionMatrix
-import abmlux.random_tools as rt
 
 # Number of 10min chunks in a day.  Used when parsing the input data at a 10min resolution
 DAY_LENGTH_10MIN = 144
@@ -71,7 +70,7 @@ class TUSMarkovActivityModel(ActivityModel):
             # Get distribution for this type at the starting time step
             distribution = self.activity_distributions[agent.agetyp][clock.epoch_week_offset]
             assert sum(distribution.values()) > 0
-            new_activity      = rt.multinoulli_dict(self.prng, distribution)
+            new_activity      = self.prng.multinoulli_dict(distribution)
             allowed_locations = agent.locations_for_activity(new_activity)
             agent.set_activity(new_activity)
 
@@ -80,7 +79,7 @@ class TUSMarkovActivityModel(ActivityModel):
             #
             # Warn: No allowed locations found for agent {agent.inspect()} for activity new_activity
             assert len(allowed_locations) >= 0
-            new_location = rt.random_choice(self.prng, list(allowed_locations))
+            new_location = self.prng.random_choice(list(allowed_locations))
             # Do this activity in a random location
             agent.set_location(new_location)
 

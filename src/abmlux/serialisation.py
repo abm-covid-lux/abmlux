@@ -7,6 +7,8 @@ import logging
 
 log = logging.getLogger("serialisation")
 
+# FIXME: delete this file entirely when components work
+
 def write_to_disk(obj, output_filename):
     """Write an object to disk at the filename given.
 

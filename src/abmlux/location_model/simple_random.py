@@ -3,7 +3,6 @@
 import logging
 
 from abmlux.location_model import LocationModel
-import abmlux.random_tools as rt
 from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("simple_location_model")
@@ -31,4 +30,4 @@ class SimpleRandomLocationModel(LocationModel):
         # Change location in response to new activity
         allowable_locations = agent.locations_for_activity(new_activity)
         self.bus.publish("request.agent.location", agent, \
-                         rt.random_choice(self.prng, list(allowable_locations)))
+                         self.prng.random_choice(list(allowable_locations)))

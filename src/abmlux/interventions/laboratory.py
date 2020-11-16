@@ -3,7 +3,6 @@
 import logging
 
 from abmlux.sim_time import DeferredEventPool
-import abmlux.random_tools as random_tools
 from abmlux.interventions import Intervention
 
 log = logging.getLogger("laboratory")
@@ -42,10 +41,10 @@ class Laboratory(Intervention):
 
         test_result = False
         if agent.health in self.infected_states:
-            if random_tools.boolean(self.prng, 1 - self.prob_false_negative):
+            if self.prng.boolean(1 - self.prob_false_negative):
                 test_result = True
         else:
-            if random_tools.boolean(self.prng, self.prob_false_positive):
+            if self.prng.boolean(self.prob_false_positive):
                 test_result = True
 
         self.test_result_events.add("notify.testing.result", self.do_test_to_test_results_ticks, agent, test_result)

@@ -5,7 +5,6 @@ import logging
 from collections import deque, defaultdict
 
 from abmlux.interventions import Intervention
-import abmlux.random_tools as random_tools
 
 log = logging.getLogger("contact_tracing")
 
@@ -76,7 +75,7 @@ class ContactTracingManual(Intervention):
         # and send them a message to get tested and quarantine.
         for day in self.contacts_archive:
             for other_agent in day[agent]:
-                if random_tools.boolean(self.prng, self.prob_do_recommendation):
+                if self.prng.boolean(self.prob_do_recommendation):
                     self.bus.publish("request.testing.book_test", other_agent)
                     self.bus.publish("request.quarantine.start", other_agent)
 
@@ -168,7 +167,7 @@ class ContactTracingApp(Intervention):
 
         num_app_installs = min(len(network.agents), math.ceil(len(network.agents) * \
                                self.app_prevalence ))
-        self.agents_with_app = random_tools.random_sample(self.prng, network.agents, \
+        self.agents_with_app = self.prng.random_sample(network.agents, \
                                                           num_app_installs)
 
         log.info("Selected %i agents with app", len(self.agents_with_app))
@@ -181,7 +180,7 @@ class ContactTracingApp(Intervention):
         for agent in self.agents_with_app:
             risk = self._get_personal_risk(agent)
             if risk >= clock.mins_to_ticks(self.time_at_risk_threshold_mins):
-                if random_tools.boolean(self.prng, self.prob_do_recommendation):
+                if self.prng.boolean(self.prob_do_recommendation):
                     self.bus.publish("request.testing.book_test", agent)
                     self.bus.publish("request.quarantine.start", agent)
 
