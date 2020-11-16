@@ -11,12 +11,10 @@ class CompartmentalModel(DiseaseModel):
     """Represents a disease as a set of states with transition probabilities and a pre-determined,
     static set of potential routes through the states."""
 
-    def __init__(self, prng, config, bus, state):
+    def __init__(self, config):
 
-        states = config['health_states']
-        super().__init__(states)
+        super().__init__(config, config['health_states'])
 
-        self.prng                       = prng
         self.inf_probs                  = config['infection_probabilities_per_tick']
         self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
         self.prob_do_recommendation     = config['personal_protective_measures']['prob_do_recommendation']
@@ -33,10 +31,7 @@ class CompartmentalModel(DiseaseModel):
         self.disease_profile_index_dict = {}
         self.disease_profile_dict       = {}
         self.disease_durations_dict     = {}
-        self.bus                        = bus
-        self.state                      = state
-        self.network                    = state.network
-        self.agents_by_health_state     = {s: set() for s in states}
+        self.agents_by_health_state     = {s: set() for s in self.states}
 
         self.ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[loc_type])**2) for loc_type in self.prob_wear_mask}
 
@@ -52,18 +47,20 @@ class CompartmentalModel(DiseaseModel):
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
 
-        self.bus.subscribe("notify.time.start_simulation", self.initialise_agents, self)
+    def init_sim(self, state):
+
+        # FIXME
+        self.bus = state.bus 
+        self.state                      = state
+        self.network                    = state.network
+        self.sim = state
+        network = state.network
+
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
         self.bus.subscribe("notify.time.midnight", self.random_midnight_exposures, self)
 
-    def initialise_agents(self, sim):
-        """Assign a disease profile and durations to each agent and infect some people at random
-        to begin the epidemic"""
-
-        self.sim = sim
-        network = sim.network
-
+        # Initialise the state
         # Assign a disease profile to each agent. This determines which health states an agent
         # passes through and in which order.
         log.info("Assigning disease profiles and durations...")

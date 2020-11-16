@@ -1,26 +1,46 @@
 """Components for the simulation"""
 
+# Allows classes to return their own type, e.g. from_file below
+from __future__ import annotations
+
 import logging
 import pickle
+from typing import Union
 
+from abmlux.simulator import Simulator
+from abmlux.random_tools import Random
 from abmlux.config import Config
 
 log = logging.getLogger("component")
 
+#pylint: disable=attribute-defined-outside-init
 class Component:
     """A pluggable simulation component."""
-
 
     def __init__(self, component_config: Union[Config, dict]):
 
         self.config = component_config
+
+        if "__prng_seed__" in component_config:
+            self.prng = Random(float)
+        else:
+            self.prng   = Random()
+
+    def init_sim(self, sim: Simulator) -> None:
+        """Complete initialisation of this object with the full state of a ready-to-go simulation.
+
+        It is expected that this is a chance to hook onto the event bus."""
+
+        self.sim = sim
+        self.bus = sim.bus
+
 
     def to_file(self, output_filename: str) -> None:
         """Write an object to disk at the filename given.
 
         Parameters:
             output_filename (str):The filename to write to.  Files get overwritten
-                                by default.
+                                  by default.
 
         Returns:
             None
@@ -46,14 +66,6 @@ class Component:
             payload = pickle.load(fin)
 
         return payload
-
-
-    #def register_var(self, name, default_value):
-    #    self.name = default_value
-    #    self.variables[name] = self.name
-
-
-
 
 
 # # Components have

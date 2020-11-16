@@ -9,20 +9,22 @@ log = logging.getLogger("testing")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class LargeScaleTesting(Intervention):
     """Randomly select a number of people per day for testing."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def init_sim(self, state):
 
-        self.agents_tested_per_day_raw        = config['tests_per_day']
+        self.bus = state.bus # FIXME
+
+        self.agents_tested_per_day_raw        = self.config['tests_per_day']
         self.invitation_to_test_booking_delay = \
-            int(clock.days_to_ticks(config['invitation_to_test_booking_days']))
+            int(state.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
 
         scale_factor = state.config['n'] / sum(state.config['age_distribution'])
         self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
 
-        self.test_booking_events = DeferredEventPool(bus, clock)
+        self.test_booking_events = DeferredEventPool(self.bus, state.clock)
         self.network = state.network
         self.current_day = None
 
@@ -50,15 +52,16 @@ class OtherTesting(Intervention):
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def init_sim(self, state):
 
-        self.prob_test_symptoms                = config['prob_test_symptoms']
+        self.bus = state.bus # FIXME
+
+        self.prob_test_symptoms                = self.config['prob_test_symptoms']
         self.onset_of_symptoms_to_test_booking = \
-            int(clock.days_to_ticks(config['onset_of_symptoms_to_test_booking_days']))
+            int(state.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states  = set(config['symptomatic_states'])
-        self.test_booking_events = DeferredEventPool(bus, clock)
+        self.symptomatic_states  = set(self.config['symptomatic_states'])
+        self.test_booking_events = DeferredEventPool(self.bus, state.clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
 

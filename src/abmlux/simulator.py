@@ -6,6 +6,9 @@ number of initial seeds. Note that the simulation starts on a Sunday and follows
 framework."""
 
 import logging
+from abmlux.version import VERSION
+from datetime import datetime
+import uuid
 from collections import defaultdict
 
 from tqdm import tqdm
@@ -18,29 +21,60 @@ log = logging.getLogger('sim')
 class Simulator:
     """Class that simulates an outbreak."""
 
-    def __init__(self, state):
+    def __init__(self, config, activity_manager, clock, _map, \
+                 network_model, activity_model, location_model, \
+                 disease_model, interventions, intervention_schedules):
 
-        # -------------------------------------------[ Config ]------------------------------------
-        self.state            = state
-        self.activity_manager = state.activity_manager
-        self.clock            = state.clock
-        self.bus              = state.bus
+        # Static info
+        self.abmlux_version = VERSION
+        self.created_at     = datetime.now()
+        self.run_id         = uuid.uuid4().hex
 
-        self.prng          = state.prng
-        self.network       = state.network
-        self.locations     = state.network.locations
-        self.agents        = state.network.agents
-        self.disease       = state.disease
-        self.interventions = state.interventions.keys()
+        log.info("Simulation created at %s with ID=%s", self.created_at, self.run_id)
 
-        # Read-only config
+        self.config                 = config
+        self.activity_manager       = activity_manager
+        self.clock                  = clock
+        self.bus                    = MessageBus()
+
+        # Components of the simulation
+        self.map                    = _map
+        self.network                = network_model # FIXME: rename to network_model
+        self.activity_model         = activity_model
+        self.location_model         = location_model
+        self.disease                = disease_model # FIXME: rename to disease_model
+        self.interventions          = interventions
+        self.intervention_schedules = intervention_schedules
+
+        # FIXME: remove the block below if possible
+        self.locations     = self.network.locations
+        self.agents        = self.network.agents
+
+    def _initialise_components(self):
+        """Tell components that a simulation is starting.
+
+        This allows them to complete any final setup tasks on their internal state, and gives
+        access to the simulation state as a whole to enable interactions between the components
+        and the state of the world."""
+
+        # Here we assume that components are going to hook onto the messagebus.
+        # We start with the activity model
+        self.activity_model.init_sim(self)
+        self.location_model.init_sim(self)
+        self.disease.init_sim(self)
+        for name, intervention in self.interventions.items():
+            log.info("Initialising intervention '%s'...", name)
+            intervention.init_sim(self)
+
+        # The sim is registered on the bus last, so they catch any events that have not been
+        # inhibited by earlier processing stages.
         self.agent_updates = defaultdict(dict)
         self.bus.subscribe("request.agent.location", self.record_location_change, self)
         self.bus.subscribe("request.agent.activity", self.record_activity_change, self)
         self.bus.subscribe("request.agent.health", self.record_health_change, self)
 
         # For manipulating interventions
-        self.scheduler = Scheduler(self.clock, state.intervention_schedules)
+        self.scheduler = Scheduler(self.clock, self.intervention_schedules)
 
     def record_location_change(self, agent, new_location):
         """Record request.agent.location events, placing them on a queue to be enacted
@@ -79,6 +113,7 @@ class Simulator:
         self.clock.reset()
         current_day = self.clock.now().day
 
+        self._initialise_components()
         self.bus.publish("notify.time.start_simulation", self)
 
         # Simulation state.  These indices represent an optimisation to prevent having to loop
@@ -96,7 +131,7 @@ class Simulator:
         # /caches
 
         update_notifications = []
-        for t in self.clock:
+        for t in tqdm(self.clock):
 
             # Enable/disable interventions
             self.scheduler.tick(t)

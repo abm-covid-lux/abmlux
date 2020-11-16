@@ -10,12 +10,17 @@ log = logging.getLogger("simple_location_model")
 class SimpleRandomLocationModel(LocationModel):
     """Uses simple random sampling to select locations in response to activity changes."""
 
-    def __init__(self, prng, config, bus, activity_manager):
+    def __init__(self, config):
 
         # TODO: semantic constructor arguments rather than just passing in the whole config
-        super().__init__(prng, config, bus, activity_manager)
+        super().__init__(config)
 
         self.no_move_states = config['location_model']['no_move_health_states']
+
+    def init_sim(self, state):
+
+        # FIXME
+        self.bus = state.bus
 
         self.bus.subscribe("request.agent.activity", self.handle_activity_change, self)
 

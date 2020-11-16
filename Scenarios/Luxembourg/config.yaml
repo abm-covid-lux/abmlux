@@ -215,11 +215,6 @@ starting_age:
 
   # ######################################### Activities #############################################
 
-# Configure the component that drives agents performing different activities in the simulation
-activity_model:
-  # If agents are in these states, stop the markov chain
-  stop_activity_health_states:
-    - DEAD
 
 # The Time Use Survey data has a list of primary activities and secondary activities. Here we map
 # them onto our own list of activities. Each key points at a list of activity codes from the TUS. We
@@ -276,6 +271,13 @@ activities:
     primary: [4]
     secondary: [395,426,429,515,521,523,524]
     allowed_locations: [House, Care Home]
+
+
+# Configure the component that drives agents performing different activities in the simulation
+activity_model:
+  # If agents are in these states, stop the markov chain
+  stop_activity_health_states:
+    - DEAD
 
 # ######################################### Population and Age #####################################
 

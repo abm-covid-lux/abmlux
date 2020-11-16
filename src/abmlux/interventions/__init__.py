@@ -7,28 +7,23 @@ the state of the simulation."""
 
 import logging
 
+from abmlux.component import Component
+
 log = logging.getLogger("intervention")
 
 
-class Intervention:
+class Intervention(Component):
     """Represents an intervention within the system.
 
     Interventions are notified of simulation state on every tick, allowing them to
     build internal state and return a list of activity changes in order to affect the simulation"""
 
-    def __init__(self, prng, config, clock, bus, init_enabled):
+    def __init__(self, config, init_enabled: bool):
 
-        self.prng   = prng
-        self.config = config
-        self.clock  = clock
-        self.bus    = bus
+        super().__init__(config)
 
         # Updated to say whether the intervention is enabled or not at the current time
-        self.enabled = init_enabled == True
-
-    def initialise_agents(self, network):
-        """Initialise internal state for this intervention, potentially
-        modifying the network if necessary.  Run prior to simulation start."""
+        self.enabled = init_enabled
 
     def enable(self):
         """Called when the intervention should be enabled.

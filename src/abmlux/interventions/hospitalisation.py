@@ -8,33 +8,29 @@ log = logging.getLogger("hospitalisation")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class Hospitalisation(Intervention):
     """Hospitalise agents who are in certain health states, and move agents in certain health
     states into cemeteries."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def init_sim(self, sim):
 
-        self.dead_states            = config['dead_states']
-        self.hospital_states        = config['hospital_states']
-        self.cemetery_location_type = config['cemetery_location_type']
-        self.hospital_location_type = config['hospital_location_type']
+        super().init_sim(sim)
+
+        self.dead_states            = self.config['dead_states']
+        self.hospital_states        = self.config['hospital_states']
+        self.cemetery_location_type = self.config['cemetery_location_type']
+        self.hospital_location_type = self.config['hospital_location_type']
 
         # Overridden later when the simulation states
         self.cemeteries = []
         self.hospitals  = []
 
-        # Respond to requested location changes by moving people home
-        self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
-        self.bus.subscribe("notify.time.start_simulation", self.start_simulation, self)
-
-
-    def start_simulation(self, sim):
-        """New simulation.  Record the hospitals and cemeteries in this network for later use."""
-
         self.cemeteries      = sim.network.locations_by_type[self.cemetery_location_type]
         self.hospitals       = sim.network.locations_by_type[self.hospital_location_type]
 
+        # Respond to requested location changes by moving people home
+        self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
 
     def handle_health_change(self, agent, new_health):
         """Respond to a change in health status by moving the agent to a hospital.

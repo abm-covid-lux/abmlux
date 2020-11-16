@@ -9,15 +9,19 @@ log = logging.getLogger("ppm")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class PersonalProtectiveMeasures(Intervention):
     """Models the use of personal protective measures by preventing propagation
     of health change events with a given probability."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
 
         self.incubating_states = set(config['incubating_states'])
         self.ppm_coeff         = config['ppm_coeff']
+
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
         self.bus.subscribe("request.agent.health", self.handle_health_change, self)
 

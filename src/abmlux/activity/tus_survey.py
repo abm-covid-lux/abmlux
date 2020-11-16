@@ -35,11 +35,11 @@ class TUSMarkovActivityModel(ActivityModel):
     """Uses Time-of-Use Survey data to build a markov model of activities, which are then
     cycled through in a set of routines."""
 
-    def __init__(self, prng, config, bus, activity_manager):
+    def __init__(self, config, activity_manager):
 
-        # TODO: semantic constructor arguments rather than just passing in the whole config
+        super().__init__(config, activity_manager)
 
-        super().__init__(prng, config, bus, activity_manager)
+        # These can be computed ahead of time
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
 
         # Runtime config
@@ -47,6 +47,11 @@ class TUSMarkovActivityModel(ActivityModel):
 
         # State kept during simulation execution
         self.network = None
+
+    def init_sim(self, state):
+
+        self.bus = state.bus     #FIXME
+        self.network = state.network
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
@@ -57,9 +62,6 @@ class TUSMarkovActivityModel(ActivityModel):
         """Start a simulation.
 
         Resets the internal counters."""
-
-        # What network are we running over?
-        self.network = sim.network
 
         # These agents are still having activity updates
         self.active_agents = set(sim.network.agents)
