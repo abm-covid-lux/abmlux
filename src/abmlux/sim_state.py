@@ -44,14 +44,13 @@ class SimulationFactory:
 
         # Components of the simulation
         self.map                    = None
-        self.world                = None
+        self.world                  = None
         self.activity_model         = None
         self.movement_model         = None
         self.disease_model          = None
         self.interventions          = {}
         self.intervention_schedules = {}
 
-    # FIXME: move 'add' to be 'set' for the singular items below
     def set_movement_model(self, movement_model: MovementModel) -> None:
         self.movement_model = movement_model
 

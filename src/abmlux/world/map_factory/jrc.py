@@ -19,9 +19,7 @@ log = logging.getLogger('jrc_map_factory')
 class JRCMapFactory(MapFactory):
     """Reads JRC-format data and extracts density information to return a DensityMap"""
 
-    def __init__(self, random_seed, population_distribution_fp, country_code, res_fact,
-                 normalize_interpolation, shapefilename, shapefile_coord_system):
-
+    def __init__(self, config):
         """Parse JRC-format country data and return a two-dimensional array
         containing population density weights per-kilometer.
 
@@ -36,12 +34,12 @@ class JRCMapFactory(MapFactory):
         """
 
         # Load input data
-        log.debug("Loading input data from %s...", population_distribution_fp)
-        jrc = pd.read_csv(population_distribution_fp)
+        log.debug("Loading input data from %s...", config['population_distribution_fp'])
+        jrc = pd.read_csv(config['population_distribution_fp'])
 
         # Filter this-country-only rows and augment with integer grid coords
-        log.debug("Filtering for country with code %s...", country_code)
-        jrc = jrc[jrc["CNTR_CODE"] == country_code]
+        log.debug("Filtering for country with code %s...", config['country_code'])
+        jrc = jrc[jrc["CNTR_CODE"] == config['country_code']]
         jrc['grid_x'] = pd.Series([int(x[9:13]) for x in jrc['GRD_ID']], index=jrc.index)
         jrc['grid_y'] = pd.Series([int(x[4:8]) for x in jrc['GRD_ID']], index=jrc.index)
 
@@ -49,15 +47,15 @@ class JRCMapFactory(MapFactory):
         self.country_width  = 1000 * (jrc['grid_x'].max() - jrc['grid_x'].min() + 1)
         self.country_height = 1000 * (jrc['grid_y'].max() - jrc['grid_y'].min() + 1)
         log.info("Country with code %s has %ix%im of data", \
-                 country_code, self.country_width, self.country_height)
+                 config['country_code'], self.country_width, self.country_height)
         self.jrc = jrc
 
 
-        self.prng                  = Random(random_seed)
-        self.res_fact              = res_fact
-        self.normalize             = normalize_interpolation
-        self.shapefilename         = shapefilename
-        self.shapefile_coordsystem = shapefile_coord_system
+        self.prng                  = Random(config['random_seed'])
+        self.res_fact              = config['res_fact']
+        self.normalize             = config['normalize_interpolation']
+        self.shapefilename         = config['shapefilename']
+        self.shapefile_coordsystem = config['shapefile_coord_system']
 
     def get_map(self) -> DensityMap:
 

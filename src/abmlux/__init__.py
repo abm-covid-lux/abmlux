@@ -39,8 +39,9 @@ def build_model(state):
 
     # Create the map
     map_factory_class = config['map_factory.__type__']
-    map_factory_config = remove_dunder_keys(config['map_factory'])   # TODO: convert into config.subconfig call
-    map_factory = instantiate_class("abmlux.world.map_factory", map_factory_class, **map_factory_config)
+    map_factory_config = config.subconfig('map_factory')
+    map_factory = instantiate_class("abmlux.world.map_factory", map_factory_class,
+                                    map_factory_config)
     _map = map_factory.get_map()
     state.set_map(_map)
 

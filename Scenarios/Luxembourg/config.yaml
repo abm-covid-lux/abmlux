@@ -518,6 +518,9 @@ movement_model:
 # ######################################### Activity #####################################
 # Configure the component that drives agents performing different activities in the simulation
 activity_model:
+
+  # TODO: __type__
+
   # File containing time use survey data, and see Docs for full format:
   time_use_filepath: Time Use.csv
 
@@ -760,7 +763,7 @@ interventions:
 
 
   # The intervention refers to a system that distributes
-  # invitations to test, across the population, according to a certain algorithm. 
+  # invitations to test, across the population, according to a certain algorithm.
   large_scale_testing:
     __type__: testing.LargeScaleTesting
     __enabled__: false
