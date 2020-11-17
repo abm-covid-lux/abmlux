@@ -116,7 +116,9 @@ class StochasticWorldFactory(WorldFactory):
         pop_by_age = self.config['age_distribution']
 
         # How many agents per agent type
-        pop_normalised    = [math.ceil((self.config['n'] * x) / sum(pop_by_age)) for x in pop_by_age]
+        world.set_scale_factor(self.config['n'] / sum(pop_by_age))
+        pop_normalised    = [math.ceil(x * world.scale_factor) for x in pop_by_age]
+
         log.info("Creating %i agents...", sum(pop_normalised))
         for age, pop in tqdm(enumerate(pop_normalised)):
             # print(f"AGE: {age} POP: {pop}")

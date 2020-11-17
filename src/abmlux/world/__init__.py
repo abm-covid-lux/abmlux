@@ -16,9 +16,19 @@ class World:
         self.map: Map                   = map_
         self.agents: list[Agent]        = []
         self.locations: list[Location]  = []
+        self.scale_factor: float        = 1
 
         self.agents_by_type: dict[AgentType, list[Agent]] = {}
         self.locations_by_type: dict[str, list[Location]] = {}
+
+    def set_scale_factor(self, scale_factor: float) -> None:
+        """Set the scale factor for this map: how does it relate to the population
+        in the world it's modelling?"""
+
+        if scale_factor <= 0:
+            raise ValueError("Scale factor must be above 0")
+
+        self.scale_factor = scale_factor
 
     def n(self) -> int:
         """Return the number of agents in the world"""
