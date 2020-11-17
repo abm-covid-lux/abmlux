@@ -503,8 +503,7 @@ world_factory:
 
 # Configures the movement model used during simulation
 movement_model:
-  # TODO
-  #__type__: compartmental.CompartmentalModel
+  __type__: simple_random.SimpleRandomMovementModel
 
   # When responding to activity changes, the location model will move agents.
   # Add a location type to the list below if this shouldn't happen when the agent is
@@ -519,6 +518,7 @@ movement_model:
 # Configure the component that drives agents performing different activities in the simulation
 activity_model:
 
+  __type__: tus_survey.TUSMarkovActivityModel
   # TODO: __type__
 
   # File containing time use survey data, and see Docs for full format:

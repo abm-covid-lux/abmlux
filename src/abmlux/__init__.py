@@ -27,15 +27,11 @@ from abmlux.serialisation import read_from_disk, write_to_disk
 log = logging.getLogger()
 
 
+def build_model(sim_factory):
 
-def build_model(state):
+    config = sim_factory.config
 
-    # FIXME: delete this
-    prng = Random()
-
-    config = state.config
-
-
+    # -----------------------------------[ World ]---------------------------------
 
     # Create the map
     map_factory_class = config['map_factory.__type__']
@@ -43,35 +39,41 @@ def build_model(state):
     map_factory = instantiate_class("abmlux.world.map_factory", map_factory_class,
                                     map_factory_config)
     _map = map_factory.get_map()
-    state.set_map(_map)
+    sim_factory.set_map(_map)
 
-    """Build a world of locations and agents based on the population density"""
+    # Create the world, providing it with the map
     world_factory_class = config['world_factory.__type__']
     world_factory_config = config.subconfig('world_factory')
-    world_factory = instantiate_class("abmlux.world.world_factory", world_factory_class, state.map,
-                                      state.activity_manager, world_factory_config)
+    world_factory = instantiate_class("abmlux.world.world_factory", world_factory_class, sim_factory.map,
+                                      sim_factory.activity_manager, world_factory_config)
     world = world_factory.get_world()
-    state.set_world_model(world)
+    sim_factory.set_world_model(world)
 
 
-    # ------ components -----------
+    # -----------------------------------[ Components ]---------------------------------
 
-
-    """Set up disease model."""
+    # Disease model
     disease_model_class  = config['disease_model.__type__']
     disease_model_config = config.subconfig('disease_model')
-    state.set_disease_model(instantiate_class("abmlux.disease_model", disease_model_class, disease_model_config))
+    disease_model = instantiate_class("abmlux.disease_model", disease_model_class,
+                                      disease_model_config)
+    sim_factory.set_disease_model(disease_model)
 
+    # Activity model
+    activity_model_class = config['activity_model.__type__']
+    activity_model_config = config.subconfig('activity_model')
+    activity_model = instantiate_class("abmlux.activity", activity_model_class,
+                                       activity_model_config, sim_factory.activity_manager)
+    sim_factory.set_activity_model(activity_model)
 
-    """Build a markov model of activities to transition through"""
-    state.set_activity_model(TUSMarkovActivityModel(config.subconfig('activity_model'), state.activity_manager))
+    # How agents move around locations
+    movement_model_class = config['movement_model.__type__']
+    movement_model_config = config.subconfig('movement_model')
+    movement_model = instantiate_class("abmlux.movement_model", movement_model_class,
+                                       movement_model_config)
+    sim_factory.set_movement_model(movement_model)
 
-
-    """set up location model"""
-    state.set_movement_model(SimpleRandomMovementModel(config.subconfig('movement_model')))
-
-    """Set up interventions"""
-    # Reporters
+    # Interventions
     for intervention_id, intervention_config in config["interventions"].items():
 
         # Extract keys from the intervention config
@@ -84,14 +86,14 @@ def build_model(state):
         new_intervention = instantiate_class("abmlux.interventions", intervention_class, \
                                              intervention_config, initial_enabled)
 
-        state.add_intervention(intervention_id, new_intervention)
-        state.add_intervention_schedule(new_intervention, intervention_config['__schedule__'])
+        sim_factory.add_intervention(intervention_id, new_intervention)
+        sim_factory.add_intervention_schedule(new_intervention, intervention_config['__schedule__'])
 
-    # Initialise internal state of the intervention object, and allow it to
+    # Initialise internal sim_factory of the intervention object, and allow it to
     # modify the world if needed
-    #for intervention_id, intervention in state.interventions.items():
+    #for intervention_id, intervention in sim_factory.interventions.items():
     #    log.info("Initialising intervention %s...", intervention_id)
-    #    intervention.initialise_agents(state.world)
+    #    intervention.initialise_agents(sim_factory.world)
 
     """Run the agent-based model itself"""
     # ------------------------------------------------[ 5 ]------------------------------------
@@ -104,7 +106,7 @@ def build_model(state):
 #
 #        log.info("Creating reporter %s...", fqclass_name)
 #
-#        reporter = instantiate_class("abmlux.reporters", fqclass_name, state.bus, **params)
+#        reporter = instantiate_class("abmlux.reporters", fqclass_name, sim_factory.bus, **params)
 #        reporters.append(reporter)
 
 
@@ -115,23 +117,23 @@ def main():
     state_filename = sys.argv[1]
     print(f"Creating new statefile at {state_filename} using config at {sys.argv[2]}...")
     config = Config(sys.argv[2])
-    state = SimulationFactory(config)
+    sim_factory = SimulationFactory(config)
 
     # System config/setup
-    logging.config.dictConfig(state.config['logging'])
+    logging.config.dictConfig(sim_factory.config['logging'])
 
-    # Summarise the state
+    # Summarise the sim_factory
     log.info("State info:")
-    log.info("  Run ID: %s", state.run_id)
-    log.info("  ABMLUX version: %s", state.abmlux_version)
-    log.info("  Created at: %s", state.created_at)
-    log.info("  Activity Model: %s", state.activity_model)
-    log.info("  Map: %s", state.map)
-    log.info("  World: %s", state.world)
-    log.info("  PRNG seed: %i", state.config['random_seed'])
+    log.info("  Run ID: %s", sim_factory.run_id)
+    log.info("  ABMLUX version: %s", sim_factory.abmlux_version)
+    log.info("  Created at: %s", sim_factory.created_at)
+    log.info("  Activity Model: %s", sim_factory.activity_model)
+    log.info("  Map: %s", sim_factory.map)
+    log.info("  World: %s", sim_factory.world)
+    log.info("  PRNG seed: %i", sim_factory.config['random_seed'])
 
-    build_model(state)
+    build_model(sim_factory)
 
     # ############## Run ##############
-    sim = state.new_sim()
+    sim = sim_factory.new_sim()
     sim.run()
