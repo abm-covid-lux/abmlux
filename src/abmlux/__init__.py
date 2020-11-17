@@ -49,7 +49,7 @@ def build_model(state):
 
 
     """Build a markov model of activities to transition through"""
-    state.add_activity_model(TUSMarkovActivityModel(config, state.activity_manager))
+    state.add_activity_model(TUSMarkovActivityModel(config.subconfig('activity_model'), state.activity_manager))
 
     """Set up disease model."""
     disease_model_class  = config['disease_model.__type__']
@@ -57,7 +57,7 @@ def build_model(state):
     state.add_disease_model(instantiate_class("abmlux.disease", disease_model_class, disease_model_config))
 
     """set up location model"""
-    state.add_location_model(SimpleRandomLocationModel(config))
+    state.add_location_model(SimpleRandomLocationModel(config.subconfig('location_model')))
 
     """Set up interventions"""
     # Reporters

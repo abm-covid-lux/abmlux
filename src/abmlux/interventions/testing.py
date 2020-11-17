@@ -13,19 +13,18 @@ log = logging.getLogger("testing")
 class LargeScaleTesting(Intervention):
     """Randomly select a number of people per day for testing."""
 
-    def init_sim(self, state):
-
-        self.bus = state.bus # FIXME
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
         self.agents_tested_per_day_raw        = self.config['tests_per_day']
         self.invitation_to_test_booking_delay = \
-            int(state.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
+            int(sim.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
 
-        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
+        scale_factor = sim.config['n'] / sum(sim.config['age_distribution'])
         self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
 
-        self.test_booking_events = DeferredEventPool(self.bus, state.clock)
-        self.network = state.network
+        self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
+        self.network = sim.network
         self.current_day = None
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
@@ -52,16 +51,15 @@ class OtherTesting(Intervention):
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""
 
-    def init_sim(self, state):
-
-        self.bus = state.bus # FIXME
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
         self.prob_test_symptoms                = self.config['prob_test_symptoms']
         self.onset_of_symptoms_to_test_booking = \
-            int(state.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
+            int(sim.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
 
         self.symptomatic_states  = set(self.config['symptomatic_states'])
-        self.test_booking_events = DeferredEventPool(self.bus, state.clock)
+        self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
 

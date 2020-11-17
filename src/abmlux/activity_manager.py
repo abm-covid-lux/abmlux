@@ -82,7 +82,6 @@ class ActivityManager:
         log.debug("Finding location types for activity_type '%s'", activity_type)
 
         # Look up from config using the name
-        if activity_type in self.map_config and \
-           'allowed_locations' in self.map_config[activity_type]:
-            return self.map_config[activity_type]['allowed_locations']
+        if activity_type in self.map_config:
+            return self.map_config[activity_type]
         return []

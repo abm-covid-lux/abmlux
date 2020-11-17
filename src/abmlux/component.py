@@ -7,7 +7,6 @@ import logging
 import pickle
 from typing import Union
 
-from abmlux.simulator import Simulator
 from abmlux.random_tools import Random
 from abmlux.config import Config
 
@@ -17,7 +16,7 @@ log = logging.getLogger("component")
 class Component:
     """A pluggable simulation component."""
 
-    def __init__(self, component_config: Union[Config, dict]):
+    def __init__(self, component_config: Config):
 
         self.config = component_config
 
@@ -26,7 +25,7 @@ class Component:
         else:
             self.prng   = Random()
 
-    def init_sim(self, sim: Simulator) -> None:
+    def init_sim(self, sim) -> None:
         """Complete initialisation of this object with the full state of a ready-to-go simulation.
 
         It is expected that this is a chance to hook onto the event bus."""

@@ -47,14 +47,14 @@ class CompartmentalModel(DiseaseModel):
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
 
-    def init_sim(self, state):
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
         # FIXME
-        self.bus = state.bus 
-        self.state                      = state
-        self.network                    = state.network
-        self.sim = state
-        network = state.network
+        self.state                      = sim
+        self.network                    = sim.network
+        self.sim = sim
+        network = sim.network
 
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)

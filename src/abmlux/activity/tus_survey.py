@@ -43,15 +43,12 @@ class TUSMarkovActivityModel(ActivityModel):
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
 
         # Runtime config
-        self.stop_activity_health_states = config['activity_model']['stop_activity_health_states']
+        self.stop_activity_health_states = config['stop_activity_health_states']
 
-        # State kept during simulation execution
-        self.network = None
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
-    def init_sim(self, state):
-
-        self.bus = state.bus     #FIXME
-        self.network = state.network
+        self.network = sim.network
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
@@ -110,11 +107,10 @@ class TUSMarkovActivityModel(ActivityModel):
             self.bus.publish("request.agent.activity", agent, next_activity)
 
     def _get_tus_code_mapping(self, map_config):
-        """Return a function mapping TUS activity codes onto those used
-        in this model.
+        """Return a function mapping TUS activity codes onto those used in this model.
 
-        TUS codes are defined in two fields, primary and secondary.  If
-        primary == 7, we switch to secondary.
+        TUS codes are defined in two fields, primary and secondary.
+        If primary == 7, we switch to secondary.
 
         Primary and secondary mappings are defined in map_config as a dict
         of abm labels and primary/secondary keys containing a list of TUS
@@ -368,7 +364,7 @@ class TUSMarkovActivityModel(ActivityModel):
         # are consquently recoded as numbers in the set {0,...,13}, as described in the file
         # FormatActivities.
 
-        map_func = self._get_tus_code_mapping(self.config['activities'])
+        map_func = self._get_tus_code_mapping(self.config['activity_code_map'])
         days     = self._parse_days(tus, map_func, self.config['tick_length_s'])
         log.info("Created %i days", len(days))
 
