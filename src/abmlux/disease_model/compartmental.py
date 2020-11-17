@@ -3,7 +3,7 @@
 import logging
 from tqdm import tqdm
 
-from abmlux.disease import DiseaseModel
+from abmlux.disease_model import DiseaseModel
 
 log = logging.getLogger("adv_seird_model")
 

@@ -18,7 +18,7 @@ from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
 from abmlux.agent import Agent
 from abmlux.location import Location
-from abmlux.disease import DiseaseModel
+from abmlux.disease_model import DiseaseModel
 from abmlux.interventions import Intervention
 from abmlux.network import Network
 from abmlux.activity_manager import ActivityManager
@@ -30,7 +30,7 @@ class Simulator:
     """Class that simulates an outbreak."""
 
     def __init__(self, config, activity_manager, clock, _map, \
-                 network_model, activity_model, location_model, \
+                 network_model, activity_model, movement_model, \
                  disease_model, interventions, intervention_schedules):
 
         # Static info
@@ -49,8 +49,8 @@ class Simulator:
         self.map                    = _map
         self.network                = network_model # FIXME: rename to network_model
         self.activity_model         = activity_model
-        self.location_model         = location_model
-        self.disease                = disease_model # FIXME: rename to disease_model
+        self.movement_model         = movement_model
+        self.disease_model          = disease_model
         self.interventions          = interventions
         self.intervention_schedules = intervention_schedules
 
@@ -68,8 +68,8 @@ class Simulator:
         # Here we assume that components are going to hook onto the messagebus.
         # We start with the activity model
         self.activity_model.init_sim(self)
-        self.location_model.init_sim(self)
-        self.disease.init_sim(self)
+        self.movement_model.init_sim(self)
+        self.disease_model.init_sim(self)
         for name, intervention in self.interventions.items():
             log.info("Initialising intervention '%s'...", name)
             intervention.init_sim(self)
@@ -133,7 +133,7 @@ class Simulator:
 
         # Disease model parameters
         log.info("Creating health state indices...")
-        self.agents_by_health_state        = {h: set() for h in self.disease.states}
+        self.agents_by_health_state        = {h: set() for h in self.disease_model.states}
         for a in tqdm(self.agents):
             self.agents_by_health_state[a.health].add(a)
         # /caches

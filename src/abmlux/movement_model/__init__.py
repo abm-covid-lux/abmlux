@@ -3,7 +3,7 @@ they are assigned."""
 
 from abmlux.component import Component
 
-class LocationModel(Component):
+class MovementModel(Component):
     """Defines the location finding behaviour of agents.
 
     Subclasses are expected to select a location for agents during the simulation, responding to

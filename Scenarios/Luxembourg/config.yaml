@@ -182,7 +182,9 @@ epoch: 23th February 2020
 # ######################################### Locations ##############################################
 
 # Configures the movement model used during simulation
-location_model:
+movement_model:
+  # TODO
+  #__type__: compartmental.CompartmentalModel
 
   # When responding to activity changes, the location model will move agents.
   # Add a location type to the list below if this shouldn't happen when the agent is

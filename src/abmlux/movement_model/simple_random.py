@@ -2,12 +2,12 @@
 
 import logging
 
-from abmlux.location_model import LocationModel
+from abmlux.movement_model import MovementModel
 from abmlux.messagebus import MessageBus
 
-log = logging.getLogger("simple_location_model")
+log = logging.getLogger("simple_movement_model")
 
-class SimpleRandomLocationModel(LocationModel):
+class SimpleRandomMovementModel(MovementModel):
     """Uses simple random sampling to select locations in response to activity changes."""
 
     def init_sim(self, sim):

@@ -15,7 +15,7 @@ class TQDM(Reporter):
 
         self.pbar    = None
         self.sim     = None
-        self.disease = None
+        self.disease_model = None
 
         bus.subscribe("notify.time.start_simulation", self.start, self)
         bus.subscribe("notify.time.tick", self.iterate, self)
@@ -23,7 +23,7 @@ class TQDM(Reporter):
 
     def start(self, sim):
         self.sim     = sim
-        self.disease = sim.disease
+        self.disease_model = sim.disease_model
         self.pbar    = tqdm(total=sim.clock.max_ticks)
 
     def iterate(self, clock, t):
@@ -34,7 +34,7 @@ class TQDM(Reporter):
         # FIXME: the below uses what _should_ really be a private variable, it should be replaced
         #        by a state-change counter listening to events within this class
         desc = ", ".join([f"{str(k)[0]}:{len(v)}" \
-                          for k, v in self.disease.agents_by_health_state.items()])
+                          for k, v in self.disease_model.agents_by_health_state.items()])
         self.pbar.set_description(f"{desc} {clock.now()}")
 
     def stop(self, sim):

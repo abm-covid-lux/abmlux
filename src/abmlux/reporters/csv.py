@@ -15,7 +15,7 @@ class HealthStateCounts(Reporter):
         self.writer   = None
 
         self.sim     = None
-        self.disease = None
+        self.disease_model = None
 
         bus.subscribe("notify.time.start_simulation", self.start, self)
         bus.subscribe("notify.time.tick", self.iterate, self)
@@ -25,7 +25,7 @@ class HealthStateCounts(Reporter):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
         self.sim     = sim
-        self.disease = sim.disease
+        self.disease_model = sim.disease_model
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
@@ -35,7 +35,7 @@ class HealthStateCounts(Reporter):
 
         # Write header
         header = ["time", "date"]
-        header += [str(k) for k in self.disease.agents_by_health_state.keys()]
+        header += [str(k) for k in self.disease_model.agents_by_health_state.keys()]
 
         self.writer.writerow(header)
 
@@ -47,7 +47,7 @@ class HealthStateCounts(Reporter):
         row = [t, clock.now()]
         # FIXME: this uses what _should_ be a private variable in the disease model.
         #        it should be replaced by something that does the counts using events internally.
-        row += [len(v) for k, v in self.disease.agents_by_health_state.items()]
+        row += [len(v) for k, v in self.disease_model.agents_by_health_state.items()]
 
         self.writer.writerow(row)
 

@@ -7,7 +7,7 @@ import logging
 import logging.config
 import traceback
 
-from abmlux.location_model.simple_random import SimpleRandomLocationModel
+from abmlux.movement_model.simple_random import SimpleRandomMovementModel
 import abmlux.density_model as density_model
 import abmlux.network_model as network_model
 from abmlux.random_tools import Random
@@ -15,7 +15,7 @@ from abmlux.utils import instantiate_class
 from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationFactory
 from abmlux.simulator import Simulator
-from abmlux.disease.compartmental import CompartmentalModel
+from abmlux.disease_model.compartmental import CompartmentalModel
 from abmlux.activity.tus_survey import TUSMarkovActivityModel
 
 import abmlux.tools as tools
@@ -36,7 +36,7 @@ def build_model(state):
     prng = Random()
 
     config = state.config
-    state.add_map(density_model.read_density_model_jrc(prng,
+    state.set_map(density_model.read_density_model_jrc(prng,
                                                      config.filepath('map.population_distribution_fp'),
                                                      config['map.country_code'],
                                                      config['map.res_fact'],
@@ -45,19 +45,24 @@ def build_model(state):
                                                      config['map.shapefile_coordinate_system']))
 
     """Build a network of locations and agents based on the population density"""
-    state.add_network_model(network_model.build_network_model(prng, config, state.map))
+    state.set_network_model(network_model.build_network_model(prng, config, state.map))
 
 
-    """Build a markov model of activities to transition through"""
-    state.add_activity_model(TUSMarkovActivityModel(config.subconfig('activity_model'), state.activity_manager))
+    # ------ components -----------
+
 
     """Set up disease model."""
     disease_model_class  = config['disease_model.__type__']
     disease_model_config = config['disease_model']
-    state.add_disease_model(instantiate_class("abmlux.disease", disease_model_class, disease_model_config))
+    state.set_disease_model(instantiate_class("abmlux.disease_model", disease_model_class, disease_model_config))
+
+
+    """Build a markov model of activities to transition through"""
+    state.set_activity_model(TUSMarkovActivityModel(config.subconfig('activity_model'), state.activity_manager))
+
 
     """set up location model"""
-    state.add_location_model(SimpleRandomLocationModel(config.subconfig('location_model')))
+    state.set_movement_model(SimpleRandomMovementModel(config.subconfig('movement_model')))
 
     """Set up interventions"""
     # Reporters

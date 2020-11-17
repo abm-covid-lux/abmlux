@@ -48,7 +48,7 @@ class LocationPlots(Reporter):
     def start(self, sim):
 
         # Choose which health states to show
-        self.health_filter = sim.disease.states
+        self.health_filter = sim.disease_model.states
         if self.health_to_show is not None and len(self.health_to_show) > 0:
             self.health_filter = self.health_to_show
         self.health_state_label = ", ".join(self.health_filter)
