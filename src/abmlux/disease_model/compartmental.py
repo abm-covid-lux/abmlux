@@ -16,9 +16,9 @@ class CompartmentalModel(DiseaseModel):
         super().__init__(config, config['health_states'])
 
         self.inf_probs                  = config['infection_probabilities_per_tick']
-        self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
-        self.prob_do_recommendation     = config['personal_protective_measures']['prob_do_recommendation']
-        self.ppm_coeff                  = config['personal_protective_measures']['ppm_coeff']
+        self.prob_wear_mask             = config['personal_protective_measures.prob_wear_mask']
+        self.prob_do_recommendation     = config['personal_protective_measures.prob_do_recommendation']
+        self.ppm_coeff                  = config['personal_protective_measures.ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
         self.random_exposures           = config['random_exposures']
         self.contagious_states          = set(config['contagious_states'])
@@ -52,9 +52,9 @@ class CompartmentalModel(DiseaseModel):
 
         # FIXME
         self.state                      = sim
-        self.network                    = sim.network
+        self.world                    = sim.world
         self.sim = sim
-        network = sim.network
+        world = sim.world
 
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
@@ -64,7 +64,7 @@ class CompartmentalModel(DiseaseModel):
         # Assign a disease profile to each agent. This determines which health states an agent
         # passes through and in which order.
         log.info("Assigning disease profiles and durations...")
-        agents = network.agents
+        agents = world.agents
         total_contagious_time = 0
         total_incubation_time = 0
         for agent in tqdm(agents):
@@ -117,7 +117,7 @@ class CompartmentalModel(DiseaseModel):
 
         # Start by using the simulation clock to convert durations from days to ticks
         if t == 0:
-            for agent in self.network.agents:
+            for agent in self.world.agents:
                 for index in range(len(self.disease_durations_dict[agent])):
                     duration_days = self.disease_durations_dict[agent][index]
                     if duration_days is not None:
@@ -148,7 +148,7 @@ class CompartmentalModel(DiseaseModel):
                     self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
 
         # Determine which other agents need moving to their next health state
-        for agent in self.network.agents:
+        for agent in self.world.agents:
             duration_ticks = self.disease_durations_dict[agent]\
                              [self.disease_profile_index_dict[agent]]
 

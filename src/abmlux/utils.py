@@ -11,7 +11,19 @@ import psutil
 
 BYTES_IN_A_GIB = 1.074e+9
 
+
 log = logging.getLogger("utils")
+
+def remove_dunder_keys(_dict) -> dict:
+    """Remove __dunder__ keys from the dict.
+
+    This is used where __type__ is used in configs to specify the type of class to be created,
+    but we wish to use the rest of the data in the dict as args.  Essentially it's a method of
+    in-band signalling."""
+
+    new_dict = {k: v for k, v in _dict.items() \
+                if not str(k).startswith("__") and not str(k).endswith("__")}
+    return new_dict
 
 def instantiate_class(module_base, module_path, *args, **kwargs):
     """Take a string and arguments and instantiate a class, returning it.

@@ -48,7 +48,7 @@ class TUSMarkovActivityModel(ActivityModel):
     def init_sim(self, sim):
         super().init_sim(sim)
 
-        self.network = sim.network
+        self.world = sim.world
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
@@ -61,11 +61,11 @@ class TUSMarkovActivityModel(ActivityModel):
         Resets the internal counters."""
 
         # These agents are still having activity updates
-        self.active_agents = set(sim.network.agents)
+        self.active_agents = set(sim.world.agents)
 
         log.debug("Seeding initial activity states and locations...")
         clock = sim.clock
-        for agent in self.network.agents:
+        for agent in self.world.agents:
             # Get distribution for this type at the starting time step
             distribution = self.activity_distributions[agent.agetyp][clock.epoch_week_offset]
             assert sum(distribution.values()) > 0
@@ -337,7 +337,7 @@ class TUSMarkovActivityModel(ActivityModel):
 
 
     def _build_markov_model(self):
-        """Constructs activity transition matrices for the network given.
+        """Constructs activity transition matrices for the world given.
 
         Returns:
             activity_distributions(dict):A list of initial distributions indexed by AgentType

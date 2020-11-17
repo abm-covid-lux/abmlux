@@ -1,4 +1,4 @@
-"""Represents the space in which the network exists"""
+"""Represents the space in which the world exists"""
 
 import logging
 import math

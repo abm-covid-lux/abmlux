@@ -19,7 +19,7 @@ class StatePickler(Reporter):
 
     def iterate(self, sim):
 
-        payload = {sim.network}
+        payload = {sim.world}
 
         with open(osp.join(self.dirname, f"{sim.clock.t}.pickle"), 'wb') as fout:
             pickle.dump(payload, fout)

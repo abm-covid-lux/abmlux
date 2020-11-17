@@ -49,8 +49,8 @@ class DiseaseModel(Component):
         return str(state)[0].upper()
 
     # pylint: disable=no-self-use
-    def initialise_agents(self, network):
-        """Create initial health states for agents on a network.
+    def initialise_agents(self, world):
+        """Create initial health states for agents on a world.
 
         Operates on Agent list in place (does not return a value)"""
         # pylint: disable=unused-argument

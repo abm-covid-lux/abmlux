@@ -54,7 +54,7 @@ class LocationPlots(Reporter):
         self.health_state_label = ", ".join(self.health_filter)
 
         if self.type_filter is None:
-            self.type_filter = [x for x in list(sim.network.locations_by_type.keys())
+            self.type_filter = [x for x in list(sim.world.locations_by_type.keys())
                                 if x not in LOCATION_TYPE_BLACKLIST]
         self.colours = {lt: string_as_mpl_colour(lt) for lt in self.type_filter}
 
@@ -70,19 +70,19 @@ class LocationPlots(Reporter):
         if sim.clock.t % self.every_n != 0:
             return
 
-        network = sim.network
+        world = sim.world
 
         # Set figure sizes
         fig = plt.figure()
         fig.set_size_inches(self.figure_size[0], self.figure_size[1])
 
         # Plot the border, if one exists
-        network.map.plot_border(plt)
+        world.map.plot_border(plt)
 
         # Plot all the points
         for location_type in self.type_filter:
             #log.info("Rendering locations of type '%s'...", location_type)
-            for location in network.locations_by_type[location_type]:
+            for location in world.locations_by_type[location_type]:
                 for health in self.health_filter:
                     if sim.agent_counts_by_health[health][location] > 0:
                         # print(f"-> {health} // {sim.agent_counts_by_health[health][location]}")

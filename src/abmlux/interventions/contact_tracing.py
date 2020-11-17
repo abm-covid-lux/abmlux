@@ -35,8 +35,12 @@ class ContactTracingManual(Intervention):
         self.location_type_blacklist  = self.config['location_type_blacklist']
 
         self.daily_notification_count = 0
-        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
-        self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
+
+        # FIXME: scaling disabled for now
+        #scale_factor = state.world.n() / sum(state.config['age_distribution'])
+        #max(int(self.max_per_day_raw * scale_factor), 1)
+
+        self.max_per_day = self.max_per_day_raw
 
         self.activity_manager         = state.activity_manager
 
@@ -145,14 +149,14 @@ class ContactTracingApp(Intervention):
 
         super().init_sim(state)
 
-        network = state.network #FIXME: interim patch during component conversion
+        world = state.world #FIXME: interim patch during component conversion
         self.bus = state.bus
         self.sim = state
 
         # Initialisation of internal state
-        num_app_installs = min(len(network.agents), math.ceil(len(network.agents) * \
+        num_app_installs = min(len(world.agents), math.ceil(len(world.agents) * \
                                self.app_prevalence ))
-        self.agents_with_app = self.prng.random_sample(network.agents, \
+        self.agents_with_app = self.prng.random_sample(world.agents, \
                                                           num_app_installs)
         log.info("Selected %i agents with app", len(self.agents_with_app))
 

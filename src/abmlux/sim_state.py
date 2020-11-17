@@ -11,12 +11,12 @@ from abmlux.location_manager import LocationManager
 from abmlux.config import Config
 from abmlux.sim_time import SimClock
 from abmlux.version import VERSION
-from abmlux.map import Map
+from abmlux.world.map import Map
 from abmlux.simulator import Simulator
 from abmlux.disease_model import DiseaseModel
 from abmlux.activity import ActivityModel
 from abmlux.movement_model import MovementModel
-from abmlux.network import Network
+from abmlux.world import World
 from abmlux.interventions import Intervention
 
 log = logging.getLogger("sim_state")
@@ -44,7 +44,7 @@ class SimulationFactory:
 
         # Components of the simulation
         self.map                    = None
-        self.network                = None
+        self.world                = None
         self.activity_model         = None
         self.movement_model         = None
         self.disease_model          = None
@@ -61,8 +61,8 @@ class SimulationFactory:
     def set_activity_model(self, activity_model: ActivityModel) -> None:
         self.activity_model = activity_model
 
-    def set_network_model(self, network: Network) -> None:
-        self.network = network
+    def set_world_model(self, world: World) -> None:
+        self.world = world
 
     def set_map(self, _map: Map) -> None:
         self.map = _map
@@ -80,8 +80,8 @@ class SimulationFactory:
 
         if self.map is None:
             raise ValueError("No Map")
-        if self.network is None:
-            raise ValueError("No network defined.")
+        if self.world is None:
+            raise ValueError("No world defined.")
         if self.activity_model is None:
             raise ValueError("No activity model defined.")
         if self.movement_model is None:
@@ -94,7 +94,7 @@ class SimulationFactory:
             raise ValueError("No interventions scheduler defined.")
 
         sim = Simulator(self.config, self.activity_manager, self.clock, self.map,
-                        self.network, self.activity_model, self.movement_model,
+                        self.world, self.activity_model, self.movement_model,
                         self.disease_model, self.interventions, self.intervention_schedules)
 
         return sim

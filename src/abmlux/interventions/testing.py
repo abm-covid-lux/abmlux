@@ -20,11 +20,14 @@ class LargeScaleTesting(Intervention):
         self.invitation_to_test_booking_delay = \
             int(sim.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
 
-        scale_factor = sim.config['n'] / sum(sim.config['age_distribution'])
-        self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
+        # FIXME: scaling disabled for now
+        #scale_factor = sim.config['n'] / sum(sim.config['age_distribution'])
+        #self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
+
+        self.agents_tested_per_day = self.agents_tested_per_day_raw
 
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
-        self.network = sim.network
+        self.world = sim.world
         self.current_day = None
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
@@ -40,7 +43,7 @@ class LargeScaleTesting(Intervention):
             return
 
         # Invite for testing by random selection:
-        test_agents_random = self.prng.random_sample(self.network.agents,
+        test_agents_random = self.prng.random_sample(self.world.agents,
                                                      self.agents_tested_per_day)
         for agent in test_agents_random:
             self.test_booking_events.add("request.testing.book_test", \

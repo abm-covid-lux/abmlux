@@ -8,10 +8,8 @@ import logging.config
 import traceback
 
 from abmlux.movement_model.simple_random import SimpleRandomMovementModel
-import abmlux.density_model as density_model
-import abmlux.network_model as network_model
 from abmlux.random_tools import Random
-from abmlux.utils import instantiate_class
+from abmlux.utils import instantiate_class, remove_dunder_keys
 from abmlux.messagebus import MessageBus
 from abmlux.sim_state import SimulationFactory
 from abmlux.simulator import Simulator
@@ -36,16 +34,23 @@ def build_model(state):
     prng = Random()
 
     config = state.config
-    state.set_map(density_model.read_density_model_jrc(prng,
-                                                     config.filepath('map.population_distribution_fp'),
-                                                     config['map.country_code'],
-                                                     config['map.res_fact'],
-                                                     config['map.normalize_interpolation'],
-                                                     config.filepath('map.shapefilename'),
-                                                     config['map.shapefile_coordinate_system']))
 
-    """Build a network of locations and agents based on the population density"""
-    state.set_network_model(network_model.build_network_model(prng, config, state.map))
+
+
+    # Create the map
+    map_factory_class = config['map_factory.__type__']
+    map_factory_config = remove_dunder_keys(config['map_factory'])   # TODO: convert into config.subconfig call
+    map_factory = instantiate_class("abmlux.world.map_factory", map_factory_class, **map_factory_config)
+    _map = map_factory.get_map()
+    state.set_map(_map)
+
+    """Build a world of locations and agents based on the population density"""
+    world_factory_class = config['world_factory.__type__']
+    world_factory_config = config.subconfig('world_factory')
+    world_factory = instantiate_class("abmlux.world.world_factory", world_factory_class, state.map,
+                                      state.activity_manager, world_factory_config)
+    world = world_factory.get_world()
+    state.set_world_model(world)
 
 
     # ------ components -----------
@@ -53,7 +58,7 @@ def build_model(state):
 
     """Set up disease model."""
     disease_model_class  = config['disease_model.__type__']
-    disease_model_config = config['disease_model']
+    disease_model_config = config.subconfig('disease_model')
     state.set_disease_model(instantiate_class("abmlux.disease_model", disease_model_class, disease_model_config))
 
 
@@ -82,10 +87,10 @@ def build_model(state):
         state.add_intervention_schedule(new_intervention, intervention_config['__schedule__'])
 
     # Initialise internal state of the intervention object, and allow it to
-    # modify the network if needed
+    # modify the world if needed
     #for intervention_id, intervention in state.interventions.items():
     #    log.info("Initialising intervention %s...", intervention_id)
-    #    intervention.initialise_agents(state.network)
+    #    intervention.initialise_agents(state.world)
 
     """Run the agent-based model itself"""
     # ------------------------------------------------[ 5 ]------------------------------------
@@ -119,10 +124,9 @@ def main():
     log.info("  Run ID: %s", state.run_id)
     log.info("  ABMLUX version: %s", state.abmlux_version)
     log.info("  Created at: %s", state.created_at)
-    log.info("  Simulation N: %i", state.config['n'])
     log.info("  Activity Model: %s", state.activity_model)
     log.info("  Map: %s", state.map)
-    log.info("  Network: %s", state.network)
+    log.info("  World: %s", state.world)
     log.info("  PRNG seed: %i", state.config['random_seed'])
 
     build_model(state)

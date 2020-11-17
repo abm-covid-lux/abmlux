@@ -1,14 +1,14 @@
-"""Represents the network of locations."""
+"""Represents the set of locations, and all agents in the world"""
 
 from typing import Union
 
 import abmlux.utils as utils
-from abmlux.map import Map
+from abmlux.world.map import Map
 from abmlux.agent import Agent, AgentType
 from abmlux.location import Location
 
-class Network:
-    """Represents the network of locations, upon a map describing their relationship to real life.
+class World:
+    """Represents the set of locations, upon a map describing their relationship to real life.
     """
 
     def __init__(self, map_: Map):
@@ -20,8 +20,18 @@ class Network:
         self.agents_by_type: dict[AgentType, list[Agent]] = {}
         self.locations_by_type: dict[str, list[Location]] = {}
 
+    def n(self) -> int:
+        """Return the number of agents in the world"""
+
+        return len(self.agents)
+
+    def n_locations(self) -> int:
+        """Return the number of locations in the world"""
+
+        return len(self.locations)
+
     def add_agent(self, agent: Agent) -> None:
-        """Add an agent to the network.
+        """Add an agent to the world.
 
         Parameters:
             agent: The Agent object to add.
@@ -35,7 +45,7 @@ class Network:
         self.agents_by_type[agent.agetyp].append(agent)
 
     def add_location(self, location: Location) -> None:
-        """Add a Location object to the network."""
+        """Add a Location object to the world."""
 
         self.locations.append(location)
 
@@ -45,7 +55,7 @@ class Network:
         self.locations_by_type[location.typ].append(location)
 
     def count(self, location_type: str) -> int:
-        """Return the number of locations on this network of the type specified"""
+        """Return the number of locations on this world of the type specified"""
 
         if location_type not in self.locations_by_type:
             return 0
