@@ -6,6 +6,7 @@ import sys
 import logging
 import logging.config
 import traceback
+import argparse
 
 from abmlux.movement_model.simple_random import SimpleRandomMovementModel
 from abmlux.random_tools import Random
@@ -15,6 +16,7 @@ from abmlux.sim_state import SimulationFactory
 from abmlux.simulator import Simulator
 from abmlux.disease_model.compartmental import CompartmentalModel
 from abmlux.activity.tus_survey import TUSMarkovActivityModel
+from abmlux.telemetry import TelemetryClient
 
 import abmlux.tools as tools
 
@@ -89,51 +91,76 @@ def build_model(sim_factory):
         sim_factory.add_intervention(intervention_id, new_intervention)
         sim_factory.add_intervention_schedule(new_intervention, intervention_config['__schedule__'])
 
-    # Initialise internal sim_factory of the intervention object, and allow it to
-    # modify the world if needed
-    #for intervention_id, intervention in sim_factory.interventions.items():
-    #    log.info("Initialising intervention %s...", intervention_id)
-    #    intervention.initialise_agents(sim_factory.world)
 
-    """Run the agent-based model itself"""
-    # ------------------------------------------------[ 5 ]------------------------------------
-    # TODO: move the bulk of this logic into the simulator object itself
-    # Reporters
-    #reporters = []
-    #for spec in config['reporters']:
-    #    fqclass_name = list(spec.keys())[0]
-    #    params = spec[fqclass_name]
-#
-#        log.info("Creating reporter %s...", fqclass_name)
-#
-#        reporter = instantiate_class("abmlux.reporters", fqclass_name, sim_factory.bus, **params)
-#        reporters.append(reporter)
-
-
+SIM_FACTORY_FILENAME = "state.abm"
 def main():
     """Main ABMLUX entry point"""
     print(f"ABMLUX {VERSION}")
 
-    state_filename = sys.argv[1]
-    print(f"Creating new statefile at {state_filename} using config at {sys.argv[2]}...")
-    config = Config(sys.argv[2])
-    sim_factory = SimulationFactory(config)
-
     # System config/setup
-    logging.config.dictConfig(sim_factory.config['logging'])
+    if osp.isfile(SIM_FACTORY_FILENAME):
+        sim_factory = SimulationFactory.from_file(SIM_FACTORY_FILENAME)
+        logging.config.dictConfig(sim_factory.config['logging'])
+        log.warning("Existing factory loaded from %s", SIM_FACTORY_FILENAME)
+    else:
+        config = Config(sys.argv[1])
+        sim_factory = SimulationFactory(config)
+        logging.config.dictConfig(sim_factory.config['logging'])
 
-    # Summarise the sim_factory
-    log.info("State info:")
-    log.info("  Run ID: %s", sim_factory.run_id)
-    log.info("  ABMLUX version: %s", sim_factory.abmlux_version)
-    log.info("  Created at: %s", sim_factory.created_at)
-    log.info("  Activity Model: %s", sim_factory.activity_model)
-    log.info("  Map: %s", sim_factory.map)
-    log.info("  World: %s", sim_factory.world)
-    log.info("  PRNG seed: %i", sim_factory.config['random_seed'])
+        # Summarise the sim_factory
+        log.info("State info:")
+        log.info("  Run ID: %s", sim_factory.run_id)
+        log.info("  ABMLUX version: %s", sim_factory.abmlux_version)
+        log.info("  Created at: %s", sim_factory.created_at)
+        log.info("  Activity Model: %s", sim_factory.activity_model)
+        log.info("  Map: %s", sim_factory.map)
+        log.info("  World: %s", sim_factory.world)
+        log.info("  PRNG seed: %i", sim_factory.config['random_seed'])
 
-    build_model(sim_factory)
+        build_model(sim_factory)
+        sim_factory.to_file(SIM_FACTORY_FILENAME)
 
     # ############## Run ##############
     sim = sim_factory.new_sim()
     sim.run()
+
+
+
+from abmlux.reporters import kill_on_zmq_event
+
+def main_reporter():
+    """Listen to the Telemetry and dump to the terminal"""
+
+
+    parser = argparse.ArgumentParser(description='Run the ABMLUX reporter modules')
+    parser.add_argument("-t", "-host", dest='host', action="store", type=str, default="127.0.0.1",
+                        help="Hostname of the telemetry endpoint")
+    parser.add_argument("-p", "-port", dest='port', action="store", type=int, default=4567,
+                        help="Port of the telemetry endpoint")
+    parser.add_argument("-q", "-quit", dest='quit', action="store_true", default=False,
+                        help="Quit at the end of the next simulation.")
+    parser.add_argument("reporter", nargs="+", help="Reporter(s) to run.")
+
+    args = parser.parse_args()
+
+    reporters = []
+    for reporter_class in args.reporter:
+        print(f"Creating reporter '{reporter_class}'...")
+        rep = instantiate_class("abmlux.reporters", reporter_class, args.host, args.port)
+        reporters.append(rep)
+
+    print(f"Starting {len(reporters)} reporters...")
+    for reporter in reporters:
+        reporter.start()
+    print("Done")
+
+    print("Waiting for reporters to finish up.  Now is a good time to start your simulator.")
+
+    if args.quit:
+        print(f"Will kill all reporters at the end of the simulation")
+        kill_on_zmq_event(args.host, args.port, 'simulation.end', reporters)
+
+    # Wait for all to complete
+    for reporter in reporters:
+        reporter.join()
+    print("Done.  Have a nice day!")

@@ -1,14 +1,12 @@
 """Components for the simulation"""
 
-# Allows classes to return their own type, e.g. from_file below
-from __future__ import annotations
-
 import logging
 import pickle
-from typing import Union
+from typing import Optional
 
 from abmlux.random_tools import Random
 from abmlux.config import Config
+from abmlux.telemetry import TelemetryServer
 
 log = logging.getLogger("component")
 
@@ -19,11 +17,22 @@ class Component:
     def __init__(self, component_config: Config):
 
         self.config = component_config
+        self.telemetry_server: Optional[TelemetryServer] = None
 
         if "__prng_seed__" in component_config:
             self.prng = Random(float)
         else:
             self.prng   = Random()
+
+
+    def set_telemetry_server(self, telemetry_server: Optional[TelemetryServer]) -> None:
+        self.telemetry_server = telemetry_server
+
+    def report(self, topic, payload):
+        if self.telemetry_server is None:
+            return
+
+        self.telemetry_server.send(topic, payload)
 
     def init_sim(self, sim) -> None:
         """Complete initialisation of this object with the full state of a ready-to-go simulation.
@@ -32,40 +41,6 @@ class Component:
 
         self.sim = sim
         self.bus = sim.bus
-
-
-    def to_file(self, output_filename: str) -> None:
-        """Write an object to disk at the filename given.
-
-        Parameters:
-            output_filename (str):The filename to write to.  Files get overwritten
-                                  by default.
-
-        Returns:
-            None
-        """
-
-        log.info("Writing to %s...", output_filename)
-        with open(output_filename, 'wb') as fout:
-            pickle.dump(self, fout, protocol=pickle.HIGHEST_PROTOCOL)
-
-    @staticmethod
-    def from_file(input_filename: str) -> Component:
-        """Read an object from disk from the filename given.
-
-        Parameters:
-            input_filename (str):The filename to read from.
-
-        Returns:
-            obj(Object):The python object read from disk
-        """
-
-        log.info('Reading data from %s...', input_filename)
-        with open(input_filename, 'rb') as fin:
-            payload = pickle.load(fin)
-
-        return payload
-
 
 # # Components have
 #  - Their own config

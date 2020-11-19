@@ -92,7 +92,8 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['tqdm',
+    install_requires=['pyzmq',
+                      'tqdm',
                       'pandas',
                       'numpy',
                       'pyYAML',
@@ -145,7 +146,7 @@ setup(
     entry_points={  # Optional
         'console_scripts': [
             'abmlux=abmlux:main',
-            'abmlux-tools=abmlux:main_tools'
+            'abmlux-reporter=abmlux:main_reporter'
         ],
     },
 

@@ -8,34 +8,50 @@ from tqdm import tqdm
 from abmlux.reporters import Reporter
 
 
-class TQDM(Reporter):
+class TimeReporter(Reporter):
     """Uses TQDM to plot a progress bar"""
 
-    def __init__(self, bus):
+    def __init__(self, host, port):
 
-        self.pbar    = None
-        self.sim     = None
-        self.disease_model = None
+        super().__init__(host, port)
+        self.subscribe('world.time', self.event)
 
-        bus.subscribe("notify.time.start_simulation", self.start, self)
-        bus.subscribe("notify.time.tick", self.iterate, self)
-        bus.subscribe("notify.time.end_simulation", self.stop, self)
+        self.tqdm = None
 
-    def start(self, sim):
-        self.sim     = sim
-        self.disease_model = sim.disease_model
-        self.pbar    = tqdm(total=sim.clock.max_ticks)
+    def event(self, clock):
 
-    def iterate(self, clock, t):
-        self.pbar.update()
-        # TODO: The below summarises the states using a simple str() call.
-        #       This is okay, but the disease model provides tools to get a single-letter
-        #       representation of the health state, and that should be used instead.
-        # FIXME: the below uses what _should_ really be a private variable, it should be replaced
-        #        by a state-change counter listening to events within this class
-        desc = ", ".join([f"{str(k)[0]}:{len(v)}" \
-                          for k, v in self.disease_model.agents_by_health_state.items()])
-        self.pbar.set_description(f"{desc} {clock.now()}")
+        if self.tqdm is None:
+            self.tqdm = tqdm(total=clock.max_ticks)
 
-    def stop(self, sim):
-        self.pbar.close()
+        self.tqdm.n = clock.t
+        self.tqdm.set_description(f"{clock.now()}")
+
+
+
+class TickSummaryReporter(Reporter):
+
+    def __init__(self, host, port):
+        super().__init__(host, port)
+
+        self.subscribe('world.updates', self.summarise_tick)
+        self.subscribe('simulator.start', self.start_sim)
+
+    def start_sim(self, run_id, created_at, clock, world):
+        print(f"Simulator run #{run_id} starting at #{created_at}")
+        print(f"time, new_activities, new_health_states, new_locations")
+
+    def summarise_tick(self, clock, update_notifications):
+
+        new_activity_count     = 0
+        new_health_state_count = 0
+        new_location_count     = 0
+
+        for event_type, *args in update_notifications:
+            if event_type == 'notify.agent.activity':
+                new_activity_count += 1
+            if event_type == 'notify.agent.health':
+                new_health_state_count += 1
+            if event_type == 'notify.agent.location':
+                new_location_count += 1
+
+        print(f"{clock.t}, {new_activity_count}, {new_health_state_count}, {new_location_count}")
