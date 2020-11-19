@@ -85,7 +85,7 @@ class SimulationFactory:
             raise ValueError("No activity model defined.")
         if self.movement_model is None:
             raise ValueError("No location model defined.")
-        if self.disease_model is None:     # FIXME: rename disease_model
+        if self.disease_model is None:
             raise ValueError("No disease model defined.")
         if self.interventions is None:
             raise ValueError("No interventions defined.")

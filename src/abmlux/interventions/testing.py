@@ -1,6 +1,7 @@
 """Represents large scale testing and other testing plans."""
 
 import logging
+import math
 
 from abmlux.sim_time import DeferredEventPool
 from abmlux.interventions import Intervention
@@ -16,19 +17,13 @@ class LargeScaleTesting(Intervention):
     def init_sim(self, sim):
         super().init_sim(sim)
 
-        self.agents_tested_per_day_raw        = self.config['tests_per_day']
+        self.agents_tested_per_day = math.ceil(sim.world.scale_factor * self.config['tests_per_day'])
         self.invitation_to_test_booking_delay = \
             int(sim.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
 
-        # FIXME: scaling disabled for now
-        #scale_factor = sim.config['n'] / sum(sim.config['age_distribution'])
-        #self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
-
-        self.agents_tested_per_day = self.agents_tested_per_day_raw
-
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
-        self.world = sim.world
-        self.current_day = None
+        self.world               = sim.world
+        self.current_day         = None
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
 

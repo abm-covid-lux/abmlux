@@ -27,7 +27,7 @@ class ContactTracingManual(Intervention):
 
     def init_sim(self, state):
 
-        self.max_per_day_raw          = self.config['max_per_day']
+        self.max_per_day              = state.world.scale_factor * self.config['max_per_day']
         self.tracing_time_window_days = self.config['tracing_time_window_days']
         self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
                                          self.config['relevant_activities']}
@@ -35,12 +35,6 @@ class ContactTracingManual(Intervention):
         self.location_type_blacklist  = self.config['location_type_blacklist']
 
         self.daily_notification_count = 0
-
-        # FIXME: scaling disabled for now
-        #scale_factor = state.world.n() / sum(state.config['age_distribution'])
-        #max(int(self.max_per_day_raw * scale_factor), 1)
-
-        self.max_per_day = self.max_per_day_raw
 
         self.activity_manager         = state.activity_manager
 

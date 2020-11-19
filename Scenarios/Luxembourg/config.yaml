@@ -203,7 +203,6 @@ world_factory:
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
   n: 16_108
-  #n: 1000
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
