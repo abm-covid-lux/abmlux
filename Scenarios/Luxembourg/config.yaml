@@ -164,6 +164,31 @@ map_factory:
   # unpopulated squares, with the cost being the retention of some, but not all, hard edges:
   normalize_interpolation: True
 
+# map_factory:
+#   __type__: uniform.UniformMapFactory
+
+#   # Used when resampling the density matrix
+#   random_seed: 40
+
+#   # Country code used in logging
+#   country_code: UNI
+#   # Width and height of rectangular map in meters
+#   width_m: 100000
+#   height_m: 100000
+
+# map_factory:
+#   __type__: gaussian.GaussianMapFactory
+
+#   # Used when resampling the density matrix
+#   random_seed: 40
+#   # Total mass of Gaussian kernel
+#   mass: 100000
+#   # Standard deviation of the Gaussian kernel:
+#   sd_cluster: 20
+#   # Country code used in logging
+#   country_code: GAUSS
+#   # Width of square map in meters
+#   width_m: 100000
 
 # ######################################### World ##############################################
 
