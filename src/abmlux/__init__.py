@@ -92,6 +92,22 @@ def build_model(sim_factory):
         sim_factory.add_intervention_schedule(new_intervention, intervention_config['__schedule__'])
 
 
+
+def build_reporters(config):
+
+    reporters = []
+    for reporter_class, reporter_config in config['reporters'].items():
+        log.info(f"Creating reporter '{reporter_class}'...")
+
+        rep = instantiate_class("abmlux.reporters", reporter_class, config['telemetry.host'],
+                                config['telemetry.port'], Config(_dict=reporter_config))
+        reporters.append(rep)
+
+    return reporters
+
+
+
+
 SIM_FACTORY_FILENAME = "state.abm"
 def main():
     """Main ABMLUX entry point"""
@@ -120,10 +136,25 @@ def main():
         build_model(sim_factory)
         sim_factory.to_file(SIM_FACTORY_FILENAME)
 
+    reporters = build_reporters(sim_factory.config)
+
+    log.info("Starting %s reporters...", len(reporters))
+    for reporter in reporters:
+        reporter.start()
+
     # ############## Run ##############
     sim = sim_factory.new_sim()
     sim.run()
 
+    log.info("Requesting that reporters finish...")
+    for reporter in reporters:
+        reporter.stop()
+
+    # Wait for all reporters to complete
+    log.info("Waiting for reporters to finish...")
+    for reporter in reporters:
+        reporter.join()
+    log.info("Simulation Finished successfully.")
 
 
 from abmlux.reporters import kill_on_zmq_event

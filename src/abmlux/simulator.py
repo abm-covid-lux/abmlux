@@ -148,7 +148,7 @@ class Simulator:
         # /caches
 
         update_notifications = []
-        for t in tqdm(self.clock):
+        for t in self.clock:
             self.telemetry_server.send("world.time", self.clock)
 
             # Enable/disable interventions
