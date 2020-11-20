@@ -126,7 +126,9 @@ telemetry:
 
 # Output that should be rendered from the simulation:
 reporters:
-  - cli.TimeReporter:
+  cli.TimeReporter:
+  csv.HealthStateCounts:
+    filename: /tmp/health_states.csv
 #  - location_population_plots.LocationPlots:
 #      dirname: /tmp/plots
 #      types_to_show: []

@@ -1,8 +1,6 @@
 """Reporters that output to the terminal"""
 
 
-from datetime import datetime
-
 from tqdm import tqdm
 
 from abmlux.reporters import Reporter
@@ -11,7 +9,7 @@ from abmlux.reporters import Reporter
 class TimeReporter(Reporter):
     """Uses TQDM to plot a progress bar"""
 
-    def __init__(self, host, port):
+    def __init__(self, host, port, config):
 
         super().__init__(host, port)
         self.subscribe('world.time', self.event)
@@ -30,13 +28,13 @@ class TimeReporter(Reporter):
 
 class TickSummaryReporter(Reporter):
 
-    def __init__(self, host, port):
+    def __init__(self, host, port, config):
         super().__init__(host, port)
 
         self.subscribe('world.updates', self.summarise_tick)
         self.subscribe('simulator.start', self.start_sim)
 
-    def start_sim(self, run_id, created_at, clock, world):
+    def start_sim(self, run_id, created_at, clock, world, disease_states):
         print(f"Simulator run #{run_id} starting at #{created_at}")
         print(f"time, new_activities, new_health_states, new_locations")
 

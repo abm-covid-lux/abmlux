@@ -130,7 +130,7 @@ class Simulator:
 
         self._initialise_components()
         self.telemetry_server.send("simulation.start", self.run_id, self.created_at, \
-                                   self.clock, self.world)
+                                   self.clock, self.world, self.disease_model.states)
         self.bus.publish("notify.time.start_simulation", self)
 
         # Simulation state.  These indices represent an optimisation to prevent having to loop

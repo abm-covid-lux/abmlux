@@ -137,16 +137,31 @@ def main_reporter():
                         help="Hostname of the telemetry endpoint")
     parser.add_argument("-p", "-port", dest='port', action="store", type=int, default=4567,
                         help="Port of the telemetry endpoint")
+    parser.add_argument("-c", "-config", dest='config', action="store", type=str, default=None,
+                        help="Filename of config file to configure reporters")
     parser.add_argument("-q", "-quit", dest='quit', action="store_true", default=False,
                         help="Quit at the end of the next simulation.")
     parser.add_argument("reporter", nargs="+", help="Reporter(s) to run.")
 
     args = parser.parse_args()
 
+    # Load config if specified
+    if args.config is None:
+        config = Config(_dict={})
+    else:
+        config = Config(args.config)
+
     reporters = []
     for reporter_class in args.reporter:
         print(f"Creating reporter '{reporter_class}'...")
-        rep = instantiate_class("abmlux.reporters", reporter_class, args.host, args.port)
+
+        if 'reporters' in config and reporter_class in config['reporters']:
+            reporter_config = Config(_dict=config['reporters'][reporter_class])
+        else:
+            reporter_config = Config(_dict={})
+
+        rep = instantiate_class("abmlux.reporters", reporter_class, args.host, args.port,
+                                reporter_config)
         reporters.append(rep)
 
     print(f"Starting {len(reporters)} reporters...")

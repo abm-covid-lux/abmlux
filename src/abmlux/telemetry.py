@@ -3,6 +3,7 @@ semantics"""
 
 import logging
 from typing import Callable
+from time import sleep
 
 import zmq
 import pickle
@@ -20,6 +21,10 @@ class TelemetryServer:
         self.socket = self.context.socket(zmq.PUB)
 
         self.socket.bind(f"tcp://{host}:{port}")
+
+        # Avoid ZMQ 'slow joiner prolem' to ensure our first
+        # messages are picked up by subscribers
+        sleep(0.1)
 
     def send(self, topic: str, *args, **kwargs) -> None:
 
