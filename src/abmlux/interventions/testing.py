@@ -1,31 +1,29 @@
 """Represents large scale testing and other testing plans."""
 
 import logging
+import math
 
 from abmlux.sim_time import DeferredEventPool
-import abmlux.random_tools as random_tools
 from abmlux.interventions import Intervention
 
 log = logging.getLogger("testing")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class LargeScaleTesting(Intervention):
     """Randomly select a number of people per day for testing."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
-        self.agents_tested_per_day_raw        = config['tests_per_day']
+        self.agents_tested_per_day = math.ceil(sim.world.scale_factor * self.config['tests_per_day'])
         self.invitation_to_test_booking_delay = \
-            int(clock.days_to_ticks(config['invitation_to_test_booking_days']))
+            int(sim.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
 
-        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
-        self.agents_tested_per_day = max(int(self.agents_tested_per_day_raw * scale_factor), 1)
-
-        self.test_booking_events = DeferredEventPool(bus, clock)
-        self.network = state.network
-        self.current_day = None
+        self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
+        self.world               = sim.world
+        self.current_day         = None
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
 
@@ -40,8 +38,8 @@ class LargeScaleTesting(Intervention):
             return
 
         # Invite for testing by random selection:
-        test_agents_random = random_tools.random_sample(self.prng, self.network.agents,
-                                                        self.agents_tested_per_day)
+        test_agents_random = self.prng.random_sample(self.world.agents,
+                                                     self.agents_tested_per_day)
         for agent in test_agents_random:
             self.test_booking_events.add("request.testing.book_test", \
                                          self.invitation_to_test_booking_delay, agent)
@@ -51,15 +49,15 @@ class OtherTesting(Intervention):
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
-        self.prob_test_symptoms                = config['prob_test_symptoms']
+        self.prob_test_symptoms                = self.config['prob_test_symptoms']
         self.onset_of_symptoms_to_test_booking = \
-            int(clock.days_to_ticks(config['onset_of_symptoms_to_test_booking_days']))
+            int(sim.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states  = set(config['symptomatic_states'])
-        self.test_booking_events = DeferredEventPool(bus, clock)
+        self.symptomatic_states  = set(self.config['symptomatic_states'])
+        self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
 
@@ -78,6 +76,6 @@ class OtherTesting(Intervention):
 
         # If moving from an asymptomatic state to a symtomatic state
         if old_health not in self.symptomatic_states and agent.health in self.symptomatic_states:
-            if random_tools.boolean(self.prng, self.prob_test_symptoms):
+            if self.prng.boolean(self.prob_test_symptoms):
                 self.test_booking_events.add("request.testing.book_test", \
                                              self.onset_of_symptoms_to_test_booking, agent)

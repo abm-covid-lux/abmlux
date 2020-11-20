@@ -9,7 +9,6 @@ from random import Random
 
 from tqdm import tqdm
 
-from abmlux.telemetry import TelemetryServer
 from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
 from abmlux.agent import Agent
@@ -29,8 +28,6 @@ class Simulator:
                  world_model, activity_model, movement_model, \
                  disease_model, interventions, intervention_schedules):
 
-        self.telemetry_server = TelemetryServer(config['telemetry.host'], config['telemetry.port'])
-
         # Static info
         self.abmlux_version = VERSION
         self.created_at     = datetime.now()
@@ -45,7 +42,7 @@ class Simulator:
 
         # Components of the simulation
         self.map                    = _map
-        self.world                  = world_model
+        self.world                = world_model
         self.activity_model         = activity_model
         self.movement_model         = movement_model
         self.disease_model          = disease_model
@@ -62,13 +59,6 @@ class Simulator:
         This allows them to complete any final setup tasks on their internal state, and gives
         access to the simulation state as a whole to enable interactions between the components
         and the state of the world."""
-
-        # Configure reporting
-        self.activity_model.set_telemetry_server(self.telemetry_server)
-        self.movement_model.set_telemetry_server(self.telemetry_server)
-        self.disease_model.set_telemetry_server(self.telemetry_server)
-        for name, intervention in self.interventions.items():
-            intervention.set_telemetry_server(self.telemetry_server)
 
         # Here we assume that components are going to hook onto the messagebus.
         # We start with the activity model
@@ -121,16 +111,12 @@ class Simulator:
         """Run the simulation"""
 
         log.info("Simulating outbreak...")
-        log.info( "To get better output, connect to the telemetry endpoint "
-                 f"(host={self.config['telemetry.host']}, port={self.config['telemetry.port']})")
 
         # Initialize interventions here?
         self.clock.reset()
         current_day = self.clock.now().day
 
         self._initialise_components()
-        self.telemetry_server.send("simulation.start", self.run_id, self.created_at, \
-                                   self.clock, self.world, self.disease_model.states)
         self.bus.publish("notify.time.start_simulation", self)
 
         # Simulation state.  These indices represent an optimisation to prevent having to loop
@@ -148,8 +134,7 @@ class Simulator:
         # /caches
 
         update_notifications = []
-        for t in self.clock:
-            self.telemetry_server.send("world.time", self.clock)
+        for t in tqdm(self.clock):
 
             # Enable/disable interventions
             self.scheduler.tick(t)
@@ -167,7 +152,6 @@ class Simulator:
             # - 3 - Actually enact changes in an atomic manner
             update_notifications = self._update_agents()
 
-        self.telemetry_server.send("simulation.end")
         self.bus.publish("notify.time.end_simulation", self)
 
     def _update_agents(self):
@@ -214,5 +198,4 @@ class Simulator:
                 update_notifications.append(("notify.agent.location", agent, old_location))
 
         self.agent_updates = defaultdict(dict)
-        self.telemetry_server.send("world.updates", self.clock, update_notifications)
         return update_notifications

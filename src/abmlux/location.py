@@ -1,8 +1,12 @@
-"""Tools for representing locations on the network.
+"""Tools for representing locations on the world.
 
 Locations have a type and coordinates in space."""
 
+# Allows classes to return their own type, e.g. from_file below
+from __future__ import annotations
+
 import uuid
+from math import sqrt
 
 from pyproj import Transformer
 
@@ -18,7 +22,7 @@ class Location:
     """Represents a location to the system"""
 
     def __init__(self, typ: str, coord: LocationTuple):
-        """Represents a location on the network.
+        """Represents a location on the world.
 
         Parameters:
           typ (str): The type of location, as a string
@@ -30,6 +34,11 @@ class Location:
         self.coord = coord
 
         self.wgs84 = ETRS89_to_WGS84(self.coord)
+
+    def distance_euclidean(self, other: Location) -> float:
+        """Return the distance between the two locations in metres."""
+
+        return sqrt(((self.coord[0]-other.coord[0])**2) + ((self.coord[1]-other.coord[1])**2))
 
     def __str__(self):
         return f"{self.typ}[{self.uuid}]"

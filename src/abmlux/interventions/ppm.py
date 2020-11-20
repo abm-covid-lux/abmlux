@@ -2,7 +2,6 @@
 
 import logging
 
-import abmlux.random_tools as random_tools
 from abmlux.interventions import Intervention
 from abmlux.messagebus import MessageBus
 
@@ -10,15 +9,19 @@ log = logging.getLogger("ppm")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class PersonalProtectiveMeasures(Intervention):
     """Models the use of personal protective measures by preventing propagation
     of health change events with a given probability."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
 
         self.incubating_states = set(config['incubating_states'])
         self.ppm_coeff         = config['ppm_coeff']
+
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
         self.bus.subscribe("request.agent.health", self.handle_health_change, self)
 
@@ -28,7 +31,7 @@ class PersonalProtectiveMeasures(Intervention):
         # Respond to intervention enable/disable logic
         if self.enabled:
             if new_health in self.incubating_states:
-                if random_tools.boolean(self.prng, 1 - self.ppm_coeff):
+                if self.prng.boolean(1 - self.ppm_coeff):
 
                     # Consume the event to prevent anything else responding
                     return MessageBus.CONSUME

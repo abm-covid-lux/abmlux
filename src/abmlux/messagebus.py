@@ -68,6 +68,7 @@ class MessageBus:
             self.handlers[topic] = [(cb, ownr) for cb, ownr in self.handlers[topic] \
                                     if ownr != owner]
 
+
     def publish(self, topic: str, *args, **kwargs) -> None:
         """Publish an event to the messagebus on the topic given.
 
@@ -78,6 +79,7 @@ class MessageBus:
             *args: Positional arguments to the callback
             **kwargs: Keyword arguments to the callback
         """
+
         #print(f"[{inspect.stack()[1].function}] publish [{topic}] -> {len(self.handlers[topic])}:
         #  {args}, {kwargs}")
         # a = perf_counter()

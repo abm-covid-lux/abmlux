@@ -104,6 +104,11 @@ class SimClock:
         #        instead of using the date libs
         return self.epoch + self.time_elapsed()
 
+    def iso8601(self) -> str:
+        """Return ISO 8601 time as a string"""
+
+        return self.now().strftime('%m/%d/%YT%H:%M:%S %Z')
+
     def ticks_through_week(self) -> int:
         """Returns the number of whole ticks through the week this is"""
         return int((self.epoch_week_offset + self.t) % self.ticks_in_week)

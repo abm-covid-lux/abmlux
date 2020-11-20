@@ -6,12 +6,14 @@ to support many other forms of disease model.
 
 import logging
 
+from abmlux.component import Component
+
 log = logging.getLogger("disease_model")
 
-class DiseaseModel:
+class DiseaseModel(Component):
     """Represents a disease type within the system"""
 
-    def __init__(self, states):
+    def __init__(self, config, disease_states):
         """Represents a disease model as a list of states.
 
         Each state may be any type, but it will be cast to a string and shortened into a single
@@ -20,8 +22,9 @@ class DiseaseModel:
         'D'.
         """
 
-        self.states             = states
-        self.states_letter_dict = {DiseaseModel.letter_for_state(s): s for s in states}
+        super().__init__(config)
+        self.states             = disease_states
+        self.states_letter_dict = {DiseaseModel.letter_for_state(s): s for s in disease_states}
 
         # Ensure state letter codes are unique.
         assert len(self.states_letter_dict) == len(self.states)
@@ -46,24 +49,24 @@ class DiseaseModel:
         return str(state)[0].upper()
 
     # pylint: disable=no-self-use
-    def initialise_agents(self, network):
-        """Create initial health states for agents on a network.
+    def initialise_agents(self, world):
+        """Create initial health states for agents on a world.
 
         Operates on Agent list in place (does not return a value)"""
         # pylint: disable=unused-argument
 
         log.warning("STUB: initialise_agents in disease.py")
 
-    # pylint: disable=no-self-use
-    def get_health_transitions(self, t, sim, agent_updates):
-        """Return a list of health transitions agents should enact this tick.
-
-        Each health transition should be a tuple containing an agent and the state to transition
-        to: (agent, 'INFECTED').  This is expected to be the main simulation code managing health
-        state transitions according to the disease being modelled, and is called within the
-        main simulation loop.
-
-        This is in the form of a list of tuples (agent, health_state)"""
-        # pylint: disable=unused-argument
-
-        log.warning("STUB: get_health_transitions in disease.py")
+    ## pylint: disable=no-self-use
+    #def get_health_transitions(self, t, sim, agent_updates):
+    #    """Return a list of health transitions agents should enact this tick.
+#
+#    #    Each health transition should be a tuple containing an agent and the state to transition
+     #   to: (agent, 'INFECTED').  This is expected to be the main simulation code managing health
+     #   state transitions according to the disease being modelled, and is called within the
+     #   main simulation loop.
+#
+#        This is in the form of a list of tuples (agent, health_state)"""
+#        # pylint: disable=unused-argument
+#
+#        log.warning("STUB: get_health_transitions in disease.py")

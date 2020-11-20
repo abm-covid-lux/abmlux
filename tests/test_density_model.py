@@ -6,7 +6,7 @@ import unittest
 import random
 
 from abmlux.density_model import read_density_model_jrc
-from abmlux.map import DensityMap
+from abmlux.world.map import DensityMap
 
 here = os.path.dirname(os.path.realpath(__file__))
 

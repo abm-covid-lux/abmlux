@@ -3,8 +3,7 @@
 import logging
 from tqdm import tqdm
 
-from abmlux.disease import DiseaseModel
-from abmlux.random_tools import random_choice, random_choices, random_sample, boolean, gammavariate
+from abmlux.disease_model import DiseaseModel
 
 log = logging.getLogger("adv_seird_model")
 
@@ -12,16 +11,14 @@ class CompartmentalModel(DiseaseModel):
     """Represents a disease as a set of states with transition probabilities and a pre-determined,
     static set of potential routes through the states."""
 
-    def __init__(self, prng, config, bus, state):
+    def __init__(self, config):
 
-        states = config['health_states']
-        super().__init__(states)
+        super().__init__(config, config['health_states'])
 
-        self.prng                       = prng
         self.inf_probs                  = config['infection_probabilities_per_tick']
-        self.prob_wear_mask             = config['personal_protective_measures']['prob_wear_mask']
-        self.prob_do_recommendation     = config['personal_protective_measures']['prob_do_recommendation']
-        self.ppm_coeff                  = config['personal_protective_measures']['ppm_coeff']
+        self.prob_wear_mask             = config['personal_protective_measures.prob_wear_mask']
+        self.prob_do_recommendation     = config['personal_protective_measures.prob_do_recommendation']
+        self.ppm_coeff                  = config['personal_protective_measures.ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
         self.random_exposures           = config['random_exposures']
         self.contagious_states          = set(config['contagious_states'])
@@ -34,10 +31,7 @@ class CompartmentalModel(DiseaseModel):
         self.disease_profile_index_dict = {}
         self.disease_profile_dict       = {}
         self.disease_durations_dict     = {}
-        self.bus                        = bus
-        self.state                      = state
-        self.network                    = state.network
-        self.agents_by_health_state     = {s: set() for s in states}
+        self.agents_by_health_state     = {s: set() for s in self.states}
 
         self.ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[loc_type])**2) for loc_type in self.prob_wear_mask}
 
@@ -53,27 +47,29 @@ class CompartmentalModel(DiseaseModel):
         for age in profiles:
             self.dict_by_age[age] = {k:v for k,v in zip(labels, profiles[age])}
 
-        self.bus.subscribe("notify.time.start_simulation", self.initialise_agents, self)
+    def init_sim(self, sim):
+        super().init_sim(sim)
+
+        # FIXME
+        self.state                      = sim
+        self.world                    = sim.world
+        self.sim = sim
+        world = sim.world
+
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
         self.bus.subscribe("notify.time.midnight", self.random_midnight_exposures, self)
 
-    def initialise_agents(self, sim):
-        """Assign a disease profile and durations to each agent and infect some people at random
-        to begin the epidemic"""
-
-        self.sim = sim
-        network = sim.network
-
+        # Initialise the state
         # Assign a disease profile to each agent. This determines which health states an agent
         # passes through and in which order.
         log.info("Assigning disease profiles and durations...")
-        agents = network.agents
+        agents = world.agents
         total_contagious_time = 0
         total_incubation_time = 0
         for agent in tqdm(agents):
             age_rounded = min((agent.age//self.step_size)*self.step_size, self.max_age)
-            profile = random_choices(self.prng, list(self.dict_by_age[age_rounded].keys()),
+            profile = self.prng.random_choices(list(self.dict_by_age[age_rounded].keys()),
                                      self.dict_by_age[age_rounded].values(),1)[0]
             durations = self._durations_for_profile(profile)
             profile = [self.state_for_letter(l) for l in profile]
@@ -102,7 +98,7 @@ class CompartmentalModel(DiseaseModel):
         # Now infect a number of agents to begin the epidemic. This moves those agents to the next
         # state listed in their disease profile.
         log.info("Infecting %i agents...", self.num_initial_infections)
-        for agent in random_sample(self.prng, agents, self.num_initial_infections):
+        for agent in self.prng.random_sample(agents, self.num_initial_infections):
             self.agents_by_health_state[agent.health].remove(agent)
             self.disease_profile_index_dict[agent] = 1
             agent.health = self.disease_profile_dict[agent][1]
@@ -112,7 +108,7 @@ class CompartmentalModel(DiseaseModel):
         """At midnight, some suceptible agents are randomly exposed"""
 
         suceptible_agents    = self.agents_by_health_state['SUSCEPTIBLE']
-        expose_agents_random = random_sample(self.prng, suceptible_agents, min(self.random_exposures,len(suceptible_agents)))
+        expose_agents_random = self.prng.random_sample(suceptible_agents, min(self.random_exposures,len(suceptible_agents)))
         for agent in expose_agents_random:
             self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
 
@@ -121,7 +117,7 @@ class CompartmentalModel(DiseaseModel):
 
         # Start by using the simulation clock to convert durations from days to ticks
         if t == 0:
-            for agent in self.network.agents:
+            for agent in self.world.agents:
                 for index in range(len(self.disease_durations_dict[agent])):
                     duration_days = self.disease_durations_dict[agent][index]
                     if duration_days is not None:
@@ -148,11 +144,11 @@ class CompartmentalModel(DiseaseModel):
         for location, p_infection in infection_probability_by_location.items():
             susceptible_agents = [agent for agent in self.sim.attendees[location] if agent.health == 'SUSCEPTIBLE']
             for agent in susceptible_agents:
-                if boolean(self.prng, p_infection):
+                if self.prng.boolean(p_infection):
                     self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
 
         # Determine which other agents need moving to their next health state
-        for agent in self.network.agents:
+        for agent in self.world.agents:
             duration_ticks = self.disease_durations_dict[agent]\
                              [self.disease_profile_index_dict[agent]]
 
@@ -191,9 +187,9 @@ class CompartmentalModel(DiseaseModel):
                 durations.append(None)
             if isinstance(dist,list):
                 if dist[0] == 'G':
-                    durations.append(gammavariate(self.prng, float(dist[1][0]), float(dist[1][1])))
+                    durations.append(self.prng.gammavariate(float(dist[1][0]), float(dist[1][1])))
                 if dist[0] == 'U':
-                    durations.append(random_choice(self.prng,
+                    durations.append(self.prng.random_choice(
                                                    list(range(int(dist[1][0]), int(dist[1][1])))))
                 if dist[0] == 'C':
                     durations.append(float(dist[1][0]))

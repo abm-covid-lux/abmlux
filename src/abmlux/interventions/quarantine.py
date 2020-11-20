@@ -10,21 +10,22 @@ log = logging.getLogger("quarantine")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class Quarantine(Intervention):
     """Intervention that applies quarantine rules.
 
     Agents are forced to return to certain locations when they request to move."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def init_sim(self, sim):
+        super().init_sim(sim)
 
-        self.default_duration_days  = int(self.clock.days_to_ticks(config['default_duration_days']))
-        self.early_end_days         = int(self.clock.days_to_ticks(config['negative_test_result_to_end_quarantine_days']))
-        self.location_blacklist     = config['location_blacklist']
-        self.home_activity_type     = state.activity_manager.as_int(config['home_activity_type'])
-        self.disable_releases_immediately = config['disable_releases_immediately']
+        self.default_duration_days  = int(sim.clock.days_to_ticks(self.config['default_duration_days']))
+        self.early_end_days         = int(sim.clock.days_to_ticks(self.config['negative_test_result_to_end_quarantine_days']))
+        self.location_blacklist     = self.config['location_blacklist']
+        self.home_activity_type     = sim.activity_manager.as_int(self.config['home_activity_type'])
+        self.disable_releases_immediately = self.config['disable_releases_immediately']
 
-        self.end_quarantine_events = DeferredEventPool(bus, self.clock)
+        self.end_quarantine_events = DeferredEventPool(self.bus, sim.clock)
         self.agents_in_quarantine  = set()
 
         # What to do this tick

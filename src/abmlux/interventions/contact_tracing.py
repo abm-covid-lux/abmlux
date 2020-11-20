@@ -5,12 +5,12 @@ import logging
 from collections import deque, defaultdict
 
 from abmlux.interventions import Intervention
-import abmlux.random_tools as random_tools
 
 log = logging.getLogger("contact_tracing")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class ContactTracingManual(Intervention):
     """The intervention ContactTracingManual refers to the manual tracing of contacts of agents with
     postive test results. The maximum number of positive agents whose contacts can be traced is
@@ -24,19 +24,17 @@ class ContactTracingManual(Intervention):
     and quarantine in the meantime. With a certain probability, agents do not follow this advice and
     continue as normal."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
 
-        self.max_per_day_raw          = config['max_per_day']
-        self.tracing_time_window_days = config['tracing_time_window_days']
+    def init_sim(self, state):
+
+        self.max_per_day              = state.world.scale_factor * self.config['max_per_day']
+        self.tracing_time_window_days = self.config['tracing_time_window_days']
         self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
-                                         config['relevant_activities']}
-        self.prob_do_recommendation   = config['prob_do_recommendation']
-        self.location_type_blacklist  = config['location_type_blacklist']
+                                         self.config['relevant_activities']}
+        self.prob_do_recommendation   = self.config['prob_do_recommendation']
+        self.location_type_blacklist  = self.config['location_type_blacklist']
 
         self.daily_notification_count = 0
-        scale_factor = state.config['n'] / sum(state.config['age_distribution'])
-        self.max_per_day = max(int(self.max_per_day_raw * scale_factor), 1)
 
         self.activity_manager         = state.activity_manager
 
@@ -44,17 +42,15 @@ class ContactTracingManual(Intervention):
         self.contacts_archive         = deque(maxlen=self.tracing_time_window_days)
         self.contacts_archive.appendleft(defaultdict(set))
 
+
+
+        self.bus = state.bus # FIXME
+        self.sim = state
+
         # Listen for interesting things
-        self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
         self.bus.subscribe("notify.agent.location", self.handle_location_change, self)
         self.bus.subscribe("notify.time.midnight", self.update_contact_lists, self)
         self.bus.subscribe("notify.testing.result", self.notify_if_testing_positive, self)
-
-    def start_sim(self, sim):
-        """Callback run when the simulator starts.  Used to store a reference to the current
-        simulation"""
-
-        self.sim = sim
 
     def notify_if_testing_positive(self, agent, result):
         """If the contact tracing system is not overcapacity, then agents newly testing positive
@@ -76,7 +72,7 @@ class ContactTracingManual(Intervention):
         # and send them a message to get tested and quarantine.
         for day in self.contacts_archive:
             for other_agent in day[agent]:
-                if random_tools.boolean(self.prng, self.prob_do_recommendation):
+                if self.prng.boolean(self.prob_do_recommendation):
                     self.bus.publish("request.testing.book_test", other_agent)
                     self.bus.publish("request.quarantine.start", other_agent)
 
@@ -121,8 +117,8 @@ class ContactTracingApp(Intervention):
     which is the official COVID-19 exposure notification app developed for Germany. The window of
     time over which contacts are considered is specified."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
 
         self.app_prevalence              = config['app_prevalence']
         self.exposure_by_day             = deque([], config['tracing_time_window_days'])
@@ -140,17 +136,28 @@ class ContactTracingApp(Intervention):
         self.current_day_contacts        = {}
         self.current_day_notifications   = set()
 
+        # Check that window is equal to transmission_risk list length...
+
+    def init_sim(self, state):
+        """Select a number of agents that will have the app installed."""
+
+        super().init_sim(state)
+
+        world = state.world #FIXME: interim patch during component conversion
+        self.bus = state.bus
+        self.sim = state
+
+        # Initialisation of internal state
+        num_app_installs = min(len(world.agents), math.ceil(len(world.agents) * \
+                               self.app_prevalence ))
+        self.agents_with_app = self.prng.random_sample(world.agents, \
+                                                          num_app_installs)
+        log.info("Selected %i agents with app", len(self.agents_with_app))
+
+        # Create attachments to messagebus
         self.bus.subscribe("notify.testing.result", self.handle_test_result, self)
         self.bus.subscribe("notify.time.tick", self.tick, self)
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
-        self.bus.subscribe("notify.time.start_simulation", self.start_sim, self)
-
-        # Check that window is equal to transmission_risk list length...
-
-    def start_sim(self, sim):
-        """Callback run when the simulator starts.  Used to keep a reference to the current
-        simulator object."""
-        self.sim = sim
 
     def handle_test_result(self, agent, result):
         """Callback run when an agent receives a test result."""
@@ -163,15 +170,6 @@ class ContactTracingApp(Intervention):
         if result and agent in self.agents_with_app:
             self.current_day_notifications.add(agent)
 
-    def initialise_agents(self, network):
-        """Select a number of agents that will have the app installed."""
-
-        num_app_installs = min(len(network.agents), math.ceil(len(network.agents) * \
-                               self.app_prevalence ))
-        self.agents_with_app = random_tools.random_sample(self.prng, network.agents, \
-                                                          num_app_installs)
-
-        log.info("Selected %i agents with app", len(self.agents_with_app))
 
     def midnight(self, clock, t):
         """Callback run at midnight every day."""
@@ -181,7 +179,7 @@ class ContactTracingApp(Intervention):
         for agent in self.agents_with_app:
             risk = self._get_personal_risk(agent)
             if risk >= clock.mins_to_ticks(self.time_at_risk_threshold_mins):
-                if random_tools.boolean(self.prng, self.prob_do_recommendation):
+                if self.prng.boolean(self.prob_do_recommendation):
                     self.bus.publish("request.testing.book_test", agent)
                     self.bus.publish("request.quarantine.start", agent)
 

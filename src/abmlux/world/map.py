@@ -1,4 +1,4 @@
-"""Represents the space in which the network exists"""
+"""Represents the space in which the world exists"""
 
 import logging
 import math
@@ -10,7 +10,6 @@ from scipy import interpolate
 from pyproj import Transformer
 
 from abmlux.location import ETRS89_to_WGS84
-from abmlux.random_tools import multinoulli_2d, random_float
 
 log = logging.getLogger("map")
 
@@ -146,11 +145,11 @@ class DensityMap(Map):
         """Return a random sample weighted by density"""
 
         # Randomly select a cell
-        grid_x, grid_y = multinoulli_2d(self.prng, self.density, self.marginals_cache)
+        grid_x, grid_y = self.prng.multinoulli_2d(self.density, self.marginals_cache)
 
         # Uniform random within the cell (fractional component)
-        x = self.coord[0] + self.cell_size_m*grid_x + random_float(self.prng, self.cell_size_m)
-        y = self.coord[1] + self.cell_size_m*grid_y + random_float(self.prng, self.cell_size_m)
+        x = self.coord[0] + self.cell_size_m*grid_x + self.prng.random_float(self.cell_size_m)
+        y = self.coord[1] + self.cell_size_m*grid_y + self.prng.random_float(self.cell_size_m)
 
         return x, y
 

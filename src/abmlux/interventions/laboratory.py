@@ -3,29 +3,32 @@
 import logging
 
 from abmlux.sim_time import DeferredEventPool
-import abmlux.random_tools as random_tools
 from abmlux.interventions import Intervention
 
 log = logging.getLogger("laboratory")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class Laboratory(Intervention):
     """A testing laboratory."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
 
         self.prob_false_positive = config['prob_false_positive']
         self.prob_false_negative = config['prob_false_negative']
 
+    def init_sim(self, sim):
+
+        super().init_sim(sim)
+
         self.do_test_to_test_results_ticks = \
-            int(clock.days_to_ticks(config['do_test_to_test_results_days']))
+            int(sim.clock.days_to_ticks(self.config['do_test_to_test_results_days']))
         self.infected_states = \
-            set(config['incubating_states']).union(set(config['contagious_states']))
+            set(self.config['incubating_states']).union(set(self.config['contagious_states']))
 
-        self.test_result_events = DeferredEventPool(bus, clock)
-
+        self.test_result_events = DeferredEventPool(self.bus, sim.clock)
         self.bus.subscribe("request.testing.start", self.start_test, self)
 
     def start_test(self, agent):
@@ -42,13 +45,14 @@ class Laboratory(Intervention):
 
         test_result = False
         if agent.health in self.infected_states:
-            if random_tools.boolean(self.prng, 1 - self.prob_false_negative):
+            if self.prng.boolean(1 - self.prob_false_negative):
                 test_result = True
         else:
-            if random_tools.boolean(self.prng, self.prob_false_positive):
+            if self.prng.boolean(self.prob_false_positive):
                 test_result = True
 
-        self.test_result_events.add("notify.testing.result", self.do_test_to_test_results_ticks, agent, test_result)
+        self.test_result_events.add("notify.testing.result",
+                                    self.do_test_to_test_results_ticks, agent, test_result)
 
 
 class TestBooking(Intervention):
@@ -57,20 +61,26 @@ class TestBooking(Intervention):
     Represents the process of booking a test, where testing may be limited and not available
     immediately."""
 
-    def __init__(self, prng, config, clock, bus, state, init_enabled):
-        super().__init__(prng, config, clock, bus, init_enabled)
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
+
+        self.symptomatic_states   = set(config['symptomatic_states'])
+        self.agents_awaiting_test = set()
+
+
+    def init_sim(self, sim):
+
+        super().init_sim(sim)
+
+        self.test_events          = DeferredEventPool(self.bus, sim.clock)
+        self.bus.subscribe("request.testing.book_test", self.handle_book_test, self)
 
         # Time between selection for test and the time at which the test will take place
         self.time_to_arrange_test_no_symptoms = \
-            int(clock.days_to_ticks(config['test_booking_to_test_sample_days_no_symptoms']))
+           int(sim.clock.days_to_ticks(self.config['test_booking_to_test_sample_days_no_symptoms']))
         self.time_to_arrange_test_symptoms    = \
-            int(clock.days_to_ticks(config['test_booking_to_test_sample_days_symptoms']))
+           int(sim.clock.days_to_ticks(self.config['test_booking_to_test_sample_days_symptoms']))
 
-        self.symptomatic_states   = set(config['symptomatic_states'])
-        self.test_events          = DeferredEventPool(bus, clock)
-        self.agents_awaiting_test = set()
-
-        self.bus.subscribe("request.testing.book_test", self.handle_book_test, self)
 
     def handle_book_test(self, agent):
         """Someone has been selected for testing.  Insert a delay between the booking of the test
@@ -90,5 +100,7 @@ class TestBooking(Intervention):
             self.agents_awaiting_test.add(agent)
 
     def send_agent_for_test(self, agent):
+        """Send an event requesting a test for the given agent."""
+
         self.agents_awaiting_test.remove(agent) # Update index
         self.bus.publish("request.testing.start", agent)

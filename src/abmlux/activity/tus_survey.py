@@ -24,7 +24,6 @@ from abmlux.sim_time import SimClock
 from abmlux.diary import DiaryDay, DiaryWeek, DayOfWeek
 from abmlux.agent import POPULATION_RANGES
 from abmlux.transition_matrix import SplitTransitionMatrix
-import abmlux.random_tools as rt
 
 # Number of 10min chunks in a day.  Used when parsing the input data at a 10min resolution
 DAY_LENGTH_10MIN = 144
@@ -36,18 +35,20 @@ class TUSMarkovActivityModel(ActivityModel):
     """Uses Time-of-Use Survey data to build a markov model of activities, which are then
     cycled through in a set of routines."""
 
-    def __init__(self, prng, config, bus, activity_manager):
+    def __init__(self, config, activity_manager):
 
-        # TODO: semantic constructor arguments rather than just passing in the whole config
+        super().__init__(config, activity_manager)
 
-        super().__init__(prng, config, bus, activity_manager)
+        # These can be computed ahead of time
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
 
         # Runtime config
-        self.stop_activity_health_states = config['activity_model']['stop_activity_health_states']
+        self.stop_activity_health_states = config['stop_activity_health_states']
 
-        # State kept during simulation execution
-        self.network = None
+    def init_sim(self, sim):
+        super().init_sim(sim)
+
+        self.world = sim.world
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
@@ -59,19 +60,16 @@ class TUSMarkovActivityModel(ActivityModel):
 
         Resets the internal counters."""
 
-        # What network are we running over?
-        self.network = sim.network
-
         # These agents are still having activity updates
-        self.active_agents = set(sim.network.agents)
+        self.active_agents = set(sim.world.agents)
 
         log.debug("Seeding initial activity states and locations...")
         clock = sim.clock
-        for agent in self.network.agents:
+        for agent in self.world.agents:
             # Get distribution for this type at the starting time step
             distribution = self.activity_distributions[agent.agetyp][clock.epoch_week_offset]
             assert sum(distribution.values()) > 0
-            new_activity      = rt.multinoulli_dict(self.prng, distribution)
+            new_activity      = self.prng.multinoulli_dict(distribution)
             allowed_locations = agent.locations_for_activity(new_activity)
             agent.set_activity(new_activity)
 
@@ -80,7 +78,7 @@ class TUSMarkovActivityModel(ActivityModel):
             #
             # Warn: No allowed locations found for agent {agent.inspect()} for activity new_activity
             assert len(allowed_locations) >= 0
-            new_location = rt.random_choice(self.prng, list(allowed_locations))
+            new_location = self.prng.random_choice(list(allowed_locations))
             # Do this activity in a random location
             agent.set_location(new_location)
 
@@ -109,11 +107,10 @@ class TUSMarkovActivityModel(ActivityModel):
             self.bus.publish("request.agent.activity", agent, next_activity)
 
     def _get_tus_code_mapping(self, map_config):
-        """Return a function mapping TUS activity codes onto those used
-        in this model.
+        """Return a function mapping TUS activity codes onto those used in this model.
 
-        TUS codes are defined in two fields, primary and secondary.  If
-        primary == 7, we switch to secondary.
+        TUS codes are defined in two fields, primary and secondary.
+        If primary == 7, we switch to secondary.
 
         Primary and secondary mappings are defined in map_config as a dict
         of abm labels and primary/secondary keys containing a list of TUS
@@ -340,7 +337,7 @@ class TUSMarkovActivityModel(ActivityModel):
 
 
     def _build_markov_model(self):
-        """Constructs activity transition matrices for the network given.
+        """Constructs activity transition matrices for the world given.
 
         Returns:
             activity_distributions(dict):A list of initial distributions indexed by AgentType
@@ -367,7 +364,7 @@ class TUSMarkovActivityModel(ActivityModel):
         # are consquently recoded as numbers in the set {0,...,13}, as described in the file
         # FormatActivities.
 
-        map_func = self._get_tus_code_mapping(self.config['activities'])
+        map_func = self._get_tus_code_mapping(self.config['activity_code_map'])
         days     = self._parse_days(tus, map_func, self.config['tick_length_s'])
         log.info("Created %i days", len(days))
 

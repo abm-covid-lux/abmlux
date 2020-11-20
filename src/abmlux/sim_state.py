@@ -1,140 +1,136 @@
 """Represents the simulation state.  Is built gradually by the various model stages, ands then
 ingested by the simulator as it runs."""
 
-import logging
-from random import Random
-import uuid
-from datetime import datetime
-from enum import IntEnum
+# Allows classes to return their own type, e.g. from_file below
+from __future__ import annotations
 
-from .activity_manager import ActivityManager
-from .messagebus import MessageBus
-from .sim_time import SimClock
-from .version import VERSION
+import logging
+import uuid
+import pickle
+from datetime import datetime
+from typing import Union
+
+from abmlux.activity_manager import ActivityManager
+from abmlux.location_manager import LocationManager
 from abmlux.config import Config
+from abmlux.sim_time import SimClock
+from abmlux.version import VERSION
+from abmlux.world.map import Map
+from abmlux.simulator import Simulator
+from abmlux.disease_model import DiseaseModel
+from abmlux.activity import ActivityModel
+from abmlux.movement_model import MovementModel
+from abmlux.world import World
+from abmlux.interventions import Intervention
 
 log = logging.getLogger("sim_state")
 
-# Semantic types
-PRNGState = tuple
-
-class SimulationPhase(IntEnum):
-    """Represents the current stage of the simulation"""
-
-    BUILD_MAP         = 0
-    BUILD_NETWORK     = 1
-    BUILD_ACTIVITIES  = 2
-    ASSIGN_DISEASE    = 3
-    LOCATION_MODEL    = 4
-    INIT_INTERVENTION = 5
-    RUN_SIM           = 6
-
-# TODO
-#class SimStateFactory:
-#
-#    def __init__(self):
-#        pass
-#
-#    def get_state(self) -> SimulationState:
-#        
 
 
-class SimulationState:
-    """Retains all state used to start a simulation.
-
-    This is used as an initial starting point to re-run simulations with various changes."""
+class SimulationFactory:
+    """Class that allows for gradual composition of a number of components, eventually outputting
+    a simulator object that can be used to run simulations with the config given."""
 
     def __init__(self, config: Config):
-        """Create a new state object.
 
-        This object will get gradually built during the setup phase, then
-        used during the simulation, after being 'sealed'"""
-
-        self.abmlux_version           = VERSION
-        self.created_at: datetime     = datetime.now()
+        # Static info
+        self.abmlux_version = VERSION
+        self.created_at     = datetime.now()
         self.run_id         = uuid.uuid4().hex
-        self.phase          = SimulationPhase(0)
-        self.phases         = [False] * len(list(SimulationPhase))
-        self.dirty          = False
-        self.finished       = False
-        self.prng           = Random()
-        self.reseed_prng(config['random_seed'])
 
         log.info("Simulation state created at %s with ID=%s", self.created_at, self.run_id)
 
         self.config                 = config
         self.activity_manager       = ActivityManager(config['activities'])
+        self.location_manager       = LocationManager(config['locations'])
         self.clock                  = SimClock(config['tick_length_s'],
                                                config['simulation_length_days'], config['epoch'])
-        self.bus                    = MessageBus()
-        self.map                    = None   # TODO: these need a factory pattern to fix properly
-        self.network                = None
+
+        # Components of the simulation
+        self.map                    = None
+        self.world                  = None
         self.activity_model         = None
-        self.location_model         = None
-        self.disease                = None
-        self.interventions          = None
-        self.intervention_schedules = None
+        self.movement_model         = None
+        self.disease_model          = None
+        self.interventions          = {}
+        self.intervention_schedules = {}
 
-    def set_phase_complete(self, phase: SimulationPhase) -> None:
-        """Reports that a phase has been completed"""
-        self.phases[phase] = True
+    def set_movement_model(self, movement_model: MovementModel) -> None:
+        self.movement_model = movement_model
 
-        # Check to see if this was the last phase
-        for previous_phase in list(SimulationPhase):
-            if not self.is_phase_complete(previous_phase):
-                return
-        self.finished = True
+    def set_disease_model(self, disease_model: DiseaseModel) -> None:
+        self.disease_model = disease_model
 
-    def is_phase_complete(self, phase: SimulationPhase) -> bool:
-        """Returns whether or not a phase has been completed"""
-        return self.phases[phase]
+    def set_activity_model(self, activity_model: ActivityModel) -> None:
+        self.activity_model = activity_model
 
-    def set_dirty(self) -> None:
-        """Set the dirty flag to indicate that the state has been run out-of-order somehow"""
-        self.dirty = True
+    def set_world_model(self, world: World) -> None:
+        self.world = world
 
-    def _get_prng_state(self) -> PRNGState:
-        """Return internal PRNG state for saving."""
-        return self.prng.getstate()
+    def set_map(self, _map: Map) -> None:
+        self.map = _map
 
-    def _set_prng_state(self, state: PRNGState):
-        """Set the internal PRNG state, e.g. after unpickling"""
-        self.prng.setstate(state)
+    def add_intervention(self, name: str, intervention: Intervention) -> None:
+        self.interventions[name] = intervention
 
-    def reseed_prng(self, seed):
-        """Reseed the internal PRNG"""
-        self.prng.seed(seed)
+    def add_intervention_schedule(self, intervention: Intervention,
+                                  schedule: dict[Union[str, int], str]) -> None:
+        self.intervention_schedules[intervention] = schedule
 
-    def get_phase(self) -> SimulationPhase:
-        """Return the current phase this simulation state is in"""
-        return self.phase
+    def new_sim(self):
+        """Return a new simulator based on the config above."""
+        # FIXME: this should be runnable multiple times without any impact on the data integrity.
 
-    def set_phase(self, phase: SimulationPhase, *, error_on_repeat: bool=False) -> None:
-        """Update the state to show that it is in a given phase."""
+        if self.map is None:
+            raise ValueError("No Map")
+        if self.world is None:
+            raise ValueError("No world defined.")
+        if self.activity_model is None:
+            raise ValueError("No activity model defined.")
+        if self.movement_model is None:
+            raise ValueError("No location model defined.")
+        if self.disease_model is None:
+            raise ValueError("No disease model defined.")
+        if self.interventions is None:
+            raise ValueError("No interventions defined.")
+        if self.intervention_schedules is None:
+            raise ValueError("No interventions scheduler defined.")
 
-        if not isinstance(phase, SimulationPhase):
-            raise ValueError(("Phase should be set to a SimulationPhase object, not "
-                              f"'{type(phase).__name__}'"))
+        sim = Simulator(self.config, self.activity_manager, self.clock, self.map,
+                        self.world, self.activity_model, self.movement_model,
+                        self.disease_model, self.interventions, self.intervention_schedules)
 
-        if error_on_repeat:
-            if self.is_phase_complete(phase):
-                raise ValueError(f"Phase {phase} has already been run.")
+        return sim
 
-        # Check we're running this phase only after prerequisites are complete
-        log.info("Checking simulation has prerequisites for this phase...")
-        for i in range(int(phase)):
-            if not self.is_phase_complete(SimulationPhase(i)):
-                log.warning(("Attempting to run phase %i ('%s') but a previous state ('%s') has"
-                             " not completed yet.  This will probably fail and will definitely"
-                             " mean that the output is incomparable due to PRNG state changes."),
-                            i, phase.name, SimulationPhase(i).name)
-                self.dirty = True
+    def to_file(self, output_filename: str) -> None:
+        """Write an object to disk at the filename given.
 
-        # Check we've not previously run this phase
-        if self.is_phase_complete(phase):
-            log.warning(("Phase %s has already been run.  Re-running will change the state of the"
-                         " PRNG and lead to unreliable output.  The simulation will be marked as"
-                         " dirty to record this"), phase.name)
-            self.dirty = True
+        Parameters:
+            output_filename (str):The filename to write to.  Files get overwritten
+                                  by default.
 
-        self.phase = phase
+        Returns:
+            None
+        """
+
+        log.info("Writing to %s...", output_filename)
+        # FIXME: error handling
+        with open(output_filename, 'wb') as fout:
+            pickle.dump(self, fout, protocol=pickle.HIGHEST_PROTOCOL)
+
+    @staticmethod
+    def from_file(input_filename: str) -> SimulationFactory:
+        """Read an object from disk from the filename given.
+
+        Parameters:
+            input_filename (str):The filename to read from.
+
+        Returns:
+            obj(Object):The python object read from disk
+        """
+
+        log.info('Reading data from %s...', input_filename)
+        with open(input_filename, 'rb') as fin:
+            payload = pickle.load(fin)
+
+        return payload

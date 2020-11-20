@@ -8,6 +8,7 @@ from typing import Any
 
 log = logging.getLogger("serialisation")
 
+# FIXME: delete this file entirely when components work
 def write_to_disk(obj: Any, output_filename: str) -> None:
     """Write an object to disk at the filename given.
 
