@@ -41,12 +41,13 @@ class Reporter(mp.Process):
     def __init__(self, host, port):
         super().__init__()
 
+        # Store address of the telemtry server
         self.host = host
         self.port = port
 
-        self.callbacks = {}
+        self.callbacks  = {}
         self.stop_event = mp.Event()
-        self.running = False
+        self.running    = False
 
     def subscribe(self, topic, callback: Callable):
 

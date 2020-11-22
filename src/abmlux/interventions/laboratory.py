@@ -67,7 +67,6 @@ class TestBooking(Intervention):
         self.symptomatic_states   = set(config['symptomatic_states'])
         self.agents_awaiting_test = set()
 
-
     def init_sim(self, sim):
 
         super().init_sim(sim)

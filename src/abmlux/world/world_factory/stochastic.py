@@ -121,22 +121,23 @@ class StochasticWorldFactory(WorldFactory):
 
         log.info("Creating %i agents...", sum(pop_normalised))
         for age, pop in tqdm(enumerate(pop_normalised)):
-            # print(f"AGE: {age} POP: {pop}")
-            new_agent = Agent(age)
-            world.add_agent(new_agent)
+            for _ in range(pop):
+                new_agent = Agent(age)
+                world.add_agent(new_agent)
 
         # Add an appropriate number of cross border workers as adults
         pop_by_border_country = self.config['border_countries_pop']
         adult_age_range = POPULATION_RANGES[AgentType.ADULT]
-        total = sum(pop_by_border_country.values())
+        total = sum(pop_by_border_country.values()) * world.scale_factor
         adult_pop_dist = pop_by_age[adult_age_range.start:adult_age_range.stop]
         log.info("Creating %i cross-border workers...", total)
         for age, pop in tqdm(enumerate(adult_pop_dist)):
             # Normalise pop age count
             pop = math.ceil((total * pop) / sum(adult_pop_dist))
-            # print(f"AGE2: {age+adult_age_range.start} POP: {pop}")
-            new_agent = Agent(age+adult_age_range.start)
-            world.add_agent(new_agent)
+            for _ in range(pop):
+                # print(f"AGE2: {age+adult_age_range.start} POP: {pop}")
+                new_agent = Agent(age+adult_age_range.start)
+                world.add_agent(new_agent)
 
     def _make_house_profile_dictionary(self):
         """Creates a probability distribution across household profiles."""

@@ -47,8 +47,9 @@ class Scheduler:
                     ticks = int(event_time)
 
                 # Check event is in the right format
-                if event not in ['disable', 'enable']:
-                    raise ValueError("Scheduler events should be either 'enable' or 'disable'")
+                if event not in ['disable', 'enable'] and not isinstance(event, dict):
+                    raise ValueError("Scheduler events should be either 'enable' or 'disable', "
+                                     "or be a dict showing what variables to set")
 
                 # Ignore anything in the past
                 if ticks < 0:
@@ -67,12 +68,19 @@ class Scheduler:
         # This will keep things indexed by tick as a space-time tradeoff
 #        actions = [None] * (events[-1][0] + 1)
         actions: defaultdict[int, list[Callable]] = defaultdict(list)
+        action_factory = lambda i, vn, vv: lambda: i.set_registered_variable(vn, vv)
         for tick, intervention, event in events:
             list_of_actions = actions[tick] or []
             if event == 'disable':
                 list_of_actions.append(intervention.disable)
             elif event == 'enable':
                 list_of_actions.append(intervention.enable)
+
+            # Set a variable to a value
+            elif isinstance(event, dict):
+                for variable_name, new_value in event.items():
+                    new_action = action_factory(intervention, variable_name, new_value)
+                    list_of_actions.append(new_action)
             actions[tick] = list_of_actions
 
         return actions

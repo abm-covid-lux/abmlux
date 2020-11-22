@@ -13,8 +13,7 @@ class HealthStateCounts(Reporter):
     def __init__(self, host, port, config):
         super().__init__(host, port)
 
-        self.filename = config['filename']
-        self.counts_by_health_state = {}
+        self.filename               = config['filename']
 
         self.subscribe("simulation.start", self.start_sim)
         self.subscribe("simulation.end", self.stop_sim)
@@ -52,11 +51,8 @@ class HealthStateCounts(Reporter):
             self.counts[old_health] -= 1
             self.counts[agent.health] += 1
 
-        row = [clock.t, clock.iso8601()]
-        ## FIXME: this uses what _should_ be a private variable in the disease model.
-        ##        it should be replaced by something that does the counts using events internally.
+        row =  [clock.t, clock.iso8601()]
         row += [self.counts[k] for k in self.states]
-        # print(f"-> {row}")
         self.writer.writerow(row)
 
     def stop_sim(self):

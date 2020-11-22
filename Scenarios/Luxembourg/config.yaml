@@ -811,6 +811,8 @@ interventions:
     __type__: laboratory.TestBooking
     __enabled__: true
     __schedule__:
+      #1: {"test_var": 34} --- example.
+      #2: {"test_var": 45}
 
     # The time taken between the booking of a test and the time at which the test takes place, in the
     # case where the agent is not showing symptoms at the time of booking:
