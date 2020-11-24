@@ -23,11 +23,11 @@ class StochasticWorldFactory(WorldFactory):
     def __init__(self, _map, activity_manager, config):
         """Create agents and locations according to the population density map given"""
 
-        self.map              = _map
-        self.config           = config
-        self.activity_manager = activity_manager
-        self.prng             = Random(config['random_seed'])
-
+        self.map                = _map
+        self.config             = config
+        self.activity_manager   = activity_manager
+        self.prng               = Random(config['random_seed'])
+        self.location_choice_fp = config['location_choice_fp']
 
     def get_world(self) -> World:
 
@@ -102,9 +102,9 @@ class StochasticWorldFactory(WorldFactory):
                 world.add_location(new_location)
         # Create locations of each border country
         for country in pop_by_border_countries:
-            coord = WGS84_to_ETRS89((border_country_coord[country][1],
-                                    border_country_coord[country][0]))
-            new_country = Location(country, coord)
+            coord = WGS84_to_ETRS89((border_country_coord[country][0],
+                                    border_country_coord[country][1]))
+            new_country = Location(country, (coord[1], coord[0]))
             world.add_location(new_country)
 
     def _create_agents(self, world):
@@ -260,8 +260,7 @@ class StochasticWorldFactory(WorldFactory):
 
         log.debug("Generating distance distribution...")
 
-        # FIXME: make this configurable
-        actsheet = np.genfromtxt("Scenarios/Luxembourg/Lux Mobil.csv", dtype=str, delimiter=",")
+        actsheet = np.genfromtxt(self.location_choice_fp, dtype=str, delimiter=",")
 
         max_row = np.shape(actsheet)[0]
 

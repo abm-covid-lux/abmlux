@@ -19,9 +19,15 @@ class Laboratory(Intervention):
         self.prob_false_positive = config['prob_false_positive']
         self.prob_false_negative = config['prob_false_negative']
 
+        self.tests_performed_today = 0
+
+        self.register_variable('max_tests_per_day')
+
     def init_sim(self, sim):
 
         super().init_sim(sim)
+
+        self.max_tests_per_day = self.config['max_tests_per_day']
 
         self.do_test_to_test_results_ticks = \
             int(sim.clock.days_to_ticks(self.config['do_test_to_test_results_days']))
@@ -30,6 +36,12 @@ class Laboratory(Intervention):
 
         self.test_result_events = DeferredEventPool(self.bus, sim.clock)
         self.bus.subscribe("request.testing.start", self.start_test, self)
+        self.bus.subscribe("notify.time.midnight", self.reset_daily_counter, self)
+
+    def reset_daily_counter(self, clock, t):
+        """Reset daily test count"""
+
+        self.tests_performed_today = 0
 
     def start_test(self, agent):
         """Start the test.
@@ -43,6 +55,9 @@ class Laboratory(Intervention):
         if not self.enabled:
             return
 
+        if self.tests_performed_today >= self.max_tests_per_day:
+            return
+
         test_result = False
         if agent.health in self.infected_states:
             if self.prng.boolean(1 - self.prob_false_negative):
@@ -50,6 +65,8 @@ class Laboratory(Intervention):
         else:
             if self.prng.boolean(self.prob_false_positive):
                 test_result = True
+
+        self.tests_performed_today += 1
 
         self.test_result_events.add("notify.testing.result",
                                     self.do_test_to_test_results_ticks, agent, test_result)
