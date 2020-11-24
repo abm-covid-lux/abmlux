@@ -207,8 +207,7 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  #n: 16_108
-  n: 2000
+  n: 16_108
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -236,7 +235,7 @@ world_factory:
     Secondary School:                 58
     Restaurant:                       2247
     Outdoor:                          1
-    Public Transport:                 1000
+    Public Transport:                 1468
     Shop:                             3136
     Medical:                          125
     Hospital:                         11
@@ -543,8 +542,11 @@ movement_model:
   no_move_health_states:
     - Hospital
     - Cemetery
-
-
+  # Public transport activity type
+  public_transport_activity_type: Public Transport
+  # Units of public transport avaiable at each 10 minute interval of the day
+  units_available_week_day: [39, 49, 46, 45, 29, 9, 9, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 14, 28, 43, 109, 178, 259, 342, 408, 467, 574, 608, 667, 750, 796, 909, 1004, 1080, 1206, 1359, 1410, 1458, 1468, 1334, 1186, 1086, 1094, 1053, 1082, 1055, 980, 913, 911, 904, 926, 906, 878, 863, 873, 830, 868, 845, 858, 828, 841, 850, 858, 855, 879, 911, 951, 966, 940, 935, 955, 934, 986, 955, 937, 918, 940, 957, 1024, 1074, 1063, 1053, 1081, 1013, 1060, 995, 975, 962, 984, 983, 1073, 1065, 1103, 1136, 1146, 1113, 1148, 1184, 1180, 1136, 1170, 1118, 1098, 1107, 1069, 1067, 1095, 1024, 995, 954, 906, 861, 829, 754, 726, 675, 635, 651, 606, 585, 633, 583, 575, 545, 518, 521, 556, 512, 500, 472, 437, 412, 433, 377, 359, 335, 297]
+  units_available_weekend_day: [37, 47, 48, 48, 30, 10, 10, 18, 17, 27, 29, 29, 29, 29, 19, 22, 20, 20, 20, 27, 25, 27, 29, 19, 21, 23, 23, 50, 72, 129, 163, 197, 227, 276, 306, 352, 397, 425, 443, 457, 435, 480, 504, 508, 487, 486, 475, 488, 521, 574, 554, 552, 549, 553, 539, 558, 531, 514, 513, 520, 527, 559, 519, 527, 506, 506, 496, 522, 542, 544, 539, 538, 522, 550, 565, 567, 576, 565, 564, 598, 586, 580, 564, 594, 588, 624, 623, 618, 600, 609, 602, 649, 601, 583, 563, 535, 530, 582, 582, 599, 596, 570, 568, 600, 605, 586, 549, 556, 557, 567, 560, 582, 582, 586, 551, 557, 547, 539, 534, 534, 519, 499, 488, 452, 461, 431, 434, 443, 423, 422, 396, 390, 378, 362, 358, 375, 362, 344, 333, 333, 314, 295, 290, 263]
 
 # ######################################### Activity #####################################
 # Configure the component that drives agents performing different activities in the simulation
