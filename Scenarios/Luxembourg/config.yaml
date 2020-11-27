@@ -679,14 +679,14 @@ activity_model:
 #       primary: [4]
 #       secondary: [395,426,429,515,521,523,524]
 
-# ######################################### Virus and Disease ######################################
+# ######################################### Infection and Disease ##################################
 
 disease_model:
 
   __type__: compartmental.CompartmentalModel
 
-  # If the PPM intervention is enabled, these must match for the model to be valid.
-  # Avoiding this dependency is a TODO list item! Refers to the 10 minute tick, like transmission prob!
+  # If the PPM intervention is enabled, these must match for the model to be valid. Avoiding this
+  # dependency is a TODO list item! Refers to the 10 minute tick, like transmission prob!
   personal_protective_measures:
     # According to https://arxiv.org/pdf/2004.13553.pdf the effect of face masks is modelled by the
     # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
@@ -741,8 +741,69 @@ disease_model:
       Germany:                        0.0
       Cemetery:                       0.0
 
+  # If p is the baseline transmission probability, q is the probability of an individual
+  # wearing a mask and r = ppm_coeff is the proportion of virus particles passing through the
+  # mask, then the true transmission probability between two individuals, each of which may or
+  # may not be wearing a mask, is:
+  #
+  # p_true = p(r^2q^2 + 2rq(1-q) + (1-q)^2) = p(1-(1-r)q)^2
+  #  
+  # Moreover q = (probabability an agent wears a mask, given that the agent follows the
+  #               rules) * (probability that the agent follows the rules)
+  #             = ppm_strategy * ppm_force
+  #
+  # In this case both ppm_strategy (as above) and p = infection_probabilities_per_tick (as below)
+  # are allowed to vary accross different types of location. The probability p is of an contagious
+  # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
+  infection_probabilities_per_tick:
+    House:                            0.0007
+    Care Home:                        0.0007
+    OW Agriculture:                   0.0007
+    OW Extraction:                    0.0007
+    OW Manufacturing:                 0.0007
+    OW Energy:                        0.0007
+    OW Water:                         0.0007
+    OW Construction:                  0.0007
+    OW Trade:                         0.0007
+    OW Transport:                     0.0007
+    OW Catering and Accommodation:    0.0007
+    OW ICT:                           0.0007
+    OW Finance:                       0.0007
+    OW Real Estate:                   0.0007
+    OW Technical:                     0.0007
+    OW Administration:                0.0007
+    OW Education:                     0.0007
+    OW Entertainment:                 0.0007
+    OW Other Services:                0.0007
+    Primary School:                   0.0007
+    Secondary School:                 0.0007
+    Restaurant:                       0.0007
+    Outdoor:                          0.0
+    Car:                              0.0007
+    Public Transport:                 0.0007
+    Shop:                             0.0007
+    Medical:                          0.0007
+    Hospital:                         0.0007
+    Hotel:                            0.0007
+    Place of Worship:                 0.0007
+    Indoor Sport:                     0.0007
+    Cinema or Theatre:                0.0007
+    Museum or Zoo:                    0.0007
+    Belgium:                          0.0
+    France:                           0.0
+    Germany:                          0.0
+    Cemetery:                         0.0
+
+  # How many people are infected at the start of the simulation, with these agents being chosen
+  # uniformly at random:
+  initial_infections: 10
+  # How many susceptible people are randomly selected for exposure on midnight each day:
+  random_exposures: 0
+
   # The health states appearing in this model are as follows:
   health_states: [SUSCEPTIBLE, EXPOSED, ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING, RECOVERED, DEAD]
+  # Agents in the follow states are susceptible:
+  susceptible_states: [SUSCEPTIBLE]
   # Agents in the following states are categorized as exposed:
   incubating_states: [EXPOSED]
   # Agents in the following states can transmit the virus:
@@ -783,7 +844,6 @@ disease_model:
     80:   [0.31,0.00682635,0.118241593,0.355819609,0.156560628,0.017517273,0.035034546]
     85:   [0.31,0.080507251,0.14627826,0.288154627,0.162870007,0,0.012189855]
     90:   [0.31,0.060234992,0.218489901,0.231342248,0.179932859,0,0]
-
   # Disease durations in days (C: constant, G: gamma, U: uniform):
   durations_by_profile:
     SEAR:     [None,[G,[4,0.75]],[G,[4,1.25]] ,None]
@@ -793,50 +853,6 @@ disease_model:
     SEPIHD:   [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[5,16]],None]
     SEPIHVHR: [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[3,5]] ,[U,[2,12]],[U,[2,4]],None]
     SEPIHVD:  [None,[G,[4,0.75]],[G,[4,0.525]],[U,[5,9]]    ,[U,[3,5]] ,[U,[7,10]],None]
-  # How many people are infected at the start of the simulation, with these agents being chosen
-  # uniformly at random:
-  initial_infections: 10
-  # How many susceptible people are randomly selected for exposure on midnight each day:
-  random_exposures: 0
-  # The probability of other agents sharing a given location catching the pathogen each time tick:
-  infection_probabilities_per_tick:
-    House:                            0.0007
-    Care Home:                        0.0007
-    OW Agriculture:                   0.0007
-    OW Extraction:                    0.0007
-    OW Manufacturing:                 0.0007
-    OW Energy:                        0.0007
-    OW Water:                         0.0007
-    OW Construction:                  0.0007
-    OW Trade:                         0.0007
-    OW Transport:                     0.0007
-    OW Catering and Accommodation:    0.0007
-    OW ICT:                           0.0007
-    OW Finance:                       0.0007
-    OW Real Estate:                   0.0007
-    OW Technical:                     0.0007
-    OW Administration:                0.0007
-    OW Education:                     0.0007
-    OW Entertainment:                 0.0007
-    OW Other Services:                0.0007
-    Primary School:                   0.0007
-    Secondary School:                 0.0007
-    Restaurant:                       0.0007
-    Outdoor:                          0.0
-    Car:                              0.0007
-    Public Transport:                 0.0007
-    Shop:                             0.0007
-    Medical:                          0.0007
-    Hospital:                         0.0007
-    Hotel:                            0.0007
-    Place of Worship:                 0.0007
-    Indoor Sport:                     0.0007
-    Cinema or Theatre:                0.0007
-    Museum or Zoo:                    0.0007
-    Belgium:                          0.0
-    France:                           0.0
-    Germany:                          0.0
-    Cemetery:                         0.0
 
 # ######################################### Interventions ##########################################
 # Interventions list
