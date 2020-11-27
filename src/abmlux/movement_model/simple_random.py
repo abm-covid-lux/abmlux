@@ -3,6 +3,8 @@
 import logging
 import math
 
+from collections import defaultdict
+
 from abmlux.movement_model import MovementModel
 from abmlux.messagebus import MessageBus
 
@@ -23,7 +25,7 @@ class SimpleRandomMovementModel(MovementModel):
         self.public_transport_location_type = sim.activity_manager.get_location_types(self.public_transport_activity_type)
         self.public_transport_units         = sim.world.locations_for_types(self.public_transport_location_type)
         self.max_units_available            = len(self.public_transport_units)
-        self.units_available                = len(self.public_transport_units)        
+        self.units_available                = len(self.public_transport_units)
 
         self.bus.subscribe("request.agent.activity", self.handle_activity_change, self)
         self.bus.subscribe("notify.time.tick", self.update_unit_availability, self)
@@ -34,7 +36,7 @@ class SimpleRandomMovementModel(MovementModel):
         seconds_through_day = clock.now().hour * 3600 + clock.now().minute * 60 + clock.now().second
         index = int(seconds_through_day / clock.tick_length_s)
         if clock.now().weekday() in [5,6]:
-            self.units_available = max(math.ceil(self.units_available_weekend_day[index] * self.scale_factor), 1) 
+            self.units_available = max(math.ceil(self.units_available_weekend_day[index] * self.scale_factor), 1)
         else:
             self.units_available = max(math.ceil(self.units_available_week_day[index] * self.scale_factor), 1)
 
@@ -45,12 +47,12 @@ class SimpleRandomMovementModel(MovementModel):
         if agent.health in self.no_move_states:
             return MessageBus.CONSUME
 
-        # Change location in response to new activity
         if new_activity == self.public_transport_activity_type:
-            allowable_locations = self.public_transport_units[0:min(self.units_available, self.max_units_available)]
+            length = min(self.units_available, self.max_units_available)
+            allowable_locations = self.public_transport_units[0:length]
             self.bus.publish("request.agent.location", agent, \
-                         self.prng.random_choice(list(allowable_locations)))
+            self.prng.fast_random_choice(list(allowable_locations),len(list(allowable_locations))))
         else:
             allowable_locations = agent.locations_for_activity(new_activity)
             self.bus.publish("request.agent.location", agent, \
-                            self.prng.random_choice(list(allowable_locations)))
+            self.prng.fast_random_choice(list(allowable_locations),len(list(allowable_locations))))
