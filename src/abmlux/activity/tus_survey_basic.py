@@ -34,10 +34,8 @@ class TUSBasicActivityModel(ActivityModel):
 
         super().__init__(config, activity_manager)
 
-        # Runtime config
-        self.stop_activity_health_states = config['stop_activity_health_states']
-        self.age_bracket_length = config['age_bracket_length']
         # Computed beforehand
+        self.age_bracket_length = config['age_bracket_length']
         self.weeks = self._create_weekly_routines()
 
     def init_sim(self, sim):
@@ -49,25 +47,33 @@ class TUSBasicActivityModel(ActivityModel):
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
         self.bus.subscribe("notify.time.start_simulation", self.start_simulation, self)
-        self.bus.subscribe("notify.agent.health", self.remove_agents_from_active_list, self)
 
     def start_simulation(self, sim):
         """Start a simulation.
 
         Resets the internal counters."""
 
-        # These agents are still having activity updates
-        self.active_agents = set(sim.world.agents)
-
         # Group weeks according to age
         weeks_by_age_bracket = defaultdict(dict)
         for week in self.weeks:
             weeks_by_age_bracket[week.age//self.age_bracket_length][week] = week.weight
 
+        # Precalculate, for each time of the week, which weeks change activities
+        self.weeks_changing_activity = defaultdict(list)
+        for t_now in range(sim.clock.ticks_in_week):
+            if t_now == 0:
+                t_previous = max(range(sim.clock.ticks_in_week))
+            else:
+                t_previous = t_now - 1
+            for week in self.weeks:
+                if week.weekly_routine[t_now] != week.weekly_routine[t_previous]:
+                    self.weeks_changing_activity[t_now].append(week)
+
         # Assign a routine to each agent, randomly selected from the TUS data
         log.debug("Seeding week rountines and initial activities and locations...")
         min_age_bracket = min(weeks_by_age_bracket.keys())
         max_age_bracket = max(weeks_by_age_bracket.keys())
+        self.agents_by_week = defaultdict(list)
         clock = sim.clock
         for agent in self.world.agents:
             age_bracket = agent.age//self.age_bracket_length
@@ -77,20 +83,21 @@ class TUSBasicActivityModel(ActivityModel):
                 age_bracket_key = max_age_bracket
             else:
                 age_bracket_key = age_bracket
-            self.routines_by_agent[agent] = self.prng.multinoulli_dict(weeks_by_age_bracket[age_bracket_key]).weekly_routine
+            week_for_agent = self.prng.multinoulli_dict(weeks_by_age_bracket[age_bracket_key])
+            self.agents_by_week[week_for_agent].append(agent)
             # Seed initial activity and initial location
-            new_activity = self.routines_by_agent[agent][clock.epoch_week_offset]
+            new_activity = week_for_agent.weekly_routine[clock.epoch_week_offset]
             allowed_locations = agent.locations_for_activity(new_activity)
             agent.set_activity(new_activity)
             new_location = self.prng.random_choice(list(allowed_locations))
             agent.set_location(new_location)
 
-    def remove_agents_from_active_list(self, agent, new_health):
-        """If the new health state is in the 'dead list', remove the agent from the list
-        of people who get told to change activity."""
-
-        if new_health in self.stop_activity_health_states:
-            self.active_agents.remove(agent)
+        # # Precalculate allowable locations for direct location change requests
+        # self.allowable_locations = defaultdict(dict)
+        # for agent in sim.world.agents:
+        #     for activity in self.config['activity_code_map'].keys():
+        #         activity_int = sim.activity_manager.as_int(activity)
+        #         self.allowable_locations[agent][activity_int] = list(agent.locations_for_activity(activity_int))
 
     def send_activity_change_events(self, clock, t):
         """Return a list of activity transitions agents should enact this tick.
@@ -100,14 +107,12 @@ class TUSBasicActivityModel(ActivityModel):
 
         ticks_through_week = clock.ticks_through_week()
 
-        for agent in self.active_agents:
-
-            if self.routines_by_agent[agent][ticks_through_week] == agent.current_activity:
-                continue
-
-            next_activity = self.routines_by_agent[agent][ticks_through_week]
-
-            self.bus.publish("request.agent.activity", agent, next_activity)
+        for week in self.weeks_changing_activity[ticks_through_week]:
+            next_activity = week.weekly_routine[ticks_through_week]
+            for agent in self.agents_by_week[week]:
+                self.bus.publish("request.agent.activity", agent, next_activity)
+                # Alternative code for direct location change requests
+                # self.bus.publish("request.agent.location", agent, self.prng.fast_random_choice(self.allowable_locations[agent][next_activity], len(self.allowable_locations[agent][next_activity])))
 
     def _get_tus_code_mapping(self, map_config):
         """Return a function mapping TUS activity codes onto those used in this model.

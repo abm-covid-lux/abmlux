@@ -679,10 +679,6 @@ activity_model:
 #       primary: [4]
 #       secondary: [395,426,429,515,521,523,524]
 
-#   # If agents are in these states, stop the markov chain
-#   stop_activity_health_states:
-#     - DEAD
-
 # ######################################### Virus and Disease ######################################
 
 disease_model:
