@@ -8,6 +8,7 @@ import logging.config
 import traceback
 import argparse
 
+from abmlux.reporters import kill_on_zmq_event
 from abmlux.movement_model.simple_random import SimpleRandomMovementModel
 from abmlux.random_tools import Random
 from abmlux.utils import instantiate_class, remove_dunder_keys
@@ -108,10 +109,14 @@ def build_reporters(config):
 
 
 
+# FIXME: no hardcoding
 SIM_FACTORY_FILENAME = "state.abm"
+
 def main():
     """Main ABMLUX entry point"""
     print(f"ABMLUX {VERSION}")
+
+    # FIXME: proper commandline argparse
 
     # System config/setup
     if osp.isfile(SIM_FACTORY_FILENAME):
@@ -136,6 +141,7 @@ def main():
         build_model(sim_factory)
         sim_factory.to_file(SIM_FACTORY_FILENAME)
 
+    # Build list from config
     reporters = build_reporters(sim_factory.config)
 
     log.info("Starting %s reporters...", len(reporters))
@@ -153,11 +159,11 @@ def main():
     # Wait for all reporters to complete
     log.info("Waiting for reporters to finish...")
     for reporter in reporters:
+        # TODO: timeout to report how many are left
         reporter.join()
     log.info("Simulation Finished successfully.")
 
 
-from abmlux.reporters import kill_on_zmq_event
 
 def main_reporter():
     """Listen to the Telemetry and dump to the terminal"""

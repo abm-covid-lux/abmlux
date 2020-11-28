@@ -16,9 +16,6 @@ class CompartmentalModel(DiseaseModel):
         super().__init__(config, config['health_states'])
 
         self.inf_probs                  = config['infection_probabilities_per_tick']
-        self.prob_wear_mask             = config['personal_protective_measures.prob_wear_mask']
-        self.prob_do_recommendation     = config['personal_protective_measures.prob_do_recommendation']
-        self.ppm_coeff                  = config['personal_protective_measures.ppm_coeff']
         self.num_initial_infections     = config['initial_infections']
         self.random_exposures           = config['random_exposures']
         self.contagious_states          = set(config['contagious_states'])
@@ -33,7 +30,11 @@ class CompartmentalModel(DiseaseModel):
         self.disease_durations_dict     = {}
         self.agents_by_health_state     = {s: set() for s in self.states}
 
-        self.ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.prob_do_recommendation*self.prob_wear_mask[loc_type])**2) for loc_type in self.prob_wear_mask}
+        self.ppm_strategy               = config['personal_protective_measures.ppm_strategy']
+        self.ppm_force                  = config['personal_protective_measures.ppm_force']
+        self.ppm_coeff                  = config['personal_protective_measures.ppm_coeff']
+        self.ppm_force_updates_unparsed = config['personal_protective_measures.ppm_force_updates']
+        self.ppm_force_updates          = {}
 
         profiles  = config['disease_profile_distribution_by_age']
         labels    = config['disease_profile_list']
@@ -51,10 +52,8 @@ class CompartmentalModel(DiseaseModel):
         super().init_sim(sim)
 
         # FIXME
-        self.state                      = sim
-        self.world                    = sim.world
-        self.sim = sim
-        world = sim.world
+        self.sim   = sim
+        self.world = sim.world
 
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
@@ -64,14 +63,14 @@ class CompartmentalModel(DiseaseModel):
         # Assign a disease profile to each agent. This determines which health states an agent
         # passes through and in which order.
         log.info("Assigning disease profiles and durations...")
-        agents = world.agents
+        agents = self.world.agents
         total_contagious_time = 0
         total_incubation_time = 0
         for agent in tqdm(agents):
             age_rounded = min((agent.age//self.step_size)*self.step_size, self.max_age)
             profile = self.prng.random_choices(list(self.dict_by_age[age_rounded].keys()),
                                      self.dict_by_age[age_rounded].values(),1)[0]
-            durations = self._durations_for_profile(profile)
+            durations = self._durations_for_profile(profile, self.sim)
             profile = [self.state_for_letter(l) for l in profile]
             assert len(durations) == len(profile)
             self.disease_profile_dict[agent] = profile
@@ -82,8 +81,8 @@ class CompartmentalModel(DiseaseModel):
                     total_incubation_time += durations[i]
                 if profile[i] in self.contagious_states:
                     total_contagious_time += durations[i]
-        average_contagious_time = total_contagious_time / len(agents)
-        average_incubation_time = total_incubation_time / len(agents)
+        average_contagious_time = total_contagious_time / (len(agents) * self.sim.clock.ticks_in_day)
+        average_incubation_time = total_incubation_time / (len(agents) * self.sim.clock.ticks_in_day)
         log.info("Average contagious period (days): %s", average_contagious_time)
         log.info("Average incubation period (days): %s", average_incubation_time)
 
@@ -104,8 +103,22 @@ class CompartmentalModel(DiseaseModel):
             agent.health = self.disease_profile_dict[agent][1]
             self.agents_by_health_state[agent.health].add(agent)
 
+        # Parse ppm updates schedule from config, creating calendar of updates
+        for param_time, param in self.ppm_force_updates_unparsed.items():
+            if isinstance(param_time, str):
+                ticks = int(self.sim.clock.datetime_to_ticks(param_time))
+            else:
+                ticks = int(param_time)
+            self.ppm_force_updates[ticks] = float(param)
+
     def random_midnight_exposures(self, clock, t):
-        """At midnight, some suceptible agents are randomly exposed"""
+        """At midnight, parameters are updated and some suceptible agents are randomly exposed"""
+
+        if t in self.ppm_force_updates.keys():
+            self.ppm_force = self.ppm_force_updates[t]
+
+        if self.random_exposures == 0:
+            return
 
         suceptible_agents    = self.agents_by_health_state['SUSCEPTIBLE']
         expose_agents_random = self.prng.random_sample(suceptible_agents, min(self.random_exposures,len(suceptible_agents)))
@@ -115,19 +128,11 @@ class CompartmentalModel(DiseaseModel):
     def get_health_transitions(self, clock, t):
         """Updates the health state of agents"""
 
-        # Start by using the simulation clock to convert durations from days to ticks
-        if t == 0:
-            for agent in self.world.agents:
-                for index in range(len(self.disease_durations_dict[agent])):
-                    duration_days = self.disease_durations_dict[agent][index]
-                    if duration_days is not None:
-                        duration_ticks = self.state.clock.days_to_ticks(duration_days)
-                        self.disease_durations_dict[agent][index] = duration_ticks
-
         # Compute for each location the probability of catching the virus during this tick
         # TODO: count this as states change, like sim.agent_counts_by_health
         contagious_count_dict = {l: (len([a for a in self.sim.attendees[l] if a.health in self.symptomatic_states]),
                                      len([a for a in self.sim.attendees[l] if a.health in self.asymptomatic_states])) for l in self.sim.locations}
+
         # If p is the baseline transmission probability, q is the probability of an individual
         # wearing a mask and r is the proportion of virus particles passing through the mask,
         # then the true transmission probability between two individuals, each of which may or
@@ -137,7 +142,10 @@ class CompartmentalModel(DiseaseModel):
         #
         # Moreover q = (probabability an agent wears a mask, given that the agent follows the
         #               rules) * (probability that the agent follows the rules)
-        infection_probability_by_location = {l: 1 - (((1-self.inf_probs[l.typ]*self.ppm_modifier[l.typ])**c[0])*((1-self.asympt_factor*self.inf_probs[l.typ]*self.ppm_modifier[l.typ])**c[1]))
+        ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.ppm_force*self.ppm_strategy[loc_type])**2) for loc_type in self.ppm_strategy}
+
+        # Calculation of infection probabilities by location
+        infection_probability_by_location = {l: 1 - (((1-self.inf_probs[l.typ]*ppm_modifier[l.typ])**c[0])*((1-self.asympt_factor*self.inf_probs[l.typ]*ppm_modifier[l.typ])**c[1]))
                                              for l, c in contagious_count_dict.items() if c[0]+c[1] > 0}
 
         # Determine which suceptible agents are infected during this tick
@@ -176,7 +184,7 @@ class CompartmentalModel(DiseaseModel):
         self.agents_by_health_state[old_health].remove(agent)
         self.agents_by_health_state[agent.health].add(agent)
 
-    def _durations_for_profile(self, profile):
+    def _durations_for_profile(self, profile, sim):
         """Assigns durations for each phase in a given profile"""
 
         durations = []
@@ -187,11 +195,11 @@ class CompartmentalModel(DiseaseModel):
                 durations.append(None)
             if isinstance(dist,list):
                 if dist[0] == 'G':
-                    durations.append(self.prng.gammavariate(float(dist[1][0]), float(dist[1][1])))
+                    dur_ticks = self.prng.gammavariate(float(dist[1][0]), float(dist[1][1]))
                 if dist[0] == 'U':
-                    durations.append(self.prng.random_choice(
-                                                   list(range(int(dist[1][0]), int(dist[1][1])))))
+                    dur_ticks = self.prng.random_choice(list(range(int(dist[1][0]), int(dist[1][1]))))
                 if dist[0] == 'C':
-                    durations.append(float(dist[1][0]))
+                    dur_ticks = float(dist[1][0])
+                durations.append(sim.clock.days_to_ticks(dur_ticks))
 
         return durations

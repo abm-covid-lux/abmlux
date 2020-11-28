@@ -41,6 +41,8 @@ class Quarantine(Intervention):
         # Respond to requested location changes by moving people home
         self.bus.subscribe("request.agent.location", self.handle_location_change, self)
 
+        self.register_variable('default_duration_days')
+
     def update_quarantine_status(self, clock, t):
         """Take lists of things to do and apply them."""
         for agent in self.agents_to_add:

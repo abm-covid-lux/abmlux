@@ -2,7 +2,7 @@
 
 import logging
 import pickle
-from typing import Optional
+from typing import Optional, Callable
 
 from abmlux.random_tools import Random
 from abmlux.config import Config
@@ -18,12 +18,34 @@ class Component:
 
         self.config = component_config
         self.telemetry_server: Optional[TelemetryServer] = None
+        self.registered_variables: set[str] = set()
 
         if "__prng_seed__" in component_config:
             self.prng = Random(float)
         else:
             self.prng   = Random()
 
+    def register_variable(self, variable_name):
+        """Register a variable as editable at runtime."""
+        self.registered_variables.add(variable_name)
+
+    def set_registered_variable(self, variable_name, new_value):
+        """Set the value of a registered variable.
+
+        If the set_variable_name function exists then this will be called with the value to set.
+        If the variable exists in this object, its value will simply be set.
+        """
+
+        if variable_name not in self.registered_variables:
+            raise AttributeError(f"Attempt to set variable {variable_name} but it is not "
+                                 f"in the list of variables for this object ({self})")
+
+        if hasattr(self, f"set_{variable_name}"):
+            getattr(self, f"set_{variable_name}")(new_value)
+        elif hasattr(self, variable_name):
+            setattr(self, variable_name, new_value)
+        else:
+            raise AttributeError(f"Attempt to set variable {variable_name} but it does not exist.")
 
     def set_telemetry_server(self, telemetry_server: Optional[TelemetryServer]) -> None:
         self.telemetry_server = telemetry_server

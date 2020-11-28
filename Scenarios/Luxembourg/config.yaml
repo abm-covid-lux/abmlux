@@ -127,8 +127,8 @@ telemetry:
 # Output that should be rendered from the simulation:
 reporters:
   cli.TimeReporter: {}
-  csv.HealthStateCounts:
-    filename: /tmp/health_states.csv
+#  csv.HealthStateCounts:
+#    filename: /tmp/health_states.csv
 #  - location_population_plots.LocationPlots:
 #      dirname: /tmp/plots
 #      types_to_show: []
@@ -235,7 +235,7 @@ world_factory:
     Secondary School:                 58
     Restaurant:                       2247
     Outdoor:                          1
-    Public Transport:                 1000
+    Public Transport:                 1468
     Shop:                             3136
     Medical:                          125
     Hospital:                         11
@@ -451,6 +451,8 @@ world_factory:
 
   # ######################################### Location Choice ########################################
 
+  # The mobility data used to construct location choice functions:
+  location_choice_fp: Scenarios/Luxembourg/Lux Mobil.csv
   # Which activies are assigned locations using a distance distribution, and how many such locations
   # can be visited by each agent:
   activity_locations_by_distance:
@@ -540,8 +542,11 @@ movement_model:
   no_move_health_states:
     - Hospital
     - Cemetery
-
-
+  # Public transport activity type
+  public_transport_activity_type: Public Transport
+  # Units of public transport avaiable at each 10 minute interval of the day
+  units_available_week_day: [39, 49, 46, 45, 29, 9, 9, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 14, 28, 43, 109, 178, 259, 342, 408, 467, 574, 608, 667, 750, 796, 909, 1004, 1080, 1206, 1359, 1410, 1458, 1468, 1334, 1186, 1086, 1094, 1053, 1082, 1055, 980, 913, 911, 904, 926, 906, 878, 863, 873, 830, 868, 845, 858, 828, 841, 850, 858, 855, 879, 911, 951, 966, 940, 935, 955, 934, 986, 955, 937, 918, 940, 957, 1024, 1074, 1063, 1053, 1081, 1013, 1060, 995, 975, 962, 984, 983, 1073, 1065, 1103, 1136, 1146, 1113, 1148, 1184, 1180, 1136, 1170, 1118, 1098, 1107, 1069, 1067, 1095, 1024, 995, 954, 906, 861, 829, 754, 726, 675, 635, 651, 606, 585, 633, 583, 575, 545, 518, 521, 556, 512, 500, 472, 437, 412, 433, 377, 359, 335, 297]
+  units_available_weekend_day: [37, 47, 48, 48, 30, 10, 10, 18, 17, 27, 29, 29, 29, 29, 19, 22, 20, 20, 20, 27, 25, 27, 29, 19, 21, 23, 23, 50, 72, 129, 163, 197, 227, 276, 306, 352, 397, 425, 443, 457, 435, 480, 504, 508, 487, 486, 475, 488, 521, 574, 554, 552, 549, 553, 539, 558, 531, 514, 513, 520, 527, 559, 519, 527, 506, 506, 496, 522, 542, 544, 539, 538, 522, 550, 565, 567, 576, 565, 564, 598, 586, 580, 564, 594, 588, 624, 623, 618, 600, 609, 602, 649, 601, 583, 563, 535, 530, 582, 582, 599, 596, 570, 568, 600, 605, 586, 549, 556, 557, 567, 560, 582, 582, 586, 551, 557, 547, 539, 534, 534, 519, 499, 488, 452, 461, 431, 434, 443, 423, 422, 396, 390, 378, 362, 358, 375, 362, 344, 333, 333, 314, 295, 290, 263]
 
 # ######################################### Activity #####################################
 # Configure the component that drives agents performing different activities in the simulation
@@ -622,12 +627,21 @@ disease_model:
   # If the PPM intervention is enabled, these must match for the model to be valid.
   # Avoiding this dependency is a TODO list item!
   personal_protective_measures:
+    # According to https://arxiv.org/pdf/2004.13553.pdf the effect of face masks is modelled by the
+    # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
+    # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
+    # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
+    # and even nonmedical or homemade masks.
     ppm_coeff: 0.7
-    # The probability that an agent follows the recommendations in place:
-    prob_do_recommendation: 1.0
+    # The probability that an agent is engaged in the strategy:
+    ppm_force: 0.0
+    # Parameter updates
+    ppm_force_updates:
+      20th April 2020: 0.8
+      11th May 2020: 1.0
     # The probability that an individual wears a mask in each location, given that the individual follows
     # the recommendations in place:
-    prob_wear_mask:
+    ppm_strategy:
       House:                          0.0
       Care Home:                      0.2
       OW Agriculture:                 0.2
@@ -722,42 +736,42 @@ disease_model:
   # uniformly at random:
   initial_infections: 10
   # How many susceptible people are randomly selected for exposure on midnight each day:
-  random_exposures: 2
+  random_exposures: 0
   # The probability of other agents sharing a given location catching the pathogen each time tick:
   infection_probabilities_per_tick:
-    House:                            0.00035
-    Care Home:                        0.00035
-    OW Agriculture:                   0.00035
-    OW Extraction:                    0.00035
-    OW Manufacturing:                 0.00035
-    OW Energy:                        0.00035
-    OW Water:                         0.00035
-    OW Construction:                  0.00035
-    OW Trade:                         0.00035
-    OW Transport:                     0.00035
-    OW Catering and Accommodation:    0.00035
-    OW ICT:                           0.00035
-    OW Finance:                       0.00035
-    OW Real Estate:                   0.00035
-    OW Technical:                     0.00035
-    OW Administration:                0.00035
-    OW Education:                     0.00035
-    OW Entertainment:                 0.00035
-    OW Other Services:                0.00035
-    Primary School:                   0.00035
-    Secondary School:                 0.00035
-    Restaurant:                       0.00035
+    House:                            0.0007
+    Care Home:                        0.0007
+    OW Agriculture:                   0.0007
+    OW Extraction:                    0.0007
+    OW Manufacturing:                 0.0007
+    OW Energy:                        0.0007
+    OW Water:                         0.0007
+    OW Construction:                  0.0007
+    OW Trade:                         0.0007
+    OW Transport:                     0.0007
+    OW Catering and Accommodation:    0.0007
+    OW ICT:                           0.0007
+    OW Finance:                       0.0007
+    OW Real Estate:                   0.0007
+    OW Technical:                     0.0007
+    OW Administration:                0.0007
+    OW Education:                     0.0007
+    OW Entertainment:                 0.0007
+    OW Other Services:                0.0007
+    Primary School:                   0.0007
+    Secondary School:                 0.0007
+    Restaurant:                       0.0007
     Outdoor:                          0.0
-    Car:                              0.00035
-    Public Transport:                 0.00035
-    Shop:                             0.00035
-    Medical:                          0.00035
-    Hospital:                         0.00035
-    Hotel:                            0.00035
-    Place of Worship:                 0.00035
-    Indoor Sport:                     0.00035
-    Cinema or Theatre:                0.00035
-    Museum or Zoo:                    0.00035
+    Car:                              0.0007
+    Public Transport:                 0.0007
+    Shop:                             0.0007
+    Medical:                          0.0007
+    Hospital:                         0.0007
+    Hotel:                            0.0007
+    Place of Worship:                 0.0007
+    Indoor Sport:                     0.0007
+    Cinema or Theatre:                0.0007
+    Museum or Zoo:                    0.0007
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -790,19 +804,95 @@ interventions:
     hospital_location_type: Hospital
 
 
-
   # The intervention refers to a system that distributes
   # invitations to test, across the population, according to a certain algorithm.
   large_scale_testing:
     __type__: testing.LargeScaleTesting
     __enabled__: false
     __schedule__:
-      18th May 2020: enable
-    # The number of agents selected uniformly at random for testing each day:
-    tests_per_day: 5000
-    # The time between an invitation to test being received and the agent booking a test:
-    invitation_to_test_booking_days: 6
+      17th May 2020: enable
+      18th May 2020: {"invitations_per_day": 1937}
+      19th May 2020: {"invitations_per_day": 0}      
+      25th May 2020: {"invitations_per_day": 58381}
+      26th May 2020: {"invitations_per_day": 0}
+      2nd June 2020: {"invitations_per_day": 47487}
+      3rd June 2020: {"invitations_per_day": 0}
+      8th June 2020: {"invitations_per_day": 153909}
+      9th June 2020: {"invitations_per_day": 0}
+      15th June 2020: {"invitations_per_day": 158136}
+      16th June 2020: {"invitations_per_day": 0}
+      22nd June 2020: {"invitations_per_day": 138417}
+      23rd June 2020: {"invitations_per_day": 0}
+      29th June 2020: {"invitations_per_day": 190932}
+      30th June 2020: {"invitations_per_day": 0}
+      6th July 2020: {"invitations_per_day": 187658}
+      7th July 2020: {"invitations_per_day": 0}
+      13th July 2020: {"invitations_per_day": 188499}
+      14th July 2020: {"invitations_per_day": 0}
+      17th July 2020: {"invitations_per_day": 41061}
+      18th July 2020: {"invitations_per_day": 0}
+      20th July 2020: {"invitations_per_day": 64479}
+      21st July 2020: {"invitations_per_day": 0}
+      27th July 2020: {"invitations_per_day": 71988}
+      28th July 2020: {"invitations_per_day": 0}
+      3rd August 2020: {"invitations_per_day": 35242}
+      4th August 2020: {"invitations_per_day": 0}
+      10th August 2020: {"invitations_per_day": 50342}
+      11th August 2020: {"invitations_per_day": 0}
+      17th August 2020: {"invitations_per_day": 8084}
+      18th August 2020: {"invitations_per_day": 0}
+      24th August 2020: {"invitations_per_day": 35242}
+      25th August 2020: {"invitations_per_day": 0}
+      31st August 2020: {"invitations_per_day": 26907}
+      1st September 2020: {"invitations_per_day": 0}
+      7th September 2020: {"invitations_per_day": 26908}
+      8th September 2020: {"invitations_per_day": 0}
+      14th September 2020: {"invitations_per_day": 54000}
+      15th September 2020: {"invitations_per_day": 0}
+      21st September 2020: {"invitations_per_day": 54000}
+      22nd September 2020: {"invitations_per_day": 0}
+      28th September 2020: {"invitations_per_day": 54000}
+      29th September 2020: {"invitations_per_day": 0}
+      5th October 2020: {"invitations_per_day": 54000}
+      6th October 2020: {"invitations_per_day": 0}
+      12th October 2020: {"invitations_per_day": 54000}
+      13th October 2020: {"invitations_per_day": 0}
+      19th October 2020: {"invitations_per_day": 54000}
+      20th October 2020: {"invitations_per_day": 0}
+      26th October 2020: {"invitations_per_day": 54000}
+      27th October 2020: {"invitations_per_day": 0}
+      2nd November 2020: {"invitations_per_day": 54000}
+      3rd November 2020: {"invitations_per_day": 0}
+      9th November 2020: {"invitations_per_day": 54000}
+      10th November 2020: {"invitations_per_day": 0}
+      16th November 2020: {"invitations_per_day": 54000}
+      17th November 2020: {"invitations_per_day": 0}
+      23rd November 2020: {"invitations_per_day": 54000}
+      30th November 2020: {"invitations_per_day": 0}
 
+    # The number of agents selected uniformly at random for testing each day:
+    invitations_per_day: 0
+    # The distribution of time between an invitation to test being received
+    # and the agent booking a test:
+    invitation_to_test_booking_days:
+      {1: 106, 2: 122, 3: 102, 4: 81, 5: 50, 6: 37, 7: 37, 8: 26, 9: 26, 10: 23, 11: 23, 12: 19, 13: 19, 14: 9, 15: 9, 16: 12, 17: 12, 18: 11, 19: 11, 20: 7, 21: 7, 22: 6, 23: 6, 24: 9, 25: 9, 26: 7, 27: 7, 28: 6, 29: 6, 30: 8, 31: 8, 32: 7, 33: 7, 34: 6, 35: 6, 36: 4, 37: 4, 38: 5, 39: 5, 40: 4, 41: 4, 42: 3, 43: 3, 44: 3, 45: 3, 46: 3, 47: 2, 48: 2, 49: 2, 50: 2, 51: 2, 52: 2, 53: 2, 54: 2, 55: 2, 56: 2, 57: 1, 58: 1, 59: 1, 60: 1, 61: 1, 62: 1, 63: 1, 64: 1, 65: 1, 66: 1, 67: 1, 68: 1, 69: 1, 70: 1, 71: 1, 72: 1, 73: 1, 74: 1, 75: 1}
+
+
+  # The intervention 'other_testing' refers to situations where an agent books a test without having
+  # been directed to do so by any of the other interventions. Chief among these are the situations in
+  # which an agent voluntarily books a test having developed symptoms.
+  prescription_testing:
+    __type__: testing.PrescriptionTesting
+    __enabled__: true
+    __schedule__:
+    # The probability that an agent books a test at the moment they develop symptoms. This corresponds
+    # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
+    # recommends the agent to get tested.
+    prob_test_symptoms: 1.0
+    # Time between onset of symptoms and booking of a test:
+    onset_of_symptoms_to_test_booking_days: 1
+    # Agents in the following states are symptomatic:
+    symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
 
 
   # The intervention 'test_booking' simply refer to the system that books tests for agents, should
@@ -811,7 +901,6 @@ interventions:
     __type__: laboratory.TestBooking
     __enabled__: true
     __schedule__:
-
     # The time taken between the booking of a test and the time at which the test takes place, in the
     # case where the agent is not showing symptoms at the time of booking:
     test_booking_to_test_sample_days_no_symptoms: 4
@@ -830,6 +919,264 @@ interventions:
     __type__: laboratory.Laboratory
     __enabled__: true
     __schedule__:
+      24 February 2020: {max_tests_per_day: 2}
+      25 February 2020: {max_tests_per_day: 7}
+      26 February 2020: {max_tests_per_day: 2}
+      27 February 2020: {max_tests_per_day: 1}
+      28 February 2020: {max_tests_per_day: 7}
+      29 February 2020: {max_tests_per_day: 1}
+      01 March 2020: {max_tests_per_day: 1}
+      02 March 2020: {max_tests_per_day: 7}
+      03 March 2020: {max_tests_per_day: 4}
+      04 March 2020: {max_tests_per_day: 1}
+      05 March 2020: {max_tests_per_day: 6}
+      06 March 2020: {max_tests_per_day: 9}
+      07 March 2020: {max_tests_per_day: 6}
+      08 March 2020: {max_tests_per_day: 0}
+      09 March 2020: {max_tests_per_day: 16}
+      10 March 2020: {max_tests_per_day: 25}
+      11 March 2020: {max_tests_per_day: 51}
+      12 March 2020: {max_tests_per_day: 199}
+      13 March 2020: {max_tests_per_day: 205}
+      14 March 2020: {max_tests_per_day: 107}
+      15 March 2020: {max_tests_per_day: 25}
+      16 March 2020: {max_tests_per_day: 427}
+      17 March 2020: {max_tests_per_day: 676}
+      18 March 2020: {max_tests_per_day: 957}
+      19 March 2020: {max_tests_per_day: 981}
+      20 March 2020: {max_tests_per_day: 1129}
+      21 March 2020: {max_tests_per_day: 491}
+      22 March 2020: {max_tests_per_day: 21}
+      23 March 2020: {max_tests_per_day: 1220}
+      24 March 2020: {max_tests_per_day: 1005}
+      25 March 2020: {max_tests_per_day: 1028}
+      26 March 2020: {max_tests_per_day: 5726}
+      27 March 2020: {max_tests_per_day: 1317}
+      28 March 2020: {max_tests_per_day: 1062}
+      29 March 2020: {max_tests_per_day: 370}
+      30 March 2020: {max_tests_per_day: 1346}
+      31 March 2020: {max_tests_per_day: 1231}
+      01 April 2020: {max_tests_per_day: 1511}
+      02 April 2020: {max_tests_per_day: 1585}
+      03 April 2020: {max_tests_per_day: 1515}
+      04 April 2020: {max_tests_per_day: 1012}
+      05 April 2020: {max_tests_per_day: 755}
+      06 April 2020: {max_tests_per_day: 1304}
+      07 April 2020: {max_tests_per_day: 1311}
+      08 April 2020: {max_tests_per_day: 1190}
+      09 April 2020: {max_tests_per_day: 1079}
+      10 April 2020: {max_tests_per_day: 896}
+      11 April 2020: {max_tests_per_day: 411}
+      12 April 2020: {max_tests_per_day: 259}
+      13 April 2020: {max_tests_per_day: 87}
+      14 April 2020: {max_tests_per_day: 1816}
+      15 April 2020: {max_tests_per_day: 1108}
+      16 April 2020: {max_tests_per_day: 1193}
+      17 April 2020: {max_tests_per_day: 1270}
+      18 April 2020: {max_tests_per_day: 667}
+      19 April 2020: {max_tests_per_day: 235}
+      20 April 2020: {max_tests_per_day: 1191}
+      21 April 2020: {max_tests_per_day: 1054}
+      22 April 2020: {max_tests_per_day: 1463}
+      23 April 2020: {max_tests_per_day: 998}
+      24 April 2020: {max_tests_per_day: 1778}
+      25 April 2020: {max_tests_per_day: 790}
+      26 April 2020: {max_tests_per_day: 144}
+      27 April 2020: {max_tests_per_day: 988}
+      28 April 2020: {max_tests_per_day: 2021}
+      29 April 2020: {max_tests_per_day: 2116}
+      30 April 2020: {max_tests_per_day: 2366}
+      01 May 2020: {max_tests_per_day: 1608}
+      02 May 2020: {max_tests_per_day: 884}
+      03 May 2020: {max_tests_per_day: 280}
+      04 May 2020: {max_tests_per_day: 1272}
+      05 May 2020: {max_tests_per_day: 1598}
+      06 May 2020: {max_tests_per_day: 1848}
+      07 May 2020: {max_tests_per_day: 1854}
+      08 May 2020: {max_tests_per_day: 1698}
+      09 May 2020: {max_tests_per_day: 867}
+      10 May 2020: {max_tests_per_day: 238}
+      11 May 2020: {max_tests_per_day: 1247}
+      12 May 2020: {max_tests_per_day: 1763}
+      13 May 2020: {max_tests_per_day: 1566}
+      14 May 2020: {max_tests_per_day: 1663}
+      15 May 2020: {max_tests_per_day: 1704}
+      16 May 2020: {max_tests_per_day: 1285}
+      17 May 2020: {max_tests_per_day: 173}
+      18 May 2020: {max_tests_per_day: 1111}
+      19 May 2020: {max_tests_per_day: 1372}
+      20 May 2020: {max_tests_per_day: 1747}
+      21 May 2020: {max_tests_per_day: 1004}
+      22 May 2020: {max_tests_per_day: 1414}
+      23 May 2020: {max_tests_per_day: 1536}
+      24 May 2020: {max_tests_per_day: 103}
+      25 May 2020: {max_tests_per_day: 1079}
+      26 May 2020: {max_tests_per_day: 1611}
+      27 May 2020: {max_tests_per_day: 1408}
+      28 May 2020: {max_tests_per_day: 2456}
+      29 May 2020: {max_tests_per_day: 3087}
+      30 May 2020: {max_tests_per_day: 2456}
+      31 May 2020: {max_tests_per_day: 227}
+      01 June 2020: {max_tests_per_day: 724}
+      02 June 2020: {max_tests_per_day: 2432}
+      03 June 2020: {max_tests_per_day: 2620}
+      04 June 2020: {max_tests_per_day: 2346}
+      05 June 2020: {max_tests_per_day: 4029}
+      06 June 2020: {max_tests_per_day: 2339}
+      07 June 2020: {max_tests_per_day: 685}
+      08 June 2020: {max_tests_per_day: 3278}
+      09 June 2020: {max_tests_per_day: 3615}
+      10 June 2020: {max_tests_per_day: 5244}
+      11 June 2020: {max_tests_per_day: 4813}
+      12 June 2020: {max_tests_per_day: 7552}
+      13 June 2020: {max_tests_per_day: 3931}
+      14 June 2020: {max_tests_per_day: 766}
+      15 June 2020: {max_tests_per_day: 6286}
+      16 June 2020: {max_tests_per_day: 6123}
+      17 June 2020: {max_tests_per_day: 7419}
+      18 June 2020: {max_tests_per_day: 7425}
+      19 June 2020: {max_tests_per_day: 8505}
+      20 June 2020: {max_tests_per_day: 6382}
+      21 June 2020: {max_tests_per_day: 606}
+      22 June 2020: {max_tests_per_day: 7490}
+      23 June 2020: {max_tests_per_day: 164}
+      24 June 2020: {max_tests_per_day: 6247}
+      25 June 2020: {max_tests_per_day: 6536}
+      26 June 2020: {max_tests_per_day: 7205}
+      27 June 2020: {max_tests_per_day: 6144}
+      28 June 2020: {max_tests_per_day: 1041}
+      29 June 2020: {max_tests_per_day: 9585}
+      30 June 2020: {max_tests_per_day: 8770}
+      01 July 2020: {max_tests_per_day: 11146}
+      02 July 2020: {max_tests_per_day: 12253}
+      03 July 2020: {max_tests_per_day: 12137}
+      04 July 2020: {max_tests_per_day: 8784}
+      05 July 2020: {max_tests_per_day: 1226}
+      06 July 2020: {max_tests_per_day: 12413}
+      07 July 2020: {max_tests_per_day: 11895}
+      08 July 2020: {max_tests_per_day: 13475}
+      09 July 2020: {max_tests_per_day: 12919}
+      10 July 2020: {max_tests_per_day: 6386}
+      11 July 2020: {max_tests_per_day: 8853}
+      12 July 2020: {max_tests_per_day: 5389}
+      13 July 2020: {max_tests_per_day: 12238}
+      14 July 2020: {max_tests_per_day: 14289}
+      15 July 2020: {max_tests_per_day: 17700}
+      16 July 2020: {max_tests_per_day: 15922}
+      17 July 2020: {max_tests_per_day: 17082}
+      18 July 2020: {max_tests_per_day: 15251}
+      19 July 2020: {max_tests_per_day: 3611}
+      20 July 2020: {max_tests_per_day: 11953}
+      21 July 2020: {max_tests_per_day: 20782}
+      22 July 2020: {max_tests_per_day: 9050}
+      23 July 2020: {max_tests_per_day: 19280}
+      24 July 2020: {max_tests_per_day: 13319}
+      25 July 2020: {max_tests_per_day: 7847}
+      26 July 2020: {max_tests_per_day: 1304}
+      27 July 2020: {max_tests_per_day: 17899}
+      28 July 2020: {max_tests_per_day: 10290}
+      29 July 2020: {max_tests_per_day: 8513}
+      30 July 2020: {max_tests_per_day: 11861}
+      31 July 2020: {max_tests_per_day: 10451}
+      01 August 2020: {max_tests_per_day: 7452}
+      02 August 2020: {max_tests_per_day: 1026}
+      03 August 2020: {max_tests_per_day: 7379}
+      04 August 2020: {max_tests_per_day: 9208}
+      05 August 2020: {max_tests_per_day: 11636}
+      06 August 2020: {max_tests_per_day: 7299}
+      07 August 2020: {max_tests_per_day: 7843}
+      08 August 2020: {max_tests_per_day: 6628}
+      09 August 2020: {max_tests_per_day: 526}
+      10 August 2020: {max_tests_per_day: 6078}
+      11 August 2020: {max_tests_per_day: 7663}
+      12 August 2020: {max_tests_per_day: 5549}
+      13 August 2020: {max_tests_per_day: 5404}
+      14 August 2020: {max_tests_per_day: 9448}
+      15 August 2020: {max_tests_per_day: 3032}
+      16 August 2020: {max_tests_per_day: 772}
+      17 August 2020: {max_tests_per_day: 4018}
+      18 August 2020: {max_tests_per_day: 6531}
+      19 August 2020: {max_tests_per_day: 10251}
+      20 August 2020: {max_tests_per_day: 6093}
+      21 August 2020: {max_tests_per_day: 9536}
+      22 August 2020: {max_tests_per_day: 6722}
+      23 August 2020: {max_tests_per_day: 1217}
+      24 August 2020: {max_tests_per_day: 3420}
+      25 August 2020: {max_tests_per_day: 8227}
+      26 August 2020: {max_tests_per_day: 7141}
+      27 August 2020: {max_tests_per_day: 10175}
+      28 August 2020: {max_tests_per_day: 8739}
+      29 August 2020: {max_tests_per_day: 7831}
+      30 August 2020: {max_tests_per_day: 1154}
+      31 August 2020: {max_tests_per_day: 6248}
+      01 September 2020: {max_tests_per_day: 11629}
+      02 September 2020: {max_tests_per_day: 8779}
+      03 September 2020: {max_tests_per_day: 8684}
+      04 September 2020: {max_tests_per_day: 10435}
+      05 September 2020: {max_tests_per_day: 8272}
+      06 September 2020: {max_tests_per_day: 1297}
+      07 September 2020: {max_tests_per_day: 5785}
+      08 September 2020: {max_tests_per_day: 11058}
+      09 September 2020: {max_tests_per_day: 8589}
+      10 September 2020: {max_tests_per_day: 9873}
+      11 September 2020: {max_tests_per_day: 10888}
+      12 September 2020: {max_tests_per_day: 8503}
+      13 September 2020: {max_tests_per_day: 1602}
+      14 September 2020: {max_tests_per_day: 8396}
+      15 September 2020: {max_tests_per_day: 11485}
+      16 September 2020: {max_tests_per_day: 10043}
+      17 September 2020: {max_tests_per_day: 5058}
+      18 September 2020: {max_tests_per_day: 5911}
+      19 September 2020: {max_tests_per_day: 4594}
+      20 September 2020: {max_tests_per_day: 1106}
+      21 September 2020: {max_tests_per_day: 7926}
+      22 September 2020: {max_tests_per_day: 7515}
+      23 September 2020: {max_tests_per_day: 7477}
+      24 September 2020: {max_tests_per_day: 7426}
+      25 September 2020: {max_tests_per_day: 7358}
+      26 September 2020: {max_tests_per_day: 6423}
+      27 September 2020: {max_tests_per_day: 1000}
+      28 September 2020: {max_tests_per_day: 6482}
+      29 September 2020: {max_tests_per_day: 8659}
+      30 September 2020: {max_tests_per_day: 7287}
+      01 October 2020: {max_tests_per_day: 8479}
+      02 October 2020: {max_tests_per_day: 8017}
+      03 October 2020: {max_tests_per_day: 6628}
+      04 October 2020: {max_tests_per_day: 1245}
+      05 October 2020: {max_tests_per_day: 6435}
+      06 October 2020: {max_tests_per_day: 7923}
+      07 October 2020: {max_tests_per_day: 8228}
+      08 October 2020: {max_tests_per_day: 9453}
+      09 October 2020: {max_tests_per_day: 8942}
+      10 October 2020: {max_tests_per_day: 6679}
+      11 October 2020: {max_tests_per_day: 1159}
+      12 October 2020: {max_tests_per_day: 8337}
+      13 October 2020: {max_tests_per_day: 9617}
+      14 October 2020: {max_tests_per_day: 8630}
+      15 October 2020: {max_tests_per_day: 11478}
+      16 October 2020: {max_tests_per_day: 10787}
+      17 October 2020: {max_tests_per_day: 11099}
+      18 October 2020: {max_tests_per_day: 1307}
+      19 October 2020: {max_tests_per_day: 7807}
+      20 October 2020: {max_tests_per_day: 10163}
+      21 October 2020: {max_tests_per_day: 17801}
+      22 October 2020: {max_tests_per_day: 11336}
+      23 October 2020: {max_tests_per_day: 14969}
+      24 October 2020: {max_tests_per_day: 12843}
+      25 October 2020: {max_tests_per_day: 2297}
+      26 October 2020: {max_tests_per_day: 11164}
+      27 October 2020: {max_tests_per_day: 15531}
+      28 October 2020: {max_tests_per_day: 10833}
+      29 October 2020: {max_tests_per_day: 15650}
+      30 October 2020: {max_tests_per_day: 17026}
+      31 October 2020: {max_tests_per_day: 16577}
+      01 November 2020: {max_tests_per_day: 7888}
+      02 November 2020: {max_tests_per_day: 10212}
+      03 November 2020: {max_tests_per_day: 13394}
+      04 November 2020: {max_tests_per_day: 14376}
+      05 November 2020: {max_tests_per_day: 14929}
+    # Maximum number of tests performed each day, with additional tests booked being cancelled:
+    max_tests_per_day: 0
     # The probability of a false positive:
     prob_false_positive: 0.01
     # The probability of a false negative:
@@ -876,7 +1223,6 @@ interventions:
     location_blacklist: [Outdoor, Cemetery, Belgium, France, Germany]
 
 
-
   # The intervention 'contact_tracing' refers to the manual tracing of contacts of agents with postive
   # test results. The maximum number of positive agents whose contacts can be traced is specified, as
   # is the window of time over which such contacts are registered. Contacts are considered to be
@@ -891,9 +1237,11 @@ interventions:
     __type__: contact_tracing.ContactTracingManual
     __enabled__: false
     __schedule__:
-      200: enable
-      1000: enable
-
+      20th April 2020: enable
+      1st July 2020: {max_per_day: 200}
+      1st August 2020: {max_per_day: 350}
+      1st September 2020: {max_per_day: 500}
+      1st November 2020: {max_per_day: 600}
     # The maximum number of positive agents whose contacts can be tested each day:
     max_per_day: 100
     # The window of time over which contacts are considered:
@@ -907,10 +1255,6 @@ interventions:
     location_type_blacklist: [Cemetery, Belgium, France, Germany]
 
 
-
-
-
-
   # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
   # possible conditions includes that the agent has tested positive, the agent has been recommended to
   # quarantine after contact tracing (either manually or via the app) and that the agent is trying to
@@ -921,7 +1265,7 @@ interventions:
     __type__: quarantine.Quarantine
     __enabled__: true
     __schedule__:
-
+      23rd September 2020: {default_duration_days: 10}
     # If this is true, disabling quarantine immediately allows people to change
     # else it simply disables putting new people into quarantine, and they still have to
     # wait out their allotted time.
@@ -977,7 +1321,7 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  location_closure_ow_1:
+  location_closure_ow_general:
     __type__: location_closure.LocationClosures
     __enabled__: false
     __schedule__:
@@ -993,21 +1337,6 @@ interventions:
       - OW Energy
       - OW Water
       - OW Transport
-    # Unless an agent is in an exempt location, they are directed to the location at which they
-    # perform the activity 'House':
-    home_activity_type: House
-
-  location_closure_ow_2:
-    __type__: location_closure.LocationClosures
-    __enabled__: false
-    __schedule__:
-      19th March 2020: enable
-      24th June 2020: disable
-    # A list of location type subject to possible closures, one of the notable exceptions being shops.
-    # Whether or not a location is closed may depend on the activity in question (for example, visits
-    # to care homes may be prohibited while residents and workers continue to be able to access the
-    # care home.
-    locations:
       - OW Extraction
       - OW Trade
       - OW ICT
@@ -1026,6 +1355,8 @@ interventions:
     __schedule__:
       19th March 2020: enable
       20th April 2020: disable
+      31st July 2020: enable
+      23rd August 2020: disable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
     # Whether or not a location is closed may depend on the activity in question (for example, visits
     # to care homes may be prohibited while residents and workers continue to be able to access the
@@ -1058,6 +1389,7 @@ interventions:
     __schedule__:
       15th March 2020: enable
       29th May 2020: disable
+      26th November 2020: enable
     # A list of location type subject to possible closures, one of the notable exceptions being shops.
     # Whether or not a location is closed may depend on the activity in question (for example, visits
     # to care homes may be prohibited while residents and workers continue to be able to access the
@@ -1087,7 +1419,25 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  location_closure_school:
+  location_closure_primary_school:
+    __type__: location_closure.LocationClosures
+    __enabled__: false
+    __schedule__:
+      16th March 2020: enable
+      25th May 2020: disable
+      16th July 2020: enable
+      15th September 2020: disable
+    # A list of location type subject to possible closures, one of the notable exceptions being shops.
+    # Whether or not a location is closed may depend on the activity in question (for example, visits
+    # to care homes may be prohibited while residents and workers continue to be able to access the
+    # care home.
+    locations:
+      - Primary School
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
+  location_closure_secondary_school:
     __type__: location_closure.LocationClosures
     __enabled__: false
     __schedule__:
@@ -1100,16 +1450,48 @@ interventions:
     # to care homes may be prohibited while residents and workers continue to be able to access the
     # care home.
     locations:
-      - Primary School
       - Seconary School
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
 
+
+  # The intervention 'work_from_home' direct people to work from home, with a certain probability
+  work_from_home_ow_general:
+    __type__: work_from_home.WorkFromHome
+    __enabled__: false
+    __schedule__:
+      23th June 2020: enable
+      24th June 2020: {prob_work_from_home: 0.52}
+    # Probability to work from home:
+    prob_work_from_home: 0.0
+    # Location types exempt from working at home restrictions:
+    locations:
+      - OW Agriculture
+      - OW Manufacturing
+      - OW Energy
+      - OW Water
+      - OW Transport
+      - OW Extraction
+      - OW Trade
+      - OW ICT
+      - OW Finance
+      - OW Real Estate
+      - OW Technical
+      - OW Administration
+      - OW Education
+    # If an agent requests to move to the location at which they perform the activity 'Work', they
+    # are directed to the location at which they perform the activity 'House':
+    home_activity_type: House
+    work_activity_type: Work
+
+
+  # The interventions 'curfew' directs people to stay home between certain times.
   curfew:
     __type__: curfew.Curfew
     __enabled__: false
     __schedule__:
+      26th October 2020: enable
     # Hours of operation
     start_time: 23
     end_time: 6
@@ -1149,82 +1531,3 @@ interventions:
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
-
-  # The intervention 'other_testing' refers to situations where an agent books a test without having
-  # been directed to do so by any of the other interventions. Chief among these are the situations in
-  # which an agent voluntarily books a test having developed symptoms.
-  other_testing:
-    __type__: testing.OtherTesting
-    __enabled__: false
-    __schedule__:
-    # The probability that an agent books a test at the moment they develop symptoms. This corresponds
-    # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
-    # recommends the agent to get tested.
-    prob_test_symptoms: 1.0
-    # Time between onset of symptoms and booking of a test:
-    onset_of_symptoms_to_test_booking_days: 1
-    # Agents in the following states are symptomatic:
-    symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
-
-
-  # The intervention 'personal_protective_measures' refers to the effect of such measures as hand
-  # hygiene, face masks, surface and object cleaning and other environmental measures. The combined
-  # effect of such measures is represented as a coefficient in the range (0,1] that multiplies the
-  # transmission probabilty.
-  ppm:
-    __type__: ppm.PersonalProtectiveMeasures
-    __enabled__: false
-    __schedule__:
-    # Agents attempting to transition to these states will occasionally have the transition
-    # blocked, representing PPM working
-    incubating_states: [EXPOSED]
-    # According to https://arxiv.org/pdf/2004.13553.pdf the effect of face masks is modelled by the
-    # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
-    # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
-    # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
-    # and even nonmedical or homemade masks.
-    ppm_coeff: 0.7
-    # The probability that an agent follows the recommendations in place:
-    prob_do_recommendation: 1.0
-    # The probability that an individual wears a mask in each location, given that the individual follows
-    # the recommendations in place:
-    prob_wear_mask:
-      House:                          0.0
-      Care Home:                      0.2
-      OW Agriculture:                 0.2
-      OW Extraction:                  0.2
-      OW Manufacturing:               0.2
-      OW Energy:                      0.2
-      OW Water:                       0.2 
-      OW Construction:                0.2
-      OW Trade:                       0.2
-      OW Transport:                   0.2
-      OW Catering and Accommodation:  0.2
-      OW ICT:                         0.2
-      OW Finance:                     0.2
-      OW Real Estate:                 0.2
-      OW Technical:                   0.2
-      OW Administration:              0.2
-      OW Education:                   0.2
-      OW Entertainment:               0.2
-      OW Other Services:              0.2
-      Primary School:                 0.2
-      Secondary School:               0.2
-      Restaurant:                     0.2
-      Outdoor:                        0.0
-      Car:                            0.0
-      Public Transport:               1.0
-      Shop:                           1.0
-      Medical:                        1.0
-      Hospital:                       1.0
-      Hotel:                          1.0
-      Place of Worship:               1.0
-      Indoor Sport:                   0.2
-      Cinema or Theatre:              0.2
-      Museum or Zoo:                  1.0
-      Belgium:                        0.0
-      France:                         0.0
-      Germany:                        0.0
-      Cemetery:                       0.0
-    # Note that the above probabilities refer to the default 600 second time interval, and must be
-    # recalculating otherwise.

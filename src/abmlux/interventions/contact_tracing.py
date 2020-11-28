@@ -24,28 +24,31 @@ class ContactTracingManual(Intervention):
     and quarantine in the meantime. With a certain probability, agents do not follow this advice and
     continue as normal."""
 
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
 
-    def init_sim(self, state):
+        self.register_variable('max_per_day')
 
-        self.max_per_day              = state.world.scale_factor * self.config['max_per_day']
+    def init_sim(self, sim):
+
+        self.scale_factor             = sim.world.scale_factor
+        self.max_per_day              = self.scale_factor * self.config['max_per_day']
         self.tracing_time_window_days = self.config['tracing_time_window_days']
-        self.relevant_activities      = {state.activity_manager.as_int(x) for x in \
+        self.relevant_activities      = {sim.activity_manager.as_int(x) for x in \
                                          self.config['relevant_activities']}
         self.prob_do_recommendation   = self.config['prob_do_recommendation']
         self.location_type_blacklist  = self.config['location_type_blacklist']
 
         self.daily_notification_count = 0
 
-        self.activity_manager         = state.activity_manager
+        self.activity_manager         = sim.activity_manager
 
         # Keep state on who has been colocated with whom
         self.contacts_archive         = deque(maxlen=self.tracing_time_window_days)
         self.contacts_archive.appendleft(defaultdict(set))
 
-
-
-        self.bus = state.bus # FIXME
-        self.sim = state
+        self.bus = sim.bus # FIXME
+        self.sim = sim
 
         # Listen for interesting things
         self.bus.subscribe("notify.agent.location", self.handle_location_change, self)
@@ -61,7 +64,7 @@ class ContactTracingManual(Intervention):
             return
 
         # We can only respond to this many positive tests per day
-        if self.daily_notification_count > self.max_per_day:
+        if self.daily_notification_count > self.scale_factor * self.max_per_day:
             return
 
         # Don't respond if the person has tested false
@@ -138,14 +141,14 @@ class ContactTracingApp(Intervention):
 
         # Check that window is equal to transmission_risk list length...
 
-    def init_sim(self, state):
+    def init_sim(self, sim):
         """Select a number of agents that will have the app installed."""
 
-        super().init_sim(state)
+        super().init_sim(sim)
 
-        world = state.world #FIXME: interim patch during component conversion
-        self.bus = state.bus
-        self.sim = state
+        world = sim.world #FIXME: interim patch during component conversion
+        self.bus = sim.bus
+        self.sim = sim
 
         # Initialisation of internal state
         num_app_installs = min(len(world.agents), math.ceil(len(world.agents) * \

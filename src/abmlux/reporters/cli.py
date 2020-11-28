@@ -22,7 +22,7 @@ class TimeReporter(Reporter):
             self.tqdm = tqdm(total=clock.max_ticks)
 
         self.tqdm.n = clock.t
-        self.tqdm.set_description(f"{clock.now()}")
+        self.tqdm.set_description(f"{clock.iso8601()}")
 
 
 

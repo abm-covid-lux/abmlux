@@ -14,18 +14,31 @@ log = logging.getLogger("testing")
 class LargeScaleTesting(Intervention):
     """Randomly select a number of people per day for testing."""
 
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
+
+        self.register_variable('invitations_per_day')
+
     def init_sim(self, sim):
         super().init_sim(sim)
 
-        self.agents_tested_per_day = math.ceil(sim.world.scale_factor * self.config['tests_per_day'])
-        self.invitation_to_test_booking_delay = \
-            int(sim.clock.days_to_ticks(self.config['invitation_to_test_booking_days']))
+        self.scale_factor = sim.world.scale_factor
+        self.invitations_per_day = math.ceil(self.scale_factor * self.config['invitations_per_day'])
 
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
         self.world               = sim.world
         self.current_day         = None
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
+
+        # Assign booking delays to each agents. This is the time an agent will wait between
+        # being invited to test and booking a test:
+        self.invitation_to_test_booking_delay = {}
+        delay_distribution = self.config['invitation_to_test_booking_days']
+        for agent in self.world.agents:
+            delay_days = self.prng.multinoulli_dict(delay_distribution)
+            delay_ticks = int(sim.clock.days_to_ticks(int(delay_days)))
+            self.invitation_to_test_booking_delay[agent] = delay_ticks
 
     def midnight(self, clock, t):
         """At midnight, book agents in for testing after a given delay by queuing up events
@@ -37,14 +50,18 @@ class LargeScaleTesting(Intervention):
         if not self.enabled:
             return
 
-        # Invite for testing by random selection:
-        test_agents_random = self.prng.random_sample(self.world.agents,
-                                                     self.agents_tested_per_day)
-        for agent in test_agents_random:
-            self.test_booking_events.add("request.testing.book_test", \
-                                         self.invitation_to_test_booking_delay, agent)
+        if self.invitations_per_day == 0:
+            return
 
-class OtherTesting(Intervention):
+        num_invitations = math.ceil(self.scale_factor * self.invitations_per_day)
+
+        # Invite for testing by random selection:
+        test_agents_random = self.prng.random_sample(self.world.agents, num_invitations)
+        for agent in test_agents_random:
+            self.test_booking_events.add("request.testing.book_test",
+                                         self.invitation_to_test_booking_delay[agent], agent)
+
+class PrescriptionTesting(Intervention):
     """This refers to situations where an agent books a test without having been directed to do so
     by any of the other interventions. Chief among these are the situations in which an agent
     voluntarily books a test having developed symptoms."""
