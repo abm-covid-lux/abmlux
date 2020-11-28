@@ -45,13 +45,7 @@ class Random:
     def random_choice(self, sequence: Sequence[T]) -> T:
         """Random choice function"""
 
-        return self.prng.choice(sequence)
-
-
-    def fast_random_choice(self, sequence: Sequence[T], length: int) -> T:
-        """Fast random choice function"""
-
-        return sequence[math.floor(self.prng.random()*length)]
+        return sequence[math.floor(self.prng.random()*len(sequence))]
 
 
     def random_choices(self, population: Sequence[T], weights: Sequence[int],

@@ -3,8 +3,6 @@
 import logging
 import math
 
-from collections import defaultdict
-
 from abmlux.movement_model import MovementModel
 from abmlux.messagebus import MessageBus
 
@@ -51,8 +49,8 @@ class SimpleRandomMovementModel(MovementModel):
             length = min(self.units_available, self.max_units_available)
             allowable_locations = self.public_transport_units[0:length]
             self.bus.publish("request.agent.location", agent, \
-            self.prng.fast_random_choice(list(allowable_locations),len(list(allowable_locations))))
+            self.prng.random_choice(list(allowable_locations)))
         else:
             allowable_locations = agent.locations_for_activity(new_activity)
             self.bus.publish("request.agent.location", agent, \
-            self.prng.fast_random_choice(list(allowable_locations),len(list(allowable_locations))))
+            self.prng.random_choice(list(allowable_locations)))

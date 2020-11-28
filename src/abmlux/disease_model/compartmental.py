@@ -58,26 +58,38 @@ class CompartmentalModel(DiseaseModel):
         # Assign a disease profile to each agent. This determines which health states an agent
         # passes through, in which order and how long each agent will spend in each state
         log.info("Assigning disease profiles and durations...")
-        dict_by_age = {}
+        labelled_profiles_by_age = {}
         for age in self.profiles:
-            dict_by_age[age] = {k:v for k,v in zip(self.labels, self.profiles[age])}
+            labelled_profiles_by_age[age] = {k:v for k,v in zip(self.labels, self.profiles[age])}
         max_age = max(age for age in self.profiles)
+
+        # Used to calculate average incubation and contagious periods
         total_contagious_time = 0
         total_incubation_time = 0
+
         for agent in tqdm(agents):
+            # Disease progression is determined in terms of age
             age_rounded = min((agent.age//self.step_size)*self.step_size, max_age)
-            profile = self.prng.random_choices(list(dict_by_age[age_rounded].keys()),
-                                     dict_by_age[age_rounded].values(),1)[0]
+
+            # The sequence of health states that an agent will follow through the disease model
+            profile = self.prng.multinoulli_dict(labelled_profiles_by_age[age_rounded])
+
+            # The durations of time the agent will spend in state in that sequence
             durations = self._durations_for_profile(profile, self.sim)
+
+            # Store the profile and durations for this agent
             profile = [self.state_for_letter(l) for l in profile]
             assert len(durations) == len(profile)
             self.disease_profile_dict[agent] = profile
             self.disease_durations_dict[agent] = durations
+
+            # Used to calculate average incubation and contagious periods
             for i in range(len(profile)):
                 if profile[i] in self.incubating_states:
                     total_incubation_time += durations[i]
                 if profile[i] in self.asymptomatic_states.union(self.symptomatic_states):
                     total_contagious_time += durations[i]
+
         average_contagious_time = total_contagious_time / (len(agents)*self.sim.clock.ticks_in_day)
         average_incubation_time = total_incubation_time / (len(agents)*self.sim.clock.ticks_in_day)
         log.info("Average contagious period (days): %s", average_contagious_time)
@@ -136,6 +148,7 @@ class CompartmentalModel(DiseaseModel):
                     symptomatic_count += 1
                 if agent.health in self.asymptomatic_states:
                     asymptomatic_count += 1
+
             if symptomatic_count + asymptomatic_count > 0:
                 p_infection = 1 - (((1-self.inf_probs[location.typ]*ppm_modifier[location.typ])**symptomatic_count)*((1-self.asympt_factor*self.inf_probs[location.typ]*ppm_modifier[location.typ])**asymptomatic_count))
                 susceptible_agents = [agent for agent in self.sim.attendees[location] if agent.health in self.susceptible_states]
@@ -174,9 +187,9 @@ class CompartmentalModel(DiseaseModel):
                 durations.append(None)
             if isinstance(dist,list):
                 if dist[0] == 'G':
-                    dur_ticks=self.prng.gammavariate(float(dist[1][0]),float(dist[1][1]))
+                    dur_ticks = self.prng.gammavariate(float(dist[1][0]), float(dist[1][1]))
                 if dist[0] == 'U':
-                    dur_ticks=self.prng.random_choice(list(range(int(dist[1][0]),int(dist[1][1]))))
+                    dur_ticks = self.prng.random_choice(list(range(int(dist[1][0]), int(dist[1][1]))))
                 if dist[0] == 'C':
                     dur_ticks = float(dist[1][0])
                 durations.append(sim.clock.days_to_ticks(dur_ticks))
