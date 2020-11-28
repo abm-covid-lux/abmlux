@@ -92,13 +92,6 @@ class TUSBasicActivityModel(ActivityModel):
             new_location = self.prng.random_choice(list(allowed_locations))
             agent.set_location(new_location)
 
-        # # Precalculate allowable locations for direct location change requests
-        # self.allowable_locations = defaultdict(dict)
-        # for agent in sim.world.agents:
-        #     for activity in self.config['activity_code_map'].keys():
-        #         activity_int = sim.activity_manager.as_int(activity)
-        #         self.allowable_locations[agent][activity_int] = list(agent.locations_for_activity(activity_int))
-
     def send_activity_change_events(self, clock, t):
         """Return a list of activity transitions agents should enact this tick.
 
@@ -111,8 +104,6 @@ class TUSBasicActivityModel(ActivityModel):
             next_activity = week.weekly_routine[ticks_through_week]
             for agent in self.agents_by_week[week]:
                 self.bus.publish("request.agent.activity", agent, next_activity)
-                # Alternative code for direct location change requests
-                # self.bus.publish("request.agent.location", agent, self.prng.fast_random_choice(self.allowable_locations[agent][next_activity], len(self.allowable_locations[agent][next_activity])))
 
     def _get_tus_code_mapping(self, map_config):
         """Return a function mapping TUS activity codes onto those used in this model.
