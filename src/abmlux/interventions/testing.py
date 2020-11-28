@@ -36,8 +36,7 @@ class LargeScaleTesting(Intervention):
         self.invitation_to_test_booking_delay = {}
         delay_distribution = self.config['invitation_to_test_booking_days']
         for agent in self.world.agents:
-            delay_days = self.prng.random_choices(list(delay_distribution.keys()),
-                                                  list(delay_distribution.values()), 1)[0]
+            delay_days = self.prng.multinoulli_dict(delay_distribution)
             delay_ticks = int(sim.clock.days_to_ticks(int(delay_days)))
             self.invitation_to_test_booking_delay[agent] = delay_ticks
 
