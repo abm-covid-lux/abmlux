@@ -140,6 +140,11 @@ class CompartmentalModel(DiseaseModel):
         ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.ppm_force*self.ppm_strategy[loc_type])**2) for loc_type in self.ppm_strategy}
 
         # Determine which suceptible agents are infected during this tick
+
+        # TODO: Faster indexing with, for example, a susceptible_attendees dict. Agents would move
+        # in and out for two reasons: either they change locations or their health state changes and
+        # both could occur on the same tick. This also relates to the indexing of symptomatic and
+        # asymptomatic counts.
         for location in self.sim.locations:
             symptomatic_count  = 0
             asymptomatic_count = 0
