@@ -2,6 +2,7 @@
 
 import random
 import logging
+import math
 from typing import Sequence, TypeVar, MutableSequence, Any, Optional
 
 log = logging.getLogger("random_tools")
@@ -44,7 +45,7 @@ class Random:
     def random_choice(self, sequence: Sequence[T]) -> T:
         """Random choice function"""
 
-        return self.prng.choice(sequence)
+        return sequence[math.floor(self.prng.random()*len(sequence))]
 
 
     def random_choices(self, population: Sequence[T], weights: Sequence[int],
