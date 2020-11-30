@@ -95,14 +95,16 @@ class TUSMarkovActivityModel(ActivityModel):
         The list is given as a list of three-tuples, each containing the agent,
         activity, and location to perform that activity: (agent, activity, location)."""
 
+        ticks_through_week = clock.ticks_through_week()
+
         for agent in self.active_agents:
 
-            if self.activity_transitions[agent.agetyp][clock.ticks_through_week()] \
+            if self.activity_transitions[agent.agetyp][ticks_through_week] \
                .get_no_trans(agent.current_activity):
                 continue
 
             next_activity = self.activity_transitions[agent.agetyp] \
-                            [clock.ticks_through_week()].get_transition(agent.current_activity)
+                            [ticks_through_week].get_transition(agent.current_activity)
 
             self.bus.publish("request.agent.activity", agent, next_activity)
 
