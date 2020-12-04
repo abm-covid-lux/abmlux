@@ -25,6 +25,9 @@ class Quarantine(Intervention):
         self.home_activity_type     = sim.activity_manager.as_int(self.config['home_activity_type'])
         self.disable_releases_immediately = self.config['disable_releases_immediately']
 
+        self.health_states = sim.disease_model.states
+        self.clock         = sim.clock
+
         self.end_quarantine_events = DeferredEventPool(self.bus, sim.clock)
         self.agents_in_quarantine  = set()
 
@@ -40,8 +43,17 @@ class Quarantine(Intervention):
         self.bus.subscribe("request.quarantine.stop", self.handle_end_quarantine, self)
         # Respond to requested location changes by moving people home
         self.bus.subscribe("request.agent.location", self.handle_location_change, self)
+        self.bus.subscribe("notify.time.midnight", self.record_number_in_quarantine, self)
 
         self.register_variable('default_duration_days')
+
+    def record_number_in_quarantine(self, clock, t):
+        """Record data on number of agents in quarantine and their health status"""
+
+        agents_in_quarantine_by_health_state = {str(hs): 0 for hs in self.health_states}
+        for agent in self.agents_in_quarantine:
+            agents_in_quarantine_by_health_state[str(agent.health)] += 1
+        self.telemetry_server.send("quarantine_data", self.clock, len(self.agents_in_quarantine), agents_in_quarantine_by_health_state)
 
     def update_quarantine_status(self, clock, t):
         """Take lists of things to do and apply them."""

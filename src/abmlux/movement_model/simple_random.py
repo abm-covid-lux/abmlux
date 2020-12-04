@@ -14,6 +14,7 @@ class SimpleRandomMovementModel(MovementModel):
     def init_sim(self, sim):
         super().init_sim(sim)
 
+        self.location_types = self.config['location_types']
         self.no_move_states = self.config['no_move_health_states']
 
         self.scale_factor                   = sim.world.scale_factor

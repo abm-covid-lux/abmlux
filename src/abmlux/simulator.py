@@ -6,6 +6,7 @@ from datetime import datetime
 import uuid
 from collections import defaultdict
 from random import Random
+import time
 
 from tqdm import tqdm
 
@@ -129,9 +130,31 @@ class Simulator:
         current_day = self.clock.now().day
 
         self._initialise_components()
-        self.telemetry_server.send("simulation.start", self.run_id, self.created_at, \
-                                   self.clock, self.world, self.disease_model.states)
+
         self.bus.publish("notify.time.start_simulation", self)
+
+        # Allow the reporter threads time to start
+        time.sleep(10)
+
+        self.telemetry_server.send("simulation.start", self.world.scale_factor)
+
+        # Send initial distribution of agents across location types to telemetry server
+        location_type_counts_initial = {str(lt): 0 for lt in self.movement_model.location_types}
+        for agent in self.agents:
+            location_type_counts_initial[str(agent.current_location.typ)] += 1
+        self.telemetry_server.send("location_type_counts.initial", self.run_id, self.created_at, location_type_counts_initial)
+
+        # Send initial distribution of agents across activities to telemetry server
+        activity_counts_initial = {str(self.activity_manager.as_str(at)): 0 for at in list(self.activity_manager.map_config.keys())}
+        for agent in self.agents:
+            activity_counts_initial[str(self.activity_manager.as_str(agent.current_activity))] += 1
+        self.telemetry_server.send("activity_counts.initial", self.run_id, self.created_at, activity_counts_initial)
+
+        # Send initial distribution of agents across health states to telemetry server
+        health_state_counts_initial = {str(hs): 0 for hs in self.disease_model.states}
+        for agent in self.agents:
+            health_state_counts_initial[str(agent.health)] += 1
+        self.telemetry_server.send("health_state_counts.initial", self.run_id, self.created_at, health_state_counts_initial)
 
         # Simulation state.  These indices represent an optimisation to prevent having to loop
         # over every single agent.
@@ -163,6 +186,7 @@ class Simulator:
             if current_day != self.clock.now().day:
                 current_day = self.clock.now().day
                 self.bus.publish("notify.time.midnight", self.clock, t)
+                self.telemetry_server.send("notify.time.midnight", self.clock, t)
 
             # - 3 - Actually enact changes in an atomic manner
             update_notifications = self._update_agents()
@@ -174,6 +198,7 @@ class Simulator:
         """Update the state of agents according to the lists provided."""
 
         update_notifications = []
+        telemetry_notifications = []
 
         for agent, updates in self.agent_updates.items():
 
@@ -190,6 +215,7 @@ class Simulator:
                 # Add to index
                 #self.agent_counts_by_health[agent.health][agent.current_location] += 1
                 update_notifications.append(("notify.agent.health", agent, old_health))
+                telemetry_notifications.append(("health_state_counts.update", str(agent.health), str(old_health)))
 
             # -------------------------------------------------------------------------------------
             if 'activity' in updates:
@@ -197,6 +223,7 @@ class Simulator:
                 old_activity = agent.current_activity
                 agent.set_activity(updates['activity'])
                 update_notifications.append(("notify.agent.activity", agent, old_activity))
+                telemetry_notifications.append(("activity_counts.update", str(self.activity_manager.as_str(agent.current_activity)), str(self.activity_manager.as_str(old_activity))))
 
             # -------------------------------------------------------------------------------------
             if 'location' in updates:
@@ -212,7 +239,8 @@ class Simulator:
                 #self.agent_counts_by_health[agent.health][agent.current_location] += 1
 
                 update_notifications.append(("notify.agent.location", agent, old_location))
+                telemetry_notifications.append(("location_type_counts.update", str(agent.current_location.typ), str(old_location.typ)))
 
         self.agent_updates = defaultdict(dict)
-        self.telemetry_server.send("world.updates", self.clock, update_notifications)
+        self.telemetry_server.send("world.updates", self.clock, telemetry_notifications)
         return update_notifications

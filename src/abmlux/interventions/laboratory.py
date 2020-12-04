@@ -19,7 +19,11 @@ class Laboratory(Intervention):
         self.prob_false_positive = config['prob_false_positive']
         self.prob_false_negative = config['prob_false_negative']
 
+        self.border_countries    = config['border_countries']
+
         self.tests_performed_today = 0
+        self.home_locations_dict   = {}
+        self.resident_dict         = {}
 
         self.register_variable('max_tests_per_day')
 
@@ -27,14 +31,28 @@ class Laboratory(Intervention):
 
         super().init_sim(sim)
 
-        self.max_tests_per_day = self.config['max_tests_per_day']
+        self.clock = sim.clock
+        self.scale_factor = sim.world.scale_factor
+
+        self.home_activity_type  = sim.activity_manager.as_int(self.config['home_activity_type'])
+        self.max_tests_per_day = int(self.config['max_tests_per_day'] * self.scale_factor)
 
         self.do_test_to_test_results_ticks = \
             int(sim.clock.days_to_ticks(self.config['do_test_to_test_results_days']))
         self.infected_states = \
             set(self.config['incubating_states']).union(set(self.config['contagious_states']))
 
-        self.test_result_events = DeferredEventPool(self.bus, sim.clock)
+        self.agents = sim.world.agents
+        
+        for agent in self.agents:
+            home_location = agent.locations_for_activity(self.home_activity_type)[0]
+            self.home_locations_dict[agent] = home_location
+            if home_location.typ in self.border_countries:
+                self.resident_dict[agent] = False
+            else:
+                self.resident_dict[agent] = True
+
+        self.test_result_events = DeferredEventPool(self.bus, self.clock)
         self.bus.subscribe("request.testing.start", self.start_test, self)
         self.bus.subscribe("notify.time.midnight", self.reset_daily_counter, self)
 
@@ -55,7 +73,7 @@ class Laboratory(Intervention):
         if not self.enabled:
             return
 
-        if self.tests_performed_today >= self.max_tests_per_day:
+        if self.tests_performed_today >= int(self.max_tests_per_day * self.scale_factor):
             return
 
         test_result = False
@@ -71,6 +89,10 @@ class Laboratory(Intervention):
         self.test_result_events.add("notify.testing.result",
                                     self.do_test_to_test_results_ticks, agent, test_result)
 
+        self.telemetry_server.send("notify.testing.result", self.clock, test_result, agent.age,
+                                   self.home_locations_dict[agent].uuid,
+                                   self.home_locations_dict[agent].coord,
+                                   self.resident_dict[agent])
 
 class TestBooking(Intervention):
     """Consume a 'request to book test' signal and wait a bit whilst getting around to it.
