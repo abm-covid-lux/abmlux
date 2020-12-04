@@ -313,3 +313,55 @@ class TestingEvents(Reporter):
         """Called when the simulation ends.  Closes the file handle."""
         if self.handle is not None:
             self.handle.close()
+
+class SecondaryInfectionCounts(Reporter):
+    """Reporter that writes to a CSV file as it runs."""
+
+    def __init__(self, host, port, config):
+        super().__init__(host, port)
+
+        self.filename = config['filename']
+
+        self.subscribe("agent_uuids", self.init_counts)
+        self.subscribe("new_infection", self.new_infection)
+        self.subscribe("simulation.end", self.stop_sim)
+
+        self.secondary_infections_by_agent = {}
+
+    def init_counts(self, agent_uuids):
+        """Initialize secondary infection counts"""
+
+        for agent_uuid in agent_uuids:
+            self.secondary_infections_by_agent[agent_uuid] = 0
+
+    def new_infection(self, clock, location_typ, location_coord, agent_uuid, agent_age,
+                      agent_responsible_uuid, agent_responsible_age):
+        """Update the secondary infection counts"""
+
+        self.secondary_infections_by_agent[agent_responsible_uuid] += 1
+
+    def stop_sim(self):
+        """Called when the simulation ends.  Closes the file handle."""
+
+        # TODO: handle >1 sim at the same time using the run_id
+        # Check dir exists and open handle
+        dirname = os.path.dirname(self.filename)
+        os.makedirs(dirname, exist_ok=True)
+        self.handle = open(self.filename, 'w')
+        self.writer = csv.writer(self.handle)
+
+        # Write header
+        header = ["secondary_infections", "count"]
+        self.writer.writerow(header)
+
+        max_secondary_infections = max(list(self.secondary_infections_by_agent.values()))
+        secondary_infection_counts = {num : 0 for num in range(0, max_secondary_infections + 1)}
+        for agent_uuid in self.secondary_infections_by_agent:
+            secondary_infection_counts[self.secondary_infections_by_agent[agent_uuid]] += 1
+
+        for count in secondary_infection_counts:
+            row = [count, secondary_infection_counts[count]]
+            self.writer.writerow(row)
+
+        if self.handle is not None:
+            self.handle.close()

@@ -1,6 +1,7 @@
 """Disease models based on discrete compartments with transition probabilities"""
 
 import logging
+import numpy as np
 from tqdm import tqdm
 
 from abmlux.disease_model import DiseaseModel
@@ -146,20 +147,35 @@ class CompartmentalModel(DiseaseModel):
         # both could occur on the same tick. This also relates to the indexing of symptomatic and
         # asymptomatic counts.
         for location in self.sim.locations:
-            symptomatic_count  = 0
-            asymptomatic_count = 0
+            susceptibles  = []
+            symptomatics  = []
+            asymptomatics = []
             for agent in self.sim.attendees[location]:
+                if agent.health in self.susceptible_states:
+                    susceptibles.append(agent)
                 if agent.health in self.symptomatic_states:
-                    symptomatic_count += 1
+                    symptomatics.append(agent)
                 if agent.health in self.asymptomatic_states:
-                    asymptomatic_count += 1
-
-            if symptomatic_count + asymptomatic_count > 0:
-                p_infection = 1 - (((1-self.inf_probs[location.typ]*ppm_modifier[location.typ])**symptomatic_count)*((1-self.asympt_factor*self.inf_probs[location.typ]*ppm_modifier[location.typ])**asymptomatic_count))
-                susceptible_agents = [agent for agent in self.sim.attendees[location] if agent.health in self.susceptible_states]
-                for agent in susceptible_agents:
-                    if self.prng.boolean(p_infection):
+                    asymptomatics.append(agent)
+            if len(symptomatics) + len(asymptomatics) > 0:
+                p_sym  = self.inf_probs[location.typ]*ppm_modifier[location.typ]
+                p_asym = self.asympt_factor*self.inf_probs[location.typ]*ppm_modifier[location.typ]
+                for agent in susceptibles:
+                    sym_successes = np.random.binomial(len(symptomatics), p_sym)
+                    asym_successes = np.random.binomial(len(asymptomatics), p_asym)
+                    if asym_successes + sym_successes > 0:
                         self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
+                        # Decide who caused the infection
+                        sym_or_asym = self.prng.multinoulli([sym_successes, asym_successes])
+                        if sym_or_asym == 0:
+                            # The case in which it was a symptomatic
+                            agent_responsible = self.prng.random_choice(symptomatics)
+                        else:
+                            # The case in which it was an asymptomatic
+                            agent_responsible = self.prng.random_choice(asymptomatics)
+                        self.telemetry_server.send("new_infection", clock, location.typ,
+                                                location.coord, agent.uuid, agent.age,
+                                                agent_responsible.uuid, agent_responsible.age)
 
         # Determine which other agents need moving to their next health state, where duration_ticks
         # is None if agent.health is susceptible, recovered or dead

@@ -138,6 +138,12 @@ class Simulator:
 
         self.telemetry_server.send("simulation.start", self.world.scale_factor)
 
+        # Send telemetry server agent ids to use when recording secondary infection counts
+        agent_uuids = []
+        for agent in self.agents:
+            agent_uuids.append(agent.uuid)
+        self.telemetry_server.send("agent_uuids", agent_uuids)
+
         # Send initial distribution of agents across location types to telemetry server
         location_type_counts_initial = {str(lt): 0 for lt in self.movement_model.location_types}
         for agent in self.agents:
