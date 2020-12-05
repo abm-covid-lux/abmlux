@@ -104,7 +104,7 @@ class ContactTracingManual(Intervention):
         if agent.current_activity not in self.relevant_activities:
             return
 
-        agents_of_interest = [a for a in self.sim.attendees[agent.current_location]\
+        agents_of_interest = [a for a in set().union(*self.sim.attendees[agent.current_location].values())
                               if a.current_activity in self.relevant_activities]
         if len(agents_of_interest) <= 1:    # The person counts as an attendee him/her self
             return
@@ -187,8 +187,8 @@ class ContactTracingApp(Intervention):
                     self.bus.publish("request.quarantine.start", agent)
 
         # Move day on and reset day state
-        self.current_day_contacts       = {}
-        self.current_day_notifications  = set()
+        self.current_day_contacts      = {}
+        self.current_day_notifications = set()
 
     def tick(self, clock, t):
         """Callback run on every simulator tick.
@@ -208,12 +208,13 @@ class ContactTracingApp(Intervention):
         agents_with_app_loc_cache = {}
         for agent in self.agents_with_app:
             location = agent.current_location
-            if len(attendees[location]) <= 1 or location.typ in self.location_type_blacklist:
+            local_agents = set().union(*attendees[location].values())
+            if len(local_agents) <= 1 or location.typ in self.location_type_blacklist:
                 continue
             # Keep track of locations we've seen before
             if location not in agents_with_app_loc_cache:
                 agents_with_app_loc_cache[location] =\
-                [a for a in attendees[location] if a in self.agents_with_app]
+                [a for a in local_agents if a in self.agents_with_app]
             # Add other agents to the list of encounters for the current day
             for other_agent_with_app_loc in agents_with_app_loc_cache[location]:
                 if other_agent_with_app_loc != agent:

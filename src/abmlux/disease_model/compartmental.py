@@ -141,38 +141,37 @@ class CompartmentalModel(DiseaseModel):
         ppm_modifier = {loc_type : ((1 - (1-self.ppm_coeff)*self.ppm_force*self.ppm_strategy[loc_type])**2) for loc_type in self.ppm_strategy}
 
         # Determine which suceptible agents are infected during this tick
-
-        # TODO: Faster indexing with, for example, a susceptible_attendees dict. Agents would move
-        # in and out for two reasons: either they change locations or their health state changes and
-        # both could occur on the same tick. This also relates to the indexing of symptomatic and
-        # asymptomatic counts.
         for location in self.sim.locations:
-            susceptibles  = []
-            symptomatics  = []
-            asymptomatics = []
-            for agent in self.sim.attendees[location]:
-                if agent.health in self.susceptible_states:
-                    susceptibles.append(agent)
-                if agent.health in self.symptomatic_states:
-                    symptomatics.append(agent)
-                if agent.health in self.asymptomatic_states:
-                    asymptomatics.append(agent)
+            # Extract the relavent sets of agents from the attendees dict
+            symptomatics_sets  = [self.sim.attendees[location][h] for h in self.symptomatic_states]
+            asymptomatics_sets = [self.sim.attendees[location][h] for h in self.asymptomatic_states]
+            # Take unions to get sets of symptomatic and asymptomatic agents for this location
+            symptomatics  = set().union(*symptomatics_sets)
+            asymptomatics = set().union(*asymptomatics_sets)
+            # Check if there are any symptomatics or asymptomatics in this location
             if len(symptomatics) + len(asymptomatics) > 0:
+                # If so then calculate the probabilities to be using in the transmission calculation
                 p_sym  = self.inf_probs[location.typ]*ppm_modifier[location.typ]
                 p_asym = self.asympt_factor*self.inf_probs[location.typ]*ppm_modifier[location.typ]
+                # Determine which agents are susceptible
+                susceptible_sets = [self.sim.attendees[location][h] for h in self.susceptible_states]
+                susceptibles = set().union(*susceptible_sets)
+                # Loop through susceptibles and decide if each one gets infected or not
                 for agent in susceptibles:
-                    sym_successes = np.random.binomial(len(symptomatics), p_sym)
+                    # Decide if this agent will be infected
+                    sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases...
                     asym_successes = np.random.binomial(len(asymptomatics), p_asym)
+                    # If at least one successful transmission then publish the health state change
                     if asym_successes + sym_successes > 0:
                         self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
                         # Decide who caused the infection
-                        sym_or_asym = self.prng.multinoulli([sym_successes, asym_successes])
-                        if sym_or_asym == 0:
+                        if self.prng.random_randrange(sym_successes + asym_successes) < sym_successes:
                             # The case in which it was a symptomatic
-                            agent_responsible = self.prng.random_choice(symptomatics)
+                            agent_responsible = self.prng.random_choice(list(symptomatics))
                         else:
                             # The case in which it was an asymptomatic
-                            agent_responsible = self.prng.random_choice(asymptomatics)
+                            agent_responsible = self.prng.random_choice(list(asymptomatics))
+                        # Send this information to the telemetry server
                         self.telemetry_server.send("new_infection", clock, location.typ,
                                                 location.coord, agent.uuid, agent.age,
                                                 agent_responsible.uuid, agent_responsible.age)

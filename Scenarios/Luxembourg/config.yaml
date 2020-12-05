@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 342
+random_seed: 122
 
 
 
@@ -77,7 +77,7 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 70 #280
+simulation_length_days: 280
 
 # With syntax being anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
@@ -223,7 +223,7 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 16108
+  n: 161080
   #n: 2000
 
   # For each location type, a number of such locations will be generated. This number will be either
@@ -811,39 +811,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.0007
-    Care Home:                        0.0007
-    OW Agriculture:                   0.0007
-    OW Extraction:                    0.0007
-    OW Manufacturing:                 0.0007
-    OW Energy:                        0.0007
-    OW Water:                         0.0007
-    OW Construction:                  0.0007
-    OW Trade:                         0.0007
-    OW Transport:                     0.0007
-    OW Catering and Accommodation:    0.0007
-    OW ICT:                           0.0007
-    OW Finance:                       0.0007
-    OW Real Estate:                   0.0007
-    OW Technical:                     0.0007
-    OW Administration:                0.0007
-    OW Education:                     0.0007
-    OW Entertainment:                 0.0007
-    OW Other Services:                0.0007
-    Primary School:                   0.0007
-    Secondary School:                 0.0007
-    Restaurant:                       0.0007
+    House:                            0.0004
+    Care Home:                        0.0004
+    OW Agriculture:                   0.0004
+    OW Extraction:                    0.0004
+    OW Manufacturing:                 0.0004
+    OW Energy:                        0.0004
+    OW Water:                         0.0004
+    OW Construction:                  0.0004
+    OW Trade:                         0.0004
+    OW Transport:                     0.0004
+    OW Catering and Accommodation:    0.0004
+    OW ICT:                           0.0004
+    OW Finance:                       0.0004
+    OW Real Estate:                   0.0004
+    OW Technical:                     0.0004
+    OW Administration:                0.0004
+    OW Education:                     0.0004
+    OW Entertainment:                 0.0004
+    OW Other Services:                0.0004
+    Primary School:                   0.0004
+    Secondary School:                 0.0004
+    Restaurant:                       0.0004
     Outdoor:                          0.0
-    Car:                              0.0007
-    Public Transport:                 0.0007
-    Shop:                             0.0007
-    Medical:                          0.0007
-    Hospital:                         0.0007
-    Hotel:                            0.0007
-    Place of Worship:                 0.0007
-    Indoor Sport:                     0.0007
-    Cinema or Theatre:                0.0007
-    Museum or Zoo:                    0.0007
+    Car:                              0.0004
+    Public Transport:                 0.0004
+    Shop:                             0.0004
+    Medical:                          0.0004
+    Hospital:                         0.0004
+    Hotel:                            0.0004
+    Place of Worship:                 0.0004
+    Indoor Sport:                     0.0004
+    Cinema or Theatre:                0.0004
+    Museum or Zoo:                    0.0004
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -1599,7 +1599,8 @@ interventions:
     __schedule__:
       23th June 2020: enable
       24th June 2020: {prob_work_from_home: 0.52}
-      1st September 2020: {prob_work_from_home: 0.22}
+      1st July 2020: {prob_work_from_home: 0.38}
+      1st October 2020: {prob_work_from_home: 0.22} #guess
     # Probability to work from home:
     prob_work_from_home: 0.0
     # Location types exempt from working at home restrictions:
