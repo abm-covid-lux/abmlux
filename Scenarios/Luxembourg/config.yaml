@@ -139,12 +139,19 @@ reporters:
     filename: /tmp/quarantine_counts.csv
   csv.TestingEvents:
     filename: /tmp/testing_events.csv
+  csv.ExposureEvents:
+    filename: /tmp/exposure_events.csv
+  csv.ContactCounts:
+    filename: /tmp/average_contact_counts.csv
 #  effective_reproduction_number.EffectiveReproductionNumber:
 #    filename_rescaled_cum_counts: /tmp/rescaled_cum_testing_counts.csv
 #    filename_rt_estimate: /tmp/rt_estimate.csv
 #    state: LU
   csv.SecondaryInfectionCounts:
     filename: /tmp/secondary_infection_counts.csv
+  csv.LocationProfiles:
+    filename: /tmp/location_profiles.csv
+    location_type: House
     #  - location_population_plots.LocationPlots:
 #      dirname: /tmp/plots
 #      types_to_show: []
@@ -223,8 +230,8 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 161080
-  #n: 2000
+  #n: 161080
+  n: 2000
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -854,7 +861,8 @@ disease_model:
   initial_infections: 100
   # How many susceptible people are randomly selected for exposure on midnight each day:
   random_exposures: 0
-
+  # Home activity type, recorded for telemetry purposes
+  home_activity_type: House
   # The health states appearing in this model are as follows:
   health_states: [SUSCEPTIBLE, EXPOSED, ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING, RECOVERED, DEAD]
   # Agents in the follow states are susceptible:
@@ -1388,7 +1396,7 @@ interventions:
     # probability:
     prob_do_recommendation: 1.0
     # Locations except from the contact tracing proceedure are as follows:
-    location_type_blacklist: [Cemetery, Belgium, France, Germany]
+    location_type_blacklist: [Cemetery, Outdoor, Belgium, France, Germany]
 
 
   # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of

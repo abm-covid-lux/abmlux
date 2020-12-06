@@ -43,9 +43,11 @@ class ContactTracingManual(Intervention):
 
         self.activity_manager         = sim.activity_manager
 
-        # Keep state on who has been colocated with whom
+        # Keep state on who has been colocated with whom while peforming relevant activities
         self.contacts_archive         = deque(maxlen=self.tracing_time_window_days)
         self.contacts_archive.appendleft(defaultdict(set))
+        # Keep state on who has been colocated with whom while not peforming relevant activities
+        self.total_contacts_archive   = defaultdict(set)
 
         self.bus = sim.bus # FIXME
         self.sim = sim
@@ -84,34 +86,48 @@ class ContactTracingManual(Intervention):
     def update_contact_lists(self, clock, t):
         """Archive today's contacts and make a new structure to store the coming day's"""
 
+        # Record the distribution of counts to send to telemetry
+        contact_counts = {}
+        total_contact_counts = {}
+        for agent in self.contacts_archive[0]:
+            num_contacts = len(self.contacts_archive[0][agent]) - 1
+            contact_counts[num_contacts] = contact_counts.get(num_contacts, 1) + 1
+        for agent in self.total_contacts_archive:
+            num_total_contacts = len(self.total_contacts_archive[agent]) - 1
+            total_contact_counts[num_total_contacts] = total_contact_counts.get(num_total_contacts, 1) + 1
+        self.telemetry_server.send("contact_data", clock, contact_counts, total_contact_counts)
+
         # Update contact lists
         # print(f"End of day.  {len(self.contacts_archive[0])} people contacted others today")
         self.contacts_archive.appendleft(defaultdict(set))
+        self.total_contacts_archive = defaultdict(set)
         self.daily_notification_count = 0
 
     def handle_location_change(self, agent, old_location):
         """Callback run when an agent is moved within the world."""
 
         # If disabled, stop counting
-        if not self.enabled:
-            return
+#        if not self.enabled:
+#            return
 
         # Don't record colocation in any blacklisted locations
         if agent.current_location.typ in self.location_type_blacklist:
             return
+        
+        total_local_agents = set().union(*self.sim.attendees_by_activity[agent.current_location].values())
 
-        # This agent has to be doing the relevant activity
-        if agent.current_activity not in self.relevant_activities:
+        if len(total_local_agents) <= 1:    # The person counts as an attendee him/her self
             return
 
-        agents_of_interest = [a for a in set().union(*self.sim.attendees[agent.current_location].values())
-                              if a.current_activity in self.relevant_activities]
-        if len(agents_of_interest) <= 1:    # The person counts as an attendee him/her self
-            return
+        local_agents = set().union(*[self.sim.attendees_by_activity[agent.current_location][self.sim.activity_manager.as_int(act)] for act in self.relevant_activities])
 
-        # print(f"Meeting {len(agents_of_interest)} new people!  How exciting.")
-        self.contacts_archive[0][agent].update(agents_of_interest)
+        self.contacts_archive[0][agent].update(local_agents)
+        self.total_contacts_archive[agent].update(total_local_agents)
 
+        for local_agent in total_local_agents:
+            self.total_contacts_archive[local_agent].update([agent])
+            if local_agent in local_agents:
+                self.contacts_archive[0][local_agent].update([agent])
 
 class ContactTracingApp(Intervention):
     """The intervention ContactTracingApp refers to contact tracing perform not manually, but via an
@@ -200,7 +216,7 @@ class ContactTracingApp(Intervention):
             return
 
         # Update today's records with the latest, and store diagnosis keys
-        self._update_contact_list(self.sim.attendees)
+        self._update_contact_list(self.sim.attendees_by_activity)
 
     def _update_contact_list(self, attendees):
         """Keep a record of the agents with the app that colocate with any agents with the app."""

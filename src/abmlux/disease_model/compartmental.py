@@ -3,6 +3,7 @@
 import logging
 import numpy as np
 from tqdm import tqdm
+from collections import defaultdict
 
 from abmlux.disease_model import DiseaseModel
 
@@ -49,6 +50,8 @@ class CompartmentalModel(DiseaseModel):
 
         self.sim   = sim
         self.world = sim.world
+
+        self.home_activity_type = self.sim.activity_manager.as_int(self.config['home_activity_type'])
 
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
@@ -118,6 +121,17 @@ class CompartmentalModel(DiseaseModel):
                 ticks = int(param_time)
             self.ppm_force_updates[ticks] = float(param)
 
+        # Record household composition of each agent, for telemetry
+        self.home_locations = {}
+        age_types = set()
+        for agent in agents:
+            home_location = agent.locations_for_activity(self.home_activity_type)[0]
+            self.home_locations[agent] = home_location
+            age_types.add(agent.agetyp)
+        self.household_profiles = {home: {at: 0 for at in age_types} for home in list(self.home_locations.values())}
+        for agent in agents:
+            self.household_profiles[self.home_locations[agent]][agent.agetyp] += 1
+
     def midnight_updates(self, clock, t):
         """At midnight, parameters are updated and some suceptible agents are randomly exposed"""
 
@@ -143,8 +157,8 @@ class CompartmentalModel(DiseaseModel):
         # Determine which suceptible agents are infected during this tick
         for location in self.sim.locations:
             # Extract the relavent sets of agents from the attendees dict
-            symptomatics_sets  = [self.sim.attendees[location][h] for h in self.symptomatic_states]
-            asymptomatics_sets = [self.sim.attendees[location][h] for h in self.asymptomatic_states]
+            symptomatics_sets  = [self.sim.attendees_by_health[location][h] for h in self.symptomatic_states]
+            asymptomatics_sets = [self.sim.attendees_by_health[location][h] for h in self.asymptomatic_states]
             # Take unions to get sets of symptomatic and asymptomatic agents for this location
             symptomatics  = set().union(*symptomatics_sets)
             asymptomatics = set().union(*asymptomatics_sets)
@@ -154,12 +168,12 @@ class CompartmentalModel(DiseaseModel):
                 p_sym  = self.inf_probs[location.typ]*ppm_modifier[location.typ]
                 p_asym = self.asympt_factor*self.inf_probs[location.typ]*ppm_modifier[location.typ]
                 # Determine which agents are susceptible
-                susceptible_sets = [self.sim.attendees[location][h] for h in self.susceptible_states]
+                susceptible_sets = [self.sim.attendees_by_health[location][h] for h in self.susceptible_states]
                 susceptibles = set().union(*susceptible_sets)
                 # Loop through susceptibles and decide if each one gets infected or not
                 for agent in susceptibles:
                     # Decide if this agent will be infected
-                    sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases...
+                    sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
                     asym_successes = np.random.binomial(len(asymptomatics), p_asym)
                     # If at least one successful transmission then publish the health state change
                     if asym_successes + sym_successes > 0:
@@ -172,9 +186,12 @@ class CompartmentalModel(DiseaseModel):
                             # The case in which it was an asymptomatic
                             agent_responsible = self.prng.random_choice(list(asymptomatics))
                         # Send this information to the telemetry server
+                        home_profile = list(self.household_profiles[self.home_locations[agent]].values())
                         self.telemetry_server.send("new_infection", clock, location.typ,
-                                                location.coord, agent.uuid, agent.age,
-                                                agent_responsible.uuid, agent_responsible.age)
+                                                   location.coord, home_profile, agent.uuid, agent.age,
+                                                   agent.current_activity, agent_responsible.uuid,
+                                                   agent_responsible.age,
+                                                   agent_responsible.current_activity)
 
         # Determine which other agents need moving to their next health state, where duration_ticks
         # is None if agent.health is susceptible, recovered or dead

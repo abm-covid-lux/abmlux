@@ -51,9 +51,11 @@ class Quarantine(Intervention):
         """Record data on number of agents in quarantine and their health status"""
 
         agents_in_quarantine_by_health_state = {str(hs): 0 for hs in self.health_states}
+        total_age = 0
         for agent in self.agents_in_quarantine:
             agents_in_quarantine_by_health_state[str(agent.health)] += 1
-        self.telemetry_server.send("quarantine_data", self.clock, len(self.agents_in_quarantine), agents_in_quarantine_by_health_state)
+            total_age += agent.age
+        self.telemetry_server.send("quarantine_data", self.clock, len(self.agents_in_quarantine), agents_in_quarantine_by_health_state, total_age)
 
     def update_quarantine_status(self, clock, t):
         """Take lists of things to do and apply them."""

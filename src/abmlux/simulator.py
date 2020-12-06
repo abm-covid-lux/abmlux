@@ -55,6 +55,7 @@ class Simulator:
 
         # FIXME: remove the block below if possible
         self.locations     = self.world.locations
+        self.loc_types     = self.world.location_types
         self.agents        = self.world.agents
 
     def _initialise_components(self):
@@ -151,7 +152,7 @@ class Simulator:
         self.telemetry_server.send("location_type_counts.initial", self.run_id, self.created_at, location_type_counts_initial)
 
         # Send initial distribution of agents across activities to telemetry server
-        activity_counts_initial = {str(self.activity_manager.as_str(at)): 0 for at in list(self.activity_manager.map_config.keys())}
+        activity_counts_initial = {str(self.activity_manager.as_str(act)): 0 for act in list(self.activity_manager.map_config.keys())}
         for agent in self.agents:
             activity_counts_initial[str(self.activity_manager.as_str(agent.current_activity))] += 1
         self.telemetry_server.send("activity_counts.initial", self.run_id, self.created_at, activity_counts_initial)
@@ -165,9 +166,11 @@ class Simulator:
         # Simulation state.  These indices represent an optimisation to prevent having to loop
         # over every single agent.
         log.info("Creating agent location indices...")
-        self.attendees = {l: {h: set() for h in self.disease_model.states} for l in self.locations}
+        self.attendees_by_health   = {l: {h: set() for h in self.disease_model.states} for l in self.locations}
+        self.attendees_by_activity = {l: {self.activity_manager.as_int(act): set() for act in list(self.activity_manager.map_config.keys())} for l in self.locations}
         for a in tqdm(self.agents):
-            self.attendees[a.current_location][a.health].add(a)
+            self.attendees_by_health[a.current_location][a.health].add(a)
+            self.attendees_by_activity[a.current_location][a.current_activity].add(a)
 
         update_notifications = []
         for t in self.clock:
@@ -201,6 +204,9 @@ class Simulator:
 
         for agent, updates in self.agent_updates.items():
 
+            self.attendees_by_health[agent.current_location][agent.health].remove(agent)
+            self.attendees_by_activity[agent.current_location][agent.current_activity].remove(agent)
+
             # -------------------------------------------------------------------------------------
 
             if 'activity' in updates:
@@ -210,31 +216,30 @@ class Simulator:
                 update_notifications.append(("notify.agent.activity", agent, old_activity))
                 telemetry_notifications.append(("activity_counts.update", str(self.activity_manager.as_str(agent.current_activity)), str(self.activity_manager.as_str(old_activity))))
 
-            # -------------------------------------------------------------------------------------
-            
-            if 'health' in updates or 'location' in updates:
+            if 'health' in updates:
 
-                self.attendees[agent.current_location][agent.health].remove(agent)
+                old_health = agent.health
+                agent.health = updates['health']
+                update_notifications.append(("notify.agent.health", agent, old_health))
+                telemetry_notifications.append(("health_state_counts.update", str(agent.health), str(old_health)))
 
-                # ---------------------------------------------------------------------------------
+            if 'location' in updates:
 
-                if 'health' in updates:
+                old_location = agent.current_location
+                agent.set_location(updates['location'])
+                update_notifications.append(("notify.agent.location", agent, old_location))
+                telemetry_notifications.append(("location_type_counts.update", str(agent.current_location.typ), str(old_location.typ)))
 
-                    old_health = agent.health
-                    agent.health = updates['health']
-                    update_notifications.append(("notify.agent.health", agent, old_health))
-                    telemetry_notifications.append(("health_state_counts.update", str(agent.health), str(old_health)))
+            # ---------------------------------------------------------------------------------
 
-                if 'location' in updates:
+            self.attendees_by_health[agent.current_location][agent.health].add(agent)
+            self.attendees_by_activity[agent.current_location][agent.current_activity].add(agent)
 
-                    old_location = agent.current_location
-                    agent.set_location(updates['location'])
-                    update_notifications.append(("notify.agent.location", agent, old_location))
-                    telemetry_notifications.append(("location_type_counts.update", str(agent.current_location.typ), str(old_location.typ)))
-
-                # ---------------------------------------------------------------------------------
-
-                self.attendees[agent.current_location][agent.health].add(agent)
+        health_counts_by_location_type = {ltyp: {str(h): 0 for h in self.disease_model.states} for ltyp in self.loc_types()}
+        for location in self.locations:
+            for health in self.disease_model.states:
+                health_counts_by_location_type[location.typ][health] += len(self.attendees_by_health[location][health]) # TODO: update this sensibly
+        self.telemetry_server.send("health_counts_by_location_type", self.clock, health_counts_by_location_type)
 
         self.agent_updates = defaultdict(dict)
         self.telemetry_server.send("world.updates", self.clock, telemetry_notifications)
