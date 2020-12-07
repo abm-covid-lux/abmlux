@@ -40,14 +40,6 @@ class World:
 
         return len(self.locations)
 
-    def location_types(self) -> list:
-        """Return a list of location types in the world"""
-
-        loc_types = []
-        for location in self.locations:
-            loc_types.append(location.typ)
-        return loc_types
-
     def add_agent(self, agent: Agent) -> None:
         """Add an agent to the world.
 

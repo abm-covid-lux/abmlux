@@ -61,7 +61,7 @@ class TUSMarkovActivityModel(ActivityModel):
         Resets the internal counters."""
 
         # These agents are still having activity updates
-        self.active_agents = set(sim.world.agents)
+        self.active_agents = set(sim.world.agents) # TODO: give border country residents a special activity type, else many of them do not commute when they should
 
         log.debug("Seeding initial activity states and locations...")
         clock = sim.clock

@@ -149,9 +149,6 @@ reporters:
 #    state: LU
   csv.SecondaryInfectionCounts:
     filename: /tmp/secondary_infection_counts.csv
-  csv.LocationProfiles:
-    filename: /tmp/location_profiles.csv
-    location_type: House
     #  - location_population_plots.LocationPlots:
 #      dirname: /tmp/plots
 #      types_to_show: []

@@ -39,18 +39,22 @@ class ContactTracingManual(Intervention):
         self.prob_do_recommendation   = self.config['prob_do_recommendation']
         self.location_type_blacklist  = self.config['location_type_blacklist']
 
-        self.daily_notification_count = 0
-
         self.activity_manager         = sim.activity_manager
+        self.bus                      = sim.bus
+        self.sim                      = sim
 
         # Keep state on who has been colocated with whom while peforming relevant activities
-        self.contacts_archive         = deque(maxlen=self.tracing_time_window_days)
-        self.contacts_archive.appendleft(defaultdict(set))
-        # Keep state on who has been colocated with whom while not peforming relevant activities
-        self.total_contacts_archive   = defaultdict(set)
+        self.regular_contacts_archive = deque(maxlen=self.tracing_time_window_days)
+        self.regular_contacts_archive.appendleft(defaultdict(set))
 
-        self.bus = sim.bus # FIXME
-        self.sim = sim
+        # Keep state on who has been colocated with whom regardless of performed activities. Note
+        # that this archive is not used by the intervention. It is recorded only for telemetry
+        # purposes
+        self.total_contacts_archive = defaultdict(set)
+
+        # Keeps track of the number of agents whose contacts are notified, since this should not
+        # exceed the daily capacity of the contact tracing system
+        self.daily_notification_count = 0
 
         # Listen for interesting things
         self.bus.subscribe("notify.agent.location", self.handle_location_change, self)
@@ -75,7 +79,7 @@ class ContactTracingManual(Intervention):
 
         # Look up people from past several days (and today) who this agent has been with
         # and send them a message to get tested and quarantine.
-        for day in self.contacts_archive:
+        for day in self.regular_contacts_archive:
             for other_agent in day[agent]:
                 if self.prng.boolean(self.prob_do_recommendation):
                     self.bus.publish("request.testing.book_test", other_agent)
@@ -86,48 +90,52 @@ class ContactTracingManual(Intervention):
     def update_contact_lists(self, clock, t):
         """Archive today's contacts and make a new structure to store the coming day's"""
 
-        # Record the distribution of counts to send to telemetry
-        contact_counts = {}
+        # Extract from the contacts archives data to send to telemetry
+        regular_contact_counts = {}
+        for agent in self.regular_contacts_archive[0]:
+            num_regular_contacts = len(self.regular_contacts_archive[0][agent]) - 1
+            regular_contact_counts[num_regular_contacts] = regular_contact_counts.get(num_regular_contacts, 1) + 1
         total_contact_counts = {}
-        for agent in self.contacts_archive[0]:
-            num_contacts = len(self.contacts_archive[0][agent]) - 1
-            contact_counts[num_contacts] = contact_counts.get(num_contacts, 1) + 1
         for agent in self.total_contacts_archive:
             num_total_contacts = len(self.total_contacts_archive[agent]) - 1
             total_contact_counts[num_total_contacts] = total_contact_counts.get(num_total_contacts, 1) + 1
-        self.telemetry_server.send("contact_data", clock, contact_counts, total_contact_counts)
+        self.telemetry_server.send("contact_data", clock, regular_contact_counts, total_contact_counts)
 
         # Update contact lists
-        # print(f"End of day.  {len(self.contacts_archive[0])} people contacted others today")
-        self.contacts_archive.appendleft(defaultdict(set))
+        self.regular_contacts_archive.appendleft(defaultdict(set))
         self.total_contacts_archive = defaultdict(set)
         self.daily_notification_count = 0
 
     def handle_location_change(self, agent, old_location):
         """Callback run when an agent is moved within the world."""
 
-        # If disabled, stop counting
-#        if not self.enabled:
-#            return
+        # If disabled, stop this mechanism
+        # if not self.enabled:
+        #    return
 
         # Don't record colocation in any blacklisted locations
         if agent.current_location.typ in self.location_type_blacklist:
             return
         
+        # Collect the set of all agents in the current location
         total_local_agents = set().union(*self.sim.attendees_by_activity[agent.current_location].values())
 
-        if len(total_local_agents) <= 1:    # The person counts as an attendee him/her self
+        # If the agent is the only one present then nothing more needs to be done
+        if len(total_local_agents) <= 1:
             return
 
-        local_agents = set().union(*[self.sim.attendees_by_activity[agent.current_location][self.sim.activity_manager.as_int(act)] for act in self.relevant_activities])
+        # Now collect the subset of all regular agents in the current location
+        regular_local_agents = set().union(*[self.sim.attendees_by_activity[agent.current_location][act] for act in self.relevant_activities])
 
-        self.contacts_archive[0][agent].update(local_agents)
+        # Add the local agents to the contacts archive of the newly arrived agent
+        self.regular_contacts_archive[0][agent].update(regular_local_agents)
         self.total_contacts_archive[agent].update(total_local_agents)
 
+        # Add the newly arrived agent to the contacts archive of the agents already present
         for local_agent in total_local_agents:
             self.total_contacts_archive[local_agent].update([agent])
-            if local_agent in local_agents:
-                self.contacts_archive[0][local_agent].update([agent])
+            if local_agent in regular_local_agents:
+                self.regular_contacts_archive[0][local_agent].update([agent])
 
 class ContactTracingApp(Intervention):
     """The intervention ContactTracingApp refers to contact tracing perform not manually, but via an

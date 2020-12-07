@@ -50,8 +50,7 @@ class CompartmentalModel(DiseaseModel):
 
         self.sim   = sim
         self.world = sim.world
-
-        self.home_activity_type = self.sim.activity_manager.as_int(self.config['home_activity_type'])
+        self.activity_manager = sim.activity_manager
 
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
@@ -121,17 +120,6 @@ class CompartmentalModel(DiseaseModel):
                 ticks = int(param_time)
             self.ppm_force_updates[ticks] = float(param)
 
-        # Record household composition of each agent, for telemetry
-        self.home_locations = {}
-        age_types = set()
-        for agent in agents:
-            home_location = agent.locations_for_activity(self.home_activity_type)[0]
-            self.home_locations[agent] = home_location
-            age_types.add(agent.agetyp)
-        self.household_profiles = {home: {at: 0 for at in age_types} for home in list(self.home_locations.values())}
-        for agent in agents:
-            self.household_profiles[self.home_locations[agent]][agent.agetyp] += 1
-
     def midnight_updates(self, clock, t):
         """At midnight, parameters are updated and some suceptible agents are randomly exposed"""
 
@@ -186,12 +174,11 @@ class CompartmentalModel(DiseaseModel):
                             # The case in which it was an asymptomatic
                             agent_responsible = self.prng.random_choice(list(asymptomatics))
                         # Send this information to the telemetry server
-                        home_profile = list(self.household_profiles[self.home_locations[agent]].values())
                         self.telemetry_server.send("new_infection", clock, location.typ,
-                                                   location.coord, home_profile, agent.uuid, agent.age,
-                                                   agent.current_activity, agent_responsible.uuid,
-                                                   agent_responsible.age,
-                                                   agent_responsible.current_activity)
+                                                   location.coord, agent.uuid, agent.age,
+                                                   self.activity_manager.as_str(agent.current_activity),
+                                                   agent_responsible.uuid, agent_responsible.age,
+                                                   self.activity_manager.as_str(agent_responsible.current_activity))
 
         # Determine which other agents need moving to their next health state, where duration_ticks
         # is None if agent.health is susceptible, recovered or dead

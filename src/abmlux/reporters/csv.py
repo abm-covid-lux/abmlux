@@ -7,6 +7,8 @@ from collections import defaultdict
 
 from abmlux.reporters import Reporter
 
+# TODO: handle >1 sim at the same time using the run_id
+
 class HealthStateCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
@@ -14,23 +16,13 @@ class HealthStateCounts(Reporter):
         super().__init__(host, port)
 
         self.filename = config['filename']
-        self.health_state_counts = {}
-        self.health_states = []
 
-        self.subscribe("health_state_counts.initial", self.start_sim)
-        self.subscribe("world.updates", self.tick_updates)
+        self.subscribe("agents_by_health_state_counts.initial", self.initial_counts)
+        self.subscribe("agents_by_health_state_counts.update", self.update_counts)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, run_id, created_at, health_state_counts_initial):
+    def initial_counts(self, agents_by_health_state_counts):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
-
-        # TODO: handle >1 sim at the same time using the run_id
-
-        for health_state in list(health_state_counts_initial.keys()):
-            self.health_states.append(health_state)
-
-        for health_state in self.health_states:
-            self.health_state_counts[health_state] = health_state_counts_initial[health_state]
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
@@ -38,28 +30,24 @@ class HealthStateCounts(Reporter):
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
+        # Collect initial counts
+        self.health_state_counts = agents_by_health_state_counts
+
         # Write header
         header = ["tick", "iso8601"]
-        header += self.health_states
-
+        header += list(self.health_state_counts.keys())
         self.writer.writerow(header)
 
-    def tick_updates(self, clock, telemetry_notifications):
+    def update_counts(self, clock, agents_by_health_state_counts):
         """Update the CSV, writing a single row for every clock tick"""
-        #if self.writer is None or self.handle is None:
-        #    raise AttributeError("Call to iterate before call to start()")
-
-        health_state_updates = [n for n in telemetry_notifications if n[0] == 'health_state_counts.update']
-        for _, health, old_health in health_state_updates:
-            self.health_state_counts[old_health] -= 1
-            self.health_state_counts[health] += 1
 
         row =  [clock.t, clock.iso8601()]
-        row += [self.health_state_counts[k] for k in self.health_states]
+        row += list(agents_by_health_state_counts.values())
         self.writer.writerow(row)
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
+
         if self.handle is not None:
             self.handle.close()
 
@@ -70,23 +58,13 @@ class ActivityCounts(Reporter):
         super().__init__(host, port)
 
         self.filename = config['filename']
-        self.activity_counts = {}
-        self.activities = []
 
-        self.subscribe("activity_counts.initial", self.start_sim)
-        self.subscribe("world.updates", self.tick_updates)
+        self.subscribe("agents_by_activity_counts.initial", self.initial_counts)
+        self.subscribe("agents_by_activity_counts.update", self.update_counts)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, run_id, created_at, activity_counts_initial):
+    def initial_counts(self, agents_by_activity_counts):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
-
-        # TODO: handle >1 sim at the same time using the run_id
-
-        for activity in list(activity_counts_initial.keys()):
-            self.activities.append(activity)
-
-        for activity in self.activities:
-            self.activity_counts[activity] = activity_counts_initial[activity]
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
@@ -94,28 +72,24 @@ class ActivityCounts(Reporter):
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
+        # Collect initial counts
+        self.activity_counts = agents_by_activity_counts
+
         # Write header
         header = ["tick", "iso8601"]
-        header += self.activities
-
+        header += list(self.activity_counts.keys())
         self.writer.writerow(header)
 
-    def tick_updates(self, clock, telemetry_notifications):
+    def update_counts(self, clock, agents_by_activity_counts):
         """Update the CSV, writing a single row for every clock tick"""
-        #if self.writer is None or self.handle is None:
-        #    raise AttributeError("Call to iterate before call to start()")
-
-        activity_updates = [n for n in telemetry_notifications if n[0] == 'activity_counts.update']
-        for _, current_activity, old_activity in activity_updates:
-            self.activity_counts[old_activity] -= 1
-            self.activity_counts[current_activity] += 1
 
         row =  [clock.t, clock.iso8601()]
-        row += [self.activity_counts[k] for k in self.activities]
+        row += list(agents_by_activity_counts.values())
         self.writer.writerow(row)
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
+
         if self.handle is not None:
             self.handle.close()
 
@@ -126,23 +100,13 @@ class LocationTypeCounts(Reporter):
         super().__init__(host, port)
 
         self.filename = config['filename']
-        self.location_type_counts = {}
-        self.location_types = []
 
-        self.subscribe("location_type_counts.initial", self.start_sim)
-        self.subscribe("world.updates", self.tick_updates)
+        self.subscribe("agents_by_location_type_counts.initial", self.initial_counts)
+        self.subscribe("agents_by_location_type_counts.update", self.update_counts)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, run_id, created_at, location_type_counts_initial):
+    def initial_counts(self, agents_by_location_type_counts):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
-
-        # TODO: handle >1 sim at the same time using the run_id
-
-        for location_type in list(location_type_counts_initial.keys()):
-            self.location_types.append(location_type)
-
-        for location_type in self.location_types:
-            self.location_type_counts[location_type] = location_type_counts_initial[location_type]
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
@@ -150,28 +114,24 @@ class LocationTypeCounts(Reporter):
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
+        # Collect initial counts
+        self.location_type_counts = agents_by_location_type_counts
+
         # Write header
         header = ["tick", "iso8601"]
-        header += self.location_types
-
+        header += list(self.location_type_counts.keys())
         self.writer.writerow(header)
 
-    def tick_updates(self, clock, telemetry_notifications):
+    def update_counts(self, clock, agents_by_location_type_counts):
         """Update the CSV, writing a single row for every clock tick"""
-        #if self.writer is None or self.handle is None:
-        #    raise AttributeError("Call to iterate before call to start()")
-
-        location_type_updates = [n for n in telemetry_notifications if n[0] == 'location_type_counts.update']
-        for _, current_location, old_location in location_type_updates:
-            self.location_type_counts[old_location] -= 1
-            self.location_type_counts[current_location] += 1
 
         row =  [clock.t, clock.iso8601()]
-        row += [self.location_type_counts[k] for k in self.location_types]
+        row += list(agents_by_location_type_counts.values())
         self.writer.writerow(row)
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
+
         if self.handle is not None:
             self.handle.close()
 
@@ -181,21 +141,20 @@ class TestingCounts(Reporter):
     def __init__(self, host, port, config):
         super().__init__(host, port)
 
-        self.tests_performed    = 0
-        self.positive_tests     = 0
-        self.cum_positive_tests = 0
+        self.tests_performed           = 0
+        self.positive_tests            = 0
+        self.cumulative_positive_tests = 0
 
         self.filename = config['filename']
 
         self.subscribe("simulation.start", self.start_sim)
         self.subscribe("notify.testing.result", self.new_test_result)
-        self.subscribe("notify.time.midnight", self.midnight_reset)
+        self.subscribe("notify.time.midnight", self.midnight_update)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, scale_factor):
+    def start_sim(self):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
-        # TODO: handle >1 sim at the same time using the run_id
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
         os.makedirs(dirname, exist_ok=True)
@@ -203,15 +162,15 @@ class TestingCounts(Reporter):
         self.writer = csv.writer(self.handle)
 
         # Write header
-        header = ["tick", "iso8601", "tests performed", "positive tests", "cumulative positive tests"]
-
+        header = ["tick", "iso8601", "tests performed",
+                  "positive tests", "cumulative positive tests"]
         self.writer.writerow(header)
 
-    def midnight_reset(self, clock, t):
+    def midnight_update(self, clock):
         """Save data and reset daily counts"""
 
         row =  [clock.t, clock.iso8601()]
-        row += [self.tests_performed, self.positive_tests, self.cum_positive_tests]
+        row += [self.tests_performed, self.positive_tests, self.cumulative_positive_tests]
         self.writer.writerow(row)
 
         self.tests_performed = 0
@@ -219,64 +178,15 @@ class TestingCounts(Reporter):
 
     def new_test_result(self, clock, test_result, age, uuid, coord, resident):
         """Update the CSV, writing a single row for every clock tick"""
-        #if self.writer is None or self.handle is None:
-        #    raise AttributeError("Call to iterate before call to start()")
 
         self.tests_performed += 1
         if test_result:
             self.positive_tests += 1
-            self.cum_positive_tests += 1
+            self.cumulative_positive_tests += 1
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
-        if self.handle is not None:
-            self.handle.close()
 
-class QuarantineCounts(Reporter):
-    """Reporter that writes to a CSV file as it runs."""
-
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
-
-        self.num_in_quaratine = 0
-        self.positive_tests  = 0
-
-        self.filename = config['filename']
-
-        self.subscribe("health_state_counts.initial", self.start_sim)
-        self.subscribe("quarantine_data", self.new_quarantine_data)
-        self.subscribe("simulation.end", self.stop_sim)
-
-    def start_sim(self, run_id, created_at, health_state_counts_initial):
-        """Called when the simulation starts.  Writes headers and creates the file handle."""
-
-        # TODO: handle >1 sim at the same time using the run_id
-
-        # Check dir exists and open handle
-        dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
-        self.handle = open(self.filename, 'w')
-        self.writer = csv.writer(self.handle)
-
-        # Write header
-        header = ["tick", "iso8601", "agents in quarantine", "average age"]
-        header += list(health_state_counts_initial.keys())
-        self.writer.writerow(header)
-
-    def new_quarantine_data(self, clock, num_in_quaratine, agents_in_quarantine_by_health_state, total_age):
-        """Save data and reset daily counts"""
-
-        if num_in_quaratine == 0:
-            average_age = "N/A"
-        else:
-            average_age = round(total_age/num_in_quaratine, 4)
-
-        row =  [clock.t, clock.iso8601()]
-        row += [num_in_quaratine] + list(agents_in_quarantine_by_health_state.values()) + [average_age]
-        self.writer.writerow(row)
-
-    def stop_sim(self):
-        """Called when the simulation ends.  Closes the file handle."""
         if self.handle is not None:
             self.handle.close()
 
@@ -292,10 +202,9 @@ class TestingEvents(Reporter):
         self.subscribe("notify.testing.result", self.new_test_result)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, scale_factor):
+    def start_sim(self):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
-        # TODO: handle >1 sim at the same time using the run_id
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
         os.makedirs(dirname, exist_ok=True)
@@ -303,19 +212,67 @@ class TestingEvents(Reporter):
         self.writer = csv.writer(self.handle)
 
         # Write header
-        header = ["tick", "iso8601", "date", "test result", "age", "home id", "home coordinates", "resident"]
+        header = ["tick", "iso8601", "date", "test result",
+                  "age", "home id", "home coordinates", "resident"]
         self.writer.writerow(header)
 
     def new_test_result(self, clock, test_result, age, uuid, coord, resident):
         """Update the CSV, writing a single row for every clock tick"""
-        #if self.writer is None or self.handle is None:
-        #    raise AttributeError("Call to iterate before call to start()")
 
-        row = [clock.t, clock.iso8601(), clock.now().date(), test_result, age, uuid, coord, resident]
+        row = [clock.t, clock.iso8601(), clock.now().date(), test_result,
+               age, uuid, coord, resident]
         self.writer.writerow(row)
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
+
+        if self.handle is not None:
+            self.handle.close()
+
+class QuarantineCounts(Reporter):
+    """Reporter that writes to a CSV file as it runs."""
+
+    def __init__(self, host, port, config):
+        super().__init__(host, port)
+
+        self.num_in_quaratine = 0
+        self.positive_tests  = 0
+
+        self.filename = config['filename']
+
+        self.subscribe("agents_by_health_state_counts.initial", self.health_states)
+        self.subscribe("quarantine_data", self.update_quarantine_counts)
+        self.subscribe("simulation.end", self.stop_sim)
+
+    def health_states(self, agents_by_health_state_counts):
+        """Called when the simulation starts.  Writes headers and creates the file handle."""
+
+        # Check dir exists and open handle
+        dirname = os.path.dirname(self.filename)
+        os.makedirs(dirname, exist_ok=True)
+        self.handle = open(self.filename, 'w')
+        self.writer = csv.writer(self.handle)
+
+        # Write header
+        header = ["tick", "date", "agents in quarantine", "average age"]
+        header += list(agents_by_health_state_counts.keys())
+        self.writer.writerow(header)
+
+    def update_quarantine_counts(self, clock, num_in_quaratine, agents_in_quarantine_by_health_state, total_age):
+        """Save data and reset daily counts"""
+
+        if num_in_quaratine == 0:
+            average_age = "N/A"
+        else:
+            average_age = round(total_age/num_in_quaratine, 4)
+
+        row =  [clock.t, clock.now().date()]
+        row += [num_in_quaratine, average_age] + list(agents_in_quarantine_by_health_state.values())
+        self.writer.writerow(row)
+
+    def stop_sim(self):
+        """Called when the simulation ends.  Closes the file handle."""
+
         if self.handle is not None:
             self.handle.close()
 
@@ -327,41 +284,41 @@ class ExposureEvents(Reporter):
 
         self.filename = config['filename']
 
-        self.subscribe("simulation.start", self.start_sim)
+        self.subscribe("agent_data.initial", self.initial_agent_data)
         self.subscribe("new_infection", self.new_infection)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, scale_factor):
+    def initial_agent_data(self, age_types, agent_uuids, profiles_by_agent):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
-        # TODO: handle >1 sim at the same time using the run_id
-        # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
         os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
+        # Record the household composition for each agent
+        self.profiles_by_agent = profiles_by_agent
+
         # Write header
-        header = ["tick", "iso8601", "date", "location type", "location coordinates", 
-                  "agent infected", "age of agent infected", "activity of agent infected" "agent responsible",
-                  "age of agent responsible", "activity of agent responsible", "children in home of agent infected",
-                  "adults in home of agent infected", "retired in home of agent infected"]
+        header = ["tick", "iso8601", "date", "location type", "location coordinates",
+                  "agent infected", "age of agent infected", "activity of agent infected",
+                  "agent responsible", "age of agent responsible", "activity of agent responsible"]
+        header += [str(at) + " in home of agent infected" for at in age_types]
         self.writer.writerow(header)
 
-    def new_infection(self, clock, location_typ, location_coord, home_profile, agent_uuid, agent_age,
+    def new_infection(self, clock, location_typ, location_coord, agent_uuid, agent_age,
                       agent_activity, agent_responsible_uuid, agent_responsible_age,
                       agent_responsible_activity):
         """Update the CSV, writing a single row for every clock tick"""
-        #if self.writer is None or self.handle is None:
-        #    raise AttributeError("Call to iterate before call to start()")
 
         row = [clock.t, clock.iso8601(), clock.now().date(), location_typ, location_coord,
                agent_uuid, agent_age, agent_activity, agent_responsible_uuid, agent_responsible_age,
-               agent_responsible_activity] + home_profile
+               agent_responsible_activity] + list(self.profiles_by_agent[agent_uuid].values())
         self.writer.writerow(row)
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
+
         if self.handle is not None:
             self.handle.close()
 
@@ -373,19 +330,19 @@ class SecondaryInfectionCounts(Reporter):
 
         self.filename = config['filename']
 
-        self.subscribe("agent_uuids", self.init_counts)
+        self.subscribe("agent_data.initial", self.initial_agent_data)
         self.subscribe("new_infection", self.new_infection)
         self.subscribe("simulation.end", self.stop_sim)
 
         self.secondary_infections_by_agent = {}
 
-    def init_counts(self, agent_uuids):
+    def initial_agent_data(self, age_types, agent_uuids, profiles_by_agent):
         """Initialize secondary infection counts"""
 
         for agent_uuid in agent_uuids:
             self.secondary_infections_by_agent[agent_uuid] = 0
 
-    def new_infection(self, clock, location_typ, location_coord, home_profile, agent_uuid, agent_age,
+    def new_infection(self, clock, location_typ, location_coord, agent_uuid, agent_age,
                       agent_activity, agent_responsible_uuid, agent_responsible_age,
                       agent_responsible_activity):
         """Update the secondary infection counts"""
@@ -395,8 +352,6 @@ class SecondaryInfectionCounts(Reporter):
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
 
-        # TODO: handle >1 sim at the same time using the run_id
-        # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
         os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
@@ -430,80 +385,35 @@ class ContactCounts(Reporter):
         self.subscribe("contact_data", self.contact_data)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def start_sim(self, scale_factor):
+    def start_sim(self):
         """Initialize contact counts"""
 
-        # TODO: handle >1 sim at the same time using the run_id
-        # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
         os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
         # Write header
-        header = ["tick", "iso8601", "date", "average contacts", "average close contacts"]
+        header = ["tick", "date", "average total contacts", "average regular contacts"]
         self.writer.writerow(header)
 
-    def contact_data(self, clock, contact_counts, total_contact_counts):
+    def contact_data(self, clock, regular_contact_counts, total_contact_counts):
         """Update the contact counts"""
 
         def average_contacts(counts):
             """Calculate average counts"""
-            total_contacts = 0
-            total_weight = 0
-            for k in counts:
-                total_contacts += k*counts[k]
-                total_weight   += counts[k]
-            return round(total_contacts/total_weight, 4)
+            total_weight   = sum(counts.values())
+            total_contacts = sum([k*counts[k] for k in counts])
+            if total_weight == 0:
+                average = "N/A"
+            else:
+                average = round(total_contacts/total_weight, 4)
+            return average
 
-        average_total_contacts = average_contacts(total_contact_counts)
-        average_close_contacts = average_contacts(contact_counts)
+        average_total_contacts   = average_contacts(total_contact_counts)
+        average_regular_contacts = average_contacts(regular_contact_counts)
 
-        row = [clock.t, clock.iso8601(), clock.now().date(), average_total_contacts, average_close_contacts]
-        self.writer.writerow(row)
-
-    def stop_sim(self):
-        """Called when the simulation ends.  Closes the file handle."""
-
-        if self.handle is not None:
-            self.handle.close()
-
-class LocationProfiles(Reporter):
-    """Reporter that writes to a CSV file as it runs."""
-
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
-
-        self.filename = config['filename']
-        self.health_states = []
-        self.location_of_interest = config['location_type']
-
-        self.subscribe("health_state_counts.initial", self.start_s)
-        self.subscribe("health_counts_by_location_type", self.health_counts_by_location_type)
-        self.subscribe("simulation.end", self.stop_sim)
-
-    def start_s(self, run_id, created_at, health_state_counts_initial):
-        """Called when the simulation starts.  Writes headers and creates the file handle."""
-
-        # TODO: handle >1 sim at the same time using the run_id
-        # Check dir exists and open handle
-        dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
-        self.handle = open(self.filename, 'w')
-        self.writer = csv.writer(self.handle)
-
-        for health_state in list(health_state_counts_initial.keys()):
-            self.health_states.append(health_state)
-
-        # Write header
-        header = ["tick", "iso8601", "date", "location type"]
-        header += self.health_states
-        self.writer.writerow(header)
-
-    def health_counts_by_location_type(self, clock, health_counts_by_location_type):
-        """Update the contact counts"""
-
-        row = [clock.t, clock.iso8601(), clock.now().date(), str(self.location_of_interest)] + list(health_counts_by_location_type[self.location_of_interest].values())
+        row = [clock.t, clock.now().date(), average_total_contacts, average_regular_contacts]
         self.writer.writerow(row)
 
     def stop_sim(self):

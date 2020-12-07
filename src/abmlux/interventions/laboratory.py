@@ -44,6 +44,7 @@ class Laboratory(Intervention):
 
         self.agents = sim.world.agents
         
+        # Collect data on agents for telemetry purposes
         for agent in self.agents:
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
             self.home_locations_dict[agent] = home_location
