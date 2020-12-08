@@ -43,15 +43,13 @@ class SimpleRandomMovementModel(MovementModel):
         """Respond to an activity by sending location change requests."""
 
         # If agent is hospitalised or dead, don't change location in response to new activity
-        if agent.health in self.no_move_states:
-            return MessageBus.CONSUME
-
-        if new_activity == self.public_transport_activity_type:
-            length = min(self.units_available, self.max_units_available)
-            allowable_locations = self.public_transport_units[0:length]
-            self.bus.publish("request.agent.location", agent, \
-            self.prng.random_choice(list(allowable_locations)))
-        else:
-            allowable_locations = agent.locations_for_activity(new_activity)
-            self.bus.publish("request.agent.location", agent, \
-            self.prng.random_choice(list(allowable_locations)))
+        if agent.health not in self.no_move_states:
+            if new_activity == self.public_transport_activity_type:
+                length = min(self.units_available, self.max_units_available)
+                allowable_locations = self.public_transport_units[0:length]
+                self.bus.publish("request.agent.location", agent, \
+                self.prng.random_choice(list(allowable_locations)))
+            else:
+                allowable_locations = agent.locations_for_activity(new_activity)
+                self.bus.publish("request.agent.location", agent, \
+                self.prng.random_choice(list(allowable_locations)))

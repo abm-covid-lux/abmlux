@@ -94,9 +94,6 @@ class Simulator:
         """Record request.agent.location events, placing them on a queue to be enacted
         at the end of the tick."""
 
-        if agent.health in self.movement_model.no_move_states: # TODO: make this work...
-            return MessageBus.CONSUME
-
         self.agent_updates[agent]['location'] = new_location
         return MessageBus.CONSUME
 
