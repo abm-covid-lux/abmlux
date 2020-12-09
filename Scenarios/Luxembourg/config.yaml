@@ -227,8 +227,7 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 161080
-  #n: 2000
+  n: 16108
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -816,39 +815,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.0015
-    Care Home:                        0.0015
-    OW Agriculture:                   0.0015
-    OW Extraction:                    0.0015
-    OW Manufacturing:                 0.0015
-    OW Energy:                        0.0015
-    OW Water:                         0.0015
-    OW Construction:                  0.0015
-    OW Trade:                         0.0015
-    OW Transport:                     0.0015
-    OW Catering and Accommodation:    0.0015
-    OW ICT:                           0.0015
-    OW Finance:                       0.0015
-    OW Real Estate:                   0.0015
-    OW Technical:                     0.0015
-    OW Administration:                0.0015
-    OW Education:                     0.0015
-    OW Entertainment:                 0.0015
-    OW Other Services:                0.0015
-    Primary School:                   0.0015
-    Secondary School:                 0.0015
-    Restaurant:                       0.0015
+    House:                            0.0007
+    Care Home:                        0.0007
+    OW Agriculture:                   0.0007
+    OW Extraction:                    0.0007
+    OW Manufacturing:                 0.0007
+    OW Energy:                        0.0007
+    OW Water:                         0.0007
+    OW Construction:                  0.0007
+    OW Trade:                         0.0007
+    OW Transport:                     0.0007
+    OW Catering and Accommodation:    0.0007
+    OW ICT:                           0.0007
+    OW Finance:                       0.0007
+    OW Real Estate:                   0.0007
+    OW Technical:                     0.0007
+    OW Administration:                0.0007
+    OW Education:                     0.0007
+    OW Entertainment:                 0.0007
+    OW Other Services:                0.0007
+    Primary School:                   0.0007
+    Secondary School:                 0.0007
+    Restaurant:                       0.0007
     Outdoor:                          0.0
-    Car:                              0.0015
-    Public Transport:                 0.0015
-    Shop:                             0.0015
-    Medical:                          0.0015
-    Hospital:                         0.0015
-    Hotel:                            0.0015
-    Place of Worship:                 0.0015
-    Indoor Sport:                     0.0015
-    Cinema or Theatre:                0.0015
-    Museum or Zoo:                    0.0015
+    Car:                              0.0007
+    Public Transport:                 0.0007
+    Shop:                             0.0007
+    Medical:                          0.0007
+    Hospital:                         0.0007
+    Hotel:                            0.0007
+    Place of Worship:                 0.0007
+    Indoor Sport:                     0.0007
+    Cinema or Theatre:                0.0007
+    Museum or Zoo:                    0.0007
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -856,9 +855,9 @@ disease_model:
 
   # How many people are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
-  initial_infections: 100
+  initial_infections: 10
   # How many susceptible people are randomly selected for exposure on midnight each day:
-  random_exposures: 10
+  random_exposures: 0
   # Home activity type, recorded for telemetry purposes
   home_activity_type: House
   # The health states appearing in this model are as follows:
