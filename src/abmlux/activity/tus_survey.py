@@ -22,7 +22,6 @@ import abmlux.utils as utils
 from abmlux.activity import ActivityModel
 from abmlux.sim_time import SimClock
 from abmlux.diary import DiaryDay, DiaryWeek, DayOfWeek
-from abmlux.agent import POPULATION_RANGES
 from abmlux.transition_matrix import SplitTransitionMatrix
 
 # Number of 10min chunks in a day.  Used when parsing the input data at a 10min resolution
@@ -39,6 +38,9 @@ class TUSMarkovActivityModel(ActivityModel):
 
         super().__init__(config, activity_manager)
 
+        btypes = config['behavioural_types']
+        self.age_ranges = {b: range(btypes[b][0], btypes[b][1]) for b in btypes}
+
         # These can be computed ahead of time
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
 
@@ -49,6 +51,12 @@ class TUSMarkovActivityModel(ActivityModel):
         super().init_sim(sim)
 
         self.world = sim.world
+
+        # Set behavioural type for each agent
+        for agent in self.world.agents:
+            for behaviour_type in self.age_ranges:
+                if agent.age in self.age_ranges[behaviour_type]:
+                    agent.set_behaviour_type(behaviour_type)
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
@@ -67,7 +75,7 @@ class TUSMarkovActivityModel(ActivityModel):
         clock = sim.clock
         for agent in self.world.agents:
             # Get distribution for this type at the starting time step
-            distribution = self.activity_distributions[agent.agetyp][clock.epoch_week_offset]
+            distribution = self.activity_distributions[agent.behaviour_type][clock.epoch_week_offset]
             assert sum(distribution.values()) > 0
             new_activity      = self.prng.multinoulli_dict(distribution)
             allowed_locations = agent.locations_for_activity(new_activity)
@@ -99,11 +107,11 @@ class TUSMarkovActivityModel(ActivityModel):
 
         for agent in self.active_agents:
 
-            if self.activity_transitions[agent.agetyp][ticks_through_week] \
+            if self.activity_transitions[agent.behaviour_type][ticks_through_week] \
                .get_no_trans(agent.current_activity):
                 continue
 
-            next_activity = self.activity_transitions[agent.agetyp] \
+            next_activity = self.activity_transitions[agent.behaviour_type] \
                             [ticks_through_week].get_transition(agent.current_activity)
 
             self.bus.publish("request.agent.activity", agent, next_activity)
@@ -257,9 +265,6 @@ class TUSMarkovActivityModel(ActivityModel):
         type.  This describes the initial distribution of actions for every time tick through
         the week, allowing us to start a simulation at any time.
 
-            AgentType.ADULT: [{action: weight, action2: weight2},
-                            {action: weight, action2: weight2}...],
-
         Transitions are then read from the weekly diaries and a transition matrix is built showing
         the probability of transitioning from one activity to the next at each time tick.  This is
         also indexed by agent type.
@@ -278,8 +283,8 @@ class TUSMarkovActivityModel(ActivityModel):
         log.info("Generating activity distributions...")
         activity_distributions = {typ: [{activity: 0 for activity in self.activity_manager.types_as_int()}
                                         for i in range(week_length)]
-                                  for typ in POPULATION_RANGES}
-        for typ, rng in POPULATION_RANGES.items():
+                                  for typ in self.age_ranges}
+        for typ, rng in self.age_ranges.items():
             log.debug(" - %s %s", typ, rng)
             for week in tqdm(weeks):
                 if week.age in rng:
@@ -289,20 +294,18 @@ class TUSMarkovActivityModel(ActivityModel):
         log.info('Generating weighted activity transition matrices...')
         # Activity -> activity transition matrix
         #
-        # AgentType.CHILD: [[[activity, activity], [activity, activity]]]
-        #
         #  - Each activity has a W[next activity]
         #  - Each 10 minute slice has a transition matrix between activities
         #
         activity_transitions = {typ: [SplitTransitionMatrix(self.prng,\
                                                             self.activity_manager.types_as_int())
                                       for _ in range(week_length)]
-                                for typ in POPULATION_RANGES}
+                                for typ in self.age_ranges}
 
         # Do all but the last item, which should loop around
         for t in tqdm(range(week_length)):
             for week in weeks:
-                for typ, rng in POPULATION_RANGES.items():
+                for typ, rng in self.age_ranges.items():
                     if week.age in rng:
 
                         # Wrap around to zero to make the week

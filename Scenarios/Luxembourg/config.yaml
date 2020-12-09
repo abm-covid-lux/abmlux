@@ -275,6 +275,9 @@ world_factory:
     France: [49.357664, 6.166023]
     Germany: [49.756279, 6.643219]
 
+  # Age range of border workers
+  min_age_border_workers: 18
+  max_age_border_workers: 64
 
   # Distribution of non-resident agents by border country.
   border_countries_pop:
@@ -413,6 +416,9 @@ world_factory:
     - [    0,     0,     0,     0,     0,    0,    0,   0]
     - [    0,     0,     0,     0,     0,    0,    0,   0]
 
+  # Age below which an agent is considered a child
+  child_age_limit: 15
+
   # Household distribution of retired:
   household_distribution_retired:
     - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
@@ -423,6 +429,9 @@ world_factory:
     - [    0,     0,     0,     0,     0,    1,    2,   2]
     - [    0,     0,     0,     0,     0,    0,    0,   0]
     - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+  # Age at or above which an agent is considered retired
+  retired_age_limit: 65
 
   # Each carehome will be assigned a number of retired people as residents:
   retired_per_carehome: 143
@@ -473,6 +482,8 @@ world_factory:
 
   # The mobility data used to construct location choice functions:
   location_choice_fp: Scenarios/Luxembourg/Lux Mobil.csv
+  # Resident nationality:
+  resident_nationality: Luxembourg
   # Which activies are assigned locations using a distance distribution, and how many such locations
   # can be visited by each agent:
   activity_locations_by_distance:
@@ -616,6 +627,12 @@ activity_model:
 
   # File containing time use survey data, and see Docs for full format:
   time_use_filepath: Time Use.csv
+
+  # Behavioural types with corresponding age ranges
+  behavioural_types:
+    Child: [0,18]
+    Adult: [18,65]
+    Retired: [65,120]
 
   # TUS data are read at a ten-minute interval.
   #
