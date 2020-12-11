@@ -1,7 +1,8 @@
 """Test the Agent object, which is pretty simple"""
 
 import unittest
-from abmlux.agent import Agent, Location
+from abmlux.agent import Agent
+from abmlux.location import Location
 
 class TestAgent(unittest.TestCase):
     """Test the agent object, which stores agent config"""
