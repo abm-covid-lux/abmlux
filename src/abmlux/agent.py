@@ -20,6 +20,7 @@ class Agent:
         self.age: int              = age
         self.nationality: str      = nationality
         self.behaviour_type: str   = None
+        self.vaccinated: bool      = False
         self.activity_locations: dict[str, list[Location]] = {}
 
         # Current state

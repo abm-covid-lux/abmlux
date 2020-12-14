@@ -160,25 +160,27 @@ class CompartmentalModel(DiseaseModel):
                 susceptibles = set().union(*susceptible_sets)
                 # Loop through susceptibles and decide if each one gets infected or not
                 for agent in susceptibles:
-                    # Decide if this agent will be infected
-                    sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
-                    asym_successes = np.random.binomial(len(asymptomatics), p_asym)
-                    # If at least one successful transmission then publish the health state change
-                    if asym_successes + sym_successes > 0:
-                        self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
-                        # Decide who caused the infection
-                        if self.prng.random_randrange(sym_successes + asym_successes) < sym_successes:
-                            # The case in which it was a symptomatic
-                            agent_responsible = self.prng.random_choice(list(symptomatics))
-                        else:
-                            # The case in which it was an asymptomatic
-                            agent_responsible = self.prng.random_choice(list(asymptomatics))
-                        # Send this information to the telemetry server
-                        self.telemetry_server.send("new_infection", clock, location.typ,
-                                                   location.coord, agent.uuid, agent.age,
-                                                   self.activity_manager.as_str(agent.current_activity),
-                                                   agent_responsible.uuid, agent_responsible.age,
-                                                   self.activity_manager.as_str(agent_responsible.current_activity))
+                    # Check if the agent has been vaccinated
+                    if not agent.vaccinated:
+                        # Decide if this agent will be infected
+                        sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
+                        asym_successes = np.random.binomial(len(asymptomatics), p_asym)
+                        # If at least one successful transmission then publish the health state change
+                        if asym_successes + sym_successes > 0:
+                            self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
+                            # Decide who caused the infection
+                            if self.prng.random_randrange(sym_successes + asym_successes) < sym_successes:
+                                # The case in which it was a symptomatic
+                                agent_responsible = self.prng.random_choice(list(symptomatics))
+                            else:
+                                # The case in which it was an asymptomatic
+                                agent_responsible = self.prng.random_choice(list(asymptomatics))
+                            # Send this information to the telemetry server
+                            self.telemetry_server.send("new_infection", clock, location.typ,
+                                                    location.coord, agent.uuid, agent.age,
+                                                    self.activity_manager.as_str(agent.current_activity),
+                                                    agent_responsible.uuid, agent_responsible.age,
+                                                    self.activity_manager.as_str(agent_responsible.current_activity))
 
         # Determine which other agents need moving to their next health state, where duration_ticks
         # is None if agent.health is susceptible, recovered or dead

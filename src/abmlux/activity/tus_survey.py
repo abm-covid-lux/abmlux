@@ -39,7 +39,9 @@ class TUSMarkovActivityModel(ActivityModel):
         super().__init__(config, activity_manager)
 
         btypes = config['behavioural_types']
+        self.border_worker_routine = config['border_worker_routine']
         self.age_ranges = {b: range(btypes[b][0], btypes[b][1]) for b in btypes}
+        self.border_workers = []
 
         # These can be computed ahead of time
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
@@ -51,6 +53,7 @@ class TUSMarkovActivityModel(ActivityModel):
         super().init_sim(sim)
 
         self.world = sim.world
+        self.border_worker_routine_changes = set()
 
         # Set behavioural type for each agent
         for agent in self.world.agents:
@@ -68,6 +71,14 @@ class TUSMarkovActivityModel(ActivityModel):
 
         Resets the internal counters."""
 
+        for t_now in range(sim.clock.ticks_in_week):
+            if t_now == 0:
+                t_previous = max(range(sim.clock.ticks_in_week))
+            else:
+                t_previous = t_now - 1
+            if self.border_worker_routine[t_now] != self.border_worker_routine[t_previous]:
+                self.border_worker_routine_changes.add(t_now)
+
         # These agents are still having activity updates
         self.active_agents = set(sim.world.agents) # TODO: give border country residents a special activity type, else many of them do not commute when they should
 
@@ -75,12 +86,16 @@ class TUSMarkovActivityModel(ActivityModel):
         clock = sim.clock
         for agent in self.world.agents:
             # Get distribution for this type at the starting time step
-            distribution = self.activity_distributions[agent.behaviour_type][clock.epoch_week_offset]
-            assert sum(distribution.values()) > 0
-            new_activity      = self.prng.multinoulli_dict(distribution)
-            allowed_locations = agent.locations_for_activity(new_activity)
+            if agent.nationality == 'Luxembourg':
+                distribution = self.activity_distributions[agent.behaviour_type][clock.epoch_week_offset]
+                assert sum(distribution.values()) > 0
+                new_activity = self.prng.multinoulli_dict(distribution)
+            else:
+                self.border_workers.append(agent)
+                new_activity = self.border_worker_routine[clock.epoch_week_offset]
+            
             agent.set_activity(new_activity)
-
+            allowed_locations = agent.locations_for_activity(new_activity)
             # TODO: location selection code should be triggered by messaging via the bus,
             #       as it will be in the main sim.
             #
@@ -106,15 +121,18 @@ class TUSMarkovActivityModel(ActivityModel):
         ticks_through_week = clock.ticks_through_week()
 
         for agent in self.active_agents:
+            if agent.nationality == 'Luxembourg':
+                if self.activity_transitions[agent.behaviour_type][ticks_through_week] \
+                .get_no_trans(agent.current_activity):
+                    continue
+                next_activity = self.activity_transitions[agent.behaviour_type] \
+                                [ticks_through_week].get_transition(agent.current_activity)
+                self.bus.publish("request.agent.activity", agent, next_activity)
 
-            if self.activity_transitions[agent.behaviour_type][ticks_through_week] \
-               .get_no_trans(agent.current_activity):
-                continue
-
-            next_activity = self.activity_transitions[agent.behaviour_type] \
-                            [ticks_through_week].get_transition(agent.current_activity)
-
-            self.bus.publish("request.agent.activity", agent, next_activity)
+        if ticks_through_week in self.border_worker_routine_changes:
+            for agent in self.border_workers:
+                next_activity = self.border_worker_routine[ticks_through_week]
+                self.bus.publish("request.agent.activity", agent, next_activity)
 
     def _get_tus_code_mapping(self, map_config):
         """Return a function mapping TUS activity codes onto those used in this model.
