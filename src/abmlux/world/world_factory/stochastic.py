@@ -178,17 +178,20 @@ class StochasticWorldFactory(WorldFactory):
         # ---- Populate Carehomes ----
         log.debug("Populating care homes...")
         # Number of residents per carehome
-        num_retired = self.config['retired_per_carehome']
+        retired_per_carehome = self.config['retired_per_carehome']
         carehomes = copy.copy(world.locations_for_types(carehome_type))
+        total_retired_in_carehomes = retired_per_carehome * len(carehomes)
+        carehome_residents = unassigned_retired[-total_retired_in_carehomes:]
+        del unassigned_retired[-total_retired_in_carehomes:]
         occupancy_carehomes = {}
         for carehome in carehomes:
-            # Take from front of lists
-            carehome_residents = unassigned_retired[0:num_retired]
-            del unassigned_retired[0:num_retired]
-            # Assign agents to carehome
-            occupancy_carehomes[carehome] = carehome_residents
-            for resident in carehome_residents:
-                resident.add_activity_location(self.activity_manager.as_int(home_activity_type), carehome)
+            # Randomly sample from the potential residents
+            residents = self.prng.random_sample(carehome_residents, k = retired_per_carehome)
+            # Assign agents to carehome and remove from list of availables
+            occupancy_carehomes[carehome] = residents
+            for agent in residents:
+                carehome_residents.remove(agent)
+                agent.add_activity_location(self.activity_manager.as_int(home_activity_type), carehome)
 
         # ---- Populate Houses ----
         log.debug("Populating houses...")

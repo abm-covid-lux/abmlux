@@ -417,3 +417,39 @@ class ContactCounts(Reporter):
 
         if self.handle is not None:
             self.handle.close()
+
+class VaccinationEvents(Reporter):
+    """Reporter that writes to a CSV file as it runs."""
+
+    def __init__(self, host, port, config):
+        super().__init__(host, port)
+
+        self.filename = config['filename']
+
+        self.subscribe("agent_data.initial", self.initial_agent_data)
+        self.subscribe("notify.vaccination.first_doses", self.first_doses)
+        self.subscribe("simulation.end", self.stop_sim)
+
+    def initial_agent_data(self, agent_uuids):
+        """Called when the simulation starts.  Writes headers and creates the file handle."""
+
+        dirname = os.path.dirname(self.filename)
+        os.makedirs(dirname, exist_ok=True)
+        self.handle = open(self.filename, 'w')
+        self.writer = csv.writer(self.handle)
+
+        # Write header
+        header = ["tick", "date", "age", "health", "nationality", "home type", "work type"]
+        self.writer.writerow(header)
+
+    def first_doses(self, clock, agent_data):
+        """Update the CSV, writing a single row for every clock tick"""
+
+        for row in agent_data:
+            self.writer.writerow([clock.t, clock.now().date()] + row)
+
+    def stop_sim(self):
+        """Called when the simulation ends.  Closes the file handle."""
+
+        if self.handle is not None:
+            self.handle.close()

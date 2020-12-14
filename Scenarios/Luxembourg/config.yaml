@@ -143,6 +143,8 @@ reporters:
     filename: /tmp/exposure_events.csv
   csv.ContactCounts:
     filename: /tmp/average_contact_counts.csv
+  csv.VaccinationEvents:
+    filename: /tmp/vaccination_events.csv
 #  effective_reproduction_number.EffectiveReproductionNumber:
 #    filename_rescaled_cum_counts: /tmp/rescaled_cum_testing_counts.csv
 #    filename_rt_estimate: /tmp/rt_estimate.csv
@@ -227,7 +229,7 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 161080
+  n: 16108
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -878,7 +880,7 @@ disease_model:
 
   # How many people are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
-  initial_infections: 5
+  initial_infections: 100
   # How many susceptible people are randomly selected for exposure on midnight each day:
   random_exposures: 0
   # Home activity type, recorded for telemetry purposes
@@ -1765,33 +1767,36 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  # # The intervention 'vaccination' refers to vaccination based on a strategy that first prioritizes
-  # # care home residents and workers, then frontline health workers and then the remainder of the
-  # # population according to age, starting with the oldest. In this simple implementation, the
-  # # vaccine causes either total or no immunity with a certain probability, requires two doese, and
-  # # the effect is instantaneous
-  # vaccination:
-  #   __type__: vaccination.Vaccination
-  #   __enabled__: true
-  #   __schedule__:
-  #     1st Janurary 2021: {max_first_doses_per_day: 500}
-  #   # Maximum number of individuals received their first dose of the vaccine each day:
-  #   max_tests_per_day: 0
-  #   # The probability that the vaccine protects an individual against disease. Note that if the
-  #   # probability that the first dose is successful is p_1 and the probability that the second dose
-  #   # is successful is p_2 then the probability that the agent is immunized after the second dose
-  #   # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.                            # second dose for infected?
-  #   prob_first_dose_successful: 0.463
-  #   prob_second_dose_succesful: 0.175
-  #   # Only susceptible agents will be vaccinated:
-  #   susceptible_states: [SUSCEPTIBLE]
-  #   # Minimum age of people receiving the vaccine
-  #   min_age: 16
-  #   # Home activity type:
-  #   home_activity_type: House
-  #   # Work activity type:
-  #   work_activity_type: Work
-  #   # Care home location type:
-  #   care_home_location_type: [Care Home]
-  #   # Hospital location type:
-  #   hospital_location_type: [Hospital]
+  # The intervention 'vaccination' refers to vaccination based on a strategy that first prioritizes
+  # care home residents and workers, then frontline health workers and then the remainder of the
+  # population according to age, starting with the oldest. In this simple implementation, the
+  # vaccine causes either total or no immunity with a certain probability, requires two doses, and
+  # the effect is instantaneous. Also it is assumed that everybody wants to be vaccinated and that
+  # those who have tested positive will not be eligible for vaccination.
+  vaccination:
+    __type__: vaccination.Vaccination
+    __enabled__: true
+    __schedule__:
+      # 1st Janurary 2021: {max_first_doses_per_day: 500}
+      24th February 2020: {max_first_doses_per_day: 5000}
+    # This controls how many first doses are able to be distributed per day. The total number
+    # of doses per day will be this number plus the number of second doses delivered that day.
+    max_first_doses_per_day: 0
+    # The probability that the vaccine protects an individual against disease. Note that if the
+    # probability that the first dose is successful is p_1 and the probability that the second dose
+    # is successful is p_2 then the probability that the agent is immunized after the second dose
+    # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.
+    prob_first_dose_successful: 0.463
+    prob_second_dose_successful: 0.175
+    # Time between first and second doses:
+    time_between_doses_days: 14
+    # Minimum age of people receiving the vaccine
+    min_age: 16
+    # Home activity type:
+    home_activity_type: House
+    # Work activity type:
+    work_activity_type: Work
+    # Care home location type:
+    care_home_location_type: [Care Home]
+    # Hospital location type:
+    hospital_location_type: [Hospital]
