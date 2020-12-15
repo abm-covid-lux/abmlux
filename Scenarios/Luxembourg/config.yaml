@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 223
+random_seed: 171
 
 
 
@@ -77,7 +77,7 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 280
+simulation_length_days: 70 #280
 
 # With syntax being anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
@@ -229,7 +229,7 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 16108
+  n: 161080
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -776,8 +776,9 @@ disease_model:
     # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
     # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
     # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
-    # and even nonmedical or homemade masks.
-    ppm_coeff: 0.7
+    # and even nonmedical or homemade masks. The following is then the probability that the virus
+    # particles, during a tick, pass through a mask:
+    ppm_coeff: 0.3
     # The probability that an agent is engaged in the strategy:
     ppm_force: 0.0
     # Parameter updates
@@ -814,7 +815,7 @@ disease_model:
       Public Transport:               1.0
       Shop:                           1.0
       Medical:                        1.0
-      Hospital:                       1.0
+      Hospital:                       0.0 # Masks are always warn in hospitals, as below
       Hotel:                          1.0
       Place of Worship:               1.0
       Indoor Sport:                   0.2
@@ -840,39 +841,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.00035
-    Care Home:                        0.00035
-    OW Agriculture:                   0.00035
-    OW Extraction:                    0.00035
-    OW Manufacturing:                 0.00035
-    OW Energy:                        0.00035
-    OW Water:                         0.00035
-    OW Construction:                  0.00035
-    OW Trade:                         0.00035
-    OW Transport:                     0.00035
-    OW Catering and Accommodation:    0.00035
-    OW ICT:                           0.00035
-    OW Finance:                       0.00035
-    OW Real Estate:                   0.00035
-    OW Technical:                     0.00035
-    OW Administration:                0.00035
-    OW Education:                     0.00035
-    OW Entertainment:                 0.00035
-    OW Other Services:                0.00035
-    Primary School:                   0.00035
-    Secondary School:                 0.00035
-    Restaurant:                       0.00035
+    House:                            0.00015
+    Care Home:                        0.00015
+    OW Agriculture:                   0.00015
+    OW Extraction:                    0.00015
+    OW Manufacturing:                 0.00015
+    OW Energy:                        0.00015
+    OW Water:                         0.00015
+    OW Construction:                  0.00015
+    OW Trade:                         0.00015
+    OW Transport:                     0.00015
+    OW Catering and Accommodation:    0.00015
+    OW ICT:                           0.00015
+    OW Finance:                       0.00015
+    OW Real Estate:                   0.00015
+    OW Technical:                     0.00015
+    OW Administration:                0.00015
+    OW Education:                     0.00015
+    OW Entertainment:                 0.00015
+    OW Other Services:                0.00015
+    Primary School:                   0.00015
+    Secondary School:                 0.00015
+    Restaurant:                       0.00015
     Outdoor:                          0.0
-    Car:                              0.00035
-    Public Transport:                 0.00035
-    Shop:                             0.00035
-    Medical:                          0.00035
-    Hospital:                         0.00035
-    Hotel:                            0.00035
-    Place of Worship:                 0.00035
-    Indoor Sport:                     0.00035
-    Cinema or Theatre:                0.00035
-    Museum or Zoo:                    0.00035
+    Car:                              0.00015
+    Public Transport:                 0.00015
+    Shop:                             0.00015
+    Medical:                          0.00015
+    Hospital:                         0.0000135 # p*0.09
+    Hotel:                            0.00015
+    Place of Worship:                 0.00015
+    Indoor Sport:                     0.00015
+    Cinema or Theatre:                0.00015
+    Museum or Zoo:                    0.00015
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -1767,36 +1768,36 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  # The intervention 'vaccination' refers to vaccination based on a strategy that first prioritizes
-  # care home residents and workers, then frontline health workers and then the remainder of the
-  # population according to age, starting with the oldest. In this simple implementation, the
-  # vaccine causes either total or no immunity with a certain probability, requires two doses, and
-  # the effect is instantaneous. Also it is assumed that everybody wants to be vaccinated and that
-  # those who have tested positive will not be eligible for vaccination.
-  vaccination:
-    __type__: vaccination.Vaccination
-    __enabled__: true
-    __schedule__:
-      # 1st Janurary 2021: {max_first_doses_per_day: 500}
-      24th February 2020: {max_first_doses_per_day: 5000}
-    # This controls how many first doses are able to be distributed per day. The total number
-    # of doses per day will be this number plus the number of second doses delivered that day.
-    max_first_doses_per_day: 0
-    # The probability that the vaccine protects an individual against disease. Note that if the
-    # probability that the first dose is successful is p_1 and the probability that the second dose
-    # is successful is p_2 then the probability that the agent is immunized after the second dose
-    # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.
-    prob_first_dose_successful: 0.463
-    prob_second_dose_successful: 0.175
-    # Time between first and second doses:
-    time_between_doses_days: 14
-    # Minimum age of people receiving the vaccine
-    min_age: 16
-    # Home activity type:
-    home_activity_type: House
-    # Work activity type:
-    work_activity_type: Work
-    # Care home location type:
-    care_home_location_type: [Care Home]
-    # Hospital location type:
-    hospital_location_type: [Hospital]
+  # # The intervention 'vaccination' refers to vaccination based on a strategy that first prioritizes
+  # # care home residents and workers, then frontline health workers and then the remainder of the
+  # # population according to age, starting with the oldest. In this simple implementation, the
+  # # vaccine causes either total or no immunity with a certain probability, requires two doses, and
+  # # the effect is instantaneous. Also it is assumed that everybody wants to be vaccinated and that
+  # # those who have tested positive will not be eligible for vaccination.
+  # vaccination:
+  #   __type__: vaccination.Vaccination
+  #   __enabled__: true
+  #   __schedule__:
+  #     # 1st Janurary 2021: {max_first_doses_per_day: 500}
+  #     24th February 2020: {max_first_doses_per_day: 5000}
+  #   # This controls how many first doses are able to be distributed per day. The total number
+  #   # of doses per day will be this number plus the number of second doses delivered that day.
+  #   max_first_doses_per_day: 0
+  #   # The probability that the vaccine protects an individual against disease. Note that if the
+  #   # probability that the first dose is successful is p_1 and the probability that the second dose
+  #   # is successful is p_2 then the probability that the agent is immunized after the second dose
+  #   # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.
+  #   prob_first_dose_successful: 0.463
+  #   prob_second_dose_successful: 0.175
+  #   # Time between first and second doses:
+  #   time_between_doses_days: 14
+  #   # Minimum age of people receiving the vaccine
+  #   min_age: 16
+  #   # Home activity type:
+  #   home_activity_type: House
+  #   # Work activity type:
+  #   work_activity_type: Work
+  #   # Care home location type:
+  #   care_home_location_type: [Care Home]
+  #   # Hospital location type:
+  #   hospital_location_type: [Hospital]
