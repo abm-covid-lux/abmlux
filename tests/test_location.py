@@ -1,30 +1,18 @@
-"""Test location storage and coordinate conversion"""
+"""Test the Agent object, which is pretty simple"""
 
 import unittest
-
-from abmlux.location import Location, ETRS89_to_WGS84, WGS84_to_ETRS89
+from abmlux.agent import Agent
+from abmlux.location import Location
 
 class TestLocation(unittest.TestCase):
+    """Test the location object, which stores location config"""
 
-    def test_location_creation(self):
+    def test_distance_euclidean(self):
+        """Test that distance function works correctly"""
 
-        location = Location("LocationType", (10, 10))
+        test_location_1 = Location("Test type", (0,0))
+        test_location_2 = Location("Test type", (3,4))
 
-        assert location.typ == "LocationType"
-        assert location.coord == (10, 10)
-
-    def test_ETRS89_to_WGS84_conversion(self):
-        # Converted using https://tool-online.com/en/coordinate-converter.php
-
-        etrs = (10, 10)
-        expected = (12.993702651189356, -29.08677779676835)
-
-        assert expected == ETRS89_to_WGS84(etrs)
+        assert test_location_1.distance_euclidean(test_location_2) == 5.0
 
 
-    def test_WGS84_to_ETRS89_conversion(self):
-
-        wgs = (10, 10)
-        expected = (-1346008.5785293942, 4321000.0)
-
-        assert expected == WGS84_to_ETRS89(wgs)

@@ -4,7 +4,7 @@ from typing import Union
 
 import abmlux.utils as utils
 from abmlux.world.map import Map
-from abmlux.agent import Agent, AgentType
+from abmlux.agent import Agent
 from abmlux.location import Location
 
 class World:
@@ -18,7 +18,7 @@ class World:
         self.locations: list[Location]  = []
         self.scale_factor: float        = 1
 
-        self.agents_by_type: dict[AgentType, list[Agent]] = {}
+        self.agents_by_nationality: dict[str, list[Agent]] = {}
         self.locations_by_type: dict[str, list[Location]] = {}
 
     def set_scale_factor(self, scale_factor: float) -> None:
@@ -49,10 +49,10 @@ class World:
         self.agents.append(agent)
 
         # Create the list if it ain't there yet.
-        if agent.agetyp not in self.agents_by_type:
-            self.agents_by_type[agent.agetyp] = []
+        if agent.nationality not in self.agents_by_nationality:
+            self.agents_by_nationality[agent.nationality] = []
 
-        self.agents_by_type[agent.agetyp].append(agent)
+        self.agents_by_nationality[agent.nationality].append(agent)
 
     def add_location(self, location: Location) -> None:
         """Add a Location object to the world."""

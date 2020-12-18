@@ -26,8 +26,8 @@ class Hospitalisation(Intervention):
         self.cemeteries = []
         self.hospitals  = []
 
-        self.cemeteries      = sim.world.locations_by_type[self.cemetery_location_type]
-        self.hospitals       = sim.world.locations_by_type[self.hospital_location_type]
+        self.cemeteries = sim.world.locations_by_type[self.cemetery_location_type]
+        self.hospitals  = sim.world.locations_by_type[self.hospital_location_type]
 
         # Respond to requested location changes by moving people home
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
@@ -55,7 +55,7 @@ class Hospitalisation(Intervention):
                 self.bus.publish("request.agent.location", agent, \
                                  self.prng.random_choice(self.hospitals))
 
-        elif agent.health in self.dead_states:
+        if agent.health in self.dead_states:
             if agent.current_location not in self.cemeteries:
                 self.bus.publish("request.agent.location", agent, \
                                  self.prng.random_choice(self.cemeteries))

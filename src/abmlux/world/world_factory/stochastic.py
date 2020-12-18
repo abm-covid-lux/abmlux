@@ -10,7 +10,7 @@ from tqdm import tqdm
 from scipy.spatial import KDTree
 
 from abmlux.random_tools import Random
-from abmlux.agent import Agent, AgentType, POPULATION_RANGES
+from abmlux.agent import Agent
 from abmlux.location import Location, WGS84_to_ETRS89
 from abmlux.world import World
 from abmlux.world.world_factory import WorldFactory
@@ -23,26 +23,27 @@ class StochasticWorldFactory(WorldFactory):
     def __init__(self, _map, activity_manager, config):
         """Create agents and locations according to the population density map given"""
 
-        self.map                = _map
-        self.config             = config
-        self.activity_manager   = activity_manager
-        self.prng               = Random(config['random_seed'])
-        self.location_choice_fp = config['location_choice_fp']
+        self.map                  = _map
+        self.config               = config
+        self.activity_manager     = activity_manager
+        self.prng                 = Random(config['random_seed'])
+        self.location_choice_fp   = config['location_choice_fp']
+        self.resident_nationality = config['resident_nationality']
 
     def get_world(self) -> World:
 
         log.info("Creating world...")
 
         world = World(self.map)
-        self._create_agents(world)
+        self._create_agents(world, self.resident_nationality)
         self._create_locations(world)
 
         log.info("Assigning locations to agents...")
 
         # Assign homes
         # FIXME: remove literals
-        occupancy_houses, occupancy_carehomes, occupancy_border_countries\
-            = self._assign_homes(world, "House", "House", "Care Home")
+        occupancy_houses, occupancy_carehomes, = self._assign_homes(world, "House", "House", "Care Home")
+        occupancy_border_countries = self._create_border_country_populations(world, "House")
         # Assign workplaces
         # FIXME: remove literals
         self._assign_workplaces(world, "Work", occupancy_houses,
@@ -83,10 +84,8 @@ class StochasticWorldFactory(WorldFactory):
 
         log.debug('Initializing locations...')
 
-        location_counts         = self.config['deterministic_location_counts']
-        pop_by_border_countries = self.config['border_countries_pop']
-        border_country_coord    = self.config['border_country_coord']
-        pop_by_age              = self.config['age_distribution']
+        location_counts = self.config['deterministic_location_counts']
+        pop_by_age      = self.config['age_distribution']
 
         # Adjust location counts by the ratio of the simulation size and real population size
         location_counts = {typ: math.ceil((self.config['n'] / sum(pop_by_age)) * location_counts[typ])
@@ -100,14 +99,8 @@ class StochasticWorldFactory(WorldFactory):
                 new_coord = world.map.sample_coord()
                 new_location = Location(ltype, new_coord)
                 world.add_location(new_location)
-        # Create locations of each border country
-        for country in pop_by_border_countries:
-            coord = WGS84_to_ETRS89((border_country_coord[country][0],
-                                    border_country_coord[country][1]))
-            new_country = Location(country, (coord[1], coord[0]))
-            world.add_location(new_country)
 
-    def _create_agents(self, world):
+    def _create_agents(self, world, resident_nationality):
         """Create a number of Agent objects within the world, according to the distributions
         specified in the configuration object provided."""
 
@@ -117,26 +110,11 @@ class StochasticWorldFactory(WorldFactory):
 
         # How many agents per agent type
         world.set_scale_factor(self.config['n'] / sum(pop_by_age))
-        pop_normalised    = [math.ceil(x * world.scale_factor) for x in pop_by_age]
-
-        log.info("Creating %i agents...", sum(pop_normalised))
+        pop_normalised = [math.ceil(x * world.scale_factor) for x in pop_by_age]
+        log.info("Creating %i resident agents...", sum(pop_normalised))
         for age, pop in tqdm(enumerate(pop_normalised)):
             for _ in range(pop):
-                new_agent = Agent(age)
-                world.add_agent(new_agent)
-
-        # Add an appropriate number of cross border workers as adults
-        pop_by_border_country = self.config['border_countries_pop']
-        adult_age_range = POPULATION_RANGES[AgentType.ADULT]
-        total = sum(pop_by_border_country.values()) * world.scale_factor
-        adult_pop_dist = pop_by_age[adult_age_range.start:adult_age_range.stop]
-        log.info("Creating %i cross-border workers...", total)
-        for age, pop in tqdm(enumerate(adult_pop_dist)):
-            # Normalise pop age count
-            pop = math.ceil((total * pop) / sum(adult_pop_dist))
-            for _ in range(pop):
-                # print(f"AGE2: {age+adult_age_range.start} POP: {pop}")
-                new_agent = Agent(age+adult_age_range.start)
+                new_agent = Agent(age, resident_nationality)
                 world.add_agent(new_agent)
 
     def _make_house_profile_dictionary(self):
@@ -181,41 +159,39 @@ class StochasticWorldFactory(WorldFactory):
 
         log.info("Creating and populating homes...")
 
-        unassigned_children = copy.copy(world.agents_by_type[AgentType.CHILD])
-        unassigned_adults   = copy.copy(world.agents_by_type[AgentType.ADULT])
-        unassigned_retired  = copy.copy(world.agents_by_type[AgentType.RETIRED])
+        child_age_limit   = self.config['child_age_limit']
+        retired_age_limit = self.config['retired_age_limit']
+
+        children, adults, retired = [], [], []
+        for agent in world.agents:
+            if agent.age in range(0, child_age_limit):
+                children.append(agent)
+            if agent.age in range(child_age_limit, retired_age_limit):
+                adults.append(agent)
+            if agent.age in range(retired_age_limit, 120):
+                retired.append(agent)
+
+        unassigned_children = copy.copy(children)
+        unassigned_adults   = copy.copy(adults)
+        unassigned_retired  = copy.copy(retired)
 
         # ---- Populate Carehomes ----
         log.debug("Populating care homes...")
         # Number of residents per carehome
-        num_retired = self.config['retired_per_carehome']
+        retired_per_carehome = self.config['retired_per_carehome']
         carehomes = copy.copy(world.locations_for_types(carehome_type))
+        total_retired_in_carehomes = retired_per_carehome * len(carehomes)
+        carehome_residents = unassigned_retired[-total_retired_in_carehomes:]
+        del unassigned_retired[-total_retired_in_carehomes:]
         occupancy_carehomes = {}
         for carehome in carehomes:
-            # Take from front of lists
-            carehome_residents = unassigned_retired[0:num_retired]
-            del unassigned_retired[0:num_retired]
-            # Assign agents to carehome
-            occupancy_carehomes[carehome] = carehome_residents
-            for resident in carehome_residents:
-                resident.add_activity_location(self.activity_manager.as_int(home_activity_type), carehome)
-
-        # ---- Populate Border Countries ----
-        log.debug("Populating border countries...")
-        # Cross border worker populations
-        pop_by_border_country = self.config['border_countries_pop']
-        total_pop_by_age = sum(self.config['age_distribution'])
-        occupancy_border_countries = {}
-        for border_country in pop_by_border_country:
-            # Normalize cross border worker populations
-            bc_n = math.ceil(self.config['n']*pop_by_border_country[border_country]/total_pop_by_age)
-            # Take from front of lists
-            border_country_workers = unassigned_adults[0:bc_n]
-            del unassigned_adults[0:bc_n]
-            country = world.locations_for_types(border_country)[0]
-            occupancy_border_countries[country] = border_country_workers
-            for worker in border_country_workers:
-                worker.add_activity_location(self.activity_manager.as_int(home_activity_type), country)
+            # Randomly sample from the potential residents
+            residents = self.prng.random_sample(carehome_residents, k = retired_per_carehome)
+            # Assign agents to carehome and remove from list of availables
+            occupancy_carehomes[carehome] = residents
+            for agent in residents:
+                carehome_residents.remove(agent)
+                agent.add_activity_location(self.activity_manager.as_int(home_activity_type), carehome)
 
         # ---- Populate Houses ----
         log.debug("Populating houses...")
@@ -244,7 +220,7 @@ class StochasticWorldFactory(WorldFactory):
             for occupant in occupancy_houses[new_house]:
                 occupant.add_activity_location(self.activity_manager.as_int(home_activity_type), new_house)
 
-        return occupancy_houses, occupancy_carehomes, occupancy_border_countries
+        return occupancy_houses, occupancy_carehomes
 
     def _do_activity_from_home(self, occupancy, activity_type):
         """Sets the activity location as the occupancy location, for all agents listed in an
@@ -253,6 +229,35 @@ class StochasticWorldFactory(WorldFactory):
         for location in occupancy:
             for agent in occupancy[location]:
                 agent.add_activity_location(self.activity_manager.as_int(activity_type), location)
+
+    def _create_border_country_populations(self, world, home_activity_type):
+        """Create agents and populate them in the border countries"""
+
+        # Create locations of each border country
+        pop_by_age             = self.config['age_distribution']
+        min_age_border_workers = self.config['min_age_border_workers']
+        max_age_border_workers = self.config['max_age_border_workers']
+        pop_by_border_country  = self.config['border_countries_pop']
+        border_country_coord   = self.config['border_country_coord']
+
+        approx_total = sum(pop_by_border_country.values()) * world.scale_factor
+        log.info("Creating approximately %i cross-border workers...", approx_total)
+        occupancy_border_countries = defaultdict(list)
+        border_worker_age_dist = pop_by_age[min_age_border_workers:max_age_border_workers + 1]
+        for country in pop_by_border_country:
+            coord = WGS84_to_ETRS89((border_country_coord[country][0], border_country_coord[country][1]))
+            country_location = Location(country, (coord[1], coord[0]))
+            world.add_location(country_location)
+            total_pop = pop_by_border_country[country] * world.scale_factor
+            for age, pop in tqdm(enumerate(border_worker_age_dist)):
+                pop = math.ceil(total_pop * (pop / sum(border_worker_age_dist)))
+                for _ in range(pop):
+                    new_agent = Agent(age + min_age_border_workers, country)
+                    world.add_agent(new_agent)
+                    new_agent.add_activity_location(self.activity_manager.as_int(home_activity_type), country_location)
+                    occupancy_border_countries[country_location].append(new_agent)
+
+        return occupancy_border_countries
 
     def _make_distribution(self, motive, country_origin, country_destination, number_of_bins, bin_width):
         """For given country  of origin, country of destination and motive, this creates a probability

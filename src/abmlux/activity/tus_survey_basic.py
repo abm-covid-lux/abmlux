@@ -37,12 +37,15 @@ class TUSBasicActivityModel(ActivityModel):
         # Computed beforehand
         self.age_bracket_length = config['age_bracket_length']
         self.weeks = self._create_weekly_routines()
+        self.border_worker_routine = config['border_worker_routine']
+        self.border_workers = []
 
     def init_sim(self, sim):
         super().init_sim(sim)
 
         self.world = sim.world
         self.routines_by_agent = {}
+        self.border_worker_routine_changes = set()
 
         # Hook into the simulation's messagebus
         self.bus.subscribe("notify.time.tick", self.send_activity_change_events, self)
@@ -68,6 +71,8 @@ class TUSBasicActivityModel(ActivityModel):
             for week in self.weeks:
                 if week.weekly_routine[t_now] != week.weekly_routine[t_previous]:
                     self.weeks_changing_activity[t_now].append(week)
+            if self.border_worker_routine[t_now] != self.border_worker_routine[t_previous]:
+                self.border_worker_routine_changes.add(t_now)
 
         # Assign a routine to each agent, randomly selected from the TUS data
         log.debug("Seeding week rountines and initial activities and locations...")
@@ -76,17 +81,21 @@ class TUSBasicActivityModel(ActivityModel):
         self.agents_by_week = defaultdict(list)
         clock = sim.clock
         for agent in self.world.agents:
-            age_bracket = agent.age//self.age_bracket_length
-            if age_bracket < min_age_bracket:
-                age_bracket_key = min_age_bracket
-            elif age_bracket > max_age_bracket:
-                age_bracket_key = max_age_bracket
+            if agent.nationality == "Luxembourg":
+                age_bracket = agent.age//self.age_bracket_length
+                if age_bracket < min_age_bracket:
+                    age_bracket_key = min_age_bracket
+                elif age_bracket > max_age_bracket:
+                    age_bracket_key = max_age_bracket
+                else:
+                    age_bracket_key = age_bracket
+                week_for_agent = self.prng.multinoulli_dict(weeks_by_age_bracket[age_bracket_key])
+                self.agents_by_week[week_for_agent].append(agent)
+                # Seed initial activity and initial location
+                new_activity = week_for_agent.weekly_routine[clock.epoch_week_offset]
             else:
-                age_bracket_key = age_bracket
-            week_for_agent = self.prng.multinoulli_dict(weeks_by_age_bracket[age_bracket_key])
-            self.agents_by_week[week_for_agent].append(agent)
-            # Seed initial activity and initial location
-            new_activity = week_for_agent.weekly_routine[clock.epoch_week_offset]
+                self.border_workers.append(agent)
+                new_activity = self.border_worker_routine[clock.epoch_week_offset]
             allowed_locations = agent.locations_for_activity(new_activity)
             agent.set_activity(new_activity)
             new_location = self.prng.random_choice(list(allowed_locations))
@@ -103,6 +112,10 @@ class TUSBasicActivityModel(ActivityModel):
         for week in self.weeks_changing_activity[ticks_through_week]:
             next_activity = week.weekly_routine[ticks_through_week]
             for agent in self.agents_by_week[week]:
+                self.bus.publish("request.agent.activity", agent, next_activity)
+        if ticks_through_week in self.border_worker_routine_changes:
+            for agent in self.border_workers:
+                next_activity = self.border_worker_routine[ticks_through_week]
                 self.bus.publish("request.agent.activity", agent, next_activity)
 
     def _get_tus_code_mapping(self, map_config):
