@@ -1673,7 +1673,7 @@ interventions:
     prob_work_from_home: 0.0
     # Location types exempt from working at home restrictions:
     locations:
-      - OW Administration    
+      - OW Administration
     # If an agent requests to move to the location at which they perform the activity 'Work', they
     # are directed to the location at which they perform the activity 'House':
     home_activity_type: House
@@ -1691,7 +1691,7 @@ interventions:
     prob_work_from_home: 0.0
     # Location types exempt from working at home restrictions:
     locations:
-      - OW Education    
+      - OW Education
     # If an agent requests to move to the location at which they perform the activity 'Work', they
     # are directed to the location at which they perform the activity 'House':
     home_activity_type: House
