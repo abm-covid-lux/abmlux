@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 171
+random_seed: 459
 
 
 
@@ -77,12 +77,12 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 70 #280
+simulation_length_days: 280
 
 # With syntax being anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
 # the date at which the simulation starts:
-epoch: 23th February 2020
+epoch: 1st March 2020 #23th February 2020
 
 
 
@@ -841,39 +841,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.00015
-    Care Home:                        0.00015
-    OW Agriculture:                   0.00015
-    OW Extraction:                    0.00015
-    OW Manufacturing:                 0.00015
-    OW Energy:                        0.00015
-    OW Water:                         0.00015
-    OW Construction:                  0.00015
-    OW Trade:                         0.00015
-    OW Transport:                     0.00015
-    OW Catering and Accommodation:    0.00015
-    OW ICT:                           0.00015
-    OW Finance:                       0.00015
-    OW Real Estate:                   0.00015
-    OW Technical:                     0.00015
-    OW Administration:                0.00015
-    OW Education:                     0.00015
-    OW Entertainment:                 0.00015
-    OW Other Services:                0.00015
-    Primary School:                   0.00015
-    Secondary School:                 0.00015
-    Restaurant:                       0.00015
+    House:                            0.0002
+    Care Home:                        0.0002
+    OW Agriculture:                   0.0002
+    OW Extraction:                    0.0002
+    OW Manufacturing:                 0.0002
+    OW Energy:                        0.0002
+    OW Water:                         0.0002
+    OW Construction:                  0.0002
+    OW Trade:                         0.0002
+    OW Transport:                     0.0002
+    OW Catering and Accommodation:    0.0002
+    OW ICT:                           0.0002
+    OW Finance:                       0.0002
+    OW Real Estate:                   0.0002
+    OW Technical:                     0.0002
+    OW Administration:                0.0002
+    OW Education:                     0.0002
+    OW Entertainment:                 0.0002
+    OW Other Services:                0.0002
+    Primary School:                   0.0002
+    Secondary School:                 0.0002
+    Restaurant:                       0.0002
     Outdoor:                          0.0
-    Car:                              0.00015
-    Public Transport:                 0.00015
-    Shop:                             0.00015
-    Medical:                          0.00015
-    Hospital:                         0.0000135 # p*0.09
-    Hotel:                            0.00015
-    Place of Worship:                 0.00015
-    Indoor Sport:                     0.00015
-    Cinema or Theatre:                0.00015
-    Museum or Zoo:                    0.00015
+    Car:                              0.0002
+    Public Transport:                 0.0002
+    Shop:                             0.0002
+    Medical:                          0.0002
+    Hospital:                         0.000018 # p*0.09
+    Hotel:                            0.0002
+    Place of Worship:                 0.0002
+    Indoor Sport:                     0.0002
+    Cinema or Theatre:                0.0002
+    Museum or Zoo:                    0.0002
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
