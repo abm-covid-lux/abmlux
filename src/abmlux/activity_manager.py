@@ -44,11 +44,6 @@ class ActivityManager:
         return list(self.str_to_int.keys())
 
     @functools.lru_cache(maxsize=256)
-    def name(self, activity_type: int) -> str:
-        """Return the string representation of an activity type."""
-        return self.as_str(activity_type)
-
-    @functools.lru_cache(maxsize=256)
     def as_int(self, str_or_int: Union[str, int]) -> int:
         """Given a string or int representation of an activity type,
         return the representation as an integer.

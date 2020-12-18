@@ -288,7 +288,7 @@ class ExposureEvents(Reporter):
         self.subscribe("new_infection", self.new_infection)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def initial_agent_data(self, age_types, agent_uuids, profiles_by_agent):
+    def initial_agent_data(self, agent_uuids):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
         dirname = os.path.dirname(self.filename)
@@ -296,14 +296,10 @@ class ExposureEvents(Reporter):
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
-        # Record the household composition for each agent
-        self.profiles_by_agent = profiles_by_agent
-
         # Write header
         header = ["tick", "iso8601", "date", "location type", "location coordinates",
                   "agent infected", "age of agent infected", "activity of agent infected",
                   "agent responsible", "age of agent responsible", "activity of agent responsible"]
-        header += [str(at) + " in home of agent infected" for at in age_types]
         self.writer.writerow(header)
 
     def new_infection(self, clock, location_typ, location_coord, agent_uuid, agent_age,
@@ -313,7 +309,7 @@ class ExposureEvents(Reporter):
 
         row = [clock.t, clock.iso8601(), clock.now().date(), location_typ, location_coord,
                agent_uuid, agent_age, agent_activity, agent_responsible_uuid, agent_responsible_age,
-               agent_responsible_activity] + list(self.profiles_by_agent[agent_uuid].values())
+               agent_responsible_activity]
         self.writer.writerow(row)
 
     def stop_sim(self):
@@ -336,7 +332,7 @@ class SecondaryInfectionCounts(Reporter):
 
         self.secondary_infections_by_agent = {}
 
-    def initial_agent_data(self, age_types, agent_uuids, profiles_by_agent):
+    def initial_agent_data(self, agent_uuids):
         """Initialize secondary infection counts"""
 
         for agent_uuid in agent_uuids:
@@ -415,6 +411,42 @@ class ContactCounts(Reporter):
 
         row = [clock.t, clock.now().date(), average_total_contacts, average_regular_contacts]
         self.writer.writerow(row)
+
+    def stop_sim(self):
+        """Called when the simulation ends.  Closes the file handle."""
+
+        if self.handle is not None:
+            self.handle.close()
+
+class VaccinationEvents(Reporter):
+    """Reporter that writes to a CSV file as it runs."""
+
+    def __init__(self, host, port, config):
+        super().__init__(host, port)
+
+        self.filename = config['filename']
+
+        self.subscribe("agent_data.initial", self.initial_agent_data)
+        self.subscribe("notify.vaccination.first_doses", self.first_doses)
+        self.subscribe("simulation.end", self.stop_sim)
+
+    def initial_agent_data(self, agent_uuids):
+        """Called when the simulation starts.  Writes headers and creates the file handle."""
+
+        dirname = os.path.dirname(self.filename)
+        os.makedirs(dirname, exist_ok=True)
+        self.handle = open(self.filename, 'w')
+        self.writer = csv.writer(self.handle)
+
+        # Write header
+        header = ["tick", "date", "age", "health", "nationality", "home type", "work type"]
+        self.writer.writerow(header)
+
+    def first_doses(self, clock, agent_data):
+        """Update the CSV, writing a single row for every clock tick"""
+
+        for row in agent_data:
+            self.writer.writerow([clock.t, clock.now().date()] + row)
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""

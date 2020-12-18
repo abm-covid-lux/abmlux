@@ -153,41 +153,8 @@ class Simulator:
 
         # Notify telemetry server of simulation start, send agent ids and initial counts
         self.telemetry_server.send("simulation.start")
-
-        # ------------------------------------------------------------------------------------------
-
-        home_activity_type = self.activity_manager.as_int("House") # TODO: remove string
-
-        # Extract a list of age types (this is for telemetry)
-        age_types_set = set()
-        for agent in self.agents:
-            age_types_set.add(agent.agetyp)
-        age_types = list(age_types_set)
-
-        # Extract a dictionary of where each agent lives (this is for telemetry)
-        home_locations = {}
-        for agent in self.agents:
-            home_location = agent.locations_for_activity(home_activity_type)[0]
-            home_locations[agent] = home_location
-
-        # Determine household composition (this is for telemetry)
-        profiles_by_home = {home: {at: 0 for at in age_types} for home in list(home_locations.values())}
-        for agent in self.agents:
-            profiles_by_home[home_locations[agent]][agent.agetyp] += 1
-        
-        # Associate a household composition to each agent (this is for telemetry)
-        profiles_by_agent = {}
-        for agent in self.agents:
-            profiles_by_agent[agent.uuid] = profiles_by_home[home_locations[agent]]
-
-        # List of agent ids (this is for telemetry)
         agent_uuids = [agent.uuid for agent in self.agents]
-
-        # Send data to telemetry server
-        self.telemetry_server.send("agent_data.initial", age_types, agent_uuids, profiles_by_agent)
-
-        # ------------------------------------------------------------------------------------------
-
+        self.telemetry_server.send("agent_data.initial", agent_uuids)
         self.agents_by_location_type_counts = {lt: sum([len(set().union(*self.attendees_by_health[loc].values())) for loc in self.locations if loc.typ == lt]) for lt in self.location_types}
         self.telemetry_server.send("agents_by_location_type_counts.initial", self.agents_by_location_type_counts)
         self.agents_by_activity_counts      = {act: sum([len(self.attendees_by_activity[loc][self.activity_manager.as_int(act)]) for loc in self.locations]) for act in self.activities}
@@ -248,7 +215,7 @@ class Simulator:
             if 'health' in updates:
 
                 old_health = agent.health
-                agent.health = updates['health']
+                agent.set_health(updates['health'])
                 update_notifications.append(("notify.agent.health", agent, old_health))
 
             if 'location' in updates:
