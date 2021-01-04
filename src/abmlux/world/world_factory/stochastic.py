@@ -140,16 +140,20 @@ class StochasticWorldFactory(WorldFactory):
         # To generate the probabilties, it is assumed that, conditional on the house size being n and
         # the number of retired residents in a house being r, the number of children c follows the
         # distribution given by normalizing the first n-r entries in the n-th column of the matrix
-        # hshld_dst_c.
+        # hshld_dst_c, averaged against the probability obtained by calculating the same quantity
+        # with the roles of children and retired interchanged.
         house_profiles = {}
         for house_size in range(1, max_house_size + 1):
             for num_children in range(house_size + 1):
                 for num_retired in range(house_size + 1 - num_children):
                     num_adult = house_size - num_children - num_retired
-                    weight = sum(tuple(zip(*hshld_dst_c))[house_size][0:house_size + 1 - num_retired])
-                    prob = hshld_dst_c[num_children][house_size]\
-                        * hshld_dst_r[num_retired][house_size] / (total_houses*weight)
-                    house_profiles[(num_children, num_adult, num_retired)] = prob
+                    weight_1 = sum(tuple(zip(*hshld_dst_c))[house_size][0:house_size + 1 - num_retired])
+                    prob_1 = hshld_dst_c[num_children][house_size]\
+                        * hshld_dst_r[num_retired][house_size] / (total_houses*weight_1)
+                    weight_2 = sum(tuple(zip(*hshld_dst_r))[house_size][0:house_size + 1 - num_children])
+                    prob_2 = hshld_dst_r[num_retired][house_size]\
+                        * hshld_dst_c[num_children][house_size] / (total_houses*weight_2)
+                    house_profiles[(num_children, num_adult, num_retired)] = (prob_1 + prob_2)/2
 
         return house_profiles
 
