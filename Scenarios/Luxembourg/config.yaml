@@ -4,7 +4,8 @@
 # Seed for python's PRNG:
 random_seed: 459
 
-
+# The region in question:
+region: Luxembourg
 
 # A list of all location types:
 locations:
@@ -77,7 +78,7 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 280
+simulation_length_days: 140
 
 # With syntax being anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
@@ -1769,36 +1770,45 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  # # The intervention 'vaccination' refers to vaccination based on a strategy that first prioritizes
-  # # care home residents and workers, then frontline health workers and then the remainder of the
-  # # population according to age, starting with the oldest. In this simple implementation, the
-  # # vaccine causes either total or no immunity with a certain probability, requires two doses, and
-  # # the effect is instantaneous. Also it is assumed that everybody wants to be vaccinated and that
-  # # those who have tested positive will not be eligible for vaccination.
-  # vaccination:
-  #   __type__: vaccination.Vaccination
-  #   __enabled__: true
-  #   __schedule__:
-  #     # 1st Janurary 2021: {max_first_doses_per_day: 500}
-  #     24th February 2020: {max_first_doses_per_day: 5000}
-  #   # This controls how many first doses are able to be distributed per day. The total number
-  #   # of doses per day will be this number plus the number of second doses delivered that day.
-  #   max_first_doses_per_day: 0
-  #   # The probability that the vaccine protects an individual against disease. Note that if the
-  #   # probability that the first dose is successful is p_1 and the probability that the second dose
-  #   # is successful is p_2 then the probability that the agent is immunized after the second dose
-  #   # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.
-  #   prob_first_dose_successful: 0.463
-  #   prob_second_dose_successful: 0.175
-  #   # Time between first and second doses:
-  #   time_between_doses_days: 14
-  #   # Minimum age of people receiving the vaccine
-  #   min_age: 16
-  #   # Home activity type:
-  #   home_activity_type: House
-  #   # Work activity type:
-  #   work_activity_type: Work
-  #   # Care home location type:
-  #   care_home_location_type: [Care Home]
-  #   # Hospital location type:
-  #   hospital_location_type: [Hospital]
+  # The intervention 'vaccination_a' refers to vaccination based on a strategy that prioritizes
+  # care home residents and workers, then frontline health workers and then the remainder of the
+  # population according to age, starting with the oldest. In this simple implementation, the
+  # vaccine causes either total or no immunity with a certain probability, requires two doses, and
+  # the effect is instantaneous. Also it is assumed that everybody wants to be vaccinated and that
+  # those who have tested positive will not be eligible for vaccination.
+  vaccination:
+    __type__: vaccination.Vaccination
+    __enabled__: true
+    __schedule__:
+      # 1st Janurary 2021: {max_first_doses_per_day: 500}
+      24th February 2020: {max_first_doses_per_day: 10000}
+    # This controls how many first doses are able to be distributed per day. The total number
+    # of doses per day will be this number plus the number of second doses delivered that day.
+    max_first_doses_per_day: 10000
+    # The probability that the vaccine protects an individual against disease. Note that if the
+    # probability that the first dose is successful is p_1 and the probability that the second dose
+    # is successful is p_2 then the probability that the agent is immunized after the second dose
+    # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.
+    prob_first_dose_successful: 0.463
+    prob_second_dose_successful: 0.175
+    #prob_first_dose_successful: 0.90
+    #prob_second_dose_successful: 0.50
+    # Time between first and second doses:
+    time_between_doses_days: 21
+    # Vaccine hesitancy:
+    age_low: 35
+    age_high: 65
+    prob_low: 0.54
+    prob_med: 0.64
+    prob_high: 0.86
+    # Minimum age of people receiving the vaccine
+    min_age: 16
+    # Home activity type:
+    home_activity_type: House
+    # Work activity type:
+    work_activity_type: Work
+    # Care home location type:
+    care_home_location_type: [Care Home]
+    # Hospital location type:
+    hospital_location_type: [Hospital]
+s
