@@ -159,8 +159,8 @@ class Simulator:
         self.telemetry_server.send("agents_by_location_type_counts.initial", self.agents_by_location_type_counts)
         self.agents_by_activity_counts      = {act: sum([len(self.attendees_by_activity[loc][self.activity_manager.as_int(act)]) for loc in self.locations]) for act in self.activities}
         self.telemetry_server.send("agents_by_activity_counts.initial", self.agents_by_activity_counts)
-        self.agents_by_health_state_counts  = {hs: sum([len(self.attendees_by_health[loc][hs]) for loc in self.locations]) for hs in self.health_states}
-        self.telemetry_server.send("agents_by_health_state_counts.initial", self.agents_by_health_state_counts)
+        self.resident_agents_by_health_state_counts  = {hs: sum([len({a for a in self.attendees_by_health[loc][hs] if a.nationality == "Luxembourg"}) for loc in self.locations]) for hs in self.health_states}
+        self.telemetry_server.send("resident_agents_by_health_state_counts.initial", self.resident_agents_by_health_state_counts)
 
         # Start the main loop
         update_notifications = []
@@ -199,7 +199,8 @@ class Simulator:
 
             self.agents_by_location_type_counts[agent.current_location.typ]                      -= 1
             self.agents_by_activity_counts[self.activity_manager.as_str(agent.current_activity)] -= 1
-            self.agents_by_health_state_counts[agent.health]                                     -= 1
+            if agent.nationality == 'Luxembourg':
+                self.resident_agents_by_health_state_counts[agent.health]                        -= 1
 
             self.attendees_by_health[agent.current_location][agent.health].remove(agent)
             self.attendees_by_activity[agent.current_location][agent.current_activity].remove(agent)
@@ -228,14 +229,15 @@ class Simulator:
 
             self.agents_by_location_type_counts[agent.current_location.typ]                      += 1
             self.agents_by_activity_counts[self.activity_manager.as_str(agent.current_activity)] += 1
-            self.agents_by_health_state_counts[agent.health]                                     += 1
+            if agent.nationality == 'Luxembourg':
+                self.resident_agents_by_health_state_counts[agent.health]                        += 1
 
             self.attendees_by_health[agent.current_location][agent.health].add(agent)
             self.attendees_by_activity[agent.current_location][agent.current_activity].add(agent)
 
         self.telemetry_server.send("agents_by_location_type_counts.update", self.clock, self.agents_by_location_type_counts)
         self.telemetry_server.send("agents_by_activity_counts.update", self.clock, self.agents_by_activity_counts)
-        self.telemetry_server.send("agents_by_health_state_counts.update", self.clock, self.agents_by_health_state_counts)
+        self.telemetry_server.send("resident_agents_by_health_state_counts.update", self.clock, self.resident_agents_by_health_state_counts)
 
         self.agent_updates = defaultdict(dict)
 

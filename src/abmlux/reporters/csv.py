@@ -17,11 +17,11 @@ class HealthStateCounts(Reporter):
 
         self.filename = config['filename']
 
-        self.subscribe("agents_by_health_state_counts.initial", self.initial_counts)
-        self.subscribe("agents_by_health_state_counts.update", self.update_counts)
+        self.subscribe("resident_agents_by_health_state_counts.initial", self.initial_counts)
+        self.subscribe("resident_agents_by_health_state_counts.update", self.update_counts)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def initial_counts(self, agents_by_health_state_counts):
+    def initial_counts(self, resident_agents_by_health_state_counts):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
         # Check dir exists and open handle
@@ -31,18 +31,18 @@ class HealthStateCounts(Reporter):
         self.writer = csv.writer(self.handle)
 
         # Collect initial counts
-        self.health_state_counts = agents_by_health_state_counts
+        self.health_state_counts = resident_agents_by_health_state_counts
 
         # Write header
         header = ["tick", "iso8601"]
         header += list(self.health_state_counts.keys())
         self.writer.writerow(header)
 
-    def update_counts(self, clock, agents_by_health_state_counts):
+    def update_counts(self, clock, resident_agents_by_health_state_counts):
         """Update the CSV, writing a single row for every clock tick"""
 
         row =  [clock.t, clock.iso8601()]
-        row += list(agents_by_health_state_counts.values())
+        row += list(resident_agents_by_health_state_counts.values())
         self.writer.writerow(row)
 
     def stop_sim(self):
@@ -240,11 +240,11 @@ class QuarantineCounts(Reporter):
 
         self.filename = config['filename']
 
-        self.subscribe("agents_by_health_state_counts.initial", self.health_states)
+        self.subscribe("resident_agents_by_health_state_counts.initial", self.health_states)
         self.subscribe("quarantine_data", self.update_quarantine_counts)
         self.subscribe("simulation.end", self.stop_sim)
 
-    def health_states(self, agents_by_health_state_counts):
+    def health_states(self, resident_agents_by_health_state_counts):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
         # Check dir exists and open handle
@@ -255,7 +255,7 @@ class QuarantineCounts(Reporter):
 
         # Write header
         header = ["tick", "date", "agents in quarantine", "average age"]
-        header += list(agents_by_health_state_counts.keys())
+        header += list(resident_agents_by_health_state_counts.keys())
         self.writer.writerow(header)
 
     def update_quarantine_counts(self, clock, num_in_quaratine, agents_in_quarantine_by_health_state, total_age):
