@@ -139,7 +139,14 @@ def main():
         log.info("  PRNG seed: %i", sim_factory.config['random_seed'])
 
         build_model(sim_factory)
-        sim_factory.to_file(SIM_FACTORY_FILENAME)
+
+        # If a second parameter is given, use this for the statefile name
+        if len(sys.argv) > 2:
+            log.info("Writing to state file: %s", sys.argv[2])
+            sim_factory.to_file(sys.argv[2])
+        else:
+            sim_factory.to_file(SIM_FACTORY_FILENAME)
+
 
     # Build list from config
     reporters = build_reporters(sim_factory.config)

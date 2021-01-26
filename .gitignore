@@ -1,3 +1,6 @@
+# Singularity images
+*.sif
+
 # ABM state files
 *.abm
 *.abm.bak

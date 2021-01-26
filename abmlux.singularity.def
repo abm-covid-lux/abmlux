@@ -1,0 +1,48 @@
+BootStrap: library
+From: ubuntu:20.04
+
+
+%setup
+
+    mkdir ${SINGULARITY_ROOTFS}/abmlux
+    cp -R . ${SINGULARITY_ROOTFS}/abmlux/
+
+# Setup code
+%post
+    apt-get -y update
+    apt-get -y install build-essential vim software-properties-common
+    apt-get -y install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl libncurses5-dev libncursesw5-dev xz-utils libffi-dev liblzma-dev openssl git
+
+    # Install pyenv
+    mkdir /pyenv
+    export PYENV_ROOT=/pyenv
+    git clone https://github.com/pyenv/pyenv.git /pyenv
+    export PATH="${PYENV_ROOT}/bin:${PATH}"
+    eval "$(pyenv init -)"
+
+    # configure python environment
+    pyenv install -v 3.9.1
+    pyenv global 3.9.1
+
+    # install dependencies
+    pip install -e /abmlux/
+
+%environment
+    export LC_ALL=C
+
+    export PYENV_ROOT=/pyenv
+    export PATH="${PYENV_ROOT}/bin:${PATH}"
+    eval "$(pyenv init -)"
+    export PYENV_VERSION=3.9.1
+
+%runscript
+
+    cd "$ABMLUX_CONFIG_PATH"
+    abmlux "$ABMLUX_CONFIG_FILENAME" "$ABMLUX_STATEFILENAME"
+
+%labels
+    Author Steve Wattam
+    Version v0.0.1
+
+%help
+    This container bundles abmlux and dependencies for execution in HPC environments
