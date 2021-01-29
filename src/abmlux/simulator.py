@@ -121,8 +121,6 @@ class Simulator:
         """Run the simulation"""
 
         log.info("Simulating outbreak...")
-        log.info( "To get better output, connect to the telemetry endpoint "
-                 f"(host={self.config['telemetry.host']}, port={self.config['telemetry.port']})")
 
         # Set the correct time
         self.clock.reset()
