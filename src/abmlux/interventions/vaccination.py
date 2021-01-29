@@ -57,6 +57,13 @@ class Vaccination(Intervention):
         self.prob_second_dose_successful = self.config['prob_second_dose_successful']
 
         min_age = self.config['min_age']
+
+        age_low  = self.config['age_low']
+        age_high = self.config['age_high']
+
+        prob_low  = self.config['prob_low']
+        prob_med  = self.config['prob_med']
+        prob_high = self.config['prob_high']
         
         # Determine which agents live or work in carehomes and which agents work in hospitals. Note
         # that workplaces are assigned to everybody, so some agents will be assigned hospitals or
@@ -68,12 +75,19 @@ class Vaccination(Intervention):
                 self.home_location_type_dict[agent] = home_location.typ
                 work_location = agent.locations_for_activity(work_activity_type)[0]
                 self.work_location_type_dict[agent] = work_location.typ
-                if home_location.typ in care_home_location_type or work_location.typ in care_home_location_type:
-                    carehome_residents_workers.append(agent)
-                elif work_location.typ in hospital_location_type:
-                    hospital_workers.append(agent)
-                else:
-                    other_agents.append(agent)
+                if agent.age < age_low:
+                    agent_wants_vaccination = self.prng.boolean(prob_low)
+                if agent.age >= age_low and agent.age < age_high:
+                    agent_wants_vaccination = self.prng.boolean(prob_med)
+                if agent.age >= age_high:
+                    agent_wants_vaccination = self.prng.boolean(prob_high)
+                if agent_wants_vaccination:
+                    if home_location.typ in care_home_location_type or work_location.typ in care_home_location_type:
+                        carehome_residents_workers.append(agent)
+                    elif work_location.typ in hospital_location_type:
+                        hospital_workers.append(agent)
+                    else:
+                        other_agents.append(agent)
 
         # Sort the lists of agents by age, with the oldest first
         def return_age(agent):
