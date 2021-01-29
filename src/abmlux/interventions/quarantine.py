@@ -53,7 +53,7 @@ class Quarantine(Intervention):
         num_in_quarantine = len(self.agents_in_quarantine)
         agents_in_quarantine_by_health_state = {str(hs): len([agent for agent in self.agents_in_quarantine if agent.health == hs]) for hs in self.health_states}
         total_age = sum([agent.age for agent in self.agents_in_quarantine])
-        self.telemetry_bus.publish("quarantine_data", self.clock, num_in_quarantine, agents_in_quarantine_by_health_state, total_age)
+        self.report("quarantine_data", self.clock, num_in_quarantine, agents_in_quarantine_by_health_state, total_age)
 
     def update_quarantine_status(self, clock, t):
         """Take lists of things to do and apply them."""

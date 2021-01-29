@@ -64,7 +64,7 @@ class Vaccination(Intervention):
         prob_low  = self.config['prob_low']
         prob_med  = self.config['prob_med']
         prob_high = self.config['prob_high']
-        
+
         # Determine which agents live or work in carehomes and which agents work in hospitals. Note
         # that workplaces are assigned to everybody, so some agents will be assigned hospitals or
         # carehomes as places of work but, due to their routines, will not actually go to work at
@@ -110,7 +110,7 @@ class Vaccination(Intervention):
 
     def administer_second_dose(self, agent):
         """Administers agents with a second dose of the vaccine"""
-        
+
         if self.prng.boolean(self.prob_second_dose_successful):
             agent.vaccinated = True
         # self.bus.publish("notify.vaccination.second_dose", agent)
@@ -140,4 +140,4 @@ class Vaccination(Intervention):
             # For telemetry
             agent_data.append([agent.age, agent.health, agent.nationality, self.home_location_type_dict[agent], self.work_location_type_dict[agent]])
 
-        self.telemetry_bus.publish("notify.vaccination.first_doses", clock, agent_data)
+        self.report("notify.vaccination.first_doses", clock, agent_data)
