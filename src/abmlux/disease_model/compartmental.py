@@ -163,8 +163,8 @@ class CompartmentalModel(DiseaseModel):
                     # Check if the agent has been vaccinated
                     if not agent.vaccinated:
                         # Decide if this agent will be infected
-                        sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
-                        asym_successes = np.random.binomial(len(asymptomatics), p_asym)
+                        sym_successes =  self.prng.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
+                        asym_successes = self.prng.binomial(len(asymptomatics), p_asym)
                         # If at least one successful transmission then publish the health state change
                         if asym_successes + sym_successes > 0:
                             self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])

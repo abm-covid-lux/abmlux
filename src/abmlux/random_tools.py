@@ -1,6 +1,7 @@
 """Wrapper around python's PRNG to ease the process of performing deterministic re-runs"""
 
 import random
+import numpy
 import logging
 import math
 from typing import Sequence, TypeVar, MutableSequence, Any, Optional
@@ -17,6 +18,7 @@ class Random:
 
     def __init__(self, seed=None):
         self.prng = random.Random(seed)
+        self.prng_np = numpy.random.RandomState(seed)
 
     def gammavariate(self, alpha: float, beta: float) -> Probability:
         """Sample gamma distributed random variable with pdf given by
@@ -35,6 +37,10 @@ class Random:
 
         return self.prng.randrange(stop)
 
+    def binomial(self, size: int, prob: float) -> int:
+        """Random binomial function"""
+
+        return self.prng_np.binomial(size, prob)
 
     def random_randrange_interval(self, start: int, stop: int) -> int:
         """Random randrange function"""
