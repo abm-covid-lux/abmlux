@@ -21,7 +21,7 @@ class Component:
         self.registered_variables: set[str] = set()
 
         if "__prng_seed__" in component_config:
-            self.prng = Random(float)
+            self.prng = Random(self.config['__prng_seed__'])
         else:
             self.prng   = Random()
 

@@ -26,7 +26,7 @@ class StochasticWorldFactory(WorldFactory):
         self.map                  = _map
         self.config               = config
         self.activity_manager     = activity_manager
-        self.prng                 = Random(config['random_seed'])
+        self.prng                 = Random(config['__prng_seed__'])
         self.location_choice_fp   = config['location_choice_fp']
         self.resident_nationality = config['resident_nationality']
 
@@ -176,14 +176,17 @@ class StochasticWorldFactory(WorldFactory):
                 retired.append(agent)
 
         unassigned_children = copy.copy(children)
+        self.prng.random_shuffle(unassigned_children)
         unassigned_adults   = copy.copy(adults)
+        self.prng.random_shuffle(unassigned_adults)
         unassigned_retired  = copy.copy(retired)
-
+        
         # ---- Populate Carehomes ----
         log.debug("Populating care homes...")
         # Number of residents per carehome
-        retired_per_carehome = self.config['retired_per_carehome']
         carehomes = copy.copy(world.locations_for_types(carehome_type))
+        retired_per_carehome = min(self.config['retired_per_carehome'],
+                                   max(int(len(unassigned_retired)/len(carehomes)),1))
         total_retired_in_carehomes = retired_per_carehome * len(carehomes)
         carehome_residents = unassigned_retired[-total_retired_in_carehomes:]
         del unassigned_retired[-total_retired_in_carehomes:]
@@ -196,6 +199,7 @@ class StochasticWorldFactory(WorldFactory):
             for agent in residents:
                 carehome_residents.remove(agent)
                 agent.add_activity_location(self.activity_manager.as_int(home_activity_type), carehome)
+        self.prng.random_shuffle(unassigned_retired)
 
         # ---- Populate Houses ----
         log.debug("Populating houses...")
@@ -203,10 +207,6 @@ class StochasticWorldFactory(WorldFactory):
         house_types = self._make_house_profile_dictionary()
         occupancy_houses = {}
         while len(unassigned_children + unassigned_adults + unassigned_retired) > 0:
-            # Create new house and add it to the world
-            house_coord = world.map.sample_coord()
-            new_house = Location(house_location_type, house_coord)
-            world.add_location(new_house)
             # Generate household profile
             household_profile = self.prng.multinoulli_dict(house_types)
             num_children = min(household_profile[0], len(unassigned_children))
@@ -214,15 +214,21 @@ class StochasticWorldFactory(WorldFactory):
             num_retired  = min(household_profile[2], len(unassigned_retired))
             # Take agents from front of lists
             children = unassigned_children[0:num_children]
-            del unassigned_children[0:num_children]
             adults = unassigned_adults[0:num_adults]
-            del unassigned_adults[0:num_adults]
             retired = unassigned_retired[0:num_retired]
-            del unassigned_retired[0:num_retired]
-            # Assign agents to new house
-            occupancy_houses[new_house] = children + adults + retired
-            for occupant in occupancy_houses[new_house]:
-                occupant.add_activity_location(self.activity_manager.as_int(home_activity_type), new_house)
+            # If some agents are found then create a new house
+            if len(children + adults + retired) > 0:
+                del unassigned_children[0:num_children]
+                del unassigned_adults[0:num_adults]
+                del unassigned_retired[0:num_retired]
+                # Create new house and add it to the world
+                house_coord = world.map.sample_coord()
+                new_house = Location(house_location_type, house_coord)
+                world.add_location(new_house)
+                # Assign agents to new house
+                occupancy_houses[new_house] = children + adults + retired
+                for occupant in occupancy_houses[new_house]:
+                    occupant.add_activity_location(self.activity_manager.as_int(home_activity_type), new_house)
 
         return occupancy_houses, occupancy_carehomes
 
@@ -244,22 +250,22 @@ class StochasticWorldFactory(WorldFactory):
         pop_by_border_country  = self.config['border_countries_pop']
         border_country_coord   = self.config['border_country_coord']
 
-        approx_total = sum(pop_by_border_country.values()) * world.scale_factor
-        log.info("Creating approximately %i cross-border workers...", approx_total)
+        total = sum(pop_by_border_country.values()) * world.scale_factor
+        log.info("Creating %i cross-border workers...", total)
         occupancy_border_countries = defaultdict(list)
-        border_worker_age_dist = pop_by_age[min_age_border_workers:max_age_border_workers + 1]
+        border_worker_ages = list(range(min_age_border_workers, max_age_border_workers + 1))
+        border_worker_ages_dist = pop_by_age[min_age_border_workers:max_age_border_workers + 1]
         for country in pop_by_border_country:
             coord = WGS84_to_ETRS89((border_country_coord[country][0], border_country_coord[country][1]))
             country_location = Location(country, (coord[1], coord[0]))
             world.add_location(country_location)
             total_pop = pop_by_border_country[country] * world.scale_factor
-            for age, pop in tqdm(enumerate(border_worker_age_dist)):
-                pop = math.ceil(total_pop * (pop / sum(border_worker_age_dist)))
-                for _ in range(pop):
-                    new_agent = Agent(age + min_age_border_workers, country)
-                    world.add_agent(new_agent)
-                    new_agent.add_activity_location(self.activity_manager.as_int(home_activity_type), country_location)
-                    occupancy_border_countries[country_location].append(new_agent)
+            for _ in range(int(total_pop)):
+                age = self.prng.random_choices(border_worker_ages, border_worker_ages_dist, 1)[0]
+                new_agent = Agent(age, country)
+                world.add_agent(new_agent)
+                new_agent.add_activity_location(self.activity_manager.as_int(home_activity_type), country_location)
+                occupancy_border_countries[country_location].append(new_agent)
 
         return occupancy_border_countries
 
@@ -430,6 +436,9 @@ class StochasticWorldFactory(WorldFactory):
                 dist_m = house.distance_euclidean(location)
                 dist_km = dist_m/1000
                 weights_for_house[location] = self._get_weight(dist_km, dist_dict)
+            if sum(list(weights_for_house.values())) == 0:
+                for h in list(weights_for_house.keys()):
+                    weights_for_house[h] = 1
             for agent in occupancy_houses[house]:
                 # Several houses are then chosen randomly from the sample, according to the weights
                 locs = self.prng.random_choices(list(weights_for_house.keys()),

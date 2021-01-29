@@ -32,7 +32,7 @@ class Hospitalisation(Intervention):
         # Respond to requested location changes by moving people home
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
 
-    def handle_health_change(self, agent, new_health):
+    def handle_health_change(self, agent, old_health):
         """Respond to a change in health status by moving the agent to a hospital.
 
         Respond to a change in health status by moving the agent to a cemetery.
@@ -50,7 +50,7 @@ class Hospitalisation(Intervention):
         # be modified by allowing activity_changes at time t to depend on health_changes at time
         # t and moreover by allowing agents to enter and exit hospital independently of their
         # Markov chain.
-        if new_health in self.hospital_states:
+        if agent.health in self.hospital_states:
             if agent.current_location not in self.hospitals:
                 self.bus.publish("request.agent.location", agent, \
                                  self.prng.random_choice(self.hospitals))
