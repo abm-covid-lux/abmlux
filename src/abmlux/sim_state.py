@@ -77,8 +77,11 @@ class SimulationFactory:
                                   schedule: dict[Union[str, int], str]) -> None:
         self.intervention_schedules[intervention] = schedule
 
-    def new_sim(self):
-        """Return a new simulator based on the config above."""
+    def new_sim(self, telemetry_bus):
+        """Return a new simulator based on the config above.
+
+        Telemetry data will be sent to the telemetry_bus provided (of type MessageBus)
+        """
         # FIXME: this should be runnable multiple times without any impact on the data integrity.
 
         if self.map is None:
@@ -98,7 +101,8 @@ class SimulationFactory:
 
         sim = Simulator(self.config, self.activity_manager, self.clock, self.map,
                         self.world, self.activity_model, self.movement_model,
-                        self.disease_model, self.interventions, self.intervention_schedules)
+                        self.disease_model, self.interventions, self.intervention_schedules,
+                        telemetry_bus)
 
         return sim
 

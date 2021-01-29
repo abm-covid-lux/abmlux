@@ -92,21 +92,21 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['pyzmq',
-                      'tqdm',
-                      'pandas',
-                      'numpy',
-                      'pyYAML',
-                      'psutil',
-                      'scipy',
-                      'pyproj',
-                      'openpyxl',
-                      'dateparser',
-                      'matplotlib',
-                      'opencv-python',
-                      'simplekml',
-                      'pyshp',
-                      'openpyxl'],
+    install_requires=[
+                      'tqdm~=4.56',
+                      'pandas~=1.2',
+                      'numpy~=1.19',
+                      'pyYAML~=5.4',
+                      'psutil~=5.8',
+                      'scipy~=1.6',
+                      'pyproj~=3.0',
+                      'openpyxl~=3.0',
+                      'python-dateutil~=2.8',
+                      'matplotlib~=3.3',
+                      'opencv-python~=4.5',
+                      'simplekml~=1.3',
+                      'pyshp~=2.1'
+                     ],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
@@ -145,8 +145,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'abmlux=abmlux:main',
-            'abmlux-reporter=abmlux:main_reporter'
+            'abmlux=abmlux:main'
         ],
     },
 

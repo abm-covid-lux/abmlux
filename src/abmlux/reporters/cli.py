@@ -9,9 +9,10 @@ from abmlux.reporters import Reporter
 class TimeReporter(Reporter):
     """Uses TQDM to plot a progress bar"""
 
-    def __init__(self, host, port, config):
+    def __init__(self, telemetry_bus, config):
 
-        super().__init__(host, port)
+        super().__init__(telemetry_bus)
+
         self.subscribe('world.time', self.event)
 
         self.tqdm = None
@@ -28,8 +29,8 @@ class TimeReporter(Reporter):
 
 class TickSummaryReporter(Reporter):
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.subscribe('world.updates', self.summarise_tick)
         self.subscribe('simulator.start', self.start_sim)

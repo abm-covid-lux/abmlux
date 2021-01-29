@@ -12,8 +12,8 @@ from abmlux.reporters import Reporter
 class HealthStateCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
