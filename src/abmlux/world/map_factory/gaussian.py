@@ -19,7 +19,7 @@ log = logging.getLogger('gaussian_map_factory')
 class GaussianMapFactory(MapFactory):
     """Returns a square DensityMap with a centered Gaussian concentration of mass"""
 
-    def __init__(self, random_seed, mass, sd_cluster, country_code, width_m):
+    def __init__(self, rand_seed, mass, sd_cluster, country_code, width_m):
 
         """Return a two-dimensional array containing a centered Gaussian population density"""
 
@@ -31,7 +31,7 @@ class GaussianMapFactory(MapFactory):
         log.info("Country with code %s has %ix%im of data", \
                  country_code, self.country_width, self.country_height)
 
-        self.prng = Random(random_seed)
+        self.prng = Random(rand_seed)
 
     def get_map(self) -> DensityMap:
 

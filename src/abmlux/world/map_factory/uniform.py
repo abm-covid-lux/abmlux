@@ -18,7 +18,7 @@ log = logging.getLogger('uniform_map_factory')
 class UniformMapFactory(MapFactory):
     """Uses a uniform rectangular density to return a DensityMap"""
 
-    def __init__(self, random_seed, country_code, width_m, height_m):
+    def __init__(self, rand_seed, country_code, width_m, height_m):
 
         """Return a two-dimensional array containing uniform population density weights"""
 
@@ -28,7 +28,7 @@ class UniformMapFactory(MapFactory):
         log.info("Country with code %s has %ix%im of data", \
                  country_code, self.country_width, self.country_height)
 
-        self.prng = Random(random_seed)
+        self.prng = Random(rand_seed)
 
     def get_map(self) -> DensityMap:
 

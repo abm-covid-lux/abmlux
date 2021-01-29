@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 459
+# random_seed: 377
 
 # The region in question:
 region: Luxembourg
@@ -61,7 +61,7 @@ activities:
   Car: [Car]
   Public Transport: [Public Transport]
   Shop: [Shop]
-  Medical: [Medical]
+  Medical: [Medical, Hospital]
   Place of Worship: [Place of Worship]
   Indoor Sport: [Indoor Sport]
   Cinema or Theatre: [Cinema or Theatre]
@@ -165,8 +165,8 @@ reporters:
 map_factory:
   __type__: jrc.JRCMapFactory
 
-  # Used when resampling the density matrix
-  random_seed: 40
+  # Seed the PRNG, Used when resampling the density matrix
+  __prng_seed__: 111
 
   # Country code to extract from the distribution data
   country_code: LU
@@ -193,7 +193,7 @@ map_factory:
 #   __type__: uniform.UniformMapFactory
 
 #   # Used when resampling the density matrix
-#   random_seed: 40
+#   __prng_seed__: 111
 
 #   # Country code used in logging
 #   country_code: UNI
@@ -205,7 +205,7 @@ map_factory:
 #   __type__: gaussian.GaussianMapFactory
 
 #   # Used when resampling the density matrix
-#   random_seed: 40
+#   __prng_seed__: 111
 #   # Total mass of Gaussian kernel
 #   mass: 100000
 #   # Standard deviation of the Gaussian kernel:
@@ -221,8 +221,8 @@ world_factory:
 
   __type__: stochastic.StochasticWorldFactory
 
-  # Seed the RND, or leave blank for a timer-based seed
-  random_seed: 555
+  # Seed the PRNG
+  __prng_seed__: 111
 
   # The total number of resident agents on the world. If this equals the sum of age_distribution
   # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -230,7 +230,8 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 161080
+  #n: 161080
+  n: 10000
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -569,6 +570,7 @@ world_factory:
 # Configures the movement model used during simulation
 movement_model:
   __type__: simple_random.SimpleRandomMovementModel
+  __prng_seed__: 888
   # A list of all location types:
   location_types:
     - House
@@ -700,7 +702,7 @@ movement_model:
 activity_model:
 
   __type__: tus_survey_basic.TUSBasicActivityModel
-  # TODO: __type__
+  __prng_seed__: 888
 
   # File containing time use survey data, and see Docs for full format:
   time_use_filepath: Time Use.csv
@@ -769,6 +771,7 @@ activity_model:
 disease_model:
 
   __type__: compartmental.CompartmentalModel
+  __prng_seed__: 888
 
   # If the PPM intervention is enabled, these must match for the model to be valid. Avoiding this
   # dependency is a TODO list item! Refers to the 10 minute tick, like transmission prob!
@@ -779,7 +782,8 @@ disease_model:
     # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
     # and even nonmedical or homemade masks. The following is then the probability that the virus
     # particles, during a tick, pass through a mask:
-    ppm_coeff: 0.3
+    #ppm_coeff: 0.3
+    ppm_coeff: 1.0
     # The probability that an agent is engaged in the strategy:
     ppm_force: 0.0
     # Parameter updates
@@ -953,6 +957,7 @@ interventions:
   basic_hospitalisation:
     # This special key defines the class to use.
     __type__: hospitalisation.Hospitalisation
+    __prng_seed__: 999
     # Starting state of the intervention
     __enabled__: true
     # This special key defines when to disable/enable the intervention
@@ -972,6 +977,7 @@ interventions:
   # invitations to test, across the population, according to a certain algorithm.
   large_scale_testing:
     __type__: testing.LargeScaleTesting
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       17th May 2020: enable
@@ -1047,6 +1053,7 @@ interventions:
   # which an agent voluntarily books a test having developed symptoms.
   prescription_testing:
     __type__: testing.PrescriptionTesting
+    __prng_seed__: 999
     __enabled__: true
     __schedule__:
     # The probability that an agent books a test at the moment they develop symptoms. This corresponds
@@ -1063,6 +1070,7 @@ interventions:
   # they request a booking.
   test_booking:
     __type__: laboratory.TestBooking
+    __prng_seed__: 999
     __enabled__: true
     __schedule__:
     # The time taken between the booking of a test and the time at which the test takes place, in the
@@ -1081,6 +1089,7 @@ interventions:
   # virus, then the test returns a negative results, except in the case of a false negative.
   test_lab:
     __type__: laboratory.Laboratory
+    __prng_seed__: 999
     __enabled__: true
     __schedule__:
       24 February 2020: {max_tests_per_day: 2}
@@ -1364,6 +1373,7 @@ interventions:
   # which contacts are considered is specified.
   contact_tracing_app:
     __type__: contact_tracing.ContactTracingApp
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
     # Proportion of population who have the app:
@@ -1403,6 +1413,7 @@ interventions:
   # With a certain probability, agents do not follow this advice and continue as normal.
   contact_tracing_manual:
     __type__: contact_tracing.ContactTracingManual
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       20th April 2020: enable
@@ -1431,6 +1442,7 @@ interventions:
   # quarantines are made by other interventions.
   quarantine_at_home:
     __type__: quarantine.Quarantine
+    __prng_seed__: 999
     __enabled__: true
     __schedule__:
       23rd September 2020: {default_duration_days: 10}
@@ -1459,6 +1471,7 @@ interventions:
 
   location_closure_house:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1475,6 +1488,7 @@ interventions:
 
   location_closure_carehome:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1491,6 +1505,7 @@ interventions:
 
   location_closure_ow_general:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       19th March 2020: enable
@@ -1519,6 +1534,7 @@ interventions:
 
   location_closure_ow_construction:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       19th March 2020: enable
@@ -1537,6 +1553,7 @@ interventions:
 
   location_closure_ow_entertainment:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1553,6 +1570,7 @@ interventions:
 
   location_closure_leisure:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1573,6 +1591,7 @@ interventions:
 
   location_closure_pow:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       14th March 2020: enable
@@ -1589,6 +1608,7 @@ interventions:
 
   location_closure_primary_school:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       16th March 2020: enable
@@ -1607,6 +1627,7 @@ interventions:
 
   location_closure_secondary_school:
     __type__: location_closure.LocationClosures
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       16th March 2020: enable
@@ -1627,6 +1648,7 @@ interventions:
   # The interventions 'work_from_home' direct people to work from home, with a certain probability
   work_from_home_ow_ict_finance:
     __type__: work_from_home.WorkFromHome
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1646,6 +1668,7 @@ interventions:
 
   work_from_home_ow_technical:
     __type__: work_from_home.WorkFromHome
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1664,6 +1687,7 @@ interventions:
 
   work_from_home_ow_administration:
     __type__: work_from_home.WorkFromHome
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1682,6 +1706,7 @@ interventions:
 
   work_from_home_ow_education:
     __type__: work_from_home.WorkFromHome
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1700,6 +1725,7 @@ interventions:
  
   work_from_home_ow_other_activities:
     __type__: work_from_home.WorkFromHome
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1726,6 +1752,7 @@ interventions:
   # The interventions 'curfew' directs people to stay home between certain times.
   curfew:
     __type__: curfew.Curfew
+    __prng_seed__: 999
     __enabled__: false
     __schedule__:
       26th October 2020: enable
@@ -1778,13 +1805,13 @@ interventions:
   # those who have tested positive will not be eligible for vaccination.
   vaccination:
     __type__: vaccination.Vaccination
+    __prng_seed__: 999
     __enabled__: true
     __schedule__:
-      # 1st Janurary 2021: {max_first_doses_per_day: 500}
-      24th February 2020: {max_first_doses_per_day: 10000}
+      1st January 2021: {max_first_doses_per_day: 500}
     # This controls how many first doses are able to be distributed per day. The total number
     # of doses per day will be this number plus the number of second doses delivered that day.
-    max_first_doses_per_day: 10000
+    max_first_doses_per_day: 500
     # The probability that the vaccine protects an individual against disease. Note that if the
     # probability that the first dose is successful is p_1 and the probability that the second dose
     # is successful is p_2 then the probability that the agent is immunized after the second dose

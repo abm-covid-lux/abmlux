@@ -136,7 +136,6 @@ def main():
         log.info("  Activity Model: %s", sim_factory.activity_model)
         log.info("  Map: %s", sim_factory.map)
         log.info("  World: %s", sim_factory.world)
-        log.info("  PRNG seed: %i", sim_factory.config['random_seed'])
 
         build_model(sim_factory)
         sim_factory.to_file(SIM_FACTORY_FILENAME)
