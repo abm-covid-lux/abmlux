@@ -9,7 +9,6 @@ from random import Random
 
 from tqdm import tqdm
 
-from abmlux.telemetry import TelemetryServer
 from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
 from abmlux.agent import Agent
@@ -27,9 +26,10 @@ class Simulator:
 
     def __init__(self, config, activity_manager, clock, _map, \
                  world_model, activity_model, movement_model, \
-                 disease_model, interventions, intervention_schedules):
+                 disease_model, interventions, intervention_schedules, \
+                 telemetry_bus):
 
-        self.telemetry_server = TelemetryServer(config['telemetry.host'], config['telemetry.port'])
+        self.telemetry_bus = telemetry_bus
 
         # Static info
         self.abmlux_version = VERSION
@@ -64,11 +64,11 @@ class Simulator:
         and the state of the world."""
 
         # Configure reporting
-        self.activity_model.set_telemetry_server(self.telemetry_server)
-        self.movement_model.set_telemetry_server(self.telemetry_server)
-        self.disease_model.set_telemetry_server(self.telemetry_server)
+        self.activity_model.set_telemetry_bus(self.telemetry_bus)
+        self.movement_model.set_telemetry_bus(self.telemetry_bus)
+        self.disease_model.set_telemetry_bus(self.telemetry_bus)
         for name, intervention in self.interventions.items():
-            intervention.set_telemetry_server(self.telemetry_server)
+            intervention.set_telemetry_bus(self.telemetry_bus)
 
         # Here we assume that components are going to hook onto the messagebus.
         # We start with the activity model
@@ -129,7 +129,7 @@ class Simulator:
         current_day = self.clock.now().day
 
         self._initialise_components()
-        self.telemetry_server.send("simulation.start", self.run_id, self.created_at, \
+        self.telemetry_bus.publish("simulation.start", self.run_id, self.created_at, \
                                    self.clock, self.world, self.disease_model.states)
         self.bus.publish("notify.time.start_simulation", self)
 
@@ -149,7 +149,7 @@ class Simulator:
 
         update_notifications = []
         for t in self.clock:
-            self.telemetry_server.send("world.time", self.clock)
+            self.telemetry_bus.publish("world.time", self.clock)
 
             # Enable/disable interventions
             self.scheduler.tick(t)
@@ -167,7 +167,7 @@ class Simulator:
             # - 3 - Actually enact changes in an atomic manner
             update_notifications = self._update_agents()
 
-        self.telemetry_server.send("simulation.end")
+        self.telemetry_bus.publish("simulation.end")
         self.bus.publish("notify.time.end_simulation", self)
 
     def _update_agents(self):
@@ -214,5 +214,5 @@ class Simulator:
                 update_notifications.append(("notify.agent.location", agent, old_location))
 
         self.agent_updates = defaultdict(dict)
-        self.telemetry_server.send("world.updates", self.clock, update_notifications)
+        self.telemetry_bus.publish("world.updates", self.clock, update_notifications)
         return update_notifications

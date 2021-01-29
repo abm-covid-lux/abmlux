@@ -92,7 +92,7 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['pyzmq',
+    install_requires=[
                       'tqdm',
                       'pandas',
                       'numpy',
@@ -101,7 +101,7 @@ setup(
                       'scipy',
                       'pyproj',
                       'openpyxl',
-                      'dateparser',
+                      'python-dateutil',
                       'matplotlib',
                       'opencv-python',
                       'simplekml',

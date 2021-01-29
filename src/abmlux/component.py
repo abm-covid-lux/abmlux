@@ -6,7 +6,7 @@ from typing import Optional, Callable
 
 from abmlux.random_tools import Random
 from abmlux.config import Config
-from abmlux.telemetry import TelemetryServer
+from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("component")
 
@@ -17,7 +17,7 @@ class Component:
     def __init__(self, component_config: Config):
 
         self.config = component_config
-        self.telemetry_server: Optional[TelemetryServer] = None
+        self.telemetry_bus: Optional[MessageBus] = None
         self.registered_variables: set[str] = set()
 
         if "__prng_seed__" in component_config:
@@ -47,14 +47,14 @@ class Component:
         else:
             raise AttributeError(f"Attempt to set variable {variable_name} but it does not exist.")
 
-    def set_telemetry_server(self, telemetry_server: Optional[TelemetryServer]) -> None:
-        self.telemetry_server = telemetry_server
+    def set_telemetry_bus(self, telemetry_bus: Optional[MessageBus]) -> None:
+        self.telemetry_bus = telemetry_bus
 
     def report(self, topic, payload):
-        if self.telemetry_server is None:
+        if self.telemetry_bus is None:
             return
 
-        self.telemetry_server.send(topic, payload)
+        self.telemetry_bus.publish(topic, payload)
 
     def init_sim(self, sim) -> None:
         """Complete initialisation of this object with the full state of a ready-to-go simulation.

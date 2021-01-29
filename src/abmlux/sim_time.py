@@ -7,7 +7,7 @@ from collections import defaultdict
 from datetime import datetime,timedelta
 from typing import Union
 
-import dateparser
+from dateutil.parser import parse
 
 from abmlux.messagebus import MessageBus
 
@@ -42,7 +42,7 @@ class SimClock:
             raise ValueError("Tick length must be divisible by week length")
 
         if isinstance(epoch, str):
-            parsed_epoch = dateparser.parse(epoch)
+            parsed_epoch = parse(epoch)
             if parsed_epoch is None:
                 raise ValueError(f"Failed to parse epoch: {epoch}")
             self.epoch = parsed_epoch
@@ -175,7 +175,7 @@ class SimClock:
         dateutils.parser
         """
         if isinstance(time, str):
-            parsed_time = dateparser.parse(time)
+            parsed_time = parse(time)
             if parsed_time is None:
                 raise ValueError(f"Unable to parse time: {time}")
             time = parsed_time

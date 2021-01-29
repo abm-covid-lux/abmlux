@@ -8,7 +8,6 @@ import logging.config
 import traceback
 import argparse
 
-from abmlux.reporters import kill_on_zmq_event
 from abmlux.movement_model.simple_random import SimpleRandomMovementModel
 from abmlux.random_tools import Random
 from abmlux.utils import instantiate_class, remove_dunder_keys
@@ -17,7 +16,6 @@ from abmlux.sim_state import SimulationFactory
 from abmlux.simulator import Simulator
 from abmlux.disease_model.compartmental import CompartmentalModel
 from abmlux.activity.tus_survey import TUSMarkovActivityModel
-from abmlux.telemetry import TelemetryClient
 
 import abmlux.tools as tools
 
@@ -94,14 +92,14 @@ def build_model(sim_factory):
 
 
 
-def build_reporters(config):
+def build_reporters(telemetry_bus, config):
 
     reporters = []
     for reporter_class, reporter_config in config['reporters'].items():
         log.info(f"Creating reporter '{reporter_class}'...")
 
-        rep = instantiate_class("abmlux.reporters", reporter_class, config['telemetry.host'],
-                                config['telemetry.port'], Config(_dict=reporter_config))
+        rep = instantiate_class("abmlux.reporters", reporter_class, telemetry_bus,
+                                Config(_dict=reporter_config))
         reporters.append(rep)
 
     return reporters
@@ -149,77 +147,11 @@ def main():
 
 
     # Build list from config
-    reporters = build_reporters(sim_factory.config)
-
-    log.info("Starting %s reporters...", len(reporters))
-    for reporter in reporters:
-        reporter.start()
+    telemetry_bus = MessageBus()
+    reporters = build_reporters(telemetry_bus, sim_factory.config)
 
     # ############## Run ##############
-    sim = sim_factory.new_sim()
+    sim = sim_factory.new_sim(telemetry_bus)
     sim.run()
 
-    log.info("Requesting that reporters finish...")
-    for reporter in reporters:
-        reporter.stop()
-
-    # Wait for all reporters to complete
-    log.info("Waiting for reporters to finish...")
-    for reporter in reporters:
-        # TODO: timeout to report how many are left
-        reporter.join()
     log.info("Simulation Finished successfully.")
-
-
-
-def main_reporter():
-    """Listen to the Telemetry and dump to the terminal"""
-
-
-    parser = argparse.ArgumentParser(description='Run the ABMLUX reporter modules')
-    parser.add_argument("-t", "-host", dest='host', action="store", type=str, default="127.0.0.1",
-                        help="Hostname of the telemetry endpoint")
-    parser.add_argument("-p", "-port", dest='port', action="store", type=int, default=4567,
-                        help="Port of the telemetry endpoint")
-    parser.add_argument("-c", "-config", dest='config', action="store", type=str, default=None,
-                        help="Filename of config file to configure reporters")
-    parser.add_argument("-q", "-quit", dest='quit', action="store_true", default=False,
-                        help="Quit at the end of the next simulation.")
-    parser.add_argument("reporter", nargs="+", help="Reporter(s) to run.")
-
-    args = parser.parse_args()
-
-    # Load config if specified
-    if args.config is None:
-        config = Config(_dict={})
-    else:
-        config = Config(args.config)
-
-    reporters = []
-    for reporter_class in args.reporter:
-        print(f"Creating reporter '{reporter_class}'...")
-
-        if 'reporters' in config and reporter_class in config['reporters']:
-            reporter_config = Config(_dict=config['reporters'][reporter_class])
-        else:
-            reporter_config = Config(_dict={})
-
-        rep = instantiate_class("abmlux.reporters", reporter_class, args.host, args.port,
-                                reporter_config)
-        reporters.append(rep)
-
-    print(f"Starting {len(reporters)} reporters...")
-    for reporter in reporters:
-        reporter.start()
-    print("Done")
-
-    print("Waiting for reporters to finish up.  Now is a good time to start your simulator.")
-
-    if args.quit:
-        print(f"Will kill all reporters at the end of the simulation")
-        kill_on_zmq_event(args.host, args.port, 'simulation.end', reporters)
-
-    # Wait for all to complete
-    for reporter in reporters:
-        reporter.join()
-    print("Done.  Have a nice day!")
