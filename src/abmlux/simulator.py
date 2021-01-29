@@ -124,19 +124,27 @@ class Simulator:
         log.info( "To get better output, connect to the telemetry endpoint "
                  f"(host={self.config['telemetry.host']}, port={self.config['telemetry.port']})")
 
-        # Initialize interventions here?
+        # Set the correct time
         self.clock.reset()
         current_day = self.clock.now().day
 
+        # Initialise components, such as disease model, movement model, interventions etc
         self._initialise_components()
         self.telemetry_bus.publish("simulation.start", self.run_id, self.created_at, \
                                    self.clock, self.world, self.disease_model.states)
+
+        # Notify message bus of simulation start
         self.bus.publish("notify.time.start_simulation", self)
 
-        # Simulation state.  These indices represent an optimisation to prevent having to loop
-        # over every single agent.
+        # List of location types, activites and health states
+        self.location_types = self.movement_model.location_types
+        self.activities     = list(self.activity_manager.map_config.keys())
+        self.health_states  = self.disease_model.states
+
+        # Partition attendees according to health and activity, respectively, for optimization
         log.info("Creating agent location indices...")
-        self.attendees                     = {l: set() for l in self.locations}
+        self.attendees_by_health   = {l: {h: set() for h in self.disease_model.states} for l in self.locations}
+        self.attendees_by_activity = {l: {self.activity_manager.as_int(act): set() for act in self.activities} for l in self.locations}
         for a in tqdm(self.agents):
             self.attendees_by_health[a.current_location][a.health].add(a)
             self.attendees_by_activity[a.current_location][a.current_activity].add(a)
@@ -157,23 +165,26 @@ class Simulator:
         update_notifications = []
         for t in self.clock:
             self.telemetry_bus.publish("world.time", self.clock)
-
-            # Enable/disable interventions
+            # Enable/disable or update interventions
             self.scheduler.tick(t)
 
-            # Send out notifications of what has changed since last tick
+            # Notify the message bus of update notifications occuring since the last tick
             for topic, *params in update_notifications:
                 self.bus.publish(topic, *params)
 
-            # Send tick event --- things respond to this with intents
+            # Notify the message bus and telemetry server of the current time
             self.bus.publish("notify.time.tick", self.clock, t)
+
+            # If a new day has started, notify the message bus and telemetry server
             if current_day != self.clock.now().day:
                 current_day = self.clock.now().day
                 self.bus.publish("notify.time.midnight", self.clock, t)
+                self.telemetry_bus.publish("notify.time.midnight", self.clock)
 
-            # - 3 - Actually enact changes in an atomic manner
+            # Actually enact changes in an atomic manner
             update_notifications = self._update_agents()
 
+        # Notify the message bus and telemetry bus that the simulation has ended
         self.telemetry_bus.publish("simulation.end")
         self.bus.publish("notify.time.end_simulation", self)
 

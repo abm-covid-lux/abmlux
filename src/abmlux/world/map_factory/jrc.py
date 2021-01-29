@@ -51,7 +51,7 @@ class JRCMapFactory(MapFactory):
         self.jrc = jrc
 
 
-        self.prng                  = Random(config['random_seed'])
+        self.prng                  = Random(config['__prng_seed__'])
         self.res_fact              = config['res_fact']
         self.normalize             = config['normalize_interpolation']
         self.shapefilename         = config['shapefilename']
@@ -82,4 +82,5 @@ class JRCMapFactory(MapFactory):
         # Return the density, with linear interpolation or not
         if self.res_fact is not None:
             return country.resample(self.res_fact, self.normalize)
+
         return country
