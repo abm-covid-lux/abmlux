@@ -140,4 +140,4 @@ class Vaccination(Intervention):
             # For telemetry
             agent_data.append([agent.age, agent.health, agent.nationality, self.home_location_type_dict[agent], self.work_location_type_dict[agent]])
 
-        self.telemetry_server.send("notify.vaccination.first_doses", clock, agent_data)
+        self.telemetry_bus.publish("notify.vaccination.first_doses", clock, agent_data)

@@ -176,7 +176,7 @@ class CompartmentalModel(DiseaseModel):
                                 # The case in which it was an asymptomatic
                                 agent_responsible = self.prng.random_choice(list(asymptomatics))
                             # Send this information to the telemetry server
-                            self.telemetry_server.send("new_infection", clock, location.typ,
+                            self.telemetry_bus.publish("new_infection", clock, location.typ,
                                                     location.coord, agent.uuid, agent.age,
                                                     self.activity_manager.as_str(agent.current_activity),
                                                     agent_responsible.uuid, agent_responsible.age,

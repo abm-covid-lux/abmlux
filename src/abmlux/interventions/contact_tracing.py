@@ -99,7 +99,7 @@ class ContactTracingManual(Intervention):
         for agent in self.total_contacts_archive:
             num_total_contacts = len(self.total_contacts_archive[agent]) - 1
             total_contact_counts[num_total_contacts] = total_contact_counts.get(num_total_contacts, 1) + 1
-        self.telemetry_server.send("contact_data", clock, regular_contact_counts, total_contact_counts)
+        self.telemetry_bus.publish("contact_data", clock, regular_contact_counts, total_contact_counts)
 
         # Update contact lists
         self.regular_contacts_archive.appendleft(defaultdict(set))
