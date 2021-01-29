@@ -10,45 +10,23 @@ from abmlux.location import Location
 
 log = logging.getLogger("agent")
 
-class AgentType(IntEnum):
-    """Represents a type for each agent."""
-
-    CHILD   = 0
-    ADULT   = 1
-    RETIRED = 2
-
-# TODO: de-duplicate
-POPULATION_RANGES = {
-        AgentType.CHILD:    range(0, 18),   # Children <18
-        AgentType.ADULT:    range(18, 65),  # Adults 18-65
-        AgentType.RETIRED:  range(65, 120)  # Retired >65
-    }
-
 class Agent:
     """Represents a single agent within the simulation"""
 
-    def __init__(self, age: int, current_location: Union[None, Location]=None):
+    def __init__(self, age: int, nationality: str, current_location: Union[None, Location]=None):
         # TODO: documentation of argument meaning
 
-        self.uuid               = uuid.uuid4().hex
-        self.agetyp: AgentType  = Agent.agent_type_by_age(age)
-        self.age: int           = age
+        self.uuid                  = uuid.uuid4().hex
+        self.age: int              = age
+        self.nationality: str      = nationality
+        self.behaviour_type: str   = None
+        self.vaccinated: bool      = False
         self.activity_locations: dict[str, list[Location]] = {}
 
         # Current state
         self.current_activity: Optional[str]       = None
         self.current_location: Optional[Location]  = current_location
         self.health: Optional[str]                 = None
-
-    @staticmethod
-    def agent_type_by_age(age: int) -> AgentType:
-        """Given an age, return the type."""
-
-        for agetyp, rng in POPULATION_RANGES.items():
-            if rng.start <= age < rng.stop:
-                return agetyp
-
-        raise ValueError(f"No agent type mapping for age {age}")
 
     def locations_for_activity(self, activity: str) -> list[Location]:
         """Return a list of locations this agent can go to for
@@ -78,6 +56,18 @@ class Agent:
             location_list = [location]
 
         self.activity_locations[activity] += location_list
+
+    def set_behaviour_type(self, behaviour_type: str) -> None:
+        """Sets the agent as having the given behaviour type"""
+
+        log.debug("Agent %s: Behaviour type %s -> %s", self.uuid, self.behaviour_type, behaviour_type)
+        self.behaviour_type = behaviour_type
+
+    def set_health(self, health: str) -> None:
+        """Sets the agent as having the given health state"""
+
+        log.debug("Agent %s: Health %s -> %s", self.uuid, self.health, health)
+        self.health = health
 
     def set_activity(self, activity: str) -> None:
         """Sets the agent as performing the activity given"""

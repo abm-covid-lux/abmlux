@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 112
+random_seed: 459
 
 
 
@@ -82,7 +82,7 @@ simulation_length_days: 280
 # With syntax being anything accepted by Dateparser:
 # https://dateparser.readthedocs.io/en/latest/
 # the date at which the simulation starts:
-epoch: 23th February 2020
+epoch: 1st March 2020 #23th February 2020
 
 
 
@@ -127,9 +127,31 @@ telemetry:
 # Output that should be rendered from the simulation:
 reporters:
   cli.TimeReporter: {}
-#  csv.HealthStateCounts:
-#    filename: /tmp/health_states.csv
-#  - location_population_plots.LocationPlots:
+  csv.HealthStateCounts:
+    filename: /tmp/health_state_counts.csv
+  csv.ActivityCounts:
+    filename: /tmp/activity_counts.csv
+  csv.LocationTypeCounts:
+    filename: /tmp/location_type_counts.csv
+  csv.TestingCounts:
+    filename: /tmp/testing_counts.csv
+  csv.QuarantineCounts:
+    filename: /tmp/quarantine_counts.csv
+  csv.TestingEvents:
+    filename: /tmp/testing_events.csv
+  csv.ExposureEvents:
+    filename: /tmp/exposure_events.csv
+  csv.ContactCounts:
+    filename: /tmp/average_contact_counts.csv
+  csv.VaccinationEvents:
+    filename: /tmp/vaccination_events.csv
+#  effective_reproduction_number.EffectiveReproductionNumber:
+#    filename_rescaled_cum_counts: /tmp/rescaled_cum_testing_counts.csv
+#    filename_rt_estimate: /tmp/rt_estimate.csv
+#    state: LU
+  csv.SecondaryInfectionCounts:
+    filename: /tmp/secondary_infection_counts.csv
+    #  - location_population_plots.LocationPlots:
 #      dirname: /tmp/plots
 #      types_to_show: []
 #      health_to_show: [INFECTED]
@@ -199,7 +221,7 @@ world_factory:
   __type__: stochastic.StochasticWorldFactory
 
   # Seed the RND, or leave blank for a timer-based seed
-  random_seed: 400
+  random_seed: 555
 
   # The total number of resident agents on the world. If this equals the sum of age_distribution
   # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -207,7 +229,7 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 16_108
+  n: 161080
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -255,6 +277,9 @@ world_factory:
     France: [49.357664, 6.166023]
     Germany: [49.756279, 6.643219]
 
+  # Age range of border workers
+  min_age_border_workers: 18
+  max_age_border_workers: 64
 
   # Distribution of non-resident agents by border country.
   border_countries_pop:
@@ -393,6 +418,9 @@ world_factory:
     - [    0,     0,     0,     0,     0,    0,    0,   0]
     - [    0,     0,     0,     0,     0,    0,    0,   0]
 
+  # Age below which an agent is considered a child
+  child_age_limit: 15
+
   # Household distribution of retired:
   household_distribution_retired:
     - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
@@ -403,6 +431,9 @@ world_factory:
     - [    0,     0,     0,     0,     0,    1,    2,   2]
     - [    0,     0,     0,     0,     0,    0,    0,   0]
     - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+  # Age at or above which an agent is considered retired
+  retired_age_limit: 65
 
   # Each carehome will be assigned a number of retired people as residents:
   retired_per_carehome: 143
@@ -453,6 +484,8 @@ world_factory:
 
   # The mobility data used to construct location choice functions:
   location_choice_fp: Scenarios/Luxembourg/Lux Mobil.csv
+  # Resident nationality:
+  resident_nationality: Luxembourg
   # Which activies are assigned locations using a distance distribution, and how many such locations
   # can be visited by each agent:
   activity_locations_by_distance:
@@ -535,102 +568,82 @@ world_factory:
 # Configures the movement model used during simulation
 movement_model:
   __type__: simple_random.SimpleRandomMovementModel
-
-  # When responding to activity changes, the location model will move agents.
-  # Add a location type to the list below if this shouldn't happen when the agent is
-  # in a certain health state
-  no_move_health_states:
+  # A list of all location types:
+  location_types:
+    - House
+    - Care Home
+    - OW Agriculture
+    - OW Extraction
+    - OW Manufacturing
+    - OW Energy
+    - OW Water
+    - OW Construction
+    - OW Trade
+    - OW Transport
+    - OW Catering and Accommodation
+    - OW ICT
+    - OW Finance
+    - OW Real Estate
+    - OW Technical
+    - OW Administration
+    - OW Education
+    - OW Entertainment
+    - OW Other Services
+    - Primary School
+    - Secondary School
+    - Restaurant
+    - Outdoor
+    - Car
+    - Public Transport
+    - Shop
+    - Medical
     - Hospital
+    - Hotel
+    - Place of Worship
+    - Indoor Sport
+    - Cinema or Theatre
+    - Museum or Zoo
+    - Belgium
+    - France
+    - Germany
     - Cemetery
+    # When responding to activity changes, the location model will move agents.
+    # Add a location type to the list below if this shouldn't happen when the agent is
+    # in a certain health state
+  no_move_health_states:
+    - HOSPITALIZING
+    - VENTILATING
+    - DEAD
   # Public transport activity type
   public_transport_activity_type: Public Transport
   # Units of public transport avaiable at each 10 minute interval of the day
-  units_available_week_day: [39, 49, 46, 45, 29, 9, 9, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 14, 28, 43, 109, 178, 259, 342, 408, 467, 574, 608, 667, 750, 796, 909, 1004, 1080, 1206, 1359, 1410, 1458, 1468, 1334, 1186, 1086, 1094, 1053, 1082, 1055, 980, 913, 911, 904, 926, 906, 878, 863, 873, 830, 868, 845, 858, 828, 841, 850, 858, 855, 879, 911, 951, 966, 940, 935, 955, 934, 986, 955, 937, 918, 940, 957, 1024, 1074, 1063, 1053, 1081, 1013, 1060, 995, 975, 962, 984, 983, 1073, 1065, 1103, 1136, 1146, 1113, 1148, 1184, 1180, 1136, 1170, 1118, 1098, 1107, 1069, 1067, 1095, 1024, 995, 954, 906, 861, 829, 754, 726, 675, 635, 651, 606, 585, 633, 583, 575, 545, 518, 521, 556, 512, 500, 472, 437, 412, 433, 377, 359, 335, 297]
-  units_available_weekend_day: [37, 47, 48, 48, 30, 10, 10, 18, 17, 27, 29, 29, 29, 29, 19, 22, 20, 20, 20, 27, 25, 27, 29, 19, 21, 23, 23, 50, 72, 129, 163, 197, 227, 276, 306, 352, 397, 425, 443, 457, 435, 480, 504, 508, 487, 486, 475, 488, 521, 574, 554, 552, 549, 553, 539, 558, 531, 514, 513, 520, 527, 559, 519, 527, 506, 506, 496, 522, 542, 544, 539, 538, 522, 550, 565, 567, 576, 565, 564, 598, 586, 580, 564, 594, 588, 624, 623, 618, 600, 609, 602, 649, 601, 583, 563, 535, 530, 582, 582, 599, 596, 570, 568, 600, 605, 586, 549, 556, 557, 567, 560, 582, 582, 586, 551, 557, 547, 539, 534, 534, 519, 499, 488, 452, 461, 431, 434, 443, 423, 422, 396, 390, 378, 362, 358, 375, 362, 344, 333, 333, 314, 295, 290, 263]
+  units_available_week_day: [235, 216, 154, 98, 46, 25, 14, 3, 3, 4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 4, 3, 3, 3, 3, 17, 30, 44, 110, 178, 259, 342, 408, 467, 574, 608, 667, 750, 796, 909, 1004, 1080, 1206, 1359, 1410, 1458, 1468, 1334, 1186, 1086, 1094, 1053, 1082, 1055, 980, 913, 911, 904, 926, 906, 878, 863, 873, 830, 868, 845, 858, 828, 841, 850, 858, 855, 879, 911, 951, 966, 940, 935, 955, 934, 986, 955, 937, 918, 940, 957, 1024, 1074, 1063, 1053, 1081, 1013, 1060, 995, 975, 962, 984, 983, 1073, 1065, 1103, 1136, 1146, 1113, 1148, 1184, 1180, 1136, 1170, 1118, 1098, 1107, 1069, 1067, 1095, 1024, 995, 954, 906, 861, 829, 754, 726, 675, 635, 651, 606, 585, 633, 583, 575, 545, 518, 521, 556, 512, 500, 472, 437, 412, 433, 377, 359, 335, 297]
+  units_available_weekend_day: [214, 200, 159, 104, 55, 34, 22, 28, 27, 37, 37, 38, 38, 38, 28, 31, 27, 28, 28, 36, 32, 37, 37, 28, 29, 29, 26, 52, 73, 129, 163, 197, 227, 276, 306, 352, 397, 425, 443, 457, 435, 480, 504, 508, 487, 486, 475, 488, 521, 574, 554, 552, 549, 553, 539, 558, 531, 514, 513, 520, 527, 559, 519, 527, 506, 506, 496, 522, 542, 544, 539, 538, 522, 550, 565, 567, 576, 565, 564, 598, 586, 580, 564, 594, 588, 624, 623, 618, 600, 609, 602, 649, 601, 583, 563, 535, 530, 582, 582, 599, 596, 570, 568, 600, 605, 586, 549, 556, 557, 567, 560, 582, 582, 586, 551, 557, 547, 539, 534, 534, 519, 499, 488, 452, 461, 431, 434, 443, 423, 422, 396, 390, 378, 362, 358, 375, 362, 344, 333, 333, 314, 295, 290, 263]
 
 # ######################################### Activity #####################################
 # Configure the component that drives agents performing different activities in the simulation
-activity_model:
-
-  __type__: tus_survey.TUSMarkovActivityModel
-  # TODO: __type__
-
-  # File containing time use survey data, and see Docs for full format:
-  time_use_filepath: Time Use.csv
-
-  # TUS data are read at a ten-minute interval.
-  #
-  # This parameter should be set to the simulation tick duration in seconds, so that the TUS
-  # data can be resampled to match the simulation resolution
-  tick_length_s: 600
-
-  # Which activities are coded in the dataset.
-  # Codes in the primary column are less specific, but used first.
-  # codes in the secondary column are used if certain codes are in the primary column.
-  #
-  # Format is
-  #   Activity Label:
-  #     primary: [code, code,...]
-  #     secondary: [code, code,...]
-  activity_code_map:
-    House:
-      primary: [1]
-      secondary: [11,12,13,14,21,22,23,31,34,35,39,115,121,213,214,221,222,231,239,311,314,315,324,
-                  325,326,327,328,329,333,346,347,349,351,353,354,356,363,364,371,381,382,383,384,
-                  386,391,393,419,421,422,431,432,433,434,511,512,522,551,711,713,714,719,733,734,
-                  737,739,744,745,746,747,749,811,812,813,819,821,829,839]
-    Work:
-      primary: [2]
-      secondary: [111]
-    School:
-      primary: [3]
-      secondary: [232,233]
-    Restaurant:
-      primary: [5]
-      secondary: [546,547]
-    Outdoor:
-      primary: [6,9,10,11,12,14]
-      secondary: [343,345,411,412,413,415,424,439,525,539,541,542,543,545,548,549,612,613,614,617,618,619,629]
-    Car:
-      primary: [13]
-    Public Transport:
-      primary: [15,16,17,18,19]
-    Shop:
-      secondary: [361,362,366,367,368,369,425]
-    Medical:
-      secondary: [365]
-    Place of Worship:
-      secondary: [435]
-    Indoor Sport:
-      secondary: [544,615,616]
-    Cinema or Theatre:
-      secondary: [531,532,533]
-    Museum or Zoo:
-      secondary: [534]
-    Visit:
-      primary: [4]
-      secondary: [395,426,429,515,521,523,524]
-
-  # If agents are in these states, stop the markov chain
-  stop_activity_health_states:
-    - DEAD
-
 # activity_model:
 
-#   __type__: tus_survey_basic.TUSBasicActivityModel
+#   __type__: tus_survey.TUSMarkovActivityModel
 #   # TODO: __type__
 
 #   # File containing time use survey data, and see Docs for full format:
 #   time_use_filepath: Time Use.csv
+
+#   # Behavioural types with corresponding age ranges
+#   behavioural_types:
+#     Child: [0,18]
+#     Adult: [18,65]
+#     Retired: [65,120]
+
+#   # Special weekly routine used for all border workers
+#   border_worker_routine: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 #   # TUS data are read at a ten-minute interval.
 #   #
 #   # This parameter should be set to the simulation tick duration in seconds, so that the TUS
 #   # data can be resampled to match the simulation resolution
 #   tick_length_s: 600
-
-#   # Length of each age bracket, in years, when dividing the TUS data into chunks
-#   age_bracket_length: 10
 
 #   # Which activities are coded in the dataset.
 #   # Codes in the primary column are less specific, but used first.
@@ -679,6 +692,77 @@ activity_model:
 #       primary: [4]
 #       secondary: [395,426,429,515,521,523,524]
 
+#   # If agents are in these states, stop the markov chain
+#   stop_activity_health_states:
+#     - DEAD
+
+activity_model:
+
+  __type__: tus_survey_basic.TUSBasicActivityModel
+  # TODO: __type__
+
+  # File containing time use survey data, and see Docs for full format:
+  time_use_filepath: Time Use.csv
+
+  # Special weekly routine used for all border workers
+  border_worker_routine: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+  # TUS data are read at a ten-minute interval.
+  #
+  # This parameter should be set to the simulation tick duration in seconds, so that the TUS
+  # data can be resampled to match the simulation resolution
+  tick_length_s: 600
+
+  # Length of each age bracket, in years, when dividing the TUS data into chunks
+  age_bracket_length: 10
+
+  # Which activities are coded in the dataset.
+  # Codes in the primary column are less specific, but used first.
+  # codes in the secondary column are used if certain codes are in the primary column.
+  #
+  # Format is
+  #   Activity Label:
+  #     primary: [code, code,...]
+  #     secondary: [code, code,...]
+  activity_code_map:
+    House:
+      primary: [1]
+      secondary: [11,12,13,14,21,22,23,31,34,35,39,115,121,213,214,221,222,231,239,311,314,315,324,
+                  325,326,327,328,329,333,346,347,349,351,353,354,356,363,364,371,381,382,383,384,
+                  386,391,393,419,421,422,431,432,433,434,511,512,522,551,711,713,714,719,733,734,
+                  737,739,744,745,746,747,749,811,812,813,819,821,829,839]
+    Work:
+      primary: [2]
+      secondary: [111]
+    School:
+      primary: [3]
+      secondary: [232,233]
+    Restaurant:
+      primary: [5]
+      secondary: [546,547]
+    Outdoor:
+      primary: [6,9,10,11,12,14]
+      secondary: [343,345,411,412,413,415,424,439,525,539,541,542,543,545,548,549,612,613,614,617,618,619,629]
+    Car:
+      primary: [13]
+    Public Transport:
+      primary: [15,16,17,18,19]
+    Shop:
+      secondary: [361,362,366,367,368,369,425]
+    Medical:
+      secondary: [365]
+    Place of Worship:
+      secondary: [435]
+    Indoor Sport:
+      secondary: [544,615,616]
+    Cinema or Theatre:
+      secondary: [531,532,533]
+    Museum or Zoo:
+      secondary: [534]
+    Visit:
+      primary: [4]
+      secondary: [395,426,429,515,521,523,524]
+
 # ######################################### Infection and Disease ##################################
 
 disease_model:
@@ -692,8 +776,9 @@ disease_model:
     # mask transmission rate and mask absorption rate, which denote the proportion of viruses that are
     # stopped by the mask during exhaling (transmission) versus inhaling (absorption), respectively.
     # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
-    # and even nonmedical or homemade masks.
-    ppm_coeff: 0.7
+    # and even nonmedical or homemade masks. The following is then the probability that the virus
+    # particles, during a tick, pass through a mask:
+    ppm_coeff: 0.3
     # The probability that an agent is engaged in the strategy:
     ppm_force: 0.0
     # Parameter updates
@@ -730,7 +815,7 @@ disease_model:
       Public Transport:               1.0
       Shop:                           1.0
       Medical:                        1.0
-      Hospital:                       1.0
+      Hospital:                       0.0 # Masks are always warn in hospitals, as below
       Hotel:                          1.0
       Place of Worship:               1.0
       Indoor Sport:                   0.2
@@ -756,39 +841,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.0007
-    Care Home:                        0.0007
-    OW Agriculture:                   0.0007
-    OW Extraction:                    0.0007
-    OW Manufacturing:                 0.0007
-    OW Energy:                        0.0007
-    OW Water:                         0.0007
-    OW Construction:                  0.0007
-    OW Trade:                         0.0007
-    OW Transport:                     0.0007
-    OW Catering and Accommodation:    0.0007
-    OW ICT:                           0.0007
-    OW Finance:                       0.0007
-    OW Real Estate:                   0.0007
-    OW Technical:                     0.0007
-    OW Administration:                0.0007
-    OW Education:                     0.0007
-    OW Entertainment:                 0.0007
-    OW Other Services:                0.0007
-    Primary School:                   0.0007
-    Secondary School:                 0.0007
-    Restaurant:                       0.0007
+    House:                            0.0002
+    Care Home:                        0.0002
+    OW Agriculture:                   0.0002
+    OW Extraction:                    0.0002
+    OW Manufacturing:                 0.0002
+    OW Energy:                        0.0002
+    OW Water:                         0.0002
+    OW Construction:                  0.0002
+    OW Trade:                         0.0002
+    OW Transport:                     0.0002
+    OW Catering and Accommodation:    0.0002
+    OW ICT:                           0.0002
+    OW Finance:                       0.0002
+    OW Real Estate:                   0.0002
+    OW Technical:                     0.0002
+    OW Administration:                0.0002
+    OW Education:                     0.0002
+    OW Entertainment:                 0.0002
+    OW Other Services:                0.0002
+    Primary School:                   0.0002
+    Secondary School:                 0.0002
+    Restaurant:                       0.0002
     Outdoor:                          0.0
-    Car:                              0.0007
-    Public Transport:                 0.0007
-    Shop:                             0.0007
-    Medical:                          0.0007
-    Hospital:                         0.0007
-    Hotel:                            0.0007
-    Place of Worship:                 0.0007
-    Indoor Sport:                     0.0007
-    Cinema or Theatre:                0.0007
-    Museum or Zoo:                    0.0007
+    Car:                              0.0002
+    Public Transport:                 0.0002
+    Shop:                             0.0002
+    Medical:                          0.0002
+    Hospital:                         0.000018 # p*0.09
+    Hotel:                            0.0002
+    Place of Worship:                 0.0002
+    Indoor Sport:                     0.0002
+    Cinema or Theatre:                0.0002
+    Museum or Zoo:                    0.0002
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -796,10 +881,11 @@ disease_model:
 
   # How many people are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
-  initial_infections: 10
+  initial_infections: 100
   # How many susceptible people are randomly selected for exposure on midnight each day:
   random_exposures: 0
-
+  # Home activity type, recorded for telemetry purposes
+  home_activity_type: House
   # The health states appearing in this model are as follows:
   health_states: [SUSCEPTIBLE, EXPOSED, ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING, RECOVERED, DEAD]
   # Agents in the follow states are susceptible:
@@ -1260,6 +1346,10 @@ interventions:
     prob_false_negative: 0.01
     # The time taken between a test and publishing of the result of that test:
     do_test_to_test_results_days: 2
+    # Home activity type, used in reporting to keep track of where tested agents live
+    home_activity_type: House
+    # Non-resident home types:
+    border_countries: [Belgium, France, Germany]
     # Agents in the following states are categorized as exposed:
     incubating_states: [EXPOSED]
     # Agents in the following states can transmit the virus:
@@ -1329,7 +1419,7 @@ interventions:
     # probability:
     prob_do_recommendation: 1.0
     # Locations except from the contact tracing proceedure are as follows:
-    location_type_blacklist: [Cemetery, Belgium, France, Germany]
+    location_type_blacklist: [Cemetery, Outdoor, Belgium, France, Germany]
 
 
   # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
@@ -1532,31 +1622,100 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-
-  # The intervention 'work_from_home' direct people to work from home, with a certain probability
-  work_from_home_ow_general:
+    
+  # The interventions 'work_from_home' direct people to work from home, with a certain probability
+  work_from_home_ow_ict_finance:
     __type__: work_from_home.WorkFromHome
     __enabled__: false
     __schedule__:
       23th June 2020: enable
-      24th June 2020: {prob_work_from_home: 0.52}
+      24th June 2020: {prob_work_from_home: 0.85}
+      1st July 2020: {prob_work_from_home: 0.75}
+      1st October 2020: {prob_work_from_home: 0.33} # Q1 data
     # Probability to work from home:
     prob_work_from_home: 0.0
     # Location types exempt from working at home restrictions:
     locations:
-      - OW Agriculture
-      - OW Manufacturing
-      - OW Energy
-      - OW Water
-      - OW Transport
-      - OW Extraction
-      - OW Trade
       - OW ICT
       - OW Finance
-      - OW Real Estate
+    # If an agent requests to move to the location at which they perform the activity 'Work', they
+    # are directed to the location at which they perform the activity 'House':
+    home_activity_type: House
+    work_activity_type: Work
+
+  work_from_home_ow_technical:
+    __type__: work_from_home.WorkFromHome
+    __enabled__: false
+    __schedule__:
+      23th June 2020: enable
+      24th June 2020: {prob_work_from_home: 0.68}
+      1st July 2020: {prob_work_from_home: 0.65}
+      1st October 2020: {prob_work_from_home: 0.40} # Q1 data
+    # Probability to work from home:
+    prob_work_from_home: 0.0
+    # Location types exempt from working at home restrictions:
+    locations:
       - OW Technical
+    # If an agent requests to move to the location at which they perform the activity 'Work', they
+    # are directed to the location at which they perform the activity 'House':
+    home_activity_type: House
+    work_activity_type: Work
+
+  work_from_home_ow_administration:
+    __type__: work_from_home.WorkFromHome
+    __enabled__: false
+    __schedule__:
+      23th June 2020: enable
+      24th June 2020: {prob_work_from_home: 0.53}
+      1st July 2020: {prob_work_from_home: 0.24}
+      1st October 2020: {prob_work_from_home: 0.15} # Q1 data
+    # Probability to work from home:
+    prob_work_from_home: 0.0
+    # Location types exempt from working at home restrictions:
+    locations:
       - OW Administration
+    # If an agent requests to move to the location at which they perform the activity 'Work', they
+    # are directed to the location at which they perform the activity 'House':
+    home_activity_type: House
+    work_activity_type: Work
+
+  work_from_home_ow_education:
+    __type__: work_from_home.WorkFromHome
+    __enabled__: false
+    __schedule__:
+      23th June 2020: enable
+      24th June 2020: {prob_work_from_home: 0.80}
+      1st July 2020: {prob_work_from_home: 0.40}
+      1st October 2020: {prob_work_from_home: 0.42} # Q1 data
+    # Probability to work from home:
+    prob_work_from_home: 0.0
+    # Location types exempt from working at home restrictions:
+    locations:
       - OW Education
+    # If an agent requests to move to the location at which they perform the activity 'Work', they
+    # are directed to the location at which they perform the activity 'House':
+    home_activity_type: House
+    work_activity_type: Work
+ 
+  work_from_home_ow_other_activities:
+    __type__: work_from_home.WorkFromHome
+    __enabled__: false
+    __schedule__:
+      23th June 2020: enable
+      24th June 2020: {prob_work_from_home: 0.37}
+      1st July 2020: {prob_work_from_home: 0.28}
+      1st October 2020: {prob_work_from_home: 0.24} # Q1 data
+    # Probability to work from home:
+    prob_work_from_home: 0.0
+    # Location types exempt from working at home restrictions:
+    locations:
+      - OW Manufacturing
+      - OW Trade
+      - OW Transport
+      - OW Energy
+      - OW Water
+      - OW Extraction
+      - OW Real Estate
     # If an agent requests to move to the location at which they perform the activity 'Work', they
     # are directed to the location at which they perform the activity 'House':
     home_activity_type: House
@@ -1593,7 +1752,8 @@ interventions:
       - OW Education
       - OW Entertainment
       - OW Other Services
-      - School
+      - Primary School
+      - Secondary School
       - Restaurant
       - Outdoor
       - Car
@@ -1608,3 +1768,37 @@ interventions:
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
+
+  # # The intervention 'vaccination' refers to vaccination based on a strategy that first prioritizes
+  # # care home residents and workers, then frontline health workers and then the remainder of the
+  # # population according to age, starting with the oldest. In this simple implementation, the
+  # # vaccine causes either total or no immunity with a certain probability, requires two doses, and
+  # # the effect is instantaneous. Also it is assumed that everybody wants to be vaccinated and that
+  # # those who have tested positive will not be eligible for vaccination.
+  # vaccination:
+  #   __type__: vaccination.Vaccination
+  #   __enabled__: true
+  #   __schedule__:
+  #     # 1st Janurary 2021: {max_first_doses_per_day: 500}
+  #     24th February 2020: {max_first_doses_per_day: 5000}
+  #   # This controls how many first doses are able to be distributed per day. The total number
+  #   # of doses per day will be this number plus the number of second doses delivered that day.
+  #   max_first_doses_per_day: 0
+  #   # The probability that the vaccine protects an individual against disease. Note that if the
+  #   # probability that the first dose is successful is p_1 and the probability that the second dose
+  #   # is successful is p_2 then the probability that the agent is immunized after the second dose
+  #   # is p_1 + (1-p_1)p_2. Therefore p_2 should be chosen appropriately.
+  #   prob_first_dose_successful: 0.463
+  #   prob_second_dose_successful: 0.175
+  #   # Time between first and second doses:
+  #   time_between_doses_days: 14
+  #   # Minimum age of people receiving the vaccine
+  #   min_age: 16
+  #   # Home activity type:
+  #   home_activity_type: House
+  #   # Work activity type:
+  #   work_activity_type: Work
+  #   # Care home location type:
+  #   care_home_location_type: [Care Home]
+  #   # Hospital location type:
+  #   hospital_location_type: [Hospital]
