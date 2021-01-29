@@ -128,8 +128,8 @@ class Simulator:
 
         # Initialise components, such as disease model, movement model, interventions etc
         self._initialise_components()
-        self.telemetry_bus.publish("simulation.start", self.run_id, self.created_at, \
-                                   self.clock, self.world, self.disease_model.states)
+        #self.telemetry_bus.publish("simulation.start", self.run_id, self.created_at, \
+        #                           self.clock, self.world, self.disease_model.states)
 
         # Notify message bus of simulation start
         self.bus.publish("notify.time.start_simulation", self)
