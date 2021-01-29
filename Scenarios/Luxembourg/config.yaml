@@ -782,8 +782,7 @@ disease_model:
     # The authors set both these rates equal to 0.7, to model the use of inexpensive, widely available
     # and even nonmedical or homemade masks. The following is then the probability that the virus
     # particles, during a tick, pass through a mask:
-    #ppm_coeff: 0.3
-    ppm_coeff: 1.0
+    ppm_coeff: 0.3
     # The probability that an agent is engaged in the strategy:
     ppm_force: 0.0
     # Parameter updates
