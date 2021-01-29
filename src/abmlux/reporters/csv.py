@@ -54,8 +54,8 @@ class HealthStateCounts(Reporter):
 class ActivityCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
@@ -96,8 +96,8 @@ class ActivityCounts(Reporter):
 class LocationTypeCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
@@ -138,8 +138,8 @@ class LocationTypeCounts(Reporter):
 class TestingCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.tests_performed           = 0
         self.positive_tests            = 0
@@ -193,8 +193,8 @@ class TestingCounts(Reporter):
 class TestingEvents(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
@@ -232,8 +232,8 @@ class TestingEvents(Reporter):
 class QuarantineCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.num_in_quaratine = 0
         self.positive_tests  = 0
@@ -279,8 +279,8 @@ class QuarantineCounts(Reporter):
 class ExposureEvents(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
@@ -321,8 +321,8 @@ class ExposureEvents(Reporter):
 class SecondaryInfectionCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
@@ -372,8 +372,8 @@ class SecondaryInfectionCounts(Reporter):
 class ContactCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 
@@ -421,8 +421,8 @@ class ContactCounts(Reporter):
 class VaccinationEvents(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
-    def __init__(self, host, port, config):
-        super().__init__(host, port)
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
 
         self.filename = config['filename']
 

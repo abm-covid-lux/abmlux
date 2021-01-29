@@ -50,11 +50,14 @@ class Component:
     def set_telemetry_bus(self, telemetry_bus: Optional[MessageBus]) -> None:
         self.telemetry_bus = telemetry_bus
 
-    def report(self, topic, payload):
+    def report(self, topic, *args, **kwargs):
+        """Publish a message to the telemetry bus, informing reporters of some interesting event
+        or statistic."""
+
         if self.telemetry_bus is None:
             return
 
-        self.telemetry_bus.publish(topic, payload)
+        self.telemetry_bus.publish(topic, *args, **kwargs)
 
     def init_sim(self, sim) -> None:
         """Complete initialisation of this object with the full state of a ready-to-go simulation.
