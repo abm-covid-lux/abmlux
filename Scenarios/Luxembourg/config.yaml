@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-# random_seed: 377
+random_seed: 377
 
 # The region in question:
 region: Luxembourg
