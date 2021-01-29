@@ -145,8 +145,7 @@ setup(
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
-            'abmlux=abmlux:main',
-            'abmlux-reporter=abmlux:main_reporter'
+            'abmlux=abmlux:main'
         ],
     },
 

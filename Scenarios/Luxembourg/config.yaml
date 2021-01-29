@@ -77,10 +77,8 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 280
+simulation_length_days: 28
 
-# With syntax being anything accepted by Dateparser:
-# https://dateparser.readthedocs.io/en/latest/
 # the date at which the simulation starts:
 epoch: 1st March 2020 #23th February 2020
 
@@ -118,11 +116,6 @@ logging:
 #        propagate: False
 
 # ######################################### Output #################################################
-
-
-telemetry:
-  host: 127.0.0.1
-  port: 4567
 
 # Output that should be rendered from the simulation:
 reporters:
@@ -1696,7 +1689,7 @@ interventions:
     # are directed to the location at which they perform the activity 'House':
     home_activity_type: House
     work_activity_type: Work
- 
+
   work_from_home_ow_other_activities:
     __type__: work_from_home.WorkFromHome
     __enabled__: false
