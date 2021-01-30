@@ -95,11 +95,13 @@ class ContactTracingManual(Intervention):
         regular_contact_counts = {}
         for agent in self.regular_contacts_archive[0]:
             num_regular_contacts = len(self.regular_contacts_archive[0][agent]) - 1
-            regular_contact_counts[num_regular_contacts] = regular_contact_counts.get(num_regular_contacts, 1) + 1
+            regular_contact_counts[num_regular_contacts] =\
+                regular_contact_counts.get(num_regular_contacts, 1) + 1
         total_contact_counts = {}
         for agent in self.total_contacts_archive:
             num_total_contacts = len(self.total_contacts_archive[agent]) - 1
-            total_contact_counts[num_total_contacts] = total_contact_counts.get(num_total_contacts, 1) + 1
+            total_contact_counts[num_total_contacts] =\
+                total_contact_counts.get(num_total_contacts, 1) + 1
         self.report("contact_data", clock, regular_contact_counts, total_contact_counts)
 
         # Update contact lists
@@ -119,14 +121,16 @@ class ContactTracingManual(Intervention):
             return
 
         # Collect the set of all agents in the current location
-        total_local_agents = [a for a_act in list(self.sim.attendees_by_activity[agent.current_location].values()) for a in a_act]
+        total_local_agents = [a for a_act in
+            list(self.sim.attendees_by_activity[agent.current_location].values()) for a in a_act]
 
         # If the agent is the only one present then nothing more needs to be done
         if len(total_local_agents) <= 1:
             return
 
         # Now collect the subset of all regular agents in the current location
-        regular_local_agents = [a for act in self.relevant_activities for a in self.sim.attendees_by_activity[agent.current_location][act]]
+        regular_local_agents = [a for act in self.relevant_activities for
+            a in self.sim.attendees_by_activity[agent.current_location][act]]
 
         # Add the local agents to the contacts archive of the newly arrived agent
         self.regular_contacts_archive[0][agent].update(OrderedSet(regular_local_agents))

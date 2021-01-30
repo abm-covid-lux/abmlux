@@ -1,9 +1,7 @@
 """Disease models based on discrete compartments with transition probabilities"""
 
 import logging
-import numpy as np
 from tqdm import tqdm
-from collections import defaultdict
 
 from abmlux.disease_model import DiseaseModel
 
@@ -91,7 +89,7 @@ class CompartmentalModel(DiseaseModel):
             for i in range(len(profile)):
                 if profile[i] in self.incubating_states:
                     total_incubation_time += durations[i]
-                if profile[i] in self.asymptomatic_states+self.symptomatic_states:
+                if profile[i] in self.asymptomatic_states + self.symptomatic_states:
                     total_contagious_time += durations[i]
 
         average_contagious_time = total_contagious_time / (len(agents)*self.sim.clock.ticks_in_day)

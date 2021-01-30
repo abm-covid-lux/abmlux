@@ -106,6 +106,7 @@ setup(
                       'opencv-python~=4.5',
                       'simplekml~=1.3',
                       'pyshp~=2.1'
+                      'ordered-set~=4.0'
                      ],
 
     # List additional groups of dependencies here (e.g. development

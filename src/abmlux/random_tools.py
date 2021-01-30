@@ -1,8 +1,8 @@
 """Wrapper around python's PRNG to ease the process of performing deterministic re-runs"""
 
 import random
-import numpy
 import logging
+import numpy
 import math
 from typing import Sequence, TypeVar, MutableSequence, Any, Optional
 
