@@ -39,8 +39,7 @@ class Laboratory(Intervention):
 
         self.do_test_to_test_results_ticks = \
             int(sim.clock.days_to_ticks(self.config['do_test_to_test_results_days']))
-        self.infected_states = \
-            set(self.config['incubating_states']).union(set(self.config['contagious_states']))
+        self.infected_states = self.config['incubating_states']+self.config['contagious_states']
 
         self.agents = sim.world.agents
 
@@ -104,7 +103,7 @@ class TestBooking(Intervention):
     def __init__(self, config, init_enabled):
         super().__init__(config, init_enabled)
 
-        self.symptomatic_states   = set(config['symptomatic_states'])
+        self.symptomatic_states   = config['symptomatic_states']
         self.agents_awaiting_test = set()
 
     def init_sim(self, sim):

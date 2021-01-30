@@ -73,7 +73,7 @@ class PrescriptionTesting(Intervention):
         self.onset_of_symptoms_to_test_booking = \
             int(sim.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states  = set(self.config['symptomatic_states'])
+        self.symptomatic_states  = self.config['symptomatic_states']
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)

@@ -32,8 +32,8 @@ class Quarantine(Intervention):
         self.agents_in_quarantine  = set()
 
         # What to do this tick
-        self.agents_to_add    = set()
-        self.agents_to_remove = set()
+        self.agents_to_add    = []
+        self.agents_to_remove = []
 
         # Enter/leave quarantine
         self.bus.subscribe("notify.time.tick", self.update_quarantine_status, self)
@@ -63,13 +63,13 @@ class Quarantine(Intervention):
                 self.end_quarantine_events.add("request.quarantine.stop", \
                                                self.default_duration_days, agent)
                 self.bus.publish("notify.quarantine.start", agent)
-        self.agents_to_add = set()
+        self.agents_to_add = []
 
         for agent in self.agents_to_remove:
             if agent in self.agents_in_quarantine:
                 self.agents_in_quarantine.remove(agent)
                 self.bus.publish("notify.quarantine.end", agent)
-        self.agents_to_remove = set()
+        self.agents_to_remove = []
 
     def handle_test_result(self, agent, result):
         """Respond to positive test results by starting quarantine.
@@ -92,14 +92,14 @@ class Quarantine(Intervention):
         if agent in self.agents_in_quarantine or agent in self.agents_to_add:
             return
 
-        self.agents_to_add.add(agent)
+        self.agents_to_add.append(agent)
         return MessageBus.CONSUME
 
     def handle_end_quarantine(self, agent):
         """Queues up agents to end quarantine next time quarantine status is updated."""
 
         if agent in self.agents_in_quarantine and agent not in self.agents_to_remove:
-            self.agents_to_remove.add(agent)
+            self.agents_to_remove.append(agent)
         return MessageBus.CONSUME
 
     def handle_location_change(self, agent, new_location):

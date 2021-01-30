@@ -875,9 +875,11 @@ disease_model:
     Germany:                          0.0
     Cemetery:                         0.0
 
-  # How many people are infected at the start of the simulation, with these agents being chosen
+  # How many residents are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
   initial_infections: 100
+  # Resident nationality:
+  resident_nationality: Luxembourg
   # How many susceptible people are randomly selected for exposure on midnight each day:
   random_exposures: 0
   # Home activity type, recorded for telemetry purposes
@@ -1797,12 +1799,13 @@ interventions:
   vaccination:
     __type__: vaccination.Vaccination
     __prng_seed__: 999
-    __enabled__: true
+    __enabled__: false
     __schedule__:
+      31st December 2020: enable
       1st January 2021: {max_first_doses_per_day: 500}
     # This controls how many first doses are able to be distributed per day. The total number
     # of doses per day will be this number plus the number of second doses delivered that day.
-    max_first_doses_per_day: 500
+    max_first_doses_per_day: 0
     # The probability that the vaccine protects an individual against disease. Note that if the
     # probability that the first dose is successful is p_1 and the probability that the second dose
     # is successful is p_2 then the probability that the agent is immunized after the second dose

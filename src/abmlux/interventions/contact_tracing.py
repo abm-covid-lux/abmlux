@@ -3,6 +3,7 @@
 import math
 import logging
 from collections import deque, defaultdict
+from ordered_set import OrderedSet
 
 from abmlux.interventions import Intervention
 
@@ -34,8 +35,8 @@ class ContactTracingManual(Intervention):
         self.scale_factor             = sim.world.scale_factor
         self.max_per_day              = self.scale_factor * self.config['max_per_day']
         self.tracing_time_window_days = self.config['tracing_time_window_days']
-        self.relevant_activities      = {sim.activity_manager.as_int(x) for x in \
-                                         self.config['relevant_activities']}
+        self.relevant_activities      = [sim.activity_manager.as_int(x) for x in \
+                                         self.config['relevant_activities']]
         self.prob_do_recommendation   = self.config['prob_do_recommendation']
         self.location_type_blacklist  = self.config['location_type_blacklist']
 
@@ -45,12 +46,12 @@ class ContactTracingManual(Intervention):
 
         # Keep state on who has been colocated with whom while peforming relevant activities
         self.regular_contacts_archive = deque(maxlen=self.tracing_time_window_days)
-        self.regular_contacts_archive.appendleft(defaultdict(set))
+        self.regular_contacts_archive.appendleft(defaultdict(OrderedSet))
 
         # Keep state on who has been colocated with whom regardless of performed activities. Note
         # that this archive is not used by the intervention. It is recorded only for telemetry
         # purposes
-        self.total_contacts_archive = defaultdict(set)
+        self.total_contacts_archive = defaultdict(OrderedSet)
 
         # Keeps track of the number of agents whose contacts are notified, since this should not
         # exceed the daily capacity of the contact tracing system
@@ -94,16 +95,18 @@ class ContactTracingManual(Intervention):
         regular_contact_counts = {}
         for agent in self.regular_contacts_archive[0]:
             num_regular_contacts = len(self.regular_contacts_archive[0][agent]) - 1
-            regular_contact_counts[num_regular_contacts] = regular_contact_counts.get(num_regular_contacts, 1) + 1
+            regular_contact_counts[num_regular_contacts] =\
+                regular_contact_counts.get(num_regular_contacts, 1) + 1
         total_contact_counts = {}
         for agent in self.total_contacts_archive:
             num_total_contacts = len(self.total_contacts_archive[agent]) - 1
-            total_contact_counts[num_total_contacts] = total_contact_counts.get(num_total_contacts, 1) + 1
+            total_contact_counts[num_total_contacts] =\
+                total_contact_counts.get(num_total_contacts, 1) + 1
         self.report("contact_data", clock, regular_contact_counts, total_contact_counts)
 
         # Update contact lists
-        self.regular_contacts_archive.appendleft(defaultdict(set))
-        self.total_contacts_archive = defaultdict(set)
+        self.regular_contacts_archive.appendleft(defaultdict(OrderedSet))
+        self.total_contacts_archive = defaultdict(OrderedSet)
         self.daily_notification_count = 0
 
     def handle_location_change(self, agent, old_location):
@@ -118,18 +121,20 @@ class ContactTracingManual(Intervention):
             return
 
         # Collect the set of all agents in the current location
-        total_local_agents = set().union(*self.sim.attendees_by_activity[agent.current_location].values())
+        total_local_agents = [a for a_act in
+            list(self.sim.attendees_by_activity[agent.current_location].values()) for a in a_act]
 
         # If the agent is the only one present then nothing more needs to be done
         if len(total_local_agents) <= 1:
             return
 
         # Now collect the subset of all regular agents in the current location
-        regular_local_agents = set().union(*[self.sim.attendees_by_activity[agent.current_location][act] for act in self.relevant_activities])
+        regular_local_agents = [a for act in self.relevant_activities for
+            a in self.sim.attendees_by_activity[agent.current_location][act]]
 
         # Add the local agents to the contacts archive of the newly arrived agent
-        self.regular_contacts_archive[0][agent].update(regular_local_agents)
-        self.total_contacts_archive[agent].update(total_local_agents)
+        self.regular_contacts_archive[0][agent].update(OrderedSet(regular_local_agents))
+        self.total_contacts_archive[agent].update(OrderedSet(total_local_agents))
 
         # Add the newly arrived agent to the contacts archive of the agents already present
         for local_agent in total_local_agents:
