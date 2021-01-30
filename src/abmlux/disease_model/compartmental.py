@@ -19,6 +19,7 @@ class CompartmentalModel(DiseaseModel):
         self.inf_probs                  = config['infection_probabilities_per_tick']
         self.num_initial_infections     = config['initial_infections']
         self.random_exposures           = config['random_exposures']
+        self.resident_nationality       = config['resident_nationality']
 
         self.susceptible_states         = config['susceptible_states']
         self.incubating_states          = config['incubating_states']
@@ -108,7 +109,8 @@ class CompartmentalModel(DiseaseModel):
         # Now infect a number of agents to begin the epidemic. This moves those agents to the next
         # state listed in their disease profile.
         log.info("Infecting %i agents...", self.num_initial_infections)
-        for agent in self.prng.random_sample(agents, self.num_initial_infections):
+        resident_agents = [a for a in agents if a.nationality == self.resident_nationality]
+        for agent in self.prng.random_sample(resident_agents, self.num_initial_infections):
             self.disease_profile_index_dict[agent] = 1
             agent.health = self.disease_profile_dict[agent][1]
 
@@ -167,7 +169,6 @@ class CompartmentalModel(DiseaseModel):
                         asym_successes = self.prng.binomial(len(asymptomatics), p_asym)
                         # If at least one successful transmission then publish the health state change
                         if asym_successes + sym_successes > 0:
-                            print([a.age for a in susceptibles], [a.age for a in symptomatics], [a.age for a in asymptomatics])
                             self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
                             # Decide who caused the infection
                             if self.prng.random_randrange(sym_successes + asym_successes) < sym_successes:
