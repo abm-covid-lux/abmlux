@@ -141,17 +141,17 @@ class Simulator:
 
         # Partition attendees according to health and activity, respectively, for optimization
         log.info("Creating agent location indices...")
-        self.attendees_by_health   = {l: {h: set() for h in self.disease_model.states} for l in self.locations}
-        self.attendees_by_activity = {l: {self.activity_manager.as_int(act): set() for act in self.activities} for l in self.locations}
+        self.attendees_by_health   = {l: {h: [] for h in self.disease_model.states} for l in self.locations}
+        self.attendees_by_activity = {l: {self.activity_manager.as_int(act): [] for act in self.activities} for l in self.locations}
         for a in tqdm(self.agents):
-            self.attendees_by_health[a.current_location][a.health].add(a)
-            self.attendees_by_activity[a.current_location][a.current_activity].add(a)
+            self.attendees_by_health[a.current_location][a.health].append(a)
+            self.attendees_by_activity[a.current_location][a.current_activity].append(a)
 
         # Notify telemetry server of simulation start, send agent ids and initial counts
         self.telemetry_bus.publish("simulation.start")
         agent_uuids = [agent.uuid for agent in self.agents]
         self.telemetry_bus.publish("agent_data.initial", agent_uuids)
-        self.agents_by_location_type_counts = {lt: sum([len(set().union(*self.attendees_by_health[loc].values())) for loc in self.locations if loc.typ == lt]) for lt in self.location_types}
+        self.agents_by_location_type_counts = {lt: sum([sum([len(att) for att in self.attendees_by_health[loc].values()]) for loc in self.locations if loc.typ == lt]) for lt in self.location_types}
         self.telemetry_bus.publish("agents_by_location_type_counts.initial", self.agents_by_location_type_counts)
         self.agents_by_activity_counts      = {act: sum([len(self.attendees_by_activity[loc][self.activity_manager.as_int(act)]) for loc in self.locations]) for act in self.activities}
         self.telemetry_bus.publish("agents_by_activity_counts.initial", self.agents_by_activity_counts)
@@ -228,8 +228,8 @@ class Simulator:
             if agent.nationality == self.region:
                 self.resident_agents_by_health_state_counts[agent.health]                        += 1
 
-            self.attendees_by_health[agent.current_location][agent.health].add(agent)
-            self.attendees_by_activity[agent.current_location][agent.current_activity].add(agent)
+            self.attendees_by_health[agent.current_location][agent.health].append(agent)
+            self.attendees_by_activity[agent.current_location][agent.current_activity].append(agent)
 
         self.telemetry_bus.publish("agents_by_location_type_counts.update", self.clock, self.agents_by_location_type_counts)
         self.telemetry_bus.publish("agents_by_activity_counts.update", self.clock, self.agents_by_activity_counts)
