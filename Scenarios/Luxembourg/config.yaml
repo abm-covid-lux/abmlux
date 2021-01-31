@@ -135,8 +135,8 @@ reporters:
     filename: /tmp/testing_events.csv
   csv.ExposureEvents:
     filename: /tmp/exposure_events.csv
-  csv.ContactCounts:
-    filename: /tmp/average_contact_counts.csv
+  # csv.ContactCounts:
+  #   filename: /tmp/average_contact_counts.csv
   csv.VaccinationEvents:
     filename: /tmp/vaccination_events.csv
 #  effective_reproduction_number.EffectiveReproductionNumber:
@@ -223,7 +223,8 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 161080
+  n: 626108
+  #n: 10000
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -975,7 +976,7 @@ interventions:
     __schedule__:
       17th May 2020: enable
       18th May 2020: {"invitations_per_day": 1937}
-      19th May 2020: {"invitations_per_day": 0}      
+      19th May 2020: {"invitations_per_day": 0}
       25th May 2020: {"invitations_per_day": 58381}
       26th May 2020: {"invitations_per_day": 0}
       2nd June 2020: {"invitations_per_day": 47487}
@@ -1041,7 +1042,7 @@ interventions:
       {1: 106, 2: 122, 3: 102, 4: 81, 5: 50, 6: 37, 7: 37, 8: 26, 9: 26, 10: 23, 11: 23, 12: 19, 13: 19, 14: 9, 15: 9, 16: 12, 17: 12, 18: 11, 19: 11, 20: 7, 21: 7, 22: 6, 23: 6, 24: 9, 25: 9, 26: 7, 27: 7, 28: 6, 29: 6, 30: 8, 31: 8, 32: 7, 33: 7, 34: 6, 35: 6, 36: 4, 37: 4, 38: 5, 39: 5, 40: 4, 41: 4, 42: 3, 43: 3, 44: 3, 45: 3, 46: 3, 47: 2, 48: 2, 49: 2, 50: 2, 51: 2, 52: 2, 53: 2, 54: 2, 55: 2, 56: 2, 57: 1, 58: 1, 59: 1, 60: 1, 61: 1, 62: 1, 63: 1, 64: 1, 65: 1, 66: 1, 67: 1, 68: 1, 69: 1, 70: 1, 71: 1, 72: 1, 73: 1, 74: 1, 75: 1}
 
 
-  # The intervention 'other_testing' refers to situations where an agent books a test without having
+  # The intervention 'prescription_testing' refers to situations where an agent books a test without having
   # been directed to do so by any of the other interventions. Chief among these are the situations in
   # which an agent voluntarily books a test having developed symptoms.
   prescription_testing:
@@ -1076,7 +1077,7 @@ interventions:
     symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
 
 
-  # The intervention 'test_sampling' refers to lab testing. If an agent is tested and if the agent is
+  # The intervention 'test_lab' refers to lab testing. If an agent is tested and if the agent is
   # is either incubating or contagious with the virus, then the test returns a positive result, except
   # in the case of a false postive, while if the agent is not either incubating or contagious with the
   # virus, then the test returns a negative results, except in the case of a false negative.
@@ -1342,7 +1343,7 @@ interventions:
       04 November 2020: {max_tests_per_day: 14376}
       05 November 2020: {max_tests_per_day: 14929}
     # Maximum number of tests performed each day, with additional tests booked being cancelled:
-    max_tests_per_day: 0
+    max_tests_per_day: 1
     # The probability of a false positive:
     prob_false_positive: 0.01
     # The probability of a false negative:
@@ -1358,54 +1359,77 @@ interventions:
     # Agents in the following states can transmit the virus:
     contagious_states: [ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING]
 
+  # # The intervention 'contact_tracing_app' refers to contact tracing perform not manually, but via an
+  # # application installed on the phones of agents. A certain proportion of the population is assumed
+  # # to possess the app from the very beginning. The app works according to the Corona-Warn-App, which
+  # # is the official COVID-19 exposure notification app developed for Germany. The window of time over
+  # # which contacts are considered is specified.
+  # contact_tracing_app:
+  #   __type__: contact_tracing.ContactTracingApp
+  #   __prng_seed__: 999
+  #   __enabled__: false
+  #   __schedule__:
+  #     3rd March 2020: enable
+  #   # Proportion of population who have the app:
+  #   app_prevalence: 0.2
+  #   # The window of time over which contacts are considered:
+  #   tracing_time_window_days: 14
+  #   # Contacts are assumed to occur when two agents are in the same location at the same time. So long
+  #   # as the tick length is at least 600 seconds, this assumption implies the following vaules for the
+  #   # app parameters, full details of which are described in the documentation of the Corona-Warn-App:
+  #   duration_wgt: 1
+  #   attenuation_wgt: 1
+  #   days_since_last_expsr_wgt: 5
+  #   # The risk level is calculated according to the base case specified by the Corona-Warn-App, the
+  #   # units of the indices being days and the length of which should be equal to the window length:
+  #   trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
+  #   # Threshold parameters as specified by the Corona-Warn-App:
+  #   trans_risk_threshold: 11
+  #   time_at_risk_threshold_mins: 15
+  #   # Average risk used in calculating total time at risk, as specified by the Corona-Warn-App:
+  #   av_risk_mins: 25
+  #   # Agents follow the advice to quarantine and immediately book a test with the following
+  #   # probability:
+  #   prob_do_recommendation: 1.0
+  #   # Locations except from the contact tracing proceedure are as follows:
+  #   location_blacklist: [Outdoor, Cemetery, Belgium, France, Germany]
 
-  # The intervention 'contact_tracing_app' refers to contact tracing perform not manually, but via an
-  # application installed on the phones of agents. A certain proportion of the population is assumed
-  # to possess the app from the very beginning. The app works according to the Corona-Warn-App, which
-  # is the official COVID-19 exposure notification app developed for Germany. The window of time over
-  # which contacts are considered is specified.
-  contact_tracing_app:
-    __type__: contact_tracing.ContactTracingApp
-    __prng_seed__: 999
-    __enabled__: false
-    __schedule__:
-    # Proportion of population who have the app:
-    app_prevalence: 0.2
-    # The window of time over which contacts are considered:
-    tracing_time_window_days: 14
-    # Contacts are assumed to occur when two agents are in the same location at the same time. So long
-    # as the tick length is at least 600 seconds, this assumption implies the following vaules for the
-    # app parameters, full details of which are described in the documentation of the Corona-Warn-App:
-    duration_wgt: 1
-    attenuation_wgt: 1
-    days_since_last_expsr_wgt: 5
-    # The risk level is calculated according to the base case specified by the Corona-Warn-App, the
-    # units of the indices being days and the length of which should be equal to the window length:
-    trans_risk_level_base_case: [5, 6, 8, 8, 8, 5, 3, 1, 1, 1, 1, 1, 1, 1]
-    # Threshold parameters as specified by the Corona-Warn-App:
-    trans_risk_threshold: 11
-    time_at_risk_threshold_mins: 15
-    # Average risk used in calculating total time at risk, as specified by the Corona-Warn-App:
-    av_risk_mins: 25
-    # Agents follow the advice to quarantine and immediately book a test with the following
-    # probability:
-    prob_do_recommendation: 1.0
-    # Locations except from the contact tracing proceedure are as follows:
-    location_blacklist: [Outdoor, Cemetery, Belgium, France, Germany]
+  # # The intervention 'contact_tracing_manual' refers to the manual tracing of contacts of agents with postive
+  # # test results. The maximum number of positive agents whose contacts can be traced is specified, as
+  # # is the window of time over which such contacts are registered. Contacts are considered to be
+  # # agents who performed one of the specified regular activities in the same location as the agent, so
+  # # long as the agent was also performing one such activity. For example, if the agent was working in
+  # # a given location and another agent was also working there, at the same time, then the agent would
+  # # remember the contact with the other agent. Conversely, if the location was, for example, a shop
+  # # with the other agent only shopping there, then the first agent would not remember this. Other
+  # # agents traced though this proceedure are instructed to get tested and quarantine in the meantime.
+  # # With a certain probability, agents do not follow this advice and continue as normal.
+  # contact_tracing_manual:
+  #   __type__: contact_tracing.ContactTracingManual
+  #   __prng_seed__: 999
+  #   __enabled__: false
+  #   __schedule__:
+  #     20th April 2020: enable
+  #     1st July 2020: {max_per_day: 200}
+  #     1st August 2020: {max_per_day: 350}
+  #     1st September 2020: {max_per_day: 500}
+  #     1st November 2020: {max_per_day: 600}
+  #   # The maximum number of positive agents whose contacts can be tested each day:
+  #   max_per_day: 100
+  #   # The window of time over which contacts are considered:
+  #   tracing_time_window_days: 2
+  #   # The activities considered relevant for the purposes of contact tracing:
+  #   relevant_activities: [House, Work, School, Visit]
+  #   # Agents follow the advice to quarantine and immediately book a test with the following
+  #   # probability:
+  #   prob_do_recommendation: 1.0
+  #   # Locations except from the contact tracing proceedure are as follows:
+  #   location_type_blacklist: [Cemetery, Outdoor, Belgium, France, Germany]
 
-
-  # The intervention 'contact_tracing' refers to the manual tracing of contacts of agents with postive
-  # test results. The maximum number of positive agents whose contacts can be traced is specified, as
-  # is the window of time over which such contacts are registered. Contacts are considered to be
-  # agents who performed one of the specified regular activities in the same location as the agent, so
-  # long as the agent was also performing one such activity. For example, if the agent was working in
-  # a given location and another agent was also working there, at the same time, then the agent would
-  # remember the contact with the other agent. Conversely, if the location was, for example, a shop
-  # with the other agent only shopping there, then the first agent would not remember this. Other
-  # agents traced though this proceedure are instructed to get tested and quarantine in the meantime.
-  # With a certain probability, agents do not follow this advice and continue as normal.
-  contact_tracing_manual:
-    __type__: contact_tracing.ContactTracingManual
+  # The intervention 'contact_tracing_manual_fast' refers to a simplified implementation of manual
+  # contact tracing.
+  contact_tracing_manual_fast:
+    __type__: contact_tracing.ContactTracingManualFast
     __prng_seed__: 999
     __enabled__: false
     __schedule__:
@@ -1416,16 +1440,16 @@ interventions:
       1st November 2020: {max_per_day: 600}
     # The maximum number of positive agents whose contacts can be tested each day:
     max_per_day: 100
-    # The window of time over which contacts are considered:
-    tracing_time_window_days: 2
     # The activities considered relevant for the purposes of contact tracing:
-    relevant_activities: [House, Work, School, Visit]
-    # Agents follow the advice to quarantine and immediately book a test with the following
-    # probability:
-    prob_do_recommendation: 1.0
+    home_activity: House
+    school_activity: School
+    work_activity: Work
+    # Age brackets:
+    min_school: 4
+    min_work: 18
+    max_work: 65
     # Locations except from the contact tracing proceedure are as follows:
-    location_type_blacklist: [Cemetery, Outdoor, Belgium, France, Germany]
-
+    location_type_blacklist: [Belgium, France, Germany]
 
   # The intervention 'quarantine' directs agents to return home, under certain conditions. The list of
   # possible conditions includes that the agent has tested positive, the agent has been recommended to
@@ -1456,7 +1480,6 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
     # home_activity_type: Outdoor
-
 
   # The interventions 'location_closure' refer to closure of all locations of a certain type. In the
   # event that an agent would otherwise move to such a location, that move will be cancelled or
@@ -1637,7 +1660,6 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-    
   # The interventions 'work_from_home' direct people to work from home, with a certain probability
   work_from_home_ow_ict_finance:
     __type__: work_from_home.WorkFromHome
@@ -1715,7 +1737,7 @@ interventions:
     # are directed to the location at which they perform the activity 'House':
     home_activity_type: House
     work_activity_type: Work
- 
+
   work_from_home_ow_other_activities:
     __type__: work_from_home.WorkFromHome
     __prng_seed__: 999
@@ -1740,7 +1762,6 @@ interventions:
     # are directed to the location at which they perform the activity 'House':
     home_activity_type: House
     work_activity_type: Work
-
 
   # The interventions 'curfew' directs people to stay home between certain times.
   curfew:
@@ -1790,7 +1811,7 @@ interventions:
     # perform the activity 'House':
     home_activity_type: House
 
-  # The intervention 'vaccination_a' refers to vaccination based on a strategy that prioritizes
+  # The intervention 'vaccination' refers to vaccination based on a strategy that prioritizes
   # care home residents and workers, then frontline health workers and then the remainder of the
   # population according to age, starting with the oldest. In this simple implementation, the
   # vaccine causes either total or no immunity with a certain probability, requires two doses, and
@@ -1805,7 +1826,7 @@ interventions:
       1st January 2021: {max_first_doses_per_day: 500}
     # This controls how many first doses are able to be distributed per day. The total number
     # of doses per day will be this number plus the number of second doses delivered that day.
-    max_first_doses_per_day: 0
+    max_first_doses_per_day: 500
     # The probability that the vaccine protects an individual against disease. Note that if the
     # probability that the first dose is successful is p_1 and the probability that the second dose
     # is successful is p_2 then the probability that the agent is immunized after the second dose
