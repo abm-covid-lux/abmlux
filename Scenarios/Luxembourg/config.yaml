@@ -135,8 +135,8 @@ reporters:
     filename: /tmp/testing_events.csv
   csv.ExposureEvents:
     filename: /tmp/exposure_events.csv
-  csv.ContactCounts:
-    filename: /tmp/average_contact_counts.csv
+  # csv.ContactCounts:
+  #   filename: /tmp/average_contact_counts.csv
   csv.VaccinationEvents:
     filename: /tmp/vaccination_events.csv
 #  effective_reproduction_number.EffectiveReproductionNumber:
