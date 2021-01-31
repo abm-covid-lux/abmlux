@@ -52,6 +52,10 @@ class WorkFromHome(Intervention):
     def refresh_working_from_home_dict(self, clock, t):
         """Refresh list of agents working from home"""
 
+        # If disabled, don't intervene
+        if not self.enabled:
+            return
+
         for agent in self.affected_agents:
             self.working_from_home[agent] = self.prng.boolean(self.prob_work_from_home)
 

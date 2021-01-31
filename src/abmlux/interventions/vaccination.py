@@ -26,14 +26,15 @@ class Vaccination(Intervention):
         # This controls how many first doses are able to be distributed per day. The total number
         # of doses per day will be this number plus the number of second doses delivered that day.
         self.scale_factor = sim.world.scale_factor
-        self.max_first_doses_per_day = math.ceil(self.scale_factor * self.config['max_first_doses_per_day'])
+        self.max_first_doses_per_day = self.config['max_first_doses_per_day']
 
         # A certain amount of time after the first dose, a second dose will be administered
-        self.time_between_doses_ticks = int(sim.clock.days_to_ticks(int(self.config['time_between_doses_days'])))
+        time_between_doses_days       = int(self.config['time_between_doses_days'])
+        self.time_between_doses_ticks = int(sim.clock.days_to_ticks(time_between_doses_days))
         self.second_dose_events = DeferredEventPool(self.bus, sim.clock)
 
         self.bus.subscribe("notify.time.midnight", self.midnight, self)
-        self.bus.subscribe("notify.testing.result", self.update_vaccination_priority_list, self)
+        # self.bus.subscribe("notify.testing.result", self.update_vaccination_priority_list, self)
         self.bus.subscribe("request.vaccination.second_dose", self.administer_second_dose, self)
 
         # A list of agents to be vaccinated
@@ -82,7 +83,8 @@ class Vaccination(Intervention):
                 if agent.age >= age_high:
                     agent_wants_vaccination = self.prng.boolean(prob_high)
                 if agent_wants_vaccination:
-                    if home_location.typ in care_home_location_type or work_location.typ in care_home_location_type:
+                    if home_location.typ in care_home_location_type or\
+                       work_location.typ in care_home_location_type:
                         carehome_residents_workers.append(agent)
                     elif work_location.typ in hospital_location_type:
                         hospital_workers.append(agent)
@@ -97,23 +99,23 @@ class Vaccination(Intervention):
         other_agents.sort(key=return_age, reverse=True)
 
         # Combine these lists together to get the order of agents to be vaccinated
-        self.vaccination_priority_list = carehome_residents_workers + hospital_workers + other_agents
+        self.vaccination_priority_list = carehome_residents_workers + hospital_workers\
+                                                                    + other_agents
 
-    def update_vaccination_priority_list(self, agent, test_result):
-        """Agents who have tested positive are removed from the list of agents to be vaccinated"""
+    # def update_vaccination_priority_list(self, agent, test_result):
+    #     """Agents who have tested positive are removed from the list of agents to be vaccinated"""
 
-        if test_result:
-            try:
-                self.vaccination_priority_list.remove(agent)
-            except ValueError:
-                pass
+    #     if test_result:
+    #         try:
+    #             self.vaccination_priority_list.remove(agent)
+    #         except ValueError:
+    #             pass
 
     def administer_second_dose(self, agent):
         """Administers agents with a second dose of the vaccine"""
 
         if self.prng.boolean(self.prob_second_dose_successful):
             agent.vaccinated = True
-        # self.bus.publish("notify.vaccination.second_dose", agent)
 
     def midnight(self, clock, t):
         """At midnight, remove from the priority list agents who have tested positive that day
@@ -125,7 +127,8 @@ class Vaccination(Intervention):
         if self.max_first_doses_per_day == 0:
             return
 
-        num_to_vaccinate = min(math.ceil(self.scale_factor * self.max_first_doses_per_day), len(self.vaccination_priority_list))
+        max_rescaled =  math.ceil(self.scale_factor * self.max_first_doses_per_day)
+        num_to_vaccinate = min(max_rescaled, len(self.vaccination_priority_list))
 
         agents_to_vaccinate = self.vaccination_priority_list[0:num_to_vaccinate]
         del self.vaccination_priority_list[0:num_to_vaccinate]
@@ -134,10 +137,12 @@ class Vaccination(Intervention):
         for agent in agents_to_vaccinate:
             if self.prng.boolean(self.prob_first_dose_successful):
                 agent.vaccinated = True
-            # self.bus.publish("notify.vaccination.first_dose", agent)
-            self.second_dose_events.add("request.vaccination.second_dose", self.time_between_doses_ticks, agent)
+            self.second_dose_events.add("request.vaccination.second_dose",
+                                        self.time_between_doses_ticks, agent)
 
             # For telemetry
-            agent_data.append([agent.age, agent.health, agent.nationality, self.home_location_type_dict[agent], self.work_location_type_dict[agent]])
+            agent_data.append([agent.age, agent.health, agent.nationality,
+                               self.home_location_type_dict[agent],
+                               self.work_location_type_dict[agent]])
 
         self.report("notify.vaccination.first_doses", clock, agent_data)
