@@ -26,6 +26,8 @@ class Curfew(Intervention):
         self.start_time = datetime.time(self.config['start_time'])
         self.end_time   = datetime.time(self.config['end_time'])
 
+        self.active = False
+
         self.bus.subscribe("notify.time.tick", self.handle_time_change, self)
         self.bus.subscribe("request.agent.location", self.handle_location_change, self)
 
@@ -33,19 +35,19 @@ class Curfew(Intervention):
         """If the time moves within a certain interval, then enable the curfew, else disable"""
 
         current_time = clock.now()
-
-        if current_time.time() >= self.start_time or current_time.time() <= self.end_time:
-            if not self.enabled:
-                self.enable()
+        if current_time.time() >= self.start_time or current_time.time() < self.end_time:
+            self.active = True
         else:
-            if self.enabled:
-                self.disable()
+            self.active = False
 
     def handle_location_change(self, agent, new_location):
         """If the new location is in the blacklist, send the agent home."""
 
         # If disabled, don't intervene
         if not self.enabled:
+            return
+
+        if not self.active:
             return
 
         if new_location.typ in self.curfew_locations:

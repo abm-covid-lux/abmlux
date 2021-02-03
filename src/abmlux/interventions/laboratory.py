@@ -1,6 +1,7 @@
 """Represents laboratory testing and test booking system."""
 
 import logging
+import math
 
 from abmlux.sim_time import DeferredEventPool
 from abmlux.interventions import Intervention
@@ -34,13 +35,12 @@ class Laboratory(Intervention):
         self.clock = sim.clock
         self.scale_factor = sim.world.scale_factor
 
-        self.home_activity_type  = sim.activity_manager.as_int(self.config['home_activity_type'])
-        self.max_tests_per_day = int(self.config['max_tests_per_day'] * self.scale_factor)
+        self.home_activity_type = sim.activity_manager.as_int(self.config['home_activity_type'])
+        self.max_tests_per_day = self.config['max_tests_per_day']
 
         self.do_test_to_test_results_ticks = \
             int(sim.clock.days_to_ticks(self.config['do_test_to_test_results_days']))
-        self.infected_states = \
-            set(self.config['incubating_states']).union(set(self.config['contagious_states']))
+        self.infected_states = self.config['incubating_states'] + self.config['contagious_states']
 
         self.agents = sim.world.agents
 
@@ -74,7 +74,7 @@ class Laboratory(Intervention):
         if not self.enabled:
             return
 
-        if self.tests_performed_today >= int(self.max_tests_per_day * self.scale_factor):
+        if self.tests_performed_today >= math.ceil(self.max_tests_per_day * self.scale_factor):
             return
 
         test_result = False
@@ -104,7 +104,7 @@ class TestBooking(Intervention):
     def __init__(self, config, init_enabled):
         super().__init__(config, init_enabled)
 
-        self.symptomatic_states   = set(config['symptomatic_states'])
+        self.symptomatic_states   = config['symptomatic_states']
         self.agents_awaiting_test = set()
 
     def init_sim(self, sim):

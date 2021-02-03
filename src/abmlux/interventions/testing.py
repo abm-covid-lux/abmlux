@@ -23,7 +23,7 @@ class LargeScaleTesting(Intervention):
         super().init_sim(sim)
 
         self.scale_factor = sim.world.scale_factor
-        self.invitations_per_day = math.ceil(self.scale_factor * self.config['invitations_per_day'])
+        self.invitations_per_day = self.config['invitations_per_day']
 
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
         self.world               = sim.world
@@ -54,7 +54,6 @@ class LargeScaleTesting(Intervention):
             return
 
         num_invitations = math.ceil(self.scale_factor * self.invitations_per_day)
-
         # Invite for testing by random selection:
         test_agents_random = self.prng.random_sample(self.world.agents, num_invitations)
         for agent in test_agents_random:
@@ -73,7 +72,7 @@ class PrescriptionTesting(Intervention):
         self.onset_of_symptoms_to_test_booking = \
             int(sim.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states  = set(self.config['symptomatic_states'])
+        self.symptomatic_states  = self.config['symptomatic_states']
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)

@@ -3,6 +3,7 @@
 import math
 import logging
 from collections import deque, defaultdict
+from ordered_set import OrderedSet
 
 from abmlux.interventions import Intervention
 
@@ -11,6 +12,98 @@ log = logging.getLogger("contact_tracing")
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
 #pylint: disable=attribute-defined-outside-init
+
+class ContactTracingManualFast(Intervention):
+    """This is a faster, simplified version of ContactTracingManual"""
+
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
+
+        self.register_variable('max_per_day')
+
+    def init_sim(self, sim):
+
+        self.scale_factor            = sim.world.scale_factor
+        self.max_per_day             = self.config['max_per_day']
+        self.location_type_blacklist = self.config['location_type_blacklist']
+        self.home_activity           = sim.activity_manager.as_int(self.config['home_activity'])
+        self.school_activity         = sim.activity_manager.as_int(self.config['school_activity'])
+        self.work_activity           = sim.activity_manager.as_int(self.config['work_activity'])
+        self.min_school              = self.config['min_school']
+        self.min_work                = self.config['min_work']
+        self.max_work                = self.config['max_work']
+        self.bus                     = sim.bus
+
+        # Keep state on who has been colocated with whom while peforming relevant activities
+        self.regular_contacts = defaultdict(OrderedSet)
+        regular_locations = defaultdict(OrderedSet)
+
+        # Keeps track of the number of agents whose contacts are notified, since this should not
+        # exceed the daily capacity of the contact tracing system
+        self.daily_notification_count = 0
+
+        # Listen for interesting things
+        self.bus.subscribe("notify.time.midnight", self.reset_counter, self)
+        self.bus.subscribe("notify.testing.result", self.notify_if_testing_positive, self)
+
+        def add_location(agent, regular_locations, location, blacklist):
+            """Adds location to the regular locations dict"""
+
+            if location.typ not in blacklist:
+                if location in regular_locations:
+                    regular_locations[location].add(agent)
+                else:
+                    regular_locations[location] = OrderedSet([agent])
+
+        # Prepare dictionary of locations at which agents perform regular activities together with
+        # who performs them there
+        for agent in sim.world.agents:
+            home_location = agent.locations_for_activity(self.home_activity)[0]
+            add_location(agent, regular_locations, home_location, self.location_type_blacklist)
+            if agent.age >= self.min_school and agent.age < self.min_work:
+                school_location = agent.locations_for_activity(self.school_activity)[0]
+                add_location(agent, regular_locations, school_location, self.location_type_blacklist)
+            if agent.age >= self.min_work and agent.age < self.max_work:
+                work_location = agent.locations_for_activity(self.work_activity)[0]
+                add_location(agent, regular_locations, work_location, self.location_type_blacklist)
+        # Construct a dict which for each agents assigns a set of other agents who perform a regular
+        # activity in the same location as the agent, subject to the constaints
+        for regular_location in regular_locations:
+            for agent in regular_locations[regular_location]:
+                self.regular_contacts[agent].update(regular_locations[regular_location])
+        # Remove agents from their own lists
+        for agent in self.regular_contacts:
+            self.regular_contacts[agent].remove(agent)
+
+    def notify_if_testing_positive(self, agent, result):
+        """If the contact tracing system is not overcapacity, then agents newly testing positive
+        will have their contacts selected for testing and quarantine."""
+
+        # If disabled, stop this mechanism
+        if not self.enabled:
+            return
+
+        # We can only respond to this many positive tests per day
+        if self.daily_notification_count > self.scale_factor * self.max_per_day:
+            return
+
+        # Don't respond if the person has tested false
+        if not result:
+            return
+
+        # Look up people with whom this agent has regular contact and send them a message to get
+        # tested and quarantine.
+        for other_agent in self.regular_contacts[agent]:
+            self.bus.publish("request.testing.book_test", other_agent)
+            self.bus.publish("request.quarantine.start", other_agent)
+
+        self.daily_notification_count += 1
+
+    def reset_counter(self, clock, t):
+        """Reset the daily counter"""
+
+        self.daily_notification_count = 0
+
 class ContactTracingManual(Intervention):
     """The intervention ContactTracingManual refers to the manual tracing of contacts of agents with
     postive test results. The maximum number of positive agents whose contacts can be traced is
@@ -32,10 +125,10 @@ class ContactTracingManual(Intervention):
     def init_sim(self, sim):
 
         self.scale_factor             = sim.world.scale_factor
-        self.max_per_day              = self.scale_factor * self.config['max_per_day']
+        self.max_per_day              = self.config['max_per_day']
         self.tracing_time_window_days = self.config['tracing_time_window_days']
-        self.relevant_activities      = {sim.activity_manager.as_int(x) for x in \
-                                         self.config['relevant_activities']}
+        self.relevant_activities      = [sim.activity_manager.as_int(x) for x in \
+                                         self.config['relevant_activities']]
         self.prob_do_recommendation   = self.config['prob_do_recommendation']
         self.location_type_blacklist  = self.config['location_type_blacklist']
 
@@ -45,12 +138,12 @@ class ContactTracingManual(Intervention):
 
         # Keep state on who has been colocated with whom while peforming relevant activities
         self.regular_contacts_archive = deque(maxlen=self.tracing_time_window_days)
-        self.regular_contacts_archive.appendleft(defaultdict(set))
+        self.regular_contacts_archive.appendleft(defaultdict(OrderedSet))
 
         # Keep state on who has been colocated with whom regardless of performed activities. Note
         # that this archive is not used by the intervention. It is recorded only for telemetry
         # purposes
-        self.total_contacts_archive = defaultdict(set)
+        self.total_contacts_archive = defaultdict(OrderedSet)
 
         # Keeps track of the number of agents whose contacts are notified, since this should not
         # exceed the daily capacity of the contact tracing system
@@ -94,16 +187,18 @@ class ContactTracingManual(Intervention):
         regular_contact_counts = {}
         for agent in self.regular_contacts_archive[0]:
             num_regular_contacts = len(self.regular_contacts_archive[0][agent]) - 1
-            regular_contact_counts[num_regular_contacts] = regular_contact_counts.get(num_regular_contacts, 1) + 1
+            regular_contact_counts[num_regular_contacts] =\
+                regular_contact_counts.get(num_regular_contacts, 1) + 1
         total_contact_counts = {}
         for agent in self.total_contacts_archive:
             num_total_contacts = len(self.total_contacts_archive[agent]) - 1
-            total_contact_counts[num_total_contacts] = total_contact_counts.get(num_total_contacts, 1) + 1
+            total_contact_counts[num_total_contacts] =\
+                total_contact_counts.get(num_total_contacts, 1) + 1
         self.report("contact_data", clock, regular_contact_counts, total_contact_counts)
 
         # Update contact lists
-        self.regular_contacts_archive.appendleft(defaultdict(set))
-        self.total_contacts_archive = defaultdict(set)
+        self.regular_contacts_archive.appendleft(defaultdict(OrderedSet))
+        self.total_contacts_archive = defaultdict(OrderedSet)
         self.daily_notification_count = 0
 
     def handle_location_change(self, agent, old_location):
@@ -118,18 +213,20 @@ class ContactTracingManual(Intervention):
             return
 
         # Collect the set of all agents in the current location
-        total_local_agents = set().union(*self.sim.attendees_by_activity[agent.current_location].values())
+        total_local_agents = [a for a_act in
+            list(self.sim.attendees_by_activity[agent.current_location].values()) for a in a_act]
 
         # If the agent is the only one present then nothing more needs to be done
         if len(total_local_agents) <= 1:
             return
 
         # Now collect the subset of all regular agents in the current location
-        regular_local_agents = set().union(*[self.sim.attendees_by_activity[agent.current_location][act] for act in self.relevant_activities])
+        regular_local_agents = [a for act in self.relevant_activities for
+            a in self.sim.attendees_by_activity[agent.current_location][act]]
 
         # Add the local agents to the contacts archive of the newly arrived agent
-        self.regular_contacts_archive[0][agent].update(regular_local_agents)
-        self.total_contacts_archive[agent].update(total_local_agents)
+        self.regular_contacts_archive[0][agent].update(OrderedSet(regular_local_agents))
+        self.total_contacts_archive[agent].update(OrderedSet(total_local_agents))
 
         # Add the newly arrived agent to the contacts archive of the agents already present
         for local_agent in total_local_agents:
@@ -232,7 +329,7 @@ class ContactTracingApp(Intervention):
         agents_with_app_loc_cache = {}
         for agent in self.agents_with_app:
             location = agent.current_location
-            local_agents = set().union(*attendees[location].values())
+            local_agents = [a for a_act in list(attendees[agent.current_location].values()) for a in a_act]
             if len(local_agents) <= 1 or location.typ in self.location_type_blacklist:
                 continue
             # Keep track of locations we've seen before

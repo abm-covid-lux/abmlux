@@ -1,9 +1,7 @@
 """Disease models based on discrete compartments with transition probabilities"""
 
 import logging
-import numpy as np
 from tqdm import tqdm
-from collections import defaultdict
 
 from abmlux.disease_model import DiseaseModel
 
@@ -19,11 +17,12 @@ class CompartmentalModel(DiseaseModel):
         self.inf_probs                  = config['infection_probabilities_per_tick']
         self.num_initial_infections     = config['initial_infections']
         self.random_exposures           = config['random_exposures']
+        self.resident_nationality       = config['resident_nationality']
 
-        self.susceptible_states         = set(config['susceptible_states'])
-        self.incubating_states          = set(config['incubating_states'])
-        self.asymptomatic_states        = set(config['asymptomatic_states'])
-        self.symptomatic_states         = set(config['symptomatic_states'])
+        self.susceptible_states         = config['susceptible_states']
+        self.incubating_states          = config['incubating_states']
+        self.asymptomatic_states        = config['asymptomatic_states']
+        self.symptomatic_states         = config['symptomatic_states']
 
         self.asympt_factor              = config['asympt_factor']
         self.durations_by_profile       = config['durations_by_profile']
@@ -90,7 +89,7 @@ class CompartmentalModel(DiseaseModel):
             for i in range(len(profile)):
                 if profile[i] in self.incubating_states:
                     total_incubation_time += durations[i]
-                if profile[i] in self.asymptomatic_states.union(self.symptomatic_states):
+                if profile[i] in self.asymptomatic_states + self.symptomatic_states:
                     total_contagious_time += durations[i]
 
         average_contagious_time = total_contagious_time / (len(agents)*self.sim.clock.ticks_in_day)
@@ -108,7 +107,8 @@ class CompartmentalModel(DiseaseModel):
         # Now infect a number of agents to begin the epidemic. This moves those agents to the next
         # state listed in their disease profile.
         log.info("Infecting %i agents...", self.num_initial_infections)
-        for agent in self.prng.random_sample(agents, self.num_initial_infections):
+        resident_agents = [a for a in agents if a.nationality == self.resident_nationality]
+        for agent in self.prng.random_sample(resident_agents, self.num_initial_infections):
             self.disease_profile_index_dict[agent] = 1
             agent.health = self.disease_profile_dict[agent][1]
 
@@ -145,36 +145,36 @@ class CompartmentalModel(DiseaseModel):
         # Determine which suceptible agents are infected during this tick
         for location in self.sim.locations:
             # Extract the relavent sets of agents from the attendees dict
-            symptomatics_sets  = [self.sim.attendees_by_health[location][h] for h in self.symptomatic_states]
-            asymptomatics_sets = [self.sim.attendees_by_health[location][h] for h in self.asymptomatic_states]
+            symptomatics_lists  = [self.sim.attendees_by_health[location][h] for h in self.symptomatic_states]
+            asymptomatics_lists = [self.sim.attendees_by_health[location][h] for h in self.asymptomatic_states]
             # Take unions to get sets of symptomatic and asymptomatic agents for this location
-            symptomatics  = set().union(*symptomatics_sets)
-            asymptomatics = set().union(*asymptomatics_sets)
+            symptomatics  = [sym for sym_list in symptomatics_lists for sym in sym_list]
+            asymptomatics = [asym for asym_list in asymptomatics_lists for asym in asym_list]
             # Check if there are any symptomatics or asymptomatics in this location
             if len(symptomatics) + len(asymptomatics) > 0:
                 # If so then calculate the probabilities to be using in the transmission calculation
                 p_sym  = self.inf_probs[location.typ]*ppm_modifier[location.typ]
                 p_asym = self.asympt_factor*self.inf_probs[location.typ]*ppm_modifier[location.typ]
                 # Determine which agents are susceptible
-                susceptible_sets = [self.sim.attendees_by_health[location][h] for h in self.susceptible_states]
-                susceptibles = set().union(*susceptible_sets)
+                susceptible_lists = [self.sim.attendees_by_health[location][h] for h in self.susceptible_states]
+                susceptibles = [sus for sus_list in susceptible_lists for sus in sus_list]
                 # Loop through susceptibles and decide if each one gets infected or not
                 for agent in susceptibles:
                     # Check if the agent has been vaccinated
                     if not agent.vaccinated:
                         # Decide if this agent will be infected
-                        sym_successes = np.random.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
-                        asym_successes = np.random.binomial(len(asymptomatics), p_asym)
+                        sym_successes =  self.prng.binomial(len(symptomatics), p_sym) # TODO: optimize binomial sampling, this is slow in certain cases (see: Poisson_binomial_distribution perhapss)...
+                        asym_successes = self.prng.binomial(len(asymptomatics), p_asym)
                         # If at least one successful transmission then publish the health state change
                         if asym_successes + sym_successes > 0:
                             self.bus.publish("request.agent.health", agent, self.disease_profile_dict[agent][self.disease_profile_index_dict[agent] + 1])
                             # Decide who caused the infection
                             if self.prng.random_randrange(sym_successes + asym_successes) < sym_successes:
                                 # The case in which it was a symptomatic
-                                agent_responsible = self.prng.random_choice(list(symptomatics))
+                                agent_responsible = self.prng.random_choice(symptomatics)
                             else:
                                 # The case in which it was an asymptomatic
-                                agent_responsible = self.prng.random_choice(list(asymptomatics))
+                                agent_responsible = self.prng.random_choice(asymptomatics)
                             # Send this information to the telemetry server
                             self.report("new_infection", clock, location.typ,
                                          location.coord, agent.uuid, agent.age,
