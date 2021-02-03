@@ -219,8 +219,8 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  #n: 626108
-  n: 2000
+  n: 626108
+  #n: 2000
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
