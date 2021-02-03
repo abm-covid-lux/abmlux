@@ -56,25 +56,32 @@ class SimulationFactory:
         self.intervention_schedules = {}
 
     def set_movement_model(self, movement_model: MovementModel) -> None:
+        """Sets movement model"""
         self.movement_model = movement_model
 
     def set_disease_model(self, disease_model: DiseaseModel) -> None:
+        """Sets disease model"""
         self.disease_model = disease_model
 
     def set_activity_model(self, activity_model: ActivityModel) -> None:
+        """Sets activity model"""
         self.activity_model = activity_model
 
     def set_world_model(self, world: World) -> None:
+        """Sets world model"""
         self.world = world
 
     def set_map(self, _map: Map) -> None:
+        """Sets map"""
         self.map = _map
 
     def add_intervention(self, name: str, intervention: Intervention) -> None:
+        """Adds intervention"""
         self.interventions[name] = intervention
 
     def add_intervention_schedule(self, intervention: Intervention,
                                   schedule: dict[Union[str, int], str]) -> None:
+        """Adds intervention schedule"""
         self.intervention_schedules[intervention] = schedule
 
     def new_sim(self, telemetry_bus):

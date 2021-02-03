@@ -9,6 +9,7 @@ log = logging.getLogger("work_from_home")
 
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class WorkFromHome(Intervention):
     """With a certain probability, force people to work from home.
 

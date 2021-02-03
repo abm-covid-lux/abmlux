@@ -1,28 +1,18 @@
 """Test the stochastic world model"""
 
-from collections import defaultdict
-import os
-import os.path as osp
 import unittest
-import logging
-import sys
-from abmlux.agent import Agent
+from collections import defaultdict
+
 from abmlux.utils import instantiate_class
-from abmlux.location import Location, ETRS89_to_WGS84
-from abmlux.activity_manager import ActivityManager
-from abmlux.world import World
-from abmlux.world.world_factory import WorldFactory
 from abmlux.sim_state import SimulationFactory
 from abmlux.config import Config
 
-
-from abmlux.world.map_factory.uniform import UniformMapFactory
-from abmlux.world.world_factory.stochastic import StochasticWorldFactory
 
 class TestStochasticWorldFactory(unittest.TestCase):
     """Test the stochastic world model"""
 
     def test_world_factory(self):
+        """Tests basic features of the stochatic world factory"""
 
         config = Config("tests/test_configs/test_config_1.yaml")
         sim_factory = SimulationFactory(config)
@@ -42,8 +32,9 @@ class TestStochasticWorldFactory(unittest.TestCase):
         # Create the world, providing it with the map
         world_factory_class = config['world_factory.__type__']
         world_factory_config = config.subconfig('world_factory')
-        world_factory = instantiate_class('abmlux.world.world_factory', world_factory_class, sim_factory.map,
-                                        sim_factory.activity_manager, world_factory_config)
+        world_factory = instantiate_class('abmlux.world.world_factory', world_factory_class,
+                                          sim_factory.map, sim_factory.activity_manager,
+                                          world_factory_config)
 
         world = world_factory.get_world()
         sim_factory.set_world_model(world)
@@ -59,13 +50,15 @@ class TestStochasticWorldFactory(unittest.TestCase):
         assert len({a for a in world.agents if a.nationality == 'France'}) == 50
         assert len({a for a in world.agents if a.nationality == 'Germany'}) == 50
 
+        house_act_int = activity_manager.as_int('House')
+
         for agent in world.agents:
             if agent.nationality == 'Belgium':
-                assert agent.activity_locations[activity_manager.as_int('House')][0].typ == 'Belgium'
+                assert agent.activity_locations[house_act_int][0].typ == 'Belgium'
             if agent.nationality == 'France':
-                assert agent.activity_locations[activity_manager.as_int('House')][0].typ == 'France'
+                assert agent.activity_locations[house_act_int][0].typ == 'France'
             if agent.nationality == 'Germany':
-                assert agent.activity_locations[activity_manager.as_int('House')][0].typ == 'Germany'
+                assert agent.activity_locations[house_act_int][0].typ == 'Germany'
 
         for agent in world.agents:
             if agent.nationality != 'Luxembourg':
@@ -73,7 +66,7 @@ class TestStochasticWorldFactory(unittest.TestCase):
                 assert agent.age <= config['world_factory']['max_age_border_workers']
 
         for agent in world.agents:
-            if agent.activity_locations[activity_manager.as_int('House')][0].typ == 'Care Home':
+            if agent.activity_locations[house_act_int][0].typ == 'Care Home':
                 assert agent.age >= config['world_factory']['retired_age_limit']
 
         for location_type in config['locations']:
@@ -81,11 +74,16 @@ class TestStochasticWorldFactory(unittest.TestCase):
 
         for location_type in config['world_factory']['deterministic_location_counts']:
             if location_type == 'Primary School':
-                assert len(world.locations_for_types(location_type)) == config['world_factory']['deterministic_location_counts'][location_type]*config['world_factory']['num_classes_per_school'][location_type]
+                classes = config['world_factory']['num_classes_per_school'][location_type]
+                count = config['world_factory']['deterministic_location_counts'][location_type]
+                assert len(world.locations_for_types(location_type)) == count * classes
             elif location_type == 'Secondary School':
-                assert len(world.locations_for_types(location_type)) == config['world_factory']['deterministic_location_counts'][location_type]*config['world_factory']['num_classes_per_school'][location_type]
+                classes = config['world_factory']['num_classes_per_school'][location_type]
+                count = config['world_factory']['deterministic_location_counts'][location_type]
+                assert len(world.locations_for_types(location_type)) == count * classes
             else:
-                assert len(world.locations_for_types(location_type)) == config['world_factory']['deterministic_location_counts'][location_type]
+                count = config['world_factory']['deterministic_location_counts'][location_type]
+                assert len(world.locations_for_types(location_type)) == count
 
         occupancy_dict = defaultdict(set)
         for agent in world.agents:
@@ -95,13 +93,20 @@ class TestStochasticWorldFactory(unittest.TestCase):
             if len(occupancy_dict[home]) > 7:
                 assert home.typ in ['Care Home', 'Belgium', 'France', 'Germany']
 
-        visite_lux_lux  = world_factory._make_distribution('Visite', 'Luxembourg', 'Luxembourg', 10, 10)
-        achats_lux_lux  = world_factory._make_distribution('Achats', 'Luxembourg', 'Luxembourg', 10, 10)
-        repas_lux_lux   = world_factory._make_distribution('Repas', 'Luxembourg', 'Luxembourg', 10, 10)
-        travail_lux_lux = world_factory._make_distribution('Travail', 'Luxembourg', 'Luxembourg', 10, 10)
-        travail_bel_lux = world_factory._make_distribution('Travail', 'Belgique', 'Luxembourg', 10, 10)
-        travail_fra_lux = world_factory._make_distribution('Travail', 'France', 'Luxembourg', 10, 10)
-        travail_all_lux = world_factory._make_distribution('Travail', 'Allemagne', 'Luxembourg', 10, 10)
+        visite_lux_lux  = world_factory._make_distribution('Visite', 'Luxembourg', 'Luxembourg',
+                                                           10, 10)
+        achats_lux_lux  = world_factory._make_distribution('Achats', 'Luxembourg', 'Luxembourg',
+                                                           10, 10)
+        repas_lux_lux   = world_factory._make_distribution('Repas', 'Luxembourg', 'Luxembourg',
+                                                           10, 10)
+        travail_lux_lux = world_factory._make_distribution('Travail', 'Luxembourg', 'Luxembourg',
+                                                           10, 10)
+        travail_bel_lux = world_factory._make_distribution('Travail', 'Belgique', 'Luxembourg',
+                                                           10, 10)
+        travail_fra_lux = world_factory._make_distribution('Travail', 'France', 'Luxembourg',
+                                                           10, 10)
+        travail_all_lux = world_factory._make_distribution('Travail', 'Allemagne', 'Luxembourg',
+                                                           10, 10)
 
         assert abs(sum(visite_lux_lux.values()) - 1.0)  < 1e-9
         assert abs(sum(achats_lux_lux.values()) - 1.0)  < 1e-9
@@ -133,6 +138,7 @@ class TestStochasticWorldFactory(unittest.TestCase):
             assert len(car_house_dict[coord]) == 2
 
     def test_world_factory_large(self):
+        """Tests distance distributions of the stochatic world factory"""
 
         config = Config("tests/test_configs/test_config_2.yaml")
         sim_factory = SimulationFactory(config)
@@ -152,8 +158,9 @@ class TestStochasticWorldFactory(unittest.TestCase):
         # Create the world, providing it with the map
         world_factory_class = config['world_factory.__type__']
         world_factory_config = config.subconfig('world_factory')
-        world_factory = instantiate_class('abmlux.world.world_factory', world_factory_class, sim_factory.map,
-                                        sim_factory.activity_manager, world_factory_config)
+        world_factory = instantiate_class('abmlux.world.world_factory', world_factory_class,
+                                          sim_factory.map, sim_factory.activity_manager,
+                                          world_factory_config)
 
         world = world_factory.get_world()
         sim_factory.set_world_model(world)
@@ -167,18 +174,21 @@ class TestStochasticWorldFactory(unittest.TestCase):
         # no_workers = []
         # for location in world.locations:
         #     if location not in set(working_dict.keys()):
-        #         if location.typ not in ['Belgium', 'France', 'Germany', 'Cemetery', 'Car', 'Outdoor', 'House']:
+        #         if location.typ not in ['Belgium', 'France', 'Germany', 'Cemetery', 'Car',
+        #                                 'Outdoor', 'House']:
         #             no_workers.append(location)
         #             print([location.typ, 0])
         # worker_profiles = [[l.typ, len(working_dict[l])] for l in working_dict.keys()]
 
-        def takeFirst(elem):
+        def take_first(elem):
+            """For sorting tuples below"""
             return elem[0]
-        def takeSecond(elem):
-            return elem[1]
+        # def take_second(elem):
+        #     """For sorting tuples below"""
+        #     return elem[1]
 
         # # sort list with key
-        # worker_profiles.sort(reverse=True, key=takeSecond)
+        # worker_profiles.sort(reverse=True, key=take_second)
 
         # print(worker_profiles)
         # print(len(list(working_dict.keys())), len(no_workers))
@@ -191,13 +201,16 @@ class TestStochasticWorldFactory(unittest.TestCase):
         #     if agent.age >= 5 and agent.age < 12:
         #         assert school.typ == "Primary School"
         #     if agent.age >= 12:
-        #         assert school.typ in ['Secondary School', 'Belgium', 'France', 'Germany', 'Care Home']
+        #         assert school.typ in ['Secondary School', 'Belgium', 'France', 'Germany',
+        #                               'Care Home']
         #     if agent.age >= 5 and agent.age < 18:
         #         school_dict[school].add(agent)
         # for school in school_dict:
         #     print(school.typ, len(school_dict[school]))
 
-        activities = ['House', 'Work', 'School', 'Restaurant', 'Outdoor', 'Car', 'Public Transport', 'Shop', 'Medical', 'Place of Worship', 'Indoor Sport', 'Cinema or Theatre', 'Museum or Zoo', 'Visit']
+        activities = ['House', 'Work', 'School', 'Restaurant', 'Outdoor', 'Car', 'Public Transport',
+        'Shop', 'Medical', 'Place of Worship', 'Indoor Sport', 'Cinema or Theatre', 'Museum or Zoo',
+        'Visit']
         av_dist_dict = {}
         for activity in activities:
             total_dist = 0
@@ -219,7 +232,7 @@ class TestStochasticWorldFactory(unittest.TestCase):
             av_dist_dict[activity] = average_dist
             # print(home.distance_euclidean(location), 'meters')
             dist_list = [[a,b] for a, b in dist_dict.items()]
-            dist_list.sort(key=takeFirst)
+            dist_list.sort(key=take_first)
             # print('ACTIVITY:', activity)
             # print(dist_list)
         for activity in av_dist_dict:
