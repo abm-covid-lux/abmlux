@@ -23,7 +23,7 @@ class TestStochasticWorldFactory(unittest.TestCase):
 
         world = World(_map)
 
-        TEST_STOCHASTIC_WORLD_FACTORY_CONFIG = {'random_seed': 323, 'age_distribution': [4,5,6], 'n': 15, 'resident_nationality': 'Luxembourg', 'location_choice_fp': 'Scenarios/Luxembourg/Lux Mobil.csv'}
+        TEST_STOCHASTIC_WORLD_FACTORY_CONFIG = {'__prng_seed__': 323, 'age_distribution': [4,5,6], 'n': 15, 'resident_nationality': 'Luxembourg', 'location_choice_fp': 'Scenarios/Luxembourg/Lux Mobil.csv'}
 
         test_world_factory = StochasticWorldFactory(_map, test_activity_manager, TEST_STOCHASTIC_WORLD_FACTORY_CONFIG)
 
