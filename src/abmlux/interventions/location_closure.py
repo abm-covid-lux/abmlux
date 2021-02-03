@@ -20,6 +20,7 @@ class LocationClosures(Intervention):
         super().__init__(config, init_enabled)
 
         self.location_closures  = config['locations']
+        self.home_activity_type = None
 
     def init_sim(self, sim):
         super().init_sim(sim)

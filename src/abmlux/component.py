@@ -27,6 +27,8 @@ class Component:
         self.telemetry_bus: Optional[MessageBus] = None
         self.registered_variables: set[str] = set()
 
+        self.bus = None
+
         if "__prng_seed__" in component_config:
             self.prng = Random(self.config['__prng_seed__'])
         else:
