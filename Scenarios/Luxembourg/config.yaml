@@ -139,10 +139,6 @@ reporters:
   #   filename: /tmp/average_contact_counts.csv
   csv.VaccinationEvents:
     filename: /tmp/vaccination_events.csv
-#  effective_reproduction_number.EffectiveReproductionNumber:
-#    filename_rescaled_cum_counts: /tmp/rescaled_cum_testing_counts.csv
-#    filename_rt_estimate: /tmp/rt_estimate.csv
-#    state: LU
   csv.SecondaryInfectionCounts:
     filename: /tmp/secondary_infection_counts.csv
     #  - location_population_plots.LocationPlots:
