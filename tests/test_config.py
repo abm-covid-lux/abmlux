@@ -5,8 +5,6 @@ import tempfile
 
 from abmlux.config import Config
 
-
-
 SAMPLE_CONFIG = """---
 
 list:

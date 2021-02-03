@@ -2,9 +2,9 @@
 
 import random
 import logging
-import numpy
 import math
 from typing import Sequence, TypeVar, MutableSequence, Any, Optional
+import numpy
 
 log = logging.getLogger("random_tools")
 
@@ -114,7 +114,7 @@ class Random:
         return self.prng.choices(list(problist_dict.keys()), weights)[0]
 
 
-    def multinoulli_2d(self, problist_arr: Sequence[Sequence[float]], 
+    def multinoulli_2d(self, problist_arr: Sequence[Sequence[float]],
                       marginals: Optional[Sequence[float]]=None) -> tuple[Probability, Probability]:
         """Sample from a 2D array of weights, returning
         an (x, y) tuple within the array.

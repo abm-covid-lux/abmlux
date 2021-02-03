@@ -66,4 +66,5 @@ class TestAgent(unittest.TestCase):
         test_agent.add_activity_location("Test activity 2", [test_location_1, test_location_2])
 
         assert test_agent.locations_for_activity("Test activity 1") == [test_location_1]
-        assert test_agent.locations_for_activity("Test activity 2") == [test_location_1, test_location_2]
+        assert test_agent.locations_for_activity("Test activity 2") == [test_location_1,
+                                                                        test_location_2]

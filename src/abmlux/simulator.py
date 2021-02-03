@@ -1,26 +1,20 @@
 """Simulates an epidemic"""
 
 import logging
-from abmlux.version import VERSION
+
 from datetime import datetime
 import uuid
 from collections import defaultdict
-from random import Random
-
 from tqdm import tqdm
 
+from abmlux.version import VERSION
 from abmlux.scheduler import Scheduler
 from abmlux.messagebus import MessageBus
-from abmlux.agent import Agent
-from abmlux.location import Location
-from abmlux.disease_model import DiseaseModel
-from abmlux.interventions import Intervention
-from abmlux.world import World
-from abmlux.activity_manager import ActivityManager
-from abmlux.sim_time import SimClock
 
 log = logging.getLogger('sim')
 
+#pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class Simulator:
     """Class that simulates an outbreak."""
 
@@ -145,9 +139,12 @@ class Simulator:
                                       for l in self.locations}
         self.attendees_by_activity = {l: {self.activity_manager.as_int(act): [] for act in
                                       self.activities} for l in self.locations}
-        for a in tqdm(self.agents):
-            self.attendees_by_health[a.current_location][a.health].append(a)
-            self.attendees_by_activity[a.current_location][a.current_activity].append(a)
+        for agent in tqdm(self.agents):
+            location = agent.current_location
+            activity = agent.current_activity
+            health = agent.health
+            self.attendees_by_health[location][health].append(agent)
+            self.attendees_by_activity[location][activity].append(agent)
 
         # Notify telemetry server of simulation start, send agent ids and initial counts
         self.telemetry_bus.publish("simulation.start")

@@ -12,7 +12,6 @@ log = logging.getLogger("contact_tracing")
 # This file uses callbacks and interfaces which make this hit many false positives
 #pylint: disable=unused-argument
 #pylint: disable=attribute-defined-outside-init
-
 class ContactTracingManualFast(Intervention):
     """This is a faster, simplified version of ContactTracingManual"""
 
@@ -58,14 +57,14 @@ class ContactTracingManualFast(Intervention):
         # Prepare dictionary of locations at which agents perform regular activities together with
         # who performs them there
         for agent in sim.world.agents:
-            home_location = agent.locations_for_activity(self.home_activity)[0]
-            add_location(agent, regular_locations, home_location, self.location_type_blacklist)
+            home_loc = agent.locations_for_activity(self.home_activity)[0]
+            add_location(agent, regular_locations, home_loc, self.location_type_blacklist)
             if agent.age >= self.min_school and agent.age < self.min_work:
-                school_location = agent.locations_for_activity(self.school_activity)[0]
-                add_location(agent, regular_locations, school_location, self.location_type_blacklist)
+                school_loc = agent.locations_for_activity(self.school_activity)[0]
+                add_location(agent, regular_locations, school_loc, self.location_type_blacklist)
             if agent.age >= self.min_work and agent.age < self.max_work:
-                work_location = agent.locations_for_activity(self.work_activity)[0]
-                add_location(agent, regular_locations, work_location, self.location_type_blacklist)
+                work_loc = agent.locations_for_activity(self.work_activity)[0]
+                add_location(agent, regular_locations, work_loc, self.location_type_blacklist)
         # Construct a dict which for each agents assigns a set of other agents who perform a regular
         # activity in the same location as the agent, subject to the constaints
         for regular_location in regular_locations:
@@ -329,7 +328,8 @@ class ContactTracingApp(Intervention):
         agents_with_app_loc_cache = {}
         for agent in self.agents_with_app:
             location = agent.current_location
-            local_agents = [a for a_act in list(attendees[agent.current_location].values()) for a in a_act]
+            local_agents = [a for a_act in list(attendees[agent.current_location].values())
+                            for a in a_act]
             if len(local_agents) <= 1 or location.typ in self.location_type_blacklist:
                 continue
             # Keep track of locations we've seen before

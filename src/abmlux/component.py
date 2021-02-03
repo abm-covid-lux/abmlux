@@ -1,8 +1,15 @@
-"""Components for the simulation"""
+"""Components for the simulation. Components have:
+  - Their own config
+  - Build phase where they get ready to be passed to a simulation
+  - "start simulation" call where they know things about other components (and the messagebus)
+  during the sim
+  - Enable and disable
+  - Change the value of certain variables (pre-register at start simulation)
+  - "freeze" back into a portable component (to be put into a new simulation)
+  - Expose information to the reporter"""
 
 import logging
-import pickle
-from typing import Optional, Callable
+from typing import Optional
 
 from abmlux.random_tools import Random
 from abmlux.config import Config
@@ -66,14 +73,3 @@ class Component:
 
         self.sim = sim
         self.bus = sim.bus
-
-# # Components have
-#  - Their own config
-#  - Build phase where they get ready to be passed to a simulation
-#  - "start simulation" call where they know things about other components (and the messagebus)
-# # during the sim
-#  - Enable and disable
-#  - Change the value of certain variables (pre-register at start simulation)
-#  - "freeze" back into a portable component (to be put into a new simulation)
-#  - Expose information to the reporter (observers or publishing state?)
-#  - 

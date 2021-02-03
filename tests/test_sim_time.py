@@ -1,3 +1,5 @@
+"""Tests the clock"""
+
 from datetime import timedelta,datetime
 
 import pytest
@@ -12,6 +14,7 @@ SECONDS_IN_A_WEEK   = 7 * SECONDS_IN_A_DAY
 
 
 class TestSimClock:
+    """Tests the simulation clock"""
 
     def test_initial_state(self):
         """Ensure the clock's initial state is as expected"""
@@ -29,7 +32,7 @@ class TestSimClock:
                                         + 20
 
         # Clock hasn't started yet
-        assert clock.started == False
+        assert not clock.started
 
         # Everything should be zero
         assert clock.seconds_elapsed() == 0
@@ -49,6 +52,7 @@ class TestSimClock:
         assert clock.time_remaining() == timedelta(days=5)
 
     def test_duration(self):
+        """Tests max clock duration"""
 
         clock = st.SimClock(1, simulation_length_days=1)
 
@@ -60,6 +64,7 @@ class TestSimClock:
 
 
     def test_weekly_counter(self):
+        """Tests weekly counter"""
 
         tick_length = 600
 
@@ -89,11 +94,13 @@ class TestSimClock:
             now += timedelta(seconds=tick_length)
 
     def test_tick_length_check(self):
+        """Tests tick length"""
 
         with pytest.raises(ValueError):
             st.SimClock(1723)
 
     def test_number_of_ticks_elapsed(self):
+        """Tests elapsed tick calculation"""
 
         clock = st.SimClock(600, 100)
 
@@ -104,25 +111,23 @@ class TestSimClock:
         assert count == (100 * SECONDS_IN_A_DAY) / 600
 
     def test_clock_reset(self):
+        """Tests resetting of clock"""
 
         clock = st.SimClock(600, 100)
 
         # Run the clock
-        count = 0
         t = next(clock)
         assert t == 0
         t = next(clock)
         assert t == 1
-        assert clock.started == True
+        assert clock.started
 
         clock.reset()
-        assert clock.started == False
+        assert not clock.started
 
         # re-run the clock
-        count = 0
         t = next(clock)
         assert t == 0
         t = next(clock)
         assert t == 1
-        assert clock.started == True
-
+        assert clock.started

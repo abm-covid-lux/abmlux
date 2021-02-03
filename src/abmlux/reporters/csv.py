@@ -3,12 +3,13 @@
 import os
 import os.path
 import csv
-from collections import defaultdict
 
 from abmlux.reporters import Reporter
 
 # TODO: handle >1 sim at the same time using the run_id
 
+#pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class HealthStateCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
@@ -267,7 +268,8 @@ class QuarantineCounts(Reporter):
         header += list(resident_agents_by_health_state_counts.keys())
         self.writer.writerow(header)
 
-    def update_quarantine_counts(self, clock, num_in_quaratine, agents_in_quarantine_by_health_state, total_age):
+    def update_quarantine_counts(self, clock, num_in_quaratine,
+                                 agents_in_quarantine_by_health_state, total_age):
         """Save data and reset daily counts"""
 
         if num_in_quaratine == 0:
