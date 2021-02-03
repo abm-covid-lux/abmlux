@@ -51,7 +51,7 @@ locations:
 # Activities allowed within the simulation, and the locations that may be performed at these locations
 activities:
   House: [House, Care Home, Belgium, France, Germany]
-  Work: [Care Home, OW Agriculture, OW Extraction, OW Manufacturing, OW Energy, OW Water, OW Construction, OW Trade, OW Transport, 
+  Work: [Care Home, OW Agriculture, OW Extraction, OW Manufacturing, OW Energy, OW Water, OW Construction, OW Trade, OW Transport,
          OW Catering and Accommodation, OW ICT, OW Finance, OW Real Estate, OW Technical, OW Administration, OW Education, OW Entertainment,
          OW Other Services, Primary School, Secondary School, Restaurant, Public Transport, Shop, Medical, Hospital, Hotel, Place of Worship,
          Indoor Sport, Cinema or Theatre, Museum or Zoo]
