@@ -75,6 +75,6 @@ class CareHomeClosures(Intervention):
         if new_location.typ in self.location_closures:
             home_location = agent.locations_for_activity(self.home_activity_type)[0]
             work_location = agent.locations_for_activity(self.work_activity_type)[0]
-            if new_location != home_location and new_location != work_location:
+            if new_location not in [home_location, work_location]:
                 self.bus.publish("request.agent.location", agent, home_location)
                 return MessageBus.CONSUME
