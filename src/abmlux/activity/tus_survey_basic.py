@@ -181,10 +181,10 @@ class TUSBasicActivityModel(ActivityModel):
         """
 
         # ------------------------------------------------------------------------------------------
-        log.info("Loading time use data from %s...", self.config.filepath('time_use_filepath'))
+        log.info("Loading time use data from %s...", self.config['time_use_filepath'])
         # TODO: force pandas to read the numeric ID columns as factors or ints
         #       same for weights
-        tus = pd.read_csv(self.config.filepath('time_use_filepath'))
+        tus = pd.read_csv(self.config['time_use_filepath'])
         tus = tus.dropna()
 
         # ------------------------------------------------------------------------------------------

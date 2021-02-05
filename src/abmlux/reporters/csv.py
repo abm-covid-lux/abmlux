@@ -26,7 +26,8 @@ class HealthStateCounts(Reporter):
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -68,7 +69,8 @@ class ActivityCounts(Reporter):
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -110,7 +112,8 @@ class LocationTypeCounts(Reporter):
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -157,7 +160,8 @@ class TestingCounts(Reporter):
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -207,7 +211,8 @@ class TestingEvents(Reporter):
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -249,7 +254,8 @@ class QuarantineCounts(Reporter):
 
         # Check dir exists and open handle
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -292,7 +298,8 @@ class ExposureEvents(Reporter):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -349,7 +356,8 @@ class SecondaryInfectionCounts(Reporter):
         """Called when the simulation ends.  Closes the file handle."""
 
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -385,7 +393,8 @@ class ContactCounts(Reporter):
         """Initialize contact counts"""
 
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
@@ -434,7 +443,8 @@ class VaccinationEvents(Reporter):
         """Called when the simulation starts.  Writes headers and creates the file handle."""
 
         dirname = os.path.dirname(self.filename)
-        os.makedirs(dirname, exist_ok=True)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
         self.handle = open(self.filename, 'w')
         self.writer = csv.writer(self.handle)
 
