@@ -41,7 +41,16 @@ From: ubuntu:20.04
 
 %runscript
 
-    cd "$ABMLUX_CONFIG_PATH"
+    tmp_dir=$(mktemp -d -t abmlux-XXXXXXXXXX)
+    WORKING_DIR="${ABMLUX_CONFIG_PATH}/${OUTPUT_DIR}/"
+    echo "Copying configs from ${ABMLUX_CONFIG_PATH}/* to working dir at ${WORKING_DIR}"
+    cp "${ABMLUX_CONFIG_PATH}/${ABMLUX_CONFIG_FILENAME}" "${WORKING_DIR}"
+    cp -r "${ABMLUX_CONFIG_PATH}/*" "${WORKING_DIR}"
+
+    echo "Changing directory to ${WORKING_DIR}"
+    cd "$WORKING_DIR"
+
+    echo "Running abmlux..."
     abmlux "$ABMLUX_CONFIG_FILENAME" "$ABMLUX_STATEFILENAME"
 
 %labels

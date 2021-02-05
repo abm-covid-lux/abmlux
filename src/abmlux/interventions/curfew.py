@@ -17,16 +17,20 @@ class Curfew(Intervention):
     In response to a request to change location during these hours, this will consume the event and
     re-publish a request to change location to move home instead."""
 
+    def __init__(self, config, init_enabled):
+        super().__init__(config, init_enabled)
+
+        self.active = False
+
+        self.start_time = datetime.time(self.config['start_time'])
+        self.end_time = datetime.time(self.config['end_time'])
+        self.curfew_locations = self.config['locations']
+        self.home_activity_type = None
 
     def init_sim(self, sim):
         super().init_sim(sim)
-        self.curfew_locations   = self.config['locations']
+
         self.home_activity_type = sim.activity_manager.as_int(self.config['home_activity_type'])
-
-        self.start_time = datetime.time(self.config['start_time'])
-        self.end_time   = datetime.time(self.config['end_time'])
-
-        self.active = False
 
         self.bus.subscribe("notify.time.tick", self.handle_time_change, self)
         self.bus.subscribe("request.agent.location", self.handle_location_change, self)

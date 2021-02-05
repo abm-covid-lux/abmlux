@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 377
+random_seed: 378
 
 # The region in question:
 region: Luxembourg
@@ -78,7 +78,7 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 140
+simulation_length_days: 122
 
 # the date at which the simulation starts:
 epoch: 1st March 2020 #23th February 2020
@@ -155,7 +155,7 @@ map_factory:
   __type__: jrc.JRCMapFactory
 
   # Seed the PRNG, Used when resampling the density matrix
-  __prng_seed__: 111
+  __prng_seed__: 222
 
   # Country code to extract from the distribution data
   country_code: LU
@@ -211,7 +211,7 @@ world_factory:
   __type__: stochastic.StochasticWorldFactory
 
   # Seed the PRNG
-  __prng_seed__: 111
+  __prng_seed__: 222
 
   # The total number of resident agents on the world. If this equals the sum of age_distribution
   # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -559,7 +559,7 @@ world_factory:
 # Configures the movement model used during simulation
 movement_model:
   __type__: simple_random.SimpleRandomMovementModel
-  __prng_seed__: 888
+  __prng_seed__: 777
   # A list of all location types:
   location_types:
     - House
@@ -691,7 +691,7 @@ movement_model:
 activity_model:
 
   __type__: tus_survey_basic.TUSBasicActivityModel
-  __prng_seed__: 888
+  __prng_seed__: 777
 
   # File containing time use survey data, and see Docs for full format:
   time_use_filepath: Time Use.csv
@@ -762,7 +762,7 @@ activity_model:
 disease_model:
 
   __type__: compartmental.CompartmentalModel
-  __prng_seed__: 888
+  __prng_seed__: 777
 
   # If the PPM intervention is enabled, these must match for the model to be valid. Avoiding this
   # dependency is a TODO list item! Refers to the 10 minute tick, like transmission prob!
@@ -949,7 +949,7 @@ interventions:
   basic_hospitalisation:
     # This special key defines the class to use.
     __type__: hospitalisation.Hospitalisation
-    __prng_seed__: 999
+    __prng_seed__: 888
     # Starting state of the intervention
     __enabled__: true
     # This special key defines when to disable/enable the intervention
@@ -969,7 +969,7 @@ interventions:
   # invitations to test, across the population, according to a certain algorithm.
   large_scale_testing:
     __type__: testing.LargeScaleTesting
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       17th May 2020: enable
@@ -1044,7 +1044,7 @@ interventions:
   # which an agent voluntarily books a test having developed symptoms.
   prescription_testing:
     __type__: testing.PrescriptionTesting
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: true
     __schedule__:
     # The probability that an agent books a test at the moment they develop symptoms. This corresponds
@@ -1061,7 +1061,7 @@ interventions:
   # they request a booking.
   test_booking:
     __type__: laboratory.TestBooking
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: true
     __schedule__:
     # The time taken between the booking of a test and the time at which the test takes place, in the
@@ -1080,7 +1080,7 @@ interventions:
   # virus, then the test returns a negative results, except in the case of a false negative.
   test_lab:
     __type__: laboratory.Laboratory
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: true
     __schedule__:
       24 February 2020: {max_tests_per_day: 2}
@@ -1363,7 +1363,7 @@ interventions:
   # # which contacts are considered is specified.
   # contact_tracing_app:
   #   __type__: contact_tracing.ContactTracingApp
-  #   __prng_seed__: 999
+  #   __prng_seed__: 888
   #   __enabled__: false
   #   __schedule__:
   #     3rd March 2020: enable
@@ -1403,7 +1403,7 @@ interventions:
   # # With a certain probability, agents do not follow this advice and continue as normal.
   # contact_tracing_manual:
   #   __type__: contact_tracing.ContactTracingManual
-  #   __prng_seed__: 999
+  #   __prng_seed__: 888
   #   __enabled__: false
   #   __schedule__:
   #     20th April 2020: enable
@@ -1427,7 +1427,7 @@ interventions:
   # contact tracing.
   contact_tracing_manual_fast:
     __type__: contact_tracing.ContactTracingManualFast
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       20th April 2020: enable
@@ -1456,7 +1456,7 @@ interventions:
   # quarantines are made by other interventions.
   quarantine_at_home:
     __type__: quarantine.Quarantine
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: true
     __schedule__:
       23rd September 2020: {default_duration_days: 10}
@@ -1484,7 +1484,7 @@ interventions:
 
   location_closure_house:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1500,25 +1500,25 @@ interventions:
     home_activity_type: House
 
   location_closure_carehome:
-    __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __type__: location_closure.CareHomeClosures
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       15th March 2020: enable
       20th May 2020: disable
-    # A list of location type subject to possible closures, one of the notable exceptions being shops.
-    # Whether or not a location is closed may depend on the activity in question (for example, visits
-    # to care homes may be prohibited while residents and workers continue to be able to access the
-    # care home.
+    # The care home locaton type:
     locations:
       - Care Home
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House
+    # This particular location closure only restricts visits to care homes, meaning that those who
+    # work at a care home can still access it:
+    work_activity_type: Work
 
   location_closure_ow_general:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       19th March 2020: enable
@@ -1547,7 +1547,7 @@ interventions:
 
   location_closure_ow_construction:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       19th March 2020: enable
@@ -1566,7 +1566,7 @@ interventions:
 
   location_closure_ow_entertainment:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1583,7 +1583,7 @@ interventions:
 
   location_closure_leisure:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1604,7 +1604,7 @@ interventions:
 
   location_closure_pow:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       14th March 2020: enable
@@ -1621,7 +1621,7 @@ interventions:
 
   location_closure_primary_school:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       16th March 2020: enable
@@ -1640,7 +1640,7 @@ interventions:
 
   location_closure_secondary_school:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       16th March 2020: enable
@@ -1660,7 +1660,7 @@ interventions:
   # The interventions 'work_from_home' direct people to work from home, with a certain probability
   work_from_home_ow_ict_finance:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1680,7 +1680,7 @@ interventions:
 
   work_from_home_ow_technical:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1699,7 +1699,7 @@ interventions:
 
   work_from_home_ow_administration:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1718,7 +1718,7 @@ interventions:
 
   work_from_home_ow_education:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1737,7 +1737,7 @@ interventions:
 
   work_from_home_ow_other_activities:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1763,7 +1763,7 @@ interventions:
   # The interventions 'curfew' directs people to stay home between certain times.
   curfew:
     __type__: curfew.Curfew
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       26th October 2020: enable
@@ -1816,7 +1816,7 @@ interventions:
   # those who have tested positive will not be eligible for vaccination.
   vaccination:
     __type__: vaccination.Vaccination
-    __prng_seed__: 999
+    __prng_seed__: 888
     __enabled__: false
     __schedule__:
       31st December 2020: enable
