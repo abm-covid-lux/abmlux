@@ -1,0 +1,497 @@
+---
+# ######################################### Basic Parameters #######################################
+
+# Seed for python's PRNG:
+# random_seed: 100
+
+# The region in question:
+region: Luxembourg
+
+# A list of all location types:
+locations:
+  - House
+  - Care Home
+  - OW Agriculture
+  - OW Extraction
+  - OW Manufacturing
+  - OW Energy
+  - OW Water
+  - OW Construction
+  - OW Trade
+  - OW Transport
+  - OW Catering and Accommodation
+  - OW ICT
+  - OW Finance
+  - OW Real Estate
+  - OW Technical
+  - OW Administration
+  - OW Education
+  - OW Entertainment
+  - OW Other Services
+  - Primary School
+  - Secondary School
+  - Restaurant
+  - Outdoor
+  - Car
+  - Public Transport
+  - Shop
+  - Medical
+  - Hospital
+  - Hotel
+  - Place of Worship
+  - Indoor Sport
+  - Cinema or Theatre
+  - Museum or Zoo
+  - Belgium
+  - France
+  - Germany
+  - Cemetery
+
+
+# Activities allowed within the simulation, and the locations that may be performed at these locations
+activities:
+  House: [House, Care Home, Belgium, France, Germany]
+  Work: [Care Home, OW Agriculture, OW Extraction, OW Manufacturing, OW Energy, OW Water, OW Construction, OW Trade, OW Transport,
+         OW Catering and Accommodation, OW ICT, OW Finance, OW Real Estate, OW Technical, OW Administration, OW Education, OW Entertainment,
+         OW Other Services, Primary School, Secondary School, Restaurant, Public Transport, Shop, Medical, Hospital, Hotel, Place of Worship,
+         Indoor Sport, Cinema or Theatre, Museum or Zoo]
+  School: [Primary School, Secondary School]
+  Restaurant: [Restaurant]
+  Outdoor: [Outdoor]
+  Car: [Car]
+  Public Transport: [Public Transport]
+  Shop: [Shop]
+  Medical: [Medical]
+  Place of Worship: [Place of Worship]
+  Indoor Sport: [Indoor Sport]
+  Cinema or Theatre: [Cinema or Theatre]
+  Museum or Zoo: [Museum or Zoo]
+  Visit: [House, Care Home]
+
+
+# ######################################### Time ###################################################
+
+# Time length of each tick in the simulation. Weeks must contain the same number of ticks, because
+# we use weekly routines. This means the week length (604800) should be divisible by the follwoing
+# tick length:
+tick_length_s: 600
+
+# How long the simulation should run for, in days. Note the number of iterations will be computed
+# from the tick length above:
+simulation_length_days: 140
+
+# With syntax being anything accepted by Dateparser:
+# https://dateparser.readthedocs.io/en/latest/
+# the date at which the simulation starts:
+epoch: 1st March 2020 #23th February 2020
+
+
+
+
+# ######################################### Logging ################################################
+
+# Format is https://docs.python.org/3/library/logging.config.html#logging-config-dictschema
+logging:
+  version: 1
+  disable_existing_loggers: False
+  formatters:
+    standard:
+      # format: '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+      format: '[%(levelname)s] %(name)s: %(message)s'
+  handlers:
+    default:
+      level: INFO
+      formatter: standard
+      class: logging.StreamHandler
+      stream: 'ext://sys.stdout'  # Default is stderr
+  loggers:
+    '':   # root logger
+      handlers: ['default']
+      level: INFO
+      propagate: False
+#    'my.packg':
+#      handlers: ['default']
+#      level: INFO
+#      propagate: False
+#    '__main__':
+#        handlers': ['default']
+#        level: DEBUG
+#        propagate: False
+
+# ######################################### Map ##############################################
+
+map_factory:
+  __type__: jrc.JRCMapFactory
+
+  # Used when resampling the density matrix
+  __prng_seed__: 40
+
+  # Country code to extract from the distribution data
+  country_code: LU
+  # File containing initial distribution of population, and see Docs for full format:
+  # FIXME: this is currently not relative to config path, but relative to pwd
+  population_distribution_fp: Scenarios/Luxembourg/Population Distribution.csv
+  # Shapefile describing the borders of the country:
+  # FIXME: this is currently not relative to config path, but relative to pwd
+  shapefilename: Scenarios/Luxembourg/Map/LIMADM_CANTONS.shp
+  # The coordinate system used in the shapefile. If this is ETRS89 (EPSG: 3035) then leave it blank:
+  shapefile_coord_system: epsg:2169
+  # The following density map scale factor resamples the input map to be of higher resolution,
+  # linearly interpolating to produce a smoother population distribution without hard edges. Set
+  # this parameter equal to 1 to do no resampling:
+  res_fact: 2
+  # Density map normalization rescales population within grid squares. In particular, if the
+  # population of a certain grid square is zero before resampling and if this option is set True,
+  # then after resampling the population of that grid square will also be zero. This is therefore a
+  # modification of the linear interpolation to prevent poplation from leaking into previously
+  # unpopulated squares, with the cost being the retention of some, but not all, hard edges:
+  normalize_interpolation: True
+
+
+# ######################################### World ##############################################
+
+world_factory:
+
+  __type__: stochastic.StochasticWorldFactory
+
+  # Seed the RND, or leave blank for a timer-based seed
+  __prng_seed__: 512
+
+  # The total number of resident agents on the world. If this equals the sum of age_distribution
+  # (that is, the real total resident population) then the scale factor for the simulation will be 1,
+  # else the location counts and certain other parameters will be scaled according to the ratio of
+  # this number and the sum. Note that the true population will be somewhat larger than this number
+  # due to the inclusion of border workers (the numbers of which is again calculated using the scale
+  # factor).
+  n: 20000
+
+  # For each location type, a number of such locations will be generated. This number will be either
+  # fixed or random. The locations with a fixed count are generated according to the following real
+  # world distribution:
+  deterministic_location_counts:
+    Care Home:                        44
+    OW Agriculture:                   86
+    OW Extraction:                    11
+    OW Manufacturing:                 785
+    OW Energy:                        98
+    OW Water:                         71
+    OW Construction:                  4366
+    OW Trade:                         4684
+    OW Transport:                     1349
+    OW Catering and Accommodation:    251
+    OW ICT:                           2752
+    OW Finance:                       1241
+    OW Real Estate:                   1458
+    OW Technical:                     8349
+    OW Administration:                2433
+    OW Education:                     838
+    OW Entertainment:                 87
+    OW Other Services:                1523
+    Primary School:                   181
+    Secondary School:                 58
+    Restaurant:                       2247
+    Outdoor:                          1
+    Public Transport:                 1468
+    Shop:                             3136
+    Medical:                          125
+    Hospital:                         11
+    Hotel:                            213
+    Place of Worship:                 677
+    Indoor Sport:                     199
+    Cinema or Theatre:                34
+    Museum or Zoo:                    77
+    Cemetery:                         1
+
+  # These locations have a random count:
+  random_location_counts: [House, Car]
+
+  # The border countries, as single locations, are assigned these [lat, lon] (WGS84) coordinates:
+  border_country_coord:
+    Belgium: [49.683729, 5.814469]
+    France: [49.357664, 6.166023]
+    Germany: [49.756279, 6.643219]
+
+  # Age range of border workers
+  min_age_border_workers: 18
+  max_age_border_workers: 64
+
+  # Distribution of non-resident agents by border country.
+  border_countries_pop:
+    Belgium: 44_900
+    France:  94_600
+    Germany: 45_100
+
+  # Distribution of resident agents by age.
+  age_distribution:
+    - 6356  # 0 Years old
+    - 6604  # 1 Year old
+    - 6645
+    - 6653
+    - 6724
+    - 6837
+    - 6878
+    - 6749
+    - 6609
+    - 6921
+    - 6687 # 10 Years old
+    - 6724
+    - 6593
+    - 6598
+    - 6499
+    - 6528
+    - 6435
+    - 6499
+    - 6674
+    - 7195
+    - 7140  # 20 Years old
+    - 7113
+    - 7728
+    - 8116
+    - 8443
+    - 8949
+    - 9336
+    - 9685
+    - 9499
+    - 10104
+    - 9838 # 30 Years old
+    - 10090
+    - 9849
+    - 9989
+    - 9667
+    - 9708
+    - 9787
+    - 9922
+    - 9807
+    - 9927
+    - 9530 # 40 Years old
+    - 9518
+    - 9555
+    - 9220
+    - 9235
+    - 9170
+    - 8980
+    - 9231
+    - 9489
+    - 9264
+    - 9426 # 50 Years old
+    - 9481
+    - 9503
+    - 9256
+    - 9334
+    - 9180
+    - 8898
+    - 8494
+    - 8181
+    - 7796
+    - 7547 # 60 years old
+    - 7219
+    - 6865
+    - 6606
+    - 6238
+    - 6095
+    - 5781
+    - 5539
+    - 5019
+    - 5076
+    - 4937 # 70 years old
+    - 4811
+    - 4502
+    - 4199
+    - 3611
+    - 3557
+    - 3499
+    - 3320
+    - 3011
+    - 2905
+    - 3012 # 80 Years old
+    - 2744
+    - 2508
+    - 2328
+    - 2076
+    - 1904
+    - 1699
+    - 1551
+    - 1498
+    - 1354
+    - 1097 # 90 Years old
+    - 814
+    - 631
+    - 492
+    - 375
+    - 842 # 95+ Years old
+
+  # ######################################### Household Distribution #################################
+
+  # Distribution of numbers of children and numbers of retired, given house size. The numbers below
+  # are derived from 2001 Census data:
+  #
+  # https://statistiques.public.lu/en/population-employment/index.html
+  #
+  # Note that categories '5' and '7' were '5+' and '7+' in the 2001 Census data. Note also that
+  # 'children' in the 2001 Census data referred to ages 0-14, as opposed to 0-17. The format is:
+  #
+  #                                 Househould size
+  #                   0      1      2      3      4     5     6    7
+  #            0 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #  Number    1 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #    of      2 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #   Type     3 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #            4 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #            5 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #            6 [    x,     x,     x,     x,     x,    x,    x,   x]
+  #            7 [    x,     x,     x,     x,     x,    x,    x,   x]
+
+  # Household distribution of children:
+  household_distribution_children:
+    - [    0, 50384, 46191, 15885,  9035, 2514,  784, 276]
+    - [    0,     0,  2382, 12257,  4972, 2041,  514, 149]
+    - [    0,     0,     0,  1108, 14021, 2180,  720, 205]
+    - [    0,     0,     0,     0,   253, 4165,  622, 219]
+    - [    0,     0,     0,     0,     0,   38,  737, 150]
+    - [    0,     0,     0,     0,     0,    0,    5, 146]
+    - [    0,     0,     0,     0,     0,    0,    0,   0]
+    - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+  # Age below which an agent is considered a child
+  child_age_limit: 15
+
+  # Household distribution of retired:
+  household_distribution_retired:
+    - [    0, 33586, 30677, 25001, 26510, 9743, 2706, 821]
+    - [    0, 16798,  6893,  2388,  1240,  971,  445, 191]
+    - [    0,     0, 11003,  1656,   483,  207,  214, 112]
+    - [    0,     0,     0,   206,    36,   11,   12,  19]
+    - [    0,     0,     0,     0,    12,    4,    3,   0]
+    - [    0,     0,     0,     0,     0,    1,    2,   2]
+    - [    0,     0,     0,     0,     0,    0,    0,   0]
+    - [    0,     0,     0,     0,     0,    0,    0,   0]
+
+  # Age at or above which an agent is considered retired
+  retired_age_limit: 65
+
+  # Each carehome will be assigned a number of retired people as residents:
+  retired_per_carehome: 143
+
+  # ######################################### Workforce Distribution #################################
+
+  # For these locations, workforce weights are uniform:
+  workforce_profile_uniform:
+    Care Home:                        70
+    Primary School:                   35
+    Secondary School:                 85
+    Public Transport:                 1
+    Place of Worship:                 1
+
+  # For these locations, workforce weights are sampled from a distribution determined by the
+  # corresponding list. The format is given below:
+  workforce_profile_distribution:
+    OW Agriculture:                   [76,   8,    1,   1,    0]
+    OW Extraction:                    [3,    4,    2,   2,    0]
+    OW Manufacturing:                 [369,  201,  101, 88,  26]
+    OW Energy:                        [78,   11,   3,   5,    1]
+    OW Water:                         [29,   21,   13,  7,    1]
+    OW Construction:                  [2786, 1040, 360, 155, 25]
+    OW Trade:                         [3570, 621,  159, 83,   7]
+    OW Transport:                     [818,  299,  120, 99,  13]
+    OW Catering and Accommodation:    [1728, 829,  118, 30,   6]
+    OW ICT:                           [2313, 302,  98,  64,   9]
+    OW Finance:                       [862,  222,  57,  68,  32]
+    OW Real Estate:                   [1353, 92,   11,  2,    0]
+    OW Technical:                     [7315, 795,  153, 69,  17]
+    OW Administration:                [1958, 298,  85,  67,  25]
+    OW Education:                     [789,  41,   6,   2,    0]
+    OW Entertainment:                 [295,  47,   16,  5,    0]
+    OW Other Services:                [1290, 211,  15,  7,    0]
+    Restaurant:                       [1728, 829,  118, 30,   6]
+    Shop:                             [2519, 691,  107, 53,  10]
+    Medical:                          [13,   2,    1,   11,   0]
+    Hospital:                         [0,    0,    0,   0,    8]
+    Hotel:                            [1728, 829,  118, 30,   6]
+    Indoor Sport:                     [295,  47,   16,  5,    0]
+    Cinema or Theatre:                [2313, 302,  98,  64,   9]
+    Museum or Zoo:                    [295,  47,   16,  5,    0]
+
+  # The data format was originally [0-4, 5-19, 20-49, 50-249, 250+]. The maximum weight is now given:
+  workforce_profile_distribution_format: [[1,5], [5,20], [20,50], [50,250], [250,500]]
+
+  # ######################################### Location Choice ########################################
+
+  # The mobility data used to construct location choice functions:
+  location_choice_fp: Scenarios/Luxembourg/Lux Mobil.csv
+  # Resident nationality:
+  resident_nationality: Luxembourg
+  # Which activies are assigned locations using a distance distribution, and how many such locations
+  # can be visited by each agent:
+  activity_locations_by_distance:
+    Visit: 10
+    Restaurant: 10
+    Shop: 10
+  # When using a distance distribution, how many locations are included in the sample to which the
+  # distribution is applied, noting that a large number will result in performance issues:
+  location_sample_size: 100
+  # Which activies are assigned locations using a simple random sample, and how many such locations
+  # can be visited by each agent:
+  activity_locations_by_random:
+    Public Transport: 10
+    Cinema or Theatre: 10
+    Museum or Zoo: 10
+  # Which activies are assigned locations using a KDTree, with only one such location is assigned to
+  # each agent:
+  activity_locations_by_proximity: [Medical, Place of Worship, Indoor Sport]
+  # Which activities correspond to going to school, assigned using a KDTree:
+  school_locations_by_proximity: [School]
+  # For each of the countries listed below, a probability distribution is built on the length of trips
+  # between that country and the country being simulated. This discrete probability distribution takes
+  # the form of a histogram and is derived from data. The parameters below determine, for country
+  # of origin, the width of bins used in the corresponding histograms and the total number of bins.
+  # Distances greater than the total range of a histogram will be assigned probability zero. The
+  # units here are kilometers.
+  number_of_bins:
+    Luxembourg: 10
+    Belgium:    20
+    France:     20
+    Germany:    20
+  bin_width:
+    Luxembourg: 10
+    Belgium:    10
+    France:     10
+    Germany:    10
+  # This converts the relevant activities and countries to their labels in the trip data:
+  activity_dict:
+    Visit: Visite
+    Shop: Achats
+    Restaurant: Repas
+    Work: Travail
+  origin_country_dict:
+    Luxembourg: Luxembourg
+    Belgium: Belgique
+    France: France
+    Germany: Allemagne
+  destination_country: Luxembourg
+  # The distances referred to above are distances along a real world transportation network. This
+  # typically differs from the spherical distance. Over short distances, the spherical distance is
+  # approximately equal to the Euclidean distance. The ratio of the network distance and the Euclidean
+  # distance is called the 'network detour ratio'. The network distance is often around 1.25–1.41
+  # times the Euclidean distance. The article
+  #
+  # Hai Yanga, Jintao Kea and Jieping Ye, 'A universal distribution law of network detour ratios',
+  # Transportation Research Part C, 2018.
+  #
+  # suggests that network distance follows a distribution of the form
+  #
+  # network_distance = euclidean_distance*alpha + beta
+  #
+  # for two parameters alpha and beta, which the authors determine as follows:
+  alpha: 1.2988
+  beta:  0.3838
+
+  # Schools
+  # Number of classes per school:
+  num_classes_per_school:
+    Primary School:   17
+    Secondary School: 34
+
+  # Age at which children start school:
+  starting_age:
+    4:  Primary School
+    12: Secondary School

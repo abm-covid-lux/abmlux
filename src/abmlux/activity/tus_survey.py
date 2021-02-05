@@ -1,5 +1,4 @@
-"""
-This file constructs initial distributions and transition matrices using data from the
+"""This file constructs initial distributions and transition matrices using data from the
 Luxembourgish Time Use Survey (TUS). Each respondent to the TUS provided two diaries of
 activities, one for a week day and one for a weekend day, together with their age and the times
 at which these activities began. Associated to each respondent there is also a statistical weight
@@ -29,7 +28,8 @@ DAY_LENGTH_10MIN = 144
 
 log = logging.getLogger('markov_model')
 
-
+#pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class TUSMarkovActivityModel(ActivityModel):
     """Uses Time-of-Use Survey data to build a markov model of activities, which are then
     cycled through in a set of routines."""
@@ -42,6 +42,7 @@ class TUSMarkovActivityModel(ActivityModel):
         self.border_worker_routine = config['border_worker_routine']
         self.age_ranges = {b: range(btypes[b][0], btypes[b][1]) for b in btypes}
         self.border_workers = []
+        self.resident_nationality = config['resident_nationality']
 
         # These can be computed ahead of time
         self.activity_distributions, self.activity_transitions = self._build_markov_model()
@@ -80,29 +81,25 @@ class TUSMarkovActivityModel(ActivityModel):
                 self.border_worker_routine_changes.add(t_now)
 
         # These agents are still having activity updates
-        self.active_agents = set(sim.world.agents) # TODO: give border country residents a special activity type, else many of them do not commute when they should
+        self.active_agents = set(sim.world.agents)
 
         log.debug("Seeding initial activity states and locations...")
         clock = sim.clock
         for agent in self.world.agents:
             # Get distribution for this type at the starting time step
-            if agent.nationality == 'Luxembourg':
-                distribution = self.activity_distributions[agent.behaviour_type][clock.epoch_week_offset]
-                assert sum(distribution.values()) > 0
-                new_activity = self.prng.multinoulli_dict(distribution)
+            if agent.nationality == self.resident_nationality:
+                distrib = self.activity_distributions[agent.behaviour_type][clock.epoch_week_offset]
+                assert sum(distrib.values()) > 0
+                new_activity = self.prng.multinoulli_dict(distrib)
             else:
                 self.border_workers.append(agent)
                 new_activity = self.border_worker_routine[clock.epoch_week_offset]
-            
             agent.set_activity(new_activity)
-            allowed_locations = agent.locations_for_activity(new_activity)
-            # TODO: location selection code should be triggered by messaging via the bus,
-            #       as it will be in the main sim.
-            #
-            # Warn: No allowed locations found for agent {agent.inspect()} for activity new_activity
-            assert len(allowed_locations) >= 0
+
+        # Assign initial locations
+        for agent in self.world.agents:
+            allowed_locations = agent.locations_for_activity(agent.current_activity)
             new_location = self.prng.random_choice(list(allowed_locations))
-            # Do this activity in a random location
             agent.set_location(new_location)
 
     def remove_agents_from_active_list(self, agent, new_health):
@@ -255,12 +252,13 @@ class TUSMarkovActivityModel(ActivityModel):
             identity, age, day, weight = [tus_date.iloc[0][x]
                                           for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
             daily_routine_tenmin = [end_activity] * start_time \
-                        + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
+                        + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'],
+                                                   tus_date.iloc[i]['act1b_f'])] * d
                                          for i, d in enumerate(durations)]) \
                         + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
 
             # Resample into the clock resolution
-            log.debug("Resampling 10 minute chunks into clock resolution (%is)...", clock.tick_length_s)
+            log.debug("Resampling 10min chunks into clock resolution (%is)...", clock.tick_length_s)
             daily_routine = []
             clock.reset()
             for _ in clock:
@@ -299,8 +297,8 @@ class TUSMarkovActivityModel(ActivityModel):
         week_length = len(weeks[0].weekly_routine)  # Assume the first week is representative
 
         log.info("Generating activity distributions...")
-        activity_distributions = {typ: [{activity: 0 for activity in self.activity_manager.types_as_int()}
-                                        for i in range(week_length)]
+        activity_distributions = {typ: [{activity: 0 for activity in
+                                  self.activity_manager.types_as_int()} for i in range(week_length)]
                                   for typ in self.age_ranges}
         for typ, rng in self.age_ranges.items():
             log.debug(" - %s %s", typ, rng)

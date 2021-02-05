@@ -19,8 +19,10 @@ class Quarantine(Intervention):
     def init_sim(self, sim):
         super().init_sim(sim)
 
-        self.default_duration_days  = int(sim.clock.days_to_ticks(self.config['default_duration_days']))
-        self.early_end_days         = int(sim.clock.days_to_ticks(self.config['negative_test_result_to_end_quarantine_days']))
+        default_duration_days       = self.config['default_duration_days']
+        self.default_duration_ticks = int(sim.clock.days_to_ticks(default_duration_days))
+        early_end_days              = self.config['negative_test_result_to_end_quarantine_days']
+        self.early_end_ticks        = int(sim.clock.days_to_ticks(early_end_days))
         self.location_blacklist     = self.config['location_blacklist']
         self.home_activity_type     = sim.activity_manager.as_int(self.config['home_activity_type'])
         self.disable_releases_immediately = self.config['disable_releases_immediately']
@@ -51,9 +53,11 @@ class Quarantine(Intervention):
         """Record data on number of agents in quarantine and their health status"""
 
         num_in_quarantine = len(self.agents_in_quarantine)
-        agents_in_quarantine_by_health_state = {str(hs): len([agent for agent in self.agents_in_quarantine if agent.health == hs]) for hs in self.health_states}
+        agents_in_quarantine_by_health_state = {str(hs): len([agent for agent in
+                     self.agents_in_quarantine if agent.health == hs]) for hs in self.health_states}
         total_age = sum([agent.age for agent in self.agents_in_quarantine])
-        self.report("quarantine_data", self.clock, num_in_quarantine, agents_in_quarantine_by_health_state, total_age)
+        self.report("quarantine_data", self.clock, num_in_quarantine,
+                    agents_in_quarantine_by_health_state, total_age)
 
     def update_quarantine_status(self, clock, t):
         """Take lists of things to do and apply them."""
@@ -61,7 +65,7 @@ class Quarantine(Intervention):
             if agent not in self.agents_in_quarantine:
                 self.agents_in_quarantine.add(agent)
                 self.end_quarantine_events.add("request.quarantine.stop", \
-                                               self.default_duration_days, agent)
+                                               self.default_duration_ticks, agent)
                 self.bus.publish("notify.quarantine.start", agent)
         self.agents_to_add = []
 
@@ -76,11 +80,13 @@ class Quarantine(Intervention):
         Respond to negative test results by ending quarantine."""
 
         if agent in self.agents_in_quarantine and not result:
-            self.end_quarantine_events.add("request.quarantine.stop", self.early_end_days, agent)
+            self.end_quarantine_events.add("request.quarantine.stop",
+                                           self.early_end_ticks, agent)
 
         elif agent not in self.agents_in_quarantine and result:
             self.agents_in_quarantine.add(agent)
-            self.end_quarantine_events.add("request.quarantine.stop", self.default_duration_days, agent)
+            self.end_quarantine_events.add("request.quarantine.stop",
+                                           self.default_duration_ticks, agent)
 
     def handle_start_quarantine(self, agent):
         """Queues up agents to start quarantine next time quarantine status is updated."""

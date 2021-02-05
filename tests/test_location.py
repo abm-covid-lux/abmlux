@@ -1,7 +1,6 @@
-"""Test the Agent object, which is pretty simple"""
+"""Test the Location object"""
 
 import unittest
-from abmlux.agent import Agent
 from abmlux.location import Location
 
 class TestLocation(unittest.TestCase):
@@ -14,5 +13,3 @@ class TestLocation(unittest.TestCase):
         test_location_2 = Location("Test type", (3,4))
 
         assert test_location_1.distance_euclidean(test_location_2) == 5.0
-
-

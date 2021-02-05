@@ -30,11 +30,6 @@ class World:
 
         self.scale_factor = scale_factor
 
-    def n(self) -> int:
-        """Return the number of agents in the world"""
-
-        return len(self.agents)
-
     def n_locations(self) -> int:
         """Return the number of locations in the world"""
 

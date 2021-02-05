@@ -2,7 +2,6 @@
 
 import logging
 import uuid
-from enum import IntEnum
 from collections.abc import Iterable
 from typing import Union, Optional
 
@@ -14,13 +13,18 @@ class Agent:
     """Represents a single agent within the simulation"""
 
     def __init__(self, age: int, nationality: str, current_location: Union[None, Location]=None):
-        # TODO: documentation of argument meaning
 
+        # Unique indentifier for each agent
         self.uuid                  = uuid.uuid4().hex
+        # Age of agent
         self.age: int              = age
+        # Nationality of agent, used to distinguish between residenets and non-residents
         self.nationality: str      = nationality
+        # Behaviour type, used by the Markov activity model, not needed for the basic activity model
         self.behaviour_type: str   = None
+        # Whether or not the agent has been vaccinated
         self.vaccinated: bool      = False
+        # Where the agent might perform various activities
         self.activity_locations: dict[str, list[Location]] = {}
 
         # Current state
@@ -46,7 +50,7 @@ class Agent:
         """
 
         if activity not in self.activity_locations:
-            self.activity_locations[activity] = []  # TODO: maybe use a set?
+            self.activity_locations[activity] = []
 
         # Ensure we can join the lists together if given >1 item
         location_list: list[Location]
@@ -60,7 +64,8 @@ class Agent:
     def set_behaviour_type(self, behaviour_type: str) -> None:
         """Sets the agent as having the given behaviour type"""
 
-        log.debug("Agent %s: Behaviour type %s -> %s", self.uuid, self.behaviour_type, behaviour_type)
+        log.debug("Agent %s: Behaviour type %s -> %s", self.uuid, self.behaviour_type,
+                                                                       behaviour_type)
         self.behaviour_type = behaviour_type
 
     def set_health(self, health: str) -> None:

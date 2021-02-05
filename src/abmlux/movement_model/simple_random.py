@@ -4,10 +4,11 @@ import logging
 import math
 
 from abmlux.movement_model import MovementModel
-from abmlux.messagebus import MessageBus
 
 log = logging.getLogger("simple_movement_model")
 
+#pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class SimpleRandomMovementModel(MovementModel):
     """Uses simple random sampling to select locations in response to activity changes."""
 
@@ -17,14 +18,15 @@ class SimpleRandomMovementModel(MovementModel):
         self.location_types = self.config['location_types']
         self.no_move_states = self.config['no_move_health_states']
 
-        self.scale_factor                   = sim.world.scale_factor
-        self.units_available_week_day       = self.config['units_available_week_day']
-        self.units_available_weekend_day    = self.config['units_available_weekend_day']
-        self.public_transport_activity_type = sim.activity_manager.as_int(self.config['public_transport_activity_type'])
-        self.public_transport_location_type = sim.activity_manager.get_location_types(self.public_transport_activity_type)
-        self.public_transport_units         = sim.world.locations_for_types(self.public_transport_location_type)
-        self.max_units_available            = len(self.public_transport_units)
-        self.units_available                = len(self.public_transport_units)
+        self.scale_factor                = sim.world.scale_factor
+        self.units_available_week_day    = self.config['units_available_week_day']
+        self.units_available_weekend_day = self.config['units_available_weekend_day']
+        pt_act_type_str                  = self.config['public_transport_activity_type']
+        self.pt_act_type                 = sim.activity_manager.as_int(pt_act_type_str)
+        self.pt_loc_type                 = sim.activity_manager.get_location_types(self.pt_act_type)
+        self.public_transport_units      = sim.world.locations_for_types(self.pt_loc_type)
+        self.max_units_available         = len(self.public_transport_units)
+        self.units_available             = len(self.public_transport_units)
 
         self.bus.subscribe("request.agent.activity", self.handle_activity_change, self)
         self.bus.subscribe("notify.time.tick", self.update_unit_availability, self)
@@ -35,16 +37,18 @@ class SimpleRandomMovementModel(MovementModel):
         seconds_through_day = clock.now().hour * 3600 + clock.now().minute * 60 + clock.now().second
         index = int(seconds_through_day / clock.tick_length_s)
         if clock.now().weekday() in [5,6]:
-            self.units_available = max(math.ceil(self.units_available_weekend_day[index] * self.scale_factor), 1)
+            self.units_available = max(math.ceil(self.units_available_weekend_day[index] *
+                                                 self.scale_factor), 1)
         else:
-            self.units_available = max(math.ceil(self.units_available_week_day[index] * self.scale_factor), 1)
+            self.units_available = max(math.ceil(self.units_available_week_day[index] *
+                                                 self.scale_factor), 1)
 
     def handle_activity_change(self, agent, new_activity):
         """Respond to an activity by sending location change requests."""
 
         # If agent is hospitalised or dead, don't change location in response to new activity
         if agent.health not in self.no_move_states:
-            if new_activity == self.public_transport_activity_type:
+            if new_activity == self.pt_act_type:
                 length = min(self.units_available, self.max_units_available)
                 allowable_locations = self.public_transport_units[0:length]
                 self.bus.publish("request.agent.location", agent, \

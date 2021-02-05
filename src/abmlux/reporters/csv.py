@@ -3,12 +3,13 @@
 import os
 import os.path
 import csv
-from collections import defaultdict
 
 from abmlux.reporters import Reporter
 
 # TODO: handle >1 sim at the same time using the run_id
 
+#pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class HealthStateCounts(Reporter):
     """Reporter that writes to a CSV file as it runs."""
 
@@ -145,7 +146,9 @@ class TestingCounts(Reporter):
         super().__init__(telemetry_bus)
 
         self.tests_performed           = 0
+        self.tests_performed_resident  = 0
         self.positive_tests            = 0
+        self.positive_tests_resident   = 0
         self.cumulative_positive_tests = 0
 
         self.filename = config['filename']
@@ -166,27 +169,34 @@ class TestingCounts(Reporter):
         self.writer = csv.writer(self.handle)
 
         # Write header
-        header = ["tick", "iso8601", "tests performed",
-                  "positive tests", "cumulative positive tests"]
+        header = ["tick", "iso8601", "tests performed", "tests performed (resident)",
+                  "positive tests", "positive tests (resident)", "cumulative positive tests"]
         self.writer.writerow(header)
 
     def midnight_update(self, clock):
         """Save data and reset daily counts"""
 
         row =  [clock.t, clock.iso8601()]
-        row += [self.tests_performed, self.positive_tests, self.cumulative_positive_tests]
+        row += [self.tests_performed, self.tests_performed_resident, self.positive_tests,
+                self.positive_tests_resident, self.cumulative_positive_tests]
         self.writer.writerow(row)
 
-        self.tests_performed = 0
-        self.positive_tests  = 0
+        self.tests_performed           = 0
+        self.tests_performed_resident  = 0
+        self.positive_tests            = 0
+        self.positive_tests_resident   = 0
 
     def new_test_result(self, clock, test_result, age, uuid, coord, resident):
         """Update the CSV, writing a single row for every clock tick"""
 
         self.tests_performed += 1
+        if resident:
+            self.tests_performed_resident += 1
         if test_result:
             self.positive_tests += 1
             self.cumulative_positive_tests += 1
+            if resident:
+                self.positive_tests_resident += 1
 
     def stop_sim(self):
         """Called when the simulation ends.  Closes the file handle."""
@@ -264,7 +274,8 @@ class QuarantineCounts(Reporter):
         header += list(resident_agents_by_health_state_counts.keys())
         self.writer.writerow(header)
 
-    def update_quarantine_counts(self, clock, num_in_quaratine, agents_in_quarantine_by_health_state, total_age):
+    def update_quarantine_counts(self, clock, num_in_quaratine,
+                                 agents_in_quarantine_by_health_state, total_age):
         """Save data and reset daily counts"""
 
         if num_in_quaratine == 0:

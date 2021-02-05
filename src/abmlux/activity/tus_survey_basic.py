@@ -1,44 +1,45 @@
-"""
-This file constructs initial distributions and weekly routines using data from the
-Luxembourgish Time Use Survey (TUS). Each respondent to the TUS provided two diaries of
-activities, one for a week day and one for a weekend day, together with their age and the times
-at which these activities began. Associated to each respondent there is also a statistical weight
-and an identification number. Activities are denoted by a numeric code and therefore a daily
-routine consists of a sequence of such numbers.
+"""This file constructs initial distributions and weekly routines using data from the Luxembourgish
+Time Use Survey (TUS). Each respondent to the TUS provided two diaries of activities, one for a week
+day and one for a weekend day, together with their age and the times at which these activities
+began. Associated to each respondent there is also a statistical weight and an identification
+number. Activities are denoted by a numeric code and therefore a daily routine consists of a
+sequence of such numbers.
 
-Activities are grouped together according to the location in which the activity occurs.
-Daily routines are then concatenated to produce, for each respondent, a typical weekly
-routine. The week begins on Sunday and ends on Saturday."""
+Activities are grouped together according to the location in which the activity occurs. Daily
+routines are then concatenated to produce, for each respondent, a typical weekly routine. The week
+begins on Sunday and ends on Saturday."""
 
 import logging
 
+from collections import defaultdict
 import pandas as pd
 from tqdm import tqdm
-from collections import defaultdict
 
 import abmlux.utils as utils
 from abmlux.activity import ActivityModel
 from abmlux.sim_time import SimClock
 from abmlux.diary import DiaryDay, DiaryWeek, DayOfWeek
 
-# Number of 10min chunks in a day.  Used when parsing the input data at a 10min resolution
+# Number of 10 minute chunks in a day. Used when parsing the input data at a 10 minute resolution
 DAY_LENGTH_10MIN = 144
 
 log = logging.getLogger('markov_model')
 
+#pylint: disable=unused-argument
+#pylint: disable=attribute-defined-outside-init
 class TUSBasicActivityModel(ActivityModel):
-    """Uses Time-of-Use Survey data to build a basic model of activities, which are then
-    cycled through in a set of routines."""
+    """Uses Time-of-Use Survey data to build a basic model of activities, which are cycled through
+    in a set of routines."""
 
     def __init__(self, config, activity_manager):
 
         super().__init__(config, activity_manager)
 
-        # Computed beforehand
-        self.age_bracket_length = config['age_bracket_length']
-        self.weeks = self._create_weekly_routines()
+        self.age_bracket_length    = config['age_bracket_length']
+        self.weeks                 = self._create_weekly_routines()
+        self.resident_nationality  = config['resident_nationality']
         self.border_worker_routine = config['border_worker_routine']
-        self.border_workers = []
+        self.border_workers        = []
 
     def init_sim(self, sim):
         super().init_sim(sim)
@@ -61,7 +62,7 @@ class TUSBasicActivityModel(ActivityModel):
         for week in self.weeks:
             weeks_by_age_bracket[week.age//self.age_bracket_length][week] = week.weight
 
-        # Precalculate, for each time of the week, which weeks change activities
+        # Precalculate, at each time of the week, which weeks change activities
         self.weeks_changing_activity = defaultdict(list)
         for t_now in range(sim.clock.ticks_in_week):
             if t_now == 0:
@@ -81,7 +82,7 @@ class TUSBasicActivityModel(ActivityModel):
         self.agents_by_week = defaultdict(list)
         clock = sim.clock
         for agent in self.world.agents:
-            if agent.nationality == "Luxembourg":
+            if agent.nationality == self.resident_nationality:
                 age_bracket = agent.age//self.age_bracket_length
                 if age_bracket < min_age_bracket:
                     age_bracket_key = min_age_bracket
@@ -96,8 +97,11 @@ class TUSBasicActivityModel(ActivityModel):
             else:
                 self.border_workers.append(agent)
                 new_activity = self.border_worker_routine[clock.epoch_week_offset]
-            allowed_locations = agent.locations_for_activity(new_activity)
             agent.set_activity(new_activity)
+
+        # Assign initial locations
+        for agent in self.world.agents:
+            allowed_locations = agent.locations_for_activity(agent.current_activity)
             new_location = self.prng.random_choice(list(allowed_locations))
             agent.set_location(new_location)
 
@@ -273,12 +277,13 @@ class TUSBasicActivityModel(ActivityModel):
             identity, age, day, weight = [tus_date.iloc[0][x]
                                           for x in ['id_ind', 'age', 'jours_f', 'poids_ind']]
             daily_routine_tenmin = [end_activity] * start_time \
-                        + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'], tus_date.iloc[i]['act1b_f'])] * d
+                        + utils.flatten([[map_func(tus_date.iloc[i]['loc1_num_f'],
+                                                   tus_date.iloc[i]['act1b_f'])] * d
                                          for i, d in enumerate(durations)]) \
                         + [end_activity] * (DAY_LENGTH_10MIN - sum(durations) - start_time)
 
             # Resample into the clock resolution
-            log.debug("Resampling 10 minute chunks into clock resolution (%is)...", clock.tick_length_s)
+            log.debug("Resampling 10min chunks into clock resolution (%is)...", clock.tick_length_s)
             daily_routine = []
             clock.reset()
             for _ in clock:

@@ -21,7 +21,6 @@ import abmlux.tools as tools
 
 from abmlux.version import VERSION
 from abmlux.config import Config
-from abmlux.serialisation import read_from_disk, write_to_disk
 
 
 # Global module log
@@ -29,6 +28,8 @@ log = logging.getLogger()
 
 
 def build_model(sim_factory):
+    """Builds world using map and world factories and builds components, such as the activity,
+    movement and disease models"""
 
     config = sim_factory.config
 
@@ -45,8 +46,9 @@ def build_model(sim_factory):
     # Create the world, providing it with the map
     world_factory_class = config['world_factory.__type__']
     world_factory_config = config.subconfig('world_factory')
-    world_factory = instantiate_class("abmlux.world.world_factory", world_factory_class, sim_factory.map,
-                                      sim_factory.activity_manager, world_factory_config)
+    world_factory = instantiate_class("abmlux.world.world_factory", world_factory_class,
+                                      sim_factory.map, sim_factory.activity_manager,
+                                      world_factory_config)
     world = world_factory.get_world()
     sim_factory.set_world_model(world)
 
@@ -93,18 +95,13 @@ def build_model(sim_factory):
 
 
 def build_reporters(telemetry_bus, config):
+    """Instantiates reporters, which record data on the simulation for analysis"""
 
-    reporters = []
     for reporter_class, reporter_config in config['reporters'].items():
         log.info(f"Creating reporter '{reporter_class}'...")
 
-        rep = instantiate_class("abmlux.reporters", reporter_class, telemetry_bus,
-                                Config(_dict=reporter_config))
-        reporters.append(rep)
-
-    return reporters
-
-
+        instantiate_class("abmlux.reporters", reporter_class, telemetry_bus,
+                          Config(_dict=reporter_config))
 
 
 # FIXME: no hardcoding
@@ -148,7 +145,7 @@ def main():
 
     # Build list from config
     telemetry_bus = MessageBus()
-    reporters = build_reporters(telemetry_bus, sim_factory.config)
+    build_reporters(telemetry_bus, sim_factory.config)
 
     # ############## Run ##############
     sim = sim_factory.new_sim(telemetry_bus)
