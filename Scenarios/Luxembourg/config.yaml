@@ -876,7 +876,7 @@ disease_model:
 
   # How many residents are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
-  initial_infections: 100
+  initial_infections: 400
   # Resident nationality:
   resident_nationality: Luxembourg
   # How many susceptible people are randomly selected for exposure on midnight each day:
