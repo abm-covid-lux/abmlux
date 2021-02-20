@@ -111,8 +111,8 @@ class CompartmentalModel(DiseaseModel):
         log.info("Infecting %i agents...", self.num_initial_infections)
         resident_agents = [a for a in agents if a.nationality == self.resident_nationality]
         for agent in self.prng.random_sample(resident_agents, self.num_initial_infections):
-            self.disease_profile_index_dict[agent] = 1
-            agent.health = self.disease_profile_dict[agent][1]
+            self.disease_profile_index_dict[agent] = 2
+            agent.health = self.disease_profile_dict[agent][2]
 
         # Parse ppm updates schedule from config, creating calendar of updates
         for param_time, param in self.ppm_force_updates_unparsed.items():

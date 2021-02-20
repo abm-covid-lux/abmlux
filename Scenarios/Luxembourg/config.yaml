@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 378
+random_seed: 1
 
 # The region in question:
 region: Luxembourg
@@ -155,7 +155,7 @@ map_factory:
   __type__: jrc.JRCMapFactory
 
   # Seed the PRNG, Used when resampling the density matrix
-  __prng_seed__: 222
+  __prng_seed__: 1
 
   # Country code to extract from the distribution data
   country_code: LU
@@ -182,7 +182,7 @@ map_factory:
 #   __type__: uniform.UniformMapFactory
 
 #   # Used when resampling the density matrix
-#   __prng_seed__: 111
+#   __prng_seed__: 1
 
 #   # Country code used in logging
 #   country_code: UNI
@@ -194,7 +194,7 @@ map_factory:
 #   __type__: gaussian.GaussianMapFactory
 
 #   # Used when resampling the density matrix
-#   __prng_seed__: 111
+#   __prng_seed__: 1
 #   # Total mass of Gaussian kernel
 #   mass: 100000
 #   # Standard deviation of the Gaussian kernel:
@@ -211,7 +211,7 @@ world_factory:
   __type__: stochastic.StochasticWorldFactory
 
   # Seed the PRNG
-  __prng_seed__: 222
+  __prng_seed__: 1
 
   # The total number of resident agents on the world. If this equals the sum of age_distribution
   # (that is, the real total resident population) then the scale factor for the simulation will be 1,
@@ -220,13 +220,13 @@ world_factory:
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
   n: 626108
-  #n: 2000
+  #n: 156527
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
   # world distribution:
   deterministic_location_counts:
-    Care Home:                        44
+    Care Home:                        52
     OW Agriculture:                   86
     OW Extraction:                    11
     OW Manufacturing:                 785
@@ -427,7 +427,7 @@ world_factory:
   retired_age_limit: 65
 
   # Each carehome will be assigned a number of retired people as residents:
-  retired_per_carehome: 143
+  retired_per_carehome: 38
 
   # ######################################### Workforce Distribution #################################
 
@@ -559,7 +559,7 @@ world_factory:
 # Configures the movement model used during simulation
 movement_model:
   __type__: simple_random.SimpleRandomMovementModel
-  __prng_seed__: 777
+  __prng_seed__: 1
   # A list of all location types:
   location_types:
     - House
@@ -691,10 +691,10 @@ movement_model:
 activity_model:
 
   __type__: tus_survey_basic.TUSBasicActivityModel
-  __prng_seed__: 777
+  __prng_seed__: 1
 
   # File containing time use survey data, and see Docs for full format:
-  time_use_filepath: Time Use.csv
+  time_use_filepath: Scenarios/Luxembourg/Time Use.csv
 
   # Resident nationality:
   resident_nationality: Luxembourg
@@ -762,7 +762,7 @@ activity_model:
 disease_model:
 
   __type__: compartmental.CompartmentalModel
-  __prng_seed__: 777
+  __prng_seed__: 1
 
   # If the PPM intervention is enabled, these must match for the model to be valid. Avoiding this
   # dependency is a TODO list item! Refers to the 10 minute tick, like transmission prob!
@@ -836,39 +836,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.0002
-    Care Home:                        0.0002
-    OW Agriculture:                   0.0002
-    OW Extraction:                    0.0002
-    OW Manufacturing:                 0.0002
-    OW Energy:                        0.0002
-    OW Water:                         0.0002
-    OW Construction:                  0.0002
-    OW Trade:                         0.0002
-    OW Transport:                     0.0002
-    OW Catering and Accommodation:    0.0002
-    OW ICT:                           0.0002
-    OW Finance:                       0.0002
-    OW Real Estate:                   0.0002
-    OW Technical:                     0.0002
-    OW Administration:                0.0002
-    OW Education:                     0.0002
-    OW Entertainment:                 0.0002
-    OW Other Services:                0.0002
-    Primary School:                   0.0002
-    Secondary School:                 0.0002
-    Restaurant:                       0.0002
+    House:                            0.00035
+    Care Home:                        0.00035
+    OW Agriculture:                   0.00035
+    OW Extraction:                    0.00035
+    OW Manufacturing:                 0.00035
+    OW Energy:                        0.00035
+    OW Water:                         0.00035
+    OW Construction:                  0.0
+    OW Trade:                         0.00035
+    OW Transport:                     0.00035
+    OW Catering and Accommodation:    0.00035
+    OW ICT:                           0.00035
+    OW Finance:                       0.00035
+    OW Real Estate:                   0.00035
+    OW Technical:                     0.00035
+    OW Administration:                0.00035
+    OW Education:                     0.00035
+    OW Entertainment:                 0.00035
+    OW Other Services:                0.00035
+    Primary School:                   0.00035
+    Secondary School:                 0.00035
+    Restaurant:                       0.00035
     Outdoor:                          0.0
-    Car:                              0.0002
-    Public Transport:                 0.0002
-    Shop:                             0.0002
-    Medical:                          0.0002
-    Hospital:                         0.000018 # p*0.09
-    Hotel:                            0.0002
-    Place of Worship:                 0.0002
-    Indoor Sport:                     0.0002
-    Cinema or Theatre:                0.0002
-    Museum or Zoo:                    0.0002
+    Car:                              0.00035
+    Public Transport:                 0.00035
+    Shop:                             0.00035
+    Medical:                          0.0000315 # p*0.09
+    Hospital:                         0.0000315 # p*0.09
+    Hotel:                            0.00035
+    Place of Worship:                 0.00035
+    Indoor Sport:                     0.00035
+    Cinema or Theatre:                0.00035
+    Museum or Zoo:                    0.00035
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -949,7 +949,7 @@ interventions:
   basic_hospitalisation:
     # This special key defines the class to use.
     __type__: hospitalisation.Hospitalisation
-    __prng_seed__: 888
+    __prng_seed__: 1
     # Starting state of the intervention
     __enabled__: true
     # This special key defines when to disable/enable the intervention
@@ -969,7 +969,7 @@ interventions:
   # invitations to test, across the population, according to a certain algorithm.
   large_scale_testing:
     __type__: testing.LargeScaleTesting
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       17th May 2020: enable
@@ -1044,7 +1044,7 @@ interventions:
   # which an agent voluntarily books a test having developed symptoms.
   prescription_testing:
     __type__: testing.PrescriptionTesting
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: true
     __schedule__:
     # The probability that an agent books a test at the moment they develop symptoms. This corresponds
@@ -1061,7 +1061,7 @@ interventions:
   # they request a booking.
   test_booking:
     __type__: laboratory.TestBooking
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: true
     __schedule__:
     # The time taken between the booking of a test and the time at which the test takes place, in the
@@ -1080,7 +1080,7 @@ interventions:
   # virus, then the test returns a negative results, except in the case of a false negative.
   test_lab:
     __type__: laboratory.Laboratory
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: true
     __schedule__:
       24 February 2020: {max_tests_per_day: 2}
@@ -1363,7 +1363,7 @@ interventions:
   # # which contacts are considered is specified.
   # contact_tracing_app:
   #   __type__: contact_tracing.ContactTracingApp
-  #   __prng_seed__: 888
+  #   __prng_seed__: 1
   #   __enabled__: false
   #   __schedule__:
   #     3rd March 2020: enable
@@ -1403,7 +1403,7 @@ interventions:
   # # With a certain probability, agents do not follow this advice and continue as normal.
   # contact_tracing_manual:
   #   __type__: contact_tracing.ContactTracingManual
-  #   __prng_seed__: 888
+  #   __prng_seed__: 1
   #   __enabled__: false
   #   __schedule__:
   #     20th April 2020: enable
@@ -1427,7 +1427,7 @@ interventions:
   # contact tracing.
   contact_tracing_manual_fast:
     __type__: contact_tracing.ContactTracingManualFast
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       20th April 2020: enable
@@ -1456,7 +1456,7 @@ interventions:
   # quarantines are made by other interventions.
   quarantine_at_home:
     __type__: quarantine.Quarantine
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: true
     __schedule__:
       23rd September 2020: {default_duration_days: 10}
@@ -1484,7 +1484,7 @@ interventions:
 
   location_closure_house:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1501,7 +1501,7 @@ interventions:
 
   location_closure_carehome:
     __type__: location_closure.CareHomeClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1516,9 +1516,25 @@ interventions:
     # work at a care home can still access it:
     work_activity_type: Work
 
+  location_closure_shop:
+    __type__: location_closure.ShopClosures
+    __prng_seed__: 1
+    __enabled__: false
+    __schedule__:
+      15th March 2020: enable
+      11th May 2020: disable
+    # The shop locaton type:
+    locations:
+      - Shop
+    # Proportion of shops to close:
+    prob_close: 0.72
+    # Unless an agent is in an exempt location, they are directed to the location at which they
+    # perform the activity 'House':
+    home_activity_type: House
+
   location_closure_ow_general:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       19th March 2020: enable
@@ -1547,7 +1563,7 @@ interventions:
 
   location_closure_ow_construction:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       19th March 2020: enable
@@ -1566,7 +1582,7 @@ interventions:
 
   location_closure_ow_entertainment:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1583,7 +1599,7 @@ interventions:
 
   location_closure_leisure:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       15th March 2020: enable
@@ -1604,7 +1620,7 @@ interventions:
 
   location_closure_pow:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       14th March 2020: enable
@@ -1621,7 +1637,7 @@ interventions:
 
   location_closure_primary_school:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       16th March 2020: enable
@@ -1640,7 +1656,7 @@ interventions:
 
   location_closure_secondary_school:
     __type__: location_closure.LocationClosures
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       16th March 2020: enable
@@ -1660,7 +1676,7 @@ interventions:
   # The interventions 'work_from_home' direct people to work from home, with a certain probability
   work_from_home_ow_ict_finance:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1680,7 +1696,7 @@ interventions:
 
   work_from_home_ow_technical:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1699,7 +1715,7 @@ interventions:
 
   work_from_home_ow_administration:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1718,7 +1734,7 @@ interventions:
 
   work_from_home_ow_education:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1737,7 +1753,7 @@ interventions:
 
   work_from_home_ow_other_activities:
     __type__: work_from_home.WorkFromHome
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       23th June 2020: enable
@@ -1763,7 +1779,7 @@ interventions:
   # The interventions 'curfew' directs people to stay home between certain times.
   curfew:
     __type__: curfew.Curfew
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       26th October 2020: enable
@@ -1816,7 +1832,7 @@ interventions:
   # those who have tested positive will not be eligible for vaccination.
   vaccination:
     __type__: vaccination.Vaccination
-    __prng_seed__: 888
+    __prng_seed__: 1
     __enabled__: false
     __schedule__:
       31st December 2020: enable
