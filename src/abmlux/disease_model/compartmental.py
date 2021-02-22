@@ -25,6 +25,7 @@ class CompartmentalModel(DiseaseModel):
         self.incubating_states          = config['incubating_states']
         self.asymptomatic_states        = config['asymptomatic_states']
         self.symptomatic_states         = config['symptomatic_states']
+        self.dead_states                = config['dead_states']
 
         self.asympt_factor              = config['asympt_factor']
         self.durations_by_profile       = config['durations_by_profile']
@@ -56,6 +57,9 @@ class CompartmentalModel(DiseaseModel):
         self.bus.subscribe("notify.time.tick", self.get_health_transitions, self)
         self.bus.subscribe("notify.agent.health", self.update_health_indices, self)
         self.bus.subscribe("notify.time.midnight", self.midnight_updates, self)
+
+        self.home_activity_type = sim.activity_manager.as_int(self.config['home_activity_type'])
+        self.work_activity_type = sim.activity_manager.as_int(self.config['work_activity_type'])
 
         agents = self.world.agents
 
@@ -106,7 +110,7 @@ class CompartmentalModel(DiseaseModel):
             self.disease_profile_index_dict[agent] = 0
             agent.health = self.disease_profile_dict[agent][0]
 
-        # Now infect a number of agents to begin the epidemic. This moves those agents to the next
+        # Now infect a number of agents to begin the epidemic. This moves those agents to a
         # state listed in their disease profile.
         log.info("Infecting %i agents...", self.num_initial_infections)
         resident_agents = [a for a in agents if a.nationality == self.resident_nationality]
@@ -201,8 +205,13 @@ class CompartmentalModel(DiseaseModel):
             if duration_ticks is not None:
                 time_since_state_change = t - self.health_state_change_time[agent]
                 if time_since_state_change > duration_ticks:
-                    self.bus.publish("request.agent.health", agent, \
-                         self.disease_profile_dict[agent][self.disease_profile_index_dict[agent]+1])
+                    n_h = self.disease_profile_dict[agent][self.disease_profile_index_dict[agent]+1]
+                    self.bus.publish("request.agent.health", agent, n_h)
+                    if n_h in self.dead_states:
+                        home_loc = agent.locations_for_activity(self.home_activity_type)[0]
+                        work_loc = agent.locations_for_activity(self.work_activity_type)[0]
+                        self.report("new_death", clock, agent.uuid, agent.age,
+                                    home_loc.typ, work_loc.typ)
 
     def update_health_indices(self, agent, old_health):
         """Update internal counts."""

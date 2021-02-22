@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 1
+random_seed: 11
 
 # The region in question:
 region: Luxembourg
@@ -135,6 +135,8 @@ reporters:
     filename: /tmp/testing_events.csv
   csv.ExposureEvents:
     filename: /tmp/exposure_events.csv
+  csv.DeathEvents:
+    filename: /tmp/death_events.csv
   # csv.ContactCounts:
   #   filename: /tmp/average_contact_counts.csv
   csv.VaccinationEvents:
@@ -219,8 +221,8 @@ world_factory:
   # this number and the sum. Note that the true population will be somewhat larger than this number
   # due to the inclusion of border workers (the numbers of which is again calculated using the scale
   # factor).
-  n: 626108
-  #n: 156527
+  #n: 626108
+  n: 156527
 
   # For each location type, a number of such locations will be generated. This number will be either
   # fixed or random. The locations with a fixed count are generated according to the following real
@@ -876,13 +878,14 @@ disease_model:
 
   # How many residents are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
-  initial_infections: 400
+  initial_infections: 100
   # Resident nationality:
   resident_nationality: Luxembourg
   # How many susceptible people are randomly selected for exposure on midnight each day:
   random_exposures: 0
-  # Home activity type, recorded for telemetry purposes
+  # Home and work activity types, recorded for telemetry purposes
   home_activity_type: House
+  work_activity_type: Work
   # The health states appearing in this model are as follows:
   health_states: [SUSCEPTIBLE, EXPOSED, ASYMPTOMATIC, PREINFECTED, INFECTED, HOSPITALIZING, VENTILATING, RECOVERED, DEAD]
   # Agents in the follow states are susceptible:
@@ -1083,266 +1086,266 @@ interventions:
     __prng_seed__: 1
     __enabled__: true
     __schedule__:
-      24 February 2020: {max_tests_per_day: 2}
-      25 February 2020: {max_tests_per_day: 7}
+      24 February 2020: {max_tests_per_day: 3}
+      25 February 2020: {max_tests_per_day: 5}
       26 February 2020: {max_tests_per_day: 2}
-      27 February 2020: {max_tests_per_day: 1}
-      28 February 2020: {max_tests_per_day: 7}
-      29 February 2020: {max_tests_per_day: 1}
-      01 March 2020: {max_tests_per_day: 1}
-      02 March 2020: {max_tests_per_day: 7}
+      27 February 2020: {max_tests_per_day: 3}
+      28 February 2020: {max_tests_per_day: 4}
+      29 February 2020: {max_tests_per_day: }
+      01 March 2020: {max_tests_per_day: 3}
+      02 March 2020: {max_tests_per_day: 4}
       03 March 2020: {max_tests_per_day: 4}
-      04 March 2020: {max_tests_per_day: 1}
-      05 March 2020: {max_tests_per_day: 6}
-      06 March 2020: {max_tests_per_day: 9}
-      07 March 2020: {max_tests_per_day: 6}
-      08 March 2020: {max_tests_per_day: 0}
-      09 March 2020: {max_tests_per_day: 16}
-      10 March 2020: {max_tests_per_day: 25}
-      11 March 2020: {max_tests_per_day: 51}
-      12 March 2020: {max_tests_per_day: 199}
-      13 March 2020: {max_tests_per_day: 205}
-      14 March 2020: {max_tests_per_day: 107}
-      15 March 2020: {max_tests_per_day: 25}
-      16 March 2020: {max_tests_per_day: 427}
-      17 March 2020: {max_tests_per_day: 676}
-      18 March 2020: {max_tests_per_day: 957}
-      19 March 2020: {max_tests_per_day: 981}
-      20 March 2020: {max_tests_per_day: 1129}
-      21 March 2020: {max_tests_per_day: 491}
-      22 March 2020: {max_tests_per_day: 21}
-      23 March 2020: {max_tests_per_day: 1220}
-      24 March 2020: {max_tests_per_day: 1005}
-      25 March 2020: {max_tests_per_day: 1028}
-      26 March 2020: {max_tests_per_day: 5726}
-      27 March 2020: {max_tests_per_day: 1317}
-      28 March 2020: {max_tests_per_day: 1062}
-      29 March 2020: {max_tests_per_day: 370}
-      30 March 2020: {max_tests_per_day: 1346}
+      04 March 2020: {max_tests_per_day: 5}
+      05 March 2020: {max_tests_per_day: 5}
+      06 March 2020: {max_tests_per_day: 6}
+      07 March 2020: {max_tests_per_day: 9}
+      08 March 2020: {max_tests_per_day: 16}
+      09 March 2020: {max_tests_per_day: 44}
+      10 March 2020: {max_tests_per_day: 72}
+      11 March 2020: {max_tests_per_day: 86}
+      12 March 2020: {max_tests_per_day: 90}
+      13 March 2020: {max_tests_per_day: 148}
+      14 March 2020: {max_tests_per_day: 241}
+      15 March 2020: {max_tests_per_day: 371}
+      16 March 2020: {max_tests_per_day: 483}
+      17 March 2020: {max_tests_per_day: 605}
+      18 March 2020: {max_tests_per_day: 669}
+      19 March 2020: {max_tests_per_day: 669}
+      20 March 2020: {max_tests_per_day: 782}
+      21 March 2020: {max_tests_per_day: 829}
+      22 March 2020: {max_tests_per_day: 839}
+      23 March 2020: {max_tests_per_day: 1517}
+      24 March 2020: {max_tests_per_day: 1544}
+      25 March 2020: {max_tests_per_day: 1626}
+      26 March 2020: {max_tests_per_day: 1675}
+      27 March 2020: {max_tests_per_day: 1693}
+      28 March 2020: {max_tests_per_day: 1726}
+      29 March 2020: {max_tests_per_day: 1795}
+      30 March 2020: {max_tests_per_day: 1203}
       31 March 2020: {max_tests_per_day: 1231}
-      01 April 2020: {max_tests_per_day: 1511}
-      02 April 2020: {max_tests_per_day: 1585}
-      03 April 2020: {max_tests_per_day: 1515}
-      04 April 2020: {max_tests_per_day: 1012}
-      05 April 2020: {max_tests_per_day: 755}
-      06 April 2020: {max_tests_per_day: 1304}
-      07 April 2020: {max_tests_per_day: 1311}
-      08 April 2020: {max_tests_per_day: 1190}
-      09 April 2020: {max_tests_per_day: 1079}
-      10 April 2020: {max_tests_per_day: 896}
-      11 April 2020: {max_tests_per_day: 411}
-      12 April 2020: {max_tests_per_day: 259}
-      13 April 2020: {max_tests_per_day: 87}
-      14 April 2020: {max_tests_per_day: 1816}
-      15 April 2020: {max_tests_per_day: 1108}
-      16 April 2020: {max_tests_per_day: 1193}
-      17 April 2020: {max_tests_per_day: 1270}
-      18 April 2020: {max_tests_per_day: 667}
-      19 April 2020: {max_tests_per_day: 235}
-      20 April 2020: {max_tests_per_day: 1191}
-      21 April 2020: {max_tests_per_day: 1054}
-      22 April 2020: {max_tests_per_day: 1463}
-      23 April 2020: {max_tests_per_day: 998}
-      24 April 2020: {max_tests_per_day: 1778}
-      25 April 2020: {max_tests_per_day: 790}
-      26 April 2020: {max_tests_per_day: 144}
-      27 April 2020: {max_tests_per_day: 988}
-      28 April 2020: {max_tests_per_day: 2021}
-      29 April 2020: {max_tests_per_day: 2116}
-      30 April 2020: {max_tests_per_day: 2366}
-      01 May 2020: {max_tests_per_day: 1608}
-      02 May 2020: {max_tests_per_day: 884}
-      03 May 2020: {max_tests_per_day: 280}
-      04 May 2020: {max_tests_per_day: 1272}
-      05 May 2020: {max_tests_per_day: 1598}
-      06 May 2020: {max_tests_per_day: 1848}
-      07 May 2020: {max_tests_per_day: 1854}
-      08 May 2020: {max_tests_per_day: 1698}
-      09 May 2020: {max_tests_per_day: 867}
-      10 May 2020: {max_tests_per_day: 238}
-      11 May 2020: {max_tests_per_day: 1247}
-      12 May 2020: {max_tests_per_day: 1763}
-      13 May 2020: {max_tests_per_day: 1566}
-      14 May 2020: {max_tests_per_day: 1663}
-      15 May 2020: {max_tests_per_day: 1704}
-      16 May 2020: {max_tests_per_day: 1285}
-      17 May 2020: {max_tests_per_day: 173}
-      18 May 2020: {max_tests_per_day: 1111}
-      19 May 2020: {max_tests_per_day: 1372}
-      20 May 2020: {max_tests_per_day: 1747}
-      21 May 2020: {max_tests_per_day: 1004}
-      22 May 2020: {max_tests_per_day: 1414}
-      23 May 2020: {max_tests_per_day: 1536}
-      24 May 2020: {max_tests_per_day: 103}
-      25 May 2020: {max_tests_per_day: 1079}
+      01 April 2020: {max_tests_per_day: 1224}
+      02 April 2020: {max_tests_per_day: 1279}
+      03 April 2020: {max_tests_per_day: 1273}
+      04 April 2020: {max_tests_per_day: 1285}
+      05 April 2020: {max_tests_per_day: 1239}
+      06 April 2020: {max_tests_per_day: 1167}
+      07 April 2020: {max_tests_per_day: 1078}
+      08 April 2020: {max_tests_per_day: 992}
+      09 April 2020: {max_tests_per_day: 921}
+      10 April 2020: {max_tests_per_day: 748}
+      11 April 2020: {max_tests_per_day: 820}
+      12 April 2020: {max_tests_per_day: 808}
+      13 April 2020: {max_tests_per_day: 824}
+      14 April 2020: {max_tests_per_day: 878}
+      15 April 2020: {max_tests_per_day: 914}
+      16 April 2020: {max_tests_per_day: 911}
+      17 April 2020: {max_tests_per_day: 1069}
+      18 April 2020: {max_tests_per_day: 960}
+      19 April 2020: {max_tests_per_day: 1010}
+      20 April 2020: {max_tests_per_day: 983}
+      21 April 2020: {max_tests_per_day: 1055}
+      22 April 2020: {max_tests_per_day: 1073}
+      23 April 2020: {max_tests_per_day: 1060}
+      24 April 2020: {max_tests_per_day: 1031}
+      25 April 2020: {max_tests_per_day: 1169}
+      26 April 2020: {max_tests_per_day: 1262}
+      27 April 2020: {max_tests_per_day: 1458}
+      28 April 2020: {max_tests_per_day: 1433}
+      29 April 2020: {max_tests_per_day: 1447}
+      30 April 2020: {max_tests_per_day: 1466}
+      01 May 2020: {max_tests_per_day: 1507}
+      02 May 2020: {max_tests_per_day: 1446}
+      03 May 2020: {max_tests_per_day: 1408}
+      04 May 2020: {max_tests_per_day: 1335}
+      05 May 2020: {max_tests_per_day: 1348}
+      06 May 2020: {max_tests_per_day: 1345}
+      07 May 2020: {max_tests_per_day: 1339}
+      08 May 2020: {max_tests_per_day: 1336}
+      09 May 2020: {max_tests_per_day: 1359}
+      10 May 2020: {max_tests_per_day: 1319}
+      11 May 2020: {max_tests_per_day: 1292}
+      12 May 2020: {max_tests_per_day: 1293}
+      13 May 2020: {max_tests_per_day: 1352}
+      14 May 2020: {max_tests_per_day: 1343}
+      15 May 2020: {max_tests_per_day: 1324}
+      16 May 2020: {max_tests_per_day: 1268}
+      17 May 2020: {max_tests_per_day: 1294}
+      18 May 2020: {max_tests_per_day: 1199}
+      19 May 2020: {max_tests_per_day: 1158}
+      20 May 2020: {max_tests_per_day: 1194}
+      21 May 2020: {max_tests_per_day: 1184}
+      22 May 2020: {max_tests_per_day: 1179}
+      23 May 2020: {max_tests_per_day: 1213}
+      24 May 2020: {max_tests_per_day: 1165}
+      25 May 2020: {max_tests_per_day: 1372}
       26 May 2020: {max_tests_per_day: 1611}
-      27 May 2020: {max_tests_per_day: 1408}
-      28 May 2020: {max_tests_per_day: 2456}
-      29 May 2020: {max_tests_per_day: 3087}
-      30 May 2020: {max_tests_per_day: 2456}
-      31 May 2020: {max_tests_per_day: 227}
-      01 June 2020: {max_tests_per_day: 724}
-      02 June 2020: {max_tests_per_day: 2432}
-      03 June 2020: {max_tests_per_day: 2620}
-      04 June 2020: {max_tests_per_day: 2346}
-      05 June 2020: {max_tests_per_day: 4029}
-      06 June 2020: {max_tests_per_day: 2339}
-      07 June 2020: {max_tests_per_day: 685}
-      08 June 2020: {max_tests_per_day: 3278}
-      09 June 2020: {max_tests_per_day: 3615}
-      10 June 2020: {max_tests_per_day: 5244}
-      11 June 2020: {max_tests_per_day: 4813}
-      12 June 2020: {max_tests_per_day: 7552}
-      13 June 2020: {max_tests_per_day: 3931}
-      14 June 2020: {max_tests_per_day: 766}
-      15 June 2020: {max_tests_per_day: 6286}
-      16 June 2020: {max_tests_per_day: 6123}
-      17 June 2020: {max_tests_per_day: 7419}
-      18 June 2020: {max_tests_per_day: 7425}
-      19 June 2020: {max_tests_per_day: 8505}
-      20 June 2020: {max_tests_per_day: 6382}
-      21 June 2020: {max_tests_per_day: 606}
-      22 June 2020: {max_tests_per_day: 7490}
-      23 June 2020: {max_tests_per_day: 164}
-      24 June 2020: {max_tests_per_day: 6247}
-      25 June 2020: {max_tests_per_day: 6536}
-      26 June 2020: {max_tests_per_day: 7205}
-      27 June 2020: {max_tests_per_day: 6144}
-      28 June 2020: {max_tests_per_day: 1041}
-      29 June 2020: {max_tests_per_day: 9585}
-      30 June 2020: {max_tests_per_day: 8770}
-      01 July 2020: {max_tests_per_day: 11146}
-      02 July 2020: {max_tests_per_day: 12253}
-      03 July 2020: {max_tests_per_day: 12137}
-      04 July 2020: {max_tests_per_day: 8784}
-      05 July 2020: {max_tests_per_day: 1226}
-      06 July 2020: {max_tests_per_day: 12413}
-      07 July 2020: {max_tests_per_day: 11895}
-      08 July 2020: {max_tests_per_day: 13475}
-      09 July 2020: {max_tests_per_day: 12919}
-      10 July 2020: {max_tests_per_day: 6386}
-      11 July 2020: {max_tests_per_day: 8853}
-      12 July 2020: {max_tests_per_day: 5389}
-      13 July 2020: {max_tests_per_day: 12238}
-      14 July 2020: {max_tests_per_day: 14289}
-      15 July 2020: {max_tests_per_day: 17700}
-      16 July 2020: {max_tests_per_day: 15922}
-      17 July 2020: {max_tests_per_day: 17082}
-      18 July 2020: {max_tests_per_day: 15251}
-      19 July 2020: {max_tests_per_day: 3611}
-      20 July 2020: {max_tests_per_day: 11953}
-      21 July 2020: {max_tests_per_day: 20782}
-      22 July 2020: {max_tests_per_day: 9050}
-      23 July 2020: {max_tests_per_day: 19280}
-      24 July 2020: {max_tests_per_day: 13319}
-      25 July 2020: {max_tests_per_day: 7847}
-      26 July 2020: {max_tests_per_day: 1304}
-      27 July 2020: {max_tests_per_day: 17899}
-      28 July 2020: {max_tests_per_day: 10290}
-      29 July 2020: {max_tests_per_day: 8513}
-      30 July 2020: {max_tests_per_day: 11861}
-      31 July 2020: {max_tests_per_day: 10451}
-      01 August 2020: {max_tests_per_day: 7452}
-      02 August 2020: {max_tests_per_day: 1026}
-      03 August 2020: {max_tests_per_day: 7379}
-      04 August 2020: {max_tests_per_day: 9208}
-      05 August 2020: {max_tests_per_day: 11636}
-      06 August 2020: {max_tests_per_day: 7299}
-      07 August 2020: {max_tests_per_day: 7843}
-      08 August 2020: {max_tests_per_day: 6628}
-      09 August 2020: {max_tests_per_day: 526}
-      10 August 2020: {max_tests_per_day: 6078}
-      11 August 2020: {max_tests_per_day: 7663}
-      12 August 2020: {max_tests_per_day: 5549}
-      13 August 2020: {max_tests_per_day: 5404}
-      14 August 2020: {max_tests_per_day: 9448}
-      15 August 2020: {max_tests_per_day: 3032}
-      16 August 2020: {max_tests_per_day: 772}
-      17 August 2020: {max_tests_per_day: 4018}
-      18 August 2020: {max_tests_per_day: 6531}
-      19 August 2020: {max_tests_per_day: 10251}
-      20 August 2020: {max_tests_per_day: 6093}
-      21 August 2020: {max_tests_per_day: 9536}
-      22 August 2020: {max_tests_per_day: 6722}
-      23 August 2020: {max_tests_per_day: 1217}
-      24 August 2020: {max_tests_per_day: 3420}
-      25 August 2020: {max_tests_per_day: 8227}
-      26 August 2020: {max_tests_per_day: 7141}
-      27 August 2020: {max_tests_per_day: 10175}
-      28 August 2020: {max_tests_per_day: 8739}
-      29 August 2020: {max_tests_per_day: 7831}
-      30 August 2020: {max_tests_per_day: 1154}
-      31 August 2020: {max_tests_per_day: 6248}
-      01 September 2020: {max_tests_per_day: 11629}
-      02 September 2020: {max_tests_per_day: 8779}
-      03 September 2020: {max_tests_per_day: 8684}
-      04 September 2020: {max_tests_per_day: 10435}
-      05 September 2020: {max_tests_per_day: 8272}
-      06 September 2020: {max_tests_per_day: 1297}
-      07 September 2020: {max_tests_per_day: 5785}
-      08 September 2020: {max_tests_per_day: 11058}
-      09 September 2020: {max_tests_per_day: 8589}
-      10 September 2020: {max_tests_per_day: 9873}
-      11 September 2020: {max_tests_per_day: 10888}
-      12 September 2020: {max_tests_per_day: 8503}
-      13 September 2020: {max_tests_per_day: 1602}
-      14 September 2020: {max_tests_per_day: 8396}
-      15 September 2020: {max_tests_per_day: 11485}
-      16 September 2020: {max_tests_per_day: 10043}
-      17 September 2020: {max_tests_per_day: 5058}
-      18 September 2020: {max_tests_per_day: 5911}
-      19 September 2020: {max_tests_per_day: 4594}
-      20 September 2020: {max_tests_per_day: 1106}
-      21 September 2020: {max_tests_per_day: 7926}
-      22 September 2020: {max_tests_per_day: 7515}
-      23 September 2020: {max_tests_per_day: 7477}
-      24 September 2020: {max_tests_per_day: 7426}
-      25 September 2020: {max_tests_per_day: 7358}
-      26 September 2020: {max_tests_per_day: 6423}
-      27 September 2020: {max_tests_per_day: 1000}
-      28 September 2020: {max_tests_per_day: 6482}
-      29 September 2020: {max_tests_per_day: 8659}
-      30 September 2020: {max_tests_per_day: 7287}
-      01 October 2020: {max_tests_per_day: 8479}
-      02 October 2020: {max_tests_per_day: 8017}
-      03 October 2020: {max_tests_per_day: 6628}
-      04 October 2020: {max_tests_per_day: 1245}
-      05 October 2020: {max_tests_per_day: 6435}
-      06 October 2020: {max_tests_per_day: 7923}
-      07 October 2020: {max_tests_per_day: 8228}
-      08 October 2020: {max_tests_per_day: 9453}
-      09 October 2020: {max_tests_per_day: 8942}
-      10 October 2020: {max_tests_per_day: 6679}
-      11 October 2020: {max_tests_per_day: 1159}
-      12 October 2020: {max_tests_per_day: 8337}
-      13 October 2020: {max_tests_per_day: 9617}
-      14 October 2020: {max_tests_per_day: 8630}
-      15 October 2020: {max_tests_per_day: 11478}
-      16 October 2020: {max_tests_per_day: 10787}
-      17 October 2020: {max_tests_per_day: 11099}
-      18 October 2020: {max_tests_per_day: 1307}
-      19 October 2020: {max_tests_per_day: 7807}
-      20 October 2020: {max_tests_per_day: 10163}
-      21 October 2020: {max_tests_per_day: 17801}
-      22 October 2020: {max_tests_per_day: 11336}
-      23 October 2020: {max_tests_per_day: 14969}
-      24 October 2020: {max_tests_per_day: 12843}
-      25 October 2020: {max_tests_per_day: 2297}
-      26 October 2020: {max_tests_per_day: 11164}
-      27 October 2020: {max_tests_per_day: 15531}
-      28 October 2020: {max_tests_per_day: 10833}
-      29 October 2020: {max_tests_per_day: 15650}
-      30 October 2020: {max_tests_per_day: 17026}
-      31 October 2020: {max_tests_per_day: 16577}
-      01 November 2020: {max_tests_per_day: 7888}
-      02 November 2020: {max_tests_per_day: 10212}
-      03 November 2020: {max_tests_per_day: 13394}
-      04 November 2020: {max_tests_per_day: 14376}
-      05 November 2020: {max_tests_per_day: 14929}
+      27 May 2020: {max_tests_per_day: 1743}
+      28 May 2020: {max_tests_per_day: 1761}
+      29 May 2020: {max_tests_per_day: 1710}
+      30 May 2020: {max_tests_per_day: 1827}
+      31 May 2020: {max_tests_per_day: 2000}
+      01 June 2020: {max_tests_per_day: 1985}
+      02 June 2020: {max_tests_per_day: 2119}
+      03 June 2020: {max_tests_per_day: 2102}
+      04 June 2020: {max_tests_per_day: 2168}
+      05 June 2020: {max_tests_per_day: 2533}
+      06 June 2020: {max_tests_per_day: 2702}
+      07 June 2020: {max_tests_per_day: 3077}
+      08 June 2020: {max_tests_per_day: 3429}
+      09 June 2020: {max_tests_per_day: 3932}
+      10 June 2020: {max_tests_per_day: 4160}
+      11 June 2020: {max_tests_per_day: 4171}
+      12 June 2020: {max_tests_per_day: 4601}
+      13 June 2020: {max_tests_per_day: 4959}
+      14 June 2020: {max_tests_per_day: 5270}
+      15 June 2020: {max_tests_per_day: 5643}
+      16 June 2020: {max_tests_per_day: 5779}
+      17 June 2020: {max_tests_per_day: 6129}
+      18 June 2020: {max_tests_per_day: 6107}
+      19 June 2020: {max_tests_per_day: 6279}
+      20 June 2020: {max_tests_per_day: 5427}
+      21 June 2020: {max_tests_per_day: 5260}
+      22 June 2020: {max_tests_per_day: 5133}
+      23 June 2020: {max_tests_per_day: 4947}
+      24 June 2020: {max_tests_per_day: 4913}
+      25 June 2020: {max_tests_per_day: 4975}
+      26 June 2020: {max_tests_per_day: 5275}
+      27 June 2020: {max_tests_per_day: 6504}
+      28 June 2020: {max_tests_per_day: 7204}
+      29 June 2020: {max_tests_per_day: 8021}
+      30 June 2020: {max_tests_per_day: 8725}
+      01 July 2020: {max_tests_per_day: 9102}
+      02 July 2020: {max_tests_per_day: 9129}
+      03 July 2020: {max_tests_per_day: 9533}
+      04 July 2020: {max_tests_per_day: 9979}
+      05 July 2020: {max_tests_per_day: 10312}
+      06 July 2020: {max_tests_per_day: 10407}
+      07 July 2020: {max_tests_per_day: 9585}
+      08 July 2020: {max_tests_per_day: 9585}
+      09 July 2020: {max_tests_per_day: 10190}
+      10 July 2020: {max_tests_per_day: 10165}
+      11 July 2020: {max_tests_per_day: 10507}
+      12 July 2020: {max_tests_per_day: 11111}
+      13 July 2020: {max_tests_per_day: 11540}
+      14 July 2020: {max_tests_per_day: 13068}
+      15 July 2020: {max_tests_per_day: 13982}
+      16 July 2020: {max_tests_per_day: 13728}
+      17 July 2020: {max_tests_per_day: 13687}
+      18 July 2020: {max_tests_per_day: 14614}
+      19 July 2020: {max_tests_per_day: 13379}
+      20 July 2020: {max_tests_per_day: 13858}
+      21 July 2020: {max_tests_per_day: 13321}
+      22 July 2020: {max_tests_per_day: 12263}
+      23 July 2020: {max_tests_per_day: 11934}
+      24 July 2020: {max_tests_per_day: 12783}
+      25 July 2020: {max_tests_per_day: 11284}
+      26 July 2020: {max_tests_per_day: 11207}
+      27 July 2020: {max_tests_per_day: 10148}
+      28 July 2020: {max_tests_per_day: 9738}
+      29 July 2020: {max_tests_per_day: 9681}
+      30 July 2020: {max_tests_per_day: 9642}
+      31 July 2020: {max_tests_per_day: 8139}
+      01 August 2020: {max_tests_per_day: 7984}
+      02 August 2020: {max_tests_per_day: 8430}
+      03 August 2020: {max_tests_per_day: 7779}
+      04 August 2020: {max_tests_per_day: 7406}
+      05 August 2020: {max_tests_per_day: 7288}
+      06 August 2020: {max_tests_per_day: 7217}
+      07 August 2020: {max_tests_per_day: 7031}
+      08 August 2020: {max_tests_per_day: 6810}
+      09 August 2020: {max_tests_per_day: 5941}
+      10 August 2020: {max_tests_per_day: 5670}
+      11 August 2020: {max_tests_per_day: 5899}
+      12 August 2020: {max_tests_per_day: 5386}
+      13 August 2020: {max_tests_per_day: 5421}
+      14 August 2020: {max_tests_per_day: 5127}
+      15 August 2020: {max_tests_per_day: 4965}
+      16 August 2020: {max_tests_per_day: 5637}
+      17 August 2020: {max_tests_per_day: 5735}
+      18 August 2020: {max_tests_per_day: 5748}
+      19 August 2020: {max_tests_per_day: 6275}
+      20 August 2020: {max_tests_per_day: 6338}
+      21 August 2020: {max_tests_per_day: 6253}
+      22 August 2020: {max_tests_per_day: 6495}
+      23 August 2020: {max_tests_per_day: 6051}
+      24 August 2020: {max_tests_per_day: 6634}
+      25 August 2020: {max_tests_per_day: 6520}
+      26 August 2020: {max_tests_per_day: 6679}
+      27 August 2020: {max_tests_per_day: 6670}
+      28 August 2020: {max_tests_per_day: 7074}
+      29 August 2020: {max_tests_per_day: 7560}
+      30 August 2020: {max_tests_per_day: 7794}
+      31 August 2020: {max_tests_per_day: 7581}
+      01 September 2020: {max_tests_per_day: 7823}
+      02 September 2020: {max_tests_per_day: 7886}
+      03 September 2020: {max_tests_per_day: 7906}
+      04 September 2020: {max_tests_per_day: 7840}
+      05 September 2020: {max_tests_per_day: 7759}
+      06 September 2020: {max_tests_per_day: 7730}
+      07 September 2020: {max_tests_per_day: 7901}
+      08 September 2020: {max_tests_per_day: 7966}
+      09 September 2020: {max_tests_per_day: 7999}
+      10 September 2020: {max_tests_per_day: 8043}
+      11 September 2020: {max_tests_per_day: 8416}
+      12 September 2020: {max_tests_per_day: 8477}
+      13 September 2020: {max_tests_per_day: 8684}
+      14 September 2020: {max_tests_per_day: 7996}
+      15 September 2020: {max_tests_per_day: 7285}
+      16 September 2020: {max_tests_per_day: 6727}
+      17 September 2020: {max_tests_per_day: 6656}
+      18 September 2020: {max_tests_per_day: 6589}
+      19 September 2020: {max_tests_per_day: 6022}
+      20 September 2020: {max_tests_per_day: 5655}
+      21 September 2020: {max_tests_per_day: 5994}
+      22 September 2020: {max_tests_per_day: 6200}
+      23 September 2020: {max_tests_per_day: 6462}
+      24 September 2020: {max_tests_per_day: 6446}
+      25 September 2020: {max_tests_per_day: 6240}
+      26 September 2020: {max_tests_per_day: 6404}
+      27 September 2020: {max_tests_per_day: 6376}
+      28 September 2020: {max_tests_per_day: 6527}
+      29 September 2020: {max_tests_per_day: 6621}
+      30 September 2020: {max_tests_per_day: 6650}
+      01 October 2020: {max_tests_per_day: 6685}
+      02 October 2020: {max_tests_per_day: 6679}
+      03 October 2020: {max_tests_per_day: 6573}
+      04 October 2020: {max_tests_per_day: 6708}
+      05 October 2020: {max_tests_per_day: 6847}
+      06 October 2020: {max_tests_per_day: 6979}
+      07 October 2020: {max_tests_per_day: 6986}
+      08 October 2020: {max_tests_per_day: 6974}
+      09 October 2020: {max_tests_per_day: 7246}
+      10 October 2020: {max_tests_per_day: 7488}
+      11 October 2020: {max_tests_per_day: 7545}
+      12 October 2020: {max_tests_per_day: 7835}
+      13 October 2020: {max_tests_per_day: 8098}
+      14 October 2020: {max_tests_per_day: 8730}
+      15 October 2020: {max_tests_per_day: 8751}
+      16 October 2020: {max_tests_per_day: 8675}
+      17 October 2020: {max_tests_per_day: 8753}
+      18 October 2020: {max_tests_per_day: 10063}
+      19 October 2020: {max_tests_per_day: 10043}
+      20 October 2020: {max_tests_per_day: 10640}
+      21 October 2020: {max_tests_per_day: 10889}
+      22 October 2020: {max_tests_per_day: 11031}
+      23 October 2020: {max_tests_per_day: 11510}
+      24 October 2020: {max_tests_per_day: 12277}
+      25 October 2020: {max_tests_per_day: 11282}
+      26 October 2020: {max_tests_per_day: 11898}
+      27 October 2020: {max_tests_per_day: 12192}
+      28 October 2020: {max_tests_per_day: 12725}
+      29 October 2020: {max_tests_per_day: 13524}
+      30 October 2020: {max_tests_per_day: 13388}
+      31 October 2020: {max_tests_per_day: 13083}
+      01 November 2020: {max_tests_per_day: 13589}
+      02 November 2020: {max_tests_per_day: 13486}
+      03 November 2020: {max_tests_per_day: 12896}
+      04 November 2020: {max_tests_per_day: 12160}
+      05 November 2020: {max_tests_per_day: 13228}
     # Maximum number of tests performed each day, with additional tests booked being cancelled:
     max_tests_per_day: 1
     # The probability of a false positive:
-    prob_false_positive: 0.01
+    prob_false_positive: 0.0
     # The probability of a false negative:
     prob_false_negative: 0.01
     # The time taken between a test and publishing of the result of that test:
@@ -1557,6 +1560,8 @@ interventions:
       - OW Technical
       - OW Administration
       - OW Education
+      - OW Catering and Accommodation
+      - OW Other Services
     # Unless an agent is in an exempt location, they are directed to the location at which they
     # perform the activity 'House':
     home_activity_type: House

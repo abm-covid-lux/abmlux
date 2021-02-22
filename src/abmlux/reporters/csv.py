@@ -38,6 +38,7 @@ class HealthStateCounts(Reporter):
         # Write header
         header = ["tick", "iso8601"]
         header += list(self.health_state_counts.keys())
+        header += ["CASES"]
         self.writer.writerow(header)
 
     def update_counts(self, clock, resident_agents_by_health_state_counts):
@@ -45,6 +46,7 @@ class HealthStateCounts(Reporter):
 
         row =  [clock.t, clock.iso8601()]
         row += list(resident_agents_by_health_state_counts.values())
+        row += [sum(list(resident_agents_by_health_state_counts.values())[1:7])]
         self.writer.writerow(row)
 
     def stop_sim(self):
@@ -328,6 +330,45 @@ class ExposureEvents(Reporter):
         row = [clock.t, clock.iso8601(), clock.now().date(), location_typ, location_coord,
                agent_uuid, agent_age, agent_activity, agent_responsible_uuid, agent_responsible_age,
                agent_responsible_activity]
+        self.writer.writerow(row)
+
+    def stop_sim(self):
+        """Called when the simulation ends.  Closes the file handle."""
+
+        if self.handle is not None:
+            self.handle.close()
+
+class DeathEvents(Reporter):
+    """Reporter that writes to a CSV file as it runs."""
+
+    def __init__(self, telemetry_bus, config):
+        super().__init__(telemetry_bus)
+
+        self.filename = config['filename']
+
+        self.subscribe("agent_data.initial", self.initial_agent_data)
+        self.subscribe("new_death", self.new_death)
+        self.subscribe("simulation.end", self.stop_sim)
+
+    def initial_agent_data(self, agent_uuids):
+        """Called when the simulation starts.  Writes headers and creates the file handle."""
+
+        dirname = os.path.dirname(self.filename)
+        if dirname != '':
+            os.makedirs(dirname, exist_ok=True)
+        self.handle = open(self.filename, 'w')
+        self.writer = csv.writer(self.handle)
+
+        # Write header
+        header = ["tick", "iso8601", "date", "agent", "age",
+                  "home location type", "work location type"]
+        self.writer.writerow(header)
+
+    def new_death(self, clock, agent_uuid, agent_age, home_loc_type, work_loc_type):
+        """Update the CSV, writing a single row for every clock tick"""
+
+        row = [clock.t, clock.iso8601(), clock.now().date(), agent_uuid, agent_age,
+               home_loc_type, work_loc_type]
         self.writer.writerow(row)
 
     def stop_sim(self):
