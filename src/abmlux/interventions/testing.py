@@ -68,11 +68,13 @@ class PrescriptionTesting(Intervention):
     def init_sim(self, sim):
         super().init_sim(sim)
 
-        self.prob_test_symptoms                = self.config['prob_test_symptoms']
+        self.prob_test_symptoms_symptomatic  = self.config['prob_test_symptoms_symptomatic']
+        self.prob_test_symptoms_asymptomatic = self.config['prob_test_symptoms_asymptomatic']
         self.onset_of_symptoms_to_test_booking = \
             int(sim.clock.days_to_ticks(self.config['onset_of_symptoms_to_test_booking_days']))
 
-        self.symptomatic_states  = self.config['symptomatic_states']
+        self.symptomatic_states   = self.config['symptomatic_states']
+        self.asymptomatic_states  = self.config['asymptomatic_states']
         self.test_booking_events = DeferredEventPool(self.bus, sim.clock)
 
         self.bus.subscribe("notify.agent.health", self.handle_health_change, self)
@@ -92,6 +94,12 @@ class PrescriptionTesting(Intervention):
 
         # If moving from an asymptomatic state to a symtomatic state
         if old_health not in self.symptomatic_states and agent.health in self.symptomatic_states:
-            if self.prng.boolean(self.prob_test_symptoms):
+            if self.prng.boolean(self.prob_test_symptoms_symptomatic):
+                self.test_booking_events.add("request.testing.book_test", \
+                                             self.onset_of_symptoms_to_test_booking, agent)
+
+        # If moving from to an asymptomatic state
+        if old_health not in self.asymptomatic_states and agent.health in self.asymptomatic_states:
+            if self.prng.boolean(self.prob_test_symptoms_asymptomatic):
                 self.test_booking_events.add("request.testing.book_test", \
                                              self.onset_of_symptoms_to_test_booking, agent)

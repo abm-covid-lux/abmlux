@@ -2,7 +2,7 @@
 # ######################################### Basic Parameters #######################################
 
 # Seed for python's PRNG:
-random_seed: 11
+random_seed: 1
 
 # The region in question:
 region: Luxembourg
@@ -78,10 +78,10 @@ tick_length_s: 600
 
 # How long the simulation should run for, in days. Note the number of iterations will be computed
 # from the tick length above:
-simulation_length_days: 122
+simulation_length_days: 129
 
 # the date at which the simulation starts:
-epoch: 1st March 2020 #23th February 2020
+epoch: 23th February 2020 #1st March 2020
 
 
 
@@ -811,7 +811,7 @@ disease_model:
       Car:                            0.0
       Public Transport:               1.0
       Shop:                           1.0
-      Medical:                        1.0
+      Medical:                        0.0 # Masks are always warn in medical centers, as below
       Hospital:                       0.0 # Masks are always warn in hospitals, as below
       Hotel:                          1.0
       Place of Worship:               1.0
@@ -838,39 +838,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.00035
-    Care Home:                        0.00035
-    OW Agriculture:                   0.00035
-    OW Extraction:                    0.00035
-    OW Manufacturing:                 0.00035
-    OW Energy:                        0.00035
-    OW Water:                         0.00035
+    House:                            0.00025
+    Care Home:                        0.00025
+    OW Agriculture:                   0.00025
+    OW Extraction:                    0.00025
+    OW Manufacturing:                 0.00025
+    OW Energy:                        0.00025
+    OW Water:                         0.00025
     OW Construction:                  0.0
-    OW Trade:                         0.00035
-    OW Transport:                     0.00035
-    OW Catering and Accommodation:    0.00035
-    OW ICT:                           0.00035
-    OW Finance:                       0.00035
-    OW Real Estate:                   0.00035
-    OW Technical:                     0.00035
-    OW Administration:                0.00035
-    OW Education:                     0.00035
-    OW Entertainment:                 0.00035
-    OW Other Services:                0.00035
-    Primary School:                   0.00035
-    Secondary School:                 0.00035
-    Restaurant:                       0.00035
+    OW Trade:                         0.00025
+    OW Transport:                     0.00025
+    OW Catering and Accommodation:    0.00025
+    OW ICT:                           0.00025
+    OW Finance:                       0.00025
+    OW Real Estate:                   0.00025
+    OW Technical:                     0.00025
+    OW Administration:                0.00025
+    OW Education:                     0.00025
+    OW Entertainment:                 0.00025
+    OW Other Services:                0.00025
+    Primary School:                   0.00025
+    Secondary School:                 0.00025
+    Restaurant:                       0.00025
     Outdoor:                          0.0
-    Car:                              0.00035
-    Public Transport:                 0.00035
-    Shop:                             0.00035
-    Medical:                          0.0000315 # p*0.09
-    Hospital:                         0.0000315 # p*0.09
-    Hotel:                            0.00035
-    Place of Worship:                 0.00035
-    Indoor Sport:                     0.00035
-    Cinema or Theatre:                0.00035
-    Museum or Zoo:                    0.00035
+    Car:                              0.00025
+    Public Transport:                 0.00025
+    Shop:                             0.00025
+    Medical:                          0.0000225 # p*0.09
+    Hospital:                         0.0000225 # p*0.09
+    Hotel:                            0.00025
+    Place of Worship:                 0.00025
+    Indoor Sport:                     0.00025
+    Cinema or Theatre:                0.00025
+    Museum or Zoo:                    0.00025
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -878,7 +878,7 @@ disease_model:
 
   # How many residents are infected at the start of the simulation, with these agents being chosen
   # uniformly at random:
-  initial_infections: 100
+  initial_infections: 80
   # Resident nationality:
   resident_nationality: Luxembourg
   # How many susceptible people are randomly selected for exposure on midnight each day:
@@ -911,25 +911,25 @@ disease_model:
   # the following dictionary provides a probability distribution over the list of disease profiles
   # for agents belonging to the age range range(x,x+d), where d equals the step size:
   disease_profile_distribution_by_age:
-    0:    [0.71,0.269716024,0,0.010141988,0,0.010141988,0]
-    5:    [0.71,0.278956502,0,0.011043498,0,0,0]
-    10:   [0.79,0.21,0,0,0,0,0]
-    15:   [0.79,0.205791044,0,0.002104478,0,0.002104478,0]
-    20:   [0.73,0.255836189,0,0.014163811,0,0,0]
-    25:   [0.73,0.263128448,0,0.006871552,0,0,0]
-    30:   [0.67,0.31064292,0,0.017974432,0,0.001382649,0]
-    35:   [0.67,0.309407444,0,0.019008513,0,0.001584043,0]
-    40:   [0.6,0.355022407,0,0.03418297,0,0.010794622,0]
-    45:   [0.6,0.345350688,0,0.045280858,0,0.009368453,0]
-    50:   [0.51,0.425408717,0,0.056992308,0,0.007598974,0]
-    55:   [0.51,0.371044387,0,0.109625761,0,0.009329852,0]
-    60:   [0.37,0.450067141,0,0.143946287,0,0.02998881,0.005997762]
-    65:   [0.37,0.375572645,0.01375283,0.185663205,0,0.03143504,0.02357628]
-    70:   [0.31,0.183250315,0,0.366073044,0.03137769,0.054649476,0.054649476]
-    75:   [0.31,0.120160996,0.042737925,0.390668471,0.050956757,0.085475851,0]
-    80:   [0.31,0.00682635,0.118241593,0.355819609,0.156560628,0.017517273,0.035034546]
-    85:   [0.31,0.080507251,0.14627826,0.288154627,0.162870007,0,0.012189855]
-    90:   [0.31,0.060234992,0.218489901,0.231342248,0.179932859,0,0]
+    0: [0.797,0.188801217,0,0.007099392,0,0.007099392,0]
+    5: [0.797,0.195269551,0,0.007730449,0,0,0]
+    10: [0.853,0.147,0,0,0,0,0]
+    15: [0.853,0.144053731,0,0.001473135,0,0.001473135,0]
+    20: [0.811,0.179085332,0,0.009914668,0,0,0]
+    25: [0.811,0.184189914,0,0.004810086,0,0,0]
+    30: [0.769,0.217450044,0,0.012582102,0,0.000967854,0]
+    35: [0.769,0.216585211,0,0.013305959,0,0.00110883,0]
+    40: [0.72,0.248515685,0,0.023928079,0,0.007556235,0]
+    45: [0.72,0.241745482,0,0.031696601,0,0.006557917,0]
+    50: [0.657,0.297786102,0,0.039894616,0,0.005319282,0]
+    55: [0.657,0.259731071,0,0.076738033,0,0.006530896,0]
+    60: [0.559,0.315046999,0,0.100762401,0,0.020992167,0.004198433]
+    65: [0.559,0.262900852,0.009626981,0.129964244,0,0.022004528,0.016503396]
+    70: [0.517,0.128275221,0,0.256251131,0.021964383,0.038254633,0.038254633]
+    75: [0.517,0.084112697,0.029916548,0.27346793,0.03566973,0.059833096,0]
+    80: [0.517,0.004778445,0.082769115,0.249073726,0.10959244,0.012262091,0.024524182]
+    85: [0.517,0.056355076,0.102394782,0.201708239,0.114009005,0,0.008532899]
+    90: [0.517,0.042164494,0.152942931,0.161939574,0.125953001,0,0]
   # Disease durations in days (C: constant, G: gamma, U: uniform):
   durations_by_profile:
     SEAR:     [None,[G,[4,0.75]],[G,[4,1.25]] ,None]
@@ -1034,7 +1034,6 @@ interventions:
       17th November 2020: {"invitations_per_day": 0}
       23rd November 2020: {"invitations_per_day": 54000}
       30th November 2020: {"invitations_per_day": 0}
-
     # The number of agents selected uniformly at random for testing each day:
     invitations_per_day: 0
     # The distribution of time between an invitation to test being received
@@ -1052,12 +1051,15 @@ interventions:
     __schedule__:
     # The probability that an agent books a test at the moment they develop symptoms. This corresponds
     # to the real-world scenario in which an agent develops symptoms and goes to see a doctor, who
-    # recommends the agent to get tested.
-    prob_test_symptoms: 1.0
+    # recommends the agent to get tested. We assume there is a small chance asymptomatics book such
+    # a test.
+    prob_test_symptoms_symptomatic: 1.0
+    prob_test_symptoms_asymptomatic: 0.2
     # Time between onset of symptoms and booking of a test:
     onset_of_symptoms_to_test_booking_days: 1
     # Agents in the following states are symptomatic:
     symptomatic_states: [INFECTED, HOSPITALIZING, VENTILATING]
+    asymptomatic_states: [ASYMPTOMATIC]
 
 
   # The intervention 'test_booking' simply refer to the system that books tests for agents, should
@@ -1091,7 +1093,7 @@ interventions:
       26 February 2020: {max_tests_per_day: 2}
       27 February 2020: {max_tests_per_day: 3}
       28 February 2020: {max_tests_per_day: 4}
-      29 February 2020: {max_tests_per_day: }
+      29 February 2020: {max_tests_per_day: 3}
       01 March 2020: {max_tests_per_day: 3}
       02 March 2020: {max_tests_per_day: 4}
       03 March 2020: {max_tests_per_day: 4}

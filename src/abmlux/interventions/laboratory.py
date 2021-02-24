@@ -90,7 +90,7 @@ class Laboratory(Intervention):
         self.test_result_events.add("notify.testing.result",
                                     self.do_test_to_test_results_ticks, agent, test_result)
 
-        self.report("notify.testing.result", self.clock, test_result, agent.age,
+        self.report("notify.testing.result", self.clock, test_result, agent.age, agent.health,
                                    self.home_locations_dict[agent].uuid,
                                    self.home_locations_dict[agent].coord,
                                    self.resident_dict[agent])

@@ -188,7 +188,7 @@ class TestingCounts(Reporter):
         self.positive_tests            = 0
         self.positive_tests_resident   = 0
 
-    def new_test_result(self, clock, test_result, age, uuid, coord, resident):
+    def new_test_result(self, clock, test_result, age, health, uuid, coord, resident):
         """Update the CSV, writing a single row for every clock tick"""
 
         self.tests_performed += 1
@@ -230,14 +230,14 @@ class TestingEvents(Reporter):
 
         # Write header
         header = ["tick", "iso8601", "date", "test result",
-                  "age", "home id", "home coordinates", "resident"]
+                  "age", "health", "home id", "home coordinates", "resident"]
         self.writer.writerow(header)
 
-    def new_test_result(self, clock, test_result, age, uuid, coord, resident):
+    def new_test_result(self, clock, test_result, age, health, uuid, coord, resident):
         """Update the CSV, writing a single row for every clock tick"""
 
         row = [clock.t, clock.iso8601(), clock.now().date(), test_result,
-               age, uuid, coord, resident]
+               age, health, uuid, coord, resident]
         self.writer.writerow(row)
 
     def stop_sim(self):

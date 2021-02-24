@@ -19,8 +19,8 @@ class Quarantine(Intervention):
     def init_sim(self, sim):
         super().init_sim(sim)
 
-        default_duration_days       = self.config['default_duration_days']
-        self.default_duration_ticks = int(sim.clock.days_to_ticks(default_duration_days))
+        self.default_duration_days  = self.config['default_duration_days']
+        self.default_duration_ticks = int(sim.clock.days_to_ticks(self.default_duration_days))
         early_end_days              = self.config['negative_test_result_to_end_quarantine_days']
         self.early_end_ticks        = int(sim.clock.days_to_ticks(early_end_days))
         self.location_blacklist     = self.config['location_blacklist']
@@ -52,6 +52,7 @@ class Quarantine(Intervention):
     def record_number_in_quarantine(self, clock, t):
         """Record data on number of agents in quarantine and their health status"""
 
+        self.default_duration_ticks = int(clock.days_to_ticks(self.default_duration_days))
         num_in_quarantine = len(self.agents_in_quarantine)
         agents_in_quarantine_by_health_state = {str(hs): len([agent for agent in
                      self.agents_in_quarantine if agent.health == hs]) for hs in self.health_states}
