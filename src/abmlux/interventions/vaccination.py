@@ -54,8 +54,8 @@ class Vaccination(Intervention):
         home_activity_type      = sim.activity_manager.as_int(self.config['home_activity_type'])
         work_activity_type      = sim.activity_manager.as_int(self.config['work_activity_type'])
 
-        self.prob_first_dose_successful  = self.config['prob_first_dose_successful']
-        self.prob_second_dose_successful = self.config['prob_second_dose_successful']
+        self.first_dose_successful  = self.config['prob_first_dose_successful']
+        self.second_dose_successful = self.config['prob_second_dose_successful']
 
         min_age = self.config['min_age']
 
@@ -65,6 +65,29 @@ class Vaccination(Intervention):
         prob_low  = self.config['prob_low']
         prob_med  = self.config['prob_med']
         prob_high = self.config['prob_high']
+
+        # A dictionary of who doesn't refuse the vaccine
+        self.agent_wants_vaccine = {}
+
+        # Decide in advance who will refuse the vaccine
+        for agent in sim.world.agents:
+            if agent.age >= min_age:
+                if agent.age < age_low:
+                    self.agent_wants_vaccine[agent] = self.prng.boolean(prob_low)
+                if agent.age >= age_low and agent.age < age_high:
+                    self.agent_wants_vaccine[agent] = self.prng.boolean(prob_med)
+                if agent.age >= age_high:
+                    self.agent_wants_vaccine[agent] = self.prng.boolean(prob_high)
+
+        # Dictionaries of efficacy for each agent
+        self.first_dose_effective  = {}
+        self.second_dose_effective = {}
+
+        # Determine in advance the effecitveness of the vaccine on each agent
+        for agent in sim.world.agents:
+            if agent.age >= min_age:
+                self.first_dose_effective[agent] = self.prng.boolean(self.first_dose_successful)
+                self.second_dose_effective[agent] = self.prng.boolean(self.second_dose_successful)
 
         # Determine which agents live or work in carehomes and which agents work in hospitals. Note
         # that workplaces are assigned to everybody, so some agents will be assigned hospitals or
@@ -76,20 +99,13 @@ class Vaccination(Intervention):
                 self.home_location_type_dict[agent] = home_location.typ
                 work_location = agent.locations_for_activity(work_activity_type)[0]
                 self.work_location_type_dict[agent] = work_location.typ
-                if agent.age < age_low:
-                    agent_wants_vaccination = self.prng.boolean(prob_low)
-                if agent.age >= age_low and agent.age < age_high:
-                    agent_wants_vaccination = self.prng.boolean(prob_med)
-                if agent.age >= age_high:
-                    agent_wants_vaccination = self.prng.boolean(prob_high)
-                if agent_wants_vaccination:
-                    if home_location.typ in care_home_location_type or\
-                       work_location.typ in care_home_location_type:
-                        carehome_residents_workers.append(agent)
-                    elif work_location.typ in hospital_location_type:
-                        hospital_workers.append(agent)
-                    else:
-                        other_agents.append(agent)
+                if home_location.typ in care_home_location_type or\
+                    work_location.typ in care_home_location_type:
+                    carehome_residents_workers.append(agent)
+                elif work_location.typ in hospital_location_type:
+                    hospital_workers.append(agent)
+                else:
+                    other_agents.append(agent)
 
         # Sort the lists of agents by age, with the oldest first
         def return_age(agent):
@@ -114,7 +130,7 @@ class Vaccination(Intervention):
     def administer_second_dose(self, agent):
         """Administers agents with a second dose of the vaccine"""
 
-        if self.prng.boolean(self.prob_second_dose_successful):
+        if self.second_dose_effective[agent]:
             agent.vaccinated = True
 
     def midnight(self, clock, t):
@@ -135,14 +151,15 @@ class Vaccination(Intervention):
 
         agent_data = []
         for agent in agents_to_vaccinate:
-            if self.prng.boolean(self.prob_first_dose_successful):
-                agent.vaccinated = True
-            self.second_dose_events.add("request.vaccination.second_dose",
-                                        self.time_between_doses_ticks, agent)
+            if self.agent_wants_vaccine[agent]:
+                if self.first_dose_effective[agent]:
+                    agent.vaccinated = True
+                self.second_dose_events.add("request.vaccination.second_dose",
+                                            self.time_between_doses_ticks, agent)
 
-            # For telemetry
-            agent_data.append([agent.age, agent.health, agent.nationality,
-                               self.home_location_type_dict[agent],
-                               self.work_location_type_dict[agent]])
+                # For telemetry
+                agent_data.append([agent.age, agent.health, agent.nationality,
+                                self.home_location_type_dict[agent],
+                                self.work_location_type_dict[agent]])
 
         self.report("notify.vaccination.first_doses", clock, agent_data)
