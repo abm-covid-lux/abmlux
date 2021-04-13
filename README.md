@@ -45,6 +45,6 @@ To generate documentation:
 
 Read the full text for details, but basically this means:
  * No commercial exploitation ([contact us](https://www.abmlux.org) for another license in this case);
- * You must re-publish the source if you modify the application;
+ * You must re-publish the source if you modify the application.
 
 We would like this work to be useful to non-profit and academic users without significant effort.  If the license is an impediment to you using the work, please get in touch with us to discuss other licensing options.
