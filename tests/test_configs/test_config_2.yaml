@@ -416,8 +416,8 @@ world_factory:
 
   # ######################################### Location Choice ########################################
 
-  # The mobility data used to construct location choice functions:
-  location_choice_fp: Scenarios/Luxembourg/Lux Mobil.csv
+  # The mobility data used to construct location choice functions (replace with Lux Mobil data):
+  location_choice_fp: Scenarios/Luxembourg/mobility_sample.csv
   # Resident nationality:
   resident_nationality: Luxembourg
   # Which activies are assigned locations using a distance distribution, and how many such locations
