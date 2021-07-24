@@ -17,6 +17,9 @@ The code is pure python, and has been developed with readability and maintainabi
 ### Input Data
 Input data are defined per-scenario in the [Scenarios](Scenarios/) directory.  A single [YAML configuration file](Scenarios/Luxembourg/config.yaml) specifies exact data locations and parameters for the simulation.  This file is heavily commented, and the example contains a very detailed use-case for all available modules.  Results found in Thompson, J. and Wattam, S. "Estimating the impact of interventions against COVID-19: from lockdown to vaccination", 2021, https://doi.org/10.1101/2021.03.21.21254049, were obtained using mobility and time use data obtained from the Luxembourg Ministry of Mobility and Public Transport (MMTP) and STATEC, the government statistics service of Luxembourg. In this open access repository, these data have been replaced with artificial data, since the original data are the property of MMTP and STATEC, repectively. Similary, cinical monitoring data used to configure the disease profile distributions are the property of IGSS, the General Inspectorate of Social Security of Luxembourg, and have been replaced here with artificial data. The original data are available from the given sources for anyone who meets the access criteria.
 
+### Output Data
+Output data is stored in a separate [output respository](https://github.com/abm-covid-lux/output).
+
 ## Requirements
 
  * python 3.9
