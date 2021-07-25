@@ -138,13 +138,13 @@ reporters:
   csv.DeathEvents:
     filename: /tmp/death_events.csv
   # csv.ContactCounts:
-  #   filename: /tmp/average_contact_counts.csv
+  #   filename: average_contact_counts.csv
   csv.VaccinationEvents:
     filename: /tmp/vaccination_events.csv
   csv.SecondaryInfectionCounts:
     filename: /tmp/secondary_infection_counts.csv
     #  - location_population_plots.LocationPlots:
-#      dirname: /tmp/plots
+#      dirname: plots
 #      types_to_show: []
 #      health_to_show: [INFECTED]
 #      figure_size: [15, 20]  # width, height
@@ -475,8 +475,8 @@ world_factory:
 
   # ######################################### Location Choice ########################################
 
-  # The mobility data used to construct location choice functions (replace with Lux Mobil data):
-  location_choice_fp: Scenarios/Luxembourg/mobility_sample.csv
+  # The mobility data used to construct location choice functions:
+  location_choice_fp: Scenarios/Luxembourg/Lux Mobil.csv
   # Resident nationality:
   resident_nationality: Luxembourg
   # Which activies are assigned locations using a distance distribution, and how many such locations
@@ -621,8 +621,8 @@ movement_model:
 #   __type__: tus_survey.TUSMarkovActivityModel
 #   # TODO: __type__
 
-#   File containing time use survey data, and see Docs for full format (replace with TUS data):
-#   time_use_filepath: Scenarios/Luxembourg/time_use_sample.csv
+#   # File containing time use survey data, and see Docs for full format:
+#   time_use_filepath: Time Use.csv
 
 #   # Behavioural types with corresponding age ranges
 #   behavioural_types:
@@ -695,8 +695,8 @@ activity_model:
   __type__: tus_survey_basic.TUSBasicActivityModel
   __prng_seed__: 1
 
-  # File containing time use survey data, and see Docs for full format (replace with TUS data):
-  time_use_filepath: Scenarios/Luxembourg/time_use_sample.csv
+  # File containing time use survey data, and see Docs for full format:
+  time_use_filepath: Scenarios/Luxembourg/Time Use.csv
 
   # Resident nationality:
   resident_nationality: Luxembourg
@@ -838,39 +838,39 @@ disease_model:
   # are allowed to vary accross different types of location. The probability p is of an contagious
   # agent trasmitting the virus to a susceptible agent sharing a given location on each tick:
   infection_probabilities_per_tick:
-    House:                            0.00025
-    Care Home:                        0.00025
-    OW Agriculture:                   0.00025
-    OW Extraction:                    0.00025
-    OW Manufacturing:                 0.00025
-    OW Energy:                        0.00025
-    OW Water:                         0.00025
+    House:                            0.00035
+    Care Home:                        0.00035
+    OW Agriculture:                   0.00035
+    OW Extraction:                    0.00035
+    OW Manufacturing:                 0.00035
+    OW Energy:                        0.00035
+    OW Water:                         0.00035
     OW Construction:                  0.0
-    OW Trade:                         0.00025
-    OW Transport:                     0.00025
-    OW Catering and Accommodation:    0.00025
-    OW ICT:                           0.00025
-    OW Finance:                       0.00025
-    OW Real Estate:                   0.00025
-    OW Technical:                     0.00025
-    OW Administration:                0.00025
-    OW Education:                     0.00025
-    OW Entertainment:                 0.00025
-    OW Other Services:                0.00025
-    Primary School:                   0.00025
-    Secondary School:                 0.00025
-    Restaurant:                       0.00025
+    OW Trade:                         0.00035
+    OW Transport:                     0.00035
+    OW Catering and Accommodation:    0.00035
+    OW ICT:                           0.00035
+    OW Finance:                       0.00035
+    OW Real Estate:                   0.00035
+    OW Technical:                     0.00035
+    OW Administration:                0.00035
+    OW Education:                     0.00035
+    OW Entertainment:                 0.00035
+    OW Other Services:                0.00035
+    Primary School:                   0.00035
+    Secondary School:                 0.00035
+    Restaurant:                       0.00035
     Outdoor:                          0.0
-    Car:                              0.00025
-    Public Transport:                 0.00025
-    Shop:                             0.00025
-    Medical:                          0.0000225 # p*0.09
-    Hospital:                         0.0000225 # p*0.09
-    Hotel:                            0.00025
-    Place of Worship:                 0.00025
-    Indoor Sport:                     0.00025
-    Cinema or Theatre:                0.00025
-    Museum or Zoo:                    0.00025
+    Car:                              0.00035
+    Public Transport:                 0.00035
+    Shop:                             0.00035
+    Medical:                          0.0000315 # p*0.09
+    Hospital:                         0.0000315 # p*0.09
+    Hotel:                            0.00035
+    Place of Worship:                 0.00035
+    Indoor Sport:                     0.00035
+    Cinema or Theatre:                0.00035
+    Museum or Zoo:                    0.00035
     Belgium:                          0.0
     France:                           0.0
     Germany:                          0.0
@@ -909,28 +909,27 @@ disease_model:
   # For a given age x and step size
   disease_profile_distribution_by_age_step_size: 5
   # the following dictionary provides a probability distribution over the list of disease profiles
-  # for agents belonging to the age range range(x,x+d), where d equals the step size (replace with
-  # IGSS data):
+  # for agents belonging to the age range range(x,x+d), where d equals the step size:
   disease_profile_distribution_by_age:
-    0:  [0.80,0.20,0.00,0.00,0.00,0.00,0.00]
-    5:  [0.80,0.20,0.00,0.00,0.00,0.00,0.00]
-    10: [0.85,0.15,0.00,0.00,0.00,0.00,0.00]
-    15: [0.85,0.14,0.00,0.01,0.00,0.00,0.00]
-    20: [0.80,0.19,0.00,0.01,0.00,0.00,0.00]
-    25: [0.80,0.19,0.00,0.01,0.00,0.00,0.00]
-    30: [0.75,0.24,0.00,0.01,0.00,0.00,0.00]
-    35: [0.75,0.24,0.00,0.01,0.00,0.00,0.00]
-    40: [0.70,0.27,0.00,0.02,0.00,0.01,0.00]
-    45: [0.70,0.26,0.00,0.03,0.00,0.01,0.00]
-    50: [0.65,0.31,0.00,0.03,0.00,0.01,0.00]
-    55: [0.65,0.29,0.00,0.05,0.00,0.01,0.00]
-    60: [0.55,0.33,0.00,0.10,0.00,0.02,0.00]
-    65: [0.55,0.26,0.00,0.15,0.00,0.02,0.02]
-    70: [0.50,0.15,0.00,0.25,0.02,0.04,0.04]
-    75: [0.50,0.11,0.01,0.25,0.04,0.06,0.03]
-    80: [0.50,0.07,0.05,0.25,0.10,0.01,0.02]
-    85: [0.50,0.07,0.10,0.20,0.12,0.00,0.01]
-    90: [0.50,0.07,0.15,0.15,0.12,0.00,0.01]
+    0: [0.826,0.161829614,0,0.006085193,0,0.006085193,0]
+    5: [0.826,0.167373901,0,0.006626099,0,0,0]
+    10: [0.874,0.126,0,0,0,0,0]
+    15: [0.874,0.123474626,0,0.001262687,0,0.001262687,0]
+    20: [0.838,0.153501713,0,0.008498287,0,0,0]
+    25: [0.838,0.157877069,0,0.004122931,0,0,0]
+    30: [0.802,0.186385752,0,0.010784659,0,0.000829589,0]
+    35: [0.802,0.185644466,0,0.011405108,0,0.000950426,0]
+    40: [0.76,0.213013444,0,0.020509782,0,0.006476773,0]
+    45: [0.76,0.207210413,0,0.027168515,0,0.005621072,0]
+    50: [0.706,0.25524523,0,0.034195385,0,0.004559384,0]
+    55: [0.706,0.222626632,0,0.065775457,0,0.005597911,0]
+    60: [0.622,0.270040285,0,0.086367772,0,0.017993286,0.003598657]
+    65: [0.622,0.225343587,0.008251698,0.111397923,0,0.018861024,0.014145768]
+    70: [0.586,0.109950189,0,0.219643826,0.018826614,0.032789686,0.032789686]
+    75: [0.586,0.072096598,0.025642755,0.234401083,0.030574054,0.051285511,0]
+    80: [0.586,0.00409581,0.070944956,0.213491765,0.093936377,0.010510364,0.021020728]
+    85: [0.586,0.048304351,0.087766956,0.172892776,0.097722004,0,0.007313913]
+    90: [0.586,0.036140995,0.131093941,0.138805349,0.107959715,0,0]
   # Disease durations in days (C: constant, G: gamma, U: uniform):
   durations_by_profile:
     SEAR:     [None,[G,[4,0.75]],[G,[4,1.25]] ,None]
