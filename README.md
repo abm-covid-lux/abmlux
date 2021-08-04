@@ -14,8 +14,10 @@ This model relies on time use survey data to automate the behaviour of agents.  
 
 The code is pure python, and has been developed with readability and maintainability in mind.
 
+The ABMlux model has been used for the preprint Thompson, J. and Wattam, S. "Estimating the impact of interventions against COVID-19: from lockdown to vaccination", 2021, https://doi.org/10.1101/2021.03.21.21254049.
+
 ### Input Data
-Input data are defined per-scenario in the [Scenarios](Scenarios/) directory.  A single [YAML configuration file](Scenarios/Luxembourg/config.yaml) specifies exact data locations and parameters for the simulation.  This file is heavily commented, and the example contains a very detailed use-case for all available modules.  For results obtained using this model, see the preprint Thompson, J. and Wattam, S. "Estimating the impact of interventions against COVID-19: from lockdown to vaccination", 2021, https://doi.org/10.1101/2021.03.21.21254049.
+Input data are defined per-scenario in the [Scenarios](Scenarios/) directory.  A single [YAML configuration file](Scenarios/Luxembourg/config.yaml) specifies exact data locations and parameters for the simulation.  This file is heavily commented, and the example contains a very detailed use-case for all available modules.
 
 ### Output Data
 Output data is stored in a separate [output respository](https://github.com/abm-covid-lux/output).
